@@ -6,5 +6,6 @@ authors:
   - family-names: Rogers
     given-names: Sam
 license: CC-BY-4.0
+repository-code: "https://github.com/snapsynapse/ai-incident-law/"
 url: "https://aiincidentlaw.org/"
 abstract: "Curated index of public legal, regulatory, tribunal, and review-queue matters involving AI-mediated errors."
