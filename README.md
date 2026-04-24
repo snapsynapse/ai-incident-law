@@ -59,4 +59,4 @@ Then open the local server in your browser.
 - [CONTRIBUTING.md](/Users/snap/Git/ai-incident-law/CONTRIBUTING.md) documents the expected edit and review flow.
 - [SECURITY.md](/Users/snap/Git/ai-incident-law/SECURITY.md) documents private security reporting expectations.
 - [validate.yml](/Users/snap/Git/ai-incident-law/.github/workflows/validate.yml) runs the build and validation pipeline on pushes and pull requests.
-- [LICENSE](/Users/snap/Git/ai-incident-law/LICENSE) currently keeps the repository contents all-rights-reserved.
+- [LICENSE](/Users/snap/Git/ai-incident-law/LICENSE) applies the MIT license to the repository.
