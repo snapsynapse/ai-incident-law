@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Error Litigation Index</title>
+    <meta
+      name="description"
+      content="A standalone searchable index of public legal, regulatory, tribunal, and review-queue matters involving AI-mediated errors."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#results">Skip to results</a>
+
+    <header class="app-header">
+      <div class="brand-row">
+        <div class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" role="img" aria-label="AI Error Litigation Index mark">
+            <path d="M10 12h28v24H10z" fill="none" stroke="currentColor" stroke-width="2.4" />
+            <path d="M16 18h16M16 24h12M16 30h18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" />
+            <path d="M35 10l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
+        <div>
+          <p class="eyebrow">Standalone index</p>
+          <h1>AI Error Litigation Index</h1>
+        </div>
+      </div>
+      <p class="lede">
+        Search and filter public matters where AI-generated, AI-mediated, or automated decision errors became visible through litigation,
+        tribunal records, enforcement actions, sanctions, or review queues.
+      </p>
+      <div class="header-actions" aria-label="App actions">
+        <button id="themeToggle" class="button secondary" type="button" data-testid="button-theme-toggle">
+          Toggle theme
+        </button>
+        <button id="resetFilters" class="button secondary" type="button" data-testid="button-reset-filters">
+          Reset filters
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="summary-grid" aria-label="Dataset summary">
+        <article class="stat-card">
+          <span class="stat-value" id="statTotal">0</span>
+          <span class="stat-label">Total indexed records</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-value" id="statIncluded">0</span>
+          <span class="stat-label">Included cases</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-value" id="statReview">0</span>
+          <span class="stat-label">Review candidates</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-value" id="statGlobal">0</span>
+          <span class="stat-label">Global candidates</span>
+        </article>
+      </section>
+
+      <section class="workspace">
+        <aside class="filters" aria-label="Filters">
+          <div class="filter-header">
+            <h2>Query</h2>
+            <p>All filtering runs locally in your browser.</p>
+          </div>
+
+          <label class="field">
+            <span>Search index</span>
+            <input
+              id="searchInput"
+              type="search"
+              placeholder="Try facial recognition, GDPR, chatbot, sanctions..."
+              autocomplete="off"
+              data-testid="input-search"
+            />
+          </label>
+
+          <label class="field">
+            <span>Dataset</span>
+            <select id="datasetFilter" data-testid="select-dataset"></select>
+          </label>
+
+          <label class="field">
+            <span>Domain / category</span>
+            <select id="domainFilter" data-testid="select-domain"></select>
+          </label>
+
+          <label class="field">
+            <span>Error / event type</span>
+            <select id="typeFilter" data-testid="select-type"></select>
+          </label>
+
+          <label class="field">
+            <span>Country / jurisdiction family</span>
+            <select id="countryFilter" data-testid="select-country"></select>
+          </label>
+
+          <label class="field">
+            <span>Verification</span>
+            <select id="reviewFilter" data-testid="select-review"></select>
+          </label>
+
+          <label class="field">
+            <span>Source quality</span>
+            <select id="sourceFilter" data-testid="select-source-quality"></select>
+          </label>
+
+          <div class="filter-note">
+            <strong>Portable by design.</strong>
+            <span>No framework, CDN, API, analytics, persistent browser storage, cookies, or external runtime data.</span>
+          </div>
+        </aside>
+
+        <section class="results-panel" id="results" tabindex="-1">
+          <div class="results-toolbar">
+            <div>
+              <h2>Cases</h2>
+              <p id="resultCount">Showing 0 records</p>
+            </div>
+            <div class="view-toggle" role="group" aria-label="View mode">
+              <button id="cardViewButton" class="segmented active" type="button" data-testid="button-card-view">Cards</button>
+              <button id="tableViewButton" class="segmented" type="button" data-testid="button-table-view">Table</button>
+            </div>
+          </div>
+
+          <div id="activeFilters" class="active-filters" aria-live="polite"></div>
+          <div id="cardsView" class="cards-view" data-testid="list-cards"></div>
+          <div id="tableView" class="table-view hidden" data-testid="table-records"></div>
+          <div id="emptyState" class="empty-state hidden">
+            <h3>No matching cases</h3>
+            <p>Try clearing one filter or searching for a broader term such as “benefits,” “legal,” or “facial recognition.”</p>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <p>
+        Data generated from the local AI Error Litigation Log package. Public-record and secondary-source links open externally only when selected.
+      </p>
+    </footer>
+
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

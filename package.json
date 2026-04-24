@@ -1,0 +1,14 @@
+{
+  "name": "ai-incident-law",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Static AI Error Litigation Index with canonical JSON data and generated browser bundle.",
+  "scripts": {
+    "build:data": "node scripts/build-data.mjs",
+    "validate:data": "node scripts/validate-data.mjs",
+    "build": "npm run build:data && npm run validate:data",
+    "check": "npm run validate:data",
+    "serve": "python3 -m http.server 4173"
+  }
+}
+
