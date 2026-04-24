@@ -22,6 +22,8 @@ The shipped app still has no runtime dependencies:
 - No analytics
 - No persistent browser storage
 
+The footer displays the dataset freshness date from `generated_at` in the canonical JSON bundle.
+
 Open `index.html` directly in a browser or host the folder on any static file server. Public-record links are outbound links and load only when selected.
 
 ## Maintainer workflow

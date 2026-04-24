@@ -33,7 +33,6 @@ Current dataset buckets:
 ### 4. Improve publication quality
 
 - Add clearer dataset notes on methodology and scope boundaries
-- Add a visible “last updated” indicator in the UI from `generated_at`
 - Consider a record detail view if the current card layout becomes too compressed
 
 ## Medium-term improvements
@@ -41,6 +40,8 @@ Current dataset buckets:
 - Add archive or snapshot references for fragile sources
 - Add a changelog or release cadence for major dataset updates
 - Add issue templates for data corrections and source challenges
+- Add a short methodology note describing inclusion and exclusion logic
+- Add a machine-readable JSON schema once field usage stabilizes further
 - Consider whether `data.js` should remain committed long term or become a deploy artifact
 
 ## Not a priority right now
@@ -57,4 +58,3 @@ Current dataset buckets:
 - Favor source quality over record count
 - Favor explicit scope boundaries over broad inclusion
 - Favor reproducibility over convenience
-

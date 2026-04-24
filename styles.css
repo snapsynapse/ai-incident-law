@@ -556,6 +556,23 @@ tr:last-child td {
   padding: 22px 0 34px;
 }
 
+.footer-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.footer-copy,
+.footer-freshness {
+  margin: 0;
+}
+
+.footer-freshness strong {
+  color: var(--text);
+}
+
 @media (max-width: 980px) {
   .app-header {
     grid-template-columns: 1fr;
@@ -598,7 +615,8 @@ tr:last-child td {
   }
 
   .header-actions,
-  .results-toolbar {
+  .results-toolbar,
+  .footer-meta {
     flex-direction: column;
     align-items: stretch;
   }

@@ -23,6 +23,7 @@
     cardViewButton: document.getElementById("cardViewButton"),
     tableViewButton: document.getElementById("tableViewButton"),
     themeToggle: document.getElementById("themeToggle"),
+    generatedAtLabel: document.getElementById("generatedAtLabel"),
   };
 
   const state = {
@@ -194,6 +195,7 @@
   function init() {
     setInitialTheme();
     updateStats();
+    updateFreshnessLabel();
     populateFilters();
     bindEvents();
     render();
@@ -209,6 +211,28 @@
     elements.statIncluded.textContent = records.filter((r) => r.dataset === "included").length;
     elements.statReview.textContent = records.filter((r) => r.dataset === "review").length;
     elements.statGlobal.textContent = records.filter((r) => r.dataset === "global").length;
+  }
+
+  function updateFreshnessLabel() {
+    elements.generatedAtLabel.textContent = formatDateLabel(data.generated_at);
+  }
+
+  function formatDateLabel(value) {
+    if (!value) {
+      return "Unknown";
+    }
+
+    const parsed = new Date(`${value}T00:00:00Z`);
+    if (Number.isNaN(parsed.getTime())) {
+      return value;
+    }
+
+    return new Intl.DateTimeFormat("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+      timeZone: "UTC",
+    }).format(parsed);
   }
 
   function populateFilters() {
