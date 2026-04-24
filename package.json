@@ -3,6 +3,14 @@
   "private": true,
   "version": "0.1.0",
   "description": "Static AI Error Litigation Index with canonical JSON data and generated browser bundle.",
+  "homepage": "https://github.com/<owner>/<repo>/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<owner>/<repo>.git"
+  },
+  "bugs": {
+    "url": "https://github.com/<owner>/<repo>/issues"
+  },
   "engines": {
     "node": ">=20"
   },

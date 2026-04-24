@@ -76,9 +76,11 @@ Preferred dataset attribution:
 
 ```text
 AI Error Litigation Index, Sam Rogers, CC BY 4.0.
-Source repository: ai-incident-law.
+Source repository: https://github.com/<owner>/<repo>/
 ```
 
 If you publish an adapted version of the dataset, indicate that changes were made and retain a link to the CC BY 4.0 license:
 
 https://creativecommons.org/licenses/by/4.0/
+
+Before publishing, replace `<owner>/<repo>` with the final GitHub repository path everywhere it appears in this repository.
