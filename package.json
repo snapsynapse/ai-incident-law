@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.1.0",
   "description": "Static AI Error Litigation Index with canonical JSON data and generated browser bundle.",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "build:data": "node scripts/build-data.mjs",
     "validate:data": "node scripts/validate-data.mjs",
@@ -11,4 +14,3 @@
     "serve": "python3 -m http.server 4173"
   }
 }
-

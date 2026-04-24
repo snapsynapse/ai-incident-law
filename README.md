@@ -69,3 +69,16 @@ Then open the local server in your browser.
 - Data is licensed under CC BY 4.0.
   This includes `data/data.json` and the generated `data.js`.
 - If you reuse the dataset, provide attribution and indicate changes where applicable.
+
+## Attribution
+
+Preferred dataset attribution:
+
+```text
+AI Error Litigation Index, Sam Rogers, CC BY 4.0.
+Source repository: ai-incident-law.
+```
+
+If you publish an adapted version of the dataset, indicate that changes were made and retain a link to the CC BY 4.0 license:
+
+https://creativecommons.org/licenses/by/4.0/
