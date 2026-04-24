@@ -7,6 +7,7 @@ This repository is maintained as a static research index with a generated browse
 - `data/data.json` is the canonical dataset.
 - `data.js` is generated output.
 - URL normalization and dataset validation are enforced by maintainer tooling.
+- Code and data use different licenses. Keep new files clearly within one scope or document exceptions in `README.md`.
 
 ## Local checks
 
@@ -34,4 +35,3 @@ This will:
 - Keep changes scoped.
 - Include a short note explaining any dataset additions, removals, or normalization changes.
 - Do not hand-edit generated files without regenerating them through the scripts in `scripts/`.
-

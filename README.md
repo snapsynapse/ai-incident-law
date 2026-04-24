@@ -59,4 +59,13 @@ Then open the local server in your browser.
 - [CONTRIBUTING.md](/Users/snap/Git/ai-incident-law/CONTRIBUTING.md) documents the expected edit and review flow.
 - [SECURITY.md](/Users/snap/Git/ai-incident-law/SECURITY.md) documents private security reporting expectations.
 - [validate.yml](/Users/snap/Git/ai-incident-law/.github/workflows/validate.yml) runs the build and validation pipeline on pushes and pull requests.
-- [LICENSE](/Users/snap/Git/ai-incident-law/LICENSE) applies the MIT license to the repository.
+- [LICENSE](/Users/snap/Git/ai-incident-law/LICENSE) applies the MIT license to the software in this repository.
+- [DATA_LICENSE](/Users/snap/Git/ai-incident-law/DATA_LICENSE) applies CC BY 4.0 to the dataset and generated data bundle.
+
+## Licensing
+
+- Code and maintainer tooling are licensed under MIT.
+  This includes `index.html`, `styles.css`, `app.js`, `package.json`, and `scripts/`.
+- Data is licensed under CC BY 4.0.
+  This includes `data/data.json` and the generated `data.js`.
+- If you reuse the dataset, provide attribution and indicate changes where applicable.
