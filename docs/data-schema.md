@@ -21,14 +21,14 @@ Top-level structure:
 
 ### `included`
 
-Normalized records intended for the public index.
+Normalized records intended for the public site.
 
 Typical characteristics:
 
 - stable identifier
 - public matter title
 - sourceable public record or strong official source
-- summarized error description and harm
+- summarized incident or failure description and harm
 
 ### `review`
 
@@ -118,4 +118,3 @@ There is intentionally no strict full-schema validator yet. Current practice is:
 - Keep identifiers stable once published
 - Prefer source improvement over field proliferation
 - Add new fields sparingly and document them here when they become part of normal maintenance
-

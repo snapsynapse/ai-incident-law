@@ -2,11 +2,11 @@
 
 ## Current state
 
-The repository currently serves a static, portable index backed by a canonical JSON dataset and a generated browser bundle.
+The repository currently serves a static, portable research site backed by a canonical JSON dataset and a generated browser bundle.
 
 Current dataset buckets:
 
-- `included`: records ready for public presentation in the main index
+- `included`: records ready for public presentation in the main site
 - `review`: candidates that need verification, source hardening, or scope decisions
 - `global`: non-US or cross-jurisdiction candidates that need additional translation, sourcing, or normalization
 
@@ -14,7 +14,7 @@ Current dataset buckets:
 
 ### 1. Tighten dataset inclusion discipline
 
-- Define sharper admission criteria for what counts as an AI-mediated legal error event
+- Define sharper admission criteria for what counts as an AI-related incident with legal visibility
 - Distinguish clearly between direct legal proceedings, regulatory actions, and reliable review-queue candidates
 - Document exclusion rules for adjacent but out-of-scope algorithmic controversy
 

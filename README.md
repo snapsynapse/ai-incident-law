@@ -1,6 +1,6 @@
-# AI Error Litigation Index
+# AI Incident Law
 
-Standalone, dependency-free single-page application for browsing the AI Error Litigation Index.
+Standalone, dependency-free single-page application for browsing AI Incident Law, a searchable index of public matters involving AI-related incidents, failures, and resulting legal or regulatory action.
 
 ## Repo layout
 
@@ -79,7 +79,7 @@ Then open the local server in your browser.
 Preferred dataset attribution:
 
 ```text
-AI Error Litigation Index, Sam Rogers, CC BY 4.0.
+AI Incident Law, Sam Rogers, CC BY 4.0.
 Source project: https://aiincidentlaw.org/
 ```
 

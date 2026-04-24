@@ -5,7 +5,7 @@ window.AIEL_DATA = {
   "datasets": {
     "included": {
       "label": "Included cases",
-      "description": "Normalized AI error-event records selected for the main litigation log.",
+      "description": "Normalized AI incident records selected for the main public dataset.",
       "records": [
         {
           "error_id": "AIEL-2024-001",

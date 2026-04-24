@@ -2,7 +2,7 @@
   "name": "ai-incident-law",
   "private": true,
   "version": "0.1.0",
-  "description": "Static AI Error Litigation Index with canonical JSON data and generated browser bundle.",
+  "description": "Static AI Incident Law site with canonical JSON data and generated browser bundle.",
   "homepage": "https://aiincidentlaw.org/",
   "repository": {
     "type": "git",

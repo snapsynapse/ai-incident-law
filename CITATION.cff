@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this repository or dataset, please cite it using the metadata below."
-title: "AI Error Litigation Index"
+title: "AI Incident Law"
 type: dataset
 authors:
   - family-names: Rogers
@@ -8,4 +8,4 @@ authors:
 license: CC-BY-4.0
 repository-code: "https://github.com/snapsynapse/ai-incident-law/"
 url: "https://aiincidentlaw.org/"
-abstract: "Curated index of public legal, regulatory, tribunal, and review-queue matters involving AI-mediated errors."
+abstract: "Searchable index of public legal, regulatory, tribunal, and review-queue matters involving AI-related incidents, failures, and harms."

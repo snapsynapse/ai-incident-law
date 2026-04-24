@@ -2,7 +2,7 @@
 
 ## Scope
 
-This repository is maintained as a static research index with a generated browser bundle.
+This repository is maintained as a static research site and dataset with a generated browser bundle.
 
 - `data/data.json` is the canonical dataset.
 - `data.js` is generated output.
