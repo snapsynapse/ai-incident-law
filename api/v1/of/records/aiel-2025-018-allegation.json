@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2025-018-allegation.json",
+  "id": "aiel-2025-018-allegation",
+  "text": "Plaintiff alleges Workday's AI screening tools caused discriminatory job-application rejections based on age, race, and disability-related factors. The case is included as a vendor-liability candidate because the public record identifies AI screening and a court allowed key claims to proceed, but discrete error rows may need to be split by plaintiff or application event.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2025-018#ai-system",
+  "ai_system_name": "Workday HiredScore / Candidate Skills Match tools",
+  "deployer": "Workday, Inc. as HR software vendor",
+  "domain": "employment",
+  "error_type": "discriminatory output",
+  "canonical_source_conflicted": "ADEA, Title VII, ADA, FEHA, and employer-specific applicant records",
+  "mitigation_gap": "Alleged lack of disparate-impact audit, biased training/preferences, and absence of meaningful human review before rejection.",
+  "reliance_or_harm": "Plaintiff alleges repeated job rejections through Workday systems; ADEA collective certification was reported.",
+  "ai_incident_law_record_id": "AIEL-2025-018"
+}

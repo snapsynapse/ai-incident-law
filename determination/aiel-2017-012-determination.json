@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2017-012-determination.json",
+  "id": "aiel-2017-012-determination",
+  "issued_date": "2017-01-27",
+  "issuedBy": "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2017-012-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "resolved",
+    "notes": "Algorithm invalidated on rulemaking grounds; later proceedings addressed successor systems and systemic relief."
+  },
+  "notes": "Algorithm invalidated on rulemaking grounds; later proceedings addressed successor systems and systemic relief.",
+  "source": "https://law.justia.com/cases/arkansas/supreme-court/2017/cv-17-183.html",
+  "ai_incident_law_record_id": "AIEL-2017-012"
+}

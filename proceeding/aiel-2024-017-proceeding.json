@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-017-proceeding.json",
+  "id": "aiel-2024-017-proceeding",
+  "title": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
+  "filed_date": "2024-01-18",
+  "issuedBy": "https://aiincidentlaw.org/authority/harris-county-texas-state-court-remanded-from-s-d-tex.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2024-017-allegation.json"
+  ],
+  "hasDetermination": [],
+  "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+  "ai_incident_law_record_id": "AIEL-2024-017",
+  "matter_type": "state civil lawsuit",
+  "status": "pending"
+}

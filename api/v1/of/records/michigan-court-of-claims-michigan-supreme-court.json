@@ -1,0 +1,18 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Authority",
+  "@id": "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json",
+  "id": "michigan-court-of-claims-michigan-supreme-court",
+  "organization": {
+    "@type": "gist:Court",
+    "name": "Michigan Court of Claims; Michigan Supreme Court"
+  },
+  "authority_basis": {
+    "kind": "judicial",
+    "instrument_ref": "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json#authority-basis"
+  },
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-mi"
+  }
+}

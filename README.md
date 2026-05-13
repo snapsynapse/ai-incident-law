@@ -9,7 +9,9 @@ Standalone, dependency-free single-page application for browsing AI Incident Law
 - `app.js` handles local search, filtering, and rendering.
 - `data/data.json` is the canonical dataset for maintainers.
 - `data.js` is a generated browser bundle consumed by `index.html`.
+- `api/v1/of/` contains the generated Obligation-First binding for included public matters.
 - `scripts/build-data.mjs` normalizes source data and regenerates `data.js`.
+- `scripts/build-obligation-first.mjs` generates Obligation-First authorities, proceedings, allegations, and determinations.
 - `scripts/validate-data.mjs` validates record shape, duplicate identifiers, and URL conventions.
 
 ## Runtime properties
@@ -32,6 +34,7 @@ The repo uses Node.js only for maintainer tooling. There are no install-time dep
 
 ```bash
 npm run build:data
+npm run build:of
 npm run validate:data
 ```
 
@@ -55,6 +58,8 @@ Then open the local server in your browser.
 - `data.js` is generated and should not be edited by hand.
 - Source URLs are normalized to `https://` bare domains during the build step.
 - Validation fails on duplicate record identifiers, invalid URLs, `http://` links, or `www.` hosts.
+- Included records are exported to Obligation-First as `of:Proceeding`, `of:Allegation`, and, when no longer pending, `of:Determination` records.
+- `review` and `global` records are editorial queues and are not exported to Obligation-First.
 
 ## Repository metadata
 

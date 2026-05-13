@@ -1,0 +1,291 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "generated": "2026-04-22",
+  "determinations": [
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2024-001-determination.json",
+      "id": "aiel-2024-001-determination",
+      "issued_date": "2024-02-14",
+      "issuedBy": "https://aiincidentlaw.org/authority/british-columbia-civil-resolution-tribunal.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2024-001-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "ordered",
+        "notes": "Tribunal awarded C$650.88 plus interest and fees."
+      },
+      "notes": "Tribunal awarded C$650.88 plus interest and fees.",
+      "source": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
+      "ai_incident_law_record_id": "AIEL-2024-001"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2023-002-determination.json",
+      "id": "aiel-2023-002-determination",
+      "issued_date": "2023-06-22",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2023-002-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "Court imposed a $5,000 sanction and ordered notice to affected judges and client."
+      },
+      "notes": "Court imposed a $5,000 sanction and ordered notice to affected judges and client.",
+      "source": "https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1:2022cv01461/575368/54/",
+      "ai_incident_law_record_id": "AIEL-2023-002"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2024-003-determination.json",
+      "id": "aiel-2024-003-determination",
+      "issued_date": "2024-01-30",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-second-circuit.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2024-003-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "ordered",
+        "notes": "Matter referred to grievance panel; opinion emphasizes duty to verify AI-generated legal citations."
+      },
+      "notes": "Matter referred to grievance panel; opinion emphasizes duty to verify AI-generated legal citations.",
+      "source": "https://law.justia.com/cases/federal/appellate-courts/ca2/22-2057/22-2057-2024-01-30.html",
+      "ai_incident_law_record_id": "AIEL-2024-003"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2025-004-determination.json",
+      "id": "aiel-2025-004-determination",
+      "issued_date": "2025-01-01",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-wyoming.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2025-004-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "Included as a notable sanctions event, but the primary court order should be downloaded and archived before treating as fully verified."
+      },
+      "notes": "Included as a notable sanctions event, but the primary court order should be downloaded and archived before treating as fully verified.",
+      "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
+      "ai_incident_law_record_id": "AIEL-2025-004"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-005-determination.json",
+      "id": "aiel-2026-005-determination",
+      "issued_date": "2026-02-18",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-fifth-circuit.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-005-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "Published Fifth Circuit order sanctions counsel under Rule 46(c) and inherent authority."
+      },
+      "notes": "Published Fifth Circuit order sanctions counsel under Rule 46(c) and inherent authority.",
+      "source": "https://ca5.uscourts.gov/opinions/pub/25/25-20086-CV0.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-005"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2025-006-determination.json",
+      "id": "aiel-2025-006-determination",
+      "issued_date": "2025-10-23",
+      "issuedBy": "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2025-006-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "ordered",
+        "notes": "Reply brief struck; corrected reply denied; board issued broader AI-use caution."
+      },
+      "notes": "Reply brief struck; corrected reply denied; board issued broader AI-use caution.",
+      "source": "https://asbca.mil/LinkClick.aspx?fileticket=eAIy2KSL_Zg%3D&portalid=143",
+      "ai_incident_law_record_id": "AIEL-2025-006"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2025-007-determination.json",
+      "id": "aiel-2025-007-determination",
+      "issued_date": "2025-11-20",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2025-007-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "Court struck settlement motions with prejudice, imposed a monetary fine, and referred counsel for professional conduct review."
+      },
+      "notes": "Court struck settlement motions with prejudice, imposed a monetary fine, and referred counsel for professional conduct review.",
+      "source": "https://law.berkeley.edu/wp-content/uploads/2025/12/Buchanan.pdf",
+      "ai_incident_law_record_id": "AIEL-2025-007"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2024-008-determination.json",
+      "id": "aiel-2024-008-determination",
+      "issued_date": "2024-03-08",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida-florida-supreme-court.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2024-008-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "resolved",
+        "notes": "AI hallucinations are recorded as corroborating misconduct, not necessarily the sole basis for discipline."
+      },
+      "notes": "AI hallucinations are recorded as corroborating misconduct, not necessarily the sole basis for discipline.",
+      "source": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
+      "ai_incident_law_record_id": "AIEL-2024-008"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2023-009-determination.json",
+      "id": "aiel-2023-009-determination",
+      "issued_date": "2022-05-05",
+      "issuedBy": "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2023-009-allegation.json"
+      ],
+      "disposition": "settled",
+      "remedy": {
+        "status": "settled",
+        "notes": "EEOC announced $365,000 settlement and remedial measures."
+      },
+      "notes": "EEOC announced $365,000 settlement and remedial measures.",
+      "source": "https://eeoc.gov/newsroom/itutorgroup-pay-365000-settle-eeoc-discriminatory-hiring-suit",
+      "ai_incident_law_record_id": "AIEL-2023-009"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2024-010-determination.json",
+      "id": "aiel-2024-010-determination",
+      "issued_date": "2022-05-01",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts-doj-hud.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2024-010-allegation.json"
+      ],
+      "disposition": "settled",
+      "remedy": {
+        "status": "settled",
+        "notes": "Settlement announced in 2024; algorithmic tenant screening treated as subject to fair-housing law."
+      },
+      "notes": "Settlement announced in 2024; algorithmic tenant screening treated as subject to fair-housing law.",
+      "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
+      "ai_incident_law_record_id": "AIEL-2024-010"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2022-011-determination.json",
+      "id": "aiel-2022-011-determination",
+      "issued_date": "2015-01-01",
+      "issuedBy": "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2022-011-allegation.json"
+      ],
+      "disposition": "settled",
+      "remedy": {
+        "status": "settled",
+        "notes": "Michigan announced $20 million settlement; Michigan Supreme Court recognized damages availability for the constitutional tort theory."
+      },
+      "notes": "Michigan announced $20 million settlement; Michigan Supreme Court recognized damages availability for the constitutional tort theory.",
+      "source": "https://michigan.gov/ag/news/press-releases/2022/10/20/som-settlement-of-civil-rights-class-action-alleging-false-accusations-of-unemployment-fraud",
+      "ai_incident_law_record_id": "AIEL-2022-011"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2017-012-determination.json",
+      "id": "aiel-2017-012-determination",
+      "issued_date": "2017-01-27",
+      "issuedBy": "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2017-012-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "resolved",
+        "notes": "Algorithm invalidated on rulemaking grounds; later proceedings addressed successor systems and systemic relief."
+      },
+      "notes": "Algorithm invalidated on rulemaking grounds; later proceedings addressed successor systems and systemic relief.",
+      "source": "https://law.justia.com/cases/arkansas/supreme-court/2017/cv-17-183.html",
+      "ai_incident_law_record_id": "AIEL-2017-012"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2023-013-determination.json",
+      "id": "aiel-2023-013-determination",
+      "issued_date": "2023-12-19",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-federal-trade-commission.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2023-013-allegation.json"
+      ],
+      "disposition": "settled",
+      "remedy": {
+        "status": "settled",
+        "notes": "FTC announced five-year facial-recognition ban and algorithmic fairness/monitoring requirements."
+      },
+      "notes": "FTC announced five-year facial-recognition ban and algorithmic fairness/monitoring requirements.",
+      "source": "https://ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without",
+      "ai_incident_law_record_id": "AIEL-2023-013"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2024-014-determination.json",
+      "id": "aiel-2024-014-determination",
+      "issued_date": "2021-04-01",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2024-014-allegation.json"
+      ],
+      "disposition": "settled",
+      "remedy": {
+        "status": "settled",
+        "notes": "Settlement included $300,000 and Detroit Police Department facial-recognition reforms."
+      },
+      "notes": "Settlement included $300,000 and Detroit Police Department facial-recognition reforms.",
+      "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
+      "ai_incident_law_record_id": "AIEL-2024-014"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2025-016-determination.json",
+      "id": "aiel-2025-016-determination",
+      "issued_date": "2023-07-01",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2025-016-allegation.json"
+      ],
+      "disposition": "dismissed",
+      "remedy": {
+        "status": "dismissed / appeal flagged",
+        "notes": "Case reported dismissed at summary judgment in 2025 with appeal planned; keep procedural status under watch."
+      },
+      "notes": "Case reported dismissed at summary judgment in 2025 with appeal planned; keep procedural status under watch.",
+      "source": "https://aclu.org/cases/woodruff-v-oliver",
+      "ai_incident_law_record_id": "AIEL-2025-016"
+    }
+  ]
+}

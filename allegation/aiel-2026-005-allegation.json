@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-005-allegation.json",
+  "id": "aiel-2026-005-allegation",
+  "text": "A reply brief contained fabricated quotations and additional misrepresentations. The Fifth Circuit found that AI-generated material had been filed without adequate verification and that counsel's response to the show-cause order compounded the problem.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-005#ai-system",
+  "ai_system_name": "Generative AI, identified in reporting as Casetext/CoCounsel and/or vLex workflow",
+  "deployer": "Heather Hersh / FCRA Attorneys",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Fifth Circuit record, quoted opinions, served Rule 11 materials",
+  "mitigation_gap": "No independent verification of quotations or propositions before filing; show-cause response was evasive about AI authorship.",
+  "reliance_or_harm": "Attorney sanctioned and ordered to pay $2,500 to the clerk.",
+  "ai_incident_law_record_id": "AIEL-2026-005"
+}

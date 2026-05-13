@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-003-proceeding.json",
+  "id": "aiel-2024-003-proceeding",
+  "title": "Park v. Kim, No. 22-2057",
+  "filed_date": "2024-01-30",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-second-circuit.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2024-003-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2024-003-determination.json"
+  ],
+  "source": "https://law.justia.com/cases/federal/appellate-courts/ca2/22-2057/22-2057-2024-01-30.html",
+  "ai_incident_law_record_id": "AIEL-2024-003",
+  "matter_type": "sanctions / discipline referral order",
+  "status": "ordered"
+}

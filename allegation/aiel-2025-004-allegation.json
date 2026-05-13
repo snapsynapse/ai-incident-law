@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2025-004-allegation.json",
+  "id": "aiel-2025-004-allegation",
+  "text": "Attorneys filed briefing containing nonexistent or unsupported case citations attributed to generative AI use. Reporting and case-analysis sources describe a sanctions response after the court identified fabricated authority.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2025-004#ai-system",
+  "ai_system_name": "ChatGPT / generative AI legal drafting workflow",
+  "deployer": "Morgan & Morgan attorneys",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Actual case law and court record",
+  "mitigation_gap": "AI-generated legal citations were not verified against source materials before filing.",
+  "reliance_or_harm": "Lawyers were fined and the firm faced sanctions-related scrutiny.",
+  "ai_incident_law_record_id": "AIEL-2025-004"
+}

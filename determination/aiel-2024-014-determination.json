@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2024-014-determination.json",
+  "id": "aiel-2024-014-determination",
+  "issued_date": "2021-04-01",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2024-014-allegation.json"
+  ],
+  "disposition": "settled",
+  "remedy": {
+    "status": "settled",
+    "notes": "Settlement included $300,000 and Detroit Police Department facial-recognition reforms."
+  },
+  "notes": "Settlement included $300,000 and Detroit Police Department facial-recognition reforms.",
+  "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
+  "ai_incident_law_record_id": "AIEL-2024-014"
+}

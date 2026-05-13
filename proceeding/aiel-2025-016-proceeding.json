@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2025-016-proceeding.json",
+  "id": "aiel-2025-016-proceeding",
+  "title": "Woodruff v. Oliver, No. 2:23-cv-11597",
+  "filed_date": "2023-07-01",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2025-016-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2025-016-determination.json"
+  ],
+  "source": "https://aclu.org/cases/woodruff-v-oliver",
+  "ai_incident_law_record_id": "AIEL-2025-016",
+  "matter_type": "federal civil rights lawsuit",
+  "status": "dismissed / appeal flagged"
+}

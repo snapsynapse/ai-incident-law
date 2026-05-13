@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2023-013-determination.json",
+  "id": "aiel-2023-013-determination",
+  "issued_date": "2023-12-19",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-federal-trade-commission.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2023-013-allegation.json"
+  ],
+  "disposition": "settled",
+  "remedy": {
+    "status": "settled",
+    "notes": "FTC announced five-year facial-recognition ban and algorithmic fairness/monitoring requirements."
+  },
+  "notes": "FTC announced five-year facial-recognition ban and algorithmic fairness/monitoring requirements.",
+  "source": "https://ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without",
+  "ai_incident_law_record_id": "AIEL-2023-013"
+}

@@ -1,0 +1,18 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Authority",
+  "@id": "https://aiincidentlaw.org/authority/harris-county-texas-state-court-remanded-from-s-d-tex.json",
+  "id": "harris-county-texas-state-court-remanded-from-s-d-tex",
+  "organization": {
+    "@type": "gist:Court",
+    "name": "Harris County, Texas state court; remanded from S.D. Tex."
+  },
+  "authority_basis": {
+    "kind": "judicial",
+    "instrument_ref": "https://aiincidentlaw.org/authority/harris-county-texas-state-court-remanded-from-s-d-tex.json#authority-basis"
+  },
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-tx"
+  }
+}

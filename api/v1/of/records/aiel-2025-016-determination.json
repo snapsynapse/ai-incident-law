@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2025-016-determination.json",
+  "id": "aiel-2025-016-determination",
+  "issued_date": "2023-07-01",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2025-016-allegation.json"
+  ],
+  "disposition": "dismissed",
+  "remedy": {
+    "status": "dismissed / appeal flagged",
+    "notes": "Case reported dismissed at summary judgment in 2025 with appeal planned; keep procedural status under watch."
+  },
+  "notes": "Case reported dismissed at summary judgment in 2025 with appeal planned; keep procedural status under watch.",
+  "source": "https://aclu.org/cases/woodruff-v-oliver",
+  "ai_incident_law_record_id": "AIEL-2025-016"
+}

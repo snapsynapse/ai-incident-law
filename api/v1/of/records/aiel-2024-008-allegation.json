@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2024-008-allegation.json",
+  "id": "aiel-2024-008-allegation",
+  "text": "Attorney filings contained fabricated AI-generated citations in a federal matter. The AI issue was part of a broader disciplinary record that included evasive responses and other noncompliance.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2024-008#ai-system",
+  "ai_system_name": "Unspecified generative AI",
+  "deployer": "Thomas Grant Neusom",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Actual case law and federal court filing obligations",
+  "mitigation_gap": "No citation verification; failure to correct when challenged; broader noncompliance with court and bar processes.",
+  "reliance_or_harm": "Attorney was suspended in federal court and later disciplined by the Florida Supreme Court.",
+  "ai_incident_law_record_id": "AIEL-2024-008"
+}

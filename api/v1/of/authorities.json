@@ -1,0 +1,294 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "generated": "2026-04-22",
+  "authorities": [
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/british-columbia-civil-resolution-tribunal.json",
+      "id": "british-columbia-civil-resolution-tribunal",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "British Columbia Civil Resolution Tribunal"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/british-columbia-civil-resolution-tribunal.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "ca-bc"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "id": "u-s-district-court-southern-district-of-new-york",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. District Court, Southern District of New York"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ny"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-second-circuit.json",
+      "id": "u-s-court-of-appeals-for-the-second-circuit",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. Court of Appeals for the Second Circuit"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-second-circuit.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-wyoming.json",
+      "id": "u-s-district-court-district-of-wyoming",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. District Court, District of Wyoming"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-wyoming.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-wy"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-fifth-circuit.json",
+      "id": "u-s-court-of-appeals-for-the-fifth-circuit",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. Court of Appeals for the Fifth Circuit"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-fifth-circuit.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json",
+      "id": "armed-services-board-of-contract-appeals",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "Armed Services Board of Contract Appeals"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": ""
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json",
+      "id": "u-s-district-court-northern-district-of-california",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. District Court, Northern District of California"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ca"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida-florida-supreme-court.json",
+      "id": "u-s-district-court-middle-district-of-florida-florida-supreme-court",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. District Court, Middle District of Florida; Florida Supreme Court"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida-florida-supreme-court.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-fl"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json",
+      "id": "eeoc-u-s-district-court-eastern-district-of-new-york",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "EEOC; U.S. District Court, Eastern District of New York"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ny"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts-doj-hud.json",
+      "id": "u-s-district-court-district-of-massachusetts-doj-hud",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. District Court, District of Massachusetts; DOJ; HUD"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts-doj-hud.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ma"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json",
+      "id": "michigan-court-of-claims-michigan-supreme-court",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "Michigan Court of Claims; Michigan Supreme Court"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-mi"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json",
+      "id": "arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "Arkansas Supreme Court; U.S. District Court, Eastern District of Arkansas; Eighth Circuit"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ar"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-federal-trade-commission.json",
+      "id": "u-s-federal-trade-commission",
+      "organization": {
+        "@type": "gist:GovernmentOrganization",
+        "name": "U.S. Federal Trade Commission"
+      },
+      "authority_basis": {
+        "kind": "statutory",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-federal-trade-commission.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json",
+      "id": "u-s-district-court-eastern-district-of-michigan",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. District Court, Eastern District of Michigan"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-mi"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-new-jersey.json",
+      "id": "u-s-district-court-district-of-new-jersey",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. District Court, District of New Jersey"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-new-jersey.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-nj"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/harris-county-texas-state-court-remanded-from-s-d-tex.json",
+      "id": "harris-county-texas-state-court-remanded-from-s-d-tex",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "Harris County, Texas state court; remanded from S.D. Tex."
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/harris-county-texas-state-court-remanded-from-s-d-tex.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-tx"
+      }
+    }
+  ]
+}

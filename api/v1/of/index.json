@@ -1,0 +1,16 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "generated": "2026-04-22",
+  "files": {
+    "authorities": "authorities.json",
+    "proceedings": "proceedings.json",
+    "allegations": "allegations.json",
+    "determinations": "determinations.json"
+  },
+  "counts": {
+    "authorities": 16,
+    "proceedings": 18,
+    "allegations": 18,
+    "determinations": 15
+  }
+}

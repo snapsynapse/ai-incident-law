@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2024-010-determination.json",
+  "id": "aiel-2024-010-determination",
+  "issued_date": "2022-05-01",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts-doj-hud.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2024-010-allegation.json"
+  ],
+  "disposition": "settled",
+  "remedy": {
+    "status": "settled",
+    "notes": "Settlement announced in 2024; algorithmic tenant screening treated as subject to fair-housing law."
+  },
+  "notes": "Settlement announced in 2024; algorithmic tenant screening treated as subject to fair-housing law.",
+  "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
+  "ai_incident_law_record_id": "AIEL-2024-010"
+}

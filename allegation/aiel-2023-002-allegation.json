@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2023-002-allegation.json",
+  "id": "aiel-2023-002-allegation",
+  "text": "Counsel filed a brief containing nonexistent cases, false quotations, and false citations generated through ChatGPT. The lawyer then asked ChatGPT whether the cases were real and relied on the chatbot's answer instead of checking legal databases.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2023-002#ai-system",
+  "ai_system_name": "ChatGPT",
+  "deployer": "Levidow, Levidow & Oberman PC attorneys",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Federal reporters, legal research databases, and actual case law",
+  "mitigation_gap": "No independent cite-checking against legal databases; AI self-verification was substituted for source verification; supervising attorney signed without adequate review.",
+  "reliance_or_harm": "Underlying lawsuit was dismissed and counsel/firm were sanctioned.",
+  "ai_incident_law_record_id": "AIEL-2023-002"
+}

@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2025-016-allegation.json",
+  "id": "aiel-2025-016-allegation",
+  "text": "Detroit police used a facial-recognition lead to place Porcha Woodruff in a lineup for a carjacking investigation. The suit alleges obvious exculpatory circumstances, including pregnancy, were not adequately reconciled before arrest.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2025-016#ai-system",
+  "ai_system_name": "Detroit Police Department facial-recognition system",
+  "deployer": "Detroit Police Department",
+  "domain": "criminal justice",
+  "error_type": "false match",
+  "canonical_source_conflicted": "Actual suspect identity and warrant probable-cause standards",
+  "mitigation_gap": "FRT output seeded the lineup without sufficient independent corroboration or review of distinguishing characteristics.",
+  "reliance_or_harm": "Woodruff was arrested while pregnant, detained, and later sued after charges were dropped.",
+  "ai_incident_law_record_id": "AIEL-2025-016"
+}

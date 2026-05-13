@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2024-014-allegation.json",
+  "id": "aiel-2024-014-allegation",
+  "text": "A grainy surveillance still was run through facial recognition and returned Robert Williams as a candidate. Police allegedly relied on the output and a flawed photo identification process, leading to a wrongful arrest for a theft he did not commit.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2024-014#ai-system",
+  "ai_system_name": "Michigan State Police / DataWorks Plus facial-recognition pipeline",
+  "deployer": "Detroit Police Department and Michigan State Police",
+  "domain": "criminal justice",
+  "error_type": "false match",
+  "canonical_source_conflicted": "Actual suspect identity and warrant probable-cause standards",
+  "mitigation_gap": "No policy requiring independent corroboration before arrest; warrant materials did not adequately disclose the limits of the face-recognition lead.",
+  "reliance_or_harm": "Williams was arrested, detained, and later brought a civil-rights suit; settlement included damages and policy reforms.",
+  "ai_incident_law_record_id": "AIEL-2024-014"
+}

@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-015-proceeding.json",
+  "id": "aiel-2024-015-proceeding",
+  "title": "Parks v. McCormac, Civil No. 3:22-cv-05765",
+  "filed_date": "2022-09-01",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-new-jersey.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2024-015-allegation.json"
+  ],
+  "hasDetermination": [],
+  "source": "https://aclu.org/cases/parks-v-mccormac",
+  "ai_incident_law_record_id": "AIEL-2024-015",
+  "matter_type": "federal civil rights lawsuit",
+  "status": "pending"
+}

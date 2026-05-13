@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2024-015-allegation.json",
+  "id": "aiel-2024-015-allegation",
+  "text": "A blurry fake-ID image was run through facial recognition and returned Nijeer Parks as a possible match. Police allegedly obtained a warrant without adequately verifying alibi evidence or disclosing the uncertainty of the technology.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2024-015#ai-system",
+  "ai_system_name": "Clearview AI alleged / out-of-state facial-recognition lead",
+  "deployer": "Woodbridge Police Department and intelligence-center intermediaries",
+  "domain": "criminal justice",
+  "error_type": "false match",
+  "canonical_source_conflicted": "Actual suspect identity, alibi evidence, and warrant probable-cause standards",
+  "mitigation_gap": "No adequate alibi check, DNA/fingerprint corroboration, or transparent disclosure of FRT provenance before arrest.",
+  "reliance_or_harm": "Parks spent about 10 days in jail before charges were dismissed; civil-rights litigation followed.",
+  "ai_incident_law_record_id": "AIEL-2024-015"
+}

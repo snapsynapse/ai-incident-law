@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2024-001-allegation.json",
+  "id": "aiel-2024-001-allegation",
+  "text": "Air Canada's chatbot told a passenger he could request a bereavement discount retroactively within 90 days after travel. The answer conflicted with Air Canada's bereavement-fare terms, which required approval before travel. The tribunal treated the chatbot answer as part of Air Canada's customer-facing service rather than a separate legal actor.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2024-001#ai-system",
+  "ai_system_name": "Air Canada virtual assistant chatbot",
+  "deployer": "Air Canada",
+  "domain": "consumer travel",
+  "error_type": "policy misstatement",
+  "canonical_source_conflicted": "Air Canada bereavement-fare policy",
+  "mitigation_gap": "No effective guardrail prevented the chatbot from presenting a refund rule inconsistent with the canonical policy, and no escalation path corrected the answer before purchase.",
+  "reliance_or_harm": "Passenger relied on the chatbot answer, bought tickets, and obtained a partial damages award.",
+  "ai_incident_law_record_id": "AIEL-2024-001"
+}

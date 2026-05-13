@@ -1,0 +1,18 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Authority",
+  "@id": "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json",
+  "id": "eeoc-u-s-district-court-eastern-district-of-new-york",
+  "organization": {
+    "@type": "gist:Court",
+    "name": "EEOC; U.S. District Court, Eastern District of New York"
+  },
+  "authority_basis": {
+    "kind": "judicial",
+    "instrument_ref": "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json#authority-basis"
+  },
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-ny"
+  }
+}

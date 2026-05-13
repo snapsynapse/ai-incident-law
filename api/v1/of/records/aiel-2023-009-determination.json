@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2023-009-determination.json",
+  "id": "aiel-2023-009-determination",
+  "issued_date": "2022-05-05",
+  "issuedBy": "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2023-009-allegation.json"
+  ],
+  "disposition": "settled",
+  "remedy": {
+    "status": "settled",
+    "notes": "EEOC announced $365,000 settlement and remedial measures."
+  },
+  "notes": "EEOC announced $365,000 settlement and remedial measures.",
+  "source": "https://eeoc.gov/newsroom/itutorgroup-pay-365000-settle-eeoc-discriminatory-hiring-suit",
+  "ai_incident_law_record_id": "AIEL-2023-009"
+}

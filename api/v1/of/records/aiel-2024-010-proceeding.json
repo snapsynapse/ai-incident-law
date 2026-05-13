@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-010-proceeding.json",
+  "id": "aiel-2024-010-proceeding",
+  "title": "Louis et al. v. SafeRent Solutions, LLC et al.",
+  "filed_date": "2022-05-01",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts-doj-hud.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2024-010-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2024-010-determination.json"
+  ],
+  "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
+  "ai_incident_law_record_id": "AIEL-2024-010",
+  "matter_type": "court complaint / agency statement of interest",
+  "status": "settled"
+}

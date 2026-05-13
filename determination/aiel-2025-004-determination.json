@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2025-004-determination.json",
+  "id": "aiel-2025-004-determination",
+  "issued_date": "2025-01-01",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-wyoming.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2025-004-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "Included as a notable sanctions event, but the primary court order should be downloaded and archived before treating as fully verified."
+  },
+  "notes": "Included as a notable sanctions event, but the primary court order should be downloaded and archived before treating as fully verified.",
+  "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
+  "ai_incident_law_record_id": "AIEL-2025-004"
+}

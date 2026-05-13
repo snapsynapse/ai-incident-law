@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2023-013-allegation.json",
+  "id": "aiel-2023-013-allegation",
+  "text": "FTC alleged Rite Aid deployed facial recognition in stores and generated false-positive matches that disproportionately affected certain consumers, including people of color. Employees allegedly acted on false alerts by surveilling, searching, removing, or reporting customers.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2023-013#ai-system",
+  "ai_system_name": "Rite Aid facial-recognition surveillance system",
+  "deployer": "Rite Aid",
+  "domain": "retail / consumer protection",
+  "error_type": "false match",
+  "canonical_source_conflicted": "Accurate identity evidence and consumer-protection obligations",
+  "mitigation_gap": "Insufficient testing, monitoring, bias controls, employee training, and consumer notice before acting on face-recognition alerts.",
+  "reliance_or_harm": "Consumers were allegedly wrongly accused, embarrassed, or subjected to law-enforcement contact; FTC order banned Rite Aid from using facial recognition for five years.",
+  "ai_incident_law_record_id": "AIEL-2023-013"
+}

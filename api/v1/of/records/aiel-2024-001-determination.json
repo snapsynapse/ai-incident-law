@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2024-001-determination.json",
+  "id": "aiel-2024-001-determination",
+  "issued_date": "2024-02-14",
+  "issuedBy": "https://aiincidentlaw.org/authority/british-columbia-civil-resolution-tribunal.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2024-001-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "ordered",
+    "notes": "Tribunal awarded C$650.88 plus interest and fees."
+  },
+  "notes": "Tribunal awarded C$650.88 plus interest and fees.",
+  "source": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
+  "ai_incident_law_record_id": "AIEL-2024-001"
+}

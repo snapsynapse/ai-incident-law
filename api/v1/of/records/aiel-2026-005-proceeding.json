@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-005-proceeding.json",
+  "id": "aiel-2026-005-proceeding",
+  "title": "Fletcher v. Experian Information Solutions, Inc., No. 25-20086",
+  "filed_date": "2026-02-18",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-fifth-circuit.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-005-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2026-005-determination.json"
+  ],
+  "source": "https://ca5.uscourts.gov/opinions/pub/25/25-20086-CV0.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-005",
+  "matter_type": "sanctions order",
+  "status": "sanctioned"
+}

@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2024-010-allegation.json",
+  "id": "aiel-2024-010-allegation",
+  "text": "Tenant-screening score allegedly relied heavily on credit history and non-tenancy debt in a way that disadvantaged Black and Hispanic rental applicants using housing vouchers. DOJ and HUD filed a statement of interest supporting Fair Housing Act disparate-impact applicability to algorithmic tenant screening.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2024-010#ai-system",
+  "ai_system_name": "SafeRent Score",
+  "deployer": "SafeRent Solutions, LLC / tenant-screening users",
+  "domain": "housing",
+  "error_type": "discriminatory output",
+  "canonical_source_conflicted": "Fair Housing Act and voucher-backed rent-payment facts",
+  "mitigation_gap": "No adequate fair-housing disparate-impact testing; model allegedly omitted or undervalued voucher payment certainty.",
+  "reliance_or_harm": "Voucher holders allegedly denied housing; settlement created monetary and injunctive relief.",
+  "ai_incident_law_record_id": "AIEL-2024-010"
+}

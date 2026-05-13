@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2024-017-allegation.json",
+  "id": "aiel-2024-017-allegation",
+  "text": "A private retail loss-prevention workflow allegedly matched robbery footage to old mugshots of Harvey Murphy and communicated certainty to police. Murphy alleged the match and lineup process caused his arrest despite not being the robber.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2024-017#ai-system",
+  "ai_system_name": "Macy's / EssilorLuxottica facial-recognition workflow",
+  "deployer": "EssilorLuxottica / Macy's loss-prevention personnel and Houston police",
+  "domain": "retail / criminal justice",
+  "error_type": "false match",
+  "canonical_source_conflicted": "Actual suspect identity and reliable biometric-comparison standards",
+  "mitigation_gap": "Private FRT comparison lacked qualified-examiner controls; old photographs and employee pre-briefing allegedly contaminated the identification process; police allegedly did not independently investigate.",
+  "reliance_or_harm": "Murphy was detained and alleges severe jailhouse harm; civil case seeks damages.",
+  "ai_incident_law_record_id": "AIEL-2024-017"
+}

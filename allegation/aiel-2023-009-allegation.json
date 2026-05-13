@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2023-009-allegation.json",
+  "id": "aiel-2023-009-allegation",
+  "text": "Application software automatically rejected female applicants age 55 or older and male applicants age 60 or older. The EEOC alleged the screening logic unlawfully denied older applicants an employment opportunity.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2023-009#ai-system",
+  "ai_system_name": "iTutorGroup application screening software",
+  "deployer": "iTutorGroup, Inc. and affiliates",
+  "domain": "employment",
+  "error_type": "discriminatory output",
+  "canonical_source_conflicted": "Age Discrimination in Employment Act",
+  "mitigation_gap": "No pre-deployment age-discrimination audit or human override prevented hard-coded age thresholds from eliminating qualified applicants.",
+  "reliance_or_harm": "More than 200 applicants were allegedly rejected; company settled with EEOC for $365,000 and injunctive relief.",
+  "ai_incident_law_record_id": "AIEL-2023-009"
+}

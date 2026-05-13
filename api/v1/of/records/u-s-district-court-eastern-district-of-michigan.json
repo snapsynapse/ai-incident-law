@@ -1,0 +1,18 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Authority",
+  "@id": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json",
+  "id": "u-s-district-court-eastern-district-of-michigan",
+  "organization": {
+    "@type": "gist:Court",
+    "name": "U.S. District Court, Eastern District of Michigan"
+  },
+  "authority_basis": {
+    "kind": "judicial",
+    "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json#authority-basis"
+  },
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-mi"
+  }
+}

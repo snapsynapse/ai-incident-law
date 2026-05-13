@@ -1,0 +1,342 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "generated": "2026-04-22",
+  "proceedings": [
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-001-proceeding.json",
+      "id": "aiel-2024-001-proceeding",
+      "title": "Moffatt v. Air Canada, 2024 BCCRT 149",
+      "filed_date": "2024-02-14",
+      "issuedBy": "https://aiincidentlaw.org/authority/british-columbia-civil-resolution-tribunal.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2024-001-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2024-001-determination.json"
+      ],
+      "source": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
+      "ai_incident_law_record_id": "AIEL-2024-001",
+      "matter_type": "tribunal claim",
+      "status": "ordered"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2023-002-proceeding.json",
+      "id": "aiel-2023-002-proceeding",
+      "title": "Mata v. Avianca, Inc., No. 22-cv-1461",
+      "filed_date": "2023-06-22",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2023-002-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2023-002-determination.json"
+      ],
+      "source": "https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1:2022cv01461/575368/54/",
+      "ai_incident_law_record_id": "AIEL-2023-002",
+      "matter_type": "sanctions order",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-003-proceeding.json",
+      "id": "aiel-2024-003-proceeding",
+      "title": "Park v. Kim, No. 22-2057",
+      "filed_date": "2024-01-30",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-second-circuit.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2024-003-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2024-003-determination.json"
+      ],
+      "source": "https://law.justia.com/cases/federal/appellate-courts/ca2/22-2057/22-2057-2024-01-30.html",
+      "ai_incident_law_record_id": "AIEL-2024-003",
+      "matter_type": "sanctions / discipline referral order",
+      "status": "ordered"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2025-004-proceeding.json",
+      "id": "aiel-2025-004-proceeding",
+      "title": "Wadsworth v. Walmart Inc.",
+      "filed_date": "2025-01-01",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-wyoming.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2025-004-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2025-004-determination.json"
+      ],
+      "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
+      "ai_incident_law_record_id": "AIEL-2025-004",
+      "matter_type": "sanctions order",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-005-proceeding.json",
+      "id": "aiel-2026-005-proceeding",
+      "title": "Fletcher v. Experian Information Solutions, Inc., No. 25-20086",
+      "filed_date": "2026-02-18",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-fifth-circuit.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-005-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-005-determination.json"
+      ],
+      "source": "https://ca5.uscourts.gov/opinions/pub/25/25-20086-CV0.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-005",
+      "matter_type": "sanctions order",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2025-006-proceeding.json",
+      "id": "aiel-2025-006-proceeding",
+      "title": "Huffman Construction, LLC, ASBCA Nos. 62591, 62783",
+      "filed_date": "2025-10-23",
+      "issuedBy": "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2025-006-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2025-006-determination.json"
+      ],
+      "source": "https://asbca.mil/LinkClick.aspx?fileticket=eAIy2KSL_Zg%3D&portalid=143",
+      "ai_incident_law_record_id": "AIEL-2025-006",
+      "matter_type": "sanctions / strike order",
+      "status": "ordered"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2025-007-proceeding.json",
+      "id": "aiel-2025-007-proceeding",
+      "title": "Buchanan v. Vuori, Inc., No. 5:23-cv-01121-NC",
+      "filed_date": "2025-11-20",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2025-007-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2025-007-determination.json"
+      ],
+      "source": "https://law.berkeley.edu/wp-content/uploads/2025/12/Buchanan.pdf",
+      "ai_incident_law_record_id": "AIEL-2025-007",
+      "matter_type": "sanctions order",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-008-proceeding.json",
+      "id": "aiel-2024-008-proceeding",
+      "title": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
+      "filed_date": "2024-03-08",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida-florida-supreme-court.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2024-008-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2024-008-determination.json"
+      ],
+      "source": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
+      "ai_incident_law_record_id": "AIEL-2024-008",
+      "matter_type": "disciplinary matter",
+      "status": "resolved"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2023-009-proceeding.json",
+      "id": "aiel-2023-009-proceeding",
+      "title": "EEOC v. iTutorGroup, Inc., et al., No. 1:22-cv-02565",
+      "filed_date": "2022-05-05",
+      "issuedBy": "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2023-009-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2023-009-determination.json"
+      ],
+      "source": "https://eeoc.gov/newsroom/itutorgroup-pay-365000-settle-eeoc-discriminatory-hiring-suit",
+      "ai_incident_law_record_id": "AIEL-2023-009",
+      "matter_type": "regulatory enforcement / federal lawsuit",
+      "status": "settled"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-010-proceeding.json",
+      "id": "aiel-2024-010-proceeding",
+      "title": "Louis et al. v. SafeRent Solutions, LLC et al.",
+      "filed_date": "2022-05-01",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts-doj-hud.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2024-010-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2024-010-determination.json"
+      ],
+      "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
+      "ai_incident_law_record_id": "AIEL-2024-010",
+      "matter_type": "court complaint / agency statement of interest",
+      "status": "settled"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2022-011-proceeding.json",
+      "id": "aiel-2022-011-proceeding",
+      "title": "Bauserman v. Unemployment Insurance Agency",
+      "filed_date": "2015-01-01",
+      "issuedBy": "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2022-011-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2022-011-determination.json"
+      ],
+      "source": "https://michigan.gov/ag/news/press-releases/2022/10/20/som-settlement-of-civil-rights-class-action-alleging-false-accusations-of-unemployment-fraud",
+      "ai_incident_law_record_id": "AIEL-2022-011",
+      "matter_type": "class action / state constitutional tort",
+      "status": "settled"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2017-012-proceeding.json",
+      "id": "aiel-2017-012-proceeding",
+      "title": "Ledgerwood v. Arkansas Department of Human Services / related federal litigation",
+      "filed_date": "2017-01-27",
+      "issuedBy": "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2017-012-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2017-012-determination.json"
+      ],
+      "source": "https://law.justia.com/cases/arkansas/supreme-court/2017/cv-17-183.html",
+      "ai_incident_law_record_id": "AIEL-2017-012",
+      "matter_type": "state APA / civil rights litigation",
+      "status": "resolved"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2023-013-proceeding.json",
+      "id": "aiel-2023-013-proceeding",
+      "title": "FTC v. Rite Aid facial-recognition enforcement",
+      "filed_date": "2023-12-19",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-federal-trade-commission.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2023-013-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2023-013-determination.json"
+      ],
+      "source": "https://ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without",
+      "ai_incident_law_record_id": "AIEL-2023-013",
+      "matter_type": "regulatory enforcement",
+      "status": "settled"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-014-proceeding.json",
+      "id": "aiel-2024-014-proceeding",
+      "title": "Williams v. City of Detroit, No. 2:21-cv-10827",
+      "filed_date": "2021-04-01",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2024-014-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2024-014-determination.json"
+      ],
+      "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
+      "ai_incident_law_record_id": "AIEL-2024-014",
+      "matter_type": "federal civil rights lawsuit",
+      "status": "settled"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-015-proceeding.json",
+      "id": "aiel-2024-015-proceeding",
+      "title": "Parks v. McCormac, Civil No. 3:22-cv-05765",
+      "filed_date": "2022-09-01",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-new-jersey.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2024-015-allegation.json"
+      ],
+      "hasDetermination": [],
+      "source": "https://aclu.org/cases/parks-v-mccormac",
+      "ai_incident_law_record_id": "AIEL-2024-015",
+      "matter_type": "federal civil rights lawsuit",
+      "status": "pending"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2025-016-proceeding.json",
+      "id": "aiel-2025-016-proceeding",
+      "title": "Woodruff v. Oliver, No. 2:23-cv-11597",
+      "filed_date": "2023-07-01",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2025-016-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2025-016-determination.json"
+      ],
+      "source": "https://aclu.org/cases/woodruff-v-oliver",
+      "ai_incident_law_record_id": "AIEL-2025-016",
+      "matter_type": "federal civil rights lawsuit",
+      "status": "dismissed / appeal flagged"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-017-proceeding.json",
+      "id": "aiel-2024-017-proceeding",
+      "title": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
+      "filed_date": "2024-01-18",
+      "issuedBy": "https://aiincidentlaw.org/authority/harris-county-texas-state-court-remanded-from-s-d-tex.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2024-017-allegation.json"
+      ],
+      "hasDetermination": [],
+      "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+      "ai_incident_law_record_id": "AIEL-2024-017",
+      "matter_type": "state civil lawsuit",
+      "status": "pending"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2025-018-proceeding.json",
+      "id": "aiel-2025-018-proceeding",
+      "title": "Mobley v. Workday, Inc., No. 3:23-cv-00770",
+      "filed_date": "2023-02-21",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2025-018-allegation.json"
+      ],
+      "hasDetermination": [],
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-00770/pdf/USCOURTS-cand-3_23-cv-00770-1.pdf",
+      "ai_incident_law_record_id": "AIEL-2025-018",
+      "matter_type": "federal class / collective action",
+      "status": "pending"
+    }
+  ]
+}

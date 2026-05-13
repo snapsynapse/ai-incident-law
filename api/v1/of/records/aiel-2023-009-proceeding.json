@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2023-009-proceeding.json",
+  "id": "aiel-2023-009-proceeding",
+  "title": "EEOC v. iTutorGroup, Inc., et al., No. 1:22-cv-02565",
+  "filed_date": "2022-05-05",
+  "issuedBy": "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2023-009-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2023-009-determination.json"
+  ],
+  "source": "https://eeoc.gov/newsroom/itutorgroup-pay-365000-settle-eeoc-discriminatory-hiring-suit",
+  "ai_incident_law_record_id": "AIEL-2023-009",
+  "matter_type": "regulatory enforcement / federal lawsuit",
+  "status": "settled"
+}

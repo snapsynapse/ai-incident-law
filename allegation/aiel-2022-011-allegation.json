@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2022-011-allegation.json",
+  "id": "aiel-2022-011-allegation",
+  "text": "MiDAS issued automated unemployment-fraud determinations that were later found overwhelmingly erroneous. Claimants were assessed penalties and collection actions after automated determinations without adequate process.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2022-011#ai-system",
+  "ai_system_name": "Michigan Integrated Data Automated System (MiDAS)",
+  "deployer": "Michigan Unemployment Insurance Agency",
+  "domain": "government services",
+  "error_type": "false fraud classification",
+  "canonical_source_conflicted": "Unemployment insurance fraud standards and constitutional due-process requirements",
+  "mitigation_gap": "Automated flags lacked meaningful human review and adequate notice/opportunity to contest; error monitoring and escalation failed.",
+  "reliance_or_harm": "Thousands of claimants were wrongfully accused and faced garnishments, penalties, and collection actions; state settled for $20 million.",
+  "ai_incident_law_record_id": "AIEL-2022-011"
+}

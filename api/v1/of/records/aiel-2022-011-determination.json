@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2022-011-determination.json",
+  "id": "aiel-2022-011-determination",
+  "issued_date": "2015-01-01",
+  "issuedBy": "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2022-011-allegation.json"
+  ],
+  "disposition": "settled",
+  "remedy": {
+    "status": "settled",
+    "notes": "Michigan announced $20 million settlement; Michigan Supreme Court recognized damages availability for the constitutional tort theory."
+  },
+  "notes": "Michigan announced $20 million settlement; Michigan Supreme Court recognized damages availability for the constitutional tort theory.",
+  "source": "https://michigan.gov/ag/news/press-releases/2022/10/20/som-settlement-of-civil-rights-class-action-alleging-false-accusations-of-unemployment-fraud",
+  "ai_incident_law_record_id": "AIEL-2022-011"
+}

@@ -1,0 +1,18 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Authority",
+  "@id": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json",
+  "id": "u-s-district-court-northern-district-of-california",
+  "organization": {
+    "@type": "gist:Court",
+    "name": "U.S. District Court, Northern District of California"
+  },
+  "authority_basis": {
+    "kind": "judicial",
+    "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json#authority-basis"
+  },
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-ca"
+  }
+}

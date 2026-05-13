@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-001-proceeding.json",
+  "id": "aiel-2024-001-proceeding",
+  "title": "Moffatt v. Air Canada, 2024 BCCRT 149",
+  "filed_date": "2024-02-14",
+  "issuedBy": "https://aiincidentlaw.org/authority/british-columbia-civil-resolution-tribunal.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2024-001-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2024-001-determination.json"
+  ],
+  "source": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
+  "ai_incident_law_record_id": "AIEL-2024-001",
+  "matter_type": "tribunal claim",
+  "status": "ordered"
+}

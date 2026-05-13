@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2025-018-proceeding.json",
+  "id": "aiel-2025-018-proceeding",
+  "title": "Mobley v. Workday, Inc., No. 3:23-cv-00770",
+  "filed_date": "2023-02-21",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2025-018-allegation.json"
+  ],
+  "hasDetermination": [],
+  "source": "https://govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-00770/pdf/USCOURTS-cand-3_23-cv-00770-1.pdf",
+  "ai_incident_law_record_id": "AIEL-2025-018",
+  "matter_type": "federal class / collective action",
+  "status": "pending"
+}

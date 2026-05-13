@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2025-006-determination.json",
+  "id": "aiel-2025-006-determination",
+  "issued_date": "2025-10-23",
+  "issuedBy": "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2025-006-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "ordered",
+    "notes": "Reply brief struck; corrected reply denied; board issued broader AI-use caution."
+  },
+  "notes": "Reply brief struck; corrected reply denied; board issued broader AI-use caution.",
+  "source": "https://asbca.mil/LinkClick.aspx?fileticket=eAIy2KSL_Zg%3D&portalid=143",
+  "ai_incident_law_record_id": "AIEL-2025-006"
+}

@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2025-006-allegation.json",
+  "id": "aiel-2025-006-allegation",
+  "text": "A post-hearing brief contained fictitious cases, false transcript citations, false Rule 4 file citations, and references to transcript pages that did not exist. Counsel admitted AI use in connection with the brief.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2025-006#ai-system",
+  "ai_system_name": "Unspecified generative AI tool",
+  "deployer": "Counsel for Huffman Construction, LLC",
+  "domain": "legal services / government contracts",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "ASBCA precedents, transcript volumes, and Rule 4 appeal file",
+  "mitigation_gap": "Counsel and staff reviewed the brief but did not verify citations against the actual record or authorities; safeguards were found inadequate.",
+  "reliance_or_harm": "Board struck the entire reply brief and denied leave to refile.",
+  "ai_incident_law_record_id": "AIEL-2025-006"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2023-002-determination.json",
+  "id": "aiel-2023-002-determination",
+  "issued_date": "2023-06-22",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2023-002-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "Court imposed a $5,000 sanction and ordered notice to affected judges and client."
+  },
+  "notes": "Court imposed a $5,000 sanction and ordered notice to affected judges and client.",
+  "source": "https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1:2022cv01461/575368/54/",
+  "ai_incident_law_record_id": "AIEL-2023-002"
+}

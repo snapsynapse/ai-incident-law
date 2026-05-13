@@ -1,0 +1,18 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Authority",
+  "@id": "https://aiincidentlaw.org/authority/u-s-federal-trade-commission.json",
+  "id": "u-s-federal-trade-commission",
+  "organization": {
+    "@type": "gist:GovernmentOrganization",
+    "name": "U.S. Federal Trade Commission"
+  },
+  "authority_basis": {
+    "kind": "statutory",
+    "instrument_ref": "https://aiincidentlaw.org/authority/u-s-federal-trade-commission.json#authority-basis"
+  },
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us"
+  }
+}

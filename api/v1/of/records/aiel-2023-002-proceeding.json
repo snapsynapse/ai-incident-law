@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2023-002-proceeding.json",
+  "id": "aiel-2023-002-proceeding",
+  "title": "Mata v. Avianca, Inc., No. 22-cv-1461",
+  "filed_date": "2023-06-22",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2023-002-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2023-002-determination.json"
+  ],
+  "source": "https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1:2022cv01461/575368/54/",
+  "ai_incident_law_record_id": "AIEL-2023-002",
+  "matter_type": "sanctions order",
+  "status": "sanctioned"
+}

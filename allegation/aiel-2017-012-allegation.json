@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2017-012-allegation.json",
+  "id": "aiel-2017-012-allegation",
+  "text": "Arkansas replaced nurse assessment logic with a computerized RUGs allocation model that reduced home-care hours for many Medicaid beneficiaries. Litigation alleged the system failed to account for individualized conditions and was implemented without proper rulemaking or due process.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2017-012#ai-system",
+  "ai_system_name": "Resource Utilization Groups (RUGs) computerized care-allocation algorithm",
+  "deployer": "Arkansas Department of Human Services",
+  "domain": "government services / healthcare",
+  "error_type": "wrongful eligibility / allocation",
+  "canonical_source_conflicted": "Medicaid home- and community-based services rules, state APA procedures, individualized care needs",
+  "mitigation_gap": "No adequate rulemaking, transparency, individualized validation, or notice process accompanied the algorithmic allocation change.",
+  "reliance_or_harm": "Disabled beneficiaries lost care hours and challenged the system; state-court rulings and later federal litigation led to relief and reforms.",
+  "ai_incident_law_record_id": "AIEL-2017-012"
+}

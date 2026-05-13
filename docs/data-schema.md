@@ -111,10 +111,22 @@ There is intentionally no strict full-schema validator yet. Current practice is:
 - `review` and `global` records should have enough metadata to justify continued inclusion in the queue and make the next verification step obvious
 - URL-bearing fields must use `https://` bare domains after normalization
 
+## Obligation-First export
+
+Included records are exported under `/api/v1/of/` as Obligation-First v0.1 records:
+
+- each distinct jurisdiction string becomes an `of:Authority`
+- each included matter becomes an `of:Proceeding`
+- each included matter becomes one `of:Allegation` describing the AI-related failure asserted in the public record
+- included matters with settled, ordered, sanctioned, resolved, or dismissed postures also become `of:Determination` records
+
+Pending included records are exported without `of:Determination` records until the source record has a resolving posture. `review` and `global` records are not exported because they are editorial queues rather than admitted public matters.
+
 ## Editing rules
 
 - Edit [data/data.json](/Users/snap/Git/ai-incident-law/data/data.json), not [data.js](/Users/snap/Git/ai-incident-law/data.js)
 - Run `npm run build` after changes
+- Run `npm run validate:of` when an Obligation-First checkout is available beside this repo or via `OBLIGATION_FIRST_DIR`
 - Keep identifiers stable once published
 - Prefer source improvement over field proliferation
 - Add new fields sparingly and document them here when they become part of normal maintenance

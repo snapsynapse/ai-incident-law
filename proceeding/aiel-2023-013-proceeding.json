@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2023-013-proceeding.json",
+  "id": "aiel-2023-013-proceeding",
+  "title": "FTC v. Rite Aid facial-recognition enforcement",
+  "filed_date": "2023-12-19",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-federal-trade-commission.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2023-013-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2023-013-determination.json"
+  ],
+  "source": "https://ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without",
+  "ai_incident_law_record_id": "AIEL-2023-013",
+  "matter_type": "regulatory enforcement",
+  "status": "settled"
+}

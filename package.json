@@ -16,9 +16,12 @@
   },
   "scripts": {
     "build:data": "node scripts/build-data.mjs",
+    "build:of": "node scripts/build-obligation-first.mjs",
     "validate:data": "node scripts/validate-data.mjs",
-    "build": "npm run build:data && npm run validate:data",
-    "check": "npm run validate:data",
+    "validate:of": "node scripts/validate-obligation-first.mjs",
+    "eval:of": "node scripts/eval-obligation-first.mjs",
+    "build": "npm run build:data && npm run build:of && npm run validate:data",
+    "check": "npm run validate:data && npm run eval:of",
     "serve": "python3 -m http.server 4173"
   }
 }

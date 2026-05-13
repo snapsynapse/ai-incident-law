@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2025-007-allegation.json",
+  "id": "aiel-2025-007-allegation",
+  "text": "Class counsel used multiple AI tools to draft and cross-check a class settlement approval brief. The filing contained fabricated quotations from real cases and at least one nonexistent case, and a corrected filing failed to remove the hallucinations.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2025-007#ai-system",
+  "ai_system_name": "Six unspecified AI tools used concurrently",
+  "deployer": "Plaintiff class counsel in Vuori wage-and-hour case",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Actual case law and settlement approval standards",
+  "mitigation_gap": "AI tools were used to verify each other instead of checking legal databases; corrected filing did not correct false authority.",
+  "reliance_or_harm": "Settlement motions were struck; counsel was found inadequate as class counsel; class settlement collapsed into individual resolution.",
+  "ai_incident_law_record_id": "AIEL-2025-007"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2024-008-determination.json",
+  "id": "aiel-2024-008-determination",
+  "issued_date": "2024-03-08",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida-florida-supreme-court.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2024-008-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "resolved",
+    "notes": "AI hallucinations are recorded as corroborating misconduct, not necessarily the sole basis for discipline."
+  },
+  "notes": "AI hallucinations are recorded as corroborating misconduct, not necessarily the sole basis for discipline.",
+  "source": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
+  "ai_incident_law_record_id": "AIEL-2024-008"
+}

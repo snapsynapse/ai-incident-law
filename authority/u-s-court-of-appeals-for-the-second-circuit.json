@@ -1,0 +1,18 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Authority",
+  "@id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-second-circuit.json",
+  "id": "u-s-court-of-appeals-for-the-second-circuit",
+  "organization": {
+    "@type": "gist:Court",
+    "name": "U.S. Court of Appeals for the Second Circuit"
+  },
+  "authority_basis": {
+    "kind": "judicial",
+    "instrument_ref": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-second-circuit.json#authority-basis"
+  },
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Authority",
+  "@id": "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json",
+  "id": "armed-services-board-of-contract-appeals",
+  "organization": {
+    "@type": "gist:Court",
+    "name": "Armed Services Board of Contract Appeals"
+  },
+  "authority_basis": {
+    "kind": "judicial",
+    "instrument_ref": "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json#authority-basis"
+  },
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": ""
+  }
+}
