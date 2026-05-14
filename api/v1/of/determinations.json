@@ -171,7 +171,10 @@
       },
       "notes": "EEOC announced $365,000 settlement and remedial measures.",
       "source": "https://eeoc.gov/newsroom/itutorgroup-pay-365000-settle-eeoc-discriminatory-hiring-suit",
-      "ai_incident_law_record_id": "AIEL-2023-009"
+      "ai_incident_law_record_id": "AIEL-2023-009",
+      "anchors": [
+        "https://everyailaw.com/obligation/bias-prevention.json"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -190,7 +193,10 @@
       },
       "notes": "Settlement announced in 2024; algorithmic tenant screening treated as subject to fair-housing law.",
       "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
-      "ai_incident_law_record_id": "AIEL-2024-010"
+      "ai_incident_law_record_id": "AIEL-2024-010",
+      "anchors": [
+        "https://everyailaw.com/obligation/bias-prevention.json"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -247,7 +253,10 @@
       },
       "notes": "FTC announced five-year facial-recognition ban and algorithmic fairness/monitoring requirements.",
       "source": "https://ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without",
-      "ai_incident_law_record_id": "AIEL-2023-013"
+      "ai_incident_law_record_id": "AIEL-2023-013",
+      "anchors": [
+        "https://everyailaw.com/obligation/bias-prevention.json"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",

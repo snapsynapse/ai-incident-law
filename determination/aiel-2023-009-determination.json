@@ -15,5 +15,8 @@
   },
   "notes": "EEOC announced $365,000 settlement and remedial measures.",
   "source": "https://eeoc.gov/newsroom/itutorgroup-pay-365000-settle-eeoc-discriminatory-hiring-suit",
-  "ai_incident_law_record_id": "AIEL-2023-009"
+  "ai_incident_law_record_id": "AIEL-2023-009",
+  "anchors": [
+    "https://everyailaw.com/obligation/bias-prevention.json"
+  ]
 }

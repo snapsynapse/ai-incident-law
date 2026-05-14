@@ -76,6 +76,12 @@ function firstUrl(value) {
   return String(value || "").split(";").map(item => item.trim()).filter(Boolean)[0];
 }
 
+function stringArray(value) {
+  if (value === undefined || value === null || value === "") return [];
+  if (Array.isArray(value)) return value.map(item => String(item).trim()).filter(Boolean);
+  return String(value).split(";").map(item => item.trim()).filter(Boolean);
+}
+
 function buildAuthorityRecords(records) {
   const byId = new Map();
   for (const record of records) {
@@ -153,7 +159,7 @@ function buildMatterRecords(records) {
     });
 
     if (disposition) {
-      determinations.push({
+      const determination = {
         "@context": OF_CONTEXT,
         "@type": "of:Determination",
         "@id": determinationUri,
@@ -169,7 +175,12 @@ function buildMatterRecords(records) {
         notes: record.notes_on_resolution,
         source: firstUrl(record.public_record_link),
         ai_incident_law_record_id: record.error_id
-      });
+      };
+
+      const anchors = stringArray(record.obligation_first_anchors);
+      if (anchors.length > 0) determination.anchors = anchors;
+
+      determinations.push(determination);
     }
   }
 

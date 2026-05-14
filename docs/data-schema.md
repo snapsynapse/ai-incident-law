@@ -102,6 +102,7 @@ These appear mainly on `review` and `global` records.
 | `source_language` | Source language for untranslated materials |
 | `translation_status` | Translation completeness or confidence |
 | `authority_type` | Court, agency, regulator, press, or similar source authority label |
+| `obligation_first_anchors` | Optional array or semicolon-delimited list of Obligation-First `of:Obligation` IRIs interpreted or applied by the matter's Determination |
 
 ## Required versus expected
 
@@ -119,8 +120,19 @@ Included records are exported under `/api/v1/of/` as Obligation-First v0.1 recor
 - each included matter becomes an `of:Proceeding`
 - each included matter becomes one `of:Allegation` describing the AI-related failure asserted in the public record
 - included matters with settled, ordered, sanctioned, resolved, or dismissed postures also become `of:Determination` records
+- records with `obligation_first_anchors` pass those IRIs through to `of:Determination.anchors`
 
 Pending included records are exported without `of:Determination` records until the source record has a resolving posture. `review` and `global` records are not exported because they are editorial queues rather than admitted public matters.
+
+Example:
+
+```json
+"obligation_first_anchors": [
+  "https://everyailaw.com/obligation/bias-prevention.json"
+]
+```
+
+Anchor selection policy: add anchors only when the matter's public record applies or interprets a specific Obligation-First obligation with high confidence. Do not anchor generic litigation-process duties or weak topical similarity. Current evals require EveryAILaw `of:Obligation` IRIs and reject anchors on pending matters that do not generate Determinations.
 
 ## Editing rules
 

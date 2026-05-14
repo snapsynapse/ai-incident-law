@@ -15,5 +15,8 @@
   },
   "notes": "FTC announced five-year facial-recognition ban and algorithmic fairness/monitoring requirements.",
   "source": "https://ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without",
-  "ai_incident_law_record_id": "AIEL-2023-013"
+  "ai_incident_law_record_id": "AIEL-2023-013",
+  "anchors": [
+    "https://everyailaw.com/obligation/bias-prevention.json"
+  ]
 }

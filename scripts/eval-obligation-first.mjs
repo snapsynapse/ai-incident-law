@@ -14,6 +14,7 @@ const companionDirs = {
   allegations: "allegation",
   determinations: "determination"
 };
+const EVERYAILAW_OBLIGATION_RE = /^https:\/\/everyailaw\.com\/obligation\/[a-z0-9-]+\.json$/;
 const failures = [];
 
 async function readJson(file) {
@@ -50,6 +51,12 @@ function determinationDisposition(status) {
   if (normalized.includes("dismissed")) return "dismissed";
   if (normalized.includes("sanctioned") || normalized.includes("ordered") || normalized.includes("resolved")) return "confirmed";
   return "partial";
+}
+
+function stringArray(value) {
+  if (value === undefined || value === null || value === "") return [];
+  if (Array.isArray(value)) return value.map(item => String(item).trim()).filter(Boolean);
+  return String(value).split(";").map(item => item.trim()).filter(Boolean);
 }
 
 for (const [kind, fileName] of Object.entries(index.files || {})) {
@@ -163,6 +170,18 @@ for (const record of included) {
   if (!disposition && determination) {
     fail(`${record.error_id} has determination despite unresolved status ${record.filing_status}`);
   }
+  const expectedAnchors = stringArray(record.obligation_first_anchors);
+  if (!disposition && expectedAnchors.length > 0) {
+    fail(`${record.error_id} has obligation_first_anchors but no generated Determination`);
+  }
+  for (const anchor of expectedAnchors) {
+    if (!EVERYAILAW_OBLIGATION_RE.test(anchor)) {
+      fail(`${record.error_id} obligation_first_anchors must use EveryAILaw obligation IRIs: ${anchor}`);
+    }
+  }
+  if (new Set(expectedAnchors).size !== expectedAnchors.length) {
+    fail(`${record.error_id} has duplicate obligation_first_anchors`);
+  }
   if (disposition && !determination) {
     fail(`${record.error_id} missing determination for status ${record.filing_status}`);
   }
@@ -171,6 +190,12 @@ for (const record of included) {
   }
   if (determination && determination.id !== `${stem}-determination`) {
     fail(`${record.error_id} determination id drifted`);
+  }
+  if (determination) {
+    const actualAnchors = determination.anchors || [];
+    if (stable(actualAnchors) !== stable(expectedAnchors)) {
+      fail(`${record.error_id} determination anchors do not match source obligation_first_anchors`);
+    }
   }
 }
 
