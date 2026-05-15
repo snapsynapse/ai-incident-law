@@ -2,6 +2,10 @@
 
 Standalone, dependency-free single-page application for browsing AI Incident Law, a searchable index of public matters involving AI-related incidents, failures, and resulting legal or regulatory action.
 
+## Part of the PAICE legal graph
+
+AI Incident Law is one component of the PAICE legal graph (with EveryAILaw, PubLedge, and Obligation First). It is intentionally open: code under MIT, dataset under CC BY 4.0, commercial use permitted with attribution. The open siblings are funded by EveryAILaw Pro, the graph's single restricted layer; openness here is a deliberate PBC-charter choice. The canonical model is in the PAICE Foundation INTENT. Attribution: "AI Incident Law, PAICE.work PBC, CC BY 4.0".
+
 ## Repo layout
 
 - `index.html` is the application shell.
@@ -84,7 +88,7 @@ Then open the local server in your browser.
 Preferred dataset attribution:
 
 ```text
-AI Incident Law, Sam Rogers, CC BY 4.0.
+AI Incident Law, PAICE.work PBC, CC BY 4.0.
 Source project: https://aiincidentlaw.org/
 ```
 
