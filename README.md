@@ -2,6 +2,18 @@
 
 Standalone, dependency-free single-page application for browsing AI Incident Law, a searchable index of public matters involving AI-related incidents, failures, and resulting legal or regulatory action.
 
+## Who this is for
+
+Compliance teams, legal counsel, AI governance leads, and researchers tracking how AI failures turn into legal and regulatory action.
+
+## What problem it solves
+
+AI incidents and their legal consequences are scattered across public records with no structured, searchable index. AI Incident Law is an open corpus of public AI-related matters, queryable by humans and agents.
+
+## Canonical URL
+
+https://aiincidentlaw.org/
+
 ## Part of the PAICE legal graph
 
 AI Incident Law is one component of the PAICE legal graph (with EveryAILaw, PubLedge, and Obligation First). It is intentionally open: code under MIT, dataset under CC BY 4.0, commercial use permitted with attribution. The open siblings are funded by EveryAILaw Pro, the graph's single restricted layer; openness here is a deliberate PBC-charter choice. The canonical model is in the PAICE Foundation INTENT. Attribution: "AI Incident Law, PAICE.work PBC, CC BY 4.0".
