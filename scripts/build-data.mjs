@@ -1,58 +1,16 @@
 import { readFile, writeFile } from "node:fs/promises";
+import { normalizeUrlFields } from "./url-policy.mjs";
 
 const SOURCE_PATH = new URL("../data/data.json", import.meta.url);
 const OUTPUT_PATH = new URL("../data.js", import.meta.url);
 const DATASET_ORDER = ["included", "review", "global"];
-const URL_FIELDS = ["public_record_link", "secondary_source_links", "best_available_sources"];
-
-function normalizeUrl(value) {
-  try {
-    const url = new URL(value);
-    if (url.protocol === "http:") {
-      url.protocol = "https:";
-    }
-    if (url.hostname.toLowerCase().startsWith("www.")) {
-      url.hostname = url.hostname.slice(4);
-    }
-    return url.toString();
-  } catch {
-    return value;
-  }
-}
-
-function normalizeUrlList(value) {
-  return String(value || "")
-    .split(";")
-    .map((item) => item.trim())
-    .filter(Boolean)
-    .map(normalizeUrl)
-    .join("; ");
-}
-
-function normalizeRecord(record) {
-  const next = { ...record };
-
-  for (const field of URL_FIELDS) {
-    if (!next[field]) {
-      continue;
-    }
-
-    if (field === "public_record_link") {
-      next[field] = normalizeUrl(String(next[field]).trim());
-      continue;
-    }
-
-    next[field] = normalizeUrlList(next[field]);
-  }
-
-  return next;
-}
 
 function normalizeDataset(data) {
   const next = {
     generated_at: data.generated_at,
     datasets: {},
   };
+  const issues = [];
 
   for (const key of DATASET_ORDER) {
     const bucket = data.datasets?.[key];
@@ -63,7 +21,12 @@ function normalizeDataset(data) {
 
     next.datasets[key] = {
       ...bucket,
-      records: (bucket.records || []).map(normalizeRecord),
+      records: (bucket.records || []).map((record, index) => {
+        const id = record.error_id || record.candidate_id || `${key}[${index}]`;
+        const normalized = normalizeUrlFields(record, `${key}.${id}`);
+        issues.push(...normalized.issues);
+        return normalized.record;
+      }),
     };
   }
 
@@ -74,11 +37,16 @@ function normalizeDataset(data) {
 
     next.datasets[key] = {
       ...bucket,
-      records: (bucket.records || []).map(normalizeRecord),
+      records: (bucket.records || []).map((record, index) => {
+        const id = record.error_id || record.candidate_id || `${key}[${index}]`;
+        const normalized = normalizeUrlFields(record, `${key}.${id}`);
+        issues.push(...normalized.issues);
+        return normalized.record;
+      }),
     };
   }
 
-  return next;
+  return { data: next, issues };
 }
 
 function buildBrowserBundle(data) {
@@ -93,10 +61,17 @@ function buildBrowserBundle(data) {
 
 const sourceText = await readFile(SOURCE_PATH, "utf8");
 const sourceData = JSON.parse(sourceText);
-const normalizedData = normalizeDataset(sourceData);
+const normalized = normalizeDataset(sourceData);
 
-await writeFile(SOURCE_PATH, `${JSON.stringify(normalizedData, null, 2)}\n`, "utf8");
-await writeFile(OUTPUT_PATH, buildBrowserBundle(normalizedData), "utf8");
+if (normalized.issues.length) {
+  console.error("Data build failed:\n");
+  for (const issue of normalized.issues) {
+    console.error(`- ${issue}`);
+  }
+  process.exit(1);
+}
+
+await writeFile(SOURCE_PATH, `${JSON.stringify(normalized.data, null, 2)}\n`, "utf8");
+await writeFile(OUTPUT_PATH, buildBrowserBundle(normalized.data), "utf8");
 
 console.log(`Built ${OUTPUT_PATH.pathname.split("/").pop()} from ${SOURCE_PATH.pathname.split("/").pop()}.`);
-

@@ -1,35 +1,12 @@
 import { readFile } from "node:fs/promises";
+import { URL_FIELD_POLICIES, normalizeUrlField } from "./url-policy.mjs";
 
 const SOURCE_PATH = new URL("../data/data.json", import.meta.url);
 const REQUIRED_DATASETS = ["included", "review", "global"];
-const URL_FIELDS = ["public_record_link", "secondary_source_links", "best_available_sources"];
 const issues = [];
 
 function addIssue(message) {
   issues.push(message);
-}
-
-function extractUrls(value) {
-  return String(value || "").match(/https?:\/\/[^\s;]+/g) || [];
-}
-
-function validateUrl(url, location) {
-  let parsed;
-
-  try {
-    parsed = new URL(url);
-  } catch {
-    addIssue(`${location}: invalid URL "${url}"`);
-    return;
-  }
-
-  if (parsed.protocol !== "https:") {
-    addIssue(`${location}: URL must use https "${url}"`);
-  }
-
-  if (parsed.hostname.toLowerCase().startsWith("www.")) {
-    addIssue(`${location}: URL must use bare domain "${url}"`);
-  }
 }
 
 function recordId(record, datasetKey, index) {
@@ -69,9 +46,14 @@ for (const [datasetKey, bucket] of Object.entries(data.datasets || {})) {
       addIssue(`${datasetKey}.${id}: missing title fields`);
     }
 
-    for (const field of URL_FIELDS) {
-      for (const url of extractUrls(record[field])) {
-        validateUrl(url, `${datasetKey}.${id}.${field}`);
+    for (const field of Object.keys(URL_FIELD_POLICIES)) {
+      if (!record[field]) {
+        continue;
+      }
+
+      const normalized = normalizeUrlField(field, record[field], `${datasetKey}.${id}.${field}`);
+      for (const issue of normalized.issues) {
+        addIssue(issue);
       }
     }
   });
@@ -86,4 +68,3 @@ if (issues.length) {
 }
 
 console.log(`Validated ${seenIds.size} records in data/data.json.`);
-

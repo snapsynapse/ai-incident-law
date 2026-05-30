@@ -24,6 +24,12 @@ jobs:
       - name: Validate data pipeline
         run: npm run build
 
+      - name: Test URL policy
+        run: npm run test:url-policy
+
+      - name: Evaluate URL policy pipeline
+        run: npm run eval:url-policy
+
       - uses: actions/checkout@v4
         with:
           repository: snapsynapse/obligation-first

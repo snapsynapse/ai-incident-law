@@ -111,6 +111,9 @@ There is intentionally no strict full-schema validator yet. Current practice is:
 - `included` records should have stable IDs, titles, public matter context, a usable source, and enough summary fields to render clearly in the app
 - `review` and `global` records should have enough metadata to justify continued inclusion in the queue and make the next verification step obvious
 - URL-bearing fields must use `https://` bare domains after normalization
+- `public_record_link` must contain exactly one primary source URL
+- `secondary_source_links` and `best_available_sources` must contain semicolon-delimited URL lists
+- URL fields must not include appended prose, empty list entries, protocol-relative URLs, non-HTTP schemes, credentials, backslashes, encoded backslashes, embedded whitespace, control characters, or unsafe raw delimiters
 
 ## Obligation-First export
 

@@ -244,6 +244,9 @@ window.AIEL_DATA = {
           "secondary_source_links": "https://seyfarth.com/news-insights/eeocs-settlement-challenging-simple-algorithm-provides-warning-for-employers-using-artificial-intelligence.html",
           "confidence_score": "high",
           "notes_on_resolution": "EEOC announced $365,000 settlement and remedial measures.",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/bias-prevention.json"
+          ],
           "tags": "internal-use-but-public-consequence; employment; discrimination-claim; agency-action; public-record-confirmed",
           "source_quality": "official statement",
           "research_status": "included",
@@ -271,6 +274,9 @@ window.AIEL_DATA = {
           "secondary_source_links": "https://justice.gov/archives/opa/pr/justice-department-files-statement-interest-fair-housing-act-case-alleging-unlawful-algorithm; https://cohenmilstein.com/rental-applicants-reach-2-28m-settlement-agreement-for-discriminatory-ai-powered-screening-tool/",
           "confidence_score": "high",
           "notes_on_resolution": "Settlement announced in 2024; algorithmic tenant screening treated as subject to fair-housing law.",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/bias-prevention.json"
+          ],
           "tags": "internal-use-but-public-consequence; housing; discrimination-claim; agency-action; public-record-confirmed",
           "source_quality": "primary record",
           "research_status": "included",
@@ -352,6 +358,9 @@ window.AIEL_DATA = {
           "secondary_source_links": "",
           "confidence_score": "high",
           "notes_on_resolution": "FTC announced five-year facial-recognition ban and algorithmic fairness/monitoring requirements.",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/bias-prevention.json"
+          ],
           "tags": "facial-recognition; false-match; consumer-protection; agency-action; public-record-confirmed",
           "source_quality": "official statement",
           "research_status": "included",

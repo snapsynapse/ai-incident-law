@@ -72,10 +72,6 @@ function determinationDisposition(status) {
   return "partial";
 }
 
-function firstUrl(value) {
-  return String(value || "").split(";").map(item => item.trim()).filter(Boolean)[0];
-}
-
 function stringArray(value) {
   if (value === undefined || value === null || value === "") return [];
   if (Array.isArray(value)) return value.map(item => String(item).trim()).filter(Boolean);
@@ -134,7 +130,7 @@ function buildMatterRecords(records) {
       issuedBy: authorityUri,
       hasAllegation: [allegationUri],
       hasDetermination: disposition ? [determinationUri] : [],
-      source: firstUrl(record.public_record_link),
+      source: record.public_record_link,
       ai_incident_law_record_id: record.error_id,
       matter_type: record.public_matter_type,
       status: record.filing_status
@@ -173,7 +169,7 @@ function buildMatterRecords(records) {
           notes: record.notes_on_resolution
         },
         notes: record.notes_on_resolution,
-        source: firstUrl(record.public_record_link),
+        source: record.public_record_link,
         ai_incident_law_record_id: record.error_id
       };
 

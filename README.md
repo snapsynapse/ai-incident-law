@@ -52,12 +52,15 @@ The repo uses Node.js only for maintainer tooling. There are no install-time dep
 npm run build:data
 npm run build:of
 npm run validate:data
+npm run test:url-policy
+npm run eval:url-policy
 ```
 
-Or run the combined check:
+Or run the combined build and check:
 
 ```bash
 npm run build
+npm run check
 ```
 
 To preview over a local static server:
@@ -73,7 +76,12 @@ Then open the local server in your browser.
 - `data/data.json` is the source of truth.
 - `data.js` is generated and should not be edited by hand.
 - Source URLs are normalized to `https://` bare domains during the build step.
-- Validation fails on duplicate record identifiers, invalid URLs, `http://` links, or `www.` hosts.
+- Validation fails on duplicate record identifiers and malformed URL-field structure.
+- `public_record_link` must contain exactly one primary URL.
+- `secondary_source_links` and `best_available_sources` are semicolon-delimited URL lists.
+- URL normalization is intentionally narrow: `http://` is rewritten to `https://`, leading `www.` is stripped, surrounding whitespace is trimmed, and the URL parser serializes the final value.
+- URL validation rejects appended prose, empty list entries, protocol-relative URLs, non-HTTP schemes, credentials, backslashes, encoded backslashes, embedded whitespace, control characters, and unsafe raw delimiters.
+- URL-policy evals run malformed-source fixtures through the real build and validation scripts in temporary directories.
 - Included records are exported to Obligation-First as `of:Proceeding`, `of:Allegation`, and, when no longer pending, `of:Determination` records.
 - `review` and `global` records are editorial queues and are not exported to Obligation-First.
 

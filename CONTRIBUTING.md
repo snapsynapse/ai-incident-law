@@ -15,19 +15,25 @@ Run the full maintainer check before opening a pull request:
 
 ```bash
 npm run build
+npm run check
 ```
 
-This will:
+These commands will:
 
 - normalize URLs in `data/data.json`
 - regenerate `data.js`
 - validate dataset shape and URL policy
+- run the URL-policy regression suite
+- run malformed-source fixtures through the real URL-policy pipeline
+- evaluate the generated Obligation-First binding
 
 ## Data editing rules
 
 - Edit `data/data.json`, not `data.js`.
-- Use `https://` URLs.
-- Use bare domains rather than `www.` where the URL still resolves correctly.
+- Use `public_record_link` for exactly one primary source URL.
+- Use semicolon-delimited URL lists only in `secondary_source_links` and `best_available_sources`.
+- Use `https://` bare-domain URLs in final data. The build step may normalize `http://` to `https://` and strip a leading `www.` when the parsed URL remains otherwise unchanged.
+- Do not add prose, credentials, protocol-relative URLs, non-HTTP schemes, backslashes, encoded backslashes, control characters, or whitespace inside URL fields.
 - Keep record identifiers stable once published.
 
 ## Pull requests
