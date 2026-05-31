@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "server_name": "AI Incident Law",
+  "description": "Structured public-record reference for legal, regulatory, tribunal, and review-queue matters involving AI-related incidents and harms. Static JSON API and local stdio MCP server, read-only, no authentication.",
+  "publisher": {
+    "name": "PAICE",
+    "url": "https://paice.work/"
+  },
+  "capabilities": {
+    "resources": true,
+    "tools": true,
+    "prompts": false
+  },
+  "api_base": "https://aiincidentlaw.org/api/v1/of/",
+  "discovery": {
+    "site": "https://aiincidentlaw.org/",
+    "agents_json": "https://aiincidentlaw.org/agents.json",
+    "source_dataset": "https://aiincidentlaw.org/data/data.json",
+    "mcp_config": "https://aiincidentlaw.org/mcp.json"
+  },
+  "local_server": {
+    "transport": "stdio",
+    "command": "node",
+    "args": ["scripts/mcp-server.js"],
+    "tools": [
+      "list_datasets",
+      "list_records",
+      "get_record",
+      "search_records",
+      "list_authorities",
+      "get_authority",
+      "get_obligation_first_record"
+    ]
+  },
+  "static_endpoints": {
+    "obligation_first_index": "index.json",
+    "authorities": "authorities.json",
+    "proceedings": "proceedings.json",
+    "allegations": "allegations.json",
+    "determinations": "determinations.json",
+    "record": "records/{id}.json"
+  }
+}

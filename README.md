@@ -26,6 +26,10 @@ AI Incident Law is one component of the PAICE legal graph (with EveryAILaw, PubL
 - `data/data.json` is the canonical dataset for maintainers.
 - `data.js` is a generated browser bundle consumed by `index.html`.
 - `api/v1/of/` contains the generated Obligation-First binding for included public matters.
+- `mcp.json` configures the local read-only MCP stdio server.
+- `.well-known/mcp.json` advertises public MCP and static query endpoints.
+- `agents.json` and `robots.txt` advertise agent-facing discovery metadata.
+- `scripts/mcp-server.js` exposes query tools for MCP clients.
 - `scripts/build-data.mjs` normalizes source data and regenerates `data.js`.
 - `scripts/build-obligation-first.mjs` generates Obligation-First authorities, proceedings, allegations, and determinations.
 - `scripts/validate-data.mjs` validates record shape, duplicate identifiers, and URL conventions.
@@ -54,6 +58,8 @@ npm run build:of
 npm run validate:data
 npm run test:url-policy
 npm run eval:url-policy
+npm run test:mcp
+npm run test:discovery
 ```
 
 Or run the combined build and check:
@@ -84,6 +90,24 @@ Then open the local server in your browser.
 - URL-policy evals run malformed-source fixtures through the real build and validation scripts in temporary directories.
 - Included records are exported to Obligation-First as `of:Proceeding`, `of:Allegation`, and, when no longer pending, `of:Determination` records.
 - `review` and `global` records are editorial queues and are not exported to Obligation-First.
+
+## MCP access
+
+AI Incident Law includes a zero-dependency, read-only MCP stdio server for local agent queries:
+```bash
+node scripts/mcp-server.js
+```
+MCP clients can use [mcp.json](/Users/snap/Git/ai-incident-law/mcp.json). The public site advertises static discovery at `https://aiincidentlaw.org/.well-known/mcp.json`.
+
+Advertised tools:
+
+- `list_datasets`
+- `list_records`
+- `get_record`
+- `search_records`
+- `list_authorities`
+- `get_authority`
+- `get_obligation_first_record`
 
 ## Repository metadata
 

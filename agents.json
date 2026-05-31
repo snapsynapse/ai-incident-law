@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0.0",
+  "name": "AI Incident Law",
+  "description": "Structured public-record reference for legal, regulatory, tribunal, and review-queue matters involving AI-related incidents, failures, and harms.",
+  "url": "https://aiincidentlaw.org/",
+  "publisher": {
+    "name": "PAICE",
+    "url": "https://paice.work/",
+    "contact": "https://paice.work/contact/"
+  },
+  "capabilities": {
+    "api": {
+      "base_url": "https://aiincidentlaw.org/api/v1/of/",
+      "format": "json",
+      "authentication": "none",
+      "endpoints": [
+        {
+          "path": "index.json",
+          "description": "Obligation-First API manifest with available generated files and counts."
+        },
+        {
+          "path": "authorities.json",
+          "description": "Authorities generated from included public matters."
+        },
+        {
+          "path": "proceedings.json",
+          "description": "Proceedings generated from included public matters."
+        },
+        {
+          "path": "allegations.json",
+          "description": "Allegations describing AI-related failures asserted in public records."
+        },
+        {
+          "path": "determinations.json",
+          "description": "Determinations for included matters with resolving postures."
+        },
+        {
+          "path": "records/{id}.json",
+          "description": "Individual generated Obligation-First record by ID."
+        }
+      ]
+    },
+    "source_dataset": "https://aiincidentlaw.org/data/data.json",
+    "mcp_discovery": "https://aiincidentlaw.org/.well-known/mcp.json",
+    "mcp_config": "https://aiincidentlaw.org/mcp.json"
+  },
+  "actions": [
+    {
+      "name": "search_records",
+      "description": "Search the public AI Incident Law dataset by keyword using the local MCP stdio server.",
+      "transport": "mcp-stdio",
+      "tool": "search_records"
+    },
+    {
+      "name": "get_record",
+      "description": "Fetch a full public AI Incident Law source record by stable ID using the local MCP stdio server.",
+      "transport": "mcp-stdio",
+      "tool": "get_record"
+    },
+    {
+      "name": "get_obligation_first_record",
+      "description": "Fetch a generated Obligation-First authority, proceeding, allegation, or determination record.",
+      "transport": "mcp-stdio",
+      "tool": "get_obligation_first_record"
+    }
+  ],
+  "usage_notes": [
+    "This is a public-record reference, not legal advice.",
+    "Check last_verified_date or last_checked_date before presenting a record as current.",
+    "Preferred dataset attribution: AI Incident Law, PAICE.work PBC, CC BY 4.0."
+  ]
+}

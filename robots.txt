@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Exclude machine-readable endpoints from search engine crawling.
+Disallow: /api/
+Disallow: /agents.json
+Disallow: /.well-known/
+
+# AI agent discovery.
+Agents: https://aiincidentlaw.org/agents.json
+MCP: https://aiincidentlaw.org/.well-known/mcp.json

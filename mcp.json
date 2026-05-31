@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ai-incident-law": {
+      "command": "node",
+      "args": ["scripts/mcp-server.js"],
+      "type": "stdio"
+    }
+  }
+}

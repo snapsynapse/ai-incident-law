@@ -22,8 +22,10 @@
     "eval:of": "node scripts/eval-obligation-first.mjs",
     "eval:url-policy": "node scripts/eval-url-policy-pipeline.mjs",
     "test:url-policy": "node scripts/test-url-policy.mjs",
+    "test:mcp": "node --test tests/mcp-server.test.js",
+    "test:discovery": "node --test tests/discovery.test.js",
     "build": "npm run build:data && npm run build:of && npm run validate:data",
-    "check": "npm run validate:data && npm run test:url-policy && npm run eval:url-policy && npm run eval:of",
+    "check": "npm run validate:data && npm run test:url-policy && npm run eval:url-policy && npm run eval:of && npm run test:mcp && npm run test:discovery",
     "serve": "python3 -m http.server 4173"
   }
 }
