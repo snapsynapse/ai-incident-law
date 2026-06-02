@@ -379,6 +379,96 @@
         "@type": "gist:Jurisdiction",
         "ref": "us-ca"
       }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/supreme-court-of-alabama.json",
+      "id": "supreme-court-of-alabama",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "Supreme Court of Alabama"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/supreme-court-of-alabama.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": ""
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json",
+      "id": "u-s-district-court-eastern-district-of-pennsylvania",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. District Court, Eastern District of Pennsylvania"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-illinois.json",
+      "id": "u-s-district-court-northern-district-of-illinois",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. District Court, Northern District of Illinois"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-illinois.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/appellate-court-of-illinois-third-district.json",
+      "id": "appellate-court-of-illinois-third-district",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "Appellate Court of Illinois, Third District"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/appellate-court-of-illinois-third-district.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": ""
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-western-district-of-louisiana.json",
+      "id": "u-s-bankruptcy-court-western-district-of-louisiana",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. Bankruptcy Court, Western District of Louisiana"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-western-district-of-louisiana.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      }
     }
   ]
 }

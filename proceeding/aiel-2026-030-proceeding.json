@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-030-proceeding.json",
+  "id": "aiel-2026-030-proceeding",
+  "title": "Hulvat v. Gumina, 2026 IL App (3d) 240628-U",
+  "filed_date": "2026-04-09",
+  "issuedBy": "https://aiincidentlaw.org/authority/appellate-court-of-illinois-third-district.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-030-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2026-030-determination.json"
+  ],
+  "source": "https://damiencharlotin.com/documents/1966/Hulvat_v._Gumina_USA_9_April_2026.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-030",
+  "matter_type": "appellate sanction",
+  "status": "sanctioned"
+}

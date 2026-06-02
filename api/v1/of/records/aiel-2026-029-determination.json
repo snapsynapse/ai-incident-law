@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-029-determination.json",
+  "id": "aiel-2026-029-determination",
+  "issued_date": "2026-04-09",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-illinois.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-029-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "Motion struck (Local Rule 7.1) and $5,000 Rule 11 sanction. NOTE: Charlotin reported $4,999; the order imposes $5,000. Pro se status did not shelter the plaintiff from sanctions."
+  },
+  "notes": "Motion struck (Local Rule 7.1) and $5,000 Rule 11 sanction. NOTE: Charlotin reported $4,999; the order imposes $5,000. Pro se status did not shelter the plaintiff from sanctions.",
+  "source": "https://damiencharlotin.com/documents/1982/gov.uscourts.ilnd.475370.97.0.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-029"
+}

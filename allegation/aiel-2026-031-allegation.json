@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-031-allegation.json",
+  "id": "aiel-2026-031-allegation",
+  "text": "A bankruptcy court sanctioned attorney Kathleen Wilson after she admitted using generative AI to prepare a Supplemental Response and other pleadings without verifying the output. The filings contained AI-generated citations to nonexistent cases, including In re Garcia and In re Buttermilk Towne LLC.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-031#ai-system",
+  "ai_system_name": "Unnamed generative AI (admitted by counsel)",
+  "deployer": "Debtor’s counsel Kathleen Wilson",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Genuine case law; Fed. R. Bankr. P. 9011",
+  "mitigation_gap": "Failed to review or verify admittedly AI-generated content before filing.",
+  "reliance_or_harm": "False citations submitted to the court; sanctions and mandatory AI education imposed.",
+  "ai_incident_law_record_id": "AIEL-2026-031"
+}

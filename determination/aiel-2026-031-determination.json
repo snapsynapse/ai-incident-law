@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-031-determination.json",
+  "id": "aiel-2026-031-determination",
+  "issued_date": "2026-04-09",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-western-district-of-louisiana.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-031-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "$2,750 monetary sanction payable to the Clerk plus six hours of in-person CLE focused on the use of generative AI; counsel admitted the AI use."
+  },
+  "notes": "$2,750 monetary sanction payable to the Clerk plus six hours of in-person CLE focused on the use of generative AI; counsel admitted the AI use.",
+  "source": "https://damiencharlotin.com/documents/1989/In_re_Troylond_USA_9_April_2026.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-031"
+}

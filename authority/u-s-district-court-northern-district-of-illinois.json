@@ -1,0 +1,18 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Authority",
+  "@id": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-illinois.json",
+  "id": "u-s-district-court-northern-district-of-illinois",
+  "organization": {
+    "@type": "gist:Court",
+    "name": "U.S. District Court, Northern District of Illinois"
+  },
+  "authority_basis": {
+    "kind": "judicial",
+    "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-illinois.json#authority-basis"
+  },
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us"
+  }
+}

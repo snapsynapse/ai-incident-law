@@ -447,6 +447,101 @@
       "notes": "$2,500 Rule 11 sanction; ordered to notify the judge in every pending case where she appears; separately referred (with co-counsel Jo Saint-George) to the Second Circuit Grievance Panel per Ioio v. City of New York (2d Cir. Mar. 16, 2026). NOTE: the Charlotin \"LexisNexis\" tool tag is NOT supported — the court declined to credit LexisNexis as the source.",
       "source": "https://damiencharlotin.com/documents/2045/Fogarty_v._Fogarty_USA_29_April_2026.pdf",
       "ai_incident_law_record_id": "AIEL-2026-026"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-027-determination.json",
+      "id": "aiel-2026-027-determination",
+      "issued_date": "2026-04-24",
+      "issuedBy": "https://aiincidentlaw.org/authority/supreme-court-of-alabama.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-027-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "Counsel ordered to pay $17,200 in attorney fees and costs to the appellee, plus double costs, and barred from further filings absent leave; appeal dismissed."
+      },
+      "notes": "Counsel ordered to pay $17,200 in attorney fees and costs to the appellee, plus double costs, and barred from further filings absent leave; appeal dismissed.",
+      "source": "https://damiencharlotin.com/documents/2035/Ibach__Stewart_v._Steward_USA_24_April_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-027"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-028-determination.json",
+      "id": "aiel-2026-028-determination",
+      "issued_date": "2026-04-20",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-028-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "$5,000 Rule 11(c) sanction plus an AI-ethics CLE requirement; second AI-related sanction against the same attorney (prior sanctions exceeded $73,000)."
+      },
+      "notes": "$5,000 Rule 11(c) sanction plus an AI-ethics CLE requirement; second AI-related sanction against the same attorney (prior sanctions exceeded $73,000).",
+      "source": "https://damiencharlotin.com/documents/2001/Bunce_2_1.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-028"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-029-determination.json",
+      "id": "aiel-2026-029-determination",
+      "issued_date": "2026-04-09",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-illinois.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-029-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "Motion struck (Local Rule 7.1) and $5,000 Rule 11 sanction. NOTE: Charlotin reported $4,999; the order imposes $5,000. Pro se status did not shelter the plaintiff from sanctions."
+      },
+      "notes": "Motion struck (Local Rule 7.1) and $5,000 Rule 11 sanction. NOTE: Charlotin reported $4,999; the order imposes $5,000. Pro se status did not shelter the plaintiff from sanctions.",
+      "source": "https://damiencharlotin.com/documents/1982/gov.uscourts.ilnd.475370.97.0.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-029"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-030-determination.json",
+      "id": "aiel-2026-030-determination",
+      "issued_date": "2026-04-09",
+      "issuedBy": "https://aiincidentlaw.org/authority/appellate-court-of-illinois-third-district.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-030-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "Judgment for fees and costs of $3,178 entered against the appellant under Illinois Supreme Court Rule 375(b); dismissal of the complaint affirmed."
+      },
+      "notes": "Judgment for fees and costs of $3,178 entered against the appellant under Illinois Supreme Court Rule 375(b); dismissal of the complaint affirmed.",
+      "source": "https://damiencharlotin.com/documents/1966/Hulvat_v._Gumina_USA_9_April_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-030"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-031-determination.json",
+      "id": "aiel-2026-031-determination",
+      "issued_date": "2026-04-09",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-western-district-of-louisiana.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-031-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "$2,750 monetary sanction payable to the Clerk plus six hours of in-person CLE focused on the use of generative AI; counsel admitted the AI use."
+      },
+      "notes": "$2,750 monetary sanction payable to the Clerk plus six hours of in-person CLE focused on the use of generative AI; counsel admitted the AI use.",
+      "source": "https://damiencharlotin.com/documents/1989/In_re_Troylond_USA_9_April_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-031"
     }
   ]
 }

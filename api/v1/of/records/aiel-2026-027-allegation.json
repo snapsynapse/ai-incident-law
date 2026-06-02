@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-027-allegation.json",
+  "id": "aiel-2026-027-allegation",
+  "text": "The Supreme Court of Alabama found that briefs filed by appellants’ counsel (\"Hall\") contained numerous invalid citations the court determined were \"AI hallucinations,\" i.e., fake authorities created by an AI system. Counsel conceded the improper AI use, describing it as his first use of an AI research tool. The court dismissed the appeal as grossly deficient and imposed sanctions.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-027#ai-system",
+  "ai_system_name": "Unnamed generative-AI research tool (court finding; counsel conceded)",
+  "deployer": "Appellants’ counsel (attorney \"Hall\")",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Genuine legal authorities; Alabama Rules of Appellate Procedure",
+  "mitigation_gap": "No verification of AI-generated authorities before filing.",
+  "reliance_or_harm": "Fabricated authorities forced opposing party and the court to expend resources; appeal dismissed.",
+  "ai_incident_law_record_id": "AIEL-2026-027"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-028-determination.json",
+  "id": "aiel-2026-028-determination",
+  "issued_date": "2026-04-20",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-028-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "$5,000 Rule 11(c) sanction plus an AI-ethics CLE requirement; second AI-related sanction against the same attorney (prior sanctions exceeded $73,000)."
+  },
+  "notes": "$5,000 Rule 11(c) sanction plus an AI-ethics CLE requirement; second AI-related sanction against the same attorney (prior sanctions exceeded $73,000).",
+  "source": "https://damiencharlotin.com/documents/2001/Bunce_2_1.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-028"
+}

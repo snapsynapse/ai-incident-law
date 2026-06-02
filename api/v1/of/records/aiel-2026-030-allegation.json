@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-030-allegation.json",
+  "id": "aiel-2026-030-allegation",
+  "text": "An Illinois appellate court found that pro se appellant Robert S. Hulvat filed a brief \"produced using artificial intelligence\" that cited nine nonexistent cases and fictitious holdings, violating the Illinois Supreme Court AI policy and appellate rules. Hulvat asserted he had used a \"well-known generative legal research tool.\"",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-030#ai-system",
+  "ai_system_name": "Unnamed generative legal-research tool (per appellant; court finding)",
+  "deployer": "Pro se plaintiff-appellant Robert S. Hulvat",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Genuine Illinois case law; Illinois Supreme Court Policy on AI; Rule 375",
+  "mitigation_gap": "No verification of AI-generated authorities before filing.",
+  "reliance_or_harm": "Fictitious authorities forced opposing counsel to expend fees; dismissal affirmed.",
+  "ai_incident_law_record_id": "AIEL-2026-030"
+}

@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-028-allegation.json",
+  "id": "aiel-2026-028-allegation",
+  "text": "A district judge sanctioned defendants’ attorney Raja Rajan $5,000 under Rule 11(c) for his repeated improper use of generative AI in filings — his second such violation. The court rejected his plea for a lighter penalty, noting prior sanctions exceeding $73,000.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-028#ai-system",
+  "ai_system_name": "Unnamed generative AI (ChatGPT referenced in order)",
+  "deployer": "Defendants’ counsel Raja Rajan",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Genuine case law; Rule 11 duty of inquiry",
+  "mitigation_gap": "Failed to verify AI output despite a prior sanction and the court’s standing order on AI use.",
+  "reliance_or_harm": "Repeat submission of unverified AI-derived filings; escalating sanctions.",
+  "ai_incident_law_record_id": "AIEL-2026-028"
+}

@@ -1,0 +1,18 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Authority",
+  "@id": "https://aiincidentlaw.org/authority/appellate-court-of-illinois-third-district.json",
+  "id": "appellate-court-of-illinois-third-district",
+  "organization": {
+    "@type": "gist:Court",
+    "name": "Appellate Court of Illinois, Third District"
+  },
+  "authority_basis": {
+    "kind": "judicial",
+    "instrument_ref": "https://aiincidentlaw.org/authority/appellate-court-of-illinois-third-district.json#authority-basis"
+  },
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": ""
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-029-allegation.json",
+  "id": "aiel-2026-029-allegation",
+  "text": "A district court struck a pro se plaintiff’s Rule 59(e) motion and sanctioned her $5,000 under Rule 11 after finding she \"generated each brief using AI.\" The filings contained at least 13 hallucinated cases, quotations, and statements of law and fact.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-029#ai-system",
+  "ai_system_name": "Unnamed generative AI (court finding)",
+  "deployer": "Pro se plaintiff Ifeoma Delliane Chinedu Obi",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Genuine case law; Rule 11",
+  "mitigation_gap": "No verification of AI-generated content; repeated violations after notice.",
+  "reliance_or_harm": "Multiple filings riddled with fabricated authority; motion struck.",
+  "ai_incident_law_record_id": "AIEL-2026-029"
+}
