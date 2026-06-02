@@ -142,6 +142,8 @@ This is the routing table. Not every category needs every channel. Pick the high
 | Algorithmic pricing / collusion | DOJ ATR + FTC pressrooms | CourtListener RECAP | yes |
 | New categories (deepfake / defamation / AV / AI companion) | NHTSA ODI database (AV only) | CourtListener RECAP | yes — required, no specialized tracker exists yet |
 
+**Cadence reality (from two monthly sweeps).** The hallucination category is the only reliably high-yield monthly channel — Charlotin produces ~50–115 in-window entries per month. The other categories (algorithmic-denial, FRT, chatbot, pricing) returned **no clean new primary-source hits** in either the April or May sweeps: Perplexity surfaced only already-tracked matters or commentary, and broad CourtListener keyword queries were pure noise. So for a **monthly** run, lead with Charlotin and treat the other categories as a quick confirmation pass, not a deep dig. Sweep the non-hallucination categories **quarterly or event-driven** (a news trigger, a known docket) rather than burning Perplexity calls on them every month. Note this framing in the Phase 7 summary so the user knows what was — and wasn't — meaningfully searched.
+
 ### Phase 3a — Specialized trackers (primary sources)
 
 Run the channel(s) chosen in Phase 2 for each selected category. Do this before Perplexity.
@@ -150,32 +152,69 @@ Run the channel(s) chosen in Phase 2 for each selected category. Do this before 
 
 The most complete index of AI-hallucination sanctions. Updated regularly. Fetch the index page and extract entries:
 
+**The index is paginated — you MUST walk pages or you silently miss the window.** The page shows only the newest ~50 rows; anything older lives at `?page=N`. A single fetch of `/hallucinations/` only sees roughly the last ~10 days. Walk `?page=1,2,3,…`, parse each row's `DD Month YYYY` date, and stop once a row predates your window start. (In one run, April entries were on pages 4–5 and a naive single fetch would have returned zero.)
+
 ```python
-import urllib.request, re
-req = urllib.request.Request(
-    'https://www.damiencharlotin.com/hallucinations/',  # bare domain 400s; only www serves
-    headers={'User-Agent': 'Mozilla/5.0 find-new-cases/3.0 (AI Incident Law corpus maintenance)'}
-)
-with urllib.request.urlopen(req, timeout=30) as resp:
-    html = resp.read().decode('utf-8', errors='replace')
-# Entries are case names with dates; parse with the actual page structure
-# (inspect once and write a small extractor — page is small and stable)
+import urllib.request, re, html as H, time
+MONTHS = {'January':1,'February':2,'March':3,'April':4,'May':5,'June':6,'July':7,
+          'August':8,'September':9,'October':10,'November':11,'December':12}
+def parse_date(s):
+    m = re.match(r'(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})', s)
+    return (int(m.group(3)), MONTHS.get(m.group(2),0), int(m.group(1))) if m else None
+def cells(row):
+    cs = re.findall(r'<t[dh][^>]*>(.*?)</t[dh]>', row, re.S)
+    return [re.sub(r'\s+',' ', H.unescape(re.sub(r'<[^>]+>','',c))).strip() for c in cs]
+START = (2026, 4, 1)  # window start (year, month, day)
+hits, stop = [], False
+for pg in range(1, 12):
+    url = f'https://www.damiencharlotin.com/hallucinations/?page={pg}'  # www only; bare 400s
+    html_ = urllib.request.urlopen(urllib.request.Request(
+        url, headers={'User-Agent': 'Mozilla/5.0 find-new-cases/4.0'}), timeout=30
+        ).read().decode('utf-8', errors='replace')
+    for row in re.findall(r'<tr[^>]*>(.*?)</tr>', html_, re.S)[1:]:
+        c = cells(row)
+        d = parse_date(c[2]) if len(c) > 2 else None
+        if not d: continue
+        if d >= START: hits.append(c)        # cols: Case, Court, Date, Party-Using-AI, AI-Tool, Nature, Outcome, Penalty, ...
+        elif d[:2] < START[:2]: stop = True   # passed the window start
+    time.sleep(1)
+    if stop: break
+# document PDFs: href="/documents/<n>/<file>.pdf" inside each row
 ```
 
-Fetch with python urllib over **www** (bare `damiencharlotin.com` returns HTTP 400; `curl` returns a 0-byte body — the HTTP/2 bug noted above). Document PDFs live at `https://www.damiencharlotin.com/documents/<n>/<file>.pdf`. When you write a Charlotin URL into a record, write the **bare** domain (`damiencharlotin.com`) per `AGENTS.md` — the `validate:data` normalizer strips `www.` and does not check reachability, so this passes.
+Fetch over **www** (bare `damiencharlotin.com` returns HTTP 400; `curl` returns a 0-byte body — the HTTP/2 bug noted above). Document PDFs live at `https://www.damiencharlotin.com/documents/<n>/<file>.pdf`. When you write a Charlotin URL into a record, write the **bare** domain (`damiencharlotin.com`) per `AGENTS.md` — the `validate:data` normalizer strips `www.` and does not check reachability, so this passes.
+
+**Triage the haul before pulling orders.** A month is ~50–115 rows and ~90% are pro se "Warning"-only entries (gate-3 thin: no sanction, often no named actor). Rank for the first pass by: (1) a **named AI tool**, (2) a **monetary sanction** or **attorney-discipline** outcome (reprimand, referral, fee award, removal), (3) attorney (vs pro se) actor. Pull orders for the top tier first; deprioritize pro se warnings unless the run is explicitly a deep/quarterly dig.
 
 Filter to entries within the time window. Each entry yields: case caption, court, date, AI tool note, nature of hallucination, outcome/sanction, primary source URL.
 
-**Charlotin metadata is NOT authoritative — verify against the linked order PDF before any `included` draft.** Reliable: the **caption** and **date**. Unreliable (wrong in 2 of 3 spot-checks in a prior run): the **outcome/sanction**, the **AI tool**, and whether AI was involved at all. Observed failure modes:
+**Charlotin metadata is NOT authoritative — verify against the linked order PDF before any `included` draft.** Reliable: the **caption** and **date**. Unreliable (wrong in multiple spot-checks across runs): the **outcome/sanction**, the **sanction amount**, the **AI tool**, and whether AI was involved at all. Observed failure modes:
 - A row tagged `Admonishment` with tools `Fastcase; Google AI` was actually an **order to show cause** that named **no** tool and imposed **no** sanction (the court was *asking* the attorney to disclose whether AI was used).
 - A row tagged with an AI tool was a sanction where the **court expressly declined to find AI use** ("whether or not Plaintiff used AI, his conduct remains sanctionable").
+- A row tagged `LexisNexis` was a sanction where the **court expressly rejected** that attribution and found only "some kind of AI program."
+- A row's penalty read `$4,999` where the order imposed **$5,000**.
 - The "Party Using AI" column often reads `Implied` — that is the tracker inferring AI from hallucination hallmarks, not a court finding.
 
-So: pull the order PDF (python urllib, www), read it, and confirm the outcome, the named tool, and the AI finding from the order's own text. Only Charlotin-derived facts you have re-confirmed go into an `included` record.
+**The tool tag is orthogonal to gate 1 — never skip a row because the tool is `Unidentified`/`Implied`.** Several `Unidentified`-tagged rows turned out to contain an explicit **court finding** of AI use (or a party admission) in the order itself, which satisfies gate 1. Conversely a named-tool tag may be wrong (see `LexisNexis` above). Only the order's own text decides — so the tag tells you nothing about admissibility; pull the order regardless when the row clears the triage ranking above.
+
+So: pull the order PDF (python urllib, www), read it, and confirm the outcome, the sanction amount, the named tool (or that AI is unnamed-but-found), and the AI finding from the order's own text. Only Charlotin-derived facts you have re-confirmed go into an `included` record.
+
+**Read orders cheaply with `pdftotext`, not by rendering every page.** Order PDFs run 5–54 pages; rendering them all through Read is token-expensive (and Read rejects large/long PDFs anyway, forcing page ranges). Instead, convert to text once and grep for the gate-1 language, the actor, and the amount — then Read only the 1–2 page ranges that matter (e.g. the sanctions conclusion):
+
+```bash
+pdftotext -layout order.pdf - | grep -niE \
+  "artificial intelligence|generative|hallucinat|fabricat|admitted|declined to|\
+chatgpt|copilot|gemini|claude|cocounsel|lexis|westlaw|deepseek|perplexity|centient|\
+\\\$[0-9,]+|sanction|disgorge|pro se|self-represented|IT IS ORDERED"
+```
+
+This one command usually answers all four verification questions (AI established? named tool? outcome? amount?) and pinpoints the page to Read for exact quotes. `pdftotext` ships with poppler (`which pdftotext`); install via `brew install poppler` if missing. Note: `/tmp` artifacts do **not** persist across sessions — re-download PDFs with python urllib (cheap) rather than assuming a prior download is still there.
 
 #### CourtListener RECAP keyword search
 
 Free, primary-source, queryable by docket. The `litigation-legal:docket-watcher` agent already uses this pattern. Use the search API:
+
+**Broad free-text OR-queries are low-signal — don't rely on them.** A query like `"artificial intelligence" OR "algorithm" discrimination OR denial` returned ~37,000 hits dominated by unrelated criminal/immigration matters in a live run; the relevant cases were not findable that way. Use tight filters instead: a specific **party name**, a **`suitNature` code** (e.g. `820 Copyright`, `442 Civil Rights: Jobs`), or a known **docket number**. Treat broad keyword sweeps as a last resort, and when one returns a huge undifferentiated count, say so in the Phase 7 summary rather than pretending it was a meaningful search.
 
 ```python
 import urllib.request, urllib.parse, json
@@ -390,6 +429,15 @@ URL convention: `https://` bare domains, no `www.`, no `http://`. Per global `AG
 }
 ```
 
+**`ai_system_name` convention — record the AI-establishment basis, consistently.** When a tool is genuinely named, use the product name (`ChatGPT`, `DeepSeek`, `Westlaw CoCounsel`, `LexisNexis+ (Protégé)`). When it is not cleanly named, do NOT invent ad-hoc phrasings — append one of these parenthetical qualifiers so the corpus stays filterable by how firmly AI was established:
+- `<Product> (named; admitted)` — tool named and the actor/party admitted using it. Strongest.
+- `<Product> (named; court-found)` — tool named and the court found AI use.
+- `Unnamed generative AI (court finding)` — no product named, but the court found the conduct involved AI.
+- `Unnamed generative AI (admitted by counsel)` — no product named, but the actor admitted AI use.
+- `Unspecified generative-AI program (court finding; <X> attribution not credited)` — court found AI but expressly rejected a claimed tool (e.g. the `LexisNexis`-rejected matter).
+
+If none of these fit (tool only inferred by a tracker, no court finding, no admission), the record fails gate 1 and does not belong in `included` — it goes to `review`.
+
 #### Record shape — review (US, needs more work)
 
 ```json
@@ -521,6 +569,7 @@ Under-represented categories worth explicit Phase 2 probes:
 
 ## Changelog
 
+- v4 (2026-06-02): Efficiency + coverage, from the April sweep and a deep-dig round. (1) Phase 3a: documented Charlotin **pagination** (index shows only ~50 newest rows; walk `?page=N` and stop at the window start — a single fetch silently misses older months) with a ready extractor. (2) Phase 4 verification: added a `pdftotext -layout | grep` triage to read long orders cheaply (Read rejects large PDFs anyway), plus a note that `/tmp` doesn't persist across sessions. (3) Charlotin-verify list extended to the **sanction amount** ($4,999-vs-$5,000 miss) and a `LexisNexis`-rejected example; added "tool tag is orthogonal to gate 1 — never skip an `Unidentified`/`Implied` row, pull the order regardless." (4) Phase 3a: triage-ranking heuristic (named tool / monetary or discipline outcome / attorney actor; deprioritize pro se warnings). (5) Phase 2: cadence reality — hallucination is the only high-yield monthly channel; sweep other categories quarterly/event-driven; broad CourtListener OR-queries are low-signal (use party / `suitNature` / docket). (6) Phase 6: `ai_system_name` controlled vocabulary keyed to AI-establishment basis (named-admitted / named-court-found / unnamed-court-found / unnamed-admitted / attribution-rejected).
 - v3 (2026-06-02): Hardened from a live sweep. (1) Phase 1: shipped a robust `.mjs` next-ID snippet using `[0-9]`/`Number.isFinite` + collision assert (the old "see history" pointer let a `\d`-eaten-by-shell bug mint `AIEL-CAND-NaN` and duplicate IDs). (2) Phase 3a: Charlotin metadata (outcome/tool/AI-involvement) declared non-authoritative — must be verified against the linked order PDF before any `included` draft; added www-only fetch + bare-write URL note. (3) Gate 1: AI must be established in the primary source (named tool OR explicit court finding), not inferred by a tracker; added pass/fail worked examples + RECAP document-availability nuance. (4) Phase 6: `jurisdiction` becomes an authority slug — keep it a clean court name and clean orphan generated files after edits.
 - v2 (2026-05-26): Replaced curl with python urllib (HTTP/2 framing bug). Added Phase 3a primary-source channels (Damien Charlotin, CourtListener, agency pressrooms) ahead of Perplexity. Added Phase 0 auto-widening of windows < 14 days. Added Phase 4 automated dedupe script. Added Phase 3b rate-limiting (3-sec sleep, 2-attempt retry, 3-call max). Added Phase 7 failure-mode taxonomy distinguishing "no hits" / "indexing too recent" / "API failed".
 - v1 (2026-05-26): Initial skill modeled on publedge-source-ingest + add-regulation + docket-watcher.
