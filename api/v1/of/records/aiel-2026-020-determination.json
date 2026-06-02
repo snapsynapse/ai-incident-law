@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-020-determination.json",
+  "id": "aiel-2026-020-determination",
+  "issued_date": "2026-05-28",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-020-allegation.json"
+  ],
+  "disposition": "partial",
+  "remedy": {
+    "status": "filed",
+    "notes": "Included at filed posture; complaint not yet pulled from PACER/RECAP. New corpus category: generative-AI training/content-reproduction copyright."
+  },
+  "notes": "Included at filed posture; complaint not yet pulled from PACER/RECAP. New corpus category: generative-AI training/content-reproduction copyright.",
+  "source": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
+  "ai_incident_law_record_id": "AIEL-2026-020"
+}

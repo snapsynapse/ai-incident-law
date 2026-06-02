@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-022-determination.json",
+  "id": "aiel-2026-022-determination",
+  "issued_date": "2026-05-26",
+  "issuedBy": "https://aiincidentlaw.org/authority/ohio-court-of-appeals-sixth-appellate-district.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-022-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "$100 sanction imposed by Sandusky County Court of Common Pleas 2025-08-11; Sixth District Court of Appeals affirmed denial of Guo’s motion to set aside, 2026-05-26. DeepSeek named by appellant; court found citations were AI-generated hallucinations."
+  },
+  "notes": "$100 sanction imposed by Sandusky County Court of Common Pleas 2025-08-11; Sixth District Court of Appeals affirmed denial of Guo’s motion to set aside, 2026-05-26. DeepSeek named by appellant; court found citations were AI-generated hallucinations.",
+  "source": "https://damiencharlotin.com/documents/2237/Guo_v._Meade_Motorcars_USA_26_May_2026.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-022"
+}

@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-019-allegation.json",
+  "id": "aiel-2026-019-allegation",
+  "text": "Plaintiff, a 24-year IBM veteran, alleges an algorithmic hiring/rehire screening tool blocked his rehire at age 48, constituting age discrimination. Filed as Swanson v. International Business Machines Corporation in the Western District of Texas on 2026-05-23. The precise technical nature of the tool (machine-learning vs. rules-based) is not yet established on the public record.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-019#ai-system",
+  "ai_system_name": "Unnamed IBM algorithmic hiring/rehire screening tool",
+  "deployer": "International Business Machines Corporation",
+  "domain": "employment",
+  "error_type": "discriminatory output",
+  "canonical_source_conflicted": "ADEA and applicant-specific rehire eligibility records",
+  "mitigation_gap": "Alleged absence of meaningful human review of an automated rehire-eligibility screen and no disparate-impact safeguard against age-based exclusion.",
+  "reliance_or_harm": "Plaintiff alleges denial of rehire after 24 years of prior IBM employment, attributed to an automated screen.",
+  "ai_incident_law_record_id": "AIEL-2026-019"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-019-determination.json",
+  "id": "aiel-2026-019-determination",
+  "issued_date": "2026-05-23",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-texas.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-019-allegation.json"
+  ],
+  "disposition": "partial",
+  "remedy": {
+    "status": "filed",
+    "notes": "Included by steward at early/filed posture. NOTE: AI system unnamed and ML-vs-rules nature unverified (admission gate 1 partial); complaint not yet pulled from PACER. Verify the tool is genuinely AI and re-confirm on next refresh. Sibling matter: John Loeffler v. IBM, No. 2:25-cv-05765 (C.D. Cal.), same defendant + age/algorithm-hiring theory."
+  },
+  "notes": "Included by steward at early/filed posture. NOTE: AI system unnamed and ML-vs-rules nature unverified (admission gate 1 partial); complaint not yet pulled from PACER. Verify the tool is genuinely AI and re-confirm on next refresh. Sibling matter: John Loeffler v. IBM, No. 2:25-cv-05765 (C.D. Cal.), same defendant + age/algorithm-hiring theory.",
+  "source": "https://courtlistener.com/docket/73387361/swanson-v-international-business-machines-corporation/",
+  "ai_incident_law_record_id": "AIEL-2026-019"
+}

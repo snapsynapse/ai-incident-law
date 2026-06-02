@@ -295,6 +295,82 @@
       "notes": "Case reported dismissed at summary judgment in 2025 with appeal planned; keep procedural status under watch.",
       "source": "https://aclu.org/cases/woodruff-v-oliver",
       "ai_incident_law_record_id": "AIEL-2025-016"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-019-determination.json",
+      "id": "aiel-2026-019-determination",
+      "issued_date": "2026-05-23",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-texas.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-019-allegation.json"
+      ],
+      "disposition": "partial",
+      "remedy": {
+        "status": "filed",
+        "notes": "Included by steward at early/filed posture. NOTE: AI system unnamed and ML-vs-rules nature unverified (admission gate 1 partial); complaint not yet pulled from PACER. Verify the tool is genuinely AI and re-confirm on next refresh. Sibling matter: John Loeffler v. IBM, No. 2:25-cv-05765 (C.D. Cal.), same defendant + age/algorithm-hiring theory."
+      },
+      "notes": "Included by steward at early/filed posture. NOTE: AI system unnamed and ML-vs-rules nature unverified (admission gate 1 partial); complaint not yet pulled from PACER. Verify the tool is genuinely AI and re-confirm on next refresh. Sibling matter: John Loeffler v. IBM, No. 2:25-cv-05765 (C.D. Cal.), same defendant + age/algorithm-hiring theory.",
+      "source": "https://courtlistener.com/docket/73387361/swanson-v-international-business-machines-corporation/",
+      "ai_incident_law_record_id": "AIEL-2026-019"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-020-determination.json",
+      "id": "aiel-2026-020-determination",
+      "issued_date": "2026-05-28",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-020-allegation.json"
+      ],
+      "disposition": "partial",
+      "remedy": {
+        "status": "filed",
+        "notes": "Included at filed posture; complaint not yet pulled from PACER/RECAP. New corpus category: generative-AI training/content-reproduction copyright."
+      },
+      "notes": "Included at filed posture; complaint not yet pulled from PACER/RECAP. New corpus category: generative-AI training/content-reproduction copyright.",
+      "source": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
+      "ai_incident_law_record_id": "AIEL-2026-020"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-021-determination.json",
+      "id": "aiel-2026-021-determination",
+      "issued_date": "2026-05-27",
+      "issuedBy": "https://aiincidentlaw.org/authority/supreme-court-of-oklahoma.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-021-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "Public reprimand (reciprocal; also reprimanded/censured in TX, TN, AL federal court). ChatGPT named and admitted by respondent. Underlying sanction order: Johnson v. Dunn (N.D. Ala.) 2025-07-23."
+      },
+      "notes": "Public reprimand (reciprocal; also reprimanded/censured in TX, TN, AL federal court). ChatGPT named and admitted by respondent. Underlying sanction order: Johnson v. Dunn (N.D. Ala.) 2025-07-23.",
+      "source": "https://damiencharlotin.com/documents/2227/STATE_OF_OKLAHOMA_ex_rel._OBA_v._REEVES.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-021"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-022-determination.json",
+      "id": "aiel-2026-022-determination",
+      "issued_date": "2026-05-26",
+      "issuedBy": "https://aiincidentlaw.org/authority/ohio-court-of-appeals-sixth-appellate-district.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-022-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "$100 sanction imposed by Sandusky County Court of Common Pleas 2025-08-11; Sixth District Court of Appeals affirmed denial of Guo’s motion to set aside, 2026-05-26. DeepSeek named by appellant; court found citations were AI-generated hallucinations."
+      },
+      "notes": "$100 sanction imposed by Sandusky County Court of Common Pleas 2025-08-11; Sixth District Court of Appeals affirmed denial of Guo’s motion to set aside, 2026-05-26. DeepSeek named by appellant; court found citations were AI-generated hallucinations.",
+      "source": "https://damiencharlotin.com/documents/2237/Guo_v._Meade_Motorcars_USA_26_May_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-022"
     }
   ]
 }

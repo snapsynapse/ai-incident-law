@@ -1,0 +1,18 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Authority",
+  "@id": "https://aiincidentlaw.org/authority/ohio-court-of-appeals-sixth-appellate-district.json",
+  "id": "ohio-court-of-appeals-sixth-appellate-district",
+  "organization": {
+    "@type": "gist:Court",
+    "name": "Ohio Court of Appeals, Sixth Appellate District"
+  },
+  "authority_basis": {
+    "kind": "judicial",
+    "instrument_ref": "https://aiincidentlaw.org/authority/ohio-court-of-appeals-sixth-appellate-district.json#authority-basis"
+  },
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": ""
+  }
+}

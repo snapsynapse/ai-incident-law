@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-022-allegation.json",
+  "id": "aiel-2026-022-allegation",
+  "text": "An Ohio trial court sanctioned pro se litigant Xingkui Guo $100 (2025-08-11) for citing five fabricated/mis-cited cases that the court found \"appear to be the result of AI-generated hallucinations.\" On appeal, Guo admitted the mis-citations resulted from his use of the Chinese AI platform \"Deepseek.\" The Sixth District Court of Appeals affirmed on 2026-05-26 (Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930), rejecting Guo’s motion to set aside the sanction.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-022#ai-system",
+  "ai_system_name": "DeepSeek (per appellant admission)",
+  "deployer": "Pro se appellant",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Genuine Ohio case law (cases cited did not exist at the given citations)",
+  "mitigation_gap": "No verification of AI-generated authorities before filing.",
+  "reliance_or_harm": "Fabricated citations submitted on appeal; $100 monetary sanction imposed.",
+  "ai_incident_law_record_id": "AIEL-2026-022"
+}

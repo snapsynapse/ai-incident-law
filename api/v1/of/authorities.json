@@ -289,6 +289,60 @@
         "@type": "gist:Jurisdiction",
         "ref": "us-tx"
       }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-texas.json",
+      "id": "u-s-district-court-western-district-of-texas",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. District Court, Western District of Texas"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-texas.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-tx"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/supreme-court-of-oklahoma.json",
+      "id": "supreme-court-of-oklahoma",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "Supreme Court of Oklahoma"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/supreme-court-of-oklahoma.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": ""
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/ohio-court-of-appeals-sixth-appellate-district.json",
+      "id": "ohio-court-of-appeals-sixth-appellate-district",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "Ohio Court of Appeals, Sixth Appellate District"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/ohio-court-of-appeals-sixth-appellate-district.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": ""
+      }
     }
   ]
 }

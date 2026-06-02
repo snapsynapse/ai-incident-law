@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-020-allegation.json",
+  "id": "aiel-2026-020-allegation",
+  "text": "Cable News Network filed a copyright-infringement action against Perplexity AI, alleging Perplexity reproduced and summarized CNN content in its AI answer engine without authorization. Filed in the Southern District of New York on 2026-05-28 (No. 1:26-cv-04427), cause 17:501 copyright infringement.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-020#ai-system",
+  "ai_system_name": "Perplexity AI answer engine",
+  "deployer": "Perplexity AI, Inc.",
+  "domain": "media / content",
+  "error_type": "unauthorized content use",
+  "canonical_source_conflicted": "CNN copyrighted news content and 17 U.S.C. § 501",
+  "mitigation_gap": "Alleged ingestion and reproduction of copyrighted content without licensing or adequate attribution controls in the AI answer pipeline.",
+  "reliance_or_harm": "CNN alleges market and licensing harm from AI reproduction of its journalism.",
+  "ai_incident_law_record_id": "AIEL-2026-020"
+}

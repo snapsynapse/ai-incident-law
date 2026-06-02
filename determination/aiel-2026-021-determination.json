@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-021-determination.json",
+  "id": "aiel-2026-021-determination",
+  "issued_date": "2026-05-27",
+  "issuedBy": "https://aiincidentlaw.org/authority/supreme-court-of-oklahoma.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-021-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "Public reprimand (reciprocal; also reprimanded/censured in TX, TN, AL federal court). ChatGPT named and admitted by respondent. Underlying sanction order: Johnson v. Dunn (N.D. Ala.) 2025-07-23."
+  },
+  "notes": "Public reprimand (reciprocal; also reprimanded/censured in TX, TN, AL federal court). ChatGPT named and admitted by respondent. Underlying sanction order: Johnson v. Dunn (N.D. Ala.) 2025-07-23.",
+  "source": "https://damiencharlotin.com/documents/2227/STATE_OF_OKLAHOMA_ex_rel._OBA_v._REEVES.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-021"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-020-proceeding.json",
+  "id": "aiel-2026-020-proceeding",
+  "title": "Cable News Network, Inc. v. Perplexity AI, Inc., No. 1:26-cv-04427",
+  "filed_date": "2026-05-28",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-020-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2026-020-determination.json"
+  ],
+  "source": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
+  "ai_incident_law_record_id": "AIEL-2026-020",
+  "matter_type": "federal lawsuit",
+  "status": "filed"
+}

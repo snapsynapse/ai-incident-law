@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-019-proceeding.json",
+  "id": "aiel-2026-019-proceeding",
+  "title": "Swanson v. International Business Machines Corporation, No. 1:26-cv-01382",
+  "filed_date": "2026-05-23",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-texas.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-019-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2026-019-determination.json"
+  ],
+  "source": "https://courtlistener.com/docket/73387361/swanson-v-international-business-machines-corporation/",
+  "ai_incident_law_record_id": "AIEL-2026-019",
+  "matter_type": "federal lawsuit",
+  "status": "filed"
+}

@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-021-allegation.json",
+  "id": "aiel-2026-021-allegation",
+  "text": "In reciprocal attorney discipline, the Oklahoma Supreme Court publicly reprimanded attorney Matthew Brett Reeves (2026 OK 37, decided 2026-05-27) for filing five fabricated citations across two motions in the underlying federal matter Johnson v. Dunn, No. 2:21-cv-1701-AMM (N.D. Ala.). Reeves admitted the citations were \"hallucinated by ChatGPT\" and that he failed to verify them, violating his firm’s AI policy. The OBA noted this is the first reported Oklahoma attorney-discipline case involving AI-fabricated citations.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-021#ai-system",
+  "ai_system_name": "ChatGPT",
+  "deployer": "Attorney respondent (Oklahoma bar disciplinary proceeding)",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Genuine case law and the duty of candor to the tribunal",
+  "mitigation_gap": "No verification of AI-generated citations against a real reporter before filing.",
+  "reliance_or_harm": "Fabricated authorities submitted to a court; attorney received a public reprimand.",
+  "ai_incident_law_record_id": "AIEL-2026-021"
+}
