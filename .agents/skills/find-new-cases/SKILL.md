@@ -306,6 +306,39 @@ If a hit during Phase 3 looks like a better fit for **EveryAILaw** (a new statut
 
 For every candidate from Phase 3, run two checks: **dedupe first** (fast, deterministic), then **admission gates** (slower, requires URL verification).
 
+#### Model routing — orchestrate cheap, verify expensive (delegation pattern)
+
+The gate-1 judgment (reading an order and deciding AI is *established* vs *inferred*) is the only step that genuinely rewards a frontier model — it is where tracker metadata gets rubber-stamped if the reasoning is weak. Everything else in this skill (pagination, dedupe, ID minting, drafting, build, git) is mechanical. So **do not run the whole sweep on a frontier model**: run the orchestration at the session model (Sonnet-tier is the right default) and **delegate each candidate's verification to an Opus subagent**.
+
+A skill cannot change its own main-loop model — but it can spawn subagents with a pinned model via the Agent tool's `model` parameter. So:
+
+1. Orchestrator (session model) does Phase 0–3 discovery, Phase 4 dedupe, and builds the triaged candidate list (per the Phase 3a ranking).
+2. For **each candidate that clears triage**, spawn one verification subagent with `model: opus` (run them concurrently — verification is embarrassingly parallel). Give the subagent only what it needs: the candidate row, the order/document URL, and a pointer to apply this skill's gate-1 test and `pdftotext` workflow. Each subagent pulls the order, reads it, and returns a **structured verdict** — it does not draft or write files.
+3. Orchestrator collects verdicts, assigns buckets (Phase 5), and drafts records (Phase 6) on the session model.
+
+Structured verdict schema each verifier returns (also enforces the Phase 6 `ai_system_name` vocabulary):
+
+```json
+{
+  "candidate_id_or_caption": "<string>",
+  "ai_established": "named-admitted | named-court-found | unnamed-court-found | unnamed-admitted | attribution-rejected | not-established",
+  "ai_system_name": "<product name, or the unnamed/unspecified qualifier per Phase 6 vocab>",
+  "gate1": "pass | fail",
+  "outcome": "<sanction / order type, verbatim from the order>",
+  "sanction_amount": "<exact amount or 'none'>",
+  "actor": "<attorney name | 'pro se' | organization>",
+  "court_and_caption": "<verified caption + court>",
+  "decision_date": "YYYY-MM-DD",
+  "recommended_bucket": "included | review | global | drop",
+  "evidence_quote": "<short verbatim quote establishing (or refuting) AI use>",
+  "notes": "<discrepancies vs the tracker: wrong amount, rejected tool tag, etc.>"
+}
+```
+
+A `gate1: fail` or `ai_established: not-established` verdict means `review` at most — never `included`, regardless of the tracker's tags. Spot-escalation degrades gracefully: if no Opus is available, the orchestrator runs the same verification inline, but flag in the Phase 7 summary that verification ran at the session model so a later audit pass can re-check borderline calls. **Watch for the failure signal:** if session-model verification starts admitting rows with `Implied`/hedged AI language *without* an `evidence_quote` from the order, the model gap has reopened — bump verification back to Opus or tighten the gate-1 rule.
+
+(At high monthly volume this exact structure graduates to a Workflow: one `agent()` per order with `opts.model: 'opus'` and a barrier before drafting. Same split, parallel by construction — worth it only when order count justifies the fan-out.)
+
 #### Dedupe (automated, not human-mediated)
 
 ```python
@@ -569,6 +602,7 @@ Under-represented categories worth explicit Phase 2 probes:
 
 ## Changelog
 
+- v5 (2026-06-02): Model routing. Added a Phase 4 delegation pattern — orchestrate the sweep at the session model (Sonnet-tier default) and delegate each triaged candidate's gate-1 verification to a concurrent Opus subagent (Agent tool `model: opus`) returning a structured verdict; orchestrator buckets + drafts. A skill can't re-flash its own main loop, so model routing happens via subagent delegation, not by splitting into model-flavored sub-skills. Includes the verdict schema (which enforces the v4 `ai_system_name` vocab), graceful degradation when no Opus is available, a reopened-gap failure signal, and a note that the same structure graduates to a Workflow at high volume.
 - v4 (2026-06-02): Efficiency + coverage, from the April sweep and a deep-dig round. (1) Phase 3a: documented Charlotin **pagination** (index shows only ~50 newest rows; walk `?page=N` and stop at the window start — a single fetch silently misses older months) with a ready extractor. (2) Phase 4 verification: added a `pdftotext -layout | grep` triage to read long orders cheaply (Read rejects large PDFs anyway), plus a note that `/tmp` doesn't persist across sessions. (3) Charlotin-verify list extended to the **sanction amount** ($4,999-vs-$5,000 miss) and a `LexisNexis`-rejected example; added "tool tag is orthogonal to gate 1 — never skip an `Unidentified`/`Implied` row, pull the order regardless." (4) Phase 3a: triage-ranking heuristic (named tool / monetary or discipline outcome / attorney actor; deprioritize pro se warnings). (5) Phase 2: cadence reality — hallucination is the only high-yield monthly channel; sweep other categories quarterly/event-driven; broad CourtListener OR-queries are low-signal (use party / `suitNature` / docket). (6) Phase 6: `ai_system_name` controlled vocabulary keyed to AI-establishment basis (named-admitted / named-court-found / unnamed-court-found / unnamed-admitted / attribution-rejected).
 - v3 (2026-06-02): Hardened from a live sweep. (1) Phase 1: shipped a robust `.mjs` next-ID snippet using `[0-9]`/`Number.isFinite` + collision assert (the old "see history" pointer let a `\d`-eaten-by-shell bug mint `AIEL-CAND-NaN` and duplicate IDs). (2) Phase 3a: Charlotin metadata (outcome/tool/AI-involvement) declared non-authoritative — must be verified against the linked order PDF before any `included` draft; added www-only fetch + bare-write URL note. (3) Gate 1: AI must be established in the primary source (named tool OR explicit court finding), not inferred by a tracker; added pass/fail worked examples + RECAP document-availability nuance. (4) Phase 6: `jurisdiction` becomes an authority slug — keep it a clean court name and clean orphan generated files after edits.
 - v2 (2026-05-26): Replaced curl with python urllib (HTTP/2 framing bug). Added Phase 3a primary-source channels (Damien Charlotin, CourtListener, agency pressrooms) ahead of Perplexity. Added Phase 0 auto-widening of windows < 14 days. Added Phase 4 automated dedupe script. Added Phase 3b rate-limiting (3-sec sleep, 2-attempt retry, 3-call max). Added Phase 7 failure-mode taxonomy distinguishing "no hits" / "indexing too recent" / "API failed".
