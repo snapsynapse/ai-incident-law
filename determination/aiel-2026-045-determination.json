@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-045-determination.json",
+  "id": "aiel-2026-045-determination",
+  "issued_date": "2026-01-16",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-045-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "Companion cases in single order; $7,000 fee sanction plus 10 mandatory speaking engagements; no bar referral."
+  },
+  "notes": "Companion cases in single order; $7,000 fee sanction plus 10 mandatory speaking engagements; no bar referral.",
+  "source": "https://damiencharlotin.com/documents/1359/Hodges_v_Meridian_Waste_Acquisitions_USA_16_January_2025.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-045"
+}

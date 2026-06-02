@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-044-allegation.json",
+  "id": "aiel-2026-044-allegation",
+  "text": "The New York Appellate Division, Third Department, found that defendant's five appellate filings contained at least 23 fabricated case citations. Document metadata showed the filings originated from a program in the client's name. Despite the defendant denying AI use, the court made an express, unhedged finding of generative-AI misuse — the first reported GenAI sanctions decision at the New York appellate level. Sanctions of $7,500 were imposed on counsel and $2,500 on the client.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-044#ai-system",
+  "ai_system_name": "Unnamed generative AI (court finding; filer denied AI use)",
+  "deployer": "Joshua A. Douglass (defense appellate counsel) and Jean LeTennier (defendant/client)",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "23 non-existent case citations; 22 NYCRR 130-1.1 (frivolous conduct)",
+  "mitigation_gap": "Neither counsel nor client verified AI-generated citations before filing; client apparently ran the AI tool and counsel signed submissions without review.",
+  "reliance_or_harm": "$10,000 in sanctions ($7,500 on attorney Douglass + $2,500 on LeTennier); appeals affirmed with costs.",
+  "ai_incident_law_record_id": "AIEL-2026-044"
+}

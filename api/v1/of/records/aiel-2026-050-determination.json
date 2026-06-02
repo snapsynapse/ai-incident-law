@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-050-determination.json",
+  "id": "aiel-2026-050-determination",
+  "issued_date": "2026-04-01",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-indiana.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-050-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "Charlotin tracker date (Feb 27) is the Show Cause Order; actual sanctions order is April 1, 2026. Case involves Joseph Maldonado-Passage (Joe Exotic), federally incarcerated."
+  },
+  "notes": "Charlotin tracker date (Feb 27) is the Show Cause Order; actual sanctions order is April 1, 2026. Case involves Joseph Maldonado-Passage (Joe Exotic), federally incarcerated.",
+  "source": "https://damiencharlotin.com/documents/1963/Maldonado_Tiger_King_USA_1_April_2026.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-050"
+}

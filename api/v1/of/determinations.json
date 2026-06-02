@@ -91,9 +91,9 @@
       "disposition": "confirmed",
       "remedy": {
         "status": "sanctioned",
-        "notes": "Published Fifth Circuit order sanctions counsel under Rule 46(c) and inherent authority."
+        "notes": "Fifth Circuit Feb 18, 2026 final order: $2,500 sanction on appellate counsel Heather Hersh under inherent power; district-court counsel Shawn Jaffer Rule 11/$1927 sanctions vacated by separate order. Both Casetext/CoCounsel and vLex named as candidate products; Hersh admitted AI use when asked directly."
       },
-      "notes": "Published Fifth Circuit order sanctions counsel under Rule 46(c) and inherent authority.",
+      "notes": "Fifth Circuit Feb 18, 2026 final order: $2,500 sanction on appellate counsel Heather Hersh under inherent power; district-court counsel Shawn Jaffer Rule 11/$1927 sanctions vacated by separate order. Both Casetext/CoCounsel and vLex named as candidate products; Hersh admitted AI use when asked directly.",
       "source": "https://ca5.uscourts.gov/opinions/pub/25/25-20086-CV0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-005"
     },
@@ -770,6 +770,139 @@
       "notes": "$5,000 on Salah (not $4,997 as in tracker); ARDC referral for Chalisa; 24 fabricated quotations and 7 wrong-circuit citations documented.",
       "source": "https://damiencharlotin.com/documents/2246/Perez-Castillo_v._Blanche_USA_1_June_2026.pdf",
       "ai_incident_law_record_id": "AIEL-2026-043"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-044-determination.json",
+      "id": "aiel-2026-044-determination",
+      "issued_date": "2026-01-08",
+      "issuedBy": "https://aiincidentlaw.org/authority/new-york-supreme-court-appellate-division-third-department.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-044-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "$7,500 on counsel + $2,500 on client = $10,000; metadata showed filings originated from client's AI program; first NY appellate-level GenAI sanctions decision."
+      },
+      "notes": "$7,500 on counsel + $2,500 on client = $10,000; metadata showed filings originated from client's AI program; first NY appellate-level GenAI sanctions decision.",
+      "source": "https://damiencharlotin.com/documents/1274/Deutsche_Bank_v._Le_Tennier_USA_8_January_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-044"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-045-determination.json",
+      "id": "aiel-2026-045-determination",
+      "issued_date": "2026-01-16",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-045-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "Companion cases in single order; $7,000 fee sanction plus 10 mandatory speaking engagements; no bar referral."
+      },
+      "notes": "Companion cases in single order; $7,000 fee sanction plus 10 mandatory speaking engagements; no bar referral.",
+      "source": "https://damiencharlotin.com/documents/1359/Hodges_v_Meridian_Waste_Acquisitions_USA_16_January_2025.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-045"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-046-determination.json",
+      "id": "aiel-2026-046-determination",
+      "issued_date": "2026-01-26",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-046-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "$4,000 on Anderson; local co-counsel Goldin also found to violate Rule 11 but not fined; LexisNexis tool attribution credited from firm's sworn show-cause response."
+      },
+      "notes": "$4,000 on Anderson; local co-counsel Goldin also found to violate Rule 11 but not fined; LexisNexis tool attribution credited from firm's sworn show-cause response.",
+      "source": "https://damiencharlotin.com/documents/1398/Lifetime_v._IBSpot_USA_26_January_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-046"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-047-determination.json",
+      "id": "aiel-2026-047-determination",
+      "issued_date": "2026-02-02",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-kansas.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-047-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "$12,000 aggregate: Seth $5,000 + pro hac vice revocation; Kula $3,000; Joe $3,000; Cooper $1,000; fifth attorney (Doell) released from sanctions."
+      },
+      "notes": "$12,000 aggregate: Seth $5,000 + pro hac vice revocation; Kula $3,000; Joe $3,000; Cooper $1,000; fifth attorney (Doell) released from sanctions.",
+      "source": "https://damiencharlotin.com/documents/1438/Lexos_v._Overstock_USA_2_February_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-047"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-048-determination.json",
+      "id": "aiel-2026-048-determination",
+      "issued_date": "2026-02-09",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-tenth-circuit.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-048-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "$1,000 to Frontier (fee offset); mandatory Maryland bar referral; attorney appeared pro se on her own employment appeal."
+      },
+      "notes": "$1,000 to Frontier (fee offset); mandatory Maryland bar referral; attorney appeared pro se on her own employment appeal.",
+      "source": "https://damiencharlotin.com/documents/1484/Amarsingh_v._Frontier_Airlines.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-048"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-049-determination.json",
+      "id": "aiel-2026-049-determination",
+      "issued_date": "2026-02-18",
+      "issuedBy": "https://aiincidentlaw.org/authority/california-court-of-appeal-second-appellate-district.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-049-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "$900 on Azar alone; AI tool unnamed (accessed via unnamed AI \"consultant\"); co-counsel Keiter exonerated."
+      },
+      "notes": "$900 on Azar alone; AI tool unnamed (accessed via unnamed AI \"consultant\"); co-counsel Keiter exonerated.",
+      "source": "https://damiencharlotin.com/documents/1552/EFD_USA_v_BAND_PRO_FILM_AND_DIGITAL_IN_USA_18_February_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-049"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-050-determination.json",
+      "id": "aiel-2026-050-determination",
+      "issued_date": "2026-04-01",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-indiana.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-050-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "Charlotin tracker date (Feb 27) is the Show Cause Order; actual sanctions order is April 1, 2026. Case involves Joseph Maldonado-Passage (Joe Exotic), federally incarcerated."
+      },
+      "notes": "Charlotin tracker date (Feb 27) is the Show Cause Order; actual sanctions order is April 1, 2026. Case involves Joseph Maldonado-Passage (Joe Exotic), federally incarcerated.",
+      "source": "https://damiencharlotin.com/documents/1963/Maldonado_Tiger_King_USA_1_April_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-050"
     }
   ]
 }

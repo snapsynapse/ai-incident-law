@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-047-proceeding.json",
+  "id": "aiel-2026-047-proceeding",
+  "title": "Lexos Media IP, LLC v. Overstock.com, Inc., No. 2:22-cv-02324-JAR (D. Kan.)",
+  "filed_date": "2026-02-02",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-kansas.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-047-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2026-047-determination.json"
+  ],
+  "source": "https://damiencharlotin.com/documents/1438/Lexos_v._Overstock_USA_2_February_2026.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-047",
+  "matter_type": "sanctions order (Rule 11)",
+  "status": "sanctioned"
+}

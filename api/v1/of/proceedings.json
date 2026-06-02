@@ -812,6 +812,139 @@
       "ai_incident_law_record_id": "AIEL-2026-043",
       "matter_type": "sanctions order (appellate)",
       "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-044-proceeding.json",
+      "id": "aiel-2026-044-proceeding",
+      "title": "Deutsche Bank National Trust Company v. Jean LeTennier, 2026 WL 53120 (N.Y. App. Div. 3d Dep't)",
+      "filed_date": "2026-01-08",
+      "issuedBy": "https://aiincidentlaw.org/authority/new-york-supreme-court-appellate-division-third-department.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-044-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-044-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/1274/Deutsche_Bank_v._Le_Tennier_USA_8_January_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-044",
+      "matter_type": "sanctions order (appellate)",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-045-proceeding.json",
+      "id": "aiel-2026-045-proceeding",
+      "title": "Hodges v. Meridian Waste Acquisitions USA, No. 3:25-cv-62; Rieske v. AFS, No. 5:25-cv-45 (M.D. Fla.)",
+      "filed_date": "2026-01-16",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-045-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-045-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/1359/Hodges_v_Meridian_Waste_Acquisitions_USA_16_January_2025.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-045",
+      "matter_type": "sanctions order (Rule 11)",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-046-proceeding.json",
+      "id": "aiel-2026-046-proceeding",
+      "title": "Lifetime Well LLC v. IBSpot.com Inc., No. 2:25-cv-05135-MAK (E.D. Pa.)",
+      "filed_date": "2026-01-26",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-046-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-046-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/1398/Lifetime_v._IBSpot_USA_26_January_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-046",
+      "matter_type": "sanctions order (Rule 11)",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-047-proceeding.json",
+      "id": "aiel-2026-047-proceeding",
+      "title": "Lexos Media IP, LLC v. Overstock.com, Inc., No. 2:22-cv-02324-JAR (D. Kan.)",
+      "filed_date": "2026-02-02",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-kansas.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-047-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-047-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/1438/Lexos_v._Overstock_USA_2_February_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-047",
+      "matter_type": "sanctions order (Rule 11)",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-048-proceeding.json",
+      "id": "aiel-2026-048-proceeding",
+      "title": "Amarsingh v. Frontier Airlines, Inc., No. 24-1391 (10th Cir.)",
+      "filed_date": "2026-02-09",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-tenth-circuit.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-048-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-048-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/1484/Amarsingh_v._Frontier_Airlines.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-048",
+      "matter_type": "sanctions order (appellate)",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-049-proceeding.json",
+      "id": "aiel-2026-049-proceeding",
+      "title": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., 2026 WL 457265 (Cal. Ct. App. 2d Dist.)",
+      "filed_date": "2026-02-18",
+      "issuedBy": "https://aiincidentlaw.org/authority/california-court-of-appeal-second-appellate-district.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-049-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-049-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/1552/EFD_USA_v_BAND_PRO_FILM_AND_DIGITAL_IN_USA_18_February_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-049",
+      "matter_type": "sanctions order (appellate)",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-050-proceeding.json",
+      "id": "aiel-2026-050-proceeding",
+      "title": "Maldonado v. Professional Animal Retirement Center (PARC), No. 1:25-cv-00454-HAB-ALT (N.D. Ind.)",
+      "filed_date": "2026-04-01",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-indiana.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-050-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-050-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/1963/Maldonado_Tiger_King_USA_1_April_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-050",
+      "matter_type": "sanctions order (Rule 11)",
+      "status": "sanctioned"
     }
   ]
 }

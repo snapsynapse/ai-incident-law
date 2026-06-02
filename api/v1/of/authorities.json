@@ -649,6 +649,114 @@
         "@type": "gist:Jurisdiction",
         "ref": "us"
       }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/new-york-supreme-court-appellate-division-third-department.json",
+      "id": "new-york-supreme-court-appellate-division-third-department",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "New York Supreme Court, Appellate Division, Third Department"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/new-york-supreme-court-appellate-division-third-department.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ny"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json",
+      "id": "u-s-district-court-middle-district-of-florida",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. District Court, Middle District of Florida"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-fl"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-kansas.json",
+      "id": "u-s-district-court-district-of-kansas",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. District Court, District of Kansas"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-kansas.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-tenth-circuit.json",
+      "id": "u-s-court-of-appeals-for-the-tenth-circuit",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. Court of Appeals for the Tenth Circuit"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-tenth-circuit.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/california-court-of-appeal-second-appellate-district.json",
+      "id": "california-court-of-appeal-second-appellate-district",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "California Court of Appeal, Second Appellate District"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/california-court-of-appeal-second-appellate-district.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ca"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-indiana.json",
+      "id": "u-s-district-court-northern-district-of-indiana",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. District Court, Northern District of Indiana"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-indiana.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      }
     }
   ]
 }

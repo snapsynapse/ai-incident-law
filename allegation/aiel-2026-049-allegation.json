@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-049-allegation.json",
+  "id": "aiel-2026-049-allegation",
+  "text": "Attorney David E. Azar commissioned an AI \"consultant\" to draft an appellate opening brief using an AI system, then filed the brief without adequately verifying citations despite being warned by the consultant to double-check for hallucinations. The California Court of Appeal found the fabricated citations were caused primarily by Azar's failure to safeguard against AI hallucinations and imposed a $900 sanction on him alone, exonerating co-counsel who only formatted and filed the document.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-049#ai-system",
+  "ai_system_name": "Unnamed generative AI (court finding; AI \"consultant\" intermediary)",
+  "deployer": "David E. Azar (EFD appellate counsel)",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Non-existent California appellate authorities cited in opening brief; Cal. Rules of Court",
+  "mitigation_gap": "Attorney outsourced drafting to an AI consultant, ignored the consultant's own warning to verify citations, and filed without review.",
+  "reliance_or_harm": "$900 sanction on Azar; judgment against EFD affirmed; co-counsel exonerated.",
+  "ai_incident_law_record_id": "AIEL-2026-049"
+}

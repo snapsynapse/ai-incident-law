@@ -1,0 +1,18 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Authority",
+  "@id": "https://aiincidentlaw.org/authority/california-court-of-appeal-second-appellate-district.json",
+  "id": "california-court-of-appeal-second-appellate-district",
+  "organization": {
+    "@type": "gist:Court",
+    "name": "California Court of Appeal, Second Appellate District"
+  },
+  "authority_basis": {
+    "kind": "judicial",
+    "instrument_ref": "https://aiincidentlaw.org/authority/california-court-of-appeal-second-appellate-district.json#authority-basis"
+  },
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-ca"
+  }
+}

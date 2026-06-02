@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-045-allegation.json",
+  "id": "aiel-2026-045-allegation",
+  "text": "Plaintiff's counsel admitted filing briefs in two companion employment cases containing AI-generated fabricated citations. The U.S. District Court for the Middle District of Florida imposed a $7,000 fee sanction and required counsel to deliver ten speaking engagements at bar associations or law-school groups by January 2027 to educate the profession on AI risks. The court declined to refer counsel to the Florida Bar or the court's Grievance Committee.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-045#ai-system",
+  "ai_system_name": "Unnamed generative AI (admitted by counsel)",
+  "deployer": "Plaintiff's counsel (name not in order)",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Non-existent federal case citations filed in two employment-law matters; Fed. R. Civ. P. 11",
+  "mitigation_gap": "Counsel admitted reliance on AI-generated research without verifying citation existence before filing in both cases.",
+  "reliance_or_harm": "$7,000 fee sanction plus mandatory 10 bar-association/law-school speaking engagements by January 2027.",
+  "ai_incident_law_record_id": "AIEL-2026-045"
+}

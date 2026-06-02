@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-048-proceeding.json",
+  "id": "aiel-2026-048-proceeding",
+  "title": "Amarsingh v. Frontier Airlines, Inc., No. 24-1391 (10th Cir.)",
+  "filed_date": "2026-02-09",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-tenth-circuit.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-048-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2026-048-determination.json"
+  ],
+  "source": "https://damiencharlotin.com/documents/1484/Amarsingh_v._Frontier_Airlines.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-048",
+  "matter_type": "sanctions order (appellate)",
+  "status": "sanctioned"
+}

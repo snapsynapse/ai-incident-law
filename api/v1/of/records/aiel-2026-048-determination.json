@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-048-determination.json",
+  "id": "aiel-2026-048-determination",
+  "issued_date": "2026-02-09",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-tenth-circuit.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-048-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "$1,000 to Frontier (fee offset); mandatory Maryland bar referral; attorney appeared pro se on her own employment appeal."
+  },
+  "notes": "$1,000 to Frontier (fee offset); mandatory Maryland bar referral; attorney appeared pro se on her own employment appeal.",
+  "source": "https://damiencharlotin.com/documents/1484/Amarsingh_v._Frontier_Airlines.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-048"
+}

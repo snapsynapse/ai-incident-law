@@ -8,9 +8,9 @@
     "determinations": "determinations.json"
   },
   "counts": {
-    "authorities": 36,
-    "proceedings": 43,
-    "allegations": 43,
-    "determinations": 40
+    "authorities": 42,
+    "proceedings": 50,
+    "allegations": 50,
+    "determinations": 47
   }
 }

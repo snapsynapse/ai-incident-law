@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-045-proceeding.json",
+  "id": "aiel-2026-045-proceeding",
+  "title": "Hodges v. Meridian Waste Acquisitions USA, No. 3:25-cv-62; Rieske v. AFS, No. 5:25-cv-45 (M.D. Fla.)",
+  "filed_date": "2026-01-16",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-045-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2026-045-determination.json"
+  ],
+  "source": "https://damiencharlotin.com/documents/1359/Hodges_v_Meridian_Waste_Acquisitions_USA_16_January_2025.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-045",
+  "matter_type": "sanctions order (Rule 11)",
+  "status": "sanctioned"
+}

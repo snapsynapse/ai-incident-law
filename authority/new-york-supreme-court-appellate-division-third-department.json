@@ -1,0 +1,18 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Authority",
+  "@id": "https://aiincidentlaw.org/authority/new-york-supreme-court-appellate-division-third-department.json",
+  "id": "new-york-supreme-court-appellate-division-third-department",
+  "organization": {
+    "@type": "gist:Court",
+    "name": "New York Supreme Court, Appellate Division, Third Department"
+  },
+  "authority_basis": {
+    "kind": "judicial",
+    "instrument_ref": "https://aiincidentlaw.org/authority/new-york-supreme-court-appellate-division-third-department.json#authority-basis"
+  },
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-ny"
+  }
+}

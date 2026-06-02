@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-050-allegation.json",
+  "id": "aiel-2026-050-allegation",
+  "text": "Attorney Roger Roots, representing the imprisoned Joseph Maldonado (known as \"Joe Exotic\" of Tiger King), submitted filings containing fabricated and inaccurate citations. Roots' paralegal admitted in a sworn declaration that earlier drafts included \"AI-assisted research features\" from Lexis tools. Roots himself pledged to no longer rely on AI-assisted research summaries. The court imposed a $1,500 Rule 11 sanction and dismissed the case for lack of standing.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-050#ai-system",
+  "ai_system_name": "Unnamed generative AI (admitted by counsel; Lexis AI-assisted research features referenced)",
+  "deployer": "Roger Roots (counsel for Joseph Maldonado / Joe Exotic)",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Non-existent or misrepresented federal civil rights and animal-law authorities; Fed. R. Civ. P. 11",
+  "mitigation_gap": "Counsel used AI-assisted research tools without adequate verification; admitted through pledged remedial measures and paralegal declaration.",
+  "reliance_or_harm": "$1,500 Rule 11 sanction; case dismissed for lack of Article III standing.",
+  "ai_incident_law_record_id": "AIEL-2026-050"
+}

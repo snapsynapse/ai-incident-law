@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-046-allegation.json",
+  "id": "aiel-2026-046-allegation",
+  "text": "An unnamed law clerk used Lexis+ AI and LexisNexis Protégé to research a filing, generating at least eight false case citation hallucinations. Supervising attorney Anderson signed the brief without verifying the AI output. The court found both co-counsel violated Rule 11 but imposed the $4,000 monetary sanction only on Anderson, crediting the firm's sworn account of the law clerk's AI tool use without rejecting the LexisNexis attribution.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-046#ai-system",
+  "ai_system_name": "Lexis+ AI and LexisNexis Protégé (named; court-found via firm's sworn account)",
+  "deployer": "Attorney Anderson (Anderson and Associates, specially admitted NY co-counsel)",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Eight non-existent federal case citations; Fed. R. Civ. P. 11",
+  "mitigation_gap": "Supervising attorney failed to verify AI-generated research before signing and filing; AI detectors flagged the case explanations as 100% AI-generated.",
+  "reliance_or_harm": "$4,000 Rule 11 sanction on supervising attorney; local co-counsel found to have violated Rule 11 but not fined.",
+  "ai_incident_law_record_id": "AIEL-2026-046"
+}

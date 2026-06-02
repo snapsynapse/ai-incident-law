@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-047-allegation.json",
+  "id": "aiel-2026-047-allegation",
+  "text": "Attorney Sandeep Seth admitted using ChatGPT \"as a shortcut\" to find case law and submitted fabricated and misrepresented citations in a patent infringement matter without independent verification. The court found all five Lexos attorneys violated Rule 11(b). Seth was fined $5,000 and had his pro hac vice admission revoked; three co-counsel were fined $3,000, $3,000, and $1,000 respectively for failure to verify their co-counsel's work.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-047#ai-system",
+  "ai_system_name": "ChatGPT (named; admitted)",
+  "deployer": "Sandeep Seth (drafting attorney); Kenneth P. Kula; Eric W. Joe; David R. Cooper (co-counsel)",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Non-existent Tenth and Federal Circuit patent cases; Fed. R. Civ. P. 11(b)",
+  "mitigation_gap": "Lead drafter used ChatGPT as research shortcut and admitted not verifying citations; four co-counsel signed filings without checking a co-counsel's citations.",
+  "reliance_or_harm": "$12,000 total Rule 11 sanctions across four attorneys; Seth's pro hac vice admission revoked and required to self-report to his bar.",
+  "ai_incident_law_record_id": "AIEL-2026-047"
+}

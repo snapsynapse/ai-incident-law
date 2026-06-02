@@ -6,7 +6,7 @@
   "text": "A reply brief contained fabricated quotations and additional misrepresentations. The Fifth Circuit found that AI-generated material had been filed without adequate verification and that counsel's response to the show-cause order compounded the problem.",
   "asserted_by": "public record",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2026-005#ai-system",
-  "ai_system_name": "Generative AI, identified in reporting as Casetext/CoCounsel and/or vLex workflow",
+  "ai_system_name": "Casetext/CoCounsel and vLex (named; court-found; court did not conclusively pin which product generated hallucinations)",
   "deployer": "Heather Hersh / FCRA Attorneys",
   "domain": "legal services",
   "error_type": "hallucinated authority",

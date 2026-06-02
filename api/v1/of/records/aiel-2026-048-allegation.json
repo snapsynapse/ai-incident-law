@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-048-allegation.json",
+  "id": "aiel-2026-048-allegation",
+  "text": "Attorney Kusmin Amarsingh, appearing pro se in her own employment appeal against Frontier Airlines, admitted using ChatGPT as a research and drafting aid that generated seven fabricated case citations and two misattributed quotations. She admitted not verifying any of the citations. The Tenth Circuit affirmed the judgment against her, imposed a $1,000 sanction payable to Frontier, and referred the matter to Maryland attorney-disciplinary authorities.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-048#ai-system",
+  "ai_system_name": "ChatGPT (named; admitted)",
+  "deployer": "Kusmin L. Amarsingh (attorney appearing pro se on her own appeal)",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Seven non-existent federal cases plus two real cases cited with fabricated quotations; Fed. R. App. P.",
+  "mitigation_gap": "Attorney used ChatGPT for research and drafting and filed without verifying any citations or quotations.",
+  "reliance_or_harm": "$1,000 sanction payable to Frontier Airlines; referral to Maryland attorney-disciplinary authority; appeal affirmed against her.",
+  "ai_incident_law_record_id": "AIEL-2026-048"
+}

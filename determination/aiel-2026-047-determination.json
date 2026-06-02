@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-047-determination.json",
+  "id": "aiel-2026-047-determination",
+  "issued_date": "2026-02-02",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-kansas.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-047-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "$12,000 aggregate: Seth $5,000 + pro hac vice revocation; Kula $3,000; Joe $3,000; Cooper $1,000; fifth attorney (Doell) released from sanctions."
+  },
+  "notes": "$12,000 aggregate: Seth $5,000 + pro hac vice revocation; Kula $3,000; Joe $3,000; Cooper $1,000; fifth attorney (Doell) released from sanctions.",
+  "source": "https://damiencharlotin.com/documents/1438/Lexos_v._Overstock_USA_2_February_2026.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-047"
+}
