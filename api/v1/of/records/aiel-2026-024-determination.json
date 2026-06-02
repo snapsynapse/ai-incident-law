@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-024-determination.json",
+  "id": "aiel-2026-024-determination",
+  "issued_date": "2026-04-28",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-024-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "$1,001 personal sanction + 4 hours CLE + circulation/certification requirements; associate Katherine Cervantes was separately sanctioned (Dkt. 161). Caption shares the name \"Workday\" with AIEL-2025-018 (Mobley) but is unrelated to the hiring-tool matter — here Workday is merely the opposing party and the AI misconduct is by plaintiff’s counsel."
+  },
+  "notes": "$1,001 personal sanction + 4 hours CLE + circulation/certification requirements; associate Katherine Cervantes was separately sanctioned (Dkt. 161). Caption shares the name \"Workday\" with AIEL-2025-018 (Mobley) but is unrelated to the hiring-tool matter — here Workday is merely the opposing party and the AI misconduct is by plaintiff’s counsel.",
+  "source": "https://damiencharlotin.com/documents/2039/Hill_v._Workday_USA_28_April_2026.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-024"
+}

@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-023-allegation.json",
+  "id": "aiel-2026-023-allegation",
+  "text": "In a published per curiam opinion, the Sixth Circuit found that attorney Steven N. Howe used Westlaw CoCounsel to draft appellate briefs and filed them without verifying the authorities. The briefs contained three fabricated quotations attributed to real cases and misrepresented the holdings of United States v. Washington and United States v. Anthony. Howe admitted the AI-generated errors.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-023#ai-system",
+  "ai_system_name": "Westlaw CoCounsel",
+  "deployer": "Steven N. Howe (court-appointed appellate counsel)",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Genuine holdings of the cited authorities and the duty of candor to the tribunal",
+  "mitigation_gap": "Relied on non-attorney \"staff\" to supervise AI output; no verification of citations before filing.",
+  "reliance_or_harm": "False quotations and misleading legal arguments submitted in a criminal appeal; judicial resources expended; indigent defendant’s appeal delayed.",
+  "ai_incident_law_record_id": "AIEL-2026-023"
+}

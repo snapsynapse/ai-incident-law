@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-024-allegation.json",
+  "id": "aiel-2026-024-allegation",
+  "text": "A magistrate judge sanctioned supervising attorney Lenden Webb after his firm filed a discovery letter brief containing a nonexistent case (South Pointe Wholesale v. Vilardi) and a misrepresented holding, \"caused in part by use of AI.\" The associate had used Westlaw CoCounsel. Webb was admonished and personally sanctioned for failure to supervise and failure to obey court orders.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-024#ai-system",
+  "ai_system_name": "Westlaw CoCounsel",
+  "deployer": "Webb Law Group, APC (Lenden Webb, supervising attorney)",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Genuine case law; duties of candor and supervision (Cal. Rules of Prof. Conduct 5.1)",
+  "mitigation_gap": "No supervision of associate’s AI use; firm relied on a vendor representation that CoCounsel could not produce hallucinations.",
+  "reliance_or_harm": "Fake citation submitted to the court; judicial resources expended across multiple show-cause orders.",
+  "ai_incident_law_record_id": "AIEL-2026-024"
+}

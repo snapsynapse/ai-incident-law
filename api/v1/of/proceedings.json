@@ -413,6 +413,82 @@
       "ai_incident_law_record_id": "AIEL-2026-022",
       "matter_type": "sanctions order",
       "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-023-proceeding.json",
+      "id": "aiel-2026-023-proceeding",
+      "title": "United States v. Farris, No. 25-5623 (6th Cir.)",
+      "filed_date": "2026-04-03",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-sixth-circuit.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-023-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-023-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/1903/USA_v._Farris_USA_3_April_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-023",
+      "matter_type": "appellate opinion / attorney sanction",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-024-proceeding.json",
+      "id": "aiel-2026-024-proceeding",
+      "title": "Hill v. Workday, Inc., No. 3:23-cv-06558-PHK",
+      "filed_date": "2026-04-28",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-024-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-024-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/2039/Hill_v._Workday_USA_28_April_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-024",
+      "matter_type": "sanctions order",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-025-proceeding.json",
+      "id": "aiel-2026-025-proceeding",
+      "title": "Chaney v. Transdev Services Inc., No. 2:24-cv-10761-ODW (AJRx)",
+      "filed_date": "2026-04-28",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-central-district-of-california.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-025-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-025-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/2041/Chaney_v._Transdev_Services_USA_28_April_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-025",
+      "matter_type": "sanctions order",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-026-proceeding.json",
+      "id": "aiel-2026-026-proceeding",
+      "title": "Jimenez-Fogarty v. Fogarty, No. 1:24-cv-08705-JLR-GWG",
+      "filed_date": "2026-04-29",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-026-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-026-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/2045/Fogarty_v._Fogarty_USA_29_April_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-026",
+      "matter_type": "sanctions opinion (Rule 11)",
+      "status": "sanctioned"
     }
   ]
 }

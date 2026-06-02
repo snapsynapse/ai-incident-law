@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-026-allegation.json",
+  "id": "aiel-2026-026-allegation",
+  "text": "A magistrate judge sanctioned attorney Tricia S. Lindsay after she filed two opposition memoranda citing numerous nonexistent cases. By process of elimination (no human drafter claimed), the court found the citations \"were generated as a result of the use of some kind of AI program,\" expressly declining to credit Lindsay’s belated suggestion that LexisNexis was the source. The court found subjective bad faith.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-026#ai-system",
+  "ai_system_name": "Unspecified generative-AI program (court finding; attorney’s LexisNexis attribution not credited)",
+  "deployer": "Tricia S. Lindsay (plaintiff’s counsel)",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Genuine case law; Rule 11 duty of reasonable inquiry",
+  "mitigation_gap": "No citation verification; obfuscation about the source of the fabricated citations.",
+  "reliance_or_harm": "Numerous fabricated citations across multiple filings; referred (with co-counsel) to the Second Circuit Grievance Panel.",
+  "ai_incident_law_record_id": "AIEL-2026-026"
+}

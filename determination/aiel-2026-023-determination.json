@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-023-determination.json",
+  "id": "aiel-2026-023-determination",
+  "issued_date": "2026-04-03",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-sixth-circuit.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-023-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "Recommended for publication. Howe denied CJA compensation for the appeal, removed as counsel, briefs locked, and referred to the Sixth Circuit Chief Judge (Local Rule 46) and the Kentucky Bar. Notably the fabrications were false quotations from REAL cases, not fictitious cases."
+  },
+  "notes": "Recommended for publication. Howe denied CJA compensation for the appeal, removed as counsel, briefs locked, and referred to the Sixth Circuit Chief Judge (Local Rule 46) and the Kentucky Bar. Notably the fabrications were false quotations from REAL cases, not fictitious cases.",
+  "source": "https://damiencharlotin.com/documents/1903/USA_v._Farris_USA_3_April_2026.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-023"
+}

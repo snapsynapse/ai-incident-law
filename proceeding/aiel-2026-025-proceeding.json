@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-025-proceeding.json",
+  "id": "aiel-2026-025-proceeding",
+  "title": "Chaney v. Transdev Services Inc., No. 2:24-cv-10761-ODW (AJRx)",
+  "filed_date": "2026-04-28",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-central-district-of-california.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-025-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2026-025-determination.json"
+  ],
+  "source": "https://damiencharlotin.com/documents/2041/Chaney_v._Transdev_Services_USA_28_April_2026.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-025",
+  "matter_type": "sanctions order",
+  "status": "sanctioned"
+}

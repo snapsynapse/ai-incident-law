@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-025-allegation.json",
+  "id": "aiel-2026-025-allegation",
+  "text": "A district judge sanctioned plaintiff’s counsel Gavril T. Gabriel for citing a fabricated case (\"In re Shubert, 799 F.3d 1124\") three times across summary-judgment oppositions. Gabriel admitted using LexisNexis+ and its drafting feature Protégé. The court found bad faith, compounded by attempts to bury and minimize the misconduct.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-025#ai-system",
+  "ai_system_name": "LexisNexis+ (Protégé)",
+  "deployer": "Gavril T. Gabriel (plaintiff’s counsel)",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Genuine case law",
+  "mitigation_gap": "No verification of AI-generated citations; concealment of AI use until ordered to disclose.",
+  "reliance_or_harm": "Fabricated authority cited three times; bad-faith conduct found.",
+  "ai_incident_law_record_id": "AIEL-2026-025"
+}
