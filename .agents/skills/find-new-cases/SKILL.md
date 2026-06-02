@@ -584,13 +584,15 @@ Run in order:
 - [add-regulation](../../../../every-ai-law/.agents/skills/add-regulation/SKILL.md) — parse-then-research-then-validate flow.
 - `litigation-legal:docket-watcher` (system agent) — CourtListener primary-source pattern, scan-and-report cadence.
 
-## Existing corpus snapshot (as of 2026-05-26)
+## Existing corpus snapshot (as of 2026-06-02)
 
 For dedupe orientation only. Refresh by reading `data/data.json` directly.
 
-- `included`: 18 records (2017–2026)
-- `review`: 12 candidates from 2026-04-22 sweep
+- `included`: 31 records (2017–2026)
+- `review`: 16 candidates
 - `global`: 8 candidates
+
+Coverage swept so far: April 2026 and May 2026 fully swept (hallucination category, order-verified); Swanson v. IBM and CNN v. Perplexity added by targeted research. Heavily represented: attorney/litigant hallucinated-citation sanctions, including legal-AI-vendor tools (Westlaw CoCounsel, LexisNexis Protégé). Open threads for a future run: March 2026 not yet swept; April non-US named-tool hits (Boonstra/ChatGPT, AGC/Gemini, Québec) not yet triaged to `global`; review items 013–015 await a steward policy call on whether tracker-inferred AI (no court finding) is admissible.
 
 Under-represented categories worth explicit Phase 2 probes:
 - Deepfake civil suits (NCII, voice-cloning fraud)
