@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-043-proceeding.json",
+  "id": "aiel-2026-043-proceeding",
+  "title": "Perez-Castillo v. Blanche (Att'y Gen.), No. 25-1988 (7th Cir.)",
+  "filed_date": "2026-06-01",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-seventh-circuit.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-043-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2026-043-determination.json"
+  ],
+  "source": "https://damiencharlotin.com/documents/2246/Perez-Castillo_v._Blanche_USA_1_June_2026.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-043",
+  "matter_type": "sanctions order (appellate)",
+  "status": "sanctioned"
+}

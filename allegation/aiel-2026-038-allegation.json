@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-038-allegation.json",
+  "id": "aiel-2026-038-allegation",
+  "text": "Attorney Joshua B. Watkins of Burrill Watkins LLC was publicly reprimanded, disqualified from the case, and sanctioned a combined $47,056.90 after forensic examination of his firm's ChatGPT Business Plan workspace confirmed hallucinated citations in filings. Counsel admitted generative-AI use and the court made an independent finding of false statements of law. The order was published in the Federal Supplement; the Bar was notified.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-038#ai-system",
+  "ai_system_name": "ChatGPT (named; court-found)",
+  "deployer": "Joshua B. Watkins (Burrill Watkins LLC)",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Non-existent federal case citations; genuine federal civil rights and landlord-tenant law",
+  "mitigation_gap": "Attorney used ChatGPT to draft legal briefs and filed without verifying citations; forensic examination of the firm's ChatGPT workspace confirmed the AI origin.",
+  "reliance_or_harm": "$35,603.90 to Fite Defendants + $11,453 to Triad Defendants = $47,056.90; public reprimand; disqualification; Bar referral; order published.",
+  "ai_incident_law_record_id": "AIEL-2026-038"
+}

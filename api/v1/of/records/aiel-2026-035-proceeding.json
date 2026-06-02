@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-035-proceeding.json",
+  "id": "aiel-2026-035-proceeding",
+  "title": "State v. Coleman, 2026-Ohio-965, No. 2024-A-0040 (Ohio Ct. App., 11th Dist.)",
+  "filed_date": "2026-03-20",
+  "issuedBy": "https://aiincidentlaw.org/authority/court-of-appeals-of-ohio-eleventh-appellate-district.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-035-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2026-035-determination.json"
+  ],
+  "source": "https://damiencharlotin.com/documents/1774/2026-Ohio-965.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-035",
+  "matter_type": "sanctions order (appellate)",
+  "status": "sanctioned"
+}

@@ -469,6 +469,186 @@
         "@type": "gist:Jurisdiction",
         "ref": "us"
       }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/california-court-of-appeal-fourth-appellate-district-division-one.json",
+      "id": "california-court-of-appeal-fourth-appellate-district-division-one",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "California Court of Appeal, Fourth Appellate District, Division One"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/california-court-of-appeal-fourth-appellate-district-division-one.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ca"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-louisiana.json",
+      "id": "u-s-district-court-western-district-of-louisiana",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. District Court, Western District of Louisiana"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-louisiana.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-louisiana.json",
+      "id": "u-s-district-court-eastern-district-of-louisiana",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. District Court, Eastern District of Louisiana"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-louisiana.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/court-of-appeals-of-ohio-eleventh-appellate-district.json",
+      "id": "court-of-appeals-of-ohio-eleventh-appellate-district",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "Court of Appeals of Ohio, Eleventh Appellate District"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/court-of-appeals-of-ohio-eleventh-appellate-district.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": ""
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-oregon.json",
+      "id": "u-s-district-court-district-of-oregon",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. District Court, District of Oregon"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-oregon.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-alabama.json",
+      "id": "u-s-district-court-southern-district-of-alabama",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. District Court, Southern District of Alabama"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-alabama.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-alabama.json",
+      "id": "u-s-district-court-northern-district-of-alabama",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. District Court, Northern District of Alabama"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-alabama.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-colorado.json",
+      "id": "u-s-district-court-district-of-colorado",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. District Court, District of Colorado"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-colorado.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-indiana.json",
+      "id": "u-s-district-court-southern-district-of-indiana",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. District Court, Southern District of Indiana"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-indiana.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-seventh-circuit.json",
+      "id": "u-s-court-of-appeals-for-the-seventh-circuit",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. Court of Appeals for the Seventh Circuit"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-seventh-circuit.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      }
     }
   ]
 }

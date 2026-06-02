@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-036-determination.json",
+  "id": "aiel-2026-036-determination",
+  "issued_date": "2026-03-23",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-oregon.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-036-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "Two-order matter: Dec 12, 2025 (AI sanction + $15,500 + claims dismissed); March 23, 2026 (fee split finalized). Total exposure ~$110,204."
+  },
+  "notes": "Two-order matter: Dec 12, 2025 (AI sanction + $15,500 + claims dismissed); March 23, 2026 (fee split finalized). Total exposure ~$110,204.",
+  "source": "https://damiencharlotin.com/hallucinations/",
+  "ai_incident_law_record_id": "AIEL-2026-036"
+}

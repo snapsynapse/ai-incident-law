@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-038-proceeding.json",
+  "id": "aiel-2026-038-proceeding",
+  "title": "Rivera v. Triad Properties Corporation et al., No. 2:24-cv-01802-AMM (N.D. Ala.)",
+  "filed_date": "2026-03-31",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-alabama.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-038-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2026-038-determination.json"
+  ],
+  "source": "https://damiencharlotin.com/documents/1931/Rivera_v._Triad_USA_31_March_2026.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-038",
+  "matter_type": "sanctions order (Rule 11 / inherent power)",
+  "status": "sanctioned"
+}

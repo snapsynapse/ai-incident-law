@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-040-allegation.json",
+  "id": "aiel-2026-040-allegation",
+  "text": "A second Rule 11 sanctions order in the Coomer v. Lindell/MyPillow litigation imposed a $5,000 sanction on attorney Christopher Kachouroff, who had earlier admitted to routinely using AI in drafting and whose prior brief contained approximately 30 defective or hallucinated AI-generated citations. The court also referred Kachouroff to the Colorado State Bar. Cumulative sanctions in the matter reached $8,000.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-040#ai-system",
+  "ai_system_name": "Unnamed generative AI (admitted by counsel)",
+  "deployer": "Christopher Kachouroff",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Accurate legal authority; Fed. R. Civ. P. 11",
+  "mitigation_gap": "Counsel admitted routine AI use in drafting; failed to verify citations; second violation in same litigation.",
+  "reliance_or_harm": "$5,000 monetary sanction (second order); Bar referral; cumulative $8,000 in sanctions in this matter.",
+  "ai_incident_law_record_id": "AIEL-2026-040"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-042-determination.json",
+  "id": "aiel-2026-042-determination",
+  "issued_date": "2026-05-20",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-indiana.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-042-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "$2,000 sanction (reduced from magistrate's $7,500 recommendation); Fastcase named as the AI tool by court finding."
+  },
+  "notes": "$2,000 sanction (reduced from magistrate's $7,500 recommendation); Fastcase named as the AI tool by court finding.",
+  "source": "https://damiencharlotin.com/documents/2191/Davis_v._Marion_Country_Juvenile_DC_USA_20_May_2026.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-042"
+}

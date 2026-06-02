@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-036-allegation.json",
+  "id": "aiel-2026-036-allegation",
+  "text": "In a two-phase sanctions proceeding, the U.S. District Court for the District of Oregon struck plaintiff's summary-judgment briefs, dismissed claims with prejudice, and imposed sanctions on pro hac vice counsel Stephen Brigandi for submitting briefing containing non-existent cases and fabricated quotations that the court attributed to an unidentified AI tool. A December 2025 order imposed a $15,500 Rule 11 sanction; the March 2026 order finalized a fee award of $94,704.38 apportioned 85% to Brigandi and 15% to local counsel Timothy Murphy.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-036#ai-system",
+  "ai_system_name": "Unnamed generative AI (court finding)",
+  "deployer": "Stephen Brigandi (pro hac vice lead counsel)",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Non-existent case citations and fabricated quotations; Fed. R. Civ. P. 11",
+  "mitigation_gap": "Lead counsel submitted AI-generated briefing without verification; court found \"one of the clients may have played a role in generating the fake citations\" via an unidentified AI tool.",
+  "reliance_or_harm": "$15,500 monetary sanction on Brigandi; $94,704.38 attorney-fee award ($80,498.72 Brigandi, $14,205.66 Murphy); claims dismissed with prejudice; summary-judgment briefs stricken.",
+  "ai_incident_law_record_id": "AIEL-2026-036"
+}

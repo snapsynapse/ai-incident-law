@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-032-determination.json",
+  "id": "aiel-2026-032-determination",
+  "issued_date": "2026-03-05",
+  "issuedBy": "https://aiincidentlaw.org/authority/california-court-of-appeal-fourth-appellate-district-division-one.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-032-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "$5,000 sanction and bar referral confirmed; AI unnamed but admitted at oral argument."
+  },
+  "notes": "$5,000 sanction and bar referral confirmed; AI unnamed but admitted at oral argument.",
+  "source": "https://damiencharlotin.com/documents/1599/D085584.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-032"
+}

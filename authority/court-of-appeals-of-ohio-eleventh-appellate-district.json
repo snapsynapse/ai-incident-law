@@ -1,0 +1,18 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Authority",
+  "@id": "https://aiincidentlaw.org/authority/court-of-appeals-of-ohio-eleventh-appellate-district.json",
+  "id": "court-of-appeals-of-ohio-eleventh-appellate-district",
+  "organization": {
+    "@type": "gist:Court",
+    "name": "Court of Appeals of Ohio, Eleventh Appellate District"
+  },
+  "authority_basis": {
+    "kind": "judicial",
+    "instrument_ref": "https://aiincidentlaw.org/authority/court-of-appeals-of-ohio-eleventh-appellate-district.json#authority-basis"
+  },
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": ""
+  }
+}

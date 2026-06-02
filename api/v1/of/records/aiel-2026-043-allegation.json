@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-043-allegation.json",
+  "id": "aiel-2026-043-allegation",
+  "text": "The Seventh Circuit found that an immigration appeal brief was \"riddled with AI hallucinations\" including two dozen fabricated quotations and seven cases wrongly cited as circuit precedent. The brief was drafted by contracted attorney Farah Chalisa using ChatGPT, and filed by counsel of record Abdullah Salah. Salah was sanctioned $5,000 under Fed. R. App. P. 46(c); Chalisa was referred to the Illinois ARDC but not directly sanctioned because she had not appeared before the circuit.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-043#ai-system",
+  "ai_system_name": "ChatGPT (named; court-found)",
+  "deployer": "Abdullah Salah (counsel of record); Farah Chalisa (contracted brief-drafter)",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Seventh Circuit immigration precedent; Fed. R. App. P. 46(c)",
+  "mitigation_gap": "Contracted drafter used ChatGPT for copyediting without verification; counsel of record signed and filed without reviewing for AI hallucinations.",
+  "reliance_or_harm": "$5,000 sanction on Salah; ARDC referral for Chalisa; court placed Salah on notice of potential disbarment; petition denied.",
+  "ai_incident_law_record_id": "AIEL-2026-043"
+}

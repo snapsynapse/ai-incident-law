@@ -584,6 +584,234 @@
       "ai_incident_law_record_id": "AIEL-2026-031",
       "matter_type": "sanctions order (Rule 9011)",
       "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-032-proceeding.json",
+      "id": "aiel-2026-032-proceeding",
+      "title": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)",
+      "filed_date": "2026-03-05",
+      "issuedBy": "https://aiincidentlaw.org/authority/california-court-of-appeal-fourth-appellate-district-division-one.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-032-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-032-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/1599/D085584.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-032",
+      "matter_type": "sanctions order (appellate)",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-033-proceeding.json",
+      "id": "aiel-2026-033-proceeding",
+      "title": "Kattom v. Bondi, No. 25-1497 SEC P (W.D. La.)",
+      "filed_date": "2026-03-06",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-louisiana.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-033-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-033-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/1622/Kattom_v._Bondi_USA_March_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-033",
+      "matter_type": "sanctions order (Rule 11)",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-034-proceeding.json",
+      "id": "aiel-2026-034-proceeding",
+      "title": "Gentry v. Thompson, E.D. La. (Judge Carl J. Barbier)",
+      "filed_date": "2026-03-20",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-louisiana.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-034-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-034-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/1771/Gentry_v._Thompson_USA_20_March_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-034",
+      "matter_type": "sanctions order (Rule 11)",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-035-proceeding.json",
+      "id": "aiel-2026-035-proceeding",
+      "title": "State v. Coleman, 2026-Ohio-965, No. 2024-A-0040 (Ohio Ct. App., 11th Dist.)",
+      "filed_date": "2026-03-20",
+      "issuedBy": "https://aiincidentlaw.org/authority/court-of-appeals-of-ohio-eleventh-appellate-district.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-035-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-035-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/1774/2026-Ohio-965.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-035",
+      "matter_type": "sanctions order (appellate)",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-036-proceeding.json",
+      "id": "aiel-2026-036-proceeding",
+      "title": "Couvrette v. Wisnovsky, No. 1:21-cv-00157-CL (D. Or.)",
+      "filed_date": "2026-03-23",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-oregon.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-036-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-036-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/hallucinations/",
+      "ai_incident_law_record_id": "AIEL-2026-036",
+      "matter_type": "sanctions order (Rule 11 / inherent power)",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-037-proceeding.json",
+      "id": "aiel-2026-037-proceeding",
+      "title": "Heimkes v. Fairhope Motorcoach Resort Condominium Owners Association et al., No. 1:22-cv-00448-TFM-N (S.D. Ala.)",
+      "filed_date": "2026-03-31",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-alabama.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-037-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-037-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/1890/Heimkes_v._Fairhope_USA_31_March_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-037",
+      "matter_type": "sanctions order (Rule 11 / inherent power)",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-038-proceeding.json",
+      "id": "aiel-2026-038-proceeding",
+      "title": "Rivera v. Triad Properties Corporation et al., No. 2:24-cv-01802-AMM (N.D. Ala.)",
+      "filed_date": "2026-03-31",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-alabama.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-038-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-038-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/1931/Rivera_v._Triad_USA_31_March_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-038",
+      "matter_type": "sanctions order (Rule 11 / inherent power)",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-039-proceeding.json",
+      "id": "aiel-2026-039-proceeding",
+      "title": "Jimenez-Fogarty v. Fogarty et al., No. 1:24-cv-08705-JLR-GWG (S.D.N.Y.)",
+      "filed_date": "2026-04-29",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-039-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-039-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/2045/Fogarty_v._Fogarty_USA_29_April_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-039",
+      "matter_type": "sanctions order (Rule 11)",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-040-proceeding.json",
+      "id": "aiel-2026-040-proceeding",
+      "title": "Coomer v. Lindell/MyPillow Inc., No. 1:22-cv-01129-NYW-SBP (D. Colo.)",
+      "filed_date": "2026-05-07",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-colorado.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-040-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-040-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/2118/Coomer_v._Lindell_USA_7_May_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-040",
+      "matter_type": "sanctions order (Rule 11) — second order",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-041-proceeding.json",
+      "id": "aiel-2026-041-proceeding",
+      "title": "Chakma v. Sushi Katsuei Inc., No. 1:23-cv-07804-KPF (S.D.N.Y.)",
+      "filed_date": "2026-05-19",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-041-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-041-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/2160/Chakma_et_al_v_Sushi_Katsuei_Inc_et_al_USA_19_May_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-041",
+      "matter_type": "sanctions order (Rule 37 / inherent power)",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-042-proceeding.json",
+      "id": "aiel-2026-042-proceeding",
+      "title": "Davis v. Marion County Superior Court Juvenile Detention Center et al., S.D. Ind.",
+      "filed_date": "2026-05-20",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-indiana.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-042-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-042-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/2191/Davis_v._Marion_Country_Juvenile_DC_USA_20_May_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-042",
+      "matter_type": "sanctions order (Rule 11)",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-043-proceeding.json",
+      "id": "aiel-2026-043-proceeding",
+      "title": "Perez-Castillo v. Blanche (Att'y Gen.), No. 25-1988 (7th Cir.)",
+      "filed_date": "2026-06-01",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-seventh-circuit.json",
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-043-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-043-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/2246/Perez-Castillo_v._Blanche_USA_1_June_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-043",
+      "matter_type": "sanctions order (appellate)",
+      "status": "sanctioned"
     }
   ]
 }

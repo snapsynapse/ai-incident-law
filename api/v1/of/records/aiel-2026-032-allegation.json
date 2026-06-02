@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-032-allegation.json",
+  "id": "aiel-2026-032-allegation",
+  "text": "The California Court of Appeal sanctioned respondent's appellate counsel Roxanne Chung Bonar $5,000 after she cited fictitious cases in a family-law appeal. At oral argument Bonar acknowledged she lacked a paid legal-research subscription and conceded the fictitious citations \"may have\" come from AI tools she was using. The same fake cases had also appeared in the family court's written order, which the appellate court found was error.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-032#ai-system",
+  "ai_system_name": "Unnamed generative AI (admitted by counsel)",
+  "deployer": "Roxanne Chung Bonar (appellate counsel)",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Non-existent California authorities (Twigg and Teegarden); genuine California family-law caselaw",
+  "mitigation_gap": "Counsel used AI for legal research without a verified subscription and submitted citations without checking their existence.",
+  "reliance_or_harm": "$5,000 sanction payable to court clerk; referral to State Bar of California; family court order reversed for reliance on fictitious authority.",
+  "ai_incident_law_record_id": "AIEL-2026-032"
+}

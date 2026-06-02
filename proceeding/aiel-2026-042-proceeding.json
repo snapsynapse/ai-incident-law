@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-042-proceeding.json",
+  "id": "aiel-2026-042-proceeding",
+  "title": "Davis v. Marion County Superior Court Juvenile Detention Center et al., S.D. Ind.",
+  "filed_date": "2026-05-20",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-indiana.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-042-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2026-042-determination.json"
+  ],
+  "source": "https://damiencharlotin.com/documents/2191/Davis_v._Marion_Country_Juvenile_DC_USA_20_May_2026.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-042",
+  "matter_type": "sanctions order (Rule 11)",
+  "status": "sanctioned"
+}

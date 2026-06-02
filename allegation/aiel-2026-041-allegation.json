@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-041-allegation.json",
+  "id": "aiel-2026-041-allegation",
+  "text": "Defense counsel in a wage-and-hour class action admitted using LexisNexis's AI tool to help construct submissions without reviewing them for correctness, resulting in AI-hallucinated citations. The court imposed $1,710 in attorneys' fees (AI-authority-related) and a $1,000 monetary penalty on defense counsel under Rule 37, 28 U.S.C. § 1927, and inherent powers. A separate $46,980 discovery sanction was also imposed on defendants for unrelated witness-declaration misconduct.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-041#ai-system",
+  "ai_system_name": "LexisNexis AI tool (named; admitted)",
+  "deployer": "Defense Counsel for Sushi Katsuei (unnamed in opinion)",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Genuine federal employment/wage-and-hour caselaw; court submission standards",
+  "mitigation_gap": "Counsel used LexisNexis AI to draft court submissions without reviewing AI output for accuracy before filing.",
+  "reliance_or_harm": "$1,710 AI-attributable attorneys' fees + $1,000 monetary penalty = $2,710 on defense counsel; fabricated citations submitted in class-action proceedings.",
+  "ai_incident_law_record_id": "AIEL-2026-041"
+}

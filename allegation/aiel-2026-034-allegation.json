@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-034-allegation.json",
+  "id": "aiel-2026-034-allegation",
+  "text": "Drafting attorney Jalen R. Harris admitted starting a brief on Westlaw then \"resorting to ChatGPT,\" submitting nine hallucinated case citations without checking them. The court imposed $250 on Harris and $1,000 on supervising attorney James Roquemore under Rule 11, and formally admonished co-counsel Corwin St. Raymond. Harris took full responsibility and acknowledged he never read the fabricated cases.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-034#ai-system",
+  "ai_system_name": "ChatGPT (named; admitted)",
+  "deployer": "Jalen R. Harris; James Roquemore; Corwin St. Raymond",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Nine non-existent federal cases cited in the brief; genuine federal law",
+  "mitigation_gap": "Drafting attorney used ChatGPT without verifying output; supervising attorney failed to catch the hallucinations.",
+  "reliance_or_harm": "$1,250 in monetary sanctions ($250 + $1,000); formal admonishment of co-counsel.",
+  "ai_incident_law_record_id": "AIEL-2026-034"
+}

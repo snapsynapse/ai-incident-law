@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-035-allegation.json",
+  "id": "aiel-2026-035-allegation",
+  "text": "The Ohio Court of Appeals, Eleventh Appellate District, sanctioned an attorney after a non-attorney paralegal used ChatGPT to generate fabricated quotations that the attorney submitted in a criminal appeal. The attorney admitted the AI use and the court found the conduct sanctionable; it also noted the attorney had continued using ChatGPT after the sanctions hearing. Aggravating: a subsequent October 2025 filing visibly contained a ChatGPT prompt.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-035#ai-system",
+  "ai_system_name": "ChatGPT (named; admitted)",
+  "deployer": "Respondent attorney (Ohio appellate counsel; name not stated in order)",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Non-existent judicial quotations attributed to real Ohio judges; Ohio Rules of Professional Conduct",
+  "mitigation_gap": "Attorney failed to review paralegal's ChatGPT output before submission; continued AI use after sanctions hearing.",
+  "reliance_or_harm": "$2,000 monetary fine (credit for $2,000 already paid to Ashtabula County Prosecutor); referral to Ohio Office of Disciplinary Counsel; removal as counsel; application to reopen stricken; two-year order to serve judgment on falsely-implicated judges.",
+  "ai_incident_law_record_id": "AIEL-2026-035"
+}

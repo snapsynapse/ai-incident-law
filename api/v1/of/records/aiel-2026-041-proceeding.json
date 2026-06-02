@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-041-proceeding.json",
+  "id": "aiel-2026-041-proceeding",
+  "title": "Chakma v. Sushi Katsuei Inc., No. 1:23-cv-07804-KPF (S.D.N.Y.)",
+  "filed_date": "2026-05-19",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-041-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2026-041-determination.json"
+  ],
+  "source": "https://damiencharlotin.com/documents/2160/Chakma_et_al_v_Sushi_Katsuei_Inc_et_al_USA_19_May_2026.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-041",
+  "matter_type": "sanctions order (Rule 37 / inherent power)",
+  "status": "sanctioned"
+}

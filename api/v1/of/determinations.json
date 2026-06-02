@@ -542,6 +542,234 @@
       "notes": "$2,750 monetary sanction payable to the Clerk plus six hours of in-person CLE focused on the use of generative AI; counsel admitted the AI use.",
       "source": "https://damiencharlotin.com/documents/1989/In_re_Troylond_USA_9_April_2026.pdf",
       "ai_incident_law_record_id": "AIEL-2026-031"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-032-determination.json",
+      "id": "aiel-2026-032-determination",
+      "issued_date": "2026-03-05",
+      "issuedBy": "https://aiincidentlaw.org/authority/california-court-of-appeal-fourth-appellate-district-division-one.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-032-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "$5,000 sanction and bar referral confirmed; AI unnamed but admitted at oral argument."
+      },
+      "notes": "$5,000 sanction and bar referral confirmed; AI unnamed but admitted at oral argument.",
+      "source": "https://damiencharlotin.com/documents/1599/D085584.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-032"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-033-determination.json",
+      "id": "aiel-2026-033-determination",
+      "issued_date": "2026-03-06",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-louisiana.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-033-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "$1,000 personal sanction (2026 WL 637419); attorney admitted ChatGPT use and failure to verify."
+      },
+      "notes": "$1,000 personal sanction (2026 WL 637419); attorney admitted ChatGPT use and failure to verify.",
+      "source": "https://damiencharlotin.com/documents/1622/Kattom_v._Bondi_USA_March_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-033"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-034-determination.json",
+      "id": "aiel-2026-034-determination",
+      "issued_date": "2026-03-20",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-louisiana.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-034-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "$250 Harris + $1,000 Roquemore; St. Raymond admonished only; Harris fully admitted ChatGPT use."
+      },
+      "notes": "$250 Harris + $1,000 Roquemore; St. Raymond admonished only; Harris fully admitted ChatGPT use.",
+      "source": "https://damiencharlotin.com/documents/1771/Gentry_v._Thompson_USA_20_March_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-034"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-035-determination.json",
+      "id": "aiel-2026-035-determination",
+      "issued_date": "2026-03-20",
+      "issuedBy": "https://aiincidentlaw.org/authority/court-of-appeals-of-ohio-eleventh-appellate-district.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-035-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "$2,000 fine with $2,000 credit for prior Ashtabula County payment; disciplinary referral; removal; appeal stricken."
+      },
+      "notes": "$2,000 fine with $2,000 credit for prior Ashtabula County payment; disciplinary referral; removal; appeal stricken.",
+      "source": "https://damiencharlotin.com/documents/1774/2026-Ohio-965.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-035"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-036-determination.json",
+      "id": "aiel-2026-036-determination",
+      "issued_date": "2026-03-23",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-oregon.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-036-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "Two-order matter: Dec 12, 2025 (AI sanction + $15,500 + claims dismissed); March 23, 2026 (fee split finalized). Total exposure ~$110,204."
+      },
+      "notes": "Two-order matter: Dec 12, 2025 (AI sanction + $15,500 + claims dismissed); March 23, 2026 (fee split finalized). Total exposure ~$110,204.",
+      "source": "https://damiencharlotin.com/hallucinations/",
+      "ai_incident_law_record_id": "AIEL-2026-036"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-037-determination.json",
+      "id": "aiel-2026-037-determination",
+      "issued_date": "2026-03-31",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-alabama.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-037-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "$55,597.00 confirmed; counsel denied AI use but court expressly found he \"clearly used it at some point\"; denial not credited."
+      },
+      "notes": "$55,597.00 confirmed; counsel denied AI use but court expressly found he \"clearly used it at some point\"; denial not credited.",
+      "source": "https://damiencharlotin.com/documents/1890/Heimkes_v._Fairhope_USA_31_March_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-037"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-038-determination.json",
+      "id": "aiel-2026-038-determination",
+      "issued_date": "2026-03-31",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-alabama.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-038-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "$47,056.90 total ($35,603.90 + $11,453); ChatGPT workspace forensically examined; both admission and court finding confirmed."
+      },
+      "notes": "$47,056.90 total ($35,603.90 + $11,453); ChatGPT workspace forensically examined; both admission and court finding confirmed.",
+      "source": "https://damiencharlotin.com/documents/1931/Rivera_v._Triad_USA_31_March_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-038"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-039-determination.json",
+      "id": "aiel-2026-039-determination",
+      "issued_date": "2026-04-29",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-039-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "$2,500 payable by May 14, 2026; LexisNexis attribution raised speculatively by counsel and expressly rejected by court."
+      },
+      "notes": "$2,500 payable by May 14, 2026; LexisNexis attribution raised speculatively by counsel and expressly rejected by court.",
+      "source": "https://damiencharlotin.com/documents/2045/Fogarty_v._Fogarty_USA_29_April_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-039"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-040-determination.json",
+      "id": "aiel-2026-040-determination",
+      "issued_date": "2026-05-07",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-colorado.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-040-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "Second standalone sanctions order ($5,000); first order imposed $3,000 on Kachouroff + $3,000 on co-counsel DeMaster. Bar referral confirmed."
+      },
+      "notes": "Second standalone sanctions order ($5,000); first order imposed $3,000 on Kachouroff + $3,000 on co-counsel DeMaster. Bar referral confirmed.",
+      "source": "https://damiencharlotin.com/documents/2118/Coomer_v._Lindell_USA_7_May_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-040"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-041-determination.json",
+      "id": "aiel-2026-041-determination",
+      "issued_date": "2026-05-19",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-041-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "AI-attributable sanction $2,710 ($1,710 fees + $1,000 penalty); LexisNexis AI confirmed by counsel admission and court finding. Separate $46,980 discovery sanction not AI-related."
+      },
+      "notes": "AI-attributable sanction $2,710 ($1,710 fees + $1,000 penalty); LexisNexis AI confirmed by counsel admission and court finding. Separate $46,980 discovery sanction not AI-related.",
+      "source": "https://damiencharlotin.com/documents/2160/Chakma_et_al_v_Sushi_Katsuei_Inc_et_al_USA_19_May_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-041"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-042-determination.json",
+      "id": "aiel-2026-042-determination",
+      "issued_date": "2026-05-20",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-indiana.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-042-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "$2,000 sanction (reduced from magistrate's $7,500 recommendation); Fastcase named as the AI tool by court finding."
+      },
+      "notes": "$2,000 sanction (reduced from magistrate's $7,500 recommendation); Fastcase named as the AI tool by court finding.",
+      "source": "https://damiencharlotin.com/documents/2191/Davis_v._Marion_Country_Juvenile_DC_USA_20_May_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-042"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-043-determination.json",
+      "id": "aiel-2026-043-determination",
+      "issued_date": "2026-06-01",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-seventh-circuit.json",
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-043-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "remedy": {
+        "status": "sanctioned",
+        "notes": "$5,000 on Salah (not $4,997 as in tracker); ARDC referral for Chalisa; 24 fabricated quotations and 7 wrong-circuit citations documented."
+      },
+      "notes": "$5,000 on Salah (not $4,997 as in tracker); ARDC referral for Chalisa; 24 fabricated quotations and 7 wrong-circuit citations documented.",
+      "source": "https://damiencharlotin.com/documents/2246/Perez-Castillo_v._Blanche_USA_1_June_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-043"
     }
   ]
 }

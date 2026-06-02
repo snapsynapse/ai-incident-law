@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-033-allegation.json",
+  "id": "aiel-2026-033-allegation",
+  "text": "Attorney Kenneth A. Mayeaux used ChatGPT to draft a memorandum in support of a habeas petition and submitted it without verifying the citations. The memorandum contained hallucinated case law. Mayeaux admitted both using ChatGPT and failing to vet the citations before filing. The court sanctioned him $1,000 personally under Fed. R. Civ. P. 11 and 28 U.S.C. § 1927.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-033#ai-system",
+  "ai_system_name": "ChatGPT (named; admitted)",
+  "deployer": "Kenneth A. Mayeaux (Mayeaux & Associates)",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Genuine federal immigration/habeas caselaw; Fed. R. Civ. P. 11",
+  "mitigation_gap": "Attorney used ChatGPT to draft legal memoranda and filed without any citation verification.",
+  "reliance_or_harm": "$1,000 personal sanction against counsel; false citations submitted in habeas proceedings.",
+  "ai_incident_law_record_id": "AIEL-2026-033"
+}

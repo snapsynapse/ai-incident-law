@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-037-determination.json",
+  "id": "aiel-2026-037-determination",
+  "issued_date": "2026-03-31",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-alabama.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-037-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "$55,597.00 confirmed; counsel denied AI use but court expressly found he \"clearly used it at some point\"; denial not credited."
+  },
+  "notes": "$55,597.00 confirmed; counsel denied AI use but court expressly found he \"clearly used it at some point\"; denial not credited.",
+  "source": "https://damiencharlotin.com/documents/1890/Heimkes_v._Fairhope_USA_31_March_2026.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-037"
+}

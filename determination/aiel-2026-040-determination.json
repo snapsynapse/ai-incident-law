@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-040-determination.json",
+  "id": "aiel-2026-040-determination",
+  "issued_date": "2026-05-07",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-colorado.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-040-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "Second standalone sanctions order ($5,000); first order imposed $3,000 on Kachouroff + $3,000 on co-counsel DeMaster. Bar referral confirmed."
+  },
+  "notes": "Second standalone sanctions order ($5,000); first order imposed $3,000 on Kachouroff + $3,000 on co-counsel DeMaster. Bar referral confirmed.",
+  "source": "https://damiencharlotin.com/documents/2118/Coomer_v._Lindell_USA_7_May_2026.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-040"
+}

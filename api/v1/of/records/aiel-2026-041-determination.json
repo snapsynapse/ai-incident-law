@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-041-determination.json",
+  "id": "aiel-2026-041-determination",
+  "issued_date": "2026-05-19",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-041-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "AI-attributable sanction $2,710 ($1,710 fees + $1,000 penalty); LexisNexis AI confirmed by counsel admission and court finding. Separate $46,980 discovery sanction not AI-related."
+  },
+  "notes": "AI-attributable sanction $2,710 ($1,710 fees + $1,000 penalty); LexisNexis AI confirmed by counsel admission and court finding. Separate $46,980 discovery sanction not AI-related.",
+  "source": "https://damiencharlotin.com/documents/2160/Chakma_et_al_v_Sushi_Katsuei_Inc_et_al_USA_19_May_2026.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-041"
+}

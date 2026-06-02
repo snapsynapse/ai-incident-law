@@ -1,0 +1,19 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-043-determination.json",
+  "id": "aiel-2026-043-determination",
+  "issued_date": "2026-06-01",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-seventh-circuit.json",
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-043-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "$5,000 on Salah (not $4,997 as in tracker); ARDC referral for Chalisa; 24 fabricated quotations and 7 wrong-circuit citations documented."
+  },
+  "notes": "$5,000 on Salah (not $4,997 as in tracker); ARDC referral for Chalisa; 24 fabricated quotations and 7 wrong-circuit citations documented.",
+  "source": "https://damiencharlotin.com/documents/2246/Perez-Castillo_v._Blanche_USA_1_June_2026.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-043"
+}
