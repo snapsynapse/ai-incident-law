@@ -6,6 +6,10 @@
   "title": "Rivera v. Triad Properties Corporation et al., No. 2:24-cv-01802-AMM (N.D. Ala.)",
   "filed_date": "2026-03-31",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-alabama.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-al"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-038-allegation.json"
   ],

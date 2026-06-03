@@ -6,6 +6,10 @@
   "title": "State of Oklahoma ex rel. Oklahoma Bar Association v. Reeves, 2026 OK 37",
   "filed_date": "2026-05-27",
   "issuedBy": "https://aiincidentlaw.org/authority/supreme-court-of-oklahoma.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-ok"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-021-allegation.json"
   ],
@@ -15,5 +19,6 @@
   "source": "https://damiencharlotin.com/documents/2227/STATE_OF_OKLAHOMA_ex_rel._OBA_v._REEVES.pdf",
   "ai_incident_law_record_id": "AIEL-2026-021",
   "matter_type": "attorney disciplinary order",
-  "status": "sanctioned"
+  "status": "sanctioned",
+  "neutral_citation": "2026 OK 37"
 }

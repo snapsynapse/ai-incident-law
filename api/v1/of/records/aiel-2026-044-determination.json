@@ -5,6 +5,10 @@
   "id": "aiel-2026-044-determination",
   "issued_date": "2026-01-08",
   "issuedBy": "https://aiincidentlaw.org/authority/new-york-supreme-court-appellate-division-third-department.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-ny"
+  },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2026-044-allegation.json"
   ],

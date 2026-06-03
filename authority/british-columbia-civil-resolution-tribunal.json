@@ -14,5 +14,8 @@
   "jurisdiction": {
     "@type": "gist:Jurisdiction",
     "ref": "ca-bc"
-  }
+  },
+  "sameAs": [
+    "https://www.wikidata.org/entity/Q22631709"
+  ]
 }

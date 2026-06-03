@@ -5,6 +5,10 @@
   "id": "aiel-2025-016-determination",
   "issued_date": "2023-07-01",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-mi"
+  },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2025-016-allegation.json"
   ],

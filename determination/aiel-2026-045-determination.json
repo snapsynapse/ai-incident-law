@@ -5,6 +5,10 @@
   "id": "aiel-2026-045-determination",
   "issued_date": "2026-01-16",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-fl"
+  },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2026-045-allegation.json"
   ],

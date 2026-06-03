@@ -6,6 +6,10 @@
   "title": "Parks v. McCormac, Civil No. 3:22-cv-05765",
   "filed_date": "2022-09-01",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-new-jersey.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-nj"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2024-015-allegation.json"
   ],

@@ -5,6 +5,10 @@
   "id": "aiel-2023-013-determination",
   "issued_date": "2023-12-19",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-federal-trade-commission.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us"
+  },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2023-013-allegation.json"
   ],

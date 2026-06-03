@@ -14,5 +14,8 @@
   "jurisdiction": {
     "@type": "gist:Jurisdiction",
     "ref": "us-nj"
-  }
+  },
+  "sameAs": [
+    "https://www.wikidata.org/entity/Q775899"
+  ]
 }

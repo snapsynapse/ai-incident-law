@@ -13,6 +13,9 @@
   },
   "jurisdiction": {
     "@type": "gist:Jurisdiction",
-    "ref": ""
-  }
+    "ref": "us"
+  },
+  "sameAs": [
+    "https://www.wikidata.org/entity/Q4785474"
+  ]
 }

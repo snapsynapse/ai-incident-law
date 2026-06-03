@@ -14,5 +14,8 @@
   "jurisdiction": {
     "@type": "gist:Jurisdiction",
     "ref": "us-fl"
-  }
+  },
+  "sameAs": [
+    "https://www.wikidata.org/entity/Q1384933"
+  ]
 }

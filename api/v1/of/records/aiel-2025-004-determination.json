@@ -5,6 +5,10 @@
   "id": "aiel-2025-004-determination",
   "issued_date": "2025-01-01",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-wyoming.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-wy"
+  },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2025-004-allegation.json"
   ],

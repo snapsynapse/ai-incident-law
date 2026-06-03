@@ -6,6 +6,10 @@
   "title": "Couvrette v. Wisnovsky, No. 1:21-cv-00157-CL (D. Or.)",
   "filed_date": "2026-03-23",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-oregon.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-or"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-036-allegation.json"
   ],

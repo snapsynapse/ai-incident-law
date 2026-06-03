@@ -6,6 +6,10 @@
   "title": "Moffatt v. Air Canada, 2024 BCCRT 149",
   "filed_date": "2024-02-14",
   "issuedBy": "https://aiincidentlaw.org/authority/british-columbia-civil-resolution-tribunal.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "ca-bc"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2024-001-allegation.json"
   ],
@@ -15,5 +19,9 @@
   "source": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
   "ai_incident_law_record_id": "AIEL-2024-001",
   "matter_type": "tribunal claim",
-  "status": "ordered"
+  "status": "ordered",
+  "neutral_citation": "2024 BCCRT 149",
+  "sameAs": [
+    "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html"
+  ]
 }

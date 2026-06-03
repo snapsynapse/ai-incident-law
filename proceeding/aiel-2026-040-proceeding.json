@@ -6,6 +6,10 @@
   "title": "Coomer v. Lindell/MyPillow Inc., No. 1:22-cv-01129-NYW-SBP (D. Colo.)",
   "filed_date": "2026-05-07",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-colorado.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-co"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-040-allegation.json"
   ],

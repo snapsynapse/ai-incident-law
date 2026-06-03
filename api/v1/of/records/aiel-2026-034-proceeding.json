@@ -6,6 +6,10 @@
   "title": "Gentry v. Thompson, E.D. La. (Judge Carl J. Barbier)",
   "filed_date": "2026-03-20",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-louisiana.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-la"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-034-allegation.json"
   ],

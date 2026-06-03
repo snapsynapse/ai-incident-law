@@ -14,5 +14,8 @@
   "jurisdiction": {
     "@type": "gist:Jurisdiction",
     "ref": "us-tx"
-  }
+  },
+  "sameAs": [
+    "https://www.wikidata.org/entity/Q7891837"
+  ]
 }

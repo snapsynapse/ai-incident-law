@@ -14,5 +14,8 @@
   "jurisdiction": {
     "@type": "gist:Jurisdiction",
     "ref": "us-ny"
-  }
+  },
+  "sameAs": [
+    "https://www.wikidata.org/entity/Q2276925"
+  ]
 }

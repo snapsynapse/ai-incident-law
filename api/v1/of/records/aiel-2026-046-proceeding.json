@@ -6,6 +6,10 @@
   "title": "Lifetime Well LLC v. IBSpot.com Inc., No. 2:25-cv-05135-MAK (E.D. Pa.)",
   "filed_date": "2026-01-26",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-pa"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-046-allegation.json"
   ],

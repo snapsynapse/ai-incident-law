@@ -6,6 +6,10 @@
   "title": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)",
   "filed_date": "2026-03-05",
   "issuedBy": "https://aiincidentlaw.org/authority/california-court-of-appeal-fourth-appellate-district-division-one.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-ca"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-032-allegation.json"
   ],

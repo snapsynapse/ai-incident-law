@@ -13,6 +13,6 @@
   },
   "jurisdiction": {
     "@type": "gist:Jurisdiction",
-    "ref": "us"
+    "ref": "us-la"
   }
 }

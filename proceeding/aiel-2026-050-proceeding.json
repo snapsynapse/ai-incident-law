@@ -6,6 +6,10 @@
   "title": "Maldonado v. Professional Animal Retirement Center (PARC), No. 1:25-cv-00454-HAB-ALT (N.D. Ind.)",
   "filed_date": "2026-04-01",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-indiana.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-in"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-050-allegation.json"
   ],

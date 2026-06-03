@@ -9,6 +9,10 @@
       "id": "aiel-2024-001-determination",
       "issued_date": "2024-02-14",
       "issuedBy": "https://aiincidentlaw.org/authority/british-columbia-civil-resolution-tribunal.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "ca-bc"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2024-001-allegation.json"
       ],
@@ -19,7 +23,11 @@
       },
       "notes": "Tribunal awarded C$650.88 plus interest and fees.",
       "source": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
-      "ai_incident_law_record_id": "AIEL-2024-001"
+      "ai_incident_law_record_id": "AIEL-2024-001",
+      "neutral_citation": "2024 BCCRT 149",
+      "sameAs": [
+        "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -28,6 +36,10 @@
       "id": "aiel-2023-002-determination",
       "issued_date": "2023-06-22",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ny"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2023-002-allegation.json"
       ],
@@ -47,6 +59,10 @@
       "id": "aiel-2024-003-determination",
       "issued_date": "2024-01-30",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-second-circuit.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2024-003-allegation.json"
       ],
@@ -66,6 +82,10 @@
       "id": "aiel-2025-004-determination",
       "issued_date": "2025-01-01",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-wyoming.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-wy"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2025-004-allegation.json"
       ],
@@ -85,6 +105,10 @@
       "id": "aiel-2026-005-determination",
       "issued_date": "2026-02-18",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-fifth-circuit.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-005-allegation.json"
       ],
@@ -104,6 +128,10 @@
       "id": "aiel-2025-006-determination",
       "issued_date": "2025-10-23",
       "issuedBy": "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2025-006-allegation.json"
       ],
@@ -123,6 +151,10 @@
       "id": "aiel-2025-007-determination",
       "issued_date": "2025-11-20",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ca"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2025-007-allegation.json"
       ],
@@ -142,6 +174,10 @@
       "id": "aiel-2024-008-determination",
       "issued_date": "2024-03-08",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida-florida-supreme-court.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-fl"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2024-008-allegation.json"
       ],
@@ -161,6 +197,10 @@
       "id": "aiel-2023-009-determination",
       "issued_date": "2022-05-05",
       "issuedBy": "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ny"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2023-009-allegation.json"
       ],
@@ -183,6 +223,10 @@
       "id": "aiel-2024-010-determination",
       "issued_date": "2022-05-01",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts-doj-hud.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ma"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2024-010-allegation.json"
       ],
@@ -205,6 +249,10 @@
       "id": "aiel-2022-011-determination",
       "issued_date": "2015-01-01",
       "issuedBy": "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-mi"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2022-011-allegation.json"
       ],
@@ -224,6 +272,10 @@
       "id": "aiel-2017-012-determination",
       "issued_date": "2017-01-27",
       "issuedBy": "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ar"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2017-012-allegation.json"
       ],
@@ -243,6 +295,10 @@
       "id": "aiel-2023-013-determination",
       "issued_date": "2023-12-19",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-federal-trade-commission.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2023-013-allegation.json"
       ],
@@ -265,6 +321,10 @@
       "id": "aiel-2024-014-determination",
       "issued_date": "2021-04-01",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-mi"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2024-014-allegation.json"
       ],
@@ -284,6 +344,10 @@
       "id": "aiel-2025-016-determination",
       "issued_date": "2023-07-01",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-mi"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2025-016-allegation.json"
       ],
@@ -303,6 +367,10 @@
       "id": "aiel-2026-019-determination",
       "issued_date": "2026-05-23",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-texas.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-tx"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-019-allegation.json"
       ],
@@ -322,6 +390,10 @@
       "id": "aiel-2026-020-determination",
       "issued_date": "2026-05-28",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ny"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-020-allegation.json"
       ],
@@ -341,6 +413,10 @@
       "id": "aiel-2026-021-determination",
       "issued_date": "2026-05-27",
       "issuedBy": "https://aiincidentlaw.org/authority/supreme-court-of-oklahoma.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ok"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-021-allegation.json"
       ],
@@ -351,7 +427,8 @@
       },
       "notes": "Public reprimand (reciprocal; also reprimanded/censured in TX, TN, AL federal court). ChatGPT named and admitted by respondent. Underlying sanction order: Johnson v. Dunn (N.D. Ala.) 2025-07-23.",
       "source": "https://damiencharlotin.com/documents/2227/STATE_OF_OKLAHOMA_ex_rel._OBA_v._REEVES.pdf",
-      "ai_incident_law_record_id": "AIEL-2026-021"
+      "ai_incident_law_record_id": "AIEL-2026-021",
+      "neutral_citation": "2026 OK 37"
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -360,6 +437,10 @@
       "id": "aiel-2026-022-determination",
       "issued_date": "2026-05-26",
       "issuedBy": "https://aiincidentlaw.org/authority/ohio-court-of-appeals-sixth-appellate-district.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-oh"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-022-allegation.json"
       ],
@@ -370,7 +451,8 @@
       },
       "notes": "$100 sanction imposed by Sandusky County Court of Common Pleas 2025-08-11; Sixth District Court of Appeals affirmed denial of Guo’s motion to set aside, 2026-05-26. DeepSeek named by appellant; court found citations were AI-generated hallucinations.",
       "source": "https://damiencharlotin.com/documents/2237/Guo_v._Meade_Motorcars_USA_26_May_2026.pdf",
-      "ai_incident_law_record_id": "AIEL-2026-022"
+      "ai_incident_law_record_id": "AIEL-2026-022",
+      "neutral_citation": "2026-Ohio-1930"
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -379,6 +461,10 @@
       "id": "aiel-2026-023-determination",
       "issued_date": "2026-04-03",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-sixth-circuit.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-023-allegation.json"
       ],
@@ -398,6 +484,10 @@
       "id": "aiel-2026-024-determination",
       "issued_date": "2026-04-28",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ca"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-024-allegation.json"
       ],
@@ -417,6 +507,10 @@
       "id": "aiel-2026-025-determination",
       "issued_date": "2026-04-28",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-central-district-of-california.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ca"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-025-allegation.json"
       ],
@@ -436,6 +530,10 @@
       "id": "aiel-2026-026-determination",
       "issued_date": "2026-04-29",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ny"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-026-allegation.json"
       ],
@@ -455,6 +553,10 @@
       "id": "aiel-2026-027-determination",
       "issued_date": "2026-04-24",
       "issuedBy": "https://aiincidentlaw.org/authority/supreme-court-of-alabama.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-al"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-027-allegation.json"
       ],
@@ -474,6 +576,10 @@
       "id": "aiel-2026-028-determination",
       "issued_date": "2026-04-20",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-pa"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-028-allegation.json"
       ],
@@ -493,6 +599,10 @@
       "id": "aiel-2026-029-determination",
       "issued_date": "2026-04-09",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-illinois.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-il"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-029-allegation.json"
       ],
@@ -512,6 +622,10 @@
       "id": "aiel-2026-030-determination",
       "issued_date": "2026-04-09",
       "issuedBy": "https://aiincidentlaw.org/authority/appellate-court-of-illinois-third-district.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-il"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-030-allegation.json"
       ],
@@ -522,7 +636,8 @@
       },
       "notes": "Judgment for fees and costs of $3,178 entered against the appellant under Illinois Supreme Court Rule 375(b); dismissal of the complaint affirmed.",
       "source": "https://damiencharlotin.com/documents/1966/Hulvat_v._Gumina_USA_9_April_2026.pdf",
-      "ai_incident_law_record_id": "AIEL-2026-030"
+      "ai_incident_law_record_id": "AIEL-2026-030",
+      "neutral_citation": "2026 IL App (3d) 240628-U"
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -531,6 +646,10 @@
       "id": "aiel-2026-031-determination",
       "issued_date": "2026-04-09",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-western-district-of-louisiana.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-la"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-031-allegation.json"
       ],
@@ -550,6 +669,10 @@
       "id": "aiel-2026-032-determination",
       "issued_date": "2026-03-05",
       "issuedBy": "https://aiincidentlaw.org/authority/california-court-of-appeal-fourth-appellate-district-division-one.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ca"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-032-allegation.json"
       ],
@@ -569,6 +692,10 @@
       "id": "aiel-2026-033-determination",
       "issued_date": "2026-03-06",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-louisiana.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-la"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-033-allegation.json"
       ],
@@ -588,6 +715,10 @@
       "id": "aiel-2026-034-determination",
       "issued_date": "2026-03-20",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-louisiana.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-la"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-034-allegation.json"
       ],
@@ -607,6 +738,10 @@
       "id": "aiel-2026-035-determination",
       "issued_date": "2026-03-20",
       "issuedBy": "https://aiincidentlaw.org/authority/court-of-appeals-of-ohio-eleventh-appellate-district.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-oh"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-035-allegation.json"
       ],
@@ -617,7 +752,8 @@
       },
       "notes": "$2,000 fine with $2,000 credit for prior Ashtabula County payment; disciplinary referral; removal; appeal stricken.",
       "source": "https://damiencharlotin.com/documents/1774/2026-Ohio-965.pdf",
-      "ai_incident_law_record_id": "AIEL-2026-035"
+      "ai_incident_law_record_id": "AIEL-2026-035",
+      "neutral_citation": "2026-Ohio-965"
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -626,6 +762,10 @@
       "id": "aiel-2026-036-determination",
       "issued_date": "2026-03-23",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-oregon.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-or"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-036-allegation.json"
       ],
@@ -645,6 +785,10 @@
       "id": "aiel-2026-037-determination",
       "issued_date": "2026-03-31",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-alabama.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-al"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-037-allegation.json"
       ],
@@ -664,6 +808,10 @@
       "id": "aiel-2026-038-determination",
       "issued_date": "2026-03-31",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-alabama.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-al"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-038-allegation.json"
       ],
@@ -683,6 +831,10 @@
       "id": "aiel-2026-039-determination",
       "issued_date": "2026-04-29",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ny"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-039-allegation.json"
       ],
@@ -702,6 +854,10 @@
       "id": "aiel-2026-040-determination",
       "issued_date": "2026-05-07",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-colorado.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-co"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-040-allegation.json"
       ],
@@ -721,6 +877,10 @@
       "id": "aiel-2026-041-determination",
       "issued_date": "2026-05-19",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ny"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-041-allegation.json"
       ],
@@ -740,6 +900,10 @@
       "id": "aiel-2026-042-determination",
       "issued_date": "2026-05-20",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-indiana.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-in"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-042-allegation.json"
       ],
@@ -759,6 +923,10 @@
       "id": "aiel-2026-043-determination",
       "issued_date": "2026-06-01",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-seventh-circuit.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-043-allegation.json"
       ],
@@ -778,6 +946,10 @@
       "id": "aiel-2026-044-determination",
       "issued_date": "2026-01-08",
       "issuedBy": "https://aiincidentlaw.org/authority/new-york-supreme-court-appellate-division-third-department.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ny"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-044-allegation.json"
       ],
@@ -797,6 +969,10 @@
       "id": "aiel-2026-045-determination",
       "issued_date": "2026-01-16",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-fl"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-045-allegation.json"
       ],
@@ -816,6 +992,10 @@
       "id": "aiel-2026-046-determination",
       "issued_date": "2026-01-26",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-pa"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-046-allegation.json"
       ],
@@ -835,6 +1015,10 @@
       "id": "aiel-2026-047-determination",
       "issued_date": "2026-02-02",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-kansas.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ks"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-047-allegation.json"
       ],
@@ -854,6 +1038,10 @@
       "id": "aiel-2026-048-determination",
       "issued_date": "2026-02-09",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-tenth-circuit.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-048-allegation.json"
       ],
@@ -873,6 +1061,10 @@
       "id": "aiel-2026-049-determination",
       "issued_date": "2026-02-18",
       "issuedBy": "https://aiincidentlaw.org/authority/california-court-of-appeal-second-appellate-district.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ca"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-049-allegation.json"
       ],
@@ -892,6 +1084,10 @@
       "id": "aiel-2026-050-determination",
       "issued_date": "2026-04-01",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-indiana.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-in"
+      },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-050-allegation.json"
       ],

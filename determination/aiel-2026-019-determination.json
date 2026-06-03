@@ -5,6 +5,10 @@
   "id": "aiel-2026-019-determination",
   "issued_date": "2026-05-23",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-texas.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-tx"
+  },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2026-019-allegation.json"
   ],

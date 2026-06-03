@@ -13,6 +13,9 @@
   },
   "jurisdiction": {
     "@type": "gist:Jurisdiction",
-    "ref": ""
-  }
+    "ref": "us-ok"
+  },
+  "sameAs": [
+    "https://www.wikidata.org/entity/Q7009264"
+  ]
 }

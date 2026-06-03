@@ -18,7 +18,10 @@
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
         "ref": "ca-bc"
-      }
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q22631709"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -36,7 +39,10 @@
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
         "ref": "us-ny"
-      }
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q673281"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -54,7 +60,10 @@
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
         "ref": "us"
-      }
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q492257"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -72,7 +81,10 @@
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
         "ref": "us-wy"
-      }
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q5311060"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -90,7 +102,10 @@
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
         "ref": "us"
-      }
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q492151"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -107,8 +122,11 @@
       },
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
-        "ref": ""
-      }
+        "ref": "us"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q4785474"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -126,7 +144,10 @@
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
         "ref": "us-ca"
-      }
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q7025635"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -234,7 +255,10 @@
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
         "ref": "us"
-      }
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q133132"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -252,7 +276,10 @@
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
         "ref": "us-mi"
-      }
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q5687969"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -270,7 +297,10 @@
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
         "ref": "us-nj"
-      }
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q775899"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -306,7 +336,10 @@
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
         "ref": "us-tx"
-      }
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q7891837"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -323,8 +356,11 @@
       },
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
-        "ref": ""
-      }
+        "ref": "us-ok"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q7009264"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -341,8 +377,11 @@
       },
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
-        "ref": ""
-      }
+        "ref": "us-oh"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q7011853"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -360,7 +399,10 @@
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
         "ref": "us"
-      }
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q492107"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -378,7 +420,10 @@
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
         "ref": "us-ca"
-      }
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q5016311"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -395,8 +440,11 @@
       },
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
-        "ref": ""
-      }
+        "ref": "us-al"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q7624963"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -413,8 +461,11 @@
       },
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
-        "ref": "us"
-      }
+        "ref": "us-pa"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q2350825"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -431,8 +482,11 @@
       },
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
-        "ref": "us"
-      }
+        "ref": "us-il"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q7062661"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -449,8 +503,11 @@
       },
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
-        "ref": ""
-      }
+        "ref": "us-il"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q2841219"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -467,7 +524,7 @@
       },
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
-        "ref": "us"
+        "ref": "us-la"
       }
     },
     {
@@ -486,7 +543,10 @@
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
         "ref": "us-ca"
-      }
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q5027136"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -503,8 +563,11 @@
       },
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
-        "ref": "us"
-      }
+        "ref": "us-la"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q7891831"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -521,8 +584,11 @@
       },
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
-        "ref": "us"
-      }
+        "ref": "us-la"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q1138663"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -539,8 +605,11 @@
       },
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
-        "ref": ""
-      }
+        "ref": "us-oh"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q5138098"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -557,8 +626,11 @@
       },
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
-        "ref": "us"
-      }
+        "ref": "us-or"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q5306891"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -575,8 +647,11 @@
       },
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
-        "ref": "us"
-      }
+        "ref": "us-al"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q8568339"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -593,8 +668,11 @@
       },
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
-        "ref": "us"
-      }
+        "ref": "us-al"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q7888718"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -611,8 +689,11 @@
       },
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
-        "ref": "us"
-      }
+        "ref": "us-co"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q5306883"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -629,8 +710,11 @@
       },
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
-        "ref": "us"
-      }
+        "ref": "us-in"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q7062675"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -648,7 +732,10 @@
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
         "ref": "us"
-      }
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q492149"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -666,7 +753,10 @@
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
         "ref": "us-ny"
-      }
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q2276925"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -684,7 +774,10 @@
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
         "ref": "us-fl"
-      }
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q1384933"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -701,8 +794,11 @@
       },
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
-        "ref": "us"
-      }
+        "ref": "us-ks"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q853682"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -720,7 +816,10 @@
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
         "ref": "us"
-      }
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q492090"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -738,7 +837,10 @@
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
         "ref": "us-ca"
-      }
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q5027142"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -755,8 +857,11 @@
       },
       "jurisdiction": {
         "@type": "gist:Jurisdiction",
-        "ref": "us"
-      }
+        "ref": "us-in"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q7062665"
+      ]
     }
   ]
 }

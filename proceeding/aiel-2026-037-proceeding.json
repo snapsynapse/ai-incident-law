@@ -6,6 +6,10 @@
   "title": "Heimkes v. Fairhope Motorcoach Resort Condominium Owners Association et al., No. 1:22-cv-00448-TFM-N (S.D. Ala.)",
   "filed_date": "2026-03-31",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-alabama.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-al"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-037-allegation.json"
   ],

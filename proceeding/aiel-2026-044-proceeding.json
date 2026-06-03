@@ -6,6 +6,10 @@
   "title": "Deutsche Bank National Trust Company v. Jean LeTennier, 2026 WL 53120 (N.Y. App. Div. 3d Dep't)",
   "filed_date": "2026-01-08",
   "issuedBy": "https://aiincidentlaw.org/authority/new-york-supreme-court-appellate-division-third-department.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-ny"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-044-allegation.json"
   ],

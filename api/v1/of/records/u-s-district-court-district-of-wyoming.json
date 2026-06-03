@@ -14,5 +14,8 @@
   "jurisdiction": {
     "@type": "gist:Jurisdiction",
     "ref": "us-wy"
-  }
+  },
+  "sameAs": [
+    "https://www.wikidata.org/entity/Q5311060"
+  ]
 }

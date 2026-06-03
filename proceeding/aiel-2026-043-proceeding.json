@@ -6,6 +6,10 @@
   "title": "Perez-Castillo v. Blanche (Att'y Gen.), No. 25-1988 (7th Cir.)",
   "filed_date": "2026-06-01",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-seventh-circuit.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-043-allegation.json"
   ],

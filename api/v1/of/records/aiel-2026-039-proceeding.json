@@ -6,6 +6,10 @@
   "title": "Jimenez-Fogarty v. Fogarty et al., No. 1:24-cv-08705-JLR-GWG (S.D.N.Y.)",
   "filed_date": "2026-04-29",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-ny"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-039-allegation.json"
   ],

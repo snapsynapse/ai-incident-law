@@ -5,6 +5,10 @@
   "id": "aiel-2022-011-determination",
   "issued_date": "2015-01-01",
   "issuedBy": "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-mi"
+  },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2022-011-allegation.json"
   ],

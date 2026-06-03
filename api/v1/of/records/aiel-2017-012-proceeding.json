@@ -6,6 +6,10 @@
   "title": "Ledgerwood v. Arkansas Department of Human Services / related federal litigation",
   "filed_date": "2017-01-27",
   "issuedBy": "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-ar"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2017-012-allegation.json"
   ],

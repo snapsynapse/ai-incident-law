@@ -5,6 +5,10 @@
   "id": "aiel-2026-050-determination",
   "issued_date": "2026-04-01",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-indiana.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-in"
+  },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2026-050-allegation.json"
   ],

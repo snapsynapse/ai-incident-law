@@ -5,6 +5,10 @@
   "id": "aiel-2026-025-determination",
   "issued_date": "2026-04-28",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-central-district-of-california.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-ca"
+  },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2026-025-allegation.json"
   ],

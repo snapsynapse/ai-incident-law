@@ -6,6 +6,10 @@
   "title": "Fletcher v. Experian Information Solutions, Inc., No. 25-20086",
   "filed_date": "2026-02-18",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-fifth-circuit.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-005-allegation.json"
   ],

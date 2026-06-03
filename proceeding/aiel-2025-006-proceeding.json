@@ -6,6 +6,10 @@
   "title": "Huffman Construction, LLC, ASBCA Nos. 62591, 62783",
   "filed_date": "2025-10-23",
   "issuedBy": "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2025-006-allegation.json"
   ],

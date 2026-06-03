@@ -10,6 +10,10 @@
       "title": "Moffatt v. Air Canada, 2024 BCCRT 149",
       "filed_date": "2024-02-14",
       "issuedBy": "https://aiincidentlaw.org/authority/british-columbia-civil-resolution-tribunal.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "ca-bc"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2024-001-allegation.json"
       ],
@@ -19,7 +23,11 @@
       "source": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
       "ai_incident_law_record_id": "AIEL-2024-001",
       "matter_type": "tribunal claim",
-      "status": "ordered"
+      "status": "ordered",
+      "neutral_citation": "2024 BCCRT 149",
+      "sameAs": [
+        "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html"
+      ]
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -29,6 +37,10 @@
       "title": "Mata v. Avianca, Inc., No. 22-cv-1461",
       "filed_date": "2023-06-22",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ny"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2023-002-allegation.json"
       ],
@@ -48,6 +60,10 @@
       "title": "Park v. Kim, No. 22-2057",
       "filed_date": "2024-01-30",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-second-circuit.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2024-003-allegation.json"
       ],
@@ -67,6 +83,10 @@
       "title": "Wadsworth v. Walmart Inc.",
       "filed_date": "2025-01-01",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-wyoming.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-wy"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2025-004-allegation.json"
       ],
@@ -86,6 +106,10 @@
       "title": "Fletcher v. Experian Information Solutions, Inc., No. 25-20086",
       "filed_date": "2026-02-18",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-fifth-circuit.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-005-allegation.json"
       ],
@@ -105,6 +129,10 @@
       "title": "Huffman Construction, LLC, ASBCA Nos. 62591, 62783",
       "filed_date": "2025-10-23",
       "issuedBy": "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2025-006-allegation.json"
       ],
@@ -124,6 +152,10 @@
       "title": "Buchanan v. Vuori, Inc., No. 5:23-cv-01121-NC",
       "filed_date": "2025-11-20",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ca"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2025-007-allegation.json"
       ],
@@ -143,6 +175,10 @@
       "title": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
       "filed_date": "2024-03-08",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida-florida-supreme-court.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-fl"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2024-008-allegation.json"
       ],
@@ -162,6 +198,10 @@
       "title": "EEOC v. iTutorGroup, Inc., et al., No. 1:22-cv-02565",
       "filed_date": "2022-05-05",
       "issuedBy": "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ny"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2023-009-allegation.json"
       ],
@@ -181,6 +221,10 @@
       "title": "Louis et al. v. SafeRent Solutions, LLC et al.",
       "filed_date": "2022-05-01",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts-doj-hud.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ma"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2024-010-allegation.json"
       ],
@@ -200,6 +244,10 @@
       "title": "Bauserman v. Unemployment Insurance Agency",
       "filed_date": "2015-01-01",
       "issuedBy": "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-mi"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2022-011-allegation.json"
       ],
@@ -219,6 +267,10 @@
       "title": "Ledgerwood v. Arkansas Department of Human Services / related federal litigation",
       "filed_date": "2017-01-27",
       "issuedBy": "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ar"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2017-012-allegation.json"
       ],
@@ -238,6 +290,10 @@
       "title": "FTC v. Rite Aid facial-recognition enforcement",
       "filed_date": "2023-12-19",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-federal-trade-commission.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2023-013-allegation.json"
       ],
@@ -257,6 +313,10 @@
       "title": "Williams v. City of Detroit, No. 2:21-cv-10827",
       "filed_date": "2021-04-01",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-mi"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2024-014-allegation.json"
       ],
@@ -276,6 +336,10 @@
       "title": "Parks v. McCormac, Civil No. 3:22-cv-05765",
       "filed_date": "2022-09-01",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-new-jersey.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-nj"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2024-015-allegation.json"
       ],
@@ -293,6 +357,10 @@
       "title": "Woodruff v. Oliver, No. 2:23-cv-11597",
       "filed_date": "2023-07-01",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-mi"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2025-016-allegation.json"
       ],
@@ -312,6 +380,10 @@
       "title": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
       "filed_date": "2024-01-18",
       "issuedBy": "https://aiincidentlaw.org/authority/harris-county-texas-state-court-remanded-from-s-d-tex.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-tx"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2024-017-allegation.json"
       ],
@@ -329,6 +401,10 @@
       "title": "Mobley v. Workday, Inc., No. 3:23-cv-00770",
       "filed_date": "2023-02-21",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ca"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2025-018-allegation.json"
       ],
@@ -346,6 +422,10 @@
       "title": "Swanson v. International Business Machines Corporation, No. 1:26-cv-01382",
       "filed_date": "2026-05-23",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-texas.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-tx"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-019-allegation.json"
       ],
@@ -365,6 +445,10 @@
       "title": "Cable News Network, Inc. v. Perplexity AI, Inc., No. 1:26-cv-04427",
       "filed_date": "2026-05-28",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ny"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-020-allegation.json"
       ],
@@ -384,6 +468,10 @@
       "title": "State of Oklahoma ex rel. Oklahoma Bar Association v. Reeves, 2026 OK 37",
       "filed_date": "2026-05-27",
       "issuedBy": "https://aiincidentlaw.org/authority/supreme-court-of-oklahoma.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ok"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-021-allegation.json"
       ],
@@ -393,7 +481,8 @@
       "source": "https://damiencharlotin.com/documents/2227/STATE_OF_OKLAHOMA_ex_rel._OBA_v._REEVES.pdf",
       "ai_incident_law_record_id": "AIEL-2026-021",
       "matter_type": "attorney disciplinary order",
-      "status": "sanctioned"
+      "status": "sanctioned",
+      "neutral_citation": "2026 OK 37"
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -403,6 +492,10 @@
       "title": "Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930 (No. S-25-035)",
       "filed_date": "2026-05-26",
       "issuedBy": "https://aiincidentlaw.org/authority/ohio-court-of-appeals-sixth-appellate-district.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-oh"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-022-allegation.json"
       ],
@@ -412,7 +505,8 @@
       "source": "https://damiencharlotin.com/documents/2237/Guo_v._Meade_Motorcars_USA_26_May_2026.pdf",
       "ai_incident_law_record_id": "AIEL-2026-022",
       "matter_type": "sanctions order",
-      "status": "sanctioned"
+      "status": "sanctioned",
+      "neutral_citation": "2026-Ohio-1930"
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -422,6 +516,10 @@
       "title": "United States v. Farris, No. 25-5623 (6th Cir.)",
       "filed_date": "2026-04-03",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-sixth-circuit.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-023-allegation.json"
       ],
@@ -441,6 +539,10 @@
       "title": "Hill v. Workday, Inc., No. 3:23-cv-06558-PHK",
       "filed_date": "2026-04-28",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ca"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-024-allegation.json"
       ],
@@ -460,6 +562,10 @@
       "title": "Chaney v. Transdev Services Inc., No. 2:24-cv-10761-ODW (AJRx)",
       "filed_date": "2026-04-28",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-central-district-of-california.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ca"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-025-allegation.json"
       ],
@@ -479,6 +585,10 @@
       "title": "Jimenez-Fogarty v. Fogarty, No. 1:24-cv-08705-JLR-GWG",
       "filed_date": "2026-04-29",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ny"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-026-allegation.json"
       ],
@@ -498,6 +608,10 @@
       "title": "Ibach v. Stewart (Ala.)",
       "filed_date": "2026-04-24",
       "issuedBy": "https://aiincidentlaw.org/authority/supreme-court-of-alabama.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-al"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-027-allegation.json"
       ],
@@ -517,6 +631,10 @@
       "title": "Bunce v. Visual Technology Innovations, Inc., No. 2:23-cv-01740-KNS",
       "filed_date": "2026-04-20",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-pa"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-028-allegation.json"
       ],
@@ -536,6 +654,10 @@
       "title": "Obi v. Cook County, Illinois, No. 1:25-cv-03096",
       "filed_date": "2026-04-09",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-illinois.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-il"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-029-allegation.json"
       ],
@@ -555,6 +677,10 @@
       "title": "Hulvat v. Gumina, 2026 IL App (3d) 240628-U",
       "filed_date": "2026-04-09",
       "issuedBy": "https://aiincidentlaw.org/authority/appellate-court-of-illinois-third-district.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-il"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-030-allegation.json"
       ],
@@ -564,7 +690,8 @@
       "source": "https://damiencharlotin.com/documents/1966/Hulvat_v._Gumina_USA_9_April_2026.pdf",
       "ai_incident_law_record_id": "AIEL-2026-030",
       "matter_type": "appellate sanction",
-      "status": "sanctioned"
+      "status": "sanctioned",
+      "neutral_citation": "2026 IL App (3d) 240628-U"
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -574,6 +701,10 @@
       "title": "In re Wise, No. 25-51132 (Bankr. W.D. La.)",
       "filed_date": "2026-04-09",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-western-district-of-louisiana.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-la"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-031-allegation.json"
       ],
@@ -593,6 +724,10 @@
       "title": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)",
       "filed_date": "2026-03-05",
       "issuedBy": "https://aiincidentlaw.org/authority/california-court-of-appeal-fourth-appellate-district-division-one.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ca"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-032-allegation.json"
       ],
@@ -612,6 +747,10 @@
       "title": "Kattom v. Bondi, No. 25-1497 SEC P (W.D. La.)",
       "filed_date": "2026-03-06",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-louisiana.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-la"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-033-allegation.json"
       ],
@@ -631,6 +770,10 @@
       "title": "Gentry v. Thompson, E.D. La. (Judge Carl J. Barbier)",
       "filed_date": "2026-03-20",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-louisiana.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-la"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-034-allegation.json"
       ],
@@ -650,6 +793,10 @@
       "title": "State v. Coleman, 2026-Ohio-965, No. 2024-A-0040 (Ohio Ct. App., 11th Dist.)",
       "filed_date": "2026-03-20",
       "issuedBy": "https://aiincidentlaw.org/authority/court-of-appeals-of-ohio-eleventh-appellate-district.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-oh"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-035-allegation.json"
       ],
@@ -659,7 +806,8 @@
       "source": "https://damiencharlotin.com/documents/1774/2026-Ohio-965.pdf",
       "ai_incident_law_record_id": "AIEL-2026-035",
       "matter_type": "sanctions order (appellate)",
-      "status": "sanctioned"
+      "status": "sanctioned",
+      "neutral_citation": "2026-Ohio-965"
     },
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -669,6 +817,10 @@
       "title": "Couvrette v. Wisnovsky, No. 1:21-cv-00157-CL (D. Or.)",
       "filed_date": "2026-03-23",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-oregon.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-or"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-036-allegation.json"
       ],
@@ -688,6 +840,10 @@
       "title": "Heimkes v. Fairhope Motorcoach Resort Condominium Owners Association et al., No. 1:22-cv-00448-TFM-N (S.D. Ala.)",
       "filed_date": "2026-03-31",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-alabama.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-al"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-037-allegation.json"
       ],
@@ -707,6 +863,10 @@
       "title": "Rivera v. Triad Properties Corporation et al., No. 2:24-cv-01802-AMM (N.D. Ala.)",
       "filed_date": "2026-03-31",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-alabama.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-al"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-038-allegation.json"
       ],
@@ -726,6 +886,10 @@
       "title": "Jimenez-Fogarty v. Fogarty et al., No. 1:24-cv-08705-JLR-GWG (S.D.N.Y.)",
       "filed_date": "2026-04-29",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ny"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-039-allegation.json"
       ],
@@ -745,6 +909,10 @@
       "title": "Coomer v. Lindell/MyPillow Inc., No. 1:22-cv-01129-NYW-SBP (D. Colo.)",
       "filed_date": "2026-05-07",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-colorado.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-co"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-040-allegation.json"
       ],
@@ -764,6 +932,10 @@
       "title": "Chakma v. Sushi Katsuei Inc., No. 1:23-cv-07804-KPF (S.D.N.Y.)",
       "filed_date": "2026-05-19",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ny"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-041-allegation.json"
       ],
@@ -783,6 +955,10 @@
       "title": "Davis v. Marion County Superior Court Juvenile Detention Center et al., S.D. Ind.",
       "filed_date": "2026-05-20",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-indiana.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-in"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-042-allegation.json"
       ],
@@ -802,6 +978,10 @@
       "title": "Perez-Castillo v. Blanche (Att'y Gen.), No. 25-1988 (7th Cir.)",
       "filed_date": "2026-06-01",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-seventh-circuit.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-043-allegation.json"
       ],
@@ -821,6 +1001,10 @@
       "title": "Deutsche Bank National Trust Company v. Jean LeTennier, 2026 WL 53120 (N.Y. App. Div. 3d Dep't)",
       "filed_date": "2026-01-08",
       "issuedBy": "https://aiincidentlaw.org/authority/new-york-supreme-court-appellate-division-third-department.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ny"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-044-allegation.json"
       ],
@@ -840,6 +1024,10 @@
       "title": "Hodges v. Meridian Waste Acquisitions USA, No. 3:25-cv-62; Rieske v. AFS, No. 5:25-cv-45 (M.D. Fla.)",
       "filed_date": "2026-01-16",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-fl"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-045-allegation.json"
       ],
@@ -859,6 +1047,10 @@
       "title": "Lifetime Well LLC v. IBSpot.com Inc., No. 2:25-cv-05135-MAK (E.D. Pa.)",
       "filed_date": "2026-01-26",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-pa"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-046-allegation.json"
       ],
@@ -878,6 +1070,10 @@
       "title": "Lexos Media IP, LLC v. Overstock.com, Inc., No. 2:22-cv-02324-JAR (D. Kan.)",
       "filed_date": "2026-02-02",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-kansas.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ks"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-047-allegation.json"
       ],
@@ -897,6 +1093,10 @@
       "title": "Amarsingh v. Frontier Airlines, Inc., No. 24-1391 (10th Cir.)",
       "filed_date": "2026-02-09",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-tenth-circuit.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-048-allegation.json"
       ],
@@ -916,6 +1116,10 @@
       "title": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., 2026 WL 457265 (Cal. Ct. App. 2d Dist.)",
       "filed_date": "2026-02-18",
       "issuedBy": "https://aiincidentlaw.org/authority/california-court-of-appeal-second-appellate-district.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ca"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-049-allegation.json"
       ],
@@ -935,6 +1139,10 @@
       "title": "Maldonado v. Professional Animal Retirement Center (PARC), No. 1:25-cv-00454-HAB-ALT (N.D. Ind.)",
       "filed_date": "2026-04-01",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-indiana.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-in"
+      },
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-050-allegation.json"
       ],

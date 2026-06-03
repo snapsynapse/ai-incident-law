@@ -5,6 +5,10 @@
   "id": "aiel-2025-006-determination",
   "issued_date": "2025-10-23",
   "issuedBy": "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us"
+  },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2025-006-allegation.json"
   ],

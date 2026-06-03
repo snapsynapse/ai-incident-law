@@ -6,6 +6,10 @@
   "title": "Ibach v. Stewart (Ala.)",
   "filed_date": "2026-04-24",
   "issuedBy": "https://aiincidentlaw.org/authority/supreme-court-of-alabama.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-al"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-027-allegation.json"
   ],

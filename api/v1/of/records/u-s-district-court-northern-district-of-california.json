@@ -14,5 +14,8 @@
   "jurisdiction": {
     "@type": "gist:Jurisdiction",
     "ref": "us-ca"
-  }
+  },
+  "sameAs": [
+    "https://www.wikidata.org/entity/Q7025635"
+  ]
 }

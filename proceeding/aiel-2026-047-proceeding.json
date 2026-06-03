@@ -6,6 +6,10 @@
   "title": "Lexos Media IP, LLC v. Overstock.com, Inc., No. 2:22-cv-02324-JAR (D. Kan.)",
   "filed_date": "2026-02-02",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-kansas.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-ks"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-047-allegation.json"
   ],

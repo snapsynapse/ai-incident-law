@@ -6,6 +6,10 @@
   "title": "Wadsworth v. Walmart Inc.",
   "filed_date": "2025-01-01",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-wyoming.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-wy"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2025-004-allegation.json"
   ],

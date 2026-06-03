@@ -6,6 +6,10 @@
   "title": "Davis v. Marion County Superior Court Juvenile Detention Center et al., S.D. Ind.",
   "filed_date": "2026-05-20",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-indiana.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-in"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-042-allegation.json"
   ],

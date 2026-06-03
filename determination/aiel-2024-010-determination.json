@@ -5,6 +5,10 @@
   "id": "aiel-2024-010-determination",
   "issued_date": "2022-05-01",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts-doj-hud.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-ma"
+  },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2024-010-allegation.json"
   ],

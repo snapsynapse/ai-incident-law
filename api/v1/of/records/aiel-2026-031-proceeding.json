@@ -6,6 +6,10 @@
   "title": "In re Wise, No. 25-51132 (Bankr. W.D. La.)",
   "filed_date": "2026-04-09",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-western-district-of-louisiana.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-la"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-031-allegation.json"
   ],

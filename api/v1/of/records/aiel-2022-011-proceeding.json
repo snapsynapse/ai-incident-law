@@ -6,6 +6,10 @@
   "title": "Bauserman v. Unemployment Insurance Agency",
   "filed_date": "2015-01-01",
   "issuedBy": "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-mi"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2022-011-allegation.json"
   ],

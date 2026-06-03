@@ -13,6 +13,46 @@ const COMPANION_DIRS = {
   determinations: "determination"
 };
 
+// Wikidata QIDs for single-entity authorities.
+// Combined-authority slugs (multi-court) are intentionally omitted — no single QID applies.
+const AUTHORITY_WIKIDATA = {
+  "appellate-court-of-illinois-third-district": "Q2841219",
+  "armed-services-board-of-contract-appeals": "Q4785474",
+  "british-columbia-civil-resolution-tribunal": "Q22631709",
+  "california-court-of-appeal-fourth-appellate-district-division-one": "Q5027136",
+  "california-court-of-appeal-second-appellate-district": "Q5027142",
+  "court-of-appeals-of-ohio-eleventh-appellate-district": "Q5138098",
+  "new-york-supreme-court-appellate-division-third-department": "Q2276925",
+  "ohio-court-of-appeals-sixth-appellate-district": "Q7011853",
+  "supreme-court-of-alabama": "Q7624963",
+  "supreme-court-of-oklahoma": "Q7009264",
+  "u-s-court-of-appeals-for-the-fifth-circuit": "Q492151",
+  "u-s-court-of-appeals-for-the-second-circuit": "Q492257",
+  "u-s-court-of-appeals-for-the-sixth-circuit": "Q492107",
+  "u-s-court-of-appeals-for-the-seventh-circuit": "Q492149",
+  "u-s-court-of-appeals-for-the-tenth-circuit": "Q492090",
+  "u-s-district-court-central-district-of-california": "Q5016311",
+  "u-s-district-court-district-of-colorado": "Q5306883",
+  "u-s-district-court-district-of-kansas": "Q853682",
+  "u-s-district-court-district-of-new-jersey": "Q775899",
+  "u-s-district-court-district-of-oregon": "Q5306891",
+  "u-s-district-court-district-of-wyoming": "Q5311060",
+  "u-s-district-court-eastern-district-of-louisiana": "Q1138663",
+  "u-s-district-court-eastern-district-of-michigan": "Q5687969",
+  "u-s-district-court-eastern-district-of-pennsylvania": "Q2350825",
+  "u-s-district-court-middle-district-of-florida": "Q1384933",
+  "u-s-district-court-northern-district-of-alabama": "Q7888718",
+  "u-s-district-court-northern-district-of-california": "Q7025635",
+  "u-s-district-court-northern-district-of-illinois": "Q7062661",
+  "u-s-district-court-northern-district-of-indiana": "Q7062665",
+  "u-s-district-court-southern-district-of-alabama": "Q8568339",
+  "u-s-district-court-southern-district-of-indiana": "Q7062675",
+  "u-s-district-court-southern-district-of-new-york": "Q673281",
+  "u-s-district-court-western-district-of-louisiana": "Q7891831",
+  "u-s-district-court-western-district-of-texas": "Q7891837",
+  "u-s-federal-trade-commission": "Q133132",
+};
+
 function slugify(value) {
   return String(value || "")
     .toLowerCase()
@@ -35,17 +75,34 @@ function authorityId(record) {
 
 function jurisdictionRef(record) {
   const jurisdiction = String(record.jurisdiction || "").toLowerCase();
+  // State-specific checks first (cover both state courts and federal district courts in that state).
   if (jurisdiction.includes("british columbia")) return "ca-bc";
+  if (jurisdiction.includes("alabama")) return "us-al";
   if (jurisdiction.includes("arkansas")) return "us-ar";
   if (jurisdiction.includes("california")) return "us-ca";
+  if (jurisdiction.includes("colorado")) return "us-co";
   if (jurisdiction.includes("florida")) return "us-fl";
+  if (jurisdiction.includes("illinois")) return "us-il";
+  if (jurisdiction.includes("indiana")) return "us-in";
+  if (jurisdiction.includes("kansas")) return "us-ks";
+  if (jurisdiction.includes("louisiana")) return "us-la";
   if (jurisdiction.includes("massachusetts")) return "us-ma";
   if (jurisdiction.includes("michigan")) return "us-mi";
   if (jurisdiction.includes("new jersey")) return "us-nj";
   if (jurisdiction.includes("new york")) return "us-ny";
+  if (jurisdiction.includes("ohio")) return "us-oh";
+  if (jurisdiction.includes("oklahoma")) return "us-ok";
+  if (jurisdiction.includes("oregon")) return "us-or";
+  if (jurisdiction.includes("pennsylvania")) return "us-pa";
   if (jurisdiction.includes("texas")) return "us-tx";
   if (jurisdiction.includes("wyoming")) return "us-wy";
-  if (jurisdiction.includes("u.s.") || jurisdiction.includes("eeoc") || jurisdiction.includes("federal")) return "us";
+  // Federal/national bodies: circuits, agencies, boards with no single-state scope.
+  if (
+    jurisdiction.includes("u.s.") ||
+    jurisdiction.includes("eeoc") ||
+    jurisdiction.includes("federal") ||
+    jurisdiction.includes("armed services")
+  ) return "us";
   return "";
 }
 
@@ -83,7 +140,7 @@ function buildAuthorityRecords(records) {
   for (const record of records) {
     const id = authorityId(record);
     if (byId.has(id)) continue;
-    byId.set(id, {
+    const authority = {
       "@context": OF_CONTEXT,
       "@type": "of:Authority",
       "@id": ofUri("authority", id),
@@ -100,7 +157,10 @@ function buildAuthorityRecords(records) {
         "@type": "gist:Jurisdiction",
         ref: jurisdictionRef(record)
       }
-    });
+    };
+    const qid = AUTHORITY_WIKIDATA[id];
+    if (qid) authority.sameAs = [`https://www.wikidata.org/entity/${qid}`];
+    byId.set(id, authority);
   }
   return [...byId.values()];
 }
@@ -120,7 +180,14 @@ function buildMatterRecords(records) {
     const allegationUri = ofUri("allegation", allegationId);
     const determinationUri = ofUri("determination", determinationId);
 
-    proceedings.push({
+    const jurisdictionTyped = {
+      "@type": "gist:Jurisdiction",
+      ref: jurisdictionRef(record)
+    };
+    const neutralCitation = record.neutral_citation || undefined;
+    const caseSameAs = stringArray(record.case_sameAs);
+
+    const proceeding = {
       "@context": OF_CONTEXT,
       "@type": "of:Proceeding",
       "@id": ofUri("proceeding", proceedingId),
@@ -128,13 +195,17 @@ function buildMatterRecords(records) {
       title: record.public_matter_name,
       filed_date: normalizeDate(record.filing_date),
       issuedBy: authorityUri,
+      jurisdiction: jurisdictionTyped,
       hasAllegation: [allegationUri],
       hasDetermination: disposition ? [determinationUri] : [],
       source: record.public_record_link,
       ai_incident_law_record_id: record.error_id,
       matter_type: record.public_matter_type,
       status: record.filing_status
-    });
+    };
+    if (neutralCitation) proceeding.neutral_citation = neutralCitation;
+    if (caseSameAs.length > 0) proceeding.sameAs = caseSameAs;
+    proceedings.push(proceeding);
 
     allegations.push({
       "@context": OF_CONTEXT,
@@ -162,6 +233,7 @@ function buildMatterRecords(records) {
         id: determinationId,
         issued_date: normalizeDate(record.filing_date),
         issuedBy: authorityUri,
+        jurisdiction: jurisdictionTyped,
         decides: [allegationUri],
         disposition,
         remedy: {
@@ -175,6 +247,8 @@ function buildMatterRecords(records) {
 
       const anchors = stringArray(record.obligation_first_anchors);
       if (anchors.length > 0) determination.anchors = anchors;
+      if (neutralCitation) determination.neutral_citation = neutralCitation;
+      if (caseSameAs.length > 0) determination.sameAs = caseSameAs;
 
       determinations.push(determination);
     }

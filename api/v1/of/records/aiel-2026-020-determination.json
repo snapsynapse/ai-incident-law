@@ -5,6 +5,10 @@
   "id": "aiel-2026-020-determination",
   "issued_date": "2026-05-28",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-ny"
+  },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2026-020-allegation.json"
   ],

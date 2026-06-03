@@ -13,6 +13,9 @@
   },
   "jurisdiction": {
     "@type": "gist:Jurisdiction",
-    "ref": ""
-  }
+    "ref": "us-al"
+  },
+  "sameAs": [
+    "https://www.wikidata.org/entity/Q7624963"
+  ]
 }

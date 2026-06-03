@@ -13,6 +13,9 @@
   },
   "jurisdiction": {
     "@type": "gist:Jurisdiction",
-    "ref": ""
-  }
+    "ref": "us-oh"
+  },
+  "sameAs": [
+    "https://www.wikidata.org/entity/Q7011853"
+  ]
 }

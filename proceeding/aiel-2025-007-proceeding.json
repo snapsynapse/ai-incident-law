@@ -6,6 +6,10 @@
   "title": "Buchanan v. Vuori, Inc., No. 5:23-cv-01121-NC",
   "filed_date": "2025-11-20",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-ca"
+  },
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2025-007-allegation.json"
   ],
