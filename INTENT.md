@@ -9,7 +9,7 @@ tags: [intent, strategy, ai-incident-law, regulation, standards]
 
 # AI Incident Law INTENT
 
-Strategy for the AI Incident Law dataset and the aiincidentlaw.com canonical home. Scoped to the curated incident corpus, the static reference site, and surrounding maintainer tooling. Subscribes to portfolio-level working hypotheses (see https://github.com/snapsynapse/paice-foundation/blob/main/INTENT.md).
+Strategy for the AI Incident Law dataset and the aiincidentlaw.org canonical home. Scoped to the curated incident corpus, the static reference site, and surrounding maintainer tooling. Subscribes to portfolio-level working hypotheses (see https://github.com/snapsynapse/paice-foundation/blob/main/INTENT.md).
 
 ## Purpose
 
@@ -82,7 +82,7 @@ Steward responsibilities:
 - Maintain the canonical dataset and schema docs
 - Triage record submissions against admission and refresh criteria
 - Publish material changes transparently (CHANGELOG, ROADMAP)
-- Own the canonical URL (aiincidentlaw.com) and its infrastructure
+- Own the canonical URL (aiincidentlaw.org) and its infrastructure
 
 Non-responsibilities:
 

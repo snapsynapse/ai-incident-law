@@ -3,6 +3,8 @@ import { URL_FIELD_POLICIES, normalizeUrlField } from "./url-policy.mjs";
 
 const SOURCE_PATH = new URL("../data/data.json", import.meta.url);
 const REQUIRED_DATASETS = ["included", "review", "global"];
+const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
+const FRESHNESS_FIELDS = ["last_verified_date", "last_checked_date"];
 const issues = [];
 
 function addIssue(message) {
@@ -16,8 +18,30 @@ function recordId(record, datasetKey, index) {
 const sourceText = await readFile(SOURCE_PATH, "utf8");
 const data = JSON.parse(sourceText);
 
-if (!/^\d{4}-\d{2}-\d{2}$/.test(String(data.generated_at || ""))) {
+if (!ISO_DATE.test(String(data.generated_at || ""))) {
   addIssue('root.generated_at must be an ISO date string like "2026-04-22"');
+}
+
+// Freshness gate: the public generated_at stamp must not lag behind the newest
+// record verification/check date. Catches the stale-date class of bug where
+// records are added or re-verified but the dataset freshness label is never
+// bumped. build-data.mjs derives generated_at automatically; this guards
+// against a hand-edited data.json that skips the build.
+let newestRecordDate = "";
+for (const bucket of Object.values(data.datasets || {})) {
+  for (const record of bucket?.records || []) {
+    for (const field of FRESHNESS_FIELDS) {
+      const value = String(record?.[field] || "");
+      if (ISO_DATE.test(value) && value > newestRecordDate) {
+        newestRecordDate = value;
+      }
+    }
+  }
+}
+if (newestRecordDate && String(data.generated_at || "") < newestRecordDate) {
+  addIssue(
+    `root.generated_at (${data.generated_at}) is behind the newest record date (${newestRecordDate}); run \`npm run build:data\``,
+  );
 }
 
 const seenIds = new Set();

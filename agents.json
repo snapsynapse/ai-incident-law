@@ -62,6 +62,12 @@
       "description": "Fetch a generated Obligation-First authority, proceeding, allegation, or determination record.",
       "transport": "mcp-stdio",
       "tool": "get_obligation_first_record"
+    },
+    {
+      "name": "get_staleness_report",
+      "description": "Report record verification decay, ranked oldest-verified first, to find matters overdue for re-verification.",
+      "transport": "mcp-stdio",
+      "tool": "get_staleness_report"
     }
   ],
   "usage_notes": [

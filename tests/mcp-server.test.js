@@ -45,6 +45,7 @@ const validArgs = {
   list_records: { dataset: "included", limit: 5 },
   get_record: { id: "AIEL-2024-001" },
   search_records: { query: "chatbot", limit: 5 },
+  get_staleness_report: { dataset: "included", as_of: "2026-06-02", limit: 5 },
   list_authorities: {},
   get_authority: { id: "british-columbia-civil-resolution-tribunal" },
   get_obligation_first_record: { kind: "proceedings", id: "aiel-2024-001-proceeding" }

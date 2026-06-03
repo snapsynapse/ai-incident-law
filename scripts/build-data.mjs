@@ -4,10 +4,33 @@ import { normalizeUrlFields } from "./url-policy.mjs";
 const SOURCE_PATH = new URL("../data/data.json", import.meta.url);
 const OUTPUT_PATH = new URL("../data.js", import.meta.url);
 const DATASET_ORDER = ["included", "review", "global"];
+const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
+const FRESHNESS_FIELDS = ["last_verified_date", "last_checked_date"];
+
+// Derive dataset freshness from the newest record verification/check date.
+// Deterministic: same input -> same output, so CI's `git diff --exit-code`
+// stays stable. Falls back to the prior generated_at when no record carries a
+// dated field. Honors INTENT principle #4 ("decay is visible"): the public
+// freshness stamp can never claim to be newer than the data behind it, and it
+// advances automatically the moment a record is re-verified.
+function deriveGeneratedAt(data) {
+  let newest = "";
+  for (const bucket of Object.values(data.datasets || {})) {
+    for (const record of bucket?.records || []) {
+      for (const field of FRESHNESS_FIELDS) {
+        const value = String(record?.[field] || "");
+        if (ISO_DATE.test(value) && value > newest) {
+          newest = value;
+        }
+      }
+    }
+  }
+  return newest || data.generated_at;
+}
 
 function normalizeDataset(data) {
   const next = {
-    generated_at: data.generated_at,
+    generated_at: deriveGeneratedAt(data),
     datasets: {},
   };
   const issues = [];

@@ -1,0 +1,34 @@
+# AI Incident Law
+
+> Open, curated public-record corpus of legal and regulatory matters involving AI-related incidents, failures, and harms. Searchable by humans and agents. Code MIT, dataset CC BY 4.0. Stewarded by PAICE.work PBC. This is a public-record reference, not legal advice.
+
+Each record resolves to a primary or stable secondary public source. Records carry their own `last_verified_date` / `last_checked_date`; check it before presenting a record as current. The dataset is curated for source quality over volume, not crawled.
+
+## Data
+
+- [Canonical dataset](https://aiincidentlaw.org/data/data.json): Source-of-truth JSON. Datasets: `included` (admitted public matters), `review` (editorial queue), `global` (non-US, pending sourcing).
+- [Browser bundle](https://aiincidentlaw.org/data.js): Generated read-only bundle consumed by the site.
+- [Data schema](https://aiincidentlaw.org/docs/data-schema.md): Field intent and record shape.
+
+## Obligation-First API
+
+- [API manifest](https://aiincidentlaw.org/api/v1/of/index.json): Available generated files and counts.
+- [Authorities](https://aiincidentlaw.org/api/v1/of/authorities.json): Courts, tribunals, and agencies.
+- [Proceedings](https://aiincidentlaw.org/api/v1/of/proceedings.json): Filed matters and actions.
+- [Allegations](https://aiincidentlaw.org/api/v1/of/allegations.json): AI-related failures asserted in public records.
+- [Determinations](https://aiincidentlaw.org/api/v1/of/determinations.json): Resolving postures for included matters.
+
+## Agent discovery
+
+- [agents.json](https://aiincidentlaw.org/agents.json): Capabilities, API endpoints, and MCP actions.
+- [MCP registration](https://aiincidentlaw.org/.well-known/mcp.json): Public MCP and static query endpoints.
+
+## About
+
+- [Project home](https://aiincidentlaw.org/): Searchable single-page reference.
+- [INTENT](https://github.com/snapsynapse/ai-incident-law/blob/main/INTENT.md): Stewardship principles, admission criteria, refresh cadence.
+- [Part of the PAICE legal graph](https://paice.work/): With EveryAILaw (https://everyailaw.com/), PubLedge (https://publedge.org/), and Obligation First (https://obligationfirst.org/).
+
+## Attribution
+
+AI Incident Law, PAICE.work PBC, CC BY 4.0. Source project: https://aiincidentlaw.org/

@@ -27,6 +27,7 @@
       "list_records",
       "get_record",
       "search_records",
+      "get_staleness_report",
       "list_authorities",
       "get_authority",
       "get_obligation_first_record"

@@ -254,6 +254,19 @@ const TOOLS = [
     }
   },
   {
+    name: "get_staleness_report",
+    description: "Report record verification decay: records ranked oldest-verified first, with per-bucket counts. Use to find matters overdue for re-verification before relying on them.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        dataset: { type: "string", description: "Optional dataset bucket filter, such as included, review, or global." },
+        as_of: { type: "string", description: "Optional ISO date (YYYY-MM-DD) to age records against. When omitted, days_stale is not computed and records are returned sorted by verification date only." },
+        limit: { type: "number", description: "Maximum records to return. Default 25." }
+      },
+      additionalProperties: false
+    }
+  },
+  {
     name: "list_authorities",
     description: "List Obligation-First authority records generated from included public matters.",
     inputSchema: { type: "object", properties: {}, additionalProperties: false }
@@ -319,6 +332,53 @@ function handleSearchRecords({ query, dataset, limit } = {}) {
   return textResult({ meta: meta(), data: results.slice(0, max), total_matches: results.length, limit: max });
 }
 
+const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
+const FRESHNESS_FIELDS = ["last_verified_date", "last_checked_date"];
+
+function verificationDate(record) {
+  for (const field of FRESHNESS_FIELDS) {
+    const value = String(record[field] || "");
+    if (ISO_DATE.test(value)) return value;
+  }
+  return null;
+}
+
+function handleGetStalenessReport(args = {}) {
+  const { dataset, as_of: asOf } = args;
+  if (asOf !== undefined && !ISO_DATE.test(String(asOf))) {
+    return invalidInputError("as_of must be an ISO date string like 2026-06-02.");
+  }
+  const limit = Math.max(1, Math.min(args.limit || 25, 200));
+  const asOfMs = asOf ? Date.parse(`${asOf}T00:00:00Z`) : null;
+
+  const rows = filterRecords({ dataset }).map((record) => {
+    const date = verificationDate(record);
+    const daysStale =
+      date && asOfMs !== null ? Math.round((asOfMs - Date.parse(`${date}T00:00:00Z`)) / 86400000) : null;
+    return { ...compactRecord(record), verification_date: date, days_stale: daysStale };
+  });
+
+  rows.sort((a, b) => {
+    const ad = a.verification_date || "";
+    const bd = b.verification_date || "";
+    if (ad === bd) return 0;
+    if (!ad) return -1; // undated sorts as most stale
+    if (!bd) return 1;
+    return ad < bd ? -1 : 1; // oldest verification date first
+  });
+
+  const dated = rows.filter((row) => row.verification_date);
+  const summary = {
+    total: rows.length,
+    undated: rows.length - dated.length,
+    oldest_verification: dated.length ? dated[0].verification_date : null,
+    newest_verification: dated.length ? dated[dated.length - 1].verification_date : null,
+  };
+  if (asOf) summary.as_of = asOf;
+
+  return textResult({ meta: meta(), summary, data: rows.slice(0, limit), limit });
+}
+
 function authorityRecords() {
   return ofData.authorities?.authorities || [];
 }
@@ -354,6 +414,7 @@ const TOOL_HANDLERS = {
   list_records: handleListRecords,
   get_record: handleGetRecord,
   search_records: handleSearchRecords,
+  get_staleness_report: handleGetStalenessReport,
   list_authorities: handleListAuthorities,
   get_authority: handleGetAuthority,
   get_obligation_first_record: handleGetObligationFirstRecord

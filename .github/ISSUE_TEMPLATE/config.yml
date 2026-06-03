@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and discussion
+    url: https://github.com/snapsynapse/ai-incident-law/discussions
+    about: Ask and answer questions about the dataset, schema, or tooling here.
+  - name: Report a security issue privately
+    url: https://github.com/snapsynapse/ai-incident-law/blob/main/SECURITY.md
+    about: Do not file security issues publicly. Follow the security policy.

@@ -1,6 +1,12 @@
 # AI Incident Law
 
-Standalone, dependency-free single-page application for browsing AI Incident Law, a searchable index of public matters involving AI-related incidents, failures, and resulting legal or regulatory action.
+[![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](LICENSE)
+[![Data: CC BY 4.0](https://img.shields.io/badge/Data-CC%20BY%204.0-green.svg)](DATA_LICENSE)
+[![Release](https://img.shields.io/github/v/release/snapsynapse/ai-incident-law)](https://github.com/snapsynapse/ai-incident-law/releases)
+
+When an AI system causes harm, the legal and regulatory fallout ends up scattered across dockets, tribunal orders, and agency actions with no common index. AI Incident Law is an open, searchable corpus of those public matters, queryable by both humans and agents.
+
+It ships as a standalone, dependency-free single-page application over a curated dataset of public matters involving AI-related incidents, failures, and resulting legal or regulatory action.
 
 ## Who this is for
 
@@ -44,7 +50,7 @@ The shipped app still has no runtime dependencies:
 - No analytics
 - No persistent browser storage
 
-The footer displays the dataset freshness date from `generated_at` in the canonical JSON bundle.
+The footer displays the dataset freshness date from `generated_at` in the canonical JSON bundle. `generated_at` is derived automatically at build time from the newest record `last_verified_date` / `last_checked_date`, so the public freshness stamp tracks the data and never lags behind it.
 
 Open `index.html` directly in a browser or host the folder on any static file server. Public-record links are outbound links and load only when selected.
 
@@ -69,6 +75,12 @@ npm run build
 npm run check
 ```
 
+To see which records are overdue for re-verification:
+
+```bash
+npm run report:staleness
+```
+
 To preview over a local static server:
 
 ```bash
@@ -81,6 +93,7 @@ Then open the local server in your browser.
 
 - `data/data.json` is the source of truth.
 - `data.js` is generated and should not be edited by hand.
+- `generated_at` is derived by the build from the newest record `last_verified_date` / `last_checked_date`; do not hand-edit it. Validation fails if it lags behind the newest record date.
 - Source URLs are normalized to `https://` bare domains during the build step.
 - Validation fails on duplicate record identifiers and malformed URL-field structure.
 - `public_record_link` must contain exactly one primary URL.
@@ -108,6 +121,7 @@ Advertised tools:
 - `list_authorities`
 - `get_authority`
 - `get_obligation_first_record`
+- `get_staleness_report`
 
 ## Repository metadata
 
