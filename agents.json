@@ -41,6 +41,7 @@
       ]
     },
     "source_dataset": "https://aiincidentlaw.org/data/data.json",
+    "naming_profile": "https://aiincidentlaw.org/.well-known/obligation-first-naming-profile.jsonld",
     "mcp_discovery": "https://aiincidentlaw.org/.well-known/mcp.json",
     "mcp_config": "https://aiincidentlaw.org/mcp.json"
   },
