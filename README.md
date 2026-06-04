@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](LICENSE)
 [![Data: CC BY 4.0](https://img.shields.io/badge/Data-CC%20BY%204.0-green.svg)](DATA_LICENSE)
 [![Release](https://img.shields.io/github/v/release/snapsynapse/ai-incident-law)](https://github.com/snapsynapse/ai-incident-law/releases)
+[![SafeSkill 50/100](https://img.shields.io/badge/SafeSkill-50%2F100_Use%20with%20Caution-orange)](https://safeskill.dev/scan/snapsynapse-ai-incident-law)
 
 When an AI system causes harm, the legal and regulatory fallout ends up scattered across dockets, tribunal orders, and agency actions with no common index. AI Incident Law is an open, searchable corpus of those public matters, queryable by both humans and agents.
 
