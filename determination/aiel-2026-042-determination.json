@@ -19,5 +19,8 @@
   },
   "notes": "$2,000 sanction (reduced from magistrate's $7,500 recommendation); Fastcase named as the AI tool by court finding.",
   "source": "https://damiencharlotin.com/documents/2191/Davis_v._Marion_Country_Juvenile_DC_USA_20_May_2026.pdf",
-  "ai_incident_law_record_id": "AIEL-2026-042"
+  "ai_incident_law_record_id": "AIEL-2026-042",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
 }

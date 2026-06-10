@@ -19,5 +19,8 @@
   },
   "notes": "Two-order matter: Dec 12, 2025 (AI sanction + $15,500 + claims dismissed); March 23, 2026 (fee split finalized). Total exposure ~$110,204.",
   "source": "https://damiencharlotin.com/hallucinations/",
-  "ai_incident_law_record_id": "AIEL-2026-036"
+  "ai_incident_law_record_id": "AIEL-2026-036",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
 }

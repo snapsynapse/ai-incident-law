@@ -20,5 +20,8 @@
   "notes": "$100 sanction imposed by Sandusky County Court of Common Pleas 2025-08-11; Sixth District Court of Appeals affirmed denial of Guo’s motion to set aside, 2026-05-26. DeepSeek named by appellant; court found citations were AI-generated hallucinations.",
   "source": "https://damiencharlotin.com/documents/2237/Guo_v._Meade_Motorcars_USA_26_May_2026.pdf",
   "ai_incident_law_record_id": "AIEL-2026-022",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ],
   "neutral_citation": "2026-Ohio-1930"
 }

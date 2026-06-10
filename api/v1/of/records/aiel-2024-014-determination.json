@@ -19,5 +19,9 @@
   },
   "notes": "Settlement included $300,000 and Detroit Police Department facial-recognition reforms.",
   "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
-  "ai_incident_law_record_id": "AIEL-2024-014"
+  "ai_incident_law_record_id": "AIEL-2024-014",
+  "anchors": [
+    "https://everyailaw.com/obligation/bias-prevention.json",
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
 }

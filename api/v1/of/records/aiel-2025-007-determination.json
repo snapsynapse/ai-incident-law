@@ -19,5 +19,8 @@
   },
   "notes": "Court struck settlement motions with prejudice, imposed a monetary fine, and referred counsel for professional conduct review.",
   "source": "https://law.berkeley.edu/wp-content/uploads/2025/12/Buchanan.pdf",
-  "ai_incident_law_record_id": "AIEL-2025-007"
+  "ai_incident_law_record_id": "AIEL-2025-007",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
 }

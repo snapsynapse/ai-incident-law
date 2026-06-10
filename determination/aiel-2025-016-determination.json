@@ -19,5 +19,9 @@
   },
   "notes": "Case reported dismissed at summary judgment in 2025 with appeal planned; keep procedural status under watch.",
   "source": "https://aclu.org/cases/woodruff-v-oliver",
-  "ai_incident_law_record_id": "AIEL-2025-016"
+  "ai_incident_law_record_id": "AIEL-2025-016",
+  "anchors": [
+    "https://everyailaw.com/obligation/bias-prevention.json",
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
 }

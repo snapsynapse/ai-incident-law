@@ -19,5 +19,8 @@
   },
   "notes": "$1,000 personal sanction (2026 WL 637419); attorney admitted ChatGPT use and failure to verify.",
   "source": "https://damiencharlotin.com/documents/1622/Kattom_v._Bondi_USA_March_2026.pdf",
-  "ai_incident_law_record_id": "AIEL-2026-033"
+  "ai_incident_law_record_id": "AIEL-2026-033",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
 }

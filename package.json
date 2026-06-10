@@ -24,9 +24,10 @@
     "test:url-policy": "node scripts/test-url-policy.mjs",
     "test:mcp": "node --test tests/mcp-server.test.js",
     "test:discovery": "node --test tests/discovery.test.js",
+    "check:of": "node scripts/check-of-version.mjs",
     "report:staleness": "node scripts/staleness-report.mjs",
     "build": "npm run build:data && npm run build:of && npm run validate:data",
-    "check": "npm run validate:data && npm run test:url-policy && npm run eval:url-policy && npm run eval:of && npm run test:mcp && npm run test:discovery",
+    "check": "npm run validate:data && npm run test:url-policy && npm run eval:url-policy && npm run eval:of && npm run check:of && npm run test:mcp && npm run test:discovery",
     "serve": "python3 -m http.server 4173"
   }
 }

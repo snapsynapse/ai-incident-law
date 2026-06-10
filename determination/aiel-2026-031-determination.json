@@ -19,5 +19,8 @@
   },
   "notes": "$2,750 monetary sanction payable to the Clerk plus six hours of in-person CLE focused on the use of generative AI; counsel admitted the AI use.",
   "source": "https://damiencharlotin.com/documents/1989/In_re_Troylond_USA_9_April_2026.pdf",
-  "ai_incident_law_record_id": "AIEL-2026-031"
+  "ai_incident_law_record_id": "AIEL-2026-031",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
 }

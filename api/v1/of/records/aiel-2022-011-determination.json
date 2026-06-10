@@ -19,5 +19,10 @@
   },
   "notes": "Michigan announced $20 million settlement; Michigan Supreme Court recognized damages availability for the constitutional tort theory.",
   "source": "https://michigan.gov/ag/news/press-releases/2022/10/20/som-settlement-of-civil-rights-class-action-alleging-false-accusations-of-unemployment-fraud",
-  "ai_incident_law_record_id": "AIEL-2022-011"
+  "ai_incident_law_record_id": "AIEL-2022-011",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json",
+    "https://everyailaw.com/obligation/explainability.json",
+    "https://everyailaw.com/obligation/bias-prevention.json"
+  ]
 }

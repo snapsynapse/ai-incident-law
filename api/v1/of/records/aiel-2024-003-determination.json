@@ -19,5 +19,8 @@
   },
   "notes": "Matter referred to grievance panel; opinion emphasizes duty to verify AI-generated legal citations.",
   "source": "https://law.justia.com/cases/federal/appellate-courts/ca2/22-2057/22-2057-2024-01-30.html",
-  "ai_incident_law_record_id": "AIEL-2024-003"
+  "ai_incident_law_record_id": "AIEL-2024-003",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
 }

@@ -19,5 +19,8 @@
   },
   "notes": "$47,056.90 total ($35,603.90 + $11,453); ChatGPT workspace forensically examined; both admission and court finding confirmed.",
   "source": "https://damiencharlotin.com/documents/1931/Rivera_v._Triad_USA_31_March_2026.pdf",
-  "ai_incident_law_record_id": "AIEL-2026-038"
+  "ai_incident_law_record_id": "AIEL-2026-038",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
 }

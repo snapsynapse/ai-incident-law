@@ -19,5 +19,8 @@
   },
   "notes": "AI hallucinations are recorded as corroborating misconduct, not necessarily the sole basis for discipline.",
   "source": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
-  "ai_incident_law_record_id": "AIEL-2024-008"
+  "ai_incident_law_record_id": "AIEL-2024-008",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
 }

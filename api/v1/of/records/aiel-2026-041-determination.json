@@ -19,5 +19,8 @@
   },
   "notes": "AI-attributable sanction $2,710 ($1,710 fees + $1,000 penalty); LexisNexis AI confirmed by counsel admission and court finding. Separate $46,980 discovery sanction not AI-related.",
   "source": "https://damiencharlotin.com/documents/2160/Chakma_et_al_v_Sushi_Katsuei_Inc_et_al_USA_19_May_2026.pdf",
-  "ai_incident_law_record_id": "AIEL-2026-041"
+  "ai_incident_law_record_id": "AIEL-2026-041",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
 }

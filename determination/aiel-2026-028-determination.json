@@ -19,5 +19,8 @@
   },
   "notes": "$5,000 Rule 11(c) sanction plus an AI-ethics CLE requirement; second AI-related sanction against the same attorney (prior sanctions exceeded $73,000).",
   "source": "https://damiencharlotin.com/documents/2001/Bunce_2_1.pdf",
-  "ai_incident_law_record_id": "AIEL-2026-028"
+  "ai_incident_law_record_id": "AIEL-2026-028",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
 }

@@ -19,5 +19,8 @@
   },
   "notes": "Court imposed a $5,000 sanction and ordered notice to affected judges and client.",
   "source": "https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1:2022cv01461/575368/54/",
-  "ai_incident_law_record_id": "AIEL-2023-002"
+  "ai_incident_law_record_id": "AIEL-2023-002",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
 }

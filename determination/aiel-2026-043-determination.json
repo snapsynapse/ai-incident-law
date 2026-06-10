@@ -19,5 +19,8 @@
   },
   "notes": "$5,000 on Salah (not $4,997 as in tracker); ARDC referral for Chalisa; 24 fabricated quotations and 7 wrong-circuit citations documented.",
   "source": "https://damiencharlotin.com/documents/2246/Perez-Castillo_v._Blanche_USA_1_June_2026.pdf",
-  "ai_incident_law_record_id": "AIEL-2026-043"
+  "ai_incident_law_record_id": "AIEL-2026-043",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
 }

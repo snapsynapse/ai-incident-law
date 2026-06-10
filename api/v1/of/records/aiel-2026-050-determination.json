@@ -19,5 +19,8 @@
   },
   "notes": "Charlotin tracker date (Feb 27) is the Show Cause Order; actual sanctions order is April 1, 2026. Case involves Joseph Maldonado-Passage (Joe Exotic), federally incarcerated.",
   "source": "https://damiencharlotin.com/documents/1963/Maldonado_Tiger_King_USA_1_April_2026.pdf",
-  "ai_incident_law_record_id": "AIEL-2026-050"
+  "ai_incident_law_record_id": "AIEL-2026-050",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
 }

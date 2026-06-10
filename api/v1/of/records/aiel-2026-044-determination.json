@@ -19,5 +19,8 @@
   },
   "notes": "$7,500 on counsel + $2,500 on client = $10,000; metadata showed filings originated from client's AI program; first NY appellate-level GenAI sanctions decision.",
   "source": "https://damiencharlotin.com/documents/1274/Deutsche_Bank_v._Le_Tennier_USA_8_January_2026.pdf",
-  "ai_incident_law_record_id": "AIEL-2026-044"
+  "ai_incident_law_record_id": "AIEL-2026-044",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
 }

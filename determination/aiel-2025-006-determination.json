@@ -19,5 +19,8 @@
   },
   "notes": "Reply brief struck; corrected reply denied; board issued broader AI-use caution.",
   "source": "https://asbca.mil/LinkClick.aspx?fileticket=eAIy2KSL_Zg%3D&portalid=143",
-  "ai_incident_law_record_id": "AIEL-2025-006"
+  "ai_incident_law_record_id": "AIEL-2025-006",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
 }

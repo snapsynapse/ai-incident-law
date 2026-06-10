@@ -19,5 +19,8 @@
   },
   "notes": "Fifth Circuit Feb 18, 2026 final order: $2,500 sanction on appellate counsel Heather Hersh under inherent power; district-court counsel Shawn Jaffer Rule 11/$1927 sanctions vacated by separate order. Both Casetext/CoCounsel and vLex named as candidate products; Hersh admitted AI use when asked directly.",
   "source": "https://ca5.uscourts.gov/opinions/pub/25/25-20086-CV0.pdf",
-  "ai_incident_law_record_id": "AIEL-2026-005"
+  "ai_incident_law_record_id": "AIEL-2026-005",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
 }

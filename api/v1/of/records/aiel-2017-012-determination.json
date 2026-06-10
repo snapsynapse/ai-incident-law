@@ -19,5 +19,9 @@
   },
   "notes": "Algorithm invalidated on rulemaking grounds; later proceedings addressed successor systems and systemic relief.",
   "source": "https://law.justia.com/cases/arkansas/supreme-court/2017/cv-17-183.html",
-  "ai_incident_law_record_id": "AIEL-2017-012"
+  "ai_incident_law_record_id": "AIEL-2017-012",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json",
+    "https://everyailaw.com/obligation/explainability.json"
+  ]
 }

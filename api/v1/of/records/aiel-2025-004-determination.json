@@ -19,5 +19,8 @@
   },
   "notes": "Included as a notable sanctions event, but the primary court order should be downloaded and archived before treating as fully verified.",
   "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
-  "ai_incident_law_record_id": "AIEL-2025-004"
+  "ai_incident_law_record_id": "AIEL-2025-004",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
 }

@@ -34,7 +34,10 @@ window.AIEL_DATA = {
           "last_verified_date": "2026-04-22",
           "needs_review": "no",
           "neutral_citation": "2024 BCCRT 149",
-          "case_sameAs": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html"
+          "case_sameAs": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/transparency.json"
+          ]
         },
         {
           "error_id": "AIEL-2023-002",
@@ -61,7 +64,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-04-22",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2024-003",
@@ -88,7 +94,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-04-22",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2025-004",
@@ -115,7 +124,10 @@ window.AIEL_DATA = {
           "source_quality": "reliable reporting",
           "research_status": "included",
           "last_verified_date": "2026-04-22",
-          "needs_review": "yes"
+          "needs_review": "yes",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-005",
@@ -142,7 +154,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2025-006",
@@ -169,7 +184,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-04-22",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2025-007",
@@ -196,7 +214,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-04-22",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2024-008",
@@ -223,7 +244,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-04-22",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2023-009",
@@ -310,7 +334,12 @@ window.AIEL_DATA = {
           "source_quality": "official statement",
           "research_status": "included",
           "last_verified_date": "2026-04-22",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json",
+            "https://everyailaw.com/obligation/explainability.json",
+            "https://everyailaw.com/obligation/bias-prevention.json"
+          ]
         },
         {
           "error_id": "AIEL-2017-012",
@@ -337,7 +366,11 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-04-22",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json",
+            "https://everyailaw.com/obligation/explainability.json"
+          ]
         },
         {
           "error_id": "AIEL-2023-013",
@@ -394,7 +427,11 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-04-22",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/bias-prevention.json",
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2024-015",
@@ -448,7 +485,11 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-04-22",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/bias-prevention.json",
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2024-017",
@@ -529,7 +570,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-01",
-          "needs_review": "yes"
+          "needs_review": "yes",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/bias-prevention.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-020",
@@ -556,7 +600,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-01",
-          "needs_review": "yes"
+          "needs_review": "yes",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/content-rights.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-021",
@@ -584,7 +631,10 @@ window.AIEL_DATA = {
           "research_status": "included",
           "last_verified_date": "2026-06-01",
           "needs_review": "no",
-          "neutral_citation": "2026 OK 37"
+          "neutral_citation": "2026 OK 37",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-022",
@@ -612,7 +662,10 @@ window.AIEL_DATA = {
           "research_status": "included",
           "last_verified_date": "2026-06-01",
           "needs_review": "no",
-          "neutral_citation": "2026-Ohio-1930"
+          "neutral_citation": "2026-Ohio-1930",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-023",
@@ -639,7 +692,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-024",
@@ -666,7 +722,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-025",
@@ -693,7 +752,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-026",
@@ -720,7 +782,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "domain": "legal services",
@@ -747,7 +812,10 @@ window.AIEL_DATA = {
           "filing_date": "2026-04-24",
           "public_record_link": "https://damiencharlotin.com/documents/2035/Ibach__Stewart_v._Steward_USA_24_April_2026.pdf",
           "notes_on_resolution": "Counsel ordered to pay $17,200 in attorney fees and costs to the appellee, plus double costs, and barred from further filings absent leave; appeal dismissed.",
-          "tags": "hallucinated-citations; attorney-discipline; unnamed-ai; legal-services; appellate"
+          "tags": "hallucinated-citations; attorney-discipline; unnamed-ai; legal-services; appellate",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "domain": "legal services",
@@ -774,7 +842,10 @@ window.AIEL_DATA = {
           "filing_date": "2026-04-20",
           "public_record_link": "https://damiencharlotin.com/documents/2001/Bunce_2_1.pdf",
           "notes_on_resolution": "$5,000 Rule 11(c) sanction plus an AI-ethics CLE requirement; second AI-related sanction against the same attorney (prior sanctions exceeded $73,000).",
-          "tags": "hallucinated-citations; attorney-discipline; repeat-offender; generative-ai; legal-services"
+          "tags": "hallucinated-citations; attorney-discipline; repeat-offender; generative-ai; legal-services",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "domain": "legal services",
@@ -801,7 +872,10 @@ window.AIEL_DATA = {
           "filing_date": "2026-04-09",
           "public_record_link": "https://damiencharlotin.com/documents/1982/gov.uscourts.ilnd.475370.97.0.pdf",
           "notes_on_resolution": "Motion struck (Local Rule 7.1) and $5,000 Rule 11 sanction. NOTE: Charlotin reported $4,999; the order imposes $5,000. Pro se status did not shelter the plaintiff from sanctions.",
-          "tags": "hallucinated-citations; pro-se; unnamed-ai; legal-services; monetary-sanction"
+          "tags": "hallucinated-citations; pro-se; unnamed-ai; legal-services; monetary-sanction",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "domain": "legal services",
@@ -829,7 +903,10 @@ window.AIEL_DATA = {
           "public_record_link": "https://damiencharlotin.com/documents/1966/Hulvat_v._Gumina_USA_9_April_2026.pdf",
           "notes_on_resolution": "Judgment for fees and costs of $3,178 entered against the appellant under Illinois Supreme Court Rule 375(b); dismissal of the complaint affirmed.",
           "tags": "hallucinated-citations; pro-se; unnamed-ai; legal-services; appellate",
-          "neutral_citation": "2026 IL App (3d) 240628-U"
+          "neutral_citation": "2026 IL App (3d) 240628-U",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "domain": "legal services",
@@ -856,7 +933,10 @@ window.AIEL_DATA = {
           "filing_date": "2026-04-09",
           "public_record_link": "https://damiencharlotin.com/documents/1989/In_re_Troylond_USA_9_April_2026.pdf",
           "notes_on_resolution": "$2,750 monetary sanction payable to the Clerk plus six hours of in-person CLE focused on the use of generative AI; counsel admitted the AI use.",
-          "tags": "hallucinated-citations; attorney-discipline; admitted-ai; bankruptcy; legal-services"
+          "tags": "hallucinated-citations; attorney-discipline; admitted-ai; bankruptcy; legal-services",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-032",
@@ -883,7 +963,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-033",
@@ -910,7 +993,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-034",
@@ -937,7 +1023,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-035",
@@ -965,7 +1054,10 @@ window.AIEL_DATA = {
           "research_status": "included",
           "last_verified_date": "2026-06-02",
           "needs_review": "no",
-          "neutral_citation": "2026-Ohio-965"
+          "neutral_citation": "2026-Ohio-965",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-036",
@@ -992,7 +1084,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-037",
@@ -1019,7 +1114,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-038",
@@ -1046,7 +1144,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-039",
@@ -1073,7 +1174,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-040",
@@ -1100,7 +1204,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-041",
@@ -1127,7 +1234,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-042",
@@ -1154,7 +1264,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-043",
@@ -1181,7 +1294,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-044",
@@ -1208,7 +1324,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-045",
@@ -1235,7 +1354,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-046",
@@ -1262,7 +1384,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-047",
@@ -1289,7 +1414,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-048",
@@ -1316,7 +1444,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-049",
@@ -1343,7 +1474,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         },
         {
           "error_id": "AIEL-2026-050",
@@ -1370,7 +1504,10 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-02",
-          "needs_review": "no"
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         }
       ]
     },

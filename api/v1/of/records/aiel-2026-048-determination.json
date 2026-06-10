@@ -19,5 +19,8 @@
   },
   "notes": "$1,000 to Frontier (fee offset); mandatory Maryland bar referral; attorney appeared pro se on her own employment appeal.",
   "source": "https://damiencharlotin.com/documents/1484/Amarsingh_v._Frontier_Airlines.pdf",
-  "ai_incident_law_record_id": "AIEL-2026-048"
+  "ai_incident_law_record_id": "AIEL-2026-048",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
 }

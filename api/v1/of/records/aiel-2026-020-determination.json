@@ -19,5 +19,8 @@
   },
   "notes": "Complaint (Doc 1, 54 pp) pulled from RECAP and verified 2026-06-01. Copyright + Lanham (trademark/false-attribution) claims; part of a multi-publisher wave against Perplexity (NYT, Chicago Tribune, Encyclopaedia Britannica/Merriam-Webster, Reddit, Dow Jones).",
   "source": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
-  "ai_incident_law_record_id": "AIEL-2026-020"
+  "ai_incident_law_record_id": "AIEL-2026-020",
+  "anchors": [
+    "https://everyailaw.com/obligation/content-rights.json"
+  ]
 }

@@ -24,6 +24,7 @@
     tableViewButton: document.getElementById("tableViewButton"),
     themeToggle: document.getElementById("themeToggle"),
     generatedAtLabel: document.getElementById("generatedAtLabel"),
+    datasetHealth: document.getElementById("datasetHealth"),
   };
 
   const state = {
@@ -215,6 +216,27 @@
 
   function updateFreshnessLabel() {
     elements.generatedAtLabel.textContent = formatDateLabel(data.generated_at);
+    updateDatasetHealth();
+  }
+
+  function updateDatasetHealth() {
+    if (!elements.datasetHealth) return;
+    const ISO = /^\d{4}-\d{2}-\d{2}$/;
+    const included = records.filter((r) => r.dataset === "included");
+    const dates = included
+      .map((r) => r.raw.last_verified_date || r.raw.last_checked_date || "")
+      .filter((s) => ISO.test(s))
+      .sort();
+    if (!dates.length) return;
+    const oldest = dates[0];
+    const newest = dates[dates.length - 1];
+    const today = new Date().toISOString().slice(0, 10);
+    const ageDays = Math.round(
+      (new Date(today + "T00:00:00Z") - new Date(oldest + "T00:00:00Z")) / 86400000,
+    );
+    const staleFlag = ageDays > 180 ? " ⚠️ oldest overdue" : "";
+    elements.datasetHealth.textContent =
+      `${included.length} included · newest ${newest} · oldest ${oldest}${staleFlag}`;
   }
 
   function formatDateLabel(value) {
