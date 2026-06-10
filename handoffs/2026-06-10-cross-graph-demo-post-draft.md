@@ -107,9 +107,11 @@ trackers and hoping the synthesis they produce is right.
 
 The recipe lives at
 [aiincidentlaw.org/docs/legal-graph.html](https://aiincidentlaw.org/docs/legal-graph.html).
-The MCP config snippet drops into Claude Desktop, Cursor, or any MCP-aware agent client.
-Both servers are free to query under their respective licenses (CC BY 4.0 for AI Incident
-Law; EveryAILaw Data License v1.4.1 for the obligation registry).
+EveryAILaw publishes a pre-packaged MCP server (`npx -y ai-regulation-reference`); AI
+Incident Law currently ships a local stdio server (clone the repo, point your agent client
+at `scripts/mcp-server.js`). An npm-published package and a hosted HTTP variant are on the
+roadmap. Both layers are free to query under their respective licenses (CC BY 4.0 for AI
+Incident Law; EveryAILaw Data License v1.4.1 for the obligation registry).
 
 Run it. Run it tomorrow. The shape of the answer will be the same; the specific cases will
 keep growing.

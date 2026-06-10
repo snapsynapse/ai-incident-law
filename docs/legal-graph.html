@@ -210,13 +210,14 @@
 
         <h3>1. Configure both MCP servers</h3>
         <p>
-          Add this to your agent client's MCP configuration (Claude Desktop, Cursor, or any MCP-aware client):
+          AI Incident Law ships a local stdio MCP server. Clone the repo and point your agent client at
+          <code>scripts/mcp-server.js</code>. The EveryAILaw MCP is published; reference it by its package name.
         </p>
         <pre><code>{
   "mcpServers": {
     "ai-incident-law": {
-      "command": "npx",
-      "args": ["-y", "ai-incident-law"],
+      "command": "node",
+      "args": ["/absolute/path/to/ai-incident-law/scripts/mcp-server.js"],
       "description": "AI Incident Law case and enforcement evidence"
     },
     "ai-regulation-reference": {
@@ -226,6 +227,10 @@
     }
   }
 }</code></pre>
+        <p>
+          The discovery manifest at <a href="/.well-known/mcp.json">/.well-known/mcp.json</a> lists the full tool
+          surface and the static JSON endpoints for clients that prefer HTTPS over stdio.
+        </p>
 
         <h3>2. Find the live Colorado regulation</h3>
         <p>
