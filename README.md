@@ -20,6 +20,23 @@ AI incidents and their legal consequences are scattered across public records wi
 
 https://aiincidentlaw.org/
 
+## Install as an MCP server
+
+Configure your MCP-aware agent client (Claude Desktop, Cursor, etc.):
+
+```json
+{
+  "mcpServers": {
+    "ai-incident-law": {
+      "command": "npx",
+      "args": ["-y", "ai-incident-law"]
+    }
+  }
+}
+```
+
+This pulls the [ai-incident-law](https://www.npmjs.com/package/ai-incident-law) npm package on first run and exposes eight tools for querying the corpus by case attributes, anchored obligations, and verification freshness. See [docs/legal-graph.html](https://aiincidentlaw.org/docs/legal-graph.html) for a cross-graph example pairing this with the EveryAILaw MCP.
+
 ## Part of the PAICE legal graph
 
 AI Incident Law is one component of the PAICE legal graph (with EveryAILaw, PubLedge, and Obligation First). It is intentionally open: code under MIT, dataset under CC BY 4.0, commercial use permitted with attribution. The open siblings are funded by EveryAILaw Pro, the graph's single restricted layer; openness here is a deliberate PBC-charter choice. The canonical model is in the PAICE Foundation INTENT. Attribution: "AI Incident Law, PAICE.work PBC, CC BY 4.0".

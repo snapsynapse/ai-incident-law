@@ -210,14 +210,14 @@
 
         <h3>1. Configure both MCP servers</h3>
         <p>
-          AI Incident Law ships a local stdio MCP server. Clone the repo and point your agent client at
-          <code>scripts/mcp-server.js</code>. The EveryAILaw MCP is published; reference it by its package name.
+          Both servers are published to npm. Add this to your agent client's MCP configuration (Claude Desktop,
+          Cursor, or any MCP-aware client):
         </p>
         <pre><code>{
   "mcpServers": {
     "ai-incident-law": {
-      "command": "node",
-      "args": ["/absolute/path/to/ai-incident-law/scripts/mcp-server.js"],
+      "command": "npx",
+      "args": ["-y", "ai-incident-law"],
       "description": "AI Incident Law case and enforcement evidence"
     },
     "ai-regulation-reference": {
