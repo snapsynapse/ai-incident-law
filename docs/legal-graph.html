@@ -200,14 +200,17 @@
           <li>Consequence &rarr; Obligation: start at a case, read its anchors to learn which obligations the incident implicated.</li>
         </ul>
 
-        <h2>Cross-graph query example</h2>
+        <h2>Cross-graph query example: a real transcript</h2>
         <p>
-          The following is a reproducible agent recipe that uses both the AI Incident Law MCP and the EveryAILaw MCP
-          to answer: <em>"What obligations does an AI hiring tool trigger in Colorado, and what is the litigation
-          record when those obligations are breached?"</em>
+          What follows is a reproducible recipe run on <strong>2026-06-10</strong> against the live EveryAILaw MCP
+          and the published AI Incident Law dataset. The question:
+          <em>"What obligations does an automated decision system used in Colorado trigger under state law,
+          and what is the public litigation or enforcement record when those obligations are breached?"</em>
         </p>
+
+        <h3>1. Configure both MCP servers</h3>
         <p>
-          Configure both MCP servers in your agent client:
+          Add this to your agent client's MCP configuration (Claude Desktop, Cursor, or any MCP-aware client):
         </p>
         <pre><code>{
   "mcpServers": {
@@ -216,24 +219,77 @@
       "args": ["-y", "ai-incident-law"],
       "description": "AI Incident Law case and enforcement evidence"
     },
-    "every-ai-law": {
+    "ai-regulation-reference": {
       "command": "npx",
-      "args": ["-y", "every-ai-law"],
+      "args": ["-y", "ai-regulation-reference"],
       "description": "EveryAILaw AI obligation registry"
     }
   }
 }</code></pre>
+
+        <h3>2. Find the live Colorado regulation</h3>
         <p>
-          Then issue this prompt to an agent that has both servers loaded:
+          Call <code>list_regulations(jurisdiction="us-co")</code> on the EveryAILaw MCP. Result:
+          <strong>Colorado SB 26-189 (Colorado ADMT Act)</strong>, enacted 2026-05-14, effective 2027-01-01.
+          This regulation governs automated decision systems making consequential decisions in employment, housing,
+          credit, healthcare, and other domains.
         </p>
-        <pre><code>1. Use the EveryAILaw MCP to list obligations that apply to AI hiring tools in Colorado.
-2. For each obligation returned, search the AI Incident Law MCP for records with
-   matching obligation_first_anchors.
-3. Summarize: which obligations have a public litigation or enforcement record,
-   and what was the outcome?</code></pre>
+
+        <h3>3. Pull the obligations SB 26-189 actually imposes</h3>
         <p>
-          No other publicly available stack can answer this programmatically. DAIL, Fisher Phillips, and similar
-          incumbent trackers are human-browsable only -- no API, no structured obligation linkage.
+          Call <code>get_regulation(id="colorado-sb26-189")</code>. The regulation contains four provisions covering
+          three distinct obligations:
+        </p>
+        <ul>
+          <li><strong>transparency</strong> (Deployer Disclosures &amp; Post-Adverse Notice; Developer Documentation)</li>
+          <li><strong>record-keeping</strong> (Deployer Record-Keeping; Developer Documentation)</li>
+          <li><strong>human-oversight</strong> (Consumer Correction &amp; Human Review)</li>
+        </ul>
+
+        <h3>4. Search the AI Incident Law dataset for matching anchors</h3>
+        <p>
+          For each obligation, call <code>search_records</code> on the AI Incident Law MCP for matters whose
+          <code>obligation_first_anchors</code> contain the EveryAILaw obligation IRI. Live results:
+        </p>
+        <ul>
+          <li><strong>transparency</strong>: 1 anchored record.
+            <em>Moffatt v. Air Canada</em>, 2024 BCCRT 149 -- a chatbot misstated bereavement-fare refund eligibility;
+            the British Columbia Civil Resolution Tribunal held the airline liable and awarded C$650.88. The legal
+            theory: a deployer is responsible for accurate disclosures even when delivered through an automated agent.</li>
+          <li><strong>record-keeping</strong>: 0 anchored records. This is itself a finding -- no AI Incident Law
+            matter has yet turned squarely on a record-keeping or audit-trail failure. SB 26-189 will create that
+            cause of action starting 2027-01-01; the litigation record begins after that date.</li>
+          <li><strong>human-oversight</strong>: 41 anchored records, including 37 attorney-sanction matters for AI
+            hallucinated citations (the dominant cluster) plus structural cases: <em>Cahoo v. SAS Institute</em> (MiDAS
+            automated fraud determinations) and <em>Detroit v. RUGs</em> (algorithmic Medicaid care-allocation cuts).
+            Sanctions in the attorney cluster range from US$900 to US$94,704.</li>
+        </ul>
+
+        <h3>5. Synthesis</h3>
+        <p>
+          An automated decision system deployed in Colorado after 2027-01-01 will sit under three legally distinct
+          obligations -- transparency, record-keeping, and human-oversight -- each backed by a different volume of
+          existing precedent. Transparency failures already have a clean civil-liability template (Moffatt v. Air
+          Canada). Human-oversight failures have the deepest record, dominated by attorney professional discipline
+          but with structural-case precedent in benefits administration. Record-keeping is the new frontier: no public
+          matter yet, but the obligation is on the books and the burden of proof for compliance will fall on deployers.
+        </p>
+        <p>
+          A deployer can read this answer as a risk-shaped roadmap: where the litigation record is thick, expect
+          plaintiff sophistication and well-developed standards of care; where it is thin, expect first-mover defendants
+          to set the standard.
+        </p>
+
+        <h3>Why this matters</h3>
+        <p>
+          No other publicly available stack can answer this query programmatically. DAIL, Fisher Phillips, McKool Smith,
+          and Hogan Lovells trackers are human-browsable only -- no API, no structured obligation linkage. The PAICE
+          legal graph is the only system where an agent can traverse from a specific regulation, to the obligations it
+          creates, to the cases where those obligations were breached, in one session.
+        </p>
+        <p>
+          The recipe above is reproducible. Run it tomorrow against an updated dataset; you will get the same shape of
+          answer with whatever new cases have been admitted since.
         </p>
 
         <h2>Agent discovery</h2>
