@@ -1,0 +1,35 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.snapsynapse/ai-incident-law",
+  "title": "AI Incident Law",
+  "description": "Public-record corpus of AI litigation, regulation, and enforcement, anchored to EveryAILaw.",
+  "websiteUrl": "https://aiincidentlaw.org/",
+  "repository": {
+    "url": "https://github.com/snapsynapse/ai-incident-law",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "ai-incident-law",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "license": "MIT (code) / CC BY 4.0 (data)",
+      "publisher": "PAICE.work PBC",
+      "publisher_url": "https://paice.work/",
+      "agents_json": "https://aiincidentlaw.org/agents.json",
+      "discovery": "https://aiincidentlaw.org/.well-known/mcp.json",
+      "legal_graph_layer": "case-and-enforcement-evidence",
+      "legal_graph_position": 4,
+      "legal_graph_narrative": "https://aiincidentlaw.org/docs/legal-graph.html"
+    }
+  }
+}
