@@ -1,8 +1,7 @@
 {
   "name": "ai-incident-law",
-  "private": true,
   "version": "0.1.0",
-  "description": "Static AI Incident Law site with canonical JSON data and generated browser bundle.",
+  "description": "MCP server and static dataset for the AI Incident Law public-record corpus: AI-related litigation, regulatory action, tribunal records, and review-queue matters. Anchored to EveryAILaw obligations for cross-graph queries.",
   "homepage": "https://aiincidentlaw.org/",
   "repository": {
     "type": "git",
@@ -11,9 +10,42 @@
   "bugs": {
     "url": "https://github.com/snapsynapse/ai-incident-law/issues"
   },
+  "license": "MIT",
+  "author": "PAICE.work PBC (https://paice.work/)",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-law",
+    "ai-incident",
+    "ai-litigation",
+    "legal-research",
+    "regulation",
+    "compliance",
+    "paice",
+    "paice-legal-graph",
+    "obligation-first",
+    "everyailaw"
+  ],
   "engines": {
     "node": ">=20"
   },
+  "bin": {
+    "ai-incident-law": "scripts/mcp-server.js"
+  },
+  "main": "scripts/mcp-server.js",
+  "files": [
+    "scripts/mcp-server.js",
+    "data/data.json",
+    "api/v1/of/**/*.json",
+    ".well-known/mcp.json",
+    ".well-known/obligation-first-naming-profile.jsonld",
+    "mcp.json",
+    "agents.json",
+    "README.md",
+    "LICENSE",
+    "DATA_LICENSE",
+    "INTENT.md"
+  ],
   "scripts": {
     "build:data": "node scripts/build-data.mjs",
     "build:of": "node scripts/build-obligation-first.mjs",
