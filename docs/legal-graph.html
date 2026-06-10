@@ -202,28 +202,34 @@
 
         <h2>Cross-graph query example: a real transcript</h2>
         <p>
-          What follows is a reproducible recipe run on <strong>2026-06-10</strong> against the live EveryAILaw MCP
-          and the published AI Incident Law dataset. The question:
-          <em>"What obligations does an automated decision system used in Colorado trigger under state law,
-          and what is the public litigation or enforcement record when those obligations are breached?"</em>
+          What follows is a reproducible recipe run on <strong>2026-06-10</strong> against all three published
+          PAICE legal graph MCP servers. The question:
+          <em>"What obligations does an automated decision system used in Colorado trigger under state law, what
+          is the authoritative public-record statute citation, and what is the public litigation record when those
+          obligations are breached?"</em>
         </p>
 
-        <h3>1. Configure both MCP servers</h3>
+        <h3>1. Configure all three MCP servers</h3>
         <p>
-          Both servers are published to npm. Add this to your agent client's MCP configuration (Claude Desktop,
+          All three are published to npm. Add this to your agent client's MCP configuration (Claude Desktop,
           Cursor, or any MCP-aware client):
         </p>
         <pre><code>{
   "mcpServers": {
-    "ai-incident-law": {
-      "command": "npx",
-      "args": ["-y", "ai-incident-law"],
-      "description": "AI Incident Law case and enforcement evidence"
-    },
     "every-ai-law": {
       "command": "npx",
       "args": ["-y", "every-ai-law"],
-      "description": "EveryAILaw AI obligation registry"
+      "description": "EveryAILaw AI obligation registry (layer 2)"
+    },
+    "publedge": {
+      "command": "npx",
+      "args": ["-y", "publedge"],
+      "description": "PubLedge verifiable public-record protocol (layer 3)"
+    },
+    "ai-incident-law": {
+      "command": "npx",
+      "args": ["-y", "ai-incident-law"],
+      "description": "AI Incident Law case and enforcement evidence (layer 4)"
     }
   }
 }</code></pre>
@@ -232,7 +238,7 @@
           surface and the static JSON endpoints for clients that prefer HTTPS over stdio.
         </p>
 
-        <h3>2. Find the live Colorado regulation</h3>
+        <h3>2. Find the live Colorado regulation (EveryAILaw)</h3>
         <p>
           Call <code>list_regulations(jurisdiction="us-co")</code> on the EveryAILaw MCP. Result:
           <strong>Colorado SB 26-189 (Colorado ADMT Act)</strong>, enacted 2026-05-14, effective 2027-01-01.
@@ -240,7 +246,7 @@
           credit, healthcare, and other domains.
         </p>
 
-        <h3>3. Pull the obligations SB 26-189 actually imposes</h3>
+        <h3>3. Pull the obligations SB 26-189 actually imposes (EveryAILaw)</h3>
         <p>
           Call <code>get_regulation(id="colorado-sb26-189")</code>. The regulation contains four provisions covering
           three distinct obligations:
@@ -251,7 +257,25 @@
           <li><strong>human-oversight</strong> (Consumer Correction &amp; Human Review)</li>
         </ul>
 
-        <h3>4. Search the AI Incident Law dataset for matching anchors</h3>
+        <h3>4. Pull the verifiable public-record statute (PubLedge)</h3>
+        <p>
+          Call <code>get_legal-instrument(id="us-co-legislature-statute-2026-sb26-189")</code> on the PubLedge MCP.
+          Returns a hash-pinned plain-markdown record bound to the Semantic Arts gist ontology, with six precise
+          C.R.S. section anchors mapping each obligation to a statute citation:
+        </p>
+        <ul>
+          <li>&sect;6-1-1702 -- developer documentation duties</li>
+          <li>&sect;6-1-1703 -- deployer record-keeping; 3-year retention</li>
+          <li>&sect;6-1-1704 -- deployer consumer-notice obligation; consequential decisions</li>
+          <li>&sect;6-1-1705 -- consumer rights; data correction; human review; 30-day post-adverse explanation</li>
+          <li>&sect;6-1-1706 -- Attorney General enforcement; 60-day cure period; deceptive trade practices</li>
+        </ul>
+        <p>
+          PubLedge is the verifiable-records layer: every record is hash-anchored to its source, so a citation
+          chain is reproducible months from now even if the originating site restructures URLs.
+        </p>
+
+        <h3>5. Search the AI Incident Law dataset for matching anchors</h3>
         <p>
           For each obligation, call <code>search_records</code> on the AI Incident Law MCP for matters whose
           <code>obligation_first_anchors</code> contain the EveryAILaw obligation IRI. Live results:
@@ -270,11 +294,12 @@
             Sanctions in the attorney cluster range from US$900 to US$94,704.</li>
         </ul>
 
-        <h3>5. Synthesis</h3>
+        <h3>6. Synthesis</h3>
         <p>
           An automated decision system deployed in Colorado after 2027-01-01 will sit under three legally distinct
-          obligations -- transparency, record-keeping, and human-oversight -- each backed by a different volume of
-          existing precedent. Transparency failures already have a clean civil-liability template (Moffatt v. Air
+          obligations -- transparency, record-keeping, and human-oversight -- each backed by a precise C.R.S. citation
+          (PubLedge), a defined regulatory provision (EveryAILaw), and a different volume of existing precedent
+          (AI Incident Law). Transparency failures already have a clean civil-liability template (Moffatt v. Air
           Canada). Human-oversight failures have the deepest record, dominated by attorney professional discipline
           but with structural-case precedent in benefits administration. Record-keeping is the new frontier: no public
           matter yet, but the obligation is on the books and the burden of proof for compliance will fall on deployers.
@@ -282,7 +307,8 @@
         <p>
           A deployer can read this answer as a risk-shaped roadmap: where the litigation record is thick, expect
           plaintiff sophistication and well-developed standards of care; where it is thin, expect first-mover defendants
-          to set the standard.
+          to set the standard. The PubLedge layer ensures the underlying statute citations stay verifiable for the
+          life of the litigation.
         </p>
 
         <h3>Why this matters</h3>
