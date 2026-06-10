@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Submit a case | AI Incident Law</title>
+    <meta
+      name="description"
+      content="How to submit a public-record AI incident, regulatory action, or tribunal matter to the AI Incident Law dataset. PR-based, criteria-driven, reviewed."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <style>
+      .prose {
+        max-width: 720px;
+        margin-inline: auto;
+        padding: 40px 0 60px;
+      }
+      .prose h2 {
+        margin: 2em 0 0.5em;
+        font-size: 1.1rem;
+      }
+      .prose h3 {
+        margin: 1.4em 0 0.4em;
+        font-size: 1rem;
+      }
+      .prose p,
+      .prose ul,
+      .prose ol {
+        line-height: 1.7;
+        margin: 0.75em 0;
+      }
+      .prose a {
+        color: var(--primary);
+      }
+      .prose pre {
+        background: var(--surface-2);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 16px 20px;
+        overflow-x: auto;
+        font-size: 13px;
+        line-height: 1.5;
+        margin: 1em 0;
+      }
+      .prose code {
+        font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, monospace;
+      }
+      .prose p code,
+      .prose li code {
+        background: var(--surface-2);
+        border: 1px solid var(--border);
+        border-radius: 3px;
+        padding: 1px 5px;
+        font-size: 0.88em;
+      }
+      .criteria-list {
+        list-style: none;
+        padding: 0;
+        margin: 1.5em 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .criteria-item {
+        display: grid;
+        grid-template-columns: 28px 1fr;
+        gap: 12px;
+        padding: 12px 14px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+      }
+      .criteria-num {
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--primary);
+        padding-top: 2px;
+      }
+      .criteria-body strong {
+        display: block;
+        margin-bottom: 4px;
+        color: var(--text);
+      }
+      .criteria-body {
+        font-size: 13px;
+        color: var(--muted);
+        line-height: 1.6;
+      }
+      .button-row {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin: 1.5em 0;
+      }
+      .button-primary,
+      .button-secondary {
+        display: inline-flex;
+        align-items: center;
+        padding: 10px 18px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+      }
+      .prose a.button-primary {
+        background: var(--primary);
+        color: white;
+      }
+      .prose a.button-primary:hover {
+        background: var(--primary-2);
+      }
+      .prose a.button-secondary {
+        background: var(--surface-2);
+        color: var(--text);
+        border: 1px solid var(--border);
+      }
+      .prose a.button-secondary:hover {
+        background: var(--surface-3);
+      }
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 13px;
+        color: var(--muted);
+        text-decoration: none;
+        margin-bottom: 32px;
+      }
+      .back-link:hover {
+        color: var(--primary);
+      }
+      .bucket-card {
+        padding: 14px 16px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        margin: 0.6em 0;
+      }
+      .bucket-card strong {
+        color: var(--text);
+      }
+      .bucket-card p {
+        font-size: 13px;
+        color: var(--muted);
+        margin: 4px 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="brand-row">
+        <div class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" role="img" aria-label="AI Incident Law mark">
+            <path d="M10 12h28v24H10z" fill="none" stroke="currentColor" stroke-width="2.4" />
+            <path d="M16 18h16M16 24h12M16 30h18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" />
+            <path d="M35 10l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
+        <div>
+          <p class="eyebrow">AI incident and litigation index</p>
+          <h1>AI Incident Law</h1>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="prose">
+        <a class="back-link" href="/">&#8592; Back to the dataset</a>
+
+        <h2 style="margin-top: 0; font-size: 1.4rem;">Submit a case</h2>
+        <p>
+          AI Incident Law is a curated public-record corpus. Contributions are welcome from anyone --
+          law school clinics, in-house counsel, journalists, researchers, opposing counsel who watched
+          a case turn on AI-related conduct. The dataset does not favor any particular product or
+          firm, and admission is governed by stated criteria, not editorial taste.
+        </p>
+
+        <div class="button-row">
+          <a class="button-primary" href="https://github.com/snapsynapse/ai-incident-law/issues/new?labels=case-submission&amp;template=case-submission.md" rel="noopener">Open a case-submission issue</a>
+          <a class="button-secondary" href="https://github.com/snapsynapse/ai-incident-law/compare" rel="noopener">Open a pull request</a>
+        </div>
+
+        <h2>What we accept</h2>
+        <p>
+          A candidate record is admitted to the <code>included</code> bucket when all of the following hold.
+          These are the same criteria the steward applies to her own submissions; they live in
+          <a href="https://github.com/snapsynapse/ai-incident-law/blob/main/INTENT.md" rel="noopener">INTENT.md</a>
+          as the authoritative statement.
+        </p>
+
+        <ol class="criteria-list">
+          <li class="criteria-item">
+            <span class="criteria-num">1</span>
+            <div class="criteria-body">
+              <strong>Public legal or regulatory matter directly involving AI-related conduct, output, or use.</strong>
+              Filed proceedings, regulatory actions, settlements, judgments, consent decrees, formal
+              investigation disclosures. Press coverage alone is not sufficient.
+            </div>
+          </li>
+          <li class="criteria-item">
+            <span class="criteria-num">2</span>
+            <div class="criteria-body">
+              <strong>At least one primary or reliable secondary public source.</strong>
+              Court filings, agency orders, tribunal opinions, official press releases, or stable
+              archival mirrors (CanLII, CourtListener, RECAP, official gazettes).
+            </div>
+          </li>
+          <li class="criteria-item">
+            <span class="criteria-num">3</span>
+            <div class="criteria-body">
+              <strong>Required fields present and consistent.</strong>
+              Jurisdiction, parties, AI-relevance description, source URLs, dates. See the
+              <a href="../docs/data-schema.md">data schema</a> for exact field shapes.
+            </div>
+          </li>
+          <li class="criteria-item">
+            <span class="criteria-num">4</span>
+            <div class="criteria-body">
+              <strong>AI-relevance is concrete, not speculative.</strong>
+              The matter must turn on AI-related conduct in a way a court or regulator named, not
+              merely that "AI was in the room." Generic AI ethics statements without legal or regulatory
+              action attached are out of scope.
+            </div>
+          </li>
+        </ol>
+
+        <h2>Where your submission goes</h2>
+
+        <div class="bucket-card">
+          <strong>included</strong>
+          <p>Meets all four admission criteria. Renders on the main site, appears in the
+          Obligation-First API, and is fetchable by the public MCP.</p>
+        </div>
+        <div class="bucket-card">
+          <strong>review</strong>
+          <p>In scope but needs verification, primary-source strengthening, or schema cleanup. Visible
+          in the dataset but flagged. Contributors can iterate from here.</p>
+        </div>
+        <div class="bucket-card">
+          <strong>global</strong>
+          <p>Non-US matters that need translation, jurisdiction-specific interpretation, or additional
+          sourcing. Held here until the editorial workflow can do them justice.</p>
+        </div>
+
+        <h2>The submission process</h2>
+
+        <h3>Option 1 -- open an issue (recommended for first-time submitters)</h3>
+        <p>
+          Open a GitHub issue with the case-submission label. Include:
+        </p>
+        <ul>
+          <li>matter name and jurisdiction</li>
+          <li>primary source URL (court filing, agency order, tribunal opinion)</li>
+          <li>one-sentence statement of why this is AI-related, with the specific conduct in question</li>
+          <li>which admission criterion you believe the matter satisfies</li>
+        </ul>
+        <p>
+          The steward will respond with a triage: admission, request for more sourcing, queue into
+          review, or out of scope with a brief explanation. No silent rejections.
+        </p>
+
+        <h3>Option 2 -- open a pull request (for contributors comfortable with JSON)</h3>
+        <p>
+          Edit <code>data/data.json</code> directly. Add your record to the appropriate bucket
+          (<code>included</code>, <code>review</code>, or <code>global</code>) following the field
+          shapes documented in
+          <a href="https://github.com/snapsynapse/ai-incident-law/blob/main/docs/data-schema.md" rel="noopener">docs/data-schema.md</a>.
+          Run <code>npm run build</code> and <code>npm run check</code> locally before opening the PR
+          so URL policy and validation pass.
+        </p>
+        <p>
+          Read
+          <a href="https://github.com/snapsynapse/ai-incident-law/blob/main/CONTRIBUTING.md" rel="noopener">CONTRIBUTING.md</a>
+          for the exact editing rules.
+        </p>
+
+        <h2>Anchoring to obligations</h2>
+        <p>
+          If your submitted matter has resolved (has a disposition -- settled, ordered, sanctioned, etc.)
+          and you can identify which
+          <a href="https://everyailaw.com/api/v1/of/obligations.json" rel="noopener">EveryAILaw obligation(s)</a>
+          the breach implicates, include them as <code>obligation_first_anchors</code>. This is what makes
+          the matter traversable from the <a href="legal-graph.html">PAICE legal graph</a>. If the matter
+          is still pending, leave the field off; anchors are only valid on resolved records.
+        </p>
+
+        <h2>What we do not accept</h2>
+        <ul>
+          <li>Speculative AI-risk commentary or ethics statements without legal or regulatory action attached.</li>
+          <li>Internal corporate disputes that have not surfaced publicly.</li>
+          <li>Reputational controversy that has not produced a filing or formal action.</li>
+          <li>Private filings, leaked material, or anonymous tips. Every record must resolve to a public source.</li>
+          <li>Records under non-disclosure or otherwise barred from public reference.</li>
+        </ul>
+
+        <h2>Attribution and licensing</h2>
+        <p>
+          Submitted records are published under
+          <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a>. The
+          dataset preserves contributor attribution in git history. By submitting you confirm that the
+          underlying sources are public and that you have the right to reference them.
+        </p>
+
+        <h2>Reach the steward</h2>
+        <p>
+          For questions, scoping conversations, or sensitive submissions that need a private channel
+          before going public, contact
+          <a href="https://paice.work/contact/" rel="noopener">PAICE.work PBC</a>.
+        </p>
+      </div>
+    </main>
+
+    <footer class="app-footer">
+      <nav class="legal-graph-strip" aria-label="PAICE legal graph">
+        <p class="graph-strip-label">Part of the <a href="https://paice.foundation/" rel="noopener">PAICE legal graph</a></p>
+        <ol class="graph-nodes">
+          <li class="graph-node">
+            <a href="https://obligationfirst.org/" rel="noopener">
+              <span class="node-name">Obligation-First</span>
+              <span class="node-role">upper schema</span>
+            </a>
+          </li>
+          <li class="graph-node">
+            <a href="https://everyailaw.com/" rel="noopener">
+              <span class="node-name">EveryAILaw</span>
+              <span class="node-role">AI obligation registry</span>
+            </a>
+          </li>
+          <li class="graph-node">
+            <a href="https://publedge.org/" rel="noopener">
+              <span class="node-name">PubLedge</span>
+              <span class="node-role">open civic recordkeeping</span>
+            </a>
+          </li>
+          <li class="graph-node graph-node--current" aria-current="location">
+            <span class="node-name">AI Incident Law</span>
+            <span class="node-role">case &amp; enforcement evidence</span>
+          </li>
+        </ol>
+        <p class="footer-attribution">
+          &copy; 2026 <a href="https://paice.foundation/" rel="noopener">PAICE.work PBC</a>. Code MIT; dataset CC BY 4.0.
+        </p>
+      </nav>
+    </footer>
+  </body>
+</html>
