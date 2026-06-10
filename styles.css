@@ -556,6 +556,125 @@ tr:last-child td {
   padding: 22px 0 34px;
 }
 
+.legal-graph-strip {
+  border-top: 1px solid var(--border);
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.graph-strip-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--faint);
+  margin: 0 0 12px;
+}
+
+.graph-strip-label a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.graph-strip-label a:hover {
+  text-decoration: underline;
+}
+
+.graph-nodes {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 14px;
+}
+
+.graph-node {
+  display: flex;
+  align-items: center;
+}
+
+.graph-node + .graph-node::before {
+  content: "\2192";
+  padding: 0 6px;
+  color: var(--faint);
+  font-size: 11px;
+  flex-shrink: 0;
+}
+
+.graph-node a,
+.graph-node.graph-node--current {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.graph-node a:hover {
+  background: var(--surface-2);
+}
+
+.node-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.node-role {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.graph-node--current {
+  background: var(--primary-soft);
+}
+
+.graph-node--current .node-name {
+  color: var(--primary-2);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.graph-node--current .node-role {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.footer-attribution {
+  margin: 0;
+  color: var(--faint);
+}
+
+.of-anchors {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.of-anchor-label {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.of-anchor-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  background: var(--primary-soft);
+  color: var(--primary-2);
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.of-anchor-link:hover {
+  text-decoration: underline;
+}
+
 .footer-meta {
   display: flex;
   flex-wrap: wrap;

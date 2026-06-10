@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>How this fits -- PAICE legal graph | AI Incident Law</title>
+    <meta
+      name="description"
+      content="AI Incident Law is the case and enforcement evidence layer of the PAICE legal graph. This page explains the four-layer structure and shows how agents can traverse from obligation to consequence."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <style>
+      .prose {
+        max-width: 720px;
+        margin-inline: auto;
+        padding: 40px 0 60px;
+      }
+      .prose h2 {
+        margin: 2em 0 0.5em;
+        font-size: 1.1rem;
+      }
+      .prose p,
+      .prose ul,
+      .prose ol {
+        line-height: 1.7;
+        margin: 0.75em 0;
+      }
+      .prose a {
+        color: var(--primary);
+      }
+      .prose pre {
+        background: var(--surface-2);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 16px 20px;
+        overflow-x: auto;
+        font-size: 13px;
+        line-height: 1.5;
+        margin: 1em 0;
+      }
+      .prose code {
+        font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, monospace;
+      }
+      .prose p code,
+      .prose li code {
+        background: var(--surface-2);
+        border: 1px solid var(--border);
+        border-radius: 3px;
+        padding: 1px 5px;
+        font-size: 0.88em;
+      }
+      .layer-list {
+        list-style: none;
+        padding: 0;
+        margin: 1.5em 0;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+      .layer-item {
+        display: grid;
+        grid-template-columns: 28px 1fr;
+        gap: 12px;
+        align-items: start;
+        padding: 14px 16px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+      }
+      .layer-item.current {
+        background: var(--primary-soft);
+        border-color: var(--primary);
+      }
+      .layer-num {
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--faint);
+        padding-top: 2px;
+      }
+      .layer-item.current .layer-num {
+        color: var(--primary-2);
+      }
+      .layer-name {
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--primary);
+        text-decoration: none;
+      }
+      .layer-item.current .layer-name {
+        color: var(--primary-2);
+      }
+      .layer-name:hover {
+        text-decoration: underline;
+      }
+      .layer-desc {
+        font-size: 13px;
+        color: var(--muted);
+        margin: 2px 0 0;
+      }
+      .layer-question {
+        font-size: 13px;
+        font-style: italic;
+        color: var(--text);
+        margin: 4px 0 0;
+      }
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 13px;
+        color: var(--muted);
+        text-decoration: none;
+        margin-bottom: 32px;
+      }
+      .back-link:hover {
+        color: var(--primary);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="brand-row">
+        <div class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" role="img" aria-label="AI Incident Law mark">
+            <path d="M10 12h28v24H10z" fill="none" stroke="currentColor" stroke-width="2.4" />
+            <path d="M16 18h16M16 24h12M16 30h18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" />
+            <path d="M35 10l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
+        <div>
+          <p class="eyebrow">AI incident and litigation index</p>
+          <h1>AI Incident Law</h1>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="prose">
+        <a class="back-link" href="/">&#8592; Back to the dataset</a>
+
+        <h2 style="margin-top: 0; font-size: 1.4rem;">How this fits: the PAICE legal graph</h2>
+        <p>
+          AI Incident Law does not stand alone. It is the fourth layer of a connected representation of AI law built
+          by <a href="https://paice.work/" rel="noopener">PAICE.work PBC</a>: from the shared schema that names
+          things, to the statutes that define obligations, to the records that verify conduct, to the cases that show
+          what happens when obligations are breached.
+        </p>
+        <p>
+          Each layer answers a distinct question. Together they make the full chain programmable.
+        </p>
+
+        <h2>The four layers</h2>
+        <ol class="layer-list">
+          <li class="layer-item">
+            <span class="layer-num">1</span>
+            <div>
+              <a class="layer-name" href="https://obligationfirst.org/" rel="noopener">Obligation-First</a>
+              <p class="layer-desc">Upper schema -- shared IRI vocabulary used by all other layers.</p>
+              <p class="layer-question">"What do we call this kind of obligation, across every jurisdiction?"</p>
+            </div>
+          </li>
+          <li class="layer-item">
+            <span class="layer-num">2</span>
+            <div>
+              <a class="layer-name" href="https://everyailaw.com/" rel="noopener">EveryAILaw</a>
+              <p class="layer-desc">AI obligation registry -- statutes, regulations, and the obligations they create, indexed by jurisdiction.</p>
+              <p class="layer-question">"Which laws apply to an AI hiring tool in Colorado, and what exactly do they require?"</p>
+            </div>
+          </li>
+          <li class="layer-item">
+            <span class="layer-num">3</span>
+            <div>
+              <a class="layer-name" href="https://publedge.org/" rel="noopener">PubLedge</a>
+              <p class="layer-desc">Open civic recordkeeping -- protocol and templates for transparent, verifiable public records.</p>
+              <p class="layer-question">"What is the authoritative public record that proves this conduct occurred?"</p>
+            </div>
+          </li>
+          <li class="layer-item current">
+            <span class="layer-num">4</span>
+            <div>
+              <span class="layer-name">AI Incident Law</span>
+              <p class="layer-desc">Case and enforcement evidence -- curated corpus of litigation, tribunal records, and enforcement actions involving AI-related incidents.</p>
+              <p class="layer-question">"What did courts and agencies actually do when those obligations were breached?"</p>
+            </div>
+          </li>
+        </ol>
+
+        <h2>The anchor relationship</h2>
+        <p>
+          Included records in this dataset may carry an <code>obligation_first_anchors</code> field: a list of
+          Obligation-First IRIs pointing to the specific obligation(s) from EveryAILaw that the incident implicates.
+          For example, a hiring-algorithm discrimination case might anchor to
+          <code>https://everyailaw.com/obligation/bias-prevention</code>.
+        </p>
+        <p>
+          This makes the graph traversable in both directions:
+        </p>
+        <ul>
+          <li>Obligation &rarr; Consequence: start at an EveryAILaw obligation, follow anchors to every AI Incident Law case where breach was alleged.</li>
+          <li>Consequence &rarr; Obligation: start at a case, read its anchors to learn which obligations the incident implicated.</li>
+        </ul>
+
+        <h2>Cross-graph query example</h2>
+        <p>
+          The following is a reproducible agent recipe that uses both the AI Incident Law MCP and the EveryAILaw MCP
+          to answer: <em>"What obligations does an AI hiring tool trigger in Colorado, and what is the litigation
+          record when those obligations are breached?"</em>
+        </p>
+        <p>
+          Configure both MCP servers in your agent client:
+        </p>
+        <pre><code>{
+  "mcpServers": {
+    "ai-incident-law": {
+      "command": "npx",
+      "args": ["-y", "ai-incident-law"],
+      "description": "AI Incident Law case and enforcement evidence"
+    },
+    "every-ai-law": {
+      "command": "npx",
+      "args": ["-y", "every-ai-law"],
+      "description": "EveryAILaw AI obligation registry"
+    }
+  }
+}</code></pre>
+        <p>
+          Then issue this prompt to an agent that has both servers loaded:
+        </p>
+        <pre><code>1. Use the EveryAILaw MCP to list obligations that apply to AI hiring tools in Colorado.
+2. For each obligation returned, search the AI Incident Law MCP for records with
+   matching obligation_first_anchors.
+3. Summarize: which obligations have a public litigation or enforcement record,
+   and what was the outcome?</code></pre>
+        <p>
+          No other publicly available stack can answer this programmatically. DAIL, Fisher Phillips, and similar
+          incumbent trackers are human-browsable only -- no API, no structured obligation linkage.
+        </p>
+
+        <h2>Agent discovery</h2>
+        <p>
+          Each layer publishes an <code>agents.json</code> that includes a <code>graph_layer</code> block naming its
+          position, role, and the <code>agents_json</code> and <code>mcp_discovery</code> URLs of its upstream layers.
+          An agent traversing one node of the graph can discover the whole graph from that single file.
+        </p>
+        <ul>
+          <li><a href="https://aiincidentlaw.org/agents.json" rel="noopener">aiincidentlaw.org/agents.json</a></li>
+          <li><a href="https://everyailaw.com/agents.json" rel="noopener">everyailaw.com/agents.json</a></li>
+          <li><a href="https://obligationfirst.org/agents.json" rel="noopener">obligationfirst.org/agents.json</a></li>
+        </ul>
+      </div>
+    </main>
+
+    <footer class="app-footer">
+      <nav class="legal-graph-strip" aria-label="PAICE legal graph">
+        <p class="graph-strip-label">Part of the <a href="https://paice.foundation/" rel="noopener">PAICE legal graph</a></p>
+        <ol class="graph-nodes">
+          <li class="graph-node">
+            <a href="https://obligationfirst.org/" rel="noopener">
+              <span class="node-name">Obligation-First</span>
+              <span class="node-role">upper schema</span>
+            </a>
+          </li>
+          <li class="graph-node">
+            <a href="https://everyailaw.com/" rel="noopener">
+              <span class="node-name">EveryAILaw</span>
+              <span class="node-role">AI obligation registry</span>
+            </a>
+          </li>
+          <li class="graph-node">
+            <a href="https://publedge.org/" rel="noopener">
+              <span class="node-name">PubLedge</span>
+              <span class="node-role">open civic recordkeeping</span>
+            </a>
+          </li>
+          <li class="graph-node graph-node--current" aria-current="page">
+            <span class="node-name">AI Incident Law</span>
+            <span class="node-role">case &amp; enforcement evidence</span>
+          </li>
+        </ol>
+        <p class="footer-attribution">
+          &copy; 2026 <a href="https://paice.foundation/" rel="noopener">PAICE.work PBC</a>. Code MIT; dataset CC BY 4.0.
+        </p>
+      </nav>
+    </footer>
+  </body>
+</html>

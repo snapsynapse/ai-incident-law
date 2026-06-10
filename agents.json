@@ -9,6 +9,33 @@
     "contact": "https://paice.work/contact/"
   },
   "capabilities": {
+    "graph_layer": {
+      "name": "Case & Enforcement Evidence",
+      "position": 4,
+      "role": "Shows what courts and agencies actually did when obligations were breached. Anchors included records to Obligation-First obligation IRIs via obligation_first_anchors fields.",
+      "graph_narrative": "https://aiincidentlaw.org/docs/legal-graph.html",
+      "upstream_layers": [
+        {
+          "layer": "Obligation-First",
+          "role": "upper schema",
+          "url": "https://obligationfirst.org/",
+          "agents_json": "https://obligationfirst.org/agents.json"
+        },
+        {
+          "layer": "EveryAILaw",
+          "role": "AI obligation registry",
+          "url": "https://everyailaw.com/",
+          "agents_json": "https://everyailaw.com/agents.json",
+          "mcp_discovery": "https://everyailaw.com/.well-known/mcp.json"
+        },
+        {
+          "layer": "PubLedge",
+          "role": "open civic recordkeeping",
+          "url": "https://publedge.org/",
+          "agents_json": "https://publedge.org/agents.json"
+        }
+      ]
+    },
     "api": {
       "base_url": "https://aiincidentlaw.org/api/v1/of/",
       "format": "json",
@@ -74,6 +101,7 @@
   "usage_notes": [
     "This is a public-record reference, not legal advice.",
     "Check last_verified_date or last_checked_date before presenting a record as current.",
-    "Preferred dataset attribution: AI Incident Law, PAICE.work PBC, CC BY 4.0."
+    "Preferred dataset attribution: AI Incident Law, PAICE.work PBC, CC BY 4.0.",
+    "Records with obligation_first_anchors link to specific EveryAILaw obligations. Combine with the EveryAILaw MCP (https://everyailaw.com/.well-known/mcp.json) for cross-graph queries."
   ]
 }

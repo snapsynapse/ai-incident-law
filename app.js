@@ -398,8 +398,20 @@
             )
             .join("")}
         </div>
+        ${anchorLinks(raw.obligation_first_anchors)}
       </article>
     `;
+  }
+
+  function anchorLinks(anchors) {
+    if (!anchors || !anchors.length) return "";
+    const items = anchors.map((url) => {
+      const slug = url.replace(/\.json$/, "").split("/obligation/").pop();
+      const label = slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+      const humanUrl = url.replace(/\.json$/, "");
+      return `<a class="of-anchor-link" href="${escapeHtml(humanUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a>`;
+    });
+    return `<div class="of-anchors"><span class="of-anchor-label">Anchored to:</span>${items.join("")}</div>`;
   }
 
   function metaItem(label, value) {

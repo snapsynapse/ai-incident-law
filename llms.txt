@@ -20,15 +20,26 @@ Each record resolves to a primary or stable secondary public source. Records car
 
 ## Agent discovery
 
-- [agents.json](https://aiincidentlaw.org/agents.json): Capabilities, API endpoints, and MCP actions.
+- [agents.json](https://aiincidentlaw.org/agents.json): Capabilities, API endpoints, MCP actions, and legal graph layer metadata.
 - [MCP registration](https://aiincidentlaw.org/.well-known/mcp.json): Public MCP and static query endpoints.
 - [Obligation-First naming profile](https://aiincidentlaw.org/.well-known/obligation-first-naming-profile.jsonld): IRI scheme and identifier crosswalks for each entity type (Authority, Proceeding, Allegation, Determination).
+
+## PAICE legal graph
+
+AI Incident Law is layer 4 (Case & Enforcement Evidence) of the PAICE legal graph. The graph is a connected representation of AI law from schema to statute to record to consequence:
+
+1. [Obligation-First](https://obligationfirst.org/) -- upper schema. IRI vocabulary shared across all layers. agents.json: https://obligationfirst.org/agents.json
+2. [EveryAILaw](https://everyailaw.com/) -- AI obligation registry. Laws and the obligations they create. agents.json: https://everyailaw.com/agents.json / MCP: https://everyailaw.com/.well-known/mcp.json
+3. [PubLedge](https://publedge.org/) -- open civic recordkeeping. Protocol and templates for transparent civic records. agents.json: https://publedge.org/agents.json
+4. AI Incident Law (this site) -- case & enforcement evidence. What courts and agencies actually did when obligations were breached.
+
+Records in this dataset may carry `obligation_first_anchors`: IRIs linking a case to the specific obligation(s) from EveryAILaw that the incident implicates. This makes the graph traversable: from obligation to consequence and back. Cross-graph narrative: https://aiincidentlaw.org/docs/legal-graph.html
 
 ## About
 
 - [Project home](https://aiincidentlaw.org/): Searchable single-page reference.
+- [How this fits](https://aiincidentlaw.org/docs/legal-graph.html): The four-layer graph explained with a cross-graph query example.
 - [INTENT](https://github.com/snapsynapse/ai-incident-law/blob/main/INTENT.md): Stewardship principles, admission criteria, refresh cadence.
-- [Part of the PAICE legal graph](https://paice.work/): With EveryAILaw (https://everyailaw.com/), PubLedge (https://publedge.org/), and Obligation First (https://obligationfirst.org/).
 
 ## Attribution
 
