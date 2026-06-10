@@ -107,7 +107,7 @@ trackers and hoping the synthesis they produce is right.
 
 The recipe lives at
 [aiincidentlaw.org/docs/legal-graph.html](https://aiincidentlaw.org/docs/legal-graph.html).
-Both servers are on npm: `npx -y ai-incident-law` and `npx -y ai-regulation-reference`.
+Both servers are on npm: `npx -y ai-incident-law` and `npx -y every-ai-law`.
 The config snippet drops into Claude Desktop, Cursor, or any MCP-aware agent client. Both
 layers are free to query under their respective licenses (CC BY 4.0 for AI Incident Law;
 EveryAILaw Data License v1.4.1 for the obligation registry).
