@@ -32,7 +32,8 @@
           "layer": "PubLedge",
           "role": "open civic recordkeeping",
           "url": "https://publedge.org/",
-          "agents_json": "https://publedge.org/agents.json"
+          "agents_json": "https://publedge.org/agents.json",
+          "mcp_discovery": "https://publedge.org/.well-known/mcp.json"
         }
       ]
     },

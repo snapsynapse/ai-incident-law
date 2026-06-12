@@ -7,12 +7,15 @@ const path = require("node:path");
 const ROOT = path.join(__dirname, "..");
 const DATA_PATH = path.join(ROOT, "data", "data.json");
 const OF_API_DIR = path.join(ROOT, "api", "v1", "of");
-const SERVER_INFO = { name: "ai-incident-law", version: "1.0.0" };
+const PACKAGE_PATH = path.join(ROOT, "package.json");
 
 function readJson(filePath, fallback = null) {
   if (!fs.existsSync(filePath)) return fallback;
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
 }
+
+const packageInfo = readJson(PACKAGE_PATH, { name: "ai-incident-law", version: "0.0.0" });
+const SERVER_INFO = { name: packageInfo.name, version: packageInfo.version };
 
 function loadSourceData() {
   return readJson(DATA_PATH, { generated_at: null, datasets: {} });

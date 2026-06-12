@@ -5,6 +5,7 @@ const { spawnSync } = require("node:child_process");
 
 const ROOT = path.join(__dirname, "..");
 const SERVER = path.join(ROOT, "scripts", "mcp-server.js");
+const PACKAGE = require(path.join(ROOT, "package.json"));
 
 function callMcp(messages) {
   const input = `${messages.map(message => JSON.stringify(message)).join("\n")}\n`;
@@ -59,6 +60,7 @@ function listTools() {
 test("MCP initializes and advertises tools", () => {
   const [response] = callMcp([{ jsonrpc: "2.0", id: 1, method: "initialize", params: {} }]);
   assert.equal(response.result.serverInfo.name, "ai-incident-law");
+  assert.equal(response.result.serverInfo.version, PACKAGE.version);
   assert.deepEqual(response.result.capabilities, { tools: {} });
 });
 
@@ -73,6 +75,26 @@ test("MCP accepts one valid fixture for every advertised tool", () => {
   for (const response of responses) {
     assert.equal(response.result.isError, undefined, payload(response).detail);
   }
+});
+
+test("MCP exposes obligation anchors through search, source records, and OF determinations", () => {
+  const responses = callMcp([
+    toolCall(1, "search_records", { query: "human-oversight", dataset: "included", limit: 5 }),
+    toolCall(2, "get_record", { id: "AIEL-2024-001" }),
+    toolCall(3, "get_obligation_first_record", { kind: "determinations", id: "aiel-2024-001-determination" })
+  ]);
+
+  const search = payload(responses[0]);
+  assert.ok(search.total_matches > 0);
+  assert.ok(search.data.some(record => record.id === "AIEL-2023-002" || record.id === "AIEL-2024-003"));
+
+  const sourceRecord = payload(responses[1]).data;
+  assert.deepEqual(sourceRecord.obligation_first_anchors, [
+    "https://everyailaw.com/obligation/transparency.json"
+  ]);
+
+  const determination = payload(responses[2]).data;
+  assert.deepEqual(determination.anchors, sourceRecord.obligation_first_anchors);
 });
 
 test("MCP rejects missing required arguments for every schema that requires them", () => {

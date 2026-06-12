@@ -35,7 +35,7 @@ Configure your MCP-aware agent client (Claude Desktop, Cursor, etc.):
 }
 ```
 
-This pulls the [ai-incident-law](https://www.npmjs.com/package/ai-incident-law) npm package on first run and exposes eight tools for querying the corpus by case attributes, anchored obligations, and verification freshness. See [docs/legal-graph.html](https://aiincidentlaw.org/docs/legal-graph.html) for a cross-graph example pairing this with the EveryAILaw MCP.
+This pulls the [ai-incident-law](https://npmjs.com/package/ai-incident-law) npm package on first run and exposes eight tools for querying the corpus by case attributes, anchored obligations, and verification freshness. See [docs/legal-graph.html](https://aiincidentlaw.org/docs/legal-graph.html) for a cross-graph example pairing this with the EveryAILaw MCP.
 
 ## Part of the PAICE legal graph
 
@@ -115,7 +115,7 @@ Then open the local server in your browser.
 - Validation fails on duplicate record identifiers and malformed URL-field structure.
 - `public_record_link` must contain exactly one primary URL.
 - `secondary_source_links` and `best_available_sources` are semicolon-delimited URL lists.
-- URL normalization is intentionally narrow: `http://` is rewritten to `https://`, leading `www.` is stripped, surrounding whitespace is trimmed, and the URL parser serializes the final value.
+- URL normalization is intentionally narrow: insecure HTTP scheme input is rewritten to `https://`, leading `www.` is stripped, surrounding whitespace is trimmed, and the URL parser serializes the final value.
 - URL validation rejects appended prose, empty list entries, protocol-relative URLs, non-HTTP schemes, credentials, backslashes, encoded backslashes, embedded whitespace, control characters, and unsafe raw delimiters.
 - URL-policy evals run malformed-source fixtures through the real build and validation scripts in temporary directories.
 - Included records are exported to Obligation-First as `of:Proceeding`, `of:Allegation`, and, when no longer pending, `of:Determination` records.

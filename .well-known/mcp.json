@@ -22,7 +22,7 @@
     "registry": "npm",
     "name": "ai-incident-law",
     "install_command": "npx -y ai-incident-law",
-    "homepage": "https://www.npmjs.com/package/ai-incident-law"
+    "homepage": "https://npmjs.com/package/ai-incident-law"
   },
   "local_server": {
     "transport": "stdio",

@@ -41,6 +41,7 @@
     ".well-known/mcp.json",
     ".well-known/obligation-first-naming-profile.jsonld",
     "mcp.json",
+    "server.json",
     "agents.json",
     "README.md",
     "LICENSE",

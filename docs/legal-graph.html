@@ -200,7 +200,7 @@
           <li>Consequence &rarr; Obligation: start at a case, read its anchors to learn which obligations the incident implicated.</li>
         </ul>
 
-        <h2>Cross-graph query example: a real transcript</h2>
+        <h2>Cross-graph query example: dated transcript from 2026-06-10</h2>
         <p>
           What follows is a reproducible recipe run on <strong>2026-06-10</strong> against all three published
           PAICE legal graph MCP servers. The question:
@@ -278,7 +278,7 @@
         <h3>5. Search the AI Incident Law dataset for matching anchors</h3>
         <p>
           For each obligation, call <code>search_records</code> on the AI Incident Law MCP for matters whose
-          <code>obligation_first_anchors</code> contain the EveryAILaw obligation IRI. Live results:
+          <code>obligation_first_anchors</code> contain the EveryAILaw obligation IRI. Results from the 2026-06-10 run:
         </p>
         <ul>
           <li><strong>transparency</strong>: 1 anchored record.
@@ -313,10 +313,11 @@
 
         <h3>Why this matters</h3>
         <p>
-          No other publicly available stack can answer this query programmatically. DAIL, Fisher Phillips, McKool Smith,
-          and Hogan Lovells trackers are human-browsable only -- no API, no structured obligation linkage. The PAICE
-          legal graph is the only system where an agent can traverse from a specific regulation, to the obligations it
-          creates, to the cases where those obligations were breached, in one session.
+          As of 2026-06-10, no other publicly available stack identified in the review could answer this query
+          programmatically. DAIL, Fisher Phillips, McKool Smith, and Hogan Lovells trackers were human-browsable only
+          -- no API, no structured obligation linkage. The PAICE legal graph is built so an agent can traverse from a
+          specific regulation, to the obligations it creates, to the cases where those obligations were breached, in
+          one session.
         </p>
         <p>
           The recipe above is reproducible. Run it tomorrow against an updated dataset; you will get the same shape of
@@ -332,6 +333,7 @@
         <ul>
           <li><a href="https://aiincidentlaw.org/agents.json" rel="noopener">aiincidentlaw.org/agents.json</a></li>
           <li><a href="https://everyailaw.com/agents.json" rel="noopener">everyailaw.com/agents.json</a></li>
+          <li><a href="https://publedge.org/agents.json" rel="noopener">publedge.org/agents.json</a></li>
           <li><a href="https://obligationfirst.org/agents.json" rel="noopener">obligationfirst.org/agents.json</a></li>
         </ul>
       </div>
