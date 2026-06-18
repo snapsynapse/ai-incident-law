@@ -43,6 +43,7 @@ Records in this dataset may carry `obligation_first_anchors`: IRIs linking a cas
 
 - [Project home](https://aiincidentlaw.org/): Searchable single-page reference.
 - [Methodology](https://aiincidentlaw.org/docs/methodology.html): Corpus scope, admission criteria, source policy, freshness, and exclusions.
+- [Assistant Guide](https://aiincidentlaw.org/.well-known/assistant-guide.txt): bounded maintainer and query workflow guide; reviewability, not a safety claim.
 - [How this fits](https://aiincidentlaw.org/docs/legal-graph.html): The four-layer graph explained with a cross-graph query example.
 - [Submit a case](https://aiincidentlaw.org/docs/submit-a-case.html): Contribution criteria and workflow for public-record case submissions.
 - [INTENT](https://github.com/snapsynapse/ai-incident-law/blob/main/INTENT.md): Stewardship principles, admission criteria, refresh cadence.
