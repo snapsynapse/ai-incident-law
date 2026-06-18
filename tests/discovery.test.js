@@ -57,6 +57,7 @@ test("agent discovery JSON uses canonical URLs and advertises MCP", () => {
 
 test("well-known MCP discovery points at local stdio tooling", () => {
   const discovery = readJson(".well-known/mcp.json");
+  assert.ok(fs.existsSync(path.join(ROOT, ".nojekyll")), ".nojekyll is required for GitHub Pages .well-known files");
   assert.equal(discovery.discovery.agents_json, "https://aiincidentlaw.org/agents.json");
   assert.equal(discovery.package.homepage, "https://npmjs.com/package/ai-incident-law");
   assert.equal(discovery.local_server.transport, "stdio");

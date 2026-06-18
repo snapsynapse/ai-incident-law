@@ -44,6 +44,7 @@ AI Incident Law is one component of the PAICE legal graph (with EveryAILaw, PubL
 ## Repo layout
 
 - `index.html` is the application shell.
+- `.nojekyll` ensures GitHub Pages serves `.well-known/` discovery files.
 - `styles.css` is the local stylesheet.
 - `app.js` handles local search, filtering, and rendering.
 - `data/data.json` is the canonical dataset for maintainers.

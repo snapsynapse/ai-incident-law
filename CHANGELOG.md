@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Advertised the methodology page in public docs and agent-facing metadata.
 - Advertised the assistant guide in public docs and agent-facing metadata.
+- Added `.nojekyll` so GitHub Pages serves `.well-known/` discovery files.
 - Tightened the pull request checklist to include the full `npm run check` pipeline.
 - Corrected the submission page issue-template link to use the existing record-correction template.
 
