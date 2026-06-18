@@ -9,9 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Public methodology page documenting corpus scope, admission criteria, source policy, freshness handling, and exclusions.
+- GuideCheck assistant guide for bounded maintainer and query workflows, with local byte-profile and section validation.
 
 ### Changed
 - Advertised the methodology page in public docs and agent-facing metadata.
+- Advertised the assistant guide in public docs and agent-facing metadata.
 - Tightened the pull request checklist to include the full `npm run check` pipeline.
 - Corrected the submission page issue-template link to use the existing record-correction template.
 

@@ -51,11 +51,13 @@ AI Incident Law is one component of the PAICE legal graph (with EveryAILaw, PubL
 - `api/v1/of/` contains the generated Obligation-First binding for included public matters.
 - `mcp.json` configures the local read-only MCP stdio server.
 - `.well-known/mcp.json` advertises public MCP and static query endpoints.
+- `.well-known/assistant-guide.txt` publishes bounded assistant-facing maintainer and query instructions using the GuideCheck Human-Verifiable Assistant Guide profile.
 - `agents.json` and `robots.txt` advertise agent-facing discovery metadata.
 - `scripts/mcp-server.js` exposes query tools for MCP clients.
 - `scripts/build-data.mjs` normalizes source data and regenerates `data.js`.
 - `scripts/build-obligation-first.mjs` generates Obligation-First authorities, proceedings, allegations, and determinations.
 - `scripts/validate-data.mjs` validates record shape, duplicate identifiers, and URL conventions.
+- `scripts/validate-guidecheck.mjs` validates the local assistant guide byte profile and required trust-boundary sections.
 
 ## Runtime properties
 
@@ -79,6 +81,7 @@ The repo uses Node.js only for maintainer tooling. There are no install-time dep
 npm run build:data
 npm run build:of
 npm run validate:data
+npm run validate:guidecheck
 npm run test:url-policy
 npm run eval:url-policy
 npm run test:mcp
@@ -147,6 +150,7 @@ Advertised tools:
 - [ROADMAP.md](/Users/snap/Git/ai-incident-law/ROADMAP.md) captures near-term maintenance and curation priorities.
 - [docs/data-schema.md](/Users/snap/Git/ai-incident-law/docs/data-schema.md) documents the dataset structure and field intent.
 - [docs/methodology.html](/Users/snap/Git/ai-incident-law/docs/methodology.html) summarizes public corpus scope, admission criteria, source policy, freshness, and exclusions.
+- [.well-known/assistant-guide.txt](/Users/snap/Git/ai-incident-law/.well-known/assistant-guide.txt) documents bounded assistant maintainer and query instructions using the GuideCheck Human-Verifiable Assistant Guide profile.
 - [validate.yml](/Users/snap/Git/ai-incident-law/.github/workflows/validate.yml) runs the build and validation pipeline on pushes and pull requests.
 - [LICENSE](/Users/snap/Git/ai-incident-law/LICENSE) applies the MIT license to the software in this repository.
 - [DATA_LICENSE](/Users/snap/Git/ai-incident-law/DATA_LICENSE) applies CC BY 4.0 to the dataset and generated data bundle.

@@ -122,6 +122,7 @@ test("public HTML and docs link surface stays canonical and internally resolvabl
   const requiredAgentSurface = [
     "https://aiincidentlaw.org/agents.json",
     "https://aiincidentlaw.org/.well-known/mcp.json",
+    "https://aiincidentlaw.org/.well-known/assistant-guide.txt",
     "https://aiincidentlaw.org/docs/methodology.html",
     "https://aiincidentlaw.org/docs/legal-graph.html",
     "https://aiincidentlaw.org/docs/submit-a-case.html"
@@ -136,6 +137,7 @@ test("robots.txt advertises agent and MCP discovery", () => {
   const robots = fs.readFileSync(path.join(ROOT, "robots.txt"), "utf8");
   assert.match(robots, /^Agents: https:\/\/aiincidentlaw\.org\/agents\.json$/m);
   assert.match(robots, /^MCP: https:\/\/aiincidentlaw\.org\/\.well-known\/mcp\.json$/m);
+  assert.match(robots, /^Assistant-Guide: https:\/\/aiincidentlaw\.org\/\.well-known\/assistant-guide\.txt$/m);
   assert.doesNotMatch(robots, /https:\/\/www\./);
   assert.doesNotMatch(robots, /http:\/\//);
 });
