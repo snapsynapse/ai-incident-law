@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Methodology | AI Incident Law</title>
+    <meta
+      name="description"
+      content="Scope, admission criteria, source quality rules, freshness policy, and queue handling for the AI Incident Law public-record corpus."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <style>
+      .prose {
+        max-width: 720px;
+        margin-inline: auto;
+        padding: 40px 0 60px;
+      }
+      .prose h2 {
+        margin: 2em 0 0.5em;
+        font-size: 1.1rem;
+      }
+      .prose p,
+      .prose ul,
+      .prose ol {
+        line-height: 1.7;
+        margin: 0.75em 0;
+      }
+      .prose a {
+        color: var(--primary);
+      }
+      .prose code {
+        font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, monospace;
+      }
+      .prose p code,
+      .prose li code {
+        background: var(--surface-2);
+        border: 1px solid var(--border);
+        border-radius: 3px;
+        padding: 1px 5px;
+        font-size: 0.88em;
+      }
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 13px;
+        color: var(--muted);
+        text-decoration: none;
+        margin-bottom: 32px;
+      }
+      .back-link:hover {
+        color: var(--primary);
+      }
+      .method-card {
+        padding: 14px 16px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        margin: 0.6em 0;
+      }
+      .method-card strong {
+        color: var(--text);
+      }
+      .method-card p {
+        font-size: 13px;
+        color: var(--muted);
+        margin: 4px 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="brand-row">
+        <div class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" role="img" aria-label="AI Incident Law mark">
+            <path d="M10 12h28v24H10z" fill="none" stroke="currentColor" stroke-width="2.4" />
+            <path d="M16 18h16M16 24h12M16 30h18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" />
+            <path d="M35 10l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
+        <div>
+          <p class="eyebrow">AI incident and litigation index</p>
+          <h1>AI Incident Law</h1>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="prose">
+        <a class="back-link" href="/">&#8592; Back to the dataset</a>
+        <h2 style="margin-top: 0; font-size: 1.4rem;">Methodology</h2>
+        <p>
+          AI Incident Law is a curated public-record corpus of legal, regulatory, tribunal, and review-queue
+          matters involving AI-related incidents, failures, and harms. It is not an exhaustive incident database,
+          a legal advice product, or a ranking of parties named in public records.
+        </p>
+        <h2>Scope</h2>
+        <p>
+          A record is eligible when a public legal or regulatory matter directly involves AI-related conduct,
+          output, or use. The legal visibility matters: press coverage alone is not enough for admission to
+          <code>included</code>, though it may justify a candidate in <code>review</code>.
+        </p>
+        <h2>Admission criteria</h2>
+        <ol>
+          <li>There is a public legal or regulatory matter directly involving AI-related conduct, output, or use.</li>
+          <li>The matter has at least one primary or reliable secondary public source.</li>
+          <li>The matter has resolved to a filed proceeding, regulatory action, settlement, judgment, consent decree, or formal investigation disclosure.</li>
+          <li>Publication fields are present and consistent: jurisdiction, parties, AI relevance, source URLs, and date fields.</li>
+        </ol>
+        <h2>Dataset buckets</h2>
+        <div class="method-card">
+          <strong>included</strong>
+          <p>Admitted public matters rendered on the site, exposed through MCP, and exported to the Obligation-First API.</p>
+        </div>
+        <div class="method-card">
+          <strong>review</strong>
+          <p>Likely in-scope candidates that need verification, stronger public sourcing, or scope decisions before admission.</p>
+        </div>
+        <div class="method-card">
+          <strong>global</strong>
+          <p>Non-US or cross-jurisdiction candidates that need translation, jurisdiction-specific interpretation, or additional normalization.</p>
+        </div>
+        <h2>Source policy</h2>
+        <p>
+          Primary public records are preferred: court filings, orders, opinions, tribunal decisions, agency actions,
+          regulator releases, official dockets, and stable public record mirrors. Reliable secondary reporting can
+          support a record, but source quality is favored over record count.
+        </p>
+        <p>
+          URL fields are normalized and validated by the maintainer tooling. Final public data uses <code>https://</code>
+          bare-domain URLs, and rejects appended prose, credentials, non-HTTP schemes, embedded whitespace, unsafe
+          delimiters, and malformed source lists.
+        </p>
+        <h2>Freshness</h2>
+        <p>
+          Records carry <code>last_verified_date</code> or <code>last_checked_date</code>. The public dataset
+          <code>generated_at</code> value is derived from the newest record verification or check date during the
+          build, and validation fails if it lags behind the corpus.
+        </p>
+        <p>
+          The steward uses <code>npm run report:staleness</code> and the <code>get_staleness_report</code> MCP tool
+          to surface verification decay. Scheduled source-decay and coverage-gap review is quarterly.
+        </p>
+        <h2>Out of scope</h2>
+        <ul>
+          <li>Speculative AI-risk commentary without public legal or regulatory action.</li>
+          <li>AI ethics statements without a filed matter, formal action, or official investigation disclosure.</li>
+          <li>Internal corporate disputes that have not surfaced publicly.</li>
+          <li>Reputational controversy without a filing, order, settlement, enforcement action, or formal disclosure.</li>
+          <li>Private filings, leaked material, anonymous tips, and records barred from public reference.</li>
+        </ul>
+        <h2>Canonical policy</h2>
+        <p>
+          This page summarizes the operating method. The authoritative repo-scoped strategy remains
+          <a href="https://github.com/snapsynapse/ai-incident-law/blob/main/INTENT.md" rel="noopener">INTENT.md</a>,
+          with field-level conventions in
+          <a href="https://github.com/snapsynapse/ai-incident-law/blob/main/docs/data-schema.md" rel="noopener">docs/data-schema.md</a>.
+        </p>
+      </div>
+    </main>
+    <footer class="app-footer">
+      <nav class="legal-graph-strip" aria-label="PAICE legal graph">
+        <p class="graph-strip-label">Part of the <a href="https://paice.foundation/" rel="noopener">PAICE legal graph</a></p>
+        <p class="footer-attribution">
+          &copy; 2026 <a href="https://paice.foundation/" rel="noopener">PAICE.work PBC</a>. Code MIT; dataset CC BY 4.0.
+        </p>
+      </nav>
+    </footer>
+  </body>
+</html>

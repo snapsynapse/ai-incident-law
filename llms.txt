@@ -9,6 +9,7 @@ Each record resolves to a primary or stable secondary public source. Records car
 - [Canonical dataset](https://aiincidentlaw.org/data/data.json): Source-of-truth JSON. Datasets: `included` (admitted public matters), `review` (editorial queue), `global` (non-US, pending sourcing).
 - [Browser bundle](https://aiincidentlaw.org/data.js): Generated read-only bundle consumed by the site.
 - [Data schema](https://aiincidentlaw.org/docs/data-schema.md): Field intent and record shape.
+- [Methodology](https://aiincidentlaw.org/docs/methodology.html): Scope, admission criteria, source quality, freshness, and queue handling.
 
 ## Obligation-First API
 
@@ -38,6 +39,7 @@ Records in this dataset may carry `obligation_first_anchors`: IRIs linking a cas
 ## About
 
 - [Project home](https://aiincidentlaw.org/): Searchable single-page reference.
+- [Methodology](https://aiincidentlaw.org/docs/methodology.html): Corpus scope, admission criteria, source policy, freshness, and exclusions.
 - [How this fits](https://aiincidentlaw.org/docs/legal-graph.html): The four-layer graph explained with a cross-graph query example.
 - [Submit a case](https://aiincidentlaw.org/docs/submit-a-case.html): Contribution criteria and workflow for public-record case submissions.
 - [INTENT](https://github.com/snapsynapse/ai-incident-law/blob/main/INTENT.md): Stewardship principles, admission criteria, refresh cadence.

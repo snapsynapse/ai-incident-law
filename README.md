@@ -146,6 +146,7 @@ Advertised tools:
 - [SECURITY.md](/Users/snap/Git/ai-incident-law/SECURITY.md) documents private security reporting expectations.
 - [ROADMAP.md](/Users/snap/Git/ai-incident-law/ROADMAP.md) captures near-term maintenance and curation priorities.
 - [docs/data-schema.md](/Users/snap/Git/ai-incident-law/docs/data-schema.md) documents the dataset structure and field intent.
+- [docs/methodology.html](/Users/snap/Git/ai-incident-law/docs/methodology.html) summarizes public corpus scope, admission criteria, source policy, freshness, and exclusions.
 - [validate.yml](/Users/snap/Git/ai-incident-law/.github/workflows/validate.yml) runs the build and validation pipeline on pushes and pull requests.
 - [LICENSE](/Users/snap/Git/ai-incident-law/LICENSE) applies the MIT license to the software in this repository.
 - [DATA_LICENSE](/Users/snap/Git/ai-incident-law/DATA_LICENSE) applies CC BY 4.0 to the dataset and generated data bundle.

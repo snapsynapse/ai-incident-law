@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Public methodology page documenting corpus scope, admission criteria, source policy, freshness handling, and exclusions.
+
+### Changed
+- Advertised the methodology page in public docs and agent-facing metadata.
+- Tightened the pull request checklist to include the full `npm run check` pipeline.
+- Corrected the submission page issue-template link to use the existing record-correction template.
+
 ## [0.2.0] - 2026-06-02
 
 ### Added

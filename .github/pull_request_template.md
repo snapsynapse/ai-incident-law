@@ -6,6 +6,6 @@
 ## Checks
 
 - [ ] `npm run build`
+- [ ] `npm run check`
 - [ ] generated files reviewed
 - [ ] licensing scope unchanged or documented
-

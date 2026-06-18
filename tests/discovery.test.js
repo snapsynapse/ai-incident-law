@@ -14,6 +14,7 @@ const PUBLIC_SURFACE_PATHS = [
   "server.json",
   "llms.txt",
   "index.html",
+  "docs/methodology.html",
   "docs/legal-graph.html",
   "docs/submit-a-case.html"
 ];
@@ -24,6 +25,13 @@ function readJson(relativePath) {
 
 function readText(relativePath) {
   return fs.readFileSync(path.join(ROOT, relativePath), "utf8");
+}
+
+function latestChangelogVersion() {
+  const changelog = readText("CHANGELOG.md");
+  const match = changelog.match(/^## \[(\d+\.\d+\.\d+)\]/m);
+  assert.ok(match, "CHANGELOG.md must contain at least one released version");
+  return match[1];
 }
 
 function callMcp(messages) {
@@ -82,6 +90,7 @@ test("package, registry, discovery, docs, and MCP initialize metadata stay align
   assert.equal(localMcp.mcpServers["ai-incident-law"].args.join(" "), "scripts/mcp-server.js");
   assert.equal(initialize.result.serverInfo.name, pkg.name);
   assert.equal(initialize.result.serverInfo.version, pkg.version);
+  assert.equal(pkg.version, latestChangelogVersion());
 
   const advertised = [...discovery.local_server.tools].sort();
   const actual = toolList.result.tools.map(tool => tool.name).sort();
@@ -113,6 +122,7 @@ test("public HTML and docs link surface stays canonical and internally resolvabl
   const requiredAgentSurface = [
     "https://aiincidentlaw.org/agents.json",
     "https://aiincidentlaw.org/.well-known/mcp.json",
+    "https://aiincidentlaw.org/docs/methodology.html",
     "https://aiincidentlaw.org/docs/legal-graph.html",
     "https://aiincidentlaw.org/docs/submit-a-case.html"
   ];

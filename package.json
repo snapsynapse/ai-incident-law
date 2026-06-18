@@ -1,6 +1,6 @@
 {
   "name": "ai-incident-law",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "mcpName": "io.github.snapsynapse/ai-incident-law",
   "description": "MCP server and static dataset for the AI Incident Law public-record corpus: AI-related litigation, regulatory action, tribunal records, and review-queue matters. Anchored to EveryAILaw obligations for cross-graph queries.",
   "homepage": "https://aiincidentlaw.org/",
