@@ -265,6 +265,11 @@ async function writeJson(url, value) {
 async function writeRecords(recordsByKind, generated) {
   await rm(API_DIR, { recursive: true, force: true });
   await mkdir(RECORDS_DIR, { recursive: true });
+  for (const dir of Object.values(COMPANION_DIRS)) {
+    const companionDir = new URL(`${dir}/`, ROOT_DIR);
+    await rm(companionDir, { recursive: true, force: true });
+    await mkdir(companionDir, { recursive: true });
+  }
 
   const files = {};
   const counts = {};

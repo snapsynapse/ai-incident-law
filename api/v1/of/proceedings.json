@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/",
-  "generated": "2026-07-24",
+  "generated": "2026-07-25",
   "proceedings": [
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -116,7 +116,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-005-determination.json"
       ],
-      "source": "https://ca5.uscourts.gov/opinions/pub/25/25-20086-CV0.pdf",
+      "source": "https://www.ca5.uscourts.gov/opinions/pub/25/25-20086-CV0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-005",
       "matter_type": "sanctions order",
       "status": "sanctioned"
@@ -139,7 +139,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2025-006-determination.json"
       ],
-      "source": "https://asbca.mil/LinkClick.aspx?fileticket=eAIy2KSL_Zg%3D&portalid=143",
+      "source": "https://www.asbca.mil/LinkClick.aspx?fileticket=eAIy2KSL_Zg%3D&portalid=143",
       "ai_incident_law_record_id": "AIEL-2025-006",
       "matter_type": "sanctions / strike order",
       "status": "ordered"
@@ -162,7 +162,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2025-007-determination.json"
       ],
-      "source": "https://law.berkeley.edu/wp-content/uploads/2025/12/Buchanan.pdf",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.409525/gov.uscourts.cand.409525.96.0.pdf",
       "ai_incident_law_record_id": "AIEL-2025-007",
       "matter_type": "sanctions order",
       "status": "sanctioned"

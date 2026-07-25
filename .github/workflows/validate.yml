@@ -39,6 +39,8 @@ jobs:
         run: npm ci --prefix obligation-first
 
       - name: Check Obligation-First version compatibility
+        env:
+          CHECK_OF_REQUIRED: "1"
         run: OBLIGATION_FIRST_DIR="$PWD/obligation-first" npm run check:of
 
       - name: Validate Obligation-First binding

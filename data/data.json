@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24",
+  "generated_at": "2026-07-25",
   "datasets": {
     "included": {
       "label": "Included cases",
@@ -144,7 +144,7 @@
           "jurisdiction": "U.S. Court of Appeals for the Fifth Circuit",
           "filing_date": "2026-02-18",
           "error_date": "2025",
-          "public_record_link": "https://ca5.uscourts.gov/opinions/pub/25/25-20086-CV0.pdf",
+          "public_record_link": "https://www.ca5.uscourts.gov/opinions/pub/25/25-20086-CV0.pdf",
           "secondary_source_links": "https://reuters.com/legal/government/us-appeals-court-orders-lawyer-pay-2500-over-ai-hallucinations-brief-2026-02-18/",
           "confidence_score": "high",
           "notes_on_resolution": "Fifth Circuit Feb 18, 2026 final order: $2,500 sanction on appellate counsel Heather Hersh under inherent power; district-court counsel Shawn Jaffer Rule 11/$1927 sanctions vacated by separate order. Both Casetext/CoCounsel and vLex named as candidate products; Hersh admitted AI use when asked directly.",
@@ -174,7 +174,7 @@
           "jurisdiction": "Armed Services Board of Contract Appeals",
           "filing_date": "2025-10-23",
           "error_date": "2025-08-15",
-          "public_record_link": "https://asbca.mil/LinkClick.aspx?fileticket=eAIy2KSL_Zg%3D&portalid=143",
+          "public_record_link": "https://www.asbca.mil/LinkClick.aspx?fileticket=eAIy2KSL_Zg%3D&portalid=143",
           "secondary_source_links": "https://smithlaw.com/newsroom/publications/you-cant-spell-sanction-without-a-and-i-when-unchecked-ai-hallucinations-result-in-court-sanctions; https://burr.com/government-contracting/gen-ai-misuse-in-procurement-litigation",
           "confidence_score": "high",
           "notes_on_resolution": "Reply brief struck; corrected reply denied; board issued broader AI-use caution.",
@@ -204,14 +204,14 @@
           "jurisdiction": "U.S. District Court, Northern District of California",
           "filing_date": "2025-11-20",
           "error_date": "2025-10-28",
-          "public_record_link": "https://law.berkeley.edu/wp-content/uploads/2025/12/Buchanan.pdf",
+          "public_record_link": "https://storage.courtlistener.com/recap/gov.uscourts.cand.409525/gov.uscourts.cand.409525.96.0.pdf",
           "secondary_source_links": "https://blogs.duanemorris.com/classactiondefense/2026/02/03/ai-hallucinated-case-citations-prompt-sanctions-and-delay-class-action-settlement/; https://vibegraveyard.ai/story/ndcal-dal-bon-ai-citation-class-action-sanctions/",
           "confidence_score": "high",
           "notes_on_resolution": "Court struck settlement motions with prejudice, imposed a monetary fine, and referred counsel for professional conduct review.",
           "tags": "document-generation; legal-hallucination; sanctions-order; professional-discipline; public-record-confirmed",
           "source_quality": "primary record",
           "research_status": "included",
-          "last_verified_date": "2026-04-22",
+          "last_verified_date": "2026-07-25",
           "needs_review": "no",
           "obligation_first_anchors": [
             "https://everyailaw.com/obligation/human-oversight.json"
@@ -1720,11 +1720,11 @@
         {
           "candidate_id": "AIEL-CAND-004",
           "candidate_title": "Oready AI-hallucinated GAO bid protests",
-          "candidate_matter": "Oready, LLC, B-423649.1 et al.",
-          "reason_for_review": "Likely in-scope sanctions/procedure event, but GAO primary decision must be pulled directly and the specific AI link confirmed from the decision text.",
-          "next_verification_step": "Search GAO decision database for B-423649.1 and related decisions; archive decision PDF and warnings.",
-          "best_available_sources": "https://gao.gov/; https://burr.com/government-contracting/gen-ai-misuse-in-procurement-litigation; https://pilieromazza.com/beware-the-hallmarks-of-ai-recent-gao-decision-provides-cautionary-tale-for-protesters/",
-          "last_checked_date": "2026-04-22"
+          "candidate_matter": "Oready, LLC, B-423524.2; B-423649; B-423650; B-423670; B-423670.2",
+          "reason_for_review": "Primary GAO decisions are verified. B-423524.2 found repeated nonexistent or materially false citations and said the errors bore the hallmarks of unverified large-language-model or other AI use. The later consolidated decision dismissed four protests as an abuse of GAO's bid-protest process after the conduct continued. Attribution remains inferential rather than an admission or unhedged finding that AI was used, so promotion depends on the corpus's gate-1 policy.",
+          "next_verification_step": "Make the steward call on whether GAO's express 'hallmarks' finding satisfies gate 1. If it does, draft the matter from the two verified GAO decisions and preserve the distinction between the initial warning, the second warning, and the later abuse-of-process dismissal.",
+          "best_available_sources": "https://gao.gov/products/b-423524.2; https://gao.gov/assets/890/881816.pdf",
+          "last_checked_date": "2026-07-25"
         },
         {
           "candidate_id": "AIEL-CAND-005",

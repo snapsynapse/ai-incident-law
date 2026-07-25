@@ -100,6 +100,27 @@ await withFixture(
   },
 );
 
+await withFixture(
+  "duplicate primary source URL",
+  (data) => {
+    data.datasets.included.records[1].public_record_link =
+      data.datasets.included.records[0].public_record_link;
+  },
+  async (dir, label) => {
+    expectFail(runScript(dir, "validate-data.mjs"), `${label} validate-data`, /public_record_link duplicates/);
+  },
+);
+
+await withFixture(
+  "retired record identifier",
+  (data) => {
+    data.datasets.included.records[0].error_id = "AIEL-2026-039";
+  },
+  async (dir, label) => {
+    expectFail(runScript(dir, "validate-data.mjs"), `${label} validate-data`, /retired record identifier/);
+  },
+);
+
 if (failures.length) {
   console.error(`eval-url-policy-pipeline: FAILED (${failures.length})`);
   for (const failure of failures) {
