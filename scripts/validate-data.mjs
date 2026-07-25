@@ -5,7 +5,9 @@ const SOURCE_PATH = new URL("../data/data.json", import.meta.url);
 const REQUIRED_DATASETS = ["included", "review", "global"];
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 const FRESHNESS_FIELDS = ["last_verified_date", "last_checked_date"];
+const RETIRED_IDS = new Set(["AIEL-2026-039"]);
 const issues = [];
+const warnings = [];
 
 function addIssue(message) {
   issues.push(message);
@@ -45,6 +47,8 @@ if (newestRecordDate && String(data.generated_at || "") < newestRecordDate) {
 }
 
 const seenIds = new Set();
+const primaryLinks = new Map();
+const matterDates = new Map();
 
 for (const datasetKey of REQUIRED_DATASETS) {
   if (!data.datasets?.[datasetKey]) {
@@ -66,6 +70,10 @@ for (const [datasetKey, bucket] of Object.entries(data.datasets || {})) {
     }
     seenIds.add(id);
 
+    if (RETIRED_IDS.has(id)) {
+      addIssue(`${datasetKey}.${id}: retired record identifier must not be reused`);
+    }
+
     if (!record.error_title && !record.candidate_title && !record.translated_title && !record.original_title) {
       addIssue(`${datasetKey}.${id}: missing title fields`);
     }
@@ -79,8 +87,31 @@ for (const [datasetKey, bucket] of Object.entries(data.datasets || {})) {
       for (const issue of normalized.issues) {
         addIssue(issue);
       }
+
+      if (field === "public_record_link" && normalized.issues.length === 0) {
+        const priorId = primaryLinks.get(normalized.value);
+        if (priorId) {
+          addIssue(`${datasetKey}.${id}: public_record_link duplicates ${priorId}`);
+        } else {
+          primaryLinks.set(normalized.value, id);
+        }
+      }
+    }
+
+    if (record.public_matter_name && record.filing_date) {
+      const matterDateKey = `${String(record.public_matter_name).trim().toLowerCase()}\n${record.filing_date}`;
+      const priorId = matterDates.get(matterDateKey);
+      if (priorId) {
+        warnings.push(`${datasetKey}.${id}: matter name and filing date match ${priorId}; review for duplication`);
+      } else {
+        matterDates.set(matterDateKey, id);
+      }
     }
   });
+}
+
+for (const warning of warnings) {
+  console.warn(`Data validation warning: ${warning}`);
 }
 
 if (issues.length) {

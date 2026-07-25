@@ -20,9 +20,16 @@ export const URL_FIELD_POLICIES = {
 //     assertions over status codes when adding hosts here.
 //   opn.ca6.uscourts.gov — bare does not resolve at all (NXDOMAIN); the Sixth
 //     Circuit serves opinions only from the www host. Verified 2026-07-24.
+//   asbca.mil — bare does not resolve (NXDOMAIN); the www host serves the Board's
+//     publication surface and returns a bot-filter response to scripted checks.
+//     Verified 2026-07-25.
+//   ca5.uscourts.gov — bare does not resolve (NXDOMAIN); the www host serves the
+//     Fifth Circuit opinion PDF. Verified 2026-07-25.
 // Re-check periodically: if a host starts serving its bare domain, drop it from this
 // set so the corpus converges back on the bare-domain default.
 export const WWW_REQUIRED_HOSTS = new Set([
+  "asbca.mil",
+  "ca5.uscourts.gov",
   "damiencharlotin.com",
   "gasupreme.us",
   "oscn.net",

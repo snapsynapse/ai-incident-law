@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/",
-  "generated": "2026-07-24",
+  "generated": "2026-07-25",
   "determinations": [
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -130,7 +130,7 @@
         "notes": "Fifth Circuit Feb 18, 2026 final order: $2,500 sanction on appellate counsel Heather Hersh under inherent power; district-court counsel Shawn Jaffer Rule 11/$1927 sanctions vacated by separate order. Both Casetext/CoCounsel and vLex named as candidate products; Hersh admitted AI use when asked directly."
       },
       "notes": "Fifth Circuit Feb 18, 2026 final order: $2,500 sanction on appellate counsel Heather Hersh under inherent power; district-court counsel Shawn Jaffer Rule 11/$1927 sanctions vacated by separate order. Both Casetext/CoCounsel and vLex named as candidate products; Hersh admitted AI use when asked directly.",
-      "source": "https://ca5.uscourts.gov/opinions/pub/25/25-20086-CV0.pdf",
+      "source": "https://www.ca5.uscourts.gov/opinions/pub/25/25-20086-CV0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-005",
       "anchors": [
         "https://everyailaw.com/obligation/human-oversight.json"
@@ -156,7 +156,7 @@
         "notes": "Reply brief struck; corrected reply denied; board issued broader AI-use caution."
       },
       "notes": "Reply brief struck; corrected reply denied; board issued broader AI-use caution.",
-      "source": "https://asbca.mil/LinkClick.aspx?fileticket=eAIy2KSL_Zg%3D&portalid=143",
+      "source": "https://www.asbca.mil/LinkClick.aspx?fileticket=eAIy2KSL_Zg%3D&portalid=143",
       "ai_incident_law_record_id": "AIEL-2025-006",
       "anchors": [
         "https://everyailaw.com/obligation/human-oversight.json"
@@ -182,7 +182,7 @@
         "notes": "Court struck settlement motions with prejudice, imposed a monetary fine, and referred counsel for professional conduct review."
       },
       "notes": "Court struck settlement motions with prejudice, imposed a monetary fine, and referred counsel for professional conduct review.",
-      "source": "https://law.berkeley.edu/wp-content/uploads/2025/12/Buchanan.pdf",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.409525/gov.uscourts.cand.409525.96.0.pdf",
       "ai_incident_law_record_id": "AIEL-2025-007",
       "anchors": [
         "https://everyailaw.com/obligation/human-oversight.json"
