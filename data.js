@@ -620,9 +620,9 @@ window.AIEL_DATA = {
           "filing_date": "2026-05-27",
           "error_date": "2025",
           "public_record_link": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=551746",
-          "secondary_source_links": "",
+          "secondary_source_links": "https://storage.courtlistener.com/recap/gov.uscourts.alnd.179677/gov.uscourts.alnd.179677.204.0.pdf",
           "confidence_score": "high",
-          "notes_on_resolution": "Public reprimand (reciprocal; also reprimanded/censured in TX, TN, AL federal court). ChatGPT named and admitted by respondent. Underlying sanction order: Johnson v. Dunn (N.D. Ala.) 2025-07-23.",
+          "notes_on_resolution": "Public reprimand (reciprocal; also reprimanded/censured in TX, TN, AL federal court). ChatGPT named and admitted by respondent. Underlying Johnson v. Dunn sanctions order, ECF No. 204, filed 2025-07-23, independently verified against the RECAP PDF.",
           "tags": "hallucinated-citations; attorney-discipline; chatgpt; reciprocal-discipline; legal-services; sanctions",
           "source_quality": "primary record",
           "research_status": "included",
@@ -1074,13 +1074,13 @@ window.AIEL_DATA = {
           "filing_date": "2026-03-23",
           "error_date": "2025",
           "public_record_link": "https://storage.courtlistener.com/recap/gov.uscourts.ord.158388/gov.uscourts.ord.158388.225.0.pdf",
-          "secondary_source_links": "",
+          "secondary_source_links": "https://courtlistener.com/docket/55220104/226/couvrette-v-wisnovsky/",
           "confidence_score": "high",
-          "notes_on_resolution": "Two-order matter: Dec 12, 2025 (AI sanction + $15,500 + claims dismissed); March 23, 2026 (fee split finalized). Total exposure ~$110,204.",
+          "notes_on_resolution": "Two-order matter: Dec 12, 2025 (AI sanction + $15,500 + claims dismissed); March 23, 2026 (fee split finalized). Total exposure ~$110,204. On March 24, 2026, ECF No. 226 recorded a Rule 60(a) administrative correction because an incorrect PDF had been attached to ECF No. 225. The court replaced that attachment with a corrected PDF for scrivener's errors. The corrected ECF No. 225 retains the $94,704.38 total and exact 85/15 allocation ($80,498.72 to Brigandi and $14,205.66 to Murphy), so the corpus figures are unchanged.",
           "tags": "hallucinated-citations; attorney-discipline; unnamed-ai; court-finding; rule-11; legal-services",
           "source_quality": "primary record",
           "research_status": "included",
-          "last_verified_date": "2026-07-24",
+          "last_verified_date": "2026-07-25",
           "needs_review": "no",
           "obligation_first_anchors": [
             "https://everyailaw.com/obligation/human-oversight.json"
@@ -1685,6 +1685,66 @@ window.AIEL_DATA = {
           "obligation_first_anchors": [
             "https://everyailaw.com/obligation/human-oversight.json"
           ]
+        },
+        {
+          "error_id": "AIEL-2026-058",
+          "error_title": "W.D. Pennsylvania fines counsel $5,000 and revokes pro hac vice status for AI-fabricated authorities",
+          "ai_system_name": "Unnamed generative AI (admitted by counsel)",
+          "deployer": "Tyrone Blackburn, counsel for defendant Duane Youngblood",
+          "domain": "legal services",
+          "error_type": "hallucinated authority",
+          "error_description": "Attorney Tyrone Blackburn admitted that his use of generative AI to draft briefs caused inaccurate citations and quotations, including inaccurate quotations from the court's own earlier opinion. The court rejected his explanation that the defects were an innocent mistake caused by technological ignorance, emphasized that he doubled down after opposing counsel identified the errors, and found his conduct sanctionable under Federal Rule of Civil Procedure 11.",
+          "canonical_source_conflicted": "Accurate judicial authorities and quotations; Fed. R. Civ. P. 11",
+          "mitigation_gap": "Counsel used generative AI to draft briefing without verifying its citations and quotations, then repeated the defective material after the problem was raised.",
+          "reliance_or_harm": "The court imposed a $5,000 fee sanction payable in monthly installments of at least $500, revoked Blackburn's pro hac vice status, and required any future appearance or pro hac vice motion he files in the Western District of Pennsylvania to include the sanctions order.",
+          "public_matter_type": "sanctions order (Rule 11)",
+          "public_matter_name": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)",
+          "filing_status": "sanctioned",
+          "jurisdiction": "U.S. District Court, Western District of Pennsylvania",
+          "filing_date": "2025-10-06",
+          "error_date": "2025",
+          "public_record_link": "https://storage.courtlistener.com/recap/gov.uscourts.pawd.314851/gov.uscourts.pawd.314851.71.0.pdf",
+          "secondary_source_links": "",
+          "confidence_score": "high",
+          "notes_on_resolution": "Memorandum Order, ECF No. 71, by Judge William S. Stickman IV. The native image-only order was verified through RECAP against its caption, docket, filing date, entry number, and PACER case ID, then OCR-reviewed across all six pages. Corrects the review draft's mistaken first name: the sanctioned attorney is Tyrone Blackburn, not Arthur Aidala Blackburn.",
+          "tags": "hallucinated-citations; attorney-discipline; admitted-ai; unnamed-ai; rule-11; pro-hac-vice-revoked; legal-services",
+          "source_quality": "primary record",
+          "research_status": "included",
+          "last_verified_date": "2026-07-25",
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
+        },
+        {
+          "error_id": "AIEL-2026-059",
+          "error_title": "N.D. Mississippi disqualifies three lawyers and orders firm-wide audit after admitted Grok misuse",
+          "ai_system_name": "Grok (named; admitted)",
+          "deployer": "Jane Ashley Watson, with supervising attorneys Nick Norris and Louis H. Watson Jr. and Watson & Norris, PLLC",
+          "domain": "legal services",
+          "error_type": "hallucinated authority",
+          "error_description": "Jane Ashley Watson admitted using Grok, an external AI tool, for legal research and drafting without verifying its output. Her summary-judgment memorandum contained one nonexistent case and three misrepresented holdings. The court found Rule 11 violations by Watson and reviewing signatory Nick Norris, held Watson & Norris, PLLC jointly responsible, and sanctioned supervisory attorney Louis H. Watson Jr. after finding that the firm failed to contain a broader pattern of tainted filings despite prior notice and an internal policy restricting external AI use.",
+          "canonical_source_conflicted": "One nonexistent decision, three materially misrepresented holdings, and counsel's duties under Fed. R. Civ. P. 11",
+          "mitigation_gap": "The drafting attorney used unverified Grok output despite prior warning and a firm policy against external AI tools; supervising and signing attorneys did not verify the authorities, and the firm's later audit initially failed to identify the full scope of affected filings.",
+          "reliance_or_harm": "The court disqualified all three attorneys from the case, barred Jane Watson from new appearances before the judge for two years, required notice to every judge in their pending matters, referred the order to the Mississippi Bar, ordered a firm-wide audit, and stayed the client's case for 60 days after the citation failures delayed summary judgment and caused cancellation of the trial setting.",
+          "public_matter_type": "sanctions order (Rule 11 / inherent power)",
+          "public_matter_name": "Billups v. Louisville Municipal School District, No. 1:24-cv-00074-SA-RP (N.D. Miss.)",
+          "filing_status": "sanctioned",
+          "jurisdiction": "U.S. District Court, Northern District of Mississippi",
+          "filing_date": "2025-12-19",
+          "error_date": "2025",
+          "public_record_link": "https://storage.courtlistener.com/recap/gov.uscourts.msnd.49169/gov.uscourts.msnd.49169.79.0.pdf",
+          "secondary_source_links": "",
+          "confidence_score": "high",
+          "notes_on_resolution": "Sanctions Order, ECF No. 79, by Senior Judge Sharion Aycock. The native order was verified through RECAP against its caption, docket, filing date, entry number, and PACER case ID. The order names Grok as Watson's external AI tool and separately describes the firm's permitted Smokeball tool, Archie; do not attribute the defective filing to Archie. The court found a monetary fine would not provide meaningful deterrence and imposed structural and practice restrictions instead.",
+          "tags": "hallucinated-citations; attorney-discipline; admitted-ai; named-ai; grok; rule-11; disqualification; firm-audit; legal-services",
+          "source_quality": "primary record",
+          "research_status": "included",
+          "last_verified_date": "2026-07-25",
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation/human-oversight.json"
+          ]
         }
       ]
     },
@@ -1880,6 +1940,24 @@ window.AIEL_DATA = {
           "next_verification_step": "Confirm the CanLII address for 2026 QCCS 1360 in a browser, or obtain a CanLII API key, then promote to the global bucket with the verified link. Do not let law-firm commentary set the characterisation of the holding — at least one firm hedges the AI finding as merely probable, which the judgment itself does not.",
           "best_available_sources": "",
           "last_checked_date": "2026-07-24"
+        },
+        {
+          "candidate_id": "AIEL-CAND-024",
+          "candidate_title": "GAO warns protester after admitted reliance on AI-assisted tools produced citation irregularities",
+          "candidate_matter": "Raven Investigations & Security Consulting, LLC, B-423447 (U.S. Government Accountability Office)",
+          "reason_for_review": "The published GAO decision confirms that the protester's non-attorney representative relied on AI-assisted tools, public databases, online repositories, and secondary legal-research summaries, and that the identified citation irregularities arose from those automated or secondary tools. GAO found nonexistent, mismatched, and unsupported authorities and quotations. It dismissed the protest as academic for an independent reason, declined to impose sanctions in this matter, but expressly warned that future filings with nonexistent authority may result in sanctions. The remaining policy seam is narrower than the 'hallmarks' candidates: AI use is admitted, but the representative did not isolate AI as the exclusive cause among the several tools used.",
+          "next_verification_step": "Steward call on whether admitted AI-assisted work within a mixed-tool causal account satisfies gate 1. If yes, promote as a formal administrative-adjudication warning, not as a sanction.",
+          "best_available_sources": "https://gao.gov/products/b-423447",
+          "last_checked_date": "2026-07-25"
+        },
+        {
+          "candidate_id": "AIEL-CAND-025",
+          "candidate_title": "New York court sanctions counsel for deceptive litigation and orders disclosure about possible AI use",
+          "candidate_matter": "Facey v. Fisher, 2025 NY Slip Op 33456(U), Index No. 152088/2025, NYSCEF Doc. No. 50 (N.Y. Sup. Ct., New York County)",
+          "reason_for_review": "The official opinion verifies multiple nonexistent or materially miscited authorities and awards defendants their legal fees against plaintiff's counsel, but the sanctions also rest on separate deceptive litigation conduct. Gate 1 is not yet established: the court ordered counsel to file an affirmation within five days stating whether artificial-intelligence applications or chatbots were used and explaining the citation failures. The opinion itself asks the question and does not answer it.",
+          "next_verification_step": "Retrieve counsel's post-order NYSCEF affirmation and any later fee or sanctions order. NYSCEF guest case search for Index No. 152088/2025 was rechecked on 2026-07-25 but placed the document list behind hCaptcha; ordinary web indexing exposed only NYSCEF Doc. No. 50. A human browser pass through the NYSCEF guest-search challenge is therefore the next source step. Promote only if the follow-up record establishes AI use and permits the AI-attributable conduct and outcome to be separated from the independent misconduct.",
+          "best_available_sources": "https://nycourts.gov/reporter/pdfs/2025/2025_33456.pdf",
+          "last_checked_date": "2026-07-25"
         }
       ]
     },

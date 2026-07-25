@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-059-allegation.json",
+  "id": "aiel-2026-059-allegation",
+  "text": "Jane Ashley Watson admitted using Grok, an external AI tool, for legal research and drafting without verifying its output. Her summary-judgment memorandum contained one nonexistent case and three misrepresented holdings. The court found Rule 11 violations by Watson and reviewing signatory Nick Norris, held Watson & Norris, PLLC jointly responsible, and sanctioned supervisory attorney Louis H. Watson Jr. after finding that the firm failed to contain a broader pattern of tainted filings despite prior notice and an internal policy restricting external AI use.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-059#ai-system",
+  "ai_system_name": "Grok (named; admitted)",
+  "deployer": "Jane Ashley Watson, with supervising attorneys Nick Norris and Louis H. Watson Jr. and Watson & Norris, PLLC",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "One nonexistent decision, three materially misrepresented holdings, and counsel's duties under Fed. R. Civ. P. 11",
+  "mitigation_gap": "The drafting attorney used unverified Grok output despite prior warning and a firm policy against external AI tools; supervising and signing attorneys did not verify the authorities, and the firm's later audit initially failed to identify the full scope of affected filings.",
+  "reliance_or_harm": "The court disqualified all three attorneys from the case, barred Jane Watson from new appearances before the judge for two years, required notice to every judge in their pending matters, referred the order to the Mississippi Bar, ordered a firm-wide audit, and stayed the client's case for 60 days after the citation failures delayed summary judgment and caused cancellation of the trial setting.",
+  "ai_incident_law_record_id": "AIEL-2026-059"
+}

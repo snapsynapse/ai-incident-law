@@ -1,0 +1,26 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-058-determination.json",
+  "id": "aiel-2026-058-determination",
+  "issued_date": "2025-10-06",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-pennsylvania.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-pa"
+  },
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-058-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "Memorandum Order, ECF No. 71, by Judge William S. Stickman IV. The native image-only order was verified through RECAP against its caption, docket, filing date, entry number, and PACER case ID, then OCR-reviewed across all six pages. Corrects the review draft's mistaken first name: the sanctioned attorney is Tyrone Blackburn, not Arthur Aidala Blackburn."
+  },
+  "notes": "Memorandum Order, ECF No. 71, by Judge William S. Stickman IV. The native image-only order was verified through RECAP against its caption, docket, filing date, entry number, and PACER case ID, then OCR-reviewed across all six pages. Corrects the review draft's mistaken first name: the sanctioned attorney is Tyrone Blackburn, not Arthur Aidala Blackburn.",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.pawd.314851/gov.uscourts.pawd.314851.71.0.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-058",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
+}
