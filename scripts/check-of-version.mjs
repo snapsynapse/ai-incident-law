@@ -1,59 +1,42 @@
 #!/usr/bin/env node
 /**
- * Assert that the obligation-first checkout in use satisfies the version
- * range declared in the local naming profile (appliesTo field).
+ * Assert that the obligation-first checkout in use satisfies the version range
+ * declared in this repo's naming profile (its `appliesTo` field).
  *
- * Exits 0 when the version is compatible or no OF checkout is found (CI
- * always has one; local skip is safe). Exits 1 on a version mismatch --
- * this means the naming profile needs updating or the OF checkout is wrong.
+ * The comparison rule used to live here. It now lives in obligation-first
+ * (scripts/check-adopter-of-version.mjs) so EveryAILaw, PubLedge, and this repo
+ * share one implementation instead of three copies. This wrapper only locates
+ * the checkout and points the shared script at our profile.
+ *
+ * Exits 0 when compatible, or when no obligation-first checkout is found
+ * (CI always has one; a local skip is safe). Exits 1 on a version mismatch.
  */
 
-import { readFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
+import { spawnSync } from "node:child_process";
+import { fileURLToPath } from "node:url";
 
-const root = path.resolve(new URL("..", import.meta.url).pathname);
-const profilePath = path.join(root, ".well-known", "obligation-first-naming-profile.jsonld");
-const profile = JSON.parse(await readFile(profilePath, "utf8"));
-
-const appliesTo = profile.appliesTo;
-const rangeMatch = appliesTo?.match(/obligation-first\s+(\d+)\.(\d+)\.x/);
-if (!rangeMatch) {
-  console.error(`check-of-version: cannot parse appliesTo: "${appliesTo}"`);
-  process.exit(1);
-}
-const [, expectedMajor, expectedMinor] = rangeMatch;
-
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const candidates = [
   process.env.OBLIGATION_FIRST_DIR,
   path.join(root, "..", "obligation-first"),
   path.join(root, "obligation-first"),
 ].filter(Boolean);
 
-const ofDir = candidates.find((d) => existsSync(path.join(d, "package.json")));
+const CHECKER = path.join("scripts", "check-adopter-of-version.mjs");
+const obligationFirstDir = candidates.find((dir) => existsSync(path.join(dir, CHECKER)));
 
-if (!ofDir) {
+if (!obligationFirstDir) {
   console.log("check-of-version: no obligation-first checkout found; skipping.");
   process.exit(0);
 }
 
-const pkg = JSON.parse(await readFile(path.join(ofDir, "package.json"), "utf8"));
-const actual = pkg.version;
-const versionMatch = actual?.match(/^(\d+)\.(\d+)\./);
-if (!versionMatch) {
-  console.error(`check-of-version: cannot parse OF version: "${actual}"`);
-  process.exit(1);
-}
-const [, actualMajor, actualMinor] = versionMatch;
+const profilePath = path.join(root, ".well-known", "obligation-first-naming-profile.jsonld");
+const result = spawnSync(
+  process.execPath,
+  [path.join(obligationFirstDir, CHECKER), profilePath],
+  { cwd: root, stdio: "inherit" },
+);
 
-if (actualMajor !== expectedMajor || actualMinor !== expectedMinor) {
-  console.error(
-    `check-of-version: MISMATCH — profile expects ${appliesTo} but OF checkout is ${actual}`,
-  );
-  console.error(
-    `  Update .well-known/obligation-first-naming-profile.jsonld appliesTo, or use the correct OF checkout.`,
-  );
-  process.exit(1);
-}
-
-console.log(`check-of-version: OK — ${actual} satisfies ${appliesTo}`);
+process.exit(result.status || 0);
