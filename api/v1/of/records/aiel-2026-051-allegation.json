@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-051-allegation.json",
+  "id": "aiel-2026-051-allegation",
+  "text": "Attorney Gregory W. Mitchell filed motions to quash containing three non-existent direct quotations about Bankruptcy Rule 2004 and citations to non-existent cases. At the show-cause hearing he acknowledged using AI tools available through Westlaw, and his written response admitted his firm has the \"Precision\" version of Westlaw, which the court described as \"a generative AI tool offered by Westlaw.\" Mitchell attributed the text to an unidentifiable prior template whose origin he could not recall, and admitted he had verified none of the citations. The court held causation immaterial: the violation was submitting unverified citations however they were produced.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-051#ai-system",
+  "ai_system_name": "Westlaw Precision (named; admitted)",
+  "deployer": "Gregory W. Mitchell (counsel for the Petitioning Creditors)",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Non-existent bankruptcy authorities and fabricated quotations concerning Fed. R. Bankr. P. 2004; Fed. R. Civ. P. 11(b) via Bankr. R. 9011",
+  "mitigation_gap": "Counsel reused an unattributed template and submitted generative-AI-assisted research without verifying a single citation; the court rejected his argument that legal-specific AI tools warrant more lenient treatment than general-purpose ones under its General Orders.",
+  "reliance_or_harm": "Rule 11(b) violation found; six hours of State Bar of Texas continuing legal education on generative AI in the courts ordered, with certificate of compliance due 2026-08-31; civil contempt of the April 30, 2026 turnover order; $29,877.00 in the Chapter 7 Trustee’s attorneys’ fees and costs imposed jointly and severally against counsel and the Petitioning Creditors under the court’s inherent power and 11 U.S.C. § 105(a).",
+  "ai_incident_law_record_id": "AIEL-2026-051"
+}

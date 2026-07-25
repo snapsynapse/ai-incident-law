@@ -1,0 +1,26 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-053-determination.json",
+  "id": "aiel-2026-053-determination",
+  "issued_date": "2026-07-10",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-eleventh-circuit.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us"
+  },
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-053-allegation.json"
+  ],
+  "disposition": "partial",
+  "remedy": {
+    "status": "referred for discipline",
+    "notes": "Marked FOR PUBLICATION; appeal from S.D. Fla. No. 1:22-cv-23519-KMM; panel Rosenbaum, Grant, and Kidd, opinion by Grant. Gate 1 rests on the court’s own finding, not an admission: \"By outsourcing his legal work to an AI algorithm, Sabatini violated his ethical duties to both his clients and this Court.\" Charlotin tags the tool \"Implied,\" which understates the record. No monetary sanction. The referral itself issues by a separate order through the Chief Judge, which is a distinct primary document not yet obtained. Tracker PDF filename misspells the defendant as \"Altas Air\" and omits co-defendant Flight Services International, LLC."
+  },
+  "notes": "Marked FOR PUBLICATION; appeal from S.D. Fla. No. 1:22-cv-23519-KMM; panel Rosenbaum, Grant, and Kidd, opinion by Grant. Gate 1 rests on the court’s own finding, not an admission: \"By outsourcing his legal work to an AI algorithm, Sabatini violated his ethical duties to both his clients and this Court.\" Charlotin tags the tool \"Implied,\" which understates the record. No monetary sanction. The referral itself issues by a separate order through the Chief Judge, which is a distinct primary document not yet obtained. Tracker PDF filename misspells the defendant as \"Altas Air\" and omits co-defendant Flight Services International, LLC.",
+  "source": "https://damiencharlotin.com/documents/2592/Akerlund_et_al._v._Altas_Air_Inc._USA_10_July_2026.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-053",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
+}

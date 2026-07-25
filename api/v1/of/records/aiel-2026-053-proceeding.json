@@ -1,0 +1,23 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-053-proceeding.json",
+  "id": "aiel-2026-053-proceeding",
+  "title": "Akerlund v. Atlas Air, Inc., Flight Services International, LLC, No. 24-11033 (11th Cir.)",
+  "filed_date": "2026-07-10",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-eleventh-circuit.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us"
+  },
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-053-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2026-053-determination.json"
+  ],
+  "source": "https://damiencharlotin.com/documents/2592/Akerlund_et_al._v._Altas_Air_Inc._USA_10_July_2026.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-053",
+  "matter_type": "published appellate opinion with disciplinary referral",
+  "status": "referred for discipline"
+}

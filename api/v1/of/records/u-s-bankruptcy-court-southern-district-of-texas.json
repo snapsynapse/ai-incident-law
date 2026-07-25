@@ -1,0 +1,18 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Authority",
+  "@id": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-southern-district-of-texas.json",
+  "id": "u-s-bankruptcy-court-southern-district-of-texas",
+  "organization": {
+    "@type": "gist:Court",
+    "name": "U.S. Bankruptcy Court, Southern District of Texas"
+  },
+  "authority_basis": {
+    "kind": "judicial",
+    "instrument_ref": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-southern-district-of-texas.json#authority-basis"
+  },
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-tx"
+  }
+}

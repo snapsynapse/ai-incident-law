@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-053-allegation.json",
+  "id": "aiel-2026-053-allegation",
+  "text": "Counsel filed an opening brief in the Eleventh Circuit containing eight hallucinated cases, one of which was falsely attributed to the Eleventh Circuit itself. He then filed an untimely proposed reply brief purporting to withdraw eight cases, none of which matched the original eight, and all eight substitutes were also hallucinated. The court made its own finding of AI use in the published opinion, stating that counsel had outsourced his legal work to an AI algorithm; no product is named and counsel made no admission, conceding only that his citations were erroneous or unverifiable. The conduct continued after a warning.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-053#ai-system",
+  "ai_system_name": "Unnamed generative AI (court finding)",
+  "deployer": "Anthony F. Sabatini (counsel for plaintiffs and appellants)",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Sixteen non-existent judicial decisions, including one falsely attributed to the Eleventh Circuit; counsel’s duties of competence and candor to the court",
+  "mitigation_gap": "Counsel delegated brief-writing to a generative-AI tool without verification, then attempted to cure the defect using the same unverified process, producing a second complete set of fabrications.",
+  "reliance_or_harm": "Dismissal of the third amended complaint affirmed; published finding that counsel violated his ethical duties to his clients and the court; referral to the Eleventh Circuit’s Committee on Lawyer Qualifications and Conduct by separate order of the Chief Judge under 11th Cir. R., Addendum 8, r. 2(C).",
+  "ai_incident_law_record_id": "AIEL-2026-053"
+}

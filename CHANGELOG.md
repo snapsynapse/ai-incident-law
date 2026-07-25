@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- Three included records from the July 2026 sweep, each verified against its primary order: `AIEL-2026-051` (In re Rosslyn2016, Bankr. S.D. Tex. — Westlaw Precision named and admitted, generative-AI CLE, $29,877 fee award, civil contempt), `AIEL-2026-052` (Del Biaggio v. Bansen, Cal. Ct. App. 1st Dist. — published, $1,500 appellate sanction, State Bar referral), `AIEL-2026-053` (Akerlund v. Atlas Air, 11th Cir. — published, disciplinary referral, sixteen hallucinated citations across two filings).
+- `AIEL-GLOB-014` (Pooja Ramesh Singh v. Jammu and Kashmir Bank, Supreme Court of India, 2026 INSC 668): the corpus's first adjudicator-side matter, where the fabricated citations originated in the tribunal's own judgment rather than in counsel's filings.
+- Two review candidates: `AIEL-CAND-017` (Mullins v. Duquesne — Claude disclosed and use held not sanctionable; a limiting precedent the current schema has no clean slot for) and `AIEL-CAND-018` (M J Molawa, South African Labour Court — non-existent citations confirmed, AI attribution expressly left undetermined).
 - Public methodology page documenting corpus scope, admission criteria, source policy, freshness handling, and exclusions.
 - GuideCheck assistant guide for bounded maintainer and query workflows, with local byte-profile and section validation.
 

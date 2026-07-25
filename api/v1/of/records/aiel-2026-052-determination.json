@@ -1,0 +1,26 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-052-determination.json",
+  "id": "aiel-2026-052-determination",
+  "issued_date": "2026-07-10",
+  "issuedBy": "https://aiincidentlaw.org/authority/california-court-of-appeal-first-appellate-district.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-ca"
+  },
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-052-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "Certified for publication, making it precedential. In the same opinion the trial court’s separate § 1008(d) sanctions award against counsel was vacated and the respondents’ own frivolous-appeal sanctions motion was denied. Counsel’s declaration hedged that the errors \"were not willful or AI-driven without review,\" and footnote 6 reserves on whether every citation error is attributable to AI, but that reservation covers only uncatalogued additional errors, not the fabricated quotations. Charlotin lists the court as the 4th District; it is the First Appellate District, Division Four, and the tracker PDF filename misspells the caption as \"Del Baggio.\""
+  },
+  "notes": "Certified for publication, making it precedential. In the same opinion the trial court’s separate § 1008(d) sanctions award against counsel was vacated and the respondents’ own frivolous-appeal sanctions motion was denied. Counsel’s declaration hedged that the errors \"were not willful or AI-driven without review,\" and footnote 6 reserves on whether every citation error is attributable to AI, but that reservation covers only uncatalogued additional errors, not the fabricated quotations. Charlotin lists the court as the 4th District; it is the First Appellate District, Division Four, and the tracker PDF filename misspells the caption as \"Del Baggio.\"",
+  "source": "https://damiencharlotin.com/documents/2595/Del_Baggio_v._Bansen_USA_10_July_2026.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-052",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
+}

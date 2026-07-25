@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/",
-  "generated": "2026-06-10",
+  "generated": "2026-07-24",
   "authorities": [
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -862,6 +862,60 @@
       "sameAs": [
         "https://www.wikidata.org/entity/Q7062665"
       ]
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-southern-district-of-texas.json",
+      "id": "u-s-bankruptcy-court-southern-district-of-texas",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. Bankruptcy Court, Southern District of Texas"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-southern-district-of-texas.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-tx"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/california-court-of-appeal-first-appellate-district.json",
+      "id": "california-court-of-appeal-first-appellate-district",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "California Court of Appeal, First Appellate District"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/california-court-of-appeal-first-appellate-district.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ca"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-eleventh-circuit.json",
+      "id": "u-s-court-of-appeals-for-the-eleventh-circuit",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. Court of Appeals for the Eleventh Circuit"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-eleventh-circuit.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      }
     }
   ]
 }

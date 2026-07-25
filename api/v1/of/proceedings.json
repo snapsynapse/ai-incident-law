@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/",
-  "generated": "2026-06-10",
+  "generated": "2026-07-24",
   "proceedings": [
     {
       "@context": "https://obligationfirst.org/v1/",
@@ -1153,6 +1153,75 @@
       "ai_incident_law_record_id": "AIEL-2026-050",
       "matter_type": "sanctions order (Rule 11)",
       "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-051-proceeding.json",
+      "id": "aiel-2026-051-proceeding",
+      "title": "In re Rosslyn2016, LLC, Texas Esencia 2019 LLC and Timbers2020 LLC, No. 25-34507 (Bankr. S.D. Tex., Houston Div.)",
+      "filed_date": "2026-07-14",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-southern-district-of-texas.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-tx"
+      },
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-051-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-051-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/2628/In_re_Rosslyn_USA_14_Jly_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-051",
+      "matter_type": "sanctions order (Rule 11 / inherent power) and civil contempt finding",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-052-proceeding.json",
+      "id": "aiel-2026-052-proceeding",
+      "title": "Del Biaggio v. Bansen, No. A174647 (Cal. Ct. App., 1st Dist., Div. 4) (Humboldt County Super. Ct. No. CV1901078)",
+      "filed_date": "2026-07-10",
+      "issuedBy": "https://aiincidentlaw.org/authority/california-court-of-appeal-first-appellate-district.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us-ca"
+      },
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-052-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-052-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/2595/Del_Baggio_v._Bansen_USA_10_July_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-052",
+      "matter_type": "sanctions order (appellate, published opinion)",
+      "status": "sanctioned"
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-053-proceeding.json",
+      "id": "aiel-2026-053-proceeding",
+      "title": "Akerlund v. Atlas Air, Inc., Flight Services International, LLC, No. 24-11033 (11th Cir.)",
+      "filed_date": "2026-07-10",
+      "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-eleventh-circuit.json",
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      },
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-053-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-053-determination.json"
+      ],
+      "source": "https://damiencharlotin.com/documents/2592/Akerlund_et_al._v._Altas_Air_Inc._USA_10_July_2026.pdf",
+      "ai_incident_law_record_id": "AIEL-2026-053",
+      "matter_type": "published appellate opinion with disciplinary referral",
+      "status": "referred for discipline"
     }
   ]
 }
