@@ -15,10 +15,10 @@
   "disposition": "confirmed",
   "remedy": {
     "status": "sanctioned",
-    "notes": "$7,500 on counsel + $2,500 on client = $10,000; metadata showed filings originated from client's AI program; first NY appellate-level GenAI sanctions decision."
+    "notes": "$7,500 on counsel + $2,500 on client = $10,000; metadata showed filings originated from client's AI program; first NY appellate-level GenAI sanctions decision. Source is the New York Official Reports slip opinion (official reporter, HTML). Tooling note: nycourts.gov returns HTTP 403 to bare scripted requests but 200 to a browser-like User-Agent, so an automated link-check failure here is a known false negative; both the bare and www hosts serve the document."
   },
-  "notes": "$7,500 on counsel + $2,500 on client = $10,000; metadata showed filings originated from client's AI program; first NY appellate-level GenAI sanctions decision.",
-  "source": "https://www.damiencharlotin.com/documents/1274/Deutsche_Bank_v._Le_Tennier_USA_8_January_2026.pdf",
+  "notes": "$7,500 on counsel + $2,500 on client = $10,000; metadata showed filings originated from client's AI program; first NY appellate-level GenAI sanctions decision. Source is the New York Official Reports slip opinion (official reporter, HTML). Tooling note: nycourts.gov returns HTTP 403 to bare scripted requests but 200 to a browser-like User-Agent, so an automated link-check failure here is a known false negative; both the bare and www hosts serve the document.",
+  "source": "https://nycourts.gov/reporter/3dseries/2026/2026_00040.htm",
   "ai_incident_law_record_id": "AIEL-2026-044",
   "anchors": [
     "https://everyailaw.com/obligation/human-oversight.json"

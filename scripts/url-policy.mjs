@@ -12,11 +12,21 @@ export const URL_FIELD_POLICIES = {
 //     path including the site root; only the www host answers. Verified 2026-07-24.
 //   gasupreme.us — bare fails TLS with a certificate hostname mismatch; the
 //     certificate covers the www host only. Verified 2026-07-24.
+//   oscn.net — the Oklahoma State Courts Network SILENTLY fails on the bare host:
+//     it answers HTTP 200 with a ~6 KB generic landing page instead of the
+//     requested document, so a status-code-only link check passes while the
+//     content is gone. The www host returns the real document. Verified
+//     2026-07-24. This is the most dangerous shape of this bug — prefer content
+//     assertions over status codes when adding hosts here.
+//   opn.ca6.uscourts.gov — bare does not resolve at all (NXDOMAIN); the Sixth
+//     Circuit serves opinions only from the www host. Verified 2026-07-24.
 // Re-check periodically: if a host starts serving its bare domain, drop it from this
 // set so the corpus converges back on the bare-domain default.
 export const WWW_REQUIRED_HOSTS = new Set([
   "damiencharlotin.com",
   "gasupreme.us",
+  "oscn.net",
+  "opn.ca6.uscourts.gov",
 ]);
 
 const CONTROL_CHAR_RE = /[\u0000-\u001f\u007f]/;

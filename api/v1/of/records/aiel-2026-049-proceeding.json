@@ -3,7 +3,7 @@
   "@type": "of:Proceeding",
   "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-049-proceeding.json",
   "id": "aiel-2026-049-proceeding",
-  "title": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., 2026 WL 457265 (Cal. Ct. App. 2d Dist.)",
+  "title": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., No. B329314 (Cal. Ct. App., 2d Dist., Div. Three) (unpublished)",
   "filed_date": "2026-02-18",
   "issuedBy": "https://aiincidentlaw.org/authority/california-court-of-appeal-second-appellate-district.json",
   "jurisdiction": {
@@ -16,7 +16,7 @@
   "hasDetermination": [
     "https://aiincidentlaw.org/determination/aiel-2026-049-determination.json"
   ],
-  "source": "https://www.damiencharlotin.com/documents/1552/EFD_USA_v_BAND_PRO_FILM_AND_DIGITAL_IN_USA_18_February_2026.pdf",
+  "source": "https://courts.ca.gov/opinions/nonpub/B329314.PDF",
   "ai_incident_law_record_id": "AIEL-2026-049",
   "matter_type": "sanctions order (appellate)",
   "status": "sanctioned"

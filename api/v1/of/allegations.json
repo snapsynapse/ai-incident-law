@@ -441,7 +441,7 @@
       "error_type": "hallucinated authority",
       "canonical_source_conflicted": "Genuine case law; Rule 11 duty of reasonable inquiry",
       "mitigation_gap": "No citation verification; obfuscation about the source of the fabricated citations.",
-      "reliance_or_harm": "Numerous fabricated citations across multiple filings; referred (with co-counsel) to the Second Circuit Grievance Panel.",
+      "reliance_or_harm": "$2,500 Rule 11 monetary sanction against plaintiff’s counsel; numerous fabricated citations across multiple filings; counsel referred, with co-counsel, to the Second Circuit Grievance Panel.",
       "ai_incident_law_record_id": "AIEL-2026-026"
     },
     {
@@ -647,23 +647,6 @@
       "mitigation_gap": "Attorney used ChatGPT to draft legal briefs and filed without verifying citations; forensic examination of the firm's ChatGPT workspace confirmed the AI origin.",
       "reliance_or_harm": "$35,603.90 to Fite Defendants + $11,453 to Triad Defendants = $47,056.90; public reprimand; disqualification; Bar referral; order published.",
       "ai_incident_law_record_id": "AIEL-2026-038"
-    },
-    {
-      "@context": "https://obligationfirst.org/v1/",
-      "@type": "of:Allegation",
-      "@id": "https://aiincidentlaw.org/allegation/aiel-2026-039-allegation.json",
-      "id": "aiel-2026-039-allegation",
-      "text": "Attorney Tricia S. Lindsay submitted memoranda containing fabricated citations and, belatedly, attributed them to LexisNexis's AI-driven features. The court rejected that attribution as \"devoid of any specifics\" and found only that Lindsay had used \"an AI program that generated the fabricated citations.\" The court imposed a $2,500 Rule 11 sanction.",
-      "asserted_by": "public record",
-      "related_to": "https://aiincidentlaw.org/incident/aiel-2026-039#ai-system",
-      "ai_system_name": "Unspecified generative-AI program (court finding; LexisNexis attribution not credited)",
-      "deployer": "Tricia S. Lindsay (attorney for plaintiff)",
-      "domain": "legal services",
-      "error_type": "hallucinated authority",
-      "canonical_source_conflicted": "Non-existent federal cases cited in memoranda of law; Fed. R. Civ. P. 11",
-      "mitigation_gap": "Counsel submitted AI-generated citations without verification and offered a speculative, uncredited tool attribution after the fact.",
-      "reliance_or_harm": "$2,500 Rule 11 monetary sanction; fabricated citations submitted in federal court.",
-      "ai_incident_law_record_id": "AIEL-2026-039"
     },
     {
       "@context": "https://obligationfirst.org/v1/",

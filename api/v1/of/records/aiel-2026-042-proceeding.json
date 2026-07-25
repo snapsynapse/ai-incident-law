@@ -3,7 +3,7 @@
   "@type": "of:Proceeding",
   "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-042-proceeding.json",
   "id": "aiel-2026-042-proceeding",
-  "title": "Davis v. Marion County Superior Court Juvenile Detention Center et al., S.D. Ind.",
+  "title": "Davis v. Marion County Superior Court Juvenile Detention Center, No. 1:24-cv-01918-JRO-MJD (S.D. Ind.)",
   "filed_date": "2026-05-20",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-indiana.json",
   "jurisdiction": {
@@ -16,7 +16,7 @@
   "hasDetermination": [
     "https://aiincidentlaw.org/determination/aiel-2026-042-determination.json"
   ],
-  "source": "https://www.damiencharlotin.com/documents/2191/Davis_v._Marion_Country_Juvenile_DC_USA_20_May_2026.pdf",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.insd.217901/gov.uscourts.insd.217901.127.0.pdf",
   "ai_incident_law_record_id": "AIEL-2026-042",
   "matter_type": "sanctions order (Rule 11)",
   "status": "sanctioned"

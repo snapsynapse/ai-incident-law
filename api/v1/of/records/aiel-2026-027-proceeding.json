@@ -3,7 +3,7 @@
   "@type": "of:Proceeding",
   "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-027-proceeding.json",
   "id": "aiel-2026-027-proceeding",
-  "title": "Ibach v. Stewart (Ala.)",
+  "title": "Ibach v. Stewart, No. SC-2025-0106 (Ala.)",
   "filed_date": "2026-04-24",
   "issuedBy": "https://aiincidentlaw.org/authority/supreme-court-of-alabama.json",
   "jurisdiction": {
@@ -16,7 +16,7 @@
   "hasDetermination": [
     "https://aiincidentlaw.org/determination/aiel-2026-027-determination.json"
   ],
-  "source": "https://www.damiencharlotin.com/documents/2035/Ibach__Stewart_v._Steward_USA_24_April_2026.pdf",
+  "source": "https://publicportal-api.alappeals.gov/courts/68f021c4-6a44-4735-9a76-5360b2e8af13/cms/case/47683afc-2f85-469d-8562-9dca094bb680/docketentrydocuments/d95cdd15-7428-4cc9-8389-3cc27ac88089",
   "ai_incident_law_record_id": "AIEL-2026-027",
   "matter_type": "appellate sanction / dismissal",
   "status": "sanctioned"

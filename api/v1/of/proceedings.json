@@ -478,7 +478,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-021-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/2227/STATE_OF_OKLAHOMA_ex_rel._OBA_v._REEVES.pdf",
+      "source": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=551746",
       "ai_incident_law_record_id": "AIEL-2026-021",
       "matter_type": "attorney disciplinary order",
       "status": "sanctioned",
@@ -502,7 +502,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-022-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/2237/Guo_v._Meade_Motorcars_USA_26_May_2026.pdf",
+      "source": "https://supremecourt.ohio.gov/rod/docs/pdf/6/2026/2026-Ohio-1930.pdf",
       "ai_incident_law_record_id": "AIEL-2026-022",
       "matter_type": "sanctions order",
       "status": "sanctioned",
@@ -526,7 +526,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-023-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/1903/USA_v._Farris_USA_3_April_2026.pdf",
+      "source": "https://www.opn.ca6.uscourts.gov/opinions.pdf/26a0105p-06.pdf",
       "ai_incident_law_record_id": "AIEL-2026-023",
       "matter_type": "appellate opinion / attorney sanction",
       "status": "sanctioned"
@@ -549,7 +549,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-024-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/2039/Hill_v._Workday_USA_28_April_2026.pdf",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.422617/gov.uscourts.cand.422617.230.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-024",
       "matter_type": "sanctions order",
       "status": "sanctioned"
@@ -572,7 +572,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-025-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/2041/Chaney_v._Transdev_Services_USA_28_April_2026.pdf",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.cacd.951252/gov.uscourts.cacd.951252.46.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-025",
       "matter_type": "sanctions order",
       "status": "sanctioned"
@@ -582,7 +582,7 @@
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-026-proceeding.json",
       "id": "aiel-2026-026-proceeding",
-      "title": "Jimenez-Fogarty v. Fogarty, No. 1:24-cv-08705-JLR-GWG",
+      "title": "Jimenez-Fogarty v. Fogarty, No. 1:24-cv-08705-JLR-GWG (S.D.N.Y.)",
       "filed_date": "2026-04-29",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
       "jurisdiction": {
@@ -595,7 +595,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-026-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/2045/Fogarty_v._Fogarty_USA_29_April_2026.pdf",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.631979/gov.uscourts.nysd.631979.192.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-026",
       "matter_type": "sanctions opinion (Rule 11)",
       "status": "sanctioned"
@@ -605,7 +605,7 @@
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-027-proceeding.json",
       "id": "aiel-2026-027-proceeding",
-      "title": "Ibach v. Stewart (Ala.)",
+      "title": "Ibach v. Stewart, No. SC-2025-0106 (Ala.)",
       "filed_date": "2026-04-24",
       "issuedBy": "https://aiincidentlaw.org/authority/supreme-court-of-alabama.json",
       "jurisdiction": {
@@ -618,7 +618,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-027-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/2035/Ibach__Stewart_v._Steward_USA_24_April_2026.pdf",
+      "source": "https://publicportal-api.alappeals.gov/courts/68f021c4-6a44-4735-9a76-5360b2e8af13/cms/case/47683afc-2f85-469d-8562-9dca094bb680/docketentrydocuments/d95cdd15-7428-4cc9-8389-3cc27ac88089",
       "ai_incident_law_record_id": "AIEL-2026-027",
       "matter_type": "appellate sanction / dismissal",
       "status": "sanctioned"
@@ -641,7 +641,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-028-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/2001/Bunce_2_1.pdf",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.paed.609239/gov.uscourts.paed.609239.225.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-028",
       "matter_type": "sanctions order (Rule 11)",
       "status": "sanctioned"
@@ -664,7 +664,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-029-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/1982/gov.uscourts.ilnd.475370.97.0.pdf",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.475370/gov.uscourts.ilnd.475370.97.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-029",
       "matter_type": "sanctions order (Rule 11)",
       "status": "sanctioned"
@@ -687,7 +687,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-030-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/1966/Hulvat_v._Gumina_USA_9_April_2026.pdf",
+      "source": "https://illinoiscourts.gov/resources/63539016-cb02-4575-b3da-0dd0632244c1/file",
       "ai_incident_law_record_id": "AIEL-2026-030",
       "matter_type": "appellate sanction",
       "status": "sanctioned",
@@ -711,7 +711,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-031-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/1989/In_re_Troylond_USA_9_April_2026.pdf",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.lawb.374130/gov.uscourts.lawb.374130.84.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-031",
       "matter_type": "sanctions order (Rule 9011)",
       "status": "sanctioned"
@@ -734,7 +734,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-032-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/1599/D085584.pdf",
+      "source": "https://courts.ca.gov/opinions/archive/D085584.PDF",
       "ai_incident_law_record_id": "AIEL-2026-032",
       "matter_type": "sanctions order (appellate)",
       "status": "sanctioned"
@@ -757,7 +757,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-033-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/1622/Kattom_v._Bondi_USA_March_2026.pdf",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.lawd.213966/gov.uscourts.lawd.213966.28.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-033",
       "matter_type": "sanctions order (Rule 11)",
       "status": "sanctioned"
@@ -767,7 +767,7 @@
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-034-proceeding.json",
       "id": "aiel-2026-034-proceeding",
-      "title": "Gentry v. Thompson, E.D. La. (Judge Carl J. Barbier)",
+      "title": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)",
       "filed_date": "2026-03-20",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-louisiana.json",
       "jurisdiction": {
@@ -780,7 +780,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-034-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/1771/Gentry_v._Thompson_USA_20_March_2026.pdf",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.laed.273860/gov.uscourts.laed.273860.25.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-034",
       "matter_type": "sanctions order (Rule 11)",
       "status": "sanctioned"
@@ -803,7 +803,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-035-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/1774/2026-Ohio-965.pdf",
+      "source": "https://supremecourt.ohio.gov/rod/docs/pdf/11/2026/2026-Ohio-965.pdf",
       "ai_incident_law_record_id": "AIEL-2026-035",
       "matter_type": "sanctions order (appellate)",
       "status": "sanctioned",
@@ -827,7 +827,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-036-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/hallucinations/",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.ord.158388/gov.uscourts.ord.158388.225.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-036",
       "matter_type": "sanctions order (Rule 11 / inherent power)",
       "status": "sanctioned"
@@ -850,7 +850,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-037-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/1890/Heimkes_v._Fairhope_USA_31_March_2026.pdf",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.alsd.70919/gov.uscourts.alsd.70919.353.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-037",
       "matter_type": "sanctions order (Rule 11 / inherent power)",
       "status": "sanctioned"
@@ -873,32 +873,9 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-038-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/1931/Rivera_v._Triad_USA_31_March_2026.pdf",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.alnd.192599/gov.uscourts.alnd.192599.116.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-038",
       "matter_type": "sanctions order (Rule 11 / inherent power)",
-      "status": "sanctioned"
-    },
-    {
-      "@context": "https://obligationfirst.org/v1/",
-      "@type": "of:Proceeding",
-      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-039-proceeding.json",
-      "id": "aiel-2026-039-proceeding",
-      "title": "Jimenez-Fogarty v. Fogarty et al., No. 1:24-cv-08705-JLR-GWG (S.D.N.Y.)",
-      "filed_date": "2026-04-29",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
-      "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ny"
-      },
-      "hasAllegation": [
-        "https://aiincidentlaw.org/allegation/aiel-2026-039-allegation.json"
-      ],
-      "hasDetermination": [
-        "https://aiincidentlaw.org/determination/aiel-2026-039-determination.json"
-      ],
-      "source": "https://www.damiencharlotin.com/documents/2045/Fogarty_v._Fogarty_USA_29_April_2026.pdf",
-      "ai_incident_law_record_id": "AIEL-2026-039",
-      "matter_type": "sanctions order (Rule 11)",
       "status": "sanctioned"
     },
     {
@@ -919,7 +896,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-040-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/2118/Coomer_v._Lindell_USA_7_May_2026.pdf",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.cod.215068/gov.uscourts.cod.215068.424.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-040",
       "matter_type": "sanctions order (Rule 11) — second order",
       "status": "sanctioned"
@@ -942,7 +919,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-041-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/2160/Chakma_et_al_v_Sushi_Katsuei_Inc_et_al_USA_19_May_2026.pdf",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.605627/gov.uscourts.nysd.605627.142.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-041",
       "matter_type": "sanctions order (Rule 37 / inherent power)",
       "status": "sanctioned"
@@ -952,7 +929,7 @@
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-042-proceeding.json",
       "id": "aiel-2026-042-proceeding",
-      "title": "Davis v. Marion County Superior Court Juvenile Detention Center et al., S.D. Ind.",
+      "title": "Davis v. Marion County Superior Court Juvenile Detention Center, No. 1:24-cv-01918-JRO-MJD (S.D. Ind.)",
       "filed_date": "2026-05-20",
       "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-indiana.json",
       "jurisdiction": {
@@ -965,7 +942,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-042-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/2191/Davis_v._Marion_Country_Juvenile_DC_USA_20_May_2026.pdf",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.insd.217901/gov.uscourts.insd.217901.127.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-042",
       "matter_type": "sanctions order (Rule 11)",
       "status": "sanctioned"
@@ -988,7 +965,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-043-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/2246/Perez-Castillo_v._Blanche_USA_1_June_2026.pdf",
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/OpinionsWeb/processWebInputExternal.pl?Submit=Display&Path=Y2026/D06-01/C:25-1988:J:Brennan:aut:T:fnOp:N:3550588:S:0",
       "ai_incident_law_record_id": "AIEL-2026-043",
       "matter_type": "sanctions order (appellate)",
       "status": "sanctioned"
@@ -998,7 +975,7 @@
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-044-proceeding.json",
       "id": "aiel-2026-044-proceeding",
-      "title": "Deutsche Bank National Trust Company v. Jean LeTennier, 2026 WL 53120 (N.Y. App. Div. 3d Dep't)",
+      "title": "Deutsche Bank Natl. Trust Co. v. LeTennier, 2026 NY Slip Op 00040, Docket No. CV-23-0713 (N.Y. App. Div., 3d Dep’t)",
       "filed_date": "2026-01-08",
       "issuedBy": "https://aiincidentlaw.org/authority/new-york-supreme-court-appellate-division-third-department.json",
       "jurisdiction": {
@@ -1011,7 +988,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-044-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/1274/Deutsche_Bank_v._Le_Tennier_USA_8_January_2026.pdf",
+      "source": "https://nycourts.gov/reporter/3dseries/2026/2026_00040.htm",
       "ai_incident_law_record_id": "AIEL-2026-044",
       "matter_type": "sanctions order (appellate)",
       "status": "sanctioned"
@@ -1034,7 +1011,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-045-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/1359/Hodges_v_Meridian_Waste_Acquisitions_USA_16_January_2025.pdf",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-045",
       "matter_type": "sanctions order (Rule 11)",
       "status": "sanctioned"
@@ -1057,7 +1034,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-046-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/1398/Lifetime_v._IBSpot_USA_26_January_2026.pdf",
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-paed-2_25-cv-05135/pdf/USCOURTS-paed-2_25-cv-05135-0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-046",
       "matter_type": "sanctions order (Rule 11)",
       "status": "sanctioned"
@@ -1080,7 +1057,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-047-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/1438/Lexos_v._Overstock_USA_2_February_2026.pdf",
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-ksd-2_22-cv-02324/pdf/USCOURTS-ksd-2_22-cv-02324-9.pdf",
       "ai_incident_law_record_id": "AIEL-2026-047",
       "matter_type": "sanctions order (Rule 11)",
       "status": "sanctioned"
@@ -1103,7 +1080,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-048-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/1484/Amarsingh_v._Frontier_Airlines.pdf",
+      "source": "https://ca10.uscourts.gov/sites/ca10/files/opinions/010111382504.pdf",
       "ai_incident_law_record_id": "AIEL-2026-048",
       "matter_type": "sanctions order (appellate)",
       "status": "sanctioned"
@@ -1113,7 +1090,7 @@
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-049-proceeding.json",
       "id": "aiel-2026-049-proceeding",
-      "title": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., 2026 WL 457265 (Cal. Ct. App. 2d Dist.)",
+      "title": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., No. B329314 (Cal. Ct. App., 2d Dist., Div. Three) (unpublished)",
       "filed_date": "2026-02-18",
       "issuedBy": "https://aiincidentlaw.org/authority/california-court-of-appeal-second-appellate-district.json",
       "jurisdiction": {
@@ -1126,7 +1103,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-049-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/1552/EFD_USA_v_BAND_PRO_FILM_AND_DIGITAL_IN_USA_18_February_2026.pdf",
+      "source": "https://courts.ca.gov/opinions/nonpub/B329314.PDF",
       "ai_incident_law_record_id": "AIEL-2026-049",
       "matter_type": "sanctions order (appellate)",
       "status": "sanctioned"
@@ -1149,7 +1126,7 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2026-050-determination.json"
       ],
-      "source": "https://www.damiencharlotin.com/documents/1963/Maldonado_Tiger_King_USA_1_April_2026.pdf",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.innd.124045/gov.uscourts.innd.124045.26.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-050",
       "matter_type": "sanctions order (Rule 11)",
       "status": "sanctioned"

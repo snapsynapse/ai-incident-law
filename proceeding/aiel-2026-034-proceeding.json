@@ -3,7 +3,7 @@
   "@type": "of:Proceeding",
   "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-034-proceeding.json",
   "id": "aiel-2026-034-proceeding",
-  "title": "Gentry v. Thompson, E.D. La. (Judge Carl J. Barbier)",
+  "title": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)",
   "filed_date": "2026-03-20",
   "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-louisiana.json",
   "jurisdiction": {
@@ -16,7 +16,7 @@
   "hasDetermination": [
     "https://aiincidentlaw.org/determination/aiel-2026-034-determination.json"
   ],
-  "source": "https://www.damiencharlotin.com/documents/1771/Gentry_v._Thompson_USA_20_March_2026.pdf",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.laed.273860/gov.uscourts.laed.273860.25.0.pdf",
   "ai_incident_law_record_id": "AIEL-2026-034",
   "matter_type": "sanctions order (Rule 11)",
   "status": "sanctioned"
