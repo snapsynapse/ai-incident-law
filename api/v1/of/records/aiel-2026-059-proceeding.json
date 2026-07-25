@@ -1,0 +1,23 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-059-proceeding.json",
+  "id": "aiel-2026-059-proceeding",
+  "title": "Billups v. Louisville Municipal School District, No. 1:24-cv-00074-SA-RP (N.D. Miss.)",
+  "filed_date": "2025-12-19",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-mississippi.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us"
+  },
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-059-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2026-059-determination.json"
+  ],
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.msnd.49169/gov.uscourts.msnd.49169.79.0.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-059",
+  "matter_type": "sanctions order (Rule 11 / inherent power)",
+  "status": "sanctioned"
+}

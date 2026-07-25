@@ -1,0 +1,23 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-058-proceeding.json",
+  "id": "aiel-2026-058-proceeding",
+  "title": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)",
+  "filed_date": "2025-10-06",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-pennsylvania.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-pa"
+  },
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-058-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2026-058-determination.json"
+  ],
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.pawd.314851/gov.uscourts.pawd.314851.71.0.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-058",
+  "matter_type": "sanctions order (Rule 11)",
+  "status": "sanctioned"
+}

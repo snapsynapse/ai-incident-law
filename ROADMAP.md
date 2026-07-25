@@ -35,6 +35,29 @@ Current dataset buckets:
 - Add clearer dataset notes on methodology and scope boundaries
 - Consider a record detail view if the current card layout becomes too compressed
 
+### 5. Benchmark OCR backends against legal-document evidence fields
+
+Keep the portable extraction order as `pdftotext` for native text, followed by
+`pdftoppm` and Tesseract for image-only pages. DeepSeek-OCR may supplement difficult
+layout interpretation, but generative OCR must not independently establish a caption,
+docket number, entry number, filing date, citation, quotation, or disposition.
+
+Run an isolated bake-off before changing the default:
+
+- Compare plain Tesseract, Tesseract with OCRmyPDF preprocessing, and PP-OCRv6
+- Retain DeepSeek-OCR as a supplemental layout and text-recovery comparator
+- Use representative fixtures covering clean scans, skew and rotation, low-resolution
+  docket headers, tables and appendices, and mixed native-text/scanned PDFs
+- Score exact-field recall for caption, docket, entry, filing date, citations, amounts,
+  and disposition, plus character error rate, latency, memory, installation burden,
+  offline operation, and cross-platform portability
+- Keep expected case criteria out of model prompts so the test cannot leak the answer
+  into OCR output
+- Require a candidate to improve difficult-page fidelity without reducing header recall
+  or weakening reproducibility before it can replace Tesseract
+- Record the fixture manifest, ground truth, commands, model versions, raw outputs, and
+  adoption decision in the repository
+
 ## Medium-term improvements
 
 - Add archive or snapshot references for fragile sources

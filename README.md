@@ -57,6 +57,7 @@ AI Incident Law is one component of the PAICE legal graph (with EveryAILaw, PubL
 - `scripts/mcp-server.js` exposes query tools for MCP clients.
 - `scripts/build-data.mjs` normalizes source data and regenerates `data.js`.
 - `scripts/build-obligation-first.mjs` generates Obligation-First authorities, proceedings, allegations, and determinations.
+- `scripts/find-recap-source.mjs` resolves and verifies CourtListener RECAP documents without requiring credentials.
 - `scripts/validate-data.mjs` validates record shape, duplicate identifiers, and URL conventions.
 - `scripts/validate-guidecheck.mjs` validates the local assistant guide byte profile and required trust-boundary sections.
 
@@ -101,6 +102,17 @@ To see which records are overdue for re-verification:
 ```bash
 npm run report:staleness
 ```
+
+To resolve a known federal docket entry to a verified RECAP PDF:
+```bash
+npm run find:recap -- \
+  --caption "Jakes v. Youngblood" \
+  --court pawd \
+  --docket "2:24-cv-01608" \
+  --date 2025-10-06 \
+  --entry 71
+```
+The resolver supports anonymous CourtListener requests. If `COURTLISTENER_TOKEN` is present, it authenticates with that token. A result is emitted only after the docket metadata, PACER case ID, storage path, and extracted PDF text agree on the caption, docket, filing date, and entry number. `pdftotext` is required for the document-level check; image-only PDFs fall back to first-page OCR with `pdftoppm` and `tesseract`.
 
 To preview over a local static server:
 
