@@ -55,5 +55,5 @@ CI (`validate.yml`) runs the build, URL-policy tests/evals, checks out sibling `
 ## Current state
 
 - Branch `main`, clean tree, in sync with `origin/main`.
-- Version 0.2.0; `CHANGELOG.md` has an `[Unreleased]` section (methodology page, GuideCheck assistant guide) staged for the next release.
+- Version 0.2.1; `CHANGELOG.md` has an `[Unreleased]` section (methodology page, GuideCheck assistant guide) staged for the next release.
 - Actively maintained; no open TODO/FIXME markers in tracked source.

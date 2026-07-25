@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.1] - 2026-07-25
+
+### Added
+- `npm run check:of` now delegates to obligation-first's shared `check-adopter-of-version.mjs` instead of carrying its own copy of the version-comparison rule. This repo had the portfolio's only version pin; EveryAILaw and PubLedge now run the same check against the same implementation.
+
+### Changed
+- The naming profile declares `obligation-first >=0.4.0 <0.6.0` (profile 1.1.0) rather than pinning `0.4.x`. obligation-first 0.5.0 added ranged `appliesTo` precisely so an adopter that uses nothing new in a release stops having to move in lockstep with it. This repo publishes no `ObligationCategory` records, so it rides 0.5.0 unchanged.
+
+### Removed
+- The dangling `obligation_first_anchors` entry on `AIEL-2026-020` (CNN v. Perplexity), which pointed at `https://everyailaw.com/obligation/content-rights.json` — a record that has never existed in EveryAILaw's source or export. It resolved to nothing and was the single unresolved edge in the cross-repo anchor graph. Nothing recoverable is lost: the record's tags already carry copyright, content-reproduction, and hallucinated-attribution. If content rights should become a real EveryAILaw obligation category, add it there and restore the anchor.
+
 ## [Unreleased]
 
 ### Removed

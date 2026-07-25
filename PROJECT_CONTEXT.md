@@ -36,4 +36,4 @@ Discernible from README, ROADMAP, INTENT, and the docs pages:
 
 ## Current status
 
-Actively maintained. Version 0.2.0 with an `[Unreleased]` changelog section (public methodology page, GuideCheck assistant guide) pending the next release. Clean working tree, in sync with origin. Near-term priorities (see `ROADMAP.md`): tighten dataset admission discipline, improve source rigor (prefer primary records, add archival snapshots), stabilize schema expectations, and improve publication quality.
+Actively maintained. Version 0.2.1 with an `[Unreleased]` changelog section (public methodology page, GuideCheck assistant guide) pending the next release. Clean working tree, in sync with origin. Near-term priorities (see `ROADMAP.md`): tighten dataset admission discipline, improve source rigor (prefer primary records, add archival snapshots), stabilize schema expectations, and improve publication quality.

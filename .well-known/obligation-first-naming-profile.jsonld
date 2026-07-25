@@ -1,21 +1,26 @@
 {
   "@context": "https://obligationfirst.org/v1/",
   "@type": "of:NamingProfile",
-  "profileVersion": "1.0.0",
-  "appliesTo": "obligation-first 0.4.x",
+  "profileVersion": "1.1.0",
+  "appliesTo": "obligation-first >=0.4.0 <0.6.0",
   "adopter": "https://aiincidentlaw.org/",
   "entities": {
     "Authority": {
       "void:uriSpace": "https://aiincidentlaw.org/authority/",
       "void:uriRegexPattern": "^https://aiincidentlaw\\.org/authority/[a-z0-9-]+\\.json$",
       "uriTemplate": "https://aiincidentlaw.org/authority/{slug}.json",
-      "crosswalks": ["sameAs"]
+      "crosswalks": [
+        "sameAs"
+      ]
     },
     "Proceeding": {
       "void:uriSpace": "https://aiincidentlaw.org/proceeding/",
       "void:uriRegexPattern": "^https://aiincidentlaw\\.org/proceeding/[a-z0-9-]+\\.json$",
       "uriTemplate": "https://aiincidentlaw.org/proceeding/{slug}.json",
-      "crosswalks": ["neutral_citation", "sameAs"]
+      "crosswalks": [
+        "neutral_citation",
+        "sameAs"
+      ]
     },
     "Allegation": {
       "void:uriSpace": "https://aiincidentlaw.org/allegation/",
@@ -27,7 +32,10 @@
       "void:uriSpace": "https://aiincidentlaw.org/determination/",
       "void:uriRegexPattern": "^https://aiincidentlaw\\.org/determination/[a-z0-9-]+\\.json$",
       "uriTemplate": "https://aiincidentlaw.org/determination/{slug}.json",
-      "crosswalks": ["neutral_citation", "sameAs"]
+      "crosswalks": [
+        "neutral_citation",
+        "sameAs"
+      ]
     }
   }
 }

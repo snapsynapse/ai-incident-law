@@ -598,10 +598,7 @@
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-01",
-          "needs_review": "yes",
-          "obligation_first_anchors": [
-            "https://everyailaw.com/obligation/content-rights.json"
-          ]
+          "needs_review": "yes"
         },
         {
           "error_id": "AIEL-2026-021",
