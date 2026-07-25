@@ -1,0 +1,23 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-055-proceeding.json",
+  "id": "aiel-2026-055-proceeding",
+  "title": "Withers v. City of Aberdeen, No. 1:24-CV-218-SA-RP (N.D. Miss.)",
+  "filed_date": "2026-06-08",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-mississippi.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us"
+  },
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-055-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2026-055-determination.json"
+  ],
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.msnd.50181/gov.uscourts.msnd.50181.123.0_1.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-055",
+  "matter_type": "sanctions order (Rule 11 / inherent power)",
+  "status": "sanctioned"
+}

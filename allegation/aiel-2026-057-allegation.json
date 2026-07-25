@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-057-allegation.json",
+  "id": "aiel-2026-057-allegation",
+  "text": "In a supplemental bid protest, counsel filed citations that the Government Accountability Office could not locate at all, alongside citations whose real decisions did not state the propositions claimed. GAO issued a formal Notice of Required Protester Response compelling counsel to justify the citations or produce the decisions. One of the protester’s attorneys confirmed he had used Westlaw’s AI tool CoCounsel in preparing the supplemental protest, the attorneys acknowledged some of its citations were erroneous, and the attorney admittedly failed to correct all of them before filing.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-057#ai-system",
+  "ai_system_name": "Westlaw CoCounsel (named; admitted)",
+  "deployer": "Counsel for the protester CVTEK, LLC (McDonald Hopkins LLC)",
+  "domain": "government procurement",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Non-existent GAO and related procurement decisions, plus real decisions cited for propositions they do not state; 4 C.F.R. Part 21",
+  "mitigation_gap": "AI-generated citations were filed without verification, and errors identified before filing were still not fully corrected in the version submitted.",
+  "reliance_or_harm": "GAO made findings on the record in a dedicated section of a published decision and expressly advised the protester that future filings citing non-existent authority may result in sanctions; it declined to impose sanctions because it denied the protest on independent grounds. Counsel adopted new manual citation-verification protocols.",
+  "ai_incident_law_record_id": "AIEL-2026-057"
+}

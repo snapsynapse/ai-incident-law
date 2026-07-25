@@ -1,0 +1,18 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Authority",
+  "@id": "https://aiincidentlaw.org/authority/u-s-government-accountability-office.json",
+  "id": "u-s-government-accountability-office",
+  "organization": {
+    "@type": "gist:GovernmentOrganization",
+    "name": "U.S. Government Accountability Office"
+  },
+  "authority_basis": {
+    "kind": "statutory",
+    "instrument_ref": "https://aiincidentlaw.org/authority/u-s-government-accountability-office.json#authority-basis"
+  },
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us"
+  }
+}

@@ -4,6 +4,21 @@ export const URL_FIELD_POLICIES = {
   best_available_sources: "list",
 };
 
+// Hosts whose bare domain does not serve, so stripping `www.` produces a dead link.
+// This is the server-config carve-out to the bare-domain rule, not a style
+// preference: for these hosts `www` and bare are genuinely different endpoints.
+// Each entry records the observed failure and the date it was verified.
+//   damiencharlotin.com — bare returns HTTP 400 (Django DisallowedHost) on every
+//     path including the site root; only the www host answers. Verified 2026-07-24.
+//   gasupreme.us — bare fails TLS with a certificate hostname mismatch; the
+//     certificate covers the www host only. Verified 2026-07-24.
+// Re-check periodically: if a host starts serving its bare domain, drop it from this
+// set so the corpus converges back on the bare-domain default.
+export const WWW_REQUIRED_HOSTS = new Set([
+  "damiencharlotin.com",
+  "gasupreme.us",
+]);
+
 const CONTROL_CHAR_RE = /[\u0000-\u001f\u007f]/;
 const WHITESPACE_RE = /\s/;
 const RAW_DELIMITER_RE = /[<>"'`]/;
@@ -73,8 +88,17 @@ export function normalizeUrlToken(value, location = "URL") {
     parsed.protocol = "https:";
   }
 
-  if (parsed.hostname.toLowerCase().startsWith("www.")) {
-    parsed.hostname = parsed.hostname.slice(4);
+  const hostname = parsed.hostname.toLowerCase();
+  if (hostname.startsWith("www.")) {
+    const bare = hostname.slice(4);
+    // Keep `www` only where the bare host provably does not serve; see
+    // WWW_REQUIRED_HOSTS above.
+    if (!WWW_REQUIRED_HOSTS.has(bare)) {
+      parsed.hostname = bare;
+    }
+  } else if (WWW_REQUIRED_HOSTS.has(hostname)) {
+    // Repair links already written bare against a host that needs `www`.
+    parsed.hostname = `www.${hostname}`;
   }
 
   return { value: parsed.toString(), issues: [] };

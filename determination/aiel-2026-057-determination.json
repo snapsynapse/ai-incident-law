@@ -1,0 +1,26 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-057-determination.json",
+  "id": "aiel-2026-057-determination",
+  "issued_date": "2026-02-12",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-government-accountability-office.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us"
+  },
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-057-allegation.json"
+  ],
+  "disposition": "partial",
+  "remedy": {
+    "status": "warned",
+    "notes": "Broadens the corpus beyond court sanctions into federal administrative procurement adjudication. GAO issues protest decisions and does not impose Rule 11 sanctions, so the outcome is an on-the-record advisement plus a compelled-response order, not a sanction; the fabricated citations did not affect the result, as both protest grounds were denied on independent merits grounds. Underlying procurement: DHS/USCIS RFP No. 70SBUR25R00000009. The secondary landing page must keep the comma-joined file numbers — the shortened form is a hard 404. Tooling note: gao.gov returns 403 to plain scripted requests behind Akamai for both bare and www hosts, so an automated link check failing on this URL is a known false negative; the asset was confirmed by hash against an independently obtained copy. Three further GAO matters cited in this decision are queued leads: KE Systems Services (B-423881), Oready, LLC (B-423524.2), and Raven Investigations & Security Consulting (B-423447) — note the Oready number differs from the one recorded in AIEL-CAND-004."
+  },
+  "notes": "Broadens the corpus beyond court sanctions into federal administrative procurement adjudication. GAO issues protest decisions and does not impose Rule 11 sanctions, so the outcome is an on-the-record advisement plus a compelled-response order, not a sanction; the fabricated citations did not affect the result, as both protest grounds were denied on independent merits grounds. Underlying procurement: DHS/USCIS RFP No. 70SBUR25R00000009. The secondary landing page must keep the comma-joined file numbers — the shortened form is a hard 404. Tooling note: gao.gov returns 403 to plain scripted requests behind Akamai for both bare and www hosts, so an automated link check failing on this URL is a known false negative; the asset was confirmed by hash against an independently obtained copy. Three further GAO matters cited in this decision are queued leads: KE Systems Services (B-423881), Oready, LLC (B-423524.2), and Raven Investigations & Security Consulting (B-423447) — note the Oready number differs from the one recorded in AIEL-CAND-004.",
+  "source": "https://gao.gov/assets/890/884082.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-057",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
+}

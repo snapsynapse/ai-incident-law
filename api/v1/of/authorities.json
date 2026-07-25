@@ -916,6 +916,60 @@
         "@type": "gist:Jurisdiction",
         "ref": "us"
       }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/supreme-court-of-georgia.json",
+      "id": "supreme-court-of-georgia",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "Supreme Court of Georgia"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/supreme-court-of-georgia.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": ""
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-mississippi.json",
+      "id": "u-s-district-court-northern-district-of-mississippi",
+      "organization": {
+        "@type": "gist:Court",
+        "name": "U.S. District Court, Northern District of Mississippi"
+      },
+      "authority_basis": {
+        "kind": "judicial",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-mississippi.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      }
+    },
+    {
+      "@context": "https://obligationfirst.org/v1/",
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-government-accountability-office.json",
+      "id": "u-s-government-accountability-office",
+      "organization": {
+        "@type": "gist:GovernmentOrganization",
+        "name": "U.S. Government Accountability Office"
+      },
+      "authority_basis": {
+        "kind": "statutory",
+        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-government-accountability-office.json#authority-basis"
+      },
+      "jurisdiction": {
+        "@type": "gist:Jurisdiction",
+        "ref": "us"
+      }
     }
   ]
 }

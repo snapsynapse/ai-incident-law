@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-055-allegation.json",
+  "id": "aiel-2026-055-allegation",
+  "text": "Counsel for both the plaintiff and the defendant city filed briefs containing citations to non-existent cases. Plaintiff’s counsel admitted using “First Drafts”, an AI-powered legal drafting program, without verifying its output, and admitted using it in filings in other cases. Defence counsel admitted relying on a separate in-house AI research tool, which the order expressly calls “this unnamed software”, also without verification. Both resident attorneys let filings go out under their electronic signatures without review.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-055#ai-system",
+  "ai_system_name": "\"First Drafts\" (named; admitted) and a second, expressly unnamed in-house legal-research tool",
+  "deployer": "Kathleen M. Wilson (Wilson Law Firm LLC) and Kathryn Y. Williams (Daniel, Williams & Associates PLLC), with resident counsel Shauncey Hunter Ridgeway and Mark C. McClinton",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Citations to non-existent decisions, including a fabricated citation attributed to the same district; Fed. R. Civ. P. 11; Local Rule 83.1(c) and (d)(8)",
+  "mitigation_gap": "Two independent AI research tools were used with no verification step, and the local-counsel review layer that exists precisely to catch this failed on both sides of the case simultaneously.",
+  "reliance_or_harm": "Pro hac vice admission revoked for both lead attorneys, each additionally barred from entering an appearance in any case before the district for two years; both resident attorneys disqualified from further participation; fines totalling $8,000 payable to the court registry ($2,500, $3,500, $1,000, $1,000); AI-ethics CLE ordered for the attorney who had not previously attended one; the order transmitted to the Mississippi, Louisiana, and Texas bars, and to the judges presiding over two other matters involving the same counsel; all four attorneys terminated as counsel of record, leaving both litigants unrepresented under a deadline to obtain new counsel or face dismissal.",
+  "ai_incident_law_record_id": "AIEL-2026-055"
+}

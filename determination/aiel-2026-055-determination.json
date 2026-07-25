@@ -1,0 +1,26 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-055-determination.json",
+  "id": "aiel-2026-055-determination",
+  "issued_date": "2026-06-08",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-mississippi.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us"
+  },
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-055-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "Sanctions Order, Doc. 123, by Senior U.S. District Judge Sharion Aycock. The $8,000 is an aggregate of four separate per-attorney fines, not a single award. Bad faith was found only as to the two lead attorneys; the resident attorneys were found negligent and careless but not in bad faith. Do not attribute the defence tool to “First Drafts” — the order treats them as two distinct tools and names no vendor for either. Related but distinct corpus record: AIEL-2026-031 (In re Wise, Bankr. W.D. La.) involves the same plaintiff-side attorney; this order discusses that matter as later repeat conduct, and the Withers conduct predates it."
+  },
+  "notes": "Sanctions Order, Doc. 123, by Senior U.S. District Judge Sharion Aycock. The $8,000 is an aggregate of four separate per-attorney fines, not a single award. Bad faith was found only as to the two lead attorneys; the resident attorneys were found negligent and careless but not in bad faith. Do not attribute the defence tool to “First Drafts” — the order treats them as two distinct tools and names no vendor for either. Related but distinct corpus record: AIEL-2026-031 (In re Wise, Bankr. W.D. La.) involves the same plaintiff-side attorney; this order discusses that matter as later repeat conduct, and the Withers conduct predates it.",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.msnd.50181/gov.uscourts.msnd.50181.123.0_1.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-055",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
+}

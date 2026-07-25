@@ -1,0 +1,17 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-054-allegation.json",
+  "id": "aiel-2026-054-allegation",
+  "text": "An assistant district attorney used artificial-intelligence software to draft the State’s briefs opposing a motion for new trial, a proposed order for the trial court, and the State’s appellate brief, without independently verifying the citations it produced. The trial court signed the proposed order largely as submitted, so the fabricated authority entered a judge’s signed ruling. The Supreme Court of Georgia identified at least nine defective citations in that order, twelve further cases the prosecutor herself later identified in her trial-court briefing, and nine authorities withdrawn from the State’s appellate brief.",
+  "asserted_by": "public record",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-054#ai-system",
+  "ai_system_name": "Unnamed generative AI (admitted by counsel)",
+  "deployer": "Assistant District Attorney Deborah L. Leslie, Clayton County District Attorney’s Office",
+  "domain": "criminal justice",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Non-existent and misattributed Georgia authorities, including a cited decision the Court found appears not to exist at all; Ga. Sup. Ct. R. 7; OCGA 15-1-3(4)",
+  "mitigation_gap": "The prosecutor did not verify AI-generated citations before filing, and the reviewing court signed a proposed order without independent checking — two verification failures compounding, with the second laundering the first into a judicial act.",
+  "reliance_or_harm": "Prosecutor and the Clayton County district attorney’s office admonished; the prosecutor’s privilege to practise before the Supreme Court of Georgia suspended for six months, reinstatement conditioned on 12 hours of continuing legal education beyond normal requirements covering ethics, brief writing, and the proper use of artificial-intelligence software; the trial court’s order denying a new trial vacated and the case remanded for a new order free of fabricated citations.",
+  "ai_incident_law_record_id": "AIEL-2026-054"
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://obligationfirst.org/v1/",
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-056-determination.json",
+  "id": "aiel-2026-056-determination",
+  "issued_date": "2026-03-10",
+  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+  "jurisdiction": {
+    "@type": "gist:Jurisdiction",
+    "ref": "us-ny"
+  },
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-056-allegation.json"
+  ],
+  "disposition": "partial",
+  "remedy": {
+    "status": "admonished",
+    "notes": "Opinion and Order, Dkt. 161, by Judge Jennifer L. Rochon; the AI discussion is a threshold section preceding the merits. This is the first AI-related judicial finding in this matter and the one that carries gate-1 weight: two later orders (Dkt. 206 of 2026-06-23 and an order of 2026-07-10) reference AI only as allegation, denial, or recitation of sanctions in other matters, and the Grievance Committee referral that followed rests on deposition conduct rather than AI use. Record the vendor attribution as claimed-and-denied, not as established. Related matters involving the same attorney, none yet in the corpus: Jakes v. Youngblood (W.D. Pa.), Facey v. Fisher (N.Y. Sup. Ct.), and Flycatcher Corp. v. Affable Ave. LLC (S.D.N.Y.)."
+  },
+  "notes": "Opinion and Order, Dkt. 161, by Judge Jennifer L. Rochon; the AI discussion is a threshold section preceding the merits. This is the first AI-related judicial finding in this matter and the one that carries gate-1 weight: two later orders (Dkt. 206 of 2026-06-23 and an order of 2026-07-10) reference AI only as allegation, denial, or recitation of sanctions in other matters, and the Grievance Committee referral that followed rests on deposition conduct rather than AI use. Record the vendor attribution as claimed-and-denied, not as established. Related matters involving the same attorney, none yet in the corpus: Jakes v. Youngblood (W.D. Pa.), Facey v. Fisher (N.Y. Sup. Ct.), and Flycatcher Corp. v. Affable Ave. LLC (S.D.N.Y.).",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.641455/gov.uscourts.nysd.641455.161.0.pdf",
+  "ai_incident_law_record_id": "AIEL-2026-056",
+  "anchors": [
+    "https://everyailaw.com/obligation/human-oversight.json"
+  ]
+}
