@@ -1,5 +1,5 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "generated": "2026-07-25",
   "files": {
     "authorities": "authorities.json",

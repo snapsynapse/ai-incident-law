@@ -1,5 +1,5 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2023-013-determination.json",
   "id": "aiel-2023-013-determination",
@@ -21,6 +21,6 @@
   "source": "https://ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without",
   "ai_incident_law_record_id": "AIEL-2023-013",
   "anchors": [
-    "https://everyailaw.com/obligation/bias-prevention.json"
+    "https://everyailaw.com/obligation-category/bias-prevention.json"
   ]
 }

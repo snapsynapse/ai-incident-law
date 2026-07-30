@@ -14,7 +14,8 @@ const companionDirs = {
   allegations: "allegation",
   determinations: "determination"
 };
-const EVERYAILAW_OBLIGATION_RE = /^https:\/\/everyailaw\.com\/obligation\/[a-z0-9-]+\.json$/;
+const EVERYAILAW_ANCHOR_RE = /^https:\/\/everyailaw\.com\/(?:obligation|obligation-category)\/[a-z0-9-]+\.json$/;
+const EVERYAILAW_LEGACY_CATEGORY_RE = /^https:\/\/everyailaw\.com\/obligation\/(?:ai-literacy|bias-prevention|conformity-assessment|data-governance|explainability|human-oversight|incident-reporting|record-keeping|risk-assessment|transparency)\.json$/;
 const failures = [];
 
 async function readJson(file) {
@@ -175,8 +176,11 @@ for (const record of included) {
     fail(`${record.error_id} has obligation_first_anchors but no generated Determination`);
   }
   for (const anchor of expectedAnchors) {
-    if (!EVERYAILAW_OBLIGATION_RE.test(anchor)) {
-      fail(`${record.error_id} obligation_first_anchors must use EveryAILaw obligation IRIs: ${anchor}`);
+    if (!EVERYAILAW_ANCHOR_RE.test(anchor)) {
+      fail(`${record.error_id} obligation_first_anchors must use EveryAILaw obligation or obligation-category IRIs: ${anchor}`);
+    }
+    if (EVERYAILAW_LEGACY_CATEGORY_RE.test(anchor)) {
+      fail(`${record.error_id} broad concepts must use EveryAILaw obligation-category IRIs: ${anchor}`);
     }
   }
   if (new Set(expectedAnchors).size !== expectedAnchors.length) {

@@ -1,5 +1,5 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2026-035-determination.json",
   "id": "aiel-2026-035-determination",
@@ -21,7 +21,7 @@
   "source": "https://supremecourt.ohio.gov/rod/docs/pdf/11/2026/2026-Ohio-965.pdf",
   "ai_incident_law_record_id": "AIEL-2026-035",
   "anchors": [
-    "https://everyailaw.com/obligation/human-oversight.json"
+    "https://everyailaw.com/obligation-category/human-oversight.json"
   ],
   "neutral_citation": "2026-Ohio-965"
 }

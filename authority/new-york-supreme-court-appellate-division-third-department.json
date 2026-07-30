@@ -1,5 +1,5 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "@type": "of:Authority",
   "@id": "https://aiincidentlaw.org/authority/new-york-supreme-court-appellate-division-third-department.json",
   "id": "new-york-supreme-court-appellate-division-third-department",

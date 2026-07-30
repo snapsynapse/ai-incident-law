@@ -1,5 +1,5 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2024-008-determination.json",
   "id": "aiel-2024-008-determination",
@@ -21,6 +21,6 @@
   "source": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
   "ai_incident_law_record_id": "AIEL-2024-008",
   "anchors": [
-    "https://everyailaw.com/obligation/human-oversight.json"
+    "https://everyailaw.com/obligation-category/human-oversight.json"
   ]
 }

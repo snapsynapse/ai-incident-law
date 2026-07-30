@@ -1,5 +1,5 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "@type": "of:Authority",
   "@id": "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json",
   "id": "arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit",

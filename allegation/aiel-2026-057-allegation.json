@@ -1,5 +1,5 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2026-057-allegation.json",
   "id": "aiel-2026-057-allegation",

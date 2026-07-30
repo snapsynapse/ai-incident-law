@@ -1,9 +1,9 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "generated": "2026-07-25",
   "allegations": [
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2024-001-allegation.json",
       "id": "aiel-2024-001-allegation",
@@ -20,7 +20,7 @@
       "ai_incident_law_record_id": "AIEL-2024-001"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2023-002-allegation.json",
       "id": "aiel-2023-002-allegation",
@@ -37,7 +37,7 @@
       "ai_incident_law_record_id": "AIEL-2023-002"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2024-003-allegation.json",
       "id": "aiel-2024-003-allegation",
@@ -54,7 +54,7 @@
       "ai_incident_law_record_id": "AIEL-2024-003"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2025-004-allegation.json",
       "id": "aiel-2025-004-allegation",
@@ -71,7 +71,7 @@
       "ai_incident_law_record_id": "AIEL-2025-004"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-005-allegation.json",
       "id": "aiel-2026-005-allegation",
@@ -88,7 +88,7 @@
       "ai_incident_law_record_id": "AIEL-2026-005"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2025-006-allegation.json",
       "id": "aiel-2025-006-allegation",
@@ -105,7 +105,7 @@
       "ai_incident_law_record_id": "AIEL-2025-006"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2025-007-allegation.json",
       "id": "aiel-2025-007-allegation",
@@ -122,7 +122,7 @@
       "ai_incident_law_record_id": "AIEL-2025-007"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2024-008-allegation.json",
       "id": "aiel-2024-008-allegation",
@@ -139,7 +139,7 @@
       "ai_incident_law_record_id": "AIEL-2024-008"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2023-009-allegation.json",
       "id": "aiel-2023-009-allegation",
@@ -156,7 +156,7 @@
       "ai_incident_law_record_id": "AIEL-2023-009"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2024-010-allegation.json",
       "id": "aiel-2024-010-allegation",
@@ -173,7 +173,7 @@
       "ai_incident_law_record_id": "AIEL-2024-010"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2022-011-allegation.json",
       "id": "aiel-2022-011-allegation",
@@ -190,7 +190,7 @@
       "ai_incident_law_record_id": "AIEL-2022-011"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2017-012-allegation.json",
       "id": "aiel-2017-012-allegation",
@@ -207,7 +207,7 @@
       "ai_incident_law_record_id": "AIEL-2017-012"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2023-013-allegation.json",
       "id": "aiel-2023-013-allegation",
@@ -224,7 +224,7 @@
       "ai_incident_law_record_id": "AIEL-2023-013"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2024-014-allegation.json",
       "id": "aiel-2024-014-allegation",
@@ -241,7 +241,7 @@
       "ai_incident_law_record_id": "AIEL-2024-014"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2024-015-allegation.json",
       "id": "aiel-2024-015-allegation",
@@ -258,7 +258,7 @@
       "ai_incident_law_record_id": "AIEL-2024-015"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2025-016-allegation.json",
       "id": "aiel-2025-016-allegation",
@@ -275,7 +275,7 @@
       "ai_incident_law_record_id": "AIEL-2025-016"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2024-017-allegation.json",
       "id": "aiel-2024-017-allegation",
@@ -292,7 +292,7 @@
       "ai_incident_law_record_id": "AIEL-2024-017"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2025-018-allegation.json",
       "id": "aiel-2025-018-allegation",
@@ -309,7 +309,7 @@
       "ai_incident_law_record_id": "AIEL-2025-018"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-019-allegation.json",
       "id": "aiel-2026-019-allegation",
@@ -326,7 +326,7 @@
       "ai_incident_law_record_id": "AIEL-2026-019"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-020-allegation.json",
       "id": "aiel-2026-020-allegation",
@@ -343,7 +343,7 @@
       "ai_incident_law_record_id": "AIEL-2026-020"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-021-allegation.json",
       "id": "aiel-2026-021-allegation",
@@ -360,7 +360,7 @@
       "ai_incident_law_record_id": "AIEL-2026-021"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-022-allegation.json",
       "id": "aiel-2026-022-allegation",
@@ -377,7 +377,7 @@
       "ai_incident_law_record_id": "AIEL-2026-022"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-023-allegation.json",
       "id": "aiel-2026-023-allegation",
@@ -394,7 +394,7 @@
       "ai_incident_law_record_id": "AIEL-2026-023"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-024-allegation.json",
       "id": "aiel-2026-024-allegation",
@@ -411,7 +411,7 @@
       "ai_incident_law_record_id": "AIEL-2026-024"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-025-allegation.json",
       "id": "aiel-2026-025-allegation",
@@ -428,7 +428,7 @@
       "ai_incident_law_record_id": "AIEL-2026-025"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-026-allegation.json",
       "id": "aiel-2026-026-allegation",
@@ -445,7 +445,7 @@
       "ai_incident_law_record_id": "AIEL-2026-026"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-027-allegation.json",
       "id": "aiel-2026-027-allegation",
@@ -462,7 +462,7 @@
       "ai_incident_law_record_id": "AIEL-2026-027"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-028-allegation.json",
       "id": "aiel-2026-028-allegation",
@@ -479,7 +479,7 @@
       "ai_incident_law_record_id": "AIEL-2026-028"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-029-allegation.json",
       "id": "aiel-2026-029-allegation",
@@ -496,7 +496,7 @@
       "ai_incident_law_record_id": "AIEL-2026-029"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-030-allegation.json",
       "id": "aiel-2026-030-allegation",
@@ -513,7 +513,7 @@
       "ai_incident_law_record_id": "AIEL-2026-030"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-031-allegation.json",
       "id": "aiel-2026-031-allegation",
@@ -530,7 +530,7 @@
       "ai_incident_law_record_id": "AIEL-2026-031"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-032-allegation.json",
       "id": "aiel-2026-032-allegation",
@@ -547,7 +547,7 @@
       "ai_incident_law_record_id": "AIEL-2026-032"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-033-allegation.json",
       "id": "aiel-2026-033-allegation",
@@ -564,7 +564,7 @@
       "ai_incident_law_record_id": "AIEL-2026-033"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-034-allegation.json",
       "id": "aiel-2026-034-allegation",
@@ -581,7 +581,7 @@
       "ai_incident_law_record_id": "AIEL-2026-034"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-035-allegation.json",
       "id": "aiel-2026-035-allegation",
@@ -598,7 +598,7 @@
       "ai_incident_law_record_id": "AIEL-2026-035"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-036-allegation.json",
       "id": "aiel-2026-036-allegation",
@@ -615,7 +615,7 @@
       "ai_incident_law_record_id": "AIEL-2026-036"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-037-allegation.json",
       "id": "aiel-2026-037-allegation",
@@ -632,7 +632,7 @@
       "ai_incident_law_record_id": "AIEL-2026-037"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-038-allegation.json",
       "id": "aiel-2026-038-allegation",
@@ -649,7 +649,7 @@
       "ai_incident_law_record_id": "AIEL-2026-038"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-040-allegation.json",
       "id": "aiel-2026-040-allegation",
@@ -666,7 +666,7 @@
       "ai_incident_law_record_id": "AIEL-2026-040"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-041-allegation.json",
       "id": "aiel-2026-041-allegation",
@@ -683,7 +683,7 @@
       "ai_incident_law_record_id": "AIEL-2026-041"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-042-allegation.json",
       "id": "aiel-2026-042-allegation",
@@ -700,7 +700,7 @@
       "ai_incident_law_record_id": "AIEL-2026-042"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-043-allegation.json",
       "id": "aiel-2026-043-allegation",
@@ -717,7 +717,7 @@
       "ai_incident_law_record_id": "AIEL-2026-043"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-044-allegation.json",
       "id": "aiel-2026-044-allegation",
@@ -734,7 +734,7 @@
       "ai_incident_law_record_id": "AIEL-2026-044"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-045-allegation.json",
       "id": "aiel-2026-045-allegation",
@@ -751,7 +751,7 @@
       "ai_incident_law_record_id": "AIEL-2026-045"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-046-allegation.json",
       "id": "aiel-2026-046-allegation",
@@ -768,7 +768,7 @@
       "ai_incident_law_record_id": "AIEL-2026-046"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-047-allegation.json",
       "id": "aiel-2026-047-allegation",
@@ -785,7 +785,7 @@
       "ai_incident_law_record_id": "AIEL-2026-047"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-048-allegation.json",
       "id": "aiel-2026-048-allegation",
@@ -802,7 +802,7 @@
       "ai_incident_law_record_id": "AIEL-2026-048"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-049-allegation.json",
       "id": "aiel-2026-049-allegation",
@@ -819,7 +819,7 @@
       "ai_incident_law_record_id": "AIEL-2026-049"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-050-allegation.json",
       "id": "aiel-2026-050-allegation",
@@ -836,7 +836,7 @@
       "ai_incident_law_record_id": "AIEL-2026-050"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-051-allegation.json",
       "id": "aiel-2026-051-allegation",
@@ -853,7 +853,7 @@
       "ai_incident_law_record_id": "AIEL-2026-051"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-052-allegation.json",
       "id": "aiel-2026-052-allegation",
@@ -870,7 +870,7 @@
       "ai_incident_law_record_id": "AIEL-2026-052"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-053-allegation.json",
       "id": "aiel-2026-053-allegation",
@@ -887,7 +887,7 @@
       "ai_incident_law_record_id": "AIEL-2026-053"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-054-allegation.json",
       "id": "aiel-2026-054-allegation",
@@ -904,7 +904,7 @@
       "ai_incident_law_record_id": "AIEL-2026-054"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-055-allegation.json",
       "id": "aiel-2026-055-allegation",
@@ -921,7 +921,7 @@
       "ai_incident_law_record_id": "AIEL-2026-055"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-056-allegation.json",
       "id": "aiel-2026-056-allegation",
@@ -938,7 +938,7 @@
       "ai_incident_law_record_id": "AIEL-2026-056"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-057-allegation.json",
       "id": "aiel-2026-057-allegation",
@@ -955,7 +955,7 @@
       "ai_incident_law_record_id": "AIEL-2026-057"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-058-allegation.json",
       "id": "aiel-2026-058-allegation",
@@ -972,7 +972,7 @@
       "ai_incident_law_record_id": "AIEL-2026-058"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-059-allegation.json",
       "id": "aiel-2026-059-allegation",

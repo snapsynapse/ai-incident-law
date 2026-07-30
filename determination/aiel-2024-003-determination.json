@@ -1,5 +1,5 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2024-003-determination.json",
   "id": "aiel-2024-003-determination",
@@ -21,6 +21,6 @@
   "source": "https://law.justia.com/cases/federal/appellate-courts/ca2/22-2057/22-2057-2024-01-30.html",
   "ai_incident_law_record_id": "AIEL-2024-003",
   "anchors": [
-    "https://everyailaw.com/obligation/human-oversight.json"
+    "https://everyailaw.com/obligation-category/human-oversight.json"
   ]
 }

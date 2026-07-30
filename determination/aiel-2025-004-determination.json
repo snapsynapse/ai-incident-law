@@ -1,5 +1,5 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2025-004-determination.json",
   "id": "aiel-2025-004-determination",
@@ -21,6 +21,6 @@
   "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
   "ai_incident_law_record_id": "AIEL-2025-004",
   "anchors": [
-    "https://everyailaw.com/obligation/human-oversight.json"
+    "https://everyailaw.com/obligation-category/human-oversight.json"
   ]
 }

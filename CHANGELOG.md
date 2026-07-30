@@ -18,6 +18,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+- Broad AI Incident Law anchors now resolve to EveryAILaw `of:ObligationCategory` records instead of legacy category-shaped `of:Obligation` paths. Concrete `of:Obligation` anchors remain available when a matter has a defensible nexus to the specific Term that creates the duty.
+- Generated Obligation-First records and the naming profile now use the canonical JSON-LD context document at `https://obligationfirst.org/v1/context.jsonld`.
+
 ### Removed
 - `AIEL-2026-039` retired. It duplicated `AIEL-2026-026` — the same Rule 11 sanctions opinion, same docket (`1:24-cv-08705-JLR-GWG`), same date, same $2,500 sanction, same attorney, same source document. The two records were merged into `AIEL-2026-026`, which carries the merged tag set and a note recording the merge. The identifier is retired and will not be reused; its generated Obligation-First artifacts were removed.
 

@@ -1,5 +1,5 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2026-043-determination.json",
   "id": "aiel-2026-043-determination",
@@ -21,6 +21,6 @@
   "source": "https://media.ca7.uscourts.gov/cgi-bin/OpinionsWeb/processWebInputExternal.pl?Submit=Display&Path=Y2026/D06-01/C:25-1988:J:Brennan:aut:T:fnOp:N:3550588:S:0",
   "ai_incident_law_record_id": "AIEL-2026-043",
   "anchors": [
-    "https://everyailaw.com/obligation/human-oversight.json"
+    "https://everyailaw.com/obligation-category/human-oversight.json"
   ]
 }

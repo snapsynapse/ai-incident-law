@@ -1,5 +1,5 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2026-027-determination.json",
   "id": "aiel-2026-027-determination",
@@ -21,6 +21,6 @@
   "source": "https://publicportal-api.alappeals.gov/courts/68f021c4-6a44-4735-9a76-5360b2e8af13/cms/case/47683afc-2f85-469d-8562-9dca094bb680/docketentrydocuments/d95cdd15-7428-4cc9-8389-3cc27ac88089",
   "ai_incident_law_record_id": "AIEL-2026-027",
   "anchors": [
-    "https://everyailaw.com/obligation/human-oversight.json"
+    "https://everyailaw.com/obligation-category/human-oversight.json"
   ]
 }

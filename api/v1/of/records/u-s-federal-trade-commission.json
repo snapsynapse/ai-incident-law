@@ -1,5 +1,5 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "@type": "of:Authority",
   "@id": "https://aiincidentlaw.org/authority/u-s-federal-trade-commission.json",
   "id": "u-s-federal-trade-commission",

@@ -1,5 +1,5 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "@type": "of:Authority",
   "@id": "https://aiincidentlaw.org/authority/court-of-appeals-of-ohio-eleventh-appellate-district.json",
   "id": "court-of-appeals-of-ohio-eleventh-appellate-district",

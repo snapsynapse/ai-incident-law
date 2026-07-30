@@ -1,5 +1,5 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2022-011-determination.json",
   "id": "aiel-2022-011-determination",
@@ -21,8 +21,8 @@
   "source": "https://michigan.gov/ag/news/press-releases/2022/10/20/som-settlement-of-civil-rights-class-action-alleging-false-accusations-of-unemployment-fraud",
   "ai_incident_law_record_id": "AIEL-2022-011",
   "anchors": [
-    "https://everyailaw.com/obligation/human-oversight.json",
-    "https://everyailaw.com/obligation/explainability.json",
-    "https://everyailaw.com/obligation/bias-prevention.json"
+    "https://everyailaw.com/obligation-category/human-oversight.json",
+    "https://everyailaw.com/obligation-category/explainability.json",
+    "https://everyailaw.com/obligation-category/bias-prevention.json"
   ]
 }

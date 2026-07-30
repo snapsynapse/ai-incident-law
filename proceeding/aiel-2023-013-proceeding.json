@@ -1,5 +1,5 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "@type": "of:Proceeding",
   "@id": "https://aiincidentlaw.org/proceeding/aiel-2023-013-proceeding.json",
   "id": "aiel-2023-013-proceeding",

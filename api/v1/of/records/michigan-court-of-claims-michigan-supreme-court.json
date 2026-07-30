@@ -1,5 +1,5 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "@type": "of:Authority",
   "@id": "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json",
   "id": "michigan-court-of-claims-michigan-supreme-court",

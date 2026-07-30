@@ -102,7 +102,7 @@ These appear mainly on `review` and `global` records.
 | `source_language` | Source language for untranslated materials |
 | `translation_status` | Translation completeness or confidence |
 | `authority_type` | Court, agency, regulator, press, or similar source authority label |
-| `obligation_first_anchors` | Optional array or semicolon-delimited list of Obligation-First `of:Obligation` IRIs interpreted or applied by the matter's Determination |
+| `obligation_first_anchors` | Optional array or semicolon-delimited list of EveryAILaw Obligation-First IRIs interpreted or applied by the matter's Determination |
 
 ## Required versus expected
 
@@ -131,11 +131,13 @@ Example:
 
 ```json
 "obligation_first_anchors": [
-  "https://everyailaw.com/obligation/bias-prevention.json"
+  "https://everyailaw.com/obligation-category/bias-prevention.json"
 ]
 ```
 
-Anchor selection policy: add anchors only when the matter's public record applies or interprets a specific Obligation-First obligation with high confidence. Do not anchor generic litigation-process duties or weak topical similarity. Current evals require EveryAILaw `of:Obligation` IRIs and reject anchors on pending matters that do not generate Determinations.
+Use an EveryAILaw `of:ObligationCategory` IRI when the evidence identifies a broad concept such as human oversight, transparency, or bias prevention. Use a concrete `of:Obligation` IRI only when the public matter can be tied to the specific statutory or regulatory Term that creates it. This keeps category-level interpretation distinct from claims that a particular legal duty was applied.
+
+Anchor selection policy: add anchors only when the public record supports the relationship with high confidence. Select a concrete Obligation for a specific statutory nexus and an ObligationCategory for a broader duty concept. Do not anchor generic litigation-process duties or weak topical similarity. Current evals require valid EveryAILaw Obligation or ObligationCategory IRIs, reject legacy category-shaped Obligation paths, and reject anchors on pending matters that do not generate Determinations.
 
 ## Editing rules
 

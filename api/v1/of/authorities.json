@@ -1,9 +1,9 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "generated": "2026-07-25",
   "authorities": [
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/british-columbia-civil-resolution-tribunal.json",
       "id": "british-columbia-civil-resolution-tribunal",
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
       "id": "u-s-district-court-southern-district-of-new-york",
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-second-circuit.json",
       "id": "u-s-court-of-appeals-for-the-second-circuit",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-wyoming.json",
       "id": "u-s-district-court-district-of-wyoming",
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-fifth-circuit.json",
       "id": "u-s-court-of-appeals-for-the-fifth-circuit",
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json",
       "id": "armed-services-board-of-contract-appeals",
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json",
       "id": "u-s-district-court-northern-district-of-california",
@@ -150,7 +150,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida-florida-supreme-court.json",
       "id": "u-s-district-court-middle-district-of-florida-florida-supreme-court",
@@ -168,7 +168,7 @@
       }
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json",
       "id": "eeoc-u-s-district-court-eastern-district-of-new-york",
@@ -186,7 +186,7 @@
       }
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts-doj-hud.json",
       "id": "u-s-district-court-district-of-massachusetts-doj-hud",
@@ -204,7 +204,7 @@
       }
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json",
       "id": "michigan-court-of-claims-michigan-supreme-court",
@@ -222,7 +222,7 @@
       }
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json",
       "id": "arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit",
@@ -240,7 +240,7 @@
       }
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-federal-trade-commission.json",
       "id": "u-s-federal-trade-commission",
@@ -261,7 +261,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json",
       "id": "u-s-district-court-eastern-district-of-michigan",
@@ -282,7 +282,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-new-jersey.json",
       "id": "u-s-district-court-district-of-new-jersey",
@@ -303,7 +303,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/harris-county-texas-state-court-remanded-from-s-d-tex.json",
       "id": "harris-county-texas-state-court-remanded-from-s-d-tex",
@@ -321,7 +321,7 @@
       }
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-texas.json",
       "id": "u-s-district-court-western-district-of-texas",
@@ -342,7 +342,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/supreme-court-of-oklahoma.json",
       "id": "supreme-court-of-oklahoma",
@@ -363,7 +363,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/ohio-court-of-appeals-sixth-appellate-district.json",
       "id": "ohio-court-of-appeals-sixth-appellate-district",
@@ -384,7 +384,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-sixth-circuit.json",
       "id": "u-s-court-of-appeals-for-the-sixth-circuit",
@@ -405,7 +405,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-central-district-of-california.json",
       "id": "u-s-district-court-central-district-of-california",
@@ -426,7 +426,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/supreme-court-of-alabama.json",
       "id": "supreme-court-of-alabama",
@@ -447,7 +447,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json",
       "id": "u-s-district-court-eastern-district-of-pennsylvania",
@@ -468,7 +468,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-illinois.json",
       "id": "u-s-district-court-northern-district-of-illinois",
@@ -489,7 +489,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/appellate-court-of-illinois-third-district.json",
       "id": "appellate-court-of-illinois-third-district",
@@ -510,7 +510,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-western-district-of-louisiana.json",
       "id": "u-s-bankruptcy-court-western-district-of-louisiana",
@@ -528,7 +528,7 @@
       }
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/california-court-of-appeal-fourth-appellate-district-division-one.json",
       "id": "california-court-of-appeal-fourth-appellate-district-division-one",
@@ -549,7 +549,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-louisiana.json",
       "id": "u-s-district-court-western-district-of-louisiana",
@@ -570,7 +570,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-louisiana.json",
       "id": "u-s-district-court-eastern-district-of-louisiana",
@@ -591,7 +591,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/court-of-appeals-of-ohio-eleventh-appellate-district.json",
       "id": "court-of-appeals-of-ohio-eleventh-appellate-district",
@@ -612,7 +612,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-oregon.json",
       "id": "u-s-district-court-district-of-oregon",
@@ -633,7 +633,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-alabama.json",
       "id": "u-s-district-court-southern-district-of-alabama",
@@ -654,7 +654,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-alabama.json",
       "id": "u-s-district-court-northern-district-of-alabama",
@@ -675,7 +675,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-colorado.json",
       "id": "u-s-district-court-district-of-colorado",
@@ -696,7 +696,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-indiana.json",
       "id": "u-s-district-court-southern-district-of-indiana",
@@ -717,7 +717,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-seventh-circuit.json",
       "id": "u-s-court-of-appeals-for-the-seventh-circuit",
@@ -738,7 +738,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/new-york-supreme-court-appellate-division-third-department.json",
       "id": "new-york-supreme-court-appellate-division-third-department",
@@ -759,7 +759,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json",
       "id": "u-s-district-court-middle-district-of-florida",
@@ -780,7 +780,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-kansas.json",
       "id": "u-s-district-court-district-of-kansas",
@@ -801,7 +801,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-tenth-circuit.json",
       "id": "u-s-court-of-appeals-for-the-tenth-circuit",
@@ -822,7 +822,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/california-court-of-appeal-second-appellate-district.json",
       "id": "california-court-of-appeal-second-appellate-district",
@@ -843,7 +843,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-indiana.json",
       "id": "u-s-district-court-northern-district-of-indiana",
@@ -864,7 +864,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-southern-district-of-texas.json",
       "id": "u-s-bankruptcy-court-southern-district-of-texas",
@@ -882,7 +882,7 @@
       }
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/california-court-of-appeal-first-appellate-district.json",
       "id": "california-court-of-appeal-first-appellate-district",
@@ -900,7 +900,7 @@
       }
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-eleventh-circuit.json",
       "id": "u-s-court-of-appeals-for-the-eleventh-circuit",
@@ -918,7 +918,7 @@
       }
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/supreme-court-of-georgia.json",
       "id": "supreme-court-of-georgia",
@@ -936,7 +936,7 @@
       }
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-mississippi.json",
       "id": "u-s-district-court-northern-district-of-mississippi",
@@ -954,7 +954,7 @@
       }
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-government-accountability-office.json",
       "id": "u-s-government-accountability-office",
@@ -972,7 +972,7 @@
       }
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-pennsylvania.json",
       "id": "u-s-district-court-western-district-of-pennsylvania",

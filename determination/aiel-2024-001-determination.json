@@ -1,5 +1,5 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2024-001-determination.json",
   "id": "aiel-2024-001-determination",
@@ -21,7 +21,7 @@
   "source": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
   "ai_incident_law_record_id": "AIEL-2024-001",
   "anchors": [
-    "https://everyailaw.com/obligation/transparency.json"
+    "https://everyailaw.com/obligation-category/transparency.json"
   ],
   "neutral_citation": "2024 BCCRT 149",
   "sameAs": [

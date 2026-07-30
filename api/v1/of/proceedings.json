@@ -1,9 +1,9 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "generated": "2026-07-25",
   "proceedings": [
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-001-proceeding.json",
       "id": "aiel-2024-001-proceeding",
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2023-002-proceeding.json",
       "id": "aiel-2023-002-proceeding",
@@ -53,7 +53,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-003-proceeding.json",
       "id": "aiel-2024-003-proceeding",
@@ -76,7 +76,7 @@
       "status": "ordered"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2025-004-proceeding.json",
       "id": "aiel-2025-004-proceeding",
@@ -99,7 +99,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-005-proceeding.json",
       "id": "aiel-2026-005-proceeding",
@@ -122,7 +122,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2025-006-proceeding.json",
       "id": "aiel-2025-006-proceeding",
@@ -145,7 +145,7 @@
       "status": "ordered"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2025-007-proceeding.json",
       "id": "aiel-2025-007-proceeding",
@@ -168,7 +168,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-008-proceeding.json",
       "id": "aiel-2024-008-proceeding",
@@ -191,7 +191,7 @@
       "status": "resolved"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2023-009-proceeding.json",
       "id": "aiel-2023-009-proceeding",
@@ -214,7 +214,7 @@
       "status": "settled"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-010-proceeding.json",
       "id": "aiel-2024-010-proceeding",
@@ -237,7 +237,7 @@
       "status": "settled"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2022-011-proceeding.json",
       "id": "aiel-2022-011-proceeding",
@@ -260,7 +260,7 @@
       "status": "settled"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2017-012-proceeding.json",
       "id": "aiel-2017-012-proceeding",
@@ -283,7 +283,7 @@
       "status": "resolved"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2023-013-proceeding.json",
       "id": "aiel-2023-013-proceeding",
@@ -306,7 +306,7 @@
       "status": "settled"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-014-proceeding.json",
       "id": "aiel-2024-014-proceeding",
@@ -329,7 +329,7 @@
       "status": "settled"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-015-proceeding.json",
       "id": "aiel-2024-015-proceeding",
@@ -350,7 +350,7 @@
       "status": "pending"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2025-016-proceeding.json",
       "id": "aiel-2025-016-proceeding",
@@ -373,7 +373,7 @@
       "status": "dismissed / appeal flagged"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-017-proceeding.json",
       "id": "aiel-2024-017-proceeding",
@@ -394,7 +394,7 @@
       "status": "pending"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2025-018-proceeding.json",
       "id": "aiel-2025-018-proceeding",
@@ -415,7 +415,7 @@
       "status": "pending"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-019-proceeding.json",
       "id": "aiel-2026-019-proceeding",
@@ -438,7 +438,7 @@
       "status": "filed"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-020-proceeding.json",
       "id": "aiel-2026-020-proceeding",
@@ -461,7 +461,7 @@
       "status": "filed"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-021-proceeding.json",
       "id": "aiel-2026-021-proceeding",
@@ -485,7 +485,7 @@
       "neutral_citation": "2026 OK 37"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-022-proceeding.json",
       "id": "aiel-2026-022-proceeding",
@@ -509,7 +509,7 @@
       "neutral_citation": "2026-Ohio-1930"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-023-proceeding.json",
       "id": "aiel-2026-023-proceeding",
@@ -532,7 +532,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-024-proceeding.json",
       "id": "aiel-2026-024-proceeding",
@@ -555,7 +555,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-025-proceeding.json",
       "id": "aiel-2026-025-proceeding",
@@ -578,7 +578,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-026-proceeding.json",
       "id": "aiel-2026-026-proceeding",
@@ -601,7 +601,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-027-proceeding.json",
       "id": "aiel-2026-027-proceeding",
@@ -624,7 +624,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-028-proceeding.json",
       "id": "aiel-2026-028-proceeding",
@@ -647,7 +647,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-029-proceeding.json",
       "id": "aiel-2026-029-proceeding",
@@ -670,7 +670,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-030-proceeding.json",
       "id": "aiel-2026-030-proceeding",
@@ -694,7 +694,7 @@
       "neutral_citation": "2026 IL App (3d) 240628-U"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-031-proceeding.json",
       "id": "aiel-2026-031-proceeding",
@@ -717,7 +717,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-032-proceeding.json",
       "id": "aiel-2026-032-proceeding",
@@ -740,7 +740,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-033-proceeding.json",
       "id": "aiel-2026-033-proceeding",
@@ -763,7 +763,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-034-proceeding.json",
       "id": "aiel-2026-034-proceeding",
@@ -786,7 +786,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-035-proceeding.json",
       "id": "aiel-2026-035-proceeding",
@@ -810,7 +810,7 @@
       "neutral_citation": "2026-Ohio-965"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-036-proceeding.json",
       "id": "aiel-2026-036-proceeding",
@@ -833,7 +833,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-037-proceeding.json",
       "id": "aiel-2026-037-proceeding",
@@ -856,7 +856,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-038-proceeding.json",
       "id": "aiel-2026-038-proceeding",
@@ -879,7 +879,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-040-proceeding.json",
       "id": "aiel-2026-040-proceeding",
@@ -902,7 +902,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-041-proceeding.json",
       "id": "aiel-2026-041-proceeding",
@@ -925,7 +925,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-042-proceeding.json",
       "id": "aiel-2026-042-proceeding",
@@ -948,7 +948,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-043-proceeding.json",
       "id": "aiel-2026-043-proceeding",
@@ -971,7 +971,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-044-proceeding.json",
       "id": "aiel-2026-044-proceeding",
@@ -994,7 +994,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-045-proceeding.json",
       "id": "aiel-2026-045-proceeding",
@@ -1017,7 +1017,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-046-proceeding.json",
       "id": "aiel-2026-046-proceeding",
@@ -1040,7 +1040,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-047-proceeding.json",
       "id": "aiel-2026-047-proceeding",
@@ -1063,7 +1063,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-048-proceeding.json",
       "id": "aiel-2026-048-proceeding",
@@ -1086,7 +1086,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-049-proceeding.json",
       "id": "aiel-2026-049-proceeding",
@@ -1109,7 +1109,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-050-proceeding.json",
       "id": "aiel-2026-050-proceeding",
@@ -1132,7 +1132,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-051-proceeding.json",
       "id": "aiel-2026-051-proceeding",
@@ -1155,7 +1155,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-052-proceeding.json",
       "id": "aiel-2026-052-proceeding",
@@ -1178,7 +1178,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-053-proceeding.json",
       "id": "aiel-2026-053-proceeding",
@@ -1201,7 +1201,7 @@
       "status": "referred for discipline"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-054-proceeding.json",
       "id": "aiel-2026-054-proceeding",
@@ -1224,7 +1224,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-055-proceeding.json",
       "id": "aiel-2026-055-proceeding",
@@ -1247,7 +1247,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-056-proceeding.json",
       "id": "aiel-2026-056-proceeding",
@@ -1270,7 +1270,7 @@
       "status": "admonished"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-057-proceeding.json",
       "id": "aiel-2026-057-proceeding",
@@ -1293,7 +1293,7 @@
       "status": "warned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-058-proceeding.json",
       "id": "aiel-2026-058-proceeding",
@@ -1316,7 +1316,7 @@
       "status": "sanctioned"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-059-proceeding.json",
       "id": "aiel-2026-059-proceeding",

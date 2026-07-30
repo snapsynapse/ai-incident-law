@@ -4,7 +4,7 @@ const SOURCE_PATH = new URL("../data/data.json", import.meta.url);
 const ROOT_DIR = new URL("../", import.meta.url);
 const API_DIR = new URL("../api/v1/of/", import.meta.url);
 const RECORDS_DIR = new URL("./records/", API_DIR);
-const OF_CONTEXT = "https://obligationfirst.org/v1/";
+const OF_CONTEXT = "https://obligationfirst.org/v1/context.jsonld";
 const SITE_BASE = "https://aiincidentlaw.org";
 const COMPANION_DIRS = {
   authorities: "authority",

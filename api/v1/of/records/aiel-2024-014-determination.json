@@ -1,5 +1,5 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2024-014-determination.json",
   "id": "aiel-2024-014-determination",
@@ -21,7 +21,7 @@
   "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
   "ai_incident_law_record_id": "AIEL-2024-014",
   "anchors": [
-    "https://everyailaw.com/obligation/bias-prevention.json",
-    "https://everyailaw.com/obligation/human-oversight.json"
+    "https://everyailaw.com/obligation-category/bias-prevention.json",
+    "https://everyailaw.com/obligation-category/human-oversight.json"
   ]
 }

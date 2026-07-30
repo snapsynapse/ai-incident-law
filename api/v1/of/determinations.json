@@ -1,9 +1,9 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "generated": "2026-07-25",
   "determinations": [
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2024-001-determination.json",
       "id": "aiel-2024-001-determination",
@@ -25,7 +25,7 @@
       "source": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
       "ai_incident_law_record_id": "AIEL-2024-001",
       "anchors": [
-        "https://everyailaw.com/obligation/transparency.json"
+        "https://everyailaw.com/obligation-category/transparency.json"
       ],
       "neutral_citation": "2024 BCCRT 149",
       "sameAs": [
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2023-002-determination.json",
       "id": "aiel-2023-002-determination",
@@ -55,11 +55,11 @@
       "source": "https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1:2022cv01461/575368/54/",
       "ai_incident_law_record_id": "AIEL-2023-002",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2024-003-determination.json",
       "id": "aiel-2024-003-determination",
@@ -81,11 +81,11 @@
       "source": "https://law.justia.com/cases/federal/appellate-courts/ca2/22-2057/22-2057-2024-01-30.html",
       "ai_incident_law_record_id": "AIEL-2024-003",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2025-004-determination.json",
       "id": "aiel-2025-004-determination",
@@ -107,11 +107,11 @@
       "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
       "ai_incident_law_record_id": "AIEL-2025-004",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-005-determination.json",
       "id": "aiel-2026-005-determination",
@@ -133,11 +133,11 @@
       "source": "https://www.ca5.uscourts.gov/opinions/pub/25/25-20086-CV0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-005",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2025-006-determination.json",
       "id": "aiel-2025-006-determination",
@@ -159,11 +159,11 @@
       "source": "https://www.asbca.mil/LinkClick.aspx?fileticket=eAIy2KSL_Zg%3D&portalid=143",
       "ai_incident_law_record_id": "AIEL-2025-006",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2025-007-determination.json",
       "id": "aiel-2025-007-determination",
@@ -185,11 +185,11 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.409525/gov.uscourts.cand.409525.96.0.pdf",
       "ai_incident_law_record_id": "AIEL-2025-007",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2024-008-determination.json",
       "id": "aiel-2024-008-determination",
@@ -211,11 +211,11 @@
       "source": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
       "ai_incident_law_record_id": "AIEL-2024-008",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2023-009-determination.json",
       "id": "aiel-2023-009-determination",
@@ -237,11 +237,11 @@
       "source": "https://eeoc.gov/newsroom/itutorgroup-pay-365000-settle-eeoc-discriminatory-hiring-suit",
       "ai_incident_law_record_id": "AIEL-2023-009",
       "anchors": [
-        "https://everyailaw.com/obligation/bias-prevention.json"
+        "https://everyailaw.com/obligation-category/bias-prevention.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2024-010-determination.json",
       "id": "aiel-2024-010-determination",
@@ -263,11 +263,11 @@
       "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
       "ai_incident_law_record_id": "AIEL-2024-010",
       "anchors": [
-        "https://everyailaw.com/obligation/bias-prevention.json"
+        "https://everyailaw.com/obligation-category/bias-prevention.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2022-011-determination.json",
       "id": "aiel-2022-011-determination",
@@ -289,13 +289,13 @@
       "source": "https://michigan.gov/ag/news/press-releases/2022/10/20/som-settlement-of-civil-rights-class-action-alleging-false-accusations-of-unemployment-fraud",
       "ai_incident_law_record_id": "AIEL-2022-011",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json",
-        "https://everyailaw.com/obligation/explainability.json",
-        "https://everyailaw.com/obligation/bias-prevention.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json",
+        "https://everyailaw.com/obligation-category/explainability.json",
+        "https://everyailaw.com/obligation-category/bias-prevention.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2017-012-determination.json",
       "id": "aiel-2017-012-determination",
@@ -317,12 +317,12 @@
       "source": "https://law.justia.com/cases/arkansas/supreme-court/2017/cv-17-183.html",
       "ai_incident_law_record_id": "AIEL-2017-012",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json",
-        "https://everyailaw.com/obligation/explainability.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json",
+        "https://everyailaw.com/obligation-category/explainability.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2023-013-determination.json",
       "id": "aiel-2023-013-determination",
@@ -344,11 +344,11 @@
       "source": "https://ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without",
       "ai_incident_law_record_id": "AIEL-2023-013",
       "anchors": [
-        "https://everyailaw.com/obligation/bias-prevention.json"
+        "https://everyailaw.com/obligation-category/bias-prevention.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2024-014-determination.json",
       "id": "aiel-2024-014-determination",
@@ -370,12 +370,12 @@
       "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
       "ai_incident_law_record_id": "AIEL-2024-014",
       "anchors": [
-        "https://everyailaw.com/obligation/bias-prevention.json",
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/bias-prevention.json",
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2025-016-determination.json",
       "id": "aiel-2025-016-determination",
@@ -397,12 +397,12 @@
       "source": "https://aclu.org/cases/woodruff-v-oliver",
       "ai_incident_law_record_id": "AIEL-2025-016",
       "anchors": [
-        "https://everyailaw.com/obligation/bias-prevention.json",
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/bias-prevention.json",
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-019-determination.json",
       "id": "aiel-2026-019-determination",
@@ -424,11 +424,11 @@
       "source": "https://courtlistener.com/docket/73387361/swanson-v-international-business-machines-corporation/",
       "ai_incident_law_record_id": "AIEL-2026-019",
       "anchors": [
-        "https://everyailaw.com/obligation/bias-prevention.json"
+        "https://everyailaw.com/obligation-category/bias-prevention.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-020-determination.json",
       "id": "aiel-2026-020-determination",
@@ -451,7 +451,7 @@
       "ai_incident_law_record_id": "AIEL-2026-020"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-021-determination.json",
       "id": "aiel-2026-021-determination",
@@ -473,12 +473,12 @@
       "source": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=551746",
       "ai_incident_law_record_id": "AIEL-2026-021",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ],
       "neutral_citation": "2026 OK 37"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-022-determination.json",
       "id": "aiel-2026-022-determination",
@@ -500,12 +500,12 @@
       "source": "https://supremecourt.ohio.gov/rod/docs/pdf/6/2026/2026-Ohio-1930.pdf",
       "ai_incident_law_record_id": "AIEL-2026-022",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ],
       "neutral_citation": "2026-Ohio-1930"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-023-determination.json",
       "id": "aiel-2026-023-determination",
@@ -527,11 +527,11 @@
       "source": "https://www.opn.ca6.uscourts.gov/opinions.pdf/26a0105p-06.pdf",
       "ai_incident_law_record_id": "AIEL-2026-023",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-024-determination.json",
       "id": "aiel-2026-024-determination",
@@ -553,11 +553,11 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.422617/gov.uscourts.cand.422617.230.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-024",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-025-determination.json",
       "id": "aiel-2026-025-determination",
@@ -579,11 +579,11 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.cacd.951252/gov.uscourts.cacd.951252.46.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-025",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-026-determination.json",
       "id": "aiel-2026-026-determination",
@@ -605,11 +605,11 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.631979/gov.uscourts.nysd.631979.192.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-026",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-027-determination.json",
       "id": "aiel-2026-027-determination",
@@ -631,11 +631,11 @@
       "source": "https://publicportal-api.alappeals.gov/courts/68f021c4-6a44-4735-9a76-5360b2e8af13/cms/case/47683afc-2f85-469d-8562-9dca094bb680/docketentrydocuments/d95cdd15-7428-4cc9-8389-3cc27ac88089",
       "ai_incident_law_record_id": "AIEL-2026-027",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-028-determination.json",
       "id": "aiel-2026-028-determination",
@@ -657,11 +657,11 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.paed.609239/gov.uscourts.paed.609239.225.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-028",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-029-determination.json",
       "id": "aiel-2026-029-determination",
@@ -683,11 +683,11 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.475370/gov.uscourts.ilnd.475370.97.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-029",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-030-determination.json",
       "id": "aiel-2026-030-determination",
@@ -709,12 +709,12 @@
       "source": "https://illinoiscourts.gov/resources/63539016-cb02-4575-b3da-0dd0632244c1/file",
       "ai_incident_law_record_id": "AIEL-2026-030",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ],
       "neutral_citation": "2026 IL App (3d) 240628-U"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-031-determination.json",
       "id": "aiel-2026-031-determination",
@@ -736,11 +736,11 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.lawb.374130/gov.uscourts.lawb.374130.84.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-031",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-032-determination.json",
       "id": "aiel-2026-032-determination",
@@ -762,11 +762,11 @@
       "source": "https://courts.ca.gov/opinions/archive/D085584.PDF",
       "ai_incident_law_record_id": "AIEL-2026-032",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-033-determination.json",
       "id": "aiel-2026-033-determination",
@@ -788,11 +788,11 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.lawd.213966/gov.uscourts.lawd.213966.28.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-033",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-034-determination.json",
       "id": "aiel-2026-034-determination",
@@ -814,11 +814,11 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.laed.273860/gov.uscourts.laed.273860.25.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-034",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-035-determination.json",
       "id": "aiel-2026-035-determination",
@@ -840,12 +840,12 @@
       "source": "https://supremecourt.ohio.gov/rod/docs/pdf/11/2026/2026-Ohio-965.pdf",
       "ai_incident_law_record_id": "AIEL-2026-035",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ],
       "neutral_citation": "2026-Ohio-965"
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-036-determination.json",
       "id": "aiel-2026-036-determination",
@@ -867,11 +867,11 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.ord.158388/gov.uscourts.ord.158388.225.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-036",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-037-determination.json",
       "id": "aiel-2026-037-determination",
@@ -893,11 +893,11 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.alsd.70919/gov.uscourts.alsd.70919.353.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-037",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-038-determination.json",
       "id": "aiel-2026-038-determination",
@@ -919,11 +919,11 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.alnd.192599/gov.uscourts.alnd.192599.116.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-038",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-040-determination.json",
       "id": "aiel-2026-040-determination",
@@ -945,11 +945,11 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.cod.215068/gov.uscourts.cod.215068.424.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-040",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-041-determination.json",
       "id": "aiel-2026-041-determination",
@@ -971,11 +971,11 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.605627/gov.uscourts.nysd.605627.142.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-041",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-042-determination.json",
       "id": "aiel-2026-042-determination",
@@ -997,11 +997,11 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.insd.217901/gov.uscourts.insd.217901.127.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-042",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-043-determination.json",
       "id": "aiel-2026-043-determination",
@@ -1023,11 +1023,11 @@
       "source": "https://media.ca7.uscourts.gov/cgi-bin/OpinionsWeb/processWebInputExternal.pl?Submit=Display&Path=Y2026/D06-01/C:25-1988:J:Brennan:aut:T:fnOp:N:3550588:S:0",
       "ai_incident_law_record_id": "AIEL-2026-043",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-044-determination.json",
       "id": "aiel-2026-044-determination",
@@ -1049,11 +1049,11 @@
       "source": "https://nycourts.gov/reporter/3dseries/2026/2026_00040.htm",
       "ai_incident_law_record_id": "AIEL-2026-044",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-045-determination.json",
       "id": "aiel-2026-045-determination",
@@ -1075,11 +1075,11 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-045",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-046-determination.json",
       "id": "aiel-2026-046-determination",
@@ -1101,11 +1101,11 @@
       "source": "https://govinfo.gov/content/pkg/USCOURTS-paed-2_25-cv-05135/pdf/USCOURTS-paed-2_25-cv-05135-0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-046",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-047-determination.json",
       "id": "aiel-2026-047-determination",
@@ -1127,11 +1127,11 @@
       "source": "https://govinfo.gov/content/pkg/USCOURTS-ksd-2_22-cv-02324/pdf/USCOURTS-ksd-2_22-cv-02324-9.pdf",
       "ai_incident_law_record_id": "AIEL-2026-047",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-048-determination.json",
       "id": "aiel-2026-048-determination",
@@ -1153,11 +1153,11 @@
       "source": "https://ca10.uscourts.gov/sites/ca10/files/opinions/010111382504.pdf",
       "ai_incident_law_record_id": "AIEL-2026-048",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-049-determination.json",
       "id": "aiel-2026-049-determination",
@@ -1179,11 +1179,11 @@
       "source": "https://courts.ca.gov/opinions/nonpub/B329314.PDF",
       "ai_incident_law_record_id": "AIEL-2026-049",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-050-determination.json",
       "id": "aiel-2026-050-determination",
@@ -1205,11 +1205,11 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.innd.124045/gov.uscourts.innd.124045.26.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-050",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-051-determination.json",
       "id": "aiel-2026-051-determination",
@@ -1231,11 +1231,11 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.txsb.485264/gov.uscourts.txsb.485264.312.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-051",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-052-determination.json",
       "id": "aiel-2026-052-determination",
@@ -1257,11 +1257,11 @@
       "source": "https://courts.ca.gov/opinions/documents/A174647.PDF",
       "ai_incident_law_record_id": "AIEL-2026-052",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-053-determination.json",
       "id": "aiel-2026-053-determination",
@@ -1283,11 +1283,11 @@
       "source": "https://media.ca11.uscourts.gov/opinions/pub/files/202411033.pdf",
       "ai_incident_law_record_id": "AIEL-2026-053",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-054-determination.json",
       "id": "aiel-2026-054-determination",
@@ -1309,11 +1309,11 @@
       "source": "https://www.gasupreme.us/wp-content/uploads/2026/05/s26a0459.pdf",
       "ai_incident_law_record_id": "AIEL-2026-054",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-055-determination.json",
       "id": "aiel-2026-055-determination",
@@ -1335,11 +1335,11 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.msnd.50181/gov.uscourts.msnd.50181.123.0_1.pdf",
       "ai_incident_law_record_id": "AIEL-2026-055",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-056-determination.json",
       "id": "aiel-2026-056-determination",
@@ -1361,11 +1361,11 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.641455/gov.uscourts.nysd.641455.161.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-056",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-057-determination.json",
       "id": "aiel-2026-057-determination",
@@ -1387,11 +1387,11 @@
       "source": "https://gao.gov/assets/890/884082.pdf",
       "ai_incident_law_record_id": "AIEL-2026-057",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-058-determination.json",
       "id": "aiel-2026-058-determination",
@@ -1413,11 +1413,11 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.pawd.314851/gov.uscourts.pawd.314851.71.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-058",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/",
+      "@context": "https://obligationfirst.org/v1/context.jsonld",
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-059-determination.json",
       "id": "aiel-2026-059-determination",
@@ -1439,7 +1439,7 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.msnd.49169/gov.uscourts.msnd.49169.79.0.pdf",
       "ai_incident_law_record_id": "AIEL-2026-059",
       "anchors": [
-        "https://everyailaw.com/obligation/human-oversight.json"
+        "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     }
   ]

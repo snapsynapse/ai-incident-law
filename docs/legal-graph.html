@@ -188,9 +188,9 @@
         <h2>The anchor relationship</h2>
         <p>
           Included records in this dataset may carry an <code>obligation_first_anchors</code> field: a list of
-          Obligation-First IRIs pointing to the specific obligation(s) from EveryAILaw that the incident implicates.
+          Obligation-First IRIs pointing to the EveryAILaw obligation categories or concrete obligations that the incident implicates.
           For example, a hiring-algorithm discrimination case might anchor to
-          <code>https://everyailaw.com/obligation/bias-prevention</code>.
+          <code>https://everyailaw.com/obligation-category/bias-prevention.json</code>.
         </p>
         <p>
           This makes the graph traversable in both directions:
@@ -278,7 +278,7 @@
         <h3>5. Search the AI Incident Law dataset for matching anchors</h3>
         <p>
           For each obligation, call <code>search_records</code> on the AI Incident Law MCP for matters whose
-          <code>obligation_first_anchors</code> contain the EveryAILaw obligation IRI. Results from the 2026-06-10 run:
+          <code>obligation_first_anchors</code> contain the EveryAILaw anchor IRI. Results from the 2026-06-10 run:
         </p>
         <ul>
           <li><strong>transparency</strong>: 1 anchored record.

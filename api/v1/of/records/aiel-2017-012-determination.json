@@ -1,5 +1,5 @@
 {
-  "@context": "https://obligationfirst.org/v1/",
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2017-012-determination.json",
   "id": "aiel-2017-012-determination",
@@ -21,7 +21,7 @@
   "source": "https://law.justia.com/cases/arkansas/supreme-court/2017/cv-17-183.html",
   "ai_incident_law_record_id": "AIEL-2017-012",
   "anchors": [
-    "https://everyailaw.com/obligation/human-oversight.json",
-    "https://everyailaw.com/obligation/explainability.json"
+    "https://everyailaw.com/obligation-category/human-oversight.json",
+    "https://everyailaw.com/obligation-category/explainability.json"
   ]
 }
