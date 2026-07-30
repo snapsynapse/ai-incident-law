@@ -95,6 +95,18 @@ test("package, registry, discovery, docs, and MCP initialize metadata stay align
   assert.equal(initialize.result.serverInfo.version, pkg.version);
   assert.equal(pkg.version, latestChangelogVersion());
 
+  const [discover] = callMcp([{
+    jsonrpc: "2.0",
+    id: 3,
+    method: "server/discover",
+    params: { _meta: { "io.modelcontextprotocol/protocolVersion": "2026-07-28" } }
+  }]);
+  assert.equal(discover.result.resultType, "complete");
+  assert.ok(discover.result.supportedVersions.includes("2026-07-28"));
+  const discoverInfo = discover.result._meta["io.modelcontextprotocol/serverInfo"];
+  assert.equal(discoverInfo.name, pkg.name);
+  assert.equal(discoverInfo.version, pkg.version);
+
   const advertised = [...discovery.local_server.tools].sort();
   const actual = toolList.result.tools.map(tool => tool.name).sort();
   assert.deepEqual(advertised, actual);

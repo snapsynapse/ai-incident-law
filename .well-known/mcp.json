@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0.0",
+  "protocol_versions": ["2026-07-28", "2024-11-05"],
   "server_name": "AI Incident Law",
   "description": "Structured public-record reference for legal, regulatory, tribunal, and review-queue matters involving AI-related incidents and harms. Static JSON API and local stdio MCP server, read-only, no authentication.",
   "publisher": {

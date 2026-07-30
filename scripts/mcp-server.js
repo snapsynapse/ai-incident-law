@@ -423,51 +423,87 @@ const TOOL_HANDLERS = {
   get_obligation_first_record: handleGetObligationFirstRecord
 };
 
+// Dual-era server (MCP spec revision 2026-07-28): a legacy client selects the
+// 2024-11-05 semantics via `initialize`; a modern client carries per-request
+// `_meta` and is served statelessly. Both eras run concurrently in-process.
+const SUPPORTED_PROTOCOL_VERSIONS = ["2026-07-28", "2024-11-05"];
+// Static data regenerated on a known cadence — safe to cache for an hour.
+const CACHE_TTL_MS = 3600000;
+const CACHE_SCOPE = "public";
+
 function jsonRpcResponse(id, result) {
   return JSON.stringify({ jsonrpc: "2.0", id, result });
 }
 
-function jsonRpcError(id, code, message) {
-  return JSON.stringify({ jsonrpc: "2.0", id, error: { code, message } });
+function jsonRpcError(id, code, message, data) {
+  const error = { code, message };
+  if (data !== undefined) error.data = data;
+  return JSON.stringify({ jsonrpc: "2.0", id, error });
+}
+
+function toolCallResult(result) {
+  return { resultType: "complete", ...result };
 }
 
 function handleMessage(msg) {
   const { id, method, params } = msg;
+  // Modern requests declare their protocol version per request. Unknown
+  // versions are rejected; requests without `_meta` (legacy handshake or
+  // bare requests) are served exactly as before.
+  const requestedVersion = params?._meta?.["io.modelcontextprotocol/protocolVersion"];
+  if (requestedVersion !== undefined && !SUPPORTED_PROTOCOL_VERSIONS.includes(requestedVersion)) {
+    if (method?.startsWith("notifications/")) return null;
+    return jsonRpcError(id, -32022, "Unsupported protocol version", {
+      supported: SUPPORTED_PROTOCOL_VERSIONS,
+      requested: requestedVersion
+    });
+  }
   switch (method) {
     case "initialize":
       return jsonRpcResponse(id, {
-        protocolVersion: "2024-11-05",
+        resultType: "complete",
+        protocolVersion: SUPPORTED_PROTOCOL_VERSIONS.includes(params?.protocolVersion) ? params.protocolVersion : "2024-11-05",
         capabilities: { tools: {} },
         serverInfo: SERVER_INFO
       });
     case "notifications/initialized":
       return null;
     case "ping":
-      return jsonRpcResponse(id, {});
+      return jsonRpcResponse(id, { resultType: "complete" });
+    case "server/discover":
+      return jsonRpcResponse(id, {
+        resultType: "complete",
+        supportedVersions: SUPPORTED_PROTOCOL_VERSIONS,
+        capabilities: { tools: {} },
+        _meta: { "io.modelcontextprotocol/serverInfo": SERVER_INFO },
+        instructions: packageInfo.description || `${SERVER_INFO.name} public-record reference tools.`,
+        ttlMs: CACHE_TTL_MS,
+        cacheScope: CACHE_SCOPE
+      });
     case "tools/list":
-      return jsonRpcResponse(id, { tools: TOOLS });
+      return jsonRpcResponse(id, { resultType: "complete", tools: TOOLS, ttlMs: CACHE_TTL_MS, cacheScope: CACHE_SCOPE });
     case "tools/call": {
       const toolName = params?.name;
       const handler = TOOL_HANDLERS[toolName];
       if (!handler) {
-        return jsonRpcResponse(id, structuredError({
+        return jsonRpcResponse(id, toolCallResult(structuredError({
           error: "unknown_tool",
           detail: `No tool named "${toolName}".`,
           why: "The tool name must match one of the registered MCP tools exactly.",
           guidance: { available_tools: Object.keys(TOOL_HANDLERS) }
-        }));
+        })));
       }
       const validationError = validateToolArguments(TOOL_BY_NAME.get(toolName), params?.arguments || {});
-      if (validationError) return jsonRpcResponse(id, validationError);
+      if (validationError) return jsonRpcResponse(id, toolCallResult(validationError));
       try {
-        return jsonRpcResponse(id, handler(params?.arguments || {}));
+        return jsonRpcResponse(id, toolCallResult(handler(params?.arguments || {})));
       } catch (err) {
-        return jsonRpcResponse(id, structuredError({
+        return jsonRpcResponse(id, toolCallResult(structuredError({
           error: "tool_error",
           detail: `Tool "${toolName}" threw an error: ${err.message}`,
           why: "An unexpected error occurred while reading local dataset files.",
           guidance: { retry: true }
-        }));
+        })));
       }
     }
     default:

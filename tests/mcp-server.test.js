@@ -64,6 +64,34 @@ test("MCP initializes and advertises tools", () => {
   assert.deepEqual(response.result.capabilities, { tools: {} });
 });
 
+test("MCP serves the 2026-07-28 stateless era alongside the legacy handshake", () => {
+  const modernMeta = {
+    "io.modelcontextprotocol/protocolVersion": "2026-07-28",
+    "io.modelcontextprotocol/clientInfo": { name: "test", version: "1.0.0" },
+    "io.modelcontextprotocol/clientCapabilities": {}
+  };
+  const responses = callMcp([
+    { jsonrpc: "2.0", id: 1, method: "server/discover", params: { _meta: modernMeta } },
+    { jsonrpc: "2.0", id: 2, method: "tools/list", params: { _meta: modernMeta } },
+    { jsonrpc: "2.0", id: 3, method: "tools/list", params: { _meta: { "io.modelcontextprotocol/protocolVersion": "1900-01-01" } } }
+  ]);
+
+  const discover = responses[0].result;
+  assert.equal(discover.resultType, "complete");
+  assert.ok(discover.supportedVersions.includes("2026-07-28"));
+  assert.deepEqual(discover.capabilities, { tools: {} });
+
+  const toolList = responses[1].result;
+  assert.equal(toolList.resultType, "complete");
+  assert.equal(typeof toolList.ttlMs, "number");
+  assert.equal(toolList.cacheScope, "public");
+
+  const rejected = responses[2];
+  assert.equal(rejected.error.code, -32022);
+  assert.ok(Array.isArray(rejected.error.data.supported));
+  assert.equal(rejected.error.data.requested, "1900-01-01");
+});
+
 test("MCP accepts one valid fixture for every advertised tool", () => {
   const tools = listTools();
   const messages = tools.map((tool, index) => {
@@ -90,7 +118,7 @@ test("MCP exposes obligation anchors through search, source records, and OF dete
 
   const sourceRecord = payload(responses[1]).data;
   assert.deepEqual(sourceRecord.obligation_first_anchors, [
-    "https://everyailaw.com/obligation/transparency.json"
+    "https://everyailaw.com/obligation-category/transparency.json"
   ]);
 
   const determination = payload(responses[2]).data;
