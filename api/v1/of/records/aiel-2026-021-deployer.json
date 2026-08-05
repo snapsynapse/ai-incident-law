@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
+  "@type": "of:Party",
+  "@id": "https://aiincidentlaw.org/party/aiel-2026-021-deployer.json",
+  "id": "aiel-2026-021-deployer",
+  "name": "Attorney respondent (Oklahoma bar disciplinary proceeding)",
+  "party_kind": "unknown",
+  "roles": [
+    "deployer"
+  ],
+  "source": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=551746",
+  "source_locator": "State of Oklahoma ex rel. Oklahoma Bar Association v. Reeves, 2026 OK 37",
+  "source_citation": "2026 OK 37",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
+}

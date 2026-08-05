@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2026-019-allegation.json",
   "id": "aiel-2026-019-allegation",
   "text": "Plaintiff, a 24-year IBM veteran, alleges an algorithmic hiring/rehire screening tool blocked his rehire at age 48, constituting age discrimination. Filed as Swanson v. International Business Machines Corporation in the Western District of Texas on 2026-05-23. The precise technical nature of the tool (machine-learning vs. rules-based) is not yet established on the public record.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2026-019#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-019-deployer.json"
+  ],
   "ai_system_name": "Unnamed IBM algorithmic hiring/rehire screening tool",
   "deployer": "International Business Machines Corporation",
   "domain": "employment",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "ADEA and applicant-specific rehire eligibility records",
   "mitigation_gap": "Alleged absence of meaningful human review of an automated rehire-eligibility screen and no disparate-impact safeguard against age-based exclusion.",
   "reliance_or_harm": "Plaintiff alleges denial of rehire after 24 years of prior IBM employment, attributed to an automated screen.",
-  "ai_incident_law_record_id": "AIEL-2026-019"
+  "ai_incident_law_record_id": "AIEL-2026-019",
+  "source": "https://courtlistener.com/docket/73387361/swanson-v-international-business-machines-corporation/",
+  "source_locator": "Swanson v. International Business Machines Corporation, No. 1:26-cv-01382",
+  "evidence_type": "primary record",
+  "verified": "2026-06-01",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

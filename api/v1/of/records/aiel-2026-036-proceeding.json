@@ -1,15 +1,47 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Proceeding",
   "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-036-proceeding.json",
   "id": "aiel-2026-036-proceeding",
   "title": "Couvrette v. Wisnovsky, No. 1:21-cv-00157-CL (D. Or.)",
   "filed_date": "2026-03-23",
-  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-oregon.json",
+  "heardBy": [
+    "https://aiincidentlaw.org/authority/u-s-district-court-district-of-oregon.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us-or"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-or"
+    ],
+    "institutional_scope": [
+      "U.S. District Court, District of Oregon"
+    ]
   },
+  "territorial_scope": [
+    "us-or"
+  ],
+  "institutional_scope": [
+    "U.S. District Court, District of Oregon"
+  ],
+  "parties": [
+    "https://aiincidentlaw.org/party/aiel-2026-036-deployer.json"
+  ],
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-036-allegation.json"
   ],
@@ -17,7 +49,11 @@
     "https://aiincidentlaw.org/determination/aiel-2026-036-determination.json"
   ],
   "source": "https://storage.courtlistener.com/recap/gov.uscourts.ord.158388/gov.uscourts.ord.158388.225.0.pdf",
+  "source_locator": "Couvrette v. Wisnovsky, No. 1:21-cv-00157-CL (D. Or.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-25",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2026-036",
   "matter_type": "sanctions order (Rule 11 / inherent power)",
-  "status": "sanctioned"
+  "filing_status": "sanctioned"
 }

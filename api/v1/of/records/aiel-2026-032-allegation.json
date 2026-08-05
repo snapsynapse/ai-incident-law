@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2026-032-allegation.json",
   "id": "aiel-2026-032-allegation",
   "text": "The California Court of Appeal sanctioned respondent's appellate counsel Roxanne Chung Bonar $5,000 after she cited fictitious cases in a family-law appeal. At oral argument Bonar acknowledged she lacked a paid legal-research subscription and conceded the fictitious citations \"may have\" come from AI tools she was using. The same fake cases had also appeared in the family court's written order, which the appellate court found was error.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2026-032#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-032-deployer.json"
+  ],
   "ai_system_name": "Unnamed generative AI (admitted by counsel)",
   "deployer": "Roxanne Chung Bonar (appellate counsel)",
   "domain": "legal services",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "Non-existent California authorities (Twigg and Teegarden); genuine California family-law caselaw",
   "mitigation_gap": "Counsel used AI for legal research without a verified subscription and submitted citations without checking their existence.",
   "reliance_or_harm": "$5,000 sanction payable to court clerk; referral to State Bar of California; family court order reversed for reliance on fictitious authority.",
-  "ai_incident_law_record_id": "AIEL-2026-032"
+  "ai_incident_law_record_id": "AIEL-2026-032",
+  "source": "https://courts.ca.gov/opinions/archive/D085584.PDF",
+  "source_locator": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

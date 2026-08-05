@@ -1,13 +1,35 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2026-051-determination.json",
   "id": "aiel-2026-051-determination",
-  "issued_date": "2026-07-14",
-  "issuedBy": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-southern-district-of-texas.json",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-southern-district-of-texas.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us-tx"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-tx"
+    ],
+    "institutional_scope": [
+      "U.S. Bankruptcy Court, Southern District of Texas"
+    ]
   },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2026-051-allegation.json"
@@ -19,6 +41,10 @@
   },
   "notes": "Memorandum Opinion (ECF 312) by Chief Judge Eduardo V. Rodriguez; a conforming separate order was entered simultaneously and is a second primary document. The court did not find that Westlaw Precision produced the fabrications and expressly held causation immaterial, so the AI-establishment basis is counsel’s admission of use, not a judicial finding of tool output. The fee award is compensatory and joint and several with the Petitioning Creditors, not a penalty against counsel alone; the Fifth Circuit bars fee awards for court-initiated Rule 11(c)(1)(B) sanctions, which is why it rests on inherent power and § 105(a). Fee total verified by itemized arithmetic.",
   "source": "https://storage.courtlistener.com/recap/gov.uscourts.txsb.485264/gov.uscourts.txsb.485264.312.0.pdf",
+  "source_locator": "In re Rosslyn2016, LLC, Texas Esencia 2019 LLC and Timbers2020 LLC, No. 25-34507 (Bankr. S.D. Tex., Houston Div.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2026-051",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"

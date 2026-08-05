@@ -1,13 +1,35 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2026-053-determination.json",
   "id": "aiel-2026-053-determination",
-  "issued_date": "2026-07-10",
-  "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-eleventh-circuit.json",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-eleventh-circuit.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us"
+    ],
+    "institutional_scope": [
+      "U.S. Court of Appeals for the Eleventh Circuit"
+    ]
   },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2026-053-allegation.json"
@@ -19,6 +41,10 @@
   },
   "notes": "Marked FOR PUBLICATION; appeal from S.D. Fla. No. 1:22-cv-23519-KMM; panel Rosenbaum, Grant, and Kidd, opinion by Grant. Gate 1 rests on the court’s own finding, not an admission: \"By outsourcing his legal work to an AI algorithm, Sabatini violated his ethical duties to both his clients and this Court.\" Charlotin tags the tool \"Implied,\" which understates the record. No monetary sanction. The referral itself issues by a separate order through the Chief Judge, which is a distinct primary document not yet obtained. Tracker PDF filename misspells the defendant as \"Altas Air\" and omits co-defendant Flight Services International, LLC.",
   "source": "https://media.ca11.uscourts.gov/opinions/pub/files/202411033.pdf",
+  "source_locator": "Akerlund v. Atlas Air, Inc., Flight Services International, LLC, No. 24-11033 (11th Cir.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2026-053",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"

@@ -1,13 +1,35 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2026-058-determination.json",
   "id": "aiel-2026-058-determination",
-  "issued_date": "2025-10-06",
-  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-pennsylvania.json",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-pennsylvania.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us-pa"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-pa"
+    ],
+    "institutional_scope": [
+      "U.S. District Court, Western District of Pennsylvania"
+    ]
   },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2026-058-allegation.json"
@@ -19,6 +41,10 @@
   },
   "notes": "Memorandum Order, ECF No. 71, by Judge William S. Stickman IV. The native image-only order was verified through RECAP against its caption, docket, filing date, entry number, and PACER case ID, then OCR-reviewed across all six pages. Corrects the review draft's mistaken first name: the sanctioned attorney is Tyrone Blackburn, not Arthur Aidala Blackburn.",
   "source": "https://storage.courtlistener.com/recap/gov.uscourts.pawd.314851/gov.uscourts.pawd.314851.71.0.pdf",
+  "source_locator": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-25",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2026-058",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"

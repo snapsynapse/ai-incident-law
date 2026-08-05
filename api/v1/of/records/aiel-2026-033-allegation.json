@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2026-033-allegation.json",
   "id": "aiel-2026-033-allegation",
   "text": "Attorney Kenneth A. Mayeaux used ChatGPT to draft a memorandum in support of a habeas petition and submitted it without verifying the citations. The memorandum contained hallucinated case law. Mayeaux admitted both using ChatGPT and failing to vet the citations before filing. The court sanctioned him $1,000 personally under Fed. R. Civ. P. 11 and 28 U.S.C. § 1927.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2026-033#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-033-deployer.json"
+  ],
   "ai_system_name": "ChatGPT (named; admitted)",
   "deployer": "Kenneth A. Mayeaux (Mayeaux & Associates)",
   "domain": "legal services",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "Genuine federal immigration/habeas caselaw; Fed. R. Civ. P. 11",
   "mitigation_gap": "Attorney used ChatGPT to draft legal memoranda and filed without any citation verification.",
   "reliance_or_harm": "$1,000 personal sanction against counsel; false citations submitted in habeas proceedings.",
-  "ai_incident_law_record_id": "AIEL-2026-033"
+  "ai_incident_law_record_id": "AIEL-2026-033",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.lawd.213966/gov.uscourts.lawd.213966.28.0.pdf",
+  "source_locator": "Kattom v. Bondi, No. 25-1497 SEC P (W.D. La.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

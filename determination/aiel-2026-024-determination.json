@@ -1,13 +1,35 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2026-024-determination.json",
   "id": "aiel-2026-024-determination",
-  "issued_date": "2026-04-28",
-  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us-ca"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-ca"
+    ],
+    "institutional_scope": [
+      "U.S. District Court, Northern District of California"
+    ]
   },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2026-024-allegation.json"
@@ -19,6 +41,10 @@
   },
   "notes": "$1,001 personal sanction + 4 hours CLE + circulation/certification requirements; associate Katherine Cervantes was separately sanctioned (Dkt. 161). Caption shares the name \"Workday\" with AIEL-2025-018 (Mobley) but is unrelated to the hiring-tool matter — here Workday is merely the opposing party and the AI misconduct is by plaintiff’s counsel.",
   "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.422617/gov.uscourts.cand.422617.230.0.pdf",
+  "source_locator": "Hill v. Workday, Inc., No. 3:23-cv-06558-PHK",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2026-024",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"

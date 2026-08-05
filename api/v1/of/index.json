@@ -3,12 +3,14 @@
   "generated": "2026-07-25",
   "files": {
     "authorities": "authorities.json",
+    "parties": "parties.json",
     "proceedings": "proceedings.json",
     "allegations": "allegations.json",
     "determinations": "determinations.json"
   },
   "counts": {
     "authorities": 49,
+    "parties": 58,
     "proceedings": 58,
     "allegations": 58,
     "determinations": 55

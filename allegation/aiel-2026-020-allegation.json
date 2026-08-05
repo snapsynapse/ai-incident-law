@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2026-020-allegation.json",
   "id": "aiel-2026-020-allegation",
   "text": "CNN (a Warner Bros. Discovery subsidiary) sued Perplexity AI in the Southern District of New York (No. 1:26-cv-04427, filed 2026-05-28; jury demanded). The complaint alleges a two-stage harm: at the input stage, Perplexity’s \"PerplexityBot\" and \"Perplexity-User\" crawlers copy CNN content (over 17,000 works) to build an \"AI-First\" search index; at the output stage, Perplexity’s GenAI products (answer engine, enterprise chatbot, APIs, Comet browser) generate verbatim or substantially similar reproductions. CNN brings Copyright Act (17 U.S.C. § 101 et seq.) and Lanham Act claims, the latter including \"confabulated or ‘hallucinated’ content that Perplexity falsely attributes to CNN.\"",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2026-020#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-020-deployer.json"
+  ],
   "ai_system_name": "Perplexity answer engine + GenAI products (PerplexityBot / Perplexity-User crawlers; \"AI-First\" search index; RAG)",
   "deployer": "Perplexity AI, Inc.",
   "domain": "media / content",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "CNN copyrighted works (17,000+ registrations) and CNN trademarks; 17 U.S.C. § 501 and the Lanham Act",
   "mitigation_gap": "Alleged crawling/copying of copyrighted content without licensing, and AI output that fabricates and falsely attributes content to CNN without adequate provenance or attribution controls.",
   "reliance_or_harm": "CNN alleges licensing/market harm from large-scale reproduction plus consumer confusion and brand dilution from hallucinated content falsely attributed to CNN.",
-  "ai_incident_law_record_id": "AIEL-2026-020"
+  "ai_incident_law_record_id": "AIEL-2026-020",
+  "source": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
+  "source_locator": "Cable News Network, Inc. v. Perplexity AI, Inc., No. 1:26-cv-04427",
+  "evidence_type": "primary record",
+  "verified": "2026-06-01",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

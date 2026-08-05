@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2026-056-allegation.json",
   "id": "aiel-2026-056-allegation",
   "text": "Counsel’s brief supporting a motion to dismiss cited several non-existent authorities and misstated the law. He did not dispute this and explained that the miscitations came from using the LexisNexis AI research platform Protégé. LexisNexis then provided the court a letter refuting that he held any subscription to Lexis+ AI or Protégé, so the court recorded concern both about the hallucinated authority and about the attorney’s misrepresentation of where his research came from.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2026-056#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-056-deployer.json"
+  ],
   "ai_system_name": "Protégé / Lexis+ AI (named by counsel; vendor denied he had access)",
   "deployer": "Tyrone A. Blackburn (T.A. Blackburn Law, PLLC), defence counsel and himself a named defendant",
   "domain": "legal services",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "Non-existent judicial authority and misstatements of law in briefing on a Rule 12(b)(6) motion",
   "mitigation_gap": "Counsel filed AI-derived research without verification and then attributed it to a product he did not have, so the account of the failure was itself unreliable.",
   "reliance_or_harm": "Public admonition recorded in a published opinion and order, expressly intended to deter future misconduct, with a warning that further misconduct may lead to sanctions or a disciplinary referral; the court declined to strike the submissions or award fees.",
-  "ai_incident_law_record_id": "AIEL-2026-056"
+  "ai_incident_law_record_id": "AIEL-2026-056",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.641455/gov.uscourts.nysd.641455.161.0.pdf",
+  "source_locator": "Joseph Cartagena v. Terrance Dixon, Tyrone Blackburn, and T.A. Blackburn Law, PLLC, No. 1:25-cv-03552 (JLR) (S.D.N.Y.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

@@ -1,13 +1,35 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2024-008-determination.json",
   "id": "aiel-2024-008-determination",
-  "issued_date": "2024-03-08",
-  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida-florida-supreme-court.json",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida-florida-supreme-court.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us-fl"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-fl"
+    ],
+    "institutional_scope": [
+      "U.S. District Court, Middle District of Florida; Florida Supreme Court"
+    ]
   },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2024-008-allegation.json"
@@ -19,6 +41,10 @@
   },
   "notes": "AI hallucinations are recorded as corroborating misconduct, not necessarily the sole basis for discipline.",
   "source": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
+  "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
+  "evidence_type": "primary record",
+  "verified": "2026-04-22",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2024-008",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"

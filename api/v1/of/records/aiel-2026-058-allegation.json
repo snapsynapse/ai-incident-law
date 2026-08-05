@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2026-058-allegation.json",
   "id": "aiel-2026-058-allegation",
   "text": "Attorney Tyrone Blackburn admitted that his use of generative AI to draft briefs caused inaccurate citations and quotations, including inaccurate quotations from the court's own earlier opinion. The court rejected his explanation that the defects were an innocent mistake caused by technological ignorance, emphasized that he doubled down after opposing counsel identified the errors, and found his conduct sanctionable under Federal Rule of Civil Procedure 11.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2026-058#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-058-deployer.json"
+  ],
   "ai_system_name": "Unnamed generative AI (admitted by counsel)",
   "deployer": "Tyrone Blackburn, counsel for defendant Duane Youngblood",
   "domain": "legal services",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "Accurate judicial authorities and quotations; Fed. R. Civ. P. 11",
   "mitigation_gap": "Counsel used generative AI to draft briefing without verifying its citations and quotations, then repeated the defective material after the problem was raised.",
   "reliance_or_harm": "The court imposed a $5,000 fee sanction payable in monthly installments of at least $500, revoked Blackburn's pro hac vice status, and required any future appearance or pro hac vice motion he files in the Western District of Pennsylvania to include the sanctions order.",
-  "ai_incident_law_record_id": "AIEL-2026-058"
+  "ai_incident_law_record_id": "AIEL-2026-058",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.pawd.314851/gov.uscourts.pawd.314851.71.0.pdf",
+  "source_locator": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-25",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

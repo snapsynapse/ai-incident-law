@@ -1,13 +1,35 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2025-006-determination.json",
   "id": "aiel-2025-006-determination",
-  "issued_date": "2025-10-23",
-  "issuedBy": "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us"
+    ],
+    "institutional_scope": [
+      "Armed Services Board of Contract Appeals"
+    ]
   },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2025-006-allegation.json"
@@ -19,6 +41,10 @@
   },
   "notes": "Reply brief struck; corrected reply denied; board issued broader AI-use caution.",
   "source": "https://www.asbca.mil/LinkClick.aspx?fileticket=eAIy2KSL_Zg%3D&portalid=143",
+  "source_locator": "Huffman Construction, LLC, ASBCA Nos. 62591, 62783",
+  "evidence_type": "primary record",
+  "verified": "2026-04-22",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2025-006",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"

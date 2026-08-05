@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2026-045-allegation.json",
   "id": "aiel-2026-045-allegation",
   "text": "Plaintiff's counsel admitted filing briefs in two companion employment cases containing AI-generated fabricated citations. The U.S. District Court for the Middle District of Florida imposed a $7,000 fee sanction and required counsel to deliver ten speaking engagements at bar associations or law-school groups by January 2027 to educate the profession on AI risks. The court declined to refer counsel to the Florida Bar or the court's Grievance Committee.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2026-045#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-045-deployer.json"
+  ],
   "ai_system_name": "Unnamed generative AI (admitted by counsel)",
   "deployer": "Plaintiff's counsel (name not in order)",
   "domain": "legal services",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "Non-existent federal case citations filed in two employment-law matters; Fed. R. Civ. P. 11",
   "mitigation_gap": "Counsel admitted reliance on AI-generated research without verifying citation existence before filing in both cases.",
   "reliance_or_harm": "$7,000 fee sanction plus mandatory 10 bar-association/law-school speaking engagements by January 2027.",
-  "ai_incident_law_record_id": "AIEL-2026-045"
+  "ai_incident_law_record_id": "AIEL-2026-045",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
+  "source_locator": "Hodges v. Meridian Waste Acquisitions USA, No. 3:25-cv-62; Rieske v. AFS, No. 5:25-cv-45 (M.D. Fla.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

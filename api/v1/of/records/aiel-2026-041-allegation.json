@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2026-041-allegation.json",
   "id": "aiel-2026-041-allegation",
   "text": "Defense counsel in a wage-and-hour class action admitted using LexisNexis's AI tool to help construct submissions without reviewing them for correctness, resulting in AI-hallucinated citations. The court imposed $1,710 in attorneys' fees (AI-authority-related) and a $1,000 monetary penalty on defense counsel under Rule 37, 28 U.S.C. § 1927, and inherent powers. A separate $46,980 discovery sanction was also imposed on defendants for unrelated witness-declaration misconduct.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2026-041#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-041-deployer.json"
+  ],
   "ai_system_name": "LexisNexis AI tool (named; admitted)",
   "deployer": "Defense Counsel for Sushi Katsuei (unnamed in opinion)",
   "domain": "legal services",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "Genuine federal employment/wage-and-hour caselaw; court submission standards",
   "mitigation_gap": "Counsel used LexisNexis AI to draft court submissions without reviewing AI output for accuracy before filing.",
   "reliance_or_harm": "$1,710 AI-attributable attorneys' fees + $1,000 monetary penalty = $2,710 on defense counsel; fabricated citations submitted in class-action proceedings.",
-  "ai_incident_law_record_id": "AIEL-2026-041"
+  "ai_incident_law_record_id": "AIEL-2026-041",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.605627/gov.uscourts.nysd.605627.142.0.pdf",
+  "source_locator": "Chakma v. Sushi Katsuei Inc., No. 1:23-cv-07804-KPF (S.D.N.Y.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

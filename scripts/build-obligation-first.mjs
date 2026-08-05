@@ -6,8 +6,23 @@ const API_DIR = new URL("../api/v1/of/", import.meta.url);
 const RECORDS_DIR = new URL("./records/", API_DIR);
 const OF_CONTEXT = "https://obligationfirst.org/v1/context.jsonld";
 const SITE_BASE = "https://aiincidentlaw.org";
+const RECORD_CONTEXT = [OF_CONTEXT, {
+  ail: `${SITE_BASE}/vocab/`,
+  id: "ail:id",
+  ai_incident_law_record_id: "ail:recordId",
+  matter_type: "ail:matterType",
+  filing_status: "ail:filingStatus",
+  ai_system_name: "ail:aiSystemName",
+  deployer: "ail:deployer",
+  domain: "ail:domain",
+  error_type: "ail:errorType",
+  canonical_source_conflicted: "ail:canonicalSourceConflicted",
+  mitigation_gap: "ail:mitigationGap",
+  reliance_or_harm: "ail:relianceOrHarm"
+}];
 const COMPANION_DIRS = {
   authorities: "authority",
+  parties: "party",
   proceedings: "proceeding",
   allegations: "allegation",
   determinations: "determination"
@@ -107,9 +122,41 @@ function jurisdictionRef(record) {
 }
 
 function authorityType(record) {
-  const text = `${record.public_matter_type || ""} ${record.jurisdiction || ""}`.toLowerCase();
-  if (text.includes("court") || text.includes("tribunal") || text.includes("board")) return "gist:Court";
   return "gist:GovernmentOrganization";
+}
+
+function jurisdictionShape(record) {
+  const territorial = jurisdictionRef(record);
+  return {
+    "@type": "of:Jurisdiction",
+    ...(territorial ? { territorial_scope: [territorial] } : {}),
+    institutional_scope: [record.jurisdiction]
+  };
+}
+
+function partyId(record) {
+  return `${recordStem(record)}-deployer`;
+}
+
+function partyUri(record) {
+  return ofUri("party", partyId(record));
+}
+
+function partyKind(name) {
+  return /\b(airlines?|airways|bank|university|department|agency|inc\.?|llc|corp\.?|company|organization|organisation)\b/i.test(name || "")
+    ? "organization"
+    : "unknown";
+}
+
+function provenance(record) {
+  return {
+    source: record.public_record_link,
+    source_locator: record.public_matter_name,
+    source_citation: record.neutral_citation || undefined,
+    evidence_type: record.source_quality || "public-record",
+    verified: normalizeDate(record.last_verified_date),
+    asserted_by_adopter: `${SITE_BASE}/`
+  };
 }
 
 function normalizeDate(value) {
@@ -141,7 +188,7 @@ function buildAuthorityRecords(records) {
     const id = authorityId(record);
     if (byId.has(id)) continue;
     const authority = {
-      "@context": OF_CONTEXT,
+      "@context": RECORD_CONTEXT,
       "@type": "of:Authority",
       "@id": ofUri("authority", id),
       id,
@@ -149,20 +196,42 @@ function buildAuthorityRecords(records) {
         "@type": authorityType(record),
         name: record.jurisdiction
       },
-      authority_basis: {
-        kind: authorityType(record) === "gist:Court" ? "judicial" : "statutory",
-        instrument_ref: `${ofUri("authority", id)}#authority-basis`
-      },
-      jurisdiction: {
-        "@type": "gist:Jurisdiction",
-        ref: jurisdictionRef(record)
-      }
+      jurisdiction: jurisdictionShape(record),
+      territorial_scope: jurisdictionRef(record) ? [jurisdictionRef(record)] : undefined,
+      institutional_scope: [record.jurisdiction],
+      ...provenance(record)
     };
     const qid = AUTHORITY_WIKIDATA[id];
-    if (qid) authority.sameAs = [`https://www.wikidata.org/entity/${qid}`];
+    if (qid) authority.sameAs = [`https://wikidata.org/entity/${qid}`];
     byId.set(id, authority);
   }
   return [...byId.values()];
+}
+
+function buildPartyRecords(records) {
+  const firstByName = new Map();
+  const parties = [];
+  for (const record of records) {
+    if (!record.deployer) continue;
+    const normalized = String(record.deployer).trim().toLowerCase();
+    const id = partyId(record);
+    const uri = partyUri(record);
+    const prior = firstByName.get(normalized);
+    const party = {
+      "@context": RECORD_CONTEXT,
+      "@type": "of:Party",
+      "@id": uri,
+      id,
+      name: record.deployer,
+      party_kind: partyKind(record.deployer),
+      roles: ["deployer"],
+      describesSameEntityAs: prior ? [prior] : undefined,
+      ...provenance(record)
+    };
+    parties.push(party);
+    if (!prior) firstByName.set(normalized, uri);
+  }
+  return parties;
 }
 
 function buildMatterRecords(records) {
@@ -180,41 +249,42 @@ function buildMatterRecords(records) {
     const allegationUri = ofUri("allegation", allegationId);
     const determinationUri = ofUri("determination", determinationId);
 
-    const jurisdictionTyped = {
-      "@type": "gist:Jurisdiction",
-      ref: jurisdictionRef(record)
-    };
+    const jurisdictionTyped = jurisdictionShape(record);
     const neutralCitation = record.neutral_citation || undefined;
     const caseSameAs = stringArray(record.case_sameAs);
 
     const proceeding = {
-      "@context": OF_CONTEXT,
+      "@context": RECORD_CONTEXT,
       "@type": "of:Proceeding",
       "@id": ofUri("proceeding", proceedingId),
       id: proceedingId,
       title: record.public_matter_name,
       filed_date: normalizeDate(record.filing_date),
-      issuedBy: authorityUri,
+      heardBy: [authorityUri],
       jurisdiction: jurisdictionTyped,
+      territorial_scope: jurisdictionRef(record) ? [jurisdictionRef(record)] : undefined,
+      institutional_scope: [record.jurisdiction],
+      parties: record.deployer ? [partyUri(record)] : undefined,
       hasAllegation: [allegationUri],
       hasDetermination: disposition ? [determinationUri] : [],
-      source: record.public_record_link,
+      ...provenance(record),
       ai_incident_law_record_id: record.error_id,
       matter_type: record.public_matter_type,
-      status: record.filing_status
+      filing_status: record.filing_status
     };
     if (neutralCitation) proceeding.neutral_citation = neutralCitation;
-    if (caseSameAs.length > 0) proceeding.sameAs = caseSameAs;
+    if (caseSameAs.length > 0) proceeding.describesSameEntityAs = caseSameAs;
     proceedings.push(proceeding);
 
     allegations.push({
-      "@context": OF_CONTEXT,
+      "@context": RECORD_CONTEXT,
       "@type": "of:Allegation",
       "@id": allegationUri,
       id: allegationId,
       text: record.error_description,
-      asserted_by: "public record",
+      asserted_by: "asserting party not identified in the indexed source fields",
       related_to: `${SITE_BASE}/incident/${stem}#ai-system`,
+      related_to_party: record.deployer ? [partyUri(record)] : undefined,
       ai_system_name: record.ai_system_name,
       deployer: record.deployer,
       domain: record.domain,
@@ -222,17 +292,17 @@ function buildMatterRecords(records) {
       canonical_source_conflicted: record.canonical_source_conflicted,
       mitigation_gap: record.mitigation_gap,
       reliance_or_harm: record.reliance_or_harm,
-      ai_incident_law_record_id: record.error_id
+      ai_incident_law_record_id: record.error_id,
+      ...provenance(record)
     });
 
     if (disposition) {
       const determination = {
-        "@context": OF_CONTEXT,
+        "@context": RECORD_CONTEXT,
         "@type": "of:Determination",
         "@id": determinationUri,
         id: determinationId,
-        issued_date: normalizeDate(record.filing_date),
-        issuedBy: authorityUri,
+        issuedBy: [authorityUri],
         jurisdiction: jurisdictionTyped,
         decides: [allegationUri],
         disposition,
@@ -241,14 +311,14 @@ function buildMatterRecords(records) {
           notes: record.notes_on_resolution
         },
         notes: record.notes_on_resolution,
-        source: record.public_record_link,
+        ...provenance(record),
         ai_incident_law_record_id: record.error_id
       };
 
       const anchors = stringArray(record.obligation_first_anchors);
       if (anchors.length > 0) determination.anchors = anchors;
       if (neutralCitation) determination.neutral_citation = neutralCitation;
-      if (caseSameAs.length > 0) determination.sameAs = caseSameAs;
+      if (caseSameAs.length > 0) determination.describesSameEntityAs = caseSameAs;
 
       determinations.push(determination);
     }
@@ -298,10 +368,12 @@ async function writeRecords(recordsByKind, generated) {
 const source = JSON.parse(await readFile(SOURCE_PATH, "utf8"));
 const included = source.datasets?.included?.records || [];
 const authorities = buildAuthorityRecords(included);
+const parties = buildPartyRecords(included);
 const { proceedings, allegations, determinations } = buildMatterRecords(included);
 
 await writeRecords({
   authorities,
+  parties,
   proceedings,
   allegations,
   determinations

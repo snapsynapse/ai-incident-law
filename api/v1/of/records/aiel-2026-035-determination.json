@@ -1,13 +1,35 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2026-035-determination.json",
   "id": "aiel-2026-035-determination",
-  "issued_date": "2026-03-20",
-  "issuedBy": "https://aiincidentlaw.org/authority/court-of-appeals-of-ohio-eleventh-appellate-district.json",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/court-of-appeals-of-ohio-eleventh-appellate-district.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us-oh"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-oh"
+    ],
+    "institutional_scope": [
+      "Court of Appeals of Ohio, Eleventh Appellate District"
+    ]
   },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2026-035-allegation.json"
@@ -19,6 +41,11 @@
   },
   "notes": "$2,000 fine with $2,000 credit for prior Ashtabula County payment; disciplinary referral; removal; appeal stricken.",
   "source": "https://supremecourt.ohio.gov/rod/docs/pdf/11/2026/2026-Ohio-965.pdf",
+  "source_locator": "State v. Coleman, 2026-Ohio-965, No. 2024-A-0040 (Ohio Ct. App., 11th Dist.)",
+  "source_citation": "2026-Ohio-965",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2026-035",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"

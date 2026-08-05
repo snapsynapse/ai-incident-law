@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2024-014-allegation.json",
   "id": "aiel-2024-014-allegation",
   "text": "A grainy surveillance still was run through facial recognition and returned Robert Williams as a candidate. Police allegedly relied on the output and a flawed photo identification process, leading to a wrongful arrest for a theft he did not commit.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2024-014#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2024-014-deployer.json"
+  ],
   "ai_system_name": "Michigan State Police / DataWorks Plus facial-recognition pipeline",
   "deployer": "Detroit Police Department and Michigan State Police",
   "domain": "criminal justice",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "Actual suspect identity and warrant probable-cause standards",
   "mitigation_gap": "No policy requiring independent corroboration before arrest; warrant materials did not adequately disclose the limits of the face-recognition lead.",
   "reliance_or_harm": "Williams was arrested, detained, and later brought a civil-rights suit; settlement included damages and policy reforms.",
-  "ai_incident_law_record_id": "AIEL-2024-014"
+  "ai_incident_law_record_id": "AIEL-2024-014",
+  "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
+  "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827",
+  "evidence_type": "primary record",
+  "verified": "2026-04-22",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

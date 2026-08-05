@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2022-011-allegation.json",
   "id": "aiel-2022-011-allegation",
   "text": "MiDAS issued automated unemployment-fraud determinations that were later found overwhelmingly erroneous. Claimants were assessed penalties and collection actions after automated determinations without adequate process.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2022-011#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2022-011-deployer.json"
+  ],
   "ai_system_name": "Michigan Integrated Data Automated System (MiDAS)",
   "deployer": "Michigan Unemployment Insurance Agency",
   "domain": "government services",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "Unemployment insurance fraud standards and constitutional due-process requirements",
   "mitigation_gap": "Automated flags lacked meaningful human review and adequate notice/opportunity to contest; error monitoring and escalation failed.",
   "reliance_or_harm": "Thousands of claimants were wrongfully accused and faced garnishments, penalties, and collection actions; state settled for $20 million.",
-  "ai_incident_law_record_id": "AIEL-2022-011"
+  "ai_incident_law_record_id": "AIEL-2022-011",
+  "source": "https://michigan.gov/ag/news/press-releases/2022/10/20/som-settlement-of-civil-rights-class-action-alleging-false-accusations-of-unemployment-fraud",
+  "source_locator": "Bauserman v. Unemployment Insurance Agency",
+  "evidence_type": "official statement",
+  "verified": "2026-04-22",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

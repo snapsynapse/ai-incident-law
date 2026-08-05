@@ -1,18 +1,46 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Authority",
   "@id": "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json",
   "id": "arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit",
   "organization": {
-    "@type": "gist:Court",
+    "@type": "gist:GovernmentOrganization",
     "name": "Arkansas Supreme Court; U.S. District Court, Eastern District of Arkansas; Eighth Circuit"
   },
-  "authority_basis": {
-    "kind": "judicial",
-    "instrument_ref": "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json#authority-basis"
-  },
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us-ar"
-  }
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-ar"
+    ],
+    "institutional_scope": [
+      "Arkansas Supreme Court; U.S. District Court, Eastern District of Arkansas; Eighth Circuit"
+    ]
+  },
+  "territorial_scope": [
+    "us-ar"
+  ],
+  "institutional_scope": [
+    "Arkansas Supreme Court; U.S. District Court, Eastern District of Arkansas; Eighth Circuit"
+  ],
+  "source": "https://law.justia.com/cases/arkansas/supreme-court/2017/cv-17-183.html",
+  "source_locator": "Ledgerwood v. Arkansas Department of Human Services / related federal litigation",
+  "evidence_type": "primary record",
+  "verified": "2026-04-22",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

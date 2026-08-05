@@ -1,6 +1,6 @@
 {
   "name": "ai-incident-law",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "mcpName": "io.github.snapsynapse/ai-incident-law",
   "description": "MCP server and static dataset for the AI Incident Law public-record corpus: AI-related litigation, regulatory action, tribunal records, and review-queue matters. Anchored to EveryAILaw obligations for cross-graph queries.",
   "homepage": "https://aiincidentlaw.org/",
@@ -63,12 +63,15 @@
     "test:source-link-policy": "node --test tests/source-link-policy.test.mjs",
     "test:mcp": "node --test tests/mcp-server.test.js",
     "test:discovery": "node --test tests/discovery.test.js",
+    "test:workflow": "node --test tests/workflow-invariants.test.mjs",
     "check:of": "node scripts/check-of-version.mjs",
+    "check:of-fingerprint": "node scripts/check-of-fingerprint.mjs",
     "check:links": "node scripts/check-source-links.mjs",
     "find:recap": "node scripts/find-recap-source.mjs",
     "report:staleness": "node scripts/staleness-report.mjs",
     "build": "npm run build:data && npm run build:of && npm run validate:data",
-    "check": "npm run validate:data && npm run validate:guidecheck && npm run test:url-policy && npm run eval:url-policy && npm run eval:of && npm run check:of && npm run test:build-of && npm run test:recap-resolver && npm run test:source-link-policy && npm run test:mcp && npm run test:discovery",
+    "check": "npm run validate:data && npm run validate:guidecheck && npm run test:url-policy && npm run eval:url-policy && npm run eval:of && npm run check:of && npm run validate:of && npm run check:of-fingerprint && npm run test:build-of && npm run test:recap-resolver && npm run test:source-link-policy && npm run test:mcp && npm run test:discovery && npm run test:workflow",
+    "verify:ci": "node scripts/verify-ci.mjs",
     "serve": "python3 -m http.server 4173"
   }
 }

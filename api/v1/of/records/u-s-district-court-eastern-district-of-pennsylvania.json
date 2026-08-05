@@ -1,21 +1,49 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Authority",
   "@id": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json",
   "id": "u-s-district-court-eastern-district-of-pennsylvania",
   "organization": {
-    "@type": "gist:Court",
+    "@type": "gist:GovernmentOrganization",
     "name": "U.S. District Court, Eastern District of Pennsylvania"
   },
-  "authority_basis": {
-    "kind": "judicial",
-    "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json#authority-basis"
-  },
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us-pa"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-pa"
+    ],
+    "institutional_scope": [
+      "U.S. District Court, Eastern District of Pennsylvania"
+    ]
   },
+  "territorial_scope": [
+    "us-pa"
+  ],
+  "institutional_scope": [
+    "U.S. District Court, Eastern District of Pennsylvania"
+  ],
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.paed.609239/gov.uscourts.paed.609239.225.0.pdf",
+  "source_locator": "Bunce v. Visual Technology Innovations, Inc., No. 2:23-cv-01740-KNS",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "sameAs": [
-    "https://www.wikidata.org/entity/Q2350825"
+    "https://wikidata.org/entity/Q2350825"
   ]
 }

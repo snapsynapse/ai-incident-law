@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2024-017-allegation.json",
   "id": "aiel-2024-017-allegation",
   "text": "A private retail loss-prevention workflow allegedly matched robbery footage to old mugshots of Harvey Murphy and communicated certainty to police. Murphy alleged the match and lineup process caused his arrest despite not being the robber.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2024-017#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2024-017-deployer.json"
+  ],
   "ai_system_name": "Macy's / EssilorLuxottica facial-recognition workflow",
   "deployer": "EssilorLuxottica / Macy's loss-prevention personnel and Houston police",
   "domain": "retail / criminal justice",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "Actual suspect identity and reliable biometric-comparison standards",
   "mitigation_gap": "Private FRT comparison lacked qualified-examiner controls; old photographs and employee pre-briefing allegedly contaminated the identification process; police allegedly did not independently investigate.",
   "reliance_or_harm": "Murphy was detained and alleges severe jailhouse harm; civil case seeks damages.",
-  "ai_incident_law_record_id": "AIEL-2024-017"
+  "ai_incident_law_record_id": "AIEL-2024-017",
+  "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+  "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
+  "evidence_type": "primary record",
+  "verified": "2026-04-22",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

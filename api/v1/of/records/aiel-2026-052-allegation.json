@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2026-052-allegation.json",
   "id": "aiel-2026-052-allegation",
   "text": "Attorney Carlton Floyd filed an opening brief on appeal containing fabricated quotations attributed to real cases. His declaration admitted his office uses generative AI, and the court found he had used generative AI to add material to the brief during recesses in another trial without ever intending to review the added case law himself or have any other lawyer review it. The court referred to \"the AI-supplied quotations.\" No product is named anywhere in the opinion. Floyd later sent a letter identifying and withdrawing the misstatements.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2026-052#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-052-deployer.json"
+  ],
   "ai_system_name": "Unnamed generative AI (admitted by counsel)",
   "deployer": "Carlton Floyd (counsel for plaintiff and appellant Daniel Del Biaggio)",
   "domain": "legal services",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "Fabricated quotations attributed to genuine California authorities; California Rules of Court rule 8.276",
   "mitigation_gap": "Counsel delegated substantive brief drafting to a generative-AI tool with no verification step planned at any point, by his own account.",
   "reliance_or_harm": "$1,500 in appellate sanctions payable to the clerk of the Court of Appeal within 30 days of remittitur; opinion certified for publication; mandatory referral to the State Bar under Cal. Bus. & Prof. Code § 6086.7(a)(3); counsel ordered to serve the opinion on his client and certify service.",
-  "ai_incident_law_record_id": "AIEL-2026-052"
+  "ai_incident_law_record_id": "AIEL-2026-052",
+  "source": "https://courts.ca.gov/opinions/documents/A174647.PDF",
+  "source_locator": "Del Biaggio v. Bansen, No. A174647 (Cal. Ct. App., 1st Dist., Div. 4) (Humboldt County Super. Ct. No. CV1901078)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

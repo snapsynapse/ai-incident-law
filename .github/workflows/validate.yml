@@ -9,9 +9,17 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    env:
+      CHECK_OF_REQUIRED: "1"
+      OBLIGATION_FIRST_DIR: ${{ github.workspace }}/obligation-first
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
+      - uses: actions/checkout@v4
+        with:
+          repository: snapsynapse/obligation-first
+          path: obligation-first
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -19,35 +27,10 @@ jobs:
           node-version: "20"
 
       - name: Install dependencies
-        run: npm install
-
-      - name: Validate data pipeline
-        run: npm run build
-
-      - name: Test URL policy
-        run: npm run test:url-policy
-
-      - name: Evaluate URL policy pipeline
-        run: npm run eval:url-policy
-
-      - uses: actions/checkout@v4
-        with:
-          repository: snapsynapse/obligation-first
-          path: obligation-first
+        run: npm ci
 
       - name: Install Obligation-First dependencies
         run: npm ci --prefix obligation-first
 
-      - name: Check Obligation-First version compatibility
-        env:
-          CHECK_OF_REQUIRED: "1"
-        run: OBLIGATION_FIRST_DIR="$PWD/obligation-first" npm run check:of
-
-      - name: Validate Obligation-First binding
-        run: OBLIGATION_FIRST_DIR="$PWD/obligation-first" npm run validate:of
-
-      - name: Evaluate Obligation-First binding
-        run: npm run eval:of
-
-      - name: Check generated artifacts are committed
-        run: git diff --exit-code
+      - name: Run canonical CI verification
+        run: npm run verify:ci

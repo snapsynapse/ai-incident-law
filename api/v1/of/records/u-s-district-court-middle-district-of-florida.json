@@ -1,21 +1,49 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Authority",
   "@id": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json",
   "id": "u-s-district-court-middle-district-of-florida",
   "organization": {
-    "@type": "gist:Court",
+    "@type": "gist:GovernmentOrganization",
     "name": "U.S. District Court, Middle District of Florida"
   },
-  "authority_basis": {
-    "kind": "judicial",
-    "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json#authority-basis"
-  },
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us-fl"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-fl"
+    ],
+    "institutional_scope": [
+      "U.S. District Court, Middle District of Florida"
+    ]
   },
+  "territorial_scope": [
+    "us-fl"
+  ],
+  "institutional_scope": [
+    "U.S. District Court, Middle District of Florida"
+  ],
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
+  "source_locator": "Hodges v. Meridian Waste Acquisitions USA, No. 3:25-cv-62; Rieske v. AFS, No. 5:25-cv-45 (M.D. Fla.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "sameAs": [
-    "https://www.wikidata.org/entity/Q1384933"
+    "https://wikidata.org/entity/Q1384933"
   ]
 }

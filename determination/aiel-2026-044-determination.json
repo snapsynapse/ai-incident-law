@@ -1,13 +1,35 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2026-044-determination.json",
   "id": "aiel-2026-044-determination",
-  "issued_date": "2026-01-08",
-  "issuedBy": "https://aiincidentlaw.org/authority/new-york-supreme-court-appellate-division-third-department.json",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/new-york-supreme-court-appellate-division-third-department.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us-ny"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-ny"
+    ],
+    "institutional_scope": [
+      "New York Supreme Court, Appellate Division, Third Department"
+    ]
   },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2026-044-allegation.json"
@@ -19,6 +41,10 @@
   },
   "notes": "$7,500 on counsel + $2,500 on client = $10,000; metadata showed filings originated from client's AI program; first NY appellate-level GenAI sanctions decision. Source is the New York Official Reports slip opinion (official reporter, HTML). Tooling note: nycourts.gov returns HTTP 403 to bare scripted requests but 200 to a browser-like User-Agent, so an automated link-check failure here is a known false negative; both the bare and www hosts serve the document.",
   "source": "https://nycourts.gov/reporter/3dseries/2026/2026_00040.htm",
+  "source_locator": "Deutsche Bank Natl. Trust Co. v. LeTennier, 2026 NY Slip Op 00040, Docket No. CV-23-0713 (N.Y. App. Div., 3d Dep’t)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2026-044",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"

@@ -3,15 +3,37 @@
   "generated": "2026-07-25",
   "determinations": [
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2024-001-determination.json",
       "id": "aiel-2024-001-determination",
-      "issued_date": "2024-02-14",
-      "issuedBy": "https://aiincidentlaw.org/authority/british-columbia-civil-resolution-tribunal.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/british-columbia-civil-resolution-tribunal.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "ca-bc"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "ca-bc"
+        ],
+        "institutional_scope": [
+          "British Columbia Civil Resolution Tribunal"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2024-001-allegation.json"
@@ -23,25 +45,52 @@
       },
       "notes": "Tribunal awarded C$650.88 plus interest and fees.",
       "source": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
+      "source_locator": "Moffatt v. Air Canada, 2024 BCCRT 149",
+      "source_citation": "2024 BCCRT 149",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2024-001",
       "anchors": [
         "https://everyailaw.com/obligation-category/transparency.json"
       ],
       "neutral_citation": "2024 BCCRT 149",
-      "sameAs": [
+      "describesSameEntityAs": [
         "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2023-002-determination.json",
       "id": "aiel-2023-002-determination",
-      "issued_date": "2023-06-22",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ny"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ny"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Southern District of New York"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2023-002-allegation.json"
@@ -53,21 +102,47 @@
       },
       "notes": "Court imposed a $5,000 sanction and ordered notice to affected judges and client.",
       "source": "https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1:2022cv01461/575368/54/",
+      "source_locator": "Mata v. Avianca, Inc., No. 22-cv-1461",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2023-002",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2024-003-determination.json",
       "id": "aiel-2024-003-determination",
-      "issued_date": "2024-01-30",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-second-circuit.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-second-circuit.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. Court of Appeals for the Second Circuit"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2024-003-allegation.json"
@@ -79,21 +154,47 @@
       },
       "notes": "Matter referred to grievance panel; opinion emphasizes duty to verify AI-generated legal citations.",
       "source": "https://law.justia.com/cases/federal/appellate-courts/ca2/22-2057/22-2057-2024-01-30.html",
+      "source_locator": "Park v. Kim, No. 22-2057",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2024-003",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2025-004-determination.json",
       "id": "aiel-2025-004-determination",
-      "issued_date": "2025-01-01",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-wyoming.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-district-of-wyoming.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-wy"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-wy"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, District of Wyoming"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2025-004-allegation.json"
@@ -105,21 +206,47 @@
       },
       "notes": "Included as a notable sanctions event, but the primary court order should be downloaded and archived before treating as fully verified.",
       "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
+      "source_locator": "Wadsworth v. Walmart Inc.",
+      "evidence_type": "reliable reporting",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2025-004",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-005-determination.json",
       "id": "aiel-2026-005-determination",
-      "issued_date": "2026-02-18",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-fifth-circuit.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-fifth-circuit.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. Court of Appeals for the Fifth Circuit"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-005-allegation.json"
@@ -131,21 +258,47 @@
       },
       "notes": "Fifth Circuit Feb 18, 2026 final order: $2,500 sanction on appellate counsel Heather Hersh under inherent power; district-court counsel Shawn Jaffer Rule 11/$1927 sanctions vacated by separate order. Both Casetext/CoCounsel and vLex named as candidate products; Hersh admitted AI use when asked directly.",
       "source": "https://www.ca5.uscourts.gov/opinions/pub/25/25-20086-CV0.pdf",
+      "source_locator": "Fletcher v. Experian Information Solutions, Inc., No. 25-20086",
+      "evidence_type": "primary record",
+      "verified": "2026-06-02",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-005",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2025-006-determination.json",
       "id": "aiel-2025-006-determination",
-      "issued_date": "2025-10-23",
-      "issuedBy": "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "Armed Services Board of Contract Appeals"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2025-006-allegation.json"
@@ -157,21 +310,47 @@
       },
       "notes": "Reply brief struck; corrected reply denied; board issued broader AI-use caution.",
       "source": "https://www.asbca.mil/LinkClick.aspx?fileticket=eAIy2KSL_Zg%3D&portalid=143",
+      "source_locator": "Huffman Construction, LLC, ASBCA Nos. 62591, 62783",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2025-006",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2025-007-determination.json",
       "id": "aiel-2025-007-determination",
-      "issued_date": "2025-11-20",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ca"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ca"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Northern District of California"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2025-007-allegation.json"
@@ -183,21 +362,47 @@
       },
       "notes": "Court struck settlement motions with prejudice, imposed a monetary fine, and referred counsel for professional conduct review.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.409525/gov.uscourts.cand.409525.96.0.pdf",
+      "source_locator": "Buchanan v. Vuori, Inc., No. 5:23-cv-01121-NC",
+      "evidence_type": "primary record",
+      "verified": "2026-07-25",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2025-007",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2024-008-determination.json",
       "id": "aiel-2024-008-determination",
-      "issued_date": "2024-03-08",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida-florida-supreme-court.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida-florida-supreme-court.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-fl"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-fl"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Middle District of Florida; Florida Supreme Court"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2024-008-allegation.json"
@@ -209,21 +414,47 @@
       },
       "notes": "AI hallucinations are recorded as corroborating misconduct, not necessarily the sole basis for discipline.",
       "source": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
+      "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2024-008",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2023-009-determination.json",
       "id": "aiel-2023-009-determination",
-      "issued_date": "2022-05-05",
-      "issuedBy": "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ny"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ny"
+        ],
+        "institutional_scope": [
+          "EEOC; U.S. District Court, Eastern District of New York"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2023-009-allegation.json"
@@ -235,21 +466,47 @@
       },
       "notes": "EEOC announced $365,000 settlement and remedial measures.",
       "source": "https://eeoc.gov/newsroom/itutorgroup-pay-365000-settle-eeoc-discriminatory-hiring-suit",
+      "source_locator": "EEOC v. iTutorGroup, Inc., et al., No. 1:22-cv-02565",
+      "evidence_type": "official statement",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2023-009",
       "anchors": [
         "https://everyailaw.com/obligation-category/bias-prevention.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2024-010-determination.json",
       "id": "aiel-2024-010-determination",
-      "issued_date": "2022-05-01",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts-doj-hud.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts-doj-hud.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ma"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ma"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, District of Massachusetts; DOJ; HUD"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2024-010-allegation.json"
@@ -261,21 +518,47 @@
       },
       "notes": "Settlement announced in 2024; algorithmic tenant screening treated as subject to fair-housing law.",
       "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
+      "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al.",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2024-010",
       "anchors": [
         "https://everyailaw.com/obligation-category/bias-prevention.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2022-011-determination.json",
       "id": "aiel-2022-011-determination",
-      "issued_date": "2015-01-01",
-      "issuedBy": "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-mi"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-mi"
+        ],
+        "institutional_scope": [
+          "Michigan Court of Claims; Michigan Supreme Court"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2022-011-allegation.json"
@@ -287,6 +570,10 @@
       },
       "notes": "Michigan announced $20 million settlement; Michigan Supreme Court recognized damages availability for the constitutional tort theory.",
       "source": "https://michigan.gov/ag/news/press-releases/2022/10/20/som-settlement-of-civil-rights-class-action-alleging-false-accusations-of-unemployment-fraud",
+      "source_locator": "Bauserman v. Unemployment Insurance Agency",
+      "evidence_type": "official statement",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2022-011",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json",
@@ -295,15 +582,37 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2017-012-determination.json",
       "id": "aiel-2017-012-determination",
-      "issued_date": "2017-01-27",
-      "issuedBy": "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ar"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ar"
+        ],
+        "institutional_scope": [
+          "Arkansas Supreme Court; U.S. District Court, Eastern District of Arkansas; Eighth Circuit"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2017-012-allegation.json"
@@ -315,6 +624,10 @@
       },
       "notes": "Algorithm invalidated on rulemaking grounds; later proceedings addressed successor systems and systemic relief.",
       "source": "https://law.justia.com/cases/arkansas/supreme-court/2017/cv-17-183.html",
+      "source_locator": "Ledgerwood v. Arkansas Department of Human Services / related federal litigation",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2017-012",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json",
@@ -322,15 +635,37 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2023-013-determination.json",
       "id": "aiel-2023-013-determination",
-      "issued_date": "2023-12-19",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-federal-trade-commission.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-federal-trade-commission.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. Federal Trade Commission"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2023-013-allegation.json"
@@ -342,21 +677,47 @@
       },
       "notes": "FTC announced five-year facial-recognition ban and algorithmic fairness/monitoring requirements.",
       "source": "https://ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without",
+      "source_locator": "FTC v. Rite Aid facial-recognition enforcement",
+      "evidence_type": "official statement",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2023-013",
       "anchors": [
         "https://everyailaw.com/obligation-category/bias-prevention.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2024-014-determination.json",
       "id": "aiel-2024-014-determination",
-      "issued_date": "2021-04-01",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-mi"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-mi"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Eastern District of Michigan"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2024-014-allegation.json"
@@ -368,6 +729,10 @@
       },
       "notes": "Settlement included $300,000 and Detroit Police Department facial-recognition reforms.",
       "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
+      "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2024-014",
       "anchors": [
         "https://everyailaw.com/obligation-category/bias-prevention.json",
@@ -375,15 +740,37 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2025-016-determination.json",
       "id": "aiel-2025-016-determination",
-      "issued_date": "2023-07-01",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-mi"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-mi"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Eastern District of Michigan"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2025-016-allegation.json"
@@ -395,6 +782,10 @@
       },
       "notes": "Case reported dismissed at summary judgment in 2025 with appeal planned; keep procedural status under watch.",
       "source": "https://aclu.org/cases/woodruff-v-oliver",
+      "source_locator": "Woodruff v. Oliver, No. 2:23-cv-11597",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2025-016",
       "anchors": [
         "https://everyailaw.com/obligation-category/bias-prevention.json",
@@ -402,15 +793,37 @@
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-019-determination.json",
       "id": "aiel-2026-019-determination",
-      "issued_date": "2026-05-23",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-texas.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-texas.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-tx"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-tx"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Western District of Texas"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-019-allegation.json"
@@ -422,21 +835,47 @@
       },
       "notes": "Included by steward at early/filed posture. NOTE: AI system unnamed and ML-vs-rules nature unverified (admission gate 1 partial); complaint not yet pulled from PACER. Verify the tool is genuinely AI and re-confirm on next refresh. Sibling matter: John Loeffler v. IBM, No. 2:25-cv-05765 (C.D. Cal.), same defendant + age/algorithm-hiring theory.",
       "source": "https://courtlistener.com/docket/73387361/swanson-v-international-business-machines-corporation/",
+      "source_locator": "Swanson v. International Business Machines Corporation, No. 1:26-cv-01382",
+      "evidence_type": "primary record",
+      "verified": "2026-06-01",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-019",
       "anchors": [
         "https://everyailaw.com/obligation-category/bias-prevention.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-020-determination.json",
       "id": "aiel-2026-020-determination",
-      "issued_date": "2026-05-28",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ny"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ny"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Southern District of New York"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-020-allegation.json"
@@ -448,18 +887,44 @@
       },
       "notes": "Complaint (Doc 1, 54 pp) pulled from RECAP and verified 2026-06-01. Copyright + Lanham (trademark/false-attribution) claims; part of a multi-publisher wave against Perplexity (NYT, Chicago Tribune, Encyclopaedia Britannica/Merriam-Webster, Reddit, Dow Jones).",
       "source": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
+      "source_locator": "Cable News Network, Inc. v. Perplexity AI, Inc., No. 1:26-cv-04427",
+      "evidence_type": "primary record",
+      "verified": "2026-06-01",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-020"
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-021-determination.json",
       "id": "aiel-2026-021-determination",
-      "issued_date": "2026-05-27",
-      "issuedBy": "https://aiincidentlaw.org/authority/supreme-court-of-oklahoma.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/supreme-court-of-oklahoma.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ok"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ok"
+        ],
+        "institutional_scope": [
+          "Supreme Court of Oklahoma"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-021-allegation.json"
@@ -471,6 +936,11 @@
       },
       "notes": "Public reprimand (reciprocal; also reprimanded/censured in TX, TN, AL federal court). ChatGPT named and admitted by respondent. Underlying Johnson v. Dunn sanctions order, ECF No. 204, filed 2025-07-23, independently verified against the RECAP PDF.",
       "source": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=551746",
+      "source_locator": "State of Oklahoma ex rel. Oklahoma Bar Association v. Reeves, 2026 OK 37",
+      "source_citation": "2026 OK 37",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-021",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -478,15 +948,37 @@
       "neutral_citation": "2026 OK 37"
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-022-determination.json",
       "id": "aiel-2026-022-determination",
-      "issued_date": "2026-05-26",
-      "issuedBy": "https://aiincidentlaw.org/authority/ohio-court-of-appeals-sixth-appellate-district.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/ohio-court-of-appeals-sixth-appellate-district.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-oh"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-oh"
+        ],
+        "institutional_scope": [
+          "Ohio Court of Appeals, Sixth Appellate District"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-022-allegation.json"
@@ -498,6 +990,11 @@
       },
       "notes": "$100 sanction imposed by Sandusky County Court of Common Pleas 2025-08-11; Sixth District Court of Appeals affirmed denial of Guo’s motion to set aside, 2026-05-26. DeepSeek named by appellant; court found citations were AI-generated hallucinations.",
       "source": "https://supremecourt.ohio.gov/rod/docs/pdf/6/2026/2026-Ohio-1930.pdf",
+      "source_locator": "Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930 (No. S-25-035)",
+      "source_citation": "2026-Ohio-1930",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-022",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -505,15 +1002,37 @@
       "neutral_citation": "2026-Ohio-1930"
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-023-determination.json",
       "id": "aiel-2026-023-determination",
-      "issued_date": "2026-04-03",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-sixth-circuit.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-sixth-circuit.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. Court of Appeals for the Sixth Circuit"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-023-allegation.json"
@@ -525,21 +1044,47 @@
       },
       "notes": "Recommended for publication. Howe denied CJA compensation for the appeal, removed as counsel, briefs locked, and referred to the Sixth Circuit Chief Judge (Local Rule 46) and the Kentucky Bar. Notably the fabrications were false quotations from REAL cases, not fictitious cases.",
       "source": "https://www.opn.ca6.uscourts.gov/opinions.pdf/26a0105p-06.pdf",
+      "source_locator": "United States v. Farris, No. 25-5623 (6th Cir.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-023",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-024-determination.json",
       "id": "aiel-2026-024-determination",
-      "issued_date": "2026-04-28",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ca"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ca"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Northern District of California"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-024-allegation.json"
@@ -551,21 +1096,47 @@
       },
       "notes": "$1,001 personal sanction + 4 hours CLE + circulation/certification requirements; associate Katherine Cervantes was separately sanctioned (Dkt. 161). Caption shares the name \"Workday\" with AIEL-2025-018 (Mobley) but is unrelated to the hiring-tool matter — here Workday is merely the opposing party and the AI misconduct is by plaintiff’s counsel.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.422617/gov.uscourts.cand.422617.230.0.pdf",
+      "source_locator": "Hill v. Workday, Inc., No. 3:23-cv-06558-PHK",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-024",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-025-determination.json",
       "id": "aiel-2026-025-determination",
-      "issued_date": "2026-04-28",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-central-district-of-california.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-central-district-of-california.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ca"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ca"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Central District of California"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-025-allegation.json"
@@ -577,21 +1148,47 @@
       },
       "notes": "$2,500 total ($500 + $1,000 + $1,000) for bad faith; ordered to file a disclosure declaration in every Central District of California case in which he appears.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.cacd.951252/gov.uscourts.cacd.951252.46.0.pdf",
+      "source_locator": "Chaney v. Transdev Services Inc., No. 2:24-cv-10761-ODW (AJRx)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-025",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-026-determination.json",
       "id": "aiel-2026-026-determination",
-      "issued_date": "2026-04-29",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ny"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ny"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Southern District of New York"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-026-allegation.json"
@@ -603,21 +1200,47 @@
       },
       "notes": "$2,500 Rule 11 sanction; ordered to notify the judge in every pending case where she appears; separately referred (with co-counsel Jo Saint-George) to the Second Circuit Grievance Panel per Ioio v. City of New York (2d Cir. Mar. 16, 2026). NOTE: the Charlotin \"LexisNexis\" tool tag is NOT supported — the court declined to credit LexisNexis as the source. Merged 2026-07-24 with the duplicate record AIEL-2026-039, which described the same order in the same docket on the same date; AIEL-2026-039 is retired and must not be reused.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.631979/gov.uscourts.nysd.631979.192.0.pdf",
+      "source_locator": "Jimenez-Fogarty v. Fogarty, No. 1:24-cv-08705-JLR-GWG (S.D.N.Y.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-026",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-027-determination.json",
       "id": "aiel-2026-027-determination",
-      "issued_date": "2026-04-24",
-      "issuedBy": "https://aiincidentlaw.org/authority/supreme-court-of-alabama.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/supreme-court-of-alabama.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-al"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-al"
+        ],
+        "institutional_scope": [
+          "Supreme Court of Alabama"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-027-allegation.json"
@@ -629,21 +1252,47 @@
       },
       "notes": "Counsel ordered to pay $17,200 in attorney fees and costs to the appellee, plus double costs, and barred from further filings absent leave; appeal dismissed.",
       "source": "https://publicportal-api.alappeals.gov/courts/68f021c4-6a44-4735-9a76-5360b2e8af13/cms/case/47683afc-2f85-469d-8562-9dca094bb680/docketentrydocuments/d95cdd15-7428-4cc9-8389-3cc27ac88089",
+      "source_locator": "Ibach v. Stewart, No. SC-2025-0106 (Ala.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-027",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-028-determination.json",
       "id": "aiel-2026-028-determination",
-      "issued_date": "2026-04-20",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-pa"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-pa"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Eastern District of Pennsylvania"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-028-allegation.json"
@@ -655,21 +1304,47 @@
       },
       "notes": "$5,000 Rule 11(c) sanction plus an AI-ethics CLE requirement; second AI-related sanction against the same attorney (prior sanctions exceeded $73,000).",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.paed.609239/gov.uscourts.paed.609239.225.0.pdf",
+      "source_locator": "Bunce v. Visual Technology Innovations, Inc., No. 2:23-cv-01740-KNS",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-028",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-029-determination.json",
       "id": "aiel-2026-029-determination",
-      "issued_date": "2026-04-09",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-illinois.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-illinois.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-il"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-il"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Northern District of Illinois"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-029-allegation.json"
@@ -681,21 +1356,47 @@
       },
       "notes": "Motion struck (Local Rule 7.1) and $5,000 Rule 11 sanction. NOTE: Charlotin reported $4,999; the order imposes $5,000. Pro se status did not shelter the plaintiff from sanctions.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.475370/gov.uscourts.ilnd.475370.97.0.pdf",
+      "source_locator": "Obi v. Cook County, Illinois, No. 1:25-cv-03096",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-029",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-030-determination.json",
       "id": "aiel-2026-030-determination",
-      "issued_date": "2026-04-09",
-      "issuedBy": "https://aiincidentlaw.org/authority/appellate-court-of-illinois-third-district.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/appellate-court-of-illinois-third-district.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-il"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-il"
+        ],
+        "institutional_scope": [
+          "Appellate Court of Illinois, Third District"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-030-allegation.json"
@@ -707,6 +1408,11 @@
       },
       "notes": "Judgment for fees and costs of $3,178 entered against the appellant under Illinois Supreme Court Rule 375(b); dismissal of the complaint affirmed.",
       "source": "https://illinoiscourts.gov/resources/63539016-cb02-4575-b3da-0dd0632244c1/file",
+      "source_locator": "Hulvat v. Gumina, 2026 IL App (3d) 240628-U",
+      "source_citation": "2026 IL App (3d) 240628-U",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-030",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -714,15 +1420,37 @@
       "neutral_citation": "2026 IL App (3d) 240628-U"
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-031-determination.json",
       "id": "aiel-2026-031-determination",
-      "issued_date": "2026-04-09",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-western-district-of-louisiana.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-western-district-of-louisiana.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-la"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-la"
+        ],
+        "institutional_scope": [
+          "U.S. Bankruptcy Court, Western District of Louisiana"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-031-allegation.json"
@@ -734,21 +1462,47 @@
       },
       "notes": "$2,750 monetary sanction payable to the Clerk plus six hours of in-person CLE focused on the use of generative AI; counsel admitted the AI use.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.lawb.374130/gov.uscourts.lawb.374130.84.0.pdf",
+      "source_locator": "In re Wise, No. 25-51132 (Bankr. W.D. La.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-031",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-032-determination.json",
       "id": "aiel-2026-032-determination",
-      "issued_date": "2026-03-05",
-      "issuedBy": "https://aiincidentlaw.org/authority/california-court-of-appeal-fourth-appellate-district-division-one.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/california-court-of-appeal-fourth-appellate-district-division-one.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ca"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ca"
+        ],
+        "institutional_scope": [
+          "California Court of Appeal, Fourth Appellate District, Division One"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-032-allegation.json"
@@ -760,21 +1514,47 @@
       },
       "notes": "$5,000 sanction and bar referral confirmed; AI unnamed but admitted at oral argument.",
       "source": "https://courts.ca.gov/opinions/archive/D085584.PDF",
+      "source_locator": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-032",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-033-determination.json",
       "id": "aiel-2026-033-determination",
-      "issued_date": "2026-03-06",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-louisiana.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-louisiana.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-la"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-la"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Western District of Louisiana"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-033-allegation.json"
@@ -786,21 +1566,47 @@
       },
       "notes": "$1,000 personal sanction (2026 WL 637419); attorney admitted ChatGPT use and failure to verify.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.lawd.213966/gov.uscourts.lawd.213966.28.0.pdf",
+      "source_locator": "Kattom v. Bondi, No. 25-1497 SEC P (W.D. La.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-033",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-034-determination.json",
       "id": "aiel-2026-034-determination",
-      "issued_date": "2026-03-20",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-louisiana.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-louisiana.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-la"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-la"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Eastern District of Louisiana"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-034-allegation.json"
@@ -812,21 +1618,47 @@
       },
       "notes": "$250 Harris + $1,000 Roquemore; St. Raymond admonished only; Harris fully admitted ChatGPT use.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.laed.273860/gov.uscourts.laed.273860.25.0.pdf",
+      "source_locator": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-034",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-035-determination.json",
       "id": "aiel-2026-035-determination",
-      "issued_date": "2026-03-20",
-      "issuedBy": "https://aiincidentlaw.org/authority/court-of-appeals-of-ohio-eleventh-appellate-district.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/court-of-appeals-of-ohio-eleventh-appellate-district.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-oh"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-oh"
+        ],
+        "institutional_scope": [
+          "Court of Appeals of Ohio, Eleventh Appellate District"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-035-allegation.json"
@@ -838,6 +1670,11 @@
       },
       "notes": "$2,000 fine with $2,000 credit for prior Ashtabula County payment; disciplinary referral; removal; appeal stricken.",
       "source": "https://supremecourt.ohio.gov/rod/docs/pdf/11/2026/2026-Ohio-965.pdf",
+      "source_locator": "State v. Coleman, 2026-Ohio-965, No. 2024-A-0040 (Ohio Ct. App., 11th Dist.)",
+      "source_citation": "2026-Ohio-965",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-035",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -845,15 +1682,37 @@
       "neutral_citation": "2026-Ohio-965"
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-036-determination.json",
       "id": "aiel-2026-036-determination",
-      "issued_date": "2026-03-23",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-oregon.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-district-of-oregon.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-or"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-or"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, District of Oregon"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-036-allegation.json"
@@ -865,21 +1724,47 @@
       },
       "notes": "Two-order matter: Dec 12, 2025 (AI sanction + $15,500 + claims dismissed); March 23, 2026 (fee split finalized). Total exposure ~$110,204. On March 24, 2026, ECF No. 226 recorded a Rule 60(a) administrative correction because an incorrect PDF had been attached to ECF No. 225. The court replaced that attachment with a corrected PDF for scrivener's errors. The corrected ECF No. 225 retains the $94,704.38 total and exact 85/15 allocation ($80,498.72 to Brigandi and $14,205.66 to Murphy), so the corpus figures are unchanged.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.ord.158388/gov.uscourts.ord.158388.225.0.pdf",
+      "source_locator": "Couvrette v. Wisnovsky, No. 1:21-cv-00157-CL (D. Or.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-25",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-036",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-037-determination.json",
       "id": "aiel-2026-037-determination",
-      "issued_date": "2026-03-31",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-alabama.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-alabama.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-al"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-al"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Southern District of Alabama"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-037-allegation.json"
@@ -891,21 +1776,47 @@
       },
       "notes": "$55,597.00 confirmed; counsel denied AI use but court expressly found he \"clearly used it at some point\"; denial not credited.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.alsd.70919/gov.uscourts.alsd.70919.353.0.pdf",
+      "source_locator": "Heimkes v. Fairhope Motorcoach Resort Condominium Owners Association et al., No. 1:22-cv-00448-TFM-N (S.D. Ala.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-037",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-038-determination.json",
       "id": "aiel-2026-038-determination",
-      "issued_date": "2026-03-31",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-alabama.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-alabama.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-al"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-al"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Northern District of Alabama"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-038-allegation.json"
@@ -917,21 +1828,47 @@
       },
       "notes": "$47,056.90 total ($35,603.90 + $11,453); ChatGPT workspace forensically examined; both admission and court finding confirmed.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.alnd.192599/gov.uscourts.alnd.192599.116.0.pdf",
+      "source_locator": "Rivera v. Triad Properties Corporation et al., No. 2:24-cv-01802-AMM (N.D. Ala.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-038",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-040-determination.json",
       "id": "aiel-2026-040-determination",
-      "issued_date": "2026-05-07",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-colorado.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-district-of-colorado.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-co"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-co"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, District of Colorado"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-040-allegation.json"
@@ -943,21 +1880,47 @@
       },
       "notes": "Second standalone sanctions order ($5,000); first order imposed $3,000 on Kachouroff + $3,000 on co-counsel DeMaster. Bar referral confirmed.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.cod.215068/gov.uscourts.cod.215068.424.0.pdf",
+      "source_locator": "Coomer v. Lindell/MyPillow Inc., No. 1:22-cv-01129-NYW-SBP (D. Colo.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-040",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-041-determination.json",
       "id": "aiel-2026-041-determination",
-      "issued_date": "2026-05-19",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ny"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ny"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Southern District of New York"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-041-allegation.json"
@@ -969,21 +1932,47 @@
       },
       "notes": "AI-attributable sanction $2,710 ($1,710 fees + $1,000 penalty); LexisNexis AI confirmed by counsel admission and court finding. Separate $46,980 discovery sanction not AI-related.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.605627/gov.uscourts.nysd.605627.142.0.pdf",
+      "source_locator": "Chakma v. Sushi Katsuei Inc., No. 1:23-cv-07804-KPF (S.D.N.Y.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-041",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-042-determination.json",
       "id": "aiel-2026-042-determination",
-      "issued_date": "2026-05-20",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-indiana.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-indiana.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-in"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-in"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Southern District of Indiana"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-042-allegation.json"
@@ -995,21 +1984,47 @@
       },
       "notes": "$2,000 sanction (reduced from magistrate's $7,500 recommendation); Fastcase named as the AI tool by court finding.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.insd.217901/gov.uscourts.insd.217901.127.0.pdf",
+      "source_locator": "Davis v. Marion County Superior Court Juvenile Detention Center, No. 1:24-cv-01918-JRO-MJD (S.D. Ind.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-042",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-043-determination.json",
       "id": "aiel-2026-043-determination",
-      "issued_date": "2026-06-01",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-seventh-circuit.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-seventh-circuit.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. Court of Appeals for the Seventh Circuit"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-043-allegation.json"
@@ -1021,21 +2036,47 @@
       },
       "notes": "$5,000 on Salah (not $4,997 as in tracker); ARDC referral for Chalisa; 24 fabricated quotations and 7 wrong-circuit citations documented.",
       "source": "https://media.ca7.uscourts.gov/cgi-bin/OpinionsWeb/processWebInputExternal.pl?Submit=Display&Path=Y2026/D06-01/C:25-1988:J:Brennan:aut:T:fnOp:N:3550588:S:0",
+      "source_locator": "Perez-Castillo v. Blanche (Att'y Gen.), No. 25-1988 (7th Cir.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-043",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-044-determination.json",
       "id": "aiel-2026-044-determination",
-      "issued_date": "2026-01-08",
-      "issuedBy": "https://aiincidentlaw.org/authority/new-york-supreme-court-appellate-division-third-department.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/new-york-supreme-court-appellate-division-third-department.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ny"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ny"
+        ],
+        "institutional_scope": [
+          "New York Supreme Court, Appellate Division, Third Department"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-044-allegation.json"
@@ -1047,21 +2088,47 @@
       },
       "notes": "$7,500 on counsel + $2,500 on client = $10,000; metadata showed filings originated from client's AI program; first NY appellate-level GenAI sanctions decision. Source is the New York Official Reports slip opinion (official reporter, HTML). Tooling note: nycourts.gov returns HTTP 403 to bare scripted requests but 200 to a browser-like User-Agent, so an automated link-check failure here is a known false negative; both the bare and www hosts serve the document.",
       "source": "https://nycourts.gov/reporter/3dseries/2026/2026_00040.htm",
+      "source_locator": "Deutsche Bank Natl. Trust Co. v. LeTennier, 2026 NY Slip Op 00040, Docket No. CV-23-0713 (N.Y. App. Div., 3d Dep’t)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-044",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-045-determination.json",
       "id": "aiel-2026-045-determination",
-      "issued_date": "2026-01-16",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-fl"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-fl"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Middle District of Florida"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-045-allegation.json"
@@ -1073,21 +2140,47 @@
       },
       "notes": "Companion cases in single order; $7,000 fee sanction plus 10 mandatory speaking engagements; no bar referral.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
+      "source_locator": "Hodges v. Meridian Waste Acquisitions USA, No. 3:25-cv-62; Rieske v. AFS, No. 5:25-cv-45 (M.D. Fla.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-045",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-046-determination.json",
       "id": "aiel-2026-046-determination",
-      "issued_date": "2026-01-26",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-pa"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-pa"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Eastern District of Pennsylvania"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-046-allegation.json"
@@ -1099,21 +2192,47 @@
       },
       "notes": "$4,000 on Anderson; local co-counsel Goldin also found to violate Rule 11 but not fined; LexisNexis tool attribution credited from firm's sworn show-cause response.",
       "source": "https://govinfo.gov/content/pkg/USCOURTS-paed-2_25-cv-05135/pdf/USCOURTS-paed-2_25-cv-05135-0.pdf",
+      "source_locator": "Lifetime Well LLC v. IBSpot.com Inc., No. 2:25-cv-05135-MAK (E.D. Pa.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-046",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-047-determination.json",
       "id": "aiel-2026-047-determination",
-      "issued_date": "2026-02-02",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-kansas.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-district-of-kansas.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ks"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ks"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, District of Kansas"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-047-allegation.json"
@@ -1125,21 +2244,47 @@
       },
       "notes": "$12,000 aggregate: Seth $5,000 + pro hac vice revocation; Kula $3,000; Joe $3,000; Cooper $1,000; fifth attorney (Doell) released from sanctions.",
       "source": "https://govinfo.gov/content/pkg/USCOURTS-ksd-2_22-cv-02324/pdf/USCOURTS-ksd-2_22-cv-02324-9.pdf",
+      "source_locator": "Lexos Media IP, LLC v. Overstock.com, Inc., No. 2:22-cv-02324-JAR (D. Kan.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-047",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-048-determination.json",
       "id": "aiel-2026-048-determination",
-      "issued_date": "2026-02-09",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-tenth-circuit.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-tenth-circuit.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. Court of Appeals for the Tenth Circuit"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-048-allegation.json"
@@ -1151,21 +2296,47 @@
       },
       "notes": "$1,000 to Frontier (fee offset); mandatory Maryland bar referral; attorney appeared pro se on her own employment appeal.",
       "source": "https://ca10.uscourts.gov/sites/ca10/files/opinions/010111382504.pdf",
+      "source_locator": "Amarsingh v. Frontier Airlines, Inc., No. 24-1391 (10th Cir.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-048",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-049-determination.json",
       "id": "aiel-2026-049-determination",
-      "issued_date": "2026-02-18",
-      "issuedBy": "https://aiincidentlaw.org/authority/california-court-of-appeal-second-appellate-district.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/california-court-of-appeal-second-appellate-district.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ca"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ca"
+        ],
+        "institutional_scope": [
+          "California Court of Appeal, Second Appellate District"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-049-allegation.json"
@@ -1177,21 +2348,47 @@
       },
       "notes": "$900 on Azar alone; AI tool unnamed (accessed via unnamed AI \"consultant\"); co-counsel Keiter exonerated.",
       "source": "https://courts.ca.gov/opinions/nonpub/B329314.PDF",
+      "source_locator": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., No. B329314 (Cal. Ct. App., 2d Dist., Div. Three) (unpublished)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-049",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-050-determination.json",
       "id": "aiel-2026-050-determination",
-      "issued_date": "2026-04-01",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-indiana.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-indiana.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-in"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-in"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Northern District of Indiana"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-050-allegation.json"
@@ -1203,21 +2400,47 @@
       },
       "notes": "Charlotin tracker date (Feb 27) is the Show Cause Order; actual sanctions order is April 1, 2026. Case involves Joseph Maldonado-Passage (Joe Exotic), federally incarcerated.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.innd.124045/gov.uscourts.innd.124045.26.0.pdf",
+      "source_locator": "Maldonado v. Professional Animal Retirement Center (PARC), No. 1:25-cv-00454-HAB-ALT (N.D. Ind.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-050",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-051-determination.json",
       "id": "aiel-2026-051-determination",
-      "issued_date": "2026-07-14",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-southern-district-of-texas.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-southern-district-of-texas.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-tx"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-tx"
+        ],
+        "institutional_scope": [
+          "U.S. Bankruptcy Court, Southern District of Texas"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-051-allegation.json"
@@ -1229,21 +2452,47 @@
       },
       "notes": "Memorandum Opinion (ECF 312) by Chief Judge Eduardo V. Rodriguez; a conforming separate order was entered simultaneously and is a second primary document. The court did not find that Westlaw Precision produced the fabrications and expressly held causation immaterial, so the AI-establishment basis is counsel’s admission of use, not a judicial finding of tool output. The fee award is compensatory and joint and several with the Petitioning Creditors, not a penalty against counsel alone; the Fifth Circuit bars fee awards for court-initiated Rule 11(c)(1)(B) sanctions, which is why it rests on inherent power and § 105(a). Fee total verified by itemized arithmetic.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.txsb.485264/gov.uscourts.txsb.485264.312.0.pdf",
+      "source_locator": "In re Rosslyn2016, LLC, Texas Esencia 2019 LLC and Timbers2020 LLC, No. 25-34507 (Bankr. S.D. Tex., Houston Div.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-051",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-052-determination.json",
       "id": "aiel-2026-052-determination",
-      "issued_date": "2026-07-10",
-      "issuedBy": "https://aiincidentlaw.org/authority/california-court-of-appeal-first-appellate-district.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/california-court-of-appeal-first-appellate-district.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ca"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ca"
+        ],
+        "institutional_scope": [
+          "California Court of Appeal, First Appellate District"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-052-allegation.json"
@@ -1255,21 +2504,47 @@
       },
       "notes": "Certified for publication, making it precedential. In the same opinion the trial court’s separate § 1008(d) sanctions award against counsel was vacated and the respondents’ own frivolous-appeal sanctions motion was denied. Counsel’s declaration hedged that the errors \"were not willful or AI-driven without review,\" and footnote 6 reserves on whether every citation error is attributable to AI, but that reservation covers only uncatalogued additional errors, not the fabricated quotations. Charlotin lists the court as the 4th District; it is the First Appellate District, Division Four, and the tracker PDF filename misspells the caption as \"Del Baggio.\"",
       "source": "https://courts.ca.gov/opinions/documents/A174647.PDF",
+      "source_locator": "Del Biaggio v. Bansen, No. A174647 (Cal. Ct. App., 1st Dist., Div. 4) (Humboldt County Super. Ct. No. CV1901078)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-052",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-053-determination.json",
       "id": "aiel-2026-053-determination",
-      "issued_date": "2026-07-10",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-eleventh-circuit.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-eleventh-circuit.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. Court of Appeals for the Eleventh Circuit"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-053-allegation.json"
@@ -1281,21 +2556,44 @@
       },
       "notes": "Marked FOR PUBLICATION; appeal from S.D. Fla. No. 1:22-cv-23519-KMM; panel Rosenbaum, Grant, and Kidd, opinion by Grant. Gate 1 rests on the court’s own finding, not an admission: \"By outsourcing his legal work to an AI algorithm, Sabatini violated his ethical duties to both his clients and this Court.\" Charlotin tags the tool \"Implied,\" which understates the record. No monetary sanction. The referral itself issues by a separate order through the Chief Judge, which is a distinct primary document not yet obtained. Tracker PDF filename misspells the defendant as \"Altas Air\" and omits co-defendant Flight Services International, LLC.",
       "source": "https://media.ca11.uscourts.gov/opinions/pub/files/202411033.pdf",
+      "source_locator": "Akerlund v. Atlas Air, Inc., Flight Services International, LLC, No. 24-11033 (11th Cir.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-053",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-054-determination.json",
       "id": "aiel-2026-054-determination",
-      "issued_date": "2026-05-05",
-      "issuedBy": "https://aiincidentlaw.org/authority/supreme-court-of-georgia.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/supreme-court-of-georgia.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": ""
+        "@type": "of:Jurisdiction",
+        "institutional_scope": [
+          "Supreme Court of Georgia"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-054-allegation.json"
@@ -1307,21 +2605,47 @@
       },
       "notes": "The fabricated citations sat in the trial court’s own signed order, but the opinion states that order was largely prepared by the prosecutor as a proposed order, and the AI use is entirely prosecutor-side; the trial judge was neither sanctioned nor found to have used AI. Recorded here as prosecutor-side conduct that contaminated an adjudicative document, not as adjudicator-side AI use. No product named — the opinion says only “artificial intelligence software”. Footnote 4 preserves separate State Bar and Judicial Qualifications Commission proceedings, so a later disciplinary phase is possible. Two justices concurred in part and dissented in part, objecting only to admonishing the district attorney’s office. Official caption spells the appellant “Hannah Renea Payne”. URL note: the bare domain gasupreme.us fails TLS with a certificate hostname mismatch, so this link must retain the www host — see WWW_REQUIRED_HOSTS in scripts/url-policy.mjs.",
       "source": "https://www.gasupreme.us/wp-content/uploads/2026/05/s26a0459.pdf",
+      "source_locator": "Hannah Renea Payne v. The State, No. S26A0459 (Ga.), 324 Ga. 305",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-054",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-055-determination.json",
       "id": "aiel-2026-055-determination",
-      "issued_date": "2026-06-08",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-mississippi.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-mississippi.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Northern District of Mississippi"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-055-allegation.json"
@@ -1333,21 +2657,47 @@
       },
       "notes": "Sanctions Order, Doc. 123, by Senior U.S. District Judge Sharion Aycock. The $8,000 is an aggregate of four separate per-attorney fines, not a single award. Bad faith was found only as to the two lead attorneys; the resident attorneys were found negligent and careless but not in bad faith. Do not attribute the defence tool to “First Drafts” — the order treats them as two distinct tools and names no vendor for either. Related but distinct corpus record: AIEL-2026-031 (In re Wise, Bankr. W.D. La.) involves the same plaintiff-side attorney; this order discusses that matter as later repeat conduct, and the Withers conduct predates it.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.msnd.50181/gov.uscourts.msnd.50181.123.0_1.pdf",
+      "source_locator": "Withers v. City of Aberdeen, No. 1:24-CV-218-SA-RP (N.D. Miss.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-055",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-056-determination.json",
       "id": "aiel-2026-056-determination",
-      "issued_date": "2026-03-10",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ny"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ny"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Southern District of New York"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-056-allegation.json"
@@ -1359,21 +2709,47 @@
       },
       "notes": "Opinion and Order, Dkt. 161, by Judge Jennifer L. Rochon; the AI discussion is a threshold section preceding the merits. This is the first AI-related judicial finding in this matter and the one that carries gate-1 weight: two later orders (Dkt. 206 of 2026-06-23 and an order of 2026-07-10) reference AI only as allegation, denial, or recitation of sanctions in other matters, and the Grievance Committee referral that followed rests on deposition conduct rather than AI use. Record the vendor attribution as claimed-and-denied, not as established. Related matters involving the same attorney, none yet in the corpus: Jakes v. Youngblood (W.D. Pa.), Facey v. Fisher (N.Y. Sup. Ct.), and Flycatcher Corp. v. Affable Ave. LLC (S.D.N.Y.).",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.641455/gov.uscourts.nysd.641455.161.0.pdf",
+      "source_locator": "Joseph Cartagena v. Terrance Dixon, Tyrone Blackburn, and T.A. Blackburn Law, PLLC, No. 1:25-cv-03552 (JLR) (S.D.N.Y.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-056",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-057-determination.json",
       "id": "aiel-2026-057-determination",
-      "issued_date": "2026-02-12",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-government-accountability-office.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-government-accountability-office.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. Government Accountability Office"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-057-allegation.json"
@@ -1385,21 +2761,47 @@
       },
       "notes": "Broadens the corpus beyond court sanctions into federal administrative procurement adjudication. GAO issues protest decisions and does not impose Rule 11 sanctions, so the outcome is an on-the-record advisement plus a compelled-response order, not a sanction; the fabricated citations did not affect the result, as both protest grounds were denied on independent merits grounds. Underlying procurement: DHS/USCIS RFP No. 70SBUR25R00000009. The secondary landing page must keep the comma-joined file numbers — the shortened form is a hard 404. Tooling note: gao.gov returns 403 to plain scripted requests behind Akamai for both bare and www hosts, so an automated link check failing on this URL is a known false negative; the asset was confirmed by hash against an independently obtained copy. Three further GAO matters cited in this decision are queued leads: KE Systems Services (B-423881), Oready, LLC (B-423524.2), and Raven Investigations & Security Consulting (B-423447) — note the Oready number differs from the one recorded in AIEL-CAND-004.",
       "source": "https://gao.gov/assets/890/884082.pdf",
+      "source_locator": "Matter of: CVTEK, LLC, B-423943; B-423943.2 (U.S. Government Accountability Office)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-057",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-058-determination.json",
       "id": "aiel-2026-058-determination",
-      "issued_date": "2025-10-06",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-pennsylvania.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-pennsylvania.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-pa"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-pa"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Western District of Pennsylvania"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-058-allegation.json"
@@ -1411,21 +2813,47 @@
       },
       "notes": "Memorandum Order, ECF No. 71, by Judge William S. Stickman IV. The native image-only order was verified through RECAP against its caption, docket, filing date, entry number, and PACER case ID, then OCR-reviewed across all six pages. Corrects the review draft's mistaken first name: the sanctioned attorney is Tyrone Blackburn, not Arthur Aidala Blackburn.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.pawd.314851/gov.uscourts.pawd.314851.71.0.pdf",
+      "source_locator": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-25",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-058",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Determination",
       "@id": "https://aiincidentlaw.org/determination/aiel-2026-059-determination.json",
       "id": "aiel-2026-059-determination",
-      "issued_date": "2025-12-19",
-      "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-mississippi.json",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-mississippi.json"
+      ],
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Northern District of Mississippi"
+        ]
       },
       "decides": [
         "https://aiincidentlaw.org/allegation/aiel-2026-059-allegation.json"
@@ -1437,6 +2865,10 @@
       },
       "notes": "Sanctions Order, ECF No. 79, by Senior Judge Sharion Aycock. The native order was verified through RECAP against its caption, docket, filing date, entry number, and PACER case ID. The order names Grok as Watson's external AI tool and separately describes the firm's permitted Smokeball tool, Archie; do not attribute the defective filing to Archie. The court found a monetary fine would not provide meaningful deterrence and imposed structural and practice restrictions instead.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.msnd.49169/gov.uscourts.msnd.49169.79.0.pdf",
+      "source_locator": "Billups v. Louisville Municipal School District, No. 1:24-cv-00074-SA-RP (N.D. Miss.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-25",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-059",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"

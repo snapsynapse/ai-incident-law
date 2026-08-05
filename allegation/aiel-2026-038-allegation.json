@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2026-038-allegation.json",
   "id": "aiel-2026-038-allegation",
   "text": "Attorney Joshua B. Watkins of Burrill Watkins LLC was publicly reprimanded, disqualified from the case, and sanctioned a combined $47,056.90 after forensic examination of his firm's ChatGPT Business Plan workspace confirmed hallucinated citations in filings. Counsel admitted generative-AI use and the court made an independent finding of false statements of law. The order was published in the Federal Supplement; the Bar was notified.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2026-038#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-038-deployer.json"
+  ],
   "ai_system_name": "ChatGPT (named; court-found)",
   "deployer": "Joshua B. Watkins (Burrill Watkins LLC)",
   "domain": "legal services",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "Non-existent federal case citations; genuine federal civil rights and landlord-tenant law",
   "mitigation_gap": "Attorney used ChatGPT to draft legal briefs and filed without verifying citations; forensic examination of the firm's ChatGPT workspace confirmed the AI origin.",
   "reliance_or_harm": "$35,603.90 to Fite Defendants + $11,453 to Triad Defendants = $47,056.90; public reprimand; disqualification; Bar referral; order published.",
-  "ai_incident_law_record_id": "AIEL-2026-038"
+  "ai_incident_law_record_id": "AIEL-2026-038",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.alnd.192599/gov.uscourts.alnd.192599.116.0.pdf",
+  "source_locator": "Rivera v. Triad Properties Corporation et al., No. 2:24-cv-01802-AMM (N.D. Ala.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

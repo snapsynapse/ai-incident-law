@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2026-027-allegation.json",
   "id": "aiel-2026-027-allegation",
   "text": "The Supreme Court of Alabama found that briefs filed by appellants’ counsel (\"Hall\") contained numerous invalid citations the court determined were \"AI hallucinations,\" i.e., fake authorities created by an AI system. Counsel conceded the improper AI use, describing it as his first use of an AI research tool. The court dismissed the appeal as grossly deficient and imposed sanctions.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2026-027#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-027-deployer.json"
+  ],
   "ai_system_name": "Unnamed generative-AI research tool (court finding; counsel conceded)",
   "deployer": "Appellants’ counsel (attorney \"Hall\")",
   "domain": "legal services",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "Genuine legal authorities; Alabama Rules of Appellate Procedure",
   "mitigation_gap": "No verification of AI-generated authorities before filing.",
   "reliance_or_harm": "Fabricated authorities forced opposing party and the court to expend resources; appeal dismissed.",
-  "ai_incident_law_record_id": "AIEL-2026-027"
+  "ai_incident_law_record_id": "AIEL-2026-027",
+  "source": "https://publicportal-api.alappeals.gov/courts/68f021c4-6a44-4735-9a76-5360b2e8af13/cms/case/47683afc-2f85-469d-8562-9dca094bb680/docketentrydocuments/d95cdd15-7428-4cc9-8389-3cc27ac88089",
+  "source_locator": "Ibach v. Stewart, No. SC-2025-0106 (Ala.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

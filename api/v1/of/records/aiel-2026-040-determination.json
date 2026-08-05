@@ -1,13 +1,35 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2026-040-determination.json",
   "id": "aiel-2026-040-determination",
-  "issued_date": "2026-05-07",
-  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-colorado.json",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/u-s-district-court-district-of-colorado.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us-co"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-co"
+    ],
+    "institutional_scope": [
+      "U.S. District Court, District of Colorado"
+    ]
   },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2026-040-allegation.json"
@@ -19,6 +41,10 @@
   },
   "notes": "Second standalone sanctions order ($5,000); first order imposed $3,000 on Kachouroff + $3,000 on co-counsel DeMaster. Bar referral confirmed.",
   "source": "https://storage.courtlistener.com/recap/gov.uscourts.cod.215068/gov.uscourts.cod.215068.424.0.pdf",
+  "source_locator": "Coomer v. Lindell/MyPillow Inc., No. 1:22-cv-01129-NYW-SBP (D. Colo.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2026-040",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"

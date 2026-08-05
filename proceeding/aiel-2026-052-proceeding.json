@@ -1,15 +1,47 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Proceeding",
   "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-052-proceeding.json",
   "id": "aiel-2026-052-proceeding",
   "title": "Del Biaggio v. Bansen, No. A174647 (Cal. Ct. App., 1st Dist., Div. 4) (Humboldt County Super. Ct. No. CV1901078)",
   "filed_date": "2026-07-10",
-  "issuedBy": "https://aiincidentlaw.org/authority/california-court-of-appeal-first-appellate-district.json",
+  "heardBy": [
+    "https://aiincidentlaw.org/authority/california-court-of-appeal-first-appellate-district.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us-ca"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-ca"
+    ],
+    "institutional_scope": [
+      "California Court of Appeal, First Appellate District"
+    ]
   },
+  "territorial_scope": [
+    "us-ca"
+  ],
+  "institutional_scope": [
+    "California Court of Appeal, First Appellate District"
+  ],
+  "parties": [
+    "https://aiincidentlaw.org/party/aiel-2026-052-deployer.json"
+  ],
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-052-allegation.json"
   ],
@@ -17,7 +49,11 @@
     "https://aiincidentlaw.org/determination/aiel-2026-052-determination.json"
   ],
   "source": "https://courts.ca.gov/opinions/documents/A174647.PDF",
+  "source_locator": "Del Biaggio v. Bansen, No. A174647 (Cal. Ct. App., 1st Dist., Div. 4) (Humboldt County Super. Ct. No. CV1901078)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2026-052",
   "matter_type": "sanctions order (appellate, published opinion)",
-  "status": "sanctioned"
+  "filing_status": "sanctioned"
 }

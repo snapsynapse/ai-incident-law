@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2026-031-allegation.json",
   "id": "aiel-2026-031-allegation",
   "text": "A bankruptcy court sanctioned attorney Kathleen Wilson after she admitted using generative AI to prepare a Supplemental Response and other pleadings without verifying the output. The filings contained AI-generated citations to nonexistent cases, including In re Garcia and In re Buttermilk Towne LLC.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2026-031#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-031-deployer.json"
+  ],
   "ai_system_name": "Unnamed generative AI (admitted by counsel)",
   "deployer": "Debtor’s counsel Kathleen Wilson",
   "domain": "legal services",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "Genuine case law; Fed. R. Bankr. P. 9011",
   "mitigation_gap": "Failed to review or verify admittedly AI-generated content before filing.",
   "reliance_or_harm": "False citations submitted to the court; sanctions and mandatory AI education imposed.",
-  "ai_incident_law_record_id": "AIEL-2026-031"
+  "ai_incident_law_record_id": "AIEL-2026-031",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.lawb.374130/gov.uscourts.lawb.374130.84.0.pdf",
+  "source_locator": "In re Wise, No. 25-51132 (Bankr. W.D. La.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

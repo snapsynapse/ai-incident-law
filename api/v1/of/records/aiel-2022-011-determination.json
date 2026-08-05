@@ -1,13 +1,35 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2022-011-determination.json",
   "id": "aiel-2022-011-determination",
-  "issued_date": "2015-01-01",
-  "issuedBy": "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us-mi"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-mi"
+    ],
+    "institutional_scope": [
+      "Michigan Court of Claims; Michigan Supreme Court"
+    ]
   },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2022-011-allegation.json"
@@ -19,6 +41,10 @@
   },
   "notes": "Michigan announced $20 million settlement; Michigan Supreme Court recognized damages availability for the constitutional tort theory.",
   "source": "https://michigan.gov/ag/news/press-releases/2022/10/20/som-settlement-of-civil-rights-class-action-alleging-false-accusations-of-unemployment-fraud",
+  "source_locator": "Bauserman v. Unemployment Insurance Agency",
+  "evidence_type": "official statement",
+  "verified": "2026-04-22",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2022-011",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json",

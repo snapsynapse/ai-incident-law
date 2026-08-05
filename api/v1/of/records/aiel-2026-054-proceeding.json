@@ -1,15 +1,41 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Proceeding",
   "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-054-proceeding.json",
   "id": "aiel-2026-054-proceeding",
   "title": "Hannah Renea Payne v. The State, No. S26A0459 (Ga.), 324 Ga. 305",
   "filed_date": "2026-05-05",
-  "issuedBy": "https://aiincidentlaw.org/authority/supreme-court-of-georgia.json",
+  "heardBy": [
+    "https://aiincidentlaw.org/authority/supreme-court-of-georgia.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": ""
+    "@type": "of:Jurisdiction",
+    "institutional_scope": [
+      "Supreme Court of Georgia"
+    ]
   },
+  "institutional_scope": [
+    "Supreme Court of Georgia"
+  ],
+  "parties": [
+    "https://aiincidentlaw.org/party/aiel-2026-054-deployer.json"
+  ],
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-054-allegation.json"
   ],
@@ -17,7 +43,11 @@
     "https://aiincidentlaw.org/determination/aiel-2026-054-determination.json"
   ],
   "source": "https://www.gasupreme.us/wp-content/uploads/2026/05/s26a0459.pdf",
+  "source_locator": "Hannah Renea Payne v. The State, No. S26A0459 (Ga.), 324 Ga. 305",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2026-054",
   "matter_type": "sanctions order (appellate, published opinion)",
-  "status": "sanctioned"
+  "filing_status": "sanctioned"
 }

@@ -1,18 +1,46 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Authority",
   "@id": "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json",
   "id": "eeoc-u-s-district-court-eastern-district-of-new-york",
   "organization": {
-    "@type": "gist:Court",
+    "@type": "gist:GovernmentOrganization",
     "name": "EEOC; U.S. District Court, Eastern District of New York"
   },
-  "authority_basis": {
-    "kind": "judicial",
-    "instrument_ref": "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json#authority-basis"
-  },
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us-ny"
-  }
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-ny"
+    ],
+    "institutional_scope": [
+      "EEOC; U.S. District Court, Eastern District of New York"
+    ]
+  },
+  "territorial_scope": [
+    "us-ny"
+  ],
+  "institutional_scope": [
+    "EEOC; U.S. District Court, Eastern District of New York"
+  ],
+  "source": "https://eeoc.gov/newsroom/itutorgroup-pay-365000-settle-eeoc-discriminatory-hiring-suit",
+  "source_locator": "EEOC v. iTutorGroup, Inc., et al., No. 1:22-cv-02565",
+  "evidence_type": "official statement",
+  "verified": "2026-04-22",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

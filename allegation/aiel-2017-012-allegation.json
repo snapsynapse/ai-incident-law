@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2017-012-allegation.json",
   "id": "aiel-2017-012-allegation",
   "text": "Arkansas replaced nurse assessment logic with a computerized RUGs allocation model that reduced home-care hours for many Medicaid beneficiaries. Litigation alleged the system failed to account for individualized conditions and was implemented without proper rulemaking or due process.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2017-012#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2017-012-deployer.json"
+  ],
   "ai_system_name": "Resource Utilization Groups (RUGs) computerized care-allocation algorithm",
   "deployer": "Arkansas Department of Human Services",
   "domain": "government services / healthcare",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "Medicaid home- and community-based services rules, state APA procedures, individualized care needs",
   "mitigation_gap": "No adequate rulemaking, transparency, individualized validation, or notice process accompanied the algorithmic allocation change.",
   "reliance_or_harm": "Disabled beneficiaries lost care hours and challenged the system; state-court rulings and later federal litigation led to relief and reforms.",
-  "ai_incident_law_record_id": "AIEL-2017-012"
+  "ai_incident_law_record_id": "AIEL-2017-012",
+  "source": "https://law.justia.com/cases/arkansas/supreme-court/2017/cv-17-183.html",
+  "source_locator": "Ledgerwood v. Arkansas Department of Human Services / related federal litigation",
+  "evidence_type": "primary record",
+  "verified": "2026-04-22",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

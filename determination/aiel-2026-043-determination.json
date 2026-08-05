@@ -1,13 +1,35 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2026-043-determination.json",
   "id": "aiel-2026-043-determination",
-  "issued_date": "2026-06-01",
-  "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-seventh-circuit.json",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-seventh-circuit.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us"
+    ],
+    "institutional_scope": [
+      "U.S. Court of Appeals for the Seventh Circuit"
+    ]
   },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2026-043-allegation.json"
@@ -19,6 +41,10 @@
   },
   "notes": "$5,000 on Salah (not $4,997 as in tracker); ARDC referral for Chalisa; 24 fabricated quotations and 7 wrong-circuit citations documented.",
   "source": "https://media.ca7.uscourts.gov/cgi-bin/OpinionsWeb/processWebInputExternal.pl?Submit=Display&Path=Y2026/D06-01/C:25-1988:J:Brennan:aut:T:fnOp:N:3550588:S:0",
+  "source_locator": "Perez-Castillo v. Blanche (Att'y Gen.), No. 25-1988 (7th Cir.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2026-043",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"

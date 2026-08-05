@@ -1,13 +1,35 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2026-021-determination.json",
   "id": "aiel-2026-021-determination",
-  "issued_date": "2026-05-27",
-  "issuedBy": "https://aiincidentlaw.org/authority/supreme-court-of-oklahoma.json",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/supreme-court-of-oklahoma.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us-ok"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-ok"
+    ],
+    "institutional_scope": [
+      "Supreme Court of Oklahoma"
+    ]
   },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2026-021-allegation.json"
@@ -19,6 +41,11 @@
   },
   "notes": "Public reprimand (reciprocal; also reprimanded/censured in TX, TN, AL federal court). ChatGPT named and admitted by respondent. Underlying Johnson v. Dunn sanctions order, ECF No. 204, filed 2025-07-23, independently verified against the RECAP PDF.",
   "source": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=551746",
+  "source_locator": "State of Oklahoma ex rel. Oklahoma Bar Association v. Reeves, 2026 OK 37",
+  "source_citation": "2026 OK 37",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2026-021",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"

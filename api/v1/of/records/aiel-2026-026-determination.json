@@ -1,13 +1,35 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2026-026-determination.json",
   "id": "aiel-2026-026-determination",
-  "issued_date": "2026-04-29",
-  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us-ny"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-ny"
+    ],
+    "institutional_scope": [
+      "U.S. District Court, Southern District of New York"
+    ]
   },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2026-026-allegation.json"
@@ -19,6 +41,10 @@
   },
   "notes": "$2,500 Rule 11 sanction; ordered to notify the judge in every pending case where she appears; separately referred (with co-counsel Jo Saint-George) to the Second Circuit Grievance Panel per Ioio v. City of New York (2d Cir. Mar. 16, 2026). NOTE: the Charlotin \"LexisNexis\" tool tag is NOT supported — the court declined to credit LexisNexis as the source. Merged 2026-07-24 with the duplicate record AIEL-2026-039, which described the same order in the same docket on the same date; AIEL-2026-039 is retired and must not be reused.",
   "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.631979/gov.uscourts.nysd.631979.192.0.pdf",
+  "source_locator": "Jimenez-Fogarty v. Fogarty, No. 1:24-cv-08705-JLR-GWG (S.D.N.Y.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2026-026",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"

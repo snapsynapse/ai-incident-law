@@ -534,7 +534,12 @@ process.stdin.on("data", chunk => {
   }
 });
 
-process.stdin.on("end", () => process.exit(0));
+// Do not call process.exit() here. A large JSON-RPC response can exceed the
+// pipe's immediate write capacity, so a forced exit truncates buffered stdout.
+// Ending stdout lets Node flush every queued response before the process exits.
+process.stdin.on("end", () => {
+  if (!process.stdout.writableEnded) process.stdout.end();
+});
 
 process.on("uncaughtException", err => {
   console.error("[mcp-server] Uncaught exception:", err.message);

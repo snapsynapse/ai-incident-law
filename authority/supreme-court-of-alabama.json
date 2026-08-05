@@ -1,21 +1,49 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Authority",
   "@id": "https://aiincidentlaw.org/authority/supreme-court-of-alabama.json",
   "id": "supreme-court-of-alabama",
   "organization": {
-    "@type": "gist:Court",
+    "@type": "gist:GovernmentOrganization",
     "name": "Supreme Court of Alabama"
   },
-  "authority_basis": {
-    "kind": "judicial",
-    "instrument_ref": "https://aiincidentlaw.org/authority/supreme-court-of-alabama.json#authority-basis"
-  },
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us-al"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-al"
+    ],
+    "institutional_scope": [
+      "Supreme Court of Alabama"
+    ]
   },
+  "territorial_scope": [
+    "us-al"
+  ],
+  "institutional_scope": [
+    "Supreme Court of Alabama"
+  ],
+  "source": "https://publicportal-api.alappeals.gov/courts/68f021c4-6a44-4735-9a76-5360b2e8af13/cms/case/47683afc-2f85-469d-8562-9dca094bb680/docketentrydocuments/d95cdd15-7428-4cc9-8389-3cc27ac88089",
+  "source_locator": "Ibach v. Stewart, No. SC-2025-0106 (Ala.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "sameAs": [
-    "https://www.wikidata.org/entity/Q7624963"
+    "https://wikidata.org/entity/Q7624963"
   ]
 }

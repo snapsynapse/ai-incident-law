@@ -1,8 +1,8 @@
 {
   "@context": "https://obligationfirst.org/v1/context.jsonld",
   "@type": "of:NamingProfile",
-  "profileVersion": "1.1.0",
-  "appliesTo": "obligation-first >=0.4.0 <0.6.0",
+  "profileVersion": "2.0.0",
+  "appliesTo": "obligation-first >=0.6.0 <0.7.0",
   "adopter": "https://aiincidentlaw.org/",
   "entities": {
     "Authority": {
@@ -19,8 +19,14 @@
       "uriTemplate": "https://aiincidentlaw.org/proceeding/{slug}.json",
       "crosswalks": [
         "neutral_citation",
-        "sameAs"
+        "describesSameEntityAs"
       ]
+    },
+    "Party": {
+      "void:uriSpace": "https://aiincidentlaw.org/party/",
+      "void:uriRegexPattern": "^https://aiincidentlaw\\.org/party/[a-z0-9-]+\\.json$",
+      "uriTemplate": "https://aiincidentlaw.org/party/{slug}.json",
+      "crosswalks": []
     },
     "Allegation": {
       "void:uriSpace": "https://aiincidentlaw.org/allegation/",
@@ -34,7 +40,7 @@
       "uriTemplate": "https://aiincidentlaw.org/determination/{slug}.json",
       "crosswalks": [
         "neutral_citation",
-        "sameAs"
+        "describesSameEntityAs"
       ]
     }
   }

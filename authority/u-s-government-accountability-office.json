@@ -1,5 +1,21 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Authority",
   "@id": "https://aiincidentlaw.org/authority/u-s-government-accountability-office.json",
   "id": "u-s-government-accountability-office",
@@ -7,12 +23,24 @@
     "@type": "gist:GovernmentOrganization",
     "name": "U.S. Government Accountability Office"
   },
-  "authority_basis": {
-    "kind": "statutory",
-    "instrument_ref": "https://aiincidentlaw.org/authority/u-s-government-accountability-office.json#authority-basis"
-  },
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us"
-  }
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us"
+    ],
+    "institutional_scope": [
+      "U.S. Government Accountability Office"
+    ]
+  },
+  "territorial_scope": [
+    "us"
+  ],
+  "institutional_scope": [
+    "U.S. Government Accountability Office"
+  ],
+  "source": "https://gao.gov/assets/890/884082.pdf",
+  "source_locator": "Matter of: CVTEK, LLC, B-423943; B-423943.2 (U.S. Government Accountability Office)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

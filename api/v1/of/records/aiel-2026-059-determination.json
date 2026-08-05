@@ -1,13 +1,35 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2026-059-determination.json",
   "id": "aiel-2026-059-determination",
-  "issued_date": "2025-12-19",
-  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-mississippi.json",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-mississippi.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us"
+    ],
+    "institutional_scope": [
+      "U.S. District Court, Northern District of Mississippi"
+    ]
   },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2026-059-allegation.json"
@@ -19,6 +41,10 @@
   },
   "notes": "Sanctions Order, ECF No. 79, by Senior Judge Sharion Aycock. The native order was verified through RECAP against its caption, docket, filing date, entry number, and PACER case ID. The order names Grok as Watson's external AI tool and separately describes the firm's permitted Smokeball tool, Archie; do not attribute the defective filing to Archie. The court found a monetary fine would not provide meaningful deterrence and imposed structural and practice restrictions instead.",
   "source": "https://storage.courtlistener.com/recap/gov.uscourts.msnd.49169/gov.uscourts.msnd.49169.79.0.pdf",
+  "source_locator": "Billups v. Louisville Municipal School District, No. 1:24-cv-00074-SA-RP (N.D. Miss.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-25",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2026-059",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"

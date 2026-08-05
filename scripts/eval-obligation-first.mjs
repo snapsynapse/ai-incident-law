@@ -10,6 +10,7 @@ const apiDir = path.join(root, "api", "v1", "of");
 const recordsDir = path.join(apiDir, "records");
 const companionDirs = {
   authorities: "authority",
+  parties: "party",
   proceedings: "proceeding",
   allegations: "allegation",
   determinations: "determination"
@@ -137,6 +138,10 @@ if ((byKind.determinations || []).length !== expectedDeterminations) {
 if ((byKind.authorities || []).length !== expectedAuthorities) {
   fail(`authority count does not match distinct included jurisdictions: ${(byKind.authorities || []).length} != ${expectedAuthorities}`);
 }
+const expectedParties = included.filter(record => record.deployer).length;
+if ((byKind.parties || []).length !== expectedParties) {
+  fail(`party count does not match source deployers: ${(byKind.parties || []).length} != ${expectedParties}`);
+}
 
 const exportedSourceIds = new Set([
   ...(byKind.proceedings || []).map(record => record.ai_incident_law_record_id),
@@ -167,6 +172,13 @@ for (const record of included) {
   if (!allegation) fail(`${record.error_id} missing allegation`);
   if (proceeding && proceeding.id !== `${stem}-proceeding`) fail(`${record.error_id} proceeding id drifted`);
   if (allegation && allegation.id !== `${stem}-allegation`) fail(`${record.error_id} allegation id drifted`);
+  const expectedParty = record.deployer ? `https://aiincidentlaw.org/party/${stem}-deployer.json` : null;
+  if (expectedParty && proceeding && !(proceeding.parties || []).includes(expectedParty)) {
+    fail(`${record.error_id} proceeding missing deployer Party`);
+  }
+  if (expectedParty && allegation && !(allegation.related_to_party || []).includes(expectedParty)) {
+    fail(`${record.error_id} allegation missing deployer Party relation`);
+  }
 
   if (!disposition && determination) {
     fail(`${record.error_id} has determination despite unresolved status ${record.filing_status}`);
@@ -223,7 +235,7 @@ for (const proceeding of byKind.proceedings || []) {
   }
 }
 
-const pendingProceedings = (byKind.proceedings || []).filter(record => record.status === "pending");
+const pendingProceedings = (byKind.proceedings || []).filter(record => record.filing_status === "pending");
 for (const proceeding of pendingProceedings) {
   if ((proceeding.hasDetermination || []).length) fail(`${proceeding.id} is pending but has determinations`);
 }

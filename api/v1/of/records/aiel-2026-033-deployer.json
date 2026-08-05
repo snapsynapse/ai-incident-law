@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
+  "@type": "of:Party",
+  "@id": "https://aiincidentlaw.org/party/aiel-2026-033-deployer.json",
+  "id": "aiel-2026-033-deployer",
+  "name": "Kenneth A. Mayeaux (Mayeaux & Associates)",
+  "party_kind": "unknown",
+  "roles": [
+    "deployer"
+  ],
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.lawd.213966/gov.uscourts.lawd.213966.28.0.pdf",
+  "source_locator": "Kattom v. Bondi, No. 25-1497 SEC P (W.D. La.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
+}

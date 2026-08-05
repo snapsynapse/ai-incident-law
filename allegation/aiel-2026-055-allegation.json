@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2026-055-allegation.json",
   "id": "aiel-2026-055-allegation",
   "text": "Counsel for both the plaintiff and the defendant city filed briefs containing citations to non-existent cases. Plaintiff’s counsel admitted using “First Drafts”, an AI-powered legal drafting program, without verifying its output, and admitted using it in filings in other cases. Defence counsel admitted relying on a separate in-house AI research tool, which the order expressly calls “this unnamed software”, also without verification. Both resident attorneys let filings go out under their electronic signatures without review.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2026-055#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-055-deployer.json"
+  ],
   "ai_system_name": "\"First Drafts\" (named; admitted) and a second, expressly unnamed in-house legal-research tool",
   "deployer": "Kathleen M. Wilson (Wilson Law Firm LLC) and Kathryn Y. Williams (Daniel, Williams & Associates PLLC), with resident counsel Shauncey Hunter Ridgeway and Mark C. McClinton",
   "domain": "legal services",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "Citations to non-existent decisions, including a fabricated citation attributed to the same district; Fed. R. Civ. P. 11; Local Rule 83.1(c) and (d)(8)",
   "mitigation_gap": "Two independent AI research tools were used with no verification step, and the local-counsel review layer that exists precisely to catch this failed on both sides of the case simultaneously.",
   "reliance_or_harm": "Pro hac vice admission revoked for both lead attorneys, each additionally barred from entering an appearance in any case before the district for two years; both resident attorneys disqualified from further participation; fines totalling $8,000 payable to the court registry ($2,500, $3,500, $1,000, $1,000); AI-ethics CLE ordered for the attorney who had not previously attended one; the order transmitted to the Mississippi, Louisiana, and Texas bars, and to the judges presiding over two other matters involving the same counsel; all four attorneys terminated as counsel of record, leaving both litigants unrepresented under a deadline to obtain new counsel or face dismissal.",
-  "ai_incident_law_record_id": "AIEL-2026-055"
+  "ai_incident_law_record_id": "AIEL-2026-055",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.msnd.50181/gov.uscourts.msnd.50181.123.0_1.pdf",
+  "source_locator": "Withers v. City of Aberdeen, No. 1:24-CV-218-SA-RP (N.D. Miss.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

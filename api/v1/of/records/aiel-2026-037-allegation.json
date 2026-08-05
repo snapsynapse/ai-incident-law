@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2026-037-allegation.json",
   "id": "aiel-2026-037-allegation",
   "text": "The Southern District of Alabama publicly reprimanded attorney Franklin Hollis Eaton, Jr. and imposed a $55,597 sanction after he submitted hundreds of pages of gibberish produced directly from Westlaw's CoCounsel AI service. Eaton denied using AI, but the court found his denial \"incredible\" because he had himself attached CoCounsel-generated documents. The order was directed published in the Federal Supplement and referred to the Alabama State Bar.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2026-037#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-037-deployer.json"
+  ],
   "ai_system_name": "CoCounsel (Westlaw) (named; court-found; counsel's denial not credited)",
   "deployer": "Franklin Hollis Eaton, Jr. (plaintiff's counsel)",
   "domain": "legal services",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "Accurate pleading standards; Court Local Rules; Fed. R. Civ. P. 11",
   "mitigation_gap": "Counsel attached raw, unreviewed CoCounsel output containing hundreds of pages of erroneous information, then denied AI use.",
   "reliance_or_harm": "$55,597 attorney-fee sanction; published public reprimand; Bar referral; order-to-file-in-subsequent-cases for 12 months.",
-  "ai_incident_law_record_id": "AIEL-2026-037"
+  "ai_incident_law_record_id": "AIEL-2026-037",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.alsd.70919/gov.uscourts.alsd.70919.353.0.pdf",
+  "source_locator": "Heimkes v. Fairhope Motorcoach Resort Condominium Owners Association et al., No. 1:22-cv-00448-TFM-N (S.D. Ala.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2026-024-allegation.json",
   "id": "aiel-2026-024-allegation",
   "text": "A magistrate judge sanctioned supervising attorney Lenden Webb after his firm filed a discovery letter brief containing a nonexistent case (South Pointe Wholesale v. Vilardi) and a misrepresented holding, \"caused in part by use of AI.\" The associate had used Westlaw CoCounsel. Webb was admonished and personally sanctioned for failure to supervise and failure to obey court orders.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2026-024#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-024-deployer.json"
+  ],
   "ai_system_name": "Westlaw CoCounsel",
   "deployer": "Webb Law Group, APC (Lenden Webb, supervising attorney)",
   "domain": "legal services",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "Genuine case law; duties of candor and supervision (Cal. Rules of Prof. Conduct 5.1)",
   "mitigation_gap": "No supervision of associate’s AI use; firm relied on a vendor representation that CoCounsel could not produce hallucinations.",
   "reliance_or_harm": "Fake citation submitted to the court; judicial resources expended across multiple show-cause orders.",
-  "ai_incident_law_record_id": "AIEL-2026-024"
+  "ai_incident_law_record_id": "AIEL-2026-024",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.422617/gov.uscourts.cand.422617.230.0.pdf",
+  "source_locator": "Hill v. Workday, Inc., No. 3:23-cv-06558-PHK",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2026-059-allegation.json",
   "id": "aiel-2026-059-allegation",
   "text": "Jane Ashley Watson admitted using Grok, an external AI tool, for legal research and drafting without verifying its output. Her summary-judgment memorandum contained one nonexistent case and three misrepresented holdings. The court found Rule 11 violations by Watson and reviewing signatory Nick Norris, held Watson & Norris, PLLC jointly responsible, and sanctioned supervisory attorney Louis H. Watson Jr. after finding that the firm failed to contain a broader pattern of tainted filings despite prior notice and an internal policy restricting external AI use.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2026-059#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-059-deployer.json"
+  ],
   "ai_system_name": "Grok (named; admitted)",
   "deployer": "Jane Ashley Watson, with supervising attorneys Nick Norris and Louis H. Watson Jr. and Watson & Norris, PLLC",
   "domain": "legal services",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "One nonexistent decision, three materially misrepresented holdings, and counsel's duties under Fed. R. Civ. P. 11",
   "mitigation_gap": "The drafting attorney used unverified Grok output despite prior warning and a firm policy against external AI tools; supervising and signing attorneys did not verify the authorities, and the firm's later audit initially failed to identify the full scope of affected filings.",
   "reliance_or_harm": "The court disqualified all three attorneys from the case, barred Jane Watson from new appearances before the judge for two years, required notice to every judge in their pending matters, referred the order to the Mississippi Bar, ordered a firm-wide audit, and stayed the client's case for 60 days after the citation failures delayed summary judgment and caused cancellation of the trial setting.",
-  "ai_incident_law_record_id": "AIEL-2026-059"
+  "ai_incident_law_record_id": "AIEL-2026-059",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.msnd.49169/gov.uscourts.msnd.49169.79.0.pdf",
+  "source_locator": "Billups v. Louisville Municipal School District, No. 1:24-cv-00074-SA-RP (N.D. Miss.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-25",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2024-001-allegation.json",
   "id": "aiel-2024-001-allegation",
   "text": "Air Canada's chatbot told a passenger he could request a bereavement discount retroactively within 90 days after travel. The answer conflicted with Air Canada's bereavement-fare terms, which required approval before travel. The tribunal treated the chatbot answer as part of Air Canada's customer-facing service rather than a separate legal actor.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2024-001#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2024-001-deployer.json"
+  ],
   "ai_system_name": "Air Canada virtual assistant chatbot",
   "deployer": "Air Canada",
   "domain": "consumer travel",
@@ -13,5 +32,11 @@
   "canonical_source_conflicted": "Air Canada bereavement-fare policy",
   "mitigation_gap": "No effective guardrail prevented the chatbot from presenting a refund rule inconsistent with the canonical policy, and no escalation path corrected the answer before purchase.",
   "reliance_or_harm": "Passenger relied on the chatbot answer, bought tickets, and obtained a partial damages award.",
-  "ai_incident_law_record_id": "AIEL-2024-001"
+  "ai_incident_law_record_id": "AIEL-2024-001",
+  "source": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
+  "source_locator": "Moffatt v. Air Canada, 2024 BCCRT 149",
+  "source_citation": "2024 BCCRT 149",
+  "evidence_type": "primary record",
+  "verified": "2026-04-22",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

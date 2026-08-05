@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2026-050-allegation.json",
   "id": "aiel-2026-050-allegation",
   "text": "Attorney Roger Roots, representing the imprisoned Joseph Maldonado (known as \"Joe Exotic\" of Tiger King), submitted filings containing fabricated and inaccurate citations. Roots' paralegal admitted in a sworn declaration that earlier drafts included \"AI-assisted research features\" from Lexis tools. Roots himself pledged to no longer rely on AI-assisted research summaries. The court imposed a $1,500 Rule 11 sanction and dismissed the case for lack of standing.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2026-050#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-050-deployer.json"
+  ],
   "ai_system_name": "Unnamed generative AI (admitted by counsel; Lexis AI-assisted research features referenced)",
   "deployer": "Roger Roots (counsel for Joseph Maldonado / Joe Exotic)",
   "domain": "legal services",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "Non-existent or misrepresented federal civil rights and animal-law authorities; Fed. R. Civ. P. 11",
   "mitigation_gap": "Counsel used AI-assisted research tools without adequate verification; admitted through pledged remedial measures and paralegal declaration.",
   "reliance_or_harm": "$1,500 Rule 11 sanction; case dismissed for lack of Article III standing.",
-  "ai_incident_law_record_id": "AIEL-2026-050"
+  "ai_incident_law_record_id": "AIEL-2026-050",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.innd.124045/gov.uscourts.innd.124045.26.0.pdf",
+  "source_locator": "Maldonado v. Professional Animal Retirement Center (PARC), No. 1:25-cv-00454-HAB-ALT (N.D. Ind.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

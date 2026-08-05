@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2023-013-allegation.json",
   "id": "aiel-2023-013-allegation",
   "text": "FTC alleged Rite Aid deployed facial recognition in stores and generated false-positive matches that disproportionately affected certain consumers, including people of color. Employees allegedly acted on false alerts by surveilling, searching, removing, or reporting customers.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2023-013#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2023-013-deployer.json"
+  ],
   "ai_system_name": "Rite Aid facial-recognition surveillance system",
   "deployer": "Rite Aid",
   "domain": "retail / consumer protection",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "Accurate identity evidence and consumer-protection obligations",
   "mitigation_gap": "Insufficient testing, monitoring, bias controls, employee training, and consumer notice before acting on face-recognition alerts.",
   "reliance_or_harm": "Consumers were allegedly wrongly accused, embarrassed, or subjected to law-enforcement contact; FTC order banned Rite Aid from using facial recognition for five years.",
-  "ai_incident_law_record_id": "AIEL-2023-013"
+  "ai_incident_law_record_id": "AIEL-2023-013",
+  "source": "https://ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without",
+  "source_locator": "FTC v. Rite Aid facial-recognition enforcement",
+  "evidence_type": "official statement",
+  "verified": "2026-04-22",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

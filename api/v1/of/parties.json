@@ -1,0 +1,1867 @@
+{
+  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "generated": "2026-07-25",
+  "parties": [
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2024-001-deployer.json",
+      "id": "aiel-2024-001-deployer",
+      "name": "Air Canada",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
+      "source_locator": "Moffatt v. Air Canada, 2024 BCCRT 149",
+      "source_citation": "2024 BCCRT 149",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2023-002-deployer.json",
+      "id": "aiel-2023-002-deployer",
+      "name": "Levidow, Levidow & Oberman PC attorneys",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1:2022cv01461/575368/54/",
+      "source_locator": "Mata v. Avianca, Inc., No. 22-cv-1461",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2024-003-deployer.json",
+      "id": "aiel-2024-003-deployer",
+      "name": "Counsel for appellant in Second Circuit appeal",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://law.justia.com/cases/federal/appellate-courts/ca2/22-2057/22-2057-2024-01-30.html",
+      "source_locator": "Park v. Kim, No. 22-2057",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2025-004-deployer.json",
+      "id": "aiel-2025-004-deployer",
+      "name": "Morgan & Morgan attorneys",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
+      "source_locator": "Wadsworth v. Walmart Inc.",
+      "evidence_type": "reliable reporting",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-005-deployer.json",
+      "id": "aiel-2026-005-deployer",
+      "name": "Heather Hersh / FCRA Attorneys",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://www.ca5.uscourts.gov/opinions/pub/25/25-20086-CV0.pdf",
+      "source_locator": "Fletcher v. Experian Information Solutions, Inc., No. 25-20086",
+      "evidence_type": "primary record",
+      "verified": "2026-06-02",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2025-006-deployer.json",
+      "id": "aiel-2025-006-deployer",
+      "name": "Counsel for Huffman Construction, LLC",
+      "party_kind": "organization",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://www.asbca.mil/LinkClick.aspx?fileticket=eAIy2KSL_Zg%3D&portalid=143",
+      "source_locator": "Huffman Construction, LLC, ASBCA Nos. 62591, 62783",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2025-007-deployer.json",
+      "id": "aiel-2025-007-deployer",
+      "name": "Plaintiff class counsel in Vuori wage-and-hour case",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.409525/gov.uscourts.cand.409525.96.0.pdf",
+      "source_locator": "Buchanan v. Vuori, Inc., No. 5:23-cv-01121-NC",
+      "evidence_type": "primary record",
+      "verified": "2026-07-25",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2024-008-deployer.json",
+      "id": "aiel-2024-008-deployer",
+      "name": "Thomas Grant Neusom",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
+      "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2023-009-deployer.json",
+      "id": "aiel-2023-009-deployer",
+      "name": "iTutorGroup, Inc. and affiliates",
+      "party_kind": "organization",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://eeoc.gov/newsroom/itutorgroup-pay-365000-settle-eeoc-discriminatory-hiring-suit",
+      "source_locator": "EEOC v. iTutorGroup, Inc., et al., No. 1:22-cv-02565",
+      "evidence_type": "official statement",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2024-010-deployer.json",
+      "id": "aiel-2024-010-deployer",
+      "name": "SafeRent Solutions, LLC / tenant-screening users",
+      "party_kind": "organization",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
+      "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al.",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2022-011-deployer.json",
+      "id": "aiel-2022-011-deployer",
+      "name": "Michigan Unemployment Insurance Agency",
+      "party_kind": "organization",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://michigan.gov/ag/news/press-releases/2022/10/20/som-settlement-of-civil-rights-class-action-alleging-false-accusations-of-unemployment-fraud",
+      "source_locator": "Bauserman v. Unemployment Insurance Agency",
+      "evidence_type": "official statement",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2017-012-deployer.json",
+      "id": "aiel-2017-012-deployer",
+      "name": "Arkansas Department of Human Services",
+      "party_kind": "organization",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://law.justia.com/cases/arkansas/supreme-court/2017/cv-17-183.html",
+      "source_locator": "Ledgerwood v. Arkansas Department of Human Services / related federal litigation",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2023-013-deployer.json",
+      "id": "aiel-2023-013-deployer",
+      "name": "Rite Aid",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without",
+      "source_locator": "FTC v. Rite Aid facial-recognition enforcement",
+      "evidence_type": "official statement",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2024-014-deployer.json",
+      "id": "aiel-2024-014-deployer",
+      "name": "Detroit Police Department and Michigan State Police",
+      "party_kind": "organization",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
+      "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2024-015-deployer.json",
+      "id": "aiel-2024-015-deployer",
+      "name": "Woodbridge Police Department and intelligence-center intermediaries",
+      "party_kind": "organization",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://aclu.org/cases/parks-v-mccormac",
+      "source_locator": "Parks v. McCormac, Civil No. 3:22-cv-05765",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2025-016-deployer.json",
+      "id": "aiel-2025-016-deployer",
+      "name": "Detroit Police Department",
+      "party_kind": "organization",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://aclu.org/cases/woodruff-v-oliver",
+      "source_locator": "Woodruff v. Oliver, No. 2:23-cv-11597",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2024-017-deployer.json",
+      "id": "aiel-2024-017-deployer",
+      "name": "EssilorLuxottica / Macy's loss-prevention personnel and Houston police",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+      "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2025-018-deployer.json",
+      "id": "aiel-2025-018-deployer",
+      "name": "Workday, Inc. as HR software vendor",
+      "party_kind": "organization",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-00770/pdf/USCOURTS-cand-3_23-cv-00770-1.pdf",
+      "source_locator": "Mobley v. Workday, Inc., No. 3:23-cv-00770",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-019-deployer.json",
+      "id": "aiel-2026-019-deployer",
+      "name": "International Business Machines Corporation",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://courtlistener.com/docket/73387361/swanson-v-international-business-machines-corporation/",
+      "source_locator": "Swanson v. International Business Machines Corporation, No. 1:26-cv-01382",
+      "evidence_type": "primary record",
+      "verified": "2026-06-01",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-020-deployer.json",
+      "id": "aiel-2026-020-deployer",
+      "name": "Perplexity AI, Inc.",
+      "party_kind": "organization",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
+      "source_locator": "Cable News Network, Inc. v. Perplexity AI, Inc., No. 1:26-cv-04427",
+      "evidence_type": "primary record",
+      "verified": "2026-06-01",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-021-deployer.json",
+      "id": "aiel-2026-021-deployer",
+      "name": "Attorney respondent (Oklahoma bar disciplinary proceeding)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=551746",
+      "source_locator": "State of Oklahoma ex rel. Oklahoma Bar Association v. Reeves, 2026 OK 37",
+      "source_citation": "2026 OK 37",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-022-deployer.json",
+      "id": "aiel-2026-022-deployer",
+      "name": "Pro se appellant",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://supremecourt.ohio.gov/rod/docs/pdf/6/2026/2026-Ohio-1930.pdf",
+      "source_locator": "Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930 (No. S-25-035)",
+      "source_citation": "2026-Ohio-1930",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-023-deployer.json",
+      "id": "aiel-2026-023-deployer",
+      "name": "Steven N. Howe (court-appointed appellate counsel)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://www.opn.ca6.uscourts.gov/opinions.pdf/26a0105p-06.pdf",
+      "source_locator": "United States v. Farris, No. 25-5623 (6th Cir.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-024-deployer.json",
+      "id": "aiel-2026-024-deployer",
+      "name": "Webb Law Group, APC (Lenden Webb, supervising attorney)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.422617/gov.uscourts.cand.422617.230.0.pdf",
+      "source_locator": "Hill v. Workday, Inc., No. 3:23-cv-06558-PHK",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-025-deployer.json",
+      "id": "aiel-2026-025-deployer",
+      "name": "Gavril T. Gabriel (plaintiff’s counsel)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.cacd.951252/gov.uscourts.cacd.951252.46.0.pdf",
+      "source_locator": "Chaney v. Transdev Services Inc., No. 2:24-cv-10761-ODW (AJRx)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-026-deployer.json",
+      "id": "aiel-2026-026-deployer",
+      "name": "Tricia S. Lindsay (plaintiff’s counsel)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.631979/gov.uscourts.nysd.631979.192.0.pdf",
+      "source_locator": "Jimenez-Fogarty v. Fogarty, No. 1:24-cv-08705-JLR-GWG (S.D.N.Y.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-027-deployer.json",
+      "id": "aiel-2026-027-deployer",
+      "name": "Appellants’ counsel (attorney \"Hall\")",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://publicportal-api.alappeals.gov/courts/68f021c4-6a44-4735-9a76-5360b2e8af13/cms/case/47683afc-2f85-469d-8562-9dca094bb680/docketentrydocuments/d95cdd15-7428-4cc9-8389-3cc27ac88089",
+      "source_locator": "Ibach v. Stewart, No. SC-2025-0106 (Ala.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-028-deployer.json",
+      "id": "aiel-2026-028-deployer",
+      "name": "Defendants’ counsel Raja Rajan",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.paed.609239/gov.uscourts.paed.609239.225.0.pdf",
+      "source_locator": "Bunce v. Visual Technology Innovations, Inc., No. 2:23-cv-01740-KNS",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-029-deployer.json",
+      "id": "aiel-2026-029-deployer",
+      "name": "Pro se plaintiff Ifeoma Delliane Chinedu Obi",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.475370/gov.uscourts.ilnd.475370.97.0.pdf",
+      "source_locator": "Obi v. Cook County, Illinois, No. 1:25-cv-03096",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-030-deployer.json",
+      "id": "aiel-2026-030-deployer",
+      "name": "Pro se plaintiff-appellant Robert S. Hulvat",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://illinoiscourts.gov/resources/63539016-cb02-4575-b3da-0dd0632244c1/file",
+      "source_locator": "Hulvat v. Gumina, 2026 IL App (3d) 240628-U",
+      "source_citation": "2026 IL App (3d) 240628-U",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-031-deployer.json",
+      "id": "aiel-2026-031-deployer",
+      "name": "Debtor’s counsel Kathleen Wilson",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.lawb.374130/gov.uscourts.lawb.374130.84.0.pdf",
+      "source_locator": "In re Wise, No. 25-51132 (Bankr. W.D. La.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-032-deployer.json",
+      "id": "aiel-2026-032-deployer",
+      "name": "Roxanne Chung Bonar (appellate counsel)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://courts.ca.gov/opinions/archive/D085584.PDF",
+      "source_locator": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-033-deployer.json",
+      "id": "aiel-2026-033-deployer",
+      "name": "Kenneth A. Mayeaux (Mayeaux & Associates)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.lawd.213966/gov.uscourts.lawd.213966.28.0.pdf",
+      "source_locator": "Kattom v. Bondi, No. 25-1497 SEC P (W.D. La.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-034-deployer.json",
+      "id": "aiel-2026-034-deployer",
+      "name": "Jalen R. Harris; James Roquemore; Corwin St. Raymond",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.laed.273860/gov.uscourts.laed.273860.25.0.pdf",
+      "source_locator": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-035-deployer.json",
+      "id": "aiel-2026-035-deployer",
+      "name": "Respondent attorney (Ohio appellate counsel; name not stated in order)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://supremecourt.ohio.gov/rod/docs/pdf/11/2026/2026-Ohio-965.pdf",
+      "source_locator": "State v. Coleman, 2026-Ohio-965, No. 2024-A-0040 (Ohio Ct. App., 11th Dist.)",
+      "source_citation": "2026-Ohio-965",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-036-deployer.json",
+      "id": "aiel-2026-036-deployer",
+      "name": "Stephen Brigandi (pro hac vice lead counsel)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.ord.158388/gov.uscourts.ord.158388.225.0.pdf",
+      "source_locator": "Couvrette v. Wisnovsky, No. 1:21-cv-00157-CL (D. Or.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-25",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-037-deployer.json",
+      "id": "aiel-2026-037-deployer",
+      "name": "Franklin Hollis Eaton, Jr. (plaintiff's counsel)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.alsd.70919/gov.uscourts.alsd.70919.353.0.pdf",
+      "source_locator": "Heimkes v. Fairhope Motorcoach Resort Condominium Owners Association et al., No. 1:22-cv-00448-TFM-N (S.D. Ala.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-038-deployer.json",
+      "id": "aiel-2026-038-deployer",
+      "name": "Joshua B. Watkins (Burrill Watkins LLC)",
+      "party_kind": "organization",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.alnd.192599/gov.uscourts.alnd.192599.116.0.pdf",
+      "source_locator": "Rivera v. Triad Properties Corporation et al., No. 2:24-cv-01802-AMM (N.D. Ala.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-040-deployer.json",
+      "id": "aiel-2026-040-deployer",
+      "name": "Christopher Kachouroff",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.cod.215068/gov.uscourts.cod.215068.424.0.pdf",
+      "source_locator": "Coomer v. Lindell/MyPillow Inc., No. 1:22-cv-01129-NYW-SBP (D. Colo.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-041-deployer.json",
+      "id": "aiel-2026-041-deployer",
+      "name": "Defense Counsel for Sushi Katsuei (unnamed in opinion)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.605627/gov.uscourts.nysd.605627.142.0.pdf",
+      "source_locator": "Chakma v. Sushi Katsuei Inc., No. 1:23-cv-07804-KPF (S.D.N.Y.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-042-deployer.json",
+      "id": "aiel-2026-042-deployer",
+      "name": "Tae Sture (plaintiff's counsel)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.insd.217901/gov.uscourts.insd.217901.127.0.pdf",
+      "source_locator": "Davis v. Marion County Superior Court Juvenile Detention Center, No. 1:24-cv-01918-JRO-MJD (S.D. Ind.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-043-deployer.json",
+      "id": "aiel-2026-043-deployer",
+      "name": "Abdullah Salah (counsel of record); Farah Chalisa (contracted brief-drafter)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/OpinionsWeb/processWebInputExternal.pl?Submit=Display&Path=Y2026/D06-01/C:25-1988:J:Brennan:aut:T:fnOp:N:3550588:S:0",
+      "source_locator": "Perez-Castillo v. Blanche (Att'y Gen.), No. 25-1988 (7th Cir.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-044-deployer.json",
+      "id": "aiel-2026-044-deployer",
+      "name": "Joshua A. Douglass (defense appellate counsel) and Jean LeTennier (defendant/client)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://nycourts.gov/reporter/3dseries/2026/2026_00040.htm",
+      "source_locator": "Deutsche Bank Natl. Trust Co. v. LeTennier, 2026 NY Slip Op 00040, Docket No. CV-23-0713 (N.Y. App. Div., 3d Dep’t)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-045-deployer.json",
+      "id": "aiel-2026-045-deployer",
+      "name": "Plaintiff's counsel (name not in order)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
+      "source_locator": "Hodges v. Meridian Waste Acquisitions USA, No. 3:25-cv-62; Rieske v. AFS, No. 5:25-cv-45 (M.D. Fla.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-046-deployer.json",
+      "id": "aiel-2026-046-deployer",
+      "name": "Attorney Anderson (Anderson and Associates, specially admitted NY co-counsel)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-paed-2_25-cv-05135/pdf/USCOURTS-paed-2_25-cv-05135-0.pdf",
+      "source_locator": "Lifetime Well LLC v. IBSpot.com Inc., No. 2:25-cv-05135-MAK (E.D. Pa.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-047-deployer.json",
+      "id": "aiel-2026-047-deployer",
+      "name": "Sandeep Seth (drafting attorney); Kenneth P. Kula; Eric W. Joe; David R. Cooper (co-counsel)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-ksd-2_22-cv-02324/pdf/USCOURTS-ksd-2_22-cv-02324-9.pdf",
+      "source_locator": "Lexos Media IP, LLC v. Overstock.com, Inc., No. 2:22-cv-02324-JAR (D. Kan.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-048-deployer.json",
+      "id": "aiel-2026-048-deployer",
+      "name": "Kusmin L. Amarsingh (attorney appearing pro se on her own appeal)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://ca10.uscourts.gov/sites/ca10/files/opinions/010111382504.pdf",
+      "source_locator": "Amarsingh v. Frontier Airlines, Inc., No. 24-1391 (10th Cir.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-049-deployer.json",
+      "id": "aiel-2026-049-deployer",
+      "name": "David E. Azar (EFD appellate counsel)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://courts.ca.gov/opinions/nonpub/B329314.PDF",
+      "source_locator": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., No. B329314 (Cal. Ct. App., 2d Dist., Div. Three) (unpublished)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-050-deployer.json",
+      "id": "aiel-2026-050-deployer",
+      "name": "Roger Roots (counsel for Joseph Maldonado / Joe Exotic)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.innd.124045/gov.uscourts.innd.124045.26.0.pdf",
+      "source_locator": "Maldonado v. Professional Animal Retirement Center (PARC), No. 1:25-cv-00454-HAB-ALT (N.D. Ind.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-051-deployer.json",
+      "id": "aiel-2026-051-deployer",
+      "name": "Gregory W. Mitchell (counsel for the Petitioning Creditors)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.txsb.485264/gov.uscourts.txsb.485264.312.0.pdf",
+      "source_locator": "In re Rosslyn2016, LLC, Texas Esencia 2019 LLC and Timbers2020 LLC, No. 25-34507 (Bankr. S.D. Tex., Houston Div.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-052-deployer.json",
+      "id": "aiel-2026-052-deployer",
+      "name": "Carlton Floyd (counsel for plaintiff and appellant Daniel Del Biaggio)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://courts.ca.gov/opinions/documents/A174647.PDF",
+      "source_locator": "Del Biaggio v. Bansen, No. A174647 (Cal. Ct. App., 1st Dist., Div. 4) (Humboldt County Super. Ct. No. CV1901078)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-053-deployer.json",
+      "id": "aiel-2026-053-deployer",
+      "name": "Anthony F. Sabatini (counsel for plaintiffs and appellants)",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://media.ca11.uscourts.gov/opinions/pub/files/202411033.pdf",
+      "source_locator": "Akerlund v. Atlas Air, Inc., Flight Services International, LLC, No. 24-11033 (11th Cir.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-054-deployer.json",
+      "id": "aiel-2026-054-deployer",
+      "name": "Assistant District Attorney Deborah L. Leslie, Clayton County District Attorney’s Office",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://www.gasupreme.us/wp-content/uploads/2026/05/s26a0459.pdf",
+      "source_locator": "Hannah Renea Payne v. The State, No. S26A0459 (Ga.), 324 Ga. 305",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-055-deployer.json",
+      "id": "aiel-2026-055-deployer",
+      "name": "Kathleen M. Wilson (Wilson Law Firm LLC) and Kathryn Y. Williams (Daniel, Williams & Associates PLLC), with resident counsel Shauncey Hunter Ridgeway and Mark C. McClinton",
+      "party_kind": "organization",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.msnd.50181/gov.uscourts.msnd.50181.123.0_1.pdf",
+      "source_locator": "Withers v. City of Aberdeen, No. 1:24-CV-218-SA-RP (N.D. Miss.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-056-deployer.json",
+      "id": "aiel-2026-056-deployer",
+      "name": "Tyrone A. Blackburn (T.A. Blackburn Law, PLLC), defence counsel and himself a named defendant",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.641455/gov.uscourts.nysd.641455.161.0.pdf",
+      "source_locator": "Joseph Cartagena v. Terrance Dixon, Tyrone Blackburn, and T.A. Blackburn Law, PLLC, No. 1:25-cv-03552 (JLR) (S.D.N.Y.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-057-deployer.json",
+      "id": "aiel-2026-057-deployer",
+      "name": "Counsel for the protester CVTEK, LLC (McDonald Hopkins LLC)",
+      "party_kind": "organization",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://gao.gov/assets/890/884082.pdf",
+      "source_locator": "Matter of: CVTEK, LLC, B-423943; B-423943.2 (U.S. Government Accountability Office)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-058-deployer.json",
+      "id": "aiel-2026-058-deployer",
+      "name": "Tyrone Blackburn, counsel for defendant Duane Youngblood",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.pawd.314851/gov.uscourts.pawd.314851.71.0.pdf",
+      "source_locator": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-25",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-059-deployer.json",
+      "id": "aiel-2026-059-deployer",
+      "name": "Jane Ashley Watson, with supervising attorneys Nick Norris and Louis H. Watson Jr. and Watson & Norris, PLLC",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.msnd.49169/gov.uscourts.msnd.49169.79.0.pdf",
+      "source_locator": "Billups v. Louisville Municipal School District, No. 1:24-cv-00074-SA-RP (N.D. Miss.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-25",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    }
+  ]
+}

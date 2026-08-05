@@ -1,13 +1,35 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2026-048-determination.json",
   "id": "aiel-2026-048-determination",
-  "issued_date": "2026-02-09",
-  "issuedBy": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-tenth-circuit.json",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-tenth-circuit.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us"
+    ],
+    "institutional_scope": [
+      "U.S. Court of Appeals for the Tenth Circuit"
+    ]
   },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2026-048-allegation.json"
@@ -19,6 +41,10 @@
   },
   "notes": "$1,000 to Frontier (fee offset); mandatory Maryland bar referral; attorney appeared pro se on her own employment appeal.",
   "source": "https://ca10.uscourts.gov/sites/ca10/files/opinions/010111382504.pdf",
+  "source_locator": "Amarsingh v. Frontier Airlines, Inc., No. 24-1391 (10th Cir.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2026-048",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"

@@ -5,20 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.2.1] - 2026-07-25
-
-### Added
-- `npm run check:of` now delegates to obligation-first's shared `check-adopter-of-version.mjs` instead of carrying its own copy of the version-comparison rule. This repo had the portfolio's only version pin; EveryAILaw and PubLedge now run the same check against the same implementation.
-
-### Changed
-- The naming profile declares `obligation-first >=0.4.0 <0.6.0` (profile 1.1.0) rather than pinning `0.4.x`. obligation-first 0.5.0 added ranged `appliesTo` precisely so an adopter that uses nothing new in a release stops having to move in lockstep with it. This repo publishes no `ObligationCategory` records, so it rides 0.5.0 unchanged.
-
-### Removed
-- The dangling `obligation_first_anchors` entry on `AIEL-2026-020` (CNN v. Perplexity), which pointed at `https://everyailaw.com/obligation/content-rights.json` — a record that has never existed in EveryAILaw's source or export. It resolved to nothing and was the single unresolved edge in the cross-repo anchor graph. Nothing recoverable is lost: the record's tags already carry copyright, content-reproduction, and hallucinated-attribution. If content rights should become a real EveryAILaw obligation category, add it there and restore the anchor.
-
 ## [Unreleased]
 
+## [0.3.0] - 2026-08-04
+
+Obligation-First v0.6 adopter, source-rigor, and drift-prevention release. This is a minor release because the pre-1.0 public projection contract changes materially.
+
 ### Fixed
+- Migrated all 278 published Obligation-First records to the released v0.6.0 schemas and naming profile, including typed jurisdictions, valid Authority organization classes, and explicit native identifiers.
+- Added explicit `of:Party` records for deployers and kept litigants and other proceeding participants distinct from adjudicating Authorities.
 - Broad AI Incident Law anchors now resolve to EveryAILaw `of:ObligationCategory` records instead of legacy category-shaped `of:Obligation` paths. Concrete `of:Obligation` anchors remain available when a matter has a defensible nexus to the specific Term that creates the duty.
 - Generated Obligation-First records and the naming profile now use the canonical JSON-LD context document at `https://obligationfirst.org/v1/context.jsonld`.
 
@@ -26,6 +21,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `AIEL-2026-039` retired. It duplicated `AIEL-2026-026` — the same Rule 11 sanctions opinion, same docket (`1:24-cv-08705-JLR-GWG`), same date, same $2,500 sanction, same attorney, same source document. The two records were merged into `AIEL-2026-026`, which carries the merged tag set and a note recording the merge. The identifier is retired and will not be reused; its generated Obligation-First artifacts were removed.
 
 ### Changed
+- The canonical CI entrypoint now fails closed over build output, the complete validation suite, Obligation-First compatibility and fingerprints, workflow invariants, and patch cleanliness.
+- Generated Obligation-First artifacts are byte-deterministic across UTC and America/Denver, and MCP transport tests cover the 65,535, 65,536, and 65,537 byte framing boundary.
 - `AIEL-CAND-004` now identifies the verified Oready GAO decision sequence
   (`B-423524.2`, `B-423649`, `B-423650`, `B-423670`, and `B-423670.2`) and cites
   the two primary GAO decisions instead of secondary commentary.
@@ -40,6 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `scripts/url-policy.mjs` gained `WWW_REQUIRED_HOSTS`, a narrow carve-out to bare-domain normalization for hosts whose bare domain provably does not serve. Two entries, both verified 2026-07-24: `damiencharlotin.com` (bare returns HTTP 400 from a Django host check) and `gasupreme.us` (bare fails TLS with a certificate hostname mismatch). Links already written bare against such a host are repaired to the `www` form rather than left dead.
 
 ### Added
+- A reviewed Obligation-First structural fingerprint, build-determinism tests, workflow-invariant tests, and a committed npm lockfile required by the `npm ci` CI contract.
 - Data validation now rejects duplicate primary-source URLs and reuse of retired
   record identifier `AIEL-2026-039`, with a warning for exact matter-name/date matches.
 - `build:of` now prunes stale companion artifacts before regenerating them, with
@@ -61,6 +59,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added `.nojekyll` so GitHub Pages serves `.well-known/` discovery files.
 - Tightened the pull request checklist to include the full `npm run check` pipeline.
 - Corrected the submission page issue-template link to use the existing record-correction template.
+
+## [0.2.1] - 2026-07-25
+
+### Added
+- `npm run check:of` now delegates to obligation-first's shared `check-adopter-of-version.mjs` instead of carrying its own copy of the version-comparison rule. This repo had the portfolio's only version pin; EveryAILaw and PubLedge now run the same check against the same implementation.
+
+### Changed
+- The naming profile declares `obligation-first >=0.4.0 <0.6.0` (profile 1.1.0) rather than pinning `0.4.x`. obligation-first 0.5.0 added ranged `appliesTo` precisely so an adopter that uses nothing new in a release stops having to move in lockstep with it. This repo publishes no `ObligationCategory` records, so it rides 0.5.0 unchanged.
+
+### Removed
+- The dangling `obligation_first_anchors` entry on `AIEL-2026-020` (CNN v. Perplexity), which pointed at `https://everyailaw.com/obligation/content-rights.json` — a record that has never existed in EveryAILaw's source or export. It resolved to nothing and was the single unresolved edge in the cross-repo anchor graph. Nothing recoverable is lost: the record's tags already carry copyright, content-reproduction, and hallucinated-attribution. If content rights should become a real EveryAILaw obligation category, add it there and restore the anchor.
 
 ## [0.2.0] - 2026-06-02
 
@@ -84,6 +93,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - URL-policy regression coverage for normalization, bypass attempts, malformed schemes, credentials, encoded and raw control characters, and representative existing corpus URLs.
 - No-dependency URL-policy pipeline eval that runs malformed-source fixtures through the real build and validation scripts in temporary directories.
 
-[Unreleased]: https://github.com/snapsynapse/ai-incident-law/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/snapsynapse/ai-incident-law/compare/v0.3.0...HEAD
+[0.3.0]: https://github.com/snapsynapse/ai-incident-law/compare/v0.2.1...v0.3.0
+[0.2.1]: https://github.com/snapsynapse/ai-incident-law/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/snapsynapse/ai-incident-law/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/snapsynapse/ai-incident-law/releases/tag/v0.1.0

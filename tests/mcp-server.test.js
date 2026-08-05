@@ -7,7 +7,7 @@ const ROOT = path.join(__dirname, "..");
 const SERVER = path.join(ROOT, "scripts", "mcp-server.js");
 const PACKAGE = require(path.join(ROOT, "package.json"));
 
-function callMcp(messages) {
+function runMcp(messages) {
   const input = `${messages.map(message => JSON.stringify(message)).join("\n")}\n`;
   const result = spawnSync(process.execPath, [SERVER], {
     cwd: ROOT,
@@ -17,6 +17,11 @@ function callMcp(messages) {
   });
 
   assert.equal(result.status, 0, result.stderr);
+  return result;
+}
+
+function callMcp(messages) {
+  const result = runMcp(messages);
   return result.stdout.trim().split("\n").filter(Boolean).map(line => JSON.parse(line));
 }
 
@@ -123,6 +128,26 @@ test("MCP exposes obligation anchors through search, source records, and OF dete
 
   const determination = payload(responses[2]).data;
   assert.deepEqual(determination.anchors, sourceRecord.obligation_first_anchors);
+});
+
+test("MCP flushes complete JSON-RPC frames at the 64 KiB pipe boundary", () => {
+  for (const targetBytes of [65535, 65536, 65537]) {
+    const fixedResponse = method => `${JSON.stringify({
+      jsonrpc: "2.0",
+      id: targetBytes,
+      error: { code: -32601, message: `Method not found: ${method}` }
+    })}\n`;
+    const overhead = Buffer.byteLength(fixedResponse(""), "utf8");
+    const method = "x".repeat(targetBytes - overhead);
+    assert.equal(Buffer.byteLength(fixedResponse(method), "utf8"), targetBytes);
+
+    const result = runMcp([{ jsonrpc: "2.0", id: targetBytes, method, params: {} }]);
+    assert.equal(Buffer.byteLength(result.stdout, "utf8"), targetBytes, `stdout truncated at ${targetBytes} bytes`);
+    assert.ok(result.stdout.endsWith("\n"), `stdout frame at ${targetBytes} bytes lacks its newline terminator`);
+    const response = JSON.parse(result.stdout);
+    assert.equal(response.id, targetBytes);
+    assert.equal(response.error.message, `Method not found: ${method}`);
+  }
 });
 
 test("MCP rejects missing required arguments for every schema that requires them", () => {

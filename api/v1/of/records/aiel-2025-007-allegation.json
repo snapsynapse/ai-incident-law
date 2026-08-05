@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2025-007-allegation.json",
   "id": "aiel-2025-007-allegation",
   "text": "Class counsel used multiple AI tools to draft and cross-check a class settlement approval brief. The filing contained fabricated quotations from real cases and at least one nonexistent case, and a corrected filing failed to remove the hallucinations.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2025-007#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2025-007-deployer.json"
+  ],
   "ai_system_name": "Six unspecified AI tools used concurrently",
   "deployer": "Plaintiff class counsel in Vuori wage-and-hour case",
   "domain": "legal services",
@@ -13,5 +32,10 @@
   "canonical_source_conflicted": "Actual case law and settlement approval standards",
   "mitigation_gap": "AI tools were used to verify each other instead of checking legal databases; corrected filing did not correct false authority.",
   "reliance_or_harm": "Settlement motions were struck; counsel was found inadequate as class counsel; class settlement collapsed into individual resolution.",
-  "ai_incident_law_record_id": "AIEL-2025-007"
+  "ai_incident_law_record_id": "AIEL-2025-007",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.409525/gov.uscourts.cand.409525.96.0.pdf",
+  "source_locator": "Buchanan v. Vuori, Inc., No. 5:23-cv-01121-NC",
+  "evidence_type": "primary record",
+  "verified": "2026-07-25",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

@@ -3,244 +3,597 @@
   "generated": "2026-07-25",
   "authorities": [
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/british-columbia-civil-resolution-tribunal.json",
       "id": "british-columbia-civil-resolution-tribunal",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "British Columbia Civil Resolution Tribunal"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/british-columbia-civil-resolution-tribunal.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "ca-bc"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "ca-bc"
+        ],
+        "institutional_scope": [
+          "British Columbia Civil Resolution Tribunal"
+        ]
       },
+      "territorial_scope": [
+        "ca-bc"
+      ],
+      "institutional_scope": [
+        "British Columbia Civil Resolution Tribunal"
+      ],
+      "source": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
+      "source_locator": "Moffatt v. Air Canada, 2024 BCCRT 149",
+      "source_citation": "2024 BCCRT 149",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q22631709"
+        "https://wikidata.org/entity/Q22631709"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
       "id": "u-s-district-court-southern-district-of-new-york",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, Southern District of New York"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ny"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ny"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Southern District of New York"
+        ]
       },
+      "territorial_scope": [
+        "us-ny"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, Southern District of New York"
+      ],
+      "source": "https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1:2022cv01461/575368/54/",
+      "source_locator": "Mata v. Avianca, Inc., No. 22-cv-1461",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q673281"
+        "https://wikidata.org/entity/Q673281"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-second-circuit.json",
       "id": "u-s-court-of-appeals-for-the-second-circuit",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. Court of Appeals for the Second Circuit"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-second-circuit.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. Court of Appeals for the Second Circuit"
+        ]
       },
+      "territorial_scope": [
+        "us"
+      ],
+      "institutional_scope": [
+        "U.S. Court of Appeals for the Second Circuit"
+      ],
+      "source": "https://law.justia.com/cases/federal/appellate-courts/ca2/22-2057/22-2057-2024-01-30.html",
+      "source_locator": "Park v. Kim, No. 22-2057",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q492257"
+        "https://wikidata.org/entity/Q492257"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-wyoming.json",
       "id": "u-s-district-court-district-of-wyoming",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, District of Wyoming"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-wyoming.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-wy"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-wy"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, District of Wyoming"
+        ]
       },
+      "territorial_scope": [
+        "us-wy"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, District of Wyoming"
+      ],
+      "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
+      "source_locator": "Wadsworth v. Walmart Inc.",
+      "evidence_type": "reliable reporting",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q5311060"
+        "https://wikidata.org/entity/Q5311060"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-fifth-circuit.json",
       "id": "u-s-court-of-appeals-for-the-fifth-circuit",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. Court of Appeals for the Fifth Circuit"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-fifth-circuit.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. Court of Appeals for the Fifth Circuit"
+        ]
       },
+      "territorial_scope": [
+        "us"
+      ],
+      "institutional_scope": [
+        "U.S. Court of Appeals for the Fifth Circuit"
+      ],
+      "source": "https://www.ca5.uscourts.gov/opinions/pub/25/25-20086-CV0.pdf",
+      "source_locator": "Fletcher v. Experian Information Solutions, Inc., No. 25-20086",
+      "evidence_type": "primary record",
+      "verified": "2026-06-02",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q492151"
+        "https://wikidata.org/entity/Q492151"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json",
       "id": "armed-services-board-of-contract-appeals",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "Armed Services Board of Contract Appeals"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "Armed Services Board of Contract Appeals"
+        ]
       },
+      "territorial_scope": [
+        "us"
+      ],
+      "institutional_scope": [
+        "Armed Services Board of Contract Appeals"
+      ],
+      "source": "https://www.asbca.mil/LinkClick.aspx?fileticket=eAIy2KSL_Zg%3D&portalid=143",
+      "source_locator": "Huffman Construction, LLC, ASBCA Nos. 62591, 62783",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q4785474"
+        "https://wikidata.org/entity/Q4785474"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json",
       "id": "u-s-district-court-northern-district-of-california",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, Northern District of California"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ca"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ca"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Northern District of California"
+        ]
       },
+      "territorial_scope": [
+        "us-ca"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, Northern District of California"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.409525/gov.uscourts.cand.409525.96.0.pdf",
+      "source_locator": "Buchanan v. Vuori, Inc., No. 5:23-cv-01121-NC",
+      "evidence_type": "primary record",
+      "verified": "2026-07-25",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q7025635"
+        "https://wikidata.org/entity/Q7025635"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida-florida-supreme-court.json",
       "id": "u-s-district-court-middle-district-of-florida-florida-supreme-court",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, Middle District of Florida; Florida Supreme Court"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida-florida-supreme-court.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-fl"
-      }
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-fl"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Middle District of Florida; Florida Supreme Court"
+        ]
+      },
+      "territorial_scope": [
+        "us-fl"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, Middle District of Florida; Florida Supreme Court"
+      ],
+      "source": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
+      "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json",
       "id": "eeoc-u-s-district-court-eastern-district-of-new-york",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "EEOC; U.S. District Court, Eastern District of New York"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ny"
-      }
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ny"
+        ],
+        "institutional_scope": [
+          "EEOC; U.S. District Court, Eastern District of New York"
+        ]
+      },
+      "territorial_scope": [
+        "us-ny"
+      ],
+      "institutional_scope": [
+        "EEOC; U.S. District Court, Eastern District of New York"
+      ],
+      "source": "https://eeoc.gov/newsroom/itutorgroup-pay-365000-settle-eeoc-discriminatory-hiring-suit",
+      "source_locator": "EEOC v. iTutorGroup, Inc., et al., No. 1:22-cv-02565",
+      "evidence_type": "official statement",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts-doj-hud.json",
       "id": "u-s-district-court-district-of-massachusetts-doj-hud",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, District of Massachusetts; DOJ; HUD"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts-doj-hud.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ma"
-      }
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ma"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, District of Massachusetts; DOJ; HUD"
+        ]
+      },
+      "territorial_scope": [
+        "us-ma"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, District of Massachusetts; DOJ; HUD"
+      ],
+      "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
+      "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al.",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json",
       "id": "michigan-court-of-claims-michigan-supreme-court",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "Michigan Court of Claims; Michigan Supreme Court"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-mi"
-      }
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-mi"
+        ],
+        "institutional_scope": [
+          "Michigan Court of Claims; Michigan Supreme Court"
+        ]
+      },
+      "territorial_scope": [
+        "us-mi"
+      ],
+      "institutional_scope": [
+        "Michigan Court of Claims; Michigan Supreme Court"
+      ],
+      "source": "https://michigan.gov/ag/news/press-releases/2022/10/20/som-settlement-of-civil-rights-class-action-alleging-false-accusations-of-unemployment-fraud",
+      "source_locator": "Bauserman v. Unemployment Insurance Agency",
+      "evidence_type": "official statement",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json",
       "id": "arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "Arkansas Supreme Court; U.S. District Court, Eastern District of Arkansas; Eighth Circuit"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ar"
-      }
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ar"
+        ],
+        "institutional_scope": [
+          "Arkansas Supreme Court; U.S. District Court, Eastern District of Arkansas; Eighth Circuit"
+        ]
+      },
+      "territorial_scope": [
+        "us-ar"
+      ],
+      "institutional_scope": [
+        "Arkansas Supreme Court; U.S. District Court, Eastern District of Arkansas; Eighth Circuit"
+      ],
+      "source": "https://law.justia.com/cases/arkansas/supreme-court/2017/cv-17-183.html",
+      "source_locator": "Ledgerwood v. Arkansas Department of Human Services / related federal litigation",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-federal-trade-commission.json",
       "id": "u-s-federal-trade-commission",
@@ -248,713 +601,1691 @@
         "@type": "gist:GovernmentOrganization",
         "name": "U.S. Federal Trade Commission"
       },
-      "authority_basis": {
-        "kind": "statutory",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-federal-trade-commission.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. Federal Trade Commission"
+        ]
       },
+      "territorial_scope": [
+        "us"
+      ],
+      "institutional_scope": [
+        "U.S. Federal Trade Commission"
+      ],
+      "source": "https://ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without",
+      "source_locator": "FTC v. Rite Aid facial-recognition enforcement",
+      "evidence_type": "official statement",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q133132"
+        "https://wikidata.org/entity/Q133132"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json",
       "id": "u-s-district-court-eastern-district-of-michigan",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, Eastern District of Michigan"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-mi"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-mi"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Eastern District of Michigan"
+        ]
       },
+      "territorial_scope": [
+        "us-mi"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, Eastern District of Michigan"
+      ],
+      "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
+      "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q5687969"
+        "https://wikidata.org/entity/Q5687969"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-new-jersey.json",
       "id": "u-s-district-court-district-of-new-jersey",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, District of New Jersey"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-new-jersey.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-nj"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-nj"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, District of New Jersey"
+        ]
       },
+      "territorial_scope": [
+        "us-nj"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, District of New Jersey"
+      ],
+      "source": "https://aclu.org/cases/parks-v-mccormac",
+      "source_locator": "Parks v. McCormac, Civil No. 3:22-cv-05765",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q775899"
+        "https://wikidata.org/entity/Q775899"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/harris-county-texas-state-court-remanded-from-s-d-tex.json",
       "id": "harris-county-texas-state-court-remanded-from-s-d-tex",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "Harris County, Texas state court; remanded from S.D. Tex."
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/harris-county-texas-state-court-remanded-from-s-d-tex.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-tx"
-      }
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-tx"
+        ],
+        "institutional_scope": [
+          "Harris County, Texas state court; remanded from S.D. Tex."
+        ]
+      },
+      "territorial_scope": [
+        "us-tx"
+      ],
+      "institutional_scope": [
+        "Harris County, Texas state court; remanded from S.D. Tex."
+      ],
+      "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+      "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-texas.json",
       "id": "u-s-district-court-western-district-of-texas",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, Western District of Texas"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-texas.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-tx"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-tx"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Western District of Texas"
+        ]
       },
+      "territorial_scope": [
+        "us-tx"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, Western District of Texas"
+      ],
+      "source": "https://courtlistener.com/docket/73387361/swanson-v-international-business-machines-corporation/",
+      "source_locator": "Swanson v. International Business Machines Corporation, No. 1:26-cv-01382",
+      "evidence_type": "primary record",
+      "verified": "2026-06-01",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q7891837"
+        "https://wikidata.org/entity/Q7891837"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/supreme-court-of-oklahoma.json",
       "id": "supreme-court-of-oklahoma",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "Supreme Court of Oklahoma"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/supreme-court-of-oklahoma.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ok"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ok"
+        ],
+        "institutional_scope": [
+          "Supreme Court of Oklahoma"
+        ]
       },
+      "territorial_scope": [
+        "us-ok"
+      ],
+      "institutional_scope": [
+        "Supreme Court of Oklahoma"
+      ],
+      "source": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=551746",
+      "source_locator": "State of Oklahoma ex rel. Oklahoma Bar Association v. Reeves, 2026 OK 37",
+      "source_citation": "2026 OK 37",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q7009264"
+        "https://wikidata.org/entity/Q7009264"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/ohio-court-of-appeals-sixth-appellate-district.json",
       "id": "ohio-court-of-appeals-sixth-appellate-district",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "Ohio Court of Appeals, Sixth Appellate District"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/ohio-court-of-appeals-sixth-appellate-district.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-oh"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-oh"
+        ],
+        "institutional_scope": [
+          "Ohio Court of Appeals, Sixth Appellate District"
+        ]
       },
+      "territorial_scope": [
+        "us-oh"
+      ],
+      "institutional_scope": [
+        "Ohio Court of Appeals, Sixth Appellate District"
+      ],
+      "source": "https://supremecourt.ohio.gov/rod/docs/pdf/6/2026/2026-Ohio-1930.pdf",
+      "source_locator": "Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930 (No. S-25-035)",
+      "source_citation": "2026-Ohio-1930",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q7011853"
+        "https://wikidata.org/entity/Q7011853"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-sixth-circuit.json",
       "id": "u-s-court-of-appeals-for-the-sixth-circuit",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. Court of Appeals for the Sixth Circuit"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-sixth-circuit.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. Court of Appeals for the Sixth Circuit"
+        ]
       },
+      "territorial_scope": [
+        "us"
+      ],
+      "institutional_scope": [
+        "U.S. Court of Appeals for the Sixth Circuit"
+      ],
+      "source": "https://www.opn.ca6.uscourts.gov/opinions.pdf/26a0105p-06.pdf",
+      "source_locator": "United States v. Farris, No. 25-5623 (6th Cir.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q492107"
+        "https://wikidata.org/entity/Q492107"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-central-district-of-california.json",
       "id": "u-s-district-court-central-district-of-california",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, Central District of California"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-central-district-of-california.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ca"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ca"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Central District of California"
+        ]
       },
+      "territorial_scope": [
+        "us-ca"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, Central District of California"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.cacd.951252/gov.uscourts.cacd.951252.46.0.pdf",
+      "source_locator": "Chaney v. Transdev Services Inc., No. 2:24-cv-10761-ODW (AJRx)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q5016311"
+        "https://wikidata.org/entity/Q5016311"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/supreme-court-of-alabama.json",
       "id": "supreme-court-of-alabama",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "Supreme Court of Alabama"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/supreme-court-of-alabama.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-al"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-al"
+        ],
+        "institutional_scope": [
+          "Supreme Court of Alabama"
+        ]
       },
+      "territorial_scope": [
+        "us-al"
+      ],
+      "institutional_scope": [
+        "Supreme Court of Alabama"
+      ],
+      "source": "https://publicportal-api.alappeals.gov/courts/68f021c4-6a44-4735-9a76-5360b2e8af13/cms/case/47683afc-2f85-469d-8562-9dca094bb680/docketentrydocuments/d95cdd15-7428-4cc9-8389-3cc27ac88089",
+      "source_locator": "Ibach v. Stewart, No. SC-2025-0106 (Ala.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q7624963"
+        "https://wikidata.org/entity/Q7624963"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json",
       "id": "u-s-district-court-eastern-district-of-pennsylvania",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, Eastern District of Pennsylvania"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-pa"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-pa"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Eastern District of Pennsylvania"
+        ]
       },
+      "territorial_scope": [
+        "us-pa"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, Eastern District of Pennsylvania"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.paed.609239/gov.uscourts.paed.609239.225.0.pdf",
+      "source_locator": "Bunce v. Visual Technology Innovations, Inc., No. 2:23-cv-01740-KNS",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q2350825"
+        "https://wikidata.org/entity/Q2350825"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-illinois.json",
       "id": "u-s-district-court-northern-district-of-illinois",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, Northern District of Illinois"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-illinois.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-il"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-il"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Northern District of Illinois"
+        ]
       },
+      "territorial_scope": [
+        "us-il"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, Northern District of Illinois"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.475370/gov.uscourts.ilnd.475370.97.0.pdf",
+      "source_locator": "Obi v. Cook County, Illinois, No. 1:25-cv-03096",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q7062661"
+        "https://wikidata.org/entity/Q7062661"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/appellate-court-of-illinois-third-district.json",
       "id": "appellate-court-of-illinois-third-district",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "Appellate Court of Illinois, Third District"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/appellate-court-of-illinois-third-district.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-il"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-il"
+        ],
+        "institutional_scope": [
+          "Appellate Court of Illinois, Third District"
+        ]
       },
+      "territorial_scope": [
+        "us-il"
+      ],
+      "institutional_scope": [
+        "Appellate Court of Illinois, Third District"
+      ],
+      "source": "https://illinoiscourts.gov/resources/63539016-cb02-4575-b3da-0dd0632244c1/file",
+      "source_locator": "Hulvat v. Gumina, 2026 IL App (3d) 240628-U",
+      "source_citation": "2026 IL App (3d) 240628-U",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q2841219"
+        "https://wikidata.org/entity/Q2841219"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-western-district-of-louisiana.json",
       "id": "u-s-bankruptcy-court-western-district-of-louisiana",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. Bankruptcy Court, Western District of Louisiana"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-western-district-of-louisiana.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-la"
-      }
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-la"
+        ],
+        "institutional_scope": [
+          "U.S. Bankruptcy Court, Western District of Louisiana"
+        ]
+      },
+      "territorial_scope": [
+        "us-la"
+      ],
+      "institutional_scope": [
+        "U.S. Bankruptcy Court, Western District of Louisiana"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.lawb.374130/gov.uscourts.lawb.374130.84.0.pdf",
+      "source_locator": "In re Wise, No. 25-51132 (Bankr. W.D. La.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/california-court-of-appeal-fourth-appellate-district-division-one.json",
       "id": "california-court-of-appeal-fourth-appellate-district-division-one",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "California Court of Appeal, Fourth Appellate District, Division One"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/california-court-of-appeal-fourth-appellate-district-division-one.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ca"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ca"
+        ],
+        "institutional_scope": [
+          "California Court of Appeal, Fourth Appellate District, Division One"
+        ]
       },
+      "territorial_scope": [
+        "us-ca"
+      ],
+      "institutional_scope": [
+        "California Court of Appeal, Fourth Appellate District, Division One"
+      ],
+      "source": "https://courts.ca.gov/opinions/archive/D085584.PDF",
+      "source_locator": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q5027136"
+        "https://wikidata.org/entity/Q5027136"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-louisiana.json",
       "id": "u-s-district-court-western-district-of-louisiana",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, Western District of Louisiana"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-louisiana.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-la"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-la"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Western District of Louisiana"
+        ]
       },
+      "territorial_scope": [
+        "us-la"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, Western District of Louisiana"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.lawd.213966/gov.uscourts.lawd.213966.28.0.pdf",
+      "source_locator": "Kattom v. Bondi, No. 25-1497 SEC P (W.D. La.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q7891831"
+        "https://wikidata.org/entity/Q7891831"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-louisiana.json",
       "id": "u-s-district-court-eastern-district-of-louisiana",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, Eastern District of Louisiana"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-louisiana.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-la"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-la"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Eastern District of Louisiana"
+        ]
       },
+      "territorial_scope": [
+        "us-la"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, Eastern District of Louisiana"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.laed.273860/gov.uscourts.laed.273860.25.0.pdf",
+      "source_locator": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q1138663"
+        "https://wikidata.org/entity/Q1138663"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/court-of-appeals-of-ohio-eleventh-appellate-district.json",
       "id": "court-of-appeals-of-ohio-eleventh-appellate-district",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "Court of Appeals of Ohio, Eleventh Appellate District"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/court-of-appeals-of-ohio-eleventh-appellate-district.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-oh"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-oh"
+        ],
+        "institutional_scope": [
+          "Court of Appeals of Ohio, Eleventh Appellate District"
+        ]
       },
+      "territorial_scope": [
+        "us-oh"
+      ],
+      "institutional_scope": [
+        "Court of Appeals of Ohio, Eleventh Appellate District"
+      ],
+      "source": "https://supremecourt.ohio.gov/rod/docs/pdf/11/2026/2026-Ohio-965.pdf",
+      "source_locator": "State v. Coleman, 2026-Ohio-965, No. 2024-A-0040 (Ohio Ct. App., 11th Dist.)",
+      "source_citation": "2026-Ohio-965",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q5138098"
+        "https://wikidata.org/entity/Q5138098"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-oregon.json",
       "id": "u-s-district-court-district-of-oregon",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, District of Oregon"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-oregon.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-or"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-or"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, District of Oregon"
+        ]
       },
+      "territorial_scope": [
+        "us-or"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, District of Oregon"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.ord.158388/gov.uscourts.ord.158388.225.0.pdf",
+      "source_locator": "Couvrette v. Wisnovsky, No. 1:21-cv-00157-CL (D. Or.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-25",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q5306891"
+        "https://wikidata.org/entity/Q5306891"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-alabama.json",
       "id": "u-s-district-court-southern-district-of-alabama",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, Southern District of Alabama"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-alabama.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-al"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-al"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Southern District of Alabama"
+        ]
       },
+      "territorial_scope": [
+        "us-al"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, Southern District of Alabama"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.alsd.70919/gov.uscourts.alsd.70919.353.0.pdf",
+      "source_locator": "Heimkes v. Fairhope Motorcoach Resort Condominium Owners Association et al., No. 1:22-cv-00448-TFM-N (S.D. Ala.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q8568339"
+        "https://wikidata.org/entity/Q8568339"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-alabama.json",
       "id": "u-s-district-court-northern-district-of-alabama",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, Northern District of Alabama"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-alabama.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-al"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-al"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Northern District of Alabama"
+        ]
       },
+      "territorial_scope": [
+        "us-al"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, Northern District of Alabama"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.alnd.192599/gov.uscourts.alnd.192599.116.0.pdf",
+      "source_locator": "Rivera v. Triad Properties Corporation et al., No. 2:24-cv-01802-AMM (N.D. Ala.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q7888718"
+        "https://wikidata.org/entity/Q7888718"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-colorado.json",
       "id": "u-s-district-court-district-of-colorado",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, District of Colorado"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-colorado.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-co"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-co"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, District of Colorado"
+        ]
       },
+      "territorial_scope": [
+        "us-co"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, District of Colorado"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.cod.215068/gov.uscourts.cod.215068.424.0.pdf",
+      "source_locator": "Coomer v. Lindell/MyPillow Inc., No. 1:22-cv-01129-NYW-SBP (D. Colo.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q5306883"
+        "https://wikidata.org/entity/Q5306883"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-indiana.json",
       "id": "u-s-district-court-southern-district-of-indiana",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, Southern District of Indiana"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-indiana.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-in"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-in"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Southern District of Indiana"
+        ]
       },
+      "territorial_scope": [
+        "us-in"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, Southern District of Indiana"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.insd.217901/gov.uscourts.insd.217901.127.0.pdf",
+      "source_locator": "Davis v. Marion County Superior Court Juvenile Detention Center, No. 1:24-cv-01918-JRO-MJD (S.D. Ind.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q7062675"
+        "https://wikidata.org/entity/Q7062675"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-seventh-circuit.json",
       "id": "u-s-court-of-appeals-for-the-seventh-circuit",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. Court of Appeals for the Seventh Circuit"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-seventh-circuit.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. Court of Appeals for the Seventh Circuit"
+        ]
       },
+      "territorial_scope": [
+        "us"
+      ],
+      "institutional_scope": [
+        "U.S. Court of Appeals for the Seventh Circuit"
+      ],
+      "source": "https://media.ca7.uscourts.gov/cgi-bin/OpinionsWeb/processWebInputExternal.pl?Submit=Display&Path=Y2026/D06-01/C:25-1988:J:Brennan:aut:T:fnOp:N:3550588:S:0",
+      "source_locator": "Perez-Castillo v. Blanche (Att'y Gen.), No. 25-1988 (7th Cir.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q492149"
+        "https://wikidata.org/entity/Q492149"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/new-york-supreme-court-appellate-division-third-department.json",
       "id": "new-york-supreme-court-appellate-division-third-department",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "New York Supreme Court, Appellate Division, Third Department"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/new-york-supreme-court-appellate-division-third-department.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ny"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ny"
+        ],
+        "institutional_scope": [
+          "New York Supreme Court, Appellate Division, Third Department"
+        ]
       },
+      "territorial_scope": [
+        "us-ny"
+      ],
+      "institutional_scope": [
+        "New York Supreme Court, Appellate Division, Third Department"
+      ],
+      "source": "https://nycourts.gov/reporter/3dseries/2026/2026_00040.htm",
+      "source_locator": "Deutsche Bank Natl. Trust Co. v. LeTennier, 2026 NY Slip Op 00040, Docket No. CV-23-0713 (N.Y. App. Div., 3d Dep’t)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q2276925"
+        "https://wikidata.org/entity/Q2276925"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json",
       "id": "u-s-district-court-middle-district-of-florida",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, Middle District of Florida"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-fl"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-fl"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Middle District of Florida"
+        ]
       },
+      "territorial_scope": [
+        "us-fl"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, Middle District of Florida"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
+      "source_locator": "Hodges v. Meridian Waste Acquisitions USA, No. 3:25-cv-62; Rieske v. AFS, No. 5:25-cv-45 (M.D. Fla.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q1384933"
+        "https://wikidata.org/entity/Q1384933"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-kansas.json",
       "id": "u-s-district-court-district-of-kansas",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, District of Kansas"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-kansas.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ks"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ks"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, District of Kansas"
+        ]
       },
+      "territorial_scope": [
+        "us-ks"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, District of Kansas"
+      ],
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-ksd-2_22-cv-02324/pdf/USCOURTS-ksd-2_22-cv-02324-9.pdf",
+      "source_locator": "Lexos Media IP, LLC v. Overstock.com, Inc., No. 2:22-cv-02324-JAR (D. Kan.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q853682"
+        "https://wikidata.org/entity/Q853682"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-tenth-circuit.json",
       "id": "u-s-court-of-appeals-for-the-tenth-circuit",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. Court of Appeals for the Tenth Circuit"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-tenth-circuit.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. Court of Appeals for the Tenth Circuit"
+        ]
       },
+      "territorial_scope": [
+        "us"
+      ],
+      "institutional_scope": [
+        "U.S. Court of Appeals for the Tenth Circuit"
+      ],
+      "source": "https://ca10.uscourts.gov/sites/ca10/files/opinions/010111382504.pdf",
+      "source_locator": "Amarsingh v. Frontier Airlines, Inc., No. 24-1391 (10th Cir.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q492090"
+        "https://wikidata.org/entity/Q492090"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/california-court-of-appeal-second-appellate-district.json",
       "id": "california-court-of-appeal-second-appellate-district",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "California Court of Appeal, Second Appellate District"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/california-court-of-appeal-second-appellate-district.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ca"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ca"
+        ],
+        "institutional_scope": [
+          "California Court of Appeal, Second Appellate District"
+        ]
       },
+      "territorial_scope": [
+        "us-ca"
+      ],
+      "institutional_scope": [
+        "California Court of Appeal, Second Appellate District"
+      ],
+      "source": "https://courts.ca.gov/opinions/nonpub/B329314.PDF",
+      "source_locator": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., No. B329314 (Cal. Ct. App., 2d Dist., Div. Three) (unpublished)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q5027142"
+        "https://wikidata.org/entity/Q5027142"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-indiana.json",
       "id": "u-s-district-court-northern-district-of-indiana",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, Northern District of Indiana"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-indiana.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-in"
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-in"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Northern District of Indiana"
+        ]
       },
+      "territorial_scope": [
+        "us-in"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, Northern District of Indiana"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.innd.124045/gov.uscourts.innd.124045.26.0.pdf",
+      "source_locator": "Maldonado v. Professional Animal Retirement Center (PARC), No. 1:25-cv-00454-HAB-ALT (N.D. Ind.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
-        "https://www.wikidata.org/entity/Q7062665"
+        "https://wikidata.org/entity/Q7062665"
       ]
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-southern-district-of-texas.json",
       "id": "u-s-bankruptcy-court-southern-district-of-texas",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. Bankruptcy Court, Southern District of Texas"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-southern-district-of-texas.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-tx"
-      }
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-tx"
+        ],
+        "institutional_scope": [
+          "U.S. Bankruptcy Court, Southern District of Texas"
+        ]
+      },
+      "territorial_scope": [
+        "us-tx"
+      ],
+      "institutional_scope": [
+        "U.S. Bankruptcy Court, Southern District of Texas"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.txsb.485264/gov.uscourts.txsb.485264.312.0.pdf",
+      "source_locator": "In re Rosslyn2016, LLC, Texas Esencia 2019 LLC and Timbers2020 LLC, No. 25-34507 (Bankr. S.D. Tex., Houston Div.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/california-court-of-appeal-first-appellate-district.json",
       "id": "california-court-of-appeal-first-appellate-district",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "California Court of Appeal, First Appellate District"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/california-court-of-appeal-first-appellate-district.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-ca"
-      }
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-ca"
+        ],
+        "institutional_scope": [
+          "California Court of Appeal, First Appellate District"
+        ]
+      },
+      "territorial_scope": [
+        "us-ca"
+      ],
+      "institutional_scope": [
+        "California Court of Appeal, First Appellate District"
+      ],
+      "source": "https://courts.ca.gov/opinions/documents/A174647.PDF",
+      "source_locator": "Del Biaggio v. Bansen, No. A174647 (Cal. Ct. App., 1st Dist., Div. 4) (Humboldt County Super. Ct. No. CV1901078)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-eleventh-circuit.json",
       "id": "u-s-court-of-appeals-for-the-eleventh-circuit",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. Court of Appeals for the Eleventh Circuit"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-eleventh-circuit.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us"
-      }
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. Court of Appeals for the Eleventh Circuit"
+        ]
+      },
+      "territorial_scope": [
+        "us"
+      ],
+      "institutional_scope": [
+        "U.S. Court of Appeals for the Eleventh Circuit"
+      ],
+      "source": "https://media.ca11.uscourts.gov/opinions/pub/files/202411033.pdf",
+      "source_locator": "Akerlund v. Atlas Air, Inc., Flight Services International, LLC, No. 24-11033 (11th Cir.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/supreme-court-of-georgia.json",
       "id": "supreme-court-of-georgia",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "Supreme Court of Georgia"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/supreme-court-of-georgia.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": ""
-      }
+        "@type": "of:Jurisdiction",
+        "institutional_scope": [
+          "Supreme Court of Georgia"
+        ]
+      },
+      "institutional_scope": [
+        "Supreme Court of Georgia"
+      ],
+      "source": "https://www.gasupreme.us/wp-content/uploads/2026/05/s26a0459.pdf",
+      "source_locator": "Hannah Renea Payne v. The State, No. S26A0459 (Ga.), 324 Ga. 305",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-mississippi.json",
       "id": "u-s-district-court-northern-district-of-mississippi",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, Northern District of Mississippi"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-mississippi.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us"
-      }
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Northern District of Mississippi"
+        ]
+      },
+      "territorial_scope": [
+        "us"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, Northern District of Mississippi"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.msnd.50181/gov.uscourts.msnd.50181.123.0_1.pdf",
+      "source_locator": "Withers v. City of Aberdeen, No. 1:24-CV-218-SA-RP (N.D. Miss.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-government-accountability-office.json",
       "id": "u-s-government-accountability-office",
@@ -962,32 +2293,72 @@
         "@type": "gist:GovernmentOrganization",
         "name": "U.S. Government Accountability Office"
       },
-      "authority_basis": {
-        "kind": "statutory",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-government-accountability-office.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us"
-      }
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. Government Accountability Office"
+        ]
+      },
+      "territorial_scope": [
+        "us"
+      ],
+      "institutional_scope": [
+        "U.S. Government Accountability Office"
+      ],
+      "source": "https://gao.gov/assets/890/884082.pdf",
+      "source_locator": "Matter of: CVTEK, LLC, B-423943; B-423943.2 (U.S. Government Accountability Office)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-24",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
     },
     {
-      "@context": "https://obligationfirst.org/v1/context.jsonld",
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
       "@type": "of:Authority",
       "@id": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-pennsylvania.json",
       "id": "u-s-district-court-western-district-of-pennsylvania",
       "organization": {
-        "@type": "gist:Court",
+        "@type": "gist:GovernmentOrganization",
         "name": "U.S. District Court, Western District of Pennsylvania"
       },
-      "authority_basis": {
-        "kind": "judicial",
-        "instrument_ref": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-pennsylvania.json#authority-basis"
-      },
       "jurisdiction": {
-        "@type": "gist:Jurisdiction",
-        "ref": "us-pa"
-      }
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-pa"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Western District of Pennsylvania"
+        ]
+      },
+      "territorial_scope": [
+        "us-pa"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, Western District of Pennsylvania"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.pawd.314851/gov.uscourts.pawd.314851.71.0.pdf",
+      "source_locator": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)",
+      "evidence_type": "primary record",
+      "verified": "2026-07-25",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
     }
   ]
 }

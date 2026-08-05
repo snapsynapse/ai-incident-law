@@ -1,15 +1,47 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Proceeding",
   "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-055-proceeding.json",
   "id": "aiel-2026-055-proceeding",
   "title": "Withers v. City of Aberdeen, No. 1:24-CV-218-SA-RP (N.D. Miss.)",
   "filed_date": "2026-06-08",
-  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-mississippi.json",
+  "heardBy": [
+    "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-mississippi.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us"
+    ],
+    "institutional_scope": [
+      "U.S. District Court, Northern District of Mississippi"
+    ]
   },
+  "territorial_scope": [
+    "us"
+  ],
+  "institutional_scope": [
+    "U.S. District Court, Northern District of Mississippi"
+  ],
+  "parties": [
+    "https://aiincidentlaw.org/party/aiel-2026-055-deployer.json"
+  ],
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-055-allegation.json"
   ],
@@ -17,7 +49,11 @@
     "https://aiincidentlaw.org/determination/aiel-2026-055-determination.json"
   ],
   "source": "https://storage.courtlistener.com/recap/gov.uscourts.msnd.50181/gov.uscourts.msnd.50181.123.0_1.pdf",
+  "source_locator": "Withers v. City of Aberdeen, No. 1:24-CV-218-SA-RP (N.D. Miss.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2026-055",
   "matter_type": "sanctions order (Rule 11 / inherent power)",
-  "status": "sanctioned"
+  "filing_status": "sanctioned"
 }

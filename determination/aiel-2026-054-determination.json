@@ -1,13 +1,32 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2026-054-determination.json",
   "id": "aiel-2026-054-determination",
-  "issued_date": "2026-05-05",
-  "issuedBy": "https://aiincidentlaw.org/authority/supreme-court-of-georgia.json",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/supreme-court-of-georgia.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": ""
+    "@type": "of:Jurisdiction",
+    "institutional_scope": [
+      "Supreme Court of Georgia"
+    ]
   },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2026-054-allegation.json"
@@ -19,6 +38,10 @@
   },
   "notes": "The fabricated citations sat in the trial court’s own signed order, but the opinion states that order was largely prepared by the prosecutor as a proposed order, and the AI use is entirely prosecutor-side; the trial judge was neither sanctioned nor found to have used AI. Recorded here as prosecutor-side conduct that contaminated an adjudicative document, not as adjudicator-side AI use. No product named — the opinion says only “artificial intelligence software”. Footnote 4 preserves separate State Bar and Judicial Qualifications Commission proceedings, so a later disciplinary phase is possible. Two justices concurred in part and dissented in part, objecting only to admonishing the district attorney’s office. Official caption spells the appellant “Hannah Renea Payne”. URL note: the bare domain gasupreme.us fails TLS with a certificate hostname mismatch, so this link must retain the www host — see WWW_REQUIRED_HOSTS in scripts/url-policy.mjs.",
   "source": "https://www.gasupreme.us/wp-content/uploads/2026/05/s26a0459.pdf",
+  "source_locator": "Hannah Renea Payne v. The State, No. S26A0459 (Ga.), 324 Ga. 305",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2026-054",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"

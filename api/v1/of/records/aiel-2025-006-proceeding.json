@@ -1,15 +1,47 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Proceeding",
   "@id": "https://aiincidentlaw.org/proceeding/aiel-2025-006-proceeding.json",
   "id": "aiel-2025-006-proceeding",
   "title": "Huffman Construction, LLC, ASBCA Nos. 62591, 62783",
   "filed_date": "2025-10-23",
-  "issuedBy": "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json",
+  "heardBy": [
+    "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us"
+    ],
+    "institutional_scope": [
+      "Armed Services Board of Contract Appeals"
+    ]
   },
+  "territorial_scope": [
+    "us"
+  ],
+  "institutional_scope": [
+    "Armed Services Board of Contract Appeals"
+  ],
+  "parties": [
+    "https://aiincidentlaw.org/party/aiel-2025-006-deployer.json"
+  ],
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2025-006-allegation.json"
   ],
@@ -17,7 +49,11 @@
     "https://aiincidentlaw.org/determination/aiel-2025-006-determination.json"
   ],
   "source": "https://www.asbca.mil/LinkClick.aspx?fileticket=eAIy2KSL_Zg%3D&portalid=143",
+  "source_locator": "Huffman Construction, LLC, ASBCA Nos. 62591, 62783",
+  "evidence_type": "primary record",
+  "verified": "2026-04-22",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2025-006",
   "matter_type": "sanctions / strike order",
-  "status": "ordered"
+  "filing_status": "ordered"
 }

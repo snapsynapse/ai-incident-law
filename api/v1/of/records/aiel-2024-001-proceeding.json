@@ -1,15 +1,47 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Proceeding",
   "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-001-proceeding.json",
   "id": "aiel-2024-001-proceeding",
   "title": "Moffatt v. Air Canada, 2024 BCCRT 149",
   "filed_date": "2024-02-14",
-  "issuedBy": "https://aiincidentlaw.org/authority/british-columbia-civil-resolution-tribunal.json",
+  "heardBy": [
+    "https://aiincidentlaw.org/authority/british-columbia-civil-resolution-tribunal.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "ca-bc"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "ca-bc"
+    ],
+    "institutional_scope": [
+      "British Columbia Civil Resolution Tribunal"
+    ]
   },
+  "territorial_scope": [
+    "ca-bc"
+  ],
+  "institutional_scope": [
+    "British Columbia Civil Resolution Tribunal"
+  ],
+  "parties": [
+    "https://aiincidentlaw.org/party/aiel-2024-001-deployer.json"
+  ],
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2024-001-allegation.json"
   ],
@@ -17,11 +49,16 @@
     "https://aiincidentlaw.org/determination/aiel-2024-001-determination.json"
   ],
   "source": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
+  "source_locator": "Moffatt v. Air Canada, 2024 BCCRT 149",
+  "source_citation": "2024 BCCRT 149",
+  "evidence_type": "primary record",
+  "verified": "2026-04-22",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2024-001",
   "matter_type": "tribunal claim",
-  "status": "ordered",
+  "filing_status": "ordered",
   "neutral_citation": "2024 BCCRT 149",
-  "sameAs": [
+  "describesSameEntityAs": [
     "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html"
   ]
 }

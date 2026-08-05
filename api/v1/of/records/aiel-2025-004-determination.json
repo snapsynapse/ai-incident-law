@@ -1,13 +1,35 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2025-004-determination.json",
   "id": "aiel-2025-004-determination",
-  "issued_date": "2025-01-01",
-  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-wyoming.json",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/u-s-district-court-district-of-wyoming.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us-wy"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-wy"
+    ],
+    "institutional_scope": [
+      "U.S. District Court, District of Wyoming"
+    ]
   },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2025-004-allegation.json"
@@ -19,6 +41,10 @@
   },
   "notes": "Included as a notable sanctions event, but the primary court order should be downloaded and archived before treating as fully verified.",
   "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
+  "source_locator": "Wadsworth v. Walmart Inc.",
+  "evidence_type": "reliable reporting",
+  "verified": "2026-04-22",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2025-004",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"

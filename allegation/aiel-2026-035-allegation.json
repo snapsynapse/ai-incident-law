@@ -1,11 +1,30 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2026-035-allegation.json",
   "id": "aiel-2026-035-allegation",
   "text": "The Ohio Court of Appeals, Eleventh Appellate District, sanctioned an attorney after a non-attorney paralegal used ChatGPT to generate fabricated quotations that the attorney submitted in a criminal appeal. The attorney admitted the AI use and the court found the conduct sanctionable; it also noted the attorney had continued using ChatGPT after the sanctions hearing. Aggravating: a subsequent October 2025 filing visibly contained a ChatGPT prompt.",
-  "asserted_by": "public record",
+  "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2026-035#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-035-deployer.json"
+  ],
   "ai_system_name": "ChatGPT (named; admitted)",
   "deployer": "Respondent attorney (Ohio appellate counsel; name not stated in order)",
   "domain": "legal services",
@@ -13,5 +32,11 @@
   "canonical_source_conflicted": "Non-existent judicial quotations attributed to real Ohio judges; Ohio Rules of Professional Conduct",
   "mitigation_gap": "Attorney failed to review paralegal's ChatGPT output before submission; continued AI use after sanctions hearing.",
   "reliance_or_harm": "$2,000 monetary fine (credit for $2,000 already paid to Ashtabula County Prosecutor); referral to Ohio Office of Disciplinary Counsel; removal as counsel; application to reopen stricken; two-year order to serve judgment on falsely-implicated judges.",
-  "ai_incident_law_record_id": "AIEL-2026-035"
+  "ai_incident_law_record_id": "AIEL-2026-035",
+  "source": "https://supremecourt.ohio.gov/rod/docs/pdf/11/2026/2026-Ohio-965.pdf",
+  "source_locator": "State v. Coleman, 2026-Ohio-965, No. 2024-A-0040 (Ohio Ct. App., 11th Dist.)",
+  "source_citation": "2026-Ohio-965",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

@@ -1,15 +1,47 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Proceeding",
   "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-032-proceeding.json",
   "id": "aiel-2026-032-proceeding",
   "title": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)",
   "filed_date": "2026-03-05",
-  "issuedBy": "https://aiincidentlaw.org/authority/california-court-of-appeal-fourth-appellate-district-division-one.json",
+  "heardBy": [
+    "https://aiincidentlaw.org/authority/california-court-of-appeal-fourth-appellate-district-division-one.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us-ca"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-ca"
+    ],
+    "institutional_scope": [
+      "California Court of Appeal, Fourth Appellate District, Division One"
+    ]
   },
+  "territorial_scope": [
+    "us-ca"
+  ],
+  "institutional_scope": [
+    "California Court of Appeal, Fourth Appellate District, Division One"
+  ],
+  "parties": [
+    "https://aiincidentlaw.org/party/aiel-2026-032-deployer.json"
+  ],
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-032-allegation.json"
   ],
@@ -17,7 +49,11 @@
     "https://aiincidentlaw.org/determination/aiel-2026-032-determination.json"
   ],
   "source": "https://courts.ca.gov/opinions/archive/D085584.PDF",
+  "source_locator": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2026-032",
   "matter_type": "sanctions order (appellate)",
-  "status": "sanctioned"
+  "filing_status": "sanctioned"
 }

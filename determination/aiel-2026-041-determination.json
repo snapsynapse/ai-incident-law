@@ -1,13 +1,35 @@
 {
-  "@context": "https://obligationfirst.org/v1/context.jsonld",
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
   "@type": "of:Determination",
   "@id": "https://aiincidentlaw.org/determination/aiel-2026-041-determination.json",
   "id": "aiel-2026-041-determination",
-  "issued_date": "2026-05-19",
-  "issuedBy": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json"
+  ],
   "jurisdiction": {
-    "@type": "gist:Jurisdiction",
-    "ref": "us-ny"
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-ny"
+    ],
+    "institutional_scope": [
+      "U.S. District Court, Southern District of New York"
+    ]
   },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2026-041-allegation.json"
@@ -19,6 +41,10 @@
   },
   "notes": "AI-attributable sanction $2,710 ($1,710 fees + $1,000 penalty); LexisNexis AI confirmed by counsel admission and court finding. Separate $46,980 discovery sanction not AI-related.",
   "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.605627/gov.uscourts.nysd.605627.142.0.pdf",
+  "source_locator": "Chakma v. Sushi Katsuei Inc., No. 1:23-cv-07804-KPF (S.D.N.Y.)",
+  "evidence_type": "primary record",
+  "verified": "2026-07-24",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2026-041",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"
