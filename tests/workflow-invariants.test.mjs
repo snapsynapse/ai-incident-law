@@ -17,7 +17,7 @@ test("validation workflow uses the canonical fail-closed entrypoint", () => {
   for (const gate of ["npm, [\"run\", \"build\"]", "npm, [\"run\", \"check\"]", "[\"diff\", \"--check\"]", "[\"diff\", \"--exit-code\"]"]) {
     assert.ok(verifier.includes(gate), `verify-ci.mjs omits ${gate}`);
   }
-  for (const gate of ["eval:of", "check:of", "validate:of", "check:of-fingerprint", "test:build-of", "test:mcp"]) {
+  for (const gate of ["eval:of", "check:of", "validate:of", "check:of-fingerprint", "check:of-continuity", "test:build-of", "test:mcp"]) {
     assert.match(packageJson.scripts.check, new RegExp(`npm run ${gate.replace(":", "\\:")}(?: |$)`), `package check omits ${gate}`);
   }
 });

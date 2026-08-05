@@ -1,0 +1,1398 @@
+{
+  "manifest_version": 1,
+  "adopter": "AI Incident Law",
+  "baseline_release": "v0.3.0",
+  "identifiers": [
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2017-012-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2022-011-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2023-002-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2023-009-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2023-013-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2024-001-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2024-003-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2024-008-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2024-010-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2024-014-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2024-015-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2024-017-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2025-004-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2025-006-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2025-007-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2025-016-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2025-018-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-005-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-019-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-020-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-021-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-022-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-023-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-024-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-025-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-026-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-027-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-028-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-029-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-030-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-031-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-032-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-033-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-034-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-035-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-036-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-037-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-038-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-040-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-041-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-042-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-043-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-044-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-045-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-046-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-047-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-048-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-049-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-050-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-051-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-052-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-053-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-054-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-055-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-056-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-057-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-058-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-059-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/appellate-court-of-illinois-third-district.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/british-columbia-civil-resolution-tribunal.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/california-court-of-appeal-first-appellate-district.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/california-court-of-appeal-fourth-appellate-district-division-one.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/california-court-of-appeal-second-appellate-district.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/court-of-appeals-of-ohio-eleventh-appellate-district.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/harris-county-texas-state-court-remanded-from-s-d-tex.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/new-york-supreme-court-appellate-division-third-department.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/ohio-court-of-appeals-sixth-appellate-district.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/supreme-court-of-alabama.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/supreme-court-of-georgia.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/supreme-court-of-oklahoma.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-southern-district-of-texas.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-western-district-of-louisiana.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-eleventh-circuit.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-fifth-circuit.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-second-circuit.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-seventh-circuit.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-sixth-circuit.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-tenth-circuit.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-central-district-of-california.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-colorado.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-kansas.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts-doj-hud.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-new-jersey.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-oregon.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-wyoming.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-louisiana.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida-florida-supreme-court.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-alabama.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-illinois.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-indiana.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-mississippi.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-alabama.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-indiana.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-louisiana.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-pennsylvania.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-texas.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-federal-trade-commission.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-government-accountability-office.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2017-012-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2022-011-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2023-002-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2023-009-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2023-013-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2024-001-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2024-003-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2024-008-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2024-010-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2024-014-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2025-004-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2025-006-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2025-007-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2025-016-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-005-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-019-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-020-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-021-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-022-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-023-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-024-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-025-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-026-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-027-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-028-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-029-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-030-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-031-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-032-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-033-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-034-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-035-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-036-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-037-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-038-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-040-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-041-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-042-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-043-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-044-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-045-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-046-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-047-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-048-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-049-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-050-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-051-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-052-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-053-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-054-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-055-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-056-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-057-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-058-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-059-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2017-012-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2022-011-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2023-002-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2023-009-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2023-013-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2024-001-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2024-003-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2024-008-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2024-010-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2024-014-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2024-015-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2024-017-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2025-004-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2025-006-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2025-007-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2025-016-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2025-018-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-005-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-019-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-020-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-021-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-022-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-023-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-024-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-025-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-026-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-027-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-028-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-029-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-030-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-031-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-032-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-033-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-034-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-035-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-036-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-037-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-038-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-040-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-041-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-042-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-043-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-044-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-045-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-046-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-047-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-048-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-049-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-050-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-051-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-052-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-053-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-054-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-055-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-056-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-057-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-058-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-059-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2017-012-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2022-011-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2023-002-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2023-009-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2023-013-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2024-001-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2024-003-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2024-008-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2024-010-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2024-014-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2024-015-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2024-017-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2025-004-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2025-006-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2025-007-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2025-016-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2025-018-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-005-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-019-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-020-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-021-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-022-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-023-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-024-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-025-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-026-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-027-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-028-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-029-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-030-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-031-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-032-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-033-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-034-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-035-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-036-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-037-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-038-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-040-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-041-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-042-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-043-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-044-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-045-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-046-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-047-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-048-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-049-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-050-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-051-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-052-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-053-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-054-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-055-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-056-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-057-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-058-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-059-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    }
+  ],
+  "reviewed_retirements": []
+}
