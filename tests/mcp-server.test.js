@@ -130,6 +130,19 @@ test("MCP exposes obligation anchors through search, source records, and OF dete
   assert.deepEqual(determination.anchors, sourceRecord.obligation_first_anchors);
 });
 
+test("MCP retrieves retired graph identifiers as Tombstones", () => {
+  const tombstoneId = "aiel-2026-019-determination";
+  const [response] = callMcp([
+    toolCall(1, "get_obligation_first_record", { kind: "tombstones", id: tombstoneId })
+  ]);
+
+  const tombstone = payload(response).data;
+  assert.equal(tombstone.id, tombstoneId);
+  assert.equal(tombstone["@type"], "of:Tombstone");
+  assert.equal(tombstone.former_type, "of:Determination");
+  assert.equal(tombstone.deprecated, true);
+});
+
 test("MCP flushes complete JSON-RPC frames at the 64 KiB pipe boundary", () => {
   for (const targetBytes of [65535, 65536, 65537]) {
     const fixedResponse = method => `${JSON.stringify({

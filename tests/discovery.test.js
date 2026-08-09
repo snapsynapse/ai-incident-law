@@ -54,6 +54,11 @@ test("agent discovery JSON uses canonical URLs and advertises MCP", () => {
   assert.equal(agents.capabilities.mcp_discovery, "https://aiincidentlaw.org/.well-known/mcp.json");
   assert.equal(agents.capabilities.mcp_config, "https://aiincidentlaw.org/mcp.json");
   assert.equal(agents.capabilities.api.authentication, "none");
+  assert.ok(agents.capabilities.api.endpoints.some(endpoint => endpoint.path === "tombstones.json"));
+  assert.match(
+    agents.actions.find(action => action.name === "get_obligation_first_record").description,
+    /tombstone/
+  );
 });
 
 test("well-known MCP discovery points at local stdio tooling", () => {
@@ -64,6 +69,14 @@ test("well-known MCP discovery points at local stdio tooling", () => {
   assert.equal(discovery.package.homepage, "https://npmjs.com/package/ai-incident-law");
   assert.equal(discovery.local_server.transport, "stdio");
   assert.ok(discovery.local_server.tools.includes("search_records"));
+  assert.equal(discovery.static_endpoints.tombstones, "tombstones.json");
+});
+
+test("language-model discovery advertises the Tombstone collection", () => {
+  assert.match(
+    readText("llms.txt"),
+    /https:\/\/aiincidentlaw\.org\/api\/v1\/of\/tombstones\.json/
+  );
 });
 
 test("public discovery and docs do not use www URLs", () => {

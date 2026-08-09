@@ -200,6 +200,21 @@
           <li>Consequence &rarr; Obligation: start at a case, read its anchors to learn which obligations the incident implicated.</li>
         </ul>
 
+        <h2>Procedural fidelity and stable identifiers</h2>
+        <p>
+          The public matter record is an editorial summary. Its generated Obligation-First records use a curated
+          <code>legal_graph</code> projection when a matter spans multiple courts, agencies, or procedural stages.
+          Each actual body is represented as its own Authority, and each stage is represented as its own Proceeding.
+          AI Incident Law emits a Determination only when a cited source establishes an adjudicative act. A filed or
+          pending matter without that evidence remains a Proceeding and Allegation without a Determination.
+        </p>
+        <p>
+          Published graph identifiers are stable. When semantic review shows that an identifier conflated bodies or
+          incorrectly represented an unresolved matter as determined, the original IRI remains queryable as an
+          <code>of:Tombstone</code>. Tombstones identify the former record type and explain why the identifier was
+          retired, so graph consumers can distinguish a reviewed correction from a missing record.
+        </p>
+
         <h2>Cross-graph query example: dated transcript from 2026-06-10</h2>
         <p>
           What follows is a reproducible recipe run on <strong>2026-06-10</strong> against all three published

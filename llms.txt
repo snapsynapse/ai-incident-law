@@ -18,6 +18,7 @@ Each record resolves to a primary or stable secondary public source. Records car
 - [Proceedings](https://aiincidentlaw.org/api/v1/of/proceedings.json): Filed matters and actions.
 - [Allegations](https://aiincidentlaw.org/api/v1/of/allegations.json): AI-related failures asserted in public records.
 - [Determinations](https://aiincidentlaw.org/api/v1/of/determinations.json): Resolving postures for included matters.
+- [Tombstones](https://aiincidentlaw.org/api/v1/of/tombstones.json): Retired published graph identifiers preserved at their original IRIs.
 
 ## Agent discovery
 

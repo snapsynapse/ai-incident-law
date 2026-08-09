@@ -51,6 +51,7 @@
     "proceedings": "proceedings.json",
     "allegations": "allegations.json",
     "determinations": "determinations.json",
+    "tombstones": "tombstones.json",
     "record": "records/{id}.json"
   }
 }

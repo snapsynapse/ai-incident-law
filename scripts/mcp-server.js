@@ -286,11 +286,11 @@ const TOOLS = [
   },
   {
     name: "get_obligation_first_record",
-    description: "Get a generated Obligation-First proceeding, allegation, determination, or authority record by kind and ID.",
+    description: "Get a generated Obligation-First authority, proceeding, allegation, determination, or tombstone record by kind and ID.",
     inputSchema: {
       type: "object",
       properties: {
-        kind: { type: "string", description: "Record kind: proceedings, allegations, determinations, or authorities." },
+        kind: { type: "string", description: "Record kind: authorities, proceedings, allegations, determinations, or tombstones." },
         id: { type: "string", description: "Generated Obligation-First record ID." }
       },
       required: ["kind", "id"],
@@ -401,7 +401,8 @@ function handleGetObligationFirstRecord({ kind, id }) {
     authorities: authorityRecords(),
     proceedings: ofData.proceedings?.proceedings || [],
     allegations: ofData.allegations?.allegations || [],
-    determinations: ofData.determinations?.determinations || []
+    determinations: ofData.determinations?.determinations || [],
+    tombstones: ofData.tombstones?.tombstones || []
   };
   const records = collections[kind];
   if (!records) {

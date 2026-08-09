@@ -14,6 +14,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Curated `legal_graph` source projections for multi-body and unresolved matters, with validation for distinct Authority identity, proceeding and Determination references, and reviewed identifier retirement.
 - Regression coverage for unresolved filed matters, retired identifiers, distinct procedural-stage Authorities, and source-verified issuer/date relations.
+- Tombstone discovery and retrieval across the static API manifests, language-model index, and MCP `get_obligation_first_record` tool.
+- Negative-path source-contract tests for composite Authorities, undeclared graph references, malformed retirements, duplicate projection IDs, and projections outside the admitted dataset.
 
 ## [0.3.0] - 2026-08-04
 

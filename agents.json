@@ -63,6 +63,10 @@
           "description": "Determinations for included matters with resolving postures."
         },
         {
+          "path": "tombstones.json",
+          "description": "Retired published graph identifiers preserved at their original IRIs."
+        },
+        {
           "path": "records/{id}.json",
           "description": "Individual generated Obligation-First record by ID."
         }
@@ -90,7 +94,7 @@
     },
     {
       "name": "get_obligation_first_record",
-      "description": "Fetch a generated Obligation-First authority, proceeding, allegation, or determination record.",
+      "description": "Fetch a generated Obligation-First authority, proceeding, allegation, determination, or tombstone record.",
       "transport": "mcp-stdio",
       "tool": "get_obligation_first_record"
     },

@@ -135,7 +135,7 @@ Then open the local server in your browser.
 - URL normalization is intentionally narrow: insecure HTTP scheme input is rewritten to `https://`, leading `www.` is stripped, surrounding whitespace is trimmed, and the URL parser serializes the final value.
 - URL validation rejects appended prose, empty list entries, protocol-relative URLs, non-HTTP schemes, credentials, backslashes, encoded backslashes, embedded whitespace, control characters, and unsafe raw delimiters.
 - URL-policy evals run malformed-source fixtures through the real build and validation scripts in temporary directories.
-- Included records are exported to Obligation-First as `of:Proceeding`, `of:Allegation`, and, when no longer pending, `of:Determination` records.
+- Included records are exported to Obligation-First as `of:Proceeding`, `of:Allegation`, and, when supported by a sourced adjudicative act, `of:Determination` records.
 - `review` and `global` records are editorial queues and are not exported to Obligation-First.
 
 ## MCP access
