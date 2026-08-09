@@ -81,6 +81,8 @@ These appear primarily on `included` records and are the main fields rendered by
 | `research_status` | Internal status such as included |
 | `last_verified_date` | Last date the record was verified |
 | `needs_review` | `yes` or `no` flag used by filters |
+| `obligation_first_anchors` | Optional array or semicolon-delimited list of EveryAILaw Obligation-First IRIs interpreted or applied by the matter's Determination |
+| `legal_graph` | Curated procedural projection used when display-oriented matter fields are not precise enough to generate truthful Obligation-First records |
 
 ## Candidate-oriented fields
 
@@ -102,7 +104,6 @@ These appear mainly on `review` and `global` records.
 | `source_language` | Source language for untranslated materials |
 | `translation_status` | Translation completeness or confidence |
 | `authority_type` | Court, agency, regulator, press, or similar source authority label |
-| `obligation_first_anchors` | Optional array or semicolon-delimited list of EveryAILaw Obligation-First IRIs interpreted or applied by the matter's Determination |
 
 ## Required versus expected
 
@@ -117,15 +118,29 @@ There is intentionally no strict full-schema validator yet. Current practice is:
 
 ## Obligation-First export
 
-Included records are exported under `/api/v1/of/` as Obligation-First v0.1 records:
+Included records are exported under `/api/v1/of/` as Obligation-First v0.6 records:
 
-- each distinct jurisdiction string becomes an `of:Authority`
+- each simple jurisdiction becomes an `of:Authority` unless a curated `legal_graph` projection declares the actual bodies
 - each included matter becomes an `of:Proceeding`
 - each included matter becomes one `of:Allegation` describing the AI-related failure asserted in the public record
 - included matters with settled, ordered, sanctioned, resolved, or dismissed postures also become `of:Determination` records
 - records with `obligation_first_anchors` pass those IRIs through to `of:Determination.anchors`
+- retired published graph identifiers remain queryable as `of:Tombstone` records
 
-Pending included records are exported without `of:Determination` records until the source record has a resolving posture. `review` and `global` records are not exported because they are editorial queues rather than admitted public matters.
+Filed and pending included records are exported without `of:Determination` records until a source establishes an adjudicative act. `review` and `global` records are not exported because they are editorial queues rather than admitted public matters.
+
+### Curated legal graph projection
+
+`legal_graph` is an asserted source projection, not an inference cache. Use it whenever one editorial matter spans multiple bodies or procedural stages, when the display status cannot establish a Determination, or when a published graph identifier must be retired.
+
+Supported arrays:
+
+- `authorities`: distinct organizations with stable `id`, `name`, and optional territorial, institutional, and `same_as` crosswalks
+- `proceedings`: stable proceeding IDs with `heard_by`, optional stage-specific title and filing date, `determination_ids`, and `procedural_stage`
+- `determinations`: stable determination IDs with `issued_by`, `disposition`, and optional `issued_date`
+- `retired_identifiers`: the original path kind, stable ID, `former_type`, and reviewed retirement reason used to emit a Tombstone at the retired IRI
+
+When `determinations` is present, including as an empty array, it is authoritative. A filed complaint uses `"determinations": []`; the generator must not derive a `partial` disposition from the display status. Authority names must identify one organization and may not use semicolons to combine courts, agencies, or procedural history.
 
 Example:
 
@@ -137,7 +152,7 @@ Example:
 
 Use an EveryAILaw `of:ObligationCategory` IRI when the evidence identifies a broad concept such as human oversight, transparency, or bias prevention. Use a concrete `of:Obligation` IRI only when the public matter can be tied to the specific statutory or regulatory Term that creates it. This keeps category-level interpretation distinct from claims that a particular legal duty was applied.
 
-Anchor selection policy: add anchors only when the public record supports the relationship with high confidence. Select a concrete Obligation for a specific statutory nexus and an ObligationCategory for a broader duty concept. Do not anchor generic litigation-process duties or weak topical similarity. Current evals require valid EveryAILaw Obligation or ObligationCategory IRIs, reject legacy category-shaped Obligation paths, and reject anchors on pending matters that do not generate Determinations.
+Anchor selection policy: add anchors only when the public record supports the relationship with high confidence. Select a concrete Obligation for a specific statutory nexus and an ObligationCategory for a broader duty concept. Do not anchor generic litigation-process duties or weak topical similarity. Current evals require valid EveryAILaw Obligation or ObligationCategory IRIs, reject legacy category-shaped Obligation paths, and reject anchors on filed or pending matters that do not generate Determinations.
 
 ## Editing rules
 

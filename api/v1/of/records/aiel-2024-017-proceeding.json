@@ -13,7 +13,8 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "procedural_stage": "ail:proceduralStage"
     }
   ],
   "@type": "of:Proceeding",
@@ -22,7 +23,7 @@
   "title": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
   "filed_date": "2024-01-18",
   "heardBy": [
-    "https://aiincidentlaw.org/authority/harris-county-texas-state-court-remanded-from-s-d-tex.json"
+    "https://aiincidentlaw.org/authority/harris-county-125th-judicial-district-court.json"
   ],
   "jurisdiction": {
     "@type": "of:Jurisdiction",
@@ -30,14 +31,14 @@
       "us-tx"
     ],
     "institutional_scope": [
-      "Harris County, Texas state court; remanded from S.D. Tex."
+      "Harris County 125th Judicial District Court"
     ]
   },
   "territorial_scope": [
     "us-tx"
   ],
   "institutional_scope": [
-    "Harris County, Texas state court; remanded from S.D. Tex."
+    "Harris County 125th Judicial District Court"
   ],
   "parties": [
     "https://aiincidentlaw.org/party/aiel-2024-017-deployer.json"
@@ -53,5 +54,6 @@
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2024-017",
   "matter_type": "state civil lawsuit",
-  "filing_status": "pending"
+  "filing_status": "pending",
+  "procedural_stage": "state-trial"
 }

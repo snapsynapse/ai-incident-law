@@ -38,12 +38,12 @@
   "institutional_scope": [
     "U.S. District Court, Middle District of Florida"
   ],
-  "source": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
-  "source_locator": "Hodges v. Meridian Waste Acquisitions USA, No. 3:25-cv-62; Rieske v. AFS, No. 5:25-cv-45 (M.D. Fla.)",
-  "evidence_type": "primary record",
-  "verified": "2026-07-24",
-  "asserted_by_adopter": "https://aiincidentlaw.org/",
   "sameAs": [
     "https://wikidata.org/entity/Q1384933"
-  ]
+  ],
+  "source": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
+  "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
+  "evidence_type": "primary record",
+  "verified": "2026-04-22",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

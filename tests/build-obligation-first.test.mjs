@@ -69,3 +69,37 @@ test("complete generated export is byte-deterministic across UTC and America/Den
     await rm(fixture, { recursive: true, force: true });
   }
 });
+
+test("filed matters remain unresolved and preserve retired Determination IRIs", async () => {
+  const source = JSON.parse(await readFile(path.join(ROOT, "data", "data.json"), "utf8"));
+  const determinations = JSON.parse(await readFile(path.join(ROOT, "api", "v1", "of", "determinations.json"), "utf8")).determinations;
+  const tombstones = JSON.parse(await readFile(path.join(ROOT, "api", "v1", "of", "tombstones.json"), "utf8")).tombstones;
+  const filedIds = source.datasets.included.records.filter(record => record.filing_status === "filed").map(record => record.error_id);
+  assert.deepEqual(filedIds.sort(), ["AIEL-2026-019", "AIEL-2026-020"]);
+  for (const id of filedIds) {
+    assert.equal(determinations.some(record => record.ai_incident_law_record_id === id), false);
+    const iri = `https://aiincidentlaw.org/determination/${id.toLowerCase()}-determination.json`;
+    assert.ok(tombstones.some(record => record["@id"] === iri && record.former_type === "of:Determination"));
+  }
+});
+
+test("procedural graph uses distinct Authorities for formerly composite matters", async () => {
+  const authorities = JSON.parse(await readFile(path.join(ROOT, "api", "v1", "of", "authorities.json"), "utf8")).authorities;
+  const proceedings = JSON.parse(await readFile(path.join(ROOT, "api", "v1", "of", "proceedings.json"), "utf8")).proceedings;
+  const determinations = JSON.parse(await readFile(path.join(ROOT, "api", "v1", "of", "determinations.json"), "utf8")).determinations;
+  const tombstones = JSON.parse(await readFile(path.join(ROOT, "api", "v1", "of", "tombstones.json"), "utf8")).tombstones;
+
+  assert.equal(authorities.some(record => record.organization.name.includes(";")), false);
+  assert.equal(tombstones.filter(record => record.former_type === "of:Authority").length, 6);
+
+  const michiganStages = proceedings.filter(record => record.ai_incident_law_record_id === "AIEL-2022-011");
+  assert.deepEqual(michiganStages.map(record => record.procedural_stage).sort(), ["appeal", "trial"]);
+  assert.deepEqual(michiganStages.flatMap(record => record.heardBy).sort(), [
+    "https://aiincidentlaw.org/authority/michigan-court-of-claims.json",
+    "https://aiincidentlaw.org/authority/michigan-supreme-court.json",
+  ]);
+
+  const neusom = determinations.find(record => record.id === "aiel-2024-008-determination");
+  assert.deepEqual(neusom.issuedBy, ["https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json"]);
+  assert.equal(neusom.issued_date, "2024-03-08");
+});

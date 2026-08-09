@@ -16,31 +16,16 @@
       "reliance_or_harm": "ail:relianceOrHarm"
     }
   ],
-  "@type": "of:Authority",
+  "@type": "of:Tombstone",
   "@id": "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json",
   "id": "arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit",
-  "organization": {
-    "@type": "gist:GovernmentOrganization",
-    "name": "Arkansas Supreme Court; U.S. District Court, Eastern District of Arkansas; Eighth Circuit"
-  },
-  "jurisdiction": {
-    "@type": "of:Jurisdiction",
-    "territorial_scope": [
-      "us-ar"
-    ],
-    "institutional_scope": [
-      "Arkansas Supreme Court; U.S. District Court, Eastern District of Arkansas; Eighth Circuit"
-    ]
-  },
-  "territorial_scope": [
-    "us-ar"
-  ],
-  "institutional_scope": [
-    "Arkansas Supreme Court; U.S. District Court, Eastern District of Arkansas; Eighth Circuit"
-  ],
+  "deprecated": true,
+  "former_type": "of:Authority",
+  "notes": "Retired composite identifier that conflated state and federal procedural stages.",
   "source": "https://law.justia.com/cases/arkansas/supreme-court/2017/cv-17-183.html",
   "source_locator": "Ledgerwood v. Arkansas Department of Human Services / related federal litigation",
   "evidence_type": "primary record",
   "verified": "2026-04-22",
-  "asserted_by_adopter": "https://aiincidentlaw.org/"
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "ai_incident_law_record_id": "AIEL-2017-012"
 }

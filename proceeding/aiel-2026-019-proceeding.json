@@ -45,9 +45,7 @@
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-019-allegation.json"
   ],
-  "hasDetermination": [
-    "https://aiincidentlaw.org/determination/aiel-2026-019-determination.json"
-  ],
+  "hasDetermination": [],
   "source": "https://courtlistener.com/docket/73387361/swanson-v-international-business-machines-corporation/",
   "source_locator": "Swanson v. International Business Machines Corporation, No. 1:26-cv-01382",
   "evidence_type": "primary record",

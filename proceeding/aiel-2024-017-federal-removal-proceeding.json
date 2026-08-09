@@ -1,0 +1,59 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "procedural_stage": "ail:proceduralStage"
+    }
+  ],
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-017-federal-removal-proceeding.json",
+  "id": "aiel-2024-017-federal-removal-proceeding",
+  "title": "Murphy v. EssilorLuxottica USA Inc. et al., No. 4:24-cv-00801",
+  "filed_date": "2024-03-04",
+  "heardBy": [
+    "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-texas.json"
+  ],
+  "jurisdiction": {
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-tx"
+    ],
+    "institutional_scope": [
+      "U.S. District Court, Southern District of Texas"
+    ]
+  },
+  "territorial_scope": [
+    "us-tx"
+  ],
+  "institutional_scope": [
+    "U.S. District Court, Southern District of Texas"
+  ],
+  "parties": [
+    "https://aiincidentlaw.org/party/aiel-2024-017-deployer.json"
+  ],
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2024-017-allegation.json"
+  ],
+  "hasDetermination": [],
+  "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+  "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
+  "evidence_type": "primary record",
+  "verified": "2026-04-22",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "ai_incident_law_record_id": "AIEL-2024-017",
+  "matter_type": "state civil lawsuit",
+  "filing_status": "pending",
+  "procedural_stage": "federal-removal"
+}

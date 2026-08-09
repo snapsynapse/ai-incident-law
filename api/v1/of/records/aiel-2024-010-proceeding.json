@@ -22,7 +22,7 @@
   "title": "Louis et al. v. SafeRent Solutions, LLC et al.",
   "filed_date": "2022-05-01",
   "heardBy": [
-    "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts-doj-hud.json"
+    "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts.json"
   ],
   "jurisdiction": {
     "@type": "of:Jurisdiction",
@@ -30,14 +30,14 @@
       "us-ma"
     ],
     "institutional_scope": [
-      "U.S. District Court, District of Massachusetts; DOJ; HUD"
+      "U.S. District Court, District of Massachusetts"
     ]
   },
   "territorial_scope": [
     "us-ma"
   ],
   "institutional_scope": [
-    "U.S. District Court, District of Massachusetts; DOJ; HUD"
+    "U.S. District Court, District of Massachusetts"
   ],
   "parties": [
     "https://aiincidentlaw.org/party/aiel-2024-010-deployer.json"

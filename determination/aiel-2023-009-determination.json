@@ -20,7 +20,7 @@
   "@id": "https://aiincidentlaw.org/determination/aiel-2023-009-determination.json",
   "id": "aiel-2023-009-determination",
   "issuedBy": [
-    "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json"
+    "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-new-york.json"
   ],
   "jurisdiction": {
     "@type": "of:Jurisdiction",
@@ -28,13 +28,14 @@
       "us-ny"
     ],
     "institutional_scope": [
-      "EEOC; U.S. District Court, Eastern District of New York"
+      "U.S. District Court, Eastern District of New York"
     ]
   },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2023-009-allegation.json"
   ],
   "disposition": "settled",
+  "issued_date": "2023-09-11",
   "remedy": {
     "status": "settled",
     "notes": "EEOC announced $365,000 settlement and remedial measures."

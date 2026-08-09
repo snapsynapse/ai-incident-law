@@ -6,13 +6,15 @@
     "parties": "parties.json",
     "proceedings": "proceedings.json",
     "allegations": "allegations.json",
-    "determinations": "determinations.json"
+    "determinations": "determinations.json",
+    "tombstones": "tombstones.json"
   },
   "counts": {
-    "authorities": 49,
+    "authorities": 50,
     "parties": 58,
-    "proceedings": 58,
+    "proceedings": 60,
     "allegations": 58,
-    "determinations": 55
+    "determinations": 53,
+    "tombstones": 8
   }
 }

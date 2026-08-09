@@ -16,31 +16,16 @@
       "reliance_or_harm": "ail:relianceOrHarm"
     }
   ],
-  "@type": "of:Authority",
+  "@type": "of:Tombstone",
   "@id": "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json",
   "id": "eeoc-u-s-district-court-eastern-district-of-new-york",
-  "organization": {
-    "@type": "gist:GovernmentOrganization",
-    "name": "EEOC; U.S. District Court, Eastern District of New York"
-  },
-  "jurisdiction": {
-    "@type": "of:Jurisdiction",
-    "territorial_scope": [
-      "us-ny"
-    ],
-    "institutional_scope": [
-      "EEOC; U.S. District Court, Eastern District of New York"
-    ]
-  },
-  "territorial_scope": [
-    "us-ny"
-  ],
-  "institutional_scope": [
-    "EEOC; U.S. District Court, Eastern District of New York"
-  ],
+  "deprecated": true,
+  "former_type": "of:Authority",
+  "notes": "Retired composite identifier that conflated the enforcing agency with the court hearing the case.",
   "source": "https://eeoc.gov/newsroom/itutorgroup-pay-365000-settle-eeoc-discriminatory-hiring-suit",
   "source_locator": "EEOC v. iTutorGroup, Inc., et al., No. 1:22-cv-02565",
   "evidence_type": "official statement",
   "verified": "2026-04-22",
-  "asserted_by_adopter": "https://aiincidentlaw.org/"
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "ai_incident_law_record_id": "AIEL-2023-009"
 }

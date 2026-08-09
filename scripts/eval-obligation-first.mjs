@@ -13,7 +13,8 @@ const companionDirs = {
   parties: "party",
   proceedings: "proceeding",
   allegations: "allegation",
-  determinations: "determination"
+  determinations: "determination",
+  tombstones: "tombstone"
 };
 const EVERYAILAW_ANCHOR_RE = /^https:\/\/everyailaw\.com\/(?:obligation|obligation-category)\/[a-z0-9-]+\.json$/;
 const EVERYAILAW_LEGACY_CATEGORY_RE = /^https:\/\/everyailaw\.com\/obligation\/(?:ai-literacy|bias-prevention|conformity-assessment|data-governance|explainability|human-oversight|incident-reporting|record-keeping|risk-assessment|transparency)\.json$/;
@@ -89,9 +90,11 @@ for (const [kind, fileName] of Object.entries(index.files || {})) {
       fail(`flat record differs from aggregate ${path.relative(root, flatFile)}`);
     }
 
-    const companionDir = companionDirs[kind];
-    const companionFile = path.join(root, companionDir, `${record.id}.json`);
-    expectedCompanionFiles.get(companionDir)?.add(`${record.id}.json`);
+    const companionUrl = new URL(record["@id"]);
+    const [companionDir, companionName] = companionUrl.pathname.split("/").filter(Boolean);
+    const companionFile = path.join(root, companionDir, companionName);
+    if (!expectedCompanionFiles.has(companionDir)) expectedCompanionFiles.set(companionDir, new Set());
+    expectedCompanionFiles.get(companionDir).add(companionName);
     if (!existsSync(companionFile)) {
       fail(`missing companion record ${path.relative(root, companionFile)}`);
     } else if (stable(await readJson(companionFile)) !== stable(record)) {
@@ -123,11 +126,25 @@ const included = source.datasets?.included?.records || [];
 const review = source.datasets?.review?.records || [];
 const global = source.datasets?.global?.records || [];
 const includedIds = new Set(included.map(record => record.error_id));
-const expectedDeterminations = included.filter(record => determinationDisposition(record.filing_status)).length;
-const expectedAuthorities = new Set(included.map(record => record.jurisdiction)).size;
+const expectedDeterminations = included.reduce((count, record) => {
+  if (Object.hasOwn(record.legal_graph || {}, "determinations")) return count + record.legal_graph.determinations.length;
+  return count + (determinationDisposition(record.filing_status) ? 1 : 0);
+}, 0);
+const expectedProceedings = included.reduce((count, record) => {
+  if (Object.hasOwn(record.legal_graph || {}, "proceedings")) return count + record.legal_graph.proceedings.length;
+  return count + 1;
+}, 0);
+const expectedAuthorityIds = new Set();
+for (const record of included) {
+  const graphAuthorities = record.legal_graph?.authorities;
+  if (Array.isArray(graphAuthorities)) for (const authority of graphAuthorities) expectedAuthorityIds.add(authority.id);
+  else expectedAuthorityIds.add(String(record.jurisdiction || "").toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""));
+}
+const expectedAuthorities = expectedAuthorityIds.size;
+const expectedTombstones = included.reduce((count, record) => count + (record.legal_graph?.retired_identifiers || []).length, 0);
 
-if ((byKind.proceedings || []).length !== included.length) {
-  fail(`proceeding count does not match included records: ${(byKind.proceedings || []).length} != ${included.length}`);
+if ((byKind.proceedings || []).length !== expectedProceedings) {
+  fail(`proceeding count does not match legal graph projections: ${(byKind.proceedings || []).length} != ${expectedProceedings}`);
 }
 if ((byKind.allegations || []).length !== included.length) {
   fail(`allegation count does not match included records: ${(byKind.allegations || []).length} != ${included.length}`);
@@ -137,6 +154,9 @@ if ((byKind.determinations || []).length !== expectedDeterminations) {
 }
 if ((byKind.authorities || []).length !== expectedAuthorities) {
   fail(`authority count does not match distinct included jurisdictions: ${(byKind.authorities || []).length} != ${expectedAuthorities}`);
+}
+if ((byKind.tombstones || []).length !== expectedTombstones) {
+  fail(`tombstone count does not match retired identifiers: ${(byKind.tombstones || []).length} != ${expectedTombstones}`);
 }
 const expectedParties = included.filter(record => record.deployer).length;
 if ((byKind.parties || []).length !== expectedParties) {
@@ -157,16 +177,30 @@ for (const record of [...review, ...global]) {
   if (id && exportedSourceIds.has(id)) fail(`editorial queue record exported to OF: ${id}`);
 }
 
-const proceedingsBySourceId = new Map((byKind.proceedings || []).map(record => [record.ai_incident_law_record_id, record]));
+const proceedingsBySourceId = new Map();
+for (const proceeding of byKind.proceedings || []) {
+  if (!proceedingsBySourceId.has(proceeding.ai_incident_law_record_id)) proceedingsBySourceId.set(proceeding.ai_incident_law_record_id, []);
+  proceedingsBySourceId.get(proceeding.ai_incident_law_record_id).push(proceeding);
+}
 const allegationsBySourceId = new Map((byKind.allegations || []).map(record => [record.ai_incident_law_record_id, record]));
-const determinationsBySourceId = new Map((byKind.determinations || []).map(record => [record.ai_incident_law_record_id, record]));
+const determinationsBySourceId = new Map();
+for (const determination of byKind.determinations || []) {
+  if (!determinationsBySourceId.has(determination.ai_incident_law_record_id)) determinationsBySourceId.set(determination.ai_incident_law_record_id, []);
+  determinationsBySourceId.get(determination.ai_incident_law_record_id).push(determination);
+}
 
 for (const record of included) {
   const stem = recordStem(record);
-  const proceeding = proceedingsBySourceId.get(record.error_id);
+  const sourceProceedings = proceedingsBySourceId.get(record.error_id) || [];
+  const proceeding = sourceProceedings.find(item => item.id === `${stem}-proceeding`) || sourceProceedings[0];
   const allegation = allegationsBySourceId.get(record.error_id);
-  const determination = determinationsBySourceId.get(record.error_id);
-  const disposition = determinationDisposition(record.filing_status);
+  const sourceDeterminations = determinationsBySourceId.get(record.error_id) || [];
+  const determination = sourceDeterminations.find(item => item.id === `${stem}-determination`) || sourceDeterminations[0];
+  const projectedDeterminations = Object.hasOwn(record.legal_graph || {}, "determinations")
+    ? record.legal_graph.determinations
+    : determinationDisposition(record.filing_status)
+      ? [{ id: `${stem}-determination`, disposition: determinationDisposition(record.filing_status) }]
+      : [];
 
   if (!proceeding) fail(`${record.error_id} missing proceeding`);
   if (!allegation) fail(`${record.error_id} missing allegation`);
@@ -180,11 +214,11 @@ for (const record of included) {
     fail(`${record.error_id} allegation missing deployer Party relation`);
   }
 
-  if (!disposition && determination) {
+  if (projectedDeterminations.length === 0 && determination) {
     fail(`${record.error_id} has determination despite unresolved status ${record.filing_status}`);
   }
   const expectedAnchors = stringArray(record.obligation_first_anchors);
-  if (!disposition && expectedAnchors.length > 0) {
+  if (projectedDeterminations.length === 0 && expectedAnchors.length > 0) {
     fail(`${record.error_id} has obligation_first_anchors but no generated Determination`);
   }
   for (const anchor of expectedAnchors) {
@@ -198,11 +232,12 @@ for (const record of included) {
   if (new Set(expectedAnchors).size !== expectedAnchors.length) {
     fail(`${record.error_id} has duplicate obligation_first_anchors`);
   }
-  if (disposition && !determination) {
+  if (projectedDeterminations.length > 0 && !determination) {
     fail(`${record.error_id} missing determination for status ${record.filing_status}`);
   }
-  if (determination && determination.disposition !== disposition) {
-    fail(`${record.error_id} disposition ${determination.disposition} does not match status ${record.filing_status}`);
+  const projectedPrimary = projectedDeterminations.find(item => item.id === `${stem}-determination`) || projectedDeterminations[0];
+  if (determination && determination.disposition !== projectedPrimary.disposition) {
+    fail(`${record.error_id} disposition ${determination.disposition} does not match legal graph projection ${projectedPrimary.disposition}`);
   }
   if (determination && determination.id !== `${stem}-determination`) {
     fail(`${record.error_id} determination id drifted`);
@@ -213,6 +248,27 @@ for (const record of included) {
       fail(`${record.error_id} determination anchors do not match source obligation_first_anchors`);
     }
   }
+}
+
+for (const record of included.filter(record => ["filed", "pending"].includes(String(record.filing_status).toLowerCase()))) {
+  if ((determinationsBySourceId.get(record.error_id) || []).length > 0) {
+    fail(`${record.error_id} is ${record.filing_status} but has an adjudicative Determination`);
+  }
+}
+
+for (const authority of byKind.authorities || []) {
+  if (String(authority.organization?.name || "").includes(";")) fail(`${authority.id} is a composite Authority`);
+}
+for (const record of [...(byKind.proceedings || []), ...(byKind.determinations || [])]) {
+  const scopes = [...(record.institutional_scope || []), ...(record.jurisdiction?.institutional_scope || [])];
+  if (scopes.some(scope => String(scope).includes(";"))) fail(`${record.id} carries a composite institutional scope`);
+}
+
+for (const retired of included.flatMap(record => record.legal_graph?.retired_identifiers || [])) {
+  const iri = `https://aiincidentlaw.org/${retired.kind}/${retired.id}.json`;
+  const tombstone = recordsById.get(iri);
+  if (!tombstone || tombstone["@type"] !== "of:Tombstone") fail(`${iri} is not preserved as a Tombstone`);
+  if (tombstone && tombstone.former_type !== retired.former_type) fail(`${iri} Tombstone former_type drifted`);
 }
 
 for (const proceeding of byKind.proceedings || []) {
@@ -235,9 +291,9 @@ for (const proceeding of byKind.proceedings || []) {
   }
 }
 
-const pendingProceedings = (byKind.proceedings || []).filter(record => record.filing_status === "pending");
+const pendingProceedings = (byKind.proceedings || []).filter(record => ["filed", "pending"].includes(String(record.filing_status).toLowerCase()));
 for (const proceeding of pendingProceedings) {
-  if ((proceeding.hasDetermination || []).length) fail(`${proceeding.id} is pending but has determinations`);
+  if ((proceeding.hasDetermination || []).length) fail(`${proceeding.id} is unresolved but has determinations`);
 }
 
 if (failures.length) {

@@ -365,11 +365,11 @@
         }
       ],
       "@type": "of:Authority",
-      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida-florida-supreme-court.json",
-      "id": "u-s-district-court-middle-district-of-florida-florida-supreme-court",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json",
+      "id": "u-s-district-court-middle-district-of-florida",
       "organization": {
         "@type": "gist:GovernmentOrganization",
-        "name": "U.S. District Court, Middle District of Florida; Florida Supreme Court"
+        "name": "U.S. District Court, Middle District of Florida"
       },
       "jurisdiction": {
         "@type": "of:Jurisdiction",
@@ -377,14 +377,17 @@
           "us-fl"
         ],
         "institutional_scope": [
-          "U.S. District Court, Middle District of Florida; Florida Supreme Court"
+          "U.S. District Court, Middle District of Florida"
         ]
       },
       "territorial_scope": [
         "us-fl"
       ],
       "institutional_scope": [
-        "U.S. District Court, Middle District of Florida; Florida Supreme Court"
+        "U.S. District Court, Middle District of Florida"
+      ],
+      "sameAs": [
+        "https://wikidata.org/entity/Q1384933"
       ],
       "source": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
       "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
@@ -411,11 +414,11 @@
         }
       ],
       "@type": "of:Authority",
-      "@id": "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json",
-      "id": "eeoc-u-s-district-court-eastern-district-of-new-york",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-new-york.json",
+      "id": "u-s-district-court-eastern-district-of-new-york",
       "organization": {
         "@type": "gist:GovernmentOrganization",
-        "name": "EEOC; U.S. District Court, Eastern District of New York"
+        "name": "U.S. District Court, Eastern District of New York"
       },
       "jurisdiction": {
         "@type": "of:Jurisdiction",
@@ -423,14 +426,14 @@
           "us-ny"
         ],
         "institutional_scope": [
-          "EEOC; U.S. District Court, Eastern District of New York"
+          "U.S. District Court, Eastern District of New York"
         ]
       },
       "territorial_scope": [
         "us-ny"
       ],
       "institutional_scope": [
-        "EEOC; U.S. District Court, Eastern District of New York"
+        "U.S. District Court, Eastern District of New York"
       ],
       "source": "https://eeoc.gov/newsroom/itutorgroup-pay-365000-settle-eeoc-discriminatory-hiring-suit",
       "source_locator": "EEOC v. iTutorGroup, Inc., et al., No. 1:22-cv-02565",
@@ -457,11 +460,11 @@
         }
       ],
       "@type": "of:Authority",
-      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts-doj-hud.json",
-      "id": "u-s-district-court-district-of-massachusetts-doj-hud",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts.json",
+      "id": "u-s-district-court-district-of-massachusetts",
       "organization": {
         "@type": "gist:GovernmentOrganization",
-        "name": "U.S. District Court, District of Massachusetts; DOJ; HUD"
+        "name": "U.S. District Court, District of Massachusetts"
       },
       "jurisdiction": {
         "@type": "of:Jurisdiction",
@@ -469,14 +472,14 @@
           "us-ma"
         ],
         "institutional_scope": [
-          "U.S. District Court, District of Massachusetts; DOJ; HUD"
+          "U.S. District Court, District of Massachusetts"
         ]
       },
       "territorial_scope": [
         "us-ma"
       ],
       "institutional_scope": [
-        "U.S. District Court, District of Massachusetts; DOJ; HUD"
+        "U.S. District Court, District of Massachusetts"
       ],
       "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
       "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al.",
@@ -503,11 +506,11 @@
         }
       ],
       "@type": "of:Authority",
-      "@id": "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json",
-      "id": "michigan-court-of-claims-michigan-supreme-court",
+      "@id": "https://aiincidentlaw.org/authority/michigan-court-of-claims.json",
+      "id": "michigan-court-of-claims",
       "organization": {
         "@type": "gist:GovernmentOrganization",
-        "name": "Michigan Court of Claims; Michigan Supreme Court"
+        "name": "Michigan Court of Claims"
       },
       "jurisdiction": {
         "@type": "of:Jurisdiction",
@@ -515,14 +518,14 @@
           "us-mi"
         ],
         "institutional_scope": [
-          "Michigan Court of Claims; Michigan Supreme Court"
+          "Michigan Court of Claims"
         ]
       },
       "territorial_scope": [
         "us-mi"
       ],
       "institutional_scope": [
-        "Michigan Court of Claims; Michigan Supreme Court"
+        "Michigan Court of Claims"
       ],
       "source": "https://michigan.gov/ag/news/press-releases/2022/10/20/som-settlement-of-civil-rights-class-action-alleging-false-accusations-of-unemployment-fraud",
       "source_locator": "Bauserman v. Unemployment Insurance Agency",
@@ -549,11 +552,57 @@
         }
       ],
       "@type": "of:Authority",
-      "@id": "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json",
-      "id": "arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit",
+      "@id": "https://aiincidentlaw.org/authority/michigan-supreme-court.json",
+      "id": "michigan-supreme-court",
       "organization": {
         "@type": "gist:GovernmentOrganization",
-        "name": "Arkansas Supreme Court; U.S. District Court, Eastern District of Arkansas; Eighth Circuit"
+        "name": "Michigan Supreme Court"
+      },
+      "jurisdiction": {
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-mi"
+        ],
+        "institutional_scope": [
+          "Michigan Supreme Court"
+        ]
+      },
+      "territorial_scope": [
+        "us-mi"
+      ],
+      "institutional_scope": [
+        "Michigan Supreme Court"
+      ],
+      "source": "https://michigan.gov/ag/news/press-releases/2022/10/20/som-settlement-of-civil-rights-class-action-alleging-false-accusations-of-unemployment-fraud",
+      "source_locator": "Bauserman v. Unemployment Insurance Agency",
+      "evidence_type": "official statement",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/arkansas-supreme-court.json",
+      "id": "arkansas-supreme-court",
+      "organization": {
+        "@type": "gist:GovernmentOrganization",
+        "name": "Arkansas Supreme Court"
       },
       "jurisdiction": {
         "@type": "of:Jurisdiction",
@@ -561,14 +610,14 @@
           "us-ar"
         ],
         "institutional_scope": [
-          "Arkansas Supreme Court; U.S. District Court, Eastern District of Arkansas; Eighth Circuit"
+          "Arkansas Supreme Court"
         ]
       },
       "territorial_scope": [
         "us-ar"
       ],
       "institutional_scope": [
-        "Arkansas Supreme Court; U.S. District Court, Eastern District of Arkansas; Eighth Circuit"
+        "Arkansas Supreme Court"
       ],
       "source": "https://law.justia.com/cases/arkansas/supreme-court/2017/cv-17-183.html",
       "source_locator": "Ledgerwood v. Arkansas Department of Human Services / related federal litigation",
@@ -742,11 +791,11 @@
         }
       ],
       "@type": "of:Authority",
-      "@id": "https://aiincidentlaw.org/authority/harris-county-texas-state-court-remanded-from-s-d-tex.json",
-      "id": "harris-county-texas-state-court-remanded-from-s-d-tex",
+      "@id": "https://aiincidentlaw.org/authority/harris-county-125th-judicial-district-court.json",
+      "id": "harris-county-125th-judicial-district-court",
       "organization": {
         "@type": "gist:GovernmentOrganization",
-        "name": "Harris County, Texas state court; remanded from S.D. Tex."
+        "name": "Harris County 125th Judicial District Court"
       },
       "jurisdiction": {
         "@type": "of:Jurisdiction",
@@ -754,14 +803,60 @@
           "us-tx"
         ],
         "institutional_scope": [
-          "Harris County, Texas state court; remanded from S.D. Tex."
+          "Harris County 125th Judicial District Court"
         ]
       },
       "territorial_scope": [
         "us-tx"
       ],
       "institutional_scope": [
-        "Harris County, Texas state court; remanded from S.D. Tex."
+        "Harris County 125th Judicial District Court"
+      ],
+      "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+      "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-texas.json",
+      "id": "u-s-district-court-southern-district-of-texas",
+      "organization": {
+        "@type": "gist:GovernmentOrganization",
+        "name": "U.S. District Court, Southern District of Texas"
+      },
+      "jurisdiction": {
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-tx"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Southern District of Texas"
+        ]
+      },
+      "territorial_scope": [
+        "us-tx"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, Southern District of Texas"
       ],
       "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
       "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
@@ -1797,55 +1892,6 @@
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "sameAs": [
         "https://wikidata.org/entity/Q2276925"
-      ]
-    },
-    {
-      "@context": [
-        "https://obligationfirst.org/v1/context.jsonld",
-        {
-          "ail": "https://aiincidentlaw.org/vocab/",
-          "id": "ail:id",
-          "ai_incident_law_record_id": "ail:recordId",
-          "matter_type": "ail:matterType",
-          "filing_status": "ail:filingStatus",
-          "ai_system_name": "ail:aiSystemName",
-          "deployer": "ail:deployer",
-          "domain": "ail:domain",
-          "error_type": "ail:errorType",
-          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
-          "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
-        }
-      ],
-      "@type": "of:Authority",
-      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json",
-      "id": "u-s-district-court-middle-district-of-florida",
-      "organization": {
-        "@type": "gist:GovernmentOrganization",
-        "name": "U.S. District Court, Middle District of Florida"
-      },
-      "jurisdiction": {
-        "@type": "of:Jurisdiction",
-        "territorial_scope": [
-          "us-fl"
-        ],
-        "institutional_scope": [
-          "U.S. District Court, Middle District of Florida"
-        ]
-      },
-      "territorial_scope": [
-        "us-fl"
-      ],
-      "institutional_scope": [
-        "U.S. District Court, Middle District of Florida"
-      ],
-      "source": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
-      "source_locator": "Hodges v. Meridian Waste Acquisitions USA, No. 3:25-cv-62; Rieske v. AFS, No. 5:25-cv-45 (M.D. Fla.)",
-      "evidence_type": "primary record",
-      "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "sameAs": [
-        "https://wikidata.org/entity/Q1384933"
       ]
     },
     {

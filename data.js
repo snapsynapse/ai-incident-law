@@ -247,7 +247,67 @@ window.AIEL_DATA = {
           "needs_review": "no",
           "obligation_first_anchors": [
             "https://everyailaw.com/obligation-category/human-oversight.json"
-          ]
+          ],
+          "legal_graph": {
+            "authorities": [
+              {
+                "id": "u-s-district-court-middle-district-of-florida",
+                "name": "U.S. District Court, Middle District of Florida",
+                "territorial_scope": [
+                  "us-fl"
+                ],
+                "same_as": [
+                  "https://wikidata.org/entity/Q1384933"
+                ]
+              },
+              {
+                "id": "florida-supreme-court",
+                "name": "Florida Supreme Court",
+                "territorial_scope": [
+                  "us-fl"
+                ]
+              }
+            ],
+            "proceedings": [
+              {
+                "id": "aiel-2024-008-proceeding",
+                "heard_by": [
+                  "u-s-district-court-middle-district-of-florida"
+                ],
+                "determination_ids": [
+                  "aiel-2024-008-determination"
+                ],
+                "procedural_stage": "federal-discipline"
+              },
+              {
+                "id": "aiel-2024-008-florida-discipline-proceeding",
+                "title": "The Florida Bar v. Thomas Grant Neusom",
+                "heard_by": [
+                  "florida-supreme-court"
+                ],
+                "determination_ids": [],
+                "procedural_stage": "state-discipline"
+              }
+            ],
+            "determinations": [
+              {
+                "id": "aiel-2024-008-determination",
+                "issued_by": [
+                  "u-s-district-court-middle-district-of-florida"
+                ],
+                "issued_date": "2024-03-08",
+                "disposition": "confirmed"
+              }
+            ],
+            "retired_identifiers": [
+              {
+                "kind": "authority",
+                "id": "u-s-district-court-middle-district-of-florida-florida-supreme-court",
+                "former_type": "of:Authority",
+                "reason": "Retired composite identifier that conflated separate federal and state courts."
+              }
+            ]
+          }
         },
         {
           "error_id": "AIEL-2023-009",
@@ -277,7 +337,47 @@ window.AIEL_DATA = {
           "source_quality": "official statement",
           "research_status": "included",
           "last_verified_date": "2026-04-22",
-          "needs_review": "no"
+          "needs_review": "no",
+          "legal_graph": {
+            "authorities": [
+              {
+                "id": "u-s-district-court-eastern-district-of-new-york",
+                "name": "U.S. District Court, Eastern District of New York",
+                "territorial_scope": [
+                  "us-ny"
+                ]
+              }
+            ],
+            "proceedings": [
+              {
+                "id": "aiel-2023-009-proceeding",
+                "heard_by": [
+                  "u-s-district-court-eastern-district-of-new-york"
+                ],
+                "determination_ids": [
+                  "aiel-2023-009-determination"
+                ]
+              }
+            ],
+            "determinations": [
+              {
+                "id": "aiel-2023-009-determination",
+                "issued_by": [
+                  "u-s-district-court-eastern-district-of-new-york"
+                ],
+                "issued_date": "2023-09-11",
+                "disposition": "settled"
+              }
+            ],
+            "retired_identifiers": [
+              {
+                "kind": "authority",
+                "id": "eeoc-u-s-district-court-eastern-district-of-new-york",
+                "former_type": "of:Authority",
+                "reason": "Retired composite identifier that conflated the enforcing agency with the court hearing the case."
+              }
+            ]
+          }
         },
         {
           "error_id": "AIEL-2024-010",
@@ -307,7 +407,46 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-04-22",
-          "needs_review": "no"
+          "needs_review": "no",
+          "legal_graph": {
+            "authorities": [
+              {
+                "id": "u-s-district-court-district-of-massachusetts",
+                "name": "U.S. District Court, District of Massachusetts",
+                "territorial_scope": [
+                  "us-ma"
+                ]
+              }
+            ],
+            "proceedings": [
+              {
+                "id": "aiel-2024-010-proceeding",
+                "heard_by": [
+                  "u-s-district-court-district-of-massachusetts"
+                ],
+                "determination_ids": [
+                  "aiel-2024-010-determination"
+                ]
+              }
+            ],
+            "determinations": [
+              {
+                "id": "aiel-2024-010-determination",
+                "issued_by": [
+                  "u-s-district-court-district-of-massachusetts"
+                ],
+                "disposition": "settled"
+              }
+            ],
+            "retired_identifiers": [
+              {
+                "kind": "authority",
+                "id": "u-s-district-court-district-of-massachusetts-doj-hud",
+                "former_type": "of:Authority",
+                "reason": "Retired composite identifier that conflated the court with participating federal agencies."
+              }
+            ]
+          }
         },
         {
           "error_id": "AIEL-2022-011",
@@ -339,7 +478,65 @@ window.AIEL_DATA = {
             "https://everyailaw.com/obligation-category/human-oversight.json",
             "https://everyailaw.com/obligation-category/explainability.json",
             "https://everyailaw.com/obligation-category/bias-prevention.json"
-          ]
+          ],
+          "legal_graph": {
+            "authorities": [
+              {
+                "id": "michigan-court-of-claims",
+                "name": "Michigan Court of Claims",
+                "territorial_scope": [
+                  "us-mi"
+                ]
+              },
+              {
+                "id": "michigan-supreme-court",
+                "name": "Michigan Supreme Court",
+                "territorial_scope": [
+                  "us-mi"
+                ]
+              }
+            ],
+            "proceedings": [
+              {
+                "id": "aiel-2022-011-court-of-claims-proceeding",
+                "title": "Bauserman v. Unemployment Insurance Agency, Court of Claims No. 15-202-MM",
+                "filed_date": "2015-09-09",
+                "heard_by": [
+                  "michigan-court-of-claims"
+                ],
+                "determination_ids": [],
+                "procedural_stage": "trial"
+              },
+              {
+                "id": "aiel-2022-011-proceeding",
+                "heard_by": [
+                  "michigan-supreme-court"
+                ],
+                "determination_ids": [
+                  "aiel-2022-011-determination"
+                ],
+                "procedural_stage": "appeal"
+              }
+            ],
+            "determinations": [
+              {
+                "id": "aiel-2022-011-determination",
+                "issued_by": [
+                  "michigan-supreme-court"
+                ],
+                "issued_date": "2022-07-26",
+                "disposition": "partial"
+              }
+            ],
+            "retired_identifiers": [
+              {
+                "kind": "authority",
+                "id": "michigan-court-of-claims-michigan-supreme-court",
+                "former_type": "of:Authority",
+                "reason": "Retired composite identifier that conflated trial and appellate courts."
+              }
+            ]
+          }
         },
         {
           "error_id": "AIEL-2017-012",
@@ -370,7 +567,47 @@ window.AIEL_DATA = {
           "obligation_first_anchors": [
             "https://everyailaw.com/obligation-category/human-oversight.json",
             "https://everyailaw.com/obligation-category/explainability.json"
-          ]
+          ],
+          "legal_graph": {
+            "authorities": [
+              {
+                "id": "arkansas-supreme-court",
+                "name": "Arkansas Supreme Court",
+                "territorial_scope": [
+                  "us-ar"
+                ]
+              }
+            ],
+            "proceedings": [
+              {
+                "id": "aiel-2017-012-proceeding",
+                "heard_by": [
+                  "arkansas-supreme-court"
+                ],
+                "determination_ids": [
+                  "aiel-2017-012-determination"
+                ],
+                "procedural_stage": "state-appeal"
+              }
+            ],
+            "determinations": [
+              {
+                "id": "aiel-2017-012-determination",
+                "issued_by": [
+                  "arkansas-supreme-court"
+                ],
+                "disposition": "confirmed"
+              }
+            ],
+            "retired_identifiers": [
+              {
+                "kind": "authority",
+                "id": "arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit",
+                "former_type": "of:Authority",
+                "reason": "Retired composite identifier that conflated state and federal procedural stages."
+              }
+            ]
+          }
         },
         {
           "error_id": "AIEL-2023-013",
@@ -516,7 +753,54 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-04-22",
-          "needs_review": "yes"
+          "needs_review": "yes",
+          "legal_graph": {
+            "authorities": [
+              {
+                "id": "harris-county-125th-judicial-district-court",
+                "name": "Harris County 125th Judicial District Court",
+                "territorial_scope": [
+                  "us-tx"
+                ]
+              },
+              {
+                "id": "u-s-district-court-southern-district-of-texas",
+                "name": "U.S. District Court, Southern District of Texas",
+                "territorial_scope": [
+                  "us-tx"
+                ]
+              }
+            ],
+            "proceedings": [
+              {
+                "id": "aiel-2024-017-proceeding",
+                "heard_by": [
+                  "harris-county-125th-judicial-district-court"
+                ],
+                "determination_ids": [],
+                "procedural_stage": "state-trial"
+              },
+              {
+                "id": "aiel-2024-017-federal-removal-proceeding",
+                "title": "Murphy v. EssilorLuxottica USA Inc. et al., No. 4:24-cv-00801",
+                "filed_date": "2024-03-04",
+                "heard_by": [
+                  "u-s-district-court-southern-district-of-texas"
+                ],
+                "determination_ids": [],
+                "procedural_stage": "federal-removal"
+              }
+            ],
+            "determinations": [],
+            "retired_identifiers": [
+              {
+                "kind": "authority",
+                "id": "harris-county-texas-state-court-remanded-from-s-d-tex",
+                "former_type": "of:Authority",
+                "reason": "Retired composite identifier that conflated the state proceeding with the federal removal stage."
+              }
+            ]
+          }
         },
         {
           "error_id": "AIEL-2025-018",
@@ -571,9 +855,17 @@ window.AIEL_DATA = {
           "research_status": "included",
           "last_verified_date": "2026-06-01",
           "needs_review": "yes",
-          "obligation_first_anchors": [
-            "https://everyailaw.com/obligation-category/bias-prevention.json"
-          ]
+          "legal_graph": {
+            "determinations": [],
+            "retired_identifiers": [
+              {
+                "kind": "determination",
+                "id": "aiel-2026-019-determination",
+                "former_type": "of:Determination",
+                "reason": "Retired because a filed complaint is an unresolved allegation, not an adjudicative Determination."
+              }
+            ]
+          }
         },
         {
           "error_id": "AIEL-2026-020",
@@ -600,7 +892,18 @@ window.AIEL_DATA = {
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-06-01",
-          "needs_review": "yes"
+          "needs_review": "yes",
+          "legal_graph": {
+            "determinations": [],
+            "retired_identifiers": [
+              {
+                "kind": "determination",
+                "id": "aiel-2026-020-determination",
+                "former_type": "of:Determination",
+                "reason": "Retired because a filed complaint is an unresolved allegation, not an adjudicative Determination."
+              }
+            ]
+          }
         },
         {
           "error_id": "AIEL-2026-021",

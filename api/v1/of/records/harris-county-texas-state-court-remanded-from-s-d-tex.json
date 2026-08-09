@@ -16,31 +16,16 @@
       "reliance_or_harm": "ail:relianceOrHarm"
     }
   ],
-  "@type": "of:Authority",
+  "@type": "of:Tombstone",
   "@id": "https://aiincidentlaw.org/authority/harris-county-texas-state-court-remanded-from-s-d-tex.json",
   "id": "harris-county-texas-state-court-remanded-from-s-d-tex",
-  "organization": {
-    "@type": "gist:GovernmentOrganization",
-    "name": "Harris County, Texas state court; remanded from S.D. Tex."
-  },
-  "jurisdiction": {
-    "@type": "of:Jurisdiction",
-    "territorial_scope": [
-      "us-tx"
-    ],
-    "institutional_scope": [
-      "Harris County, Texas state court; remanded from S.D. Tex."
-    ]
-  },
-  "territorial_scope": [
-    "us-tx"
-  ],
-  "institutional_scope": [
-    "Harris County, Texas state court; remanded from S.D. Tex."
-  ],
+  "deprecated": true,
+  "former_type": "of:Authority",
+  "notes": "Retired composite identifier that conflated the state proceeding with the federal removal stage.",
   "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
   "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
   "evidence_type": "primary record",
   "verified": "2026-04-22",
-  "asserted_by_adopter": "https://aiincidentlaw.org/"
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "ai_incident_law_record_id": "AIEL-2024-017"
 }

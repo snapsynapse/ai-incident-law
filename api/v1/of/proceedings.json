@@ -435,7 +435,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "procedural_stage": "ail:proceduralStage"
         }
       ],
       "@type": "of:Proceeding",
@@ -444,7 +445,7 @@
       "title": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
       "filed_date": "2024-03-08",
       "heardBy": [
-        "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida-florida-supreme-court.json"
+        "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json"
       ],
       "jurisdiction": {
         "@type": "of:Jurisdiction",
@@ -452,14 +453,14 @@
           "us-fl"
         ],
         "institutional_scope": [
-          "U.S. District Court, Middle District of Florida; Florida Supreme Court"
+          "U.S. District Court, Middle District of Florida"
         ]
       },
       "territorial_scope": [
         "us-fl"
       ],
       "institutional_scope": [
-        "U.S. District Court, Middle District of Florida; Florida Supreme Court"
+        "U.S. District Court, Middle District of Florida"
       ],
       "parties": [
         "https://aiincidentlaw.org/party/aiel-2024-008-deployer.json"
@@ -477,7 +478,8 @@
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2024-008",
       "matter_type": "disciplinary matter",
-      "filing_status": "resolved"
+      "filing_status": "resolved",
+      "procedural_stage": "federal-discipline"
     },
     {
       "@context": [
@@ -503,7 +505,7 @@
       "title": "EEOC v. iTutorGroup, Inc., et al., No. 1:22-cv-02565",
       "filed_date": "2022-05-05",
       "heardBy": [
-        "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json"
+        "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-new-york.json"
       ],
       "jurisdiction": {
         "@type": "of:Jurisdiction",
@@ -511,14 +513,14 @@
           "us-ny"
         ],
         "institutional_scope": [
-          "EEOC; U.S. District Court, Eastern District of New York"
+          "U.S. District Court, Eastern District of New York"
         ]
       },
       "territorial_scope": [
         "us-ny"
       ],
       "institutional_scope": [
-        "EEOC; U.S. District Court, Eastern District of New York"
+        "U.S. District Court, Eastern District of New York"
       ],
       "parties": [
         "https://aiincidentlaw.org/party/aiel-2023-009-deployer.json"
@@ -562,7 +564,7 @@
       "title": "Louis et al. v. SafeRent Solutions, LLC et al.",
       "filed_date": "2022-05-01",
       "heardBy": [
-        "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts-doj-hud.json"
+        "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts.json"
       ],
       "jurisdiction": {
         "@type": "of:Jurisdiction",
@@ -570,14 +572,14 @@
           "us-ma"
         ],
         "institutional_scope": [
-          "U.S. District Court, District of Massachusetts; DOJ; HUD"
+          "U.S. District Court, District of Massachusetts"
         ]
       },
       "territorial_scope": [
         "us-ma"
       ],
       "institutional_scope": [
-        "U.S. District Court, District of Massachusetts; DOJ; HUD"
+        "U.S. District Court, District of Massachusetts"
       ],
       "parties": [
         "https://aiincidentlaw.org/party/aiel-2024-010-deployer.json"
@@ -612,7 +614,67 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "procedural_stage": "ail:proceduralStage"
+        }
+      ],
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2022-011-court-of-claims-proceeding.json",
+      "id": "aiel-2022-011-court-of-claims-proceeding",
+      "title": "Bauserman v. Unemployment Insurance Agency, Court of Claims No. 15-202-MM",
+      "filed_date": "2015-09-09",
+      "heardBy": [
+        "https://aiincidentlaw.org/authority/michigan-court-of-claims.json"
+      ],
+      "jurisdiction": {
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-mi"
+        ],
+        "institutional_scope": [
+          "Michigan Court of Claims"
+        ]
+      },
+      "territorial_scope": [
+        "us-mi"
+      ],
+      "institutional_scope": [
+        "Michigan Court of Claims"
+      ],
+      "parties": [
+        "https://aiincidentlaw.org/party/aiel-2022-011-deployer.json"
+      ],
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2022-011-allegation.json"
+      ],
+      "hasDetermination": [],
+      "source": "https://michigan.gov/ag/news/press-releases/2022/10/20/som-settlement-of-civil-rights-class-action-alleging-false-accusations-of-unemployment-fraud",
+      "source_locator": "Bauserman v. Unemployment Insurance Agency",
+      "evidence_type": "official statement",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "ai_incident_law_record_id": "AIEL-2022-011",
+      "matter_type": "class action / state constitutional tort",
+      "filing_status": "settled",
+      "procedural_stage": "trial"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "procedural_stage": "ail:proceduralStage"
         }
       ],
       "@type": "of:Proceeding",
@@ -621,7 +683,7 @@
       "title": "Bauserman v. Unemployment Insurance Agency",
       "filed_date": "2015-01-01",
       "heardBy": [
-        "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json"
+        "https://aiincidentlaw.org/authority/michigan-supreme-court.json"
       ],
       "jurisdiction": {
         "@type": "of:Jurisdiction",
@@ -629,14 +691,14 @@
           "us-mi"
         ],
         "institutional_scope": [
-          "Michigan Court of Claims; Michigan Supreme Court"
+          "Michigan Supreme Court"
         ]
       },
       "territorial_scope": [
         "us-mi"
       ],
       "institutional_scope": [
-        "Michigan Court of Claims; Michigan Supreme Court"
+        "Michigan Supreme Court"
       ],
       "parties": [
         "https://aiincidentlaw.org/party/aiel-2022-011-deployer.json"
@@ -654,7 +716,8 @@
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2022-011",
       "matter_type": "class action / state constitutional tort",
-      "filing_status": "settled"
+      "filing_status": "settled",
+      "procedural_stage": "appeal"
     },
     {
       "@context": [
@@ -671,7 +734,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "procedural_stage": "ail:proceduralStage"
         }
       ],
       "@type": "of:Proceeding",
@@ -680,7 +744,7 @@
       "title": "Ledgerwood v. Arkansas Department of Human Services / related federal litigation",
       "filed_date": "2017-01-27",
       "heardBy": [
-        "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json"
+        "https://aiincidentlaw.org/authority/arkansas-supreme-court.json"
       ],
       "jurisdiction": {
         "@type": "of:Jurisdiction",
@@ -688,14 +752,14 @@
           "us-ar"
         ],
         "institutional_scope": [
-          "Arkansas Supreme Court; U.S. District Court, Eastern District of Arkansas; Eighth Circuit"
+          "Arkansas Supreme Court"
         ]
       },
       "territorial_scope": [
         "us-ar"
       ],
       "institutional_scope": [
-        "Arkansas Supreme Court; U.S. District Court, Eastern District of Arkansas; Eighth Circuit"
+        "Arkansas Supreme Court"
       ],
       "parties": [
         "https://aiincidentlaw.org/party/aiel-2017-012-deployer.json"
@@ -713,7 +777,8 @@
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2017-012",
       "matter_type": "state APA / civil rights litigation",
-      "filing_status": "resolved"
+      "filing_status": "resolved",
+      "procedural_stage": "state-appeal"
     },
     {
       "@context": [
@@ -964,7 +1029,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "procedural_stage": "ail:proceduralStage"
         }
       ],
       "@type": "of:Proceeding",
@@ -973,7 +1039,7 @@
       "title": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
       "filed_date": "2024-01-18",
       "heardBy": [
-        "https://aiincidentlaw.org/authority/harris-county-texas-state-court-remanded-from-s-d-tex.json"
+        "https://aiincidentlaw.org/authority/harris-county-125th-judicial-district-court.json"
       ],
       "jurisdiction": {
         "@type": "of:Jurisdiction",
@@ -981,14 +1047,14 @@
           "us-tx"
         ],
         "institutional_scope": [
-          "Harris County, Texas state court; remanded from S.D. Tex."
+          "Harris County 125th Judicial District Court"
         ]
       },
       "territorial_scope": [
         "us-tx"
       ],
       "institutional_scope": [
-        "Harris County, Texas state court; remanded from S.D. Tex."
+        "Harris County 125th Judicial District Court"
       ],
       "parties": [
         "https://aiincidentlaw.org/party/aiel-2024-017-deployer.json"
@@ -1004,7 +1070,67 @@
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2024-017",
       "matter_type": "state civil lawsuit",
-      "filing_status": "pending"
+      "filing_status": "pending",
+      "procedural_stage": "state-trial"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "procedural_stage": "ail:proceduralStage"
+        }
+      ],
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-017-federal-removal-proceeding.json",
+      "id": "aiel-2024-017-federal-removal-proceeding",
+      "title": "Murphy v. EssilorLuxottica USA Inc. et al., No. 4:24-cv-00801",
+      "filed_date": "2024-03-04",
+      "heardBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-texas.json"
+      ],
+      "jurisdiction": {
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-tx"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Southern District of Texas"
+        ]
+      },
+      "territorial_scope": [
+        "us-tx"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, Southern District of Texas"
+      ],
+      "parties": [
+        "https://aiincidentlaw.org/party/aiel-2024-017-deployer.json"
+      ],
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2024-017-allegation.json"
+      ],
+      "hasDetermination": [],
+      "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+      "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "ai_incident_law_record_id": "AIEL-2024-017",
+      "matter_type": "state civil lawsuit",
+      "filing_status": "pending",
+      "procedural_stage": "federal-removal"
     },
     {
       "@context": [
@@ -1110,9 +1236,7 @@
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-019-allegation.json"
       ],
-      "hasDetermination": [
-        "https://aiincidentlaw.org/determination/aiel-2026-019-determination.json"
-      ],
+      "hasDetermination": [],
       "source": "https://courtlistener.com/docket/73387361/swanson-v-international-business-machines-corporation/",
       "source_locator": "Swanson v. International Business Machines Corporation, No. 1:26-cv-01382",
       "evidence_type": "primary record",
@@ -1169,9 +1293,7 @@
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2026-020-allegation.json"
       ],
-      "hasDetermination": [
-        "https://aiincidentlaw.org/determination/aiel-2026-020-determination.json"
-      ],
+      "hasDetermination": [],
       "source": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
       "source_locator": "Cable News Network, Inc. v. Perplexity AI, Inc., No. 1:26-cv-04427",
       "evidence_type": "primary record",

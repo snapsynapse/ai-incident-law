@@ -13,7 +13,8 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "procedural_stage": "ail:proceduralStage"
     }
   ],
   "@type": "of:Proceeding",
@@ -22,7 +23,7 @@
   "title": "Ledgerwood v. Arkansas Department of Human Services / related federal litigation",
   "filed_date": "2017-01-27",
   "heardBy": [
-    "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json"
+    "https://aiincidentlaw.org/authority/arkansas-supreme-court.json"
   ],
   "jurisdiction": {
     "@type": "of:Jurisdiction",
@@ -30,14 +31,14 @@
       "us-ar"
     ],
     "institutional_scope": [
-      "Arkansas Supreme Court; U.S. District Court, Eastern District of Arkansas; Eighth Circuit"
+      "Arkansas Supreme Court"
     ]
   },
   "territorial_scope": [
     "us-ar"
   ],
   "institutional_scope": [
-    "Arkansas Supreme Court; U.S. District Court, Eastern District of Arkansas; Eighth Circuit"
+    "Arkansas Supreme Court"
   ],
   "parties": [
     "https://aiincidentlaw.org/party/aiel-2017-012-deployer.json"
@@ -55,5 +56,6 @@
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2017-012",
   "matter_type": "state APA / civil rights litigation",
-  "filing_status": "resolved"
+  "filing_status": "resolved",
+  "procedural_stage": "state-appeal"
 }

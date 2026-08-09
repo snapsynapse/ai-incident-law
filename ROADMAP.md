@@ -12,6 +12,14 @@ Current dataset buckets:
 
 ## Near-term priorities
 
+### 0. Deepen PAICE Legal Graph semantics
+
+- Migrate representative matters from display-field inference to curated `legal_graph` projections
+- Add typed claimants, respondents, and asserting parties where primary sources identify them
+- Link pre-decision Allegations to concrete allegedly violated Obligations when the source supports the nexus
+- Represent common-law duties and remedial Obligations recognized or imposed by adjudicative Determinations
+- Add legal identifier crosswalks after the procedural projection is source-complete
+
 ### 1. Tighten dataset inclusion discipline
 
 - Define sharper admission criteria for what counts as an AI-related incident with legal visibility

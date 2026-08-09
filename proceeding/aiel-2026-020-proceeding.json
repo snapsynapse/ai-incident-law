@@ -45,9 +45,7 @@
   "hasAllegation": [
     "https://aiincidentlaw.org/allegation/aiel-2026-020-allegation.json"
   ],
-  "hasDetermination": [
-    "https://aiincidentlaw.org/determination/aiel-2026-020-determination.json"
-  ],
+  "hasDetermination": [],
   "source": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
   "source_locator": "Cable News Network, Inc. v. Perplexity AI, Inc., No. 1:26-cv-04427",
   "evidence_type": "primary record",

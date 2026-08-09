@@ -42,6 +42,11 @@
         "neutral_citation",
         "describesSameEntityAs"
       ]
+    },
+    "Tombstone": {
+      "void:uriSpace": "https://aiincidentlaw.org/",
+      "void:uriRegexPattern": "^https://aiincidentlaw\\.org/(?:authority|determination)/[a-z0-9-]+\\.json$",
+      "crosswalks": []
     }
   }
 }

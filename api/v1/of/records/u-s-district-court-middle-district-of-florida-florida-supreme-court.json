@@ -16,31 +16,16 @@
       "reliance_or_harm": "ail:relianceOrHarm"
     }
   ],
-  "@type": "of:Authority",
+  "@type": "of:Tombstone",
   "@id": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida-florida-supreme-court.json",
   "id": "u-s-district-court-middle-district-of-florida-florida-supreme-court",
-  "organization": {
-    "@type": "gist:GovernmentOrganization",
-    "name": "U.S. District Court, Middle District of Florida; Florida Supreme Court"
-  },
-  "jurisdiction": {
-    "@type": "of:Jurisdiction",
-    "territorial_scope": [
-      "us-fl"
-    ],
-    "institutional_scope": [
-      "U.S. District Court, Middle District of Florida; Florida Supreme Court"
-    ]
-  },
-  "territorial_scope": [
-    "us-fl"
-  ],
-  "institutional_scope": [
-    "U.S. District Court, Middle District of Florida; Florida Supreme Court"
-  ],
+  "deprecated": true,
+  "former_type": "of:Authority",
+  "notes": "Retired composite identifier that conflated separate federal and state courts.",
   "source": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
   "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
   "evidence_type": "primary record",
   "verified": "2026-04-22",
-  "asserted_by_adopter": "https://aiincidentlaw.org/"
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "ai_incident_law_record_id": "AIEL-2024-008"
 }

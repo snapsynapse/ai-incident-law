@@ -17,6 +17,49 @@ function recordId(record, datasetKey, index) {
   return record.error_id || record.candidate_id || `${datasetKey}[${index}]`;
 }
 
+function validateLegalGraph(record, datasetKey, id) {
+  const graph = record.legal_graph;
+  if (graph === undefined) return;
+  if (datasetKey !== "included" || !graph || typeof graph !== "object" || Array.isArray(graph)) {
+    addIssue(`${datasetKey}.${id}.legal_graph must be an object on an included record`);
+    return;
+  }
+  for (const field of ["authorities", "proceedings", "determinations", "retired_identifiers"]) {
+    if (graph[field] !== undefined && !Array.isArray(graph[field])) addIssue(`${datasetKey}.${id}.legal_graph.${field} must be an array`);
+  }
+  const authorities = new Set();
+  for (const authority of graph.authorities || []) {
+    if (!authority?.id || !/^[a-z0-9-]+$/.test(authority.id)) addIssue(`${datasetKey}.${id}.legal_graph authority has an invalid id`);
+    if (!authority?.name || String(authority.name).includes(";")) addIssue(`${datasetKey}.${id}.legal_graph authority must name one organization`);
+    if (authorities.has(authority.id)) addIssue(`${datasetKey}.${id}.legal_graph duplicates authority ${authority.id}`);
+    authorities.add(authority.id);
+  }
+  const determinationIds = new Set();
+  for (const determination of graph.determinations || []) {
+    if (!determination?.id || !/^[a-z0-9-]+$/.test(determination.id)) addIssue(`${datasetKey}.${id}.legal_graph determination has an invalid id`);
+    if (determinationIds.has(determination.id)) addIssue(`${datasetKey}.${id}.legal_graph duplicates determination ${determination.id}`);
+    determinationIds.add(determination.id);
+    if (!Array.isArray(determination.issued_by) || determination.issued_by.length === 0) addIssue(`${datasetKey}.${id}.legal_graph determination ${determination.id} must identify issued_by`);
+    for (const authorityId of determination.issued_by || []) if (!authorities.has(authorityId)) addIssue(`${datasetKey}.${id}.legal_graph determination ${determination.id} references undeclared authority ${authorityId}`);
+    if (!determination.disposition) addIssue(`${datasetKey}.${id}.legal_graph determination ${determination.id} must identify disposition`);
+  }
+  const proceedingIds = new Set();
+  for (const proceeding of graph.proceedings || []) {
+    if (!proceeding?.id || !/^[a-z0-9-]+$/.test(proceeding.id)) addIssue(`${datasetKey}.${id}.legal_graph proceeding has an invalid id`);
+    if (proceedingIds.has(proceeding.id)) addIssue(`${datasetKey}.${id}.legal_graph duplicates proceeding ${proceeding.id}`);
+    proceedingIds.add(proceeding.id);
+    if (!Array.isArray(proceeding.heard_by) || proceeding.heard_by.length === 0) addIssue(`${datasetKey}.${id}.legal_graph proceeding ${proceeding.id} must identify heard_by`);
+    for (const authorityId of proceeding.heard_by || []) if (!authorities.has(authorityId)) addIssue(`${datasetKey}.${id}.legal_graph proceeding ${proceeding.id} references undeclared authority ${authorityId}`);
+    for (const determinationId of proceeding.determination_ids || []) if (!determinationIds.has(determinationId)) addIssue(`${datasetKey}.${id}.legal_graph proceeding ${proceeding.id} references undeclared determination ${determinationId}`);
+  }
+  for (const retired of graph.retired_identifiers || []) {
+    if (!retired?.id || !/^[a-z0-9-]+$/.test(retired.id)) addIssue(`${datasetKey}.${id}.legal_graph retired identifier has an invalid id`);
+    if (!retired?.kind || !["authority", "determination", "proceeding"].includes(retired.kind)) addIssue(`${datasetKey}.${id}.legal_graph retired identifier ${retired.id || "(missing)"} has an invalid kind`);
+    if (!retired?.former_type || !/^of:[A-Z]/.test(retired.former_type)) addIssue(`${datasetKey}.${id}.legal_graph retired identifier ${retired.id || "(missing)"} must identify former_type`);
+    if (!retired?.reason) addIssue(`${datasetKey}.${id}.legal_graph retired identifier ${retired.id || "(missing)"} must explain the retirement`);
+  }
+}
+
 const sourceText = await readFile(SOURCE_PATH, "utf8");
 const data = JSON.parse(sourceText);
 
@@ -64,6 +107,8 @@ for (const [datasetKey, bucket] of Object.entries(data.datasets || {})) {
 
   bucket.records.forEach((record, index) => {
     const id = recordId(record, datasetKey, index);
+
+    validateLegalGraph(record, datasetKey, id);
 
     if (seenIds.has(id)) {
       addIssue(`${datasetKey}.${id}: duplicate record identifier`);

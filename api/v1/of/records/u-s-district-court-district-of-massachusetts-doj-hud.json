@@ -16,31 +16,16 @@
       "reliance_or_harm": "ail:relianceOrHarm"
     }
   ],
-  "@type": "of:Authority",
+  "@type": "of:Tombstone",
   "@id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts-doj-hud.json",
   "id": "u-s-district-court-district-of-massachusetts-doj-hud",
-  "organization": {
-    "@type": "gist:GovernmentOrganization",
-    "name": "U.S. District Court, District of Massachusetts; DOJ; HUD"
-  },
-  "jurisdiction": {
-    "@type": "of:Jurisdiction",
-    "territorial_scope": [
-      "us-ma"
-    ],
-    "institutional_scope": [
-      "U.S. District Court, District of Massachusetts; DOJ; HUD"
-    ]
-  },
-  "territorial_scope": [
-    "us-ma"
-  ],
-  "institutional_scope": [
-    "U.S. District Court, District of Massachusetts; DOJ; HUD"
-  ],
+  "deprecated": true,
+  "former_type": "of:Authority",
+  "notes": "Retired composite identifier that conflated the court with participating federal agencies.",
   "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
   "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al.",
   "evidence_type": "primary record",
   "verified": "2026-04-22",
-  "asserted_by_adopter": "https://aiincidentlaw.org/"
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "ai_incident_law_record_id": "AIEL-2024-010"
 }

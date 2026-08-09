@@ -20,7 +20,7 @@
   "@id": "https://aiincidentlaw.org/determination/aiel-2022-011-determination.json",
   "id": "aiel-2022-011-determination",
   "issuedBy": [
-    "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json"
+    "https://aiincidentlaw.org/authority/michigan-supreme-court.json"
   ],
   "jurisdiction": {
     "@type": "of:Jurisdiction",
@@ -28,13 +28,14 @@
       "us-mi"
     ],
     "institutional_scope": [
-      "Michigan Court of Claims; Michigan Supreme Court"
+      "Michigan Supreme Court"
     ]
   },
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2022-011-allegation.json"
   ],
-  "disposition": "settled",
+  "disposition": "partial",
+  "issued_date": "2022-07-26",
   "remedy": {
     "status": "settled",
     "notes": "Michigan announced $20 million settlement; Michigan Supreme Court recognized damages availability for the constitutional tort theory."

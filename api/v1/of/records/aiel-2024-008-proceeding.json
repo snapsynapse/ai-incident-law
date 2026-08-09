@@ -13,7 +13,8 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "procedural_stage": "ail:proceduralStage"
     }
   ],
   "@type": "of:Proceeding",
@@ -22,7 +23,7 @@
   "title": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
   "filed_date": "2024-03-08",
   "heardBy": [
-    "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida-florida-supreme-court.json"
+    "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json"
   ],
   "jurisdiction": {
     "@type": "of:Jurisdiction",
@@ -30,14 +31,14 @@
       "us-fl"
     ],
     "institutional_scope": [
-      "U.S. District Court, Middle District of Florida; Florida Supreme Court"
+      "U.S. District Court, Middle District of Florida"
     ]
   },
   "territorial_scope": [
     "us-fl"
   ],
   "institutional_scope": [
-    "U.S. District Court, Middle District of Florida; Florida Supreme Court"
+    "U.S. District Court, Middle District of Florida"
   ],
   "parties": [
     "https://aiincidentlaw.org/party/aiel-2024-008-deployer.json"
@@ -55,5 +56,6 @@
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2024-008",
   "matter_type": "disciplinary matter",
-  "filing_status": "resolved"
+  "filing_status": "resolved",
+  "procedural_stage": "federal-discipline"
 }

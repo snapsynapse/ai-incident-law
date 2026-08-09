@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+- Filed complaints no longer generate false `of:Determination` records. The two previously published Determination IRIs resolve as continuity-preserving Tombstones.
+- Six composite Authority identifiers that conflated separate courts, agencies, or procedural stages now resolve as Tombstones. Their source matters project distinct Authorities with explicit `heardBy` and `issuedBy` relations.
+
+### Added
+- Curated `legal_graph` source projections for multi-body and unresolved matters, with validation for distinct Authority identity, proceeding and Determination references, and reviewed identifier retirement.
+- Regression coverage for unresolved filed matters, retired identifiers, distinct procedural-stage Authorities, and source-verified issuer/date relations.
+
 ## [0.3.0] - 2026-08-04
 
 Obligation-First v0.6 adopter, source-rigor, and drift-prevention release. This is a minor release because the pre-1.0 public projection contract changes materially.

@@ -13,7 +13,8 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "procedural_stage": "ail:proceduralStage"
     }
   ],
   "@type": "of:Proceeding",
@@ -22,7 +23,7 @@
   "title": "Bauserman v. Unemployment Insurance Agency",
   "filed_date": "2015-01-01",
   "heardBy": [
-    "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json"
+    "https://aiincidentlaw.org/authority/michigan-supreme-court.json"
   ],
   "jurisdiction": {
     "@type": "of:Jurisdiction",
@@ -30,14 +31,14 @@
       "us-mi"
     ],
     "institutional_scope": [
-      "Michigan Court of Claims; Michigan Supreme Court"
+      "Michigan Supreme Court"
     ]
   },
   "territorial_scope": [
     "us-mi"
   ],
   "institutional_scope": [
-    "Michigan Court of Claims; Michigan Supreme Court"
+    "Michigan Supreme Court"
   ],
   "parties": [
     "https://aiincidentlaw.org/party/aiel-2022-011-deployer.json"
@@ -55,5 +56,6 @@
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2022-011",
   "matter_type": "class action / state constitutional tort",
-  "filing_status": "settled"
+  "filing_status": "settled",
+  "procedural_stage": "appeal"
 }

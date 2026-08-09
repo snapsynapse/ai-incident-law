@@ -50,6 +50,7 @@ AI Incident Law is one component of the PAICE legal graph (with EveryAILaw, PubL
 - `data/data.json` is the canonical dataset for maintainers.
 - `data.js` is a generated browser bundle consumed by `index.html`.
 - `api/v1/of/` contains the generated Obligation-First binding for included public matters.
+- Published graph identifiers retired after semantic review resolve as `of:Tombstone` records at their original URLs.
 - `mcp.json` configures the local read-only MCP stdio server.
 - `.well-known/mcp.json` advertises public MCP and static query endpoints.
 - `.well-known/assistant-guide.txt` publishes bounded assistant-facing maintainer and query instructions using the GuideCheck Human-Verifiable Assistant Guide profile.

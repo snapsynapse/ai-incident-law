@@ -20,7 +20,7 @@
   "@id": "https://aiincidentlaw.org/determination/aiel-2017-012-determination.json",
   "id": "aiel-2017-012-determination",
   "issuedBy": [
-    "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json"
+    "https://aiincidentlaw.org/authority/arkansas-supreme-court.json"
   ],
   "jurisdiction": {
     "@type": "of:Jurisdiction",
@@ -28,7 +28,7 @@
       "us-ar"
     ],
     "institutional_scope": [
-      "Arkansas Supreme Court; U.S. District Court, Eastern District of Arkansas; Eighth Circuit"
+      "Arkansas Supreme Court"
     ]
   },
   "decides": [

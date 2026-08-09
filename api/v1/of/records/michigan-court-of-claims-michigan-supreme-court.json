@@ -16,31 +16,16 @@
       "reliance_or_harm": "ail:relianceOrHarm"
     }
   ],
-  "@type": "of:Authority",
+  "@type": "of:Tombstone",
   "@id": "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json",
   "id": "michigan-court-of-claims-michigan-supreme-court",
-  "organization": {
-    "@type": "gist:GovernmentOrganization",
-    "name": "Michigan Court of Claims; Michigan Supreme Court"
-  },
-  "jurisdiction": {
-    "@type": "of:Jurisdiction",
-    "territorial_scope": [
-      "us-mi"
-    ],
-    "institutional_scope": [
-      "Michigan Court of Claims; Michigan Supreme Court"
-    ]
-  },
-  "territorial_scope": [
-    "us-mi"
-  ],
-  "institutional_scope": [
-    "Michigan Court of Claims; Michigan Supreme Court"
-  ],
+  "deprecated": true,
+  "former_type": "of:Authority",
+  "notes": "Retired composite identifier that conflated trial and appellate courts.",
   "source": "https://michigan.gov/ag/news/press-releases/2022/10/20/som-settlement-of-civil-rights-class-action-alleging-false-accusations-of-unemployment-fraud",
   "source_locator": "Bauserman v. Unemployment Insurance Agency",
   "evidence_type": "official statement",
   "verified": "2026-04-22",
-  "asserted_by_adopter": "https://aiincidentlaw.org/"
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "ai_incident_law_record_id": "AIEL-2022-011"
 }

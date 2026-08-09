@@ -1,0 +1,46 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
+  "@type": "of:Authority",
+  "@id": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-texas.json",
+  "id": "u-s-district-court-southern-district-of-texas",
+  "organization": {
+    "@type": "gist:GovernmentOrganization",
+    "name": "U.S. District Court, Southern District of Texas"
+  },
+  "jurisdiction": {
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-tx"
+    ],
+    "institutional_scope": [
+      "U.S. District Court, Southern District of Texas"
+    ]
+  },
+  "territorial_scope": [
+    "us-tx"
+  ],
+  "institutional_scope": [
+    "U.S. District Court, Southern District of Texas"
+  ],
+  "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+  "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
+  "evidence_type": "primary record",
+  "verified": "2026-04-22",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
+}

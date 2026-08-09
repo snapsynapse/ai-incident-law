@@ -6,7 +6,7 @@ const API_DIR = new URL("../api/v1/of/", import.meta.url);
 const RECORDS_DIR = new URL("./records/", API_DIR);
 const OF_CONTEXT = "https://obligationfirst.org/v1/context.jsonld";
 const SITE_BASE = "https://aiincidentlaw.org";
-const RECORD_CONTEXT = [OF_CONTEXT, {
+const RECORD_TERMS = {
   ail: `${SITE_BASE}/vocab/`,
   id: "ail:id",
   ai_incident_law_record_id: "ail:recordId",
@@ -19,13 +19,21 @@ const RECORD_CONTEXT = [OF_CONTEXT, {
   canonical_source_conflicted: "ail:canonicalSourceConflicted",
   mitigation_gap: "ail:mitigationGap",
   reliance_or_harm: "ail:relianceOrHarm"
-}];
+};
+const RECORD_CONTEXT = [OF_CONTEXT, RECORD_TERMS];
+
+function recordContext(extraTerms = {}) {
+  return Object.keys(extraTerms).length > 0
+    ? [OF_CONTEXT, { ...RECORD_TERMS, ...extraTerms }]
+    : RECORD_CONTEXT;
+}
 const COMPANION_DIRS = {
   authorities: "authority",
   parties: "party",
   proceedings: "proceeding",
   allegations: "allegation",
-  determinations: "determination"
+  determinations: "determination",
+  tombstones: "tombstone"
 };
 
 // Wikidata QIDs for single-entity authorities.
@@ -134,6 +142,28 @@ function jurisdictionShape(record) {
   };
 }
 
+function graphAuthorityUri(id) {
+  return ofUri("authority", id);
+}
+
+function graphRecordUri(kind, id) {
+  return ofUri(kind, id);
+}
+
+function projectedJurisdiction(record, authorityIds, explicit) {
+  if (explicit) return explicit;
+  const definitions = record.legal_graph?.authorities;
+  if (!Array.isArray(definitions)) return jurisdictionShape(record);
+  const selected = definitions.filter(definition => authorityIds.includes(definition.id));
+  const territorial = [...new Set(selected.flatMap(definition => stringArray(definition.territorial_scope)))];
+  const institutional = [...new Set(selected.flatMap(definition => stringArray(definition.institutional_scope || definition.name)))];
+  return {
+    "@type": "of:Jurisdiction",
+    ...(territorial.length ? { territorial_scope: territorial } : {}),
+    ...(institutional.length ? { institutional_scope: institutional } : {})
+  };
+}
+
 function partyId(record) {
   return `${recordStem(record)}-deployer`;
 }
@@ -185,6 +215,34 @@ function stringArray(value) {
 function buildAuthorityRecords(records) {
   const byId = new Map();
   for (const record of records) {
+    const graphAuthorities = record.legal_graph?.authorities;
+    if (Array.isArray(graphAuthorities)) {
+      for (const definition of graphAuthorities) {
+        if (byId.has(definition.id)) continue;
+        const territorial = stringArray(definition.territorial_scope);
+        const institutional = stringArray(definition.institutional_scope || definition.name);
+        byId.set(definition.id, {
+          "@context": RECORD_CONTEXT,
+          "@type": "of:Authority",
+          "@id": graphAuthorityUri(definition.id),
+          id: definition.id,
+          organization: {
+            "@type": definition.organization_type || "gist:GovernmentOrganization",
+            name: definition.name
+          },
+          jurisdiction: {
+            "@type": "of:Jurisdiction",
+            ...(territorial.length ? { territorial_scope: territorial } : {}),
+            ...(institutional.length ? { institutional_scope: institutional } : {})
+          },
+          ...(territorial.length ? { territorial_scope: territorial } : {}),
+          ...(institutional.length ? { institutional_scope: institutional } : {}),
+          ...(stringArray(definition.same_as).length ? { sameAs: stringArray(definition.same_as) } : {}),
+          ...provenance(record)
+        });
+      }
+      continue;
+    }
     const id = authorityId(record);
     if (byId.has(id)) continue;
     const authority = {
@@ -244,37 +302,53 @@ function buildMatterRecords(records) {
     const proceedingId = `${stem}-proceeding`;
     const allegationId = `${stem}-allegation`;
     const determinationId = `${stem}-determination`;
-    const disposition = determinationDisposition(record.filing_status);
-    const authorityUri = ofUri("authority", authorityId(record));
+    const legacyDisposition = determinationDisposition(record.filing_status);
+    const defaultAuthorityId = authorityId(record);
     const allegationUri = ofUri("allegation", allegationId);
-    const determinationUri = ofUri("determination", determinationId);
-
-    const jurisdictionTyped = jurisdictionShape(record);
     const neutralCitation = record.neutral_citation || undefined;
     const caseSameAs = stringArray(record.case_sameAs);
 
-    const proceeding = {
-      "@context": RECORD_CONTEXT,
-      "@type": "of:Proceeding",
-      "@id": ofUri("proceeding", proceedingId),
-      id: proceedingId,
-      title: record.public_matter_name,
-      filed_date: normalizeDate(record.filing_date),
-      heardBy: [authorityUri],
-      jurisdiction: jurisdictionTyped,
-      territorial_scope: jurisdictionRef(record) ? [jurisdictionRef(record)] : undefined,
-      institutional_scope: [record.jurisdiction],
-      parties: record.deployer ? [partyUri(record)] : undefined,
-      hasAllegation: [allegationUri],
-      hasDetermination: disposition ? [determinationUri] : [],
-      ...provenance(record),
-      ai_incident_law_record_id: record.error_id,
-      matter_type: record.public_matter_type,
-      filing_status: record.filing_status
-    };
-    if (neutralCitation) proceeding.neutral_citation = neutralCitation;
-    if (caseSameAs.length > 0) proceeding.describesSameEntityAs = caseSameAs;
-    proceedings.push(proceeding);
+    const graphDeterminations = Object.hasOwn(record.legal_graph || {}, "determinations")
+      ? record.legal_graph.determinations
+      : legacyDisposition
+        ? [{ id: determinationId, disposition: legacyDisposition, issued_by: [defaultAuthorityId] }]
+        : [];
+    const determinationIds = graphDeterminations.map(item => item.id);
+    const graphProceedings = Object.hasOwn(record.legal_graph || {}, "proceedings")
+      ? record.legal_graph.proceedings
+      : [{ id: proceedingId, heard_by: [defaultAuthorityId], determination_ids: determinationIds }];
+
+    for (const projection of graphProceedings) {
+      const heardByIds = stringArray(projection.heard_by);
+      const heardBy = heardByIds.map(graphAuthorityUri);
+      const jurisdiction = projectedJurisdiction(record, heardByIds, projection.jurisdiction);
+      const projectedDeterminations = stringArray(projection.determination_ids).map(id => graphRecordUri("determination", id));
+      const proceeding = {
+        "@context": projection.procedural_stage
+          ? recordContext({ procedural_stage: "ail:proceduralStage" })
+          : RECORD_CONTEXT,
+        "@type": "of:Proceeding",
+        "@id": graphRecordUri("proceeding", projection.id),
+        id: projection.id,
+        title: projection.title || record.public_matter_name,
+        filed_date: normalizeDate(projection.filed_date || record.filing_date),
+        heardBy,
+        jurisdiction,
+        territorial_scope: projection.territorial_scope || jurisdiction.territorial_scope,
+        institutional_scope: projection.institutional_scope || jurisdiction.institutional_scope,
+        parties: record.deployer ? [partyUri(record)] : undefined,
+        hasAllegation: [allegationUri],
+        hasDetermination: projectedDeterminations,
+        ...provenance(record),
+        ai_incident_law_record_id: record.error_id,
+        matter_type: record.public_matter_type,
+        filing_status: record.filing_status,
+        procedural_stage: projection.procedural_stage
+      };
+      if (neutralCitation) proceeding.neutral_citation = neutralCitation;
+      if (caseSameAs.length > 0) proceeding.describesSameEntityAs = caseSameAs;
+      proceedings.push(proceeding);
+    }
 
     allegations.push({
       "@context": RECORD_CONTEXT,
@@ -296,16 +370,18 @@ function buildMatterRecords(records) {
       ...provenance(record)
     });
 
-    if (disposition) {
+    for (const projection of graphDeterminations) {
+      const issuedByIds = stringArray(projection.issued_by);
       const determination = {
         "@context": RECORD_CONTEXT,
         "@type": "of:Determination",
-        "@id": determinationUri,
-        id: determinationId,
-        issuedBy: [authorityUri],
-        jurisdiction: jurisdictionTyped,
-        decides: [allegationUri],
-        disposition,
+        "@id": graphRecordUri("determination", projection.id),
+        id: projection.id,
+        issuedBy: issuedByIds.map(graphAuthorityUri),
+        jurisdiction: projectedJurisdiction(record, issuedByIds, projection.jurisdiction),
+        decides: stringArray(projection.decides || [allegationId]).map(id => graphRecordUri("allegation", id)),
+        disposition: projection.disposition,
+        issued_date: normalizeDate(projection.issued_date),
         remedy: {
           status: record.filing_status,
           notes: record.notes_on_resolution
@@ -325,6 +401,20 @@ function buildMatterRecords(records) {
   }
 
   return { proceedings, allegations, determinations };
+}
+
+function buildTombstoneRecords(records) {
+  return records.flatMap(record => (record.legal_graph?.retired_identifiers || []).map(retired => ({
+    "@context": RECORD_CONTEXT,
+    "@type": "of:Tombstone",
+    "@id": graphRecordUri(retired.kind, retired.id),
+    id: retired.id,
+    deprecated: true,
+    former_type: retired.former_type,
+    notes: retired.reason,
+    ...provenance(record),
+    ai_incident_law_record_id: record.error_id
+  })));
 }
 
 async function writeJson(url, value) {
@@ -353,7 +443,8 @@ async function writeRecords(recordsByKind, generated) {
     });
     for (const record of records) {
       await writeJson(new URL(`${record.id}.json`, RECORDS_DIR), record);
-      await writeJson(new URL(`${COMPANION_DIRS[kind]}/${record.id}.json`, ROOT_DIR), record);
+      const companionPath = new URL(record["@id"]).pathname.replace(/^\//, "");
+      await writeJson(new URL(companionPath, ROOT_DIR), record);
     }
   }
 
@@ -370,13 +461,15 @@ const included = source.datasets?.included?.records || [];
 const authorities = buildAuthorityRecords(included);
 const parties = buildPartyRecords(included);
 const { proceedings, allegations, determinations } = buildMatterRecords(included);
+const tombstones = buildTombstoneRecords(included);
 
 await writeRecords({
   authorities,
   parties,
   proceedings,
   allegations,
-  determinations
+  determinations,
+  tombstones
 }, source.generated_at);
 
 console.log(`Built Obligation-First binding for ${included.length} AI Incident Law records.`);
