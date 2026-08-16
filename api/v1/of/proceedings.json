@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/context.jsonld",
-  "generated": "2026-08-15",
+  "generated": "2026-08-16",
   "proceedings": [
     {
       "@context": [
@@ -3600,7 +3600,7 @@
       "source": "https://illinoiscourts.gov/resources/23d7df84-ed51-48df-8477-3a6872db40d5/file",
       "source_locator": "Scott v. Illinois Human Rights Commission, 2026 IL App (1st) 251462, No. 1-25-1462",
       "evidence_type": "primary record",
-      "verified": "2026-08-15",
+      "verified": "2026-08-16",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-060",
       "matter_type": "sanctions order (Illinois Supreme Court Rule 375(b))",
@@ -3659,7 +3659,7 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.ctd.169303/gov.uscourts.ctd.169303.43.0.pdf",
       "source_locator": "Barteca Holdings LLC v. Tacobarn Newtown LLC, No. 3:26-cv-00250-VDO (D. Conn.), ECF No. 43",
       "evidence_type": "primary record",
-      "verified": "2026-08-15",
+      "verified": "2026-08-16",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-061",
       "matter_type": "sanctions order (Rule 11, sua sponte)",
@@ -3718,7 +3718,7 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.wawd.339711/gov.uscourts.wawd.339711.265.0.pdf",
       "source_locator": "LeDoux v. Outliers, Inc., No. 3:24-cv-05808-TMC (W.D. Wash.), ECF No. 265",
       "evidence_type": "primary record",
-      "verified": "2026-08-15",
+      "verified": "2026-08-16",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-062",
       "matter_type": "sanctions order (Rule 11, sua sponte)",
@@ -3771,7 +3771,7 @@
       "source": "https://jud.ct.gov/external/supapp/Cases/AROcr/CR355/ORD355.3.pdf",
       "source_locator": "TOV Realty, LLC v. Suarez (SC 21183) and Kosel Equity, LLC v. MacGregor (SC 21184), 355 Conn. 902 (2026)",
       "evidence_type": "primary record",
-      "verified": "2026-08-15",
+      "verified": "2026-08-16",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-063",
       "matter_type": "sanctions order (inherent supervisory authority)",

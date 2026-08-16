@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15",
+  "generated_at": "2026-08-16",
   "datasets": {
     "included": {
       "label": "Included cases",
@@ -2055,7 +2055,7 @@
           "tags": "hallucinated-citations; attorney-discipline; admitted-ai; named-ai; chatgpt; monetary-sanction; ardc-referral; appellate; legal-services",
           "source_quality": "primary record",
           "research_status": "included",
-          "last_verified_date": "2026-08-15",
+          "last_verified_date": "2026-08-16",
           "needs_review": "no",
           "obligation_first_anchors": [
             "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2085,7 +2085,7 @@
           "tags": "hallucinated-citations; attorney-discipline; admitted-ai; named-ai; claude; chatgpt; open-law; rule-11; monetary-sanction; grievance-referral; legal-services",
           "source_quality": "primary record",
           "research_status": "included",
-          "last_verified_date": "2026-08-15",
+          "last_verified_date": "2026-08-16",
           "needs_review": "no",
           "obligation_first_anchors": [
             "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2115,7 +2115,7 @@
           "tags": "hallucinated-citations; attorney-discipline; admitted-ai; named-ai; chatgpt; claude; rule-11; monetary-sanction; closed-system-misconception; legal-services",
           "source_quality": "primary record",
           "research_status": "included",
-          "last_verified_date": "2026-08-15",
+          "last_verified_date": "2026-08-16",
           "needs_review": "no",
           "obligation_first_anchors": [
             "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2145,7 +2145,7 @@
           "tags": "hallucinated-citations; attorney-discipline; admitted-ai; unnamed-ai; state-supreme-court; cle-requirement; charitable-donation; grievance-committee; legal-services",
           "source_quality": "primary record",
           "research_status": "included",
-          "last_verified_date": "2026-08-15",
+          "last_verified_date": "2026-08-16",
           "needs_review": "no",
           "obligation_first_anchors": [
             "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2624,7 +2624,7 @@
           "best_available_sources": "https://tuchtrecht.overheid.nl/zoeken/resultaat/uitspraak/2026/ECLI_NL_TADRSHE_2026_93",
           "source_language": "Dutch",
           "translation_status": "partial",
-          "last_checked_date": "2026-08-15"
+          "last_checked_date": "2026-08-16"
         },
         {
           "candidate_id": "AIEL-GLOB-017",
@@ -2640,7 +2640,7 @@
           "best_available_sources": "",
           "source_language": "French",
           "translation_status": "not needed",
-          "last_checked_date": "2026-08-15"
+          "last_checked_date": "2026-08-16"
         },
         {
           "candidate_id": "AIEL-GLOB-018",
@@ -2656,7 +2656,7 @@
           "best_available_sources": "",
           "source_language": "English",
           "translation_status": "not needed",
-          "last_checked_date": "2026-08-15"
+          "last_checked_date": "2026-08-16"
         }
       ]
     }
