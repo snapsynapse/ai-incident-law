@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/context.jsonld",
-  "generated": "2026-07-25",
+  "generated": "2026-08-15",
   "parties": [
     {
       "@context": [
@@ -1861,6 +1861,134 @@
       "source_locator": "Billups v. Louisville Municipal School District, No. 1:24-cv-00074-SA-RP (N.D. Miss.)",
       "evidence_type": "primary record",
       "verified": "2026-07-25",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-060-deployer.json",
+      "id": "aiel-2026-060-deployer",
+      "name": "Mason Cole, of Cole Sadkin, LLC, counsel for petitioner Kimberly Scott",
+      "party_kind": "organization",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://illinoiscourts.gov/resources/23d7df84-ed51-48df-8477-3a6872db40d5/file",
+      "source_locator": "Scott v. Illinois Human Rights Commission, 2026 IL App (1st) 251462, No. 1-25-1462",
+      "evidence_type": "primary record",
+      "verified": "2026-08-15",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-061-deployer.json",
+      "id": "aiel-2026-061-deployer",
+      "name": "Hilary Miller, defense counsel for Tacobarn Newtown LLC and Tacobarn Greenwich LLC",
+      "party_kind": "organization",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.ctd.169303/gov.uscourts.ctd.169303.43.0.pdf",
+      "source_locator": "Barteca Holdings LLC v. Tacobarn Newtown LLC, No. 3:26-cv-00250-VDO (D. Conn.), ECF No. 43",
+      "evidence_type": "primary record",
+      "verified": "2026-08-15",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-062-deployer.json",
+      "id": "aiel-2026-062-deployer",
+      "name": "Jocelyn Stewart, counsel for plaintiff Joann LeDoux",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.wawd.339711/gov.uscourts.wawd.339711.265.0.pdf",
+      "source_locator": "LeDoux v. Outliers, Inc., No. 3:24-cv-05808-TMC (W.D. Wash.), ECF No. 265",
+      "evidence_type": "primary record",
+      "verified": "2026-08-15",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-063-deployer.json",
+      "id": "aiel-2026-063-deployer",
+      "name": "Ian G. Gottlieb and GLG Law, LLC",
+      "party_kind": "organization",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://jud.ct.gov/external/supapp/Cases/AROcr/CR355/ORD355.3.pdf",
+      "source_locator": "TOV Realty, LLC v. Suarez (SC 21183) and Kosel Equity, LLC v. MacGregor (SC 21184), 355 Conn. 902 (2026)",
+      "evidence_type": "primary record",
+      "verified": "2026-08-15",
       "asserted_by_adopter": "https://aiincidentlaw.org/"
     }
   ]

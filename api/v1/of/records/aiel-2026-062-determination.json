@@ -1,0 +1,52 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-062-determination.json",
+  "id": "aiel-2026-062-determination",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-washington.json"
+  ],
+  "jurisdiction": {
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us"
+    ],
+    "institutional_scope": [
+      "U.S. District Court, Western District of Washington"
+    ]
+  },
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-062-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "Order on Sanctions by Judge Tiffany M. Cartwright, discharging the 4 February 2026 show-cause order at ECF No. 209. The native order was resolved through the CourtListener RECAP API using the PACER case id (wawd.339711) and the filepath_local value for entry 265, then verified against caption, docket number, entry number and 07/24/26 filing stamp. The closed-system belief is recorded by the court as counsel's explanation, not as a finding that such systems cannot hallucinate."
+  },
+  "notes": "Order on Sanctions by Judge Tiffany M. Cartwright, discharging the 4 February 2026 show-cause order at ECF No. 209. The native order was resolved through the CourtListener RECAP API using the PACER case id (wawd.339711) and the filepath_local value for entry 265, then verified against caption, docket number, entry number and 07/24/26 filing stamp. The closed-system belief is recorded by the court as counsel's explanation, not as a finding that such systems cannot hallucinate.",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.wawd.339711/gov.uscourts.wawd.339711.265.0.pdf",
+  "source_locator": "LeDoux v. Outliers, Inc., No. 3:24-cv-05808-TMC (W.D. Wash.), ECF No. 265",
+  "evidence_type": "primary record",
+  "verified": "2026-08-15",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "ai_incident_law_record_id": "AIEL-2026-062",
+  "anchors": [
+    "https://everyailaw.com/obligation-category/human-oversight.json"
+  ]
+}

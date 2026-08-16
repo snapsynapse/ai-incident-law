@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-061-allegation.json",
+  "id": "aiel-2026-061-allegation",
+  "text": "Defense counsel Hilary Miller filed a motion to dismiss and a motion to exclude extrinsic evidence containing fabricated citations and fabricated quotations from real cases. At the show-cause hearing he stated that this was the first and only matter in which he used artificial intelligence, that he used a paid tool called Open Law for argument and case suggestions, and that he also used Claude and ChatGPT for additional suggestions. He Shepardized every case through Lexis but did not verify that pin cites referred to the correct page or that quotations were accurate.",
+  "asserted_by": "asserting party not identified in the indexed source fields",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-061#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-061-deployer.json"
+  ],
+  "ai_system_name": "Open Law, Claude and ChatGPT (named; admitted)",
+  "deployer": "Hilary Miller, defense counsel for Tacobarn Newtown LLC and Tacobarn Greenwich LLC",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Fabricated quotations attributed to Ashcroft v. Iqbal and other real decisions, together with nonexistent supporting authority, against counsel's certification duties under Fed. R. Civ. P. 11(b)(2)",
+  "mitigation_gap": "Counsel's verification step confirmed that the cited cases existed and remained good law but did not check whether the quoted language or pin cites were real, which is precisely the failure mode generative AI produces; the court found the inadequate inquiry weighed in favour of sanctions.",
+  "reliance_or_harm": "The court imposed a $3,500 monetary sanction and referred the matter to the Grievance Committee under its local rules. The court set out a three-category definition of AI hallucination in legal research and warned that hallucinated or severely misstated law will often result in sanctions regardless of whether AI tools were used.",
+  "ai_incident_law_record_id": "AIEL-2026-061",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.ctd.169303/gov.uscourts.ctd.169303.43.0.pdf",
+  "source_locator": "Barteca Holdings LLC v. Tacobarn Newtown LLC, No. 3:26-cv-00250-VDO (D. Conn.), ECF No. 43",
+  "evidence_type": "primary record",
+  "verified": "2026-08-15",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
+}

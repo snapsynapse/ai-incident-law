@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25",
+  "generated_at": "2026-08-15",
   "datasets": {
     "included": {
       "label": "Included cases",
@@ -2030,6 +2030,126 @@
           "obligation_first_anchors": [
             "https://everyailaw.com/obligation-category/human-oversight.json"
           ]
+        },
+        {
+          "error_id": "AIEL-2026-060",
+          "error_title": "Illinois Appellate Court fines attorney $15,000 for ten AI-hallucinated citations and quotations",
+          "ai_system_name": "ChatGPT (named; admitted)",
+          "deployer": "Mason Cole, of Cole Sadkin, LLC, counsel for petitioner Kimberly Scott",
+          "domain": "legal services",
+          "error_type": "hallucinated authority",
+          "error_description": "Attorney Mason Cole filed appellate briefs on behalf of a workplace-discrimination petitioner containing nonexistent case citations and fabricated statutory language. In response to the court's show-cause order he stated that he uses a premier corporate subscription of ChatGPT to synthesize complex matters, including this case, and that he had cross-referenced citations with LexisNexis but overlooked that several did not exist or did not support the propositions cited. The court identified ten distinct false citations or misstatements of law.",
+          "canonical_source_conflicted": "Nonexistent Illinois appellate authority, fabricated statutory language including a supposed 'full investigation' requirement under the Illinois Human Rights Act, and counsel's duties under Illinois Supreme Court Rules 341(h)(5) and 375(b)",
+          "mitigation_gap": "Counsel relied on ChatGPT output for appellate research and represented that he cross-checked citations against LexisNexis, but that verification did not catch citations that were nonexistent or that failed to support the cited proposition; he attributed the failure to inexperience in appellate practice.",
+          "reliance_or_harm": "The court affirmed the underlying dismissal, fined counsel $15,000 payable to the clerk of the Appellate Court within 30 days at a rate of $1,500 per false citation or misstatement, and directed the clerk to send a copy of the opinion to the Illinois Attorney Registration and Disciplinary Commission. The court recorded that the misconduct forced it to verify the fabricated citations, research nationwide sanctions law, and order and review counsel's response.",
+          "public_matter_type": "sanctions order (Illinois Supreme Court Rule 375(b))",
+          "public_matter_name": "Scott v. Illinois Human Rights Commission, 2026 IL App (1st) 251462, No. 1-25-1462",
+          "filing_status": "sanctioned",
+          "jurisdiction": "Appellate Court of Illinois, First District",
+          "filing_date": "2026-07-28",
+          "error_date": "2026",
+          "public_record_link": "https://illinoiscourts.gov/resources/23d7df84-ed51-48df-8477-3a6872db40d5/file",
+          "secondary_source_links": "",
+          "confidence_score": "high",
+          "notes_on_resolution": "Published opinion filed 28 July 2026, Second Division, Presiding Justice Van Tine. Verified against the Illinois courts' own resource copy; caption, docket number, neutral citation and filing date all match. The $1,500-per-item rate is the court's own stated calculation and is higher than the $1,000-per-fabrication rate it surveyed from other Illinois decisions.",
+          "tags": "hallucinated-citations; attorney-discipline; admitted-ai; named-ai; chatgpt; monetary-sanction; ardc-referral; appellate; legal-services",
+          "source_quality": "primary record",
+          "research_status": "included",
+          "last_verified_date": "2026-08-15",
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation-category/human-oversight.json"
+          ]
+        },
+        {
+          "error_id": "AIEL-2026-061",
+          "error_title": "D. Connecticut imposes $3,500 Rule 11 sanction over Open Law, Claude and ChatGPT hallucinations",
+          "ai_system_name": "Open Law, Claude and ChatGPT (named; admitted)",
+          "deployer": "Hilary Miller, defense counsel for Tacobarn Newtown LLC and Tacobarn Greenwich LLC",
+          "domain": "legal services",
+          "error_type": "hallucinated authority",
+          "error_description": "Defense counsel Hilary Miller filed a motion to dismiss and a motion to exclude extrinsic evidence containing fabricated citations and fabricated quotations from real cases. At the show-cause hearing he stated that this was the first and only matter in which he used artificial intelligence, that he used a paid tool called Open Law for argument and case suggestions, and that he also used Claude and ChatGPT for additional suggestions. He Shepardized every case through Lexis but did not verify that pin cites referred to the correct page or that quotations were accurate.",
+          "canonical_source_conflicted": "Fabricated quotations attributed to Ashcroft v. Iqbal and other real decisions, together with nonexistent supporting authority, against counsel's certification duties under Fed. R. Civ. P. 11(b)(2)",
+          "mitigation_gap": "Counsel's verification step confirmed that the cited cases existed and remained good law but did not check whether the quoted language or pin cites were real, which is precisely the failure mode generative AI produces; the court found the inadequate inquiry weighed in favour of sanctions.",
+          "reliance_or_harm": "The court imposed a $3,500 monetary sanction and referred the matter to the Grievance Committee under its local rules. The court set out a three-category definition of AI hallucination in legal research and warned that hallucinated or severely misstated law will often result in sanctions regardless of whether AI tools were used.",
+          "public_matter_type": "sanctions order (Rule 11, sua sponte)",
+          "public_matter_name": "Barteca Holdings LLC v. Tacobarn Newtown LLC, No. 3:26-cv-00250-VDO (D. Conn.), ECF No. 43",
+          "filing_status": "sanctioned",
+          "jurisdiction": "U.S. District Court, District of Connecticut",
+          "filing_date": "2026-08-04",
+          "error_date": "2026",
+          "public_record_link": "https://storage.courtlistener.com/recap/gov.uscourts.ctd.169303/gov.uscourts.ctd.169303.43.0.pdf",
+          "secondary_source_links": "",
+          "confidence_score": "high",
+          "notes_on_resolution": "Order Imposing Sanctions by Judge Vernon D. Oliver. The native order was resolved through the CourtListener RECAP API using the PACER case id (ctd.169303) and the filepath_local value for entry 43, then verified against its caption, docket number, entry number and 08/04/26 filing stamp. Open Law is a paid legal-research tool distinct from the general-purpose assistants; the order names all three.",
+          "tags": "hallucinated-citations; attorney-discipline; admitted-ai; named-ai; claude; chatgpt; open-law; rule-11; monetary-sanction; grievance-referral; legal-services",
+          "source_quality": "primary record",
+          "research_status": "included",
+          "last_verified_date": "2026-08-15",
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation-category/human-oversight.json"
+          ]
+        },
+        {
+          "error_id": "AIEL-2026-062",
+          "error_title": "W.D. Washington sanctions counsel $3,000 for ChatGPT and Claude citations after repeated warnings",
+          "ai_system_name": "ChatGPT and Claude (named; admitted)",
+          "deployer": "Jocelyn Stewart, counsel for plaintiff Joann LeDoux",
+          "domain": "legal services",
+          "error_type": "hallucinated authority",
+          "error_description": "Between November and December 2025 plaintiff's counsel Jocelyn Stewart filed multiple submissions containing dozens of inaccurate factual and legal citations. She later averred that she used Claude and ChatGPT to draft the submissions, that the programs generated the false citations, and that she did not review their outputs because she believed the tools operated in a closed system limited to documents she supplied. She continued to submit a hallucinated citation in December, after opposing counsel had first raised AI concerns at oral argument.",
+          "canonical_source_conflicted": "Dozens of nonexistent or materially altered case citations and quotations whose meaning had been changed, against counsel's certification duties under Fed. R. Civ. P. 11(b)",
+          "mitigation_gap": "Counsel adopted a mistaken belief that a closed-system retrieval setup could not hallucinate and therefore performed no verification of AI output, despite having previously heard of an attorney sanctioned for the same conduct and despite numerous Ninth Circuit courts having issued or threatened comparable sanctions before her filings.",
+          "reliance_or_harm": "The court found the conduct akin to contempt, imposed a $3,000 personal sanction on counsel payable within 21 days, and required her to provide a copy of the order to her client and certify that she had done so. Counsel had earlier been required to withdraw or amend the affected motions and ceased using AI to generate quotations or citations for filings.",
+          "public_matter_type": "sanctions order (Rule 11, sua sponte)",
+          "public_matter_name": "LeDoux v. Outliers, Inc., No. 3:24-cv-05808-TMC (W.D. Wash.), ECF No. 265",
+          "filing_status": "sanctioned",
+          "jurisdiction": "U.S. District Court, Western District of Washington",
+          "filing_date": "2026-07-24",
+          "error_date": "2025",
+          "public_record_link": "https://storage.courtlistener.com/recap/gov.uscourts.wawd.339711/gov.uscourts.wawd.339711.265.0.pdf",
+          "secondary_source_links": "",
+          "confidence_score": "high",
+          "notes_on_resolution": "Order on Sanctions by Judge Tiffany M. Cartwright, discharging the 4 February 2026 show-cause order at ECF No. 209. The native order was resolved through the CourtListener RECAP API using the PACER case id (wawd.339711) and the filepath_local value for entry 265, then verified against caption, docket number, entry number and 07/24/26 filing stamp. The closed-system belief is recorded by the court as counsel's explanation, not as a finding that such systems cannot hallucinate.",
+          "tags": "hallucinated-citations; attorney-discipline; admitted-ai; named-ai; chatgpt; claude; rule-11; monetary-sanction; closed-system-misconception; legal-services",
+          "source_quality": "primary record",
+          "research_status": "included",
+          "last_verified_date": "2026-08-15",
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation-category/human-oversight.json"
+          ]
+        },
+        {
+          "error_id": "AIEL-2026-063",
+          "error_title": "Connecticut Supreme Court sanctions attorney and firm in first generative-AI hallucination case",
+          "ai_system_name": "Unnamed generative AI (admitted by counsel)",
+          "deployer": "Ian G. Gottlieb and GLG Law, LLC",
+          "domain": "legal services",
+          "error_type": "hallucinated authority",
+          "error_description": "Attorney Ian G. Gottlieb and his firm filed applications for certification to file public interest appeals under General Statutes section 52-265a in two related landlord-tenant matters. The applications contained hallucinated citations produced by generative AI used during the editing and review process, and after the Chief Justice granted the applications the briefs filed in each case also contained hallucinated citations. At a show-cause hearing counsel candidly admitted that filing approximately seven erroneous and unverified citations as a result of generative-AI use violated at a minimum rule 1.1 of the Rules of Professional Conduct.",
+          "canonical_source_conflicted": "Approximately seven fabricated or inaccurately generated citations, against rule 1.1 of the Connecticut Rules of Professional Conduct and counsel's duty of candour to the court",
+          "mitigation_gap": "Generative AI was introduced at the editing and review stage rather than at drafting, so the output bypassed the verification counsel had applied earlier; counsel had initially used LexisNexis for research and the defective citations entered through the later AI-assisted pass.",
+          "reliance_or_harm": "The court ordered Attorney Gottlieb to complete six hours of continuing legal education in ethics and law office management beyond his annual requirement, three of which must concern generative AI, and ordered Gottlieb and the law firm each to donate $1,000 to the CT Bar Institute, Inc. Both must file a compliance report with the Appellate Clerk and send a courtesy copy to the Statewide Grievance Committee.",
+          "public_matter_type": "sanctions order (inherent supervisory authority)",
+          "public_matter_name": "TOV Realty, LLC v. Suarez (SC 21183) and Kosel Equity, LLC v. MacGregor (SC 21184), 355 Conn. 902 (2026)",
+          "filing_status": "sanctioned",
+          "jurisdiction": "Connecticut Supreme Court",
+          "filing_date": "2026-07-31",
+          "error_date": "2026",
+          "public_record_link": "https://jud.ct.gov/external/supapp/Cases/AROcr/CR355/ORD355.3.pdf",
+          "secondary_source_links": "",
+          "confidence_score": "high",
+          "notes_on_resolution": "Per curiam order of 31 July 2026, the Connecticut Supreme Court's first generative-AI hallucination sanction, consolidating two docket numbers. Verified against the Judicial Branch's own advance-release copy. The order names no AI product, so the record uses the unnamed-but-admitted qualifier. The monetary component is a charitable donation of $1,000 each by counsel and the firm, not a fine, and the third-party hallucination tracker recorded only a single $1,000 figure and omitted the firm's parallel obligation.",
+          "tags": "hallucinated-citations; attorney-discipline; admitted-ai; unnamed-ai; state-supreme-court; cle-requirement; charitable-donation; grievance-committee; legal-services",
+          "source_quality": "primary record",
+          "research_status": "included",
+          "last_verified_date": "2026-08-15",
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation-category/human-oversight.json"
+          ]
         }
       ]
     },
@@ -2489,6 +2609,54 @@
           "source_language": "English",
           "translation_status": "not needed",
           "last_checked_date": "2026-07-24"
+        },
+        {
+          "candidate_id": "AIEL-GLOB-016",
+          "candidate_title": "Dutch disciplinary tribunal reprimands advocate for unverified LegalPA output in two tenancy cases",
+          "country": "Netherlands",
+          "region": "EU/EEA",
+          "event_grain": "single_event",
+          "candidate_matter": "Beslissing in de zaak 26-379/DB/LI/D, ECLI:NL:TADRSHE:2026:93 (Raad van Discipline in het ressort 's-Hertogenbosch, 27 July 2026)",
+          "authority_type": "tribunal",
+          "legal_basis": "Advocatenwet disciplinary jurisdiction, on the dean's objection (bezwaar van de deken)",
+          "reason_for_review": "Gate 1 passes: the respondent advocate identified the AI tool as LegalPA and stated she had since cancelled the subscription, and the decision records that she used an AI tool in both the [M] and [A] tenancy matters without further verification, producing incorrect references to partly nonexistent authority in a conclusion of answer. Gates 2 and 3 also pass on the official Dutch government tuchtrecht publication. Held for a steward decision on framing and on whether Dutch-language source material needs translation before promotion, and note that LegalPA is a named vendor tool not otherwise represented in the corpus.",
+          "next_verification_step": "Confirm the Dutch measure wording for the record: the tribunal imposed the maatregel van berisping (reprimand) and ordered payment of EUR 1,250 in proceskosten, comprising EUR 750 to the Nederlandse Orde van Advocaten and EUR 500 to the State. This is a costs order, not a fine, and the third-party tracker recorded it as a monetary fine.",
+          "best_available_sources": "https://tuchtrecht.overheid.nl/zoeken/resultaat/uitspraak/2026/ECLI_NL_TADRSHE_2026_93",
+          "source_language": "Dutch",
+          "translation_status": "partial",
+          "last_checked_date": "2026-08-15"
+        },
+        {
+          "candidate_id": "AIEL-GLOB-017",
+          "candidate_title": "Quebec Court of Appeal orders self-represented appellant to pay costs over conceded ChatGPT authorities",
+          "country": "Canada",
+          "region": "APAC / Commonwealth",
+          "event_grain": "single_event",
+          "candidate_matter": "Droit de la famille — 261234, 2026 QCCA 1092, No. 500-09-700419-252 (Court of Appeal of Quebec, Montreal, 11 August 2026)",
+          "authority_type": "court",
+          "legal_basis": "Appellate costs jurisdiction; abusive conduct in the conduct of an appeal",
+          "reason_for_review": "Gate 1 passes: the self-represented appellant conceded that the authorities he cited are the product of the artificial intelligence ChatGPT, and the court held that a litigant cannot assume the result obtained is free from hallucinations produced by the engine used. Gate 2 currently fails for sourcing only: the judgment is published on CanLII and SOQUIJ, both of which block automated retrieval (CanLII returns HTTP 403 behind a DataDome CAPTCHA; SOQUIJ exposes no stable per-judgment deep link and its citizen portal returned 404 for this neutral citation). No original court-hosted URL was reachable, so no link is recorded.",
+          "next_verification_step": "Obtain a free CanLII API key (api.canlii.org, which returns HTTP 401 unauthenticated) and retrieve 2026 QCCA 1092 through it; this would also unblock every future Canadian record. The court declined the respondent's $5,000 claim and instead condemned A. P. to pay $1,000 in legal costs within 30 days.",
+          "best_available_sources": "",
+          "source_language": "French",
+          "translation_status": "not needed",
+          "last_checked_date": "2026-08-15"
+        },
+        {
+          "candidate_id": "AIEL-GLOB-018",
+          "candidate_title": "Gauteng full bench refers acting judge's false citations to Legal Practice Council without finding AI use",
+          "country": "South Africa",
+          "region": "Africa",
+          "event_grain": "single_event",
+          "candidate_matter": "FJL v TGO, Case No. 25-220239 (High Court of South Africa, Gauteng Division, Johannesburg, 31 July 2026)",
+          "authority_type": "court",
+          "legal_basis": "Superior Courts Act section 18(3)/(4) appeal; Judicial Service Commission Act referral jurisdiction; Legal Practice Act",
+          "reason_for_review": "Adjudicator-side matter that fails gate 1 deliberately and is held for its jurisprudential value rather than as a harm event. The acting judge's own judgment below contained discrepancies in cited judgments, including a quotation partly drawn from an unrelated case and conflicting citations for MEC for Health Eastern Cape v Mkhintha. The majority declined at paragraph 18 to enter the lists about AI, and the second judgment states at paragraph 37 that it makes no finding on whether AI was used, while recording that the material bears the hallmarks of AI hallucination. Gate 2 also fails on sourcing: SAFLII returns HTTP 403 to automated requests and no other court-hosted copy was reachable.",
+          "next_verification_step": "Retrieve the judgment from SAFLII in a browser (automated requests receive HTTP 403) and confirm the neutral citation. Then put the framing question to the steward: whether the corpus should carry adjudicator-side matters where fabricated authority in a judicial document is established but AI attribution is expressly not determined, alongside the existing M J Molawa candidate. The second judgment surveys judicial AI guidance in the UK, Canada, Australia and Nigeria and resolves the Judicial Conduct Committee versus Legal Practice Council referral question in favour of the LPC, which is the reason to keep it.",
+          "best_available_sources": "",
+          "source_language": "English",
+          "translation_status": "not needed",
+          "last_checked_date": "2026-08-15"
         }
       ]
     }

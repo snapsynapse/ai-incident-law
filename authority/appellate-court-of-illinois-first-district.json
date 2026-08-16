@@ -1,0 +1,46 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
+  "@type": "of:Authority",
+  "@id": "https://aiincidentlaw.org/authority/appellate-court-of-illinois-first-district.json",
+  "id": "appellate-court-of-illinois-first-district",
+  "organization": {
+    "@type": "gist:GovernmentOrganization",
+    "name": "Appellate Court of Illinois, First District"
+  },
+  "jurisdiction": {
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-il"
+    ],
+    "institutional_scope": [
+      "Appellate Court of Illinois, First District"
+    ]
+  },
+  "territorial_scope": [
+    "us-il"
+  ],
+  "institutional_scope": [
+    "Appellate Court of Illinois, First District"
+  ],
+  "source": "https://illinoiscourts.gov/resources/23d7df84-ed51-48df-8477-3a6872db40d5/file",
+  "source_locator": "Scott v. Illinois Human Rights Commission, 2026 IL App (1st) 251462, No. 1-25-1462",
+  "evidence_type": "primary record",
+  "verified": "2026-08-15",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
+}

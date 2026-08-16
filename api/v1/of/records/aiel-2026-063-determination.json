@@ -1,0 +1,49 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-063-determination.json",
+  "id": "aiel-2026-063-determination",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/connecticut-supreme-court.json"
+  ],
+  "jurisdiction": {
+    "@type": "of:Jurisdiction",
+    "institutional_scope": [
+      "Connecticut Supreme Court"
+    ]
+  },
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-063-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "Per curiam order of 31 July 2026, the Connecticut Supreme Court's first generative-AI hallucination sanction, consolidating two docket numbers. Verified against the Judicial Branch's own advance-release copy. The order names no AI product, so the record uses the unnamed-but-admitted qualifier. The monetary component is a charitable donation of $1,000 each by counsel and the firm, not a fine, and the third-party hallucination tracker recorded only a single $1,000 figure and omitted the firm's parallel obligation."
+  },
+  "notes": "Per curiam order of 31 July 2026, the Connecticut Supreme Court's first generative-AI hallucination sanction, consolidating two docket numbers. Verified against the Judicial Branch's own advance-release copy. The order names no AI product, so the record uses the unnamed-but-admitted qualifier. The monetary component is a charitable donation of $1,000 each by counsel and the firm, not a fine, and the third-party hallucination tracker recorded only a single $1,000 figure and omitted the firm's parallel obligation.",
+  "source": "https://jud.ct.gov/external/supapp/Cases/AROcr/CR355/ORD355.3.pdf",
+  "source_locator": "TOV Realty, LLC v. Suarez (SC 21183) and Kosel Equity, LLC v. MacGregor (SC 21184), 355 Conn. 902 (2026)",
+  "evidence_type": "primary record",
+  "verified": "2026-08-15",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "ai_incident_law_record_id": "AIEL-2026-063",
+  "anchors": [
+    "https://everyailaw.com/obligation-category/human-oversight.json"
+  ]
+}

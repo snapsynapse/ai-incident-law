@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
+  "@type": "of:Party",
+  "@id": "https://aiincidentlaw.org/party/aiel-2026-061-deployer.json",
+  "id": "aiel-2026-061-deployer",
+  "name": "Hilary Miller, defense counsel for Tacobarn Newtown LLC and Tacobarn Greenwich LLC",
+  "party_kind": "organization",
+  "roles": [
+    "deployer"
+  ],
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.ctd.169303/gov.uscourts.ctd.169303.43.0.pdf",
+  "source_locator": "Barteca Holdings LLC v. Tacobarn Newtown LLC, No. 3:26-cv-00250-VDO (D. Conn.), ECF No. 43",
+  "evidence_type": "primary record",
+  "verified": "2026-08-15",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
+}

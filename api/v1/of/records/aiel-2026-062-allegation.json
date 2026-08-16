@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-062-allegation.json",
+  "id": "aiel-2026-062-allegation",
+  "text": "Between November and December 2025 plaintiff's counsel Jocelyn Stewart filed multiple submissions containing dozens of inaccurate factual and legal citations. She later averred that she used Claude and ChatGPT to draft the submissions, that the programs generated the false citations, and that she did not review their outputs because she believed the tools operated in a closed system limited to documents she supplied. She continued to submit a hallucinated citation in December, after opposing counsel had first raised AI concerns at oral argument.",
+  "asserted_by": "asserting party not identified in the indexed source fields",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-062#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-062-deployer.json"
+  ],
+  "ai_system_name": "ChatGPT and Claude (named; admitted)",
+  "deployer": "Jocelyn Stewart, counsel for plaintiff Joann LeDoux",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Dozens of nonexistent or materially altered case citations and quotations whose meaning had been changed, against counsel's certification duties under Fed. R. Civ. P. 11(b)",
+  "mitigation_gap": "Counsel adopted a mistaken belief that a closed-system retrieval setup could not hallucinate and therefore performed no verification of AI output, despite having previously heard of an attorney sanctioned for the same conduct and despite numerous Ninth Circuit courts having issued or threatened comparable sanctions before her filings.",
+  "reliance_or_harm": "The court found the conduct akin to contempt, imposed a $3,000 personal sanction on counsel payable within 21 days, and required her to provide a copy of the order to her client and certify that she had done so. Counsel had earlier been required to withdraw or amend the affected motions and ceased using AI to generate quotations or citations for filings.",
+  "ai_incident_law_record_id": "AIEL-2026-062",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.wawd.339711/gov.uscourts.wawd.339711.265.0.pdf",
+  "source_locator": "LeDoux v. Outliers, Inc., No. 3:24-cv-05808-TMC (W.D. Wash.), ECF No. 265",
+  "evidence_type": "primary record",
+  "verified": "2026-08-15",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
+}

@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-063-allegation.json",
+  "id": "aiel-2026-063-allegation",
+  "text": "Attorney Ian G. Gottlieb and his firm filed applications for certification to file public interest appeals under General Statutes section 52-265a in two related landlord-tenant matters. The applications contained hallucinated citations produced by generative AI used during the editing and review process, and after the Chief Justice granted the applications the briefs filed in each case also contained hallucinated citations. At a show-cause hearing counsel candidly admitted that filing approximately seven erroneous and unverified citations as a result of generative-AI use violated at a minimum rule 1.1 of the Rules of Professional Conduct.",
+  "asserted_by": "asserting party not identified in the indexed source fields",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-063#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-063-deployer.json"
+  ],
+  "ai_system_name": "Unnamed generative AI (admitted by counsel)",
+  "deployer": "Ian G. Gottlieb and GLG Law, LLC",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Approximately seven fabricated or inaccurately generated citations, against rule 1.1 of the Connecticut Rules of Professional Conduct and counsel's duty of candour to the court",
+  "mitigation_gap": "Generative AI was introduced at the editing and review stage rather than at drafting, so the output bypassed the verification counsel had applied earlier; counsel had initially used LexisNexis for research and the defective citations entered through the later AI-assisted pass.",
+  "reliance_or_harm": "The court ordered Attorney Gottlieb to complete six hours of continuing legal education in ethics and law office management beyond his annual requirement, three of which must concern generative AI, and ordered Gottlieb and the law firm each to donate $1,000 to the CT Bar Institute, Inc. Both must file a compliance report with the Appellate Clerk and send a courtesy copy to the Statewide Grievance Committee.",
+  "ai_incident_law_record_id": "AIEL-2026-063",
+  "source": "https://jud.ct.gov/external/supapp/Cases/AROcr/CR355/ORD355.3.pdf",
+  "source_locator": "TOV Realty, LLC v. Suarez (SC 21183) and Kosel Equity, LLC v. MacGregor (SC 21184), 355 Conn. 902 (2026)",
+  "evidence_type": "primary record",
+  "verified": "2026-08-15",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
+}

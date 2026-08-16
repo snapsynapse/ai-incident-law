@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/context.jsonld",
-  "generated": "2026-07-25",
+  "generated": "2026-08-15",
   "allegations": [
     {
       "@context": [
@@ -2383,6 +2383,170 @@
       "source_locator": "Billups v. Louisville Municipal School District, No. 1:24-cv-00074-SA-RP (N.D. Miss.)",
       "evidence_type": "primary record",
       "verified": "2026-07-25",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Allegation",
+      "@id": "https://aiincidentlaw.org/allegation/aiel-2026-060-allegation.json",
+      "id": "aiel-2026-060-allegation",
+      "text": "Attorney Mason Cole filed appellate briefs on behalf of a workplace-discrimination petitioner containing nonexistent case citations and fabricated statutory language. In response to the court's show-cause order he stated that he uses a premier corporate subscription of ChatGPT to synthesize complex matters, including this case, and that he had cross-referenced citations with LexisNexis but overlooked that several did not exist or did not support the propositions cited. The court identified ten distinct false citations or misstatements of law.",
+      "asserted_by": "asserting party not identified in the indexed source fields",
+      "related_to": "https://aiincidentlaw.org/incident/aiel-2026-060#ai-system",
+      "related_to_party": [
+        "https://aiincidentlaw.org/party/aiel-2026-060-deployer.json"
+      ],
+      "ai_system_name": "ChatGPT (named; admitted)",
+      "deployer": "Mason Cole, of Cole Sadkin, LLC, counsel for petitioner Kimberly Scott",
+      "domain": "legal services",
+      "error_type": "hallucinated authority",
+      "canonical_source_conflicted": "Nonexistent Illinois appellate authority, fabricated statutory language including a supposed 'full investigation' requirement under the Illinois Human Rights Act, and counsel's duties under Illinois Supreme Court Rules 341(h)(5) and 375(b)",
+      "mitigation_gap": "Counsel relied on ChatGPT output for appellate research and represented that he cross-checked citations against LexisNexis, but that verification did not catch citations that were nonexistent or that failed to support the cited proposition; he attributed the failure to inexperience in appellate practice.",
+      "reliance_or_harm": "The court affirmed the underlying dismissal, fined counsel $15,000 payable to the clerk of the Appellate Court within 30 days at a rate of $1,500 per false citation or misstatement, and directed the clerk to send a copy of the opinion to the Illinois Attorney Registration and Disciplinary Commission. The court recorded that the misconduct forced it to verify the fabricated citations, research nationwide sanctions law, and order and review counsel's response.",
+      "ai_incident_law_record_id": "AIEL-2026-060",
+      "source": "https://illinoiscourts.gov/resources/23d7df84-ed51-48df-8477-3a6872db40d5/file",
+      "source_locator": "Scott v. Illinois Human Rights Commission, 2026 IL App (1st) 251462, No. 1-25-1462",
+      "evidence_type": "primary record",
+      "verified": "2026-08-15",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Allegation",
+      "@id": "https://aiincidentlaw.org/allegation/aiel-2026-061-allegation.json",
+      "id": "aiel-2026-061-allegation",
+      "text": "Defense counsel Hilary Miller filed a motion to dismiss and a motion to exclude extrinsic evidence containing fabricated citations and fabricated quotations from real cases. At the show-cause hearing he stated that this was the first and only matter in which he used artificial intelligence, that he used a paid tool called Open Law for argument and case suggestions, and that he also used Claude and ChatGPT for additional suggestions. He Shepardized every case through Lexis but did not verify that pin cites referred to the correct page or that quotations were accurate.",
+      "asserted_by": "asserting party not identified in the indexed source fields",
+      "related_to": "https://aiincidentlaw.org/incident/aiel-2026-061#ai-system",
+      "related_to_party": [
+        "https://aiincidentlaw.org/party/aiel-2026-061-deployer.json"
+      ],
+      "ai_system_name": "Open Law, Claude and ChatGPT (named; admitted)",
+      "deployer": "Hilary Miller, defense counsel for Tacobarn Newtown LLC and Tacobarn Greenwich LLC",
+      "domain": "legal services",
+      "error_type": "hallucinated authority",
+      "canonical_source_conflicted": "Fabricated quotations attributed to Ashcroft v. Iqbal and other real decisions, together with nonexistent supporting authority, against counsel's certification duties under Fed. R. Civ. P. 11(b)(2)",
+      "mitigation_gap": "Counsel's verification step confirmed that the cited cases existed and remained good law but did not check whether the quoted language or pin cites were real, which is precisely the failure mode generative AI produces; the court found the inadequate inquiry weighed in favour of sanctions.",
+      "reliance_or_harm": "The court imposed a $3,500 monetary sanction and referred the matter to the Grievance Committee under its local rules. The court set out a three-category definition of AI hallucination in legal research and warned that hallucinated or severely misstated law will often result in sanctions regardless of whether AI tools were used.",
+      "ai_incident_law_record_id": "AIEL-2026-061",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.ctd.169303/gov.uscourts.ctd.169303.43.0.pdf",
+      "source_locator": "Barteca Holdings LLC v. Tacobarn Newtown LLC, No. 3:26-cv-00250-VDO (D. Conn.), ECF No. 43",
+      "evidence_type": "primary record",
+      "verified": "2026-08-15",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Allegation",
+      "@id": "https://aiincidentlaw.org/allegation/aiel-2026-062-allegation.json",
+      "id": "aiel-2026-062-allegation",
+      "text": "Between November and December 2025 plaintiff's counsel Jocelyn Stewart filed multiple submissions containing dozens of inaccurate factual and legal citations. She later averred that she used Claude and ChatGPT to draft the submissions, that the programs generated the false citations, and that she did not review their outputs because she believed the tools operated in a closed system limited to documents she supplied. She continued to submit a hallucinated citation in December, after opposing counsel had first raised AI concerns at oral argument.",
+      "asserted_by": "asserting party not identified in the indexed source fields",
+      "related_to": "https://aiincidentlaw.org/incident/aiel-2026-062#ai-system",
+      "related_to_party": [
+        "https://aiincidentlaw.org/party/aiel-2026-062-deployer.json"
+      ],
+      "ai_system_name": "ChatGPT and Claude (named; admitted)",
+      "deployer": "Jocelyn Stewart, counsel for plaintiff Joann LeDoux",
+      "domain": "legal services",
+      "error_type": "hallucinated authority",
+      "canonical_source_conflicted": "Dozens of nonexistent or materially altered case citations and quotations whose meaning had been changed, against counsel's certification duties under Fed. R. Civ. P. 11(b)",
+      "mitigation_gap": "Counsel adopted a mistaken belief that a closed-system retrieval setup could not hallucinate and therefore performed no verification of AI output, despite having previously heard of an attorney sanctioned for the same conduct and despite numerous Ninth Circuit courts having issued or threatened comparable sanctions before her filings.",
+      "reliance_or_harm": "The court found the conduct akin to contempt, imposed a $3,000 personal sanction on counsel payable within 21 days, and required her to provide a copy of the order to her client and certify that she had done so. Counsel had earlier been required to withdraw or amend the affected motions and ceased using AI to generate quotations or citations for filings.",
+      "ai_incident_law_record_id": "AIEL-2026-062",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.wawd.339711/gov.uscourts.wawd.339711.265.0.pdf",
+      "source_locator": "LeDoux v. Outliers, Inc., No. 3:24-cv-05808-TMC (W.D. Wash.), ECF No. 265",
+      "evidence_type": "primary record",
+      "verified": "2026-08-15",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Allegation",
+      "@id": "https://aiincidentlaw.org/allegation/aiel-2026-063-allegation.json",
+      "id": "aiel-2026-063-allegation",
+      "text": "Attorney Ian G. Gottlieb and his firm filed applications for certification to file public interest appeals under General Statutes section 52-265a in two related landlord-tenant matters. The applications contained hallucinated citations produced by generative AI used during the editing and review process, and after the Chief Justice granted the applications the briefs filed in each case also contained hallucinated citations. At a show-cause hearing counsel candidly admitted that filing approximately seven erroneous and unverified citations as a result of generative-AI use violated at a minimum rule 1.1 of the Rules of Professional Conduct.",
+      "asserted_by": "asserting party not identified in the indexed source fields",
+      "related_to": "https://aiincidentlaw.org/incident/aiel-2026-063#ai-system",
+      "related_to_party": [
+        "https://aiincidentlaw.org/party/aiel-2026-063-deployer.json"
+      ],
+      "ai_system_name": "Unnamed generative AI (admitted by counsel)",
+      "deployer": "Ian G. Gottlieb and GLG Law, LLC",
+      "domain": "legal services",
+      "error_type": "hallucinated authority",
+      "canonical_source_conflicted": "Approximately seven fabricated or inaccurately generated citations, against rule 1.1 of the Connecticut Rules of Professional Conduct and counsel's duty of candour to the court",
+      "mitigation_gap": "Generative AI was introduced at the editing and review stage rather than at drafting, so the output bypassed the verification counsel had applied earlier; counsel had initially used LexisNexis for research and the defective citations entered through the later AI-assisted pass.",
+      "reliance_or_harm": "The court ordered Attorney Gottlieb to complete six hours of continuing legal education in ethics and law office management beyond his annual requirement, three of which must concern generative AI, and ordered Gottlieb and the law firm each to donate $1,000 to the CT Bar Institute, Inc. Both must file a compliance report with the Appellate Clerk and send a courtesy copy to the Statewide Grievance Committee.",
+      "ai_incident_law_record_id": "AIEL-2026-063",
+      "source": "https://jud.ct.gov/external/supapp/Cases/AROcr/CR355/ORD355.3.pdf",
+      "source_locator": "TOV Realty, LLC v. Suarez (SC 21183) and Kosel Equity, LLC v. MacGregor (SC 21184), 355 Conn. 902 (2026)",
+      "evidence_type": "primary record",
+      "verified": "2026-08-15",
       "asserted_by_adopter": "https://aiincidentlaw.org/"
     }
   ]

@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/context.jsonld",
-  "generated": "2026-07-25",
+  "generated": "2026-08-15",
   "authorities": [
     {
       "@context": [
@@ -2404,6 +2404,184 @@
       "source_locator": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)",
       "evidence_type": "primary record",
       "verified": "2026-07-25",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/appellate-court-of-illinois-first-district.json",
+      "id": "appellate-court-of-illinois-first-district",
+      "organization": {
+        "@type": "gist:GovernmentOrganization",
+        "name": "Appellate Court of Illinois, First District"
+      },
+      "jurisdiction": {
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-il"
+        ],
+        "institutional_scope": [
+          "Appellate Court of Illinois, First District"
+        ]
+      },
+      "territorial_scope": [
+        "us-il"
+      ],
+      "institutional_scope": [
+        "Appellate Court of Illinois, First District"
+      ],
+      "source": "https://illinoiscourts.gov/resources/23d7df84-ed51-48df-8477-3a6872db40d5/file",
+      "source_locator": "Scott v. Illinois Human Rights Commission, 2026 IL App (1st) 251462, No. 1-25-1462",
+      "evidence_type": "primary record",
+      "verified": "2026-08-15",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-connecticut.json",
+      "id": "u-s-district-court-district-of-connecticut",
+      "organization": {
+        "@type": "gist:GovernmentOrganization",
+        "name": "U.S. District Court, District of Connecticut"
+      },
+      "jurisdiction": {
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, District of Connecticut"
+        ]
+      },
+      "territorial_scope": [
+        "us"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, District of Connecticut"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.ctd.169303/gov.uscourts.ctd.169303.43.0.pdf",
+      "source_locator": "Barteca Holdings LLC v. Tacobarn Newtown LLC, No. 3:26-cv-00250-VDO (D. Conn.), ECF No. 43",
+      "evidence_type": "primary record",
+      "verified": "2026-08-15",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-washington.json",
+      "id": "u-s-district-court-western-district-of-washington",
+      "organization": {
+        "@type": "gist:GovernmentOrganization",
+        "name": "U.S. District Court, Western District of Washington"
+      },
+      "jurisdiction": {
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Western District of Washington"
+        ]
+      },
+      "territorial_scope": [
+        "us"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, Western District of Washington"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.wawd.339711/gov.uscourts.wawd.339711.265.0.pdf",
+      "source_locator": "LeDoux v. Outliers, Inc., No. 3:24-cv-05808-TMC (W.D. Wash.), ECF No. 265",
+      "evidence_type": "primary record",
+      "verified": "2026-08-15",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/connecticut-supreme-court.json",
+      "id": "connecticut-supreme-court",
+      "organization": {
+        "@type": "gist:GovernmentOrganization",
+        "name": "Connecticut Supreme Court"
+      },
+      "jurisdiction": {
+        "@type": "of:Jurisdiction",
+        "institutional_scope": [
+          "Connecticut Supreme Court"
+        ]
+      },
+      "institutional_scope": [
+        "Connecticut Supreme Court"
+      ],
+      "source": "https://jud.ct.gov/external/supapp/Cases/AROcr/CR355/ORD355.3.pdf",
+      "source_locator": "TOV Realty, LLC v. Suarez (SC 21183) and Kosel Equity, LLC v. MacGregor (SC 21184), 355 Conn. 902 (2026)",
+      "evidence_type": "primary record",
+      "verified": "2026-08-15",
       "asserted_by_adopter": "https://aiincidentlaw.org/"
     }
   ]

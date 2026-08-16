@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-060-allegation.json",
+  "id": "aiel-2026-060-allegation",
+  "text": "Attorney Mason Cole filed appellate briefs on behalf of a workplace-discrimination petitioner containing nonexistent case citations and fabricated statutory language. In response to the court's show-cause order he stated that he uses a premier corporate subscription of ChatGPT to synthesize complex matters, including this case, and that he had cross-referenced citations with LexisNexis but overlooked that several did not exist or did not support the propositions cited. The court identified ten distinct false citations or misstatements of law.",
+  "asserted_by": "asserting party not identified in the indexed source fields",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-060#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-060-deployer.json"
+  ],
+  "ai_system_name": "ChatGPT (named; admitted)",
+  "deployer": "Mason Cole, of Cole Sadkin, LLC, counsel for petitioner Kimberly Scott",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Nonexistent Illinois appellate authority, fabricated statutory language including a supposed 'full investigation' requirement under the Illinois Human Rights Act, and counsel's duties under Illinois Supreme Court Rules 341(h)(5) and 375(b)",
+  "mitigation_gap": "Counsel relied on ChatGPT output for appellate research and represented that he cross-checked citations against LexisNexis, but that verification did not catch citations that were nonexistent or that failed to support the cited proposition; he attributed the failure to inexperience in appellate practice.",
+  "reliance_or_harm": "The court affirmed the underlying dismissal, fined counsel $15,000 payable to the clerk of the Appellate Court within 30 days at a rate of $1,500 per false citation or misstatement, and directed the clerk to send a copy of the opinion to the Illinois Attorney Registration and Disciplinary Commission. The court recorded that the misconduct forced it to verify the fabricated citations, research nationwide sanctions law, and order and review counsel's response.",
+  "ai_incident_law_record_id": "AIEL-2026-060",
+  "source": "https://illinoiscourts.gov/resources/23d7df84-ed51-48df-8477-3a6872db40d5/file",
+  "source_locator": "Scott v. Illinois Human Rights Commission, 2026 IL App (1st) 251462, No. 1-25-1462",
+  "evidence_type": "primary record",
+  "verified": "2026-08-15",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
+}
