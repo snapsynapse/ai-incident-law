@@ -65,7 +65,8 @@ For a creator-profile or external-platform property, replace the website validat
 ## Current baseline
 
 - Repository and production policy established on 2026-08-18.
-- GSC property `sc-domain:aiincidentlaw.org` was verified on 2026-08-18. Reports were processing, no sitemap was submitted, and the homepage was already indexed.
+- GSC property `sc-domain:aiincidentlaw.org` was verified on 2026-08-18. Reports were processing and the homepage was already indexed.
+- The canonical sitemap was submitted once after production passed. GSC reported Success, a current last-read date, 1 discovered page, and 0 discovered videos.
 - Dated evidence: `ops/search/GoogleSearchConsole/2026-08-18/audit.md`.
 
 ## Console action ledger
