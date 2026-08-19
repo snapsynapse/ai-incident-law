@@ -1,0 +1,98 @@
+{
+  "$schema": "portfolio-search-indexing-audit/v4",
+  "contractVersion": 4,
+  "canonicalOrigin": "https://aiincidentlaw.org/",
+  "outputDir": ".",
+  "sitemaps": [
+    "sitemap.xml"
+  ],
+  "minimumWords": 70,
+  "thinPageExemptions": [],
+  "expectedNoindex": [],
+  "requireJsonLd": false,
+  "jsonLdRequiredPaths": [
+    "/"
+  ],
+  "lastmodAgreementPaths": [],
+  "compareRepositorySitemaps": true,
+  "internalSourceRules": [],
+  "requiredFiles": [
+    {
+      "path": "robots.txt",
+      "contentTypes": [
+        "text/plain"
+      ],
+      "contains": [
+        "Sitemap: https://aiincidentlaw.org/sitemap.xml"
+      ]
+    },
+    {
+      "path": "sitemap.xml",
+      "contentTypes": [
+        "xml"
+      ],
+      "contains": []
+    },
+    {
+      "path": ".well-known/assistant-guide.txt",
+      "contentTypes": [
+        "text/plain"
+      ],
+      "contains": [
+        "canonical-url: https://aiincidentlaw.org/.well-known/assistant-guide.txt"
+      ]
+    },
+    {
+      "path": ".well-known/mcp.json",
+      "contentTypes": [
+        "application/json",
+        "json"
+      ],
+      "contains": [
+        "ai-incident-law"
+      ]
+    },
+    {
+      "path": ".well-known/obligation-first-naming-profile-manifest.txt",
+      "contentTypes": [
+        "text/plain"
+      ],
+      "contains": [
+        "spec-version-range:"
+      ]
+    },
+    {
+      "path": ".well-known/obligation-first-naming-profile.jsonld",
+      "contentTypes": [
+        "application/ld+json",
+        "application/json",
+        "application/octet-stream"
+      ],
+      "contains": [
+        "\"@type\": \"of:NamingProfile\""
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "from": "http://aiincidentlaw.org/",
+      "to": "https://aiincidentlaw.org/"
+    },
+    {
+      "from": "https://www.aiincidentlaw.org/",
+      "to": "https://aiincidentlaw.org/"
+    },
+    {
+      "from": "http://www.aiincidentlaw.org/",
+      "to": "https://aiincidentlaw.org/"
+    }
+  ],
+  "hosted404Patterns": [
+    "There isn't a GitHub Pages site here",
+    "<title>Page not found",
+    "404 File not found"
+  ],
+  "expectedNotFoundPaths": [
+    "/__search-audit-404__"
+  ]
+}

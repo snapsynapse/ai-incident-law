@@ -71,8 +71,10 @@
     "check:links": "node scripts/check-source-links.mjs",
     "find:recap": "node scripts/find-recap-source.mjs",
     "report:staleness": "node scripts/staleness-report.mjs",
+    "check:search": "node scripts/check-search.mjs",
+    "check:production-search": "node scripts/check-production-search.mjs",
     "build": "npm run build:data && npm run build:of && npm run validate:data",
-    "check": "npm run validate:data && npm run validate:guidecheck && npm run test:url-policy && npm run eval:url-policy && npm run eval:of && npm run check:of && npm run validate:of && npm run check:of-fingerprint && npm run check:of-continuity && npm run test:legal-graph-source && npm run test:build-of && npm run test:recap-resolver && npm run test:source-link-policy && npm run test:mcp && npm run test:discovery && npm run test:workflow",
+    "check": "npm run validate:data && npm run validate:guidecheck && npm run test:url-policy && npm run eval:url-policy && npm run eval:of && npm run check:of && npm run validate:of && npm run check:of-fingerprint && npm run check:of-continuity && npm run test:legal-graph-source && npm run test:build-of && npm run test:recap-resolver && npm run test:source-link-policy && npm run test:mcp && npm run test:discovery && npm run test:workflow && npm run check:search",
     "verify:ci": "node scripts/verify-ci.mjs",
     "serve": "python3 -m http.server 4173"
   }
