@@ -4,6 +4,8 @@ dist/
 # Agent tooling and skills — local only, not part of the public project
 .claude/
 .agents/
+.playwright-mcp/
+.search-evidence-private/
 
 
 # --- portfolio baseline (2026-07-04): transient dirs ---
