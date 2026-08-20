@@ -42,6 +42,26 @@ A candidate record is admitted to `included` when all of the following hold:
 
 Candidates failing any of the above stay in `review` until upgraded or in `global` if the jurisdiction is non-US and additional sourcing or translation is needed.
 
+### Outcome valence is not an admission criterion
+
+Decided 2026-08-19.
+
+A matter is admitted on the strength of the established AI-attributable defect, not on the severity of what the tribunal did about it. A ruling that declines to sanction, declines to exclude, or excuses the conduct is admitted on the same terms as one imposing a penalty, and records what happened in `filing_status` and `reliance_or_harm` like any other record.
+
+Two reasons this is the right line:
+
+- The corpus is the portfolio's evidence layer for what has actually happened when AI systems fail. A corpus that admits only adverse outcomes systematically overstates the legal risk of AI use, because the cases where a tribunal looked at the same conduct and declined to penalize it are missing from the denominator. That makes the obligations EveryAILaw tracks look more settled than they are, which is a defect in the evidence layer itself, not merely a coverage gap.
+- The corpus already works this way at the low end of the severity scale. `warned` and `admonished` are existing `filing_status` values, and AIEL-2026-057 is a GAO warning carrying no penalty at all. Admitting non-adverse outcomes continues an existing gradient rather than opening a new category.
+
+The bound that keeps this from becoming unbounded: **an AI-attributable defect must be established in the primary source to the same standard criterion 1 requires for AI use itself.** A hallucinated citation, fabricated exhibit, or false output must actually have occurred and be attributable to AI in the record's own voice. Where the only established fact is that AI was used and no defect was found, there is no incident and the matter is not admitted. An allegation that failed is not a harm event, and admitting such matters would make the corpus unbounded as AI use normalizes.
+
+Worked application of the rule:
+
+- **Admitted**: In re Bard Implanted Port Catheter Products Liability Litigation (D. Ariz.). Hallucinated citations were present in the expert report; the court found the expert's explanation adequate and denied the motion to exclude. The defect is established, so the non-exclusion is the record's outcome, not a reason to withhold the record.
+- **Not admitted**: Mullins v. Duquesne (W.D. Pa.). The court found the brief contained neither inaccurate, false, nor non-existent citations. Disclosed use of Claude plus an allegation that did not survive scrutiny is not an incident. The matter is retained in `review` as a citable limiting precedent and documented in `docs/methodology.html`; it is not expected to be promoted.
+
+This decision is distinct from, and does not resolve, the separate question of matters where **AI use itself** is not established because the tribunal expressly declined to determine it (AIEL-CAND-013, -014, -015, -028 and AIEL-GLOB-018). Those fail criterion 1 and are unaffected.
+
 Out of scope: speculative AI-risk commentary, AI ethics statements without legal or regulatory action attached, internal corporate disputes that have not surfaced publicly, and reputational controversy that has not produced a filing or formal action.
 
 ## Refresh cadence and gates
@@ -110,4 +130,5 @@ Next scheduled review: 2026-07-31 (Q3 start) or after first major scope challeng
 
 ## Changelog
 
+- 0.2.0 (2026-08-19): Adds the outcome-valence rule to record admission criteria. A matter is admitted on the established AI-attributable defect, not on the severity of the consequence, so rulings that decline to sanction or exclude are admissible; matters where AI was used but no defect was found are not. Bounded by requiring the defect to be established in the primary source to the same standard as AI use itself. Widening rather than narrowing, so no dataset version bump is required under the recalibration gate below.
 - 0.1.0 (2026-04-26): Initial INTENT. Codifies Regulation-vector positioning alongside EveryAILaw and PubLedge, public-record-only stewardship principle, admission criteria, refresh cadence, and steward responsibilities.
