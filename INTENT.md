@@ -83,6 +83,28 @@ Worked application of the rule:
 
 Matters awaiting sourcing rather than a policy call under this rule include AIEL-CAND-028 and AIEL-GLOB-018, where the tribunal's own AI language is established but no citable original has been reachable.
 
+### Jurisdiction and the `global` bucket
+
+Decided 2026-08-19.
+
+**`global` is not a jurisdiction bucket. It is `review` for non-US matters** — a staging queue for candidates that need translation, jurisdiction-specific framing, or normalization before they can be admitted. It is not a destination, and non-US records are not published from it: like `review`, it holds the candidate record shape rather than the admitted one.
+
+It follows that **the four admission criteria are the only test, and jurisdiction is not among them.** A non-US matter that satisfies all four is admitted to `included` on exactly the same terms as a US one. There is no presumption that non-US matters remain in `global`, and a record whose only remaining gap is that it is not American has no remaining gap. AIEL-2024-001 (British Columbia Civil Resolution Tribunal) is this rule correctly applied, not an anomaly to be reconciled.
+
+**Source language does not block admission.** Criterion 2 asks for a primary or reliable public source and says nothing about the language it is written in. Criterion 4 requires the record's publication fields to be present and consistent, which requires the **record** to be in English, the corpus's working language — not the source. A steward who can read the source well enough to write accurate English fields has satisfied criterion 4. Reading a translation requirement into the criteria would permanently exclude most of the EU, Latin America, and Asia, making a corpus that claims to be a global evidence layer structurally Anglophone.
+
+Two conditions apply to a record admitted on a non-English source:
+
+1. The operative language — the measure imposed, the finding of AI use — must be quoted **in the original** in `notes_on_resolution`, with an English rendering, so a reader can check the translation rather than trust it.
+2. The source language must be recorded as a tag (`source-language-<language>`), preserving on promotion what the `global` shape carried in `source_language`.
+
+`global` therefore holds a non-US candidate only while a real gap remains: no citable original, an unresolved procedural posture, framing that needs jurisdiction-specific work, or a source the steward cannot read accurately enough to write the fields. When the gap closes, the record is promoted.
+
+Worked application of the rule:
+
+- **Promoted**: Beslissing in de zaak 26-379/DB/LI/D, ECLI:NL:TADRSHE:2026:93 (Raad van Discipline 's-Hertogenbosch). All four criteria were satisfied on the official Dutch government publication; the record had been held only on the question of whether Dutch-language material needs translation first. It does not.
+- **Correctly held**: the three Canadian candidates. AIEL-GLOB-015 has no citable copy of the reasons and its costs order is stayed pending appeal, so criterion 3 is unsettled; AIEL-GLOB-017 and AIEL-GLOB-019 have no reachable original at all. Each is held on a real gap, and none is held because it is Canadian.
+
 Out of scope: speculative AI-risk commentary, AI ethics statements without legal or regulatory action attached, internal corporate disputes that have not surfaced publicly, and reputational controversy that has not produced a filing or formal action.
 
 ## Refresh cadence and gates
@@ -151,6 +173,7 @@ Next scheduled review: 2026-07-31 (Q3 start) or after first major scope challeng
 
 ## Changelog
 
+- 0.4.0 (2026-08-19): Settles jurisdiction and the `global` bucket. `global` is `review` for non-US matters, not a publication destination; the four admission criteria are the only test and jurisdiction is not among them; source language does not block admission, bounded by requiring the operative language quoted in the original with an English rendering and the language recorded as a tag. Clarifying rather than widening or narrowing.
 - 0.3.0 (2026-08-19): Adds the undetermined-attribution rule refining criterion 1. AI need not be affirmatively found; it is enough that the primary source itself discusses AI in connection with the defect, bounded by requiring the discussion to be in the source rather than inferred by a third party, and by excluding matters where the source establishes a competing non-AI mechanism. Admitted records carry an explicit attribution qualifier, tag, and confidence cap. Widening, so no dataset version bump is required.
 - 0.2.0 (2026-08-19): Adds the outcome-valence rule to record admission criteria. A matter is admitted on the established AI-attributable defect, not on the severity of the consequence, so rulings that decline to sanction or exclude are admissible; matters where AI was used but no defect was found are not. Bounded by requiring the defect to be established in the primary source to the same standard as AI use itself. Widening rather than narrowing, so no dataset version bump is required under the recalibration gate below.
 - 0.1.0 (2026-04-26): Initial INTENT. Codifies Regulation-vector positioning alongside EveryAILaw and PubLedge, public-record-only stewardship principle, admission criteria, refresh cadence, and steward responsibilities.

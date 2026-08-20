@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Changed
+- Record admission criteria now settle jurisdiction and language. The `global` bucket is review for non-US matters, a staging queue rather than a publication destination; the four criteria are the only test and jurisdiction is not among them; and source language does not block admission, bounded by quoting the operative language in the original with an English rendering and recording the language as a tag.
 - Record admission criteria now settle AI attribution: criterion 1 is satisfied when the primary source itself discusses AI in connection with the defect, whether as a finding, an observation of hallmarks, a hedged surmise, or a recounted party explanation. Bounded by requiring the discussion to appear in the source rather than being supplied by third-party inference, and by excluding matters where the source establishes a competing non-AI mechanism. Admitted records carry an explicit attribution qualifier, the `attribution-not-determined` tag, and a confidence cap. Documented in INTENT.md and on the public methodology page.
 - Record admission criteria now settle outcome valence: a matter is admitted on the established AI-attributable defect, not on the severity of the consequence the tribunal attached to it. Rulings that decline to sanction or decline to exclude are admissible and record the outcome in `filing_status` and `reliance_or_harm`. Matters where AI use is established but no defect was found are not admissible. Documented in INTENT.md and on the public methodology page. This widens the criteria, so no existing record loses admission and no dataset version bump is required.
 
@@ -16,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Six composite Authority identifiers that conflated separate courts, agencies, or procedural stages now resolve as Tombstones. Their source matters project distinct Authorities with explicit `heardBy` and `issuedBy` relations.
 
 ### Added
+- AIEL-2026-065 (Raad van Discipline 's-Hertogenbosch, ECLI:NL:TADRSHE:2026:93), promoted from the global bucket as the first record admitted on a non-English primary source.
 - AIEL-2026-064 (Fuselier v. Riscassi, S.D. Miss.), the corpus's first record admitted on undetermined AI attribution and its first involving passive exposure to an AI-generated search summary rather than use of an AI legal-research tool.
 - Curated `legal_graph` source projections for multi-body and unresolved matters, with validation for distinct Authority identity, proceeding and Determination references, and reviewed identifier retirement.
 - Regression coverage for unresolved filed matters, retired identifiers, distinct procedural-stage Authorities, and source-verified issuer/date relations.

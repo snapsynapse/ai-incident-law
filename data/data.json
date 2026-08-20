@@ -2177,6 +2177,33 @@
           "research_status": "included",
           "last_verified_date": "2026-08-19",
           "needs_review": "no"
+        },
+        {
+          "error_id": "AIEL-2026-065",
+          "error_title": "Dutch disciplinary tribunal reprimands advocate over unverified AI-generated case references in two tenancy matters",
+          "ai_system_name": "Unnamed generative AI (admitted by counsel)",
+          "deployer": "Respondent advocate (name not published), Netherlands",
+          "domain": "legal services",
+          "error_type": "hallucinated authority",
+          "error_description": "Acting in two tenancy matters outside her usual employment-law practice, the respondent advocate drafted conclusions of answer using an AI tool and filed them without checking their output. The filings contained incorrect references to partly nonexistent case law, including ECLI citations that proved untraceable on verification. The dean of the local bar obtained the filings and correspondence, questioned her, and lodged a dean's objection under article 46 Advocatenwet. Asked which AI tool she had used in these matters, the advocate answered that she had not been able to determine which tool it was; the last tool she had used was LegalPA, which she had cancelled the previous month. She stated she had not checked whether the decisions the tool referred to existed and had not been alert to the risk that AI tools invent case law.",
+          "canonical_source_conflicted": "Cited Dutch judicial decisions, referenced by ECLI, that proved untraceable or partly nonexistent on verification, against the core values of expertise and integrity in article 10a Advocatenwet",
+          "mitigation_gap": "The advocate accepted instructions in an area of law in which she had neither training nor experience, treated AI output as she would search-engine results, and performed no verification of the cited decisions before filing. She was not alert to the risk that an AI tool would generate nonexistent case law, and she did not appear at the hearings in either matter.",
+          "reliance_or_harm": "The fabricated references reached filed conclusions of answer in two tenancy proceedings in which the advocate also failed to appear, and in one of which she raised no defence to the alternative claim. The tribunal declared the dean's objection unfounded as to the core value of confidentiality and well-founded on the remainder, imposed the measure of reprimand, and ordered payment of EUR 1,250 in costs of the proceedings, comprising EUR 750 to the Netherlands Bar and EUR 500 to the State, payable within four weeks of the decision becoming irrevocable.",
+          "public_matter_type": "disciplinary decision on a dean's objection",
+          "public_matter_name": "Beslissing in de zaak 26-379/DB/LI/D, ECLI:NL:TADRSHE:2026:93 (Raad van Discipline in het ressort 's-Hertogenbosch)",
+          "filing_status": "reprimanded; costs ordered",
+          "jurisdiction": "Raad van Discipline 's-Hertogenbosch",
+          "filing_date": "2026-07-27",
+          "error_date": "2025",
+          "public_record_link": "https://tuchtrecht.overheid.nl/zoeken/resultaat/uitspraak/2026/ECLI_NL_TADRSHE_2026_93",
+          "secondary_source_links": "",
+          "confidence_score": "high",
+          "notes_on_resolution": "Decision of 27 July 2026, Raad van Discipline in het ressort 's-Hertogenbosch (mr. E. Loesberg presiding), on the official Dutch government tuchtrecht publication. Promoted from AIEL-GLOB-016 under the jurisdiction rule in INTENT.md: source language does not block admission. Operative language quoted in the original with English renderings. Measure: \"legt aan verweerster de maatregel van berisping\" (imposes on the respondent the measure of reprimand). Costs: \"veroordeelt verweerster tot betaling van de proceskosten van EUR 1.250,- aan de Nederlandse Orde van Advocaten\", split at 7.1 into \"EUR 750,-\" for the Netherlands Bar and \"EUR 500,- kosten van de Staat\". This is a costs order (proceskosten), not a fine; a third-party tracker recorded it as a monetary fine and that characterisation is not adopted. On AI attribution, the tool is NOT named for these matters: asked \"Welke AI-tool heeft u gebruikt in de hiervoor genoemde zaken?\" the advocate answered \"Ik heb niet kunnen achterhalen welke AI-tool ik heb gebruikt\" (I have not been able to determine which AI tool I used), and identified LegalPA only as \"de laatste tool die ik heb gebruikt\" (the last tool I used), cancelled the month before. An earlier draft of this record attributed the matter to LegalPA; that overstated the source and has been corrected. The decision records the defect as \"onjuiste verwijzingen naar (deels niet bestaande) rechtspraak\" (incorrect references to partly nonexistent case law) and ECLI references that \"na controle niet traceerbaar bleken\" (proved untraceable on verification). The confidentiality limb of the objection was rejected because she entered no confidential data into the tool.",
+          "tags": "hallucinated-citations; attorney-discipline; admitted-ai; unnamed-ai; reprimand; costs-order; tenancy-law; netherlands; source-language-dutch; legal-services",
+          "source_quality": "primary record",
+          "research_status": "included",
+          "last_verified_date": "2026-08-19",
+          "needs_review": "no"
         }
       ]
     },
@@ -2657,28 +2684,12 @@
           "candidate_matter": "Mazaheri v Law Society of Ontario, 2026 ONLSTH 112, Tribunal File No. 25H-139 (Law Society Tribunal, Hearing Division, Ontario)",
           "authority_type": "tribunal",
           "legal_basis": "Law Society Tribunal costs jurisdiction (compensatory, not punitive); the panel expressly held it had no authority to make a professional-misconduct finding about the AI use because the Law Society had brought no conduct application on that issue",
-          "reason_for_review": "Gate 1 passes clearly: the licensee admitted in writing that errors in his factum and supplementary factum “arose for my over-reliance on generative artificial intelligence tools (in particular Grok)”, and the panel made its own findings, including that “the tool the applicant used was hallucinating”, under section headings referring to irresponsible use of artificial intelligence. Held in review rather than admitted because of two sourcing and posture problems. Sourcing: the only machine-verified original is the tribunal’s own one-paragraph order page, which carries the operative costs order but not the 34 pages of reasons containing the AI findings; the full reasons exist only on CanLII, which serves HTTP 403 to all automated requests by robots policy, so no citable link to the reasons has been verified. Posture: the costs order was STAYED on 2026-07-23 pending an appeal filed 2026-07-13 under Appeal File 26A-020, so the CAD 31,150 is not a settled outcome.",
+          "reason_for_review": "Gate 1 passes clearly: the licensee admitted in writing that errors in his factum and supplementary factum “arose for my over-reliance on generative artificial intelligence tools (in particular Grok)”, and the panel made its own findings, including that “the tool the applicant used was hallucinating”, under section headings referring to irresponsible use of artificial intelligence. Held in review rather than admitted because of two sourcing and posture problems. Sourcing: the only machine-verified original is the tribunal’s own one-paragraph order page, which carries the operative costs order but not the 34 pages of reasons containing the AI findings; the full reasons exist only on CanLII, which serves HTTP 403 to all automated requests by robots policy, so no citable link to the reasons has been verified. Posture: the costs order was STAYED on 2026-07-23 pending an appeal filed 2026-07-13 under Appeal File 26A-020, so the CAD 31,150 is not a settled outcome. Held on a real gap, not on jurisdiction: under the rule settled in INTENT.md on 2026-08-19, `global` is `review` for non-US matters and a record whose only remaining gap is that it is not American has no remaining gap. Criterion 3 is also unsettled here because the costs order was stayed on 2026-07-23 pending appeal (Appeal File 26A-020), so this candidate is held on both sourcing and posture.",
           "next_verification_step": "Confirm the CanLII address for 2026 ONLSTH 112 in a browser (canlii.ca/t/klgxt), or obtain a CanLII API key so Canadian records can be verified without hitting bot walls, then record the reasons as the primary source; separately track Appeal File 26A-020 and re-verify once the stay is resolved.",
           "best_available_sources": "https://lawsocietytribunal.ca/document-html/mazaheri-2026-06-12/; https://lawsocietytribunal.ca/licensee/shahryar-mazaheri/; https://lawsocietytribunal.ca/document-html/mazaheri-2026-07-23/",
           "source_language": "English",
           "translation_status": "not needed",
-          "last_checked_date": "2026-07-24"
-        },
-        {
-          "candidate_id": "AIEL-GLOB-016",
-          "candidate_title": "Dutch disciplinary tribunal reprimands advocate for unverified LegalPA output in two tenancy cases",
-          "country": "Netherlands",
-          "region": "EU/EEA",
-          "event_grain": "single_event",
-          "candidate_matter": "Beslissing in de zaak 26-379/DB/LI/D, ECLI:NL:TADRSHE:2026:93 (Raad van Discipline in het ressort 's-Hertogenbosch, 27 July 2026)",
-          "authority_type": "tribunal",
-          "legal_basis": "Advocatenwet disciplinary jurisdiction, on the dean's objection (bezwaar van de deken)",
-          "reason_for_review": "Gate 1 passes: the respondent advocate identified the AI tool as LegalPA and stated she had since cancelled the subscription, and the decision records that she used an AI tool in both the [M] and [A] tenancy matters without further verification, producing incorrect references to partly nonexistent authority in a conclusion of answer. Gates 2 and 3 also pass on the official Dutch government tuchtrecht publication. Held for a steward decision on framing and on whether Dutch-language source material needs translation before promotion, and note that LegalPA is a named vendor tool not otherwise represented in the corpus.",
-          "next_verification_step": "Confirm the Dutch measure wording for the record: the tribunal imposed the maatregel van berisping (reprimand) and ordered payment of EUR 1,250 in proceskosten, comprising EUR 750 to the Nederlandse Orde van Advocaten and EUR 500 to the State. This is a costs order, not a fine, and the third-party tracker recorded it as a monetary fine.",
-          "best_available_sources": "https://tuchtrecht.overheid.nl/zoeken/resultaat/uitspraak/2026/ECLI_NL_TADRSHE_2026_93",
-          "source_language": "Dutch",
-          "translation_status": "partial",
-          "last_checked_date": "2026-08-16"
+          "last_checked_date": "2026-08-19"
         },
         {
           "candidate_id": "AIEL-GLOB-017",
@@ -2689,12 +2700,12 @@
           "candidate_matter": "Droit de la famille — 261234, 2026 QCCA 1092, No. 500-09-700419-252 (Court of Appeal of Quebec, Montreal, 11 August 2026)",
           "authority_type": "court",
           "legal_basis": "Appellate costs jurisdiction; abusive conduct in the conduct of an appeal",
-          "reason_for_review": "Gate 1 passes: the self-represented appellant conceded that the authorities he cited are the product of the artificial intelligence ChatGPT, and the court held that a litigant cannot assume the result obtained is free from hallucinations produced by the engine used. Gate 2 currently fails for sourcing only: the judgment is published on CanLII and SOQUIJ, both of which block automated retrieval (CanLII returns HTTP 403 behind a DataDome CAPTCHA; SOQUIJ exposes no stable per-judgment deep link and its citizen portal returned 404 for this neutral citation). No original court-hosted URL was reachable, so no link is recorded.",
+          "reason_for_review": "Gate 1 passes: the self-represented appellant conceded that the authorities he cited are the product of the artificial intelligence ChatGPT, and the court held that a litigant cannot assume the result obtained is free from hallucinations produced by the engine used. Gate 2 currently fails for sourcing only: the judgment is published on CanLII and SOQUIJ, both of which block automated retrieval (CanLII returns HTTP 403 behind a DataDome CAPTCHA; SOQUIJ exposes no stable per-judgment deep link and its citizen portal returned 404 for this neutral citation). No original court-hosted URL was reachable, so no link is recorded. Held on a real gap, not on jurisdiction: under the rule settled in INTENT.md on 2026-08-19, `global` is `review` for non-US matters and a record whose only remaining gap is that it is not American has no remaining gap.",
           "next_verification_step": "Obtain a free CanLII API key (api.canlii.org, which returns HTTP 401 unauthenticated) and retrieve 2026 QCCA 1092 through it; this would also unblock every future Canadian record. The court declined the respondent's $5,000 claim and instead condemned A. P. to pay $1,000 in legal costs within 30 days.",
           "best_available_sources": "",
           "source_language": "French",
           "translation_status": "not needed",
-          "last_checked_date": "2026-08-16"
+          "last_checked_date": "2026-08-19"
         },
         {
           "candidate_id": "AIEL-GLOB-018",
@@ -2721,7 +2732,7 @@
           "candidate_matter": "Arbuckle v. Tanner, 2026 NSCA 62 (Nova Scotia Court of Appeal, 12 August 2026)",
           "authority_type": "court",
           "legal_basis": "Appellate costs jurisdiction, Nova Scotia Civil Procedure Rule 90.40(4); abuse of process",
-          "reason_for_review": "Gate 1 passes on the appellant's own admission: the self-represented appellant Kevin Joel Arbuckle swore an affidavit on 24 July 2026 stating that, unbeknownst to him during the assembly process, \"the AI hallucinated\" the certifications at issue, and the court records that other evidence confirms this. The matter is materially graver than a fabricated-citation case: the court found the transcripts and appeal books themselves to be non-genuine, and addressed conduct amounting to reproducing a court official's signature or fabricating a certified court record. Costs of $20,000 were awarded to the respondent on a solicitor-client basis under Rule 90.40(4). Gate 2 fails for sourcing only: no court-hosted original was reachable. The Nova Scotia judgment site decisions.courts.ns.ca answers on its root but returned HTTP 404 for every navigation and search path attempted, and CanLII remains blocked behind a DataDome CAPTCHA.",
+          "reason_for_review": "Gate 1 passes on the appellant's own admission: the self-represented appellant Kevin Joel Arbuckle swore an affidavit on 24 July 2026 stating that, unbeknownst to him during the assembly process, \"the AI hallucinated\" the certifications at issue, and the court records that other evidence confirms this. The matter is materially graver than a fabricated-citation case: the court found the transcripts and appeal books themselves to be non-genuine, and addressed conduct amounting to reproducing a court official's signature or fabricating a certified court record. Costs of $20,000 were awarded to the respondent on a solicitor-client basis under Rule 90.40(4). Gate 2 fails for sourcing only: no court-hosted original was reachable. The Nova Scotia judgment site decisions.courts.ns.ca answers on its root but returned HTTP 404 for every navigation and search path attempted, and CanLII remains blocked behind a DataDome CAPTCHA. Held on a real gap, not on jurisdiction: under the rule settled in INTENT.md on 2026-08-19, `global` is `review` for non-US matters and a record whose only remaining gap is that it is not American has no remaining gap.",
           "next_verification_step": "Obtain the free CanLII API key already flagged in the skill's open follow-up work (api.canlii.org returns HTTP 401 unauthenticated) and retrieve 2026 NSCA 62 through it; this would unblock this record and AIEL-GLOB-017 together. Failing that, a human browser pass through decisions.courts.ns.ca to establish the working item-URL pattern would be worth recording in the skill's per-forum sourcing table, since Nova Scotia is not yet mapped there.",
           "best_available_sources": "",
           "source_language": "English",

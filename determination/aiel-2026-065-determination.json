@@ -1,0 +1,46 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-065-determination.json",
+  "id": "aiel-2026-065-determination",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/raad-van-discipline-s-hertogenbosch.json"
+  ],
+  "jurisdiction": {
+    "@type": "of:Jurisdiction",
+    "institutional_scope": [
+      "Raad van Discipline 's-Hertogenbosch"
+    ]
+  },
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-065-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "reprimanded; costs ordered",
+    "notes": "Decision of 27 July 2026, Raad van Discipline in het ressort 's-Hertogenbosch (mr. E. Loesberg presiding), on the official Dutch government tuchtrecht publication. Promoted from AIEL-GLOB-016 under the jurisdiction rule in INTENT.md: source language does not block admission. Operative language quoted in the original with English renderings. Measure: \"legt aan verweerster de maatregel van berisping\" (imposes on the respondent the measure of reprimand). Costs: \"veroordeelt verweerster tot betaling van de proceskosten van EUR 1.250,- aan de Nederlandse Orde van Advocaten\", split at 7.1 into \"EUR 750,-\" for the Netherlands Bar and \"EUR 500,- kosten van de Staat\". This is a costs order (proceskosten), not a fine; a third-party tracker recorded it as a monetary fine and that characterisation is not adopted. On AI attribution, the tool is NOT named for these matters: asked \"Welke AI-tool heeft u gebruikt in de hiervoor genoemde zaken?\" the advocate answered \"Ik heb niet kunnen achterhalen welke AI-tool ik heb gebruikt\" (I have not been able to determine which AI tool I used), and identified LegalPA only as \"de laatste tool die ik heb gebruikt\" (the last tool I used), cancelled the month before. An earlier draft of this record attributed the matter to LegalPA; that overstated the source and has been corrected. The decision records the defect as \"onjuiste verwijzingen naar (deels niet bestaande) rechtspraak\" (incorrect references to partly nonexistent case law) and ECLI references that \"na controle niet traceerbaar bleken\" (proved untraceable on verification). The confidentiality limb of the objection was rejected because she entered no confidential data into the tool."
+  },
+  "notes": "Decision of 27 July 2026, Raad van Discipline in het ressort 's-Hertogenbosch (mr. E. Loesberg presiding), on the official Dutch government tuchtrecht publication. Promoted from AIEL-GLOB-016 under the jurisdiction rule in INTENT.md: source language does not block admission. Operative language quoted in the original with English renderings. Measure: \"legt aan verweerster de maatregel van berisping\" (imposes on the respondent the measure of reprimand). Costs: \"veroordeelt verweerster tot betaling van de proceskosten van EUR 1.250,- aan de Nederlandse Orde van Advocaten\", split at 7.1 into \"EUR 750,-\" for the Netherlands Bar and \"EUR 500,- kosten van de Staat\". This is a costs order (proceskosten), not a fine; a third-party tracker recorded it as a monetary fine and that characterisation is not adopted. On AI attribution, the tool is NOT named for these matters: asked \"Welke AI-tool heeft u gebruikt in de hiervoor genoemde zaken?\" the advocate answered \"Ik heb niet kunnen achterhalen welke AI-tool ik heb gebruikt\" (I have not been able to determine which AI tool I used), and identified LegalPA only as \"de laatste tool die ik heb gebruikt\" (the last tool I used), cancelled the month before. An earlier draft of this record attributed the matter to LegalPA; that overstated the source and has been corrected. The decision records the defect as \"onjuiste verwijzingen naar (deels niet bestaande) rechtspraak\" (incorrect references to partly nonexistent case law) and ECLI references that \"na controle niet traceerbaar bleken\" (proved untraceable on verification). The confidentiality limb of the objection was rejected because she entered no confidential data into the tool.",
+  "source": "https://tuchtrecht.overheid.nl/zoeken/resultaat/uitspraak/2026/ECLI_NL_TADRSHE_2026_93",
+  "source_locator": "Beslissing in de zaak 26-379/DB/LI/D, ECLI:NL:TADRSHE:2026:93 (Raad van Discipline in het ressort 's-Hertogenbosch)",
+  "evidence_type": "primary record",
+  "verified": "2026-08-19",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "ai_incident_law_record_id": "AIEL-2026-065"
+}

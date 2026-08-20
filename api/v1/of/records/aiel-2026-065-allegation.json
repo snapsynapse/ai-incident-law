@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-065-allegation.json",
+  "id": "aiel-2026-065-allegation",
+  "text": "Acting in two tenancy matters outside her usual employment-law practice, the respondent advocate drafted conclusions of answer using an AI tool and filed them without checking their output. The filings contained incorrect references to partly nonexistent case law, including ECLI citations that proved untraceable on verification. The dean of the local bar obtained the filings and correspondence, questioned her, and lodged a dean's objection under article 46 Advocatenwet. Asked which AI tool she had used in these matters, the advocate answered that she had not been able to determine which tool it was; the last tool she had used was LegalPA, which she had cancelled the previous month. She stated she had not checked whether the decisions the tool referred to existed and had not been alert to the risk that AI tools invent case law.",
+  "asserted_by": "asserting party not identified in the indexed source fields",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-065#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-065-deployer.json"
+  ],
+  "ai_system_name": "Unnamed generative AI (admitted by counsel)",
+  "deployer": "Respondent advocate (name not published), Netherlands",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Cited Dutch judicial decisions, referenced by ECLI, that proved untraceable or partly nonexistent on verification, against the core values of expertise and integrity in article 10a Advocatenwet",
+  "mitigation_gap": "The advocate accepted instructions in an area of law in which she had neither training nor experience, treated AI output as she would search-engine results, and performed no verification of the cited decisions before filing. She was not alert to the risk that an AI tool would generate nonexistent case law, and she did not appear at the hearings in either matter.",
+  "reliance_or_harm": "The fabricated references reached filed conclusions of answer in two tenancy proceedings in which the advocate also failed to appear, and in one of which she raised no defence to the alternative claim. The tribunal declared the dean's objection unfounded as to the core value of confidentiality and well-founded on the remainder, imposed the measure of reprimand, and ordered payment of EUR 1,250 in costs of the proceedings, comprising EUR 750 to the Netherlands Bar and EUR 500 to the State, payable within four weeks of the decision becoming irrevocable.",
+  "ai_incident_law_record_id": "AIEL-2026-065",
+  "source": "https://tuchtrecht.overheid.nl/zoeken/resultaat/uitspraak/2026/ECLI_NL_TADRSHE_2026_93",
+  "source_locator": "Beslissing in de zaak 26-379/DB/LI/D, ECLI:NL:TADRSHE:2026:93 (Raad van Discipline in het ressort 's-Hertogenbosch)",
+  "evidence_type": "primary record",
+  "verified": "2026-08-19",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
+}
