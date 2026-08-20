@@ -10,11 +10,19 @@
 'use strict';
 
 import fs from 'node:fs';
+import os from 'node:os';
 import path from 'node:path';
 
 const ROOT = process.cwd();
 const BUCKETS = ['included', 'review', 'global'];
-const SNAPSHOT_GLOBS = ['.agents/skills', '.claude/skills'];
+// Repo-local agent tooling, plus the user-level skills directory: a maintainer
+// skill may be installed either beside the project or globally, and the snapshot
+// it carries goes stale the same way in both cases.
+const SNAPSHOT_ROOTS = [
+    path.join(ROOT, '.agents/skills'),
+    path.join(ROOT, '.claude/skills'),
+    path.join(os.homedir(), '.claude/skills'),
+];
 
 // `- \`included\`: 64 records` / `- \`review\`: 26 candidates`
 const COUNT_LINE = bucket =>
@@ -27,8 +35,7 @@ function datasetCounts() {
 
 function findSnapshotFiles() {
     const found = [];
-    for (const base of SNAPSHOT_GLOBS) {
-        const dir = path.join(ROOT, base);
+    for (const dir of SNAPSHOT_ROOTS) {
         let entries;
         try {
             entries = fs.readdirSync(dir, { withFileTypes: true });
@@ -59,7 +66,8 @@ let checked = 0;
 
 for (const file of files) {
     const text = fs.readFileSync(file, 'utf8');
-    const rel = path.relative(ROOT, file);
+    const inside = file.startsWith(ROOT + path.sep);
+    const rel = inside ? path.relative(ROOT, file) : file.replace(os.homedir(), '~');
     const present = BUCKETS.filter(b => COUNT_LINE(b).test(text));
     if (present.length === 0) continue; // skill carries no snapshot block
     checked++;
