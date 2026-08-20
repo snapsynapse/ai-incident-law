@@ -17,6 +17,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Six composite Authority identifiers that conflated separate courts, agencies, or procedural stages now resolve as Tombstones. Their source matters project distinct Authorities with explicit `heardBy` and `issuedBy` relations.
 
 ### Added
+- Source-rigor regression tests: no new record may cite an aggregator as its primary source (the four pre-rule records are held as a shrinking named baseline), and the discovery tracker may not appear as a source in any field of any bucket.
+- ROADMAP.md now tracks outstanding source gaps, access blockers, known coverage gaps, and curation cadence, so the backlog survives independently of maintainer tooling.
 - AIEL-2026-065 (Raad van Discipline 's-Hertogenbosch, ECLI:NL:TADRSHE:2026:93), promoted from the global bucket as the first record admitted on a non-English primary source.
 - AIEL-2026-064 (Fuselier v. Riscassi, S.D. Miss.), the corpus's first record admitted on undetermined AI attribution and its first involving passive exposure to an AI-generated search summary rather than use of an AI legal-research tool.
 - Curated `legal_graph` source projections for multi-body and unresolved matters, with validation for distinct Authority identity, proceeding and Determination references, and reviewed identifier retirement.

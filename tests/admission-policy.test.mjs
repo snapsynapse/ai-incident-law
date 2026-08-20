@@ -112,3 +112,62 @@ test('the global bucket holds candidate records, never admitted ones', () => {
         assert.notEqual(record.research_status, 'included');
     }
 });
+
+// --- Source rigor -----------------------------------------------------------
+// INTENT.md and the maintainer sourcing rule require `public_record_link` to
+// point at the issuing court, tribunal, or agency. Aggregators and commercial
+// reporters may corroborate as secondary sources but never carry a record.
+//
+// Four records predate that rule. They are listed here as an accepted baseline
+// so the backlog is visible and cannot silently grow: fixing one means deleting
+// its line, and admitting a new aggregator-primary record fails the build.
+// See ROADMAP.md, "Outstanding source gaps".
+const AGGREGATOR_PRIMARY_BASELINE = new Set([
+    'AIEL-2024-001', // canlii.org — blocked on a CanLII API key
+    'AIEL-2023-002', // law.justia.com
+    'AIEL-2024-003', // law.justia.com
+    'AIEL-2017-012', // law.justia.com
+]);
+
+const AGGREGATOR_HOSTS = [
+    'damiencharlotin.com', 'websitedc.s3.amazonaws.com', 'canlii.org',
+    'indiankanoon.org', 'justia.com', 'casetext.com', 'scholar.google.com',
+];
+
+test('no new record cites an aggregator as its primary source', () => {
+    const offenders = included
+        .filter(r => AGGREGATOR_HOSTS.some(h => (r.public_record_link || '').includes(h)))
+        .map(r => r.error_id);
+    const added = offenders.filter(id => !AGGREGATOR_PRIMARY_BASELINE.has(id));
+    assert.deepEqual(
+        added,
+        [],
+        `${added.join(', ')} cite an aggregator as public_record_link. Records must cite the ` +
+        'issuing court, tribunal, or agency; aggregators corroborate as secondary sources only.'
+    );
+    const fixed = [...AGGREGATOR_PRIMARY_BASELINE].filter(id => !offenders.includes(id));
+    assert.deepEqual(
+        fixed,
+        [],
+        `${fixed.join(', ')} no longer cite an aggregator. Remove them from ` +
+        'AGGREGATOR_PRIMARY_BASELINE so the baseline keeps shrinking.'
+    );
+});
+
+test('the discovery tracker never appears as a source anywhere', () => {
+    // Charlotin's index is a discovery index only. This was a 30-record backlog
+    // as of the v8 sweep and is now clear; the test keeps it that way.
+    const TRACKER = /damiencharlotin\.com|websitedc\.s3/i;
+    const fields = ['public_record_link', 'secondary_source_links', 'best_available_sources'];
+    for (const bucket of ['included', 'review', 'global']) {
+        for (const record of data.datasets[bucket].records) {
+            for (const field of fields) {
+                assert.ok(
+                    !TRACKER.test(record[field] || ''),
+                    `${record.error_id || record.candidate_id}.${field} cites the discovery ` +
+                    'tracker. Cite the issuing body instead, or record the sourcing gap.'
+                );
+            }
+        }
+    }
+});

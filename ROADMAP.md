@@ -20,17 +20,85 @@ Current dataset buckets:
 - Represent common-law duties and remedial Obligations recognized or imposed by adjudicative Determinations
 - Add legal identifier crosswalks after the procedural projection is source-complete
 
-### 1. Tighten dataset inclusion discipline
+### 1. Tighten dataset inclusion discipline — done 2026-08-19
 
-- Define sharper admission criteria for what counts as an AI-related incident with legal visibility
-- Distinguish clearly between direct legal proceedings, regulatory actions, and reliable review-queue candidates
-- Document exclusion rules for adjacent but out-of-scope algorithmic controversy
+Three questions that had been resolved case by case each sweep are now settled rules in
+INTENT.md, documented for contributors on the public methodology page, and enforced by
+`npm run test:admission-policy`:
+
+- Outcome valence: a matter is admitted on the established AI-attributable defect, not on
+  the severity of the consequence. Rulings that decline to sanction or exclude are admissible.
+- AI attribution: criterion 1 is satisfied when the primary source itself discusses AI in
+  connection with the defect, bounded by requiring that discussion to be in the source and
+  that no competing non-AI mechanism is established.
+- Jurisdiction and language: `global` is review for non-US matters, a queue rather than a
+  destination; jurisdiction is not a criterion and source language does not block admission.
+
+Exclusion rules for adjacent controversy remain as they were in INTENT.md "Out of scope".
 
 ### 2. Improve source rigor
 
 - Prefer primary public records where they exist
 - Add archived or stable source locations where practical
 - Reduce dependency on secondary reporting for records that can be upgraded to primary-source status
+
+#### Outstanding source gaps
+
+Tracked here rather than in maintainer tooling so they survive without it. Verified 2026-08-19.
+
+**Aggregator-primary backlog (4 records).** These cite an aggregator in `public_record_link`,
+which the sourcing rule bars. `npm run test:admission-policy` holds them as a named baseline
+that can shrink but not grow, so a new one fails the build:
+
+| Record | Aggregator | Route to an original |
+|---|---|---|
+| AIEL-2024-001 | canlii.org | Needs a CanLII API key |
+| AIEL-2023-002 | law.justia.com | S.D.N.Y. — resolvable through RECAP |
+| AIEL-2024-003 | law.justia.com | 2d Cir. — resolvable through the circuit's own site or govinfo |
+| AIEL-2017-012 | law.justia.com | Arkansas Supreme Court — check the court's own opinion archive |
+
+The larger backlog this replaced is clear: no record in any bucket now cites the discovery
+tracker as a source, in any field. A regression test keeps it that way.
+
+**Blocked by access, not by effort.** Two are outside what automated retrieval can reach:
+
+- A free **CanLII API key** would unblock AIEL-2024-001, AIEL-GLOB-015, AIEL-GLOB-017 and
+  AIEL-GLOB-019, and every future Canadian record. CanLII serves HTTP 403 behind a CAPTCHA
+  to all scripted access.
+- **SAFLII** serves HTTP 403 on every path, so South African matters are browser-only. This
+  alone holds AIEL-GLOB-018 and the M J Molawa candidate. There is no API alternative.
+
+**Candidates held on sourcing alone**, each admissible in principle under the current
+criteria: AIEL-CAND-026 (NYSCEF returns 403; New York trial level has no automated route),
+AIEL-CAND-027 (New York Official Reports lag Westlaw by weeks — re-check the slip-opinion
+index rather than treating it as permanently unsourced), AIEL-CAND-028 (courts.wa.gov),
+AIEL-CAND-029 (PACER), AIEL-GLOB-018, AIEL-GLOB-019, AIEL-GLOB-020.
+
+#### Known coverage gaps
+
+Named by a quarterly cross-category probe on 2026-08-16 and not yet worked. None had an
+admissible primary source at the time; all are worth a targeted pass:
+
+- **Character.AI is absent from the corpus entirely**, despite the January 2026
+  Google/Character.AI settlements. The most conspicuous gap.
+- Florida AG v. OpenAI Global (FDUTPA, filed 2026-06-01); Winters v. OpenAI (SF Superior,
+  ChatGPT Health); Gavalas v. Google (N.D. Cal., Gemini wrongful death); three Grok deepfake
+  matters.
+- **Brazil is unrepresented.** A TJSP appeal surfaced on 2026-08-19 with a fine and a bar
+  referral, but its PDF is image-only and needs the OCR path in item 5 below.
+- Under-represented categories: deepfake civil suits, generative-AI defamation past the
+  Walters v. OpenAI posture, AV wrongful-death actions, AI companion harm, healthcare AI
+  denial, AI content-moderation suits.
+
+#### Curation cadence
+
+The corpus is curated, not crawled. Court and agency filings lag public indexing by 7 to 21
+days, so a sweep run immediately after the previous one mostly re-reads what it already saw.
+
+- Next incident sweep: on or after **2026-09-02**, to catch matters filed 16 to 19 August
+  that had not indexed when the last sweep ran.
+- Next cross-category probe (non-hallucination categories): around **November 2026**. These
+  categories reliably return leads rather than admissible records; budget them as such.
 
 ### 3. Stabilize schema expectations
 
