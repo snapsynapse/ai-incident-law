@@ -31,11 +31,11 @@
   "error_type": "hallucinated authority",
   "canonical_source_conflicted": "Dozens of nonexistent or materially altered case citations and quotations whose meaning had been changed, against counsel's certification duties under Fed. R. Civ. P. 11(b)",
   "mitigation_gap": "Counsel adopted a mistaken belief that a closed-system retrieval setup could not hallucinate and therefore performed no verification of AI output, despite having previously heard of an attorney sanctioned for the same conduct and despite numerous Ninth Circuit courts having issued or threatened comparable sanctions before her filings.",
-  "reliance_or_harm": "The court found the conduct akin to contempt, imposed a $3,000 personal sanction on counsel payable within 21 days, and required her to provide a copy of the order to her client and certify that she had done so. Counsel had earlier been required to withdraw or amend the affected motions and ceased using AI to generate quotations or citations for filings.",
+  "reliance_or_harm": "The court found the conduct akin to contempt, imposed a $3,000 personal sanction on counsel payable within 21 days, and required her to provide a copy of the order to her client and certify that she had done so. Counsel had earlier been required to withdraw or amend the affected motions and ceased using AI to generate quotations or citations for filings. On 18 August 2026 the court granted Defendants' Daubert motions, excluding both of Plaintiff's remaining experts. It found that multiple hallucinated citations to academic articles in Dr. Gabriel Holguin's report irreparably undermined his credibility and that Plaintiff had not met her burden to show the opinion was based on sufficient facts or data, citing among other things the AI-generated list of materials supposedly relied upon and Dr. Holguin's lack of diligence. The court then granted summary judgment and dismissed Plaintiff's remaining claims with prejudice.",
   "ai_incident_law_record_id": "AIEL-2026-062",
   "source": "https://storage.courtlistener.com/recap/gov.uscourts.wawd.339711/gov.uscourts.wawd.339711.265.0.pdf",
   "source_locator": "LeDoux v. Outliers, Inc., No. 3:24-cv-05808-TMC (W.D. Wash.), ECF No. 265",
   "evidence_type": "primary record",
-  "verified": "2026-08-16",
+  "verified": "2026-08-19",
   "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

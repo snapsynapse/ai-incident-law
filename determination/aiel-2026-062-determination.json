@@ -34,16 +34,16 @@
   "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2026-062-allegation.json"
   ],
-  "disposition": "confirmed",
+  "disposition": "dismissed",
   "remedy": {
-    "status": "sanctioned",
-    "notes": "Order on Sanctions by Judge Tiffany M. Cartwright, discharging the 4 February 2026 show-cause order at ECF No. 209. The native order was resolved through the CourtListener RECAP API using the PACER case id (wawd.339711) and the filepath_local value for entry 265, then verified against caption, docket number, entry number and 07/24/26 filing stamp. The closed-system belief is recorded by the court as counsel's explanation, not as a finding that such systems cannot hallucinate."
+    "status": "sanctioned; case dismissed with prejudice",
+    "notes": "Order on Sanctions by Judge Tiffany M. Cartwright, discharging the 4 February 2026 show-cause order at ECF No. 209. The native order was resolved through the CourtListener RECAP API using the PACER case id (wawd.339711) and the filepath_local value for entry 265, then verified against caption, docket number, entry number and 07/24/26 filing stamp. The closed-system belief is recorded by the court as counsel's explanation, not as a finding that such systems cannot hallucinate. Updated 19 August 2026 for the Order Granting Defendants' Motion for Summary Judgment at ECF No. 269, filed 18 August 2026, resolved through the RECAP path for entry 269 and byte-identical to the tracker's copy at 304,135 bytes. That order extends the incident from counsel-side to expert-side AI use: the fabricated citations reached an expert report, the expert was excluded, and the case ended. It is the corpus's first record in which AI-hallucinated authority is the stated basis for excluding an expert witness."
   },
-  "notes": "Order on Sanctions by Judge Tiffany M. Cartwright, discharging the 4 February 2026 show-cause order at ECF No. 209. The native order was resolved through the CourtListener RECAP API using the PACER case id (wawd.339711) and the filepath_local value for entry 265, then verified against caption, docket number, entry number and 07/24/26 filing stamp. The closed-system belief is recorded by the court as counsel's explanation, not as a finding that such systems cannot hallucinate.",
+  "notes": "Order on Sanctions by Judge Tiffany M. Cartwright, discharging the 4 February 2026 show-cause order at ECF No. 209. The native order was resolved through the CourtListener RECAP API using the PACER case id (wawd.339711) and the filepath_local value for entry 265, then verified against caption, docket number, entry number and 07/24/26 filing stamp. The closed-system belief is recorded by the court as counsel's explanation, not as a finding that such systems cannot hallucinate. Updated 19 August 2026 for the Order Granting Defendants' Motion for Summary Judgment at ECF No. 269, filed 18 August 2026, resolved through the RECAP path for entry 269 and byte-identical to the tracker's copy at 304,135 bytes. That order extends the incident from counsel-side to expert-side AI use: the fabricated citations reached an expert report, the expert was excluded, and the case ended. It is the corpus's first record in which AI-hallucinated authority is the stated basis for excluding an expert witness.",
   "source": "https://storage.courtlistener.com/recap/gov.uscourts.wawd.339711/gov.uscourts.wawd.339711.265.0.pdf",
   "source_locator": "LeDoux v. Outliers, Inc., No. 3:24-cv-05808-TMC (W.D. Wash.), ECF No. 265",
   "evidence_type": "primary record",
-  "verified": "2026-08-16",
+  "verified": "2026-08-19",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2026-062",
   "anchors": [

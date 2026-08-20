@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/context.jsonld",
-  "generated": "2026-08-16",
+  "generated": "2026-08-19",
   "proceedings": [
     {
       "@context": [
@@ -3718,11 +3718,11 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.wawd.339711/gov.uscourts.wawd.339711.265.0.pdf",
       "source_locator": "LeDoux v. Outliers, Inc., No. 3:24-cv-05808-TMC (W.D. Wash.), ECF No. 265",
       "evidence_type": "primary record",
-      "verified": "2026-08-16",
+      "verified": "2026-08-19",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2026-062",
       "matter_type": "sanctions order (Rule 11, sua sponte)",
-      "filing_status": "sanctioned"
+      "filing_status": "sanctioned; case dismissed with prejudice"
     },
     {
       "@context": [
