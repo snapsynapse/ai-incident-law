@@ -1,506 +1,506 @@
 {
   "actor_roles": {
     "roles": {
-      "deployer": 62
+      "deployer": 63
     }
   },
   "adopter": "https://aiincidentlaw.org/",
   "applies_to": "obligation-first >=0.6.0 <0.7.0",
   "contexts": {
     "[\"https://obligationfirst.org/v1/context.jsonld\",{\"ail\":\"https://aiincidentlaw.org/vocab/\",\"id\":\"ail:id\",\"ai_incident_law_record_id\":\"ail:recordId\",\"matter_type\":\"ail:matterType\",\"filing_status\":\"ail:filingStatus\",\"ai_system_name\":\"ail:aiSystemName\",\"deployer\":\"ail:deployer\",\"domain\":\"ail:domain\",\"error_type\":\"ail:errorType\",\"canonical_source_conflicted\":\"ail:canonicalSourceConflicted\",\"mitigation_gap\":\"ail:mitigationGap\",\"reliance_or_harm\":\"ail:relianceOrHarm\",\"procedural_stage\":\"ail:proceduralStage\"}]": 6,
-    "[\"https://obligationfirst.org/v1/context.jsonld\",{\"ail\":\"https://aiincidentlaw.org/vocab/\",\"id\":\"ail:id\",\"ai_incident_law_record_id\":\"ail:recordId\",\"matter_type\":\"ail:matterType\",\"filing_status\":\"ail:filingStatus\",\"ai_system_name\":\"ail:aiSystemName\",\"deployer\":\"ail:deployer\",\"domain\":\"ail:domain\",\"error_type\":\"ail:errorType\",\"canonical_source_conflicted\":\"ail:canonicalSourceConflicted\",\"mitigation_gap\":\"ail:mitigationGap\",\"reliance_or_harm\":\"ail:relianceOrHarm\"}]": 301
+    "[\"https://obligationfirst.org/v1/context.jsonld\",{\"ail\":\"https://aiincidentlaw.org/vocab/\",\"id\":\"ail:id\",\"ai_incident_law_record_id\":\"ail:recordId\",\"matter_type\":\"ail:matterType\",\"filing_status\":\"ail:filingStatus\",\"ai_system_name\":\"ail:aiSystemName\",\"deployer\":\"ail:deployer\",\"domain\":\"ail:domain\",\"error_type\":\"ail:errorType\",\"canonical_source_conflicted\":\"ail:canonicalSourceConflicted\",\"mitigation_gap\":\"ail:mitigationGap\",\"reliance_or_harm\":\"ail:relianceOrHarm\"}]": 306
   },
   "field_coverage": {
     "of:Allegation": {
       "@context": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "@id": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "@type": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "ai_incident_law_record_id": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "ai_system_name": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "asserted_by": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "asserted_by_adopter": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "canonical_source_conflicted": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "deployer": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "domain": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "error_type": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "evidence_type": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "id": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "mitigation_gap": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "related_to": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "related_to_party": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "reliance_or_harm": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "source": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "source_citation": {
-        "missing": 57,
+        "missing": 58,
         "populated": 5,
         "present": 5
       },
       "source_locator": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "text": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "verified": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       }
     },
     "of:Authority": {
       "@context": {
         "missing": 0,
-        "populated": 54,
-        "present": 54
+        "populated": 55,
+        "present": 55
       },
       "@id": {
         "missing": 0,
-        "populated": 54,
-        "present": 54
+        "populated": 55,
+        "present": 55
       },
       "@type": {
         "missing": 0,
-        "populated": 54,
-        "present": 54
+        "populated": 55,
+        "present": 55
       },
       "asserted_by_adopter": {
         "missing": 0,
-        "populated": 54,
-        "present": 54
+        "populated": 55,
+        "present": 55
       },
       "evidence_type": {
         "missing": 0,
-        "populated": 54,
-        "present": 54
+        "populated": 55,
+        "present": 55
       },
       "id": {
         "missing": 0,
-        "populated": 54,
-        "present": 54
+        "populated": 55,
+        "present": 55
       },
       "institutional_scope": {
         "missing": 0,
-        "populated": 54,
-        "present": 54
+        "populated": 55,
+        "present": 55
       },
       "jurisdiction": {
         "missing": 0,
-        "populated": 54,
-        "present": 54
+        "populated": 55,
+        "present": 55
       },
       "organization": {
         "missing": 0,
-        "populated": 54,
-        "present": 54
+        "populated": 55,
+        "present": 55
       },
       "sameAs": {
-        "missing": 19,
+        "missing": 20,
         "populated": 35,
         "present": 35
       },
       "source": {
         "missing": 0,
-        "populated": 54,
-        "present": 54
+        "populated": 55,
+        "present": 55
       },
       "source_citation": {
-        "missing": 49,
+        "missing": 50,
         "populated": 5,
         "present": 5
       },
       "source_locator": {
         "missing": 0,
-        "populated": 54,
-        "present": 54
+        "populated": 55,
+        "present": 55
       },
       "territorial_scope": {
         "missing": 2,
-        "populated": 52,
-        "present": 52
+        "populated": 53,
+        "present": 53
       },
       "verified": {
         "missing": 0,
-        "populated": 54,
-        "present": 54
+        "populated": 55,
+        "present": 55
       }
     },
     "of:Determination": {
       "@context": {
         "missing": 0,
-        "populated": 57,
-        "present": 57
+        "populated": 58,
+        "present": 58
       },
       "@id": {
         "missing": 0,
-        "populated": 57,
-        "present": 57
+        "populated": 58,
+        "present": 58
       },
       "@type": {
         "missing": 0,
-        "populated": 57,
-        "present": 57
+        "populated": 58,
+        "present": 58
       },
       "ai_incident_law_record_id": {
         "missing": 0,
-        "populated": 57,
-        "present": 57
+        "populated": 58,
+        "present": 58
       },
       "anchors": {
-        "missing": 0,
+        "missing": 1,
         "populated": 57,
         "present": 57
       },
       "asserted_by_adopter": {
         "missing": 0,
-        "populated": 57,
-        "present": 57
+        "populated": 58,
+        "present": 58
       },
       "decides": {
         "missing": 0,
-        "populated": 57,
-        "present": 57
+        "populated": 58,
+        "present": 58
       },
       "describesSameEntityAs": {
-        "missing": 56,
+        "missing": 57,
         "populated": 1,
         "present": 1
       },
       "disposition": {
         "missing": 0,
-        "populated": 57,
-        "present": 57
+        "populated": 58,
+        "present": 58
       },
       "evidence_type": {
         "missing": 0,
-        "populated": 57,
-        "present": 57
+        "populated": 58,
+        "present": 58
       },
       "id": {
         "missing": 0,
-        "populated": 57,
-        "present": 57
+        "populated": 58,
+        "present": 58
       },
       "issued_date": {
-        "missing": 54,
+        "missing": 55,
         "populated": 3,
         "present": 3
       },
       "issuedBy": {
         "missing": 0,
-        "populated": 57,
-        "present": 57
+        "populated": 58,
+        "present": 58
       },
       "jurisdiction": {
         "missing": 0,
-        "populated": 57,
-        "present": 57
+        "populated": 58,
+        "present": 58
       },
       "neutral_citation": {
-        "missing": 52,
+        "missing": 53,
         "populated": 5,
         "present": 5
       },
       "notes": {
         "missing": 0,
-        "populated": 57,
-        "present": 57
+        "populated": 58,
+        "present": 58
       },
       "remedy": {
         "missing": 0,
-        "populated": 57,
-        "present": 57
+        "populated": 58,
+        "present": 58
       },
       "source": {
         "missing": 0,
-        "populated": 57,
-        "present": 57
+        "populated": 58,
+        "present": 58
       },
       "source_citation": {
-        "missing": 52,
+        "missing": 53,
         "populated": 5,
         "present": 5
       },
       "source_locator": {
         "missing": 0,
-        "populated": 57,
-        "present": 57
+        "populated": 58,
+        "present": 58
       },
       "verified": {
         "missing": 0,
-        "populated": 57,
-        "present": 57
+        "populated": 58,
+        "present": 58
       }
     },
     "of:Party": {
       "@context": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "@id": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "@type": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "asserted_by_adopter": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "evidence_type": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "id": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "name": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "party_kind": {
-        "explicit_unknown": 46,
+        "explicit_unknown": 47,
         "missing": 0,
         "populated": 16,
-        "present": 62
+        "present": 63
       },
       "roles": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "source": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "source_citation": {
-        "missing": 57,
+        "missing": 58,
         "populated": 5,
         "present": 5
       },
       "source_locator": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "verified": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       }
     },
     "of:Proceeding": {
       "@context": {
         "missing": 0,
-        "populated": 64,
-        "present": 64
+        "populated": 65,
+        "present": 65
       },
       "@id": {
         "missing": 0,
-        "populated": 64,
-        "present": 64
+        "populated": 65,
+        "present": 65
       },
       "@type": {
         "missing": 0,
-        "populated": 64,
-        "present": 64
+        "populated": 65,
+        "present": 65
       },
       "ai_incident_law_record_id": {
         "missing": 0,
-        "populated": 64,
-        "present": 64
+        "populated": 65,
+        "present": 65
       },
       "asserted_by_adopter": {
         "missing": 0,
-        "populated": 64,
-        "present": 64
+        "populated": 65,
+        "present": 65
       },
       "describesSameEntityAs": {
-        "missing": 63,
+        "missing": 64,
         "populated": 1,
         "present": 1
       },
       "evidence_type": {
         "missing": 0,
-        "populated": 64,
-        "present": 64
+        "populated": 65,
+        "present": 65
       },
       "filed_date": {
         "missing": 0,
-        "populated": 64,
-        "present": 64
+        "populated": 65,
+        "present": 65
       },
       "filing_status": {
         "missing": 0,
-        "populated": 64,
-        "present": 64
+        "populated": 65,
+        "present": 65
       },
       "hasAllegation": {
         "missing": 0,
-        "populated": 64,
-        "present": 64
+        "populated": 65,
+        "present": 65
       },
       "hasDetermination": {
         "empty_array": 7,
         "missing": 0,
-        "populated": 57,
-        "present": 64
+        "populated": 58,
+        "present": 65
       },
       "heardBy": {
         "missing": 0,
-        "populated": 64,
-        "present": 64
+        "populated": 65,
+        "present": 65
       },
       "id": {
         "missing": 0,
-        "populated": 64,
-        "present": 64
+        "populated": 65,
+        "present": 65
       },
       "institutional_scope": {
         "missing": 0,
-        "populated": 64,
-        "present": 64
+        "populated": 65,
+        "present": 65
       },
       "jurisdiction": {
         "missing": 0,
-        "populated": 64,
-        "present": 64
+        "populated": 65,
+        "present": 65
       },
       "matter_type": {
         "missing": 0,
-        "populated": 64,
-        "present": 64
+        "populated": 65,
+        "present": 65
       },
       "neutral_citation": {
-        "missing": 59,
+        "missing": 60,
         "populated": 5,
         "present": 5
       },
       "parties": {
         "missing": 0,
-        "populated": 64,
-        "present": 64
+        "populated": 65,
+        "present": 65
       },
       "procedural_stage": {
-        "missing": 58,
+        "missing": 59,
         "populated": 6,
         "present": 6
       },
       "source": {
         "missing": 0,
-        "populated": 64,
-        "present": 64
+        "populated": 65,
+        "present": 65
       },
       "source_citation": {
-        "missing": 59,
+        "missing": 60,
         "populated": 5,
         "present": 5
       },
       "source_locator": {
         "missing": 0,
-        "populated": 64,
-        "present": 64
+        "populated": 65,
+        "present": 65
       },
       "territorial_scope": {
         "missing": 2,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "title": {
         "missing": 0,
-        "populated": 64,
-        "present": 64
+        "populated": 65,
+        "present": 65
       },
       "verified": {
         "missing": 0,
-        "populated": 64,
-        "present": 64
+        "populated": 65,
+        "present": 65
       }
     },
     "of:Tombstone": {
@@ -574,29 +574,29 @@
   "fingerprint_version": 1,
   "id_inventory": {
     "of:Allegation": {
-      "count": 62,
-      "file_names_sha256": "4f8e04d461f1e4a9db6926f8ea76450ef9c5d87e235a5811206e42dcb6303123",
-      "ids_sha256": "57208211fc7298e42bdb2c07a2c5995f01b1e30cd4ca857b3e74fff46d1cacb9"
+      "count": 63,
+      "file_names_sha256": "30bb178a735f3df6a3c44821693cf0db0c625461aa0933529402fd5a6a89519f",
+      "ids_sha256": "8c0e7e1822211eb53e7bbfaf81ea1b81a5194bbba8d7e27999cf06ed6f9c20a8"
     },
     "of:Authority": {
-      "count": 54,
-      "file_names_sha256": "7edf33388d4df2f092ea45bf3a24c2fcbf6eb3009a29e08a197ee243df9da78e",
-      "ids_sha256": "f538a0417297ae8775a264ec3c2ea4ea5b18b4df6ffddfec2181e2db56ea5436"
+      "count": 55,
+      "file_names_sha256": "f94183e778d8d9dfbc0972298df7c4e6ca2fdc74d1b7c79665835f3d3e1c7b42",
+      "ids_sha256": "6e79dec72fe06a977485419f37aeb14dea3c523c8c46eb5b7d3692b0e12c657b"
     },
     "of:Determination": {
-      "count": 57,
-      "file_names_sha256": "08fd71246cc1de3beba7bbdafba31ced224aadd755824188f52f07b05143554b",
-      "ids_sha256": "d76adffd911b17a7bed067ebe1ecb15cfb8925b32ba9b780aa272f0876500298"
+      "count": 58,
+      "file_names_sha256": "e0747942b83a64c9e811bdaad3a41f2314e0b7f7b0877d03413a602491f9657d",
+      "ids_sha256": "37703e1139144bf64e412d8533f9d637351ebc49173eb3632cb090f5ea6c7638"
     },
     "of:Party": {
-      "count": 62,
-      "file_names_sha256": "fce0f98431af05893607a9ea5933ab456b0ed75bf733a8bd9b14e4edb17bf9ca",
-      "ids_sha256": "df163cdfc03219f689ae2e866090f1fe9d2c3f79243ec2ec41423526859b4db6"
+      "count": 63,
+      "file_names_sha256": "a74470b31cde128f2e5dfee8c1b1e2d188526fcb4ef4608fe38393b32a75f00c",
+      "ids_sha256": "74dc5bddb2a9a6742d168233a54142967e39f1fda60d4224a857530a4c70c04b"
     },
     "of:Proceeding": {
-      "count": 64,
-      "file_names_sha256": "d67f20411dc11d29da39e4eba59747c81f2551e9dc1198d279a0ef97000bb050",
-      "ids_sha256": "0f71d473e9a5e58a9d58efa198e11f64b4a5194870ce92ab3e0c402be72c6085"
+      "count": 65,
+      "file_names_sha256": "e74536cc4d456e488caf477af2d89da3bd5d80a043c1db6d6f952cb0f26342b4",
+      "ids_sha256": "10b4c318955c6ceeda26dc9add1df934fdbd6c713912976491bbfe9ab8a9d73b"
     },
     "of:Tombstone": {
       "count": 8,
@@ -605,8 +605,8 @@
     }
   },
   "jurisdiction_shapes": {
-    "missing": 132,
-    "object:of:Jurisdiction": 175
+    "missing": 134,
+    "object:of:Jurisdiction": 178
   },
   "naming_profile_entities": [
     "Allegation",
@@ -619,14 +619,14 @@
   "naming_profile_version": "2.0.0",
   "records": {
     "by_type": {
-      "of:Allegation": 62,
-      "of:Authority": 54,
-      "of:Determination": 57,
-      "of:Party": 62,
-      "of:Proceeding": 64,
+      "of:Allegation": 63,
+      "of:Authority": 55,
+      "of:Determination": 58,
+      "of:Party": 63,
+      "of:Proceeding": 65,
       "of:Tombstone": 8
     },
-    "total": 307
+    "total": 312
   },
   "relations": {
     "anchors": {
@@ -637,10 +637,10 @@
       }
     },
     "decides": {
-      "edges": 57,
-      "sources": 57,
+      "edges": 58,
+      "sources": 58,
       "target_hosts": {
-        "aiincidentlaw.org": 57
+        "aiincidentlaw.org": 58
       }
     },
     "describesSameEntityAs": {
@@ -651,45 +651,45 @@
       }
     },
     "hasAllegation": {
-      "edges": 64,
-      "sources": 64,
+      "edges": 65,
+      "sources": 65,
       "target_hosts": {
-        "aiincidentlaw.org": 64
+        "aiincidentlaw.org": 65
       }
     },
     "hasDetermination": {
-      "edges": 57,
-      "sources": 57,
+      "edges": 58,
+      "sources": 58,
       "target_hosts": {
-        "aiincidentlaw.org": 57
+        "aiincidentlaw.org": 58
       }
     },
     "heardBy": {
-      "edges": 64,
-      "sources": 64,
+      "edges": 65,
+      "sources": 65,
       "target_hosts": {
-        "aiincidentlaw.org": 64
+        "aiincidentlaw.org": 65
       }
     },
     "issuedBy": {
-      "edges": 57,
-      "sources": 57,
+      "edges": 58,
+      "sources": 58,
       "target_hosts": {
-        "aiincidentlaw.org": 57
+        "aiincidentlaw.org": 58
       }
     },
     "parties": {
-      "edges": 64,
-      "sources": 64,
+      "edges": 65,
+      "sources": 65,
       "target_hosts": {
-        "aiincidentlaw.org": 64
+        "aiincidentlaw.org": 65
       }
     },
     "related_to_party": {
-      "edges": 62,
-      "sources": 62,
+      "edges": 63,
+      "sources": 63,
       "target_hosts": {
-        "aiincidentlaw.org": 62
+        "aiincidentlaw.org": 63
       }
     },
     "sameAs": {
@@ -702,14 +702,14 @@
   },
   "source_identity": {
     "ai_incident_law_record_id": {
-      "records": 191,
-      "unique_values": 62,
-      "values_sha256": "710810d93d6b1601ebcd0c2745e208e651f49b36446f323155b4e144ffa273e4"
+      "records": 194,
+      "unique_values": 63,
+      "values_sha256": "ecc4c17383d64520cf659928c8a0e277ee8708917028ceefe4a3dd5c8c65d4a1"
     },
     "id": {
-      "records": 307,
-      "unique_values": 307,
-      "values_sha256": "6d517e68adfd2776d5f5694c83b46d71d09f4bff283a599ff1462d0772d6afdc"
+      "records": 312,
+      "unique_values": 312,
+      "values_sha256": "9abacad9be91578af8aa131d3c751ee086ba2ca657a4f4ebd225d3de188ea4fd"
     }
   },
   "tombstones": {

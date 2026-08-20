@@ -60,7 +60,28 @@ Worked application of the rule:
 - **Admitted**: In re Bard Implanted Port Catheter Products Liability Litigation (D. Ariz.). Hallucinated citations were present in the expert report; the court found the expert's explanation adequate and denied the motion to exclude. The defect is established, so the non-exclusion is the record's outcome, not a reason to withhold the record.
 - **Not admitted**: Mullins v. Duquesne (W.D. Pa.). The court found the brief contained neither inaccurate, false, nor non-existent citations. Disclosed use of Claude plus an allegation that did not survive scrutiny is not an incident. The matter is retained in `review` as a citable limiting precedent and documented in `docs/methodology.html`; it is not expected to be promoted.
 
-This decision is distinct from, and does not resolve, the separate question of matters where **AI use itself** is not established because the tribunal expressly declined to determine it (AIEL-CAND-013, -014, -015, -028 and AIEL-GLOB-018). Those fail criterion 1 and are unaffected.
+This decision is distinct from the question of matters where **AI use itself** is not established, which is settled separately below.
+
+### Undetermined AI attribution
+
+Decided 2026-08-19. This refines criterion 1.
+
+Courts increasingly notice that a fabrication bears the hallmarks of AI while expressly declining to determine whether AI produced it, because attribution is unnecessary to the holding — fabricated authority is sanctionable either way. If the corpus required an affirmative AI finding, it would progressively blind itself to the most common judicial posture toward AI attribution precisely as that posture becomes dominant.
+
+Criterion 1 is therefore satisfied when **the primary source itself discusses AI in connection with the defect**, whether as a finding, an observation of hallmarks, a hedged surmise, or a party explanation the tribunal recounts without rejecting. Two conditions bound this:
+
+1. **The AI discussion must be in the primary source.** A third party's inference — a tracker tag, a news report, the corpus's own reading — is never a substitute. Where the source is silent on AI, there is no record to admit, however strong the fabricated-citation salience.
+2. **AI must remain a live, undisplaced explanation.** Where the primary source establishes a **non-AI mechanism** for the defect, the matter is not an AI incident even if the tribunal also noted AI hallmarks. Deliberate human fabrication that merely resembles AI output is ordinary litigation misconduct and belongs elsewhere.
+
+Records admitted on undetermined attribution carry the qualifier `(raised in the record; attribution not determined)` in `ai_system_name`, the tag `attribution-not-determined`, a `confidence_score` no higher than `medium`, and the tribunal's exact words quoted in `notes_on_resolution`. Their `error_description` and `reliance_or_harm` state the fabrication as the defect and must **not** assert that AI caused it.
+
+Worked application of the rule:
+
+- **Admitted**: Fuselier v. Riscassi (S.D. Miss.). Ordered to disclose his AI use, counsel explained that he had turned to Google web search and could not confirm the fictitious citation's source, saying he was "not certain it came from the AI preview" but that "it may have appeared there." The court recounted that account, admonished and warned him, and imposed no sanction. AI is raised in the record and remains undisplaced.
+- **Not admitted, competing mechanism**: Maxwell v. Michael (S.D. Ind.). The court agreed the fabricated authority "contains the hallmarks of generative AI hallucinations," but held that "[w]hether or not Plaintiff used AI, his conduct remains sanctionable, as it represents a deliberate intent to fabricate," and recorded the litigant's own account that he composed the fake citations himself. Deliberate human fabrication is the operative finding; the AI hallmarks are displaced by it.
+- **Not admitted, source silent**: H. C. v. Contreras (Cal. Ct. App.). A trial court copied a fictitious citation from counsel's brief into its ruling and was reversed. The opinion never mentions AI. The only AI link is a third party's inference, which criterion 1 does not accept.
+
+Matters awaiting sourcing rather than a policy call under this rule include AIEL-CAND-028 and AIEL-GLOB-018, where the tribunal's own AI language is established but no citable original has been reachable.
 
 Out of scope: speculative AI-risk commentary, AI ethics statements without legal or regulatory action attached, internal corporate disputes that have not surfaced publicly, and reputational controversy that has not produced a filing or formal action.
 
@@ -130,5 +151,6 @@ Next scheduled review: 2026-07-31 (Q3 start) or after first major scope challeng
 
 ## Changelog
 
+- 0.3.0 (2026-08-19): Adds the undetermined-attribution rule refining criterion 1. AI need not be affirmatively found; it is enough that the primary source itself discusses AI in connection with the defect, bounded by requiring the discussion to be in the source rather than inferred by a third party, and by excluding matters where the source establishes a competing non-AI mechanism. Admitted records carry an explicit attribution qualifier, tag, and confidence cap. Widening, so no dataset version bump is required.
 - 0.2.0 (2026-08-19): Adds the outcome-valence rule to record admission criteria. A matter is admitted on the established AI-attributable defect, not on the severity of the consequence, so rulings that decline to sanction or exclude are admissible; matters where AI was used but no defect was found are not. Bounded by requiring the defect to be established in the primary source to the same standard as AI use itself. Widening rather than narrowing, so no dataset version bump is required under the recalibration gate below.
 - 0.1.0 (2026-04-26): Initial INTENT. Codifies Regulation-vector positioning alongside EveryAILaw and PubLedge, public-record-only stewardship principle, admission criteria, refresh cadence, and steward responsibilities.

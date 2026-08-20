@@ -2980,6 +2980,55 @@
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-064-determination.json",
+      "id": "aiel-2026-064-determination",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-mississippi.json"
+      ],
+      "jurisdiction": {
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Southern District of Mississippi"
+        ]
+      },
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-064-allegation.json"
+      ],
+      "disposition": "partial",
+      "remedy": {
+        "status": "admonished; no sanction imposed",
+        "notes": "Order of Chief District Judge Halil S. Ozerden, 22 May 2026, resolving the 1 May 2026 show-cause order at ECF No. 25. Admitted under the undetermined-attribution rule in INTENT.md: AI is raised in the primary source and remains undisplaced, but no tribunal finding attributes the citation to it. Counsel's own words, quoted by the court, are that he was \"not certain it came from the AI preview\" though \"it may have appeared there.\" The court itself made no attribution finding, observing only that \"[i]n the age of artificial intelligence, all attorneys must remember their obligations under Rule 11.\" The implicated mechanism is passive exposure to an AI-generated summary in general web search results rather than use of a legal-research AI tool, which distinguishes this record from the corpus's tool-attributed sanctions and connects it to AIEL-GLOB-013 on Google AI Overviews. Both orders resolved through the CourtListener RECAP API and verified against caption, docket number, entry number and filing stamp."
+      },
+      "notes": "Order of Chief District Judge Halil S. Ozerden, 22 May 2026, resolving the 1 May 2026 show-cause order at ECF No. 25. Admitted under the undetermined-attribution rule in INTENT.md: AI is raised in the primary source and remains undisplaced, but no tribunal finding attributes the citation to it. Counsel's own words, quoted by the court, are that he was \"not certain it came from the AI preview\" though \"it may have appeared there.\" The court itself made no attribution finding, observing only that \"[i]n the age of artificial intelligence, all attorneys must remember their obligations under Rule 11.\" The implicated mechanism is passive exposure to an AI-generated summary in general web search results rather than use of a legal-research AI tool, which distinguishes this record from the corpus's tool-attributed sanctions and connects it to AIEL-GLOB-013 on Google AI Overviews. Both orders resolved through the CourtListener RECAP API and verified against caption, docket number, entry number and filing stamp.",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.mssd.130336/gov.uscourts.mssd.130336.28.0.pdf",
+      "source_locator": "Fuselier v. Riscassi, No. 1:25-cv-268-HSO-BWR (S.D. Miss.), ECF No. 28",
+      "evidence_type": "primary record",
+      "verified": "2026-08-19",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "ai_incident_law_record_id": "AIEL-2026-064"
     }
   ]
 }

@@ -2152,6 +2152,33 @@ window.AIEL_DATA = {
           "obligation_first_anchors": [
             "https://everyailaw.com/obligation-category/human-oversight.json"
           ]
+        },
+        {
+          "error_id": "AIEL-2026-064",
+          "error_title": "S.D. Mississippi admonishes counsel over fictitious citation traced to an unconfirmed Google AI preview",
+          "ai_system_name": "Google AI preview (raised in the record; attribution not determined)",
+          "deployer": "Aaron Randall Rice, counsel for plaintiff Johnny Fuselier",
+          "domain": "legal services",
+          "error_type": "fabricated authority (AI attribution undetermined)",
+          "error_description": "In a 5 February 2026 response opposing summary judgment, counsel cited \"Rodriguez v. It's Just Lunch, Int'l, 2013 WL 12173926 (5th Cir. 2013),\" a case that does not exist: the reporter number belongs to Vasudevan Software, Inc. v. Microstrategy, Inc. and the caption to an unrelated S.D.N.Y. matter. The brief also attributed to Minnesota Voters Alliance v. Mansky language the Supreme Court did not use. Ordered to disclose whether and how he had used artificial intelligence, counsel explained that he had replaced his Westlaw subscription with Fastcase, was unfamiliar with it, and turned to Google web search to locate authority, intending to verify citations in Fastcase afterwards. He obtained the Rodriguez citation through those searches but was unable to confirm its source, stating he was \"not certain it came from the AI preview, simply because [he is] skeptical of AI responses and do[es] not use interactive AI tools for legal research,\" while acknowledging that because the citation refers to a nonexistent opinion \"it may have appeared there.\" The court recounted this account without rejecting it and did not determine the citation's origin.",
+          "canonical_source_conflicted": "A nonexistent Fifth Circuit decision and a quotation not present in Minnesota Voters Alliance v. Mansky, against counsel's certification duties under Fed. R. Civ. P. 11",
+          "mitigation_gap": "Counsel changed research platforms, was unfamiliar with the replacement, and used general web search as an interim substitute for a legal database. He planned to verify citations in Fastcase but, rushing to meet the filing deadline, did not verify this one. The record shows no verification step between retrieving a citation from web search results and filing it.",
+          "reliance_or_harm": "The fictitious citation and misattributed quotation reached a summary-judgment response brief in a First Amendment case. On review of counsel's show-cause response the court found an admonishment sufficient and imposed no sanction, citing the limited nature of the violations, counsel's ownership of the mistakes, and changes he had implemented to prevent recurrence. Counsel was admonished and warned that future conduct of this kind will result in sanctions.",
+          "public_matter_type": "show-cause order and admonishment (Rule 11)",
+          "public_matter_name": "Fuselier v. Riscassi, No. 1:25-cv-268-HSO-BWR (S.D. Miss.), ECF No. 28",
+          "filing_status": "admonished; no sanction imposed",
+          "jurisdiction": "U.S. District Court, Southern District of Mississippi",
+          "filing_date": "2026-05-22",
+          "error_date": "2026-02",
+          "public_record_link": "https://storage.courtlistener.com/recap/gov.uscourts.mssd.130336/gov.uscourts.mssd.130336.28.0.pdf",
+          "secondary_source_links": "https://storage.courtlistener.com/recap/gov.uscourts.mssd.130336/gov.uscourts.mssd.130336.25.0.pdf",
+          "confidence_score": "medium",
+          "notes_on_resolution": "Order of Chief District Judge Halil S. Ozerden, 22 May 2026, resolving the 1 May 2026 show-cause order at ECF No. 25. Admitted under the undetermined-attribution rule in INTENT.md: AI is raised in the primary source and remains undisplaced, but no tribunal finding attributes the citation to it. Counsel's own words, quoted by the court, are that he was \"not certain it came from the AI preview\" though \"it may have appeared there.\" The court itself made no attribution finding, observing only that \"[i]n the age of artificial intelligence, all attorneys must remember their obligations under Rule 11.\" The implicated mechanism is passive exposure to an AI-generated summary in general web search results rather than use of a legal-research AI tool, which distinguishes this record from the corpus's tool-attributed sanctions and connects it to AIEL-GLOB-013 on Google AI Overviews. Both orders resolved through the CourtListener RECAP API and verified against caption, docket number, entry number and filing stamp.",
+          "tags": "fabricated-citations; attribution-not-determined; google-ai-overviews; passive-ai-exposure; rule-11; admonishment; no-sanction; legal-services",
+          "source_quality": "primary record",
+          "research_status": "included",
+          "last_verified_date": "2026-08-19",
+          "needs_review": "no"
         }
       ]
     },
@@ -2271,28 +2298,19 @@ window.AIEL_DATA = {
           "candidate_id": "AIEL-CAND-013",
           "candidate_title": "Pro se litigant sanctioned $1,000 for fabricated case citations",
           "candidate_matter": "William C. Maxwell v. Dakota Michael, Officer, et al., No. 1:24-cv-01365-JRS-TAB (S.D. Ind.)",
-          "reason_for_review": "Gate 1 (AI) NOT established. Verified order (Doc 206, filed 2026-05-26, Mag. J. Baker) imposes a $1,000 Rule 11 sanction + $886.80 deposition costs for fabricating citations across 37+ instances, but the court EXPRESSLY declined to find AI use: \"Whether or not Plaintiff used AI, his conduct remains sanctionable.\" Plaintiff claimed he inserted fake-citation \"placeholders\"; court only noted the fabrications bear \"hallmarks of generative AI hallucinations.\" No named AI system. Charlotin caption was wrong (defendant is \"Dakota Michael, Officer, et al.,\" not \"Chelsey Smith\"); date-conflict resolved (March 2026 = underlying R&R adoption; sanction order = 2026-05-26).",
-          "next_verification_step": "Steward decision: does \"hallmarks of AI\" without a court finding satisfy admission gate 1, or exclude as non-AI fabrication? No further docket work needed — order is final on sanction.",
-          "best_available_sources": "",
-          "last_checked_date": "2026-06-01"
-        },
-        {
-          "candidate_id": "AIEL-CAND-014",
-          "candidate_title": "Order to show cause re attorney fabricated citation; AI use to be disclosed",
-          "candidate_matter": "Johnny Fuselier v. John S. Riscassi, No. 1:25-cv-00268-HSO-BWR (S.D. Miss.)",
-          "reason_for_review": "Not a sanction and AI not established. Verified document (Doc 25, filed 2026-05-01, Chief J. Ozerden) is an ORDER TO SHOW CAUSE directing attorney Aaron Randall Rice to explain a fictitious case (Rodriguez v. It’s Just Lunch) plus misquoted Mansky language, AND to disclose whether/how he used AI. AI use is unconfirmed (court is asking). Charlotin errors corrected: outcome is NOT \"Admonishment\" (no sanction imposed yet) and tools \"Fastcase; Google AI\" are NOT named in the order. Show-cause response was due 2026-05-15.",
-          "next_verification_step": "Pull S.D. Miss. docket for Rice’s show-cause response and any resulting sanction order; confirm whether AI was disclosed before considering inclusion.",
-          "best_available_sources": "",
-          "last_checked_date": "2026-06-01"
+          "reason_for_review": "Terminal disposition, decided 2026-08-19: **not admissible**, and not to be re-triaged. Under the undetermined-attribution rule in INTENT.md, AI must remain a live and undisplaced explanation, and here the primary source establishes a competing non-AI mechanism. The court did agree, in its own voice, that the \"fabricated authority contains the hallmarks of generative AI hallucinations,\" which would ordinarily satisfy the refined criterion 1. But it went on to hold that \"[w]hether or not Plaintiff used AI, his conduct remains sanctionable, as it represents a deliberate intent to fabricate citations and quotations,\" and recorded the litigant's own account that where he could not find a case with his desired holding he composed fake citations himself as \"placeholders,\" fabricating name, case number, citation, pin cite and court across at least 37 instances. Deliberate human fabrication is the operative finding; the AI hallmarks are displaced by it. Fabrication that merely resembles AI output is ordinary litigation misconduct. Verified against the primary order: Doc 206, filed 2026-05-26 (Mag. J. Baker), $1,000 Rule 11 sanction plus $886.80 deposition costs, resolved through RECAP.",
+          "next_verification_step": "None. This candidate is closed on the merits, not on sourcing. Retained as the corpus's worked example of the competing-mechanism bound, so that a future sweep does not re-admit it on the strength of the court's hallmarks language alone. Do not re-triage.",
+          "best_available_sources": "https://storage.courtlistener.com/recap/gov.uscourts.insd.216295/gov.uscourts.insd.216295.206.0.pdf",
+          "last_checked_date": "2026-08-19"
         },
         {
           "candidate_id": "AIEL-CAND-015",
           "candidate_title": "Appellate reversal: trial court relied on fictitious case from counsel brief",
           "candidate_matter": "H. C., a Minor v. Rudy Contreras, No. F089316 (Cal. Ct. App., 5th Dist.) (Super. Ct. No. 23CEFL03867)",
-          "reason_for_review": "Caption confirmed (H. C. v. Contreras; minor — keep initials). Verified unpublished opinion (filed 2026-05-28; Snauffer, J.) REVERSES and remands a DVPA restraining-order denial because the trial court copied a fictitious citation (Enrique M. v. Angelina V. (2005) 15 Cal.App.5th 788) from respondent counsel’s closing brief into its ruling, reassigning to a new judge. Gate 1 (AI) NOT established: the opinion never mentions AI and does not attribute the fabricated citation to any tool. Strong fabricated-citation salience, but AI link is inferential only (Charlotin lists \"Implied\").",
-          "next_verification_step": "Steward policy call: include fabricated-citation matters with no AI attribution, or require a named/found AI system? If AI attribution required, exclude.",
+          "reason_for_review": "Terminal disposition, decided 2026-08-19: **not admissible**, and not to be re-triaged. Under the undetermined-attribution rule in INTENT.md the AI discussion must appear in the primary source; a third party's inference is never a substitute. This opinion never mentions artificial intelligence and attributes the fabricated citation to no tool. The tracker's \"Implied\" tag is the only AI link and it carries no evidentiary weight. The underlying facts remain notable and are recorded here rather than dropped: the unpublished opinion (filed 2026-05-28; Snauffer, J.) reverses and remands a DVPA restraining-order denial because the trial court copied a fictitious citation, Enrique M. v. Angelina V. (2005) 15 Cal.App.5th 788, from respondent counsel's closing brief into its own ruling, and reassigns the matter to a different judge. That is proposed-order contamination reaching a judicial document, which is a pattern the corpus tracks — but without any AI reference in the source it is a fabricated-citation matter, not an AI incident.",
+          "next_verification_step": "None. Closed on the merits. Re-open only if a later published decision or disciplinary proceeding in the same matter introduces an AI attribution into the record. Do not re-triage.",
           "best_available_sources": "",
-          "last_checked_date": "2026-06-01"
+          "last_checked_date": "2026-08-19"
         },
         {
           "candidate_id": "AIEL-CAND-016",
@@ -2388,8 +2406,8 @@ window.AIEL_DATA = {
           "candidate_id": "AIEL-CAND-028",
           "candidate_title": "Washington appellate court surmises AI use behind a fabricated citation without making a finding",
           "candidate_matter": "In re Marriage of Muriel and Farris, No. 60903-7-II (Wash. Ct. App. Div. II, Aug. 18, 2026) (Lee, J.), unpublished opinion",
-          "reason_for_review": "Gate 1 fails by design, and the record is retained for that reason. The court confirmed that a case cited by the self-represented respondent does not exist and considered sanctions for a frivolous appeal under RAP 18.9(a), but attributed the citation to AI only by inference: \"We surmise that Jonathan used artificial intelligence (AI) to assist in writing his brief, which resulted in an 'AI hallucination.'\" A surmise is not a finding, so tracker-inferred AI use cannot carry the record. Gate 2 also fails: courts.wa.gov did not resolve from this network and a CourtListener opinion search for the parties in washctapp after 2026-08-01 returned zero results, so no court-hosted original was reachable.",
-          "next_verification_step": "This candidate is held pending the steward policy call recorded in the skill's open follow-up work on adjudicator-declines-to-find-AI matters, which now covers AIEL-GLOB-018, the M J Molawa candidate, the Delhi stay and this record. If that policy admits such matters under a distinct status or tag, retrieve the opinion from courts.wa.gov (Division II, No. 60903-7-II, filed 18 August 2026) and re-verify. Otherwise the record stays in review as a documented gate-1 failure.",
+          "reason_for_review": "Admissible in principle as of 2026-08-19; **blocked on gate 2 sourcing only**. Under the undetermined-attribution rule in INTENT.md, criterion 1 is satisfied because the court discusses AI in its own voice in connection with the defect: \"We surmise that Jonathan used artificial intelligence (AI) to assist in writing his brief, which resulted in an 'AI hallucination.'\" A surmise is not a finding, but the rule no longer requires one, and no competing non-AI mechanism is established in the opinion. The court confirmed the cited case does not exist and considered sanctions for a frivolous appeal under RAP 18.9(a). Gate 2 fails: courts.wa.gov did not resolve from this network and a CourtListener opinion search for the parties in washctapp after 2026-08-01 returned zero results, so no court-hosted original was reachable.",
+          "next_verification_step": "Retrieve the opinion from courts.wa.gov (Division II, No. 60903-7-II, filed 18 August 2026) and promote to `included` with the qualifier `(raised in the record; attribution not determined)`, the tag `attribution-not-determined`, `confidence_score` no higher than `medium`, and the court's surmise quoted in `notes_on_resolution`.",
           "best_available_sources": "",
           "last_checked_date": "2026-08-19"
         },
@@ -2689,12 +2707,12 @@ window.AIEL_DATA = {
           "candidate_matter": "FJL v TGO, Case No. 25-220239 (High Court of South Africa, Gauteng Division, Johannesburg, 31 July 2026)",
           "authority_type": "court",
           "legal_basis": "Superior Courts Act section 18(3)/(4) appeal; Judicial Service Commission Act referral jurisdiction; Legal Practice Act",
-          "reason_for_review": "Adjudicator-side matter that fails gate 1 deliberately and is held for its jurisprudential value rather than as a harm event. The acting judge's own judgment below contained discrepancies in cited judgments, including a quotation partly drawn from an unrelated case and conflicting citations for MEC for Health Eastern Cape v Mkhintha. The majority declined at paragraph 18 to enter the lists about AI, and the second judgment states at paragraph 37 that it makes no finding on whether AI was used, while recording that the material bears the hallmarks of AI hallucination. Gate 2 also fails on sourcing: SAFLII returns HTTP 403 to automated requests and no other court-hosted copy was reachable.",
-          "next_verification_step": "Retrieve the judgment from SAFLII in a browser (automated requests receive HTTP 403) and confirm the neutral citation. Then put the framing question to the steward: whether the corpus should carry adjudicator-side matters where fabricated authority in a judicial document is established but AI attribution is expressly not determined, alongside the existing M J Molawa candidate. The second judgment surveys judicial AI guidance in the UK, Canada, Australia and Nigeria and resolves the Judicial Conduct Committee versus Legal Practice Council referral question in favour of the LPC, which is the reason to keep it.",
+          "reason_for_review": "Admissible in principle as of 2026-08-19; **blocked on gate 2 sourcing only**. Under the undetermined-attribution rule in INTENT.md, criterion 1 is satisfied: the second judgment records at paragraph 37 that the material bears the hallmarks of AI hallucination while making no finding on whether AI was used, and the majority declined at paragraph 18 to enter the lists about AI. That is the tribunal's own AI language in connection with the defect, and no competing non-AI mechanism is established. The acting judge's judgment below contained discrepancies in cited judgments, including a quotation partly drawn from an unrelated case and conflicting citations for MEC for Health Eastern Cape v Mkhintha, and the matter was referred to the Legal Practice Council. Gate 2 fails on sourcing: SAFLII returns HTTP 403 to automated requests on every path and no other court-hosted copy was reachable, so South African judgments remain browser-only.",
+          "next_verification_step": "Obtain the judgment through a human browser pass on SAFLII or another South African court-hosted source, then promote with the attribution qualifier, the `attribution-not-determined` tag and the paragraph 18 and 37 language quoted. This record is adjudicator-side, so retain the distinction between the acting judge as the AI-implicated actor and the full bench as the reviewing tribunal.",
           "best_available_sources": "",
           "source_language": "English",
           "translation_status": "not needed",
-          "last_checked_date": "2026-08-16"
+          "last_checked_date": "2026-08-19"
         },
         {
           "candidate_id": "AIEL-GLOB-019",

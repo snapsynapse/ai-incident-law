@@ -2583,6 +2583,52 @@
       "evidence_type": "primary record",
       "verified": "2026-08-16",
       "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Authority",
+      "@id": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-mississippi.json",
+      "id": "u-s-district-court-southern-district-of-mississippi",
+      "organization": {
+        "@type": "gist:GovernmentOrganization",
+        "name": "U.S. District Court, Southern District of Mississippi"
+      },
+      "jurisdiction": {
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Southern District of Mississippi"
+        ]
+      },
+      "territorial_scope": [
+        "us"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, Southern District of Mississippi"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.mssd.130336/gov.uscourts.mssd.130336.28.0.pdf",
+      "source_locator": "Fuselier v. Riscassi, No. 1:25-cv-268-HSO-BWR (S.D. Miss.), ECF No. 28",
+      "evidence_type": "primary record",
+      "verified": "2026-08-19",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
     }
   ]
 }

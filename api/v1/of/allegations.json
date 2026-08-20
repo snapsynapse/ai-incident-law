@@ -2548,6 +2548,47 @@
       "evidence_type": "primary record",
       "verified": "2026-08-16",
       "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Allegation",
+      "@id": "https://aiincidentlaw.org/allegation/aiel-2026-064-allegation.json",
+      "id": "aiel-2026-064-allegation",
+      "text": "In a 5 February 2026 response opposing summary judgment, counsel cited \"Rodriguez v. It's Just Lunch, Int'l, 2013 WL 12173926 (5th Cir. 2013),\" a case that does not exist: the reporter number belongs to Vasudevan Software, Inc. v. Microstrategy, Inc. and the caption to an unrelated S.D.N.Y. matter. The brief also attributed to Minnesota Voters Alliance v. Mansky language the Supreme Court did not use. Ordered to disclose whether and how he had used artificial intelligence, counsel explained that he had replaced his Westlaw subscription with Fastcase, was unfamiliar with it, and turned to Google web search to locate authority, intending to verify citations in Fastcase afterwards. He obtained the Rodriguez citation through those searches but was unable to confirm its source, stating he was \"not certain it came from the AI preview, simply because [he is] skeptical of AI responses and do[es] not use interactive AI tools for legal research,\" while acknowledging that because the citation refers to a nonexistent opinion \"it may have appeared there.\" The court recounted this account without rejecting it and did not determine the citation's origin.",
+      "asserted_by": "asserting party not identified in the indexed source fields",
+      "related_to": "https://aiincidentlaw.org/incident/aiel-2026-064#ai-system",
+      "related_to_party": [
+        "https://aiincidentlaw.org/party/aiel-2026-064-deployer.json"
+      ],
+      "ai_system_name": "Google AI preview (raised in the record; attribution not determined)",
+      "deployer": "Aaron Randall Rice, counsel for plaintiff Johnny Fuselier",
+      "domain": "legal services",
+      "error_type": "fabricated authority (AI attribution undetermined)",
+      "canonical_source_conflicted": "A nonexistent Fifth Circuit decision and a quotation not present in Minnesota Voters Alliance v. Mansky, against counsel's certification duties under Fed. R. Civ. P. 11",
+      "mitigation_gap": "Counsel changed research platforms, was unfamiliar with the replacement, and used general web search as an interim substitute for a legal database. He planned to verify citations in Fastcase but, rushing to meet the filing deadline, did not verify this one. The record shows no verification step between retrieving a citation from web search results and filing it.",
+      "reliance_or_harm": "The fictitious citation and misattributed quotation reached a summary-judgment response brief in a First Amendment case. On review of counsel's show-cause response the court found an admonishment sufficient and imposed no sanction, citing the limited nature of the violations, counsel's ownership of the mistakes, and changes he had implemented to prevent recurrence. Counsel was admonished and warned that future conduct of this kind will result in sanctions.",
+      "ai_incident_law_record_id": "AIEL-2026-064",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.mssd.130336/gov.uscourts.mssd.130336.28.0.pdf",
+      "source_locator": "Fuselier v. Riscassi, No. 1:25-cv-268-HSO-BWR (S.D. Miss.), ECF No. 28",
+      "evidence_type": "primary record",
+      "verified": "2026-08-19",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
     }
   ]
 }
