@@ -5,6 +5,8 @@ const GUIDE_PATH = new URL("../.well-known/assistant-guide.txt", import.meta.url
 const ROOT_GUIDE_PATH = new URL("../assistant-guide.txt", import.meta.url);
 const MANIFEST_PATH = new URL("../.well-known/assistant-guide-manifest.txt", import.meta.url);
 const ROOT_MANIFEST_PATH = new URL("../assistant-guide-manifest.txt", import.meta.url);
+const PACKAGE_PATH = new URL("../package.json", import.meta.url);
+const SEARCH_CONFIG_PATH = new URL("../search-audit.config.json", import.meta.url);
 const issues = [];
 
 function addIssue(message) {
@@ -15,7 +17,22 @@ const bytes = await readFile(GUIDE_PATH);
 const rootBytes = await readFile(ROOT_GUIDE_PATH);
 const manifestBytes = await readFile(MANIFEST_PATH);
 const rootManifestBytes = await readFile(ROOT_MANIFEST_PATH);
+const packageInfo = JSON.parse(await readFile(PACKAGE_PATH, "utf8"));
+const searchConfig = JSON.parse(await readFile(SEARCH_CONFIG_PATH, "utf8"));
 const text = bytes.toString("utf8");
+
+function metadataValue(key) {
+  const match = text.match(new RegExp(`^${key}: (.+)$`, "m"));
+  return match?.[1] || null;
+}
+
+const versionMatch = packageInfo.version.match(/^(\d+)\.(\d+)\.(\d+)(?:[-+].*)?$/);
+if (!versionMatch) {
+  addIssue(`package version ${packageInfo.version} is not valid semver`);
+}
+const releaseTag = `v${packageInfo.version}`;
+const appliesTo = versionMatch ? `${packageInfo.name} ${versionMatch[1]}.${versionMatch[2]}.x` : null;
+const guideVersion = metadataValue("guide-version");
 
 if (!bytes.equals(rootBytes)) {
   addIssue("root assistant-guide.txt must be byte-identical to .well-known/assistant-guide.txt");
@@ -85,6 +102,14 @@ if (/<[a-z][\s\S]*>/i.test(text)) {
   addIssue("assistant-guide.txt must not contain HTML-like constructs");
 }
 
+if (!guideVersion) {
+  addIssue("assistant-guide.txt is missing guide-version metadata");
+}
+
+if (appliesTo && metadataValue("applies-to") !== appliesTo) {
+  addIssue(`assistant-guide.txt applies-to must be ${appliesTo}`);
+}
+
 const manifest = Object.fromEntries(
   manifestBytes.toString("utf8").trimEnd().split("\n").map((line, index) => {
     const separator = line.indexOf(": ");
@@ -98,20 +123,36 @@ const manifest = Object.fromEntries(
 const guideSha256 = createHash("sha256").update(bytes).digest("hex");
 const expectedManifest = {
   "guide-path": "/.well-known/assistant-guide.txt",
-  "guide-version": "0.1.1",
+  "guide-version": guideVersion,
   "guide-sha256": guideSha256,
   "guide-bytes": String(bytes.length),
-  "immutable-release-url": "https://github.com/snapsynapse/ai-incident-law/releases/tag/v0.3.1",
+  "immutable-release-url": `https://github.com/snapsynapse/ai-incident-law/releases/tag/${releaseTag}`,
   "profile": "human-verifiable-assistant-guide",
   "profile-version": "0.6.0",
   "canonical-url": "https://aiincidentlaw.org/.well-known/assistant-guide.txt",
   "repository-url": "https://github.com/snapsynapse/ai-incident-law",
-  "changelog-url": "https://github.com/snapsynapse/ai-incident-law/blob/v0.3.1/CHANGELOG.md",
+  "changelog-url": `https://github.com/snapsynapse/ai-incident-law/blob/${releaseTag}/CHANGELOG.md`,
 };
 
 for (const [key, expected] of Object.entries(expectedManifest)) {
   if (manifest[key] !== expected) {
     addIssue(`assistant-guide manifest ${key} must be ${expected}`);
+  }
+}
+
+const searchManifestRule = searchConfig.requiredFiles?.find(
+  entry => entry.path === ".well-known/assistant-guide-manifest.txt"
+);
+if (!searchManifestRule) {
+  addIssue("search audit config must validate the assistant-guide manifest");
+} else {
+  for (const expected of [
+    `guide-version: ${guideVersion}`,
+    `guide-sha256: ${guideSha256}`,
+  ]) {
+    if (!searchManifestRule.contains?.includes(expected)) {
+      addIssue(`search audit assistant-guide manifest rule must contain ${expected}`);
+    }
   }
 }
 

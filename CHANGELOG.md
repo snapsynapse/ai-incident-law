@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.0] - 2026-08-20
+
 ### Changed
 - Record admission criteria now settle jurisdiction and language. The `global` bucket is review for non-US matters, a staging queue rather than a publication destination; the four criteria are the only test and jurisdiction is not among them; and source language does not block admission, bounded by quoting the operative language in the original with an English rendering and recording the language as a tag.
 - Record admission criteria now settle AI attribution: criterion 1 is satisfied when the primary source itself discusses AI in connection with the defect, whether as a finding, an observation of hallmarks, a hedged surmise, or a recounted party explanation. Bounded by requiring the discussion to appear in the source rather than being supplied by third-party inference, and by excluding matters where the source establishes a competing non-AI mechanism. Admitted records carry an explicit attribution qualifier, the `attribution-not-determined` tag, and a confidence cap. Documented in INTENT.md and on the public methodology page.
@@ -18,8 +20,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Repository lifecycle conformance now covers the complete ignore baseline, a
   processed historical handoff, explicit crawler policy, and a reviewed GitHub
   desired-state contract.
-- The GuideCheck trust surface now applies to the 0.3.x package line and ships
+- The GuideCheck trust surface now applies to the 0.4.x package line and ships
   byte-identical root and well-known guides plus hash-bound manifest fallbacks.
+- Release verification now includes a repository-owned packed-consumer eval
+  with isolated npm cache ownership, installed-artifact trust checks, and MCP
+  initialization. GuideCheck release URLs and package applicability derive
+  from `package.json`, with a negative cross-version regression test.
 - Filed complaints no longer generate false `of:Determination` records. The two previously published Determination IRIs resolve as continuity-preserving Tombstones.
 - Six composite Authority identifiers that conflated separate courts, agencies, or procedural stages now resolve as Tombstones. Their source matters project distinct Authorities with explicit `heardBy` and `issuedBy` relations.
 
@@ -123,7 +129,8 @@ Obligation-First v0.6 adopter, source-rigor, and drift-prevention release. This 
 - URL-policy regression coverage for normalization, bypass attempts, malformed schemes, credentials, encoded and raw control characters, and representative existing corpus URLs.
 - No-dependency URL-policy pipeline eval that runs malformed-source fixtures through the real build and validation scripts in temporary directories.
 
-[Unreleased]: https://github.com/snapsynapse/ai-incident-law/compare/v0.3.0...HEAD
+[Unreleased]: https://github.com/snapsynapse/ai-incident-law/compare/v0.4.0...HEAD
+[0.4.0]: https://github.com/snapsynapse/ai-incident-law/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/snapsynapse/ai-incident-law/compare/v0.2.1...v0.3.0
 [0.2.1]: https://github.com/snapsynapse/ai-incident-law/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/snapsynapse/ai-incident-law/compare/v0.1.0...v0.2.0
