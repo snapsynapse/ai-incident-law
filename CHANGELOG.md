@@ -13,10 +13,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Record admission criteria now settle outcome valence: a matter is admitted on the established AI-attributable defect, not on the severity of the consequence the tribunal attached to it. Rulings that decline to sanction or decline to exclude are admissible and record the outcome in `filing_status` and `reliance_or_harm`. Matters where AI use is established but no defect was found are not admissible. Documented in INTENT.md and on the public methodology page. This widens the criteria, so no existing record loses admission and no dataset version bump is required.
 
 ### Fixed
+- Light-theme muted and metadata text now meet WCAG 2.1 AA contrast on
+  the site backgrounds used by the homepage and all three documentation pages.
+- Repository lifecycle conformance now covers the complete ignore baseline, a
+  processed historical handoff, explicit crawler policy, and a reviewed GitHub
+  desired-state contract.
+- The GuideCheck trust surface now applies to the 0.3.x package line and ships
+  byte-identical root and well-known guides plus hash-bound manifest fallbacks.
 - Filed complaints no longer generate false `of:Determination` records. The two previously published Determination IRIs resolve as continuity-preserving Tombstones.
 - Six composite Authority identifiers that conflated separate courts, agencies, or procedural stages now resolve as Tombstones. Their source matters project distinct Authorities with explicit `heardBy` and `issuedBy` relations.
 
 ### Added
+- An accessibility regression workflow and release checklist gate for the four
+  public HTML routes.
+- A URL-preserving staged plan for migrating GitHub Pages from the repository
+  root to `/docs` without changing the live Pages source in this tranche.
 - Source-rigor regression tests: no new record may cite an aggregator as its primary source (the four pre-rule records are held as a shrinking named baseline), and the discovery tracker may not appear as a source in any field of any bucket.
 - ROADMAP.md now tracks outstanding source gaps, access blockers, known coverage gaps, and curation cadence, so the backlog survives independently of maintainer tooling.
 - AIEL-2026-065 (Raad van Discipline 's-Hertogenbosch, ECLI:NL:TADRSHE:2026:93), promoted from the global bucket as the first record admitted on a non-English primary source.

@@ -1,6 +1,10 @@
 import { readFile } from "node:fs/promises";
+import { createHash } from "node:crypto";
 
 const GUIDE_PATH = new URL("../.well-known/assistant-guide.txt", import.meta.url);
+const ROOT_GUIDE_PATH = new URL("../assistant-guide.txt", import.meta.url);
+const MANIFEST_PATH = new URL("../.well-known/assistant-guide-manifest.txt", import.meta.url);
+const ROOT_MANIFEST_PATH = new URL("../assistant-guide-manifest.txt", import.meta.url);
 const issues = [];
 
 function addIssue(message) {
@@ -8,7 +12,18 @@ function addIssue(message) {
 }
 
 const bytes = await readFile(GUIDE_PATH);
+const rootBytes = await readFile(ROOT_GUIDE_PATH);
+const manifestBytes = await readFile(MANIFEST_PATH);
+const rootManifestBytes = await readFile(ROOT_MANIFEST_PATH);
 const text = bytes.toString("utf8");
+
+if (!bytes.equals(rootBytes)) {
+  addIssue("root assistant-guide.txt must be byte-identical to .well-known/assistant-guide.txt");
+}
+
+if (!manifestBytes.equals(rootManifestBytes)) {
+  addIssue("root assistant-guide-manifest.txt must be byte-identical to the well-known manifest");
+}
 
 if (bytes.length > 8192) {
   addIssue(`assistant-guide.txt is ${bytes.length} bytes; maximum is 8192`);
@@ -45,6 +60,7 @@ const requiredPatterns = [
   /^profile-version: 0\.6\.0$/m,
   /^canonical-url: https:\/\/aiincidentlaw\.org\/\.well-known\/assistant-guide\.txt$/m,
   /^repository-url: https:\/\/github\.com\/snapsynapse\/ai-incident-law$/m,
+  /^manifest-url: https:\/\/aiincidentlaw\.org\/\.well-known\/assistant-guide-manifest\.txt$/m,
   /^recommended-verifier: https:\/\/guidecheck\.org\/verify$/m,
   /^\[\/assistant-guide-metadata\]$/m,
   /^Before acting$/m,
@@ -69,6 +85,36 @@ if (/<[a-z][\s\S]*>/i.test(text)) {
   addIssue("assistant-guide.txt must not contain HTML-like constructs");
 }
 
+const manifest = Object.fromEntries(
+  manifestBytes.toString("utf8").trimEnd().split("\n").map((line, index) => {
+    const separator = line.indexOf(": ");
+    if (separator < 1) {
+      addIssue(`assistant-guide manifest line ${index + 1} is not key-value metadata`);
+      return [`invalid-${index}`, ""];
+    }
+    return [line.slice(0, separator), line.slice(separator + 2)];
+  })
+);
+const guideSha256 = createHash("sha256").update(bytes).digest("hex");
+const expectedManifest = {
+  "guide-path": "/.well-known/assistant-guide.txt",
+  "guide-version": "0.1.1",
+  "guide-sha256": guideSha256,
+  "guide-bytes": String(bytes.length),
+  "immutable-release-url": "https://github.com/snapsynapse/ai-incident-law/releases/tag/v0.3.1",
+  "profile": "human-verifiable-assistant-guide",
+  "profile-version": "0.6.0",
+  "canonical-url": "https://aiincidentlaw.org/.well-known/assistant-guide.txt",
+  "repository-url": "https://github.com/snapsynapse/ai-incident-law",
+  "changelog-url": "https://github.com/snapsynapse/ai-incident-law/blob/v0.3.1/CHANGELOG.md",
+};
+
+for (const [key, expected] of Object.entries(expectedManifest)) {
+  if (manifest[key] !== expected) {
+    addIssue(`assistant-guide manifest ${key} must be ${expected}`);
+  }
+}
+
 if (issues.length) {
   console.error("GuideCheck validation failed:\n");
   for (const issue of issues) {
@@ -77,4 +123,6 @@ if (issues.length) {
   process.exit(1);
 }
 
-console.log(`Validated GuideCheck assistant guide (${bytes.length} bytes, ${lines.length} lines).`);
+console.log(
+  `Validated GuideCheck assistant guide and fallbacks (${bytes.length} bytes, ${lines.length} lines, sha256 ${guideSha256}).`
+);
