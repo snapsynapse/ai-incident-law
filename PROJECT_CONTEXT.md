@@ -22,7 +22,7 @@ Discernible from README, ROADMAP, INTENT, and the docs pages:
 ## Key URLs
 
 - Canonical site: https://aiincidentlaw.org/
-- npm package: https://www.npmjs.com/package/ai-incident-law
+- npm package: https://npmjs.com/package/ai-incident-law
 - Repo: https://github.com/snapsynapse/ai-incident-law
 - Methodology: https://aiincidentlaw.org/docs/methodology.html
 - Cross-graph example: https://aiincidentlaw.org/docs/legal-graph.html
@@ -36,4 +36,4 @@ Discernible from README, ROADMAP, INTENT, and the docs pages:
 
 ## Current status
 
-Actively maintained. Version 0.3.0 publishes the Obligation-First v0.6 proceeding projection, deterministic verification and structural fingerprints, the public methodology page, and GuideCheck assistant surfaces. Near-term priorities (see `ROADMAP.md`): tighten dataset admission discipline, improve source rigor (prefer primary records, add archival snapshots), stabilize schema expectations, and improve publication quality.
+Actively maintained. Version 0.4.0 publishes settled admission-policy decisions, source-verified legal-graph projections, continuity-preserving Tombstones, deterministic package evaluation, accessibility regression coverage, and GuideCheck assistant surfaces. Near-term priorities (see `ROADMAP.md`): improve source rigor and archival coverage, add pinned MCP Registry schema validation, improve network-failure diagnostics, and prepare the separately gated Pages artifact migration.
