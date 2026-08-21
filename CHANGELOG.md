@@ -13,6 +13,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Record admission criteria now settle outcome valence: a matter is admitted on the established AI-attributable defect, not on the severity of the consequence the tribunal attached to it. Rulings that decline to sanction or decline to exclude are admissible and record the outcome in `filing_status` and `reliance_or_harm`. Matters where AI use is established but no defect was found are not admissible. Documented in INTENT.md and on the public methodology page. This widens the criteria, so no existing record loses admission and no dataset version bump is required.
 
 ### Fixed
+- Light-theme muted and metadata text now meet WCAG 2.1 AA contrast on
+  the site backgrounds used by the homepage and all three documentation pages.
 - Repository lifecycle conformance now covers the complete ignore baseline, a
   processed historical handoff, explicit crawler policy, and a reviewed GitHub
   desired-state contract.
