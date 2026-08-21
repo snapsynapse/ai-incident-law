@@ -55,5 +55,5 @@ CI (`validate.yml`) runs the build, URL-policy tests/evals, checks out sibling `
 ## Current state
 
 - Branch `main`, clean tree, in sync with `origin/main`.
-- Version 0.3.0; Obligation-First v0.6 projection, deterministic verification, methodology, and GuideCheck surfaces are released.
+- Version 0.4.0; admission-policy decisions, source-verified legal-graph projections, Tombstone continuity, deterministic package evaluation, accessibility regression coverage, and GuideCheck surfaces are released.
 - Actively maintained; no open TODO/FIXME markers in tracked source.
