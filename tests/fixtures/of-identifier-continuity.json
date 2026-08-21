@@ -1,7 +1,7 @@
 {
   "manifest_version": 1,
   "adopter": "AI Incident Law",
-  "baseline_release": "v0.3.0",
+  "baseline_release": "v0.4.0",
   "identifiers": [
     {
       "id": "https://aiincidentlaw.org/allegation/aiel-2017-012-allegation.json",
@@ -294,12 +294,52 @@
       "state": "active"
     },
     {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-060-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-061-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-062-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-063-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-064-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/allegation/aiel-2026-065-allegation.json",
+      "type": "of:Allegation",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/appellate-court-of-illinois-first-district.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
       "id": "https://aiincidentlaw.org/authority/appellate-court-of-illinois-third-district.json",
       "type": "of:Authority",
       "state": "active"
     },
     {
       "id": "https://aiincidentlaw.org/authority/arkansas-supreme-court-u-s-district-court-eastern-district-of-arkansas-eighth-circuit.json",
+      "type": "of:Tombstone",
+      "state": "tombstone"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/arkansas-supreme-court.json",
       "type": "of:Authority",
       "state": "active"
     },
@@ -329,22 +369,42 @@
       "state": "active"
     },
     {
+      "id": "https://aiincidentlaw.org/authority/connecticut-supreme-court.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
       "id": "https://aiincidentlaw.org/authority/court-of-appeals-of-ohio-eleventh-appellate-district.json",
       "type": "of:Authority",
       "state": "active"
     },
     {
       "id": "https://aiincidentlaw.org/authority/eeoc-u-s-district-court-eastern-district-of-new-york.json",
+      "type": "of:Tombstone",
+      "state": "tombstone"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/harris-county-125th-judicial-district-court.json",
       "type": "of:Authority",
       "state": "active"
     },
     {
       "id": "https://aiincidentlaw.org/authority/harris-county-texas-state-court-remanded-from-s-d-tex.json",
+      "type": "of:Tombstone",
+      "state": "tombstone"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json",
+      "type": "of:Tombstone",
+      "state": "tombstone"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/michigan-court-of-claims.json",
       "type": "of:Authority",
       "state": "active"
     },
     {
-      "id": "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json",
+      "id": "https://aiincidentlaw.org/authority/michigan-supreme-court.json",
       "type": "of:Authority",
       "state": "active"
     },
@@ -355,6 +415,11 @@
     },
     {
       "id": "https://aiincidentlaw.org/authority/ohio-court-of-appeals-sixth-appellate-district.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/raad-van-discipline-s-hertogenbosch.json",
       "type": "of:Authority",
       "state": "active"
     },
@@ -424,12 +489,22 @@
       "state": "active"
     },
     {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-connecticut.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
       "id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-kansas.json",
       "type": "of:Authority",
       "state": "active"
     },
     {
       "id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts-doj-hud.json",
+      "type": "of:Tombstone",
+      "state": "tombstone"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts.json",
       "type": "of:Authority",
       "state": "active"
     },
@@ -459,14 +534,19 @@
       "state": "active"
     },
     {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-new-york.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
       "id": "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json",
       "type": "of:Authority",
       "state": "active"
     },
     {
       "id": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida-florida-supreme-court.json",
-      "type": "of:Authority",
-      "state": "active"
+      "type": "of:Tombstone",
+      "state": "tombstone"
     },
     {
       "id": "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json",
@@ -509,7 +589,17 @@
       "state": "active"
     },
     {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-mississippi.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
       "id": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-texas.json",
       "type": "of:Authority",
       "state": "active"
     },
@@ -525,6 +615,11 @@
     },
     {
       "id": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-texas.json",
+      "type": "of:Authority",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-washington.json",
       "type": "of:Authority",
       "state": "active"
     },
@@ -615,13 +710,13 @@
     },
     {
       "id": "https://aiincidentlaw.org/determination/aiel-2026-019-determination.json",
-      "type": "of:Determination",
-      "state": "active"
+      "type": "of:Tombstone",
+      "state": "tombstone"
     },
     {
       "id": "https://aiincidentlaw.org/determination/aiel-2026-020-determination.json",
-      "type": "of:Determination",
-      "state": "active"
+      "type": "of:Tombstone",
+      "state": "tombstone"
     },
     {
       "id": "https://aiincidentlaw.org/determination/aiel-2026-021-determination.json",
@@ -810,6 +905,36 @@
     },
     {
       "id": "https://aiincidentlaw.org/determination/aiel-2026-059-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-060-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-061-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-062-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-063-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-064-determination.json",
+      "type": "of:Determination",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/determination/aiel-2026-065-determination.json",
       "type": "of:Determination",
       "state": "active"
     },
@@ -1104,7 +1229,42 @@
       "state": "active"
     },
     {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-060-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-061-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-062-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-063-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-064-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/party/aiel-2026-065-deployer.json",
+      "type": "of:Party",
+      "state": "active"
+    },
+    {
       "id": "https://aiincidentlaw.org/proceeding/aiel-2017-012-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2022-011-court-of-claims-proceeding.json",
       "type": "of:Proceeding",
       "state": "active"
     },
@@ -1155,6 +1315,11 @@
     },
     {
       "id": "https://aiincidentlaw.org/proceeding/aiel-2024-015-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2024-017-federal-removal-proceeding.json",
       "type": "of:Proceeding",
       "state": "active"
     },
@@ -1390,6 +1555,36 @@
     },
     {
       "id": "https://aiincidentlaw.org/proceeding/aiel-2026-059-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-060-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-061-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-062-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-063-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-064-proceeding.json",
+      "type": "of:Proceeding",
+      "state": "active"
+    },
+    {
+      "id": "https://aiincidentlaw.org/proceeding/aiel-2026-065-proceeding.json",
       "type": "of:Proceeding",
       "state": "active"
     }

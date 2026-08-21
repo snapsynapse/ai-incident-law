@@ -1,10 +1,10 @@
 guide-path: /.well-known/assistant-guide.txt
-guide-version: 0.1.1
-guide-sha256: 89874f4ce54a5427d1648ccf8c4293c5d71504b584e8ccfd0cf96689413cd040
+guide-version: 0.1.2
+guide-sha256: 3fed9ab654aa04ccd5b0e908a0ace6138fefed3a73463d3daf9c8ebf5491cc08
 guide-bytes: 7357
-immutable-release-url: https://github.com/snapsynapse/ai-incident-law/releases/tag/v0.3.1
+immutable-release-url: https://github.com/snapsynapse/ai-incident-law/releases/tag/v0.4.0
 profile: human-verifiable-assistant-guide
 profile-version: 0.6.0
 canonical-url: https://aiincidentlaw.org/.well-known/assistant-guide.txt
 repository-url: https://github.com/snapsynapse/ai-incident-law
-changelog-url: https://github.com/snapsynapse/ai-incident-law/blob/v0.3.1/CHANGELOG.md
+changelog-url: https://github.com/snapsynapse/ai-incident-law/blob/v0.4.0/CHANGELOG.md

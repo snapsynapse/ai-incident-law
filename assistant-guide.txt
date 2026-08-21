@@ -4,8 +4,8 @@ Assistant Guide: AI Incident Law maintainer and query workflow
 identifier: assistant-guide
 profile: human-verifiable-assistant-guide
 profile-version: 0.6.0
-guide-version: 0.1.1
-applies-to: ai-incident-law 0.3.x
+guide-version: 0.1.2
+applies-to: ai-incident-law 0.4.x
 canonical-url: https://aiincidentlaw.org/.well-known/assistant-guide.txt
 repository-url: https://github.com/snapsynapse/ai-incident-law
 source-path: /.well-known/assistant-guide.txt
