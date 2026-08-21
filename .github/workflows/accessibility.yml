@@ -1,0 +1,31 @@
+name: Accessibility Regression Gate
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+
+      - name: Scan public HTML routes
+        uses: snapsynapse/skill-a11y-audit/.github/actions/scan@88b55612e34c9a436b6d0b886ae2bdca9b3b6b17 # v2.7.0
+        with:
+          serve-path: .
+          port: "8088"
+          urls: >-
+            http://127.0.0.1:8088/,
+            http://127.0.0.1:8088/docs/methodology.html,
+            http://127.0.0.1:8088/docs/legal-graph.html,
+            http://127.0.0.1:8088/docs/submit-a-case.html
+          fail-on: errors
+          output: artifacts/a11y-scan.json
+          artifact-name: a11y-scan-results

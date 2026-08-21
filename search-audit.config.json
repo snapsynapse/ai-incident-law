@@ -43,6 +43,16 @@
       ]
     },
     {
+      "path": ".well-known/assistant-guide-manifest.txt",
+      "contentTypes": [
+        "text/plain"
+      ],
+      "contains": [
+        "guide-version: 0.1.1",
+        "guide-sha256: 89874f4ce54a5427d1648ccf8c4293c5d71504b584e8ccfd0cf96689413cd040"
+      ]
+    },
+    {
       "path": ".well-known/mcp.json",
       "contentTypes": [
         "application/json",

@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "repository": "snapsynapse/ai-incident-law",
+  "profile": [
+    "public-static-site",
+    "npm-package",
+    "mcp-server"
+  ],
+  "visibility": "public",
+  "default_branch": "main",
+  "delete_branch_on_merge": false,
+  "merge_methods": {
+    "merge_commit": true,
+    "squash": true,
+    "rebase": true,
+    "auto_merge": false
+  },
+  "features": {
+    "issues": true,
+    "discussions": true,
+    "wiki": false,
+    "projects": true
+  },
+  "security": {
+    "advanced_security": null,
+    "secret_scanning": true,
+    "secret_scanning_push_protection": true,
+    "dependabot_alerts": null,
+    "dependabot_security_updates": false
+  },
+  "actions": null,
+  "pages": {
+    "branch": "main",
+    "path": "/docs",
+    "https_enforced": true,
+    "cname": "aiincidentlaw.org",
+    "application_status": "planned-r2-not-applied"
+  },
+  "exceptions": [
+    {
+      "field": "rulesets",
+      "reason": "Desired branch and tag rules require a separate R2 policy decision before they become drift.",
+      "date": "2026-08-20"
+    },
+    {
+      "field": "actions",
+      "reason": "Allowed-actions and SHA-pinning policy require a separate R2 decision; current workflows remain observable but unspecified desired state.",
+      "date": "2026-08-20"
+    },
+    {
+      "field": "pages.path",
+      "reason": "The /docs value is approved desired state, but application is held behind the staged R2 migration in ops/pages-migration.md.",
+      "date": "2026-08-20"
+    }
+  ]
+}

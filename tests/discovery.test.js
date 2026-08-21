@@ -79,6 +79,17 @@ test("language-model discovery advertises the Tombstone collection", () => {
   );
 });
 
+test("assistant guide trust surface has byte-identical root fallbacks", () => {
+  assert.deepEqual(
+    fs.readFileSync(path.join(ROOT, "assistant-guide.txt")),
+    fs.readFileSync(path.join(ROOT, ".well-known/assistant-guide.txt"))
+  );
+  assert.deepEqual(
+    fs.readFileSync(path.join(ROOT, "assistant-guide-manifest.txt")),
+    fs.readFileSync(path.join(ROOT, ".well-known/assistant-guide-manifest.txt"))
+  );
+});
+
 test("public discovery and docs do not use www URLs", () => {
   for (const relativePath of PUBLIC_SURFACE_PATHS) {
     const text = readText(relativePath);
@@ -170,6 +181,31 @@ test("robots.txt advertises agent and MCP discovery", () => {
   assert.match(robots, /^Agents: https:\/\/aiincidentlaw\.org\/agents\.json$/m);
   assert.match(robots, /^MCP: https:\/\/aiincidentlaw\.org\/\.well-known\/mcp\.json$/m);
   assert.match(robots, /^Assistant-Guide: https:\/\/aiincidentlaw\.org\/\.well-known\/assistant-guide\.txt$/m);
+  for (const bot of [
+    "GPTBot",
+    "ChatGPT-User",
+    "OAI-SearchBot",
+    "ClaudeBot",
+    "Claude-Web",
+    "Claude-User",
+    "Claude-SearchBot",
+    "PerplexityBot",
+    "Perplexity-User",
+    "Google-Extended",
+    "Applebot-Extended",
+    "Amazonbot",
+    "Bytespider",
+    "cohere-ai",
+    "CCBot",
+    "Googlebot",
+    "Bingbot",
+    "DuckDuckBot",
+    "Slurp",
+    "Twitterbot",
+    "facebookexternalhit"
+  ]) {
+    assert.match(robots, new RegExp(`^User-agent: ${bot}$`, "m"));
+  }
   assert.doesNotMatch(robots, /https:\/\/www\./);
   assert.doesNotMatch(robots, /http:\/\//);
 });

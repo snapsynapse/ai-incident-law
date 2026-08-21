@@ -171,8 +171,19 @@ Next scheduled review: 2026-07-31 (Q3 start) or after first major scope challeng
 - docs/data-schema.md: dataset structure and field intent
 - CONTRIBUTING.md: edit and review flow
 
+## Exceptions to Repo Standards
+
+- GitHub Pages still publishes from the repository root. The desired `/docs`
+  state and URL-preserving migration sequence are recorded in
+  `ops/pages-migration.md`; applying the source flip requires separate R2
+  authority.
+- `llms-full.txt` is not published. The compact `llms.txt` remains the supported
+  agent index until a distinct full-corpus use case justifies another generated
+  discovery artifact.
+
 ## Changelog
 
+- 0.5.0 (2026-08-20): Records the temporary root-published Pages exception and the intentional absence of `llms-full.txt`; the URL-preserving `/docs` migration remains separately gated.
 - 0.4.0 (2026-08-19): Settles jurisdiction and the `global` bucket. `global` is `review` for non-US matters, not a publication destination; the four admission criteria are the only test and jurisdiction is not among them; source language does not block admission, bounded by requiring the operative language quoted in the original with an English rendering and the language recorded as a tag. Clarifying rather than widening or narrowing.
 - 0.3.0 (2026-08-19): Adds the undetermined-attribution rule refining criterion 1. AI need not be affirmatively found; it is enough that the primary source itself discusses AI in connection with the defect, bounded by requiring the discussion to be in the source rather than inferred by a third party, and by excluding matters where the source establishes a competing non-AI mechanism. Admitted records carry an explicit attribution qualifier, tag, and confidence cap. Widening, so no dataset version bump is required.
 - 0.2.0 (2026-08-19): Adds the outcome-valence rule to record admission criteria. A matter is admitted on the established AI-attributable defect, not on the severity of the consequence, so rulings that decline to sanction or exclude are admissible; matters where AI was used but no defect was found are not. Bounded by requiring the defect to be established in the primary source to the same standard as AI use itself. Widening rather than narrowing, so no dataset version bump is required under the recalibration gate below.
