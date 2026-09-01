@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19",
+  "generated_at": "2026-09-01",
   "datasets": {
     "included": {
       "label": "Included cases",
@@ -54,14 +54,14 @@
           "jurisdiction": "U.S. District Court, Southern District of New York",
           "filing_date": "2023-06-22",
           "error_date": "2023-03-01",
-          "public_record_link": "https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1:2022cv01461/575368/54/",
+          "public_record_link": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.575368/gov.uscourts.nysd.575368.54.0_8.pdf",
           "secondary_source_links": "https://nytimes.com/2023/05/27/nyregion/avianca-airline-lawsuit-chatgpt.html",
           "confidence_score": "high",
           "notes_on_resolution": "Court imposed a $5,000 sanction and ordered notice to affected judges and client.",
           "tags": "document-generation; legal-hallucination; sanctions-order; professional-discipline; public-record-confirmed",
           "source_quality": "primary record",
           "research_status": "included",
-          "last_verified_date": "2026-04-22",
+          "last_verified_date": "2026-09-01",
           "needs_review": "no",
           "obligation_first_anchors": [
             "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -84,14 +84,14 @@
           "jurisdiction": "U.S. Court of Appeals for the Second Circuit",
           "filing_date": "2024-01-30",
           "error_date": "2023",
-          "public_record_link": "https://law.justia.com/cases/federal/appellate-courts/ca2/22-2057/22-2057-2024-01-30.html",
+          "public_record_link": "https://govinfo.gov/content/pkg/USCOURTS-ca2-22-02057/pdf/USCOURTS-ca2-22-02057-0.pdf",
           "secondary_source_links": "https://law.nyu.edu/sites/default/files/Park%20v.%20Kim,%20No.%2022-2057%20(2024).pdf",
           "confidence_score": "high",
           "notes_on_resolution": "Matter referred to grievance panel; opinion emphasizes duty to verify AI-generated legal citations.",
           "tags": "document-generation; legal-hallucination; professional-discipline; public-record-confirmed",
           "source_quality": "primary record",
           "research_status": "included",
-          "last_verified_date": "2026-04-22",
+          "last_verified_date": "2026-09-01",
           "needs_review": "no",
           "obligation_first_anchors": [
             "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -537,14 +537,14 @@
           "jurisdiction": "Arkansas Supreme Court; U.S. District Court, Eastern District of Arkansas; Eighth Circuit",
           "filing_date": "2017-01-27",
           "error_date": "2016",
-          "public_record_link": "https://law.justia.com/cases/arkansas/supreme-court/2017/cv-17-183.html",
+          "public_record_link": "https://arcourts.gov/sites/default/files/Appellate%20Update%20November%202017.pdf",
           "secondary_source_links": "https://humanservices.arkansas.gov/divisions-shared-services/aging-adult-behavioral-health-services/find-home-community-based-services-for-adults-seniors/archoices-in-homecare/court-ordered-information/; https://btah.org/case-study/arkansas-medicaid-home-and-community-based-services-hours-cuts.html",
           "confidence_score": "high",
           "notes_on_resolution": "Algorithm invalidated on rulemaking grounds; later proceedings addressed successor systems and systemic relief.",
           "tags": "internal-use-but-public-consequence; government-benefits; healthcare; eligibility-error; due-process; public-record-confirmed",
           "source_quality": "primary record",
           "research_status": "included",
-          "last_verified_date": "2026-04-22",
+          "last_verified_date": "2026-09-01",
           "needs_review": "no",
           "obligation_first_anchors": [
             "https://everyailaw.com/obligation-category/human-oversight.json",

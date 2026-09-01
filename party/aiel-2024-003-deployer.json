@@ -24,9 +24,9 @@
   "roles": [
     "deployer"
   ],
-  "source": "https://law.justia.com/cases/federal/appellate-courts/ca2/22-2057/22-2057-2024-01-30.html",
+  "source": "https://govinfo.gov/content/pkg/USCOURTS-ca2-22-02057/pdf/USCOURTS-ca2-22-02057-0.pdf",
   "source_locator": "Park v. Kim, No. 22-2057",
   "evidence_type": "primary record",
-  "verified": "2026-04-22",
+  "verified": "2026-09-01",
   "asserted_by_adopter": "https://aiincidentlaw.org/"
 }

@@ -49,10 +49,10 @@
   "hasDetermination": [
     "https://aiincidentlaw.org/determination/aiel-2017-012-determination.json"
   ],
-  "source": "https://law.justia.com/cases/arkansas/supreme-court/2017/cv-17-183.html",
+  "source": "https://arcourts.gov/sites/default/files/Appellate%20Update%20November%202017.pdf",
   "source_locator": "Ledgerwood v. Arkansas Department of Human Services / related federal litigation",
   "evidence_type": "primary record",
-  "verified": "2026-04-22",
+  "verified": "2026-09-01",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "ai_incident_law_record_id": "AIEL-2017-012",
   "matter_type": "state APA / civil rights litigation",

@@ -44,18 +44,19 @@ Exclusion rules for adjacent controversy remain as they were in INTENT.md "Out o
 
 #### Outstanding source gaps
 
-Tracked here rather than in maintainer tooling so they survive without it. Verified 2026-08-19.
+Tracked here rather than in maintainer tooling so they survive without it. Verified 2026-09-01.
 
-**Aggregator-primary backlog (4 records).** These cite an aggregator in `public_record_link`,
+**Aggregator-primary backlog (1 record).** This record cites an aggregator in `public_record_link`,
 which the sourcing rule bars. `npm run test:admission-policy` holds them as a named baseline
 that can shrink but not grow, so a new one fails the build:
 
 | Record | Aggregator | Route to an original |
 |---|---|---|
 | AIEL-2024-001 | canlii.org | Needs a CanLII API key |
-| AIEL-2023-002 | law.justia.com | S.D.N.Y. — resolvable through RECAP |
-| AIEL-2024-003 | law.justia.com | 2d Cir. — resolvable through the circuit's own site or govinfo |
-| AIEL-2017-012 | law.justia.com | Arkansas Supreme Court — check the court's own opinion archive |
+
+On 2026-09-01, AIEL-2023-002 moved to its PDF-verified RECAP sanctions order,
+AIEL-2024-003 moved to the authenticated GovInfo copy supplied by the Second Circuit,
+and AIEL-2017-012 moved to the Arkansas Judiciary's official November 2017 appellate update.
 
 The larger backlog this replaced is clear: no record in any bucket now cites the discovery
 tracker as a source, in any field. A regression test keeps it that way.

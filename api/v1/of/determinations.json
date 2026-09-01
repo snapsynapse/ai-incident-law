@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/context.jsonld",
-  "generated": "2026-08-19",
+  "generated": "2026-09-01",
   "determinations": [
     {
       "@context": [
@@ -101,10 +101,10 @@
         "notes": "Court imposed a $5,000 sanction and ordered notice to affected judges and client."
       },
       "notes": "Court imposed a $5,000 sanction and ordered notice to affected judges and client.",
-      "source": "https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1:2022cv01461/575368/54/",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.575368/gov.uscourts.nysd.575368.54.0_8.pdf",
       "source_locator": "Mata v. Avianca, Inc., No. 22-cv-1461",
       "evidence_type": "primary record",
-      "verified": "2026-04-22",
+      "verified": "2026-09-01",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2023-002",
       "anchors": [
@@ -153,10 +153,10 @@
         "notes": "Matter referred to grievance panel; opinion emphasizes duty to verify AI-generated legal citations."
       },
       "notes": "Matter referred to grievance panel; opinion emphasizes duty to verify AI-generated legal citations.",
-      "source": "https://law.justia.com/cases/federal/appellate-courts/ca2/22-2057/22-2057-2024-01-30.html",
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-ca2-22-02057/pdf/USCOURTS-ca2-22-02057-0.pdf",
       "source_locator": "Park v. Kim, No. 22-2057",
       "evidence_type": "primary record",
-      "verified": "2026-04-22",
+      "verified": "2026-09-01",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2024-003",
       "anchors": [
@@ -626,10 +626,10 @@
         "notes": "Algorithm invalidated on rulemaking grounds; later proceedings addressed successor systems and systemic relief."
       },
       "notes": "Algorithm invalidated on rulemaking grounds; later proceedings addressed successor systems and systemic relief.",
-      "source": "https://law.justia.com/cases/arkansas/supreme-court/2017/cv-17-183.html",
+      "source": "https://arcourts.gov/sites/default/files/Appellate%20Update%20November%202017.pdf",
       "source_locator": "Ledgerwood v. Arkansas Department of Human Services / related federal litigation",
       "evidence_type": "primary record",
-      "verified": "2026-04-22",
+      "verified": "2026-09-01",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2017-012",
       "anchors": [

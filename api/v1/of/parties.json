@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/context.jsonld",
-  "generated": "2026-08-19",
+  "generated": "2026-09-01",
   "parties": [
     {
       "@context": [
@@ -61,10 +61,10 @@
       "roles": [
         "deployer"
       ],
-      "source": "https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1:2022cv01461/575368/54/",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.575368/gov.uscourts.nysd.575368.54.0_8.pdf",
       "source_locator": "Mata v. Avianca, Inc., No. 22-cv-1461",
       "evidence_type": "primary record",
-      "verified": "2026-04-22",
+      "verified": "2026-09-01",
       "asserted_by_adopter": "https://aiincidentlaw.org/"
     },
     {
@@ -93,10 +93,10 @@
       "roles": [
         "deployer"
       ],
-      "source": "https://law.justia.com/cases/federal/appellate-courts/ca2/22-2057/22-2057-2024-01-30.html",
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-ca2-22-02057/pdf/USCOURTS-ca2-22-02057-0.pdf",
       "source_locator": "Park v. Kim, No. 22-2057",
       "evidence_type": "primary record",
-      "verified": "2026-04-22",
+      "verified": "2026-09-01",
       "asserted_by_adopter": "https://aiincidentlaw.org/"
     },
     {
@@ -381,10 +381,10 @@
       "roles": [
         "deployer"
       ],
-      "source": "https://law.justia.com/cases/arkansas/supreme-court/2017/cv-17-183.html",
+      "source": "https://arcourts.gov/sites/default/files/Appellate%20Update%20November%202017.pdf",
       "source_locator": "Ledgerwood v. Arkansas Department of Human Services / related federal litigation",
       "evidence_type": "primary record",
-      "verified": "2026-04-22",
+      "verified": "2026-09-01",
       "asserted_by_adopter": "https://aiincidentlaw.org/"
     },
     {

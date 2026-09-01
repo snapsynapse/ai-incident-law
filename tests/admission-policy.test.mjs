@@ -118,15 +118,12 @@ test('the global bucket holds candidate records, never admitted ones', () => {
 // point at the issuing court, tribunal, or agency. Aggregators and commercial
 // reporters may corroborate as secondary sources but never carry a record.
 //
-// Four records predate that rule. They are listed here as an accepted baseline
+// One record predates that rule. It is listed here as an accepted baseline
 // so the backlog is visible and cannot silently grow: fixing one means deleting
 // its line, and admitting a new aggregator-primary record fails the build.
 // See ROADMAP.md, "Outstanding source gaps".
 const AGGREGATOR_PRIMARY_BASELINE = new Set([
     'AIEL-2024-001', // canlii.org — blocked on a CanLII API key
-    'AIEL-2023-002', // law.justia.com
-    'AIEL-2024-003', // law.justia.com
-    'AIEL-2017-012', // law.justia.com
 ]);
 
 const AGGREGATOR_HOSTS = [
