@@ -1,0 +1,52 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-068-determination.json",
+  "id": "aiel-2026-068-determination",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/u-s-district-court-district-of-arizona.json"
+  ],
+  "jurisdiction": {
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us"
+    ],
+    "institutional_scope": [
+      "U.S. District Court, District of Arizona"
+    ]
+  },
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-068-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "Order by Judge Dominic W. Lanza, resolved through the CourtListener RECAP path (PACER case id azd.1348340, entry 179). This is the terminal order of a three-stage proceeding (Doc. 163 order to show cause, Doc. 172 finding of AI misuse, Doc. 179 final reprimand); no earlier phase of this matter previously existed in the corpus. Note: the hallucination tracker's separate entry for an earlier July 28, 2026 phase of this same matter attributes one of the fabricated quotations to \"Claude AI,\" but this order quotes counsel's own admission that she \"utilized ChatGPT\" for that same brief — treat any future Claude attribution for this matter with caution pending re-verification against Doc. 172."
+  },
+  "notes": "Order by Judge Dominic W. Lanza, resolved through the CourtListener RECAP path (PACER case id azd.1348340, entry 179). This is the terminal order of a three-stage proceeding (Doc. 163 order to show cause, Doc. 172 finding of AI misuse, Doc. 179 final reprimand); no earlier phase of this matter previously existed in the corpus. Note: the hallucination tracker's separate entry for an earlier July 28, 2026 phase of this same matter attributes one of the fabricated quotations to \"Claude AI,\" but this order quotes counsel's own admission that she \"utilized ChatGPT\" for that same brief — treat any future Claude attribution for this matter with caution pending re-verification against Doc. 172.",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1348340/gov.uscourts.azd.1348340.179.0.pdf",
+  "source_locator": "Michael L. Ruiz v. Magellan Financial & Insurance Services, No. CV-23-02090-PHX-DWL (D. Ariz.), Doc. 179",
+  "evidence_type": "primary record",
+  "verified": "2026-09-02",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "ai_incident_law_record_id": "AIEL-2026-068",
+  "anchors": [
+    "https://everyailaw.com/obligation-category/human-oversight.json"
+  ]
+}

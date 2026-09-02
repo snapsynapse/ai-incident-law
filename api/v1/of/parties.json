@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/context.jsonld",
-  "generated": "2026-09-01",
+  "generated": "2026-09-02",
   "parties": [
     {
       "@context": [
@@ -2053,6 +2053,102 @@
       "source_locator": "Beslissing in de zaak 26-379/DB/LI/D, ECLI:NL:TADRSHE:2026:93 (Raad van Discipline in het ressort 's-Hertogenbosch)",
       "evidence_type": "primary record",
       "verified": "2026-08-19",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-066-deployer.json",
+      "id": "aiel-2026-066-deployer",
+      "name": "Plaintiff's counsel (identified in the record only as \"Mr. Johnson\"), counsel for plaintiff Erin Booker",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.gand.358237/gov.uscourts.gand.358237.66.0.pdf",
+      "source_locator": "Erin Booker v. The Kroger Co., No. 1:26-cv-02006-SDG (N.D. Ga.), ECF No. 66",
+      "evidence_type": "primary record",
+      "verified": "2026-09-02",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-067-deployer.json",
+      "id": "aiel-2026-067-deployer",
+      "name": "Kenneth H. Keefe, The Keefe Law Firm, P.A., South Pasadena, Florida, counsel for appellants",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://flcourts-media.flcourts.gov/content/download/2494161/opinion/Opinion_2024-1392.pdf",
+      "source_locator": "Capital Standard, LLC v. U.S. Bank National Association, as trustee for Bear Stearns Asset Backed Securities I Trust 2005-AC9, No. 2D2024-1392 (Fla. 2d DCA)",
+      "evidence_type": "primary record",
+      "verified": "2026-09-02",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Party",
+      "@id": "https://aiincidentlaw.org/party/aiel-2026-068-deployer.json",
+      "id": "aiel-2026-068-deployer",
+      "name": "Elizabeth Tate, counsel for plaintiff Michael L. Ruiz",
+      "party_kind": "unknown",
+      "roles": [
+        "deployer"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1348340/gov.uscourts.azd.1348340.179.0.pdf",
+      "source_locator": "Michael L. Ruiz v. Magellan Financial & Insurance Services, No. CV-23-02090-PHX-DWL (D. Ariz.), Doc. 179",
+      "evidence_type": "primary record",
+      "verified": "2026-09-02",
       "asserted_by_adopter": "https://aiincidentlaw.org/"
     }
   ]

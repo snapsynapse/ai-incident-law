@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
+  "@type": "of:Party",
+  "@id": "https://aiincidentlaw.org/party/aiel-2026-067-deployer.json",
+  "id": "aiel-2026-067-deployer",
+  "name": "Kenneth H. Keefe, The Keefe Law Firm, P.A., South Pasadena, Florida, counsel for appellants",
+  "party_kind": "unknown",
+  "roles": [
+    "deployer"
+  ],
+  "source": "https://flcourts-media.flcourts.gov/content/download/2494161/opinion/Opinion_2024-1392.pdf",
+  "source_locator": "Capital Standard, LLC v. U.S. Bank National Association, as trustee for Bear Stearns Asset Backed Securities I Trust 2005-AC9, No. 2D2024-1392 (Fla. 2d DCA)",
+  "evidence_type": "primary record",
+  "verified": "2026-09-02",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
+}

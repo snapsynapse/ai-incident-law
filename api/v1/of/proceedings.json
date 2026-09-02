@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/context.jsonld",
-  "generated": "2026-09-01",
+  "generated": "2026-09-02",
   "proceedings": [
     {
       "@context": [
@@ -3888,6 +3888,183 @@
       "ai_incident_law_record_id": "AIEL-2026-065",
       "matter_type": "disciplinary decision on a dean's objection",
       "filing_status": "reprimanded; costs ordered"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-066-proceeding.json",
+      "id": "aiel-2026-066-proceeding",
+      "title": "Erin Booker v. The Kroger Co., No. 1:26-cv-02006-SDG (N.D. Ga.), ECF No. 66",
+      "filed_date": "2026-08-28",
+      "heardBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-georgia.json"
+      ],
+      "jurisdiction": {
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, Northern District of Georgia"
+        ]
+      },
+      "territorial_scope": [
+        "us"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, Northern District of Georgia"
+      ],
+      "parties": [
+        "https://aiincidentlaw.org/party/aiel-2026-066-deployer.json"
+      ],
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-066-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-066-determination.json"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.gand.358237/gov.uscourts.gand.358237.66.0.pdf",
+      "source_locator": "Erin Booker v. The Kroger Co., No. 1:26-cv-02006-SDG (N.D. Ga.), ECF No. 66",
+      "evidence_type": "primary record",
+      "verified": "2026-09-02",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "ai_incident_law_record_id": "AIEL-2026-066",
+      "matter_type": "sanctions order (court's own order to show cause)",
+      "filing_status": "sanctioned"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-067-proceeding.json",
+      "id": "aiel-2026-067-proceeding",
+      "title": "Capital Standard, LLC v. U.S. Bank National Association, as trustee for Bear Stearns Asset Backed Securities I Trust 2005-AC9, No. 2D2024-1392 (Fla. 2d DCA)",
+      "filed_date": "2026-08-21",
+      "heardBy": [
+        "https://aiincidentlaw.org/authority/district-court-of-appeal-of-florida-second-district.json"
+      ],
+      "jurisdiction": {
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-fl"
+        ],
+        "institutional_scope": [
+          "District Court of Appeal of Florida, Second District"
+        ]
+      },
+      "territorial_scope": [
+        "us-fl"
+      ],
+      "institutional_scope": [
+        "District Court of Appeal of Florida, Second District"
+      ],
+      "parties": [
+        "https://aiincidentlaw.org/party/aiel-2026-067-deployer.json"
+      ],
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-067-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-067-determination.json"
+      ],
+      "source": "https://flcourts-media.flcourts.gov/content/download/2494161/opinion/Opinion_2024-1392.pdf",
+      "source_locator": "Capital Standard, LLC v. U.S. Bank National Association, as trustee for Bear Stearns Asset Backed Securities I Trust 2005-AC9, No. 2D2024-1392 (Fla. 2d DCA)",
+      "evidence_type": "primary record",
+      "verified": "2026-09-02",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "ai_incident_law_record_id": "AIEL-2026-067",
+      "matter_type": "sanctions order (appellate court's inherent authority)",
+      "filing_status": "sanctioned; judgment affirmed"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-068-proceeding.json",
+      "id": "aiel-2026-068-proceeding",
+      "title": "Michael L. Ruiz v. Magellan Financial & Insurance Services, No. CV-23-02090-PHX-DWL (D. Ariz.), Doc. 179",
+      "filed_date": "2026-08-24",
+      "heardBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-district-of-arizona.json"
+      ],
+      "jurisdiction": {
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, District of Arizona"
+        ]
+      },
+      "territorial_scope": [
+        "us"
+      ],
+      "institutional_scope": [
+        "U.S. District Court, District of Arizona"
+      ],
+      "parties": [
+        "https://aiincidentlaw.org/party/aiel-2026-068-deployer.json"
+      ],
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-068-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-068-determination.json"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1348340/gov.uscourts.azd.1348340.179.0.pdf",
+      "source_locator": "Michael L. Ruiz v. Magellan Financial & Insurance Services, No. CV-23-02090-PHX-DWL (D. Ariz.), Doc. 179",
+      "evidence_type": "primary record",
+      "verified": "2026-09-02",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "ai_incident_law_record_id": "AIEL-2026-068",
+      "matter_type": "sanctions order (court's own show-cause proceeding)",
+      "filing_status": "sanctioned"
     }
   ]
 }

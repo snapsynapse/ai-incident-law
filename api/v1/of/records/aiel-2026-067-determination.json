@@ -1,0 +1,52 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-067-determination.json",
+  "id": "aiel-2026-067-determination",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/district-court-of-appeal-of-florida-second-district.json"
+  ],
+  "jurisdiction": {
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-fl"
+    ],
+    "institutional_scope": [
+      "District Court of Appeal of Florida, Second District"
+    ]
+  },
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-067-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned; judgment affirmed",
+    "notes": "Opinion by Rothstein-Youakim, J. (Northcutt and Smith, JJ., concurring), marked subject to revision prior to official publication at the time of verification — recheck for a final So. 3d citation. Counsel admitted using AI as \"a supplemental research tool\" but did not \"fully appreciate that such tools can generate inaccurate or nonexistent citations.\" The opinion itself cites Damien Charlotin's hallucination database at footnote 2 and discusses the June 15, 2026 amendment to Fla. R. Gen. Prac. & Jud. Admin. 2.515(d), which now requires an express representation that cited authorities exist and are accurately cited."
+  },
+  "notes": "Opinion by Rothstein-Youakim, J. (Northcutt and Smith, JJ., concurring), marked subject to revision prior to official publication at the time of verification — recheck for a final So. 3d citation. Counsel admitted using AI as \"a supplemental research tool\" but did not \"fully appreciate that such tools can generate inaccurate or nonexistent citations.\" The opinion itself cites Damien Charlotin's hallucination database at footnote 2 and discusses the June 15, 2026 amendment to Fla. R. Gen. Prac. & Jud. Admin. 2.515(d), which now requires an express representation that cited authorities exist and are accurately cited.",
+  "source": "https://flcourts-media.flcourts.gov/content/download/2494161/opinion/Opinion_2024-1392.pdf",
+  "source_locator": "Capital Standard, LLC v. U.S. Bank National Association, as trustee for Bear Stearns Asset Backed Securities I Trust 2005-AC9, No. 2D2024-1392 (Fla. 2d DCA)",
+  "evidence_type": "primary record",
+  "verified": "2026-09-02",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "ai_incident_law_record_id": "AIEL-2026-067",
+  "anchors": [
+    "https://everyailaw.com/obligation-category/human-oversight.json"
+  ]
+}

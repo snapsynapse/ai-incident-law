@@ -1,0 +1,52 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-066-determination.json",
+  "id": "aiel-2026-066-determination",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-georgia.json"
+  ],
+  "jurisdiction": {
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us"
+    ],
+    "institutional_scope": [
+      "U.S. District Court, Northern District of Georgia"
+    ]
+  },
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-066-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "remedy": {
+    "status": "sanctioned",
+    "notes": "Opinion and Order of Sanctions by Judge Steven D. Grimberg, resolved through the CourtListener RECAP path (PACER case id gand.358237, entry 66). No AI product is named anywhere in the order — \"ChatGPT\" appears only inside the title of a CLE course counsel claimed to have completed (\"ChatGPT, Alexa, and Siri Are Out to Get You!\") — so the tracker's implied product tag does not survive. The tracker's outcome tag (\"Monetary Sanctions; CLE\") is inaccurate: the court expressly declined to order additional CLE and instead required documentation of previously completed training."
+  },
+  "notes": "Opinion and Order of Sanctions by Judge Steven D. Grimberg, resolved through the CourtListener RECAP path (PACER case id gand.358237, entry 66). No AI product is named anywhere in the order — \"ChatGPT\" appears only inside the title of a CLE course counsel claimed to have completed (\"ChatGPT, Alexa, and Siri Are Out to Get You!\") — so the tracker's implied product tag does not survive. The tracker's outcome tag (\"Monetary Sanctions; CLE\") is inaccurate: the court expressly declined to order additional CLE and instead required documentation of previously completed training.",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.gand.358237/gov.uscourts.gand.358237.66.0.pdf",
+  "source_locator": "Erin Booker v. The Kroger Co., No. 1:26-cv-02006-SDG (N.D. Ga.), ECF No. 66",
+  "evidence_type": "primary record",
+  "verified": "2026-09-02",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "ai_incident_law_record_id": "AIEL-2026-066",
+  "anchors": [
+    "https://everyailaw.com/obligation-category/human-oversight.json"
+  ]
+}

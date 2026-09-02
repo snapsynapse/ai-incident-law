@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
+  "@type": "of:Party",
+  "@id": "https://aiincidentlaw.org/party/aiel-2026-066-deployer.json",
+  "id": "aiel-2026-066-deployer",
+  "name": "Plaintiff's counsel (identified in the record only as \"Mr. Johnson\"), counsel for plaintiff Erin Booker",
+  "party_kind": "unknown",
+  "roles": [
+    "deployer"
+  ],
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.gand.358237/gov.uscourts.gand.358237.66.0.pdf",
+  "source_locator": "Erin Booker v. The Kroger Co., No. 1:26-cv-02006-SDG (N.D. Ga.), ECF No. 66",
+  "evidence_type": "primary record",
+  "verified": "2026-09-02",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
+}

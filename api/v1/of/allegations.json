@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/context.jsonld",
-  "generated": "2026-09-01",
+  "generated": "2026-09-02",
   "allegations": [
     {
       "@context": [
@@ -2629,6 +2629,129 @@
       "source_locator": "Beslissing in de zaak 26-379/DB/LI/D, ECLI:NL:TADRSHE:2026:93 (Raad van Discipline in het ressort 's-Hertogenbosch)",
       "evidence_type": "primary record",
       "verified": "2026-08-19",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Allegation",
+      "@id": "https://aiincidentlaw.org/allegation/aiel-2026-066-allegation.json",
+      "id": "aiel-2026-066-allegation",
+      "text": "Plaintiff's counsel filed briefs in a slip-and-fall suit against Kroger containing fabricated case citations and misrepresentations of real authority. At a June 26, 2026 hearing, when directly questioned, counsel denied using artificial intelligence. In his later response to the court's order to show cause, he acknowledged that he had \"consulted\" AI tools in drafting the filings.",
+      "asserted_by": "asserting party not identified in the indexed source fields",
+      "related_to": "https://aiincidentlaw.org/incident/aiel-2026-066#ai-system",
+      "related_to_party": [
+        "https://aiincidentlaw.org/party/aiel-2026-066-deployer.json"
+      ],
+      "ai_system_name": "Unnamed generative AI (admitted by counsel)",
+      "deployer": "Plaintiff's counsel (identified in the record only as \"Mr. Johnson\"), counsel for plaintiff Erin Booker",
+      "domain": "legal services",
+      "error_type": "hallucinated authority",
+      "canonical_source_conflicted": "Four fake, false, or misleading case authorities cited in filings, and counsel's direct denial of AI use under questioning at a June 26, 2026 hearing",
+      "mitigation_gap": "Counsel did not verify AI-generated citations before filing them, and when first asked about AI use in open court he denied it rather than disclosing it; the false denial, not merely the fabrications, is what the court sanctioned most heavily.",
+      "reliance_or_harm": "The court imposed $1,000 per fake, false, or misleading authority (four total), doubled to $8,000 for counsel's false denial, payable to the court registry's general sanctions fund within 30 days. In lieu of ordering additional AI training, the court instead ordered counsel to file, within 7 days, documentation verifying the ethics-and-technology CLE training he claimed to have already completed, and reserved the question of further sanctions. Defendant's request for attorney's fees was declined as too difficult to apportion.",
+      "ai_incident_law_record_id": "AIEL-2026-066",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.gand.358237/gov.uscourts.gand.358237.66.0.pdf",
+      "source_locator": "Erin Booker v. The Kroger Co., No. 1:26-cv-02006-SDG (N.D. Ga.), ECF No. 66",
+      "evidence_type": "primary record",
+      "verified": "2026-09-02",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Allegation",
+      "@id": "https://aiincidentlaw.org/allegation/aiel-2026-067-allegation.json",
+      "id": "aiel-2026-067-allegation",
+      "text": "Counsel for appellants in a mortgage-foreclosure appeal filed an amended initial brief and a reply brief containing forty-six defective citations to case law: thirty-one in the amended initial brief and fifteen in the reply, including one wholly fabricated case and multiple real cases cited for propositions they do not support. Counsel admitted using AI as a research tool without independently verifying the citations it produced. The court found generative AI was not merely his \"supplemental research tool\" but his \"primary or only one.\"",
+      "asserted_by": "asserting party not identified in the indexed source fields",
+      "related_to": "https://aiincidentlaw.org/incident/aiel-2026-067#ai-system",
+      "related_to_party": [
+        "https://aiincidentlaw.org/party/aiel-2026-067-deployer.json"
+      ],
+      "ai_system_name": "Unnamed generative AI (admitted by counsel; court finding)",
+      "deployer": "Kenneth H. Keefe, The Keefe Law Firm, P.A., South Pasadena, Florida, counsel for appellants",
+      "domain": "legal services",
+      "error_type": "hallucinated authority",
+      "canonical_source_conflicted": "Forty-six fabricated or misrepresented case citations, including the wholly fictitious Board of Regents v. Wilson, 365 So. 2d 213 (Fla. 1st DCA 1979), against the appellate rules of professional candor",
+      "mitigation_gap": "Counsel used generative AI \"without any apparent guardrails,\" per the court's finding, and did not independently verify any of the AI-generated authorities through reliable legal research sources before filing.",
+      "reliance_or_harm": "The court struck the amended initial and reply briefs, fined counsel $1,500 ($500 for a belated show-cause response plus $1,000 for the AI misuse) payable to the clerk within 14 days, made counsel personally liable for the opposing party's appellate attorney's fees for researching and responding to the defective briefs (amount remanded to the trial court to determine), referred counsel to The Florida Bar, and expressly barred him from charging his clients for either the fine or the fee award. The underlying judgment was affirmed on the merits based on later, corrected briefing.",
+      "ai_incident_law_record_id": "AIEL-2026-067",
+      "source": "https://flcourts-media.flcourts.gov/content/download/2494161/opinion/Opinion_2024-1392.pdf",
+      "source_locator": "Capital Standard, LLC v. U.S. Bank National Association, as trustee for Bear Stearns Asset Backed Securities I Trust 2005-AC9, No. 2D2024-1392 (Fla. 2d DCA)",
+      "evidence_type": "primary record",
+      "verified": "2026-09-02",
+      "asserted_by_adopter": "https://aiincidentlaw.org/"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm"
+        }
+      ],
+      "@type": "of:Allegation",
+      "@id": "https://aiincidentlaw.org/allegation/aiel-2026-068-allegation.json",
+      "id": "aiel-2026-068-allegation",
+      "text": "Plaintiff's counsel used ChatGPT to draft portions of a fee-response brief and other filings, producing a false direct quotation attributed to a Ninth Circuit case (Osazuwa) and additional fabricated quotations across three further briefs, plus an inaccurate AI-generated case summary of a Third Circuit case (Ansell v. Green Acres). This was the terminal order in a three-stage sanctions proceeding that began with a July 8, 2026 order to show cause and a July 28, 2026 order finding the errors attributable to generative-AI misuse.",
+      "asserted_by": "asserting party not identified in the indexed source fields",
+      "related_to": "https://aiincidentlaw.org/incident/aiel-2026-068#ai-system",
+      "related_to_party": [
+        "https://aiincidentlaw.org/party/aiel-2026-068-deployer.json"
+      ],
+      "ai_system_name": "ChatGPT (named; admitted)",
+      "deployer": "Elizabeth Tate, counsel for plaintiff Michael L. Ruiz",
+      "domain": "legal services",
+      "error_type": "hallucinated authority",
+      "canonical_source_conflicted": "Multiple AI-generated false quotations and an inaccurate case summary across four separate briefs, cited to non-existent supporting language in real Ninth and Third Circuit opinions",
+      "mitigation_gap": "Counsel did not verify AI-generated quotations against the actual case text before filing, across multiple briefs and after at least one earlier warning within the same proceeding.",
+      "reliance_or_harm": "The court issued a formal public reprimand of counsel, which she must report in any future context requiring disclosure of past attorney discipline. The court cited prior discipline, a pattern of misconduct, and counsel's substantial experience as aggravating factors. No monetary sanction, CLE requirement, or State Bar referral was ordered in this final order.",
+      "ai_incident_law_record_id": "AIEL-2026-068",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1348340/gov.uscourts.azd.1348340.179.0.pdf",
+      "source_locator": "Michael L. Ruiz v. Magellan Financial & Insurance Services, No. CV-23-02090-PHX-DWL (D. Ariz.), Doc. 179",
+      "evidence_type": "primary record",
+      "verified": "2026-09-02",
       "asserted_by_adopter": "https://aiincidentlaw.org/"
     }
   ]

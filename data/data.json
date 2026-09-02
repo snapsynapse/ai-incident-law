@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01",
+  "generated_at": "2026-09-02",
   "datasets": {
     "included": {
       "label": "Included cases",
@@ -2204,6 +2204,96 @@
           "research_status": "included",
           "last_verified_date": "2026-08-19",
           "needs_review": "no"
+        },
+        {
+          "error_id": "AIEL-2026-066",
+          "error_title": "N.D. Georgia sanctions counsel $8,000 for AI citations after he denied, then admitted, AI use",
+          "ai_system_name": "Unnamed generative AI (admitted by counsel)",
+          "deployer": "Plaintiff's counsel (identified in the record only as \"Mr. Johnson\"), counsel for plaintiff Erin Booker",
+          "domain": "legal services",
+          "error_type": "hallucinated authority",
+          "error_description": "Plaintiff's counsel filed briefs in a slip-and-fall suit against Kroger containing fabricated case citations and misrepresentations of real authority. At a June 26, 2026 hearing, when directly questioned, counsel denied using artificial intelligence. In his later response to the court's order to show cause, he acknowledged that he had \"consulted\" AI tools in drafting the filings.",
+          "canonical_source_conflicted": "Four fake, false, or misleading case authorities cited in filings, and counsel's direct denial of AI use under questioning at a June 26, 2026 hearing",
+          "mitigation_gap": "Counsel did not verify AI-generated citations before filing them, and when first asked about AI use in open court he denied it rather than disclosing it; the false denial, not merely the fabrications, is what the court sanctioned most heavily.",
+          "reliance_or_harm": "The court imposed $1,000 per fake, false, or misleading authority (four total), doubled to $8,000 for counsel's false denial, payable to the court registry's general sanctions fund within 30 days. In lieu of ordering additional AI training, the court instead ordered counsel to file, within 7 days, documentation verifying the ethics-and-technology CLE training he claimed to have already completed, and reserved the question of further sanctions. Defendant's request for attorney's fees was declined as too difficult to apportion.",
+          "public_matter_type": "sanctions order (court's own order to show cause)",
+          "public_matter_name": "Erin Booker v. The Kroger Co., No. 1:26-cv-02006-SDG (N.D. Ga.), ECF No. 66",
+          "filing_status": "sanctioned",
+          "jurisdiction": "U.S. District Court, Northern District of Georgia",
+          "filing_date": "2026-08-28",
+          "error_date": "2026",
+          "public_record_link": "https://storage.courtlistener.com/recap/gov.uscourts.gand.358237/gov.uscourts.gand.358237.66.0.pdf",
+          "secondary_source_links": "",
+          "confidence_score": "high",
+          "notes_on_resolution": "Opinion and Order of Sanctions by Judge Steven D. Grimberg, resolved through the CourtListener RECAP path (PACER case id gand.358237, entry 66). No AI product is named anywhere in the order — \"ChatGPT\" appears only inside the title of a CLE course counsel claimed to have completed (\"ChatGPT, Alexa, and Siri Are Out to Get You!\") — so the tracker's implied product tag does not survive. The tracker's outcome tag (\"Monetary Sanctions; CLE\") is inaccurate: the court expressly declined to order additional CLE and instead required documentation of previously completed training.",
+          "tags": "hallucinated-citations; attorney-discipline; admitted-ai; unnamed-ai; false-denial; monetary-sanction; legal-services",
+          "source_quality": "primary record",
+          "research_status": "included",
+          "last_verified_date": "2026-09-02",
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation-category/human-oversight.json"
+          ]
+        },
+        {
+          "error_id": "AIEL-2026-067",
+          "error_title": "Florida's Second DCA sanctions attorney for 46 AI-hallucinated citations across two briefs",
+          "ai_system_name": "Unnamed generative AI (admitted by counsel; court finding)",
+          "deployer": "Kenneth H. Keefe, The Keefe Law Firm, P.A., South Pasadena, Florida, counsel for appellants",
+          "domain": "legal services",
+          "error_type": "hallucinated authority",
+          "error_description": "Counsel for appellants in a mortgage-foreclosure appeal filed an amended initial brief and a reply brief containing forty-six defective citations to case law: thirty-one in the amended initial brief and fifteen in the reply, including one wholly fabricated case and multiple real cases cited for propositions they do not support. Counsel admitted using AI as a research tool without independently verifying the citations it produced. The court found generative AI was not merely his \"supplemental research tool\" but his \"primary or only one.\"",
+          "canonical_source_conflicted": "Forty-six fabricated or misrepresented case citations, including the wholly fictitious Board of Regents v. Wilson, 365 So. 2d 213 (Fla. 1st DCA 1979), against the appellate rules of professional candor",
+          "mitigation_gap": "Counsel used generative AI \"without any apparent guardrails,\" per the court's finding, and did not independently verify any of the AI-generated authorities through reliable legal research sources before filing.",
+          "reliance_or_harm": "The court struck the amended initial and reply briefs, fined counsel $1,500 ($500 for a belated show-cause response plus $1,000 for the AI misuse) payable to the clerk within 14 days, made counsel personally liable for the opposing party's appellate attorney's fees for researching and responding to the defective briefs (amount remanded to the trial court to determine), referred counsel to The Florida Bar, and expressly barred him from charging his clients for either the fine or the fee award. The underlying judgment was affirmed on the merits based on later, corrected briefing.",
+          "public_matter_type": "sanctions order (appellate court's inherent authority)",
+          "public_matter_name": "Capital Standard, LLC v. U.S. Bank National Association, as trustee for Bear Stearns Asset Backed Securities I Trust 2005-AC9, No. 2D2024-1392 (Fla. 2d DCA)",
+          "filing_status": "sanctioned; judgment affirmed",
+          "jurisdiction": "District Court of Appeal of Florida, Second District",
+          "filing_date": "2026-08-21",
+          "error_date": "2026",
+          "public_record_link": "https://flcourts-media.flcourts.gov/content/download/2494161/opinion/Opinion_2024-1392.pdf",
+          "secondary_source_links": "",
+          "confidence_score": "high",
+          "notes_on_resolution": "Opinion by Rothstein-Youakim, J. (Northcutt and Smith, JJ., concurring), marked subject to revision prior to official publication at the time of verification — recheck for a final So. 3d citation. Counsel admitted using AI as \"a supplemental research tool\" but did not \"fully appreciate that such tools can generate inaccurate or nonexistent citations.\" The opinion itself cites Damien Charlotin's hallucination database at footnote 2 and discusses the June 15, 2026 amendment to Fla. R. Gen. Prac. & Jud. Admin. 2.515(d), which now requires an express representation that cited authorities exist and are accurately cited.",
+          "tags": "hallucinated-citations; attorney-discipline; admitted-ai; unnamed-ai; monetary-sanction; fee-shift; bar-referral; briefs-struck; appellate; legal-services",
+          "source_quality": "primary record",
+          "research_status": "included",
+          "last_verified_date": "2026-09-02",
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation-category/human-oversight.json"
+          ]
+        },
+        {
+          "error_id": "AIEL-2026-068",
+          "error_title": "D. Arizona reprimands attorney for ChatGPT-fabricated quotations across four briefs",
+          "ai_system_name": "ChatGPT (named; admitted)",
+          "deployer": "Elizabeth Tate, counsel for plaintiff Michael L. Ruiz",
+          "domain": "legal services",
+          "error_type": "hallucinated authority",
+          "error_description": "Plaintiff's counsel used ChatGPT to draft portions of a fee-response brief and other filings, producing a false direct quotation attributed to a Ninth Circuit case (Osazuwa) and additional fabricated quotations across three further briefs, plus an inaccurate AI-generated case summary of a Third Circuit case (Ansell v. Green Acres). This was the terminal order in a three-stage sanctions proceeding that began with a July 8, 2026 order to show cause and a July 28, 2026 order finding the errors attributable to generative-AI misuse.",
+          "canonical_source_conflicted": "Multiple AI-generated false quotations and an inaccurate case summary across four separate briefs, cited to non-existent supporting language in real Ninth and Third Circuit opinions",
+          "mitigation_gap": "Counsel did not verify AI-generated quotations against the actual case text before filing, across multiple briefs and after at least one earlier warning within the same proceeding.",
+          "reliance_or_harm": "The court issued a formal public reprimand of counsel, which she must report in any future context requiring disclosure of past attorney discipline. The court cited prior discipline, a pattern of misconduct, and counsel's substantial experience as aggravating factors. No monetary sanction, CLE requirement, or State Bar referral was ordered in this final order.",
+          "public_matter_type": "sanctions order (court's own show-cause proceeding)",
+          "public_matter_name": "Michael L. Ruiz v. Magellan Financial & Insurance Services, No. CV-23-02090-PHX-DWL (D. Ariz.), Doc. 179",
+          "filing_status": "sanctioned",
+          "jurisdiction": "U.S. District Court, District of Arizona",
+          "filing_date": "2026-08-24",
+          "error_date": "2026",
+          "public_record_link": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1348340/gov.uscourts.azd.1348340.179.0.pdf",
+          "secondary_source_links": "",
+          "confidence_score": "high",
+          "notes_on_resolution": "Order by Judge Dominic W. Lanza, resolved through the CourtListener RECAP path (PACER case id azd.1348340, entry 179). This is the terminal order of a three-stage proceeding (Doc. 163 order to show cause, Doc. 172 finding of AI misuse, Doc. 179 final reprimand); no earlier phase of this matter previously existed in the corpus. Note: the hallucination tracker's separate entry for an earlier July 28, 2026 phase of this same matter attributes one of the fabricated quotations to \"Claude AI,\" but this order quotes counsel's own admission that she \"utilized ChatGPT\" for that same brief — treat any future Claude attribution for this matter with caution pending re-verification against Doc. 172.",
+          "tags": "hallucinated-citations; attorney-discipline; admitted-ai; named-ai; chatgpt; reprimand; legal-services",
+          "source_quality": "primary record",
+          "research_status": "included",
+          "last_verified_date": "2026-09-02",
+          "needs_review": "no",
+          "obligation_first_anchors": [
+            "https://everyailaw.com/obligation-category/human-oversight.json"
+          ]
         }
       ]
     },
@@ -2444,6 +2534,15 @@
           "next_verification_step": "Resolve the order through PACER for D. Ariz. MDL No. 3081 by its 12 August 2026 filing date, or watch for a RECAP upload. On retrieval, promote to `included` with `filing_status` recording that exclusion was denied and `reliance_or_harm` recording that the report was admitted notwithstanding the hallucinated citations. This will be the corpus's first record of a tribunal declining to attach a consequence to an established AI defect, and it pairs with AIEL-2026-062, where hallucinated citations in an expert report produced exclusion and dismissal with prejudice.",
           "best_available_sources": "",
           "last_checked_date": "2026-08-19"
+        },
+        {
+          "candidate_id": "AIEL-CAND-030",
+          "candidate_title": "New Mexico Supreme Court holds attorney in contempt over ChatGPT-fabricated appellate summary",
+          "candidate_matter": "State of New Mexico v. Oscar Renee Sandoval, No. S-1-SC-40845 (N.M. Sup. Ct.) — show-cause proceeding against attorney Stephen Aarons",
+          "reason_for_review": "Facts clear gate 1 decisively (ChatGPT named and admitted on the record; court finding of direct contempt; $5,000 fine; removal from the case; briefs stricken; Disciplinary Board referral) and would otherwise be a strong `included` candidate, but the only public record located is the court's own audio/video recording of the August 21, 2026 show-cause hearing and its oral ruling — no written order has been posted publicly anywhere, including nmcourts.gov, nmonesource.com, or CourtListener (which carries no New Mexico state coverage at all). The corpus's existing `included` records all cite a text document; this one would be the first cited to an audio/video recording, which is a format decision for the steward rather than a sourcing gap.",
+          "next_verification_step": "Check nmcourts.gov and the New Mexico Supreme Court's own case-information system periodically for the written contempt order once it is docketed and posted; if a text order becomes available, promote to `included` using it as public_record_link. Venue detail (\"Las Cruces area\"/Chaparral/Doña Ana County) is press-sourced only (Santa Fe New Mexican, ABA Journal) and should be confirmed against the eventual written order rather than carried forward from news coverage.",
+          "best_available_sources": "https://supremecourt.nmcourts.gov/about-this-court/recordings-of-oral-arguments/; https://supremecourt.nmcourts.gov/wp-content/uploads/sites/2/2026/08/08212026.mp3; https://santafenewmexican.com/news/local_news/new-mexico-high-court-blasts-lawyer-takes-him-off-case-for-ai-errors-in-brief/article_a162daf7-95a4-4010-a017-dedcbdb68b0b.html; https://abajournal.com/news/article/criminal-defense-attorney-admits-stupidity-over-ai-errors-but-still-receives-sharp-rebuke-from-his-states-high-court",
+          "last_checked_date": "2026-09-02"
         }
       ]
     },
@@ -2754,6 +2853,38 @@
           "source_language": "English",
           "translation_status": "not needed",
           "last_checked_date": "2026-08-19"
+        },
+        {
+          "candidate_id": "AIEL-GLOB-021",
+          "candidate_title": "Gujarat tax officer's order relying exclusively on AI-hallucinated case law quashed; triggers statewide AI-governance instructions",
+          "country": "India",
+          "region": "APAC / Commonwealth",
+          "event_grain": "single_event",
+          "candidate_matter": "Faiz Enterprise v. State Tax Officer, Unit-67, Surat & Anr., R/Special Civil Application No. 10123 of 2026 (Gujarat High Court)",
+          "authority_type": "court; administrative/quasi-judicial tax authority",
+          "legal_basis": "GST Act adjudication; administrative law; natural justice",
+          "reason_for_review": "Strong adjudicator-side matter, but the AI-using party is a State Tax Officer exercising quasi-judicial GST adjudication (a probationary officer), not a judge — the tracker's \"Judge\" tag over-claims and needs correction before this could be drafted as a judicial-AI-use record. Bucket is `global` on the non-US rule alone; sourcing is fully resolved via the court's own QR-verified copy.",
+          "next_verification_step": "Steward review of the systemic-outcome angle: the Additional Commissioner of State Tax (Admin), Gujarat issued statewide instructions (No. CCT/Admin/instructions/2026-27/O.N:-53, 18 Aug 2026) governing AI use by adjudicating and quasi-judicial authorities, which the High Court incorporated into its order with contempt-of-court backing for violations — this may be worth its own Obligation-First anchor as an AI-governance instrument distinct from the underlying incident.",
+          "best_available_sources": "https://gujarathc-casestatus.nic.in/gujarathc/VerifyNCQR?aid=MjAyNi1HSkhDMjQwNDg0MjEyMDI2LTItdW5kZWZpbmVk",
+          "source_language": "English",
+          "translation_status": "not needed",
+          "last_checked_date": "2026-09-02"
+        },
+        {
+          "candidate_id": "AIEL-GLOB-022",
+          "candidate_title": "Tel Aviv District Court finds reliance on AI hallucinations in class-certification withdrawal, awards costs",
+          "country": "Israel",
+          "region": "MENA",
+          "event_grain": "single_event",
+          "candidate_matter": "Adibi v. AIG Israel Insurance Co. Ltd., CA (class action) 6989-05-25 (Tel Aviv-Jaffa District Court)",
+          "authority_type": "court",
+          "legal_basis": "Class Actions Law 5766-2006",
+          "reason_for_review": "Gate 1 passes on the court's own repeated Hebrew-language finding (\"the reliance on AI hallucinations\") across five fabricated citations, but sourcing is currently limited to the tracker's own document server plus one law-firm blog (law.co.il) — no Nevo, net.hamishpat, or court.gov.il citation located. The tracker's \"Monetary Fine\" tag is materially wrong: the ILS 20,000 is an ordinary adverse-party costs award against the plaintiff, not a sanction on counsel — the court considered and expressly declined a personal-costs sanction against counsel, settling for a warning. No citable court-issued original could be located (checked net.hamishpat.gov.il patterns and Nevo); the only source found is a law-firm blog summary. Matter is cited here by its official case number (CA 6989-05-25, Tel Aviv-Jaffa District Court) pending a reachable original.",
+          "next_verification_step": "Locate an official Israeli judiciary publication (net.hamishpat.gov.il or Nevo) for the underlying order; confirm final translation of the operative Hebrew passages before any promotion to `included`.",
+          "best_available_sources": "https://law.co.il/computer-law/2026/08/29/adiby-v-aig-israel-insurance-company-ltd/",
+          "source_language": "Hebrew",
+          "translation_status": "partial",
+          "last_checked_date": "2026-09-02"
         }
       ]
     }

@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-066-allegation.json",
+  "id": "aiel-2026-066-allegation",
+  "text": "Plaintiff's counsel filed briefs in a slip-and-fall suit against Kroger containing fabricated case citations and misrepresentations of real authority. At a June 26, 2026 hearing, when directly questioned, counsel denied using artificial intelligence. In his later response to the court's order to show cause, he acknowledged that he had \"consulted\" AI tools in drafting the filings.",
+  "asserted_by": "asserting party not identified in the indexed source fields",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-066#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-066-deployer.json"
+  ],
+  "ai_system_name": "Unnamed generative AI (admitted by counsel)",
+  "deployer": "Plaintiff's counsel (identified in the record only as \"Mr. Johnson\"), counsel for plaintiff Erin Booker",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Four fake, false, or misleading case authorities cited in filings, and counsel's direct denial of AI use under questioning at a June 26, 2026 hearing",
+  "mitigation_gap": "Counsel did not verify AI-generated citations before filing them, and when first asked about AI use in open court he denied it rather than disclosing it; the false denial, not merely the fabrications, is what the court sanctioned most heavily.",
+  "reliance_or_harm": "The court imposed $1,000 per fake, false, or misleading authority (four total), doubled to $8,000 for counsel's false denial, payable to the court registry's general sanctions fund within 30 days. In lieu of ordering additional AI training, the court instead ordered counsel to file, within 7 days, documentation verifying the ethics-and-technology CLE training he claimed to have already completed, and reserved the question of further sanctions. Defendant's request for attorney's fees was declined as too difficult to apportion.",
+  "ai_incident_law_record_id": "AIEL-2026-066",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.gand.358237/gov.uscourts.gand.358237.66.0.pdf",
+  "source_locator": "Erin Booker v. The Kroger Co., No. 1:26-cv-02006-SDG (N.D. Ga.), ECF No. 66",
+  "evidence_type": "primary record",
+  "verified": "2026-09-02",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
+}

@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm"
+    }
+  ],
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-068-allegation.json",
+  "id": "aiel-2026-068-allegation",
+  "text": "Plaintiff's counsel used ChatGPT to draft portions of a fee-response brief and other filings, producing a false direct quotation attributed to a Ninth Circuit case (Osazuwa) and additional fabricated quotations across three further briefs, plus an inaccurate AI-generated case summary of a Third Circuit case (Ansell v. Green Acres). This was the terminal order in a three-stage sanctions proceeding that began with a July 8, 2026 order to show cause and a July 28, 2026 order finding the errors attributable to generative-AI misuse.",
+  "asserted_by": "asserting party not identified in the indexed source fields",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-068#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-068-deployer.json"
+  ],
+  "ai_system_name": "ChatGPT (named; admitted)",
+  "deployer": "Elizabeth Tate, counsel for plaintiff Michael L. Ruiz",
+  "domain": "legal services",
+  "error_type": "hallucinated authority",
+  "canonical_source_conflicted": "Multiple AI-generated false quotations and an inaccurate case summary across four separate briefs, cited to non-existent supporting language in real Ninth and Third Circuit opinions",
+  "mitigation_gap": "Counsel did not verify AI-generated quotations against the actual case text before filing, across multiple briefs and after at least one earlier warning within the same proceeding.",
+  "reliance_or_harm": "The court issued a formal public reprimand of counsel, which she must report in any future context requiring disclosure of past attorney discipline. The court cited prior discipline, a pattern of misconduct, and counsel's substantial experience as aggravating factors. No monetary sanction, CLE requirement, or State Bar referral was ordered in this final order.",
+  "ai_incident_law_record_id": "AIEL-2026-068",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1348340/gov.uscourts.azd.1348340.179.0.pdf",
+  "source_locator": "Michael L. Ruiz v. Magellan Financial & Insurance Services, No. CV-23-02090-PHX-DWL (D. Ariz.), Doc. 179",
+  "evidence_type": "primary record",
+  "verified": "2026-09-02",
+  "asserted_by_adopter": "https://aiincidentlaw.org/"
+}
