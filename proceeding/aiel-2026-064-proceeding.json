@@ -13,7 +13,8 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "filing_date_source": "ail:filingDateSource"
     }
   ],
   "@type": "of:Proceeding",
@@ -21,6 +22,7 @@
   "id": "aiel-2026-064-proceeding",
   "title": "Fuselier v. Riscassi, No. 1:25-cv-268-HSO-BWR (S.D. Miss.), ECF No. 28",
   "filed_date": "2026-05-22",
+  "filing_date_source": "2026-05-22",
   "heardBy": [
     "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-mississippi.json"
   ],

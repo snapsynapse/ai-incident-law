@@ -13,7 +13,8 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "filing_date_source": "ail:filingDateSource"
     }
   ],
   "@type": "of:Proceeding",
@@ -21,6 +22,7 @@
   "id": "aiel-2025-006-proceeding",
   "title": "Huffman Construction, LLC, ASBCA Nos. 62591, 62783",
   "filed_date": "2025-10-23",
+  "filing_date_source": "2025-10-23",
   "heardBy": [
     "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json"
   ],

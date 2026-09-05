@@ -13,7 +13,8 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "filing_date_source": "ail:filingDateSource"
     }
   ],
   "@type": "of:Proceeding",
@@ -21,6 +22,7 @@
   "id": "aiel-2026-032-proceeding",
   "title": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)",
   "filed_date": "2026-03-05",
+  "filing_date_source": "2026-03-05",
   "heardBy": [
     "https://aiincidentlaw.org/authority/california-court-of-appeal-fourth-appellate-district-division-one.json"
   ],

@@ -13,7 +13,8 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "filing_date_source": "ail:filingDateSource"
     }
   ],
   "@type": "of:Proceeding",
@@ -21,6 +22,7 @@
   "id": "aiel-2026-034-proceeding",
   "title": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)",
   "filed_date": "2026-03-20",
+  "filing_date_source": "2026-03-20",
   "heardBy": [
     "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-louisiana.json"
   ],

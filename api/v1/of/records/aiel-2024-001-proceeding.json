@@ -13,7 +13,8 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "filing_date_source": "ail:filingDateSource"
     }
   ],
   "@type": "of:Proceeding",
@@ -21,6 +22,7 @@
   "id": "aiel-2024-001-proceeding",
   "title": "Moffatt v. Air Canada, 2024 BCCRT 149",
   "filed_date": "2024-02-14",
+  "filing_date_source": "2024-02-14",
   "heardBy": [
     "https://aiincidentlaw.org/authority/british-columbia-civil-resolution-tribunal.json"
   ],

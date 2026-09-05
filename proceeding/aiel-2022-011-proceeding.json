@@ -14,6 +14,7 @@
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
       "reliance_or_harm": "ail:relianceOrHarm",
+      "filing_date_source": "ail:filingDateSource",
       "procedural_stage": "ail:proceduralStage"
     }
   ],
@@ -21,7 +22,7 @@
   "@id": "https://aiincidentlaw.org/proceeding/aiel-2022-011-proceeding.json",
   "id": "aiel-2022-011-proceeding",
   "title": "Bauserman v. Unemployment Insurance Agency",
-  "filed_date": "2015-01-01",
+  "filing_date_source": "2015",
   "heardBy": [
     "https://aiincidentlaw.org/authority/michigan-supreme-court.json"
   ],

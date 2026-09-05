@@ -13,7 +13,8 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "filing_date_source": "ail:filingDateSource"
     }
   ],
   "@type": "of:Proceeding",
@@ -21,6 +22,7 @@
   "id": "aiel-2026-005-proceeding",
   "title": "Fletcher v. Experian Information Solutions, Inc., No. 25-20086",
   "filed_date": "2026-02-18",
+  "filing_date_source": "2026-02-18",
   "heardBy": [
     "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-fifth-circuit.json"
   ],

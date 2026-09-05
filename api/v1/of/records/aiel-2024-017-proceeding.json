@@ -14,6 +14,7 @@
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
       "reliance_or_harm": "ail:relianceOrHarm",
+      "filing_date_source": "ail:filingDateSource",
       "procedural_stage": "ail:proceduralStage"
     }
   ],
@@ -22,6 +23,7 @@
   "id": "aiel-2024-017-proceeding",
   "title": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
   "filed_date": "2024-01-18",
+  "filing_date_source": "2024-01-18",
   "heardBy": [
     "https://aiincidentlaw.org/authority/harris-county-125th-judicial-district-court.json"
   ],

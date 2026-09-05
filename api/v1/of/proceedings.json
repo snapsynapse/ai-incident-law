@@ -17,7 +17,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -25,6 +26,7 @@
       "id": "aiel-2024-001-proceeding",
       "title": "Moffatt v. Air Canada, 2024 BCCRT 149",
       "filed_date": "2024-02-14",
+      "filing_date_source": "2024-02-14",
       "heardBy": [
         "https://aiincidentlaw.org/authority/british-columbia-civil-resolution-tribunal.json"
       ],
@@ -81,7 +83,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -89,6 +92,7 @@
       "id": "aiel-2023-002-proceeding",
       "title": "Mata v. Avianca, Inc., No. 22-cv-1461",
       "filed_date": "2023-06-22",
+      "filing_date_source": "2023-06-22",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json"
       ],
@@ -140,7 +144,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -148,6 +153,7 @@
       "id": "aiel-2024-003-proceeding",
       "title": "Park v. Kim, No. 22-2057",
       "filed_date": "2024-01-30",
+      "filing_date_source": "2024-01-30",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-second-circuit.json"
       ],
@@ -199,14 +205,15 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2025-004-proceeding.json",
       "id": "aiel-2025-004-proceeding",
       "title": "Wadsworth v. Walmart Inc.",
-      "filed_date": "2025-01-01",
+      "filing_date_source": "2025",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-district-of-wyoming.json"
       ],
@@ -258,7 +265,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -266,6 +274,7 @@
       "id": "aiel-2026-005-proceeding",
       "title": "Fletcher v. Experian Information Solutions, Inc., No. 25-20086",
       "filed_date": "2026-02-18",
+      "filing_date_source": "2026-02-18",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-fifth-circuit.json"
       ],
@@ -317,7 +326,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -325,6 +335,7 @@
       "id": "aiel-2025-006-proceeding",
       "title": "Huffman Construction, LLC, ASBCA Nos. 62591, 62783",
       "filed_date": "2025-10-23",
+      "filing_date_source": "2025-10-23",
       "heardBy": [
         "https://aiincidentlaw.org/authority/armed-services-board-of-contract-appeals.json"
       ],
@@ -376,7 +387,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -384,6 +396,7 @@
       "id": "aiel-2025-007-proceeding",
       "title": "Buchanan v. Vuori, Inc., No. 5:23-cv-01121-NC",
       "filed_date": "2025-11-20",
+      "filing_date_source": "2025-11-20",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json"
       ],
@@ -436,6 +449,7 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource",
           "procedural_stage": "ail:proceduralStage"
         }
       ],
@@ -444,6 +458,7 @@
       "id": "aiel-2024-008-proceeding",
       "title": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
       "filed_date": "2024-03-08",
+      "filing_date_source": "2024-03-08",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json"
       ],
@@ -496,7 +511,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -504,6 +520,7 @@
       "id": "aiel-2023-009-proceeding",
       "title": "EEOC v. iTutorGroup, Inc., et al., No. 1:22-cv-02565",
       "filed_date": "2022-05-05",
+      "filing_date_source": "2022-05-05",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-new-york.json"
       ],
@@ -555,14 +572,15 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-010-proceeding.json",
       "id": "aiel-2024-010-proceeding",
       "title": "Louis et al. v. SafeRent Solutions, LLC et al.",
-      "filed_date": "2022-05-01",
+      "filing_date_source": "2022-05",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts.json"
       ],
@@ -615,6 +633,7 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource",
           "procedural_stage": "ail:proceduralStage"
         }
       ],
@@ -623,6 +642,7 @@
       "id": "aiel-2022-011-court-of-claims-proceeding",
       "title": "Bauserman v. Unemployment Insurance Agency, Court of Claims No. 15-202-MM",
       "filed_date": "2015-09-09",
+      "filing_date_source": "2015-09-09",
       "heardBy": [
         "https://aiincidentlaw.org/authority/michigan-court-of-claims.json"
       ],
@@ -674,6 +694,7 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource",
           "procedural_stage": "ail:proceduralStage"
         }
       ],
@@ -681,7 +702,7 @@
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2022-011-proceeding.json",
       "id": "aiel-2022-011-proceeding",
       "title": "Bauserman v. Unemployment Insurance Agency",
-      "filed_date": "2015-01-01",
+      "filing_date_source": "2015",
       "heardBy": [
         "https://aiincidentlaw.org/authority/michigan-supreme-court.json"
       ],
@@ -735,6 +756,7 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource",
           "procedural_stage": "ail:proceduralStage"
         }
       ],
@@ -743,6 +765,7 @@
       "id": "aiel-2017-012-proceeding",
       "title": "Ledgerwood v. Arkansas Department of Human Services / related federal litigation",
       "filed_date": "2017-01-27",
+      "filing_date_source": "2017-01-27",
       "heardBy": [
         "https://aiincidentlaw.org/authority/arkansas-supreme-court.json"
       ],
@@ -795,7 +818,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -803,6 +827,7 @@
       "id": "aiel-2023-013-proceeding",
       "title": "FTC v. Rite Aid facial-recognition enforcement",
       "filed_date": "2023-12-19",
+      "filing_date_source": "2023-12-19",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-federal-trade-commission.json"
       ],
@@ -854,14 +879,15 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-014-proceeding.json",
       "id": "aiel-2024-014-proceeding",
       "title": "Williams v. City of Detroit, No. 2:21-cv-10827",
-      "filed_date": "2021-04-01",
+      "filing_date_source": "2021-04",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json"
       ],
@@ -913,14 +939,15 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-015-proceeding.json",
       "id": "aiel-2024-015-proceeding",
       "title": "Parks v. McCormac, Civil No. 3:22-cv-05765",
-      "filed_date": "2022-09-01",
+      "filing_date_source": "2022-09",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-district-of-new-jersey.json"
       ],
@@ -970,14 +997,15 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2025-016-proceeding.json",
       "id": "aiel-2025-016-proceeding",
       "title": "Woodruff v. Oliver, No. 2:23-cv-11597",
-      "filed_date": "2023-07-01",
+      "filing_date_source": "2023-07",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json"
       ],
@@ -1030,6 +1058,7 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource",
           "procedural_stage": "ail:proceduralStage"
         }
       ],
@@ -1038,6 +1067,7 @@
       "id": "aiel-2024-017-proceeding",
       "title": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
       "filed_date": "2024-01-18",
+      "filing_date_source": "2024-01-18",
       "heardBy": [
         "https://aiincidentlaw.org/authority/harris-county-125th-judicial-district-court.json"
       ],
@@ -1089,6 +1119,7 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource",
           "procedural_stage": "ail:proceduralStage"
         }
       ],
@@ -1097,6 +1128,7 @@
       "id": "aiel-2024-017-federal-removal-proceeding",
       "title": "Murphy v. EssilorLuxottica USA Inc. et al., No. 4:24-cv-00801",
       "filed_date": "2024-03-04",
+      "filing_date_source": "2024-03-04",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-texas.json"
       ],
@@ -1147,7 +1179,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -1155,6 +1188,7 @@
       "id": "aiel-2025-018-proceeding",
       "title": "Mobley v. Workday, Inc., No. 3:23-cv-00770",
       "filed_date": "2023-02-21",
+      "filing_date_source": "2023-02-21",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json"
       ],
@@ -1204,7 +1238,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -1212,6 +1247,7 @@
       "id": "aiel-2026-019-proceeding",
       "title": "Swanson v. International Business Machines Corporation, No. 1:26-cv-01382",
       "filed_date": "2026-05-23",
+      "filing_date_source": "2026-05-23",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-texas.json"
       ],
@@ -1261,7 +1297,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -1269,6 +1306,7 @@
       "id": "aiel-2026-020-proceeding",
       "title": "Cable News Network, Inc. v. Perplexity AI, Inc., No. 1:26-cv-04427",
       "filed_date": "2026-05-28",
+      "filing_date_source": "2026-05-28",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json"
       ],
@@ -1318,7 +1356,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -1326,6 +1365,7 @@
       "id": "aiel-2026-021-proceeding",
       "title": "State of Oklahoma ex rel. Oklahoma Bar Association v. Reeves, 2026 OK 37",
       "filed_date": "2026-05-27",
+      "filing_date_source": "2026-05-27",
       "heardBy": [
         "https://aiincidentlaw.org/authority/supreme-court-of-oklahoma.json"
       ],
@@ -1379,7 +1419,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -1387,6 +1428,7 @@
       "id": "aiel-2026-022-proceeding",
       "title": "Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930 (No. S-25-035)",
       "filed_date": "2026-05-26",
+      "filing_date_source": "2026-05-26",
       "heardBy": [
         "https://aiincidentlaw.org/authority/ohio-court-of-appeals-sixth-appellate-district.json"
       ],
@@ -1440,7 +1482,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -1448,6 +1491,7 @@
       "id": "aiel-2026-023-proceeding",
       "title": "United States v. Farris, No. 25-5623 (6th Cir.)",
       "filed_date": "2026-04-03",
+      "filing_date_source": "2026-04-03",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-sixth-circuit.json"
       ],
@@ -1499,7 +1543,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -1507,6 +1552,7 @@
       "id": "aiel-2026-024-proceeding",
       "title": "Hill v. Workday, Inc., No. 3:23-cv-06558-PHK",
       "filed_date": "2026-04-28",
+      "filing_date_source": "2026-04-28",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json"
       ],
@@ -1558,7 +1604,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -1566,6 +1613,7 @@
       "id": "aiel-2026-025-proceeding",
       "title": "Chaney v. Transdev Services Inc., No. 2:24-cv-10761-ODW (AJRx)",
       "filed_date": "2026-04-28",
+      "filing_date_source": "2026-04-28",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-central-district-of-california.json"
       ],
@@ -1617,7 +1665,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -1625,6 +1674,7 @@
       "id": "aiel-2026-026-proceeding",
       "title": "Jimenez-Fogarty v. Fogarty, No. 1:24-cv-08705-JLR-GWG (S.D.N.Y.)",
       "filed_date": "2026-04-29",
+      "filing_date_source": "2026-04-29",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json"
       ],
@@ -1676,7 +1726,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -1684,6 +1735,7 @@
       "id": "aiel-2026-027-proceeding",
       "title": "Ibach v. Stewart, No. SC-2025-0106 (Ala.)",
       "filed_date": "2026-04-24",
+      "filing_date_source": "2026-04-24",
       "heardBy": [
         "https://aiincidentlaw.org/authority/supreme-court-of-alabama.json"
       ],
@@ -1735,7 +1787,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -1743,6 +1796,7 @@
       "id": "aiel-2026-028-proceeding",
       "title": "Bunce v. Visual Technology Innovations, Inc., No. 2:23-cv-01740-KNS",
       "filed_date": "2026-04-20",
+      "filing_date_source": "2026-04-20",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json"
       ],
@@ -1794,7 +1848,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -1802,6 +1857,7 @@
       "id": "aiel-2026-029-proceeding",
       "title": "Obi v. Cook County, Illinois, No. 1:25-cv-03096",
       "filed_date": "2026-04-09",
+      "filing_date_source": "2026-04-09",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-illinois.json"
       ],
@@ -1853,7 +1909,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -1861,6 +1918,7 @@
       "id": "aiel-2026-030-proceeding",
       "title": "Hulvat v. Gumina, 2026 IL App (3d) 240628-U",
       "filed_date": "2026-04-09",
+      "filing_date_source": "2026-04-09",
       "heardBy": [
         "https://aiincidentlaw.org/authority/appellate-court-of-illinois-third-district.json"
       ],
@@ -1914,7 +1972,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -1922,6 +1981,7 @@
       "id": "aiel-2026-031-proceeding",
       "title": "In re Wise, No. 25-51132 (Bankr. W.D. La.)",
       "filed_date": "2026-04-09",
+      "filing_date_source": "2026-04-09",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-western-district-of-louisiana.json"
       ],
@@ -1973,7 +2033,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -1981,6 +2042,7 @@
       "id": "aiel-2026-032-proceeding",
       "title": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)",
       "filed_date": "2026-03-05",
+      "filing_date_source": "2026-03-05",
       "heardBy": [
         "https://aiincidentlaw.org/authority/california-court-of-appeal-fourth-appellate-district-division-one.json"
       ],
@@ -2032,7 +2094,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -2040,6 +2103,7 @@
       "id": "aiel-2026-033-proceeding",
       "title": "Kattom v. Bondi, No. 25-1497 SEC P (W.D. La.)",
       "filed_date": "2026-03-06",
+      "filing_date_source": "2026-03-06",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-louisiana.json"
       ],
@@ -2091,7 +2155,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -2099,6 +2164,7 @@
       "id": "aiel-2026-034-proceeding",
       "title": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)",
       "filed_date": "2026-03-20",
+      "filing_date_source": "2026-03-20",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-louisiana.json"
       ],
@@ -2150,7 +2216,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -2158,6 +2225,7 @@
       "id": "aiel-2026-035-proceeding",
       "title": "State v. Coleman, 2026-Ohio-965, No. 2024-A-0040 (Ohio Ct. App., 11th Dist.)",
       "filed_date": "2026-03-20",
+      "filing_date_source": "2026-03-20",
       "heardBy": [
         "https://aiincidentlaw.org/authority/court-of-appeals-of-ohio-eleventh-appellate-district.json"
       ],
@@ -2211,7 +2279,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -2219,6 +2288,7 @@
       "id": "aiel-2026-036-proceeding",
       "title": "Couvrette v. Wisnovsky, No. 1:21-cv-00157-CL (D. Or.)",
       "filed_date": "2026-03-23",
+      "filing_date_source": "2026-03-23",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-district-of-oregon.json"
       ],
@@ -2270,7 +2340,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -2278,6 +2349,7 @@
       "id": "aiel-2026-037-proceeding",
       "title": "Heimkes v. Fairhope Motorcoach Resort Condominium Owners Association et al., No. 1:22-cv-00448-TFM-N (S.D. Ala.)",
       "filed_date": "2026-03-31",
+      "filing_date_source": "2026-03-31",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-alabama.json"
       ],
@@ -2329,7 +2401,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -2337,6 +2410,7 @@
       "id": "aiel-2026-038-proceeding",
       "title": "Rivera v. Triad Properties Corporation et al., No. 2:24-cv-01802-AMM (N.D. Ala.)",
       "filed_date": "2026-03-31",
+      "filing_date_source": "2026-03-31",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-alabama.json"
       ],
@@ -2388,7 +2462,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -2396,6 +2471,7 @@
       "id": "aiel-2026-040-proceeding",
       "title": "Coomer v. Lindell/MyPillow Inc., No. 1:22-cv-01129-NYW-SBP (D. Colo.)",
       "filed_date": "2026-05-07",
+      "filing_date_source": "2026-05-07",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-district-of-colorado.json"
       ],
@@ -2447,7 +2523,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -2455,6 +2532,7 @@
       "id": "aiel-2026-041-proceeding",
       "title": "Chakma v. Sushi Katsuei Inc., No. 1:23-cv-07804-KPF (S.D.N.Y.)",
       "filed_date": "2026-05-19",
+      "filing_date_source": "2026-05-19",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json"
       ],
@@ -2506,7 +2584,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -2514,6 +2593,7 @@
       "id": "aiel-2026-042-proceeding",
       "title": "Davis v. Marion County Superior Court Juvenile Detention Center, No. 1:24-cv-01918-JRO-MJD (S.D. Ind.)",
       "filed_date": "2026-05-20",
+      "filing_date_source": "2026-05-20",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-indiana.json"
       ],
@@ -2565,7 +2645,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -2573,6 +2654,7 @@
       "id": "aiel-2026-043-proceeding",
       "title": "Perez-Castillo v. Blanche (Att'y Gen.), No. 25-1988 (7th Cir.)",
       "filed_date": "2026-06-01",
+      "filing_date_source": "2026-06-01",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-seventh-circuit.json"
       ],
@@ -2624,7 +2706,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -2632,6 +2715,7 @@
       "id": "aiel-2026-044-proceeding",
       "title": "Deutsche Bank Natl. Trust Co. v. LeTennier, 2026 NY Slip Op 00040, Docket No. CV-23-0713 (N.Y. App. Div., 3d Dep’t)",
       "filed_date": "2026-01-08",
+      "filing_date_source": "2026-01-08",
       "heardBy": [
         "https://aiincidentlaw.org/authority/new-york-supreme-court-appellate-division-third-department.json"
       ],
@@ -2683,7 +2767,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -2691,6 +2776,7 @@
       "id": "aiel-2026-045-proceeding",
       "title": "Hodges v. Meridian Waste Acquisitions USA, No. 3:25-cv-62; Rieske v. AFS, No. 5:25-cv-45 (M.D. Fla.)",
       "filed_date": "2026-01-16",
+      "filing_date_source": "2026-01-16",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json"
       ],
@@ -2742,7 +2828,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -2750,6 +2837,7 @@
       "id": "aiel-2026-046-proceeding",
       "title": "Lifetime Well LLC v. IBSpot.com Inc., No. 2:25-cv-05135-MAK (E.D. Pa.)",
       "filed_date": "2026-01-26",
+      "filing_date_source": "2026-01-26",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-pennsylvania.json"
       ],
@@ -2801,7 +2889,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -2809,6 +2898,7 @@
       "id": "aiel-2026-047-proceeding",
       "title": "Lexos Media IP, LLC v. Overstock.com, Inc., No. 2:22-cv-02324-JAR (D. Kan.)",
       "filed_date": "2026-02-02",
+      "filing_date_source": "2026-02-02",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-district-of-kansas.json"
       ],
@@ -2860,7 +2950,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -2868,6 +2959,7 @@
       "id": "aiel-2026-048-proceeding",
       "title": "Amarsingh v. Frontier Airlines, Inc., No. 24-1391 (10th Cir.)",
       "filed_date": "2026-02-09",
+      "filing_date_source": "2026-02-09",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-tenth-circuit.json"
       ],
@@ -2919,7 +3011,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -2927,6 +3020,7 @@
       "id": "aiel-2026-049-proceeding",
       "title": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., No. B329314 (Cal. Ct. App., 2d Dist., Div. Three) (unpublished)",
       "filed_date": "2026-02-18",
+      "filing_date_source": "2026-02-18",
       "heardBy": [
         "https://aiincidentlaw.org/authority/california-court-of-appeal-second-appellate-district.json"
       ],
@@ -2978,7 +3072,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -2986,6 +3081,7 @@
       "id": "aiel-2026-050-proceeding",
       "title": "Maldonado v. Professional Animal Retirement Center (PARC), No. 1:25-cv-00454-HAB-ALT (N.D. Ind.)",
       "filed_date": "2026-04-01",
+      "filing_date_source": "2026-04-01",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-indiana.json"
       ],
@@ -3037,7 +3133,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -3045,6 +3142,7 @@
       "id": "aiel-2026-051-proceeding",
       "title": "In re Rosslyn2016, LLC, Texas Esencia 2019 LLC and Timbers2020 LLC, No. 25-34507 (Bankr. S.D. Tex., Houston Div.)",
       "filed_date": "2026-07-14",
+      "filing_date_source": "2026-07-14",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-bankruptcy-court-southern-district-of-texas.json"
       ],
@@ -3096,7 +3194,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -3104,6 +3203,7 @@
       "id": "aiel-2026-052-proceeding",
       "title": "Del Biaggio v. Bansen, No. A174647 (Cal. Ct. App., 1st Dist., Div. 4) (Humboldt County Super. Ct. No. CV1901078)",
       "filed_date": "2026-07-10",
+      "filing_date_source": "2026-07-10",
       "heardBy": [
         "https://aiincidentlaw.org/authority/california-court-of-appeal-first-appellate-district.json"
       ],
@@ -3155,7 +3255,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -3163,6 +3264,7 @@
       "id": "aiel-2026-053-proceeding",
       "title": "Akerlund v. Atlas Air, Inc., Flight Services International, LLC, No. 24-11033 (11th Cir.)",
       "filed_date": "2026-07-10",
+      "filing_date_source": "2026-07-10",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-court-of-appeals-for-the-eleventh-circuit.json"
       ],
@@ -3214,7 +3316,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -3222,6 +3325,7 @@
       "id": "aiel-2026-054-proceeding",
       "title": "Hannah Renea Payne v. The State, No. S26A0459 (Ga.), 324 Ga. 305",
       "filed_date": "2026-05-05",
+      "filing_date_source": "2026-05-05",
       "heardBy": [
         "https://aiincidentlaw.org/authority/supreme-court-of-georgia.json"
       ],
@@ -3267,7 +3371,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -3275,6 +3380,7 @@
       "id": "aiel-2026-055-proceeding",
       "title": "Withers v. City of Aberdeen, No. 1:24-CV-218-SA-RP (N.D. Miss.)",
       "filed_date": "2026-06-08",
+      "filing_date_source": "2026-06-08",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-mississippi.json"
       ],
@@ -3326,7 +3432,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -3334,6 +3441,7 @@
       "id": "aiel-2026-056-proceeding",
       "title": "Joseph Cartagena v. Terrance Dixon, Tyrone Blackburn, and T.A. Blackburn Law, PLLC, No. 1:25-cv-03552 (JLR) (S.D.N.Y.)",
       "filed_date": "2026-03-10",
+      "filing_date_source": "2026-03-10",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json"
       ],
@@ -3385,7 +3493,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -3393,6 +3502,7 @@
       "id": "aiel-2026-057-proceeding",
       "title": "Matter of: CVTEK, LLC, B-423943; B-423943.2 (U.S. Government Accountability Office)",
       "filed_date": "2026-02-12",
+      "filing_date_source": "2026-02-12",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-government-accountability-office.json"
       ],
@@ -3444,7 +3554,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -3452,6 +3563,7 @@
       "id": "aiel-2026-058-proceeding",
       "title": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)",
       "filed_date": "2025-10-06",
+      "filing_date_source": "2025-10-06",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-pennsylvania.json"
       ],
@@ -3503,7 +3615,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -3511,6 +3624,7 @@
       "id": "aiel-2026-059-proceeding",
       "title": "Billups v. Louisville Municipal School District, No. 1:24-cv-00074-SA-RP (N.D. Miss.)",
       "filed_date": "2025-12-19",
+      "filing_date_source": "2025-12-19",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-mississippi.json"
       ],
@@ -3562,7 +3676,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -3570,6 +3685,7 @@
       "id": "aiel-2026-060-proceeding",
       "title": "Scott v. Illinois Human Rights Commission, 2026 IL App (1st) 251462, No. 1-25-1462",
       "filed_date": "2026-07-28",
+      "filing_date_source": "2026-07-28",
       "heardBy": [
         "https://aiincidentlaw.org/authority/appellate-court-of-illinois-first-district.json"
       ],
@@ -3621,7 +3737,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -3629,6 +3746,7 @@
       "id": "aiel-2026-061-proceeding",
       "title": "Barteca Holdings LLC v. Tacobarn Newtown LLC, No. 3:26-cv-00250-VDO (D. Conn.), ECF No. 43",
       "filed_date": "2026-08-04",
+      "filing_date_source": "2026-08-04",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-district-of-connecticut.json"
       ],
@@ -3680,7 +3798,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -3688,6 +3807,7 @@
       "id": "aiel-2026-062-proceeding",
       "title": "LeDoux v. Outliers, Inc., No. 3:24-cv-05808-TMC (W.D. Wash.), ECF No. 265",
       "filed_date": "2026-07-24",
+      "filing_date_source": "2026-07-24",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-washington.json"
       ],
@@ -3739,7 +3859,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -3747,6 +3868,7 @@
       "id": "aiel-2026-063-proceeding",
       "title": "TOV Realty, LLC v. Suarez (SC 21183) and Kosel Equity, LLC v. MacGregor (SC 21184), 355 Conn. 902 (2026)",
       "filed_date": "2026-07-31",
+      "filing_date_source": "2026-07-31",
       "heardBy": [
         "https://aiincidentlaw.org/authority/connecticut-supreme-court.json"
       ],
@@ -3792,7 +3914,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -3800,6 +3923,7 @@
       "id": "aiel-2026-064-proceeding",
       "title": "Fuselier v. Riscassi, No. 1:25-cv-268-HSO-BWR (S.D. Miss.), ECF No. 28",
       "filed_date": "2026-05-22",
+      "filing_date_source": "2026-05-22",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-mississippi.json"
       ],
@@ -3851,7 +3975,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -3859,6 +3984,7 @@
       "id": "aiel-2026-065-proceeding",
       "title": "Beslissing in de zaak 26-379/DB/LI/D, ECLI:NL:TADRSHE:2026:93 (Raad van Discipline in het ressort 's-Hertogenbosch)",
       "filed_date": "2026-07-27",
+      "filing_date_source": "2026-07-27",
       "heardBy": [
         "https://aiincidentlaw.org/authority/raad-van-discipline-s-hertogenbosch.json"
       ],
@@ -3904,7 +4030,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -3912,6 +4039,7 @@
       "id": "aiel-2026-066-proceeding",
       "title": "Erin Booker v. The Kroger Co., No. 1:26-cv-02006-SDG (N.D. Ga.), ECF No. 66",
       "filed_date": "2026-08-28",
+      "filing_date_source": "2026-08-28",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-georgia.json"
       ],
@@ -3963,7 +4091,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -3971,6 +4100,7 @@
       "id": "aiel-2026-067-proceeding",
       "title": "Capital Standard, LLC v. U.S. Bank National Association, as trustee for Bear Stearns Asset Backed Securities I Trust 2005-AC9, No. 2D2024-1392 (Fla. 2d DCA)",
       "filed_date": "2026-08-21",
+      "filing_date_source": "2026-08-21",
       "heardBy": [
         "https://aiincidentlaw.org/authority/district-court-of-appeal-of-florida-second-district.json"
       ],
@@ -4022,7 +4152,8 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "filing_date_source": "ail:filingDateSource"
         }
       ],
       "@type": "of:Proceeding",
@@ -4030,6 +4161,7 @@
       "id": "aiel-2026-068-proceeding",
       "title": "Michael L. Ruiz v. Magellan Financial & Insurance Services, No. CV-23-02090-PHX-DWL (D. Ariz.), Doc. 179",
       "filed_date": "2026-08-24",
+      "filing_date_source": "2026-08-24",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-district-of-arizona.json"
       ],

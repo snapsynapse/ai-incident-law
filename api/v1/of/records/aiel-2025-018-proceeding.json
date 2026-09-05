@@ -13,7 +13,8 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "filing_date_source": "ail:filingDateSource"
     }
   ],
   "@type": "of:Proceeding",
@@ -21,6 +22,7 @@
   "id": "aiel-2025-018-proceeding",
   "title": "Mobley v. Workday, Inc., No. 3:23-cv-00770",
   "filed_date": "2023-02-21",
+  "filing_date_source": "2023-02-21",
   "heardBy": [
     "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-california.json"
   ],

@@ -192,8 +192,6 @@ function provenance(record) {
 function normalizeDate(value) {
   const text = String(value || "");
   if (/^\d{4}-\d{2}-\d{2}$/.test(text)) return text;
-  if (/^\d{4}-\d{2}$/.test(text)) return `${text}-01`;
-  if (/^\d{4}$/.test(text)) return `${text}-01-01`;
   return undefined;
 }
 
@@ -324,14 +322,16 @@ function buildMatterRecords(records) {
       const jurisdiction = projectedJurisdiction(record, heardByIds, projection.jurisdiction);
       const projectedDeterminations = stringArray(projection.determination_ids).map(id => graphRecordUri("determination", id));
       const proceeding = {
-        "@context": projection.procedural_stage
-          ? recordContext({ procedural_stage: "ail:proceduralStage" })
-          : RECORD_CONTEXT,
+        "@context": recordContext({
+          filing_date_source: "ail:filingDateSource",
+          ...(projection.procedural_stage ? { procedural_stage: "ail:proceduralStage" } : {})
+        }),
         "@type": "of:Proceeding",
         "@id": graphRecordUri("proceeding", projection.id),
         id: projection.id,
         title: projection.title || record.public_matter_name,
         filed_date: normalizeDate(projection.filed_date || record.filing_date),
+        filing_date_source: projection.filed_date || record.filing_date || undefined,
         heardBy,
         jurisdiction,
         territorial_scope: projection.territorial_scope || jurisdiction.territorial_scope,

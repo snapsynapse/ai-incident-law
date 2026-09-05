@@ -13,14 +13,15 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "filing_date_source": "ail:filingDateSource"
     }
   ],
   "@type": "of:Proceeding",
   "@id": "https://aiincidentlaw.org/proceeding/aiel-2025-016-proceeding.json",
   "id": "aiel-2025-016-proceeding",
   "title": "Woodruff v. Oliver, No. 2:23-cv-11597",
-  "filed_date": "2023-07-01",
+  "filing_date_source": "2023-07",
   "heardBy": [
     "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json"
   ],

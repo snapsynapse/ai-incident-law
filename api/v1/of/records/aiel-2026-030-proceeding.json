@@ -13,7 +13,8 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "filing_date_source": "ail:filingDateSource"
     }
   ],
   "@type": "of:Proceeding",
@@ -21,6 +22,7 @@
   "id": "aiel-2026-030-proceeding",
   "title": "Hulvat v. Gumina, 2026 IL App (3d) 240628-U",
   "filed_date": "2026-04-09",
+  "filing_date_source": "2026-04-09",
   "heardBy": [
     "https://aiincidentlaw.org/authority/appellate-court-of-illinois-third-district.json"
   ],

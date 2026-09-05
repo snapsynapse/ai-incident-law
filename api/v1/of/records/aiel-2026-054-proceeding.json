@@ -13,7 +13,8 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "filing_date_source": "ail:filingDateSource"
     }
   ],
   "@type": "of:Proceeding",
@@ -21,6 +22,7 @@
   "id": "aiel-2026-054-proceeding",
   "title": "Hannah Renea Payne v. The State, No. S26A0459 (Ga.), 324 Ga. 305",
   "filed_date": "2026-05-05",
+  "filing_date_source": "2026-05-05",
   "heardBy": [
     "https://aiincidentlaw.org/authority/supreme-court-of-georgia.json"
   ],

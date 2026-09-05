@@ -14,6 +14,7 @@
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
       "reliance_or_harm": "ail:relianceOrHarm",
+      "filing_date_source": "ail:filingDateSource",
       "procedural_stage": "ail:proceduralStage"
     }
   ],
@@ -22,6 +23,7 @@
   "id": "aiel-2022-011-court-of-claims-proceeding",
   "title": "Bauserman v. Unemployment Insurance Agency, Court of Claims No. 15-202-MM",
   "filed_date": "2015-09-09",
+  "filing_date_source": "2015-09-09",
   "heardBy": [
     "https://aiincidentlaw.org/authority/michigan-court-of-claims.json"
   ],

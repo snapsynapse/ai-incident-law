@@ -13,7 +13,8 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "filing_date_source": "ail:filingDateSource"
     }
   ],
   "@type": "of:Proceeding",
@@ -21,6 +22,7 @@
   "id": "aiel-2026-036-proceeding",
   "title": "Couvrette v. Wisnovsky, No. 1:21-cv-00157-CL (D. Or.)",
   "filed_date": "2026-03-23",
+  "filing_date_source": "2026-03-23",
   "heardBy": [
     "https://aiincidentlaw.org/authority/u-s-district-court-district-of-oregon.json"
   ],

@@ -13,7 +13,8 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "filing_date_source": "ail:filingDateSource"
     }
   ],
   "@type": "of:Proceeding",
@@ -21,6 +22,7 @@
   "id": "aiel-2023-002-proceeding",
   "title": "Mata v. Avianca, Inc., No. 22-cv-1461",
   "filed_date": "2023-06-22",
+  "filing_date_source": "2023-06-22",
   "heardBy": [
     "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json"
   ],

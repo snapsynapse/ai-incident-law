@@ -103,3 +103,61 @@ test("procedural graph uses distinct Authorities for formerly composite matters"
   assert.deepEqual(neusom.issuedBy, ["https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json"]);
   assert.equal(neusom.issued_date, "2024-03-08");
 });
+
+test("partial filing dates remain source strings without fabricated day precision", async () => {
+  const fixture = await mkdtemp(path.join(tmpdir(), "aiel-date-precision-"));
+  try {
+    await cp(path.join(ROOT, "scripts"), path.join(fixture, "scripts"), { recursive: true });
+    await cp(path.join(ROOT, "data"), path.join(fixture, "data"), { recursive: true });
+    const file = path.join(fixture, "data/data.json");
+    const source = JSON.parse(await readFile(file, "utf8"));
+    const target = source.datasets.included.records.find(record => !record.legal_graph);
+    for (const date of [undefined, "2025", "2025-04", "2025-04-17"]) {
+      target.filing_date = date;
+      await writeFile(file, JSON.stringify(source));
+      runScript(fixture, "build-obligation-first.mjs");
+      const projected = JSON.parse(await readFile(path.join(fixture, "api/v1/of/proceedings.json"), "utf8")).proceedings.find(record => record.ai_incident_law_record_id === target.error_id);
+      assert.equal(projected.filing_date_source, date);
+      assert.equal(projected.filed_date, date?.length === 10 ? date : undefined);
+      assert.equal(projected["@context"][1].filing_date_source, "ail:filingDateSource");
+    }
+  } finally { await rm(fixture, { recursive: true, force: true }); }
+});
+
+test("curated dates retain precedence and partial provenance and issuance dates stay absent", async () => {
+  const fixture = await mkdtemp(path.join(tmpdir(), "aiel-curated-date-precision-"));
+  try {
+    await cp(path.join(ROOT, "scripts"), path.join(fixture, "scripts"), { recursive: true });
+    await cp(path.join(ROOT, "data"), path.join(fixture, "data"), { recursive: true });
+    const file = path.join(fixture, "data/data.json");
+    const source = JSON.parse(await readFile(file, "utf8"));
+    const target = source.datasets.included.records.find(record =>
+      record.legal_graph?.proceedings?.length && record.legal_graph?.determinations?.length);
+    assert.ok(target, "fixture needs a curated proceeding and determination");
+    const proceedingSource = target.legal_graph.proceedings[0];
+    const determinationSource = target.legal_graph.determinations[0];
+    target.filing_date = "2024-02-19";
+    for (const date of [undefined, "2025", "2025-04", "2025-04-17"]) {
+      proceedingSource.filed_date = date;
+      determinationSource.issued_date = date;
+      target.last_verified_date = date;
+      await writeFile(file, JSON.stringify(source));
+      runScript(fixture, "build-obligation-first.mjs");
+      const proceedings = JSON.parse(await readFile(path.join(fixture, "api/v1/of/proceedings.json"), "utf8")).proceedings;
+      const determinations = JSON.parse(await readFile(path.join(fixture, "api/v1/of/determinations.json"), "utf8")).determinations;
+      const proceeding = proceedings.find(record => record.id === proceedingSource.id);
+      const determination = determinations.find(record => record.id === determinationSource.id);
+      const exactDate = date?.length === 10 ? date : undefined;
+      assert.equal(proceeding.filing_date_source, date || target.filing_date);
+      assert.equal(proceeding.filed_date, date ? exactDate : target.filing_date);
+      assert.equal(determination.issued_date, exactDate);
+      assert.equal(proceeding.verified, exactDate);
+      assert.equal(determination.verified, exactDate);
+      for (const [kind, projected] of [["proceeding", proceeding], ["determination", determination]]) {
+        for (const relative of [`${kind}/${projected.id}.json`, `api/v1/of/records/${projected.id}.json`]) {
+          assert.deepEqual(JSON.parse(await readFile(path.join(fixture, relative), "utf8")), projected);
+        }
+      }
+    }
+  } finally { await rm(fixture, { recursive: true, force: true }); }
+});

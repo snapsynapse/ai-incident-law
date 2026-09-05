@@ -13,14 +13,15 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "filing_date_source": "ail:filingDateSource"
     }
   ],
   "@type": "of:Proceeding",
   "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-014-proceeding.json",
   "id": "aiel-2024-014-proceeding",
   "title": "Williams v. City of Detroit, No. 2:21-cv-10827",
-  "filed_date": "2021-04-01",
+  "filing_date_source": "2021-04",
   "heardBy": [
     "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json"
   ],

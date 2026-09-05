@@ -13,14 +13,15 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "filing_date_source": "ail:filingDateSource"
     }
   ],
   "@type": "of:Proceeding",
   "@id": "https://aiincidentlaw.org/proceeding/aiel-2025-004-proceeding.json",
   "id": "aiel-2025-004-proceeding",
   "title": "Wadsworth v. Walmart Inc.",
-  "filed_date": "2025-01-01",
+  "filing_date_source": "2025",
   "heardBy": [
     "https://aiincidentlaw.org/authority/u-s-district-court-district-of-wyoming.json"
   ],
