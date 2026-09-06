@@ -23,6 +23,16 @@ if (!obligationFirstDir) {
   process.exit(0);
 }
 
+// Validate reviewed scope identity before any fingerprint baseline rewrite.
+const scope = spawnSync(process.execPath, [
+  path.join(obligationFirstDir, "scripts", "check-scope-contract.mjs"),
+  "--records", path.join(root, "api", "v1", "of", "records"),
+  "--profile", path.join(root, ".well-known", "obligation-first-naming-profile.jsonld"),
+  "--inventory", path.join(root, "tests", "fixtures", "of-scope-inventory.json"),
+  "--baseline", path.join(root, "tests", "fixtures", "of-scope-baseline.json"),
+], { cwd: root, stdio: "inherit" });
+if (scope.error || scope.status !== 0) process.exit(scope.status || 1);
+
 const args = [
   path.join(obligationFirstDir, checker),
   "--records", path.join(root, "api", "v1", "of", "records"),
@@ -31,4 +41,4 @@ const args = [
 ];
 if (process.argv.includes("--write")) args.push("--write");
 const result = spawnSync(process.execPath, args, { cwd: root, stdio: "inherit" });
-process.exit(result.status || 0);
+process.exit(result.error || result.status === null ? 1 : result.status);

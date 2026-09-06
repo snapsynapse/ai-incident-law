@@ -1,0 +1,515 @@
+{
+  "contract_version": 1,
+  "inventory_version": "1.0.0",
+  "owner": "https://aiincidentlaw.org/",
+  "source": "Initial inventory reviewed against accepted P1 projection; see docs/SCOPE-CONTRACT.md",
+  "entries": [
+    {
+      "id": "Appellate Court of Illinois, First District",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "Appellate Court of Illinois, Third District",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "Arkansas Supreme Court",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "Armed Services Board of Contract Appeals",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "British Columbia Civil Resolution Tribunal",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "California Court of Appeal, First Appellate District",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "California Court of Appeal, Fourth Appellate District, Division One",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "California Court of Appeal, Second Appellate District",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "Connecticut Supreme Court",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "Court of Appeals of Ohio, Eleventh Appellate District",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "District Court of Appeal of Florida, Second District",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "Harris County 125th Judicial District Court",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "Michigan Court of Claims",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "Michigan Supreme Court",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "New York Supreme Court, Appellate Division, Third Department",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "Ohio Court of Appeals, Sixth Appellate District",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "Raad van Discipline 's-Hertogenbosch",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "Supreme Court of Alabama",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "Supreme Court of Georgia",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "Supreme Court of Oklahoma",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. Bankruptcy Court, Southern District of Texas",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. Bankruptcy Court, Western District of Louisiana",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. Court of Appeals for the Eleventh Circuit",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. Court of Appeals for the Fifth Circuit",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. Court of Appeals for the Second Circuit",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. Court of Appeals for the Seventh Circuit",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. Court of Appeals for the Sixth Circuit",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. Court of Appeals for the Tenth Circuit",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, Central District of California",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, District of Arizona",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, District of Colorado",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, District of Connecticut",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, District of Kansas",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, District of Massachusetts",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, District of New Jersey",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, District of Oregon",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, District of Wyoming",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, Eastern District of Louisiana",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, Eastern District of Michigan",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, Eastern District of New York",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, Eastern District of Pennsylvania",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, Middle District of Florida",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, Northern District of Alabama",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, Northern District of California",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, Northern District of Georgia",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, Northern District of Illinois",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, Northern District of Indiana",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, Northern District of Mississippi",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, Southern District of Alabama",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, Southern District of Indiana",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, Southern District of Mississippi",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, Southern District of New York",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, Southern District of Texas",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, Western District of Louisiana",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, Western District of Pennsylvania",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, Western District of Texas",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, Western District of Washington",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. Federal Trade Commission",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. Government Accountability Office",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "ca",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "ca-bc",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": true,
+      "parent": "ca"
+    },
+    {
+      "id": "us",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "us-al",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false,
+      "parent": "us"
+    },
+    {
+      "id": "us-ar",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false,
+      "parent": "us"
+    },
+    {
+      "id": "us-ca",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false,
+      "parent": "us"
+    },
+    {
+      "id": "us-co",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false,
+      "parent": "us"
+    },
+    {
+      "id": "us-fl",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false,
+      "parent": "us"
+    },
+    {
+      "id": "us-il",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false,
+      "parent": "us"
+    },
+    {
+      "id": "us-in",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false,
+      "parent": "us"
+    },
+    {
+      "id": "us-ks",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false,
+      "parent": "us"
+    },
+    {
+      "id": "us-la",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false,
+      "parent": "us"
+    },
+    {
+      "id": "us-ma",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false,
+      "parent": "us"
+    },
+    {
+      "id": "us-mi",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false,
+      "parent": "us"
+    },
+    {
+      "id": "us-nj",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false,
+      "parent": "us"
+    },
+    {
+      "id": "us-ny",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false,
+      "parent": "us"
+    },
+    {
+      "id": "us-oh",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false,
+      "parent": "us"
+    },
+    {
+      "id": "us-ok",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false,
+      "parent": "us"
+    },
+    {
+      "id": "us-or",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false,
+      "parent": "us"
+    },
+    {
+      "id": "us-pa",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false,
+      "parent": "us"
+    },
+    {
+      "id": "us-tx",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false,
+      "parent": "us"
+    },
+    {
+      "id": "us-wy",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false,
+      "parent": "us"
+    }
+  ],
+  "coverage": []
+}
