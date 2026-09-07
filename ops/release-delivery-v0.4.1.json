@@ -6,7 +6,7 @@
   "start_head": "7bcba01eaab81a1bc29b85e5f984c8f514a0343d",
   "candidate_head": "530ad61cf432b15651998802a2ea8dff56bc2ef2",
   "candidate_version": "0.4.1",
-  "updated_at": "2026-09-07T15:38:51.763313+00:00",
+  "updated_at": "2026-09-07T16:18:56.265998+00:00",
   "steps": [
     {
       "id": "reconciliation",
@@ -33,18 +33,19 @@
     },
     {
       "id": "npm_publication",
-      "status": "blocked",
-      "evidence": "Interactive npm auth challenge expired; npm publish exited E404 on auth completion endpoint. Version remains unpublished. No token extraction or replacement attempted."
+      "status": "completed",
+      "evidence": "npm ai-incident-law@0.4.1 is latest; downloaded registry tarball SHA256 251195c8f6f9765f34f900ef6b2868a049bc6f822c33101a7bccaa317050b55d matches approved GitHub release archive.",
+      "completed_at": "2026-09-07T16:14:33.474Z"
     },
     {
       "id": "mcp_publication",
       "status": "blocked",
-      "evidence": "npm version must exist first; descriptor remotely validated. Publish after npm, using supported saved session or interactive GitHub login."
+      "evidence": "npm prerequisite is complete. Registry publish returned 401 for the expired separate MCP JWT; supported GitHub login requested. No token contents accessed."
     },
     {
       "id": "published_consumer",
-      "status": "blocked",
-      "evidence": "npm publication pending; exact-version cold-consumer helper prepared and syntax-checked in /private/tmp."
+      "status": "completed",
+      "evidence": "Fresh registry install passed: 8 MCP tools. list_datasets data-array counts matched installed corpus: global 21, included 67, review 27. Guide copies and SHA256 matched. A helper assertion was corrected to the documented response shape; package bytes did not change."
     },
     {
       "id": "live_acceptance",
