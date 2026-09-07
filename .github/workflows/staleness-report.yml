@@ -1,0 +1,65 @@
+name: Record age diagnostic
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "47 13 * * 1"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: record-age-diagnostic
+  cancel-in-progress: false
+
+jobs:
+  staleness-report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate record age reports
+        run: |
+          set -euo pipefail
+          mkdir -p artifacts
+          node scripts/staleness-report.mjs > artifacts/staleness-report.txt
+          test -s artifacts/staleness-report.txt
+          node scripts/staleness-report.mjs --json > artifacts/staleness-report.json
+          test -s artifacts/staleness-report.json
+
+      - name: Summarize diagnostic scope
+        if: always()
+        run: |
+          {
+            echo "## Record age diagnostic"
+            echo "Record age != source verification and does not establish that the corpus is current."
+            echo "No notices or email are configured by this workflow."
+            if [ -s artifacts/staleness-report.txt ]; then
+              echo ""
+              echo '```text'
+              cat artifacts/staleness-report.txt
+              echo '```'
+            else
+              echo "The report was not produced; the generating step failed."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload record age reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: record-age-diagnostic
+          path: |
+            artifacts/staleness-report.txt
+            artifacts/staleness-report.json
+          retention-days: 14
+          if-no-files-found: warn

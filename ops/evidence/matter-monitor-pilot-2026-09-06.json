@@ -1,0 +1,129 @@
+{
+  "tranche": "T09",
+  "retrievedAt": "2026-09-07T05:07:09.216Z",
+  "liveFetchAttempts": 6,
+  "replayNetworkRequests": 0,
+  "paidProviderCalls": 0,
+  "status": "degraded",
+  "matterScope": 5,
+  "discoveryScope": 2,
+  "corpusChanges": 0,
+  "sources": [
+    {
+      "id": "AIEL-2024-015",
+      "url": "https://aclu.org/cases/parks-v-mccormac",
+      "kind": "matter",
+      "status": "covered",
+      "nextReviewAt": "2026-10-07T05:07:09.216Z",
+      "scope": "Party allegations; this case page is not a current court docket or judgment.",
+      "observationId": "obs_6828c469cb1eb9ea559e972a74f7c5cc9429f2f0c9a5818068bcebbbd57cbb6c",
+      "rawContentHash": "f5a09ed1a663adce100fff585a6a4540de3f72bb178023bb0fe756cfdd2edd64",
+      "scopeEvidence": {
+        "documentOnly": true
+      },
+      "emptyEvidence": null,
+      "assessment": "unchanged_source"
+    },
+    {
+      "id": "AIEL-2024-017",
+      "url": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+      "kind": "matter",
+      "status": "unsupported",
+      "nextReviewAt": "2026-09-14T05:07:09.216Z",
+      "scope": "Allegations only; remand and current proceeding status remain unverified.",
+      "reason": "The configured PDF is on a news-media mirror. Original court or party publication must be identified before qualified observation.",
+      "observationId": "obs_6620b6eb4f96e79ab8b84313fd193dbf8b9a99a885e6532b1932039791ea5983",
+      "findingId": "finding_79cb630944da9e9b11dbe3273677adb5d5d01f83eff1f6c69da8db9414553d0d"
+    },
+    {
+      "id": "AIEL-2025-018",
+      "url": "https://govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-00770/pdf/USCOURTS-cand-3_23-cv-00770-1.pdf",
+      "kind": "matter",
+      "status": "covered",
+      "nextReviewAt": "2026-10-07T05:07:09.216Z",
+      "scope": "One original court document; discrimination remains alleged and the document is not a current docket.",
+      "observationId": "obs_15679c5f3451824e9f29720b8e18a18fc8cd95541427d39f988e4dd66ae063af",
+      "rawContentHash": "a939fda09949cdd6cc7ea6086f9c32c7a2b2186d0344036b595748aea46e03e6",
+      "scopeEvidence": {
+        "documentOnly": true
+      },
+      "emptyEvidence": null,
+      "assessment": "unchanged_source"
+    },
+    {
+      "id": "AIEL-2026-019",
+      "url": "https://courtlistener.com/docket/73387361/swanson-v-international-business-machines-corporation/",
+      "kind": "matter",
+      "status": "unavailable",
+      "nextReviewAt": "2026-09-14T05:07:09.216Z",
+      "scope": "Docket metadata only; unnamed tool and ML-versus-rules distinction remain unverified.",
+      "observationId": "obs_cf8b066361b098951bbb8d462d29088e86239137cbdf56f35f8d35e69264225d",
+      "rawContentHash": "89c530bd3c39438ac707199b82015c0eb4e1d23095dfdf84cfb90f61c8a43806",
+      "scopeEvidence": null,
+      "emptyEvidence": null,
+      "reason": "http_403",
+      "findingId": "finding_7261a5fc9bec81ba14fe9d3e30251eff204a68202736156fd65c2bf4fef6cfb2"
+    },
+    {
+      "id": "AIEL-2026-020",
+      "url": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
+      "kind": "matter",
+      "status": "unavailable",
+      "nextReviewAt": "2026-09-14T05:07:09.216Z",
+      "scope": "Docket metadata only; copyright and false-attribution assertions are unresolved allegations.",
+      "observationId": "obs_b04c5f8c1e837862a52986f0063455d01c8801b08ec7361473d2f3fc03c6706f",
+      "rawContentHash": "cff66a0f263851b43f09ef9aa1ed4569b3d6fecb3d80ecaedb44feec4973d95a",
+      "scopeEvidence": null,
+      "emptyEvidence": null,
+      "reason": "http_403",
+      "findingId": "finding_ceec2d223d4870d71105aab3aa696bf7590038af52e4b055afd803cfbac1a6e7"
+    },
+    {
+      "id": "ftc-press-releases",
+      "url": "https://ftc.gov/news-events/news/press-releases",
+      "kind": "discovery",
+      "status": "covered",
+      "nextReviewAt": "2026-09-14T05:07:09.216Z",
+      "scope": "First publication index page, title-filtered only",
+      "observationId": "obs_3ecbfd6aa0b396642651eb3a2ebc786802664edc9567f3cd6d03866b385dba0f",
+      "rawContentHash": "f286152246e57dc2e38863689d79de29bbfc8e3915ea623fde1b4c2ffdf0b5d7",
+      "scopeEvidence": {
+        "boundedFirstPage": true,
+        "complete": true
+      },
+      "emptyEvidence": {
+        "kind": "no-keyword-matches",
+        "inspectedOfficialReleaseItems": 20
+      }
+    },
+    {
+      "id": "doj-opa-press-releases",
+      "url": "https://justice.gov/opa/pr",
+      "kind": "discovery",
+      "status": "unavailable",
+      "nextReviewAt": "2026-09-14T05:07:09.216Z",
+      "scope": "First publication index page, title-filtered only",
+      "observationId": "obs_54cf6d9bd96a2acb018e8f95f8edbe4a3ff9ab7da95343e052a10c09bb8bf50a",
+      "rawContentHash": "a3a67de98c59b1e3d569e61f3cd29cb6fda0bdce2e27d6d1fedc94dd536f626a",
+      "scopeEvidence": {
+        "boundedFirstPage": true,
+        "complete": false
+      },
+      "emptyEvidence": null,
+      "reason": "Blocked index response."
+    }
+  ],
+  "discoveryLeads": [],
+  "reviewQueue": {
+    "status": "degraded",
+    "pending": 5,
+    "owner": "Sam Rogers",
+    "capacityMinutesPerWeek": null,
+    "scope": "six-repo-portfolio"
+  },
+  "limits": [
+    "First index pages only; titles filtered, no corpus-wide discovery claim.",
+    "Covered matter sources are individual documents, not proof of current legal status.",
+    "CourtListener blocked, Murphy source unsupported, DOJ blocked."
+  ]
+}

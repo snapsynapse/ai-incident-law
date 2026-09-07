@@ -1,0 +1,445 @@
+{
+  "version": 1,
+  "revision": 15,
+  "reviewPolicy": {
+    "owner": "Sam Rogers",
+    "capacityMinutesPerWeek": null,
+    "scope": "six-repo-portfolio"
+  },
+  "sources": {
+    "matter-monitor:AIEL-2024-015": {
+      "id": "matter-monitor:AIEL-2024-015",
+      "owner": "ai-incident-law",
+      "authoritativeUrl": "https://aclu.org/cases/parks-v-mccormac",
+      "sourceType": "official_primary",
+      "subjectIds": [
+        "AIEL-2024-015"
+      ],
+      "cadenceDays": 30,
+      "criticality": "standard",
+      "parserVersion": "matter-monitor-v1",
+      "contentValidation": "required",
+      "collectionMode": "automated",
+      "coverageState": "covered",
+      "lastSuccessfulObservationAt": "2026-09-07T05:07:09.216Z",
+      "dueAt": "2026-10-07T05:07:09.216Z"
+    },
+    "matter-monitor:AIEL-2024-017": {
+      "id": "matter-monitor:AIEL-2024-017",
+      "owner": "ai-incident-law",
+      "authoritativeUrl": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+      "sourceType": "official_secondary",
+      "subjectIds": [
+        "AIEL-2024-017"
+      ],
+      "cadenceDays": 30,
+      "criticality": "standard",
+      "parserVersion": "matter-monitor-v1",
+      "contentValidation": "required",
+      "collectionMode": "manual",
+      "coverageState": "degraded"
+    },
+    "matter-monitor:AIEL-2025-018": {
+      "id": "matter-monitor:AIEL-2025-018",
+      "owner": "ai-incident-law",
+      "authoritativeUrl": "https://govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-00770/pdf/USCOURTS-cand-3_23-cv-00770-1.pdf",
+      "sourceType": "official_primary",
+      "subjectIds": [
+        "AIEL-2025-018"
+      ],
+      "cadenceDays": 30,
+      "criticality": "standard",
+      "parserVersion": "matter-monitor-v1",
+      "contentValidation": "required",
+      "collectionMode": "automated",
+      "coverageState": "covered",
+      "lastSuccessfulObservationAt": "2026-09-07T05:07:09.216Z",
+      "dueAt": "2026-10-07T05:07:09.216Z"
+    },
+    "matter-monitor:AIEL-2026-019": {
+      "id": "matter-monitor:AIEL-2026-019",
+      "owner": "ai-incident-law",
+      "authoritativeUrl": "https://courtlistener.com/docket/73387361/swanson-v-international-business-machines-corporation/",
+      "sourceType": "official_primary",
+      "subjectIds": [
+        "AIEL-2026-019"
+      ],
+      "cadenceDays": 30,
+      "criticality": "standard",
+      "parserVersion": "matter-monitor-v1",
+      "contentValidation": "required",
+      "collectionMode": "automated",
+      "coverageState": "degraded"
+    },
+    "matter-monitor:AIEL-2026-020": {
+      "id": "matter-monitor:AIEL-2026-020",
+      "owner": "ai-incident-law",
+      "authoritativeUrl": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
+      "sourceType": "official_primary",
+      "subjectIds": [
+        "AIEL-2026-020"
+      ],
+      "cadenceDays": 30,
+      "criticality": "standard",
+      "parserVersion": "matter-monitor-v1",
+      "contentValidation": "required",
+      "collectionMode": "automated",
+      "coverageState": "degraded"
+    },
+    "matter-monitor:ftc-press-releases": {
+      "id": "matter-monitor:ftc-press-releases",
+      "owner": "ai-incident-law",
+      "authoritativeUrl": "https://ftc.gov/news-events/news/press-releases",
+      "sourceType": "official_primary",
+      "subjectIds": [
+        "ftc-press-releases"
+      ],
+      "cadenceDays": 7,
+      "criticality": "standard",
+      "parserVersion": "matter-monitor-v1",
+      "contentValidation": "required",
+      "collectionMode": "automated",
+      "coverageState": "covered",
+      "lastSuccessfulObservationAt": "2026-09-07T05:07:09.216Z",
+      "dueAt": "2026-09-14T05:07:09.216Z"
+    },
+    "matter-monitor:doj-opa-press-releases": {
+      "id": "matter-monitor:doj-opa-press-releases",
+      "owner": "ai-incident-law",
+      "authoritativeUrl": "https://justice.gov/opa/pr",
+      "sourceType": "official_primary",
+      "subjectIds": [
+        "doj-opa-press-releases"
+      ],
+      "cadenceDays": 7,
+      "criticality": "standard",
+      "parserVersion": "matter-monitor-v1",
+      "contentValidation": "required",
+      "collectionMode": "automated",
+      "coverageState": "degraded"
+    }
+  },
+  "observations": {
+    "obs_6828c469cb1eb9ea559e972a74f7c5cc9429f2f0c9a5818068bcebbbd57cbb6c": {
+      "sourceId": "matter-monitor:AIEL-2024-015",
+      "retrievedAt": "2026-09-07T05:07:09.216Z",
+      "retrievalStatus": "succeeded",
+      "assessmentKind": "primary_retrieval",
+      "parserVersion": "matter-monitor-v1",
+      "coverageQualified": true,
+      "evidenceLinks": [
+        "https://aclu.org/cases/parks-v-mccormac"
+      ],
+      "rawContentHash": "f5a09ed1a663adce100fff585a6a4540de3f72bb178023bb0fe756cfdd2edd64",
+      "normalizedContentHash": "241a439bc373fb1885caea35bc469362f78303eadda0c782ced3114863eb4188",
+      "excerpt": "Parks v. McCormac | American Civil Liberties Union Skip navigation Court Cases Parks v. McCormac Privacy & Technology Location: New Jersey Status: Ongoing Last Update: January 29, 2024 What's at Stake On January 29, 2024, the ACLU and the ACLU of New Jersey filed an amicus brief",
+      "locator": "https://aclu.org/cases/parks-v-mccormac",
+      "contentValidation": "valid",
+      "id": "obs_6828c469cb1eb9ea559e972a74f7c5cc9429f2f0c9a5818068bcebbbd57cbb6c"
+    },
+    "obs_6620b6eb4f96e79ab8b84313fd193dbf8b9a99a885e6532b1932039791ea5983": {
+      "sourceId": "matter-monitor:AIEL-2024-017",
+      "retrievedAt": "2026-09-07T05:07:09.216Z",
+      "retrievalStatus": "error",
+      "assessmentKind": "primary_retrieval",
+      "parserVersion": "matter-monitor-v1",
+      "coverageQualified": false,
+      "evidenceLinks": [
+        "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf"
+      ],
+      "locator": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+      "failureReason": "The configured PDF is on a news-media mirror. Original court or party publication must be identified before qualified observation.",
+      "contentValidation": "invalid",
+      "id": "obs_6620b6eb4f96e79ab8b84313fd193dbf8b9a99a885e6532b1932039791ea5983"
+    },
+    "obs_15679c5f3451824e9f29720b8e18a18fc8cd95541427d39f988e4dd66ae063af": {
+      "sourceId": "matter-monitor:AIEL-2025-018",
+      "retrievedAt": "2026-09-07T05:07:09.216Z",
+      "retrievalStatus": "succeeded",
+      "assessmentKind": "primary_retrieval",
+      "parserVersion": "matter-monitor-v1",
+      "coverageQualified": true,
+      "evidenceLinks": [
+        "https://govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-00770/pdf/USCOURTS-cand-3_23-cv-00770-1.pdf"
+      ],
+      "rawContentHash": "a939fda09949cdd6cc7ea6086f9c32c7a2b2186d0344036b595748aea46e03e6",
+      "normalizedContentHash": "55122c7d96ba43aef3abb920a6d785b5ac5b0057e4a7c9073fa2d68e1d677bf8",
+      "excerpt": "1 UNITED STATES DISTRICT COURT NORTHERN DISTRICT OF CALIFORNIA DEREK MOBLEY, Plaintiff, v. WORKDAY, INC., Defendant. Case No. 23-cv-00770-RFL ORDER GRANTING PRELIMINARY COLLECTIVE CERTIFICATION Re: Dkt. No. 106 Derek Mobley brings this action for employment discrimination against",
+      "locator": "https://govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-00770/pdf/USCOURTS-cand-3_23-cv-00770-1.pdf",
+      "contentValidation": "valid",
+      "id": "obs_15679c5f3451824e9f29720b8e18a18fc8cd95541427d39f988e4dd66ae063af"
+    },
+    "obs_cf8b066361b098951bbb8d462d29088e86239137cbdf56f35f8d35e69264225d": {
+      "sourceId": "matter-monitor:AIEL-2026-019",
+      "retrievedAt": "2026-09-07T05:07:09.216Z",
+      "retrievalStatus": "error",
+      "assessmentKind": "primary_retrieval",
+      "parserVersion": "matter-monitor-v1",
+      "coverageQualified": false,
+      "evidenceLinks": [
+        "https://courtlistener.com/docket/73387361/swanson-v-international-business-machines-corporation/"
+      ],
+      "rawContentHash": "89c530bd3c39438ac707199b82015c0eb4e1d23095dfdf84cfb90f61c8a43806",
+      "normalizedContentHash": "c1df73d60fd25339606e14966ee1e8241aed72df4246c1b80c312d2cea962131",
+      "excerpt": "ERROR: The request could not be satisfied 403 ERROR The request could not be satisfied. Request blocked. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website o",
+      "locator": "https://courtlistener.com/docket/73387361/swanson-v-international-business-machines-corporation/",
+      "failureReason": "http_403",
+      "contentValidation": "invalid",
+      "id": "obs_cf8b066361b098951bbb8d462d29088e86239137cbdf56f35f8d35e69264225d"
+    },
+    "obs_b04c5f8c1e837862a52986f0063455d01c8801b08ec7361473d2f3fc03c6706f": {
+      "sourceId": "matter-monitor:AIEL-2026-020",
+      "retrievedAt": "2026-09-07T05:07:09.216Z",
+      "retrievalStatus": "error",
+      "assessmentKind": "primary_retrieval",
+      "parserVersion": "matter-monitor-v1",
+      "coverageQualified": false,
+      "evidenceLinks": [
+        "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/"
+      ],
+      "rawContentHash": "cff66a0f263851b43f09ef9aa1ed4569b3d6fecb3d80ecaedb44feec4973d95a",
+      "normalizedContentHash": "739d6dfd4444a5ff27f2b52d96d6d842be0723615f5457b00f43e3bde5e85a0b",
+      "excerpt": "ERROR: The request could not be satisfied 403 ERROR The request could not be satisfied. Request blocked. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website o",
+      "locator": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
+      "failureReason": "http_403",
+      "contentValidation": "invalid",
+      "id": "obs_b04c5f8c1e837862a52986f0063455d01c8801b08ec7361473d2f3fc03c6706f"
+    },
+    "obs_3ecbfd6aa0b396642651eb3a2ebc786802664edc9567f3cd6d03866b385dba0f": {
+      "sourceId": "matter-monitor:ftc-press-releases",
+      "retrievedAt": "2026-09-07T05:07:09.216Z",
+      "retrievalStatus": "succeeded",
+      "assessmentKind": "primary_retrieval",
+      "parserVersion": "matter-monitor-v1",
+      "coverageQualified": true,
+      "evidenceLinks": [
+        "https://ftc.gov/news-events/news/press-releases"
+      ],
+      "rawContentHash": "f286152246e57dc2e38863689d79de29bbfc8e3915ea623fde1b4c2ffdf0b5d7",
+      "normalizedContentHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "excerpt": "Press Releases | Federal Trade Commission Skip to main content An official website of the United States government Here’s how you know Here's how you know The .gov means it’s official. Federal government websites often end in .gov or .mil. Before sharing sensitive information, ma",
+      "locator": "https://ftc.gov/news-events/news/press-releases",
+      "contentValidation": "valid",
+      "id": "obs_3ecbfd6aa0b396642651eb3a2ebc786802664edc9567f3cd6d03866b385dba0f"
+    },
+    "obs_54cf6d9bd96a2acb018e8f95f8edbe4a3ff9ab7da95343e052a10c09bb8bf50a": {
+      "sourceId": "matter-monitor:doj-opa-press-releases",
+      "retrievedAt": "2026-09-07T05:07:09.216Z",
+      "retrievalStatus": "succeeded",
+      "assessmentKind": "primary_retrieval",
+      "parserVersion": "matter-monitor-v1",
+      "coverageQualified": false,
+      "evidenceLinks": [
+        "https://justice.gov/opa/pr"
+      ],
+      "rawContentHash": "a3a67de98c59b1e3d569e61f3cd29cb6fda0bdce2e27d6d1fedc94dd536f626a",
+      "normalizedContentHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "excerpt": "&nbsp;",
+      "locator": "https://justice.gov/opa/pr",
+      "failureReason": "Unrecognized official press-release index.",
+      "contentValidation": "invalid",
+      "id": "obs_54cf6d9bd96a2acb018e8f95f8edbe4a3ff9ab7da95343e052a10c09bb8bf50a"
+    }
+  },
+  "findings": {
+    "finding_db5186bd7910c44de8e156fd281e833d257d2533cabfe431050752ee961f5335": {
+      "id": "finding_db5186bd7910c44de8e156fd281e833d257d2533cabfe431050752ee961f5335",
+      "subjectIds": [
+        "AIEL-2024-015"
+      ],
+      "claim": "Review active matter source snapshot",
+      "evidence": {
+        "locator": "https://aclu.org/cases/parks-v-mccormac",
+        "normalizedContentHash": "241a439bc373fb1885caea35bc469362f78303eadda0c782ced3114863eb4188",
+        "sourceId": "matter-monitor:AIEL-2024-015"
+      },
+      "oldValue": {
+        "filingStatus": "pending",
+        "attribution": "Clearview AI alleged / out-of-state facial-recognition lead"
+      },
+      "newValue": {
+        "sourceRole": "party_publication",
+        "sourceHash": "241a439bc373fb1885caea35bc469362f78303eadda0c782ced3114863eb4188",
+        "qualification": "Party allegations; this case page is not a current court docket or judgment.",
+        "assessment": "baseline_source_review"
+      },
+      "affectedRecords": [
+        "data/data.json"
+      ],
+      "reviewOwner": "Sam Rogers",
+      "reviewDueAt": "2026-09-14T05:07:09.216Z",
+      "status": "pending",
+      "firstSeenAt": "2026-09-07T05:07:09.216Z"
+    },
+    "finding_79cb630944da9e9b11dbe3273677adb5d5d01f83eff1f6c69da8db9414553d0d": {
+      "id": "finding_79cb630944da9e9b11dbe3273677adb5d5d01f83eff1f6c69da8db9414553d0d",
+      "subjectIds": [
+        "AIEL-2024-017"
+      ],
+      "claim": "Repair active matter source coverage",
+      "evidence": {
+        "locator": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+        "normalizedContentHash": "7d5c519d54eda75527726450b3ff6f833040af80129bf4c05e33279501ea689a",
+        "sourceId": "matter-monitor:AIEL-2024-017"
+      },
+      "oldValue": null,
+      "newValue": {
+        "reason": "The configured PDF is on a news-media mirror. Original court or party publication must be identified before qualified observation.",
+        "qualification": "Allegations only; remand and current proceeding status remain unverified."
+      },
+      "affectedRecords": [
+        "data/data.json"
+      ],
+      "reviewOwner": "Sam Rogers",
+      "reviewDueAt": "2026-09-14T05:07:09.216Z",
+      "status": "pending",
+      "firstSeenAt": "2026-09-07T05:07:09.216Z"
+    },
+    "finding_5c5bda95b03e05047f6aa2f80a8ce38be0427397c020e36d288dd4d2b25533b4": {
+      "id": "finding_5c5bda95b03e05047f6aa2f80a8ce38be0427397c020e36d288dd4d2b25533b4",
+      "subjectIds": [
+        "AIEL-2025-018"
+      ],
+      "claim": "Review active matter source snapshot",
+      "evidence": {
+        "locator": "https://govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-00770/pdf/USCOURTS-cand-3_23-cv-00770-1.pdf",
+        "normalizedContentHash": "55122c7d96ba43aef3abb920a6d785b5ac5b0057e4a7c9073fa2d68e1d677bf8",
+        "sourceId": "matter-monitor:AIEL-2025-018"
+      },
+      "oldValue": {
+        "filingStatus": "pending",
+        "attribution": "Workday HiredScore / Candidate Skills Match tools"
+      },
+      "newValue": {
+        "sourceRole": "court_document",
+        "sourceHash": "55122c7d96ba43aef3abb920a6d785b5ac5b0057e4a7c9073fa2d68e1d677bf8",
+        "qualification": "One original court document; discrimination remains alleged and the document is not a current docket.",
+        "assessment": "baseline_source_review"
+      },
+      "affectedRecords": [
+        "data/data.json"
+      ],
+      "reviewOwner": "Sam Rogers",
+      "reviewDueAt": "2026-09-14T05:07:09.216Z",
+      "status": "pending",
+      "firstSeenAt": "2026-09-07T05:07:09.216Z"
+    },
+    "finding_7261a5fc9bec81ba14fe9d3e30251eff204a68202736156fd65c2bf4fef6cfb2": {
+      "id": "finding_7261a5fc9bec81ba14fe9d3e30251eff204a68202736156fd65c2bf4fef6cfb2",
+      "subjectIds": [
+        "AIEL-2026-019"
+      ],
+      "claim": "Repair active matter source coverage",
+      "evidence": {
+        "locator": "https://courtlistener.com/docket/73387361/swanson-v-international-business-machines-corporation/",
+        "normalizedContentHash": "50557f6eaf280c1b184503f39088f458dd290491b26d9b8e0e6f69e3906a738d",
+        "sourceId": "matter-monitor:AIEL-2026-019"
+      },
+      "oldValue": null,
+      "newValue": {
+        "reason": "http_403",
+        "qualification": "Docket metadata only; unnamed tool and ML-versus-rules distinction remain unverified."
+      },
+      "affectedRecords": [
+        "data/data.json"
+      ],
+      "reviewOwner": "Sam Rogers",
+      "reviewDueAt": "2026-09-14T05:07:09.216Z",
+      "status": "pending",
+      "firstSeenAt": "2026-09-07T05:07:09.216Z"
+    },
+    "finding_ceec2d223d4870d71105aab3aa696bf7590038af52e4b055afd803cfbac1a6e7": {
+      "id": "finding_ceec2d223d4870d71105aab3aa696bf7590038af52e4b055afd803cfbac1a6e7",
+      "subjectIds": [
+        "AIEL-2026-020"
+      ],
+      "claim": "Repair active matter source coverage",
+      "evidence": {
+        "locator": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
+        "normalizedContentHash": "50557f6eaf280c1b184503f39088f458dd290491b26d9b8e0e6f69e3906a738d",
+        "sourceId": "matter-monitor:AIEL-2026-020"
+      },
+      "oldValue": null,
+      "newValue": {
+        "reason": "http_403",
+        "qualification": "Docket metadata only; copyright and false-attribution assertions are unresolved allegations."
+      },
+      "affectedRecords": [
+        "data/data.json"
+      ],
+      "reviewOwner": "Sam Rogers",
+      "reviewDueAt": "2026-09-14T05:07:09.216Z",
+      "status": "pending",
+      "firstSeenAt": "2026-09-07T05:07:09.216Z"
+    }
+  },
+  "runs": {
+    "matter-monitor-history-86e5f49f-cecc-4033-850d-9ce2fb56a034": {
+      "id": "matter-monitor-history-86e5f49f-cecc-4033-850d-9ce2fb56a034",
+      "selectionKeys": [
+        "AIEL-2024-015",
+        "AIEL-2024-017",
+        "AIEL-2025-018",
+        "AIEL-2026-019",
+        "AIEL-2026-020",
+        "doj-opa-press-releases",
+        "ftc-press-releases"
+      ],
+      "inputFingerprint": "c99d46ce539c8345979cc7e517d6ba900c26c8d629ba6d82289c65338509ed53",
+      "status": "completed",
+      "startedAt": "2026-09-07T05:07:09.216Z",
+      "results": {
+        "AIEL-2024-015": {
+          "kind": "matter-monitor-source",
+          "sourceId": "AIEL-2024-015",
+          "qualified": true,
+          "normalizedContentHash": "241a439bc373fb1885caea35bc469362f78303eadda0c782ced3114863eb4188",
+          "observedAt": "2026-09-07T05:07:09.216Z"
+        },
+        "AIEL-2024-017": {
+          "kind": "matter-monitor-source",
+          "sourceId": "AIEL-2024-017",
+          "qualified": false,
+          "normalizedContentHash": null,
+          "observedAt": "2026-09-07T05:07:09.216Z"
+        },
+        "AIEL-2025-018": {
+          "kind": "matter-monitor-source",
+          "sourceId": "AIEL-2025-018",
+          "qualified": true,
+          "normalizedContentHash": "55122c7d96ba43aef3abb920a6d785b5ac5b0057e4a7c9073fa2d68e1d677bf8",
+          "observedAt": "2026-09-07T05:07:09.216Z"
+        },
+        "AIEL-2026-019": {
+          "kind": "matter-monitor-source",
+          "sourceId": "AIEL-2026-019",
+          "qualified": false,
+          "normalizedContentHash": null,
+          "observedAt": "2026-09-07T05:07:09.216Z"
+        },
+        "AIEL-2026-020": {
+          "kind": "matter-monitor-source",
+          "sourceId": "AIEL-2026-020",
+          "qualified": false,
+          "normalizedContentHash": null,
+          "observedAt": "2026-09-07T05:07:09.216Z"
+        },
+        "ftc-press-releases": {
+          "kind": "matter-monitor-source",
+          "sourceId": "ftc-press-releases",
+          "qualified": true,
+          "normalizedContentHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "observedAt": "2026-09-07T05:07:09.216Z"
+        },
+        "doj-opa-press-releases": {
+          "kind": "matter-monitor-source",
+          "sourceId": "doj-opa-press-releases",
+          "qualified": false,
+          "normalizedContentHash": null,
+          "observedAt": "2026-09-07T05:07:09.216Z"
+        }
+      },
+      "finishedAt": "2026-09-07T05:07:09.216Z"
+    }
+  }
+}

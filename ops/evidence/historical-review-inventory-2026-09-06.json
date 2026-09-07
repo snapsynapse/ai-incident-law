@@ -1,0 +1,652 @@
+{
+  "asOf": "2026-09-06",
+  "corpusTotal": 115,
+  "ageBuckets": {
+    "aging (91-180d)": 40,
+    "recent (31-90d)": 48,
+    "fresh (0-30d)": 27
+  },
+  "scope": "B-series planning only: records aged over 90 days, all review/global entries and anomalous dates; no review acceptance or date renewal.",
+  "entries": [
+    {
+      "dataset": "included",
+      "id": "AIEL-2024-001",
+      "title": "Air Canada chatbot misstated bereavement-fare refund eligibility",
+      "verification_date": "2026-04-22",
+      "date_field": "last_verified_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "included",
+      "id": "AIEL-2025-004",
+      "title": "AI-generated cases in Morgan & Morgan opposition brief",
+      "verification_date": "2026-04-22",
+      "date_field": "last_verified_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "included",
+      "id": "AIEL-2025-006",
+      "title": "AI-generated contract-appeal brief invented cases and record citations",
+      "verification_date": "2026-04-22",
+      "date_field": "last_verified_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "included",
+      "id": "AIEL-2024-008",
+      "title": "AI-fabricated citations contributed to attorney discipline",
+      "verification_date": "2026-04-22",
+      "date_field": "last_verified_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "included",
+      "id": "AIEL-2023-009",
+      "title": "Automated tutor-application screen rejected older applicants",
+      "verification_date": "2026-04-22",
+      "date_field": "last_verified_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "included",
+      "id": "AIEL-2024-010",
+      "title": "SafeRent Score allegedly downgraded housing-voucher applicants",
+      "verification_date": "2026-04-22",
+      "date_field": "last_verified_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "included",
+      "id": "AIEL-2022-011",
+      "title": "MiDAS automated fraud determinations falsely accused unemployment claimants",
+      "verification_date": "2026-04-22",
+      "date_field": "last_verified_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "included",
+      "id": "AIEL-2023-013",
+      "title": "Rite Aid facial-recognition system generated false shoplifting matches",
+      "verification_date": "2026-04-22",
+      "date_field": "last_verified_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "included",
+      "id": "AIEL-2024-014",
+      "title": "Facial-recognition false match led to Robert Williams arrest",
+      "verification_date": "2026-04-22",
+      "date_field": "last_verified_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "included",
+      "id": "AIEL-2024-015",
+      "title": "Facial-recognition lead contributed to Nijeer Parks detention",
+      "verification_date": "2026-04-22",
+      "date_field": "last_verified_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "included",
+      "id": "AIEL-2025-016",
+      "title": "Facial-recognition-seeded lineup led to Porcha Woodruff arrest",
+      "verification_date": "2026-04-22",
+      "date_field": "last_verified_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "included",
+      "id": "AIEL-2024-017",
+      "title": "Retail facial-recognition match allegedly led to Harvey Murphy's arrest",
+      "verification_date": "2026-04-22",
+      "date_field": "last_verified_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "included",
+      "id": "AIEL-2025-018",
+      "title": "Workday applicant-screening tools allegedly rejected older applicants at scale",
+      "verification_date": "2026-04-22",
+      "date_field": "last_verified_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-001",
+      "title": "RealPage revenue-management algorithmic rent-setting",
+      "verification_date": "2026-04-22",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-002",
+      "title": "UnitedHealthcare nH Predict post-acute-care denials",
+      "verification_date": "2026-04-22",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-003",
+      "title": "Cigna PXDX bulk automated claim denials",
+      "verification_date": "2026-04-22",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-005",
+      "title": "Whiting appellate fake citations and sanctions",
+      "verification_date": "2026-04-22",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-006",
+      "title": "Couvrette winery inheritance fake citations sanctions",
+      "verification_date": "2026-04-22",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-007",
+      "title": "Michael Oliver Detroit FRT false match",
+      "verification_date": "2026-04-22",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-008",
+      "title": "Alonzo Sawyer MTA Police FRT wrongful arrest",
+      "verification_date": "2026-04-22",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-009",
+      "title": "Jason Killinger Reno casino FRT arrest",
+      "verification_date": "2026-04-22",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-010",
+      "title": "Kimberlee Williams Crimedex third-party FRT wrongful arrest",
+      "verification_date": "2026-04-22",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-011",
+      "title": "TennCare Connect / Deloitte eligibility system denials",
+      "verification_date": "2026-04-22",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-012",
+      "title": "Apple Card / Goldman Sachs credit-limit gender-bias investigation",
+      "verification_date": "2026-04-22",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "global",
+      "id": "AIEL-GLOB-001",
+      "title": "Robodebt automated welfare-debt income-averaging scheme",
+      "verification_date": "2026-04-22",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "global",
+      "id": "AIEL-GLOB-002",
+      "title": "SyRI welfare-fraud risk-indication system",
+      "verification_date": "2026-04-22",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "global",
+      "id": "AIEL-GLOB-003",
+      "title": "Uber/Ola automated driver management and robo-firing litigation",
+      "verification_date": "2026-04-22",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "global",
+      "id": "AIEL-GLOB-004",
+      "title": "Deliveroo Frank rider-ranking algorithm",
+      "verification_date": "2026-04-22",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "global",
+      "id": "AIEL-GLOB-005",
+      "title": "CNAF French family-benefits risk-scoring algorithm challenge",
+      "verification_date": "2026-04-22",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "global",
+      "id": "AIEL-GLOB-006",
+      "title": "Alvi Choudhury retrospective facial-recognition mismatch arrest",
+      "verification_date": "2026-04-22",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "global",
+      "id": "AIEL-GLOB-007",
+      "title": "Metropolitan Police live facial-recognition policy challenge involving false match",
+      "verification_date": "2026-04-22",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "global",
+      "id": "AIEL-GLOB-008",
+      "title": "Dutch childcare-benefits algorithm / toeslagenaffaire risk profiling",
+      "verification_date": "2026-04-22",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 137,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "included",
+      "id": "AIEL-2026-019",
+      "title": "IBM algorithmic rehire screen allegedly blocked applicant due to age",
+      "verification_date": "2026-06-01",
+      "date_field": "last_verified_date",
+      "date_status": "dated",
+      "days_stale": 97,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "included",
+      "id": "AIEL-2026-020",
+      "title": "CNN sues Perplexity over alleged use of its content in AI answers",
+      "verification_date": "2026-06-01",
+      "date_field": "last_verified_date",
+      "date_status": "dated",
+      "days_stale": 97,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "included",
+      "id": "AIEL-2026-005",
+      "title": "AI-drafted FCRA appellate reply brief fabricated quotations",
+      "verification_date": "2026-06-02",
+      "date_field": "last_verified_date",
+      "date_status": "dated",
+      "days_stale": 96,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-016",
+      "title": "Pro se appellants’ briefs struck over hallucinated citations (Centient AI referenced)",
+      "verification_date": "2026-06-02",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 96,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "global",
+      "id": "AIEL-GLOB-009",
+      "title": "Israel National Labor Court sanctions attorney 2,500 ILS for AI-fabricated citations",
+      "verification_date": "2026-06-02",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 96,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "global",
+      "id": "AIEL-GLOB-010",
+      "title": "Spain TSJ Canarias sanctions attorney €420 for AI-hallucinated citations; first reported Spanish appellate AI sanction",
+      "verification_date": "2026-06-02",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 96,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "global",
+      "id": "AIEL-GLOB-011",
+      "title": "Colombian Supreme Court (Civil) fines attorney 15 SMLMV for AI-generated fabricated citations",
+      "verification_date": "2026-06-02",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 96,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "global",
+      "id": "AIEL-GLOB-012",
+      "title": "Australian federal court refers solicitor to LPCC after Google AI Overviews generated false immigration citations",
+      "verification_date": "2026-06-02",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 96,
+      "bucket": "aging (91-180d)"
+    },
+    {
+      "dataset": "global",
+      "id": "AIEL-GLOB-013",
+      "title": "German court holds Google directly liable for false AI Overviews statements about two Munich publishers",
+      "verification_date": "2026-06-10",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 88,
+      "bucket": "recent (31-90d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-018",
+      "title": "South African Labour Court stays disciplinary hearing over hearing chairperson’s non-existent citations; AI source left undetermined",
+      "verification_date": "2026-07-24",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 44,
+      "bucket": "recent (31-90d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-019",
+      "title": "Delhi High Court stays a commercial-court decree over a judge’s own suspected AI-drafted reasoning, without deciding whether AI was used",
+      "verification_date": "2026-07-24",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 44,
+      "bucket": "recent (31-90d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-020",
+      "title": "Georgia Court of Appeals vacates an order containing a hallucinated case that counsel drafted and the trial court signed",
+      "verification_date": "2026-07-24",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 44,
+      "bucket": "recent (31-90d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-021",
+      "title": "Quebec Superior Court annuls an arbitral award because the arbitrator’s own reasoning rested entirely on hallucinated authorities",
+      "verification_date": "2026-07-24",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 44,
+      "bucket": "recent (31-90d)"
+    },
+    {
+      "dataset": "global",
+      "id": "AIEL-GLOB-014",
+      "title": "Supreme Court of India sets aside NCLT and NCLAT orders that rested on AI-generated fake citations in the tribunal’s own judgment",
+      "verification_date": "2026-07-24",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 44,
+      "bucket": "recent (31-90d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-004",
+      "title": "Oready AI-hallucinated GAO bid protests",
+      "verification_date": "2026-07-25",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 43,
+      "bucket": "recent (31-90d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-024",
+      "title": "GAO warns protester after admitted reliance on AI-assisted tools produced citation irregularities",
+      "verification_date": "2026-07-25",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 43,
+      "bucket": "recent (31-90d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-025",
+      "title": "New York court sanctions counsel for deceptive litigation and orders disclosure about possible AI use",
+      "verification_date": "2026-07-25",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 43,
+      "bucket": "recent (31-90d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-013",
+      "title": "Pro se litigant sanctioned $1,000 for fabricated case citations",
+      "verification_date": "2026-08-19",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 18,
+      "bucket": "fresh (0-30d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-015",
+      "title": "Appellate reversal: trial court relied on fictitious case from counsel brief",
+      "verification_date": "2026-08-19",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 18,
+      "bucket": "fresh (0-30d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-017",
+      "title": "W.D. Pa. declines to sanction pro se litigant’s disclosed use of Claude for drafting; no fabricated citations found",
+      "verification_date": "2026-08-19",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 18,
+      "bucket": "fresh (0-30d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-026",
+      "title": "New York court imposes maximum statutory sanction plus $36,511 fees on attorney who used Claude for nineteen filings",
+      "verification_date": "2026-08-19",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 18,
+      "bucket": "fresh (0-30d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-027",
+      "title": "New York Family Court sanctions counsel $1,000 for eleven fabricated citations but declines grievance referral",
+      "verification_date": "2026-08-19",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 18,
+      "bucket": "fresh (0-30d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-028",
+      "title": "Washington appellate court surmises AI use behind a fabricated citation without making a finding",
+      "verification_date": "2026-08-19",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 18,
+      "bucket": "fresh (0-30d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-029",
+      "title": "Arizona MDL court declines to exclude expert report despite hallucinated citations and conceded ChatGPT use",
+      "verification_date": "2026-08-19",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 18,
+      "bucket": "fresh (0-30d)"
+    },
+    {
+      "dataset": "global",
+      "id": "AIEL-GLOB-015",
+      "title": "Ontario law-society tribunal awards full costs against a suspended lawyer who filed Grok-generated fake citations in his own regulatory case",
+      "verification_date": "2026-08-19",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 18,
+      "bucket": "fresh (0-30d)"
+    },
+    {
+      "dataset": "global",
+      "id": "AIEL-GLOB-017",
+      "title": "Quebec Court of Appeal orders self-represented appellant to pay costs over conceded ChatGPT authorities",
+      "verification_date": "2026-08-19",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 18,
+      "bucket": "fresh (0-30d)"
+    },
+    {
+      "dataset": "global",
+      "id": "AIEL-GLOB-018",
+      "title": "Gauteng full bench refers acting judge's false citations to Legal Practice Council without finding AI use",
+      "verification_date": "2026-08-19",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 18,
+      "bucket": "fresh (0-30d)"
+    },
+    {
+      "dataset": "global",
+      "id": "AIEL-GLOB-019",
+      "title": "Nova Scotia Court of Appeal awards $20,000 solicitor-client costs over AI-fabricated transcripts and appeal books",
+      "verification_date": "2026-08-19",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 18,
+      "bucket": "fresh (0-30d)"
+    },
+    {
+      "dataset": "global",
+      "id": "AIEL-GLOB-020",
+      "title": "Australian federal court fixes costs at $9,097.93 and holds that neither the litigant, ChatGPT nor OpenAI can be referred to a regulator",
+      "verification_date": "2026-08-19",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 18,
+      "bucket": "fresh (0-30d)"
+    },
+    {
+      "dataset": "review",
+      "id": "AIEL-CAND-030",
+      "title": "New Mexico Supreme Court holds attorney in contempt over ChatGPT-fabricated appellate summary",
+      "verification_date": "2026-09-02",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 4,
+      "bucket": "fresh (0-30d)"
+    },
+    {
+      "dataset": "global",
+      "id": "AIEL-GLOB-021",
+      "title": "Gujarat tax officer's order relying exclusively on AI-hallucinated case law quashed; triggers statewide AI-governance instructions",
+      "verification_date": "2026-09-02",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 4,
+      "bucket": "fresh (0-30d)"
+    },
+    {
+      "dataset": "global",
+      "id": "AIEL-GLOB-022",
+      "title": "Tel Aviv District Court finds reliance on AI hallucinations in class-certification withdrawal, awards costs",
+      "verification_date": "2026-09-02",
+      "date_field": "last_checked_date",
+      "date_status": "dated",
+      "days_stale": 4,
+      "bucket": "fresh (0-30d)"
+    }
+  ]
+}

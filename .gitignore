@@ -21,3 +21,6 @@ venv/
 # --- portfolio baseline (2026-07-04): transient dirs ---
 handoffs/
 working/
+
+# Local source-monitor evidence; never part of the public corpus
+.verification-reports/
