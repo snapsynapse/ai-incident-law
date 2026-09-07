@@ -11,12 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Release preparation
 - This local candidate packages the current reviewed corpus and generated Obligation-First projection, including source corrections and records added after v0.4.0. It is not tagged, pushed, or published to npm.
-- Add adopter-owned scope continuity checks and pin federation validation to the released Obligation-First v0.6.5 evaluator.
-- Add bounded source monitoring and record-age diagnostics. They preserve review findings and surface failures without changing admission, legal outcomes, or verification dates automatically.
-
-### Scope verification
 - Add adopter-owned scope inventories and exact continuity baselines before fingerprint verification or rewrite. Recognition remains independent from coverage; unknown does not mean zero.
-- Require the OF v0.6.4 evaluator through an exact checker revision when adopting this change in CI. These repository checks do not change the published MCP runtime or package version.
+- Pin repository federation validation to the released Obligation-First v0.6.5 evaluator. That external checker verifies the package candidate; it is not bundled into the MCP package.
+- Add bounded source monitoring and record-age diagnostics. They preserve review findings and surface failures without changing admission, legal outcomes, or verification dates automatically.
 
 
 ## [0.4.0] - 2026-08-20
