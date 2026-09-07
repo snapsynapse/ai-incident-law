@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "repository": "ai-incident-law",
+  "profile": "package",
+  "authority": "R2",
+  "start_head": "7bcba01eaab81a1bc29b85e5f984c8f514a0343d",
+  "candidate_head": "530ad61cf432b15651998802a2ea8dff56bc2ef2",
+  "candidate_version": "0.4.1",
+  "updated_at": "2026-09-07T15:38:51.763313+00:00",
+  "steps": [
+    {
+      "id": "reconciliation",
+      "status": "completed",
+      "evidence": "Remote heads, candidate tag absence, releases, npm/MCP latest and archive digests verified September 7; user authorized recommended publication scope."
+    },
+    {
+      "id": "local_preparation",
+      "status": "completed",
+      "evidence": "build and full check passed; clean consumer 355 files, 8 MCP tools; unchanged archive SHA256 251195c8f6f9765f34f900ef6b2868a049bc6f822c33101a7bccaa317050b55d. Only changelog/release notes changed outside package.",
+      "head": "530ad61cf432b15651998802a2ea8dff56bc2ef2"
+    },
+    {
+      "id": "hosted_ci",
+      "status": "completed",
+      "evidence": "Validate 34138358789 and Pages 34138357934 passed on exact candidate.",
+      "head": "530ad61cf432b15651998802a2ea8dff56bc2ef2"
+    },
+    {
+      "id": "github_release",
+      "status": "completed",
+      "evidence": "Signed v0.4.1 tag and GitHub release published 2026-09-07T15:28:05Z; uploaded asset digest matches approved archive; site-and-github.json.",
+      "head": "530ad61cf432b15651998802a2ea8dff56bc2ef2"
+    },
+    {
+      "id": "npm_publication",
+      "status": "blocked",
+      "evidence": "Interactive npm auth challenge expired; npm publish exited E404 on auth completion endpoint. Version remains unpublished. No token extraction or replacement attempted."
+    },
+    {
+      "id": "mcp_publication",
+      "status": "blocked",
+      "evidence": "npm version must exist first; descriptor remotely validated. Publish after npm, using supported saved session or interactive GitHub login."
+    },
+    {
+      "id": "published_consumer",
+      "status": "blocked",
+      "evidence": "npm publication pending; exact-version cold-consumer helper prepared and syntax-checked in /private/tmp."
+    },
+    {
+      "id": "live_acceptance",
+      "status": "ready",
+      "evidence": "10 current site and immutable-tag byte comparisons passed; npm/MCP consumer acceptance remains pending. See site-and-github.json.",
+      "head": "530ad61cf432b15651998802a2ea8dff56bc2ef2"
+    },
+    {
+      "id": "main_push",
+      "status": "completed",
+      "head": "530ad61cf432b15651998802a2ea8dff56bc2ef2",
+      "evidence": "Remote main exact SHA confirmed; GitHub signature verified valid."
+    }
+  ]
+}
