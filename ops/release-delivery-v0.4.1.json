@@ -6,7 +6,7 @@
   "start_head": "7bcba01eaab81a1bc29b85e5f984c8f514a0343d",
   "candidate_head": "530ad61cf432b15651998802a2ea8dff56bc2ef2",
   "candidate_version": "0.4.1",
-  "updated_at": "2026-09-07T16:18:56.265998+00:00",
+  "updated_at": "2026-09-07T16:30:37.416552+00:00",
   "steps": [
     {
       "id": "reconciliation",
@@ -39,8 +39,9 @@
     },
     {
       "id": "mcp_publication",
-      "status": "blocked",
-      "evidence": "npm prerequisite is complete. Registry publish returned 401 for the expired separate MCP JWT; supported GitHub login requested. No token contents accessed."
+      "status": "completed",
+      "evidence": "Official MCP Registry ai-incident-law@0.4.1 is active and latest. Versioned descriptor: https://registry.modelcontextprotocol.io/v0.1/servers/io.github.snapsynapse%2Fai-incident-law/versions/0.4.1. All descriptor fields match.",
+      "completed_at": "2026-09-07T16:28:00.084433Z"
     },
     {
       "id": "published_consumer",
@@ -49,8 +50,8 @@
     },
     {
       "id": "live_acceptance",
-      "status": "ready",
-      "evidence": "10 current site and immutable-tag byte comparisons passed; npm/MCP consumer acceptance remains pending. See site-and-github.json.",
+      "status": "completed",
+      "evidence": "Ten site/immutable-tag byte comparisons passed at the recorded release checkpoint. Published npm archive matches the approved SHA256; fresh installed consumer exposes eight tools, correct runtime dataset counts, matching guide copies and manifest SHA. MCP Registry is active/latest with matching descriptor. This is dated artifact delivery acceptance, not source-currentness acceptance.",
       "head": "530ad61cf432b15651998802a2ea8dff56bc2ef2"
     },
     {
