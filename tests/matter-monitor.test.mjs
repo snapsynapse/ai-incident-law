@@ -110,10 +110,30 @@ test('matter comparison uses the latest qualified snapshot across an A-to-B-to-A
     assert.equal(thirdChanged.report.sources.find(source => source.id === 'AIEL-TEST-001').assessment, 'unchanged_source');
     const reverted = await runCollect({ state: reloaded, now: '2026-09-06T12:07:00.000Z' });
     assert.equal(reverted.report.sources.find(source => source.id === 'AIEL-TEST-001').assessment, 'existing_development_review');
-    assert.equal(Object.keys(reloaded.findings).length, baselineFindingCount + 1);
+    assert.equal(Object.keys(reloaded.findings).length, baselineFindingCount + 2);
   } finally {
     await rm(directory, { recursive: true, force: true });
   }
+});
+
+test('an accepted A then accepted B snapshot cannot suppress a reverted A review', async () => {
+  const state = readyState();
+  const first = await runCollect({ state, now: '2026-09-06T13:00:00.000Z' });
+  const a = first.report.sources.find(source => source.id === 'AIEL-TEST-001');
+  core.applyReviewDecision(state, a.findingId, { actorType: 'human', status: 'accepted', actor: 'Sam Rogers', reason: 'Reviewed snapshot A' }, { now: '2026-09-06T13:00:00.000Z' });
+
+  const changed = await runCollect({ state, bodySuffix: 'amended docket metadata', now: '2026-09-06T13:01:00.000Z' });
+  const b = changed.report.sources.find(source => source.id === 'AIEL-TEST-001');
+  assert.equal(b.assessment, 'existing_development_review');
+  assert.notEqual(b.findingId, a.findingId);
+  core.applyReviewDecision(state, b.findingId, { actorType: 'human', status: 'accepted', actor: 'Sam Rogers', reason: 'Reviewed snapshot B' }, { now: '2026-09-06T13:01:00.000Z' });
+
+  const reverted = await runCollect({ state, now: '2026-09-06T13:02:00.000Z' });
+  const revertedSource = reverted.report.sources.find(source => source.id === 'AIEL-TEST-001');
+  assert.equal(revertedSource.assessment, 'existing_development_review');
+  assert.notEqual(revertedSource.findingId, a.findingId);
+  assert.notEqual(revertedSource.findingId, b.findingId);
+  assert.equal(state.findings[revertedSource.findingId].status, 'pending');
 });
 
 test('secondary mirrors, blocked HTML, and an HTML shell at a PDF URL are unqualified and do not establish coverage', async () => {
