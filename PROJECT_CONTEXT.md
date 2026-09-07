@@ -36,4 +36,8 @@ Discernible from README, ROADMAP, INTENT, and the docs pages:
 
 ## Current status
 
-Actively maintained. Version 0.4.0 publishes settled admission-policy decisions, source-verified legal-graph projections, continuity-preserving Tombstones, deterministic package evaluation, accessibility regression coverage, and GuideCheck assistant surfaces. Near-term priorities (see `ROADMAP.md`): improve source rigor and archival coverage, add pinned MCP Registry schema validation, improve network-failure diagnostics, and prepare the separately gated Pages artifact migration.
+Actively maintained. Version 0.4.0 publishes settled admission-policy decisions, source-verified legal-graph projections, continuity-preserving Tombstones, deterministic package evaluation, accessibility regression coverage, and GuideCheck assistant surfaces. Repository maintenance now includes weekly link/age diagnostics and a manual five-matter, two-index source pilot. These preserve review findings without automatically changing admission, legal outcomes, or verification dates; independent missed-run monitoring remains unaccepted. Near-term priorities (see `ROADMAP.md`): improve source rigor and archival coverage, add pinned MCP Registry schema validation, improve network-failure diagnostics, and prepare the separately gated Pages artifact migration.
+
+## Documentation audit map
+
+README.md indexes usage; ROADMAP.md indexes future work. INTENT.md owns admission and stewardship policy. The hand-edited docs/methodology.html, llms.txt and agents.json describe current public scope. The versioned assistant guide retains its verified trust boundary. ops/MATTER-MONITOR-PILOT.md and ops/evidence/ contain bounded operating details and dated evidence. Rebuild data.js and api/v1/of through npm run build; never infer new source verification from a build. Historical release notes and receipts describe their recorded candidates.

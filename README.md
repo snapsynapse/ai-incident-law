@@ -41,6 +41,10 @@ This pulls the [ai-incident-law](https://npmjs.com/package/ai-incident-law) npm 
 
 AI Incident Law is one component of the PAICE legal graph (with EveryAILaw, PubLedge, and Obligation First). It is intentionally open: code under MIT, dataset under CC BY 4.0, commercial use permitted with attribution. The open siblings are funded by EveryAILaw Pro, the graph's single restricted layer; openness here is a deliberate PBC-charter choice. The canonical model is in the PAICE Foundation INTENT. Attribution: "AI Incident Law, PAICE.work PBC, CC BY 4.0".
 
+## Maintenance scope
+
+Weekly source-link and record-age diagnostics identify review work; they do not reverify the corpus. A separate manual pilot observes five active matters and two official discovery indexes, preserves source failures and pending findings, and requires human review before any record or verification date changes. Source access remains incomplete. Independent missing-run monitoring and recovery email acceptance remain open. See [the matter-monitor pilot](ops/MATTER-MONITOR-PILOT.md) for dated coverage evidence and [methodology](https://aiincidentlaw.org/docs/methodology.html) for the public boundary.
+
 ## Repo layout
 
 - `index.html` is the application shell.

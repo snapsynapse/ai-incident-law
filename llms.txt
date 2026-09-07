@@ -4,6 +4,10 @@
 
 Each record resolves to a primary or stable secondary public source. Records carry their own `last_verified_date` / `last_checked_date`; check it before presenting a record as current. The dataset is curated for source quality over volume, not crawled.
 
+## Maintenance scope
+
+Weekly source-link and record-age diagnostics identify review work; they do not reverify the corpus. A separate manual pilot observes five active matters and two official discovery indexes, preserves source failures and pending findings, and requires human review before any record or verification date changes. Source access remains incomplete. Independent missing-run monitoring and recovery email acceptance remain open.
+
 ## Data
 
 - [Canonical dataset](https://aiincidentlaw.org/data/data.json): Source-of-truth JSON. Datasets: `included` (admitted public matters), `review` (editorial queue), `global` (non-US, pending sourcing).
