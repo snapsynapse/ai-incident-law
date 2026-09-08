@@ -97,6 +97,45 @@ test("MCP serves the 2026-07-28 stateless era alongside the legacy handshake", (
   assert.equal(rejected.error.data.requested, "1900-01-01");
 });
 
+test("both discovery paths explain the same source and graph contract", () => {
+  const [initialized, discovered] = callMcp([
+    { jsonrpc: "2.0", id: 1, method: "initialize", params: {} },
+    { jsonrpc: "2.0", id: 2, method: "server/discover", params: { _meta: { "io.modelcontextprotocol/protocolVersion": "2026-07-28" } } }
+  ]);
+  const guidance = initialized.result.instructions;
+  assert.equal(guidance, discovered.result.instructions);
+  for (const expected of [
+    "https://aiincidentlaw.org/", "https://obligationfirst.org/",
+    "https://obligationfirst.org/v1/context.jsonld", "bundled", "last_verified_date",
+    "last_checked_date", "AIEL-2024-001", "aiel-2024-001-proceeding",
+    "does not establish a determination", "do not establish statutory applicability",
+    "isError", "not_found", "invalid_input"
+  ]) assert.ok(guidance.includes(expected), `missing discovery guidance: ${expected}`);
+  for (const name of ["list_authorities", "get_authority", "get_obligation_first_record"]) {
+    const tool = listTools().find(item => item.name === name);
+    assert.ok(tool.description.includes("https://obligationfirst.org/"));
+    assert.ok(tool.description.includes("https://obligationfirst.org/v1/context.jsonld"));
+  }
+});
+
+test("documented source and graph IDs resolve while unknown IDs and kinds fail explicitly", () => {
+  const responses = callMcp([
+    toolCall(1, "get_record", { id: "AIEL-2024-001" }),
+    toolCall(2, "get_obligation_first_record", { kind: "proceedings", id: "aiel-2024-001-proceeding" }),
+    toolCall(3, "get_record", { id: "not-a-real-source-id" }),
+    toolCall(4, "get_obligation_first_record", { kind: "proceedings", id: "not-a-real-graph-id" }),
+    toolCall(5, "get_obligation_first_record", { kind: "not-a-kind", id: "aiel-2024-001-proceeding" })
+  ]);
+  assert.equal(payload(responses[0]).data.error_id, "AIEL-2024-001");
+  assert.equal(payload(responses[1]).data["@type"], "of:Proceeding");
+  for (let index = 2; index < responses.length; index++) {
+    assert.equal(responses[index].result.isError, true);
+    const error = payload(responses[index]);
+    assert.equal(error.error, index === 4 ? "invalid_input" : "not_found");
+    for (const key of ["detail", "why", "guidance"]) assert.ok(error[key]);
+  }
+});
+
 test("MCP accepts one valid fixture for every advertised tool", () => {
   const tools = listTools();
   const messages = tools.map((tool, index) => {
