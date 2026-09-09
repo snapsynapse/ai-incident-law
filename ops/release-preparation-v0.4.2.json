@@ -4,19 +4,19 @@
   "profile": "package",
   "authority": "R2",
   "start_head": "95c7518040021d12563157f0eea353c2fdf6dabc",
-  "candidate_head": null,
+  "candidate_head": "793605e6e68de60f98069f3eabc3c8ab7cf0a00d",
   "candidate_version": "0.4.2",
-  "updated_at": null,
+  "updated_at": "2026-09-09T02:35:00Z",
   "steps": [
     {
       "id": "reconciliation",
-      "status": "unknown",
-      "evidence": "Local branch was clean, zero behind and three commits ahead of origin/main at preparation start. No open PR and npm 0.4.2 absence were independently read back; final tag and MCP Registry conflict checks remain coordinator-owned."
+      "status": "completed",
+      "evidence": "Local branch was clean, zero behind and three commits ahead of origin/main at preparation start. At 2026-09-09T02:35:00Z, independent readbacks found no open PR, no remote v0.4.2 tag, latest GitHub, npm, and MCP Registry version 0.4.1, and no npm or MCP Registry 0.4.2 entry. A final prepublication refresh remains required."
     },
     {
       "id": "local_preparation",
       "status": "ready",
-      "evidence": "Version, changelog, release notes, package metadata, MCP descriptor, GuideCheck manifests, and project status prepared locally. Build, full check, discovery alignment, GuideCheck validation, naming-profile validation, and clean installed-package evaluation passed on the prepared tree. Exact candidate commit and clean exact-head verification remain to be recorded outside this pre-commit state."
+      "evidence": "Version, changelog, release notes, package metadata, MCP descriptor, GuideCheck manifests, and project status are committed at candidate_head. Build, full check, discovery alignment, GuideCheck validation, naming-profile validation, and clean installed-package evaluation passed before commit. Clean exact-head verification is recorded separately after this state update. Local commit authority does not authorize push, tag, release, publication, or deployment."
     },
     {
       "id": "packed_candidate",
