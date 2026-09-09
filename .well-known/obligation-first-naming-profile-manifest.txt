@@ -1,10 +1,10 @@
 profile-path: /.well-known/obligation-first-naming-profile.jsonld
-profile-version: 1.1.0
-profile-sha256: 5cfeb60c182e3678c0f0f4b6b1c74a9890cd276dac4369e50656ae289389b77f
-profile-bytes: 1477
+profile-version: 2.0.0
+profile-sha256: 66ae44d87c017b1af98ba62aadab2e88b916991c59076f7eecc2b3fae6f7cbc4
+profile-bytes: 1991
 adopter: https://aiincidentlaw.org/
 spec: obligation-first
-spec-version-range: >=0.4.0, <0.6.0
+spec-version-range: >=0.6.0 <0.7.0
 canonical-url: https://aiincidentlaw.org/.well-known/obligation-first-naming-profile.jsonld
 repository-url: https://github.com/snapsynapse/ai-incident-law
-released-at: 2026-06-03T00:00:00Z
+released-at: 2026-09-07T15:28:05Z

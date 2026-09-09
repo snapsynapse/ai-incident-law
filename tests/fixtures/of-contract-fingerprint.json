@@ -7,8 +7,8 @@
   "adopter": "https://aiincidentlaw.org/",
   "applies_to": "obligation-first >=0.6.0 <0.7.0",
   "contexts": {
-    "[\"https://obligationfirst.org/v1/context.jsonld\",{\"ail\":\"https://aiincidentlaw.org/vocab/\",\"id\":\"ail:id\",\"ai_incident_law_record_id\":\"ail:recordId\",\"matter_type\":\"ail:matterType\",\"filing_status\":\"ail:filingStatus\",\"ai_system_name\":\"ail:aiSystemName\",\"deployer\":\"ail:deployer\",\"domain\":\"ail:domain\",\"error_type\":\"ail:errorType\",\"canonical_source_conflicted\":\"ail:canonicalSourceConflicted\",\"mitigation_gap\":\"ail:mitigationGap\",\"reliance_or_harm\":\"ail:relianceOrHarm\",\"filing_date_source\":\"ail:filingDateSource\",\"procedural_stage\":\"ail:proceduralStage\"}]": 6,
-    "[\"https://obligationfirst.org/v1/context.jsonld\",{\"ail\":\"https://aiincidentlaw.org/vocab/\",\"id\":\"ail:id\",\"ai_incident_law_record_id\":\"ail:recordId\",\"matter_type\":\"ail:matterType\",\"filing_status\":\"ail:filingStatus\",\"ai_system_name\":\"ail:aiSystemName\",\"deployer\":\"ail:deployer\",\"domain\":\"ail:domain\",\"error_type\":\"ail:errorType\",\"canonical_source_conflicted\":\"ail:canonicalSourceConflicted\",\"mitigation_gap\":\"ail:mitigationGap\",\"reliance_or_harm\":\"ail:relianceOrHarm\",\"filing_date_source\":\"ail:filingDateSource\"}]": 63,
+    "[\"https://obligationfirst.org/v1/context.jsonld\",{\"ail\":\"https://aiincidentlaw.org/vocab/\",\"id\":\"ail:id\",\"ai_incident_law_record_id\":\"ail:recordId\",\"matter_type\":\"ail:matterType\",\"filing_status\":\"ail:filingStatus\",\"ai_system_name\":\"ail:aiSystemName\",\"deployer\":\"ail:deployer\",\"domain\":\"ail:domain\",\"error_type\":\"ail:errorType\",\"canonical_source_conflicted\":\"ail:canonicalSourceConflicted\",\"mitigation_gap\":\"ail:mitigationGap\",\"reliance_or_harm\":\"ail:relianceOrHarm\",\"filing_date_source\":\"ail:filingDateSource\",\"procedural_stage\":\"ail:proceduralStage\"}]": 7,
+    "[\"https://obligationfirst.org/v1/context.jsonld\",{\"ail\":\"https://aiincidentlaw.org/vocab/\",\"id\":\"ail:id\",\"ai_incident_law_record_id\":\"ail:recordId\",\"matter_type\":\"ail:matterType\",\"filing_status\":\"ail:filingStatus\",\"ai_system_name\":\"ail:aiSystemName\",\"deployer\":\"ail:deployer\",\"domain\":\"ail:domain\",\"error_type\":\"ail:errorType\",\"canonical_source_conflicted\":\"ail:canonicalSourceConflicted\",\"mitigation_gap\":\"ail:mitigationGap\",\"reliance_or_harm\":\"ail:relianceOrHarm\",\"filing_date_source\":\"ail:filingDateSource\"}]": 62,
     "[\"https://obligationfirst.org/v1/context.jsonld\",{\"ail\":\"https://aiincidentlaw.org/vocab/\",\"id\":\"ail:id\",\"ai_incident_law_record_id\":\"ail:recordId\",\"matter_type\":\"ail:matterType\",\"filing_status\":\"ail:filingStatus\",\"ai_system_name\":\"ail:aiSystemName\",\"deployer\":\"ail:deployer\",\"domain\":\"ail:domain\",\"error_type\":\"ail:errorType\",\"canonical_source_conflicted\":\"ail:canonicalSourceConflicted\",\"mitigation_gap\":\"ail:mitigationGap\",\"reliance_or_harm\":\"ail:relianceOrHarm\"}]": 263
   },
   "exact_edges": [
@@ -1878,11 +1878,6 @@
       "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json"
     ],
     [
-      "https://aiincidentlaw.org/proceeding/aiel-2023-002-proceeding.json",
-      "parties",
-      "https://aiincidentlaw.org/party/aiel-2023-002-deployer.json"
-    ],
-    [
       "https://aiincidentlaw.org/proceeding/aiel-2023-009-proceeding.json",
       "hasAllegation",
       "https://aiincidentlaw.org/allegation/aiel-2023-009-allegation.json"
@@ -3158,7 +3153,7 @@
       "https://aiincidentlaw.org/party/aiel-2026-068-deployer.json"
     ]
   ],
-  "exact_edges_sha256": "8432e3e1d75bc98bd3b10321d713ac1d29639ea2e3cfdc3846759e01ccefaef0",
+  "exact_edges_sha256": "e5e5d82fbd7245e714b635984dec14da01d64e2173930c75b4f5ad3b4ec5a81d",
   "field_coverage": {
     "of:Allegation": {
       "@context": {
@@ -3406,9 +3401,9 @@
         "present": 62
       },
       "issued_date": {
-        "missing": 59,
-        "populated": 3,
-        "present": 3
+        "missing": 58,
+        "populated": 4,
+        "present": 4
       },
       "issuedBy": {
         "missing": 0,
@@ -3617,14 +3612,14 @@
         "present": 5
       },
       "parties": {
-        "missing": 0,
-        "populated": 69,
-        "present": 69
+        "missing": 1,
+        "populated": 68,
+        "present": 68
       },
       "procedural_stage": {
-        "missing": 63,
-        "populated": 6,
-        "present": 6
+        "missing": 62,
+        "populated": 7,
+        "present": 7
       },
       "source": {
         "missing": 0,
@@ -6186,10 +6181,10 @@
       }
     },
     "parties": {
-      "edges": 69,
-      "sources": 69,
+      "edges": 68,
+      "sources": 68,
       "target_hosts": {
-        "aiincidentlaw.org": 69
+        "aiincidentlaw.org": 68
       }
     },
     "related_to": {

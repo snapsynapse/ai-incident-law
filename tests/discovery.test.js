@@ -126,6 +126,8 @@ test("package, registry, discovery, docs, and MCP initialize metadata stay align
     params: { _meta: { "io.modelcontextprotocol/protocolVersion": "2026-07-28" } }
   }]);
   assert.equal(discover.result.resultType, "complete");
+  assert.equal(discover.result.instructions, initialize.result.instructions);
+  assert.ok(initialize.result.instructions.includes("https://obligationfirst.org/v1/context.jsonld"));
   assert.ok(discover.result.supportedVersions.includes("2026-07-28"));
   const discoverInfo = discover.result._meta["io.modelcontextprotocol/serverInfo"];
   assert.equal(discoverInfo.name, pkg.name);

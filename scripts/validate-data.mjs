@@ -51,6 +51,16 @@ function validateLegalGraph(record, datasetKey, id) {
     if (!Array.isArray(proceeding.heard_by) || proceeding.heard_by.length === 0) addIssue(`${datasetKey}.${id}.legal_graph proceeding ${proceeding.id} must identify heard_by`);
     for (const authorityId of proceeding.heard_by || []) if (!authorities.has(authorityId)) addIssue(`${datasetKey}.${id}.legal_graph proceeding ${proceeding.id} references undeclared authority ${authorityId}`);
     for (const determinationId of proceeding.determination_ids || []) if (!determinationIds.has(determinationId)) addIssue(`${datasetKey}.${id}.legal_graph proceeding ${proceeding.id} references undeclared determination ${determinationId}`);
+    if (proceeding.parties !== undefined && !Array.isArray(proceeding.parties)) {
+      addIssue(`${datasetKey}.${id}.legal_graph proceeding ${proceeding.id} parties must be an array`);
+    }
+    const inferredPartyId = record.deployer ? `${String(record.error_id).toLowerCase()}-deployer` : undefined;
+    for (const partyId of Array.isArray(proceeding.parties) ? proceeding.parties : []) {
+      if (partyId !== inferredPartyId) addIssue(`${datasetKey}.${id}.legal_graph proceeding ${proceeding.id} references undeclared party ${partyId}`);
+    }
+    if (proceeding.matter_type !== undefined && (typeof proceeding.matter_type !== "string" || !proceeding.matter_type.trim())) {
+      addIssue(`${datasetKey}.${id}.legal_graph proceeding ${proceeding.id} matter_type must be a non-empty string`);
+    }
   }
   for (const retired of graph.retired_identifiers || []) {
     if (!retired?.id || !/^[a-z0-9-]+$/.test(retired.id)) addIssue(`${datasetKey}.${id}.legal_graph retired identifier has an invalid id`);

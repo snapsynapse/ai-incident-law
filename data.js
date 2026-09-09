@@ -59,7 +59,7 @@ window.AIEL_DATA = {
           "public_record_link": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.575368/gov.uscourts.nysd.575368.54.0_8.pdf",
           "secondary_source_links": "https://nytimes.com/2023/05/27/nyregion/avianca-airline-lawsuit-chatgpt.html",
           "confidence_score": "high",
-          "notes_on_resolution": "Court imposed a $5,000 sanction and ordered notice to affected judges and client.",
+          "notes_on_resolution": "The June 22, 2023 Opinion and Order on Sanctions imposed a $5,000 sanction jointly and severally on Peter LoDuca, Steven Schwartz, and Levidow, Levidow & Oberman P.C., and ordered notices to affected judges and the client. The indexed filing_date is the sanctions opinion and order filing date; the action entered federal court on removal on February 22, 2022.",
           "tags": "document-generation; legal-hallucination; sanctions-order; professional-discipline; public-record-confirmed",
           "source_quality": "primary record",
           "research_status": "included",
@@ -67,7 +67,46 @@ window.AIEL_DATA = {
           "needs_review": "no",
           "obligation_first_anchors": [
             "https://everyailaw.com/obligation-category/human-oversight.json"
-          ]
+          ],
+          "legal_graph": {
+            "authorities": [
+              {
+                "id": "u-s-district-court-southern-district-of-new-york",
+                "name": "U.S. District Court, Southern District of New York",
+                "territorial_scope": [
+                  "us-ny"
+                ],
+                "same_as": [
+                  "https://wikidata.org/entity/Q673281"
+                ]
+              }
+            ],
+            "proceedings": [
+              {
+                "id": "aiel-2023-002-proceeding",
+                "heard_by": [
+                  "u-s-district-court-southern-district-of-new-york"
+                ],
+                "filed_date": "2022-02-22",
+                "parties": [],
+                "determination_ids": [
+                  "aiel-2023-002-determination"
+                ],
+                "matter_type": "federal civil action with ancillary sanctions proceeding",
+                "procedural_stage": "federal-civil-action-after-removal"
+              }
+            ],
+            "determinations": [
+              {
+                "id": "aiel-2023-002-determination",
+                "issued_by": [
+                  "u-s-district-court-southern-district-of-new-york"
+                ],
+                "issued_date": "2023-06-22",
+                "disposition": "confirmed"
+              }
+            ]
+          }
         },
         {
           "error_id": "AIEL-2024-003",

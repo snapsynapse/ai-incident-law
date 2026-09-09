@@ -7,9 +7,13 @@ import { tmpdir } from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+import { validateNamingProfileManifest } from "./check-naming-profile-manifest.mjs";
+
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const npm = process.platform === "win32" ? "npm.cmd" : "npm";
 const REQUIRED_FILES = [
+  ".well-known/obligation-first-naming-profile.jsonld",
+  ".well-known/obligation-first-naming-profile-manifest.txt",
   ".well-known/assistant-guide-manifest.txt",
   ".well-known/assistant-guide.txt",
   "api/v1/of/tombstones.json",
@@ -96,18 +100,41 @@ try {
   assert.ok(expectedGuideHash, "installed assistant-guide manifest lacks a SHA-256");
   assert.equal(createHash("sha256").update(guide).digest("hex"), expectedGuideHash, "installed assistant-guide hash differs from its manifest");
 
+  validateNamingProfileManifest(
+    await readFile(path.join(installedRoot, ".well-known/obligation-first-naming-profile.jsonld")),
+    await readFile(path.join(installedRoot, ".well-known/obligation-first-naming-profile-manifest.txt"), "utf8")
+  );
+
   const mcpInput = [
     { jsonrpc: "2.0", id: 1, method: "initialize", params: {} },
     { jsonrpc: "2.0", id: 2, method: "tools/list" },
+    { jsonrpc: "2.0", id: 3, method: "server/discover", params: { _meta: { "io.modelcontextprotocol/protocolVersion": "2026-07-28" } } },
+    { jsonrpc: "2.0", id: 4, method: "tools/call", params: { name: "get_record", arguments: { id: "AIEL-2024-001" } } },
+    { jsonrpc: "2.0", id: 5, method: "tools/call", params: { name: "get_obligation_first_record", arguments: { kind: "proceedings", id: "aiel-2024-001-proceeding" } } },
+    { jsonrpc: "2.0", id: 6, method: "tools/call", params: { name: "get_obligation_first_record", arguments: { kind: "unknown", id: "missing" } } },
+    { jsonrpc: "2.0", id: 7, method: "tools/call", params: { name: "get_record", arguments: { id: "missing" } } },
   ].map(message => JSON.stringify(message)).join("\n") + "\n";
   const mcp = run(process.execPath, [path.join(installedRoot, "scripts", "mcp-server.js")], {
     cwd: consumerDir,
     input: mcpInput,
   });
-  const [initialized, listed] = readResponses(mcp.stdout);
+  const [initialized, listed, discovered, source, projection, badKind, unknownId] = readResponses(mcp.stdout);
   assert.equal(initialized.result.serverInfo.name, installedPackage.name);
   assert.equal(initialized.result.serverInfo.version, installedPackage.version);
-  assert.ok(listed.result.tools.length > 0, "installed MCP server advertises no tools");
+  assert.equal(listed.result.tools.length, 8, "installed MCP tool inventory changed");
+  assert.equal(initialized.result.instructions, discovered.result.instructions);
+  assert.ok(initialized.result.instructions.includes("https://obligationfirst.org/v1/context.jsonld"));
+  for (const name of ["list_authorities", "get_authority", "get_obligation_first_record"]) {
+    const tool = listed.result.tools.find(item => item.name === name);
+    assert.ok(tool.description.includes("https://obligationfirst.org/v1/context.jsonld"));
+  }
+  const payload = response => JSON.parse(response.result.content[0].text);
+  assert.equal(payload(source).data.error_id, "AIEL-2024-001");
+  assert.equal(payload(projection).data["@type"], "of:Proceeding");
+  assert.equal(badKind.result.isError, true);
+  assert.equal(payload(badKind).error, "invalid_input");
+  assert.equal(unknownId.result.isError, true);
+  assert.equal(payload(unknownId).error, "not_found");
 
   console.log(JSON.stringify({
     status: "pass",

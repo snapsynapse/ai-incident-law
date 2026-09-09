@@ -136,7 +136,7 @@ Filed and pending included records are exported without `of:Determination` recor
 Supported arrays:
 
 - `authorities`: distinct organizations with stable `id`, `name`, and optional territorial, institutional, and `same_as` crosswalks
-- `proceedings`: stable proceeding IDs with `heard_by`, optional stage-specific title and filing date, `determination_ids`, and `procedural_stage`
+- `proceedings`: stable proceeding IDs with `heard_by`, optional stage-specific title, filing date, `matter_type`, `determination_ids`, `procedural_stage`, and `parties`; an explicit empty `parties` array omits the display record's inferred deployer without asserting a complete participant list
 - `determinations`: stable determination IDs with `issued_by`, `disposition`, and optional `issued_date`
 - `retired_identifiers`: the original path kind, stable ID, `former_type`, and reviewed retirement reason used to emit a Tombstone at the retired IRI
 

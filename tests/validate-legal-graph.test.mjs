@@ -52,6 +52,22 @@ test("legal_graph rejects undeclared Determination references", async () => {
   }, /references undeclared determination undeclared-determination/);
 });
 
+test("legal_graph rejects invalid proceeding party overrides", async () => {
+  await expectValidationFailure(data => {
+    projectedRecord(data).legal_graph.proceedings[0].parties = "aiel-2023-002-deployer";
+  }, /parties must be an array/);
+
+  await expectValidationFailure(data => {
+    projectedRecord(data).legal_graph.proceedings[0].parties = ["undeclared-party"];
+  }, /references undeclared party undeclared-party/);
+});
+
+test("legal_graph rejects an empty proceeding matter type override", async () => {
+  await expectValidationFailure(data => {
+    projectedRecord(data).legal_graph.proceedings[0].matter_type = "";
+  }, /matter_type must be a non-empty string/);
+});
+
 test("legal_graph rejects malformed identifier retirements", async () => {
   await expectValidationFailure(data => {
     const record = data.datasets.included.records.find(item => item.legal_graph?.retired_identifiers?.length);
