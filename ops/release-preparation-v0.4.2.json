@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "repository": "ai-incident-law",
+  "profile": "package",
+  "authority": "R2",
+  "start_head": "95c7518040021d12563157f0eea353c2fdf6dabc",
+  "candidate_head": null,
+  "candidate_version": "0.4.2",
+  "updated_at": null,
+  "steps": [
+    {
+      "id": "reconciliation",
+      "status": "unknown",
+      "evidence": "Local branch was clean, zero behind and three commits ahead of origin/main at preparation start. No open PR and npm 0.4.2 absence were independently read back; final tag and MCP Registry conflict checks remain coordinator-owned."
+    },
+    {
+      "id": "local_preparation",
+      "status": "ready",
+      "evidence": "Version, changelog, release notes, package metadata, MCP descriptor, GuideCheck manifests, and project status prepared locally. Build, full check, discovery alignment, GuideCheck validation, naming-profile validation, and clean installed-package evaluation passed on the prepared tree. Exact candidate commit and clean exact-head verification remain to be recorded outside this pre-commit state."
+    },
+    {
+      "id": "packed_candidate",
+      "status": "ready",
+      "evidence": "Fresh ai-incident-law@0.4.2 package evaluation passed with 356 files, 8 MCP tools, 1725678 unpacked bytes, guide SHA256 3fed9ab654aa04ccd5b0e908a0ace6138fefed3a73463d3daf9c8ebf5491cc08, and archive SHA256 005b6e56a9c4803f367cec10a79680391508a80f44c0fdbf4aa4446b32365942. Candidate is local and unpublished."
+    },
+    {
+      "id": "hosted_ci",
+      "status": "not_started",
+      "evidence": "No remote branch or PR was created."
+    },
+    {
+      "id": "github_release",
+      "status": "not_started",
+      "evidence": "No tag or GitHub release was created."
+    },
+    {
+      "id": "npm_publication",
+      "status": "not_started",
+      "evidence": "No npm publication was attempted."
+    },
+    {
+      "id": "mcp_publication",
+      "status": "not_started",
+      "evidence": "No MCP Registry publication was attempted."
+    },
+    {
+      "id": "deployment",
+      "status": "not_started",
+      "evidence": "No site deployment or hosting change was attempted."
+    },
+    {
+      "id": "published_consumer",
+      "status": "not_started",
+      "evidence": "Published 0.4.2 artifacts do not exist in this local-preparation state."
+    }
+  ]
+}

@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.2] - 2026-09-08
+
+### Changed
+- MCP initialization and discovery now explain the bundled-snapshot boundary, Checked versus Verified dates, source IDs versus generated graph IDs, candidate buckets, procedural-status limits, obligation-category anchors, and explicit error handling consistently.
+- The npm package now includes and verifies the Obligation-First naming-profile manifest alongside the canonical profile.
+- Curated proceeding projections may override the display record's matter type and inferred deployer Party. An explicit empty `parties` array makes no proceeding-party assertion and does not claim a complete participant list.
+
+### Fixed
+- Correct the naming-profile manifest's profile identity, supported Obligation-First range, byte count, and SHA-256 while retaining the prior verified release timestamp for the unchanged profile bytes.
+- Distinguish AIEL-2023-002's source events: the native June 22, 2023 date is identified as the sanctions opinion and order filing date; the generated federal proceeding uses the exact February 22, 2022 removal date; and the determination now carries the June 22, 2023 issuance date.
+- Preserve AIEL-2023-002's stable identifiers and source-supported sanctions respondents without projecting the AI deployer Party as an unqualified party to the underlying federal action. The record's September 1, 2026 Verified date is unchanged.
+
 ## [0.4.1] - 2026-09-07
 
 ### Changed
@@ -138,7 +150,8 @@ Obligation-First v0.6 adopter, source-rigor, and drift-prevention release. This 
 - URL-policy regression coverage for normalization, bypass attempts, malformed schemes, credentials, encoded and raw control characters, and representative existing corpus URLs.
 - No-dependency URL-policy pipeline eval that runs malformed-source fixtures through the real build and validation scripts in temporary directories.
 
-[Unreleased]: https://github.com/snapsynapse/ai-incident-law/compare/v0.4.1...HEAD
+[Unreleased]: https://github.com/snapsynapse/ai-incident-law/compare/v0.4.2...HEAD
+[0.4.2]: https://github.com/snapsynapse/ai-incident-law/compare/v0.4.1...v0.4.2
 [0.4.1]: https://github.com/snapsynapse/ai-incident-law/compare/v0.4.0...v0.4.1
 [0.4.0]: https://github.com/snapsynapse/ai-incident-law/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/snapsynapse/ai-incident-law/compare/v0.2.1...v0.3.0
