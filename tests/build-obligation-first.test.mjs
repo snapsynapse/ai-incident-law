@@ -104,6 +104,42 @@ test("procedural graph uses distinct Authorities for formerly composite matters"
   assert.equal(neusom.issued_date, "2024-03-08");
 });
 
+test("Mata source projection separates federal removal from sanctions issuance", async () => {
+  const source = JSON.parse(await readFile(path.join(ROOT, "data", "data.json"), "utf8"));
+  const proceedings = JSON.parse(await readFile(path.join(ROOT, "api", "v1", "of", "proceedings.json"), "utf8")).proceedings;
+  const allegations = JSON.parse(await readFile(path.join(ROOT, "api", "v1", "of", "allegations.json"), "utf8")).allegations;
+  const determinations = JSON.parse(await readFile(path.join(ROOT, "api", "v1", "of", "determinations.json"), "utf8")).determinations;
+  const matter = source.datasets.included.records.find(record => record.error_id === "AIEL-2023-002");
+  const proceeding = proceedings.find(record => record.id === "aiel-2023-002-proceeding");
+  const allegation = allegations.find(record => record.id === "aiel-2023-002-allegation");
+  const determination = determinations.find(record => record.id === "aiel-2023-002-determination");
+
+  assert.equal(matter.public_matter_type, "sanctions order");
+  assert.equal(matter.filing_date, "2023-06-22");
+  assert.match(matter.notes_on_resolution, /^The June 22, 2023 Opinion and Order on Sanctions/);
+  assert.match(matter.notes_on_resolution, /indexed filing_date is the sanctions opinion and order filing date/);
+  assert.equal(matter.public_record_link, "https://storage.courtlistener.com/recap/gov.uscourts.nysd.575368/gov.uscourts.nysd.575368.54.0_8.pdf");
+  assert.equal(matter.public_matter_name, "Mata v. Avianca, Inc., No. 22-cv-1461");
+  assert.equal(matter.last_verified_date, "2026-09-01");
+
+  assert.equal(proceeding.filed_date, "2022-02-22");
+  assert.equal(proceeding.filing_date_source, "2022-02-22");
+  assert.equal(proceeding.procedural_stage, "federal-civil-action-after-removal");
+  assert.deepEqual(proceeding.hasDetermination, ["https://aiincidentlaw.org/determination/aiel-2023-002-determination.json"]);
+  assert.equal(proceeding.source, matter.public_record_link);
+  assert.equal(proceeding.source_locator, matter.public_matter_name);
+  assert.equal(proceeding.verified, "2026-09-01");
+
+  assert.equal(allegation.text, matter.error_description);
+  assert.equal(allegation.source, matter.public_record_link);
+  assert.deepEqual(determination.decides, ["https://aiincidentlaw.org/allegation/aiel-2023-002-allegation.json"]);
+  assert.equal(determination.issued_date, "2023-06-22");
+  assert.match(determination.notes, /Peter LoDuca, Steven Schwartz, and Levidow, Levidow & Oberman P\.C\./);
+  assert.equal(determination.source, matter.public_record_link);
+  assert.equal(determination.source_locator, matter.public_matter_name);
+  assert.equal(determination.verified, "2026-09-01");
+});
+
 test("partial filing dates remain source strings without fabricated day precision", async () => {
   const fixture = await mkdtemp(path.join(tmpdir(), "aiel-date-precision-"));
   try {
