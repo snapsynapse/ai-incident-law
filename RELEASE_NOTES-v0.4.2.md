@@ -12,4 +12,4 @@
 - This release does not renew corpus freshness, establish live docket completeness, certify unrelated records, or change the Obligation-First compatibility range.
 
 ## Delivery state
-This is a locally prepared 0.4.2 candidate. It has not been pushed, tagged, released, published to npm or the MCP Registry, or deployed. Those steps require separate final evidence and authority.
+Version 0.4.2 is a prepared release candidate pending publication. Publication and deployment require separate final evidence and authority.
