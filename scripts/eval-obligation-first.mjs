@@ -207,8 +207,14 @@ for (const record of included) {
   if (proceeding && proceeding.id !== `${stem}-proceeding`) fail(`${record.error_id} proceeding id drifted`);
   if (allegation && allegation.id !== `${stem}-allegation`) fail(`${record.error_id} allegation id drifted`);
   const expectedParty = record.deployer ? `https://aiincidentlaw.org/party/${stem}-deployer.json` : null;
-  if (expectedParty && proceeding && !(proceeding.parties || []).includes(expectedParty)) {
-    fail(`${record.error_id} proceeding missing deployer Party`);
+  const sourceProceeding = record.legal_graph?.proceedings?.find(item => item.id === proceeding?.id);
+  const expectedProceedingParties = sourceProceeding && Object.hasOwn(sourceProceeding, "parties")
+    ? stringArray(sourceProceeding.parties).map(id => `https://aiincidentlaw.org/party/${id}.json`)
+    : expectedParty
+      ? [expectedParty]
+      : [];
+  if (proceeding && JSON.stringify(proceeding.parties || []) !== JSON.stringify(expectedProceedingParties)) {
+    fail(`${record.error_id} proceeding Party projection differs from curated source scope`);
   }
   if (expectedParty && allegation && !(allegation.related_to_party || []).includes(expectedParty)) {
     fail(`${record.error_id} allegation missing deployer Party relation`);

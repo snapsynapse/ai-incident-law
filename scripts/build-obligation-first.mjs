@@ -321,6 +321,11 @@ function buildMatterRecords(records) {
       const heardBy = heardByIds.map(graphAuthorityUri);
       const jurisdiction = projectedJurisdiction(record, heardByIds, projection.jurisdiction);
       const projectedDeterminations = stringArray(projection.determination_ids).map(id => graphRecordUri("determination", id));
+      const projectedPartyIds = Object.hasOwn(projection, "parties")
+        ? stringArray(projection.parties)
+        : record.deployer
+          ? [partyId(record)]
+          : [];
       const proceeding = {
         "@context": recordContext({
           filing_date_source: "ail:filingDateSource",
@@ -336,12 +341,12 @@ function buildMatterRecords(records) {
         jurisdiction,
         territorial_scope: projection.territorial_scope || jurisdiction.territorial_scope,
         institutional_scope: projection.institutional_scope || jurisdiction.institutional_scope,
-        parties: record.deployer ? [partyUri(record)] : undefined,
+        parties: projectedPartyIds.length ? projectedPartyIds.map(id => ofUri("party", id)) : undefined,
         hasAllegation: [allegationUri],
         hasDetermination: projectedDeterminations,
         ...provenance(record),
         ai_incident_law_record_id: record.error_id,
-        matter_type: record.public_matter_type,
+        matter_type: projection.matter_type || record.public_matter_type,
         filing_status: record.filing_status,
         procedural_stage: projection.procedural_stage
       };

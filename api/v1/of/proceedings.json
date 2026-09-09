@@ -112,9 +112,6 @@
       "institutional_scope": [
         "U.S. District Court, Southern District of New York"
       ],
-      "parties": [
-        "https://aiincidentlaw.org/party/aiel-2023-002-deployer.json"
-      ],
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2023-002-allegation.json"
       ],
@@ -127,7 +124,7 @@
       "verified": "2026-09-01",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "ai_incident_law_record_id": "AIEL-2023-002",
-      "matter_type": "sanctions order",
+      "matter_type": "federal civil action with ancillary sanctions proceeding",
       "filing_status": "sanctioned",
       "procedural_stage": "federal-civil-action-after-removal"
     },

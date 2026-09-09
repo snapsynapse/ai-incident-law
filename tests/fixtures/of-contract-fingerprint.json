@@ -1878,11 +1878,6 @@
       "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-new-york.json"
     ],
     [
-      "https://aiincidentlaw.org/proceeding/aiel-2023-002-proceeding.json",
-      "parties",
-      "https://aiincidentlaw.org/party/aiel-2023-002-deployer.json"
-    ],
-    [
       "https://aiincidentlaw.org/proceeding/aiel-2023-009-proceeding.json",
       "hasAllegation",
       "https://aiincidentlaw.org/allegation/aiel-2023-009-allegation.json"
@@ -3158,7 +3153,7 @@
       "https://aiincidentlaw.org/party/aiel-2026-068-deployer.json"
     ]
   ],
-  "exact_edges_sha256": "8432e3e1d75bc98bd3b10321d713ac1d29639ea2e3cfdc3846759e01ccefaef0",
+  "exact_edges_sha256": "e5e5d82fbd7245e714b635984dec14da01d64e2173930c75b4f5ad3b4ec5a81d",
   "field_coverage": {
     "of:Allegation": {
       "@context": {
@@ -3617,9 +3612,9 @@
         "present": 5
       },
       "parties": {
-        "missing": 0,
-        "populated": 69,
-        "present": 69
+        "missing": 1,
+        "populated": 68,
+        "present": 68
       },
       "procedural_stage": {
         "missing": 62,
@@ -6186,10 +6181,10 @@
       }
     },
     "parties": {
-      "edges": 69,
-      "sources": 69,
+      "edges": 68,
+      "sources": 68,
       "target_hosts": {
-        "aiincidentlaw.org": 69
+        "aiincidentlaw.org": 68
       }
     },
     "related_to": {

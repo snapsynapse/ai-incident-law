@@ -125,6 +125,8 @@ test("Mata source projection separates federal removal from sanctions issuance",
   assert.equal(proceeding.filed_date, "2022-02-22");
   assert.equal(proceeding.filing_date_source, "2022-02-22");
   assert.equal(proceeding.procedural_stage, "federal-civil-action-after-removal");
+  assert.equal(proceeding.matter_type, "federal civil action with ancillary sanctions proceeding");
+  assert.equal(Object.hasOwn(proceeding, "parties"), false);
   assert.deepEqual(proceeding.hasDetermination, ["https://aiincidentlaw.org/determination/aiel-2023-002-determination.json"]);
   assert.equal(proceeding.source, matter.public_record_link);
   assert.equal(proceeding.source_locator, matter.public_matter_name);
@@ -132,6 +134,7 @@ test("Mata source projection separates federal removal from sanctions issuance",
 
   assert.equal(allegation.text, matter.error_description);
   assert.equal(allegation.source, matter.public_record_link);
+  assert.deepEqual(allegation.related_to_party, ["https://aiincidentlaw.org/party/aiel-2023-002-deployer.json"]);
   assert.deepEqual(determination.decides, ["https://aiincidentlaw.org/allegation/aiel-2023-002-allegation.json"]);
   assert.equal(determination.issued_date, "2023-06-22");
   assert.match(determination.notes, /Peter LoDuca, Steven Schwartz, and Levidow, Levidow & Oberman P\.C\./);

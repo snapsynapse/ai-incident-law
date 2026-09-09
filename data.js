@@ -88,9 +88,11 @@ window.AIEL_DATA = {
                   "u-s-district-court-southern-district-of-new-york"
                 ],
                 "filed_date": "2022-02-22",
+                "parties": [],
                 "determination_ids": [
                   "aiel-2023-002-determination"
                 ],
+                "matter_type": "federal civil action with ancillary sanctions proceeding",
                 "procedural_stage": "federal-civil-action-after-removal"
               }
             ],
