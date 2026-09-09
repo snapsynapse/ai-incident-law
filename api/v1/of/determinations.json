@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/context.jsonld",
-  "generated": "2026-09-02",
+  "generated": "2026-09-09",
   "determinations": [
     {
       "@context": [
@@ -17,7 +17,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -39,21 +42,25 @@
         "https://aiincidentlaw.org/allegation/aiel-2024-001-allegation.json"
       ],
       "disposition": "confirmed",
+      "issued_date": "2024-02-14",
       "remedy": {
         "status": "ordered",
-        "notes": "Tribunal awarded C$650.88 plus interest and fees."
+        "notes": "The tribunal ordered Air Canada to pay C$812.02: C$650.88 in damages, C$36.14 in pre-judgment interest, and C$125 in tribunal fees. It dismissed the remaining claims and allowed post-judgment interest as applicable."
       },
-      "notes": "Tribunal awarded C$650.88 plus interest and fees.",
-      "source": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
+      "notes": "The tribunal ordered Air Canada to pay C$812.02: C$650.88 in damages, C$36.14 in pre-judgment interest, and C$125 in tribunal fees. It dismissed the remaining claims and allowed post-judgment interest as applicable.",
+      "source": "https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do",
       "source_locator": "Moffatt v. Air Canada, 2024 BCCRT 149",
       "source_citation": "2024 BCCRT 149",
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "ai_incident_law_record_id": "AIEL-2024-001",
-      "anchors": [
-        "https://everyailaw.com/obligation-category/transparency.json"
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Human decision pending on whether a chatbot whose technical nature was not provided satisfies the corpus AI-attribution rule.",
+        "The exact proceeding filing date and any current appeal or judicial-review status were not established."
       ],
+      "ai_incident_law_record_id": "AIEL-2024-001",
       "neutral_citation": "2024 BCCRT 149",
       "describesSameEntityAs": [
         "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html"
@@ -74,7 +81,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -107,6 +117,8 @@
       "evidence_type": "primary record",
       "verified": "2026-09-01",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2023-002",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -127,7 +139,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -159,6 +174,8 @@
       "evidence_type": "primary record",
       "verified": "2026-09-01",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2024-003",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -179,7 +196,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -211,6 +231,8 @@
       "evidence_type": "reliable reporting",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2025-004",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -231,7 +253,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -263,6 +288,8 @@
       "evidence_type": "primary record",
       "verified": "2026-06-02",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-005",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -283,7 +310,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -315,6 +345,8 @@
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2025-006",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -335,7 +367,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -367,6 +402,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-25",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2025-007",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -387,7 +424,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -420,6 +460,8 @@
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2024-008",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -440,7 +482,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -473,6 +518,8 @@
       "evidence_type": "official statement",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2023-009",
       "anchors": [
         "https://everyailaw.com/obligation-category/bias-prevention.json"
@@ -493,7 +540,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -525,6 +575,8 @@
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2024-010",
       "anchors": [
         "https://everyailaw.com/obligation-category/bias-prevention.json"
@@ -545,7 +597,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -578,6 +633,8 @@
       "evidence_type": "official statement",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2022-011",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json",
@@ -600,7 +657,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -632,6 +692,8 @@
       "evidence_type": "primary record",
       "verified": "2026-09-01",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2017-012",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json",
@@ -653,7 +715,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -685,6 +750,8 @@
       "evidence_type": "official statement",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2023-013",
       "anchors": [
         "https://everyailaw.com/obligation-category/bias-prevention.json"
@@ -705,7 +772,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -737,6 +807,8 @@
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2024-014",
       "anchors": [
         "https://everyailaw.com/obligation-category/bias-prevention.json",
@@ -758,7 +830,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -790,6 +865,8 @@
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2025-016",
       "anchors": [
         "https://everyailaw.com/obligation-category/bias-prevention.json",
@@ -811,7 +888,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -844,6 +924,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-021",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -865,7 +947,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -898,6 +983,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-022",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -919,7 +1006,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -951,6 +1041,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-023",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -971,7 +1063,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -1003,6 +1098,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-024",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -1023,7 +1120,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -1055,6 +1155,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-025",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -1075,7 +1177,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -1107,6 +1212,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-026",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -1127,7 +1234,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -1159,6 +1269,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-027",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -1179,7 +1291,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -1211,6 +1326,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-028",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -1231,7 +1348,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -1263,6 +1383,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-029",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -1283,7 +1405,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -1316,6 +1441,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-030",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -1337,7 +1464,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -1369,6 +1499,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-031",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -1389,7 +1521,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -1421,6 +1556,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-032",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -1441,7 +1578,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -1473,6 +1613,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-033",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -1493,7 +1635,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -1525,6 +1670,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-034",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -1545,7 +1692,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -1578,6 +1728,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-035",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -1599,7 +1751,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -1631,6 +1786,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-25",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-036",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -1651,7 +1808,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -1683,6 +1843,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-037",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -1703,7 +1865,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -1735,6 +1900,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-038",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -1755,7 +1922,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -1787,6 +1957,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-040",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -1807,7 +1979,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -1839,6 +2014,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-041",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -1859,7 +2036,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -1891,6 +2071,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-042",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -1911,7 +2093,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -1943,6 +2128,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-043",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -1963,7 +2150,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -1995,6 +2185,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-044",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2015,7 +2207,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -2047,6 +2242,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-045",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2067,7 +2264,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -2099,6 +2299,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-046",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2119,7 +2321,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -2151,6 +2356,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-047",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2171,7 +2378,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -2203,6 +2413,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-048",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2223,7 +2435,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -2255,6 +2470,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-049",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2275,7 +2492,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -2307,6 +2527,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-050",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2327,7 +2549,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -2359,6 +2584,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-051",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2379,7 +2606,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -2411,6 +2641,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-052",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2431,7 +2663,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -2463,6 +2698,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-053",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2483,7 +2720,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -2512,6 +2752,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-054",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2532,7 +2774,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -2564,6 +2809,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-055",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2584,7 +2831,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -2616,6 +2866,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-056",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2636,7 +2888,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -2668,6 +2923,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-057",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2688,7 +2945,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -2720,6 +2980,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-25",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-058",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2740,7 +3002,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -2772,6 +3037,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-25",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-059",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2792,7 +3059,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -2824,6 +3094,8 @@
       "evidence_type": "primary record",
       "verified": "2026-08-16",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-060",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2844,7 +3116,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -2876,6 +3151,8 @@
       "evidence_type": "primary record",
       "verified": "2026-08-16",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-061",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2896,7 +3173,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -2928,6 +3208,8 @@
       "evidence_type": "primary record",
       "verified": "2026-08-19",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-062",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2948,7 +3230,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -2977,6 +3262,8 @@
       "evidence_type": "primary record",
       "verified": "2026-08-16",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-063",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2997,7 +3284,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -3029,6 +3319,8 @@
       "evidence_type": "primary record",
       "verified": "2026-08-19",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-064"
     },
     {
@@ -3046,7 +3338,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -3075,6 +3370,8 @@
       "evidence_type": "primary record",
       "verified": "2026-08-19",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-065"
     },
     {
@@ -3092,7 +3389,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -3124,6 +3424,8 @@
       "evidence_type": "primary record",
       "verified": "2026-09-02",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-066",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -3144,7 +3446,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -3176,6 +3481,8 @@
       "evidence_type": "primary record",
       "verified": "2026-09-02",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-067",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -3196,7 +3503,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Determination",
@@ -3228,6 +3538,8 @@
       "evidence_type": "primary record",
       "verified": "2026-09-02",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-filing-status-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-068",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"

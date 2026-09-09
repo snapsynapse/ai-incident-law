@@ -2,3 +2,5 @@
 
 data.js linguist-generated=true
 
+# Retained source evidence preserves publisher bytes, including whitespace.
+data/admission/raw/** -text -whitespace

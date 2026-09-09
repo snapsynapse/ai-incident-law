@@ -142,6 +142,10 @@ Supported arrays:
 
 When `determinations` is present, including as an empty array, it is authoritative. A filed complaint uses `"determinations": []`; the generator must not derive a `partial` disposition from the display status. Authority names must identify one organization and may not use semicolons to combine courts, agencies, or procedural history.
 
+Every generated entity declares `projection_basis`, which identifies the actual path that emitted it. Values distinguish curated legal-graph projections, legacy filing-status or record inference, legacy jurisdiction inference, native record projection, and curated retirement. This label describes production logic, not source quality.
+
+Every generated entity also declares `admission_status`. The frozen pre-contract corpus is `legacy-unreviewed`. A valid receipt changes the label to `source-consistency-reviewed-changes`, which covers only the changed units named in that receipt. A nonempty receipt `unresolved` list travels separately as `source_review_unresolved`; it is absent for legacy records because their review questions were not inventoried. The existing `canonical_source_conflicted` field describes the authority or source material contradicted by the incident and is not a source-review flag.
+
 Example:
 
 ```json
@@ -157,6 +161,7 @@ Anchor selection policy: add anchors only when the public record supports the re
 ## Editing rules
 
 - Edit [data/data.json](/Users/snap/Git/ai-incident-law/data/data.json), not [data.js](/Users/snap/Git/ai-incident-law/data.js)
+- Review [ops/SOURCE-ADMISSION.md](/Users/snap/Git/ai-incident-law/ops/SOURCE-ADMISSION.md) and run `npm run check:admission` for every new or changed native record
 - Run `npm run build` after changes
 - Run `npm run validate:of` when an Obligation-First checkout is available beside this repo or via `OBLIGATION_FIRST_DIR`
 - Keep identifiers stable once published

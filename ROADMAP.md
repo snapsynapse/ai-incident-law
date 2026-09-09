@@ -44,16 +44,13 @@ Exclusion rules for adjacent controversy remain as they were in INTENT.md "Out o
 
 #### Outstanding source gaps
 
-Tracked here rather than in maintainer tooling so they survive without it. Verified 2026-09-01.
+Tracked here rather than in maintainer tooling so they survive without it. Verified 2026-09-09.
 
-**Aggregator-primary backlog (1 record).** This record cites an aggregator in `public_record_link`,
-which the sourcing rule bars. `npm run test:admission-policy` holds them as a named baseline
-that can shrink but not grow, so a new one fails the build:
+**Aggregator-primary backlog (0 records).** No included record cites an aggregator in
+`public_record_link`. `npm run test:admission-policy` holds that empty baseline, so a new
+aggregator-primary record fails the build.
 
-| Record | Aggregator | Route to an original |
-|---|---|---|
-| AIEL-2024-001 | canlii.org | Needs a CanLII API key |
-
+On 2026-09-09, AIEL-2024-001 moved to the issuing tribunal's retained final-decision PDF.
 On 2026-09-01, AIEL-2023-002 moved to its PDF-verified RECAP sanctions order,
 AIEL-2024-003 moved to the authenticated GovInfo copy supplied by the Second Circuit,
 and AIEL-2017-012 moved to the Arkansas Judiciary's official November 2017 appellate update.
@@ -63,9 +60,9 @@ tracker as a source, in any field. A regression test keeps it that way.
 
 **Blocked by access, not by effort.** Two are outside what automated retrieval can reach:
 
-- A free **CanLII API key** would unblock AIEL-2024-001, AIEL-GLOB-015, AIEL-GLOB-017 and
-  AIEL-GLOB-019, and every future Canadian record. CanLII serves HTTP 403 behind a CAPTCHA
-  to all scripted access.
+- A free **CanLII API key** would unblock AIEL-GLOB-015, AIEL-GLOB-017 and AIEL-GLOB-019,
+  and future Canadian records without an accessible issuing-body copy. CanLII serves HTTP
+  403 behind a CAPTCHA to all scripted access.
 - **SAFLII** serves HTTP 403 on every path, so South African matters are browser-only. This
   alone holds AIEL-GLOB-018 and the M J Molawa candidate. There is no API alternative.
 

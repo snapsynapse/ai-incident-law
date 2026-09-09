@@ -14,6 +14,9 @@
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
       "reliance_or_harm": "ail:relianceOrHarm",
+      "projection_basis": "ail:projectionBasis",
+      "admission_status": "ail:admissionStatus",
+      "source_review_unresolved": "ail:sourceReviewUnresolved",
       "filing_date_source": "ail:filingDateSource",
       "procedural_stage": "ail:proceduralStage"
     }
@@ -54,6 +57,8 @@
   "evidence_type": "official statement",
   "verified": "2026-04-22",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "projection_basis": "curated-legal-graph",
+  "admission_status": "legacy-unreviewed",
   "ai_incident_law_record_id": "AIEL-2022-011",
   "matter_type": "class action / state constitutional tort",
   "filing_status": "settled",

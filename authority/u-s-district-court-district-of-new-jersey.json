@@ -13,7 +13,10 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "projection_basis": "ail:projectionBasis",
+      "admission_status": "ail:admissionStatus",
+      "source_review_unresolved": "ail:sourceReviewUnresolved"
     }
   ],
   "@type": "of:Authority",
@@ -40,9 +43,14 @@
   ],
   "source": "https://aclu.org/cases/parks-v-mccormac",
   "source_locator": "Parks v. McCormac, Civil No. 3:22-cv-05765",
-  "evidence_type": "primary record",
+  "evidence_type": "party case page",
   "verified": "2026-04-22",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "projection_basis": "legacy-jurisdiction-inference",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "The current court docket status and an issuing-court source remain unreviewed."
+  ],
   "sameAs": [
     "https://wikidata.org/entity/Q775899"
   ]

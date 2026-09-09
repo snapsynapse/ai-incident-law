@@ -97,10 +97,12 @@ test("public discovery and docs do not use www URLs", () => {
   }
 });
 
-test("package, registry, discovery, docs, and MCP initialize metadata stay aligned", () => {
+test("source candidate identity and published install identity remain explicit", () => {
   const pkg = readJson("package.json");
   const registry = readJson("server.json");
   const discovery = readJson(".well-known/mcp.json");
+  const publication = readJson("design/publication-state.json");
+  const snapshot = readJson("design/PUBLISHED-MCP-0.4.1.snapshot.json");
   const localMcp = readJson("mcp.json");
   const readme = readText("README.md");
   const [initialize] = callMcp([{ jsonrpc: "2.0", id: 1, method: "initialize", params: {} }]);
@@ -112,8 +114,15 @@ test("package, registry, discovery, docs, and MCP initialize metadata stay align
   assert.equal(registry.packages[0].identifier, pkg.name);
   assert.equal(registry.packages[0].version, pkg.version);
   assert.equal(discovery.package.name, pkg.name);
-  assert.equal(discovery.package.install_command, `npx -y ${pkg.name}`);
-  assert.match(readme, /"args": \["-y", "ai-incident-law"\]/);
+  assert.equal(publication.source_candidate.version, pkg.version);
+  assert.equal(publication.source_candidate.status, "unpublished-source");
+  assert.equal(discovery.hosted_source.version, pkg.version);
+  assert.equal(discovery.hosted_source.status, "unpublished-source");
+  assert.equal(discovery.package.published_version, publication.observations.npm.version);
+  assert.equal(discovery.package.install_command, `npx -y ${pkg.name}@${publication.observations.npm.version}`);
+  assert.equal(discovery.package.artifact_snapshot, publication.observations.npm.artifact_snapshot_path);
+  assert.deepEqual(discovery.local_server.tools, snapshot.mcp.tools.map(tool => tool.name));
+  assert.match(readme, /"args": \["-y", "ai-incident-law@0\.4\.1"\]/);
   assert.equal(localMcp.mcpServers["ai-incident-law"].args.join(" "), "scripts/mcp-server.js");
   assert.equal(initialize.result.serverInfo.name, pkg.name);
   assert.equal(initialize.result.serverInfo.version, pkg.version);
@@ -133,9 +142,7 @@ test("package, registry, discovery, docs, and MCP initialize metadata stay align
   assert.equal(discoverInfo.name, pkg.name);
   assert.equal(discoverInfo.version, pkg.version);
 
-  const advertised = [...discovery.local_server.tools].sort();
-  const actual = toolList.result.tools.map(tool => tool.name).sort();
-  assert.deepEqual(advertised, actual);
+  assert.equal(toolList.result.tools.length, 8);
 });
 
 test("public HTML and docs link surface stays canonical and internally resolvable", () => {

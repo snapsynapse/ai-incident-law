@@ -12,9 +12,12 @@ jobs:
     env:
       CHECK_OF_REQUIRED: "1"
       OBLIGATION_FIRST_DIR: ${{ github.workspace }}/obligation-first
+      SOURCE_ADMISSION_BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/checkout@v4
         with:

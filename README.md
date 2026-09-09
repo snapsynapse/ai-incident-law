@@ -29,13 +29,15 @@ Configure your MCP-aware agent client (Claude Desktop, Cursor, etc.):
   "mcpServers": {
     "ai-incident-law": {
       "command": "npx",
-      "args": ["-y", "ai-incident-law"]
+      "args": ["-y", "ai-incident-law@0.4.1"]
     }
   }
 }
 ```
 
-This pulls the [ai-incident-law](https://npmjs.com/package/ai-incident-law) npm package on first run and exposes eight tools for querying the corpus by case attributes, anchored obligations, and verification freshness. The server is dual-era: it speaks MCP spec revision 2026-07-28 (stateless core, `server/discover`) and the legacy 2024-11-05 handshake in the same process. See [docs/legal-graph.html](https://aiincidentlaw.org/docs/legal-graph.html) for a cross-graph example pairing this with the EveryAILaw MCP.
+This exact-pins the verified published [ai-incident-law 0.4.1](https://npmjs.com/package/ai-incident-law/v/0.4.1) artifact and exposes its eight recorded tools for querying the corpus by case attributes, anchored obligations, and verification freshness. The server is dual-era: it speaks MCP spec revision 2026-07-28 (stateless core, `server/discover`) and the legacy 2024-11-05 handshake in the same process. See [docs/legal-graph.html](https://aiincidentlaw.org/docs/legal-graph.html) for a cross-graph example pairing this with the EveryAILaw MCP.
+
+The repository and hosted source/data surfaces are the unpublished 0.4.2 source candidate. Their maintainer instructions apply to source work and do not describe an installable 0.4.2 package. [Publication state](design/publication-state.json) records this boundary and the exact published capability snapshot.
 
 ## Part of the PAICE legal graph
 

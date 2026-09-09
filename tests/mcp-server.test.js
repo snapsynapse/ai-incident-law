@@ -152,8 +152,8 @@ test("MCP accepts one valid fixture for every advertised tool", () => {
 test("MCP exposes obligation anchors through search, source records, and OF determinations", () => {
   const responses = callMcp([
     toolCall(1, "search_records", { query: "human-oversight", dataset: "included", limit: 5 }),
-    toolCall(2, "get_record", { id: "AIEL-2024-001" }),
-    toolCall(3, "get_obligation_first_record", { kind: "determinations", id: "aiel-2024-001-determination" })
+    toolCall(2, "get_record", { id: "AIEL-2023-002" }),
+    toolCall(3, "get_obligation_first_record", { kind: "determinations", id: "aiel-2023-002-determination" })
   ]);
 
   const search = payload(responses[0]);
@@ -162,7 +162,7 @@ test("MCP exposes obligation anchors through search, source records, and OF dete
 
   const sourceRecord = payload(responses[1]).data;
   assert.deepEqual(sourceRecord.obligation_first_anchors, [
-    "https://everyailaw.com/obligation-category/transparency.json"
+    "https://everyailaw.com/obligation-category/human-oversight.json"
   ]);
 
   const determination = payload(responses[2]).data;

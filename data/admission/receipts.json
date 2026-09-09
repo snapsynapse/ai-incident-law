@@ -1,0 +1,579 @@
+{
+  "version": 1,
+  "records": {
+    "included/AIEL-2024-001": {
+      "baseline_sha256": "086f8e21eb319851f98d0678423ae38f1188212c18415cc23fdc6e352d1400f2",
+      "record_sha256": "9360df5060a9ebee5e6c76d65bf673544f654bff09101e0394cf6f3a8be3012b",
+      "evidence": {
+        "bccrt-final-decision": {
+          "path": "data/admission/raw/aiel-2024-001/bccrt-final-decision.txt",
+          "official_url": "https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do",
+          "sha256": "33f5c6f1805fdde9e97c0758e25bb69bafe4d615cc056ae26bf6a2bf7b32521a",
+          "document_id": "SC-2023-005609",
+          "document_title": "Moffatt v. Air Canada, 2024 BCCRT 149",
+          "issuing_body": "British Columbia Civil Resolution Tribunal",
+          "document_type": "final decision",
+          "version": "Issued 2024-02-14; public PDF retrieved 2026-09-09",
+          "locator": "Decision metadata and paragraphs 1-4, 14-22, 24-32, and 40-47",
+          "excerpt": "28. I find Air Canada did not take reasonable care to ensure its chatbot was accurate.",
+          "identity_excerpts": [
+            "Moffatt v. Air Canada, 2024 BCCRT 149",
+            "SC-2023-005609"
+          ],
+          "ai_attribution_excerpt": "Air Canada did not provide any information about the nature of its",
+          "acquisition": "primary_retrieval",
+          "retrieval": {
+            "http_status": 200,
+            "retrieved_at": "2026-09-09T16:46:14Z",
+            "content_type": "application/pdf",
+            "final_url": "https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do",
+            "original_path": "data/admission/raw/aiel-2024-001/bccrt-final-decision.pdf",
+            "original_sha256": "4dd97ce46d0d3f858488dd5ddfac85ec6fb993fcf7ba85567bd2875548f7e394"
+          }
+        }
+      },
+      "units": {
+        "field:ai_system_name": {
+          "before_sha256": "c9a9e61955b78cfe39a93cead23db93cc5af14acd8aa63261eb0e726ba1b292a",
+          "after_sha256": "bc803e25f6bc90bd5d664fe4ef9c34e76e02f6fc04a8ff386a340d9f60daaf77",
+          "candidate_content": "Air Canada support chatbot (technical nature not established in the decision)",
+          "reason": "Qualifies the chatbot description to match the decision's explicit limit on its technical nature.",
+          "qualifications": {
+            "scope": "Only this changed AIEL-2024-001 unit was checked against the named final decision.",
+            "exceptions": "No AI architecture, filing date, appellate status, statutory breach, corpus-wide accuracy, or unchanged legacy field is certified.",
+            "time": "The decision was issued 2024-02-14; source transport was observed 2026-09-09 without renewing Verified or Checked freshness."
+          },
+          "evidence": [
+            "bccrt-final-decision"
+          ]
+        },
+        "field:error_description": {
+          "before_sha256": "72635fa72ee037ece89d9e1b89ccf7878c152c95789d834ee0ecf20cb3303896",
+          "after_sha256": "bb771d67f293913c5dd00e0367d87520af86d6ce1fce10671f7ce8ddc79b5af7",
+          "candidate_content": "The decision records that Air Canada's support chatbot told a passenger they could request a reduced bereavement fare retroactively within 90 days of ticket issuance. The linked Bereavement travel page said the policy did not apply after travel was completed. The tribunal found Air Canada responsible for information on its website and liable for negligent misrepresentation; the decision does not establish the chatbot's technical architecture.",
+          "reason": "Binds the incident summary to the chatbot response, linked policy, tribunal characterization, and decision scope.",
+          "qualifications": {
+            "scope": "Only this changed AIEL-2024-001 unit was checked against the named final decision.",
+            "exceptions": "No AI architecture, filing date, appellate status, statutory breach, corpus-wide accuracy, or unchanged legacy field is certified.",
+            "time": "The decision was issued 2024-02-14; source transport was observed 2026-09-09 without renewing Verified or Checked freshness."
+          },
+          "evidence": [
+            "bccrt-final-decision"
+          ]
+        },
+        "field:filing_date": {
+          "before_sha256": "1b662f880083557086dcc0ed88287685dfd1e5bff32784b8cdf5672bf9a5980a",
+          "after_sha256": null,
+          "candidate_content": null,
+          "reason": "Removes the decision issue date from a field emitted as the proceeding filing date.",
+          "qualifications": {
+            "scope": "Only this changed AIEL-2024-001 unit was checked against the named final decision.",
+            "exceptions": "No AI architecture, filing date, appellate status, statutory breach, corpus-wide accuracy, or unchanged legacy field is certified.",
+            "time": "The decision was issued 2024-02-14; source transport was observed 2026-09-09 without renewing Verified or Checked freshness."
+          },
+          "evidence": [
+            "bccrt-final-decision"
+          ]
+        },
+        "field:mitigation_gap": {
+          "before_sha256": "4d78d9cd5ff980fcecfedde7fb1947ff154e7a8d2de844a778a8e288fd83261a",
+          "after_sha256": "9486b30df2466c77e6b2dd3e3ce158307b21b1e5abd3ae79b9cc41118c5a628e",
+          "candidate_content": "The tribunal found that Air Canada did not take reasonable care to ensure its chatbot was accurate. The decision does not identify the model architecture, technical guardrails, or escalation controls.",
+          "reason": "Replaces unsupported technical-control and escalation claims with the tribunal's bounded accuracy finding.",
+          "qualifications": {
+            "scope": "Only this changed AIEL-2024-001 unit was checked against the named final decision.",
+            "exceptions": "No AI architecture, filing date, appellate status, statutory breach, corpus-wide accuracy, or unchanged legacy field is certified.",
+            "time": "The decision was issued 2024-02-14; source transport was observed 2026-09-09 without renewing Verified or Checked freshness."
+          },
+          "evidence": [
+            "bccrt-final-decision"
+          ]
+        },
+        "field:needs_review": {
+          "before_sha256": "04a06452677210a3cdaec376fd5ebbca1714cb7af9e62bf5cce1644310a9086a",
+          "after_sha256": "6c76a9331e7f5ff9db2754d119a61395717be0c0877d0d8bd462197dff961e4c",
+          "candidate_content": "yes",
+          "reason": "Keeps unresolved AI-attribution and procedural-currentness questions visible.",
+          "qualifications": {
+            "scope": "Only this changed AIEL-2024-001 unit was checked against the named final decision.",
+            "exceptions": "No AI architecture, filing date, appellate status, statutory breach, corpus-wide accuracy, or unchanged legacy field is certified.",
+            "time": "The decision was issued 2024-02-14; source transport was observed 2026-09-09 without renewing Verified or Checked freshness."
+          },
+          "evidence": [
+            "bccrt-final-decision"
+          ]
+        },
+        "field:notes_on_resolution": {
+          "before_sha256": "8253c3311780649afc7b726320d777641cf342233ca8722f1d7ecd42db886b94",
+          "after_sha256": "1ec9a17178af4d84a9452a50adea343a17aa00a4a5825e9810850119e43b6591",
+          "candidate_content": "The tribunal ordered Air Canada to pay C$812.02: C$650.88 in damages, C$36.14 in pre-judgment interest, and C$125 in tribunal fees. It dismissed the remaining claims and allowed post-judgment interest as applicable.",
+          "reason": "Records the exact monetary order components and remaining-claims disposition.",
+          "qualifications": {
+            "scope": "Only this changed AIEL-2024-001 unit was checked against the named final decision.",
+            "exceptions": "No AI architecture, filing date, appellate status, statutory breach, corpus-wide accuracy, or unchanged legacy field is certified.",
+            "time": "The decision was issued 2024-02-14; source transport was observed 2026-09-09 without renewing Verified or Checked freshness."
+          },
+          "evidence": [
+            "bccrt-final-decision"
+          ]
+        },
+        "field:obligation_first_anchors": {
+          "before_sha256": "1dd842793e10f2e91474ca75f2e4a5bb2dd2c6c707bddba429fce31e1bec7745",
+          "after_sha256": null,
+          "candidate_content": null,
+          "reason": "Removes a transparency-category edge that the decision does not establish; no statutory replacement is inferred.",
+          "qualifications": {
+            "scope": "Only this changed AIEL-2024-001 unit was checked against the named final decision.",
+            "exceptions": "No AI architecture, filing date, appellate status, statutory breach, corpus-wide accuracy, or unchanged legacy field is certified.",
+            "time": "The decision was issued 2024-02-14; source transport was observed 2026-09-09 without renewing Verified or Checked freshness."
+          },
+          "evidence": [
+            "bccrt-final-decision"
+          ]
+        },
+        "field:public_record_link": {
+          "before_sha256": "6e1554c724d0cd9b83242f833180253e2128abf489de4718727fcb50afd738b0",
+          "after_sha256": "15d8fc81b97f93a47f0fa46149eb601f660deb4552c9b9fed499288c26dd3d9e",
+          "candidate_content": "https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do",
+          "reason": "Replaces the aggregator with the issuing tribunal's exact decision PDF.",
+          "qualifications": {
+            "scope": "Only this changed AIEL-2024-001 unit was checked against the named final decision.",
+            "exceptions": "No AI architecture, filing date, appellate status, statutory breach, corpus-wide accuracy, or unchanged legacy field is certified.",
+            "time": "The decision was issued 2024-02-14; source transport was observed 2026-09-09 without renewing Verified or Checked freshness."
+          },
+          "evidence": [
+            "bccrt-final-decision"
+          ]
+        },
+        "field:reliance_or_harm": {
+          "before_sha256": "619da8407a252af2406e7ebdaefcfd0c083f28d39a4799db9b0ba3ed1430e454",
+          "after_sha256": "96cce74798cf672b999fbebb21e048a53b8bf3d81cf30a3440384183c56ce037",
+          "candidate_content": "The tribunal accepted that the passenger reasonably relied on the chatbot information, purchased two flights, and suffered C$650.88 in damages.",
+          "reason": "States the reliance finding and damages amount without merging interest and fees into damages.",
+          "qualifications": {
+            "scope": "Only this changed AIEL-2024-001 unit was checked against the named final decision.",
+            "exceptions": "No AI architecture, filing date, appellate status, statutory breach, corpus-wide accuracy, or unchanged legacy field is certified.",
+            "time": "The decision was issued 2024-02-14; source transport was observed 2026-09-09 without renewing Verified or Checked freshness."
+          },
+          "evidence": [
+            "bccrt-final-decision"
+          ]
+        },
+        "field:secondary_source_links": {
+          "before_sha256": "d6bf1b5218fa5b02316ba270a3f9e4157d21e3e6bb6442fe59fc51659820b122",
+          "after_sha256": "7bc55b30be87be7509e46092e0eea1a9a87a5e91cd0b83d417dd7277fc3fe672",
+          "candidate_content": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html; https://dentons.com/insights/alerts/2024/february/29/air-canada-liable-for-negligent-misrepresentation-by-chatbot-on-website; https://canliiconnects.org/en/commentaries/93547",
+          "reason": "Retains CanLII as a secondary mirror after replacing the primary URL.",
+          "qualifications": {
+            "scope": "Only this changed AIEL-2024-001 unit was checked against the named final decision.",
+            "exceptions": "No AI architecture, filing date, appellate status, statutory breach, corpus-wide accuracy, or unchanged legacy field is certified.",
+            "time": "The decision was issued 2024-02-14; source transport was observed 2026-09-09 without renewing Verified or Checked freshness."
+          },
+          "evidence": [
+            "bccrt-final-decision"
+          ]
+        },
+        "field:legal_graph": {
+          "before_sha256": null,
+          "after_sha256": "b9f81edd053ea50f44936a328e014006f0dc7369a16ff5c754178fb768f46745",
+          "candidate_content": {
+            "proceedings": [
+              {
+                "id": "aiel-2024-001-proceeding",
+                "heard_by": [
+                  "british-columbia-civil-resolution-tribunal"
+                ],
+                "parties": [
+                  "aiel-2024-001-deployer"
+                ],
+                "determination_ids": [
+                  "aiel-2024-001-determination"
+                ],
+                "matter_type": "small claims tribunal proceeding",
+                "procedural_stage": "final-decision-issued"
+              }
+            ],
+            "determinations": [
+              {
+                "id": "aiel-2024-001-determination",
+                "issued_by": [
+                  "british-columbia-civil-resolution-tribunal"
+                ],
+                "issued_date": "2024-02-14",
+                "disposition": "confirmed"
+              }
+            ]
+          },
+          "reason": "Curates the preserved proceeding and determination IDs so the issue date belongs only to the Determination.",
+          "qualifications": {
+            "scope": "Only this changed AIEL-2024-001 unit was checked against the named final decision.",
+            "exceptions": "No AI architecture, filing date, appellate status, statutory breach, corpus-wide accuracy, or unchanged legacy field is certified.",
+            "time": "The decision was issued 2024-02-14; source transport was observed 2026-09-09 without renewing Verified or Checked freshness."
+          },
+          "evidence": [
+            "bccrt-final-decision"
+          ]
+        }
+      },
+      "unresolved": [
+        "Human decision pending on whether a chatbot whose technical nature was not provided satisfies the corpus AI-attribution rule.",
+        "The exact proceeding filing date and any current appeal or judicial-review status were not established."
+      ],
+      "review": {
+        "actor": "codex:/root/ail_preflight",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Source-consistency review of the approved AIEL-2024-001 source, date, remedy, technical-claim, review-state, and graph corrections only.",
+        "reviewed_at": "2026-09-09T17:08:25Z",
+        "packet_sha256": "e62bc851d8aad7c9a07cf563df08a996f586113ff22d12e824a2cc171ff3d513"
+      }
+    },
+    "included/AIEL-2024-015": {
+      "baseline_sha256": "804f2c0187a9ed5863c268d7c123eef5360ad6c7117de042a012cd227d1892f7",
+      "record_sha256": "bc9ee35adf5a4b71994e9e150cad36a625fc76f1b0895ab0203c188abef0f0c4",
+      "evidence": {
+        "aclu-party-case-page": {
+          "path": "data/admission/raw/aiel-2024-015/aclu-case-page.html",
+          "official_url": "https://aclu.org/cases/parks-v-mccormac",
+          "sha256": "71cc3e60facfd2ea1eb7c1eec3a58b8799a5e3d220f44d5efc04b77d830c8521",
+          "document_id": "Parks v. McCormac",
+          "document_title": "Parks v. McCormac | American Civil Liberties Union",
+          "issuing_body": "American Civil Liberties Union",
+          "document_type": "party case page",
+          "source_role": "party case page",
+          "version": "Public page retrieved 2026-09-09",
+          "locator": "HTML title, publisher metadata, status label, and case description",
+          "excerpt": "Parks v. McCormac | American Civil Liberties Union",
+          "identity_excerpts": [
+            "Parks v. McCormac",
+            "American Civil Liberties Union"
+          ],
+          "acquisition": "primary_retrieval",
+          "retrieval": {
+            "http_status": 200,
+            "retrieved_at": "2026-09-09T17:32:35Z",
+            "content_type": "text/html; charset=UTF-8",
+            "final_url": "https://www.aclu.org/cases/parks-v-mccormac",
+            "original_path": "data/admission/raw/aiel-2024-015/aclu-case-page.html",
+            "original_sha256": "71cc3e60facfd2ea1eb7c1eec3a58b8799a5e3d220f44d5efc04b77d830c8521"
+          }
+        }
+      },
+      "units": {
+        "field:source_quality": {
+          "before_sha256": "8b60775068860bb40eab0cb04c57db849f6cd6b04a287c8a959c85b1cca20500",
+          "after_sha256": "482c30cc132c18759575a36ed76560d6f2aae80b941dd588c63f30087580c1c5",
+          "candidate_content": "party case page",
+          "reason": "Corrects the source role from a primary court record to the ACLU's party/amicus case page.",
+          "qualifications": {
+            "scope": "Only the named changed unit was checked against the retained evidence in this packet.",
+            "exceptions": "No unchanged legacy field, legal entailment, exhaustive discovery, authenticated human approval, or unreviewed current status is certified.",
+            "time": "The source was retrieved on 2026-09-09; Checked or Verified meaning is changed only where the reviewed unit explicitly says so."
+          },
+          "evidence": [
+            "aclu-party-case-page"
+          ]
+        }
+      },
+      "unresolved": [
+        "The current court docket status and an issuing-court source remain unreviewed."
+      ],
+      "review": {
+        "actor": "codex:/root/ail_preflight",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Source-role correction for AIEL-2024-015 only; no allegation, attribution, disposition, or freshness review.",
+        "reviewed_at": "2026-09-09T17:50:07.303Z",
+        "packet_sha256": "b61aadebc5bd435844916e9eb11f9048d6ccec360da22ef44f99b2ddf4d546fb"
+      }
+    },
+    "included/AIEL-2024-017": {
+      "baseline_sha256": "3ca358ccd051bfdfe2fd972b6648b564da2c2790d3b9358303cf711f5c40d2f7",
+      "record_sha256": "e55fa5d07ec932b96ffd2520c3a2bb3f4a27c410afd3ccebeb9deaf396d7d943",
+      "evidence": {
+        "media-hosted-state-petition": {
+          "path": "data/admission/raw/aiel-2024-017/media-hosted-petition.txt",
+          "official_url": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+          "sha256": "56b51ba8d9801098a1587bc1d068cf333bed742071ff0a36c48fd98db636c4d1",
+          "document_id": "Harris County envelope 83537937",
+          "document_title": "Harvey Eugene Murphy Jr. v. EssilorLuxottica USA Inc. et al., Plaintiff's Original Petition",
+          "issuing_body": "Plaintiff filing in Harris County District Court",
+          "document_type": "media-hosted pleading copy",
+          "source_role": "media-hosted pleading copy",
+          "version": "Filed 2024-01-18; media copy retrieved 2026-09-09",
+          "locator": "File stamp, caption, title, and introductory allegations",
+          "excerpt": "PLAINTIFF’S ORIGINAL PETITION",
+          "identity_excerpts": [
+            "HARVEY EUGENE MURPHY JR.",
+            "ESSILORLUXOTTICA USA INC."
+          ],
+          "acquisition": "primary_retrieval",
+          "retrieval": {
+            "http_status": 200,
+            "retrieved_at": "2026-09-09T17:32:35Z",
+            "content_type": "application/pdf",
+            "final_url": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+            "original_path": "data/admission/raw/aiel-2024-017/media-hosted-petition.pdf",
+            "original_sha256": "61d048acfad05c951c67c2a8f84e1e6bfde087661d4f077d064eb81882836f9f"
+          }
+        }
+      },
+      "units": {
+        "field:source_quality": {
+          "before_sha256": "8b60775068860bb40eab0cb04c57db849f6cd6b04a287c8a959c85b1cca20500",
+          "after_sha256": "77e6483003b457d0c27e07edcee93666991bb8dce1aeeeb7642438358e63a452",
+          "candidate_content": "media-hosted pleading copy",
+          "reason": "Corrects the source role from a primary court record to a pleading copy hosted by a media publisher.",
+          "qualifications": {
+            "scope": "Only the named changed unit was checked against the retained evidence in this packet.",
+            "exceptions": "No unchanged legacy field, legal entailment, exhaustive discovery, authenticated human approval, or unreviewed current status is certified.",
+            "time": "The source was retrieved on 2026-09-09; Checked or Verified meaning is changed only where the reviewed unit explicitly says so."
+          },
+          "evidence": [
+            "media-hosted-state-petition"
+          ]
+        }
+      },
+      "unresolved": [
+        "An issuing-court copy and the current Harris County docket status remain unreviewed."
+      ],
+      "review": {
+        "actor": "codex:/root/ail_preflight",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Source-role correction for AIEL-2024-017 only; no allegation, attribution, disposition, or freshness review.",
+        "reviewed_at": "2026-09-09T17:50:07.303Z",
+        "packet_sha256": "9f9170772b56dee1f7b3f4a52a28b99e457f33306161d8f654cb70a030d5cdbd"
+      }
+    },
+    "included/AIEL-2026-020": {
+      "baseline_sha256": "03e08c6db14e6fd4b3ba650c0cf88183d4aacbe2c40630a0067fbedd8444c208",
+      "record_sha256": "d9dfc2f183709da3a15125d7cb9692bd3d7989976f095a00fa7566587f362618",
+      "evidence": {
+        "cnn-filed-complaint": {
+          "path": "data/admission/raw/aiel-2026-020/complaint.txt",
+          "official_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.664916/gov.uscourts.nysd.664916.1.0_1.pdf",
+          "sha256": "112cf5bf268ac7dceb757793b11ae6d135fea9e61ed01aa987ff8601fdc6f060",
+          "document_id": "Case 1:26-cv-04427, Document 1",
+          "document_title": "Cable News Network, Inc. v. Perplexity AI, Inc., Complaint",
+          "issuing_body": "U.S. District Court, Southern District of New York",
+          "document_type": "complaint",
+          "version": "Filed 2026-05-28; RECAP PDF retrieved 2026-09-09",
+          "locator": "Court stamp and caption on page 1",
+          "excerpt": "Case 1:26-cv-04427       Document 1         Filed 05/28/26",
+          "identity_excerpts": [
+            "CABLE NEWS NETWORK, INC.",
+            "Perplexity AI, Inc."
+          ],
+          "acquisition": "primary_retrieval",
+          "retrieval": {
+            "http_status": 200,
+            "retrieved_at": "2026-09-09T17:31:38Z",
+            "content_type": "application/pdf",
+            "final_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.664916/gov.uscourts.nysd.664916.1.0_1.pdf",
+            "original_path": "data/admission/raw/aiel-2026-020/complaint.pdf",
+            "original_sha256": "24084289b1deaf52ca6637c6a8ee26c96dffcc3fbf682483ccfb7f4ff3d5eef3"
+          }
+        }
+      },
+      "units": {
+        "field:public_record_link": {
+          "before_sha256": "5e20c1417a9631e3ed0f6d2552848efbb9b902133c0410c2654c952170512b59",
+          "after_sha256": "698c202261ce6801dcceff9b69c1bdbfdd61e62bc3b574f02453e819652f6754",
+          "candidate_content": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.664916/gov.uscourts.nysd.664916.1.0_1.pdf",
+          "reason": "Uses the exact retained filed complaint as the supporting public record instead of docket metadata.",
+          "qualifications": {
+            "scope": "Only the named changed unit was checked against the retained evidence in this packet.",
+            "exceptions": "No unchanged legacy field, legal entailment, exhaustive discovery, authenticated human approval, or unreviewed current status is certified.",
+            "time": "The source was retrieved on 2026-09-09; Checked or Verified meaning is changed only where the reviewed unit explicitly says so."
+          },
+          "evidence": [
+            "cnn-filed-complaint"
+          ]
+        },
+        "field:secondary_source_links": {
+          "before_sha256": "698c202261ce6801dcceff9b69c1bdbfdd61e62bc3b574f02453e819652f6754",
+          "after_sha256": "5e20c1417a9631e3ed0f6d2552848efbb9b902133c0410c2654c952170512b59",
+          "candidate_content": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
+          "reason": "Retains the CourtListener docket page as secondary procedural metadata.",
+          "qualifications": {
+            "scope": "Only the named changed unit was checked against the retained evidence in this packet.",
+            "exceptions": "No unchanged legacy field, legal entailment, exhaustive discovery, authenticated human approval, or unreviewed current status is certified.",
+            "time": "The source was retrieved on 2026-09-09; Checked or Verified meaning is changed only where the reviewed unit explicitly says so."
+          },
+          "evidence": [
+            "cnn-filed-complaint"
+          ]
+        }
+      },
+      "unresolved": [
+        "Current docket status after the filed complaint remains unreviewed."
+      ],
+      "review": {
+        "actor": "codex:/root/ail_preflight",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Primary-source link correction for AIEL-2026-020 only; complaint allegations and current disposition are not re-reviewed.",
+        "reviewed_at": "2026-09-09T17:50:07.303Z",
+        "packet_sha256": "b00ae6df29248f143de2c5ac339a4b943dadb80129ddfa53b10be8c30b3e7e10"
+      }
+    },
+    "review/AIEL-CAND-031": {
+      "baseline_sha256": null,
+      "record_sha256": "c64e82febef46eec3ca8820340f1fbeabfd456fda0bd317e432e47d630a3f91e",
+      "evidence": {
+        "uspto-final-order": {
+          "path": "data/admission/raw/aiel-2026-069/uspto-final-order.txt",
+          "official_url": "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf",
+          "sha256": "1e243b8d61a3b46e16efab6e454fad25fa852540dde0b18b31d9cb97528047f4",
+          "document_id": "Proceeding No. D2026-16",
+          "document_title": "In the Matter of Brian E. Mitchell, Final Order",
+          "issuing_body": "United States Patent and Trademark Office",
+          "document_type": "final order",
+          "version": "Signed and served 2026-07-27; official PDF retrieved 2026-09-09",
+          "locator": "Pages 1-6, Joint Stipulated Facts paragraphs 3-18, Joint Legal Conclusions paragraph 19, and Agreed-Upon Sanction paragraph 20",
+          "excerpt": "Respondent used one generative artificial intelligence (“AI”) tool to assist with drafting proposed",
+          "identity_excerpts": [
+            "Brian E. Mitchell",
+            "Proceeding No. D2026-16"
+          ],
+          "ai_attribution_excerpt": "used one generative artificial intelligence",
+          "acquisition": "primary_retrieval",
+          "retrieval": {
+            "http_status": 200,
+            "retrieved_at": "2026-09-09T17:31:55Z",
+            "content_type": "application/pdf",
+            "final_url": "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf",
+            "original_path": "data/admission/raw/aiel-2026-069/uspto-final-order.pdf",
+            "original_sha256": "a7f252b12617328d2158c63f4ec0c29a22004c9356d5504daddf92928850f724"
+          }
+        }
+      },
+      "units": {
+        "dataset": {
+          "before_sha256": null,
+          "after_sha256": "fe82cb229e29dfc87a309c8d1679ff9f58be239c8e6f3ff52bc431efb3709b6b",
+          "candidate_content": "review",
+          "reason": "Places the source-supported matter in review pending the required explicit steward admission decision.",
+          "qualifications": {
+            "scope": "Only the named changed unit was checked against the retained evidence in this packet.",
+            "exceptions": "No unchanged legacy field, legal entailment, exhaustive discovery, authenticated human approval, or unreviewed current status is certified.",
+            "time": "The source was retrieved on 2026-09-09; Checked or Verified meaning is changed only where the reviewed unit explicitly says so."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:best_available_sources": {
+          "before_sha256": null,
+          "after_sha256": "b5141fedb573575ef4a005b8f6631a93608cb113052f534e6dd2e76c6d8a6d62",
+          "candidate_content": "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf",
+          "reason": "Records this source-supported unit from the named evidence without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit was checked against the retained evidence in this packet.",
+            "exceptions": "No unchanged legacy field, legal entailment, exhaustive discovery, authenticated human approval, or unreviewed current status is certified.",
+            "time": "The source was retrieved on 2026-09-09; Checked or Verified meaning is changed only where the reviewed unit explicitly says so."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:candidate_id": {
+          "before_sha256": null,
+          "after_sha256": "14c7de1404ab9d14e6602ec88cc9dd9732f9a450d2ecc78206142f2e6f854a65",
+          "candidate_content": "AIEL-CAND-031",
+          "reason": "Records this source-supported unit from the named evidence without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit was checked against the retained evidence in this packet.",
+            "exceptions": "No unchanged legacy field, legal entailment, exhaustive discovery, authenticated human approval, or unreviewed current status is certified.",
+            "time": "The source was retrieved on 2026-09-09; Checked or Verified meaning is changed only where the reviewed unit explicitly says so."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:candidate_matter": {
+          "before_sha256": null,
+          "after_sha256": "fdc454f27ecbfaaad4e1ef7a1221837a08ceb1fe7d28c787094ce9b887d0ab11",
+          "candidate_content": "In re Brian E. Mitchell, Proceeding No. D2026-16 (USPTO OED final order, July 27, 2026)",
+          "reason": "Records this source-supported unit from the named evidence without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit was checked against the retained evidence in this packet.",
+            "exceptions": "No unchanged legacy field, legal entailment, exhaustive discovery, authenticated human approval, or unreviewed current status is certified.",
+            "time": "The source was retrieved on 2026-09-09; Checked or Verified meaning is changed only where the reviewed unit explicitly says so."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:candidate_title": {
+          "before_sha256": null,
+          "after_sha256": "45675ae56a24be71e0435161b2e820de096ded0eb795745b72bccc35d32b1d3f",
+          "candidate_content": "USPTO publicly reprimands patent attorney for unchecked AI-generated intrinsic-record citations",
+          "reason": "Records this source-supported unit from the named evidence without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit was checked against the retained evidence in this packet.",
+            "exceptions": "No unchanged legacy field, legal entailment, exhaustive discovery, authenticated human approval, or unreviewed current status is certified.",
+            "time": "The source was retrieved on 2026-09-09; Checked or Verified meaning is changed only where the reviewed unit explicitly says so."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:last_checked_date": {
+          "before_sha256": null,
+          "after_sha256": "deab17f5c24dfc69254d7427a910923048244bb75e30f66a7d2bc6916b4ca270",
+          "candidate_content": "2026-09-09",
+          "reason": "Records the date the full official order was inspected, without claiming human Verified status.",
+          "qualifications": {
+            "scope": "Only the named changed unit was checked against the retained evidence in this packet.",
+            "exceptions": "No unchanged legacy field, legal entailment, exhaustive discovery, authenticated human approval, or unreviewed current status is certified.",
+            "time": "The source was retrieved on 2026-09-09; Checked or Verified meaning is changed only where the reviewed unit explicitly says so."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:next_verification_step": {
+          "before_sha256": null,
+          "after_sha256": "aa9faf6a0d941bd81e68f1ed85c17ac174e22bb4629f44056912bea9bd0e7b93",
+          "candidate_content": "Steward confirms or declines promotion to included. If confirmed, use the retained official PDF and reviewed text in data/admission/raw/aiel-2026-069, preserve the July 27, 2026 final-order issue date only on the determination, omit an unknown proceeding filing date and incident date, use Checked rather than Verified, and retain the no-court-sanction/no-client-prejudice qualifications.",
+          "reason": "Records this source-supported unit from the named evidence without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit was checked against the retained evidence in this packet.",
+            "exceptions": "No unchanged legacy field, legal entailment, exhaustive discovery, authenticated human approval, or unreviewed current status is certified.",
+            "time": "The source was retrieved on 2026-09-09; Checked or Verified meaning is changed only where the reviewed unit explicitly says so."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:reason_for_review": {
+          "before_sha256": null,
+          "after_sha256": "c7ea456a44e506b8b84df491b5c94050021bcf50fe0665e926e4ebe8e677cac4",
+          "candidate_content": "All four INTENT admission criteria appear satisfied on the official USPTO final order. The order establishes that Mitchell used one generative AI tool to help draft proposed patent claim constructions and a second AI tool to review the document; AI-generated citations, quotations, and parentheticals referred to intrinsic-record portions that did not exist or were inaccurately attributed; the USPTO publicly reprimanded him under 37 C.F.R. sections 11.101, 11.103, 11.804(c), and 11.804(d). The district court imposed no sanction, Mitchell represented that his client suffered no prejudice, and a corrected chart circulated the following day. The source does not name either AI tool or give a precise date for the claim-chart submission. Held only because the find-new-cases workflow requires explicit per-candidate steward confirmation before a new record enters included; no agent-only exemption was found.",
+          "reason": "Records this source-supported unit from the named evidence without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit was checked against the retained evidence in this packet.",
+            "exceptions": "No unchanged legacy field, legal entailment, exhaustive discovery, authenticated human approval, or unreviewed current status is certified.",
+            "time": "The source was retrieved on 2026-09-09; Checked or Verified meaning is changed only where the reviewed unit explicitly says so."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        }
+      },
+      "unresolved": [
+        "Explicit per-candidate steward confirmation is required before promotion to included."
+      ],
+      "review": {
+        "actor": "codex:/root/ail_preflight",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Complete source-consistency review of AIEL-CAND-031 against all seven visually inspected pages of the official final order; no promotion or human approval asserted.",
+        "reviewed_at": "2026-09-09T17:50:07.303Z",
+        "packet_sha256": "03b7b3c02ed7353ff97104fdcca0c9e914c11a5132c6b2a0ace3c776a3c2fade"
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/context.jsonld",
-  "generated": "2026-09-02",
+  "generated": "2026-09-09",
   "parties": [
     {
       "@context": [
@@ -17,7 +17,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -28,12 +31,18 @@
       "roles": [
         "deployer"
       ],
-      "source": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
+      "source": "https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do",
       "source_locator": "Moffatt v. Air Canada, 2024 BCCRT 149",
       "source_citation": "2024 BCCRT 149",
       "evidence_type": "primary record",
       "verified": "2026-04-22",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Human decision pending on whether a chatbot whose technical nature was not provided satisfies the corpus AI-attribution rule.",
+        "The exact proceeding filing date and any current appeal or judicial-review status were not established."
+      ]
     },
     {
       "@context": [
@@ -50,7 +59,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -65,7 +77,9 @@
       "source_locator": "Mata v. Avianca, Inc., No. 22-cv-1461",
       "evidence_type": "primary record",
       "verified": "2026-09-01",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -82,7 +96,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -97,7 +114,9 @@
       "source_locator": "Park v. Kim, No. 22-2057",
       "evidence_type": "primary record",
       "verified": "2026-09-01",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -114,7 +133,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -129,7 +151,9 @@
       "source_locator": "Wadsworth v. Walmart Inc.",
       "evidence_type": "reliable reporting",
       "verified": "2026-04-22",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -146,7 +170,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -161,7 +188,9 @@
       "source_locator": "Fletcher v. Experian Information Solutions, Inc., No. 25-20086",
       "evidence_type": "primary record",
       "verified": "2026-06-02",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -178,7 +207,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -193,7 +225,9 @@
       "source_locator": "Huffman Construction, LLC, ASBCA Nos. 62591, 62783",
       "evidence_type": "primary record",
       "verified": "2026-04-22",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -210,7 +244,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -225,7 +262,9 @@
       "source_locator": "Buchanan v. Vuori, Inc., No. 5:23-cv-01121-NC",
       "evidence_type": "primary record",
       "verified": "2026-07-25",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -242,7 +281,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -257,7 +299,9 @@
       "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
       "evidence_type": "primary record",
       "verified": "2026-04-22",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -274,7 +318,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -289,7 +336,9 @@
       "source_locator": "EEOC v. iTutorGroup, Inc., et al., No. 1:22-cv-02565",
       "evidence_type": "official statement",
       "verified": "2026-04-22",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -306,7 +355,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -321,7 +373,9 @@
       "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al.",
       "evidence_type": "primary record",
       "verified": "2026-04-22",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -338,7 +392,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -353,7 +410,9 @@
       "source_locator": "Bauserman v. Unemployment Insurance Agency",
       "evidence_type": "official statement",
       "verified": "2026-04-22",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -370,7 +429,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -385,7 +447,9 @@
       "source_locator": "Ledgerwood v. Arkansas Department of Human Services / related federal litigation",
       "evidence_type": "primary record",
       "verified": "2026-09-01",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -402,7 +466,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -417,7 +484,9 @@
       "source_locator": "FTC v. Rite Aid facial-recognition enforcement",
       "evidence_type": "official statement",
       "verified": "2026-04-22",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -434,7 +503,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -449,7 +521,9 @@
       "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827",
       "evidence_type": "primary record",
       "verified": "2026-04-22",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -466,7 +540,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -479,9 +556,14 @@
       ],
       "source": "https://aclu.org/cases/parks-v-mccormac",
       "source_locator": "Parks v. McCormac, Civil No. 3:22-cv-05765",
-      "evidence_type": "primary record",
+      "evidence_type": "party case page",
       "verified": "2026-04-22",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The current court docket status and an issuing-court source remain unreviewed."
+      ]
     },
     {
       "@context": [
@@ -498,7 +580,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -513,7 +598,9 @@
       "source_locator": "Woodruff v. Oliver, No. 2:23-cv-11597",
       "evidence_type": "primary record",
       "verified": "2026-04-22",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -530,7 +617,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -543,9 +633,14 @@
       ],
       "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
       "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
-      "evidence_type": "primary record",
+      "evidence_type": "media-hosted pleading copy",
       "verified": "2026-04-22",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "An issuing-court copy and the current Harris County docket status remain unreviewed."
+      ]
     },
     {
       "@context": [
@@ -562,7 +657,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -577,7 +675,9 @@
       "source_locator": "Mobley v. Workday, Inc., No. 3:23-cv-00770",
       "evidence_type": "primary record",
       "verified": "2026-04-22",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -594,7 +694,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -609,7 +712,9 @@
       "source_locator": "Swanson v. International Business Machines Corporation, No. 1:26-cv-01382",
       "evidence_type": "primary record",
       "verified": "2026-06-01",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -626,7 +731,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -637,11 +745,16 @@
       "roles": [
         "deployer"
       ],
-      "source": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.664916/gov.uscourts.nysd.664916.1.0_1.pdf",
       "source_locator": "Cable News Network, Inc. v. Perplexity AI, Inc., No. 1:26-cv-04427",
       "evidence_type": "primary record",
       "verified": "2026-06-01",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Current docket status after the filed complaint remains unreviewed."
+      ]
     },
     {
       "@context": [
@@ -658,7 +771,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -674,7 +790,9 @@
       "source_citation": "2026 OK 37",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -691,7 +809,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -707,7 +828,9 @@
       "source_citation": "2026-Ohio-1930",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -724,7 +847,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -739,7 +865,9 @@
       "source_locator": "United States v. Farris, No. 25-5623 (6th Cir.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -756,7 +884,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -771,7 +902,9 @@
       "source_locator": "Hill v. Workday, Inc., No. 3:23-cv-06558-PHK",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -788,7 +921,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -803,7 +939,9 @@
       "source_locator": "Chaney v. Transdev Services Inc., No. 2:24-cv-10761-ODW (AJRx)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -820,7 +958,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -835,7 +976,9 @@
       "source_locator": "Jimenez-Fogarty v. Fogarty, No. 1:24-cv-08705-JLR-GWG (S.D.N.Y.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -852,7 +995,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -867,7 +1013,9 @@
       "source_locator": "Ibach v. Stewart, No. SC-2025-0106 (Ala.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -884,7 +1032,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -899,7 +1050,9 @@
       "source_locator": "Bunce v. Visual Technology Innovations, Inc., No. 2:23-cv-01740-KNS",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -916,7 +1069,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -931,7 +1087,9 @@
       "source_locator": "Obi v. Cook County, Illinois, No. 1:25-cv-03096",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -948,7 +1106,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -964,7 +1125,9 @@
       "source_citation": "2026 IL App (3d) 240628-U",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -981,7 +1144,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -996,7 +1162,9 @@
       "source_locator": "In re Wise, No. 25-51132 (Bankr. W.D. La.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1013,7 +1181,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1028,7 +1199,9 @@
       "source_locator": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1045,7 +1218,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1060,7 +1236,9 @@
       "source_locator": "Kattom v. Bondi, No. 25-1497 SEC P (W.D. La.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1077,7 +1255,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1092,7 +1273,9 @@
       "source_locator": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1109,7 +1292,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1125,7 +1311,9 @@
       "source_citation": "2026-Ohio-965",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1142,7 +1330,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1157,7 +1348,9 @@
       "source_locator": "Couvrette v. Wisnovsky, No. 1:21-cv-00157-CL (D. Or.)",
       "evidence_type": "primary record",
       "verified": "2026-07-25",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1174,7 +1367,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1189,7 +1385,9 @@
       "source_locator": "Heimkes v. Fairhope Motorcoach Resort Condominium Owners Association et al., No. 1:22-cv-00448-TFM-N (S.D. Ala.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1206,7 +1404,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1221,7 +1422,9 @@
       "source_locator": "Rivera v. Triad Properties Corporation et al., No. 2:24-cv-01802-AMM (N.D. Ala.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1238,7 +1441,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1253,7 +1459,9 @@
       "source_locator": "Coomer v. Lindell/MyPillow Inc., No. 1:22-cv-01129-NYW-SBP (D. Colo.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1270,7 +1478,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1285,7 +1496,9 @@
       "source_locator": "Chakma v. Sushi Katsuei Inc., No. 1:23-cv-07804-KPF (S.D.N.Y.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1302,7 +1515,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1317,7 +1533,9 @@
       "source_locator": "Davis v. Marion County Superior Court Juvenile Detention Center, No. 1:24-cv-01918-JRO-MJD (S.D. Ind.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1334,7 +1552,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1349,7 +1570,9 @@
       "source_locator": "Perez-Castillo v. Blanche (Att'y Gen.), No. 25-1988 (7th Cir.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1366,7 +1589,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1381,7 +1607,9 @@
       "source_locator": "Deutsche Bank Natl. Trust Co. v. LeTennier, 2026 NY Slip Op 00040, Docket No. CV-23-0713 (N.Y. App. Div., 3d Dep’t)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1398,7 +1626,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1413,7 +1644,9 @@
       "source_locator": "Hodges v. Meridian Waste Acquisitions USA, No. 3:25-cv-62; Rieske v. AFS, No. 5:25-cv-45 (M.D. Fla.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1430,7 +1663,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1445,7 +1681,9 @@
       "source_locator": "Lifetime Well LLC v. IBSpot.com Inc., No. 2:25-cv-05135-MAK (E.D. Pa.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1462,7 +1700,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1477,7 +1718,9 @@
       "source_locator": "Lexos Media IP, LLC v. Overstock.com, Inc., No. 2:22-cv-02324-JAR (D. Kan.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1494,7 +1737,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1509,7 +1755,9 @@
       "source_locator": "Amarsingh v. Frontier Airlines, Inc., No. 24-1391 (10th Cir.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1526,7 +1774,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1541,7 +1792,9 @@
       "source_locator": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., No. B329314 (Cal. Ct. App., 2d Dist., Div. Three) (unpublished)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1558,7 +1811,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1573,7 +1829,9 @@
       "source_locator": "Maldonado v. Professional Animal Retirement Center (PARC), No. 1:25-cv-00454-HAB-ALT (N.D. Ind.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1590,7 +1848,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1605,7 +1866,9 @@
       "source_locator": "In re Rosslyn2016, LLC, Texas Esencia 2019 LLC and Timbers2020 LLC, No. 25-34507 (Bankr. S.D. Tex., Houston Div.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1622,7 +1885,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1637,7 +1903,9 @@
       "source_locator": "Del Biaggio v. Bansen, No. A174647 (Cal. Ct. App., 1st Dist., Div. 4) (Humboldt County Super. Ct. No. CV1901078)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1654,7 +1922,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1669,7 +1940,9 @@
       "source_locator": "Akerlund v. Atlas Air, Inc., Flight Services International, LLC, No. 24-11033 (11th Cir.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1686,7 +1959,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1701,7 +1977,9 @@
       "source_locator": "Hannah Renea Payne v. The State, No. S26A0459 (Ga.), 324 Ga. 305",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1718,7 +1996,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1733,7 +2014,9 @@
       "source_locator": "Withers v. City of Aberdeen, No. 1:24-CV-218-SA-RP (N.D. Miss.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1750,7 +2033,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1765,7 +2051,9 @@
       "source_locator": "Joseph Cartagena v. Terrance Dixon, Tyrone Blackburn, and T.A. Blackburn Law, PLLC, No. 1:25-cv-03552 (JLR) (S.D.N.Y.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1782,7 +2070,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1797,7 +2088,9 @@
       "source_locator": "Matter of: CVTEK, LLC, B-423943; B-423943.2 (U.S. Government Accountability Office)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1814,7 +2107,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1829,7 +2125,9 @@
       "source_locator": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)",
       "evidence_type": "primary record",
       "verified": "2026-07-25",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1846,7 +2144,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1861,7 +2162,9 @@
       "source_locator": "Billups v. Louisville Municipal School District, No. 1:24-cv-00074-SA-RP (N.D. Miss.)",
       "evidence_type": "primary record",
       "verified": "2026-07-25",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1878,7 +2181,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1893,7 +2199,9 @@
       "source_locator": "Scott v. Illinois Human Rights Commission, 2026 IL App (1st) 251462, No. 1-25-1462",
       "evidence_type": "primary record",
       "verified": "2026-08-16",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1910,7 +2218,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1925,7 +2236,9 @@
       "source_locator": "Barteca Holdings LLC v. Tacobarn Newtown LLC, No. 3:26-cv-00250-VDO (D. Conn.), ECF No. 43",
       "evidence_type": "primary record",
       "verified": "2026-08-16",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1942,7 +2255,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1957,7 +2273,9 @@
       "source_locator": "LeDoux v. Outliers, Inc., No. 3:24-cv-05808-TMC (W.D. Wash.), ECF No. 265",
       "evidence_type": "primary record",
       "verified": "2026-08-19",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1974,7 +2292,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -1989,7 +2310,9 @@
       "source_locator": "TOV Realty, LLC v. Suarez (SC 21183) and Kosel Equity, LLC v. MacGregor (SC 21184), 355 Conn. 902 (2026)",
       "evidence_type": "primary record",
       "verified": "2026-08-16",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -2006,7 +2329,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -2021,7 +2347,9 @@
       "source_locator": "Fuselier v. Riscassi, No. 1:25-cv-268-HSO-BWR (S.D. Miss.), ECF No. 28",
       "evidence_type": "primary record",
       "verified": "2026-08-19",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -2038,7 +2366,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -2053,7 +2384,9 @@
       "source_locator": "Beslissing in de zaak 26-379/DB/LI/D, ECLI:NL:TADRSHE:2026:93 (Raad van Discipline in het ressort 's-Hertogenbosch)",
       "evidence_type": "primary record",
       "verified": "2026-08-19",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -2070,7 +2403,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -2085,7 +2421,9 @@
       "source_locator": "Erin Booker v. The Kroger Co., No. 1:26-cv-02006-SDG (N.D. Ga.), ECF No. 66",
       "evidence_type": "primary record",
       "verified": "2026-09-02",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -2102,7 +2440,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -2117,7 +2458,9 @@
       "source_locator": "Capital Standard, LLC v. U.S. Bank National Association, as trustee for Bear Stearns Asset Backed Securities I Trust 2005-AC9, No. 2D2024-1392 (Fla. 2d DCA)",
       "evidence_type": "primary record",
       "verified": "2026-09-02",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -2134,7 +2477,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Party",
@@ -2149,7 +2495,9 @@
       "source_locator": "Michael L. Ruiz v. Magellan Financial & Insurance Services, No. CV-23-02090-PHX-DWL (D. Ariz.), Doc. 179",
       "evidence_type": "primary record",
       "verified": "2026-09-02",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed"
     }
   ]
 }

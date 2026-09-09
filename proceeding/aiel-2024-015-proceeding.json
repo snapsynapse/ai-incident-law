@@ -14,6 +14,9 @@
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
       "reliance_or_harm": "ail:relianceOrHarm",
+      "projection_basis": "ail:projectionBasis",
+      "admission_status": "ail:admissionStatus",
+      "source_review_unresolved": "ail:sourceReviewUnresolved",
       "filing_date_source": "ail:filingDateSource"
     }
   ],
@@ -49,9 +52,14 @@
   "hasDetermination": [],
   "source": "https://aclu.org/cases/parks-v-mccormac",
   "source_locator": "Parks v. McCormac, Civil No. 3:22-cv-05765",
-  "evidence_type": "primary record",
+  "evidence_type": "party case page",
   "verified": "2026-04-22",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "projection_basis": "legacy-record-inference",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "The current court docket status and an issuing-court source remain unreviewed."
+  ],
   "ai_incident_law_record_id": "AIEL-2024-015",
   "matter_type": "federal civil rights lawsuit",
   "filing_status": "pending"

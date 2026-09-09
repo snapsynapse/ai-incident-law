@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02",
+  "generated_at": "2026-09-09",
   "datasets": {
     "included": {
       "label": "Included cases",
@@ -8,34 +8,58 @@
         {
           "error_id": "AIEL-2024-001",
           "error_title": "Air Canada chatbot misstated bereavement-fare refund eligibility",
-          "ai_system_name": "Air Canada virtual assistant chatbot",
+          "ai_system_name": "Air Canada support chatbot (technical nature not established in the decision)",
           "deployer": "Air Canada",
           "domain": "consumer travel",
           "error_type": "policy misstatement",
-          "error_description": "Air Canada's chatbot told a passenger he could request a bereavement discount retroactively within 90 days after travel. The answer conflicted with Air Canada's bereavement-fare terms, which required approval before travel. The tribunal treated the chatbot answer as part of Air Canada's customer-facing service rather than a separate legal actor.",
+          "error_description": "The decision records that Air Canada's support chatbot told a passenger they could request a reduced bereavement fare retroactively within 90 days of ticket issuance. The linked Bereavement travel page said the policy did not apply after travel was completed. The tribunal found Air Canada responsible for information on its website and liable for negligent misrepresentation; the decision does not establish the chatbot's technical architecture.",
           "canonical_source_conflicted": "Air Canada bereavement-fare policy",
-          "mitigation_gap": "No effective guardrail prevented the chatbot from presenting a refund rule inconsistent with the canonical policy, and no escalation path corrected the answer before purchase.",
-          "reliance_or_harm": "Passenger relied on the chatbot answer, bought tickets, and obtained a partial damages award.",
+          "mitigation_gap": "The tribunal found that Air Canada did not take reasonable care to ensure its chatbot was accurate. The decision does not identify the model architecture, technical guardrails, or escalation controls.",
+          "reliance_or_harm": "The tribunal accepted that the passenger reasonably relied on the chatbot information, purchased two flights, and suffered C$650.88 in damages.",
           "public_matter_type": "tribunal claim",
           "public_matter_name": "Moffatt v. Air Canada, 2024 BCCRT 149",
           "filing_status": "ordered",
           "jurisdiction": "British Columbia Civil Resolution Tribunal",
-          "filing_date": "2024-02-14",
           "error_date": "2022-11",
-          "public_record_link": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
-          "secondary_source_links": "https://dentons.com/insights/alerts/2024/february/29/air-canada-liable-for-negligent-misrepresentation-by-chatbot-on-website; https://canliiconnects.org/en/commentaries/93547",
+          "public_record_link": "https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do",
+          "secondary_source_links": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html; https://dentons.com/insights/alerts/2024/february/29/air-canada-liable-for-negligent-misrepresentation-by-chatbot-on-website; https://canliiconnects.org/en/commentaries/93547",
           "confidence_score": "high",
-          "notes_on_resolution": "Tribunal awarded C$650.88 plus interest and fees.",
+          "notes_on_resolution": "The tribunal ordered Air Canada to pay C$812.02: C$650.88 in damages, C$36.14 in pre-judgment interest, and C$125 in tribunal fees. It dismissed the remaining claims and allowed post-judgment interest as applicable.",
           "tags": "consumer-facing; chatbot; policy-misstatement; negligent-misrepresentation; tribunal; small-claims; public-record-confirmed",
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-04-22",
-          "needs_review": "no",
+          "needs_review": "yes",
           "neutral_citation": "2024 BCCRT 149",
           "case_sameAs": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
-          "obligation_first_anchors": [
-            "https://everyailaw.com/obligation-category/transparency.json"
-          ]
+          "legal_graph": {
+            "proceedings": [
+              {
+                "id": "aiel-2024-001-proceeding",
+                "heard_by": [
+                  "british-columbia-civil-resolution-tribunal"
+                ],
+                "parties": [
+                  "aiel-2024-001-deployer"
+                ],
+                "determination_ids": [
+                  "aiel-2024-001-determination"
+                ],
+                "matter_type": "small claims tribunal proceeding",
+                "procedural_stage": "final-decision-issued"
+              }
+            ],
+            "determinations": [
+              {
+                "id": "aiel-2024-001-determination",
+                "issued_by": [
+                  "british-columbia-civil-resolution-tribunal"
+                ],
+                "issued_date": "2024-02-14",
+                "disposition": "confirmed"
+              }
+            ]
+          }
         },
         {
           "error_id": "AIEL-2023-002",
@@ -713,7 +737,7 @@
           "confidence_score": "high",
           "notes_on_resolution": "Civil litigation active in reported materials; include as pending.",
           "tags": "facial-recognition; false-match; wrongful-arrest; civil-rights; public-record-confirmed",
-          "source_quality": "primary record",
+          "source_quality": "party case page",
           "research_status": "included",
           "last_verified_date": "2026-04-22",
           "needs_review": "no"
@@ -771,7 +795,7 @@
           "confidence_score": "high",
           "notes_on_resolution": "Primary petition available; procedural status should be refreshed from Texas docket before publication.",
           "tags": "facial-recognition; false-match; wrongful-arrest; consumer-protection; civil-rights; public-record-confirmed",
-          "source_quality": "primary record",
+          "source_quality": "media-hosted pleading copy",
           "research_status": "included",
           "last_verified_date": "2026-04-22",
           "needs_review": "yes",
@@ -905,8 +929,8 @@
           "jurisdiction": "U.S. District Court, Southern District of New York",
           "filing_date": "2026-05-28",
           "error_date": "2026",
-          "public_record_link": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
-          "secondary_source_links": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.664916/gov.uscourts.nysd.664916.1.0_1.pdf",
+          "public_record_link": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.664916/gov.uscourts.nysd.664916.1.0_1.pdf",
+          "secondary_source_links": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
           "confidence_score": "high",
           "notes_on_resolution": "Complaint (Doc 1, 54 pp) pulled from RECAP and verified 2026-06-01. Copyright + Lanham (trademark/false-attribution) claims; part of a multi-publisher wave against Perplexity (NYT, Chicago Tribune, Encyclopaedia Britannica/Merriam-Webster, Reddit, Dow Jones).",
           "tags": "generative-ai; copyright; lanham-act; trademark; content-reproduction; hallucinated-attribution; rag; media",
@@ -2582,6 +2606,15 @@
           "next_verification_step": "Check nmcourts.gov and the New Mexico Supreme Court's own case-information system periodically for the written contempt order once it is docketed and posted; if a text order becomes available, promote to `included` using it as public_record_link. Venue detail (\"Las Cruces area\"/Chaparral/Doña Ana County) is press-sourced only (Santa Fe New Mexican, ABA Journal) and should be confirmed against the eventual written order rather than carried forward from news coverage.",
           "best_available_sources": "https://supremecourt.nmcourts.gov/about-this-court/recordings-of-oral-arguments/; https://supremecourt.nmcourts.gov/wp-content/uploads/sites/2/2026/08/08212026.mp3; https://santafenewmexican.com/news/local_news/new-mexico-high-court-blasts-lawyer-takes-him-off-case-for-ai-errors-in-brief/article_a162daf7-95a4-4010-a017-dedcbdb68b0b.html; https://abajournal.com/news/article/criminal-defense-attorney-admits-stupidity-over-ai-errors-but-still-receives-sharp-rebuke-from-his-states-high-court",
           "last_checked_date": "2026-09-02"
+        },
+        {
+          "candidate_id": "AIEL-CAND-031",
+          "candidate_title": "USPTO publicly reprimands patent attorney for unchecked AI-generated intrinsic-record citations",
+          "candidate_matter": "In re Brian E. Mitchell, Proceeding No. D2026-16 (USPTO OED final order, July 27, 2026)",
+          "reason_for_review": "All four INTENT admission criteria appear satisfied on the official USPTO final order. The order establishes that Mitchell used one generative AI tool to help draft proposed patent claim constructions and a second AI tool to review the document; AI-generated citations, quotations, and parentheticals referred to intrinsic-record portions that did not exist or were inaccurately attributed; the USPTO publicly reprimanded him under 37 C.F.R. sections 11.101, 11.103, 11.804(c), and 11.804(d). The district court imposed no sanction, Mitchell represented that his client suffered no prejudice, and a corrected chart circulated the following day. The source does not name either AI tool or give a precise date for the claim-chart submission. Held only because the find-new-cases workflow requires explicit per-candidate steward confirmation before a new record enters included; no agent-only exemption was found.",
+          "next_verification_step": "Steward confirms or declines promotion to included. If confirmed, use the retained official PDF and reviewed text in data/admission/raw/aiel-2026-069, preserve the July 27, 2026 final-order issue date only on the determination, omit an unknown proceeding filing date and incident date, use Checked rather than Verified, and retain the no-court-sanction/no-client-prejudice qualifications.",
+          "best_available_sources": "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf",
+          "last_checked_date": "2026-09-09"
         }
       ]
     },

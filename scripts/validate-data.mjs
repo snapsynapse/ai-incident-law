@@ -5,6 +5,7 @@ const SOURCE_PATH = new URL("../data/data.json", import.meta.url);
 const REQUIRED_DATASETS = ["included", "review", "global"];
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 const FRESHNESS_FIELDS = ["last_verified_date", "last_checked_date"];
+const TODAY = new Date().toISOString().slice(0, 10);
 const RETIRED_IDS = new Set(["AIEL-2026-039"]);
 const issues = [];
 const warnings = [];
@@ -15,6 +16,14 @@ function addIssue(message) {
 
 function recordId(record, datasetKey, index) {
   return record.error_id || record.candidate_id || `${datasetKey}[${index}]`;
+}
+
+function slugify(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
 }
 
 function validateLegalGraph(record, datasetKey, id) {
@@ -34,13 +43,19 @@ function validateLegalGraph(record, datasetKey, id) {
     if (authorities.has(authority.id)) addIssue(`${datasetKey}.${id}.legal_graph duplicates authority ${authority.id}`);
     authorities.add(authority.id);
   }
+  // A partial legal_graph may curate proceeding/determination facts while
+  // retaining the native jurisdiction-derived Authority and its crosswalk.
+  const defaultAuthorityId = slugify(record.jurisdiction || "unknown-authority");
+  const hasCuratedAuthorities = Array.isArray(graph.authorities) && graph.authorities.length > 0;
+  const knownAuthority = authorityId => authorities.has(authorityId)
+    || (!hasCuratedAuthorities && authorityId === defaultAuthorityId);
   const determinationIds = new Set();
   for (const determination of graph.determinations || []) {
     if (!determination?.id || !/^[a-z0-9-]+$/.test(determination.id)) addIssue(`${datasetKey}.${id}.legal_graph determination has an invalid id`);
     if (determinationIds.has(determination.id)) addIssue(`${datasetKey}.${id}.legal_graph duplicates determination ${determination.id}`);
     determinationIds.add(determination.id);
     if (!Array.isArray(determination.issued_by) || determination.issued_by.length === 0) addIssue(`${datasetKey}.${id}.legal_graph determination ${determination.id} must identify issued_by`);
-    for (const authorityId of determination.issued_by || []) if (!authorities.has(authorityId)) addIssue(`${datasetKey}.${id}.legal_graph determination ${determination.id} references undeclared authority ${authorityId}`);
+    for (const authorityId of determination.issued_by || []) if (!knownAuthority(authorityId)) addIssue(`${datasetKey}.${id}.legal_graph determination ${determination.id} references undeclared authority ${authorityId}`);
     if (!determination.disposition) addIssue(`${datasetKey}.${id}.legal_graph determination ${determination.id} must identify disposition`);
   }
   const proceedingIds = new Set();
@@ -49,7 +64,7 @@ function validateLegalGraph(record, datasetKey, id) {
     if (proceedingIds.has(proceeding.id)) addIssue(`${datasetKey}.${id}.legal_graph duplicates proceeding ${proceeding.id}`);
     proceedingIds.add(proceeding.id);
     if (!Array.isArray(proceeding.heard_by) || proceeding.heard_by.length === 0) addIssue(`${datasetKey}.${id}.legal_graph proceeding ${proceeding.id} must identify heard_by`);
-    for (const authorityId of proceeding.heard_by || []) if (!authorities.has(authorityId)) addIssue(`${datasetKey}.${id}.legal_graph proceeding ${proceeding.id} references undeclared authority ${authorityId}`);
+    for (const authorityId of proceeding.heard_by || []) if (!knownAuthority(authorityId)) addIssue(`${datasetKey}.${id}.legal_graph proceeding ${proceeding.id} references undeclared authority ${authorityId}`);
     for (const determinationId of proceeding.determination_ids || []) if (!determinationIds.has(determinationId)) addIssue(`${datasetKey}.${id}.legal_graph proceeding ${proceeding.id} references undeclared determination ${determinationId}`);
     if (proceeding.parties !== undefined && !Array.isArray(proceeding.parties)) {
       addIssue(`${datasetKey}.${id}.legal_graph proceeding ${proceeding.id} parties must be an array`);
@@ -131,6 +146,22 @@ for (const [datasetKey, bucket] of Object.entries(data.datasets || {})) {
 
     if (!record.error_title && !record.candidate_title && !record.translated_title && !record.original_title) {
       addIssue(`${datasetKey}.${id}: missing title fields`);
+    }
+
+    if (datasetKey === "included") {
+      if (!String(record.public_record_link || "").trim()) {
+        addIssue(`${datasetKey}.${id}: included record requires a supporting source in public_record_link`);
+      }
+      if (!String(record.notes_on_resolution || "").trim()) {
+        addIssue(`${datasetKey}.${id}: included record requires source-scoped notes_on_resolution`);
+      }
+    }
+
+    for (const field of FRESHNESS_FIELDS) {
+      const value = String(record[field] || "");
+      if (ISO_DATE.test(value) && value > TODAY) {
+        addIssue(`${datasetKey}.${id}: ${field} cannot be in the future (${value})`);
+      }
     }
 
     for (const field of Object.keys(URL_FIELD_POLICIES)) {
