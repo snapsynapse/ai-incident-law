@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/context.jsonld",
-  "generated": "2026-09-09",
+  "generated": "2026-09-10",
   "determinations": [
     {
       "@context": [
@@ -814,6 +814,67 @@
         "https://everyailaw.com/obligation-category/bias-prevention.json",
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
+        }
+      ],
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2024-015-determination.json",
+      "id": "aiel-2024-015-determination",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-district-court-district-of-new-jersey.json"
+      ],
+      "jurisdiction": {
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us-nj"
+        ],
+        "institutional_scope": [
+          "U.S. District Court, District of New Jersey"
+        ]
+      },
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2024-015-allegation.json"
+      ],
+      "disposition": "settled",
+      "issued_date": "2024-07-09",
+      "remedy": {
+        "status": "settled",
+        "notes": "At a 2024-07-08 settlement conference the parties reached a settlement in principle, and Magistrate Judge Wettre administratively terminated the action on 2024-07-09 by a 60-day order that is expressly not a Rule 41 dismissal (Dkt. 125). On 2024-09-05 defense counsel filed the executed Settlement Agreement and Release, under which the Township of Woodbridge pays $300,000 with no admission of liability, together with stipulations of dismissal (Dkt. 126). No merits ruling on the facial-recognition claims was issued; defendants' summary-judgment motion was pending when the case settled. An entered dismissal order after Dkt. 126 was not located."
+      },
+      "notes": "At a 2024-07-08 settlement conference the parties reached a settlement in principle, and Magistrate Judge Wettre administratively terminated the action on 2024-07-09 by a 60-day order that is expressly not a Rule 41 dismissal (Dkt. 125). On 2024-09-05 defense counsel filed the executed Settlement Agreement and Release, under which the Township of Woodbridge pays $300,000 with no admission of liability, together with stipulations of dismissal (Dkt. 126). No merits ruling on the facial-recognition claims was issued; defendants' summary-judgment motion was pending when the case settled. An entered dismissal order after Dkt. 126 was not located.",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.njd.462874/gov.uscourts.njd.462874.125.0.pdf",
+      "source_locator": "Parks v. McCormac, No. 2:21-cv-04021 (D.N.J.)",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Whether a Rule 41 dismissal order or so-ordered stipulation was entered after 2024-09-05; RECAP holds nothing after Dkt. 126 and the docket page is script-blocked.",
+        "filing_date '2022-09' is unsupported by any retrieved document; docket metadata indicates 2021-03-03 but no primary document states the removal date.",
+        "Image-only pages 20-22 and 27 of Dkt. 126 (stipulations) were not read.",
+        "The disposition of claims against IDEMIA, Inc. is not visible in the retrieved documents."
+      ],
+      "ai_incident_law_record_id": "AIEL-2024-015"
     },
     {
       "@context": [

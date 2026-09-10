@@ -7,9 +7,9 @@
   "adopter": "https://aiincidentlaw.org/",
   "applies_to": "obligation-first >=0.6.0 <0.7.0",
   "contexts": {
-    "[\"https://obligationfirst.org/v1/context.jsonld\",{\"ail\":\"https://aiincidentlaw.org/vocab/\",\"id\":\"ail:id\",\"ai_incident_law_record_id\":\"ail:recordId\",\"matter_type\":\"ail:matterType\",\"filing_status\":\"ail:filingStatus\",\"ai_system_name\":\"ail:aiSystemName\",\"deployer\":\"ail:deployer\",\"domain\":\"ail:domain\",\"error_type\":\"ail:errorType\",\"canonical_source_conflicted\":\"ail:canonicalSourceConflicted\",\"mitigation_gap\":\"ail:mitigationGap\",\"reliance_or_harm\":\"ail:relianceOrHarm\",\"projection_basis\":\"ail:projectionBasis\",\"admission_status\":\"ail:admissionStatus\",\"source_review_unresolved\":\"ail:sourceReviewUnresolved\",\"filing_date_source\":\"ail:filingDateSource\",\"procedural_stage\":\"ail:proceduralStage\"}]": 8,
-    "[\"https://obligationfirst.org/v1/context.jsonld\",{\"ail\":\"https://aiincidentlaw.org/vocab/\",\"id\":\"ail:id\",\"ai_incident_law_record_id\":\"ail:recordId\",\"matter_type\":\"ail:matterType\",\"filing_status\":\"ail:filingStatus\",\"ai_system_name\":\"ail:aiSystemName\",\"deployer\":\"ail:deployer\",\"domain\":\"ail:domain\",\"error_type\":\"ail:errorType\",\"canonical_source_conflicted\":\"ail:canonicalSourceConflicted\",\"mitigation_gap\":\"ail:mitigationGap\",\"reliance_or_harm\":\"ail:relianceOrHarm\",\"projection_basis\":\"ail:projectionBasis\",\"admission_status\":\"ail:admissionStatus\",\"source_review_unresolved\":\"ail:sourceReviewUnresolved\",\"filing_date_source\":\"ail:filingDateSource\"}]": 61,
-    "[\"https://obligationfirst.org/v1/context.jsonld\",{\"ail\":\"https://aiincidentlaw.org/vocab/\",\"id\":\"ail:id\",\"ai_incident_law_record_id\":\"ail:recordId\",\"matter_type\":\"ail:matterType\",\"filing_status\":\"ail:filingStatus\",\"ai_system_name\":\"ail:aiSystemName\",\"deployer\":\"ail:deployer\",\"domain\":\"ail:domain\",\"error_type\":\"ail:errorType\",\"canonical_source_conflicted\":\"ail:canonicalSourceConflicted\",\"mitigation_gap\":\"ail:mitigationGap\",\"reliance_or_harm\":\"ail:relianceOrHarm\",\"projection_basis\":\"ail:projectionBasis\",\"admission_status\":\"ail:admissionStatus\",\"source_review_unresolved\":\"ail:sourceReviewUnresolved\"}]": 263
+    "[\"https://obligationfirst.org/v1/context.jsonld\",{\"ail\":\"https://aiincidentlaw.org/vocab/\",\"id\":\"ail:id\",\"ai_incident_law_record_id\":\"ail:recordId\",\"matter_type\":\"ail:matterType\",\"filing_status\":\"ail:filingStatus\",\"ai_system_name\":\"ail:aiSystemName\",\"deployer\":\"ail:deployer\",\"domain\":\"ail:domain\",\"error_type\":\"ail:errorType\",\"canonical_source_conflicted\":\"ail:canonicalSourceConflicted\",\"mitigation_gap\":\"ail:mitigationGap\",\"reliance_or_harm\":\"ail:relianceOrHarm\",\"projection_basis\":\"ail:projectionBasis\",\"admission_status\":\"ail:admissionStatus\",\"source_review_unresolved\":\"ail:sourceReviewUnresolved\",\"filing_date_source\":\"ail:filingDateSource\",\"procedural_stage\":\"ail:proceduralStage\"}]": 9,
+    "[\"https://obligationfirst.org/v1/context.jsonld\",{\"ail\":\"https://aiincidentlaw.org/vocab/\",\"id\":\"ail:id\",\"ai_incident_law_record_id\":\"ail:recordId\",\"matter_type\":\"ail:matterType\",\"filing_status\":\"ail:filingStatus\",\"ai_system_name\":\"ail:aiSystemName\",\"deployer\":\"ail:deployer\",\"domain\":\"ail:domain\",\"error_type\":\"ail:errorType\",\"canonical_source_conflicted\":\"ail:canonicalSourceConflicted\",\"mitigation_gap\":\"ail:mitigationGap\",\"reliance_or_harm\":\"ail:relianceOrHarm\",\"projection_basis\":\"ail:projectionBasis\",\"admission_status\":\"ail:admissionStatus\",\"source_review_unresolved\":\"ail:sourceReviewUnresolved\",\"filing_date_source\":\"ail:filingDateSource\"}]": 60,
+    "[\"https://obligationfirst.org/v1/context.jsonld\",{\"ail\":\"https://aiincidentlaw.org/vocab/\",\"id\":\"ail:id\",\"ai_incident_law_record_id\":\"ail:recordId\",\"matter_type\":\"ail:matterType\",\"filing_status\":\"ail:filingStatus\",\"ai_system_name\":\"ail:aiSystemName\",\"deployer\":\"ail:deployer\",\"domain\":\"ail:domain\",\"error_type\":\"ail:errorType\",\"canonical_source_conflicted\":\"ail:canonicalSourceConflicted\",\"mitigation_gap\":\"ail:mitigationGap\",\"reliance_or_harm\":\"ail:relianceOrHarm\",\"projection_basis\":\"ail:projectionBasis\",\"admission_status\":\"ail:admissionStatus\",\"source_review_unresolved\":\"ail:sourceReviewUnresolved\"}]": 264
   },
   "exact_edges": [
     [
@@ -1028,6 +1028,16 @@
       "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json"
     ],
     [
+      "https://aiincidentlaw.org/determination/aiel-2024-015-determination.json",
+      "decides",
+      "https://aiincidentlaw.org/allegation/aiel-2024-015-allegation.json"
+    ],
+    [
+      "https://aiincidentlaw.org/determination/aiel-2024-015-determination.json",
+      "issuedBy",
+      "https://aiincidentlaw.org/authority/u-s-district-court-district-of-new-jersey.json"
+    ],
+    [
       "https://aiincidentlaw.org/determination/aiel-2025-004-determination.json",
       "anchors",
       "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2021,6 +2031,11 @@
       "https://aiincidentlaw.org/proceeding/aiel-2024-015-proceeding.json",
       "hasAllegation",
       "https://aiincidentlaw.org/allegation/aiel-2024-015-allegation.json"
+    ],
+    [
+      "https://aiincidentlaw.org/proceeding/aiel-2024-015-proceeding.json",
+      "hasDetermination",
+      "https://aiincidentlaw.org/determination/aiel-2024-015-determination.json"
     ],
     [
       "https://aiincidentlaw.org/proceeding/aiel-2024-015-proceeding.json",
@@ -3148,7 +3163,7 @@
       "https://aiincidentlaw.org/party/aiel-2026-068-deployer.json"
     ]
   ],
-  "exact_edges_sha256": "abf283162161922e163b2a3df4d8337970dbdaf99f1c2cab3e3ef5233ba4da18",
+  "exact_edges_sha256": "6f68c360733e74a4fe9b964b8aae0a032b66b7d1d8325d3f1e0779a9dd9ca8f1",
   "field_coverage": {
     "of:Allegation": {
       "@context": {
@@ -3372,123 +3387,123 @@
     "of:Determination": {
       "@context": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "@id": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "@type": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "admission_status": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "ai_incident_law_record_id": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "anchors": {
-        "missing": 3,
+        "missing": 4,
         "populated": 59,
         "present": 59
       },
       "asserted_by_adopter": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "decides": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "describesSameEntityAs": {
-        "missing": 61,
+        "missing": 62,
         "populated": 1,
         "present": 1
       },
       "disposition": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "evidence_type": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "id": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "issued_date": {
         "missing": 57,
-        "populated": 5,
-        "present": 5
+        "populated": 6,
+        "present": 6
       },
       "issuedBy": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "jurisdiction": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "neutral_citation": {
-        "missing": 57,
+        "missing": 58,
         "populated": 5,
         "present": 5
       },
       "notes": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "projection_basis": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "remedy": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "source": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "source_citation": {
-        "missing": 57,
+        "missing": 58,
         "populated": 5,
         "present": 5
       },
       "source_locator": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       },
       "source_review_unresolved": {
         "missing": 61,
-        "populated": 1,
-        "present": 1
+        "populated": 2,
+        "present": 2
       },
       "verified": {
         "missing": 0,
-        "populated": 62,
-        "present": 62
+        "populated": 63,
+        "present": 63
       }
     },
     "of:Party": {
@@ -3636,9 +3651,9 @@
         "present": 69
       },
       "hasDetermination": {
-        "empty_array": 7,
+        "empty_array": 6,
         "missing": 0,
-        "populated": 62,
+        "populated": 63,
         "present": 69
       },
       "heardBy": {
@@ -3677,9 +3692,9 @@
         "present": 68
       },
       "procedural_stage": {
-        "missing": 61,
-        "populated": 8,
-        "present": 8
+        "missing": 60,
+        "populated": 9,
+        "present": 9
       },
       "projection_basis": {
         "missing": 0,
@@ -3818,9 +3833,9 @@
       "ids_sha256": "e4136096b0ca0d64a2add0862745d3cde7302de21867d84be746880b85372732"
     },
     "of:Determination": {
-      "count": 62,
-      "file_names_sha256": "4cac5959dcc00aea255eff080edab5e3cb79574427833d86ba7b544184c340fe",
-      "ids_sha256": "91208a7472e000d9544931fe938de238311d15b78ceeb564fdf7bcb460a2d379"
+      "count": 63,
+      "file_names_sha256": "3fed70f1cb050111783c575139149363787292b7639d79804363ac0e663e0d3e",
+      "ids_sha256": "7a698e83d44253ae35f830ee7c6e21fbee8e0451e59f57669f268631c3df1e34"
     },
     "of:Party": {
       "count": 67,
@@ -3840,7 +3855,7 @@
   },
   "jurisdiction_shapes": {
     "missing": 142,
-    "object:of:Jurisdiction": 190
+    "object:of:Jurisdiction": 191
   },
   "naming_profile_entities": [
     "Allegation",
@@ -3911,6 +3926,12 @@
     "https://aiincidentlaw.org/determination/aiel-2024-014-determination.json": {
       "remedy": {
         "notes": "Settlement included $300,000 and Detroit Police Department facial-recognition reforms.",
+        "status": "settled"
+      }
+    },
+    "https://aiincidentlaw.org/determination/aiel-2024-015-determination.json": {
+      "remedy": {
+        "notes": "At a 2024-07-08 settlement conference the parties reached a settlement in principle, and Magistrate Judge Wettre administratively terminated the action on 2024-07-09 by a 60-day order that is expressly not a Rule 41 dismissal (Dkt. 125). On 2024-09-05 defense counsel filed the executed Settlement Agreement and Release, under which the Township of Woodbridge pays $300,000 with no admission of liability, together with stipulations of dismissal (Dkt. 126). No merits ruling on the facial-recognition claims was issued; defendants' summary-judgment motion was pending when the case settled. An entered dismissal order after Dkt. 126 was not located.",
         "status": "settled"
       }
     },
@@ -4327,24 +4348,28 @@
       "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "canonical_source_conflicted": "Actual suspect identity, alibi evidence, and warrant probable-cause standards",
-      "evidence_type": "party case page",
+      "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
-      "source": "https://aclu.org/cases/parks-v-mccormac",
-      "source_locator": "Parks v. McCormac, Civil No. 3:22-cv-05765",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.njd.462874/gov.uscourts.njd.462874.125.0.pdf",
+      "source_locator": "Parks v. McCormac, No. 2:21-cv-04021 (D.N.J.)",
       "source_review_unresolved": [
-        "The current court docket status and an issuing-court source remain unreviewed."
+        "Whether a Rule 41 dismissal order or so-ordered stipulation was entered after 2024-09-05; RECAP holds nothing after Dkt. 126 and the docket page is script-blocked.",
+        "filing_date '2022-09' is unsupported by any retrieved document; docket metadata indicates 2021-03-03 but no primary document states the removal date.",
+        "Image-only pages 20-22 and 27 of Dkt. 126 (stipulations) were not read.",
+        "The disposition of claims against IDEMIA, Inc. is not visible in the retrieved documents."
       ]
     },
     "https://aiincidentlaw.org/allegation/aiel-2024-017-allegation.json": {
       "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "canonical_source_conflicted": "Actual suspect identity and reliable biometric-comparison standards",
-      "evidence_type": "media-hosted pleading copy",
+      "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
-      "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-txsd-4_24-cv-00801/pdf/USCOURTS-txsd-4_24-cv-00801-1.pdf",
       "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
       "source_review_unresolved": [
-        "An issuing-court copy and the current Harris County docket status remain unreviewed."
+        "Status in the 125th Judicial District Court of Harris County after the 2024-08-14 remand is unknown; the district clerk's search is script-gated.",
+        "Whether Stites and Rodriguez were later dismissed, which could permit a second removal, is unknown."
       ]
     },
     "https://aiincidentlaw.org/allegation/aiel-2025-004-allegation.json": {
@@ -4963,23 +4988,25 @@
     "https://aiincidentlaw.org/authority/harris-county-125th-judicial-district-court.json": {
       "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "evidence_type": "media-hosted pleading copy",
+      "evidence_type": "primary record",
       "projection_basis": "curated-legal-graph",
-      "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-txsd-4_24-cv-00801/pdf/USCOURTS-txsd-4_24-cv-00801-1.pdf",
       "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
       "source_review_unresolved": [
-        "An issuing-court copy and the current Harris County docket status remain unreviewed."
+        "Status in the 125th Judicial District Court of Harris County after the 2024-08-14 remand is unknown; the district clerk's search is script-gated.",
+        "Whether Stites and Rodriguez were later dismissed, which could permit a second removal, is unknown."
       ]
     },
     "https://aiincidentlaw.org/authority/harris-county-texas-state-court-remanded-from-s-d-tex.json": {
       "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "evidence_type": "media-hosted pleading copy",
+      "evidence_type": "primary record",
       "projection_basis": "curated-retirement",
-      "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-txsd-4_24-cv-00801/pdf/USCOURTS-txsd-4_24-cv-00801-1.pdf",
       "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
       "source_review_unresolved": [
-        "An issuing-court copy and the current Harris County docket status remain unreviewed."
+        "Status in the 125th Judicial District Court of Harris County after the 2024-08-14 remand is unknown; the district clerk's search is script-gated.",
+        "Whether Stites and Rodriguez were later dismissed, which could permit a second removal, is unknown."
       ]
     },
     "https://aiincidentlaw.org/authority/michigan-court-of-claims-michigan-supreme-court.json": {
@@ -5179,12 +5206,15 @@
     "https://aiincidentlaw.org/authority/u-s-district-court-district-of-new-jersey.json": {
       "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "evidence_type": "party case page",
-      "projection_basis": "legacy-jurisdiction-inference",
-      "source": "https://aclu.org/cases/parks-v-mccormac",
-      "source_locator": "Parks v. McCormac, Civil No. 3:22-cv-05765",
+      "evidence_type": "primary record",
+      "projection_basis": "curated-legal-graph",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.njd.462874/gov.uscourts.njd.462874.125.0.pdf",
+      "source_locator": "Parks v. McCormac, No. 2:21-cv-04021 (D.N.J.)",
       "source_review_unresolved": [
-        "The current court docket status and an issuing-court source remain unreviewed."
+        "Whether a Rule 41 dismissal order or so-ordered stipulation was entered after 2024-09-05; RECAP holds nothing after Dkt. 126 and the docket page is script-blocked.",
+        "filing_date '2022-09' is unsupported by any retrieved document; docket metadata indicates 2021-03-03 but no primary document states the removal date.",
+        "Image-only pages 20-22 and 27 of Dkt. 126 (stipulations) were not read.",
+        "The disposition of claims against IDEMIA, Inc. is not visible in the retrieved documents."
       ]
     },
     "https://aiincidentlaw.org/authority/u-s-district-court-district-of-oregon.json": {
@@ -5334,12 +5364,13 @@
     "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-texas.json": {
       "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "evidence_type": "media-hosted pleading copy",
+      "evidence_type": "primary record",
       "projection_basis": "curated-legal-graph",
-      "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-txsd-4_24-cv-00801/pdf/USCOURTS-txsd-4_24-cv-00801-1.pdf",
       "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
       "source_review_unresolved": [
-        "An issuing-court copy and the current Harris County docket status remain unreviewed."
+        "Status in the 125th Judicial District Court of Harris County after the 2024-08-14 remand is unknown; the district clerk's search is script-gated.",
+        "Whether Stites and Rodriguez were later dismissed, which could permit a second removal, is unknown."
       ]
     },
     "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-louisiana.json": {
@@ -5474,6 +5505,20 @@
       "projection_basis": "legacy-filing-status-inference",
       "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
       "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827"
+    },
+    "https://aiincidentlaw.org/determination/aiel-2024-015-determination.json": {
+      "admission_status": "source-consistency-reviewed-changes",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "evidence_type": "primary record",
+      "projection_basis": "curated-legal-graph",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.njd.462874/gov.uscourts.njd.462874.125.0.pdf",
+      "source_locator": "Parks v. McCormac, No. 2:21-cv-04021 (D.N.J.)",
+      "source_review_unresolved": [
+        "Whether a Rule 41 dismissal order or so-ordered stipulation was entered after 2024-09-05; RECAP holds nothing after Dkt. 126 and the docket page is script-blocked.",
+        "filing_date '2022-09' is unsupported by any retrieved document; docket metadata indicates 2021-03-03 but no primary document states the removal date.",
+        "Image-only pages 20-22 and 27 of Dkt. 126 (stipulations) were not read.",
+        "The disposition of claims against IDEMIA, Inc. is not visible in the retrieved documents."
+      ]
     },
     "https://aiincidentlaw.org/determination/aiel-2025-004-determination.json": {
       "admission_status": "legacy-unreviewed",
@@ -6002,23 +6047,27 @@
     "https://aiincidentlaw.org/party/aiel-2024-015-deployer.json": {
       "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "evidence_type": "party case page",
+      "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
-      "source": "https://aclu.org/cases/parks-v-mccormac",
-      "source_locator": "Parks v. McCormac, Civil No. 3:22-cv-05765",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.njd.462874/gov.uscourts.njd.462874.125.0.pdf",
+      "source_locator": "Parks v. McCormac, No. 2:21-cv-04021 (D.N.J.)",
       "source_review_unresolved": [
-        "The current court docket status and an issuing-court source remain unreviewed."
+        "Whether a Rule 41 dismissal order or so-ordered stipulation was entered after 2024-09-05; RECAP holds nothing after Dkt. 126 and the docket page is script-blocked.",
+        "filing_date '2022-09' is unsupported by any retrieved document; docket metadata indicates 2021-03-03 but no primary document states the removal date.",
+        "Image-only pages 20-22 and 27 of Dkt. 126 (stipulations) were not read.",
+        "The disposition of claims against IDEMIA, Inc. is not visible in the retrieved documents."
       ]
     },
     "https://aiincidentlaw.org/party/aiel-2024-017-deployer.json": {
       "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "evidence_type": "media-hosted pleading copy",
+      "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
-      "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-txsd-4_24-cv-00801/pdf/USCOURTS-txsd-4_24-cv-00801-1.pdf",
       "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
       "source_review_unresolved": [
-        "An issuing-court copy and the current Harris County docket status remain unreviewed."
+        "Status in the 125th Judicial District Court of Harris County after the 2024-08-14 remand is unknown; the district clerk's search is script-gated.",
+        "Whether Stites and Rodriguez were later dismissed, which could permit a second removal, is unknown."
       ]
     },
     "https://aiincidentlaw.org/party/aiel-2025-004-deployer.json": {
@@ -6564,34 +6613,39 @@
     "https://aiincidentlaw.org/proceeding/aiel-2024-015-proceeding.json": {
       "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "evidence_type": "party case page",
-      "projection_basis": "legacy-record-inference",
-      "source": "https://aclu.org/cases/parks-v-mccormac",
-      "source_locator": "Parks v. McCormac, Civil No. 3:22-cv-05765",
+      "evidence_type": "primary record",
+      "projection_basis": "curated-legal-graph",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.njd.462874/gov.uscourts.njd.462874.125.0.pdf",
+      "source_locator": "Parks v. McCormac, No. 2:21-cv-04021 (D.N.J.)",
       "source_review_unresolved": [
-        "The current court docket status and an issuing-court source remain unreviewed."
+        "Whether a Rule 41 dismissal order or so-ordered stipulation was entered after 2024-09-05; RECAP holds nothing after Dkt. 126 and the docket page is script-blocked.",
+        "filing_date '2022-09' is unsupported by any retrieved document; docket metadata indicates 2021-03-03 but no primary document states the removal date.",
+        "Image-only pages 20-22 and 27 of Dkt. 126 (stipulations) were not read.",
+        "The disposition of claims against IDEMIA, Inc. is not visible in the retrieved documents."
       ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2024-017-federal-removal-proceeding.json": {
       "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "evidence_type": "media-hosted pleading copy",
+      "evidence_type": "primary record",
       "projection_basis": "curated-legal-graph",
-      "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-txsd-4_24-cv-00801/pdf/USCOURTS-txsd-4_24-cv-00801-1.pdf",
       "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
       "source_review_unresolved": [
-        "An issuing-court copy and the current Harris County docket status remain unreviewed."
+        "Status in the 125th Judicial District Court of Harris County after the 2024-08-14 remand is unknown; the district clerk's search is script-gated.",
+        "Whether Stites and Rodriguez were later dismissed, which could permit a second removal, is unknown."
       ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2024-017-proceeding.json": {
       "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "evidence_type": "media-hosted pleading copy",
+      "evidence_type": "primary record",
       "projection_basis": "curated-legal-graph",
-      "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-txsd-4_24-cv-00801/pdf/USCOURTS-txsd-4_24-cv-00801-1.pdf",
       "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
       "source_review_unresolved": [
-        "An issuing-court copy and the current Harris County docket status remain unreviewed."
+        "Status in the 125th Judicial District Court of Harris County after the 2024-08-14 remand is unknown; the district clerk's search is script-gated.",
+        "Whether Stites and Rodriguez were later dismissed, which could permit a second removal, is unknown."
       ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2025-004-proceeding.json": {
@@ -7185,6 +7239,7 @@
     "https://aiincidentlaw.org/determination/aiel-2024-008-determination.json|verified": "2026-04-22",
     "https://aiincidentlaw.org/determination/aiel-2024-010-determination.json|verified": "2026-04-22",
     "https://aiincidentlaw.org/determination/aiel-2024-014-determination.json|verified": "2026-04-22",
+    "https://aiincidentlaw.org/determination/aiel-2024-015-determination.json|verified": "2026-04-22",
     "https://aiincidentlaw.org/determination/aiel-2025-004-determination.json|verified": "2026-04-22",
     "https://aiincidentlaw.org/determination/aiel-2025-006-determination.json|verified": "2026-04-22",
     "https://aiincidentlaw.org/determination/aiel-2025-007-determination.json|verified": "2026-07-25",
@@ -7380,12 +7435,12 @@
     "by_type": {
       "of:Allegation": 67,
       "of:Authority": 59,
-      "of:Determination": 62,
+      "of:Determination": 63,
       "of:Party": 67,
       "of:Proceeding": 69,
       "of:Tombstone": 8
     },
-    "total": 332
+    "total": 333
   },
   "relations": {
     "anchors": {
@@ -7396,10 +7451,10 @@
       }
     },
     "decides": {
-      "edges": 62,
-      "sources": 62,
+      "edges": 63,
+      "sources": 63,
       "target_hosts": {
-        "aiincidentlaw.org": 62
+        "aiincidentlaw.org": 63
       }
     },
     "describesSameEntityAs": {
@@ -7417,10 +7472,10 @@
       }
     },
     "hasDetermination": {
-      "edges": 62,
-      "sources": 62,
+      "edges": 63,
+      "sources": 63,
       "target_hosts": {
-        "aiincidentlaw.org": 62
+        "aiincidentlaw.org": 63
       }
     },
     "heardBy": {
@@ -7431,10 +7486,10 @@
       }
     },
     "issuedBy": {
-      "edges": 62,
-      "sources": 62,
+      "edges": 63,
+      "sources": 63,
       "target_hosts": {
-        "aiincidentlaw.org": 62
+        "aiincidentlaw.org": 63
       }
     },
     "parties": {
@@ -7468,14 +7523,14 @@
   },
   "source_identity": {
     "ai_incident_law_record_id": {
-      "records": 206,
+      "records": 207,
       "unique_values": 67,
       "values_sha256": "6d946e3969b5310ddddef5cc70f6dcbc8cefa7892ef2ac56a679eb2a72ccbc4b"
     },
     "id": {
-      "records": 332,
-      "unique_values": 332,
-      "values_sha256": "afdd15fbd763675e62350b6b9e9d91ef7ecc5c8a678d7e3b7ca600cd214862bd"
+      "records": 333,
+      "unique_values": 333,
+      "values_sha256": "6277f6eaa789afd71df40392f490bd17868d8a08aedc2218b44fdf50314902d7"
     }
   },
   "tombstones": {

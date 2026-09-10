@@ -1,7 +1,7 @@
 ---
 title: "AI Incident Law INTENT"
-version: "0.1.0"
-last_updated: 2026-04-26
+version: "0.6.0"
+last_updated: 2026-09-09
 status: working-hypothesis
 description: "Standards-level strategy for the AI Incident Law dataset and reference site. Subscribes to portfolio-level working hypotheses. Defines stewardship principles, record admission criteria, refresh cadence, and contribution norms."
 tags: [intent, strategy, ai-incident-law, regulation, standards]
@@ -160,9 +160,11 @@ Subscribes to: Measurement Authority, Calibration Compounding (both from the por
 
 Current tier: working hypothesis.
 
-Last review: 2026-04-26.
+Last review: 2026-08-19. Three criterion clarifications (outcome valence, undetermined AI attribution, jurisdiction and the `global` bucket) were decided and recorded in the changelog below; none required a dataset version bump.
 
-Next scheduled review: 2026-07-31 (Q3 start) or after first major scope challenge requiring criterion revision, whichever comes first.
+Next scheduled review: 2026-11-30 (Q4), or when the pending criterion challenge below is disposed of, whichever comes first.
+
+Pending criterion challenge: AIEL-2024-001 (Moffatt v. Air Canada). The primary source establishes a chatbot defect and negligent misrepresentation but does not describe the chatbot's technical nature, and the undetermined-attribution rule requires the primary source itself to discuss AI. Whether "chatbot" in the record's own voice satisfies criterion 1 is a steward decision; until it is made the record stays included with `needs_review` set and its receipt lists the question as unresolved.
 
 ## Related docs
 
@@ -183,6 +185,7 @@ Next scheduled review: 2026-07-31 (Q3 start) or after first major scope challeng
 
 ## Changelog
 
+- 0.6.0 (2026-09-09): Reconciles the Status section with what actually happened: the 2026-08-19 criterion decisions are recorded as the last review, the next review is scheduled for Q4 2026, and the Moffatt attribution question is named as the pending criterion challenge rather than left implicit in a record's `needs_review` flag. No criterion changes.
 - 0.5.0 (2026-08-20): Records the temporary root-published Pages exception and the intentional absence of `llms-full.txt`; the URL-preserving `/docs` migration remains separately gated.
 - 0.4.0 (2026-08-19): Settles jurisdiction and the `global` bucket. `global` is `review` for non-US matters, not a publication destination; the four admission criteria are the only test and jurisdiction is not among them; source language does not block admission, bounded by requiring the operative language quoted in the original with an English rendering and the language recorded as a tag. Clarifying rather than widening or narrowing.
 - 0.3.0 (2026-08-19): Adds the undetermined-attribution rule refining criterion 1. AI need not be affirmatively found; it is enough that the primary source itself discusses AI in connection with the defect, bounded by requiring the discussion to be in the source rather than inferred by a third party, and by excluding matters where the source establishes a competing non-AI mechanism. Admitted records carry an explicit attribution qualifier, tag, and confidence cap. Widening, so no dataset version bump is required.

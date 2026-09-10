@@ -27,14 +27,17 @@
   "roles": [
     "deployer"
   ],
-  "source": "https://aclu.org/cases/parks-v-mccormac",
-  "source_locator": "Parks v. McCormac, Civil No. 3:22-cv-05765",
-  "evidence_type": "party case page",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.njd.462874/gov.uscourts.njd.462874.125.0.pdf",
+  "source_locator": "Parks v. McCormac, No. 2:21-cv-04021 (D.N.J.)",
+  "evidence_type": "primary record",
   "verified": "2026-04-22",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "projection_basis": "native-record-projection",
   "admission_status": "source-consistency-reviewed-changes",
   "source_review_unresolved": [
-    "The current court docket status and an issuing-court source remain unreviewed."
+    "Whether a Rule 41 dismissal order or so-ordered stipulation was entered after 2024-09-05; RECAP holds nothing after Dkt. 126 and the docket page is script-blocked.",
+    "filing_date '2022-09' is unsupported by any retrieved document; docket metadata indicates 2021-03-03 but no primary document states the removal date.",
+    "Image-only pages 20-22 and 27 of Dkt. 126 (stipulations) were not read.",
+    "The disposition of claims against IDEMIA, Inc. is not visible in the retrieved documents."
   ]
 }

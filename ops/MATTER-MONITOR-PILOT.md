@@ -45,3 +45,15 @@ The local age snapshot covers 115 records: 40 aged 91-180 days, 48 recent and 27
 
 ## Validation
 `npm run build` and `npm run check` pass, including the new `test:maintenance` suite (21 tests). Offline cases cover bounded requests, incorrect identity, media mirrors, blocked pages, PDF shells, retained pending work, persisted source changes/reversions, persistence failure and report/CLI guards. The maintenance suite also tests date boundaries, malformed dates, age provenance and failure-path artifact handling. The shared freshness core is copied byte-for-byte from the T05/T06 AI Tool Watch implementation. Live source receipts supplement fixtures; fixture success does not qualify inaccessible sources.
+
+## Follow-up tranche 2026-09-09
+Bounded issuing-court and current-docket pass over four of the five pilot matters (Parks, Murphy, CNN, Swanson), under the at-most-five-matters rule. Retrieval was curl-only with a descriptive User-Agent; CourtListener docket HTML pages returned HTTP 403, RECAP storage and GovInfo USCOURTS were reachable, Justia returned a Cloudflare interstitial, and the Harris County District Clerk search is JavaScript-gated and was not attempted. Nothing was bypassed.
+
+| Matter | Best source | Role | Outcome |
+|---|---|---|---|
+| AIEL-2024-015 Parks | D.N.J. Dkt. 125 termination order (2024-07-09) and Dkt. 126 settlement filing (2024-09-05), RECAP | primary record | Corrected: docket number, settled status, attribution wording, primary link, curated projection. Receipt in `data/admission/receipts.json`; evidence under `data/admission/raw/aiel-2024-015/`. |
+| AIEL-2024-017 Murphy | S.D. Tex. Dkt. 26 memorandum (2024-07-18) and Dkt. 30 remand order (2024-08-14), GovInfo | primary record | Corrected: primary link, secondary sources, chronology notes. Status stays pending; state docket after remand unobserved. Evidence under `data/admission/raw/aiel-2024-017/`. |
+| AIEL-2026-020 CNN | S.D.N.Y. Dkt. 31 motion to dismiss memorandum and Dkt. 34 scheduling order, RECAP | primary record | No field change: motion pending, opposition due 2026-09-25, no ruling. |
+| AIEL-2026-019 Swanson | Dkt. 1-1 cover sheet and Dkt. 1-2 EEOC exhibit, RECAP | primary record (exhibits only) | No field change: no court document describes the screening tool; "Answer" exists only as a docket-entry title; complaint not in RECAP. |
+
+The CNN and Swanson documents were retrieved but not retained under `data/admission/raw/` because no record field changed. Their RECAP URLs are stable and can be re-retrieved under the admission contract when a change is proposed. No Verified date was renewed. The media-hosted Murphy mirror is now a secondary source rather than the primary link, which closes the pilot's unsupported-mirror finding for that record.

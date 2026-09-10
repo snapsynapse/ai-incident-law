@@ -1,0 +1,481 @@
+{
+  "purpose": "F15 traversal fixtures. Each fixture starts at a generated Determination (or at the Allegation where no adjudicative Determination exists), walks to the Proceeding(s) that carry it, then to the EveryAILaw category anchor(s) on the Determination, then to any concrete obligation anchor. Every hop records the evidence state observed in api/v1/of so that curated procedural meaning is never confused with legacy inference.",
+  "evidence_state_rules": {
+    "curated": "The hop's data was written by hand. For Proceeding and Determination entities this means projection_basis is curated-legal-graph (a legal_graph block in data/data.json). For Allegation and Party entities it means native-record-projection (verbatim native fields, no procedural inference). For Tombstones it means curated-retirement. For anchors it means the native record's obligation_first_anchors field is present and the generated Determination.anchors equals it exactly.",
+    "inferred": "The hop's procedural meaning was derived by the legacy path from filing_status, the native record shape, or the jurisdiction string: projection_basis matches legacy-filing-status-inference, legacy-record-inference, or legacy-jurisdiction-inference.",
+    "missing": "The hop has no entity or no anchor in the generated output and the native record supplies none. A missing anchor must stay missing; no default anchor is invented.",
+    "conflicted": "Two sources disagree: generated Determination.anchors differs from native obligation_first_anchors, native anchors exist with no Determination to carry them, or a relation points at an entity that does not resolve. No conflicted case exists in the current corpus; the conflicted fixture below is a synthetic in-test mutation and says so."
+  },
+  "basis_to_state": {
+    "curated-legal-graph": "curated",
+    "native-record-projection": "curated",
+    "curated-retirement": "curated",
+    "legacy-filing-status-inference": "inferred",
+    "legacy-record-inference": "inferred",
+    "legacy-jurisdiction-inference": "inferred"
+  },
+  "anchor_guardrail": "A category anchor (https://everyailaw.com/obligation-category/<slug>.json) names a broad concept. It never entails a concrete statutory duty. An obligation anchor (https://everyailaw.com/obligation/<slug>.json) is asserted only where the native record's obligation_first_anchors carries one. The current corpus carries no obligation anchors, so every fixture's expected_obligation_anchors is empty and its obligation_anchor state is missing.",
+  "expected_counts": {
+    "included_matters": 67,
+    "matters_with_legal_graph_block": 11,
+    "matters_with_curated_proceedings": 9,
+    "matters_with_curated_determinations": 8,
+    "matters_with_inferred_proceedings": 58,
+    "proceedings_curated": 11,
+    "proceedings_inferred": 58,
+    "determinations_curated": 8,
+    "determinations_inferred": 55,
+    "determinations_with_category_anchors": 59,
+    "determinations_with_obligation_anchors": 0,
+    "conflicted_category_hops_in_corpus": 0
+  },
+  "fixtures": [
+    {
+      "id": "F15-01-curated-reviewed-no-anchor",
+      "source_record_id": "AIEL-2024-001",
+      "synthetic": false,
+      "start": {
+        "kind": "determination",
+        "id": "aiel-2024-001-determination"
+      },
+      "hops": [
+        {
+          "hop": "determination",
+          "ids": [
+            "aiel-2024-001-determination"
+          ],
+          "projection_basis": "curated-legal-graph",
+          "admission_status": "source-consistency-reviewed-changes",
+          "disposition": "confirmed",
+          "state": "curated"
+        },
+        {
+          "hop": "allegation",
+          "ids": [
+            "aiel-2024-001-allegation"
+          ],
+          "projection_basis": "native-record-projection",
+          "state": "curated"
+        },
+        {
+          "hop": "proceeding",
+          "ids": [
+            "aiel-2024-001-proceeding"
+          ],
+          "projection_basis": "curated-legal-graph",
+          "procedural_stage": "final-decision-issued",
+          "state": "curated"
+        },
+        {
+          "hop": "category_anchor",
+          "expected_anchors": [],
+          "state": "missing",
+          "reason": "The native record has no obligation_first_anchors; the generated Determination carries no anchors."
+        },
+        {
+          "hop": "obligation_anchor",
+          "expected_anchors": [],
+          "state": "missing",
+          "reason": "No category anchor exists, and a category anchor would not entail a statutory duty in any case."
+        }
+      ],
+      "summary": {
+        "procedural": "curated",
+        "category_anchor": "missing",
+        "obligation_anchor": "missing"
+      }
+    },
+    {
+      "id": "F15-02-curated-through-category",
+      "source_record_id": "AIEL-2023-002",
+      "synthetic": false,
+      "start": {
+        "kind": "determination",
+        "id": "aiel-2023-002-determination"
+      },
+      "hops": [
+        {
+          "hop": "determination",
+          "ids": [
+            "aiel-2023-002-determination"
+          ],
+          "projection_basis": "curated-legal-graph",
+          "admission_status": "legacy-unreviewed",
+          "disposition": "confirmed",
+          "state": "curated"
+        },
+        {
+          "hop": "allegation",
+          "ids": [
+            "aiel-2023-002-allegation"
+          ],
+          "projection_basis": "native-record-projection",
+          "state": "curated"
+        },
+        {
+          "hop": "proceeding",
+          "ids": [
+            "aiel-2023-002-proceeding"
+          ],
+          "projection_basis": "curated-legal-graph",
+          "procedural_stage": "federal-civil-action-after-removal",
+          "state": "curated"
+        },
+        {
+          "hop": "category_anchor",
+          "expected_anchors": [
+            "https://everyailaw.com/obligation-category/human-oversight.json"
+          ],
+          "state": "curated"
+        },
+        {
+          "hop": "obligation_anchor",
+          "expected_anchors": [],
+          "state": "missing",
+          "reason": "The human-oversight category anchor is a broad concept. The native record asserts no concrete obligation anchor, so none is expected."
+        }
+      ],
+      "summary": {
+        "procedural": "curated",
+        "category_anchor": "curated",
+        "obligation_anchor": "missing"
+      }
+    },
+    {
+      "id": "F15-03-curated-multi-proceeding",
+      "source_record_id": "AIEL-2022-011",
+      "synthetic": false,
+      "start": {
+        "kind": "determination",
+        "id": "aiel-2022-011-determination"
+      },
+      "hops": [
+        {
+          "hop": "determination",
+          "ids": [
+            "aiel-2022-011-determination"
+          ],
+          "projection_basis": "curated-legal-graph",
+          "admission_status": "legacy-unreviewed",
+          "disposition": "partial",
+          "state": "curated"
+        },
+        {
+          "hop": "allegation",
+          "ids": [
+            "aiel-2022-011-allegation"
+          ],
+          "projection_basis": "native-record-projection",
+          "state": "curated"
+        },
+        {
+          "hop": "proceeding",
+          "ids": [
+            "aiel-2022-011-proceeding"
+          ],
+          "excluded_ids": [
+            "aiel-2022-011-court-of-claims-proceeding"
+          ],
+          "projection_basis": "curated-legal-graph",
+          "procedural_stage": "appeal",
+          "state": "curated",
+          "reason": "The curated block has two Proceedings. Only the Michigan Supreme Court proceeding lists this Determination; the Court of Claims proceeding is on the matter but not on this path."
+        },
+        {
+          "hop": "category_anchor",
+          "expected_anchors": [
+            "https://everyailaw.com/obligation-category/human-oversight.json",
+            "https://everyailaw.com/obligation-category/explainability.json",
+            "https://everyailaw.com/obligation-category/bias-prevention.json"
+          ],
+          "state": "curated"
+        },
+        {
+          "hop": "obligation_anchor",
+          "expected_anchors": [],
+          "state": "missing",
+          "reason": "Three category anchors, no concrete obligation anchor in the native record."
+        }
+      ],
+      "summary": {
+        "procedural": "curated",
+        "category_anchor": "curated",
+        "obligation_anchor": "missing"
+      }
+    },
+    {
+      "id": "F15-04-legacy-inferred-with-category",
+      "source_record_id": "AIEL-2025-004",
+      "synthetic": false,
+      "start": {
+        "kind": "determination",
+        "id": "aiel-2025-004-determination"
+      },
+      "hops": [
+        {
+          "hop": "determination",
+          "ids": [
+            "aiel-2025-004-determination"
+          ],
+          "projection_basis": "legacy-filing-status-inference",
+          "admission_status": "legacy-unreviewed",
+          "disposition": "confirmed",
+          "state": "inferred",
+          "reason": "No legal_graph block. The Determination and its disposition were inferred from filing_status 'sanctioned'."
+        },
+        {
+          "hop": "allegation",
+          "ids": [
+            "aiel-2025-004-allegation"
+          ],
+          "projection_basis": "native-record-projection",
+          "state": "curated"
+        },
+        {
+          "hop": "proceeding",
+          "ids": [
+            "aiel-2025-004-proceeding"
+          ],
+          "projection_basis": "legacy-record-inference",
+          "state": "inferred"
+        },
+        {
+          "hop": "category_anchor",
+          "expected_anchors": [
+            "https://everyailaw.com/obligation-category/human-oversight.json"
+          ],
+          "state": "curated",
+          "reason": "The anchor text is the native obligation_first_anchors field, hand-written; it is carried by an inferred Determination. The anchor hop is curated while the procedural hops stay inferred."
+        },
+        {
+          "hop": "obligation_anchor",
+          "expected_anchors": [],
+          "state": "missing"
+        }
+      ],
+      "summary": {
+        "procedural": "inferred",
+        "category_anchor": "curated",
+        "obligation_anchor": "missing"
+      }
+    },
+    {
+      "id": "F15-05-legacy-inferred-no-anchor",
+      "source_record_id": "AIEL-2026-064",
+      "synthetic": false,
+      "start": {
+        "kind": "determination",
+        "id": "aiel-2026-064-determination"
+      },
+      "hops": [
+        {
+          "hop": "determination",
+          "ids": [
+            "aiel-2026-064-determination"
+          ],
+          "projection_basis": "legacy-filing-status-inference",
+          "admission_status": "legacy-unreviewed",
+          "disposition": "partial",
+          "state": "inferred",
+          "reason": "Disposition inferred from filing_status 'admonished; no sanction imposed'."
+        },
+        {
+          "hop": "allegation",
+          "ids": [
+            "aiel-2026-064-allegation"
+          ],
+          "projection_basis": "native-record-projection",
+          "state": "curated"
+        },
+        {
+          "hop": "proceeding",
+          "ids": [
+            "aiel-2026-064-proceeding"
+          ],
+          "projection_basis": "legacy-record-inference",
+          "state": "inferred"
+        },
+        {
+          "hop": "category_anchor",
+          "expected_anchors": [],
+          "state": "missing"
+        },
+        {
+          "hop": "obligation_anchor",
+          "expected_anchors": [],
+          "state": "missing"
+        }
+      ],
+      "summary": {
+        "procedural": "inferred",
+        "category_anchor": "missing",
+        "obligation_anchor": "missing"
+      }
+    },
+    {
+      "id": "F15-06-allegation-start-retired-determination",
+      "source_record_id": "AIEL-2026-019",
+      "synthetic": false,
+      "start": {
+        "kind": "allegation",
+        "id": "aiel-2026-019-allegation"
+      },
+      "hops": [
+        {
+          "hop": "determination",
+          "ids": [],
+          "retired_ids": [
+            "aiel-2026-019-determination"
+          ],
+          "retired_projection_basis": "curated-retirement",
+          "state": "missing",
+          "reason": "filing_status 'filed'. The legal_graph block declares determinations: [] and retires aiel-2026-019-determination as a Tombstone; no live Determination decides this Allegation."
+        },
+        {
+          "hop": "allegation",
+          "ids": [
+            "aiel-2026-019-allegation"
+          ],
+          "projection_basis": "native-record-projection",
+          "state": "curated"
+        },
+        {
+          "hop": "proceeding",
+          "ids": [
+            "aiel-2026-019-proceeding"
+          ],
+          "projection_basis": "legacy-record-inference",
+          "state": "inferred",
+          "reason": "The legal_graph block has no proceedings key, so the Proceeding is still projected by legacy inference even though the record carries a curated block."
+        },
+        {
+          "hop": "category_anchor",
+          "expected_anchors": [],
+          "state": "missing"
+        },
+        {
+          "hop": "obligation_anchor",
+          "expected_anchors": [],
+          "state": "missing"
+        }
+      ],
+      "summary": {
+        "procedural": "inferred",
+        "category_anchor": "missing",
+        "obligation_anchor": "missing"
+      }
+    },
+    {
+      "id": "F15-07-allegation-start-curated-pending",
+      "source_record_id": "AIEL-2024-017",
+      "synthetic": false,
+      "start": {
+        "kind": "allegation",
+        "id": "aiel-2024-017-allegation"
+      },
+      "hops": [
+        {
+          "hop": "determination",
+          "ids": [],
+          "state": "missing",
+          "reason": "filing_status 'pending'. The curated block declares determinations: []."
+        },
+        {
+          "hop": "allegation",
+          "ids": [
+            "aiel-2024-017-allegation"
+          ],
+          "projection_basis": "native-record-projection",
+          "state": "curated"
+        },
+        {
+          "hop": "proceeding",
+          "ids": [
+            "aiel-2024-017-proceeding",
+            "aiel-2024-017-federal-removal-proceeding"
+          ],
+          "projection_basis": "curated-legal-graph",
+          "state": "curated",
+          "reason": "Both curated Proceedings (state trial and federal removal) list this Allegation."
+        },
+        {
+          "hop": "category_anchor",
+          "expected_anchors": [],
+          "state": "missing"
+        },
+        {
+          "hop": "obligation_anchor",
+          "expected_anchors": [],
+          "state": "missing"
+        }
+      ],
+      "summary": {
+        "procedural": "curated",
+        "category_anchor": "missing",
+        "obligation_anchor": "missing"
+      }
+    },
+    {
+      "id": "F15-08-synthetic-conflicted-anchor",
+      "source_record_id": "AIEL-2023-002",
+      "synthetic": true,
+      "synthetic_note": "The corpus has no conflicted case. This fixture applies an in-memory mutation to the loaded copy of aiel-2023-002-determination so that its anchors differ from the native obligation_first_anchors. Nothing on disk changes.",
+      "synthetic_mutation": {
+        "record": "aiel-2023-002-determination",
+        "field": "anchors",
+        "value": [
+          "https://everyailaw.com/obligation-category/explainability.json"
+        ]
+      },
+      "start": {
+        "kind": "determination",
+        "id": "aiel-2023-002-determination"
+      },
+      "hops": [
+        {
+          "hop": "determination",
+          "ids": [
+            "aiel-2023-002-determination"
+          ],
+          "projection_basis": "curated-legal-graph",
+          "admission_status": "legacy-unreviewed",
+          "disposition": "confirmed",
+          "state": "curated"
+        },
+        {
+          "hop": "allegation",
+          "ids": [
+            "aiel-2023-002-allegation"
+          ],
+          "projection_basis": "native-record-projection",
+          "state": "curated"
+        },
+        {
+          "hop": "proceeding",
+          "ids": [
+            "aiel-2023-002-proceeding"
+          ],
+          "projection_basis": "curated-legal-graph",
+          "procedural_stage": "federal-civil-action-after-removal",
+          "state": "curated"
+        },
+        {
+          "hop": "category_anchor",
+          "expected_anchors": [],
+          "state": "conflicted",
+          "reason": "Generated anchors (mutated) disagree with native obligation_first_anchors. A conflicted hop asserts no expected anchors."
+        },
+        {
+          "hop": "obligation_anchor",
+          "expected_anchors": [],
+          "state": "missing"
+        }
+      ],
+      "summary": {
+        "procedural": "curated",
+        "category_anchor": "conflicted",
+        "obligation_anchor": "missing"
+      }
+    }
+  ]
+}

@@ -16,17 +16,13 @@
       "reliance_or_harm": "ail:relianceOrHarm",
       "projection_basis": "ail:projectionBasis",
       "admission_status": "ail:admissionStatus",
-      "source_review_unresolved": "ail:sourceReviewUnresolved",
-      "filing_date_source": "ail:filingDateSource",
-      "procedural_stage": "ail:proceduralStage"
+      "source_review_unresolved": "ail:sourceReviewUnresolved"
     }
   ],
-  "@type": "of:Proceeding",
-  "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-015-proceeding.json",
-  "id": "aiel-2024-015-proceeding",
-  "title": "Parks v. McCormac, No. 2:21-cv-04021",
-  "filing_date_source": "2022-09",
-  "heardBy": [
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2024-015-determination.json",
+  "id": "aiel-2024-015-determination",
+  "issuedBy": [
     "https://aiincidentlaw.org/authority/u-s-district-court-district-of-new-jersey.json"
   ],
   "jurisdiction": {
@@ -38,21 +34,16 @@
       "U.S. District Court, District of New Jersey"
     ]
   },
-  "territorial_scope": [
-    "us-nj"
-  ],
-  "institutional_scope": [
-    "U.S. District Court, District of New Jersey"
-  ],
-  "parties": [
-    "https://aiincidentlaw.org/party/aiel-2024-015-deployer.json"
-  ],
-  "hasAllegation": [
+  "decides": [
     "https://aiincidentlaw.org/allegation/aiel-2024-015-allegation.json"
   ],
-  "hasDetermination": [
-    "https://aiincidentlaw.org/determination/aiel-2024-015-determination.json"
-  ],
+  "disposition": "settled",
+  "issued_date": "2024-07-09",
+  "remedy": {
+    "status": "settled",
+    "notes": "At a 2024-07-08 settlement conference the parties reached a settlement in principle, and Magistrate Judge Wettre administratively terminated the action on 2024-07-09 by a 60-day order that is expressly not a Rule 41 dismissal (Dkt. 125). On 2024-09-05 defense counsel filed the executed Settlement Agreement and Release, under which the Township of Woodbridge pays $300,000 with no admission of liability, together with stipulations of dismissal (Dkt. 126). No merits ruling on the facial-recognition claims was issued; defendants' summary-judgment motion was pending when the case settled. An entered dismissal order after Dkt. 126 was not located."
+  },
+  "notes": "At a 2024-07-08 settlement conference the parties reached a settlement in principle, and Magistrate Judge Wettre administratively terminated the action on 2024-07-09 by a 60-day order that is expressly not a Rule 41 dismissal (Dkt. 125). On 2024-09-05 defense counsel filed the executed Settlement Agreement and Release, under which the Township of Woodbridge pays $300,000 with no admission of liability, together with stipulations of dismissal (Dkt. 126). No merits ruling on the facial-recognition claims was issued; defendants' summary-judgment motion was pending when the case settled. An entered dismissal order after Dkt. 126 was not located.",
   "source": "https://storage.courtlistener.com/recap/gov.uscourts.njd.462874/gov.uscourts.njd.462874.125.0.pdf",
   "source_locator": "Parks v. McCormac, No. 2:21-cv-04021 (D.N.J.)",
   "evidence_type": "primary record",
@@ -66,8 +57,5 @@
     "Image-only pages 20-22 and 27 of Dkt. 126 (stipulations) were not read.",
     "The disposition of claims against IDEMIA, Inc. is not visible in the retrieved documents."
   ],
-  "ai_incident_law_record_id": "AIEL-2024-015",
-  "matter_type": "federal civil rights action",
-  "filing_status": "settled",
-  "procedural_stage": "federal-civil-action-after-removal"
+  "ai_incident_law_record_id": "AIEL-2024-015"
 }

@@ -216,8 +216,12 @@ test("source follow-up preserves source roles and keeps Mitchell pending human a
   const mitchell = source.datasets.review.records.find(record => record.candidate_id === "AIEL-CAND-031");
   const cnnAllegation = allegations.find(record => record.id === "aiel-2026-020-allegation");
 
-  assert.equal(parks.source_quality, "party case page");
-  assert.equal(murphy.source_quality, "media-hosted pleading copy");
+  assert.equal(parks.source_quality, "primary record");
+  assert.equal(parks.public_record_link, "https://storage.courtlistener.com/recap/gov.uscourts.njd.462874/gov.uscourts.njd.462874.125.0.pdf");
+  assert.equal(parks.filing_status, "settled");
+  assert.equal(murphy.source_quality, "primary record");
+  assert.equal(murphy.public_record_link, "https://govinfo.gov/content/pkg/USCOURTS-txsd-4_24-cv-00801/pdf/USCOURTS-txsd-4_24-cv-00801-1.pdf");
+  assert.equal(murphy.filing_status, "pending");
   assert.equal(cnn.public_record_link, "https://storage.courtlistener.com/recap/gov.uscourts.nysd.664916/gov.uscourts.nysd.664916.1.0_1.pdf");
   assert.equal(cnnAllegation.source, cnn.public_record_link);
   assert.equal(mitchell.last_checked_date, "2026-09-09");

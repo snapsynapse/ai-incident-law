@@ -1,0 +1,23 @@
+HTTP/2 200 
+content-type: application/pdf
+content-length: 749217
+accept-ranges: bytes
+date: Thu, 10 Sep 2026 05:48:08 GMT
+server: AmazonS3
+last-modified: Fri, 05 Jun 2026 14:58:35 GMT
+etag: "e13f1525d7a7fa8bf763e0e1e37dd12e"
+cache-control: max-age=315360000
+expires: Thu, 31 Dec 2037 23:55:55 GMT
+x-amz-server-side-encryption: AES256
+x-amz-storage-class: INTELLIGENT_TIERING
+via: 1.1 d26a7f8038e3064e4a232642ca462c2a.cloudfront.net (CloudFront)
+x-robots-tag: noindex, noodp, noarchive, noimageindex
+referrer-policy: same-origin
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-test: 2021-04-06T15
+x-cache: Miss from cloudfront
+x-amz-cf-pop: SLC52-P1
+x-amz-cf-id: WtardR0X4hViInvuR-B1hST4iZEGReKAovwIPqzZ40guP8q3HQdY0w==
+

@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/context.jsonld",
-  "generated": "2026-09-09",
+  "generated": "2026-09-10",
   "authorities": [
     {
       "@context": [
@@ -845,18 +845,21 @@
       "institutional_scope": [
         "U.S. District Court, District of New Jersey"
       ],
-      "source": "https://aclu.org/cases/parks-v-mccormac",
-      "source_locator": "Parks v. McCormac, Civil No. 3:22-cv-05765",
-      "evidence_type": "party case page",
-      "verified": "2026-04-22",
-      "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "projection_basis": "legacy-jurisdiction-inference",
-      "admission_status": "source-consistency-reviewed-changes",
-      "source_review_unresolved": [
-        "The current court docket status and an issuing-court source remain unreviewed."
-      ],
       "sameAs": [
         "https://wikidata.org/entity/Q775899"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.njd.462874/gov.uscourts.njd.462874.125.0.pdf",
+      "source_locator": "Parks v. McCormac, No. 2:21-cv-04021 (D.N.J.)",
+      "evidence_type": "primary record",
+      "verified": "2026-04-22",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Whether a Rule 41 dismissal order or so-ordered stipulation was entered after 2024-09-05; RECAP holds nothing after Dkt. 126 and the docket page is script-blocked.",
+        "filing_date '2022-09' is unsupported by any retrieved document; docket metadata indicates 2021-03-03 but no primary document states the removal date.",
+        "Image-only pages 20-22 and 27 of Dkt. 126 (stipulations) were not read.",
+        "The disposition of claims against IDEMIA, Inc. is not visible in the retrieved documents."
       ]
     },
     {
@@ -902,15 +905,16 @@
       "institutional_scope": [
         "Harris County 125th Judicial District Court"
       ],
-      "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-txsd-4_24-cv-00801/pdf/USCOURTS-txsd-4_24-cv-00801-1.pdf",
       "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
-      "evidence_type": "media-hosted pleading copy",
+      "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "curated-legal-graph",
       "admission_status": "source-consistency-reviewed-changes",
       "source_review_unresolved": [
-        "An issuing-court copy and the current Harris County docket status remain unreviewed."
+        "Status in the 125th Judicial District Court of Harris County after the 2024-08-14 remand is unknown; the district clerk's search is script-gated.",
+        "Whether Stites and Rodriguez were later dismissed, which could permit a second removal, is unknown."
       ]
     },
     {
@@ -956,15 +960,16 @@
       "institutional_scope": [
         "U.S. District Court, Southern District of Texas"
       ],
-      "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-txsd-4_24-cv-00801/pdf/USCOURTS-txsd-4_24-cv-00801-1.pdf",
       "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
-      "evidence_type": "media-hosted pleading copy",
+      "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "curated-legal-graph",
       "admission_status": "source-consistency-reviewed-changes",
       "source_review_unresolved": [
-        "An issuing-court copy and the current Harris County docket status remain unreviewed."
+        "Status in the 125th Judicial District Court of Harris County after the 2024-08-14 remand is unknown; the district clerk's search is script-gated.",
+        "Whether Stites and Rodriguez were later dismissed, which could permit a second removal, is unknown."
       ]
     },
     {
