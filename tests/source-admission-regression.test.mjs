@@ -121,7 +121,9 @@ test("npm pack fails before creating an archive when native data is unadmitted",
     const result = spawnSync("npm", ["pack", "--pack-destination", packDir], {
       cwd: fixture,
       encoding: "utf8",
-      env: { ...process.env, npm_config_cache: path.join(fixture, "npm-cache") }
+      // This fixture is a different Git repository. Replay its own uncommitted
+      // mutation instead of inheriting the production owner's CI base SHA.
+      env: { ...process.env, SOURCE_ADMISSION_BASE: git(["rev-parse", "HEAD"]).stdout.trim(), npm_config_cache: path.join(fixture, "npm-cache") }
     });
     assert.equal(result.status, 1, "npm pack created an archive from an unadmitted native change");
     assert.match(result.stdout + result.stderr, /Changed or new native record requires an admission receipt/);
