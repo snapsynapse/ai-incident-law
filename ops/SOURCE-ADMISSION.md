@@ -45,3 +45,6 @@ canonical_source_conflicted is existing native subject-matter text describing wh
 
 ## Limits
 Receipt acceptance proves deterministic traceability and a declared, bounded review of changed fields. Exact hash and excerpt matching do not establish legal entailment, complete source interpretation, docket currentness, authenticated human identity, or exhaustive corpus review. Human-type declarations still require an actual human decision outside this code. Semantic disagreements remain human-owned.
+
+## Research-intake boundary
+The durable corpus unit and admission policy are defined by `INTENT.md`, `docs/data-schema.md`, and source-admission receipts. A planning brief that proposes an error-event-first research taxonomy, without retained primary-source bytes or resolvable citations, is not admission evidence and cannot alter those criteria. A distinct error event may be described when the admitted matter's source packet establishes it, but a broader indexing change requires a separately reviewed policy decision and source-backed records.

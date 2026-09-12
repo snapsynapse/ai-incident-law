@@ -2,51 +2,51 @@
   "schema_version": "1.0",
   "repository": "ai-incident-law",
   "profile": "package",
-  "authority": "R2",
-  "start_head": "95c7518040021d12563157f0eea353c2fdf6dabc",
-  "candidate_head": "793605e6e68de60f98069f3eabc3c8ab7cf0a00d",
+  "authority": "R1",
+  "start_head": "c3cc48e23a92b0dc7d0130dd0380951d961573bf",
+  "candidate_head": "c3cc48e23a92b0dc7d0130dd0380951d961573bf",
   "candidate_version": "0.4.2",
-  "updated_at": "2026-09-09T02:35:00Z",
+  "updated_at": "2026-09-12T15:04:36Z",
   "steps": [
     {
       "id": "reconciliation",
       "status": "completed",
-      "evidence": "Local branch was clean, zero behind and three commits ahead of origin/main at preparation start. At 2026-09-09T02:35:00Z, independent readbacks found no open PR, no remote v0.4.2 tag, latest GitHub, npm, and MCP Registry version 0.4.1, and no npm or MCP Registry 0.4.2 entry. A final prepublication refresh remains required."
+      "evidence": "Fresh `git fetch --prune origin` resolved origin/main to c3cc48e23a92b0dc7d0130dd0380951d961573bf. The isolated candidate was clean and zero ahead/behind; its source-tree fingerprint was 65b800a69b91e4183505a9e4d17b35c6fa5d7a15, and `git diff --check v0.4.1..c3cc48e` passed for the 17-commit, 761-file candidate range. As of 2026-09-12T15:04:36Z, v0.4.2 had no remote tag, GitHub Release, npm version, or MCP Registry version. GitHub latest v0.4.1 was published 2026-09-07T15:28:05Z with its attached tgz SHA-256 251195c8f6f9765f34f900ef6b2868a049bc6f822c33101a7bccaa317050b55d; npm latest was 0.4.1 published 2026-09-07T16:14:33.474Z; and MCP Registry latest was active io.github.snapsynapse/ai-incident-law@0.4.1."
     },
     {
       "id": "local_preparation",
       "status": "ready",
-      "evidence": "Version, changelog, release notes, package metadata, MCP descriptor, GuideCheck manifests, and project status are committed at candidate_head. Build, full check, discovery alignment, GuideCheck validation, naming-profile validation, and clean installed-package evaluation passed before commit. Clean exact-head verification is recorded separately after this state update. Local commit authority does not authorize push, tag, release, publication, or deployment."
+      "evidence": "No release-source edit is required: package.json, server.json, CHANGELOG.md, RELEASE_NOTES-v0.4.2.md, MCP descriptor, and generated assets are already committed at candidate_head. Fresh npm ci and `npm_config_audit=false OBLIGATION_FIRST_DIR=/private/tmp/legal-graph-release-2026-09-12/obligation-first CHECK_OF_REQUIRED=1 npm run verify:ci` passed without generated drift. It covered the build, complete check suite, package consumer evaluation, 117 source records, 333 Obligation-First records, 317 identifier-continuity baseline identifiers, 8 MCP tools, and no URL-policy, discovery, publication-state, naming-profile, search, corpus-snapshot, or maintenance failures. The pinned checker remains 7f032fc5482b34359770bc50ca6fa94c6606e6fb; Obligation-First 0.6.6 satisfied the unchanged >=0.6.0 <0.7.0 profile range."
     },
     {
       "id": "packed_candidate",
       "status": "ready",
-      "evidence": "Fresh ai-incident-law@0.4.2 package evaluation passed with 356 files, 8 MCP tools, 1725678 unpacked bytes, guide SHA256 3fed9ab654aa04ccd5b0e908a0ace6138fefed3a73463d3daf9c8ebf5491cc08, and archive SHA256 005b6e56a9c4803f367cec10a79680391508a80f44c0fdbf4aa4446b32365942. Candidate is local and unpublished."
+      "evidence": "Fresh clean-consumer evaluation passed for ai-incident-law@0.4.2: 363 files, 1985159 unpacked bytes, archive SHA256 6e32e5343ccc0d104a3d61d74d0ecd2599b055496dc023730c47bf4166f04130, 8 MCP tools, and guide SHA256 3fed9ab654aa04ccd5b0e908a0ace6138fefed3a73463d3daf9c8ebf5491cc08. Dry-run pack identified ai-incident-law-0.4.2.tgz at 268219 bytes with SHA-1 243d5c4eb4f816f57fadb3e0ae1d3a01ab13e3b2 and integrity sha512-2MpjwDp/ccK1JXIe74Y6hZWbulFJAMIeHlNSCwxhrO0MMIppw4gyNJ0IlH+Lrv7Vs733dx8hAPeU5UZwef9V9w==. Candidate is local and unpublished."
     },
     {
       "id": "hosted_ci",
-      "status": "not_started",
-      "evidence": "No remote branch or PR was created."
+      "status": "blocked",
+      "evidence": "Validate passed on exact candidate c3cc48e23a92b0dc7d0130dd0380951d961573bf (run 34664497727, success at 2026-09-12T01:20:19Z). Accessibility Regression Gate accepts only pull_request or workflow_dispatch; no exact-candidate run exists."
     },
     {
       "id": "github_release",
-      "status": "not_started",
-      "evidence": "No tag or GitHub release was created."
+      "status": "blocked",
+      "evidence": "No v0.4.2 tag or GitHub Release exists. Creating either requires R2 authority after final origin, provider, and CI reconciliation."
     },
     {
       "id": "npm_publication",
-      "status": "not_started",
-      "evidence": "No npm publication was attempted."
+      "status": "blocked",
+      "evidence": "npm registry latest is ai-incident-law@0.4.1; 0.4.2 is absent. Publishing is an R2 external write and was not attempted."
     },
     {
       "id": "mcp_publication",
-      "status": "not_started",
-      "evidence": "No MCP Registry publication was attempted."
+      "status": "blocked",
+      "evidence": "MCP Registry latest is io.github.snapsynapse/ai-incident-law@0.4.1; the 0.4.2 endpoint returns HTTP 404. Publishing is an R2 external write and was not attempted."
     },
     {
       "id": "deployment",
-      "status": "not_started",
-      "evidence": "No site deployment or hosting change was attempted."
+      "status": "not_applicable",
+      "evidence": "This R1 package-release candidate does not include a deployment or hosting change. The separate Pages deployment on the candidate commit is not package-publication acceptance."
     },
     {
       "id": "published_consumer",
