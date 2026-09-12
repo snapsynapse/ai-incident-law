@@ -8,8 +8,8 @@ import path from "node:path";
 const ROOT = path.resolve(new URL("..", import.meta.url).pathname);
 const read = relative => readFileSync(path.join(ROOT, relative));
 function fixture() {
-  const snapshotBytes = read("design/PUBLISHED-MCP-0.4.1.snapshot.json");
   const state = JSON.parse(read("design/publication-state.json"));
+  const snapshotBytes = read(state.observations.npm.artifact_snapshot_path);
   const providerEvidence = Object.fromEntries(Object.entries(state.observations).map(([provider, observation]) => {
     const bytes = read(observation.evidence_path);
     return [provider, { path: observation.evidence_path, bytes, json: JSON.parse(bytes) }];
@@ -29,14 +29,14 @@ function fixture() {
   };
 }
 
-test("candidate-ahead state selects the exact verified published package and capabilities", () => {
+test("published release state selects the exact verified package and capabilities", () => {
   assert.deepEqual(validatePublicationState(fixture()), []);
 });
 
 test("a package version bump cannot auto-promote publication state", () => {
   const value = fixture();
   value.pkg.version = "0.4.3";
-  assert.match(validatePublicationState(value).join("\n"), /unpublished source candidate/);
+  assert.match(validatePublicationState(value).join("\n"), /verified published release/);
 });
 
 test("missing or wrong provider evidence fails closed", () => {
@@ -91,7 +91,7 @@ test("provider error and unknown states cannot select an install version", () =>
   }
 });
 
-test("candidate-only tools cannot leak into published discovery claims", () => {
+test("unrecorded tools cannot leak into published discovery claims", () => {
   const value = fixture();
   value.discovery.local_server.tools.push("candidate_only_tool");
   assert.match(validatePublicationState(value).join("\n"), /public discovery tools differ from the published artifact snapshot/);

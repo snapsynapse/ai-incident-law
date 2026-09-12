@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-09-12T18:05:00Z",
+  "artifact": {
+    "source": "npm",
+    "name": "ai-incident-law",
+    "version": "0.4.2",
+    "published_at": "2026-09-12T17:48:32.181Z",
+    "tarball_url": "https://registry.npmjs.org/ai-incident-law/-/ai-incident-law-0.4.2.tgz",
+    "integrity": "sha512-2MpjwDp/ccK1JXIe74Y6hZWbulFJAMIeHlNSCwxhrO0MMIppw4gyNJ0IlH+Lrv7Vs733dx8hAPeU5UZwef9V9w==",
+    "npm_shasum": "243d5c4eb4f816f57fadb3e0ae1d3a01ab13e3b2",
+    "tarball_sha256": "6e32e5343ccc0d104a3d61d74d0ecd2599b055496dc023730c47bf4166f04130",
+    "package_json_sha256": "59f2762a1e9aa41022e205406206c2396d0807eec46544e03d5b990a8f52dc65",
+    "server_json_sha256": "3fad387ed435ef7e818fdf97902f5783a33ea34810f16410132a6d30a78ad187",
+    "mcp_server_sha256": "bbfbd4452ec0c17223c85f158d363865be9ee2ffc58adbe6e9887cee499f4134",
+    "packed_bytes": 268219,
+    "packed_files": 363,
+    "unpacked_bytes": 1985159
+  },
+  "identity": {
+    "package_name": "ai-incident-law",
+    "package_version": "0.4.2",
+    "registry_server_name": "io.github.snapsynapse/ai-incident-law",
+    "server_name": "ai-incident-law",
+    "server_version": "0.4.2",
+    "server_package": {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "ai-incident-law",
+      "version": "0.4.2",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  },
+  "guide": {
+    "path": ".well-known/assistant-guide.txt",
+    "sha256": "3fed9ab654aa04ccd5b0e908a0ace6138fefed3a73463d3daf9c8ebf5491cc08",
+    "bytes": 7357,
+    "manifest_path": ".well-known/assistant-guide-manifest.txt",
+    "manifest_sha256": "1b47c24cd6fcbd271db750581acfa15258ae8d756499401984e6fdea9c1e52e6"
+  },
+  "mcp": {
+    "initialize_server_info": {
+      "name": "ai-incident-law",
+      "version": "0.4.2"
+    },
+    "initialize_protocol_version": "2024-11-05",
+    "supported_versions": [
+      "2026-07-28",
+      "2024-11-05"
+    ],
+    "instructions_sha256": "d000430a875d4a821dbb48081f16f2a5eb33b921e92120e00fb0e16b532d2756",
+    "tool_count": 8,
+    "tools_sha256": "ec36eb1332565abec77c2b12e59edb67fa062192b8f05d2de9f834f5053b6589",
+    "tools": [
+      {
+        "name": "list_datasets",
+        "description": "Summarize the available AI Incident Law dataset buckets and record counts.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {},
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "list_records",
+        "description": "List compact AI incident law records, optionally filtered by dataset, domain, type, jurisdiction, status, source quality, or review flag.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "dataset": {
+              "type": "string",
+              "description": "Dataset bucket, such as included, review, or global."
+            },
+            "domain": {
+              "type": "string",
+              "description": "Domain/category substring filter."
+            },
+            "error_type": {
+              "type": "string",
+              "description": "Error or event type substring filter."
+            },
+            "jurisdiction": {
+              "type": "string",
+              "description": "Jurisdiction, country, or authority substring filter."
+            },
+            "filing_status": {
+              "type": "string",
+              "description": "Outcome or procedural posture substring filter."
+            },
+            "source_quality": {
+              "type": "string",
+              "description": "Source quality substring filter."
+            },
+            "needs_review": {
+              "type": "string",
+              "description": "Review flag, usually yes or no."
+            },
+            "limit": {
+              "type": "number",
+              "description": "Maximum records to return. Default 25."
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "get_record",
+        "description": "Get one full AI Incident Law source record by error_id or candidate_id.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "description": "Record ID, such as AIEL-2024-001."
+            }
+          },
+          "required": [
+            "id"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "search_records",
+        "description": "Search across record titles, descriptions, parties, jurisdictions, tags, and source metadata.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string",
+              "description": "Case-insensitive search query."
+            },
+            "dataset": {
+              "type": "string",
+              "description": "Optional dataset bucket filter."
+            },
+            "limit": {
+              "type": "number",
+              "description": "Maximum matches to return. Default 10."
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "get_staleness_report",
+        "description": "Report record verification decay: records ranked oldest-verified first, with per-bucket counts. Use to find matters overdue for re-verification before relying on them.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "dataset": {
+              "type": "string",
+              "description": "Optional dataset bucket filter, such as included, review, or global."
+            },
+            "as_of": {
+              "type": "string",
+              "description": "Optional ISO date (YYYY-MM-DD) to age records against. When omitted, days_stale is not computed and records are returned sorted by verification date only."
+            },
+            "limit": {
+              "type": "number",
+              "description": "Maximum records to return. Default 25."
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "list_authorities",
+        "description": "List Obligation-First authority records generated from included public matters. Schema: https://obligationfirst.org/; context: https://obligationfirst.org/v1/context.jsonld.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {},
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "get_authority",
+        "description": "Get a generated Obligation-First authority record by authority ID, not a source matter ID. Schema: https://obligationfirst.org/; context: https://obligationfirst.org/v1/context.jsonld.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "description": "Authority ID, such as british-columbia-civil-resolution-tribunal."
+            }
+          },
+          "required": [
+            "id"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "get_obligation_first_record",
+        "description": "Get a generated Obligation-First authority, proceeding, allegation, determination, or tombstone record by kind and graph ID. Schema: https://obligationfirst.org/; context: https://obligationfirst.org/v1/context.jsonld. A proceeding or allegation does not establish a determination.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "description": "Record kind: authorities, proceedings, allegations, determinations, or tombstones."
+            },
+            "id": {
+              "type": "string",
+              "description": "Generated Obligation-First record ID."
+            }
+          },
+          "required": [
+            "kind",
+            "id"
+          ],
+          "additionalProperties": false
+        }
+      }
+    ]
+  },
+  "limitations": [
+    "This snapshot describes the exact published npm 0.4.2 tarball, including the assistant guide bytes that it contains.",
+    "Registry metadata and one local stdio initialization were observed; no hosted runtime or provider action was exercised."
+  ]
+}

@@ -8,7 +8,7 @@ const ROOT_MANIFEST_PATH = new URL("../assistant-guide-manifest.txt", import.met
 const PACKAGE_PATH = new URL("../package.json", import.meta.url);
 const SEARCH_CONFIG_PATH = new URL("../search-audit.config.json", import.meta.url);
 const PUBLICATION_STATE_PATH = new URL("../design/publication-state.json", import.meta.url);
-const PUBLISHED_SNAPSHOT_PATH = new URL("../design/PUBLISHED-MCP-0.4.1.snapshot.json", import.meta.url);
+const PUBLISHED_SNAPSHOT_PATH = new URL("../design/PUBLISHED-MCP-0.4.2.snapshot.json", import.meta.url);
 const issues = [];
 
 function addIssue(message) {

@@ -25,16 +25,18 @@
     "Verify https://aiincidentlaw.org/.well-known/assistant-guide.txt before using assistant-facing maintainer or query instructions."
   ],
   "hosted_source": {
-    "status": "unpublished-source",
+    "status": "published-release",
     "version": "0.4.2",
+    "release_tag": "v0.4.2",
+    "release_commit": "cccc0a16c2f9145a84d742e7aaf5736f81a98f2d",
     "publication_state": "https://aiincidentlaw.org/design/publication-state.json"
   },
   "package": {
     "registry": "npm",
     "name": "ai-incident-law",
-    "published_version": "0.4.1",
-    "install_command": "npx -y ai-incident-law@0.4.1",
-    "artifact_snapshot": "design/PUBLISHED-MCP-0.4.1.snapshot.json",
+    "published_version": "0.4.2",
+    "install_command": "npx -y ai-incident-law@0.4.2",
+    "artifact_snapshot": "design/PUBLISHED-MCP-0.4.2.snapshot.json",
     "homepage": "https://npmjs.com/package/ai-incident-law"
   },
   "local_server": {
