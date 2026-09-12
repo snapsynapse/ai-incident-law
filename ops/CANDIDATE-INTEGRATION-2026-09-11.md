@@ -1,6 +1,6 @@
 # Candidate integration preparation, 2026-09-11
 
-Session 1 retains c7ebbae source corrections and pins the reviewed OF checker 9445845d9cc7c13146b2bd53b875fe7ee7736d2a. This adds the reviewed migration self-comparison rejection, sunset diagnostic and owner-base selection. The candidate's comparison base is main 8d8c7913d2015c05ea133f0846c3472807b68005, not a commit from another owner.
+The publication candidate retains the c7ebbae source corrections and pins the final reviewed Obligation-First candidate 7f032fc5482b34359770bc50ca6fa94c6606e6fb. That candidate preserves the accepted migration self-comparison rejection, sunset diagnostic, owner-base selection and isolated projection validation with pinned owner history. The comparison base remains main 8d8c7913d2015c05ea133f0846c3472807b68005, not a commit from another owner.
 
 PR and push checks use their explicit event bases; manual validation requires comparison_base. The resolver verifies a full SHA, owner ancestry and inequality to HEAD before canonical CI. The negative package-admission fixture now selects its own synthetic repository base instead of inheriting the production SHA; the unadmitted-mutation rejection remains required.
 
