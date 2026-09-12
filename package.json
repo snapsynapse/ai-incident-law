@@ -38,7 +38,7 @@
     "scripts/mcp-server.js",
     "data/data.json",
     "design/publication-state.json",
-    "design/PUBLISHED-MCP-0.4.1.snapshot.json",
+    "design/PUBLISHED-MCP-0.4.2.snapshot.json",
     "design/provider-evidence/*.json",
     "api/v1/of/**/*.json",
     ".well-known/mcp.json",

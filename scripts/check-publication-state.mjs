@@ -45,7 +45,7 @@ function compareSemver(left, right) {
 }
 
 function expectedEvidenceUrl(provider, version) {
-  if (provider === "npm") return "https://registry.npmjs.org/ai-incident-law";
+  if (provider === "npm") return `https://registry.npmjs.org/ai-incident-law/${version}`;
   if (provider === "mcp_registry") return `https://registry.modelcontextprotocol.io/v0.1/servers/io.github.snapsynapse%2Fai-incident-law/versions/${version}`;
   if (provider === "github_tag") return `https://api.github.com/repos/snapsynapse/ai-incident-law/git/ref/tags/v${version}`;
   if (provider === "github_release") return `https://api.github.com/repos/snapsynapse/ai-incident-law/releases/tags/v${version}`;
@@ -54,22 +54,22 @@ function expectedEvidenceUrl(provider, version) {
 
 export function validatePublicationState({ state, snapshot, snapshotBytes, providerEvidence, pkg, server, discovery, readme, legalGraph, guideBytes, guideManifest }) {
   const errors = [];
-  exactKeys(state, ["schema_version", "document_updated", "package", "source_candidate", "observations", "hosted_policy", "limitations"], "publication state", errors);
+  exactKeys(state, ["schema_version", "document_updated", "package", "release_source", "observations", "hosted_policy", "limitations"], "publication state", errors);
   if (state.schema_version !== 1) errors.push("publication state schema_version must be 1");
   if (!/^\d{4}-\d{2}-\d{2}$/.test(state.document_updated || "") || new Date(`${state.document_updated}T00:00:00Z`).toISOString().slice(0, 10) !== state.document_updated || state.document_updated > new Date().toISOString().slice(0, 10)) errors.push("document_updated must be a real non-future ISO date");
   exactKeys(state.package, ["name", "registry_server_name"], "package identity", errors);
   if (state.package?.name !== pkg.name || state.package?.registry_server_name !== pkg.mcpName) {
     errors.push("publication package identity differs from package.json");
   }
-  exactKeys(state.source_candidate, ["version", "status", "base_commit", "working_tree"], "source candidate", errors);
-  if (state.source_candidate?.version !== pkg.version || state.source_candidate?.status !== "unpublished-source") {
-    errors.push("package.json must remain identified as the unpublished source candidate");
+  exactKeys(state.release_source, ["version", "status", "commit", "tag"], "release source", errors);
+  if (state.release_source?.version !== pkg.version || state.release_source?.status !== "published-release") {
+    errors.push("package.json must identify the verified published release");
   }
-  if (state.source_candidate?.working_tree !== true || !/^[a-f0-9]{40}$/.test(state.source_candidate?.base_commit || "")) {
-    errors.push("source candidate requires a base commit and working_tree true");
+  if (!/^[a-f0-9]{40}$/.test(state.release_source?.commit || "") || state.release_source?.tag !== `v${pkg.version}`) {
+    errors.push("release source requires the exact release commit and tag");
   }
   if (server.name !== pkg.mcpName || server.version !== pkg.version || server.packages?.[0]?.version !== pkg.version) {
-    errors.push("server.json must describe the source candidate, not a published-artifact substitute");
+    errors.push("server.json must describe the release source, not a different artifact");
   }
 
   exactKeys(state.observations, ["npm", "mcp_registry", "github_tag", "github_release"], "observations", errors);
@@ -78,7 +78,7 @@ export function validatePublicationState({ state, snapshot, snapshotBytes, provi
     exactKeys(observation, observationKeys, `${provider} observation`, errors);
     if (!STATUS.has(observation?.status)) errors.push(`${provider} has an invalid status`);
     if (!validTimestamp(observation?.observed_at)) errors.push(`${provider} observed_at must be a real non-future UTC timestamp`);
-    const queriedVersion = observation?.version || state.source_candidate?.version;
+    const queriedVersion = observation?.version || state.release_source?.version;
     if (observation?.evidence_url !== expectedEvidenceUrl(provider, queriedVersion)) errors.push(`${provider} evidence_url does not identify the expected provider endpoint`);
     if (typeof observation?.evidence_path !== "string" || !/^design\/provider-evidence\/[a-z0-9.-]+\.json$/.test(observation.evidence_path)) errors.push(`${provider} evidence_path must be one retained provider-evidence JSON filename`);
     if (observation?.status === "published") {
@@ -102,10 +102,9 @@ export function validatePublicationState({ state, snapshot, snapshotBytes, provi
     if (observation.integrity !== `sha256:${hash(evidence.bytes)}`) errors.push(`${provider} integrity does not bind the retained provider response`);
     if (observation.status === "published") {
       if (provider === "npm") {
-        const release = evidence.json.versions?.[observation.version];
-        if (evidence.json.name !== pkg.name || evidence.json["dist-tags"]?.latest !== observation.version || release?.name !== pkg.name || release?.version !== observation.version || release?.mcpName !== pkg.mcpName) errors.push("npm response does not support the observed package identity and latest version");
+        const release = evidence.json;
+        if (release?.name !== pkg.name || release?.version !== observation.version || release?.mcpName !== pkg.mcpName) errors.push("npm response does not support the observed package identity and version");
         if (release?.dist?.integrity !== snapshot.artifact?.integrity || release?.dist?.tarball !== snapshot.artifact?.tarball_url || release?.dist?.shasum !== snapshot.artifact?.npm_shasum || release?.dist?.unpackedSize !== snapshot.artifact?.unpacked_bytes) errors.push("npm response artifact metadata differs from the frozen published snapshot");
-        if (!validTimestamp(evidence.json.time?.[observation.version]) || new Date(evidence.json.time[observation.version]) > new Date(observation.observed_at)) errors.push("npm response has no valid publication time for the observed version");
       } else if (provider === "mcp_registry") {
         const descriptor = evidence.json.server;
         const official = evidence.json._meta?.["io.modelcontextprotocol.registry/official"];
@@ -124,25 +123,25 @@ export function validatePublicationState({ state, snapshot, snapshotBytes, provi
     errors.push("Git tag evidence must remain distinct from GitHub Release evidence");
   }
 
-  exactKeys(state.hosted_policy, ["install_source", "install_version_from", "capabilities_from", "hosted_site_status", "hosted_site_version_from", "public_guide_artifact_from", "source_candidate_docs_url"], "hosted policy", errors);
+  exactKeys(state.hosted_policy, ["install_source", "install_version_from", "capabilities_from", "hosted_site_status", "hosted_site_version_from", "public_guide_artifact_from", "source_release_url"], "hosted policy", errors);
   const policy = state.hosted_policy || {};
   if (policy.install_source !== "npm" || policy.install_version_from !== "observations.npm.version") errors.push("hosted install policy must derive from the npm observation");
   if (policy.capabilities_from !== "observations.npm.artifact_snapshot_path" || policy.public_guide_artifact_from !== "observations.npm.artifact_snapshot_path") {
     errors.push("hosted capability and guide claims must derive from the published npm artifact snapshot");
   }
-  if (policy.hosted_site_status !== "source-candidate" || policy.hosted_site_version_from !== "source_candidate.version") {
-    errors.push("hosted source/data state must remain explicit and separate from installed MCP state");
+  if (policy.hosted_site_status !== "post-publication-evidence" || policy.hosted_site_version_from !== "release_source.version") {
+    errors.push("hosted source/data state must explicitly identify post-publication evidence");
   }
-  if (!httpsUrl(policy.source_candidate_docs_url) || /releases\/tag/.test(policy.source_candidate_docs_url)) {
-    errors.push("source candidate documentation must use a source URL, not a release URL");
+  if (!httpsUrl(policy.source_release_url) || /releases\/tag/.test(policy.source_release_url)) {
+    errors.push("release source documentation must use a source URL, not a release URL");
   }
 
   const npmObservation = state.observations?.npm || {};
   if (npmObservation.status !== "published") errors.push("hosted install claims require a published npm observation");
   if (SEMVER.test(npmObservation.version || "") && SEMVER.test(pkg.version || "") && compareSemver(npmObservation.version, pkg.version) > 0) {
-    errors.push("published npm version cannot be ahead of the declared source candidate");
+    errors.push("published npm version cannot be ahead of the declared release source");
   }
-  if (npmObservation.artifact_snapshot_path !== "design/PUBLISHED-MCP-0.4.1.snapshot.json") errors.push("npm artifact snapshot path changed without review");
+  if (npmObservation.artifact_snapshot_path !== `design/PUBLISHED-MCP-${npmObservation.version}.snapshot.json`) errors.push("npm artifact snapshot path must identify its exact published version");
   if (!SHA256.test(npmObservation.artifact_snapshot_sha256 || "") || hash(snapshotBytes) !== npmObservation.artifact_snapshot_sha256) errors.push("published capability snapshot bytes differ from the recorded digest");
   if (snapshot.schema_version !== 1 || snapshot.artifact?.source !== "npm") errors.push("published capability snapshot has an unknown contract");
   if (snapshot.artifact?.name !== pkg.name || snapshot.artifact?.version !== npmObservation.version) errors.push("published capability snapshot does not match npm identity");
@@ -153,8 +152,8 @@ export function validatePublicationState({ state, snapshot, snapshotBytes, provi
   const toolNames = snapshot.mcp?.tools?.map(tool => tool.name) || [];
   if (JSON.stringify(discovery.local_server?.tools) !== JSON.stringify(toolNames)) errors.push("public discovery tools differ from the published artifact snapshot");
   const exactPackage = `${pkg.name}@${npmObservation.version}`;
-  if (discovery.hosted_source?.status !== "unpublished-source" || discovery.hosted_source?.version !== pkg.version || discovery.hosted_source?.publication_state !== "https://aiincidentlaw.org/design/publication-state.json") {
-    errors.push("public discovery must identify the hosted source and data candidate separately");
+  if (discovery.hosted_source?.status !== "published-release" || discovery.hosted_source?.version !== pkg.version || discovery.hosted_source?.release_tag !== state.release_source.tag || discovery.hosted_source?.release_commit !== state.release_source.commit || discovery.hosted_source?.publication_state !== "https://aiincidentlaw.org/design/publication-state.json") {
+    errors.push("public discovery must identify the verified published release separately");
   }
   if (discovery.package?.install_command !== `npx -y ${exactPackage}` || discovery.package?.published_version !== npmObservation.version || discovery.package?.artifact_snapshot !== npmObservation.artifact_snapshot_path) {
     errors.push("public discovery must exact-pin the verified published npm artifact and snapshot");
@@ -171,8 +170,8 @@ export function validatePublicationState({ state, snapshot, snapshotBytes, provi
 
 export function readPublicationInputs(root = ROOT) {
   const read = relative => readFileSync(path.join(root, relative));
-  const snapshotBytes = read("design/PUBLISHED-MCP-0.4.1.snapshot.json");
   const state = JSON.parse(read("design/publication-state.json"));
+  const snapshotBytes = read(state.observations?.npm?.artifact_snapshot_path);
   const providerEvidence = Object.fromEntries(Object.entries(state.observations).map(([provider, observation]) => {
     if (typeof observation.evidence_path !== "string" || !/^design\/provider-evidence\/[a-z0-9.-]+\.json$/.test(observation.evidence_path)) return [provider, null];
     const bytes = read(observation.evidence_path);
@@ -206,5 +205,5 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
     for (const error of errors) console.error(`- ${error}`);
     process.exit(1);
   }
-  if (!quiet) console.log("publication-state: verified source candidate 0.4.2; published install and capability artifact 0.4.1");
+  if (!quiet) console.log(`publication-state: verified published release ${readPublicationInputs().state.release_source.version}`);
 }

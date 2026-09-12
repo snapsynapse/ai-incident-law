@@ -17,7 +17,7 @@ async function copyFixture(target) {
     "assistant-guide-manifest.txt",
     "assistant-guide.txt",
     "design/publication-state.json",
-    "design/PUBLISHED-MCP-0.4.1.snapshot.json",
+    "design/PUBLISHED-MCP-0.4.2.snapshot.json",
     "package.json",
     "scripts/validate-guidecheck.mjs",
     "search-audit.config.json",
@@ -26,7 +26,7 @@ async function copyFixture(target) {
   }
 }
 
-test("a source candidate version change does not promote the published guide anchor", async () => {
+test("a source version change does not promote the published guide anchor", async () => {
   const fixture = await mkdtemp(path.join(tmpdir(), "aiel-guide-version-"));
   try {
     await copyFixture(fixture);

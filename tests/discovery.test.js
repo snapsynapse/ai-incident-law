@@ -97,12 +97,12 @@ test("public discovery and docs do not use www URLs", () => {
   }
 });
 
-test("source candidate identity and published install identity remain explicit", () => {
+test("published release identity and install identity remain explicit", () => {
   const pkg = readJson("package.json");
   const registry = readJson("server.json");
   const discovery = readJson(".well-known/mcp.json");
   const publication = readJson("design/publication-state.json");
-  const snapshot = readJson("design/PUBLISHED-MCP-0.4.1.snapshot.json");
+  const snapshot = readJson(publication.observations.npm.artifact_snapshot_path);
   const localMcp = readJson("mcp.json");
   const readme = readText("README.md");
   const [initialize] = callMcp([{ jsonrpc: "2.0", id: 1, method: "initialize", params: {} }]);
@@ -114,15 +114,15 @@ test("source candidate identity and published install identity remain explicit",
   assert.equal(registry.packages[0].identifier, pkg.name);
   assert.equal(registry.packages[0].version, pkg.version);
   assert.equal(discovery.package.name, pkg.name);
-  assert.equal(publication.source_candidate.version, pkg.version);
-  assert.equal(publication.source_candidate.status, "unpublished-source");
+  assert.equal(publication.release_source.version, pkg.version);
+  assert.equal(publication.release_source.status, "published-release");
   assert.equal(discovery.hosted_source.version, pkg.version);
-  assert.equal(discovery.hosted_source.status, "unpublished-source");
+  assert.equal(discovery.hosted_source.status, "published-release");
   assert.equal(discovery.package.published_version, publication.observations.npm.version);
   assert.equal(discovery.package.install_command, `npx -y ${pkg.name}@${publication.observations.npm.version}`);
   assert.equal(discovery.package.artifact_snapshot, publication.observations.npm.artifact_snapshot_path);
   assert.deepEqual(discovery.local_server.tools, snapshot.mcp.tools.map(tool => tool.name));
-  assert.match(readme, /"args": \["-y", "ai-incident-law@0\.4\.1"\]/);
+  assert.match(readme, /"args": \["-y", "ai-incident-law@0\.4\.2"\]/);
   assert.equal(localMcp.mcpServers["ai-incident-law"].args.join(" "), "scripts/mcp-server.js");
   assert.equal(initialize.result.serverInfo.name, pkg.name);
   assert.equal(initialize.result.serverInfo.version, pkg.version);

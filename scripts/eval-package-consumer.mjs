@@ -19,12 +19,12 @@ const REQUIRED_FILES = [
   "api/v1/of/tombstones.json",
   "assistant-guide-manifest.txt",
   "assistant-guide.txt",
-  "design/PUBLISHED-MCP-0.4.1.snapshot.json",
+  "design/PUBLISHED-MCP-0.4.2.snapshot.json",
   "design/publication-state.json",
-  "design/provider-evidence/npm-0.4.1.json",
-  "design/provider-evidence/mcp-registry-0.4.1.json",
-  "design/provider-evidence/github-tag-v0.4.1.json",
-  "design/provider-evidence/github-release-v0.4.1.json",
+  "design/provider-evidence/npm-0.4.2.json",
+  "design/provider-evidence/mcp-registry-0.4.2.json",
+  "design/provider-evidence/github-tag-v0.4.2.json",
+  "design/provider-evidence/github-release-v0.4.2.json",
   "package.json",
   "scripts/mcp-server.js",
   "server.json",
@@ -93,11 +93,11 @@ try {
   const installedPackage = JSON.parse(await readFile(path.join(installedRoot, "package.json"), "utf8"));
   const installedServer = JSON.parse(await readFile(path.join(installedRoot, "server.json"), "utf8"));
   const publicationState = JSON.parse(await readFile(path.join(installedRoot, "design", "publication-state.json"), "utf8"));
-  const publishedSnapshot = JSON.parse(await readFile(path.join(installedRoot, "design", "PUBLISHED-MCP-0.4.1.snapshot.json"), "utf8"));
+  const publishedSnapshot = JSON.parse(await readFile(path.join(installedRoot, "design", "PUBLISHED-MCP-0.4.2.snapshot.json"), "utf8"));
   assert.equal(installedPackage.version, pack.version, "installed package version differs from packed version");
   assert.equal(installedServer.version, installedPackage.version, "registry server version differs from package version");
   assert.equal(installedServer.packages?.[0]?.version, installedPackage.version, "registry package version differs from package version");
-  assert.equal(publicationState.source_candidate.version, installedPackage.version, "installed source candidate identity differs");
+  assert.equal(publicationState.release_source.version, installedPackage.version, "installed release identity differs");
   assert.equal(publicationState.observations.npm.version, publishedSnapshot.artifact.version, "published artifact identity differs from snapshot");
   for (const observation of Object.values(publicationState.observations)) {
     const evidence = await readFile(path.join(installedRoot, observation.evidence_path));
