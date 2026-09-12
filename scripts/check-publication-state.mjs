@@ -62,10 +62,10 @@ export function validatePublicationState({ state, snapshot, snapshotBytes, provi
     errors.push("publication package identity differs from package.json");
   }
   exactKeys(state.release_source, ["version", "status", "commit", "tag"], "release source", errors);
-  if (state.release_source?.version !== pkg.version || state.release_source?.status !== "published-release") {
-    errors.push("package.json must identify the verified published release");
+  if (state.release_source?.status !== "published-release" || !SEMVER.test(state.release_source?.version || "") || compareSemver(state.release_source.version, pkg.version) > 0) {
+    errors.push("release source must be a verified published version no later than package.json");
   }
-  if (!/^[a-f0-9]{40}$/.test(state.release_source?.commit || "") || state.release_source?.tag !== `v${pkg.version}`) {
+  if (!/^[a-f0-9]{40}$/.test(state.release_source?.commit || "") || state.release_source?.tag !== `v${state.release_source?.version}`) {
     errors.push("release source requires the exact release commit and tag");
   }
   if (server.name !== pkg.mcpName || server.version !== pkg.version || server.packages?.[0]?.version !== pkg.version) {
@@ -152,13 +152,13 @@ export function validatePublicationState({ state, snapshot, snapshotBytes, provi
   const toolNames = snapshot.mcp?.tools?.map(tool => tool.name) || [];
   if (JSON.stringify(discovery.local_server?.tools) !== JSON.stringify(toolNames)) errors.push("public discovery tools differ from the published artifact snapshot");
   const exactPackage = `${pkg.name}@${npmObservation.version}`;
-  if (discovery.hosted_source?.status !== "published-release" || discovery.hosted_source?.version !== pkg.version || discovery.hosted_source?.release_tag !== state.release_source.tag || discovery.hosted_source?.release_commit !== state.release_source.commit || discovery.hosted_source?.publication_state !== "https://aiincidentlaw.org/design/publication-state.json") {
+  if (discovery.hosted_source?.status !== "published-release" || discovery.hosted_source?.version !== state.release_source.version || discovery.hosted_source?.release_tag !== state.release_source.tag || discovery.hosted_source?.release_commit !== state.release_source.commit || discovery.hosted_source?.publication_state !== "https://aiincidentlaw.org/design/publication-state.json") {
     errors.push("public discovery must identify the verified published release separately");
   }
   if (discovery.package?.install_command !== `npx -y ${exactPackage}` || discovery.package?.published_version !== npmObservation.version || discovery.package?.artifact_snapshot !== npmObservation.artifact_snapshot_path) {
     errors.push("public discovery must exact-pin the verified published npm artifact and snapshot");
   }
-  if (!readme.includes(`"args": ["-y", "${exactPackage}"]`) || readme.includes(`"args": ["-y", "${pkg.name}"]`)) errors.push("README install example must exact-pin the published npm artifact");
+  if (!readme.includes(`"args": ["-y", "${pkg.name}@VERSION"]`) || !readme.includes("Replace: VERSION -> an npm-verified version") || !readme.includes("Customize\n```json") || !readme.includes("Do not infer a package's publication status from this source README.")) errors.push("README must label and defer publication claims to canonical provider evidence");
   if (!legalGraph.includes(`"args": ["-y", "${exactPackage}"]`) || legalGraph.includes(`"args": ["-y", "${pkg.name}"]`)) errors.push("legal graph install example must exact-pin the published npm artifact");
   if (hash(guideBytes) !== snapshot.guide?.sha256 || guideBytes.length !== snapshot.guide?.bytes) errors.push("public guide bytes differ from the verified published artifact");
   const releaseVersion = state.observations?.github_release?.status === "published" ? state.observations.github_release.version : null;

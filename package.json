@@ -1,6 +1,6 @@
 {
   "name": "ai-incident-law",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "mcpName": "io.github.snapsynapse/ai-incident-law",
   "description": "MCP server and static dataset for the AI Incident Law public-record corpus: AI-related litigation, regulatory action, tribunal records, and review-queue matters. Anchored to EveryAILaw obligations for cross-graph queries.",
   "homepage": "https://aiincidentlaw.org/",
@@ -37,13 +37,10 @@
   "files": [
     "scripts/mcp-server.js",
     "data/data.json",
-    "design/publication-state.json",
-    "design/PUBLISHED-MCP-0.4.2.snapshot.json",
-    "design/provider-evidence/*.json",
     "api/v1/of/**/*.json",
-    ".well-known/mcp.json",
     ".well-known/assistant-guide.txt",
     ".well-known/assistant-guide-manifest.txt",
+    "!.well-known/mcp.json",
     ".well-known/obligation-first-naming-profile.jsonld",
     ".well-known/obligation-first-naming-profile-manifest.txt",
     "assistant-guide.txt",

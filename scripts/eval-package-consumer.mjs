@@ -19,12 +19,6 @@ const REQUIRED_FILES = [
   "api/v1/of/tombstones.json",
   "assistant-guide-manifest.txt",
   "assistant-guide.txt",
-  "design/PUBLISHED-MCP-0.4.2.snapshot.json",
-  "design/publication-state.json",
-  "design/provider-evidence/npm-0.4.2.json",
-  "design/provider-evidence/mcp-registry-0.4.2.json",
-  "design/provider-evidence/github-tag-v0.4.2.json",
-  "design/provider-evidence/github-release-v0.4.2.json",
   "package.json",
   "scripts/mcp-server.js",
   "server.json",
@@ -77,6 +71,14 @@ try {
   for (const required of REQUIRED_FILES) {
     assert.ok(packedPaths.has(required), `packed artifact is missing ${required}`);
   }
+  for (const excluded of [
+    "design/publication-state.json",
+    "design/PUBLISHED-MCP-0.4.2.snapshot.json",
+    "design/provider-evidence/npm-0.4.2.json",
+    ".well-known/mcp.json",
+  ]) {
+    assert.ok(!packedPaths.has(excluded), `packed artifact must exclude mutable publication state: ${excluded}`);
+  }
 
   const archivePath = path.join(packDir, pack.filename);
   const archiveSha256 = createHash("sha256").update(await readFile(archivePath)).digest("hex");
@@ -92,22 +94,13 @@ try {
   const installedRoot = path.join(consumerDir, "node_modules", "ai-incident-law");
   const installedPackage = JSON.parse(await readFile(path.join(installedRoot, "package.json"), "utf8"));
   const installedServer = JSON.parse(await readFile(path.join(installedRoot, "server.json"), "utf8"));
-  const publicationState = JSON.parse(await readFile(path.join(installedRoot, "design", "publication-state.json"), "utf8"));
-  const publishedSnapshot = JSON.parse(await readFile(path.join(installedRoot, "design", "PUBLISHED-MCP-0.4.2.snapshot.json"), "utf8"));
   assert.equal(installedPackage.version, pack.version, "installed package version differs from packed version");
   assert.equal(installedServer.version, installedPackage.version, "registry server version differs from package version");
   assert.equal(installedServer.packages?.[0]?.version, installedPackage.version, "registry package version differs from package version");
-  assert.equal(publicationState.release_source.version, installedPackage.version, "installed release identity differs");
-  assert.equal(publicationState.observations.npm.version, publishedSnapshot.artifact.version, "published artifact identity differs from snapshot");
-  for (const observation of Object.values(publicationState.observations)) {
-    const evidence = await readFile(path.join(installedRoot, observation.evidence_path));
-    assert.equal(`sha256:${createHash("sha256").update(evidence).digest("hex")}`, observation.integrity, "installed provider evidence digest differs");
-  }
-  assert.deepEqual(
-    publishedSnapshot.mcp.tools.map(tool => tool.name),
-    JSON.parse(await readFile(path.join(installedRoot, ".well-known", "mcp.json"), "utf8")).local_server.tools,
-    "installed public tool claims differ from the published snapshot"
-  );
+  const packedReadme = await readFile(path.join(installedRoot, "README.md"), "utf8");
+  assert.match(packedReadme, /Do not infer a package's publication status from this source README\./, "packed README must defer publication claims to canonical provider evidence");
+  assert.doesNotMatch(packedReadme, /\bverified published\b/i, "packed README must not make a mutable package-status claim");
+  assert.doesNotMatch(packedReadme, /\bunpublished\b.{0,80}\bsource candidate\b/i, "packed README must not call its own package an unpublished source candidate");
 
   const guide = await readFile(path.join(installedRoot, ".well-known", "assistant-guide.txt"));
   const rootGuide = await readFile(path.join(installedRoot, "assistant-guide.txt"));

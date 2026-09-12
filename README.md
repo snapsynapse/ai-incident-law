@@ -24,20 +24,22 @@ https://aiincidentlaw.org/
 
 Configure your MCP-aware agent client (Claude Desktop, Cursor, etc.):
 
+Replace: VERSION -> an npm-verified version from https://registry.npmjs.org/ai-incident-law and https://aiincidentlaw.org/design/publication-state.json.
+Customize
 ```json
 {
   "mcpServers": {
     "ai-incident-law": {
       "command": "npx",
-      "args": ["-y", "ai-incident-law@0.4.2"]
+      "args": ["-y", "ai-incident-law@VERSION"]
     }
   }
 }
 ```
 
-This exact-pins the verified published [ai-incident-law 0.4.2](https://npmjs.com/package/ai-incident-law/v/0.4.2) artifact and exposes its eight recorded tools for querying the corpus by case attributes, anchored obligations, and verification freshness. The server is dual-era: it speaks MCP spec revision 2026-07-28 (stateless core, `server/discover`) and the legacy 2024-11-05 handshake in the same process. See [docs/legal-graph.html](https://aiincidentlaw.org/docs/legal-graph.html) for a cross-graph example pairing this with the EveryAILaw MCP.
+Replace `VERSION` with the version verified at the npm registry and in the canonical [publication state](https://aiincidentlaw.org/design/publication-state.json). Do not infer a package's publication status from this source README. The server exposes eight recorded tools for querying the corpus by case attributes, anchored obligations, and verification freshness. It speaks MCP spec revision 2026-07-28 (stateless core, `server/discover`) and the legacy 2024-11-05 handshake in the same process. See [docs/legal-graph.html](https://aiincidentlaw.org/docs/legal-graph.html) for a cross-graph example pairing this with the EveryAILaw MCP.
 
-The 0.4.2 package, signed `v0.4.2` tag, GitHub Release, and Official MCP Registry entry are independently recorded as published. The hosted source includes post-publication evidence; the retained [publication state](design/publication-state.json) binds installation and capability claims to the exact 0.4.2 artifact rather than to later source documentation.
+Published packages, signed tags, GitHub Releases, and Official MCP Registry entries are independent delivery facts. The hosted publication state records those provider observations and exact artifact snapshots; it may be newer than this package's source documentation.
 
 ## Part of the PAICE legal graph
 
