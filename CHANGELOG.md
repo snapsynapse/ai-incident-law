@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.3] - 2026-09-12
+
+- Correct package-facing publication guidance so immutable npm artifacts do not claim a different published version or infer delivery from source state.
+- Exclude mutable hosted publication observations from npm packages and verify the packed README defers delivery claims to canonical provider evidence.
+
+## [0.4.2] - 2026-09-08
+
 ### Added
 - Source-admission contract. `data/admission/legacy.json` freezes the 115 native records at merged commit 8d8c791 as legacy-unreviewed. Any new record or changed field now requires a receipt in `data/admission/receipts.json` that binds before/after digests, retained primary-source bytes under `data/admission/raw/`, exact identity and support excerpts, reviewer actor and decision, and an explicit unresolved list. `npm run check:admission` gates `check`, `build:of` and `prepack`; 22 positive and negative tests cover wrong-document, self-generated, complaint-as-order, stale-bytes, missing-source, dropped-translation, source-silent AI attribution and agent-renewed Verified cases. Contract in ops/SOURCE-ADMISSION.md.
 - Publication-state check (`npm run check:publication-state`). README and discovery install commands exact-pin the verified published 0.4.1 artifact and the guide manifest no longer anchors an unpublished release; retained provider observations live under `design/`.
@@ -26,8 +33,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - CI checks out the Obligation-First validator at the reviewed correction commit af66a28 and passes a committed base SHA to source admission.
 - INTENT.md and ROADMAP.md review metadata reconciled: the 2026-08-19 criterion decisions are recorded as the last review, the pending Moffatt attribution question is named as the next criterion challenge, and delivered methodology, correction-template and changelog items are marked done.
-
-## [0.4.2] - 2026-09-08
 
 ### Changed
 - MCP initialization and discovery now explain the bundled-snapshot boundary, Checked versus Verified dates, source IDs versus generated graph IDs, candidate buckets, procedural-status limits, obligation-category anchors, and explicit error handling consistently.

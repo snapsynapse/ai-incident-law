@@ -33,10 +33,21 @@ test("published release state selects the exact verified package and capabilitie
   assert.deepEqual(validatePublicationState(fixture()), []);
 });
 
-test("a package version bump cannot auto-promote publication state", () => {
+test("a source version bump remains separate from the recorded published release", () => {
   const value = fixture();
-  value.pkg.version = "0.4.3";
-  assert.match(validatePublicationState(value).join("\n"), /verified published release/);
+  value.pkg.version = "0.4.4";
+  value.server.version = "0.4.4";
+  value.server.packages[0].version = "0.4.4";
+  assert.deepEqual(validatePublicationState(value), []);
+  assert.equal(value.state.observations.npm.version, "0.4.2");
+});
+
+test("a published source keeps neutral package guidance when npm catches up", () => {
+  const value = fixture();
+  value.pkg.version = "0.4.2";
+  value.server.version = "0.4.2";
+  value.server.packages[0].version = "0.4.2";
+  assert.deepEqual(validatePublicationState(value), []);
 });
 
 test("missing or wrong provider evidence fails closed", () => {
