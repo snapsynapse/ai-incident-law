@@ -9,6 +9,7 @@ import { fileURLToPath } from "node:url";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
 async function copyFixture(target) {
+  const publication = JSON.parse(await readFile(path.join(ROOT, "design/publication-state.json"), "utf8"));
   await mkdir(path.join(target, "scripts"), { recursive: true });
   await mkdir(path.join(target, ".well-known"), { recursive: true });
   for (const relativePath of [
@@ -17,7 +18,7 @@ async function copyFixture(target) {
     "assistant-guide-manifest.txt",
     "assistant-guide.txt",
     "design/publication-state.json",
-    "design/PUBLISHED-MCP-0.4.2.snapshot.json",
+    publication.observations.npm.artifact_snapshot_path,
     "package.json",
     "scripts/validate-guidecheck.mjs",
     "search-audit.config.json",

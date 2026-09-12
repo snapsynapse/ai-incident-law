@@ -4,6 +4,7 @@ import test from "node:test";
 import { validatePublicationState } from "../scripts/check-publication-state.mjs";
 import { readFileSync } from "node:fs";
 import path from "node:path";
+import { createHash } from "node:crypto";
 
 const ROOT = path.resolve(new URL("..", import.meta.url).pathname);
 const read = relative => readFileSync(path.join(ROOT, relative));
@@ -33,20 +34,29 @@ test("published release state selects the exact verified package and capabilitie
   assert.deepEqual(validatePublicationState(fixture()), []);
 });
 
+test("publication timestamp matches retained npm time evidence", () => {
+  const { snapshot } = fixture();
+  const evidence = snapshot.artifact.publication_time_evidence;
+  const bytes = read(evidence.path);
+  assert.equal(createHash("sha256").update(bytes).digest("hex"), evidence.sha256);
+  assert.equal(snapshot.artifact.published_at, JSON.parse(bytes)[snapshot.artifact.version]);
+});
+
 test("a source version bump remains separate from the recorded published release", () => {
   const value = fixture();
+  const publishedVersion = value.state.observations.npm.version;
   value.pkg.version = "0.4.4";
   value.server.version = "0.4.4";
   value.server.packages[0].version = "0.4.4";
   assert.deepEqual(validatePublicationState(value), []);
-  assert.equal(value.state.observations.npm.version, "0.4.2");
+  assert.equal(value.state.observations.npm.version, publishedVersion);
 });
 
 test("a published source keeps neutral package guidance when npm catches up", () => {
   const value = fixture();
-  value.pkg.version = "0.4.2";
-  value.server.version = "0.4.2";
-  value.server.packages[0].version = "0.4.2";
+  value.pkg.version = value.state.observations.npm.version;
+  value.server.version = value.pkg.version;
+  value.server.packages[0].version = value.pkg.version;
   assert.deepEqual(validatePublicationState(value), []);
 });
 

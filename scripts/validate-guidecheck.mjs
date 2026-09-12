@@ -8,7 +8,6 @@ const ROOT_MANIFEST_PATH = new URL("../assistant-guide-manifest.txt", import.met
 const PACKAGE_PATH = new URL("../package.json", import.meta.url);
 const SEARCH_CONFIG_PATH = new URL("../search-audit.config.json", import.meta.url);
 const PUBLICATION_STATE_PATH = new URL("../design/publication-state.json", import.meta.url);
-const PUBLISHED_SNAPSHOT_PATH = new URL("../design/PUBLISHED-MCP-0.4.2.snapshot.json", import.meta.url);
 const issues = [];
 
 function addIssue(message) {
@@ -22,7 +21,7 @@ const rootManifestBytes = await readFile(ROOT_MANIFEST_PATH);
 const packageInfo = JSON.parse(await readFile(PACKAGE_PATH, "utf8"));
 const searchConfig = JSON.parse(await readFile(SEARCH_CONFIG_PATH, "utf8"));
 const publicationState = JSON.parse(await readFile(PUBLICATION_STATE_PATH, "utf8"));
-const publishedSnapshot = JSON.parse(await readFile(PUBLISHED_SNAPSHOT_PATH, "utf8"));
+const publishedSnapshot = JSON.parse(await readFile(new URL(`../${publicationState.observations.npm.artifact_snapshot_path}`, import.meta.url), "utf8"));
 const text = bytes.toString("utf8");
 
 function metadataValue(key) {
