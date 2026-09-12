@@ -1,6 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "protocol_versions": ["2026-07-28", "2024-11-05"],
+  "protocol_versions": [
+    "2026-07-28",
+    "2024-11-05"
+  ],
   "server_name": "AI Incident Law",
   "description": "Structured public-record reference for legal, regulatory, tribunal, and review-queue matters involving AI-related incidents and harms. Static JSON API and local stdio MCP server, read-only, no authentication.",
   "publisher": {
@@ -26,23 +29,25 @@
   ],
   "hosted_source": {
     "status": "published-release",
-    "version": "0.4.2",
-    "release_tag": "v0.4.2",
-    "release_commit": "cccc0a16c2f9145a84d742e7aaf5736f81a98f2d",
+    "version": "0.4.3",
+    "release_tag": "v0.4.3",
+    "release_commit": "9648b0a8c15b983b47b8663ba73c02a214e145ea",
     "publication_state": "https://aiincidentlaw.org/design/publication-state.json"
   },
   "package": {
     "registry": "npm",
     "name": "ai-incident-law",
-    "published_version": "0.4.2",
-    "install_command": "npx -y ai-incident-law@0.4.2",
-    "artifact_snapshot": "design/PUBLISHED-MCP-0.4.2.snapshot.json",
+    "published_version": "0.4.3",
+    "install_command": "npx -y ai-incident-law@0.4.3",
+    "artifact_snapshot": "design/PUBLISHED-MCP-0.4.3.snapshot.json",
     "homepage": "https://npmjs.com/package/ai-incident-law"
   },
   "local_server": {
     "transport": "stdio",
     "command": "node",
-    "args": ["scripts/mcp-server.js"],
+    "args": [
+      "scripts/mcp-server.js"
+    ],
     "tools": [
       "list_datasets",
       "list_records",
