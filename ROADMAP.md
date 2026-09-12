@@ -44,16 +44,13 @@ Exclusion rules for adjacent controversy remain as they were in INTENT.md "Out o
 
 #### Outstanding source gaps
 
-Tracked here rather than in maintainer tooling so they survive without it. Verified 2026-09-01.
+Tracked here rather than in maintainer tooling so they survive without it. Verified 2026-09-09.
 
-**Aggregator-primary backlog (1 record).** This record cites an aggregator in `public_record_link`,
-which the sourcing rule bars. `npm run test:admission-policy` holds them as a named baseline
-that can shrink but not grow, so a new one fails the build:
+**Aggregator-primary backlog (0 records).** No included record cites an aggregator in
+`public_record_link`. `npm run test:admission-policy` holds that empty baseline, so a new
+aggregator-primary record fails the build.
 
-| Record | Aggregator | Route to an original |
-|---|---|---|
-| AIEL-2024-001 | canlii.org | Needs a CanLII API key |
-
+On 2026-09-09, AIEL-2024-001 moved to the issuing tribunal's retained final-decision PDF.
 On 2026-09-01, AIEL-2023-002 moved to its PDF-verified RECAP sanctions order,
 AIEL-2024-003 moved to the authenticated GovInfo copy supplied by the Second Circuit,
 and AIEL-2017-012 moved to the Arkansas Judiciary's official November 2017 appellate update.
@@ -63,9 +60,9 @@ tracker as a source, in any field. A regression test keeps it that way.
 
 **Blocked by access, not by effort.** Two are outside what automated retrieval can reach:
 
-- A free **CanLII API key** would unblock AIEL-2024-001, AIEL-GLOB-015, AIEL-GLOB-017 and
-  AIEL-GLOB-019, and every future Canadian record. CanLII serves HTTP 403 behind a CAPTCHA
-  to all scripted access.
+- A free **CanLII API key** would unblock AIEL-GLOB-015, AIEL-GLOB-017 and AIEL-GLOB-019,
+  and future Canadian records without an accessible issuing-body copy. CanLII serves HTTP
+  403 behind a CAPTCHA to all scripted access.
 - **SAFLII** serves HTTP 403 on every path, so South African matters are browser-only. This
   alone holds AIEL-GLOB-018 and the M J Molawa candidate. There is no API alternative.
 
@@ -74,6 +71,30 @@ criteria: AIEL-CAND-026 (NYSCEF returns 403; New York trial level has no automat
 AIEL-CAND-027 (New York Official Reports lag Westlaw by weeks — re-check the slip-opinion
 index rather than treating it as permanently unsourced), AIEL-CAND-028 (courts.wa.gov),
 AIEL-CAND-029 (PACER), AIEL-GLOB-018, AIEL-GLOB-019, AIEL-GLOB-020.
+
+**Held on a steward decision, not on sourcing.** Each has a retained primary source and a
+receipt under `data/admission/`; what is missing is a human admission or policy call:
+
+- AIEL-2024-001 (Moffatt v. Air Canada): whether a chatbot whose technical nature the
+  decision does not describe satisfies the criterion 1 AI-discussion rule. See INTENT.md
+  "Status".
+- AIEL-CAND-031 (In re Brian E. Mitchell, USPTO OED D2026-16): all four criteria appear
+  satisfied on the official order; promotion to `included` needs explicit steward
+  confirmation. A PAICE.work blog draft is waiting on the assigned record id.
+- AIEL-CAND-032 (In re Anthony Matos, USPTO OED D2025-13): retained official order; the
+  order records a denial of AI drafting and an internet-search mechanism, so the
+  recommendation is decline or hold as a limiting precedent beside Mullins and Maxwell.
+  The 2024-02-07 TTAB opinion in Cancellation No. 92077944 has not been read.
+- AIEL-2026-019 (Swanson v. IBM): the record must keep complaint allegations distinct from
+  judicial findings on whether an ML tool, rather than a rules-based screen, was used. The
+  2026-09-09 docket pass found no court document describing the tool; an answer exists only
+  as a docket-entry title and the complaint itself is not in RECAP.
+- AIEL-2024-015 (Parks v. McCormac): whether a Rule 41 dismissal was entered after the
+  2024-09-05 settlement filing, and a primary source for the removal date. RECAP holds
+  nothing after Dkt. 126 and the CourtListener docket page blocks scripted access.
+- AIEL-2026-020 (CNN v. Perplexity): Perplexity's motion to dismiss Counts II-V (Dkt. 31,
+  2026-08-21) is pending with opposition due 2026-09-25; no ruling. Notes-only update
+  candidate once a court order exists.
 
 #### Known coverage gaps
 
@@ -109,7 +130,8 @@ days, so a sweep run immediately after the previous one mostly re-reads what it 
 
 ### 4. Improve publication quality
 
-- Add clearer dataset notes on methodology and scope boundaries
+- Methodology and scope boundaries: done. `docs/methodology.html` is the public note and
+  `.github/ISSUE_TEMPLATE/record_correction.md` is the correction and submission route.
 - Consider a record detail view if the current card layout becomes too compressed
 
 ### 5. Benchmark OCR backends against legal-document evidence fields
@@ -137,10 +159,11 @@ Run an isolated bake-off before changing the default:
 
 ## Medium-term improvements
 
-- Add archive or snapshot references for fragile sources
-- Add a changelog or release cadence for major dataset updates
-- Add issue templates for data corrections and source challenges
-- Add a short methodology note describing inclusion and exclusion logic
+- Add archive or snapshot references for fragile sources. Partly done: reviewed changes
+  retain source bytes under `data/admission/raw/`; unchanged legacy records do not.
+- Changelog and release cadence: done (CHANGELOG.md, RELEASE_CHECKLIST.md).
+- Issue templates for data corrections and source challenges: done.
+- Methodology note describing inclusion and exclusion logic: done.
 - Add a machine-readable JSON schema once field usage stabilizes further
 - Consider whether `data.js` should remain committed long term or become a deploy artifact
 

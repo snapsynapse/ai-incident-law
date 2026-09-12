@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-09-09T17:57:35.539Z",
+  "scope": "X14 public source-candidate and published-artifact identity",
+  "status": "implemented-and-locally-verified",
+  "source_candidate": {
+    "version": "0.4.2",
+    "status": "unpublished-source",
+    "base_commit": "8d8c7913d2015c05ea133f0846c3472807b68005",
+    "working_tree": true
+  },
+  "verified_published_artifact": {
+    "package": "ai-incident-law@0.4.1",
+    "registry_server_name": "io.github.snapsynapse/ai-incident-law",
+    "npm_integrity": "sha512-7dWcbYublWDl86ZLRxorUnbGzAM3Ha2YejyUNjgu+0gPwLU2WbcNP+BRZhhi4Vjfv063/uAGCsAGD5raqhW+sg==",
+    "tarball_sha256": "251195c8f6f9765f34f900ef6b2868a049bc6f822c33101a7bccaa317050b55d",
+    "packed_files": 355,
+    "unpacked_bytes": 1720055,
+    "mcp_tools": 8,
+    "mcp_tools_sha256": "638159d722386dcc95e4ceaa4af122e100dbb026101be1dbc14ed7bbefb34340",
+    "guide_sha256": "3fed9ab654aa04ccd5b0e908a0ace6138fefed3a73463d3daf9c8ebf5491cc08",
+    "snapshot_path": "design/PUBLISHED-MCP-0.4.1.snapshot.json",
+    "snapshot_sha256": "bd7642131cabcebfc3265e5526f5ecdd5f345676a824238df500145b18906cbe"
+  },
+  "provider_observations": {
+    "npm": "published 0.4.1",
+    "official_mcp_registry": "published and latest 0.4.1",
+    "github_tag": "v0.4.1 tag object d1aa4629a1d63b6bca439f019ae9d92586347336, peeled commit 530ad61cf432b15651998802a2ea8dff56bc2ef2",
+    "github_release": "published v0.4.1 at 2026-09-07T15:28:05Z",
+    "observation_contract": "design/publication-state.json",
+    "observation_contract_sha256": "4278cdee8517eaa6556a3211af7615e76ef0f9e8577c0e8fa5e90c9ef8679d9e",
+    "retained_raw_responses": {
+      "npm": "sha256:9e7141804379c7e0eb09b0f8a3d1b1b9ad51bad07ea336e86b3162f8b63ae21c",
+      "official_mcp_registry": "sha256:0293bc3f21a17890f2fd58fd7c1a67682d98946297892d55213b124139fd65c4",
+      "github_tag": "sha256:c73a3130f36389c5166619fe456edb7247f6af0f4ef6498df2c0674848013d82",
+      "github_release": "sha256:30b74b812a12539f7cfef1b75412383b2f23816148e330a8b8b2dc92a1e72a12"
+    }
+  },
+  "red_before_fix": {
+    "command": "node scripts/check-publication-state.mjs",
+    "failures": [
+      "public discovery used an unpinned package command",
+      "README and legal-graph examples used an unpinned package command",
+      "guide manifest pointed to absent v0.4.2 GitHub Release and changelog anchors"
+    ]
+  },
+  "verification": {
+    "canonical_command": "npm run check",
+    "canonical_status": "passed",
+    "publication_state_tests": 11,
+    "discovery_tests": 8,
+    "candidate_consumer_package": "ai-incident-law@0.4.2",
+    "candidate_consumer_packed_files": 362,
+    "candidate_consumer_unpacked_bytes": 1962683,
+    "candidate_consumer_archive_sha256": "8305c716992ef9d296666a39d13565560b69decd2b3918c87a74cf5b8f683d1e",
+    "candidate_consumer_archive_retained": false,
+    "diff_check": "passed"
+  },
+  "limits": [
+    "The source and hosted data candidate remains unpublished 0.4.2; install and capability claims remain pinned to verified npm 0.4.1.",
+    "Provider observations are time-bounded and can become stale. Error or unknown observations cannot promote the candidate.",
+    "The capability snapshot verifies exact package bytes and a local stdio exchange. It does not establish hosted runtime availability.",
+    "No publication, tag, GitHub Release, deployment, or registry mutation was performed."
+  ]
+}

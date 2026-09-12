@@ -13,7 +13,10 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "projection_basis": "ail:projectionBasis",
+      "admission_status": "ail:admissionStatus",
+      "source_review_unresolved": "ail:sourceReviewUnresolved"
     }
   ],
   "@type": "of:Allegation",
@@ -33,9 +36,14 @@
   "mitigation_gap": "Alleged crawling/copying of copyrighted content without licensing, and AI output that fabricates and falsely attributes content to CNN without adequate provenance or attribution controls.",
   "reliance_or_harm": "CNN alleges licensing/market harm from large-scale reproduction plus consumer confusion and brand dilution from hallucinated content falsely attributed to CNN.",
   "ai_incident_law_record_id": "AIEL-2026-020",
-  "source": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.664916/gov.uscourts.nysd.664916.1.0_1.pdf",
   "source_locator": "Cable News Network, Inc. v. Perplexity AI, Inc., No. 1:26-cv-04427",
   "evidence_type": "primary record",
   "verified": "2026-06-01",
-  "asserted_by_adopter": "https://aiincidentlaw.org/"
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "projection_basis": "native-record-projection",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "Current docket status after the filed complaint remains unreviewed."
+  ]
 }

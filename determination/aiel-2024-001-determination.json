@@ -13,7 +13,10 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "projection_basis": "ail:projectionBasis",
+      "admission_status": "ail:admissionStatus",
+      "source_review_unresolved": "ail:sourceReviewUnresolved"
     }
   ],
   "@type": "of:Determination",
@@ -35,21 +38,25 @@
     "https://aiincidentlaw.org/allegation/aiel-2024-001-allegation.json"
   ],
   "disposition": "confirmed",
+  "issued_date": "2024-02-14",
   "remedy": {
     "status": "ordered",
-    "notes": "Tribunal awarded C$650.88 plus interest and fees."
+    "notes": "The tribunal ordered Air Canada to pay C$812.02: C$650.88 in damages, C$36.14 in pre-judgment interest, and C$125 in tribunal fees. It dismissed the remaining claims and allowed post-judgment interest as applicable."
   },
-  "notes": "Tribunal awarded C$650.88 plus interest and fees.",
-  "source": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
+  "notes": "The tribunal ordered Air Canada to pay C$812.02: C$650.88 in damages, C$36.14 in pre-judgment interest, and C$125 in tribunal fees. It dismissed the remaining claims and allowed post-judgment interest as applicable.",
+  "source": "https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do",
   "source_locator": "Moffatt v. Air Canada, 2024 BCCRT 149",
   "source_citation": "2024 BCCRT 149",
   "evidence_type": "primary record",
   "verified": "2026-04-22",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
-  "ai_incident_law_record_id": "AIEL-2024-001",
-  "anchors": [
-    "https://everyailaw.com/obligation-category/transparency.json"
+  "projection_basis": "curated-legal-graph",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "Human decision pending on whether a chatbot whose technical nature was not provided satisfies the corpus AI-attribution rule.",
+    "The exact proceeding filing date and any current appeal or judicial-review status were not established."
   ],
+  "ai_incident_law_record_id": "AIEL-2024-001",
   "neutral_citation": "2024 BCCRT 149",
   "describesSameEntityAs": [
     "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html"

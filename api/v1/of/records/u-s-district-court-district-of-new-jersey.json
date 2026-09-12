@@ -13,7 +13,10 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "projection_basis": "ail:projectionBasis",
+      "admission_status": "ail:admissionStatus",
+      "source_review_unresolved": "ail:sourceReviewUnresolved"
     }
   ],
   "@type": "of:Authority",
@@ -38,12 +41,20 @@
   "institutional_scope": [
     "U.S. District Court, District of New Jersey"
   ],
-  "source": "https://aclu.org/cases/parks-v-mccormac",
-  "source_locator": "Parks v. McCormac, Civil No. 3:22-cv-05765",
+  "sameAs": [
+    "https://wikidata.org/entity/Q775899"
+  ],
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.njd.462874/gov.uscourts.njd.462874.125.0.pdf",
+  "source_locator": "Parks v. McCormac, No. 2:21-cv-04021 (D.N.J.)",
   "evidence_type": "primary record",
   "verified": "2026-04-22",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
-  "sameAs": [
-    "https://wikidata.org/entity/Q775899"
+  "projection_basis": "curated-legal-graph",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "Whether a Rule 41 dismissal order or so-ordered stipulation was entered after 2024-09-05; RECAP holds nothing after Dkt. 126 and the docket page is script-blocked.",
+    "filing_date '2022-09' is unsupported by any retrieved document; docket metadata indicates 2021-03-03 but no primary document states the removal date.",
+    "Image-only pages 20-22 and 27 of Dkt. 126 (stipulations) were not read.",
+    "The disposition of claims against IDEMIA, Inc. is not visible in the retrieved documents."
   ]
 }

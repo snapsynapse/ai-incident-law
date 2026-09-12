@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/context.jsonld",
-  "generated": "2026-09-02",
+  "generated": "2026-09-10",
   "proceedings": [
     {
       "@context": [
@@ -18,15 +18,17 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
-          "filing_date_source": "ail:filingDateSource"
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
+          "filing_date_source": "ail:filingDateSource",
+          "procedural_stage": "ail:proceduralStage"
         }
       ],
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-001-proceeding.json",
       "id": "aiel-2024-001-proceeding",
       "title": "Moffatt v. Air Canada, 2024 BCCRT 149",
-      "filed_date": "2024-02-14",
-      "filing_date_source": "2024-02-14",
       "heardBy": [
         "https://aiincidentlaw.org/authority/british-columbia-civil-resolution-tribunal.json"
       ],
@@ -54,15 +56,22 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2024-001-determination.json"
       ],
-      "source": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
+      "source": "https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do",
       "source_locator": "Moffatt v. Air Canada, 2024 BCCRT 149",
       "source_citation": "2024 BCCRT 149",
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Human decision pending on whether a chatbot whose technical nature was not provided satisfies the corpus AI-attribution rule.",
+        "The exact proceeding filing date and any current appeal or judicial-review status were not established."
+      ],
       "ai_incident_law_record_id": "AIEL-2024-001",
-      "matter_type": "tribunal claim",
+      "matter_type": "small claims tribunal proceeding",
       "filing_status": "ordered",
+      "procedural_stage": "final-decision-issued",
       "neutral_citation": "2024 BCCRT 149",
       "describesSameEntityAs": [
         "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html"
@@ -84,6 +93,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource",
           "procedural_stage": "ail:proceduralStage"
         }
@@ -123,6 +135,8 @@
       "evidence_type": "primary record",
       "verified": "2026-09-01",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2023-002",
       "matter_type": "federal civil action with ancillary sanctions proceeding",
       "filing_status": "sanctioned",
@@ -144,6 +158,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -185,6 +202,8 @@
       "evidence_type": "primary record",
       "verified": "2026-09-01",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2024-003",
       "matter_type": "sanctions / discipline referral order",
       "filing_status": "ordered"
@@ -205,6 +224,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -245,6 +267,8 @@
       "evidence_type": "reliable reporting",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2025-004",
       "matter_type": "sanctions order",
       "filing_status": "sanctioned"
@@ -265,6 +289,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -306,6 +333,8 @@
       "evidence_type": "primary record",
       "verified": "2026-06-02",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-005",
       "matter_type": "sanctions order",
       "filing_status": "sanctioned"
@@ -326,6 +355,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -367,6 +399,8 @@
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2025-006",
       "matter_type": "sanctions / strike order",
       "filing_status": "ordered"
@@ -387,6 +421,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -428,6 +465,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-25",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2025-007",
       "matter_type": "sanctions order",
       "filing_status": "sanctioned"
@@ -448,6 +487,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource",
           "procedural_stage": "ail:proceduralStage"
         }
@@ -490,6 +532,8 @@
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2024-008",
       "matter_type": "disciplinary matter",
       "filing_status": "resolved",
@@ -511,6 +555,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -552,6 +599,8 @@
       "evidence_type": "official statement",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2023-009",
       "matter_type": "regulatory enforcement / federal lawsuit",
       "filing_status": "settled"
@@ -572,6 +621,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -612,6 +664,8 @@
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2024-010",
       "matter_type": "court complaint / agency statement of interest",
       "filing_status": "settled"
@@ -632,6 +686,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource",
           "procedural_stage": "ail:proceduralStage"
         }
@@ -672,6 +729,8 @@
       "evidence_type": "official statement",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2022-011",
       "matter_type": "class action / state constitutional tort",
       "filing_status": "settled",
@@ -693,6 +752,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource",
           "procedural_stage": "ail:proceduralStage"
         }
@@ -734,6 +796,8 @@
       "evidence_type": "official statement",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2022-011",
       "matter_type": "class action / state constitutional tort",
       "filing_status": "settled",
@@ -755,6 +819,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource",
           "procedural_stage": "ail:proceduralStage"
         }
@@ -797,6 +864,8 @@
       "evidence_type": "primary record",
       "verified": "2026-09-01",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2017-012",
       "matter_type": "state APA / civil rights litigation",
       "filing_status": "resolved",
@@ -818,6 +887,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -859,6 +931,8 @@
       "evidence_type": "official statement",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2023-013",
       "matter_type": "regulatory enforcement",
       "filing_status": "settled"
@@ -879,6 +953,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -919,6 +996,8 @@
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2024-014",
       "matter_type": "federal civil rights lawsuit",
       "filing_status": "settled"
@@ -939,13 +1018,17 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
-          "filing_date_source": "ail:filingDateSource"
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
+          "filing_date_source": "ail:filingDateSource",
+          "procedural_stage": "ail:proceduralStage"
         }
       ],
       "@type": "of:Proceeding",
       "@id": "https://aiincidentlaw.org/proceeding/aiel-2024-015-proceeding.json",
       "id": "aiel-2024-015-proceeding",
-      "title": "Parks v. McCormac, Civil No. 3:22-cv-05765",
+      "title": "Parks v. McCormac, No. 2:21-cv-04021",
       "filing_date_source": "2022-09",
       "heardBy": [
         "https://aiincidentlaw.org/authority/u-s-district-court-district-of-new-jersey.json"
@@ -971,15 +1054,26 @@
       "hasAllegation": [
         "https://aiincidentlaw.org/allegation/aiel-2024-015-allegation.json"
       ],
-      "hasDetermination": [],
-      "source": "https://aclu.org/cases/parks-v-mccormac",
-      "source_locator": "Parks v. McCormac, Civil No. 3:22-cv-05765",
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2024-015-determination.json"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.njd.462874/gov.uscourts.njd.462874.125.0.pdf",
+      "source_locator": "Parks v. McCormac, No. 2:21-cv-04021 (D.N.J.)",
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Whether a Rule 41 dismissal order or so-ordered stipulation was entered after 2024-09-05; RECAP holds nothing after Dkt. 126 and the docket page is script-blocked.",
+        "filing_date '2022-09' is unsupported by any retrieved document; docket metadata indicates 2021-03-03 but no primary document states the removal date.",
+        "Image-only pages 20-22 and 27 of Dkt. 126 (stipulations) were not read.",
+        "The disposition of claims against IDEMIA, Inc. is not visible in the retrieved documents."
+      ],
       "ai_incident_law_record_id": "AIEL-2024-015",
-      "matter_type": "federal civil rights lawsuit",
-      "filing_status": "pending"
+      "matter_type": "federal civil rights action",
+      "filing_status": "settled",
+      "procedural_stage": "federal-civil-action-after-removal"
     },
     {
       "@context": [
@@ -997,6 +1091,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -1037,6 +1134,8 @@
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2025-016",
       "matter_type": "federal civil rights lawsuit",
       "filing_status": "dismissed / appeal flagged"
@@ -1057,6 +1156,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource",
           "procedural_stage": "ail:proceduralStage"
         }
@@ -1092,11 +1194,17 @@
         "https://aiincidentlaw.org/allegation/aiel-2024-017-allegation.json"
       ],
       "hasDetermination": [],
-      "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-txsd-4_24-cv-00801/pdf/USCOURTS-txsd-4_24-cv-00801-1.pdf",
       "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Status in the 125th Judicial District Court of Harris County after the 2024-08-14 remand is unknown; the district clerk's search is script-gated.",
+        "Whether Stites and Rodriguez were later dismissed, which could permit a second removal, is unknown."
+      ],
       "ai_incident_law_record_id": "AIEL-2024-017",
       "matter_type": "state civil lawsuit",
       "filing_status": "pending",
@@ -1118,6 +1226,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource",
           "procedural_stage": "ail:proceduralStage"
         }
@@ -1153,11 +1264,17 @@
         "https://aiincidentlaw.org/allegation/aiel-2024-017-allegation.json"
       ],
       "hasDetermination": [],
-      "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-txsd-4_24-cv-00801/pdf/USCOURTS-txsd-4_24-cv-00801-1.pdf",
       "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Status in the 125th Judicial District Court of Harris County after the 2024-08-14 remand is unknown; the district clerk's search is script-gated.",
+        "Whether Stites and Rodriguez were later dismissed, which could permit a second removal, is unknown."
+      ],
       "ai_incident_law_record_id": "AIEL-2024-017",
       "matter_type": "state civil lawsuit",
       "filing_status": "pending",
@@ -1179,6 +1296,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -1218,6 +1338,8 @@
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2025-018",
       "matter_type": "federal class / collective action",
       "filing_status": "pending"
@@ -1238,6 +1360,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -1277,6 +1402,8 @@
       "evidence_type": "primary record",
       "verified": "2026-06-01",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-019",
       "matter_type": "federal lawsuit",
       "filing_status": "filed"
@@ -1297,6 +1424,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -1331,11 +1461,16 @@
         "https://aiincidentlaw.org/allegation/aiel-2026-020-allegation.json"
       ],
       "hasDetermination": [],
-      "source": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.664916/gov.uscourts.nysd.664916.1.0_1.pdf",
       "source_locator": "Cable News Network, Inc. v. Perplexity AI, Inc., No. 1:26-cv-04427",
       "evidence_type": "primary record",
       "verified": "2026-06-01",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Current docket status after the filed complaint remains unreviewed."
+      ],
       "ai_incident_law_record_id": "AIEL-2026-020",
       "matter_type": "federal lawsuit",
       "filing_status": "filed"
@@ -1356,6 +1491,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -1398,6 +1536,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-021",
       "matter_type": "attorney disciplinary order",
       "filing_status": "sanctioned",
@@ -1419,6 +1559,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -1461,6 +1604,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-022",
       "matter_type": "sanctions order",
       "filing_status": "sanctioned",
@@ -1482,6 +1627,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -1523,6 +1671,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-023",
       "matter_type": "appellate opinion / attorney sanction",
       "filing_status": "sanctioned"
@@ -1543,6 +1693,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -1584,6 +1737,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-024",
       "matter_type": "sanctions order",
       "filing_status": "sanctioned"
@@ -1604,6 +1759,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -1645,6 +1803,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-025",
       "matter_type": "sanctions order",
       "filing_status": "sanctioned"
@@ -1665,6 +1825,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -1706,6 +1869,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-026",
       "matter_type": "sanctions opinion (Rule 11)",
       "filing_status": "sanctioned"
@@ -1726,6 +1891,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -1767,6 +1935,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-027",
       "matter_type": "appellate sanction / dismissal",
       "filing_status": "sanctioned"
@@ -1787,6 +1957,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -1828,6 +2001,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-028",
       "matter_type": "sanctions order (Rule 11)",
       "filing_status": "sanctioned"
@@ -1848,6 +2023,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -1889,6 +2067,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-029",
       "matter_type": "sanctions order (Rule 11)",
       "filing_status": "sanctioned"
@@ -1909,6 +2089,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -1951,6 +2134,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-030",
       "matter_type": "appellate sanction",
       "filing_status": "sanctioned",
@@ -1972,6 +2157,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -2013,6 +2201,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-031",
       "matter_type": "sanctions order (Rule 9011)",
       "filing_status": "sanctioned"
@@ -2033,6 +2223,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -2074,6 +2267,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-032",
       "matter_type": "sanctions order (appellate)",
       "filing_status": "sanctioned"
@@ -2094,6 +2289,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -2135,6 +2333,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-033",
       "matter_type": "sanctions order (Rule 11)",
       "filing_status": "sanctioned"
@@ -2155,6 +2355,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -2196,6 +2399,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-034",
       "matter_type": "sanctions order (Rule 11)",
       "filing_status": "sanctioned"
@@ -2216,6 +2421,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -2258,6 +2466,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-035",
       "matter_type": "sanctions order (appellate)",
       "filing_status": "sanctioned",
@@ -2279,6 +2489,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -2320,6 +2533,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-25",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-036",
       "matter_type": "sanctions order (Rule 11 / inherent power)",
       "filing_status": "sanctioned"
@@ -2340,6 +2555,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -2381,6 +2599,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-037",
       "matter_type": "sanctions order (Rule 11 / inherent power)",
       "filing_status": "sanctioned"
@@ -2401,6 +2621,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -2442,6 +2665,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-038",
       "matter_type": "sanctions order (Rule 11 / inherent power)",
       "filing_status": "sanctioned"
@@ -2462,6 +2687,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -2503,6 +2731,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-040",
       "matter_type": "sanctions order (Rule 11) — second order",
       "filing_status": "sanctioned"
@@ -2523,6 +2753,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -2564,6 +2797,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-041",
       "matter_type": "sanctions order (Rule 37 / inherent power)",
       "filing_status": "sanctioned"
@@ -2584,6 +2819,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -2625,6 +2863,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-042",
       "matter_type": "sanctions order (Rule 11)",
       "filing_status": "sanctioned"
@@ -2645,6 +2885,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -2686,6 +2929,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-043",
       "matter_type": "sanctions order (appellate)",
       "filing_status": "sanctioned"
@@ -2706,6 +2951,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -2747,6 +2995,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-044",
       "matter_type": "sanctions order (appellate)",
       "filing_status": "sanctioned"
@@ -2767,6 +3017,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -2808,6 +3061,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-045",
       "matter_type": "sanctions order (Rule 11)",
       "filing_status": "sanctioned"
@@ -2828,6 +3083,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -2869,6 +3127,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-046",
       "matter_type": "sanctions order (Rule 11)",
       "filing_status": "sanctioned"
@@ -2889,6 +3149,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -2930,6 +3193,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-047",
       "matter_type": "sanctions order (Rule 11)",
       "filing_status": "sanctioned"
@@ -2950,6 +3215,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -2991,6 +3259,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-048",
       "matter_type": "sanctions order (appellate)",
       "filing_status": "sanctioned"
@@ -3011,6 +3281,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -3052,6 +3325,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-049",
       "matter_type": "sanctions order (appellate)",
       "filing_status": "sanctioned"
@@ -3072,6 +3347,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -3113,6 +3391,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-050",
       "matter_type": "sanctions order (Rule 11)",
       "filing_status": "sanctioned"
@@ -3133,6 +3413,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -3174,6 +3457,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-051",
       "matter_type": "sanctions order (Rule 11 / inherent power) and civil contempt finding",
       "filing_status": "sanctioned"
@@ -3194,6 +3479,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -3235,6 +3523,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-052",
       "matter_type": "sanctions order (appellate, published opinion)",
       "filing_status": "sanctioned"
@@ -3255,6 +3545,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -3296,6 +3589,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-053",
       "matter_type": "published appellate opinion with disciplinary referral",
       "filing_status": "referred for discipline"
@@ -3316,6 +3611,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -3351,6 +3649,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-054",
       "matter_type": "sanctions order (appellate, published opinion)",
       "filing_status": "sanctioned"
@@ -3371,6 +3671,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -3412,6 +3715,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-055",
       "matter_type": "sanctions order (Rule 11 / inherent power)",
       "filing_status": "sanctioned"
@@ -3432,6 +3737,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -3473,6 +3781,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-056",
       "matter_type": "opinion and order with public admonition",
       "filing_status": "admonished"
@@ -3493,6 +3803,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -3534,6 +3847,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-057",
       "matter_type": "administrative adjudication with formal advisement",
       "filing_status": "warned"
@@ -3554,6 +3869,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -3595,6 +3913,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-25",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-058",
       "matter_type": "sanctions order (Rule 11)",
       "filing_status": "sanctioned"
@@ -3615,6 +3935,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -3656,6 +3979,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-25",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-059",
       "matter_type": "sanctions order (Rule 11 / inherent power)",
       "filing_status": "sanctioned"
@@ -3676,6 +4001,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -3717,6 +4045,8 @@
       "evidence_type": "primary record",
       "verified": "2026-08-16",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-060",
       "matter_type": "sanctions order (Illinois Supreme Court Rule 375(b))",
       "filing_status": "sanctioned"
@@ -3737,6 +4067,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -3778,6 +4111,8 @@
       "evidence_type": "primary record",
       "verified": "2026-08-16",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-061",
       "matter_type": "sanctions order (Rule 11, sua sponte)",
       "filing_status": "sanctioned"
@@ -3798,6 +4133,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -3839,6 +4177,8 @@
       "evidence_type": "primary record",
       "verified": "2026-08-19",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-062",
       "matter_type": "sanctions order (Rule 11, sua sponte)",
       "filing_status": "sanctioned; case dismissed with prejudice"
@@ -3859,6 +4199,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -3894,6 +4237,8 @@
       "evidence_type": "primary record",
       "verified": "2026-08-16",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-063",
       "matter_type": "sanctions order (inherent supervisory authority)",
       "filing_status": "sanctioned"
@@ -3914,6 +4259,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -3955,6 +4303,8 @@
       "evidence_type": "primary record",
       "verified": "2026-08-19",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-064",
       "matter_type": "show-cause order and admonishment (Rule 11)",
       "filing_status": "admonished; no sanction imposed"
@@ -3975,6 +4325,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -4010,6 +4363,8 @@
       "evidence_type": "primary record",
       "verified": "2026-08-19",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-065",
       "matter_type": "disciplinary decision on a dean's objection",
       "filing_status": "reprimanded; costs ordered"
@@ -4030,6 +4385,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -4071,6 +4429,8 @@
       "evidence_type": "primary record",
       "verified": "2026-09-02",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-066",
       "matter_type": "sanctions order (court's own order to show cause)",
       "filing_status": "sanctioned"
@@ -4091,6 +4451,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -4132,6 +4495,8 @@
       "evidence_type": "primary record",
       "verified": "2026-09-02",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-067",
       "matter_type": "sanctions order (appellate court's inherent authority)",
       "filing_status": "sanctioned; judgment affirmed"
@@ -4152,6 +4517,9 @@
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
           "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
           "filing_date_source": "ail:filingDateSource"
         }
       ],
@@ -4193,6 +4561,8 @@
       "evidence_type": "primary record",
       "verified": "2026-09-02",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-record-inference",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-068",
       "matter_type": "sanctions order (court's own show-cause proceeding)",
       "filing_status": "sanctioned"

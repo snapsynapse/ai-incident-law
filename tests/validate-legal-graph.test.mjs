@@ -28,6 +28,25 @@ async function expectValidationFailure(mutate, expected) {
   }
 }
 
+async function expectValidationSuccess(mutate) {
+  const fixture = await mkdtemp(path.join(tmpdir(), "aiel-legal-graph-"));
+  try {
+    await cp(path.join(ROOT, "scripts"), path.join(fixture, "scripts"), { recursive: true });
+    await cp(path.join(ROOT, "data"), path.join(fixture, "data"), { recursive: true });
+    const dataPath = path.join(fixture, "data", "data.json");
+    const data = JSON.parse(await readFile(dataPath, "utf8"));
+    mutate(data);
+    await writeFile(dataPath, `${JSON.stringify(data, null, 2)}\n`, "utf8");
+    const result = spawnSync(process.execPath, [path.join(fixture, "scripts", "validate-data.mjs")], {
+      cwd: fixture,
+      encoding: "utf8",
+    });
+    assert.equal(result.status, 0, result.stderr || result.stdout);
+  } finally {
+    await rm(fixture, { recursive: true, force: true });
+  }
+}
+
 function projectedRecord(data) {
   const record = data.datasets.included.records.find(item => item.legal_graph?.authorities?.length);
   assert.ok(record, "fixture must contain a curated legal_graph projection");
@@ -44,6 +63,25 @@ test("legal_graph rejects undeclared Authority references", async () => {
   await expectValidationFailure(data => {
     projectedRecord(data).legal_graph.proceedings[0].heard_by = ["undeclared-authority"];
   }, /references undeclared authority undeclared-authority/);
+});
+
+test("partial legal_graph can retain the native jurisdiction-derived Authority", async () => {
+  await expectValidationSuccess(data => {
+    const record = data.datasets.included.records.find(item => item.error_id === "AIEL-2024-001");
+    assert.equal(record.legal_graph.authorities, undefined);
+    assert.deepEqual(record.legal_graph.proceedings[0].heard_by, ["british-columbia-civil-resolution-tribunal"]);
+    assert.deepEqual(record.legal_graph.determinations[0].issued_by, ["british-columbia-civil-resolution-tribunal"]);
+  });
+});
+
+test("curated Authority definitions cannot also reference an un-emitted native default", async () => {
+  await expectValidationFailure(data => {
+    const record = projectedRecord(data);
+    const nativeDefault = record.legal_graph.authorities[0].id;
+    record.legal_graph.authorities[0].id = "alternate-explicit-authority";
+    record.legal_graph.proceedings[0].heard_by = [nativeDefault];
+    record.legal_graph.determinations[0].issued_by = [nativeDefault];
+  }, /references undeclared authority/);
 });
 
 test("legal_graph rejects undeclared Determination references", async () => {

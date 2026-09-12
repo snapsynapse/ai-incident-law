@@ -1,0 +1,10 @@
+{
+  "ref": "refs/tags/v0.4.1",
+  "node_id": "REF_kwDOSLHJcbByZWZzL3RhZ3MvdjAuNC4x",
+  "url": "https://api.github.com/repos/snapsynapse/ai-incident-law/git/refs/tags/v0.4.1",
+  "object": {
+    "sha": "d1aa4629a1d63b6bca439f019ae9d92586347336",
+    "type": "tag",
+    "url": "https://api.github.com/repos/snapsynapse/ai-incident-law/git/tags/d1aa4629a1d63b6bca439f019ae9d92586347336"
+  }
+}

@@ -6,6 +6,8 @@ import path from "node:path";
 import { spawnSync } from "node:child_process";
 import test from "node:test";
 
+import { datasetSnapshot } from "../scripts/lib/source-admission.mjs";
+
 const ROOT = path.resolve(new URL("..", import.meta.url).pathname);
 
 function runScript(fixture, script, env = {}) {
@@ -26,6 +28,33 @@ async function treeHashes(root, dir = root, output = {}) {
     }
   }
   return Object.fromEntries(Object.entries(output).sort(([a], [b]) => a.localeCompare(b)));
+}
+
+async function freezeSyntheticAdmissionBaseline(fixture) {
+  const data = JSON.parse(await readFile(path.join(fixture, "data", "data.json"), "utf8"));
+  const records = {};
+  for (const [key, snapshot] of Object.entries(datasetSnapshot(data))) {
+    records[key] = {
+      sha256: snapshot.sha256,
+      units: Object.fromEntries(Object.entries(snapshot.units).map(([unit, value]) => [unit, value.sha256]))
+    };
+  }
+  const legacy = JSON.stringify({
+    version: 1,
+    status: "legacy-unreviewed",
+    base_commit: "8d8c7913d2015c05ea133f0846c3472807b68005",
+    record_count: Object.keys(records).length,
+    records
+  }, null, 2) + "\n";
+  await writeFile(path.join(fixture, "data", "admission", "legacy.json"), legacy);
+  await writeFile(path.join(fixture, "data", "admission", "receipts.json"), "{\n  \"version\": 1,\n  \"records\": {}\n}\n");
+  const modulePath = path.join(fixture, "scripts", "lib", "source-admission.mjs");
+  const moduleText = await readFile(modulePath, "utf8");
+  const baselineHash = createHash("sha256").update(legacy).digest("hex");
+  await writeFile(modulePath, moduleText.replace(
+    /export const LEGACY_SHA256 = "[a-f0-9]{64}";/,
+    `export const LEGACY_SHA256 = "${baselineHash}";`
+  ));
 }
 
 test("build:of removes stale companion artifacts", async () => {
@@ -125,6 +154,8 @@ test("Mata source projection separates federal removal from sanctions issuance",
   assert.equal(proceeding.filed_date, "2022-02-22");
   assert.equal(proceeding.filing_date_source, "2022-02-22");
   assert.equal(proceeding.procedural_stage, "federal-civil-action-after-removal");
+  assert.equal(proceeding.projection_basis, "curated-legal-graph");
+  assert.equal(proceeding.admission_status, "legacy-unreviewed");
   assert.equal(proceeding.matter_type, "federal civil action with ancillary sanctions proceeding");
   assert.equal(Object.hasOwn(proceeding, "parties"), false);
   assert.deepEqual(proceeding.hasDetermination, ["https://aiincidentlaw.org/determination/aiel-2023-002-determination.json"]);
@@ -133,14 +164,72 @@ test("Mata source projection separates federal removal from sanctions issuance",
   assert.equal(proceeding.verified, "2026-09-01");
 
   assert.equal(allegation.text, matter.error_description);
+  assert.equal(allegation.projection_basis, "native-record-projection");
+  assert.equal(allegation.admission_status, "legacy-unreviewed");
   assert.equal(allegation.source, matter.public_record_link);
   assert.deepEqual(allegation.related_to_party, ["https://aiincidentlaw.org/party/aiel-2023-002-deployer.json"]);
   assert.deepEqual(determination.decides, ["https://aiincidentlaw.org/allegation/aiel-2023-002-allegation.json"]);
   assert.equal(determination.issued_date, "2023-06-22");
+  assert.equal(determination.projection_basis, "curated-legal-graph");
+  assert.equal(determination.admission_status, "legacy-unreviewed");
   assert.match(determination.notes, /Peter LoDuca, Steven Schwartz, and Levidow, Levidow & Oberman P\.C\./);
   assert.equal(determination.source, matter.public_record_link);
   assert.equal(determination.source_locator, matter.public_matter_name);
   assert.equal(determination.verified, "2026-09-01");
+});
+
+test("Moffatt keeps the decision date off the proceeding and exposes reviewed-change limits", async () => {
+  const authorities = JSON.parse(await readFile(path.join(ROOT, "api", "v1", "of", "authorities.json"), "utf8")).authorities;
+  const proceedings = JSON.parse(await readFile(path.join(ROOT, "api", "v1", "of", "proceedings.json"), "utf8")).proceedings;
+  const determinations = JSON.parse(await readFile(path.join(ROOT, "api", "v1", "of", "determinations.json"), "utf8")).determinations;
+  const authority = authorities.find(record => record.id === "british-columbia-civil-resolution-tribunal");
+  const proceeding = proceedings.find(record => record.id === "aiel-2024-001-proceeding");
+  const determination = determinations.find(record => record.id === "aiel-2024-001-determination");
+
+  assert.equal(authority.projection_basis, "legacy-jurisdiction-inference");
+  assert.deepEqual(authority.sameAs, ["https://wikidata.org/entity/Q22631709"]);
+  assert.equal(proceeding.filed_date, undefined);
+  assert.equal(proceeding.filing_date_source, undefined);
+  assert.deepEqual(proceeding.describesSameEntityAs, ["https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html"]);
+  assert.equal(proceeding.projection_basis, "curated-legal-graph");
+  assert.equal(proceeding.admission_status, "source-consistency-reviewed-changes");
+  assert.equal(determination.issued_date, "2024-02-14");
+  assert.equal(determination.anchors, undefined);
+  assert.deepEqual(determination.describesSameEntityAs, ["https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html"]);
+  assert.equal(determination.projection_basis, "curated-legal-graph");
+  assert.equal(determination.admission_status, "source-consistency-reviewed-changes");
+  assert.ok(determination.source_review_unresolved.some(value => /AI-attribution rule/.test(value)));
+  assert.ok(determination.source_review_unresolved.some(value => /filing date/.test(value)));
+  assert.equal(determination.source, "https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do");
+});
+
+test("source follow-up preserves source roles and keeps Mitchell pending human admission", async () => {
+  const source = JSON.parse(await readFile(path.join(ROOT, "data", "data.json"), "utf8"));
+  const authorities = JSON.parse(await readFile(path.join(ROOT, "api", "v1", "of", "authorities.json"), "utf8")).authorities;
+  const proceedings = JSON.parse(await readFile(path.join(ROOT, "api", "v1", "of", "proceedings.json"), "utf8")).proceedings;
+  const determinations = JSON.parse(await readFile(path.join(ROOT, "api", "v1", "of", "determinations.json"), "utf8")).determinations;
+  const allegations = JSON.parse(await readFile(path.join(ROOT, "api", "v1", "of", "allegations.json"), "utf8")).allegations;
+  const included = source.datasets.included.records;
+  const parks = included.find(record => record.error_id === "AIEL-2024-015");
+  const murphy = included.find(record => record.error_id === "AIEL-2024-017");
+  const cnn = included.find(record => record.error_id === "AIEL-2026-020");
+  const mitchell = source.datasets.review.records.find(record => record.candidate_id === "AIEL-CAND-031");
+  const cnnAllegation = allegations.find(record => record.id === "aiel-2026-020-allegation");
+
+  assert.equal(parks.source_quality, "primary record");
+  assert.equal(parks.public_record_link, "https://storage.courtlistener.com/recap/gov.uscourts.njd.462874/gov.uscourts.njd.462874.125.0.pdf");
+  assert.equal(parks.filing_status, "settled");
+  assert.equal(murphy.source_quality, "primary record");
+  assert.equal(murphy.public_record_link, "https://govinfo.gov/content/pkg/USCOURTS-txsd-4_24-cv-00801/pdf/USCOURTS-txsd-4_24-cv-00801-1.pdf");
+  assert.equal(murphy.filing_status, "pending");
+  assert.equal(cnn.public_record_link, "https://storage.courtlistener.com/recap/gov.uscourts.nysd.664916/gov.uscourts.nysd.664916.1.0_1.pdf");
+  assert.equal(cnnAllegation.source, cnn.public_record_link);
+  assert.equal(mitchell.last_checked_date, "2026-09-09");
+  assert.equal(mitchell.best_available_sources, "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf");
+  assert.match(mitchell.reason_for_review, /explicit per-candidate steward confirmation/);
+  assert.equal(authorities.some(record => record.id === "uspto-office-of-enrollment-and-discipline"), false);
+  assert.equal(proceedings.some(record => record.id === "aiel-2026-069-proceeding"), false);
+  assert.equal(determinations.some(record => record.id === "aiel-2026-069-determination"), false);
 });
 
 test("partial filing dates remain source strings without fabricated day precision", async () => {
@@ -154,6 +243,7 @@ test("partial filing dates remain source strings without fabricated day precisio
     for (const date of [undefined, "2025", "2025-04", "2025-04-17"]) {
       target.filing_date = date;
       await writeFile(file, JSON.stringify(source));
+      await freezeSyntheticAdmissionBaseline(fixture);
       runScript(fixture, "build-obligation-first.mjs");
       const projected = JSON.parse(await readFile(path.join(fixture, "api/v1/of/proceedings.json"), "utf8")).proceedings.find(record => record.ai_incident_law_record_id === target.error_id);
       assert.equal(projected.filing_date_source, date);
@@ -181,6 +271,7 @@ test("curated dates retain precedence and partial provenance and issuance dates 
       determinationSource.issued_date = date;
       target.last_verified_date = date;
       await writeFile(file, JSON.stringify(source));
+      await freezeSyntheticAdmissionBaseline(fixture);
       runScript(fixture, "build-obligation-first.mjs");
       const proceedings = JSON.parse(await readFile(path.join(fixture, "api/v1/of/proceedings.json"), "utf8")).proceedings;
       const determinations = JSON.parse(await readFile(path.join(fixture, "api/v1/of/determinations.json"), "utf8")).determinations;

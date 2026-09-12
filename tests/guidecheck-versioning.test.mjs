@@ -16,6 +16,8 @@ async function copyFixture(target) {
     ".well-known/assistant-guide.txt",
     "assistant-guide-manifest.txt",
     "assistant-guide.txt",
+    "design/publication-state.json",
+    "design/PUBLISHED-MCP-0.4.1.snapshot.json",
     "package.json",
     "scripts/validate-guidecheck.mjs",
     "search-audit.config.json",
@@ -24,7 +26,7 @@ async function copyFixture(target) {
   }
 }
 
-test("GuideCheck release metadata fails when the package version advances alone", async () => {
+test("a source candidate version change does not promote the published guide anchor", async () => {
   const fixture = await mkdtemp(path.join(tmpdir(), "aiel-guide-version-"));
   try {
     await copyFixture(fixture);
@@ -39,8 +41,7 @@ test("GuideCheck release metadata fails when the package version advances alone"
     });
     assert.equal(result.status, 1);
     assert.match(result.stderr, /applies-to must be ai-incident-law 0\.5\.x/);
-    assert.match(result.stderr, /releases\/tag\/v0\.5\.0/);
-    assert.match(result.stderr, /blob\/v0\.5\.0\/CHANGELOG\.md/);
+    assert.doesNotMatch(result.stderr, /v0\.5\.0/);
   } finally {
     await rm(fixture, { recursive: true, force: true });
   }

@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Source-admission contract. `data/admission/legacy.json` freezes the 115 native records at merged commit 8d8c791 as legacy-unreviewed. Any new record or changed field now requires a receipt in `data/admission/receipts.json` that binds before/after digests, retained primary-source bytes under `data/admission/raw/`, exact identity and support excerpts, reviewer actor and decision, and an explicit unresolved list. `npm run check:admission` gates `check`, `build:of` and `prepack`; 22 positive and negative tests cover wrong-document, self-generated, complaint-as-order, stale-bytes, missing-source, dropped-translation, source-silent AI attribution and agent-renewed Verified cases. Contract in ops/SOURCE-ADMISSION.md.
+- Publication-state check (`npm run check:publication-state`). README and discovery install commands exact-pin the verified published 0.4.1 artifact and the guide manifest no longer anchors an unpublished release; retained provider observations live under `design/`.
+- Generated graph records carry `projection_basis` (curated versus legacy-inference paths) and `admission_status`, plus `source_review_unresolved` when a receipt lists open questions.
+- Review candidate AIEL-CAND-031, In re Brian E. Mitchell (USPTO OED Proceeding No. D2026-16), prepared from the retained official final order and held pending steward admission.
+- Review candidate AIEL-CAND-032, In re Anthony Matos (USPTO OED Proceeding No. D2025-13), prepared from the retained official final order. Held with a recommendation not to promote: the order records the respondent's denial of AI drafting and adopts an internet-search mechanism for the fabricated citations, so criterion 1 fails under the competing-mechanism bound unless a steward decides otherwise.
+- Deterministic temporal checks over the generated projection (`npm run check:of-temporal`): a Determination may not precede its Proceeding's filing date, a vacating Determination may not precede the one it vacates, and no projected date may be later than the build date. Pairs with missing or partial dates are reported as unknown, never substituted.
+- Legal-graph traversal fixtures (`npm run test:of-traversal`) from selected Determinations and Allegations through category anchors to expected obligations, with curated, inferred, missing and conflicted evidence states asserted explicitly.
+
+### Fixed
+- AIEL-2024-001 (Moffatt v. Air Canada): primary source moved from the CanLII aggregator to the tribunal's retained final decision, the award corrected to the decision's C$812.02 total, an unsupported obligation anchor and filing date removed, and the chatbot's technical nature qualified as not established in the decision. The aggregator-primary baseline is now zero.
+- AIEL-2026-020 (CNN v. Perplexity): primary link identified as the RECAP complaint with corrected source roles.
+- AIEL-2024-015 (Parks v. McCormac): docket number corrected to No. 2:21-cv-04021 (D.N.J.); status corrected from pending to settled on the court's 2024-07-09 termination order and the filed $300,000 settlement agreement; the unsupported Clearview AI attribution replaced with the search route the warrant affidavit describes and the software maker named in the pleadings; primary source moved from the ACLU case page to the court order; curated legal-graph projection added. `needs_review` set: no entered dismissal order was located and the filing date remains unsourced.
+- AIEL-2024-017 (Murphy v. EssilorLuxottica): primary source moved from a media-hosted petition copy to the court-hosted S.D. Tex. remand order, with the memorandum and recommendation that recounts the AI allegation retained as evidence; removal and remand chronology recorded. Status stays pending; post-remand state docket unobserved.
+- Retained raw source evidence is exempt from Git whitespace normalization so publisher bytes hash stably.
+
+### Changed
+- CI checks out the Obligation-First validator at the reviewed correction commit af66a28 and passes a committed base SHA to source admission.
+- INTENT.md and ROADMAP.md review metadata reconciled: the 2026-08-19 criterion decisions are recorded as the last review, the pending Moffatt attribution question is named as the next criterion challenge, and delivered methodology, correction-template and changelog items are marked done.
+
 ## [0.4.2] - 2026-09-08
 
 ### Changed

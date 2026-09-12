@@ -13,7 +13,10 @@
       "error_type": "ail:errorType",
       "canonical_source_conflicted": "ail:canonicalSourceConflicted",
       "mitigation_gap": "ail:mitigationGap",
-      "reliance_or_harm": "ail:relianceOrHarm"
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "projection_basis": "ail:projectionBasis",
+      "admission_status": "ail:admissionStatus",
+      "source_review_unresolved": "ail:sourceReviewUnresolved"
     }
   ],
   "@type": "of:Authority",
@@ -38,12 +41,18 @@
   "institutional_scope": [
     "British Columbia Civil Resolution Tribunal"
   ],
-  "source": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
+  "source": "https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do",
   "source_locator": "Moffatt v. Air Canada, 2024 BCCRT 149",
   "source_citation": "2024 BCCRT 149",
   "evidence_type": "primary record",
   "verified": "2026-04-22",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "projection_basis": "legacy-jurisdiction-inference",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "Human decision pending on whether a chatbot whose technical nature was not provided satisfies the corpus AI-attribution rule.",
+    "The exact proceeding filing date and any current appeal or judicial-review status were not established."
+  ],
   "sameAs": [
     "https://wikidata.org/entity/Q22631709"
   ]

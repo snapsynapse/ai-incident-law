@@ -1,0 +1,331 @@
+                   UNITED STATES PATENT AND TRADEMARK OFFICE
+                           BEFORE THE DIRECTOR OF THE
+                   UNITED STATES PATENT AND TRADEMARK OFFICE
+
+In the Matter of                                )
+                                                )
+Anthony Matos,                                  )           Proceeding No. D2025-13
+                                                )
+     Respondent                                 )
+
+
+                                           FINAL ORDER
+
+      The Director of the Office of Enrollment and Discipline ("OED Director") for the United
+States Patent and Trademark Office ("USPTO" or "Office") and Anthony Matos ("Respondent")
+have submitted a Proposed Settlement Agreement ("Agreement") to the Under Secretary of
+Commerce for Intellectual Property and Director of the United States Patent and Trademark Office
+("USPTO Director") for approval.
+
+      The Agreement, which resolves all disciplinary action by the USPTO arising from the joint
+stipulated facts set forth below, is hereby approved. This Final Order sets fmth the parties'
+stipulated facts, legal conclusions, and sanctions.
+
+                                          Jurisdiction
+
+I.     At all times relevant hereto, Respondent of New York, New York, was an attorney
+admitted to practice in the State ofNew York, currently in good standing, and admitted to
+practice in the State ofNew Jersey, currently in good standing. Respondent, at all times relevant
+to this matter, has engaged in practice before the Office in trademark matters. Respondent is
+authorized to practice before the USPTO in trademark matters. See 5 U.S.C. § 500(b);
+37 C.F.R. § 11. 14(a). Respondent is subject to the US PTO Rules of Professional Conduct,
+37 C.F.R. § II.IOI et seq.
+
+2.   The USPTO Director has jurisdiction over this matter pursuant to 35 U.S.C. §§ 2(b)(2)(D)
+and 32 and 37 C.F.R. §§ 11.19, 11.20, and 11.26.
+
+                                     Joint Stipulated Facts
+
+I.   Respondent represented the owner of a U.S. registered trademark before the USPTO's
+Trademark Trial and Appeal Board ("TTAB") as the defendant in Cancellation Proceeding
+No. 92077944 ("Cancellation Proceeding").
+
+2.     Prior to representing the mark owner in the Cancellation Proceeding, Respondent had not
+practiced before the USPTO in trademark matters in any capacity, including before the TTAB.
+Respondent represents that he had limited familiarity with trademark law and that this case was
+his first experience with trademark law.
+3.  The party seeking cancellation ("Petitioner") filed their trial brief with the TTAB on
+August 17, 2023.
+
+4.     In connection with his representation, Respondent filed a trial brief for the mark owner
+("Defendant's Brief") with the TTAB on September 17, 2023. The Defendant's Brief asserted,
+inter alia, that the parties had a prior coexistence agreement that precluded the Petitioner from
+challenging the owner's mark.
+
+5.    The Petitioner filed a Rebuttal Brief in the matter on October 2, 2023. The Rebuttal Brief
+asserted the following regarding the Defendant's Brief filed by the Respondent:
+
+          a.   Defendant's Brief cited and purported to quote from Starbucks U.S. Brands, LLC
+               v. Ruben, 78 USPQ2d 1741 (TTAB 2006) as precedent for the notion that a clear
+               and unambiguous contract controls irrespective of later-discovered facts and that
+               parties cannot take differing positions in cases in different proceedings, but there
+               is no such quote in the decision;
+
+          b.   Defendant's Brief cites a case, E.J. Brach C01p. v. Gilbert/Robinson, Inc.,
+               185 USPQ 597 (TTAB 1975), for the proposition that "agreements are binding
+               and not provisional upon subsequent discoveries," but the case has nothing to do
+               with the arguments for which it is cited; and
+
+          c.   Defendant's Brief cites Cunningham v. Laser GolfC01p., 55 USPQ2d 1842
+               (TTAB 2000) concerning the weight to be given to uncorroborated testimony, but
+               there is no such discussion in Cunningham.
+
+6.   The TTAB issued a non-precedential Opinion in the Cancellation Proceeding on
+February 7, 2024.
+
+7.   In the Opinion, the TTAB stated that the opposing party's observations regarding the
+Defendant's Brief are "correct." Specifically, the TTAB noted:
+
+               [T]here is no discussion in [Starbucks U.S. Brands, LLq about "clear
+               contractual language" - the topic for which Respondent cites the decision.
+               The quotation appearing in Respondent's trial brief which Respondent
+               attributes to the cited case appears nowhere in the decision;
+
+               In Cunningham, there is no discussion about the weight to be given
+               uncorroborated testimony; [and]
+
+               Even worse, the case "E.J. Brach C01p. v. Gilbert/Robinson, Inc.,
+               185 USPQ 597 (TTAB 1975)" does not exist. Our research revealed several
+               cases in which E.J. Brach Corp. was a party, but none in which
+               Gilbert/Robinson, Inc., was also a named party. Indeed, we could find no
+               decision of ours in which Gilbert/Robinson, Inc., was a named party.
+
+
+
+
+                                                 2
+8.    In the Opinion, the TTAB further observed that their investigation into the discrepancies
+identified by the Petitioner led them to discover additional problems in the Defendant's Brief,
+including the following:
+
+            a.   Quotes from a nonexistent case, "CEP Holdings, LLC. v. Bieber, 107 USPQ2d
+                 1402 (TTAB 2013)." The USPQ2d reporter citation encompasses a decision in
+                 iCall, Inc. v. Tribair, Inc. (107 USPQ2d 1401 (N.D. Cal. 2012)). The quotations
+                 attributed to "CEP Holdings" do not appear in the iCall decision.
+
+            b.   Citation to another nonexistent case, "U.S. Olympic Committee v. S. Industries
+                 pie, 63 USPQ2d 2001 (TTAB 2002)."
+
+            c.   Citation to the well-known decision, Union Carbide Corp. v. Ever-Ready Inc.,
+                 531 F.2d 366, 188 USPQ 623 (7th Cir. 1976), arguing that the case "emphasized
+                 that agreements that are clear in their intent should be upheld even in the face of
+                 potential misrepresentation, especially when both parties clearly understand the
+                 subject matter and implications of the agreement." This issue is not discussed in
+                 the case.
+
+            d.   Citation to "Beck v. Mamifacturers Hanover Trust Co., 98 A.D.2d 8, 469
+                 N.Y.S.2d 14 (1983)." While there is a case entitled "Beck v. Mamifacturers
+                 Hanover Trust Co.," it is reported at 218 A.D.2d 1,632 N.Y.S.2d 520 and has
+                 nothing to do with the issue for which it is cited in the Defendant's Brief.
+
+9.   In the Opinion, the petition to cancel the mark was denied on the basis of Respondent's
+argument that the Petitioner's claims were precluded by contractual estoppel.
+
+10. Respondent represents that he drafted the Defendant's Brief by reviewing the Petitioner's
+brief and formulating responses to each point raised to the extent possible.
+
+11. Respondent represents that he used internet searches to identify "blog posts and articles"
+discussing the problematic case citations identified in the Defendant's Brief.
+
+12. When asked by the TTAB whether he read the decisions he identified via the internet
+searches, Respondent admitted that he had not done so and explained that he did not have access
+to the case reporters in question.
+
+13. Respondent asserts that, while he did use a generative artificial intelligence ("AI") tool to
+learn more about the mechanics ofTTAB proceedings, he did not use any such tool in the
+drafting of the Defendant's Brief itself.
+
+14.    The TTAB noted:
+
+                  [Respondent] did not comply with the basic, critical obligations set fotih in
+                  the rules quoted above. 1 Failing to read the decisions cited in a trial brief
+
+1 The rnles referenced are 37 C.F.R. §§ 2.116(a),   l 1.18(b)(2)(ii), l l.303, and Fed. R. Civ. P. l I.
+
+
+                                                            3
+               represents a dereliction of the duty to perform "an inquiry reasonable under
+               the circumstances" sufficient to certify that the "legal contentions therein
+               are warranted by existing law or by a nonfrivolous argument for the
+               extension, modification, or reversal of existing law or the establishment of
+               new law." Attributing propositions of law to decisions that did not discuss
+               those propositions is bad enough. Purporting to actually quote from
+               decisions where neither the quote nor anything like it appears is worse. And
+               worst of all is citing or purporting to quote from decisions that do not exist.
+
+                                                 *****
+               The conduct ... is not only contrary to the rules sets forth above, but also
+               represents a failure to perform this core duty in the practice of law. The
+               Board, like other tribunals and courts in the adversary system ofjustice used
+               in this country, rely on counsel to frame the issues for decision.
+               Representing that cited decisions stand for legal propositions not implicated
+               in the decisions undermines the decisional process. And we are at a loss for
+               words that adequately express the gravity of Respondents' citation of
+               fictitious decisions.
+
+      (emphasis in original)
+
+15. The TTAB also noted that the Petitioner's Rebuttal Brief put Respondent on notice
+regarding some of the problematic citations but that Respondent did not seek to explain or rectify
+the citations in the nearly two-month period between submission of the Rebuttal Brief and the
+Oral Hearing held on December 13, 2023.
+
+16. Respondent represents that he did not know that he could make any filing after the
+Petitioner's Rebuttal Brief and that he requested the Oral Hearing so that he could address the
+problematic citation issue.
+
+                                   Additional Considerations
+
+17.   Respondent cooperated fully with OED's investigation.
+
+18. Respondent has acknowledged his ethical lapses, demonstrated genuine contrition, and
+accepted responsibility for his acts and omissions.
+
+
+                                     Joint Legal Conclusions
+
+19. Respondent acknowledges that, based on the information contained in the joint stipulated
+facts, above, that his actions in connection with submission of the Defendant's Brief in the
+Cancellation Proceeding violated the following provisions of the USPTO Rules of Professional
+Conduct:
+
+       a. 37 C.F.R. § I I.IOI (a practitioner shall provide competent representation) by, inter
+          alia, (I) not utilizing reasonable legal research tools in connection with representation
+
+
+                                                  4
+           of a client, (2) not adequately reviewing case law submitted with the TTAB in
+           connection with a legal proceeding before the tribunal, and (3) not understanding the
+           requirements of 37 C.F.R. § I 1.18 when presenting any paper to the USPTO;
+
+       b. 37 C.F.R. § 11.103 (not acting with reasonable diligence) by, inter alia, (I) not
+          utilizing reasonable legal research tools in connection with representation of a client,
+          (2) not adequately reviewing case law submitted with the TTAB in connection with a
+          legal proceeding before the tribunal, and (3) prior to presenting Defendant's Brief to
+          the TTAB, not conducting an inquiry reasonable under the circumstances as required
+          by 37 C.F.R. § 11.18 in order to certify that the legal contentions set forth in the brief
+          were warranted by existing law;
+
+       c. 37 C.F.R. § 11 .301 (meritorious claims and contentions) by, inter alia, presenting
+          legal contentions in the brief that were not warranted by existing law;
+
+       d. 37 C.F.R. § l 1.804(c) (engaging in conduct involving misrepresentation) by, inter
+          alia, presenting non-existent case law to the TTAB; and
+
+       e. 37 C.F.R. § l l.804(d) (engaging in conduct that is prejudicial to the administration of
+          justice) by, inter alia, (I) prior to presenting Defendant's Brief to the TTAB, not
+          conducting an inquiry reasonable under the circumstances as required by 37 C.F.R.
+           § 11.18 in order to certify that the legal contentions set forth in the Defendant's Brief
+          were warranted by existing law, and (2) presenting non-existent case law to the
+          TTAB.
+
+                                     Agreed-Upon Sanction
+
+20.   Respondent freely and voluntarily agrees, and it is hereby ORDERED that:
+
+       a. Respondent is publicly reprimanded;
+
+       b. Within six months of the date of this Final Order, Respondent shall (a) attend two
+          hours of continuing legal education ("CLE") on the topic of the use of generative AI
+          in legal practice and (b) provide the OED Director with written evidence of his CLE
+          attendance;
+
+       c. The OED Director shall electronically publish this Final Order at the OED's
+          electronic FOIA Reading Room, which is publicly accessible through the Office's
+          website at: https://foiadocuments.uspto.gov/oed/;
+
+       d. The OED Director shall publish a notice in the Official Gazette that is materially
+          consistent with the following:
+
+
+
+
+                                                 5
+                               Notice of Public Reprimand
+
+            This notice concems Anthony Matos of New York, New York, who is
+            licensed to practice law in New York and New Jersey, and who has
+            practiced before the USPTO in trademark matters. Mr. Matos is not
+            registered to practice before the Office in patent matters. The USPTO
+            Director publicly reprimanded Mr. Matos for violating 37 C.F.R. §§ 11. 101
+            (a practitioner shall provide competent representation), 11.103 (not acting
+            with reasonable diligence), 11.301 (meritorious claims and contentions),
+            11.804(c) (engaging in conduct involving misrepresentation), and 11.804(d)
+            (engaging in conduct that is prejudicial to the administration of justice)
+            predicated on submitting a brief to the Trademark Trial and Appeal Board
+            containing inaccurate citations and non-existent quotes to existing case law
+            and citation to non-existent case law. In violation of 37 C.F.R. § 11.18,
+            Mr. Matos failed to read case citations he found using internet searches
+            revealing discussion of the cases on blog posts and articles before
+            incorporating them into his brief and presenting the brief to the TTAB.
+
+            This action is the result of a settlement agreement between Anthony Matos
+            and the OED Director pursuant to the provisions of35 U.S.C. §§ 2(b)(2)(D)
+            and 32 and 37 C.F.R. §§ 11.19, 11.20, and 11.26. Disciplinary decisions
+            involving practitioners are posted for public reading at the Office of
+            Emollment       and     Discipline     Reading    Room     accessible  at:
+            https://foiadocuments.uspto.gov/oed/;
+
+e. Nothing in this Final Order shall prevent the Office from considering the record of this
+   disciplinary proceeding, including this Final Order: (I) when addressing any further
+   complaint or evidence of the same or similar misconduct conceming Respondent brought
+   to the attention of the Office; and (2) in any future disciplinary proceeding against
+   Respondent (i) as an aggravating factor to be taken into consideration in determining any
+   discipline to be imposed, and/or (ii) to rebut any statement or representation by or on
+   Respondent's behalf;
+
+f.   Based on Respondent's agreement to do so, Respondent waives all rights to seek
+     reconsideration of this Final Order under 37 C.F.R. § 11.56, waives the right to have this
+     Final Order reviewed under 37 C.F.R. § 11.57, and waives the right otherwise to appeal
+     or challenge this Final Order in any manner; and
+
+g. Each party shall bear their own costs incurred to date and in carrying out the terms of the
+   Agreement and this Final Order.
+
+
+                                    (signature page follows)
+
+
+
+
+                                              6
+                        (signature page for Final Order (D2025-13))
+
+
+                             Digitally signed by Users,
+Users, Choe,                 Choe, Tricia
+                             Date: 2025.03.06 09:30:52
+Tricia                       -05'00'
+Tricia Choe                                                        Date
+Associate General Counsel for General Law
+United States Patent and Trademark Office
+
+on delegated authority by
+
+Coke Stewart
+Acting Under Secretary of Commerce for Intellectual Property and
+Acting Director of the United States Patent and Trademark Office
+
+
+
+
+                                            7
+                                 CERTIFICATE OF SERVICE
+
+
+I hereby ce1iify the foregoing Final Order was mailed by first-class certified mail, return receipt
+requested, and transmitted by electronic mail, on this day to Respondent as follows:
+
+                                      Mr. Anthony Matos
+                                   690 Academy St. APT. 4A
+                                   New York, NY 10034-4214
+
+                                                and
+
+
+
+
+DATE                                                  U.S. Patent and Trademark Office
+                                                             P.O. Box 1450
+                                                             Alexandria, VA 22313-1450
+

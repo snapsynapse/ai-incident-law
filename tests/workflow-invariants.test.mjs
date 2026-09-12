@@ -18,6 +18,9 @@ test("validation workflow uses the canonical fail-closed entrypoint", () => {
   assert.equal(packageLock.packages[""].version, packageJson.version, "package-lock root version must match package.json");
   assert.match(workflow, /run: npm run verify:ci$/m);
   assert.match(workflow, /CHECK_OF_REQUIRED: "1"/);
+  assert.match(workflow, /comparison_base:[\s\S]*required: true/);
+  assert.match(workflow, /node obligation-first\/scripts\/resolve-admission-base.mjs --root \. --github-env/);
+  assert.doesNotMatch(workflow, /SOURCE_ADMISSION_BASE:.*github\.sha/);
   for (const gate of ["npm, [\"run\", \"build\"]", "npm, [\"run\", \"check\"]", "[\"diff\", \"--check\"]", "[\"diff\", \"--exit-code\"]"]) {
     assert.ok(verifier.includes(gate), `verify-ci.mjs omits ${gate}`);
   }

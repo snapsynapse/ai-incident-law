@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-09-09T17:57:35.539Z",
+  "scope": "AI Incident Law source-admission correction tranche",
+  "status": "implemented-and-locally-verified",
+  "git": {
+    "branch": "codex/known-corrections-2026-09-09",
+    "base_commit": "8d8c7913d2015c05ea133f0846c3472807b68005",
+    "base_tree": "acf44ec93b669c4d4cc680c476df7ae52b146db0",
+    "committed": false
+  },
+  "admission": {
+    "baseline_path": "data/admission/legacy.json",
+    "baseline_sha256": "687290b9904a5c75d7c11f7f03a71ac524f13b529fea761b215d1c72c4aa6190",
+    "receipts_path": "data/admission/receipts.json",
+    "receipts_sha256": "2595a6c0fc1c96e1485a7b951e980aaa01aa7b48b09cfbe25831ec5719b35f34",
+    "total_records": 116,
+    "legacy_unreviewed_records": 111,
+    "records_with_reviewed_changes": 5,
+    "changed_units_reviewed": 23,
+    "review_packets_with_unresolved": 5,
+    "reviewed_records": [
+      {
+        "id": "included/AIEL-2024-001",
+        "record_sha256": "9360df5060a9ebee5e6c76d65bf673544f654bff09101e0394cf6f3a8be3012b",
+        "packet_sha256": "e62bc851d8aad7c9a07cf563df08a996f586113ff22d12e824a2cc171ff3d513",
+        "receipt_sha256": "0414222cdc30498070e46fef1a223b7c5b5be711b2b937dc02c3cc332caeb0fb",
+        "evidence": [
+          {
+            "path": "data/admission/raw/aiel-2024-001/bccrt-final-decision.txt",
+            "sha256": "33f5c6f1805fdde9e97c0758e25bb69bafe4d615cc056ae26bf6a2bf7b32521a",
+            "original_path": "data/admission/raw/aiel-2024-001/bccrt-final-decision.pdf",
+            "original_sha256": "4dd97ce46d0d3f858488dd5ddfac85ec6fb993fcf7ba85567bd2875548f7e394"
+          }
+        ],
+        "unresolved": [
+          "Human decision pending on whether a chatbot whose technical nature was not provided satisfies the corpus AI-attribution rule.",
+          "The exact proceeding filing date and any current appeal or judicial-review status were not established."
+        ]
+      },
+      {
+        "id": "included/AIEL-2024-015",
+        "record_sha256": "bc9ee35adf5a4b71994e9e150cad36a625fc76f1b0895ab0203c188abef0f0c4",
+        "packet_sha256": "b61aadebc5bd435844916e9eb11f9048d6ccec360da22ef44f99b2ddf4d546fb",
+        "receipt_sha256": "53118671473fbbb7955d30b7e6151402a97c1d4909905baccdc78f35128bd930",
+        "evidence": [
+          {
+            "path": "data/admission/raw/aiel-2024-015/aclu-case-page.html",
+            "sha256": "71cc3e60facfd2ea1eb7c1eec3a58b8799a5e3d220f44d5efc04b77d830c8521",
+            "original_path": "data/admission/raw/aiel-2024-015/aclu-case-page.html",
+            "original_sha256": "71cc3e60facfd2ea1eb7c1eec3a58b8799a5e3d220f44d5efc04b77d830c8521"
+          }
+        ],
+        "unresolved": [
+          "The current court docket status and an issuing-court source remain unreviewed."
+        ]
+      },
+      {
+        "id": "included/AIEL-2024-017",
+        "record_sha256": "e55fa5d07ec932b96ffd2520c3a2bb3f4a27c410afd3ccebeb9deaf396d7d943",
+        "packet_sha256": "9f9170772b56dee1f7b3f4a52a28b99e457f33306161d8f654cb70a030d5cdbd",
+        "receipt_sha256": "a38e6a4aee039671886fcd7195d22afbddba14fac7b3f793263f5f2602a46417",
+        "evidence": [
+          {
+            "path": "data/admission/raw/aiel-2024-017/media-hosted-petition.txt",
+            "sha256": "56b51ba8d9801098a1587bc1d068cf333bed742071ff0a36c48fd98db636c4d1",
+            "original_path": "data/admission/raw/aiel-2024-017/media-hosted-petition.pdf",
+            "original_sha256": "61d048acfad05c951c67c2a8f84e1e6bfde087661d4f077d064eb81882836f9f"
+          }
+        ],
+        "unresolved": [
+          "An issuing-court copy and the current Harris County docket status remain unreviewed."
+        ]
+      },
+      {
+        "id": "included/AIEL-2026-020",
+        "record_sha256": "d9dfc2f183709da3a15125d7cb9692bd3d7989976f095a00fa7566587f362618",
+        "packet_sha256": "b00ae6df29248f143de2c5ac339a4b943dadb80129ddfa53b10be8c30b3e7e10",
+        "receipt_sha256": "11e0ea1aaddf5c34b26cae56136e7fd72b9478aeddc7745407a4742079df5119",
+        "evidence": [
+          {
+            "path": "data/admission/raw/aiel-2026-020/complaint.txt",
+            "sha256": "112cf5bf268ac7dceb757793b11ae6d135fea9e61ed01aa987ff8601fdc6f060",
+            "original_path": "data/admission/raw/aiel-2026-020/complaint.pdf",
+            "original_sha256": "24084289b1deaf52ca6637c6a8ee26c96dffcc3fbf682483ccfb7f4ff3d5eef3"
+          }
+        ],
+        "unresolved": [
+          "Current docket status after the filed complaint remains unreviewed."
+        ]
+      },
+      {
+        "id": "review/AIEL-CAND-031",
+        "record_sha256": "c64e82febef46eec3ca8820340f1fbeabfd456fda0bd317e432e47d630a3f91e",
+        "packet_sha256": "03b7b3c02ed7353ff97104fdcca0c9e914c11a5132c6b2a0ace3c776a3c2fade",
+        "receipt_sha256": "e66d4dd1f2dbda6069e2b6c1869e28653fe26dd403740247242ed43cffaba515",
+        "evidence": [
+          {
+            "path": "data/admission/raw/aiel-2026-069/uspto-final-order.txt",
+            "sha256": "1e243b8d61a3b46e16efab6e454fad25fa852540dde0b18b31d9cb97528047f4",
+            "original_path": "data/admission/raw/aiel-2026-069/uspto-final-order.pdf",
+            "original_sha256": "a7f252b12617328d2158c63f4ec0c29a22004c9356d5504daddf92928850f724"
+          }
+        ],
+        "unresolved": [
+          "Explicit per-candidate steward confirmation is required before promotion to included."
+        ]
+      }
+    ],
+    "relationship_migration_sha256": "cfb4c9f5a95a2e3dc2d3cb2dd795e407415ea3e72ee625b717c4d9e401f9eb0d"
+  },
+  "behavior": [
+    "New or changed native record units require exact before and after digests, retained primary-source bytes, source and document identity, locatable excerpts, qualifications, reviewer identity and type, decision, scope, time, unresolved questions, and a packet digest.",
+    "Changed source links must bind the current official URL; changed AI attribution and non-English records require their specialized retained excerpts.",
+    "Adjudicative status, determination, and resolution-note changes reject complaint-only evidence and require an adjudicative document type.",
+    "Pending, rejected, stale, mutated, future-dated, missing, self-generated, wrong-document, and dropped prior receipts fail closed.",
+    "Build and npm prepack validate the current source state before output or archive creation; the CLI additionally checks receipt history against HEAD or an exact CI base.",
+    "Generated entities expose their actual projection_basis, admission_status, and validated source_review_unresolved without changing canonical_source_conflicted semantics.",
+    "Changed source_quality values on included records use an explicit enum and must match retained source-role metadata bound to the current public_record_link; unchanged legacy labels are not recertified."
+  ],
+  "regression_red": {
+    "command": "node --test --test-name-pattern='npm pack fails' tests/source-admission-regression.test.mjs",
+    "observed_before_fix": "failed because npm pack exited 0 and created an archive from an unadmitted native mutation"
+  },
+  "verification": {
+    "canonical_command": "npm run check",
+    "canonical_status": "passed",
+    "source_admission_tests": "22 passed",
+    "native_records": 116,
+    "generated_records": 332,
+    "fingerprint_status": "matched after reviewed source/provenance changes and anchor migration",
+    "consumer_package": "ai-incident-law@0.4.2",
+    "consumer_status": "passed",
+    "consumer_packed_files": 362,
+    "consumer_unpacked_bytes": 1962683,
+    "consumer_archive_sha256": "8305c716992ef9d296666a39d13565560b69decd2b3918c87a74cf5b8f683d1e",
+    "consumer_archive_retained": false,
+    "consumer_mcp_tools": 8,
+    "guide_sha256": "3fed9ab654aa04ccd5b0e908a0ace6138fefed3a73463d3daf9c8ebf5491cc08",
+    "obligation_first_commit": "eefe360226b842fac327d88afc7118971ae59fe4",
+    "obligation_first_tree": "47733686ac59c411fa6d29110f4836e98f9d58ae",
+    "obligation_first_worktree_dirty": true,
+    "diff_check": "passed"
+  },
+  "projection_examples": {
+    "mata_proceeding": {
+      "id": "aiel-2023-002-proceeding",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "legacy-unreviewed",
+      "source_review_unresolved": "absent"
+    },
+    "mata_determination": {
+      "id": "aiel-2023-002-determination",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "legacy-unreviewed",
+      "source_review_unresolved": "absent"
+    },
+    "mata_allegation": {
+      "id": "aiel-2023-002-allegation",
+      "projection_basis": "native-record-projection",
+      "admission_status": "legacy-unreviewed",
+      "source_review_unresolved": "absent"
+    }
+  },
+  "limits": [
+    "Of 116 protected native records, 111 remain explicit legacy-unreviewed source debt; five reviewed records cover only their 23 changed units and preserve five review packets with unresolved questions.",
+    "Excerpt and digest matching establish traceability, not legal entailment, exhaustive discovery, publisher authentication, authenticated human approval, or currentness.",
+    "Wrong-document identity is rejected when declared identity excerpts do not match retained bytes; semantic relevance still depends on the named reviewer decision.",
+    "Future dates are rejected, but unchanged old Checked or Verified values are not renewed or certified.",
+    "The canonical local gate used a dirty local Obligation-First integration worktree. Exact clean-commit CI remains pending until coordinated changes are committed and pushed.",
+    "AIEL-2024-001 remains in the included dataset pending a human decision on whether the source record satisfies the corpus AI-attribution rule; confidence_score was not reinterpreted as proof of AI attribution.",
+    "AIEL-CAND-031 has a complete official USPTO source packet but remains in review because explicit per-candidate steward confirmation is required before promotion to included."
+  ],
+  "forbidden_actions_performed": [],
+  "source_quality_regression_red": {
+    "command": "node --test --test-name-pattern='source quality' tests/source-admission.test.mjs",
+    "observed_before_fix": "2 failed: both unknown and source-role-mismatched changes were accepted as passed"
+  }
+}

@@ -7,6 +7,8 @@ const MANIFEST_PATH = new URL("../.well-known/assistant-guide-manifest.txt", imp
 const ROOT_MANIFEST_PATH = new URL("../assistant-guide-manifest.txt", import.meta.url);
 const PACKAGE_PATH = new URL("../package.json", import.meta.url);
 const SEARCH_CONFIG_PATH = new URL("../search-audit.config.json", import.meta.url);
+const PUBLICATION_STATE_PATH = new URL("../design/publication-state.json", import.meta.url);
+const PUBLISHED_SNAPSHOT_PATH = new URL("../design/PUBLISHED-MCP-0.4.1.snapshot.json", import.meta.url);
 const issues = [];
 
 function addIssue(message) {
@@ -19,6 +21,8 @@ const manifestBytes = await readFile(MANIFEST_PATH);
 const rootManifestBytes = await readFile(ROOT_MANIFEST_PATH);
 const packageInfo = JSON.parse(await readFile(PACKAGE_PATH, "utf8"));
 const searchConfig = JSON.parse(await readFile(SEARCH_CONFIG_PATH, "utf8"));
+const publicationState = JSON.parse(await readFile(PUBLICATION_STATE_PATH, "utf8"));
+const publishedSnapshot = JSON.parse(await readFile(PUBLISHED_SNAPSHOT_PATH, "utf8"));
 const text = bytes.toString("utf8");
 
 function metadataValue(key) {
@@ -30,7 +34,11 @@ const versionMatch = packageInfo.version.match(/^(\d+)\.(\d+)\.(\d+)(?:[-+].*)?$
 if (!versionMatch) {
   addIssue(`package version ${packageInfo.version} is not valid semver`);
 }
-const releaseTag = `v${packageInfo.version}`;
+const publishedRelease = publicationState.observations?.github_release;
+if (publishedRelease?.status !== "published" || !/^\d+\.\d+\.\d+$/.test(publishedRelease?.version || "")) {
+  addIssue("assistant guide release anchor requires a verified published GitHub Release observation");
+}
+const releaseTag = `v${publishedRelease?.version || "unknown"}`;
 const appliesTo = versionMatch ? `${packageInfo.name} ${versionMatch[1]}.${versionMatch[2]}.x` : null;
 const guideVersion = metadataValue("guide-version");
 
@@ -121,6 +129,9 @@ const manifest = Object.fromEntries(
   })
 );
 const guideSha256 = createHash("sha256").update(bytes).digest("hex");
+if (publishedSnapshot.guide?.sha256 !== guideSha256 || publishedSnapshot.guide?.bytes !== bytes.length) {
+  addIssue("assistant guide bytes must match the verified published npm artifact snapshot");
+}
 const expectedManifest = {
   "guide-path": "/.well-known/assistant-guide.txt",
   "guide-version": guideVersion,

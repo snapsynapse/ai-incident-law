@@ -1,6 +1,11 @@
 import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { fileURLToPath } from "node:url";
+
+import { LEGACY_SHA256, hash, validateAdmission } from "./lib/source-admission.mjs";
 
 const SOURCE_PATH = new URL("../data/data.json", import.meta.url);
+const ADMISSIONS_PATH = new URL("../data/admission/receipts.json", import.meta.url);
+const LEGACY_ADMISSION_PATH = new URL("../data/admission/legacy.json", import.meta.url);
 const ROOT_DIR = new URL("../", import.meta.url);
 const API_DIR = new URL("../api/v1/of/", import.meta.url);
 const RECORDS_DIR = new URL("./records/", API_DIR);
@@ -18,7 +23,10 @@ const RECORD_TERMS = {
   error_type: "ail:errorType",
   canonical_source_conflicted: "ail:canonicalSourceConflicted",
   mitigation_gap: "ail:mitigationGap",
-  reliance_or_harm: "ail:relianceOrHarm"
+  reliance_or_harm: "ail:relianceOrHarm",
+  projection_basis: "ail:projectionBasis",
+  admission_status: "ail:admissionStatus",
+  source_review_unresolved: "ail:sourceReviewUnresolved"
 };
 const RECORD_CONTEXT = [OF_CONTEXT, RECORD_TERMS];
 
@@ -178,15 +186,32 @@ function partyKind(name) {
     : "unknown";
 }
 
-function provenance(record) {
+function provenance(record, projectionBasis, admissionStatus, sourceReviewUnresolved) {
   return {
     source: record.public_record_link,
     source_locator: record.public_matter_name,
     source_citation: record.neutral_citation || undefined,
     evidence_type: record.source_quality || "public-record",
     verified: normalizeDate(record.last_verified_date),
-    asserted_by_adopter: `${SITE_BASE}/`
+    asserted_by_adopter: `${SITE_BASE}/`,
+    projection_basis: projectionBasis,
+    admission_status: admissionStatus,
+    source_review_unresolved: sourceReviewUnresolved
   };
+}
+
+function admissionStatus(record, admissions) {
+  const key = `included/${record.error_id}`;
+  return Object.hasOwn(admissions.records || {}, key)
+    ? "source-consistency-reviewed-changes"
+    : "legacy-unreviewed";
+}
+
+function sourceReviewUnresolved(record, admissions) {
+  const receipt = admissions.records?.[`included/${record.error_id}`];
+  return Array.isArray(receipt?.unresolved) && receipt.unresolved.length > 0
+    ? receipt.unresolved
+    : undefined;
 }
 
 function normalizeDate(value) {
@@ -210,11 +235,11 @@ function stringArray(value) {
   return String(value).split(";").map(item => item.trim()).filter(Boolean);
 }
 
-function buildAuthorityRecords(records) {
+function buildAuthorityRecords(records, admissions) {
   const byId = new Map();
   for (const record of records) {
     const graphAuthorities = record.legal_graph?.authorities;
-    if (Array.isArray(graphAuthorities)) {
+    if (Array.isArray(graphAuthorities) && graphAuthorities.length > 0) {
       for (const definition of graphAuthorities) {
         if (byId.has(definition.id)) continue;
         const territorial = stringArray(definition.territorial_scope);
@@ -236,7 +261,7 @@ function buildAuthorityRecords(records) {
           ...(territorial.length ? { territorial_scope: territorial } : {}),
           ...(institutional.length ? { institutional_scope: institutional } : {}),
           ...(stringArray(definition.same_as).length ? { sameAs: stringArray(definition.same_as) } : {}),
-          ...provenance(record)
+          ...provenance(record, "curated-legal-graph", admissionStatus(record, admissions), sourceReviewUnresolved(record, admissions))
         });
       }
       continue;
@@ -255,7 +280,7 @@ function buildAuthorityRecords(records) {
       jurisdiction: jurisdictionShape(record),
       territorial_scope: jurisdictionRef(record) ? [jurisdictionRef(record)] : undefined,
       institutional_scope: [record.jurisdiction],
-      ...provenance(record)
+      ...provenance(record, "legacy-jurisdiction-inference", admissionStatus(record, admissions), sourceReviewUnresolved(record, admissions))
     };
     const qid = AUTHORITY_WIKIDATA[id];
     if (qid) authority.sameAs = [`https://wikidata.org/entity/${qid}`];
@@ -264,7 +289,7 @@ function buildAuthorityRecords(records) {
   return [...byId.values()];
 }
 
-function buildPartyRecords(records) {
+function buildPartyRecords(records, admissions) {
   const firstByName = new Map();
   const parties = [];
   for (const record of records) {
@@ -282,7 +307,7 @@ function buildPartyRecords(records) {
       party_kind: partyKind(record.deployer),
       roles: ["deployer"],
       describesSameEntityAs: prior ? [prior] : undefined,
-      ...provenance(record)
+      ...provenance(record, "native-record-projection", admissionStatus(record, admissions), sourceReviewUnresolved(record, admissions))
     };
     parties.push(party);
     if (!prior) firstByName.set(normalized, uri);
@@ -290,7 +315,7 @@ function buildPartyRecords(records) {
   return parties;
 }
 
-function buildMatterRecords(records) {
+function buildMatterRecords(records, admissions) {
   const proceedings = [];
   const allegations = [];
   const determinations = [];
@@ -303,6 +328,9 @@ function buildMatterRecords(records) {
     const legacyDisposition = determinationDisposition(record.filing_status);
     const defaultAuthorityId = authorityId(record);
     const allegationUri = ofUri("allegation", allegationId);
+    const status = admissionStatus(record, admissions);
+    const hasCuratedProceedings = Object.hasOwn(record.legal_graph || {}, "proceedings");
+    const hasCuratedDeterminations = Object.hasOwn(record.legal_graph || {}, "determinations");
     const neutralCitation = record.neutral_citation || undefined;
     const caseSameAs = stringArray(record.case_sameAs);
 
@@ -344,7 +372,7 @@ function buildMatterRecords(records) {
         parties: projectedPartyIds.length ? projectedPartyIds.map(id => ofUri("party", id)) : undefined,
         hasAllegation: [allegationUri],
         hasDetermination: projectedDeterminations,
-        ...provenance(record),
+        ...provenance(record, hasCuratedProceedings ? "curated-legal-graph" : "legacy-record-inference", status, sourceReviewUnresolved(record, admissions)),
         ai_incident_law_record_id: record.error_id,
         matter_type: projection.matter_type || record.public_matter_type,
         filing_status: record.filing_status,
@@ -372,7 +400,7 @@ function buildMatterRecords(records) {
       mitigation_gap: record.mitigation_gap,
       reliance_or_harm: record.reliance_or_harm,
       ai_incident_law_record_id: record.error_id,
-      ...provenance(record)
+      ...provenance(record, "native-record-projection", status, sourceReviewUnresolved(record, admissions))
     });
 
     for (const projection of graphDeterminations) {
@@ -392,7 +420,7 @@ function buildMatterRecords(records) {
           notes: record.notes_on_resolution
         },
         notes: record.notes_on_resolution,
-        ...provenance(record),
+        ...provenance(record, hasCuratedDeterminations ? "curated-legal-graph" : "legacy-filing-status-inference", status, sourceReviewUnresolved(record, admissions)),
         ai_incident_law_record_id: record.error_id
       };
 
@@ -408,7 +436,7 @@ function buildMatterRecords(records) {
   return { proceedings, allegations, determinations };
 }
 
-function buildTombstoneRecords(records) {
+function buildTombstoneRecords(records, admissions) {
   return records.flatMap(record => (record.legal_graph?.retired_identifiers || []).map(retired => ({
     "@context": RECORD_CONTEXT,
     "@type": "of:Tombstone",
@@ -417,7 +445,7 @@ function buildTombstoneRecords(records) {
     deprecated: true,
     former_type: retired.former_type,
     notes: retired.reason,
-    ...provenance(record),
+    ...provenance(record, "curated-retirement", admissionStatus(record, admissions), sourceReviewUnresolved(record, admissions)),
     ai_incident_law_record_id: record.error_id
   })));
 }
@@ -461,12 +489,26 @@ async function writeRecords(recordsByKind, generated) {
   });
 }
 
-const source = JSON.parse(await readFile(SOURCE_PATH, "utf8"));
+const [source, admissions, legacyBytes] = await Promise.all([
+  readFile(SOURCE_PATH, "utf8").then(JSON.parse),
+  readFile(ADMISSIONS_PATH, "utf8").then(JSON.parse),
+  readFile(LEGACY_ADMISSION_PATH)
+]);
+if (hash(legacyBytes) !== LEGACY_SHA256) throw new Error("Pinned source-admission baseline bytes changed");
+const admission = validateAdmission({
+  data: source,
+  legacy: JSON.parse(legacyBytes),
+  admissions,
+  root: fileURLToPath(ROOT_DIR)
+});
+if (admission.status !== "passed") {
+  throw new Error(`Source admission failed before projection:\n${admission.errors.join("\n")}`);
+}
 const included = source.datasets?.included?.records || [];
-const authorities = buildAuthorityRecords(included);
-const parties = buildPartyRecords(included);
-const { proceedings, allegations, determinations } = buildMatterRecords(included);
-const tombstones = buildTombstoneRecords(included);
+const authorities = buildAuthorityRecords(included, admissions);
+const parties = buildPartyRecords(included, admissions);
+const { proceedings, allegations, determinations } = buildMatterRecords(included, admissions);
+const tombstones = buildTombstoneRecords(included, admissions);
 
 await writeRecords({
   authorities,

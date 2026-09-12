@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/context.jsonld",
-  "generated": "2026-09-02",
+  "generated": "2026-09-10",
   "authorities": [
     {
       "@context": [
@@ -17,7 +17,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -42,12 +45,18 @@
       "institutional_scope": [
         "British Columbia Civil Resolution Tribunal"
       ],
-      "source": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
+      "source": "https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do",
       "source_locator": "Moffatt v. Air Canada, 2024 BCCRT 149",
       "source_citation": "2024 BCCRT 149",
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Human decision pending on whether a chatbot whose technical nature was not provided satisfies the corpus AI-attribution rule.",
+        "The exact proceeding filing date and any current appeal or judicial-review status were not established."
+      ],
       "sameAs": [
         "https://wikidata.org/entity/Q22631709"
       ]
@@ -67,7 +76,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -99,7 +111,9 @@
       "source_locator": "Mata v. Avianca, Inc., No. 22-cv-1461",
       "evidence_type": "primary record",
       "verified": "2026-09-01",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -116,7 +130,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -146,6 +163,8 @@
       "evidence_type": "primary record",
       "verified": "2026-09-01",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q492257"
       ]
@@ -165,7 +184,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -195,6 +217,8 @@
       "evidence_type": "reliable reporting",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q5311060"
       ]
@@ -214,7 +238,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -244,6 +271,8 @@
       "evidence_type": "primary record",
       "verified": "2026-06-02",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q492151"
       ]
@@ -263,7 +292,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -293,6 +325,8 @@
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q4785474"
       ]
@@ -312,7 +346,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -342,6 +379,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-25",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q7025635"
       ]
@@ -361,7 +400,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -393,7 +435,9 @@
       "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
       "evidence_type": "primary record",
       "verified": "2026-04-22",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -410,7 +454,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -439,7 +486,9 @@
       "source_locator": "EEOC v. iTutorGroup, Inc., et al., No. 1:22-cv-02565",
       "evidence_type": "official statement",
       "verified": "2026-04-22",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -456,7 +505,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -485,7 +537,9 @@
       "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al.",
       "evidence_type": "primary record",
       "verified": "2026-04-22",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -502,7 +556,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -531,7 +588,9 @@
       "source_locator": "Bauserman v. Unemployment Insurance Agency",
       "evidence_type": "official statement",
       "verified": "2026-04-22",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -548,7 +607,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -577,7 +639,9 @@
       "source_locator": "Bauserman v. Unemployment Insurance Agency",
       "evidence_type": "official statement",
       "verified": "2026-04-22",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -594,7 +658,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -623,7 +690,9 @@
       "source_locator": "Ledgerwood v. Arkansas Department of Human Services / related federal litigation",
       "evidence_type": "primary record",
       "verified": "2026-09-01",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -640,7 +709,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -670,6 +742,8 @@
       "evidence_type": "official statement",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q133132"
       ]
@@ -689,7 +763,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -719,6 +796,8 @@
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q5687969"
       ]
@@ -738,7 +817,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -763,13 +845,21 @@
       "institutional_scope": [
         "U.S. District Court, District of New Jersey"
       ],
-      "source": "https://aclu.org/cases/parks-v-mccormac",
-      "source_locator": "Parks v. McCormac, Civil No. 3:22-cv-05765",
+      "sameAs": [
+        "https://wikidata.org/entity/Q775899"
+      ],
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.njd.462874/gov.uscourts.njd.462874.125.0.pdf",
+      "source_locator": "Parks v. McCormac, No. 2:21-cv-04021 (D.N.J.)",
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "sameAs": [
-        "https://wikidata.org/entity/Q775899"
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Whether a Rule 41 dismissal order or so-ordered stipulation was entered after 2024-09-05; RECAP holds nothing after Dkt. 126 and the docket page is script-blocked.",
+        "filing_date '2022-09' is unsupported by any retrieved document; docket metadata indicates 2021-03-03 but no primary document states the removal date.",
+        "Image-only pages 20-22 and 27 of Dkt. 126 (stipulations) were not read.",
+        "The disposition of claims against IDEMIA, Inc. is not visible in the retrieved documents."
       ]
     },
     {
@@ -787,7 +877,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -812,11 +905,17 @@
       "institutional_scope": [
         "Harris County 125th Judicial District Court"
       ],
-      "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-txsd-4_24-cv-00801/pdf/USCOURTS-txsd-4_24-cv-00801-1.pdf",
       "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
       "evidence_type": "primary record",
       "verified": "2026-04-22",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Status in the 125th Judicial District Court of Harris County after the 2024-08-14 remand is unknown; the district clerk's search is script-gated.",
+        "Whether Stites and Rodriguez were later dismissed, which could permit a second removal, is unknown."
+      ]
     },
     {
       "@context": [
@@ -833,7 +932,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -858,11 +960,17 @@
       "institutional_scope": [
         "U.S. District Court, Southern District of Texas"
       ],
-      "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-txsd-4_24-cv-00801/pdf/USCOURTS-txsd-4_24-cv-00801-1.pdf",
       "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
       "evidence_type": "primary record",
       "verified": "2026-04-22",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Status in the 125th Judicial District Court of Harris County after the 2024-08-14 remand is unknown; the district clerk's search is script-gated.",
+        "Whether Stites and Rodriguez were later dismissed, which could permit a second removal, is unknown."
+      ]
     },
     {
       "@context": [
@@ -879,7 +987,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -909,6 +1020,8 @@
       "evidence_type": "primary record",
       "verified": "2026-06-01",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q7891837"
       ]
@@ -928,7 +1041,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -959,6 +1075,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q7009264"
       ]
@@ -978,7 +1096,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -1009,6 +1130,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q7011853"
       ]
@@ -1028,7 +1151,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -1058,6 +1184,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q492107"
       ]
@@ -1077,7 +1205,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -1107,6 +1238,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q5016311"
       ]
@@ -1126,7 +1259,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -1156,6 +1292,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q7624963"
       ]
@@ -1175,7 +1313,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -1205,6 +1346,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q2350825"
       ]
@@ -1224,7 +1367,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -1254,6 +1400,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q7062661"
       ]
@@ -1273,7 +1421,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -1304,6 +1455,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q2841219"
       ]
@@ -1323,7 +1476,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -1352,7 +1508,9 @@
       "source_locator": "In re Wise, No. 25-51132 (Bankr. W.D. La.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -1369,7 +1527,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -1399,6 +1560,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q5027136"
       ]
@@ -1418,7 +1581,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -1448,6 +1614,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q7891831"
       ]
@@ -1467,7 +1635,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -1497,6 +1668,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q1138663"
       ]
@@ -1516,7 +1689,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -1547,6 +1723,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q5138098"
       ]
@@ -1566,7 +1744,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -1596,6 +1777,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-25",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q5306891"
       ]
@@ -1615,7 +1798,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -1645,6 +1831,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q8568339"
       ]
@@ -1664,7 +1852,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -1694,6 +1885,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q7888718"
       ]
@@ -1713,7 +1906,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -1743,6 +1939,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q5306883"
       ]
@@ -1762,7 +1960,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -1792,6 +1993,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q7062675"
       ]
@@ -1811,7 +2014,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -1841,6 +2047,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q492149"
       ]
@@ -1860,7 +2068,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -1890,6 +2101,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q2276925"
       ]
@@ -1909,7 +2122,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -1939,6 +2155,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q853682"
       ]
@@ -1958,7 +2176,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -1988,6 +2209,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q492090"
       ]
@@ -2007,7 +2230,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -2037,6 +2263,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q5027142"
       ]
@@ -2056,7 +2284,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -2086,6 +2317,8 @@
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed",
       "sameAs": [
         "https://wikidata.org/entity/Q7062665"
       ]
@@ -2105,7 +2338,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -2134,7 +2370,9 @@
       "source_locator": "In re Rosslyn2016, LLC, Texas Esencia 2019 LLC and Timbers2020 LLC, No. 25-34507 (Bankr. S.D. Tex., Houston Div.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -2151,7 +2389,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -2180,7 +2421,9 @@
       "source_locator": "Del Biaggio v. Bansen, No. A174647 (Cal. Ct. App., 1st Dist., Div. 4) (Humboldt County Super. Ct. No. CV1901078)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -2197,7 +2440,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -2226,7 +2472,9 @@
       "source_locator": "Akerlund v. Atlas Air, Inc., Flight Services International, LLC, No. 24-11033 (11th Cir.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -2243,7 +2491,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -2266,7 +2517,9 @@
       "source_locator": "Hannah Renea Payne v. The State, No. S26A0459 (Ga.), 324 Ga. 305",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -2283,7 +2536,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -2312,7 +2568,9 @@
       "source_locator": "Withers v. City of Aberdeen, No. 1:24-CV-218-SA-RP (N.D. Miss.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -2329,7 +2587,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -2358,7 +2619,9 @@
       "source_locator": "Matter of: CVTEK, LLC, B-423943; B-423943.2 (U.S. Government Accountability Office)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -2375,7 +2638,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -2404,7 +2670,9 @@
       "source_locator": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)",
       "evidence_type": "primary record",
       "verified": "2026-07-25",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -2421,7 +2689,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -2450,7 +2721,9 @@
       "source_locator": "Scott v. Illinois Human Rights Commission, 2026 IL App (1st) 251462, No. 1-25-1462",
       "evidence_type": "primary record",
       "verified": "2026-08-16",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -2467,7 +2740,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -2496,7 +2772,9 @@
       "source_locator": "Barteca Holdings LLC v. Tacobarn Newtown LLC, No. 3:26-cv-00250-VDO (D. Conn.), ECF No. 43",
       "evidence_type": "primary record",
       "verified": "2026-08-16",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -2513,7 +2791,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -2542,7 +2823,9 @@
       "source_locator": "LeDoux v. Outliers, Inc., No. 3:24-cv-05808-TMC (W.D. Wash.), ECF No. 265",
       "evidence_type": "primary record",
       "verified": "2026-08-19",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -2559,7 +2842,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -2582,7 +2868,9 @@
       "source_locator": "TOV Realty, LLC v. Suarez (SC 21183) and Kosel Equity, LLC v. MacGregor (SC 21184), 355 Conn. 902 (2026)",
       "evidence_type": "primary record",
       "verified": "2026-08-16",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -2599,7 +2887,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -2628,7 +2919,9 @@
       "source_locator": "Fuselier v. Riscassi, No. 1:25-cv-268-HSO-BWR (S.D. Miss.), ECF No. 28",
       "evidence_type": "primary record",
       "verified": "2026-08-19",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -2645,7 +2938,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -2668,7 +2964,9 @@
       "source_locator": "Beslissing in de zaak 26-379/DB/LI/D, ECLI:NL:TADRSHE:2026:93 (Raad van Discipline in het ressort 's-Hertogenbosch)",
       "evidence_type": "primary record",
       "verified": "2026-08-19",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -2685,7 +2983,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -2714,7 +3015,9 @@
       "source_locator": "Erin Booker v. The Kroger Co., No. 1:26-cv-02006-SDG (N.D. Ga.), ECF No. 66",
       "evidence_type": "primary record",
       "verified": "2026-09-02",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -2731,7 +3034,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -2760,7 +3066,9 @@
       "source_locator": "Capital Standard, LLC v. U.S. Bank National Association, as trustee for Bear Stearns Asset Backed Securities I Trust 2005-AC9, No. 2D2024-1392 (Fla. 2d DCA)",
       "evidence_type": "primary record",
       "verified": "2026-09-02",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed"
     },
     {
       "@context": [
@@ -2777,7 +3085,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Authority",
@@ -2806,7 +3117,9 @@
       "source_locator": "Michael L. Ruiz v. Magellan Financial & Insurance Services, No. CV-23-02090-PHX-DWL (D. Ariz.), Doc. 179",
       "evidence_type": "primary record",
       "verified": "2026-09-02",
-      "asserted_by_adopter": "https://aiincidentlaw.org/"
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "admission_status": "legacy-unreviewed"
     }
   ]
 }

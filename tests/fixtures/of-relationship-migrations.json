@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "limitations": [
+    "Bounded agent source and mapping review; no authenticated human approval or disposition of the pending AI-attribution policy question."
+  ],
+  "entries": [
+    {
+      "change": {
+        "kind": "top",
+        "subject": "https://aiincidentlaw.org/determination/aiel-2024-001-determination.json",
+        "predicate": "anchors",
+        "old_targets": [
+          "https://everyailaw.com/obligation-category/transparency.json"
+        ],
+        "new_targets": []
+      },
+      "reason": "Remove the unsupported transparency-category anchor. The issuing tribunal decision establishes inaccurate chatbot information, reasonable reliance, negligent misrepresentation and monetary relief; the target category represents AI disclosure and labeling duties not established by that decision. No substitute statutory obligation or current legal applicability is inferred. Existing public entity IDs, the CanLII mirror identity and the authority crosswalk remain.",
+      "source_admission": {
+        "path": "data/admission/receipts.json",
+        "pointer": "/records/included~1AIEL-2024-001",
+        "sha256": "0414222cdc30498070e46fef1a223b7c5b5be711b2b937dc02c3cc332caeb0fb",
+        "reviewed_units": [
+          "field:obligation_first_anchors"
+        ],
+        "relationship_unit": "field:obligation_first_anchors",
+        "before_value": [
+          "https://everyailaw.com/obligation-category/transparency.json"
+        ],
+        "after_value": null
+      },
+      "review": {
+        "actor_type": "agent",
+        "actor": "Codex coordinator source and relationship review",
+        "decision": "source-consistency-reviewed",
+        "reviewed_at": "2026-09-09T17:17:50.144Z",
+        "packet_sha256": "2da0cbf7bb99feb2b10279f56b2f451a342c314176805b5330716e4d91e5733c"
+      }
+    }
+  ]
+}

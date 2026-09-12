@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/context.jsonld",
-  "generated": "2026-09-02",
+  "generated": "2026-09-10",
   "tombstones": [
     {
       "@context": [
@@ -17,7 +17,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Tombstone",
@@ -31,6 +34,8 @@
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-retirement",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2024-008"
     },
     {
@@ -48,7 +53,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Tombstone",
@@ -62,6 +70,8 @@
       "evidence_type": "official statement",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-retirement",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2023-009"
     },
     {
@@ -79,7 +89,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Tombstone",
@@ -93,6 +106,8 @@
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-retirement",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2024-010"
     },
     {
@@ -110,7 +125,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Tombstone",
@@ -124,6 +142,8 @@
       "evidence_type": "official statement",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-retirement",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2022-011"
     },
     {
@@ -141,7 +161,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Tombstone",
@@ -155,6 +178,8 @@
       "evidence_type": "primary record",
       "verified": "2026-09-01",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-retirement",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2017-012"
     },
     {
@@ -172,7 +197,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Tombstone",
@@ -181,11 +209,17 @@
       "deprecated": true,
       "former_type": "of:Authority",
       "notes": "Retired composite identifier that conflated the state proceeding with the federal removal stage.",
-      "source": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-txsd-4_24-cv-00801/pdf/USCOURTS-txsd-4_24-cv-00801-1.pdf",
       "source_locator": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
       "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-retirement",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Status in the 125th Judicial District Court of Harris County after the 2024-08-14 remand is unknown; the district clerk's search is script-gated.",
+        "Whether Stites and Rodriguez were later dismissed, which could permit a second removal, is unknown."
+      ],
       "ai_incident_law_record_id": "AIEL-2024-017"
     },
     {
@@ -203,7 +237,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Tombstone",
@@ -217,6 +254,8 @@
       "evidence_type": "primary record",
       "verified": "2026-06-01",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-retirement",
+      "admission_status": "legacy-unreviewed",
       "ai_incident_law_record_id": "AIEL-2026-019"
     },
     {
@@ -234,7 +273,10 @@
           "error_type": "ail:errorType",
           "canonical_source_conflicted": "ail:canonicalSourceConflicted",
           "mitigation_gap": "ail:mitigationGap",
-          "reliance_or_harm": "ail:relianceOrHarm"
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
         }
       ],
       "@type": "of:Tombstone",
@@ -243,11 +285,16 @@
       "deprecated": true,
       "former_type": "of:Determination",
       "notes": "Retired because a filed complaint is an unresolved allegation, not an adjudicative Determination.",
-      "source": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.664916/gov.uscourts.nysd.664916.1.0_1.pdf",
       "source_locator": "Cable News Network, Inc. v. Perplexity AI, Inc., No. 1:26-cv-04427",
       "evidence_type": "primary record",
       "verified": "2026-06-01",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-retirement",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Current docket status after the filed complaint remains unreviewed."
+      ],
       "ai_incident_law_record_id": "AIEL-2026-020"
     }
   ]
