@@ -157,6 +157,18 @@ Run an isolated bake-off before changing the default:
 - Record the fixture manifest, ground truth, commands, model versions, raw outputs, and
   adoption decision in the repository
 
+## Cross-component routing
+
+- **2026-09-22, to EveryAILaw.** Two judicial AI-use instruments surfaced inside judgments
+  admitted or queued by this corpus: India's draft Regulations for Use of Artificial
+  Intelligence in Courts, 2026, referenced in AIEL-GLOB-023, and the Federal Circuit and
+  Family Court of Australia's practice direction on AI use effective 2026-05-29, referenced
+  in AIEL-GLOB-024. Routed as a lead note to that repository's local queue rather than as a
+  data change: both bind courts and practitioners rather than private-sector AI developers
+  or deployers, so whether EveryAILaw tracks judicial-administration instruments at all is a
+  steward question there, and neither instrument's own text has been retrieved. No entry was
+  written on EveryAILaw's behalf.
+
 ## Verified but unsourced, from the 2026-09-22 sweep
 
 Four matters cleared gate 1 against their orders but have no citable original reachable by
