@@ -1,0 +1,49 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "projection_basis": "ail:projectionBasis",
+      "admission_status": "ail:admissionStatus",
+      "source_review_unresolved": "ail:sourceReviewUnresolved"
+    }
+  ],
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-073-allegation.json",
+  "id": "aiel-2026-073-allegation",
+  "text": "Granting default judgment in part on 24 July 2026, the court found the motion contained several hallucinated citations carrying what it called classic indicators of unverified artificial intelligence usage. Responding to the resulting show-cause order, counsel stated that the citations were included because he had prepared a template using AI which inserted them, and accepted full responsibility for the errors.",
+  "asserted_by": "asserting party not identified in the indexed source fields",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-073#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-073-deployer.json"
+  ],
+  "ai_system_name": "Unnamed generative AI (admitted by counsel)",
+  "deployer": "David Baldemar Reyes, counsel for plaintiff Morgan Cole",
+  "domain": "legal services",
+  "error_type": "fabricated authority",
+  "canonical_source_conflicted": "Seventh Circuit and district case law on remedies under the Americans with Disabilities Act, against citations the court could not locate",
+  "mitigation_gap": "The defective citations lived in a reusable motion template rather than in a single filing, so the same unverified AI output could recur across matters. Counsel had admitted prior AI hallucinations in another case seven days before filing this motion.",
+  "reliance_or_harm": "The court ordered counsel personally to pay a fine of $1,000 to the Clerk of Court within sixty days, to send a copy of the order to the Illinois Attorney Registration and Disciplinary Commission, and to file a status report on compliance within sixty days. The court described the penalty as deliberately modest because at the time of this filing the only consequence counsel had faced was a stricken motion. No fees or costs were awarded, none having been timely requested.",
+  "ai_incident_law_record_id": "AIEL-2026-073",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.ilcd.98203/gov.uscourts.ilcd.98203.33.0.pdf",
+  "source_locator": "Cole v. Hobby Town Unlimited, Inc., No. 4:25-cv-04217-SLD-RLH (C.D. Ill.), ECF No. 33",
+  "evidence_type": "primary record",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "projection_basis": "native-record-projection",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "Professional-discipline outcomes referred to a bar or disciplinary authority are not resolved by this order and were not followed up.",
+    "No date is established for the underlying filing that carried the defective citations, so no incident date is recorded."
+  ]
+}

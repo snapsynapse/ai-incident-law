@@ -1,0 +1,49 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "projection_basis": "ail:projectionBasis",
+      "admission_status": "ail:admissionStatus",
+      "source_review_unresolved": "ail:sourceReviewUnresolved"
+    }
+  ],
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-070-allegation.json",
+  "id": "aiel-2026-070-allegation",
+  "text": "Responding to a sua sponte order to show cause, plaintiff’s counsel acknowledged that he relied on ChatGPT when researching and drafting his opposition papers. The court identified quotations attributed to real Second Circuit decisions that it could not locate in those decisions, together with characterizations the cited cases did not support. Counsel stated that he verified only that each case existed, was in the right jurisdiction and concerned the general subject matter, and did not verify the characterizations before citing them.",
+  "asserted_by": "asserting party not identified in the indexed source fields",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-070#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-070-deployer.json"
+  ],
+  "ai_system_name": "ChatGPT (named; admitted)",
+  "deployer": "Brian M. Higbie, Law Offices of Brian M. Higbie, counsel for plaintiff",
+  "domain": "legal services",
+  "error_type": "fabricated quotations and misrepresented holdings",
+  "canonical_source_conflicted": "The text and holdings of real Second Circuit decisions, including Back v. Hastings On Hudson Union Free School District, Mangino v. Incorporated Village of Patchogue and Dolan v. Connolly, against quotations and propositions those opinions do not contain",
+  "mitigation_gap": "Counsel had previously encountered a hallucinated citation from the same tool in an unrelated matter and stopped using AI tools, then resumed after an acquaintance in the AI industry told him the fabrication problem had been fixed. His verification step confirmed only that cases existed, never that the quotations were real.",
+  "reliance_or_harm": "The fabricated quotations reached opposition papers on motions to dismiss. The court found a Rule 11 violation and ordered counsel personally to pay $500 to the Clerk of Court, complete at least two New York CLE credits in Ethics and Professionalism on AI, serve the order on his client, and include a certification on any future filing in which he used GenAI describing which portions it assisted, which tools were used and how he confirmed the output. Defendants’ requests for $6,500 and $3,500 in fees were denied because no party had moved under Rule 11, so a sua sponte sanction could only run to the court.",
+  "ai_incident_law_record_id": "AIEL-2026-070",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.607614/gov.uscourts.nysd.607614.100.0.pdf",
+  "source_locator": "Tiekert v. Village of Mamaroneck, No. 23-CV-8714 (CS) (S.D.N.Y.), ECF No. 100",
+  "evidence_type": "primary record",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "projection_basis": "native-record-projection",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "Professional-discipline outcomes referred to a bar or disciplinary authority are not resolved by this order and were not followed up.",
+    "No date is established for the underlying filing that carried the defective citations, so no incident date is recorded."
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "projection_basis": "ail:projectionBasis",
+      "admission_status": "ail:admissionStatus",
+      "source_review_unresolved": "ail:sourceReviewUnresolved",
+      "filing_date_source": "ail:filingDateSource",
+      "procedural_stage": "ail:proceduralStage"
+    }
+  ],
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-073-proceeding.json",
+  "id": "aiel-2026-073-proceeding",
+  "title": "Cole v. Hobby Town Unlimited, Inc., No. 4:25-cv-04217-SLD-RLH (C.D. Ill.), ECF No. 33",
+  "filed_date": "2026-09-02",
+  "filing_date_source": "2026-09-02",
+  "heardBy": [
+    "https://aiincidentlaw.org/authority/u-s-district-court-central-district-of-illinois.json"
+  ],
+  "jurisdiction": {
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-il"
+    ],
+    "institutional_scope": [
+      "U.S. District Court, Central District of Illinois"
+    ]
+  },
+  "territorial_scope": [
+    "us-il"
+  ],
+  "institutional_scope": [
+    "U.S. District Court, Central District of Illinois"
+  ],
+  "parties": [
+    "https://aiincidentlaw.org/party/aiel-2026-073-deployer.json"
+  ],
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-073-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2026-073-determination.json"
+  ],
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.ilcd.98203/gov.uscourts.ilcd.98203.33.0.pdf",
+  "source_locator": "Cole v. Hobby Town Unlimited, Inc., No. 4:25-cv-04217-SLD-RLH (C.D. Ill.), ECF No. 33",
+  "evidence_type": "primary record",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "projection_basis": "curated-legal-graph",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "Professional-discipline outcomes referred to a bar or disciplinary authority are not resolved by this order and were not followed up.",
+    "No date is established for the underlying filing that carried the defective citations, so no incident date is recorded."
+  ],
+  "ai_incident_law_record_id": "AIEL-2026-073",
+  "matter_type": "sanctions order (Rule 11)",
+  "filing_status": "sanctioned",
+  "procedural_stage": "trial"
+}

@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/context.jsonld",
-  "generated": "2026-09-10",
+  "generated": "2026-09-22",
   "allegations": [
     {
       "@context": [
@@ -3154,6 +3154,202 @@
         "The order names neither AI tool, so the specific systems remain unidentified.",
         "No date is established for the claim-chart submission or for the opening of the disciplinary proceeding, so no incident or filing date is recorded.",
         "The district court's own docket was not retrieved; the no-sanction and dismissal facts rest on the order's recital and the respondent's representations within it."
+      ]
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
+        }
+      ],
+      "@type": "of:Allegation",
+      "@id": "https://aiincidentlaw.org/allegation/aiel-2026-070-allegation.json",
+      "id": "aiel-2026-070-allegation",
+      "text": "Responding to a sua sponte order to show cause, plaintiff’s counsel acknowledged that he relied on ChatGPT when researching and drafting his opposition papers. The court identified quotations attributed to real Second Circuit decisions that it could not locate in those decisions, together with characterizations the cited cases did not support. Counsel stated that he verified only that each case existed, was in the right jurisdiction and concerned the general subject matter, and did not verify the characterizations before citing them.",
+      "asserted_by": "asserting party not identified in the indexed source fields",
+      "related_to": "https://aiincidentlaw.org/incident/aiel-2026-070#ai-system",
+      "related_to_party": [
+        "https://aiincidentlaw.org/party/aiel-2026-070-deployer.json"
+      ],
+      "ai_system_name": "ChatGPT (named; admitted)",
+      "deployer": "Brian M. Higbie, Law Offices of Brian M. Higbie, counsel for plaintiff",
+      "domain": "legal services",
+      "error_type": "fabricated quotations and misrepresented holdings",
+      "canonical_source_conflicted": "The text and holdings of real Second Circuit decisions, including Back v. Hastings On Hudson Union Free School District, Mangino v. Incorporated Village of Patchogue and Dolan v. Connolly, against quotations and propositions those opinions do not contain",
+      "mitigation_gap": "Counsel had previously encountered a hallucinated citation from the same tool in an unrelated matter and stopped using AI tools, then resumed after an acquaintance in the AI industry told him the fabrication problem had been fixed. His verification step confirmed only that cases existed, never that the quotations were real.",
+      "reliance_or_harm": "The fabricated quotations reached opposition papers on motions to dismiss. The court found a Rule 11 violation and ordered counsel personally to pay $500 to the Clerk of Court, complete at least two New York CLE credits in Ethics and Professionalism on AI, serve the order on his client, and include a certification on any future filing in which he used GenAI describing which portions it assisted, which tools were used and how he confirmed the output. Defendants’ requests for $6,500 and $3,500 in fees were denied because no party had moved under Rule 11, so a sua sponte sanction could only run to the court.",
+      "ai_incident_law_record_id": "AIEL-2026-070",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.607614/gov.uscourts.nysd.607614.100.0.pdf",
+      "source_locator": "Tiekert v. Village of Mamaroneck, No. 23-CV-8714 (CS) (S.D.N.Y.), ECF No. 100",
+      "evidence_type": "primary record",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Professional-discipline outcomes referred to a bar or disciplinary authority are not resolved by this order and were not followed up.",
+        "No date is established for the underlying filing that carried the defective citations, so no incident date is recorded."
+      ]
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
+        }
+      ],
+      "@type": "of:Allegation",
+      "@id": "https://aiincidentlaw.org/allegation/aiel-2026-071-allegation.json",
+      "id": "aiel-2026-071-allegation",
+      "text": "Ordered to show cause why its brief should not be stricken for citing nonexistent cases, appellee’s counsel responded that she had used Google’s generative artificial intelligence search tool to assist in locating case authority and did not verify the existence or accuracy of the citations before filing. The court found four cited decisions do not exist and declined to reproduce the fabricated citations in its own opinion. The order records that counsel relied on the tool not only to find citations but to draft the brief.",
+      "asserted_by": "asserting party not identified in the indexed source fields",
+      "related_to": "https://aiincidentlaw.org/incident/aiel-2026-071#ai-system",
+      "related_to_party": [
+        "https://aiincidentlaw.org/party/aiel-2026-071-deployer.json"
+      ],
+      "ai_system_name": "Google’s generative artificial intelligence search tool (named in the order; no product name given; admitted)",
+      "deployer": "Loishirl W. Hall, then of McCabe, Weisberg & Conway, LLC, counsel for appellee Deutsche Bank National Trust Company",
+      "domain": "legal services",
+      "error_type": "fabricated authority",
+      "canonical_source_conflicted": "District of Columbia case law, against four cited decisions that do not exist: Abadie v. District of Columbia, Cason v. National Consumer Co-op Bank, Osborne v. District of Columbia and Woods v. United States",
+      "mitigation_gap": "No verification step stood between a consumer search tool’s generative output and a brief filed on behalf of a major financial institution. Two further attorneys were listed on the brief and the firm responded separately, so the firm’s own review did not catch the fabrications either.",
+      "reliance_or_harm": "The brief was stricken and the matter referred to the District of Columbia Office of Disciplinary Counsel for any investigation it deems appropriate. No monetary sanction was imposed. The court separately referred to its own Rules Committee the question of the scope of its sanctions authority in these circumstances, which the concurring opinion describes as unclear.",
+      "ai_incident_law_record_id": "AIEL-2026-071",
+      "source": "https://dccourts.gov/sites/default/files/2026-09/Douglas%20v.%20Deutsche%20Bank%20Nat%27l%20Trt%20Co.%2024-CV-1099%20ORDER.pdf",
+      "source_locator": "Douglas v. Deutsche Bank National Trust Company, No. 24-CV-1099 (D.C. Ct. App.)",
+      "evidence_type": "primary record",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Professional-discipline outcomes referred to a bar or disciplinary authority are not resolved by this order and were not followed up.",
+        "No date is established for the underlying filing that carried the defective citations, so no incident date is recorded."
+      ]
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
+        }
+      ],
+      "@type": "of:Allegation",
+      "@id": "https://aiincidentlaw.org/allegation/aiel-2026-072-allegation.json",
+      "id": "aiel-2026-072-allegation",
+      "text": "Briefing filed for BYU contained errors and citations that appeared to be AI-hallucinated. At a show-cause hearing the drafting attorney stated that he relied on several AI models in drafting the briefing, naming ClearBrief, Claude, ChatGPT and Gemini. Before the show-cause order issued he had filed a notice of errata identifying and correcting twelve errors, and counsel had voluntarily refunded opposing counsel’s fees. The court found a Rule 11(b) violation as to both attorneys on their own admissions.",
+      "asserted_by": "asserting party not identified in the indexed source fields",
+      "related_to": "https://aiincidentlaw.org/incident/aiel-2026-072#ai-system",
+      "related_to_party": [
+        "https://aiincidentlaw.org/party/aiel-2026-072-deployer.json"
+      ],
+      "ai_system_name": "ClearBrief, Claude, ChatGPT and Gemini (named; admitted)",
+      "deployer": "Chad Pehrson (drafting attorney) and Robert S. Clark (signing attorney), counsel for Brigham Young University",
+      "domain": "legal services",
+      "error_type": "fabricated and misattributed authority",
+      "canonical_source_conflicted": "The holdings of cited authority, including Oxford Health Plans, which counsel cited for a proposition about evident partiality under 9 U.S.C. section 10(a)(2) that the case does not address",
+      "mitigation_gap": "Four separate AI tools were used in drafting and none of them, nor the signing attorney’s review, caught the fabricated and misattributed authority. The order draws no distinction between ClearBrief, a citation-checking product, and the three general-purpose models, and attributes all four to drafting rather than verification.",
+      "reliance_or_harm": "The court ordered the drafting attorney to complete two CLE courses on the ethical use of AI within six months, and ordered penalties paid to the court of $2,000 from Mr Pehrson and $1,000 from Mr Clark, with proof of payment within thirty days. The refund of opposing counsel’s fees was voluntary and preceded the order, so it is not a fee-shifting sanction.",
+      "ai_incident_law_record_id": "AIEL-2026-072",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.utd.86552/gov.uscourts.utd.86552.385.0.pdf",
+      "source_locator": "Beus Gilbert PLLC v. Brigham Young University, No. 2:12-cv-00970-TS (D. Utah), Dkt. 385",
+      "evidence_type": "primary record",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Professional-discipline outcomes referred to a bar or disciplinary authority are not resolved by this order and were not followed up.",
+        "No date is established for the underlying filing that carried the defective citations, so no incident date is recorded."
+      ]
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
+        }
+      ],
+      "@type": "of:Allegation",
+      "@id": "https://aiincidentlaw.org/allegation/aiel-2026-073-allegation.json",
+      "id": "aiel-2026-073-allegation",
+      "text": "Granting default judgment in part on 24 July 2026, the court found the motion contained several hallucinated citations carrying what it called classic indicators of unverified artificial intelligence usage. Responding to the resulting show-cause order, counsel stated that the citations were included because he had prepared a template using AI which inserted them, and accepted full responsibility for the errors.",
+      "asserted_by": "asserting party not identified in the indexed source fields",
+      "related_to": "https://aiincidentlaw.org/incident/aiel-2026-073#ai-system",
+      "related_to_party": [
+        "https://aiincidentlaw.org/party/aiel-2026-073-deployer.json"
+      ],
+      "ai_system_name": "Unnamed generative AI (admitted by counsel)",
+      "deployer": "David Baldemar Reyes, counsel for plaintiff Morgan Cole",
+      "domain": "legal services",
+      "error_type": "fabricated authority",
+      "canonical_source_conflicted": "Seventh Circuit and district case law on remedies under the Americans with Disabilities Act, against citations the court could not locate",
+      "mitigation_gap": "The defective citations lived in a reusable motion template rather than in a single filing, so the same unverified AI output could recur across matters. Counsel had admitted prior AI hallucinations in another case seven days before filing this motion.",
+      "reliance_or_harm": "The court ordered counsel personally to pay a fine of $1,000 to the Clerk of Court within sixty days, to send a copy of the order to the Illinois Attorney Registration and Disciplinary Commission, and to file a status report on compliance within sixty days. The court described the penalty as deliberately modest because at the time of this filing the only consequence counsel had faced was a stricken motion. No fees or costs were awarded, none having been timely requested.",
+      "ai_incident_law_record_id": "AIEL-2026-073",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.ilcd.98203/gov.uscourts.ilcd.98203.33.0.pdf",
+      "source_locator": "Cole v. Hobby Town Unlimited, Inc., No. 4:25-cv-04217-SLD-RLH (C.D. Ill.), ECF No. 33",
+      "evidence_type": "primary record",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "native-record-projection",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Professional-discipline outcomes referred to a bar or disciplinary authority are not resolved by this order and were not followed up.",
+        "No date is established for the underlying filing that carried the defective citations, so no incident date is recorded."
       ]
     }
   ]

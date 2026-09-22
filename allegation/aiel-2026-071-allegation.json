@@ -1,0 +1,49 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "projection_basis": "ail:projectionBasis",
+      "admission_status": "ail:admissionStatus",
+      "source_review_unresolved": "ail:sourceReviewUnresolved"
+    }
+  ],
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-071-allegation.json",
+  "id": "aiel-2026-071-allegation",
+  "text": "Ordered to show cause why its brief should not be stricken for citing nonexistent cases, appellee’s counsel responded that she had used Google’s generative artificial intelligence search tool to assist in locating case authority and did not verify the existence or accuracy of the citations before filing. The court found four cited decisions do not exist and declined to reproduce the fabricated citations in its own opinion. The order records that counsel relied on the tool not only to find citations but to draft the brief.",
+  "asserted_by": "asserting party not identified in the indexed source fields",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-071#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-071-deployer.json"
+  ],
+  "ai_system_name": "Google’s generative artificial intelligence search tool (named in the order; no product name given; admitted)",
+  "deployer": "Loishirl W. Hall, then of McCabe, Weisberg & Conway, LLC, counsel for appellee Deutsche Bank National Trust Company",
+  "domain": "legal services",
+  "error_type": "fabricated authority",
+  "canonical_source_conflicted": "District of Columbia case law, against four cited decisions that do not exist: Abadie v. District of Columbia, Cason v. National Consumer Co-op Bank, Osborne v. District of Columbia and Woods v. United States",
+  "mitigation_gap": "No verification step stood between a consumer search tool’s generative output and a brief filed on behalf of a major financial institution. Two further attorneys were listed on the brief and the firm responded separately, so the firm’s own review did not catch the fabrications either.",
+  "reliance_or_harm": "The brief was stricken and the matter referred to the District of Columbia Office of Disciplinary Counsel for any investigation it deems appropriate. No monetary sanction was imposed. The court separately referred to its own Rules Committee the question of the scope of its sanctions authority in these circumstances, which the concurring opinion describes as unclear.",
+  "ai_incident_law_record_id": "AIEL-2026-071",
+  "source": "https://dccourts.gov/sites/default/files/2026-09/Douglas%20v.%20Deutsche%20Bank%20Nat%27l%20Trt%20Co.%2024-CV-1099%20ORDER.pdf",
+  "source_locator": "Douglas v. Deutsche Bank National Trust Company, No. 24-CV-1099 (D.C. Ct. App.)",
+  "evidence_type": "primary record",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "projection_basis": "native-record-projection",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "Professional-discipline outcomes referred to a bar or disciplinary authority are not resolved by this order and were not followed up.",
+    "No date is established for the underlying filing that carried the defective citations, so no incident date is recorded."
+  ]
+}

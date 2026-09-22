@@ -1148,6 +1148,1760 @@
         "packet_sha256": "19fa66b4d1c2405afa73f2ee761621b66b095496e007bf5b6bc01dff0cfad414"
       }
     },
+    "included/AIEL-2026-070": {
+      "baseline_sha256": null,
+      "record_sha256": "15a46920d8968b8fb3571a7564e0513e6ff56361720611ab174eb04bdc5f4b11",
+      "evidence": {
+        "sdny-sanctions-order": {
+          "path": "data/admission/raw/aiel-2026-070/tiekert-sanctions-order.txt",
+          "official_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.607614/gov.uscourts.nysd.607614.100.0.pdf",
+          "sha256": "7ff6fa304daa4ac32432bcf0b7705427a8270de7bd1516bf6e27762d0c1d21c2",
+          "source_role": "primary record",
+          "document_id": "No. 23-CV-8714 (CS), ECF No. 100",
+          "document_title": "Tiekert v. Village of Mamaroneck, Opinion and Order",
+          "issuing_body": "U.S. District Court, Southern District of New York",
+          "document_type": "order",
+          "version": "Filed 2026-09-14; RECAP copy retrieved 2026-09-22",
+          "locator": "Pages 1-2 (caption and posture), 4-14 (citation findings), 16-19 (sanctions)",
+          "excerpt": "Mr. Higbie is ordered to pay a sanction of $500 to the Court. Payment shall be",
+          "identity_excerpts": [
+            "Tiekert",
+            "23-cv-08714",
+            "CATHY SEIBEL"
+          ],
+          "ai_attribution_excerpt": "Mr. Higbie acknowledged that he relied on ChatGPT, a generative",
+          "acquisition": "primary_retrieval",
+          "retrieval": {
+            "http_status": 200,
+            "retrieved_at": "2026-09-22T20:45:04Z",
+            "content_type": "application/pdf",
+            "final_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.607614/gov.uscourts.nysd.607614.100.0.pdf",
+            "original_path": "data/admission/raw/aiel-2026-070/tiekert-sanctions-order.pdf",
+            "original_sha256": "3b1f644ab0ff949e5e15b323772cdaf0afeb00ed4ec79ca4fed41fde17433e83"
+          }
+        }
+      },
+      "units": {
+        "dataset": {
+          "before_sha256": null,
+          "after_sha256": "531cecca496a7f46e4aa9ef40641db12f8bef53aaa6b67c429d2c0717dc599ce",
+          "candidate_content": "included",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:ai_system_name": {
+          "before_sha256": null,
+          "after_sha256": "440ce1839512c943846d0c10085edf55e8e696bd992c7590c3aa94cfcb06d074",
+          "candidate_content": "ChatGPT (named; admitted)",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:canonical_source_conflicted": {
+          "before_sha256": null,
+          "after_sha256": "3787676fc62db5c9bab2ea094f1470a68d2d282b4104502ab7a4d0f901620e3d",
+          "candidate_content": "The text and holdings of real Second Circuit decisions, including Back v. Hastings On Hudson Union Free School District, Mangino v. Incorporated Village of Patchogue and Dolan v. Connolly, against quotations and propositions those opinions do not contain",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:confidence_score": {
+          "before_sha256": null,
+          "after_sha256": "b57c4299afe3cda154124bdb96ceaf618a9d8d9cd8d2c8f6580ff26faa5fe5ca",
+          "candidate_content": "high",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:deployer": {
+          "before_sha256": null,
+          "after_sha256": "7dbaa6ae5db2f23089a0dfef280a6ec997ff7034965e3770fb8a9cdfa60c516f",
+          "candidate_content": "Brian M. Higbie, Law Offices of Brian M. Higbie, counsel for plaintiff",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:domain": {
+          "before_sha256": null,
+          "after_sha256": "086733358f2458e89bda1c251339dfc2104ce7352944f769c7a88aabdcd1937e",
+          "candidate_content": "legal services",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:error_date": {
+          "before_sha256": null,
+          "after_sha256": "9c8f5cf989f40d28005452b7f0969317f9bd16c606c40788b9167f30fee57c1b",
+          "candidate_content": "2026",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:error_description": {
+          "before_sha256": null,
+          "after_sha256": "dc2b80e2bb6d21c3711a3d93e081714fd7730e0465c9b5cf98d56c56207f47dc",
+          "candidate_content": "Responding to a sua sponte order to show cause, plaintiff’s counsel acknowledged that he relied on ChatGPT when researching and drafting his opposition papers. The court identified quotations attributed to real Second Circuit decisions that it could not locate in those decisions, together with characterizations the cited cases did not support. Counsel stated that he verified only that each case existed, was in the right jurisdiction and concerned the general subject matter, and did not verify the characterizations before citing them.",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:error_id": {
+          "before_sha256": null,
+          "after_sha256": "1f5612a9deb454c502bb19fdab11b5b7bdf8deb2d7d0a56d00aa1ff3b46935a0",
+          "candidate_content": "AIEL-2026-070",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:error_title": {
+          "before_sha256": null,
+          "after_sha256": "4a85135e6a705c46a107bfee4142277316d6d7e8fe9f1609b142107a0ef2ae29",
+          "candidate_content": "S.D.N.Y. sanctions counsel over ChatGPT-fabricated quotations and imposes a standing GenAI certification duty",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:error_type": {
+          "before_sha256": null,
+          "after_sha256": "0f6552223ac23d157348c7924bd6c6b42707736511c2c22088fffe9cfa853b90",
+          "candidate_content": "fabricated quotations and misrepresented holdings",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:filing_date": {
+          "before_sha256": null,
+          "after_sha256": "f5b6fdf5f4ebf78aa4b62760754b27a137561c56ac2127d020d580b5d9491fa8",
+          "candidate_content": "2026-09-14",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:filing_status": {
+          "before_sha256": null,
+          "after_sha256": "feddd07b987bccc1161e33de2f53abaf755e232f328e4137f5554ecaccf55121",
+          "candidate_content": "sanctioned",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:jurisdiction": {
+          "before_sha256": null,
+          "after_sha256": "1e076123321ad7206fdc5d59c31c7825dc352f5f62795def1e66281e25c656fc",
+          "candidate_content": "U.S. District Court, Southern District of New York",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:last_checked_date": {
+          "before_sha256": null,
+          "after_sha256": "9ae0631fc55f60fea857df73e2f5282345c3cbd3446a30c9380aa2bacb70f0e4",
+          "candidate_content": "2026-09-22",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:legal_graph": {
+          "before_sha256": null,
+          "after_sha256": "9ec70ee9d79fda8a1d0fa32693c2a092c0d2e185b720dd7451dbf867ffe60697",
+          "candidate_content": {
+            "proceedings": [
+              {
+                "id": "aiel-2026-070-proceeding",
+                "heard_by": [
+                  "u-s-district-court-southern-district-of-new-york"
+                ],
+                "determination_ids": [
+                  "aiel-2026-070-determination"
+                ],
+                "procedural_stage": "trial"
+              }
+            ],
+            "determinations": [
+              {
+                "id": "aiel-2026-070-determination",
+                "issued_by": [
+                  "u-s-district-court-southern-district-of-new-york"
+                ],
+                "issued_date": "2026-09-14",
+                "disposition": "confirmed"
+              }
+            ]
+          },
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:mitigation_gap": {
+          "before_sha256": null,
+          "after_sha256": "b9adb89685295fa8f193175a519e347c36a39cfec8a24b356959e31f3ea02767",
+          "candidate_content": "Counsel had previously encountered a hallucinated citation from the same tool in an unrelated matter and stopped using AI tools, then resumed after an acquaintance in the AI industry told him the fabrication problem had been fixed. His verification step confirmed only that cases existed, never that the quotations were real.",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:needs_review": {
+          "before_sha256": null,
+          "after_sha256": "04a06452677210a3cdaec376fd5ebbca1714cb7af9e62bf5cce1644310a9086a",
+          "candidate_content": "no",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:notes_on_resolution": {
+          "before_sha256": null,
+          "after_sha256": "ec6bb09876a3ce4c896e0b75fce4270bbcacd5c68a834f1480d99f5fc33013e0",
+          "candidate_content": "Order of Judge Cathy Seibel, 14 September 2026, resolving a sua sponte Rule 11 order to show cause. The forward-looking GenAI certification requirement is the distinguishing feature: it binds counsel on any future filing rather than only in this case, and the corpus holds no comparable standing disclosure remedy. The order places the conduct in the middle of a three-part hallucination taxonomy, fabricated quotations attributed to real decisions rather than wholly nonexistent cases. The denial of opposing counsel’s fee requests turns on the procedural posture, not on the gravity of the conduct.",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:public_matter_name": {
+          "before_sha256": null,
+          "after_sha256": "847e335713e4df1074bc73c6736d20cff084bc265d9356be4bb9b5eaa9020c9c",
+          "candidate_content": "Tiekert v. Village of Mamaroneck, No. 23-CV-8714 (CS) (S.D.N.Y.), ECF No. 100",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:public_matter_type": {
+          "before_sha256": null,
+          "after_sha256": "7efe0c3a355558f9e29d23ed2bda85b12622bfab8baff2a4ed0309bdc067a246",
+          "candidate_content": "sanctions order (Rule 11)",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:public_record_link": {
+          "before_sha256": null,
+          "after_sha256": "0896b49628a88b81cbd883125627de31397622db7bbdfd607f1dd35a23938864",
+          "candidate_content": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.607614/gov.uscourts.nysd.607614.100.0.pdf",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:reliance_or_harm": {
+          "before_sha256": null,
+          "after_sha256": "c5b6f3facbcab0fa3d7611d0aed13b4ae6de0b7c5400fa9b3d48914eab533359",
+          "candidate_content": "The fabricated quotations reached opposition papers on motions to dismiss. The court found a Rule 11 violation and ordered counsel personally to pay $500 to the Clerk of Court, complete at least two New York CLE credits in Ethics and Professionalism on AI, serve the order on his client, and include a certification on any future filing in which he used GenAI describing which portions it assisted, which tools were used and how he confirmed the output. Defendants’ requests for $6,500 and $3,500 in fees were denied because no party had moved under Rule 11, so a sua sponte sanction could only run to the court.",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:research_status": {
+          "before_sha256": null,
+          "after_sha256": "531cecca496a7f46e4aa9ef40641db12f8bef53aaa6b67c429d2c0717dc599ce",
+          "candidate_content": "included",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:source_quality": {
+          "before_sha256": null,
+          "after_sha256": "8b60775068860bb40eab0cb04c57db849f6cd6b04a287c8a959c85b1cca20500",
+          "candidate_content": "primary record",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        },
+        "field:tags": {
+          "before_sha256": null,
+          "after_sha256": "8e805b94662b4865175ef91fe61a318b6a476fd1a4e899cf43491bcd4c761e48",
+          "candidate_content": "fabricated-quotations; misrepresented-holdings; rule-11; chatgpt; cle-ordered; genai-certification-duty; no-fee-award; legal-services",
+          "reason": "Records this source-supported unit of AIEL-2026-070 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-070 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sdny-sanctions-order"
+          ]
+        }
+      },
+      "unresolved": [
+        "Professional-discipline outcomes referred to a bar or disciplinary authority are not resolved by this order and were not followed up.",
+        "No date is established for the underlying filing that carried the defective citations, so no incident date is recorded."
+      ],
+      "review": {
+        "actor": "claude:find-new-cases-sweep-2026-09-22",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Complete source-consistency review of the new included record AIEL-2026-070 against the retained primary order named in this packet. No human approval is asserted and no Verified freshness is renewed.",
+        "reviewed_at": "2026-09-22T20:47:55.582Z",
+        "packet_sha256": "f1df52aa8b4904443858ea58745aecd50b691c7df5d459595c40226a064fa0cf"
+      }
+    },
+    "included/AIEL-2026-071": {
+      "baseline_sha256": null,
+      "record_sha256": "7f9d7668bdd18c0191940cf48148d3ca3d1d0c96288988da796b0306466c1a80",
+      "evidence": {
+        "dcca-order": {
+          "path": "data/admission/raw/aiel-2026-071/dcca-order.txt",
+          "official_url": "https://dccourts.gov/sites/default/files/2026-09/Douglas%20v.%20Deutsche%20Bank%20Nat%27l%20Trt%20Co.%2024-CV-1099%20ORDER.pdf",
+          "sha256": "360256272246ddcf56cf508386c8ba30846bca7c05e8b9db2ed65fd9c92e9f47",
+          "source_role": "primary record",
+          "document_id": "No. 24-CV-1099",
+          "document_title": "Douglas v. Deutsche Bank National Trust Company, Order",
+          "issuing_body": "District of Columbia Court of Appeals",
+          "document_type": "order",
+          "version": "Issued 2026-09-03; official copy retrieved 2026-09-22",
+          "locator": "Pages 1-2 (per curiam order, show-cause posture), footnote 2 (the four nonexistent cases), disposition and referral paragraphs",
+          "excerpt": "about the misuse of artificial intelligence (AI) and its consequences for attorneys,",
+          "identity_excerpts": [
+            "Deutsche Bank",
+            "24-CV-1099",
+            "Loishirl W. Hall"
+          ],
+          "ai_attribution_excerpt": "used Google’s generative artificial",
+          "acquisition": "primary_retrieval",
+          "retrieval": {
+            "http_status": 200,
+            "retrieved_at": "2026-09-22T20:45:04Z",
+            "content_type": "application/pdf",
+            "final_url": "https://www.dccourts.gov/sites/default/files/2026-09/Douglas%20v.%20Deutsche%20Bank%20Nat%27l%20Trt%20Co.%2024-CV-1099%20ORDER.pdf",
+            "original_path": "data/admission/raw/aiel-2026-071/dcca-order.pdf",
+            "original_sha256": "e69cfc9a0871eeace25dbcf259a2fd6ca276d1d6f3519a4d7407c720d14fc538"
+          }
+        }
+      },
+      "units": {
+        "dataset": {
+          "before_sha256": null,
+          "after_sha256": "531cecca496a7f46e4aa9ef40641db12f8bef53aaa6b67c429d2c0717dc599ce",
+          "candidate_content": "included",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:ai_system_name": {
+          "before_sha256": null,
+          "after_sha256": "a7aff4bc288734b666b87bb8f31a9b352158792071d2d5ddf34170788c6640e4",
+          "candidate_content": "Google’s generative artificial intelligence search tool (named in the order; no product name given; admitted)",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:canonical_source_conflicted": {
+          "before_sha256": null,
+          "after_sha256": "1e49edb09539ebcf37724d54781d007713d8aaf39aa0ca444bf57579d6f06989",
+          "candidate_content": "District of Columbia case law, against four cited decisions that do not exist: Abadie v. District of Columbia, Cason v. National Consumer Co-op Bank, Osborne v. District of Columbia and Woods v. United States",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:confidence_score": {
+          "before_sha256": null,
+          "after_sha256": "b57c4299afe3cda154124bdb96ceaf618a9d8d9cd8d2c8f6580ff26faa5fe5ca",
+          "candidate_content": "high",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:deployer": {
+          "before_sha256": null,
+          "after_sha256": "fbaf5d9b838f44db73d4af0800344a9d8a18f9d0c1e56cfe21e99b9b73f35c10",
+          "candidate_content": "Loishirl W. Hall, then of McCabe, Weisberg & Conway, LLC, counsel for appellee Deutsche Bank National Trust Company",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:domain": {
+          "before_sha256": null,
+          "after_sha256": "086733358f2458e89bda1c251339dfc2104ce7352944f769c7a88aabdcd1937e",
+          "candidate_content": "legal services",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:error_date": {
+          "before_sha256": null,
+          "after_sha256": "9c8f5cf989f40d28005452b7f0969317f9bd16c606c40788b9167f30fee57c1b",
+          "candidate_content": "2026",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:error_description": {
+          "before_sha256": null,
+          "after_sha256": "44091a124a1933698ad8e88534c799bd292f15f03b12e9d18273b5d83cbaea32",
+          "candidate_content": "Ordered to show cause why its brief should not be stricken for citing nonexistent cases, appellee’s counsel responded that she had used Google’s generative artificial intelligence search tool to assist in locating case authority and did not verify the existence or accuracy of the citations before filing. The court found four cited decisions do not exist and declined to reproduce the fabricated citations in its own opinion. The order records that counsel relied on the tool not only to find citations but to draft the brief.",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:error_id": {
+          "before_sha256": null,
+          "after_sha256": "f98160a6d53aacd8d480ca36d805fee0f3b15af9bf455a069dcc0d0ca793f057",
+          "candidate_content": "AIEL-2026-071",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:error_title": {
+          "before_sha256": null,
+          "after_sha256": "773091418ad138619b4da1be65049cddbba4644117b2cf398133768521fdcbb1",
+          "candidate_content": "D.C. Court of Appeals strikes a bank’s brief over nonexistent cases from a generative AI search tool",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:error_type": {
+          "before_sha256": null,
+          "after_sha256": "57079104c6fbd8e2f1f232eeb4c4d8bf2049bff15d9275f7171521264d294597",
+          "candidate_content": "fabricated authority",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:filing_date": {
+          "before_sha256": null,
+          "after_sha256": "741da315a29809e8554ba9fd570d711ab1991a430a9950777642b16f0e53d86c",
+          "candidate_content": "2026-09-03",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:filing_status": {
+          "before_sha256": null,
+          "after_sha256": "6b67a0683b3327649650d556c3ffa095f8dcb8c527f76402f86c979cf501b448",
+          "candidate_content": "brief stricken; referred for discipline",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:jurisdiction": {
+          "before_sha256": null,
+          "after_sha256": "0cd95ee1df75491fb9528174c133c27af9f853e6dc7745c4d1e16d80d6681787",
+          "candidate_content": "District of Columbia Court of Appeals",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:last_checked_date": {
+          "before_sha256": null,
+          "after_sha256": "9ae0631fc55f60fea857df73e2f5282345c3cbd3446a30c9380aa2bacb70f0e4",
+          "candidate_content": "2026-09-22",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:legal_graph": {
+          "before_sha256": null,
+          "after_sha256": "01ea37cad55bff5731bbdf09b3d515e66dfbf64a7cfa264bc002c14efc0946d1",
+          "candidate_content": {
+            "proceedings": [
+              {
+                "id": "aiel-2026-071-proceeding",
+                "heard_by": [
+                  "district-of-columbia-court-of-appeals"
+                ],
+                "determination_ids": [
+                  "aiel-2026-071-determination"
+                ],
+                "procedural_stage": "appeal"
+              }
+            ],
+            "determinations": [
+              {
+                "id": "aiel-2026-071-determination",
+                "issued_by": [
+                  "district-of-columbia-court-of-appeals"
+                ],
+                "issued_date": "2026-09-03",
+                "disposition": "confirmed"
+              }
+            ]
+          },
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:mitigation_gap": {
+          "before_sha256": null,
+          "after_sha256": "6afecddbeeab6dae598e8378e37fadc618249cdc214e0e93af36e9de7c20a2a6",
+          "candidate_content": "No verification step stood between a consumer search tool’s generative output and a brief filed on behalf of a major financial institution. Two further attorneys were listed on the brief and the firm responded separately, so the firm’s own review did not catch the fabrications either.",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:needs_review": {
+          "before_sha256": null,
+          "after_sha256": "04a06452677210a3cdaec376fd5ebbca1714cb7af9e62bf5cce1644310a9086a",
+          "candidate_content": "no",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:notes_on_resolution": {
+          "before_sha256": null,
+          "after_sha256": "24ca88c3a143d314a0e851b173c8c289348c1e28e56be0312a861fc3a283559f",
+          "candidate_content": "Published per curiam order of 3 September 2026 (Easterly and Shanker, Associate Judges; Glickman, Senior Judge, concurring), on responses to a show-cause order. The tool is recorded exactly as the order describes it and is deliberately not resolved to Gemini or AI Overviews, neither of which the order names. This is active use of a consumer search tool for legal research, which distinguishes it from the corpus’s passive-exposure records AIEL-2026-064 and AIEL-GLOB-013, where an AI summary appeared unsolicited in ordinary search results. The concurrence’s discussion of firm-level controls and the Rules Committee referral are both about institutional response rather than this attorney’s conduct.",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:public_matter_name": {
+          "before_sha256": null,
+          "after_sha256": "aac5d0e0b43bded2121b1a7057ca438c09ab065d95b91583f25a89f683c5f0b5",
+          "candidate_content": "Douglas v. Deutsche Bank National Trust Company, No. 24-CV-1099 (D.C. Ct. App.)",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:public_matter_type": {
+          "before_sha256": null,
+          "after_sha256": "6e2bb7eb6bbb5f40c526fb6a5b3b4d80f9e568c08f538c140a8c2a847b78be80",
+          "candidate_content": "appellate order striking a brief with disciplinary referral",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:public_record_link": {
+          "before_sha256": null,
+          "after_sha256": "bba277a0a2d337d50a1604af6a90acb3ed9c14a9d9f689ce012705530e670998",
+          "candidate_content": "https://dccourts.gov/sites/default/files/2026-09/Douglas%20v.%20Deutsche%20Bank%20Nat%27l%20Trt%20Co.%2024-CV-1099%20ORDER.pdf",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:reliance_or_harm": {
+          "before_sha256": null,
+          "after_sha256": "09eae7c0f5f0eb5420b1a8f8f9f6bfab0c435f35dbebc92bd28747b4053e78e4",
+          "candidate_content": "The brief was stricken and the matter referred to the District of Columbia Office of Disciplinary Counsel for any investigation it deems appropriate. No monetary sanction was imposed. The court separately referred to its own Rules Committee the question of the scope of its sanctions authority in these circumstances, which the concurring opinion describes as unclear.",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:research_status": {
+          "before_sha256": null,
+          "after_sha256": "531cecca496a7f46e4aa9ef40641db12f8bef53aaa6b67c429d2c0717dc599ce",
+          "candidate_content": "included",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:secondary_source_links": {
+          "before_sha256": null,
+          "after_sha256": "2fff681fdb36ccbb9af32d53c10f4ff3fc042cc95dbc194b960856e7a2a24ec5",
+          "candidate_content": "https://reason.com/volokh/2026/09/04/incredulity-that-competent-law-firm-representing-one-of-the-largest-financial-institutions-in-the-world-filed-brief-with-ai-hallucinations/",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:source_quality": {
+          "before_sha256": null,
+          "after_sha256": "8b60775068860bb40eab0cb04c57db849f6cd6b04a287c8a959c85b1cca20500",
+          "candidate_content": "primary record",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        },
+        "field:tags": {
+          "before_sha256": null,
+          "after_sha256": "934ff5eb1593492257a427c05997c51f043d0b6ac783c45560a49975cb4f3e33",
+          "candidate_content": "fabricated-citations; consumer-search-ai; active-use; brief-stricken; disciplinary-referral; no-monetary-sanction; appellate; legal-services",
+          "reason": "Records this source-supported unit of AIEL-2026-071 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-071 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "dcca-order"
+          ]
+        }
+      },
+      "unresolved": [
+        "Professional-discipline outcomes referred to a bar or disciplinary authority are not resolved by this order and were not followed up.",
+        "No date is established for the underlying filing that carried the defective citations, so no incident date is recorded."
+      ],
+      "review": {
+        "actor": "claude:find-new-cases-sweep-2026-09-22",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Complete source-consistency review of the new included record AIEL-2026-071 against the retained primary order named in this packet. No human approval is asserted and no Verified freshness is renewed.",
+        "reviewed_at": "2026-09-22T20:47:55.584Z",
+        "packet_sha256": "ce454439abad232c2a5519949b2fc75426ba1a88bf24a79005240d892eb949ef"
+      }
+    },
+    "included/AIEL-2026-072": {
+      "baseline_sha256": null,
+      "record_sha256": "3f6bfdcb21c390493a4979ad7bcca8f7aeaee0e3d177ebaf4e2ba4da10fb8f46",
+      "evidence": {
+        "utah-sanctions-order": {
+          "path": "data/admission/raw/aiel-2026-072/sanctions-order.txt",
+          "official_url": "https://storage.courtlistener.com/recap/gov.uscourts.utd.86552/gov.uscourts.utd.86552.385.0.pdf",
+          "sha256": "79a83b1a40d0e2ae14c978e3e914c95f062930b06170b9c4bce3f91e6dd978e6",
+          "source_role": "primary record",
+          "document_id": "No. 2:12-cv-00970-TS, Dkt. 385",
+          "document_title": "Beus Gilbert PLLC v. Brigham Young University, Memorandum Decision and Order Imposing Sanctions",
+          "issuing_body": "U.S. District Court, District of Utah",
+          "document_type": "order",
+          "version": "Filed 2026-09-09; RECAP copy retrieved 2026-09-22",
+          "locator": "Pages 1-3, including the show-cause history, the hearing admissions and the ordered sanctions",
+          "excerpt": "further ORDERED that Mr. Pehrson pay a penalty of $2,000 and Mr. Clark pay a penalty of",
+          "identity_excerpts": [
+            "BEUS GILBERT",
+            "2:12-cv-00970",
+            "TED STEWART"
+          ],
+          "ai_attribution_excerpt": "several AI models in drafting the briefing, including ClearBrief, Claude, ChatGPT, and Gemini.",
+          "acquisition": "primary_retrieval",
+          "retrieval": {
+            "http_status": 200,
+            "retrieved_at": "2026-09-22T20:45:04Z",
+            "content_type": "application/pdf",
+            "final_url": "https://storage.courtlistener.com/recap/gov.uscourts.utd.86552/gov.uscourts.utd.86552.385.0.pdf",
+            "original_path": "data/admission/raw/aiel-2026-072/sanctions-order.pdf",
+            "original_sha256": "09beb4373ae66c2c973b4a88a120e9ba7b76b6f7f249cdb62f7e33348371db05"
+          }
+        }
+      },
+      "units": {
+        "dataset": {
+          "before_sha256": null,
+          "after_sha256": "531cecca496a7f46e4aa9ef40641db12f8bef53aaa6b67c429d2c0717dc599ce",
+          "candidate_content": "included",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:ai_system_name": {
+          "before_sha256": null,
+          "after_sha256": "e0999f83415e5d11a215e4c7f2c9d1c1046076ae693359dcafce5183de8c3287",
+          "candidate_content": "ClearBrief, Claude, ChatGPT and Gemini (named; admitted)",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:canonical_source_conflicted": {
+          "before_sha256": null,
+          "after_sha256": "e2975389f9cdc2a1dde8ab77a51cda713a3f8874d6e924bacf418c5e27c3c95f",
+          "candidate_content": "The holdings of cited authority, including Oxford Health Plans, which counsel cited for a proposition about evident partiality under 9 U.S.C. section 10(a)(2) that the case does not address",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:confidence_score": {
+          "before_sha256": null,
+          "after_sha256": "b57c4299afe3cda154124bdb96ceaf618a9d8d9cd8d2c8f6580ff26faa5fe5ca",
+          "candidate_content": "high",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:deployer": {
+          "before_sha256": null,
+          "after_sha256": "2bf47c6255692b7630a0402ecafd6cfa37ee25edb4f7767ef5eac342e7382b73",
+          "candidate_content": "Chad Pehrson (drafting attorney) and Robert S. Clark (signing attorney), counsel for Brigham Young University",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:domain": {
+          "before_sha256": null,
+          "after_sha256": "086733358f2458e89bda1c251339dfc2104ce7352944f769c7a88aabdcd1937e",
+          "candidate_content": "legal services",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:error_date": {
+          "before_sha256": null,
+          "after_sha256": "9c8f5cf989f40d28005452b7f0969317f9bd16c606c40788b9167f30fee57c1b",
+          "candidate_content": "2026",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:error_description": {
+          "before_sha256": null,
+          "after_sha256": "c3ec11fccce53ad6483597f7ab2a3ff05a6d177e2eb108ee14cea61f3d446706",
+          "candidate_content": "Briefing filed for BYU contained errors and citations that appeared to be AI-hallucinated. At a show-cause hearing the drafting attorney stated that he relied on several AI models in drafting the briefing, naming ClearBrief, Claude, ChatGPT and Gemini. Before the show-cause order issued he had filed a notice of errata identifying and correcting twelve errors, and counsel had voluntarily refunded opposing counsel’s fees. The court found a Rule 11(b) violation as to both attorneys on their own admissions.",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:error_id": {
+          "before_sha256": null,
+          "after_sha256": "1eabb1f65d8d570628d0c80f19b49fc015d18f8c311cac0d0c2aeaf566659225",
+          "candidate_content": "AIEL-2026-072",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:error_title": {
+          "before_sha256": null,
+          "after_sha256": "674c2f93d0381b9f31a6583fcf7ebc23948a2a869173ead2719ed7ea5cffcac1",
+          "candidate_content": "D. Utah penalizes two attorneys over briefing drafted with four generative AI tools",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:error_type": {
+          "before_sha256": null,
+          "after_sha256": "b7322f92f182348577b7737152db08d456c9f0cd26d133f6d4c4549fef249f06",
+          "candidate_content": "fabricated and misattributed authority",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:filing_date": {
+          "before_sha256": null,
+          "after_sha256": "deab17f5c24dfc69254d7427a910923048244bb75e30f66a7d2bc6916b4ca270",
+          "candidate_content": "2026-09-09",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:filing_status": {
+          "before_sha256": null,
+          "after_sha256": "feddd07b987bccc1161e33de2f53abaf755e232f328e4137f5554ecaccf55121",
+          "candidate_content": "sanctioned",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:jurisdiction": {
+          "before_sha256": null,
+          "after_sha256": "733d1cb0eef99e2e37a23f3cc6c669a1e150f9d2bcb0ef0c9efc779e6c086b2e",
+          "candidate_content": "U.S. District Court, District of Utah",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:last_checked_date": {
+          "before_sha256": null,
+          "after_sha256": "9ae0631fc55f60fea857df73e2f5282345c3cbd3446a30c9380aa2bacb70f0e4",
+          "candidate_content": "2026-09-22",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:legal_graph": {
+          "before_sha256": null,
+          "after_sha256": "1ca1f4574145e024592d3356b1e3c6b521825c751ac740ee5e8f8971ec404869",
+          "candidate_content": {
+            "proceedings": [
+              {
+                "id": "aiel-2026-072-proceeding",
+                "heard_by": [
+                  "u-s-district-court-district-of-utah"
+                ],
+                "determination_ids": [
+                  "aiel-2026-072-determination"
+                ],
+                "procedural_stage": "trial"
+              }
+            ],
+            "determinations": [
+              {
+                "id": "aiel-2026-072-determination",
+                "issued_by": [
+                  "u-s-district-court-district-of-utah"
+                ],
+                "issued_date": "2026-09-09",
+                "disposition": "confirmed"
+              }
+            ]
+          },
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:mitigation_gap": {
+          "before_sha256": null,
+          "after_sha256": "dac029c208352f4983bc137e1b2999fa4656818cbc9237f99888da15621c12ae",
+          "candidate_content": "Four separate AI tools were used in drafting and none of them, nor the signing attorney’s review, caught the fabricated and misattributed authority. The order draws no distinction between ClearBrief, a citation-checking product, and the three general-purpose models, and attributes all four to drafting rather than verification.",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:needs_review": {
+          "before_sha256": null,
+          "after_sha256": "04a06452677210a3cdaec376fd5ebbca1714cb7af9e62bf5cce1644310a9086a",
+          "candidate_content": "no",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:notes_on_resolution": {
+          "before_sha256": null,
+          "after_sha256": "89fe2d216bde08903dce12ccebe06fa73068a760d05a66064601920fe5c59296",
+          "candidate_content": "Memorandum decision and order of Judge Ted Stewart, 9 September 2026, following a show-cause order of 30 July 2026 and a hearing on 2 September 2026. The penalties are several and unequal, $2,000 and $1,000 against two named attorneys rather than a single $3,000 obligation, and the CLE requirement binds only the drafting attorney; the signing attorney told the court he had already enrolled in a course himself. This is the corpus’s first record naming four distinct AI tools in one matter, and the only one to date in which a citation-checking product appears alongside general-purpose models without the order distinguishing their roles.",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:public_matter_name": {
+          "before_sha256": null,
+          "after_sha256": "bf228075854ce69ffe3db756c1aa24519a630e577251c0a6ec005eb381527a66",
+          "candidate_content": "Beus Gilbert PLLC v. Brigham Young University, No. 2:12-cv-00970-TS (D. Utah), Dkt. 385",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:public_matter_type": {
+          "before_sha256": null,
+          "after_sha256": "7efe0c3a355558f9e29d23ed2bda85b12622bfab8baff2a4ed0309bdc067a246",
+          "candidate_content": "sanctions order (Rule 11)",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:public_record_link": {
+          "before_sha256": null,
+          "after_sha256": "ac49c9447c6c8b452d2bcbbc597de19348724670d6359250713f0fd617b6ed9e",
+          "candidate_content": "https://storage.courtlistener.com/recap/gov.uscourts.utd.86552/gov.uscourts.utd.86552.385.0.pdf",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:reliance_or_harm": {
+          "before_sha256": null,
+          "after_sha256": "c8b4460e1493ccf46b0c086c594ad904ebf8918a9e752ee8e48387220375c159",
+          "candidate_content": "The court ordered the drafting attorney to complete two CLE courses on the ethical use of AI within six months, and ordered penalties paid to the court of $2,000 from Mr Pehrson and $1,000 from Mr Clark, with proof of payment within thirty days. The refund of opposing counsel’s fees was voluntary and preceded the order, so it is not a fee-shifting sanction.",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:research_status": {
+          "before_sha256": null,
+          "after_sha256": "531cecca496a7f46e4aa9ef40641db12f8bef53aaa6b67c429d2c0717dc599ce",
+          "candidate_content": "included",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:source_quality": {
+          "before_sha256": null,
+          "after_sha256": "8b60775068860bb40eab0cb04c57db849f6cd6b04a287c8a959c85b1cca20500",
+          "candidate_content": "primary record",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        },
+        "field:tags": {
+          "before_sha256": null,
+          "after_sha256": "2cc11b3171124a83724ea7032ab6b3af4e30b3865b4935b72f123ca0ad518867",
+          "candidate_content": "fabricated-citations; misattributed-authority; rule-11; multiple-tools; clearbrief; claude; chatgpt; gemini; cle-ordered; legal-services",
+          "reason": "Records this source-supported unit of AIEL-2026-072 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-072 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "utah-sanctions-order"
+          ]
+        }
+      },
+      "unresolved": [
+        "Professional-discipline outcomes referred to a bar or disciplinary authority are not resolved by this order and were not followed up.",
+        "No date is established for the underlying filing that carried the defective citations, so no incident date is recorded."
+      ],
+      "review": {
+        "actor": "claude:find-new-cases-sweep-2026-09-22",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Complete source-consistency review of the new included record AIEL-2026-072 against the retained primary order named in this packet. No human approval is asserted and no Verified freshness is renewed.",
+        "reviewed_at": "2026-09-22T20:47:55.584Z",
+        "packet_sha256": "9f2392d7b2588bf918c2b3d5fa0d66b49adac735c23cacdf1ae8d125c891fcef"
+      }
+    },
+    "included/AIEL-2026-073": {
+      "baseline_sha256": null,
+      "record_sha256": "d1809e6434470cf86fc476fcc13cbc8125c74efc3ae649b29f5d3dc40d51f5ee",
+      "evidence": {
+        "ilcd-sanctions-order": {
+          "path": "data/admission/raw/aiel-2026-073/sanctions-order.txt",
+          "official_url": "https://storage.courtlistener.com/recap/gov.uscourts.ilcd.98203/gov.uscourts.ilcd.98203.33.0.pdf",
+          "sha256": "bcb2fe0b57eee7d9e836a4de8adcc0dae70390bd9197f77b8f1850b591bbb369",
+          "source_role": "primary record",
+          "document_id": "No. 4:25-cv-04217-SLD-RLH, ECF No. 33",
+          "document_title": "Cole v. Hobby Town Unlimited, Inc., Order on Rule 11 Sanctions",
+          "issuing_body": "U.S. District Court, Central District of Illinois",
+          "document_type": "order",
+          "version": "Filed 2026-09-02; RECAP copy retrieved 2026-09-22",
+          "locator": "Pages 1-4 (caption, prior order, counsel's response) and the conclusion imposing the fine and referral",
+          "excerpt": "Accordingly, Attorney David Baldemar Reyes is ORDERED to pay a fine of $1,000 to the",
+          "identity_excerpts": [
+            "MORGAN COLE",
+            "HOBBY TOWN",
+            "4:25-cv-04217"
+          ],
+          "ai_attribution_excerpt": "included in his motion because he prepared a template using AI, which inserted those",
+          "acquisition": "primary_retrieval",
+          "retrieval": {
+            "http_status": 200,
+            "retrieved_at": "2026-09-22T20:45:04Z",
+            "content_type": "application/pdf",
+            "final_url": "https://storage.courtlistener.com/recap/gov.uscourts.ilcd.98203/gov.uscourts.ilcd.98203.33.0.pdf",
+            "original_path": "data/admission/raw/aiel-2026-073/sanctions-order.pdf",
+            "original_sha256": "bce43903ff11ea8033742f4a7d19bcacd0b11c42287f44bb1f9b4756e190ccd0"
+          }
+        }
+      },
+      "units": {
+        "dataset": {
+          "before_sha256": null,
+          "after_sha256": "531cecca496a7f46e4aa9ef40641db12f8bef53aaa6b67c429d2c0717dc599ce",
+          "candidate_content": "included",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:ai_system_name": {
+          "before_sha256": null,
+          "after_sha256": "9dadca3c289dac715d2d9af4644b23bed5d5d92cb681f93600912a86cdf3b7ae",
+          "candidate_content": "Unnamed generative AI (admitted by counsel)",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:canonical_source_conflicted": {
+          "before_sha256": null,
+          "after_sha256": "836f3dc95be66aa754ff76ab22e48ef09dea09bea6058e76e9ad4760f782ac11",
+          "candidate_content": "Seventh Circuit and district case law on remedies under the Americans with Disabilities Act, against citations the court could not locate",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:confidence_score": {
+          "before_sha256": null,
+          "after_sha256": "b57c4299afe3cda154124bdb96ceaf618a9d8d9cd8d2c8f6580ff26faa5fe5ca",
+          "candidate_content": "high",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:deployer": {
+          "before_sha256": null,
+          "after_sha256": "be91a86ce98914fadf6fb83a7ada22f4f1d228bfc3d99a82982c9597b366b6a9",
+          "candidate_content": "David Baldemar Reyes, counsel for plaintiff Morgan Cole",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:domain": {
+          "before_sha256": null,
+          "after_sha256": "086733358f2458e89bda1c251339dfc2104ce7352944f769c7a88aabdcd1937e",
+          "candidate_content": "legal services",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:error_date": {
+          "before_sha256": null,
+          "after_sha256": "9c8f5cf989f40d28005452b7f0969317f9bd16c606c40788b9167f30fee57c1b",
+          "candidate_content": "2026",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:error_description": {
+          "before_sha256": null,
+          "after_sha256": "c80b2f9c842424f768a6475deb0f645cbb142e263ed0225d2aafc618e9749837",
+          "candidate_content": "Granting default judgment in part on 24 July 2026, the court found the motion contained several hallucinated citations carrying what it called classic indicators of unverified artificial intelligence usage. Responding to the resulting show-cause order, counsel stated that the citations were included because he had prepared a template using AI which inserted them, and accepted full responsibility for the errors.",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:error_id": {
+          "before_sha256": null,
+          "after_sha256": "aea6fb1d7f84c71e33925f5734ddee7141428c6db6b2e8610279c6be52bb847b",
+          "candidate_content": "AIEL-2026-073",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:error_title": {
+          "before_sha256": null,
+          "after_sha256": "7caead0065c6c8f5f8f38707dbb6d35d1f6ee100cee0ffea72aa730f8b3e4494",
+          "candidate_content": "C.D. Illinois fines counsel whose AI-built motion template carried hallucinated citations",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:error_type": {
+          "before_sha256": null,
+          "after_sha256": "57079104c6fbd8e2f1f232eeb4c4d8bf2049bff15d9275f7171521264d294597",
+          "candidate_content": "fabricated authority",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:filing_date": {
+          "before_sha256": null,
+          "after_sha256": "6be9875b5ec00706f96bc961813a7cfad075d3d24f334cbdace51ceca7b6d401",
+          "candidate_content": "2026-09-02",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:filing_status": {
+          "before_sha256": null,
+          "after_sha256": "feddd07b987bccc1161e33de2f53abaf755e232f328e4137f5554ecaccf55121",
+          "candidate_content": "sanctioned",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:jurisdiction": {
+          "before_sha256": null,
+          "after_sha256": "7cccdc29f908a8ed63691985868e1a2fb590aefe8e6d48662f6f2cf23bc7eb03",
+          "candidate_content": "U.S. District Court, Central District of Illinois",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:last_checked_date": {
+          "before_sha256": null,
+          "after_sha256": "9ae0631fc55f60fea857df73e2f5282345c3cbd3446a30c9380aa2bacb70f0e4",
+          "candidate_content": "2026-09-22",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:legal_graph": {
+          "before_sha256": null,
+          "after_sha256": "2fbcddff4379de1518278b9505cad00bad19e20a6c2101d1e2f9b4f03be4a7c5",
+          "candidate_content": {
+            "proceedings": [
+              {
+                "id": "aiel-2026-073-proceeding",
+                "heard_by": [
+                  "u-s-district-court-central-district-of-illinois"
+                ],
+                "determination_ids": [
+                  "aiel-2026-073-determination"
+                ],
+                "procedural_stage": "trial"
+              }
+            ],
+            "determinations": [
+              {
+                "id": "aiel-2026-073-determination",
+                "issued_by": [
+                  "u-s-district-court-central-district-of-illinois"
+                ],
+                "issued_date": "2026-09-02",
+                "disposition": "confirmed"
+              }
+            ]
+          },
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:mitigation_gap": {
+          "before_sha256": null,
+          "after_sha256": "0e732337798d3d5df4837cb5836bef097a273eb936214ae352019eaf8790e335",
+          "candidate_content": "The defective citations lived in a reusable motion template rather than in a single filing, so the same unverified AI output could recur across matters. Counsel had admitted prior AI hallucinations in another case seven days before filing this motion.",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:needs_review": {
+          "before_sha256": null,
+          "after_sha256": "04a06452677210a3cdaec376fd5ebbca1714cb7af9e62bf5cce1644310a9086a",
+          "candidate_content": "no",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:notes_on_resolution": {
+          "before_sha256": null,
+          "after_sha256": "8c68e56781ef3fedef7d5e199f021630052c29fa352e6d97a66a8b910fb05caa",
+          "candidate_content": "Order of Chief Judge Sara Darrow, 2 September 2026, the post-judgment sanctions phase following the 24 July 2026 default-judgment order that first identified the citations. The template mechanism is what distinguishes this record: the fabrications were embedded in reusable drafting material rather than produced for one brief. The order cross-references two other matters involving the same attorney, Hippe v. Retention Brands, No. 2:25-cv-00596 (E.D. Wis.) and Pittman v. Hazel & Olive, No. 1:25-cv-07791 (N.D. Ill.), neither of which is in this corpus. The docket’s CourtListener title reflects the stale original caption naming a terminated co-defendant.",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:public_matter_name": {
+          "before_sha256": null,
+          "after_sha256": "0698a39ddda2407163e6893187113e8a3c1dc7cfd6d3f7d6467dbf2dfacce422",
+          "candidate_content": "Cole v. Hobby Town Unlimited, Inc., No. 4:25-cv-04217-SLD-RLH (C.D. Ill.), ECF No. 33",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:public_matter_type": {
+          "before_sha256": null,
+          "after_sha256": "7efe0c3a355558f9e29d23ed2bda85b12622bfab8baff2a4ed0309bdc067a246",
+          "candidate_content": "sanctions order (Rule 11)",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:public_record_link": {
+          "before_sha256": null,
+          "after_sha256": "d9b6663e5ef99f0a13aecd3d820d411147dd71a79c41fc1bd5c819e95e40330a",
+          "candidate_content": "https://storage.courtlistener.com/recap/gov.uscourts.ilcd.98203/gov.uscourts.ilcd.98203.33.0.pdf",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:reliance_or_harm": {
+          "before_sha256": null,
+          "after_sha256": "babab01e104c42c6aef1e11dc1d731193ade93aabcec8f247dc9639096161fd3",
+          "candidate_content": "The court ordered counsel personally to pay a fine of $1,000 to the Clerk of Court within sixty days, to send a copy of the order to the Illinois Attorney Registration and Disciplinary Commission, and to file a status report on compliance within sixty days. The court described the penalty as deliberately modest because at the time of this filing the only consequence counsel had faced was a stricken motion. No fees or costs were awarded, none having been timely requested.",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:research_status": {
+          "before_sha256": null,
+          "after_sha256": "531cecca496a7f46e4aa9ef40641db12f8bef53aaa6b67c429d2c0717dc599ce",
+          "candidate_content": "included",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:source_quality": {
+          "before_sha256": null,
+          "after_sha256": "8b60775068860bb40eab0cb04c57db849f6cd6b04a287c8a959c85b1cca20500",
+          "candidate_content": "primary record",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        },
+        "field:tags": {
+          "before_sha256": null,
+          "after_sha256": "e911b1102002dbb47fc61c294096dbf5b6061aa1e01ccfa912b8c4d9cc133273",
+          "candidate_content": "fabricated-citations; reusable-template; rule-11; attribution-admitted; ardc-referral; repeat-conduct; legal-services",
+          "reason": "Records this source-supported unit of AIEL-2026-073 from the retained order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-073 was checked against the retained order in this packet.",
+            "exceptions": "No unchanged legacy field, related docket entry, subsequent procedural phase, professional-discipline outcome, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The order's own date is recorded on the determination; the source was retrieved 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "ilcd-sanctions-order"
+          ]
+        }
+      },
+      "unresolved": [
+        "Professional-discipline outcomes referred to a bar or disciplinary authority are not resolved by this order and were not followed up.",
+        "No date is established for the underlying filing that carried the defective citations, so no incident date is recorded."
+      ],
+      "review": {
+        "actor": "claude:find-new-cases-sweep-2026-09-22",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Complete source-consistency review of the new included record AIEL-2026-073 against the retained primary order named in this packet. No human approval is asserted and no Verified freshness is renewed.",
+        "reviewed_at": "2026-09-22T20:47:55.585Z",
+        "packet_sha256": "7310842fbc0c48df0de56958ad1a0f8444f1f63597a3bfd463b9d6fa4db866b5"
+      }
+    },
     "review/AIEL-CAND-031": {
       "baseline_sha256": null,
       "record_sha256": "c64e82febef46eec3ca8820340f1fbeabfd456fda0bd317e432e47d630a3f91e",

@@ -1,0 +1,749 @@
+Notice: This opinion is subject to formal revision before publication in the Atlantic
+and Maryland Reporters. Users are requested to notify the Clerk of the Court of
+any formal errors so that corrections may be made before the bound volumes go
+to press.
+
+                          District of Columbia
+                           Court of Appeals
+No. 24-CV-1099
+
+BARRY DOUGLAS,
+                                 Appellant,
+      v.                                                  2023-CAB-005422
+
+DEUTSCHE BANK NATIONAL
+TRUST COMPANY, AS TRUSTEE
+FOR SOUNDVIEW HOME LOAN
+TRUST 2006-OPT3, ASSET
+BACKED CERTIFICATES,
+SERIES 2006-OPT3,
+                       Appellee.
+
+BEFORE: Easterly and Shanker, Associate Judges, and Glickman, Senior Judge.
+
+                              PUBLISHED ORDER
+                           (FILED—September 3, 2026)
+
+      On consideration of the responses to this court’s Order to Show Cause, it is
+
+      ORDERED that appellee’s brief is stricken.
+
+                                  PER CURIAM
+       PER CURIAM: What began as a routine appeal has become a cautionary tale
+about the misuse of artificial intelligence (AI) and its consequences for attorneys,
+their clients, and the courts.
+
+       This is an appeal from a Superior Court order granting appellee Deutsche
+Bank National Trust Company’s motion for judgment on the pleadings in a judicial
+foreclosure action under D.C. Code § 42-816 against appellant Barry Douglas.
+Deutsche Bank is represented by the law firm McCabe, Weisberg, & Conway, LLC
+(“the firm”); Mr. Douglas is self-represented.
+
+       Both parties filed briefs and this appeal was submitted to the court for decision
+without argument on March 11, 2026. While reviewing appellee’s brief, the court
+discovered that it contained multiple citations to cases that the court was unable to
+locate or confirm as legitimate. On June 22, we issued an order requiring appellee to
+show cause “why the court should not strike its brief for citing nonexistent cases that
+are possibly the product of artificial intelligence (AI) hallucinations.” The next day,
+one of appellee’s attorneys at the firm, Loishirl W. Hall, filed a response in her own
+capacity. 1 Ms. Hall confirmed that four of the brief’s cited authorities did not exist. 2
+She acknowledged that these citations were “not legitimate legal authority” and
+“should not have appeared in a brief filed with this Court.”
+
+       Ms. Hall explained that she had “used Google’s generative artificial
+intelligence search tool to assist in locating case authority” and did not verify the
+existence or accuracy of those citations before filing the brief. She recognized that
+she had a duty to verify the accuracy of every authority submitted to this court and
+apologized for her failure to do so. As part of this mea culpa, Ms. Hall assured the
+court that she had taken the remedial measure of verifying that the remaining
+citations in the brief were legitimate authority and pledged that, going forward
+(presumably in her representation of other clients), she would not rely on any AI tool
+“for legal research without confirming each authority” or file anything that includes
+
+
+
+      1
+       Ms. Hall has informed the court that she no longer works at the firm and
+thus no longer represents appellee, although appellee has not moved for her
+withdrawal from the case.
+      2
+         The fake case names were Abadie v. District of Columbia, Cason v. Nat’l
+Consumer Co-op Bank, Osborne v. District of Columbia, and Woods v. United States.
+To avoid memorializing the erroneous citations, we have chosen not to set forth the
+full (fake) citations here.
+                                           2
+
+
+citations she has not independently verified. Ms. Hall represented that she “deeply
+regrets this error and the burden it has placed on the [c]ourt and all parties.”
+
+       The firm subsequently filed a response for appellee. The firm stated that it was
+“unaware” of Ms. Hall’s actions when the brief was filed. Although two other
+attorneys—Jianna Jaques Santos and Michael T. Cantrell—were listed on the brief
+with Ms. Hall, no information was provided about their review of appellee’s brief
+before filing. 3 Instead, the firm represented that it “only became fully aware of the
+situation” (emphasis added) once the court issued its show-cause order and Ms. Hall
+responded. The implication—that the firm did nothing after the court issued its order
+to become “fully aware” on its own that it had included fake case citations in its
+brief—is surprising, to say the least. The firm then shifted much of the blame to Ms.
+Hall, who had stated in her filing that she had never filed an appellate brief before
+this one. The firm represented that it prohibits employees from using AI in the
+“drafting of any legal correspondence or documents” and that failing to verify
+citations “obtained in any manner, which includes the use of artificial intelligence,
+is a violation of firm policy” of which all employees are made aware during initial
+and annual employment trainings. The firm did not attach the policy for this court’s
+review. Highlighting that “these actions were taken by a former employee” of the
+firm, and without detailing what actions the firm had taken to supervise or review
+Ms. Hall’s work, the firm acknowledged only that “further review should have been
+undertaken.” The firm then assured the court that it was “genuinely remorseful for
+this failure” and that it intends to take appropriate measures to ensure that this “type
+of situation” never occurs again.
+
+       In replying to Ms. Hall’s response, Mr. Douglas asked the court to, among
+other things, deny Deutsche Bank an opportunity to file a corrected brief. He
+registered incredulity at the fact that “a competent law firm representing one of the
+largest financial institution[s] in the world could make” such a mistake. Mr. Douglas
+did not file a separate reply to appellee’s response to the show-cause order.
+
+      As we discuss below, we echo Mr. Douglas’s incredulity.
+
+
+
+
+      3
+        Another firm attorney signed the firm’s response to the order to show cause,
+although Ms. Santos was listed in the signature block. In the meantime, the firm filed
+a motion to withdraw Mr. Cantrell, representing that he had retired from the practice
+of law.
+                                           3
+
+
+           I.    The Known Risks of Using AI in the Practice of Law
+
+        The use of AI is now so pervasive in legal practice that attorneys can no longer
+credibly claim ignorance of its pitfalls, including its propensity to hallucinate legal
+authority. See Fletcher v. Experian Info. Sols., Inc., 168 F.4th 231, 235 (5th Cir.
+2026) (“If it were ever an excuse to plead ignorance of the risks of using generative
+AI to draft a brief without verifying its output, it is certainly no longer so.”). The
+first high-profile incident of AI-fabricated case citations in the federal system
+occurred in the Southern District of New York over three years ago. Larry
+Neumeister, Lawyers blame ChatGPT for tricking them into citing bogus case law,
+AP News (June 8, 2023), https://apnews.com/article/artificial-intelligence-chatgpt-
+courts-e15023d7e6fdf4f099aa122437dbb59b; https://perma.cc/ZN2N-TSM9 . In
+the years since, the risks of blindly relying on AI in the practice of law have been
+well documented. See generally A.B.A. Comm. on Ethics & Prof. Resp., Formal
+Opinion 512: Generative Artificial Intelligence Tools (July 29, 2024)
+https://www.americanbar.org/content/dam/aba/administrative/professional_respons
+ibility/ethics-opinions/aba-formal-opinion-512.pdf; https://perma.cc/3KHL-CRM8
+(gathering authorities).
+
+       AI is not going anywhere. While its use may once have been the exception in
+the practice of law, it is quickly becoming the norm as even traditional legal research
+services like Westlaw and LexisNexis have adopted the technology, offering
+generative AI features as part of their software. In re Nwaubani, No. 25-9517, 2026
+WL 687194, at *3 (4th Cir. Mar. 11, 2026). This shift in the practice of law, in and
+of itself, is not inherently problematic. After all, “AI is a powerful tool that, when
+used prudently, provides immense benefits.” Ferris v. Amazon.com Servs., 778
+F. Supp. 3d 879, 881 (N.D. Miss. 2025). But considering “today’s rapidly evolving
+[AI] landscape,” it is critical that attorneys be “clear eyed about [the] technology’s
+potential pitfalls.” United States v. Farris, 171 F.4th 920, 922-23 (6th Cir. 2026)
+(citing Model Rules of Prof. Conduct R. 1.1 cmt. 8 (ABA 2012) (attorneys’ duty of
+competence requires keeping up with “changes in the law and its practice” including
+“relevant technology”)).
+
+       Attorneys cannot reasonably claim to have been left in the dark when it comes
+to their ethical obligations regarding the use of generative AI. Both the ABA and
+local jurisdictions, including the District of Columbia, have issued detailed guidance
+concerning the appropriate use of AI, emphasizing attorneys’ responsibility to
+continue to abide by their ethical duties. See A.B.A. Comm. on Ethics & Prof. Resp.,
+Formal Op. 512; A.B.A. Task Force on L. & A.I., Addressing the Legal Challenges
+of AI: Year 2 Report on the Impact of AI on the Practice of Law, 47-48 (2025),
+                                          4
+
+
+https://www.americanbar.org/content/dam/aba/administrative/center-for-
+innovation/ai-task-force/2025-ai-task-force-year2-report.pdf;
+https://perma.cc/HA44-LRM6 (compiling state bar ethics rules and guidance on
+generative artificial intelligence). Relevant steps attorneys should take in accordance
+with their ethical obligations include “reviewing and validating content produced by
+[AI]; considering whether to disclose the use of [AI] to clients or obtain informed
+consent; safeguarding confidential client information and preserving attorney-client
+privilege; implementing firm-wide policies governing the use of [AI]; adhering to
+ethical billing practices when using [AI] tools; and keeping current with jurisdiction-
+specific guidelines.” Farris, 171 F.4th at 923; see also A.B.A. Comm. on Ethics &
+Pro. Resp., Formal Op. 512 (2024).
+
+          II.    Attorneys’ Ethical Obligations to Use AI Responsibly
+
+       Our intent is not to discourage attorneys from using AI—indeed, we have
+reached a point where attorneys eschew at least an understanding, if not use, of AI
+at their own peril—but to emphasize the importance of doing so discerningly and
+responsibly. To put a finer point on it, “the use of artificial intelligence must be
+accompanied by the application of actual intelligence in its execution.” Amarsingh
+v. Frontier Airlines, Inc., No. 24-1391, 2026 WL 352016, at *6 (11th Cir. Feb. 9,
+2026) (citation modified).
+
+       We turn now to the issue at hand: AI hallucinations. The citation of
+nonexistent cases has become the “frequent posterchild” for AI mishaps. In re
+Nwaubani, 2026 WL 687194, at *3 (collecting cases). While the way these mishaps
+come about is relatively new (although, as we have noted, not new enough at this
+point to serve as an excuse), the ethical duties they implicate are not: attorneys have
+always been responsible for “ensur[ing] that the legal propositions and authority”
+they rely on are “trustworthy.” ByoPlanet Int’l, LLC v. Johansson, 792 F. Supp. 3d
+1341, 1347 (S.D. Fla. 2025); see Malkeet Lnu v. Blanche, 177 F.4th 1014, 1025 (9th
+Cir. 2026) (“Attorneys do not need cutting-edge technology to fabricate citations and
+make demonstrably false and unsupported statements. And the ethical and
+procedural rules we apply today do not turn on the source of such error.”). This
+obligation reflects the “duties of competence and candor that apply no matter the
+tools attorneys use.” Farris, 171 F.4th at 923 (citing McCoy v. Ct. of Appeals of Wis.,
+Dist. 1, 486 U.S. 429, 440-41 (1988), and Fletcher, 168 F.4th at 239-40); see
+Akerlund v. Atlas Air, Inc., 181 F.4th 1200, 1208 (11th Cir. 2026) (“It goes without
+saying that completely outsourcing one’s legal work to [AI] software is not
+competent. Doing so is a dramatic violation of the client’s interests.” (internal
+citation omitted)). Blind reliance on AI-generated citations and arguments runs
+                                           5
+
+
+directly counter to this court’s expectation that counsel confirm the accuracy of their
+submissions, see Tenants of 710 Jefferson St., N.W. v. D.C. Rental Housing Comm’n,
+123 A.3d 170, 191 (D.C. 2015), and, while we do not purport to decide the matter
+here as we do not have a bar discipline matter before us, potentially implicates long-
+standing rules of professional conduct. See Malkeet Lnu, 177 F.4th at 1025 (“Filing
+briefs with hallucinated fabrications and inaccuracies violates procedural and ethical
+rules. Lawyers using generative AI must thus be aware of the tendency of generative
+AI to make these mistakes and guard against them.” (citation modified)).
+
+       The harm inflicted by the submission of hallucinated authority cannot be
+overstated. We expect attorneys, as officers of the court, to submit briefing that
+“give[s] us the best view of what the law is, and how that law supports their clients”;
+indeed, we rely on that briefing to help us reach the correct conclusion. Akerlund,
+181 F.4th at 1208. A brief containing fake citations masquerades as useful advocacy,
+but it misdirects the court, burns time and resources, and sows confusion while the
+court gets to the bottom of the matter. By then the damage is done: the court is left
+without real guidance from one side of the adversarial equation and the client is left
+without a credible advocate. See generally Mata v. Avianca, Inc., 678 F. Supp. 3d
+443, 448-49 (S.D.N.Y. 2023).
+
+        At bottom, our system of justice depends on advocates’ candor to the court.
+Failures like those here undermine the administration of justice. Had any of the
+firm’s attorneys reviewed the brief prior to filing, they would have discovered the
+errors. Their failure to do so is highly concerning. See Malkeet Lnu, 177 F.4th at
+1028 (“It is no excuse that Sethi entrusted substantive cite checking to subordinates,
+and it is no excuse that Sethi purportedly did not know his subordinates had used
+generative AI.”); In re Hopkins, 677 A.2d 55, 61 (D.C. 1996) (holding that conduct
+is improper where an attorney “either take[s] improper action or fail[s] to take action
+when, under the circumstances, he or she should act”); Kideckel v. Foreign Nation
+of Can., No. 1:24-cv-02907, 2026 WL 125208, at *3 (D.D.C. Jan. 16, 2026)
+(“Obviously, it ‘is not acceptable for parties to submit filings to the Court containing
+citations to legal authority that does not exist, whether drafted with the assistance of
+artificial intelligence or not.’” (quoting Williams v. Cap. One Bank, N.A., No. 24-cv-
+2032, 2025 WL 843285, at *7 (D.D.C. Mar. 18, 2025))). In that regard, while we
+acknowledge Ms. Hall’s attempt to take ownership of her error as the “submitting
+attorney,” every firm attorney who signed the brief bears some responsibility. See
+Malkeet Lnu, 177 F.4th at 1029 (“A competent and diligent attorney cannot decline
+to ‘vet’ citations, in a brief he signs, for substantive validity—in other words, to read
+the cited authorities and ensure that they are on point.”). Cf. Super. Ct. Civ. R.
+11(c)(1) (“Absent exceptional circumstances, a law firm must be held jointly
+                                            6
+
+
+responsible for a violation committed by its partner, associate, or employee.”). The
+result of their lapses is that the court has had to devote substantial time to this aspect
+of the appeal rather than to the merits.
+
+                                    III.   Sanctions
+
+       That brings us to the question of sanctions. 4 Under D.C. App. R. 28, all briefs
+“must contain” a party’s “contentions and reasons for them, with citations to the
+authorities and parts of the record on which [they] rely.” See Wendemu v. Tesema,
+304 A.3d 953, 959 n.3 (D.C. 2023) (concluding that an argument was waived
+because appellant failed to “articulat[e] a clear legal basis” for it and “fail[ed] to
+include any citations to the record or law beyond the standard of review”); In re
+Johnson, 275 A.3d 268, 281 (D.C. 2022) (treating an argument as waived because it
+consisted of only “vague one-line conclusory assertions” and “failed to cite authority
+in this jurisdiction or any other [for] support”). Accord Grant v. City of Long Beach,
+96 F.4th 1255, 1256-57 (9th Cir. 2024) (striking brief and dismissing appeal for
+noncompliance with the “mandatory components of a brief on appeal” set forth in
+Fed. R. App. P. 28 because the brief was “replete with misrepresentations and
+fabricated case law”); United States v. Jones, 744 F.3d 1362, 1370 n.2 (D.C. Cir.
+2014) (declining to consider a “bare-bones argument[ ] unsupported by any citations
+to legal authority” under Fed. R. App. P. 28(a)(8)(A)). A hallucinated citation is, at
+best, no citation at all; indeed, it is worse.
+
+       To be sure, some of the cases cited in Deutsche Bank’s response brief are
+genuine and some of the propositions of law are sound. But we “reject any notion
+that because some authority exists to support a legal proposition it should negate the
+harm caused by hallucinated cases. Put bluntly—absolutely not; period; end of story;
+all stop.” Whiting v. City of Athens, 170 F.4th 455, 461 (6th Cir. 2026) (citation
+modified) (citing United States v. McGee, 806 F. Supp. 3d 1264, 1273 (S.D. Ala.
+2025)). We caution that citing to even a single fake case can be sanctionable because
+“no brief, pleading, motion, or any other paper filed in any court should contain any
+citations—whether provided by generative AI or any other source—that” an attorney
+has not personally “read and verified.” Id. (quoting Noland v. Land of the Free, L.P.,
+114 Cal. App. 5th 426 (2025) (emphasis in original)). Competent legal
+representation requires the investment of significant time and effort; if an attorney
+deems their client’s claims as “not worth the effort, [they] should either tell [their]
+
+      4
+         We are referring this issue to the court’s Rules Committee for analysis and
+potential clarification of the full scope of our sanctions authority in these
+circumstances, which, as the concurring opinion notes, is unclear.
+                                          7
+
+
+clients that they fall short or advise them to hire another lawyer—not file obviously
+insufficient pleadings and briefs generated by AI tools.” Akerlund, 181 F.4th at 1208.
+
+       It is axiomatic that our rules exist to ensure the orderly, prompt, and just
+disposition of appeals. These rules exist not for the convenience of the court but for
+the benefit of litigants and counsel who have a right to rely on them and must comply
+with them. See Phucas v. Washington-Virginia-Maryland Coach Co., 76 A.2d 59,
+59-60 (D.C. 1950). We cannot condone disregard of court rules, whether willful or
+negligent. Id. As such, we deem it appropriate to strike appellee’s brief. 5 We also
+refer this matter to the Office of Disciplinary Counsel for any investigation it deems
+appropriate.
+
+
+
+
+      5
+         The firm suggested that the court could accept the appellee’s brief as filed
+but with the erroneous citations redacted. We reject this suggestion, as it would
+constitute effectively no sanction at all.
+       GLICKMAN, Senior Judge, concurring: I join the panel opinion and order. I add
+this concurrence to flag and address certain relevant matters that the panel opinion
+does not reach or only touches upon—namely (1) the scope and limits of this court’s
+authority to sanction attorneys; (2) the varying responsibility of attorneys whose
+names appear on a brief (as “signatories,” whether or not they have personally signed
+the brief) for another signatory’s inclusion in the brief of AI-hallucinated citations;
+and (3) the concern beyond the risk of fake citations when attorneys rely on
+generative artificial intelligence to draft briefs. 1
+
+                     I.    This Court’s Sanctioning Authority
+
+       This is the first reported case in which this court has received a brief
+containing fabricated citations. We have not hitherto addressed the scope of our
+authority to sanction attorneys for such submissions. The only sanction the court
+imposes in the present case is to strike the brief for its violation of D.C. Appellate
+Rule 28, an appropriate but comparatively weak response that unfortunately
+penalizes the innocent client for its counsel’s offense. Federal courts have imposed
+a number of other, more nuanced, targeted, and severe, sanctions on attorneys for
+similar conduct—including, for example, financial penalties, disqualification,
+requiring payment of the opposing parties’ attorneys’ fees, referring the attorneys
+for bar discipline and requiring them to notify other courts of their reprimands, and
+even suspension. 2 I certainly think those sorts of sanctions should be available to
+punish and deter fabricated citations in briefs and other filings. It turns out, however,
+that our authority to sanction counsel directly is more limited than one might have
+supposed. The full court may wish to address this situation.
+
+      Federal courts have discussed their authority to sanction attorneys for briefs
+with AI hallucinations. The United States Court of Appeals for the Seventh Circuit
+recently surveyed the case law and found the following:
+
+              Federal courts confronted with AI hallucinations in briefs
+              and motions have identified several sources of authority
+              for sanctions. Most district courts rely on Federal Rule of
+              Civil Procedure 11, 28 U.S.C. § 1927, and the court’s
+              inherent authority to sanction for bad faith conduct.
+
+      1
+        Of course, much of what I say in this concurrence applies to other filings in
+addition to briefs.
+      2
+          See, e.g., Mata v. Avianca, Inc., 678 F. Supp. 3d 443, 466 (S.D.N.Y. 2023).
+                                          9
+
+                [Citing federal district court cases from California,
+                Mississippi, and Illinois.] The courts of appeals, by
+                contrast, have invoked a few different sources for
+                sanctioning attorneys. No unified approach prevails.
+
+Perez-Castillo v. Blanche, 177 F.4th 837, 846 (7th Cir. 2026). The Seventh Circuit
+cited other appellate court opinions that relied on Federal Rules of Appellate
+Procedure 38 3 and 46, 4 instead of, or in addition to, their inherent authority, to
+sanction attorneys and law firms. In Perez-Castillo, the Seventh Circuit itself
+“elect[ed]” to impose sanctions under Appellate Rule 46, which, it said, “affords
+federal courts of appeals broad power to suspend, disbar, or discipline a member of
+our bar for conduct unbecoming a member of the bar.” 5 The court saw “Rule 46 as
+the natural fit for a case involving attorney misconduct that permitted unchecked AI
+hallucinations to be included in a brief.” 6
+
+      The Seventh Circuit’s reference to “the court’s inherent authority to sanction
+for bad faith conduct” harks back to the Supreme Court’s decision in Chambers v.
+NASCO, Inc. 7 In Chambers, the Supreme Court held that a federal court must find
+
+      3
+         Whiting v. City of Athens, 170 F.4th 455, 459-63 (6th Cir. 2026) (“Whiting’s
+appeal is frivolous [under Rule 38] as argued because [his attorneys] submitted fake
+cases, and inventing case law is a misrepresentation of law,” and “misrepresent[ed]
+the record”; also citing the court’s inherent authority); Amarsingh v. Frontier
+Airlines, Inc., No. 24-1391, 2026 WL 352016, at *5-8 (10th Cir. 2026) (relying on
+Rule 38).
+      4
+          Fletcher v. Experian Info. Sols., Inc., 168 F.4th 231, 239-40 (5th Cir. 2026)
+(“Modern generative AI may be a new technology, but the same sanctions rules
+apply, and the rules we have are well equipped to handle these types of
+cases. . . . Rule 46(c) allows us to discipline an attorney who practices before us for
+‘conduct unbecoming a member of the bar or for failure to comply with any court
+rule.’ Discipline under Rule 46(c) may include monetary sanctions.” (internal
+citations omitted) (quoting Fed. R. App. Proc. 46) (relying on Rule 46 and the court’s
+inherent authority to sanction an attorney for using generative AI in her briefing and
+misleading the court about these errors)).
+      5
+        Perez-Castillo, 177 F.4th at 847 (internal quotation marks and citation
+omitted).
+      6
+          Id.
+      7
+          501 U.S. 32 (1991).
+                                           10
+
+that a litigant acted “in bad faith, vexatiously, wantonly, or for oppressive reasons”
+to support the imposition of sanctions under its inherent authority. 8
+
+      Our court does not have the same power to sanction attorneys as the federal
+courts have, however. Although our appellate Rules are derived from the Federal
+Rules of Appellate Procedure, see D.C. Code § 11-743, none of our Rules appears
+to provide the requisite authority. 9
+
+      First, while it can be said that appellee’s brief did not comply with Superior
+Court Civil Rule 11, which does authorize the Superior Court to sanction attorneys
+for making unwarranted factual or legal claims and contentions in pleadings,
+motions, and other papers, that is not a Rule of this court. 10 (Perhaps this court
+should consider adopting a comparable Rule governing appellate pleadings,
+motions, and briefs.)
+
+       Second, D.C. App. Rule 38 authorizes sanctions only for the filing of
+“frivolous” appeals, petitions, or motions—but not briefs. 11 None of this court’s
+
+      8
+          Id. at 45-46, 50 (quotation marks and citations omitted); see also, e.g.,
+Whiting, 170 F.4th at 463 (“Inherent authority sanctions are appropriate only when
+the litigant has acted in bad faith or willfully abused judicial processes.” (citation
+modified)).
+      9
+         No relevant statutory basis for imposing sanctions on counsel has come to
+our attention.
+      10
+           The Superior Court’s Civil Rules of Procedure “govern the procedure in all
+civil actions and proceedings in the Civil Division of the Superior Court of the
+District of Columbia” (with certain exceptions; see also Super. Ct. Civ. R. 81) and
+do not apply to proceedings on appeal. See Super. Ct. Civ. R. 1; cf. Chew v. United
+States, 314 A.3d 80, 93 n.1 (D.C. 2024) (Easterly, J., concurring) (explaining why
+“it is not clear that Super. Ct. Crim. R. 52(b) applies to this court,” as “the Superior
+Court Criminal Rules govern only ‘the procedure in all criminal proceedings in the
+Superior Court of the District of Columbia.’” (quoting Super. Ct. Crim. R. 1(a))).
+But see Tupling v. Britton, 411 A.2d 349, 351 n.2 (D.C. 1980) (asserting, in dicta,
+that “this court would undoubtedly order stricken scandalous or indecent material in
+motions or briefs,” and citing Super. Ct. Civ. R. 11).
+      11
+           D.C. App. Rule 38 provides as follows:
+
+              When a party to a proceeding before this court or an
+              attorney practicing before the court takes an appeal or files
+                                           11
+
+previous twenty-one cases citing Rule 38 has applied that Rule to impose a sanction
+for a frivolous brief. Moreover, we have defined “frivolous” to mean “wholly
+lacking in substance” such “that a reasonable attorney would conclude that it is not
+based upon even a faint hope of success on the legal merits[.]” 12 Consequently,
+assuming arguendo that Rule 38 applies to briefs, the mere fact that a brief contains
+some hallucinated citations would not suffice to support sanctions for violating the
+Rule. Rather, the legal argument advanced in the brief would have to be so lacking
+in merit—so dependent on the fake citations—that it would meet our stringent test
+for frivolousness. In other words, Rule 38 would not support a sanction for filing a
+brief that contains fake citations but is not totally baseless. For these reasons, I think
+
+
+             a petition or motion that is frivolous or interposed for an
+             improper purpose, such as to harass or to cause
+             unnecessary delay, or fails to comply with an order of this
+             court, the court may, on its own motion or on motion of a
+             party, impose appropriate sanctions on the offending party,
+             the attorney, or both. Before doing so on its own motion,
+             the court will give the party notice and an opportunity to
+             respond. Sanctions that may be imposed include dismissal
+             of the appeal; imposition of single or double costs,
+             expenses, and attorneys' fees; and disciplinary
+             proceedings.
+
+In contrast, Fed. R. App. Proc. 38 provides only that “[i]f a court of appeals
+determines that an appeal is frivolous, it may, after a separately filed motion or notice
+from the court and reasonable opportunity to respond, award just damages and single
+or double costs to the appellee.” Unlike our local Rule 38, this federal Rule 38 does
+not support sanctions against an appellee at all, but only against an appellant (and
+only for a frivolous appeal); see Reynolds v. Roberts, 207 F.3d 1288, 1301 (11th Cir.
+2000).
+      12
+          In re Yelverton, 105 A.3d 413, 425 (D.C. 2014) (citation modified); see also
+Pennington v. First Hand Land, LLC, 349 A.3d 364, 367 (D.C. 2026) (“Rule 38
+authorizes this court to impose ‘appropriate’ sanctions, including ‘dismissal of the
+appeal,’ on a party who ‘files a petition or motion that is frivolous or interposed for
+an improper purpose.’”). In addition, under Rule 38, “one circumstance (but not the
+only one) in which dismissal may be warranted as a sanction is when a party before
+this court has ‘willfully deceived the court and engaged in conduct utterly
+inconsistent with the orderly administration of justice.’” Id. (quoting Breezevale Ltd.
+v. Dickinson, 879 A.2d 957, 967 (D.C. 2005)).
+                                             12
+
+Rule 38 cannot be the main, or even the usual, basis on which this court imposes
+sanctions on parties who submit briefs containing AI-hallucinations. And for the
+same reasons, I think Rule 38 to be inapplicable in the present case.
+
+       As for D.C. App. R. 46, it is totally inapplicable to such fabricated citations.
+In pertinent part, the federal Rule 46(c) provides:
+
+              A court of appeals may discipline an attorney who
+              practices before it for conduct unbecoming a member of
+              the bar or for failure to comply with any court rule. First,
+              however, the court must afford the attorney reasonable
+              notice, an opportunity to show cause to the contrary, and,
+              if requested, a hearing.
+
+Our Rule 46 addresses only admission to the bar. Neither it nor any other D.C.
+Appellate Rule provides that this court may discipline an attorney for conduct
+unbecoming a member of the bar or for failure to comply with any court rule.
+
+       That brings us to this court’s inherent authority. This court has consistently
+adhered to the Chambers bad faith condition on the judicial exercise of inherent
+authority to impose sanctions. For example, in In re Jumper, this court relied on
+Chambers when stating that “[a] court must, of course, exercise caution in invoking
+its inherent power, and it must comply with the mandates of due process, both in
+determining that the requisite bad faith exists and in assessing fees.” 13 There, this
+court reversed the trial court’s award of fee sanctions and remanded for the trial court
+to determine whether the party had acted with bad faith because the court did not
+“expressly find[] that the appellants acted either in bad faith, vexatiously, wantonly,
+or for oppressive reasons,” and therefore did not find that appellants acted “pursuant
+to the improper motive necessary for an award of sanctions pursuant to the court’s
+inherent authority.” 14 Our opinion emphasized that “[b]ad faith must be
+
+
+
+
+      13
+           909 A.2d 173, 176 (D.C. 2006) (quoting Chambers, 501 U.S. at 50).
+      14
+           Id. at 177 (citation modified).
+                                           13
+
+distinguished from, for example, negligence or professional incompetence.” 15
+“[T]he standards of bad faith are necessarily stringent.” 16
+
+       In the present case, it does not now appear that either Ms. Hall or appellee’s
+law firm acted in bad faith, vexatiously, wantonly, or for oppressive reasons. Rather,
+so far as appears on the existing record, their conduct in filing a brief with AI-
+hallucinated citations was not intentional, knowing, or even reckless (i.e., done with
+conscious disregard of the risks they were incurring), but rather was only negligent
+or grossly negligent (or, it could also be said, professionally incompetent). In Ms.
+Hall’s case, the question of recklessness may be a close one, given that there has
+been considerable publicity about the dangers of relying on AI in legal work, and
+her law firm claims to have instructed her on its policy against reliance on AI. (But
+the law firm has not shared its policy with us, nor has it explained how that policy
+was communicated to its lawyers.) Even so, the factual record necessary to support
+a finding of recklessness has not been made. 17
+
+       This is not to say that the court is precluded from admonishing appellee’s
+attorneys in a published decision, as we do now, for their submission of a brief with
+AI-fabricated case citations. Beyond that admonishment and the striking of the brief,
+our Rules and case law appear to preclude us from sanctioning the attorneys. This
+court may wish to consider rectifying the omission of an available sanction in our
+
+
+
+      15
+          Id. (citation modified); see also Bredehoft v. Alexander, 686 A.2d 586, 589
+(D.C. 1996) (reversing, inter alia, the trial court’s “bad faith sanction” as an exercise
+of its inherent authority because the record did not support a finding of bad faith);
+McFarland v. D.C. Dep’t of Hum. Res., 334 A.3d 131, 138 (D.C. 2025) (affirming
+the trial court’s refusal to apply either Rule 11 or inherent authority sanctions
+because the movant made no showing that the other party acted with bad faith, even
+assuming that party made certain allegedly false representations).
+      16
+         In re Jumper, 909 A.2d at 176-77 (quoting Valentine v. Elliott (In re Estate
+of Delaney), 819 A.2d 968, 998 (D.C. 2003)).
+      17
+         This does not mean that the attorneys are immune from bar discipline,
+should it be determined that they violated the Rules of Professional Conduct by
+submitting a brief with AI-hallucinated citations. At present, however, it would be
+premature and inappropriate for this court to weigh in on whether the attorneys have
+violated any Rules of Professional Conduct, and—like my colleagues—I refrain
+from doing so.
+                                           14
+
+Rules, notwithstanding our longstanding reliance on the disciplinary system
+established in Rule XI of the District of Columbia Bar Rules.
+
+      I turn now to a brief consideration of two other questions raised by the present
+matter.
+
+               II.    The Responsibility of Signatories on the Brief
+
+       The panel opinion, which I join, states that “every attorney who signed the
+brief bears some responsibility” for inclusion of fake citations. Ante at 5. I agree with
+that general principle, subject to a clarification as to what I think it must entail. The
+opinion also quotes, with evident approval, the Ninth Circuit’s declaration that “[a]
+competent and diligent attorney cannot decline to ‘vet’ citations, in a brief he signs,
+for substantive validity—in other words, to read the cited authorities and ensure that
+they are on point.” 18 In the appeal that the Ninth Circuit had before it, there was only
+one signatory on the brief in question. 19 If the quoted statement is understood to
+mean that every signatory on any brief with multiple signatories must personally
+check every citation in the brief for accuracy, I demur.
+
+       Preliminarily, the term “signatory” may be misleading. Appellate briefs
+commonly list the names of multiple attorneys for the party on whose behalf the
+briefs are submitted. Ordinarily, only one of those attorneys actually signs the brief.
+For present purposes, though, all the named attorneys are deemed to be “signatories”
+who stand behind and who (usually, but not always) contributed to the brief. (It is
+not unreasonable for a brief to list the attorneys who represent the party in the appeal
+even if they did not personally contribute to the brief or were not its principal
+drafter(s).) This does not mean, however, that all these “signatories” necessarily
+have exactly the same responsibilities for ensuring that the brief comports with
+ethical and other requirements.
+
+
+
+      18
+           Malkeet Lnu v. Blanche, 177 F.4th 1014, 1029 (9th Cir. 2026).
+      19
+          See id. at 1028-29 (“It was Sethi’s signature, and his alone, on the briefs.
+So, it was Sethi who presented the unwarranted contentions. And Sethi’s signature
+was an attestation that he personally reviewed the contents of the brief, including the
+cited authorities, and that they were accurate. Sethi did no such review, and his
+attestation was not conditional on the tools that his subordinates might have used to
+prepare the first draft, nor could it be.” (internal citations and some punctuation
+omitted)).
+                                            15
+
+       Fulfilling the duty to guard against AI-hallucinated (or otherwise invalid)
+citations can be a group effort that does not require every signatory to personally cite
+check every brief. Such a requirement would be impractical, unduly burdensome,
+and unnecessarily duplicative given the availability of reasonable alternative
+procedures to guard against erroneous citations. 20
+
+       Suppose, for example, that a law firm assigns different sections of a complex
+brief to different associates for initial drafting. Each associate is certainly responsible
+for the accuracy of the citations in his own assigned section; in general, this cite
+checking is a task that the principal drafter (or drafters) of a brief must perform. But
+that hardly means each associate must also be charged with double-checking a
+section assigned to and drafted by another associate.
+
+       Or consider the typical brief this court receives from the United States
+Attorney’s Office in criminal appeals. Every one of those many briefs lists not only
+the author (who is also the designated counsel for oral argument) but also the
+Assistant United States Attorneys who represented the government at trial (who may
+have been consulted by appellate counsel but who have nothing to do with the
+drafting of the legal arguments in the brief); the Chief of the Criminal Appellate
+Section (who oversees the production of a multitude of briefs and can hardly be
+expected to spend all her time checking all the citations in that multitude); and the
+United States Attorney herself (ditto). It surely would be unrealistic, as well as
+unnecessary overkill, to require each of those attorneys to cite check any given brief.
+
+      Other, far more practical procedures can be followed to ensure that AI-
+generated hallucinations do not result in the inclusion of fake citations in briefs and
+other filings. I suspect that the problem of fake citations (along with other AI-
+generated errors that I describe below) arises primarily when lawyers unwisely ask
+
+
+
+       20
+          See Lake v. Gates, 130 F.4th 1054, 1062 (9th Cir. 2025) (Bumatay, J.,
+concurring in the judgment only) (Disagreeing with the majority’s conclusion that
+federal Rule 11 allowed the trial court to sanction an attorney who participated on a
+brief as “of counsel” and only contributed a discrete portion to the offending brief,
+because “[a]s a textual matter. . . , Rule 11 permits different levels of accountability
+for different attorneys in a case. . . . To encourage the participation of specialized
+attorneys and to improve the quality of advocacy in our courts, we should have
+adopted a rule that recognizes the circumscribed role that some attorneys with
+subject-matter expertise may play in litigation.”).
+                                           16
+
+AI to draft a brief from scratch for them, a practice that supervisors can (and, I think,
+should) ban outright. (I will say more about this below.)
+
+       That said, law firms and law departments may institute supplemental
+measures to guard against AI-hallucinated citations and other AI-generated errors in
+their briefs. Such measures include training (and retraining) attorneys in the proper
+use of AI; adopting clear policies governing such use and providing for discipline
+when appropriate; and requiring attorneys to confirm that they have complied with
+those policies. The likelihood that any fake citations will eventually come to light,
+and that the consequences for the offender will be drastic, should be made very clear.
+In addition, to the extent it is desirable to double check the citations and case
+descriptions in all briefs before they are filed, such “vetting” may be done cost-
+effectively by a trained paralegal. Triple and quadruple checking by other attorneys
+(whether they are signatories on the brief or not) is uncalled for and would be unduly
+burdensome and costly. 21
+
+                            III.   The Greater Concern
+
+       Bad as AI-fabricated citations are, we should recognize that they are only the
+tip of a perilous iceberg. That iceberg is the use of artificial intelligence not only to
+research the law but also to draft a brief. This temptation is the more serious evil,
+and not just because of hallucinated citations. To begin with, the fallibility of AI as
+a tool for lawyers is by no means limited to invalid citations. Notably, as the Ninth
+Circuit explained in Malkeet Lnu, generative AI “is prone to make, at least in its
+current stage of advancement,” two types of mistakes—not only fabrications, but
+also what the court described as “inaccuracies”:
+
+             Fabrications are instances in which the generative AI tool
+             provides cases or quotations that do not exist at all.
+             Inaccuracies are more subtle. The generative AI tool might
+             cite to real authorities but provide an answer that is legally
+             or factually inaccurate or not supported by the citation.
+
+             Fabrications are the most notorious hallucinations, but
+             inaccuracies may prove more dangerous to our profession
+
+      21
+          I should not be understood as suggesting that only a lawyer who did the
+actual drafting of a brief containing fake citations (or other AI-generated errors, see
+infra) may be subject to sanction. For example, if training and oversight have been
+neglected, I think supervisory lawyers may be accountable as well.
+                                          17
+
+             in the long run. Inaccuracies are more likely to go
+             unnoticed by attorneys and judges because they are not
+             always susceptible to facial checks. Rather, identifying
+             these misunderstandings often requires close analysis of
+             cited sources. With close analysis, some inaccuracies
+             might be clear—for instance, claiming that a case
+             expressly stands for a proposition about a certain topic
+             when the case does not discuss that topic at all. Others may
+             be difficult to distinguish from poor legal reasoning.
+
+             And inaccuracies are common, even in newer generation
+             models that produce fewer fabrications. Including
+             inaccuracies, legal-specific generative AI tools from
+             Westlaw and Lexis hallucinated 17% and 33% of answers,
+             respectively, to a representative set of queries run in 2024.
+             The most common error modes of the latest generation
+             tools include misunderstanding holdings, failing to
+             distinguish between legal actors (e.g., presenting a
+             rejected party argument as the holding of the court), and
+             failing to respect the hierarchy of authorities. In other
+             words, the sort of errors that we might expect a first-
+             semester law student to make, but certainly not licensed
+             attorneys appearing before this court.[ 22]
+
+       Even worse, perhaps, is the fact that relying on AI to do the “thinking”
+necessary to draft and refine a brief—even what is intended to be only a first draft—
+is an abdication of the lawyer’s duty and a breach of the client’s (and the public’s)
+trust. Lawyers are entrusted with the responsibility to use their own unique human
+experience, insight, and creativity in employing their skills, learning, and judgment
+to write, advocate and persuade; and, in doing such writing, to choose among options
+and alternatives; to select and comprehend precedents and authorities; to make moral
+and ethical decisions; to evaluate which claims and contentions to pursue and which
+not; and so forth. AI cannot duplicate that multifarious exercise of human judgment
+and ingenuity in the “thinking” enterprise.
+
+
+
+
+      22
+         Malkeet Lnu, 177 F.4th at 1024-25 (citations, footnotes, and some
+punctuation omitted).
+                                          18
+
+       We do not know in this case whether Ms. Hall relied on Google not only to
+find case citations, but to draft her brief. I hope she did not do so, and that lawyers
+will refrain from such conduct.
+

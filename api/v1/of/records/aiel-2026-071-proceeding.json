@@ -1,0 +1,71 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "projection_basis": "ail:projectionBasis",
+      "admission_status": "ail:admissionStatus",
+      "source_review_unresolved": "ail:sourceReviewUnresolved",
+      "filing_date_source": "ail:filingDateSource",
+      "procedural_stage": "ail:proceduralStage"
+    }
+  ],
+  "@type": "of:Proceeding",
+  "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-071-proceeding.json",
+  "id": "aiel-2026-071-proceeding",
+  "title": "Douglas v. Deutsche Bank National Trust Company, No. 24-CV-1099 (D.C. Ct. App.)",
+  "filed_date": "2026-09-03",
+  "filing_date_source": "2026-09-03",
+  "heardBy": [
+    "https://aiincidentlaw.org/authority/district-of-columbia-court-of-appeals.json"
+  ],
+  "jurisdiction": {
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-dc"
+    ],
+    "institutional_scope": [
+      "District of Columbia Court of Appeals"
+    ]
+  },
+  "territorial_scope": [
+    "us-dc"
+  ],
+  "institutional_scope": [
+    "District of Columbia Court of Appeals"
+  ],
+  "parties": [
+    "https://aiincidentlaw.org/party/aiel-2026-071-deployer.json"
+  ],
+  "hasAllegation": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-071-allegation.json"
+  ],
+  "hasDetermination": [
+    "https://aiincidentlaw.org/determination/aiel-2026-071-determination.json"
+  ],
+  "source": "https://dccourts.gov/sites/default/files/2026-09/Douglas%20v.%20Deutsche%20Bank%20Nat%27l%20Trt%20Co.%2024-CV-1099%20ORDER.pdf",
+  "source_locator": "Douglas v. Deutsche Bank National Trust Company, No. 24-CV-1099 (D.C. Ct. App.)",
+  "evidence_type": "primary record",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "projection_basis": "curated-legal-graph",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "Professional-discipline outcomes referred to a bar or disciplinary authority are not resolved by this order and were not followed up.",
+    "No date is established for the underlying filing that carried the defective citations, so no incident date is recorded."
+  ],
+  "ai_incident_law_record_id": "AIEL-2026-071",
+  "matter_type": "appellate order striking a brief with disciplinary referral",
+  "filing_status": "brief stricken; referred for discipline",
+  "procedural_stage": "appeal"
+}

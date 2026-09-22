@@ -1,0 +1,58 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "projection_basis": "ail:projectionBasis",
+      "admission_status": "ail:admissionStatus",
+      "source_review_unresolved": "ail:sourceReviewUnresolved"
+    }
+  ],
+  "@type": "of:Determination",
+  "@id": "https://aiincidentlaw.org/determination/aiel-2026-071-determination.json",
+  "id": "aiel-2026-071-determination",
+  "issuedBy": [
+    "https://aiincidentlaw.org/authority/district-of-columbia-court-of-appeals.json"
+  ],
+  "jurisdiction": {
+    "@type": "of:Jurisdiction",
+    "territorial_scope": [
+      "us-dc"
+    ],
+    "institutional_scope": [
+      "District of Columbia Court of Appeals"
+    ]
+  },
+  "decides": [
+    "https://aiincidentlaw.org/allegation/aiel-2026-071-allegation.json"
+  ],
+  "disposition": "confirmed",
+  "issued_date": "2026-09-03",
+  "remedy": {
+    "status": "brief stricken; referred for discipline",
+    "notes": "Published per curiam order of 3 September 2026 (Easterly and Shanker, Associate Judges; Glickman, Senior Judge, concurring), on responses to a show-cause order. The tool is recorded exactly as the order describes it and is deliberately not resolved to Gemini or AI Overviews, neither of which the order names. This is active use of a consumer search tool for legal research, which distinguishes it from the corpus’s passive-exposure records AIEL-2026-064 and AIEL-GLOB-013, where an AI summary appeared unsolicited in ordinary search results. The concurrence’s discussion of firm-level controls and the Rules Committee referral are both about institutional response rather than this attorney’s conduct."
+  },
+  "notes": "Published per curiam order of 3 September 2026 (Easterly and Shanker, Associate Judges; Glickman, Senior Judge, concurring), on responses to a show-cause order. The tool is recorded exactly as the order describes it and is deliberately not resolved to Gemini or AI Overviews, neither of which the order names. This is active use of a consumer search tool for legal research, which distinguishes it from the corpus’s passive-exposure records AIEL-2026-064 and AIEL-GLOB-013, where an AI summary appeared unsolicited in ordinary search results. The concurrence’s discussion of firm-level controls and the Rules Committee referral are both about institutional response rather than this attorney’s conduct.",
+  "source": "https://dccourts.gov/sites/default/files/2026-09/Douglas%20v.%20Deutsche%20Bank%20Nat%27l%20Trt%20Co.%2024-CV-1099%20ORDER.pdf",
+  "source_locator": "Douglas v. Deutsche Bank National Trust Company, No. 24-CV-1099 (D.C. Ct. App.)",
+  "evidence_type": "primary record",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "projection_basis": "curated-legal-graph",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "Professional-discipline outcomes referred to a bar or disciplinary authority are not resolved by this order and were not followed up.",
+    "No date is established for the underlying filing that carried the defective citations, so no incident date is recorded."
+  ],
+  "ai_incident_law_record_id": "AIEL-2026-071"
+}

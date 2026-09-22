@@ -1,0 +1,987 @@
+        Case 7:23-cv-08714-CS               Document 100         Filed 09/14/26   Page 1 of 19
+
+
+
+
+UNITED STATES DISTRICT COURT
+SOUTHERN DISTRICT OF NEW YORK
+-------------------------------------------------------------x
+STUART TIEKERT,
+
+                                            Plaintiff,
+                                                                            ORDER
+        - against -
+                                                                       No. 23-CV-8714 (CS)
+VILLAGE OF MAMARONECK, et al.,
+
+                                             Defendants.
+-------------------------------------------------------------x
+
+Appearances:
+
+Brian M. Higbie
+Law Offices of Brian M. Higbie
+Ossining, New York
+Counsel for Plaintiff
+
+Donna Cook
+Kaufman Dolowich, LLP
+White Plains, New York
+Counsel for Defendants Frank Tavolacci and Charlotte Mountain
+
+Kennedi Fichtel
+Elizabeth Del Cid
+O’Hagan Meyer
+New York, New York
+Counsel for Defendant Thomas Murphy
+
+Seibel, J.
+
+        Before the Court is Plaintiff’s counsel’s response, (ECF No. 95), to the Court’s Order to
+
+Show Cause, (see Minute Entry dated July 29, 2026; ECF No. 89 (the “OSC”)), why numerous
+
+case quotations and citations in his oppositions to Defendants’ motions to dismiss, (ECF Nos. 80,
+
+81 (collectively “Plaintiff’s Oppositions”)), did not violate Federal Rule of Civil Procedure 11.
+       Case 7:23-cv-08714-CS          Document 100         Filed 09/14/26      Page 2 of 19
+
+
+
+
+I.     BACKGROUND
+
+               Events Before the Court’s July 29, 2026 Bench Ruling
+
+       On August 28, 2023, Plaintiff commenced this lawsuit in New York State Supreme
+
+Court, Westchester County. (See ECF Nos. 1-1, 1-2.) On October 4, 2023, Defendants removed
+
+the action to this Court. (See ECF No. 1.) During a bench ruling on March 5, 2025, the Court
+
+granted in part and denied in part the motion to dismiss of Defendants Thomas Murphy,
+
+Charlotte Mountain, Jerry Barberio, Dan Sarnoff, Dan Gray, Frank Tavolacci, Shawn Jimison,
+
+Robin Kramer and the Village of Mamaroneck, and granted Plaintiff leave to amend in limited
+
+respects. (See Minute Entry dated Mar. 5, 2025.) Plaintiff filed a Second Amended Complaint
+
+on April 25, 2025, (ECF No. 51), and after a pre-motion conference on October 1, 2025, Plaintiff
+
+filed a Third Amended Complaint on October 22, 2025 containing claims against only Murphy,
+
+Mountain and Tavolacci. (ECF No. 72.)
+
+       Murphy and Mountain filed separate motions to dismiss and accompanying memoranda
+
+of law, (ECF Nos. 75, 77), on November 20 and 21, 2025, respectively, and Plaintiff filed an
+
+opposition to each, (ECF No. 80 (“P’s Opp. to Murphy”); ECF No. 81 (“P’s Opp. to
+
+Mountain”)), on December 26, 2025. In reply briefing filed January 9, 2026, (collectively
+
+“Defendants’ Replies”), counsel for Murphy and Mountain both raised issues with certain case
+
+citations and quotations that Plaintiff’s counsel, Mr. Brian Higbie, included in Plaintiff’s
+
+Oppositions. (See ECF No. 82 (“Murphy Reply”) at 6-8; ECF No. 84 (“Mountain Reply”) at 4-
+
+7.) The Court will detail those issues below, but in general, counsel alerted the Court to
+
+misrepresentations of the holdings of cited cases and the inclusion of quotations that did not
+
+exist. Neither Defendant filed a separate motion for sanctions under Federal Rule of Civil
+
+
+
+
+                                                 2
+       Case 7:23-cv-08714-CS          Document 100        Filed 09/14/26     Page 3 of 19
+
+
+
+
+Procedure 11, although Murphy moved for dismissal under Federal Rule of Civil Procedure
+
+41(b) for failure to comply with Rule 11. (Murphy Reply at 8-9.)
+
+       The Court ruled from the bench on the motions on July 29, 2026, (the “Bench Ruling”).
+
+Between the filing of Defendants’ Replies on January 9 and the Bench Ruling on July 29, Mr.
+
+Higbie did not address the alleged errors in his papers. He also did not raise the issue when I
+
+asked counsel for the parties at the start of the proceeding whether any of them had anything to
+
+add that had not been covered by the papers. (See Transcript of July 29, 2026 Proceeding (“Tr.”)
+
+at 2:15-17.)
+
+               Issues Detailed During July 29, 2026 Bench Ruling
+
+       During the Bench Ruling, after addressing the merits, I discussed in detail the following
+
+misrepresentations and non-existent quotations that Defendants’ Replies raised or that my
+
+chambers found in its own review. (See id. at 25:6-30:6.)
+
+           •   Mr. Higbie cited Back v. Hastings On Hudson Union Free School District, 365
+               F.3d 107, 125-27 (2d Cir. 2004), stating, “In Back v. Hastings on Hudson Union
+               Free School District, the Second Circuit held that a defendant may be liable
+               where she ‘participated in the decision-making process’ or carried out
+               discriminatory or retaliatory actions initiated by others.” (P’s Opp. to Mountain at
+               3, 4). I could not locate that quote, which Mr. Higbie included twice, in the
+               decision. Additionally, the second half of the sentence – that a defendant may be
+               liable where he “carried out discriminatory or retaliatory actions initiated by
+               others” – also misrepresented Back’s holding. The Circuit held that a
+               superintendent involved in an adverse employment decision did not have personal
+               involvement in the alleged discrimination, even where he received a
+               recommendation to take the action from other defendants who harbored
+               discriminatory intent, because the superintendent was not motivated by an intent
+               to discriminate or deliberately indifferent to others’ discrimination. Back, 365
+               F.3d at 126-27. The decision thus not only does not support, but undermines, the
+               proposition for which Mr. Higbie cited it.
+
+           •   Mr. Higbie cited Mangino v. Inc. Village of Patchogue, 808 F.3d 951, 958-59 (2d
+               Cir. 2015), stating, “in Mangino v. Inc. Village of Patchogue, the court sustained
+               First Amendment retaliation claims against municipal code enforcement officials
+               who selectively and maliciously enforced local laws in response to protected
+               speech.” (P’s Opp. to Mountain at 4). The Circuit did not sustain a First
+
+
+
+                                                 3
+Case 7:23-cv-08714-CS        Document 100         Filed 09/14/26     Page 4 of 19
+
+
+
+
+       Amendment retaliation claim in Mangino. It stated that the district court erred in
+       finding that the plaintiff was required to show that defendants’ action chilled his
+       protected speech, given that Second Circuit precedent, although a bit unclear at
+       the time, permitted a First Amendment retaliation claim to proceed by showing
+       either a chilling effect or some other concrete harm. See Mangino, 808 F.3d at
+       955-56. But the Circuit went on to affirm the dismissal of the claim. Id. at 956-
+       57. It did not “sustain” it as Mr. Higbie claimed.
+
+   •   Mr. Higbie cited Dolan v. Connolly, 794 F.3d 290, 295-96 (2d Cir. 2015), stating,
+       “The Second Circuit has repeatedly held that retaliatory animus may be inferred
+       from circumstantial evidence, including temporal proximity, a sequence of events
+       suggesting retaliation, and departures from ordinary procedures.” (P’s Opp. to
+       Mountain at 4.) Although this is a correct statement of law, and Mr. Higbie
+       correctly relied on Gorman-Bakos v. Cornell Co-op Extension of Schenectady
+       County, 252 F.3d 545, 554-55 (2d Cir. 2001), for support as well, Dolan includes
+       no discussion of this principle and addresses only whether a prisoner’s filing a
+       grievance on behalf of the prison population constituted protected activity, see
+       794 F.3d at 294-95. Additionally, Mr. Higbie quoted Gorman-Bakos as stating,
+       “Close temporal proximity between protected speech and adverse action suffices
+       to plead causation.” (P’s Opp. to Murphy at 5.) I could not locate this quote in
+       the decision, even though it may fairly summarize statements of law in the
+       opinion.
+
+   •   Mr. Higbie attributed the following quotation to Dorsett v. County of Nassau, 732
+       F.3d 157, 160 (2d Cir. 2013) (per curiam): “Temporal proximity and allegations
+       of retaliatory animus are sufficient to withstand dismissal.” (P’s Opp. to Murphy
+       at 5.) I could not locate this quote in that decision, and the opinion discusses the
+       injury element of a First Amendment retaliation claim, not causation. See
+       Dorsett, 732 F.3d at 160-61.
+
+   •   Mr. Higbie attributed the following quotation to Dillon v. Morano, 497 F.3d 247,
+       253 (2d Cir. 2007): “Causation is sufficiently pleaded where the complaint
+       describes a chronology suggesting retaliation.” (P’s Opp. to Mountain at 5; P’s
+       Opp. to Murphy at 6.) I could not locate this quote in that decision.
+
+   •   Mr. Higbie attributed the following quotation to Ragbir v. Homan, 923 F.3d 53,
+       67-68 (2d Cir. 2019): “Retaliatory animus can be plausibly pleaded without
+       direct proof, courts must draw reasonable inferences in plaintiff’s favor.” (P’s
+       Opp. to Mountain at 5; P’s Opp. to Murphy at 6.) I could not locate this quote in
+       that decision. Defendants also noted, (Murphy Reply at 7-8; Mountain Reply at
+       5), that the judgment in Ragbir was vacated by Pham v. Ragbir, 592 U.S. 901
+       (2020), in light of the Supreme Court’s decision in Department of Homeland
+       Security v. Thuraissigiam, 591 U.S. 103 (2020). To be sure, Ragbir was vacated
+       on grounds other than the merits of the First Amendment retaliation claim, but
+       Mr. Higbie still failed to note this subsequent history. On its own, this oversight
+       might not have been worth mentioning, but given the other issues, it added to my
+       concerns about Mr. Higbie’s papers.
+
+
+                                        4
+       Case 7:23-cv-08714-CS          Document 100        Filed 09/14/26      Page 5 of 19
+
+
+
+
+           •   Mr. Higbie cited Dougherty v. Town of North Hempstead Board of Zoning
+               Appeals, 282 F.3d 83, 91 (2d Cir. 2002), and Davis v. Goord, 320 F.3d 346, 359
+               (2d Cir. 2003), for propositions related to Defendants’ qualified immunity
+               defenses. (P’s Opp. to Mountain at 6; P’s Opp. to Murphy at 7-8.) But those
+               cases never mention qualified immunity, and Mr. Higbie included a partial
+               quotation to Dougherty in his opposition to Murphy’s motion that I could not
+               locate in the opinion. (P’s Opp. to Murphy at 8.) Mr. Higbie also included a
+               citation to Mangino, 808 F.3d at 959, for the proposition that “[w]here, as here,
+               the complaint plausibly alleges intentional retaliation and selective enforcement,
+               qualified immunity cannot be resolved without factual development.” (P’s Opp.
+               to Mountain at 6.) But Mangino only discussed qualified immunity as it pertained
+               to an abuse of process claim, and in any event the Circuit upheld the dismissal of
+               the claim on the ground of qualified immunity. See 808 F.3d at 959. Similarly,
+               Mr. Higbie cited Kerman v. City of N.Y., 374 F.3d 93, 109 (2d Cir. 2004), in
+               opposition to Murphy’s argument for qualified immunity, with a parenthetical
+               reading, “established law clearly prohibits retaliation for protected speech,” (P’s
+               Opp. to Murphy at 8). But Kerman analyzes qualified immunity in the context of
+               unlawful seizure and false imprisonment claims. See 374 F. 3d at 108-09, 116-
+               117.
+
+           •   Mr. Higbie cited Gonzalez v. City of Schenectady, 728 F.3d 149, 157 (2d Cir.
+               2013), for the proposition that “[e]ven if qualified immunity were appropriate at
+               this stage, Murphy’s contentions could not be resolved on a motion to dismiss
+               where the facts as pleaded contradict that position.” (P’s Opp. to Murphy at 8.)
+               Gonzalez was an appeal of a summary judgment decision in defendants’ favor and
+               affirmed the dismissal of the claims against the defendant officers on qualified
+               immunity grounds. It does not come close to supporting the proposition for which
+               Mr. Higbie cited it.
+
+       After detailing those inaccuracies, I discussed the legal standards under Federal Rules of
+
+Civil Procedure 11 and 41(b). (See Tr. at 30:11-32:8.) I then denied Murphy’s request for
+
+dismissal under Rule 41(b), finding that result unwarranted based on the factors a district court
+
+must consider. See Park v. Kim, 91 F.4th 610, 612-13 (2d Cir. 2024) (per curiam). (See Tr. at
+
+32:25-33:3.) Pursuant to Rule 11(c)(3), however, I ordered Mr. Higbie to show cause why the
+
+citations and quotations that I described during the Bench Ruling did not violate Rule 11,
+
+including how they came to be included in his papers, why he failed to confirm their veracity
+
+before including them, and what tools were used to prepare his papers. (See Tr. at 33:3-8.) Mr.
+
+Higbie was ordered to request the transcript of the proceeding and respond in writing within one
+
+
+
+                                                 5
+       Case 7:23-cv-08714-CS            Document 100         Filed 09/14/26       Page 6 of 19
+
+
+
+
+week, with responses from Defendant’s counsel, if any, due a week after. (See id. at 33:8-12,
+
+38:7-16.) When given an opportunity to provide an initial account of how he did his research if
+
+he so chose, Mr. Higbie stated he was “very ill at the time.” (Id. at 37:10-15.)
+
+                Mr. Higbie’s and Defense Counsel’s Responses
+
+                1.      Higbie’s Response
+
+        After requesting additional time to respond to the OSC and confer with ethics counsel,
+
+(ECF No. 91), which I granted, (ECF No. 92), Mr. Higbie responded August 19, 2026, (ECF No.
+
+95 (“Higbie Resp.”)). Mr. Higbie acknowledged that he relied on ChatGPT, a generative
+
+artificial intelligence (“GenAI”) chatbot, when researching and drafting his papers. (Higbie
+
+Resp. at 1.) He stated that he was aware of the risk that GenAI tools could fabricate legal
+
+authority, and previously had identified a hallucinated case citation, as well as a real but
+
+irrelevant case, that ChatGPT supplied when he used the tool in an unrelated matter. (Id. at 1-2.)
+
+He said he stopped using AI research tools based on that experience, but returned to them after
+
+an acquaintance in the AI industry told him “that ChatGPT fixed the fabrication problem.” (Id.
+
+at 2.) According to Mr. Higbie, for each case that ChatGPT identified while working on
+
+Plaintiff’s Oppositions, he confirmed that the case existed and was “in the right jurisdiction,” (id.
+
+at 1), and “quickly reviewed” that it involved the relevant subject matter, (id. at 2), but he “did
+
+not independently verify the accuracy of the quotations or the characterizations of the holdings,”
+
+(id. at 1). Mr. Higbie said the risk for this kind of error – i.e., the tool generating a real case but
+
+with a fake quote or holding – did not occur to him as a possibility with GenAI, and he assumed
+
+that where ChatGPT generated quotes, the chatbot accurately scoured the case, functioning no
+
+differently than the “Ctrl + F” keyboard shortcut to search for text in a document. (Id. at 2.)
+
+
+
+
+                                                   6
+       Case 7:23-cv-08714-CS            Document 100           Filed 09/14/26    Page 7 of 19
+
+
+
+
+        Mr. Higbie responded to each item that I raised during the Bench Ruling and withdrew
+
+the citations and quotations. (See id. at 3-6.) He also represented to the Court that the issues in
+
+Plaintiff’s Oppositions were isolated to those briefs, and that “[t]here is no other filing, in this
+
+case or any other, that contains AI-assisted research I have not verified,” including his opposition
+
+to the first motion to dismiss in this case. (Id. at 2, 6.)1
+
+        Mr. Higbie said that around the time that he prepared Plaintiff’s Oppositions, he
+
+experienced “an intensification of a chronic health condition that among other things affects my
+
+physical and cognitive stamina” and that his family also experienced an unrelated job loss. (Id.
+
+at 7.) He also experienced heightened stress due to the two motions to dismiss in this case,
+
+which further intensified his symptoms. (Id.) Mr. Higbie did not request an extension for his
+
+opposition, although the parties submitted a joint amended briefing schedule, which the Court
+
+approved, that extended all parties’ time due to the holidays. (See ECF Nos. 78-79.) He also did
+
+not bring on co-counsel to assist. (Higbie Resp. at 7.) Further, Mr. Higbie said that he turned to
+
+AI because he wanted to save costs for his client. (See id.)
+
+        Mr. Higbie said that he reviewed Defendants’ Replies, although not closely, and knew
+
+that Defendants had “criticized my citations.” (Id. at 3.) He checked the first case that Mountain
+
+flagged, concluded the criticism was not warranted, and stopped there. (See id.) During the
+
+Bench Ruling, I noted that not all of Defendants’ concerns were necessarily founded, referring to
+
+the first part of Mountain’s criticism, which argued that Plaintiff relied on factually irrelevant
+
+cases, (Mountain Reply at 4-5), as an example. (See Tr. at 24:22-25:1.) As I said during the
+
+Bench Ruling, there is nothing inherently improper in an attorney relying on an opinion that
+
+
+
+        1
+         My chambers reviewed Mr. Higbie’s opposition to the first motion to dismiss, (ECF No.
+36), and did not identify similar issues.
+
+
+                                                    7
+       Case 7:23-cv-08714-CS          Document 100         Filed 09/14/26      Page 8 of 19
+
+
+
+
+involves different facts from the instant case, so long as they do not misrepresent those facts.
+
+(See id.) But rather than check the rest of the issues that Mountain raised, or any of the issues
+
+that Murphy raised, Mr. Higbie concluded that all of their criticisms were of the same ilk and
+
+“off base.” (Higbie Resp. at 3.) Mr. Higbie concedes that his “verification was too shallow and
+
+too easily satisfied.” (Id.)
+
+        Mr. Higbie apologized to the Court, its staff and Defendants’ counsel for the burden his
+
+actions caused. (Id. at 8.) He also expressed regret for the impact on his own client, with whom
+
+he represented he had shared the transcript of the Bench Ruling. (Id. at 7-8.) Mr. Higbie further
+
+admitted that his actions violated Rule 11 and stated that going forward, he would check every
+
+quotation and characterization of a holding against the full text of the cited opinion. (See id. at
+
+8.) He requested that if the Court were to impose a monetary sanction, it take into account his
+
+financial circumstances and the fact that his part-time law practice is the primary means of
+
+support for his family. (Id.)
+
+                2.      Defendants’ Counsel’s Response
+
+        At the Bench Ruling, Defendants’ counsel requested an opportunity to respond to Mr.
+
+Higbie’s response, which I granted. (See Tr. 38:7-16.) Defendants’ counsel both thanked Mr.
+
+Higbie for his candor and apology, but still requested reasonable attorney’s fees for the cost
+
+incurred in responding to Mr. Higbie’s papers. (See ECF No. 96 at 1; ECF No. 97 at 1.)
+
+Counsel for Mountain and Tavolacci requested $6,500, (ECF No. 96 at 1-2), while Counsel for
+
+Murphy requested $3,500, (ECF No. 97 at 1).
+
+
+
+
+                                                  8
+       Case 7:23-cv-08714-CS           Document 100         Filed 09/14/26       Page 9 of 19
+
+
+
+
+II.    LEGAL STANDARD
+
+       Federal Rule of Civil Procedure 11 requires that “[e]very pleading, written motion, and
+
+other paper must be signed by at least one attorney of record in the attorney’s name.” Fed. R.
+
+Civ. P. 11(a). Rule 11 further states, in relevant part:
+
+       By presenting to the court a pleading, written motion, or other paper – whether by
+       signing, filing, submitting, or later advocating it – an attorney . . . certifies that to
+       the best of the person’s knowledge, information, and belief, formed after an
+       inquiry reasonable under the circumstances . . . the claims, defenses, and other
+       legal contentions are warranted by existing law or by a nonfrivolous argument for
+       extending, modifying, or reversing existing law or for establishing new law[.]
+
+Id. 11(b)(2). “When a party’s legal contentions are challenged as violating Rule 11, ‘the
+
+operative question is whether the argument is frivolous, i.e., the legal position has no chance of
+
+success, and there is no reasonable argument to extend, modify, or reverse the law as it stands.’”
+
+Black v. Ganieva, No. 21-CV-8824, 2022 WL 2354916, at *13 (S.D.N.Y. June 30, 2022)
+
+(quoting Fishoff v. Coty Inc., 634 F.3d 647, 654 (2d Cir. 2011)).2 “A legal argument may be
+
+sanctioned as frivolous when it amounts to an abuse of the adversary system,” and “[t]he filing
+
+of papers without taking the necessary care in their preparation is an abuse of the judicial system
+
+that is subject to Rule 11 sanction.” Mata v. Avianca, Inc., 678 F. Supp. 3d 443, 460 (S.D.N.Y.
+
+2023). “In short, Rule 11(b) imposes an affirmative duty on parties and counsel to ensure that all
+
+papers filed with the Court are factually and legally well-founded.” Barteca Holdings LLC v.
+
+Tacobarn Newtown LLC, No. 26-CV-250, 2026 WL 2253785, at *2 (D. Conn. Aug. 4, 2026).
+
+“At the very least, the duties imposed by Rule 11 require that attorneys read, and thereby confirm
+
+the existence and validity of, the legal authorities on which they rely.” Park, 91 F.4th at 615.
+
+
+
+
+       2
+         Unless otherwise indicated, case quotations in this Order omit all internal citations,
+quotation marks, footnotes, and alterations.
+
+
+                                                   9
+      Case 7:23-cv-08714-CS           Document 100        Filed 09/14/26      Page 10 of 19
+
+
+
+
+       Where another party is moving for sanctions under Rule 11, the party must do so “in a
+
+filing that is ‘separate[ ] from any other motion’ and that ‘describe[s] the specific conduct that
+
+allegedly violates Rule 11(b).’” Kyros L. P.C. v. World Wrestling Ent., Inc., 78 F.4th 532, 543
+
+(2d Cir. 2023) (quoting Fed. R. Civ. P. 11(c)(2)). The party may not present the motion to the
+
+court until after the passage of a twenty-one-day safe harbor period, during which the person
+
+against whom the motion is brought can withdraw or correct the challenged filing. See id.
+
+Additionally, “[o]n its own, the court may order an attorney . . . to show cause why conduct
+
+specifically described in the order has not violated Rule 11(b).” Fed. R. Civ. P. 11(c)(3); see
+
+Kyros L., 78 F.4th at 543.
+
+       When Rule 11 has been violated, district courts have broad discretion to craft a sanction
+
+appropriate under the circumstances. See Star Mark Mgmt., Inc. v. Koon Chun Hing Kee Soy &
+
+Sauce Factory, Ltd., 682 F.3d 170, 179 (2d Cir. 2012) (per curiam). Any sanctions decision,
+
+however, should be “made with restraint” because “the trial court may act as accuser, fact finder
+
+and sentencing judge.” Storey v. Cello Holdings, L.L.C., 347 F.3d 370, 387 (2d Cir. 2003).
+
+“When a court initiates Rule 11 sanctions sua sponte and the opportunity to correct or withdraw
+
+the challenged submission is unavailable, the court must make a finding of bad faith on the part
+
+of the attorney before imposing the sanctions.” Kyros L., 78 F.4th at 543. The Second Circuit
+
+has reasoned that “sua sponte [sanctions] without affording the offender the opportunity to
+
+withdraw the challenged document in the manner provided in the ‘safe harbor’ provision of Rule
+
+11(c)(1)(A), is akin to the court’s inherent power of contempt,” which requires a finding of
+
+subjective bad faith. Muhammad v. Walmart Stores E., L.P., 732 F.3d 104, 108 (2d Cir. 2013)
+
+(per curiam).
+
+
+
+
+                                                 10
+       Case 7:23-cv-08714-CS         Document 100         Filed 09/14/26      Page 11 of 19
+
+
+
+
+III.   DISCUSSION
+
+               Rule 11 Violation
+
+       Amid the growing use of GenAI in legal research and writing, district courts are
+
+increasingly faced with the concerning problem of hallucinated legal authority. See, e.g.,
+
+Barteca Holdings, 2026 WL 2253785, at *1; Jimenez-Fogarty v. Fogarty, 831 F. Supp. 3d 253,
+
+257-59 (S.D.N.Y. 2026); Kaur v. Desso, No. 25-CV-726, 2025 WL 1895859, at *1 (N.D.N.Y.
+
+July 9, 2025). As one district court described the phenomenon, AI-generated hallucinations
+
+often take one of three forms: (1) fabricated cases, meaning a citation to a decision that simply
+
+does not exist or is a real decision but is wholly unrelated; (2) fabricated quotations from an
+
+actual case; and (3) misstatements of law, including misrepresentations of case holdings. See
+
+Andre v. Warden, FCI Danbury, 827 F. Supp. 3d 294, 305 (D. Conn. 2025). “There is no
+
+question” that all three types of errors violate Rule 11(b) because reliance on any of them “does
+
+not constitute ‘existing law’ and certainly does not provide to the Court a nonfrivolous argument
+
+for extending, modifying, or reversing existing law or for establishing new law.” Lexos Media
+
+IP, LLC v. Overstock.com, Inc., No. 22-2324, 2026 WL 265581, at *10 (D. Kan. Feb. 2, 2026);
+
+see Barteca Holdings, 2026 WL 2253785, at *6-7 (finding Rule 11 violation where attorney
+
+relied on AI-hallucinated quotes and erroneous legal propositions but not wholly fabricated
+
+cases). Rule 11 is not violated simply because attorneys use GenAI, but rather because their
+
+inclusion of GenAI hallucinations in a filing demonstrates that they did not “read, and thereby
+
+confirm the existence and validity of, the legal authorities on which they rely.” Park, 91 F.4th at
+
+615.
+
+       Mr. Higbie violated Rule 11, which he readily admits. For each citation that the Court
+
+raised during the Bench Ruling, Mr. Higbie stated he either relied on a nonexistent quotation or
+
+
+
+
+                                                 11
+      Case 7:23-cv-08714-CS            Document 100         Filed 09/14/26      Page 12 of 19
+
+
+
+
+misrepresented the holding or a legal statement in the decision. (See Higbie Resp. at 2-6.) Mr.
+
+Higbie’s “verification” was also wholly deficient to the point of being non-existent. Rather than
+
+read each case he cited, he merely confirmed its existence, jurisdiction, and general subject
+
+matter. (Id. at 2; see id. at 3 (“I did not verify the veracity of the characterizations of the cases
+
+noted before citing them in my brief, and that failure is the same regardless of how each one is
+
+ultimately characterized.”).) That demonstrates a failure to conduct not just an adequate cite-
+
+check of a brief but any review in the first instance of the authorities that he was advancing
+
+before the Court. His conduct clearly failed the “reasonable inquiry” requirement of Rule 11.
+
+See Barteca Holdings, 2026 WL 2253785, at *4; Kaur, 2025 WL 1895859, at *3; Benjamin v.
+
+Costco Wholesale Corp., 779 F. Supp. 3d 341, 348 (E.D.N.Y. 2025).
+
+                Bad Faith
+
+        “Generally, subjective bad faith requires a showing that the attorney has actual
+
+knowledge that a pleading or argument that he or she is advancing is frivolous.” Kaur, 2025 WL
+
+1895859, at *3 (emphasis omitted). But “[a]n assertion may be made in subjective bad faith
+
+even when it was based in confusion.” Mata, 678 F. Supp. 3d at 463. Additionally, “[t]he
+
+requisite actual knowledge may be demonstrated by circumstantial evidence and inferred from
+
+conscious avoidance.” Estevez v. Berkeley Coll., No. 18-CV-10350, 2022 WL 17177971, at *1
+
+(S.D.N.Y. Nov. 23, 2022). “The conscious avoidance test is met when a person consciously
+
+avoided learning a fact while aware of a high probability of its existence, unless the factfinder is
+
+persuaded that the person actually believed the contrary.” Mata, 678 F. Supp. 3d at 463.
+
+Applying this standard, courts within the Second Circuit have found that reliance on nonexistent
+
+legal authority fabricated by GenAI constitutes bad faith under Rule 11. See, e.g., Barteca
+
+Holdings, 2026 WL 2253785, at *4; Jimenez-Fogarty, 831 F. Supp. 3d at 264; Benjamin, 779 F.
+
+
+
+
+                                                  12
+      Case 7:23-cv-08714-CS           Document 100        Filed 09/14/26      Page 13 of 19
+
+
+
+
+Supp. 3d at 350. In Jimenez-Fogarty, the court identified two cases in which the presentation of
+
+erroneous AI-generated citations did not constitute bad faith, but noted that in both, the attorneys
+
+who submitted the fake cites had received them from another human with legal training and
+
+assumed – albeit erroneously – that no further verification was necessary. See 831 F. Supp. 3d at
+
+265 (citing United States v. Cohen, 724 F. Supp. 3d 251 (S.D.N.Y. 2024), and Hall v. Acad.
+
+Charter Sch., No. 24-CV-8630, 2025 WL 2256653 (E.D.N.Y. Aug. 7, 2025)).
+
+       Here, Mr. Higbie knew the citations he was presenting to the Court were supplied by
+
+GenAI and he submitted them without checking their veracity beyond confirming the existence
+
+of the case, jurisdiction and general subject matter. (Higbie Resp. at 2.) He further represented
+
+that he did not think GenAI tools like ChatGPT could fabricate quotes or supply erroneous
+
+holdings, which is why he did not investigate his citations further – let alone actually read the
+
+cases he was presenting to the Court. (Id.) But as already noted, this current episode is not the
+
+first time Mr. Higbie experienced an AI hallucination. He said that he previously used the tool in
+
+an unrelated matter and was presented with a fabricated case and an irrelevant case. (Id.)
+
+Although he stopped using GenAI for some unspecified period of time, he returned after he
+
+“bought into the hype” based on the representations of an acquaintance working in the AI
+
+industry. (Id.) Mr. Higbie also said that he returned to the tool for Plaintiff’s Oppositions as a
+
+means of cost savings for his client. (Id. at 7.) Effectively, Mr. Higbie put blind trust in the bald
+
+assertions of an interested person without safeguards and in an effort to cut corners. He knew
+
+firsthand that there were risks to GenAI and verification of its output was needed, yet he
+
+conducted only the most superficial level of checks before presenting ChatGPT’s work to the
+
+
+
+
+                                                 13
+      Case 7:23-cv-08714-CS           Document 100         Filed 09/14/26      Page 14 of 19
+
+
+
+
+Court.3 This conduct is strong evidence of not only a profound misunderstanding about an
+
+emerging technology but also of conscious avoidance of the potential errors that he was
+
+introducing into his papers by relying on a tool he knew to be fallible.
+
+       Mr. Higbie’s delay in providing a full accounting of his conduct further demonstrates bad
+
+faith. Delay in taking any remedial action when confronted with an accusation that fabricated
+
+legal authority was included in a submission has been found to contribute to bad faith. See Kaur,
+
+2025 WL 1895859, at *3; see also Barteca Holdings, 2026 WL 2253785, at *3 (“The duty of
+
+candor extends beyond the moment of signature, it continues for as long as the filing remains
+
+before the Court.”). Defendants’ Replies alerted Mr. Higbie to the potential errors in early
+
+January 2026. (See ECF Nos. 82, 84; see also Higbie Resp. at 3 (recalling reviewing the
+
+“criticism” of his citations).) Rather than investigate each citation, he checked one, found it was
+
+not inaccurate, and washed his hands of the situation for months, (see Higbie Resp. at 3), until
+
+the Court confronted him during the Bench Ruling.
+
+       I also find Mr. Higbie’s response to the OSC to be illogical on this point. He said that he
+
+reviewed Defendants’ Replies, albeit not closely, but also that he concluded that Defendants’
+
+criticisms were off base and all of the same nature due to his review of the first citation that
+
+
+
+       3
+          “While an inadequate inquiry may not suggest bad faith, the absence of any inquiry
+supports a finding of bad faith.” Mata, 678 F. Supp. 3d at 464. Mr. Higbie’s confirmation that
+the cases he received from ChatGPT were real, that ChatGPT attributed them to the correct
+court, and that their general subject matter was relevant may have been an inquiry into the basic
+details of the existence of the case, but it was no way an inquiry into whether his legal arguments
+were “warranted by existing law or by a nonfrivolous argument for extending, modifying, or
+reversing existing law or for establishing new law.” Fed. R. Civ. P 11(b)(2); see Park, 91 F.4th
+at 615 (noting Rule 11 and Second Circuit precedent require inquiry “into the validity of the
+arguments [the attorney] presented”). Determining that a given case is a real Second Circuit
+decision discussing § 1983 is not an inquiry into whether a legal position purportedly supported
+by that case is valid. Mr. Higbie’s “verification” therefore in effect amounted to no inquiry at
+all.
+
+
+                                                 14
+      Case 7:23-cv-08714-CS           Document 100         Filed 09/14/26      Page 15 of 19
+
+
+
+
+Mountain addressed. (See id.) Yet even on a cursory read of Defendants’ Replies, it is obvious
+
+that the first group of citations that Mountain flagged – citations to factually irrelevant cases –
+
+was fundamentally different from the rest of the issues that she and Murphy raised: non-existent
+
+quotations and misrepresented case holdings. (See Mountain Reply at 4-7; Murphy Reply at 6-
+
+8.) If Mr. Higbie cursorily reviewed Defendants’ Replies, as he represents that he did, he would
+
+have known that he was being accused of providing fabricated quotes and case holdings, and he
+
+would not have needed to – and would have had no basis to – assume the nature of the rest of the
+
+issues flagged. Thus, Mr. Higbie’s conduct after he was alerted to the false citations contributes
+
+to finding that he acted in bad faith. To be sure, Mr. Higbie otherwise expressed regret and
+
+apologized for his actions. (See Higbie Resp. at 8.) I do not doubt his sincerity, “[b]ut regret and
+
+apologies are not necessarily enough to avoid the imposition of sanctions for the submission of
+
+non-existent legal authority.” Benjamin, 779 F. Supp. 3d at 350.
+
+               Sanction
+
+       I next consider the appropriate sanction. “A sanction imposed under [Rule 11] must be
+
+limited to what suffices to deter repetition of the conduct or comparable conduct by others
+
+similarly situated.” Fed. R. Civ. P. 11(c)(4); see Star Mark, 682 F.3d at 179 (“underlying
+
+purpose of sanctions” is “to punish deviations from proper standards of conduct with a view
+
+toward encouraging future compliance and deterring further violations”). Rule 11 permits both
+
+monetary and nonmonetary sanctions to be imposed. See Fed. R. Civ. P 11(c)(4).4 “In
+
+
+
+       4
+         Sua sponte monetary sanctions are not permitted “unless [the court] issued the show-
+cause order under Rule 11(c)(3) before voluntary dismissal or settlement of the claims made by
+or against the party that is, or whose attorneys are, to be sanctioned.” Fed. R. Civ. P.
+11(c)(5)(B). Both due process and the text of Rule 11 require notice and an opportunity to be
+heard before imposing sanctions. See Nuwesra v. Merrill Lynch, Fenner & Smith, Inc., 174 F.3d
+87, 92 (2d Cir. 1999) (per curiam). The Second Circuit has assumed, without deciding, that a
+
+
+
+                                                 15
+      Case 7:23-cv-08714-CS          Document 100         Filed 09/14/26      Page 16 of 19
+
+
+
+
+determining the appropriate sanction, courts focus not on compensation for the aggrieved party,
+
+but on the deterrence of baseless filings and the curbing of abuses.” Benjamin, 779 F. Supp. 3d
+
+at 348. Courts faced with similar submissions of AI hallucinations have imposed monetary
+
+sanctions “[i]n nearly all cases” and ranging from $1,500 to $15,000. Id. at 347-48 (collecting
+
+cases); see Barteca Holdings, 2026 WL 2253785, at *6 (to the same effect). They have also
+
+imposed non-monetary sanctions, including, among others, requiring the attorney to attend
+
+relevant CLE programing and/or provide notice to their client, see Kaur, 2025 WL 1895859, at
+
+*4; Gauthier v. Goodyear Tire & Rubber Co., No. 23-CV-281, 2024 WL 4882651, at *3 (E.D.
+
+Tex. Nov. 25, 2024), referring the attorney to applicable disciplinary authorities, see United
+
+States v. Hayes, 763 F. Supp. 3d 1054, 1073 (E.D. Cal. 2025), reconsideration denied, No. 24-
+
+CR-280, 2025 WL 1067323 (E.D. Cal. Apr. 9, 2025); Park, 91 F.4th at 615-16, and requiring the
+
+attorney to supply a copy of the court’s order imposing sanctions to the presiding judge in each
+
+pending case where the attorney appears as attorney of record, see Jimenez-Fogarty, 831 F.
+
+Supp. 3d at 267.
+
+       Here, Mr. Higbie’s misconduct was serious and implicates numerous potential harms to
+
+his client, Defendants and their counsel, the Court and its staff, and the judicial system. See
+
+
+
+
+judge’s statements on the record, absent a written show-cause order that details the specific Rule
+11 violations at issue, sufficed under a prior version of Rule 11 to apprise the subject of possible
+sanctions of “the specific conduct that appears to violate [the rule].” Id. at 92 n.2. The Circuit
+has also upheld sanctions imposed under 28 U.S.C. § 1927 after an oral order to show cause. See
+In re 60 E. 80th St. Equities, Inc., 218 F.3d 109, 118 (2d Cir. 2000). The OSC here gave Mr.
+Higbie notice and a reasonable opportunity to respond: I detailed on the record during the Bench
+Ruling the specific inadequacies with his briefing, (see Tr. at 25:6-30:6); I entered a written
+order after the Bench Ruling memorializing the OSC, (see ECF No. 89); I ordered him to order a
+copy of the transcript before responding to the OSC, (see Tr. at 33:10-12); he obtained the
+transcript and referred to it in his response, (see Higbie Resp. at 7); and he had extended time to
+review the transcript and possibly confer with ethics counsel before filing his response, (see ECF
+Nos. 91-92).
+
+
+                                                 16
+      Case 7:23-cv-08714-CS           Document 100         Filed 09/14/26      Page 17 of 19
+
+
+
+
+Mata, 678 F. Supp. 3d at 448-49. Although he expressed regret and apologized, he waited to do
+
+so until after he was ordered to show cause, and his explanation for his delay was wanting, as
+
+previously detailed. He was also aware that GenAI presented the risk of hallucinations but opted
+
+to use the tool anyway without verification of its output. To be sure, Mr. Higbie’s conduct is not
+
+as brazen as that of some attorneys who were not as forthcoming with their use of AI and even
+
+continued to submit fabricated authority after being confronted. See, e.g., Jimenez-Fogarty, 831
+
+F. Supp. 3d at 261-62, 265-66. He also did not present wholly fabricated cases to the Court.
+
+See Barteca Holdings, 2026 WL 2253785, at *6. I also consider Mr. Higbie’s representations
+
+about his health at the time of filing Plaintiff’s Oppositions and his current financial situation.
+
+See Star Mark, 682 F.3d at 179 (no abuse of discretion in considering attorney’s financial
+
+hardship when crafting Rule 11 sanction). He also does not appear to have any other pending
+
+matters in the Southern District of New York. Having considered all of the circumstances and
+
+balancing the above considerations, the Court concludes that the following are appropriate
+
+sanctions to deter future similar misconduct:
+
+           •   Mr. Higbie is ordered to pay a sanction of $500 to the Court. Payment shall be
+
+               made within 30 days of this Order and payable to the Clerk of Court, S.D.N.Y.
+
+           •   Mr. Higbie is ordered to complete a minimum of two New York CLE credits in
+
+               Ethics and Professionalism on the topic of AI and its ethical use in practice. Mr.
+
+               Higbie shall submit verification that he completed the credits by no later than
+
+               December 31, 2026.
+
+           •   Any future filing submitted in this Court (before the undersigned or otherwise) by
+
+               Mr. Higbie for which he used GenAI in his research or drafting must include a
+
+               certification describing the portions of the submission with which GenAI assisted,
+
+
+
+
+                                                  17
+      Case 7:23-cv-08714-CS           Document 100        Filed 09/14/26       Page 18 of 19
+
+
+
+
+               what GenAI tools he used, how he used those tools, and how he confirmed the
+
+               veracity of any cases, quotations and legal statements that GenAI provided him
+
+               and on which he relied in the submission. Failure to include this certification with
+
+               any future filings that rely on GenAI may result in additional sanctions.
+
+           •   Mr. Higbie shall serve a copy of this Order on Plaintiff Stuart Tiekert and file
+
+               proof of service within 14 days of the date of this Order.
+
+       Finally, I consider Defendants’ counsel’s requests for attorney’s fees. The text of Rule
+
+11 and Second Circuit precedent are clear on this issue. A sanction imposed under Rule 11 may
+
+include an order directing payment of reasonable attorney’s fees “if imposed on motion.” Fed.
+
+R. Civ. P. 11(c)(4). “By its terms, the rule thus precludes a court from awarding attorneys’ fees
+
+on its own initiative.” Nuwesra, 174 F.3d at 94. “[A]bsent a specific motion for attorneys’ fees,
+
+[a district] court only ha[s] authority to order sanctions payable to the court.” Baffa v.
+
+Donaldson, Lufkin & Jenrette Sec. Corp., 222 F.3d 52, 57 (2d Cir. 2000); accord Dakus v.
+
+Koninklijke Luchtvaart Maatschappij, N.V., No. 22-CV-7962, 2024 WL 4265646, at *6
+
+(S.D.N.Y. Sep. 23, 2024); Castro v. Mitchell, 727 F. Supp. 2d 302, 309-10 (S.D.N.Y. 2010).
+
+Defendants did not file a separate Rule 11 motion, and Murphy’s argument in his Reply seeking
+
+dismissal under Rule 41(b) for failure to comply with Rule 11, (see Murphy Reply at 8), is not a
+
+motion. I noted during the Bench Ruling that neither Defendant had made a Rule 11 motion, and
+
+cited Rule 11(c)(3) in ordering Mr. Higbie to show cause. (See Tr. 32:17-33:3.) Defendants’
+
+requests are therefore denied. While the Court appreciates that Defendants’ counsel brought the
+
+issue of Mr. Higbie’s citations to its attention, they are also reminded of the need to closely read
+
+the Federal Rules of Civil Procedure and related precedent before making such a request.
+
+
+
+
+                                                 18
+      Case 7:23-cv-08714-CS         Document 100       Filed 09/14/26      Page 19 of 19
+
+
+
+
+IV.    CONCLUSION
+
+       For the foregoing reasons, the Court imposes the sanctions set forth above pursuant to
+
+Rule 11.
+
+SO ORDERED.
+
+Dated: September 14, 2026
+       White Plains, New York
+                                                    ________________________________
+                                                         CATHY SEIBEL, U.S.D.J.
+
+
+
+
+                                               19
+

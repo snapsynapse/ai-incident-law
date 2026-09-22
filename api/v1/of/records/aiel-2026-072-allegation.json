@@ -1,0 +1,49 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "projection_basis": "ail:projectionBasis",
+      "admission_status": "ail:admissionStatus",
+      "source_review_unresolved": "ail:sourceReviewUnresolved"
+    }
+  ],
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-072-allegation.json",
+  "id": "aiel-2026-072-allegation",
+  "text": "Briefing filed for BYU contained errors and citations that appeared to be AI-hallucinated. At a show-cause hearing the drafting attorney stated that he relied on several AI models in drafting the briefing, naming ClearBrief, Claude, ChatGPT and Gemini. Before the show-cause order issued he had filed a notice of errata identifying and correcting twelve errors, and counsel had voluntarily refunded opposing counsel’s fees. The court found a Rule 11(b) violation as to both attorneys on their own admissions.",
+  "asserted_by": "asserting party not identified in the indexed source fields",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-072#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-072-deployer.json"
+  ],
+  "ai_system_name": "ClearBrief, Claude, ChatGPT and Gemini (named; admitted)",
+  "deployer": "Chad Pehrson (drafting attorney) and Robert S. Clark (signing attorney), counsel for Brigham Young University",
+  "domain": "legal services",
+  "error_type": "fabricated and misattributed authority",
+  "canonical_source_conflicted": "The holdings of cited authority, including Oxford Health Plans, which counsel cited for a proposition about evident partiality under 9 U.S.C. section 10(a)(2) that the case does not address",
+  "mitigation_gap": "Four separate AI tools were used in drafting and none of them, nor the signing attorney’s review, caught the fabricated and misattributed authority. The order draws no distinction between ClearBrief, a citation-checking product, and the three general-purpose models, and attributes all four to drafting rather than verification.",
+  "reliance_or_harm": "The court ordered the drafting attorney to complete two CLE courses on the ethical use of AI within six months, and ordered penalties paid to the court of $2,000 from Mr Pehrson and $1,000 from Mr Clark, with proof of payment within thirty days. The refund of opposing counsel’s fees was voluntary and preceded the order, so it is not a fee-shifting sanction.",
+  "ai_incident_law_record_id": "AIEL-2026-072",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.utd.86552/gov.uscourts.utd.86552.385.0.pdf",
+  "source_locator": "Beus Gilbert PLLC v. Brigham Young University, No. 2:12-cv-00970-TS (D. Utah), Dkt. 385",
+  "evidence_type": "primary record",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "projection_basis": "native-record-projection",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "Professional-discipline outcomes referred to a bar or disciplinary authority are not resolved by this order and were not followed up.",
+    "No date is established for the underlying filing that carried the defective citations, so no incident date is recorded."
+  ]
+}

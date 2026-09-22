@@ -1,8 +1,8 @@
 {
   "contract_version": 1,
-  "inventory_version": "1.1.0",
+  "inventory_version": "1.2.0",
   "owner": "https://aiincidentlaw.org/",
-  "source": "Initial inventory reviewed against accepted P1 projection; see docs/SCOPE-CONTRACT.md. 1.1.0 adds the USPTO as the institutional scope introduced by AIEL-2026-069.",
+  "source": "Initial inventory reviewed against accepted P1 projection; see docs/SCOPE-CONTRACT.md. 1.1.0 adds the USPTO as the institutional scope introduced by AIEL-2026-069. 1.2.0 adds the three court institutions introduced by AIEL-2026-071, -072 and -073, and the us-dc territorial identity.",
   "entries": [
     {
       "id": "Appellate Court of Illinois, First District",
@@ -66,6 +66,12 @@
     },
     {
       "id": "District Court of Appeal of Florida, Second District",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "District of Columbia Court of Appeals",
       "kind": "institutional",
       "source": "data/data.json; scripts/build-obligation-first.mjs",
       "extension": false
@@ -179,6 +185,12 @@
       "extension": false
     },
     {
+      "id": "U.S. District Court, Central District of Illinois",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
       "id": "U.S. District Court, District of Arizona",
       "kind": "institutional",
       "source": "data/data.json; scripts/build-obligation-first.mjs",
@@ -216,6 +228,12 @@
     },
     {
       "id": "U.S. District Court, District of Oregon",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. District Court, District of Utah",
       "kind": "institutional",
       "source": "data/data.json; scripts/build-obligation-first.mjs",
       "extension": false
@@ -409,6 +427,13 @@
       "kind": "territorial",
       "source": "data/data.json; scripts/build-obligation-first.mjs",
       "extension": false,
+      "parent": "us"
+    },
+    {
+      "id": "us-dc",
+      "kind": "territorial",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": true,
       "parent": "us"
     },
     {

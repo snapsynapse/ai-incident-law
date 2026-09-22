@@ -8,6 +8,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- Four records from a sweep of the 2 - 22 September 2026 gap, each verified against a
+  court-published or RECAP original rather than the discovery tracker: **AIEL-2026-070**
+  Tiekert v. Village of Mamaroneck (S.D.N.Y., ChatGPT admitted, $500 to the court, ethics
+  CLE, and a standing certification duty on any future filing in which counsel uses GenAI -
+  the corpus's first forward-looking disclosure remedy); **AIEL-2026-071** Douglas v.
+  Deutsche Bank (D.C. Ct. App., counsel admitted using "Google's generative artificial
+  intelligence search tool", four nonexistent cases, brief stricken, Disciplinary Counsel
+  referral, and a referral of the court's own sanctions authority to its Rules Committee);
+  **AIEL-2026-072** Beus Gilbert PLLC v. BYU (D. Utah, four AI tools named in one matter -
+  ClearBrief, Claude, ChatGPT and Gemini - with penalties of $2,000 and $1,000 severally
+  against two attorneys); **AIEL-2026-073** Cole v. Hobby Town Unlimited (C.D. Ill.,
+  hallucinated citations embedded in a reusable AI-built motion template, $1,000 fine and
+  ARDC self-report).
+- Scope inventory 1.2.0 registers three court institutions and the `us-dc` territorial
+  identity. The reviewed baseline diff is additive: 36 claims added, none removed or changed.
+- `jurisdictionRef` now maps the District of Columbia to `us-dc`. It previously fell through
+  every state test and the federal-body test alike, so a D.C. matter would have projected an
+  empty territorial scope.
 - AIEL-2026-069, In re Brian E. Mitchell (USPTO OED Proceeding No. D2026-16), promoted from
   review candidate AIEL-CAND-031 on the steward decision of 2026-09-22. The final order
   establishes that the respondent used one generative AI tool to draft proposed claim

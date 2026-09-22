@@ -127,6 +127,8 @@ function jurisdictionRef(record) {
   if (jurisdiction.includes("pennsylvania")) return "us-pa";
   if (jurisdiction.includes("texas")) return "us-tx";
   if (jurisdiction.includes("wyoming")) return "us-wy";
+  // The District of Columbia is not a state and does not match the federal-body test below.
+  if (jurisdiction.includes("district of columbia")) return "us-dc";
   // Federal/national bodies: circuits, agencies, boards with no single-state scope.
   if (
     jurisdiction.includes("u.s.") ||

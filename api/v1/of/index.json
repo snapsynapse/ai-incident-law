@@ -1,6 +1,6 @@
 {
   "@context": "https://obligationfirst.org/v1/context.jsonld",
-  "generated": "2026-09-10",
+  "generated": "2026-09-22",
   "files": {
     "authorities": "authorities.json",
     "parties": "parties.json",
@@ -10,11 +10,11 @@
     "tombstones": "tombstones.json"
   },
   "counts": {
-    "authorities": 60,
-    "parties": 68,
-    "proceedings": 70,
-    "allegations": 68,
-    "determinations": 64,
+    "authorities": 63,
+    "parties": 72,
+    "proceedings": 74,
+    "allegations": 72,
+    "determinations": 68,
     "tombstones": 8
   }
 }

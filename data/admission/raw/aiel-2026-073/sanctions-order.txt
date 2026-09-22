@@ -1,0 +1,573 @@
+             4:25-cv-04217-SLD-RLH               # 33        Filed: 09/02/26        Page 1 of 11
+                                                                                                                     E-FILED
+                                                                       Wednesday, 02 September, 2026 11:03:48 AM
+                                                                                      Clerk, U.S. District Court, ILCD
+                                  UNITED STATES DISTRICT COURT
+                                  CENTRAL DISTRICT OF ILLINOIS
+                                      ROCK ISLAND DIVISION
+
+    MORGAN COLE,                                         )
+                                                         )
+                   Plaintiff,                            )
+                                                         )
+    v.                                                   )       Case No. 4:25-cv-04217-SLD-RLH
+                                                         )
+    HOBBY TOWN UNLIMITED, INC.,                          )
+                                                         )
+                   Defendant.                            )
+
+                                                     ORDER
+
+         Before the Court is Attorney David Baldemar Reyes’s response to the Court’s show
+
+cause order, ECF No. 32. For the reasons that follow, Reyes is ORDERED to pay a fine of
+
+$1,000 and send a copy of this order to the Illinois Attorney Registration and Disciplinary
+
+Commission (“ARDC”).
+
+                                              BACKGROUND 1
+
+         Reyes filed a lawsuit on behalf of Plaintiff Morgan Cole alleging that Defendant violated
+
+Title III of the Americans with Disabilities Act (“ADA”), 42 U.S.C. §§ 12181–89, because Cole,
+
+a visually-impaired individual, could not navigate its website. See generally Am. Compl., ECF
+
+No. 12. Defendant did not appear and Cole moved for entry of default. Request for Default,
+
+ECF No. 16. Default was entered, Sep. 23, 2025 Min. Entry, ECF No. 17, and on January 27,
+
+2026, Cole moved for default judgment, see Mot. Default J., ECF No. 25. Although the Court
+
+granted Cole’s motion for default judgment on July 24, 2026, see generally July 24, 2026 Order,
+
+ECF No. 27, the motion contained several hallucinated citations, classic indicators of unverified
+
+artificial intelligence (“AI”) usage, id. at 11–13. The Court identified a case in the Eastern
+
+
+1
+ A more comprehensive discussion of both the underlying facts of this case and the procedural history can be found
+in the Court’s default judgment order. See generally July 24, 2026 Order, ECF No. 27.
+
+                                                        1
+            4:25-cv-04217-SLD-RLH            # 33       Filed: 09/02/26     Page 2 of 11
+
+
+
+
+District of Wisconsin in which Reyes was ordered to show cause for inclusion of the exact same
+
+improper citations in a different motion for default judgment. Id. (discussing Hippe v. Retention
+
+Brands, LLC, No. 25-CV-596, 2026 WL 1802971, at *2–3 (E.D. Wis. June 23, 2026)).
+
+Accordingly, the Court directed Reyes to show cause why he should not be sanctioned by August
+
+7, 2026. Id. Reyes requested an extension of time, indicating that he would be retaining an
+
+attorney before filing a response. Aug. 7, 2026 Status Rep., ECF No. 30. The Court granted
+
+Reyes’s request for an extension of time and directed any requests for attorneys’ fees to be filed
+
+simultaneously. Aug. 10, 2026 Text Order, ECF No. 31 (“Reyes may file his supplemental
+
+response and any request for attorneys’ fees and costs by August 21, 2026.”). Reyes timely filed
+
+his response to the Court’s order to show cause. See generally Resp. He did not submit a
+
+request for attorneys’ fees or costs. Defendant has never appeared.
+
+                                           DISCUSSION
+
+   I.      Legal Standard
+
+        A district court may impose sanctions under Federal Rule of Civil Procedure 11 when a
+
+lawyer “submits frivolous legal arguments—those not warranted by existing law or by a
+
+nonfrivolous argument for extending, modifying, or reversing existing law or for establishing
+
+new law.” Bell v. Vacuforce, LLC, 908 F.3d 1075, 1079 (7th Cir. 2018) (quotation marks
+
+omitted); Fed. R. Civ. P. 11(b). “If, after notice and a reasonable opportunity to respond, the
+
+court determines that Rule 11(b) has been violated, the court may impose an appropriate sanction
+
+on any attorney . . . that violated the rule or is responsible for the violation.” Fed. R. Civ. P.
+
+11(c)(1). “[S]anctions are a collateral matter, which courts generally can resolve after a
+
+judgment is rendered.” Hurston v. Ind. Gaming Co. LLC, No. 23-1099, 2023 WL 8111460, at *3
+
+(7th Cir. Nov. 22, 2023). The appropriateness of imposing Rule 11 sanctions requires “an
+
+
+
+                                                    2
+             4:25-cv-04217-SLD-RLH           # 33       Filed: 09/02/26     Page 3 of 11
+
+
+
+
+objective determination of whether a sanctioned party’s conduct was reasonable under the
+
+circumstances.” Brown v. Fed’n of State Med. Bds. of the U.S., 830 F.2d 1429, 1435 (7th Cir.
+
+1987) (noting that Rule 11 requires attorneys to make “a reasonable inquiry into the law”),
+
+overruled on other grounds by Mars Steel Corp. v. Cont’l Bank N.A., 880 F.2d 928 (7th Cir.
+
+1989). “Good faith is not a defense to the imposition of Rule 11 sanctions.” Ordower v.
+
+Feldman, 826 F.2d 1569, 1574 (7th Cir. 1987).
+
+         A court may issue monetary or nonmonetary sanctions and must ensure that such
+
+sanction is only so great as necessary to “deter repetition of the conduct or comparable conduct
+
+by others similarly situated.” Fed. R. Civ. P. 11(c)(4). Rule 11 “does not attempt to enumerate
+
+the factors” which courts should consider when determining appropriate sanctions. Id. advisory
+
+committee’s note to 1993 amendment. Instead, the advisory committee’s note recognizes that
+
+there are a variety of relevant considerations, including:
+
+         [w]hether the improper conduct was willful, or negligent; whether it was part of a
+         pattern of activity, or an isolated event; whether it infected the entire pleading, or
+         only one particular count or defense; whether the person has engaged in similar
+         conduct in other litigation; whether it was intended to injure; what effect it had on
+         the litigation process in time or expense; whether the responsible person is trained
+         in the law; what amount, given the financial resources of the responsible person,
+         is needed to deter that person from repetition in the same case; [and] what amount
+         is needed to deter similar activity by other litigants.
+
+Id. Courts are “permitted to consider [the party’s] past conduct in fashioning Rule 11 sanctions.”
+
+Vollmer v. Publishers Clearing House, 248 F.3d 698, 710 (7th Cir. 2001).
+
+   II.      Analysis
+
+         In his response to the Court’s order to show cause and his attached declaration, Reyes
+
+“acknowledges” that the motion contained citations which “were inaccurate and should not have
+
+been included without independent verification.” Resp. 2. He states that these citations were
+
+included in his motion because he prepared a template using AI, which inserted those
+
+
+                                                    3
+             4:25-cv-04217-SLD-RLH                  # 33       Filed: 09/02/26          Page 4 of 11
+
+
+
+
+hallucinated citations. Id. Reyes “accepts full responsibility for those errors.” Id. He requests
+
+the Court exercise its discretion to impose no—or at worst, minimal—sanctions, arguing that (1)
+
+he has “accepted full responsibility and implemented meaningful corrective measures,” id. at 5–
+
+7; (2) the show cause order in Hippe was entered months after he filed the motion for default
+
+judgment in this case, id. at 7–8; and (3) if the Court chooses to impose sanctions, it should
+
+follow the Seventh Circuit’s reasoning in Dec v. Mullin, 171 F.4th 940 (7th Cir. 2026), and only
+
+impose minimal ones, id. at 8–9.
+
+         Reyes’s citation to non-existent cases and misrepresentation of others is not objectively
+
+reasonable, and thus merits sanctions. Despite the relatively new nature of and the unique
+
+challenges presented by AI, district courts across the Seventh Circuit have consistently and
+
+frequently held that the inclusion of even a few hallucinated or mischaracterized cases in filings
+
+violates Rule 11. See, e.g., Allen v. Casper, No. 25 C 10438, 2026 WL 674309, at *10 (N.D. Ill.
+
+Mar. 10, 2026); Maldonado v. Pro. Animal Ret. Ctr., No. 1:25-CV-454-HAB-ALT, 2026 WL
+
+925530, at *8 (N.D. Ind. Apr. 1, 2026); Virgil v. Experian Info. Sols. Inc., No. 1:25-cv-01641-
+
+MPB-MJD, 2026 WL 401066, at *3–5 (S.D. Ind. Feb. 12, 2026). Under a few different
+
+disciplinary vehicles, the Seventh Circuit has also repeatedly found such conduct to be worthy of
+
+sanction. See, e.g., Dec, 2 171 F.4th at 947–48 (proceeding under Federal Rule of Appellate
+
+Procedure 38); Perez-Castillo v. Blanche, 177 F.4th 837, 846–48 (7th Cir. 2026) (proceeding
+
+under Federal Rules of Appellate Procedure 28 and 46); D’Ambrosio v. Meta Platforms, Inc.,
+
+
+2
+ Although the Seventh Circuit found it plausible that counsel in Dec did not actually use AI, the opinion discusses
+the dangers of filings containing hallucinated cases, which are only heightened by the proliferation of AI, and
+emphasizes that the court’s “concern lies with trained lawyers failing to check the accuracy of legal citations and
+quotations in their filings.” Dec, 171 F.4th at 947. Moreover, the Seventh Circuit has since cited Dec as a case
+about improper AI usage. See, e.g., Perez-Castillo v. Blanche, 177 F.4th 837, 847 (7th Cir. 2026) (citing Dec as a
+“case involving the misuse of AI” which did not merit sanctions); D’Ambrosio v. Meta Platforms, Inc., 176 F.4th
+928, 941–42 (7th Cir. 2026) (discussing suspected AI usage in a brief and citing Dec to support the assertion that
+“[s]ubmitting fictitious quotations to a court, regardless of how they are generated, is obviously inconsistent with the
+standards of conduct this court expects from attorneys”).
+
+                                                           4
+            4:25-cv-04217-SLD-RLH           # 33       Filed: 09/02/26      Page 5 of 11
+
+
+
+
+176 F.4th 928, 941–42, 945 (7th Cir. 2026) (proceeding under Federal Rules of Appellate
+
+Procedure 38 and 46 and 28 U.S.C. §§ 1912, 1927).
+
+       When determining the appropriate sanction for citation errors bearing hallmark signs of
+
+AI usage, courts consider: (1) the frequency of the errors; (2) whether the citations supported
+
+legal standards or advanced party arguments; (3) whether counsel apologizes and takes
+
+accountability; (4) any remedies counsel outlines to prevent similar errors in the future; (5) any
+
+relevant prior conduct; and (6) future deterrence. Dec, 171 F.4th at 947–48; see also Perez-
+
+Castillo, 177 F.4th at 846–49; Mid. Cent. Operating Eng’rs Health & Welfare Fund v.
+
+HoosierVac LLC, No. 2:24-cv-00326-JPH-MJD, 2025 WL 1511211, at *1–2 (S.D. Ind. May 28,
+
+2025). When courts find counsel’s contrition persuasive and the errors are minor, they tend to
+
+issue nonmonetary sanctions, see, e.g., Dec, 171 F.4th at 947–48 (admonishing counsel for
+
+including AI-hallucinated citations and quotations but declining to impose any additional
+
+consequences), or forego sanctions altogether, Hippe v. Retention Brands, LLC, No. 25-cv-596,
+
+2026 WL 2043246, at *1 (E.D. Wis. July 15, 2026) (finding that Reyes’s decision to withdraw
+
+any request for attorneys’ fees constituted sufficient consequences). However, when courts are
+
+not so persuaded, there is evidence of prior improper conduct, or the errors are significant, courts
+
+have instead imposed monetary sanctions. See, e.g., Perez-Castillo, 177 F.4th at 848–49
+
+(imposing a $5,000 sanction on one attorney who submitted a brief containing various AI
+
+hallucinations and, after being ordered to fix all citation errors, re-entered the brief with several
+
+of the same hallucinated quotations, and referring the other, who admitted to preparing both
+
+versions of the brief with assistance from ChatGPT and without further cite checking but
+
+expressed great remorse, to the state attorney disciplinary authorities); Mid Cent. Operating,
+
+2025 WL 1511211, at *2 (imposing a $6,000 sanction on an attorney because he filed three
+
+
+
+                                                   5
+           4:25-cv-04217-SLD-RLH            # 33       Filed: 09/02/26     Page 6 of 11
+
+
+
+
+separate briefs containing non-existent AI-generated citations and “the penalties imposed on
+
+other attorneys for similar misconduct have evidently failed to act as a deterrent” (quotation
+
+marks omitted)).
+
+       In this case, significant and monetary sanctions are appropriate not because the citation
+
+errors themselves were particularly egregious—the motion included just four citation errors, see
+
+July 24, 2026 Order 11 (discussing Mot. Default J. 4–6), and although the citations advanced
+
+Cole’s argument, each of the arguments they supported are generally accepted, see Mot. Default
+
+J. 4–6—but because of the context in which Reyes engaged in this conduct. It is true that Reyes
+
+takes full responsibility for the citation errors and does not attempt to minimize the severity of
+
+these errors. See generally Resp. In fact, Reyes’s response to the order to show cause is, at first
+
+review, quite compelling. He admits that he “conducted legal research and relied in part on prior
+
+work product developed with the help of AI in similar ADA Title III matters, as a drafting aid
+
+and template,” and “recognizes that while AI and templates may serve as drafting aids, the same
+
+can never substitute for independently locating, reviewing, and verifying every authority cited in
+
+a pleading.” Id. at 3. He further emphasizes that these errors were not committed knowingly but
+
+acknowledges “that the absence of such intent does not excuse the failure to independently verify
+
+the authorities before filing.” Id. at 4. He also identifies several preventative measures that he is
+
+already taking to ensure such errors do not occur in the future. Id. at 4, 6–7.
+
+       Reyes’s contrition unravels, however, upon closer examination. This is at least the third
+
+case in which he has filed briefings with AI hallucinations. In October 2025, he filed a nearly
+
+identical motion for default judgment in Hippe which included the same faulty citations. See
+
+Mot. Default J., Hippe, No. 25-cv-596, ECF No. 11. An order to show cause was not entered in
+
+that case until June 23, 2026. See generally Hippe, 2026 WL 1802971.
+
+
+
+                                                   6
+             4:25-cv-04217-SLD-RLH                 # 33        Filed: 09/02/26          Page 7 of 11
+
+
+
+
+         In December 2025, in Northern District of Illinois case Pittman v. Hazel & Olive, Inc.,
+
+1:25-cv-07791, 3 Reyes filed a response opposing a motion to dismiss. See Resp. Mot. Dismiss,
+
+Pittman, 1:25-cv-07791, ECF No. 32. The defendant promptly filed a motion to strike the
+
+response due to citations of fake cases. Mot. Strike Resp., Pittman, 1:25-cv-07791, ECF No. 35.
+
+On January 14, 2026, the court found that Reyes’s response contained at least two hallucinated
+
+cases. Jan. 14, 2026 Min. Entry, Pittman, 1:25-cv-07791, ECF No. 37. It struck the response,
+
+directed him to file an additional response addressing these hallucinations, and deferred
+
+imposition of any sanctions until receipt of his response and any reply from Defendant. Id. On
+
+January 20, 2026, Reyes filed his response, admitting that the hallucinated citations resulted from
+
+AI usage and insufficient cite checking. Resp. Mot. Strike 1–2, Pittman, 1:25-cv-07791, ECF
+
+No. 38. Reyes stated that he had “implemented corrective measures to prevent a recurrence” and
+
+indicated that all citations and quotations would be “independently verified” prior to inclusion in
+
+court filings. Id. at 2. Just seven days later, on January 27, 2026, Reyes filed the motion for
+
+default judgment in this case that contained multiple AI-hallucinated cases. See generally Mot.
+
+Default J.
+
+         So, while Reyes is correct that the order to show cause had not been entered in Hippe
+
+when he filed the motion for default judgment in this case, Resp. 7–8, by that time, one of his
+
+filings had already been stricken for inappropriate AI usage, he had already identified that the
+
+inclusion of hallucinated cases in his work is concerning and inappropriate, and he had already
+
+claimed to have immediately implemented multiple corrective measures to prevent such future
+
+errors. That Reyes again submitted a filing with AI hallucinations and other citation errors just a
+
+
+
+3
+  Although the Court did not identify Reyes’s prior conduct in Pittman in its order to show cause, Reyes relies upon
+it in his response and argues it is a basis for issuing lesser sanctions. As such, he put it directly at issue for the
+Court’s consideration.
+
+                                                           7
+             4:25-cv-04217-SLD-RLH          # 33       Filed: 09/02/26    Page 8 of 11
+
+
+
+
+week after telling another court that he was “embarrassed that this occurred,” and that “[g]oing
+
+forward, no citation or quotation will be included in any filing unless it has been independently
+
+verified against the underlying opinion in Westlaw or Lexis prior to submission,” Resp. Mot.
+
+Strike 2, Pittman, 1:25-cv-07791, ECF No. 38, raises serious questions about the sincerity of his
+
+supposed contrition in this case and the efficacy of any preventative measures he says he will
+
+implement.
+
+       In his response to this Court’s show cause order, Reyes merely provides slightly more
+
+details about the corrective measures he informed the Pittman court that he began implementing
+
+on January 20, 2026. Compare Resp. 6 (noting implementation of “enhanced citation-
+
+verification procedures designed to ensure that every legal authority contained in future
+
+pleadings is independently located, reviewed, and verified before submission to any court,”
+
+including a final citation review prior to filing any briefings), with Resp. Mot. Strike 2, Pittman,
+
+1:25-cv-07791, ECF No. 38 (“Going forward, no citation or quotation will be included in any
+
+filing unless it has been independently verified against the underlying opinion in Westlaw or
+
+Lexis prior to submission.”). The Court recognizes that there are few corrective measures
+
+available to remedy the inclusion of hallucinated cases in filings—the simplest solution being to
+
+cite check one’s work prior to filing. Reyes either disingenuously represented to the Pittman
+
+court that he had implemented corrective measures to ensure independent verification of all
+
+citations and quotations or those measures were implemented in an entirely ineffective manner,
+
+as demonstrated by the nearly immediate repetition of the problematic conduct. The Court is not
+
+inclined to rely upon Reyes’s promise when it has clearly, for whatever reason, failed in the past.
+
+Reyes also attempts to present his cooperation with an ongoing ARDC investigation and
+
+retaining counsel as further corrective measures, see Resp. 4, 6–7, but he does not provide, nor
+
+
+
+                                                   8
+           4:25-cv-04217-SLD-RLH           # 33       Filed: 09/02/26     Page 9 of 11
+
+
+
+
+does the Court discern, any connection between these actions and taking the basic cite checking
+
+measures required to ensure that filings do not contain hallucinations. As such, the Court is
+
+utterly unconvinced by Reyes’s apology, accountability, and proposed corrective measures.
+
+       Reyes has prior instances of comparable improper behavior. Although the Hippe show
+
+cause order had not yet been entered, it is clear that, at best, Reyes failed at implementing the
+
+corrective measures he told the Pittman court he would make when he entered a motion for
+
+default judgment before this Court that was nearly identical to that in Hippe, down to the
+
+hallucinations. Compare Mot. Default J., with Mot. Default J., Hippe, 2:25-cv-00596-LA, ECF
+
+No. 11. And it is likewise clear that deterrence of future conduct by both Reyes and others is a
+
+significant concern. Fed. R. Civ. P. 11(c)(4). Reyes’s sanctions thus far have been relatively
+
+lenient. See Jan. 14, 2026 Min. Entry, Pittman, 1:25-cv-07791, ECF No. 3 (striking Reyes’s
+
+motion); Mar. 19, 2026 Order, Pittman, 1:25-cv-07791, ECF No. 49 (ordering Reyes to report
+
+the incident to the ARDC for investigation, pay the defendant’s attorneys’ fees and costs, and
+
+dismissing the case with prejudice); July 15, 2026 Order, Hippe, 2:25-cv-00596-LA, ECF No. 16
+
+(deciding against imposing sanctions because he withdrew any requested attorneys’ fees).
+
+Moreover, that these AI hallucinations continue to appear in filings indicates a need for greater
+
+deterrence at large, not just for Reyes. See, e.g., Davis v. Marion Cnty. Superior Ct. Juv. Det.
+
+Ctr., No. 1:24-cv-01918-JRO-MJD, 2026 WL 1408448, at *5 (S.D. Ind. May 20, 2026)
+
+(“Monetary sanctions are appropriate to deter similar detachment [which fake citations represent]
+
+in others and encourage a renewed commitment to the duties of candor and diligence in an age of
+
+advancing technology.”); Virgil v. Experian Info. Sols. Inc., No. 1:25-cv-01641-MPB-MJD, 2026
+
+WL 401066, at *5 (S.D. Ind. Feb. 12, 2026) (referring counsel for disciplinary proceedings and
+
+
+
+
+                                                  9
+           4:25-cv-04217-SLD-RLH           # 33        Filed: 09/02/26     Page 10 of 11
+
+
+
+
+recommending a $10,000 sanction because “it is clear that the imposition of modest sanctions
+
+has failed to act as a deterrent”).
+
+        Therefore, the Court finds it appropriate to impose a monetary sanction of $1,000 and to
+
+require Reyes to send a copy of this order to the Illinois ARDC. The monetary sanction of
+
+$1,000 is sufficient but no greater than necessary to “deter repetition of the conduct or
+
+comparable conduct by others similarly situated.” Fed. R. Civ. P. 11(c)(4). A $1,000 sanction,
+
+while not insignificant, is modest relative to other recent sanctions for similar citation errors.
+
+See, e.g., Mid. Cent. Operating, 2025 WL 1511211, at *1–2 (imposing a $6,000 sanction upon
+
+counsel who filed “briefs containing non-existent AI-generated legal citations on three separate
+
+occasions and the penalties imposed on other attorneys for similar misconduct have evidently
+
+failed to act as a deterrent” (quotation marks omitted)); Allen, 2026 WL 674309, at *10
+
+(imposing a $1,500 sanction upon a pro se litigant whose filing included at least two hallucinated
+
+cases and false statements of law); Davis, 2026 WL 1408448, at *6 (imposing a $2,000 sanction
+
+upon counsel who filed one brief containing two hallucinated citations); Perez-Castillo, 177
+
+F.4th at 847–48 (imposing a $5,000 sanction under Federal Rule of Appellate Procedure 46 upon
+
+counsel who filed a brief containing several AI hallucinations and, after being put on notice of
+
+the deficiencies, resubmitted the brief with at least two of the prior hallucinated quotations still
+
+included). However, the Court finds it appropriate given the circumstances of this case. The
+
+Court is unconvinced by Reyes’s apology and proposed corrective measures; finds that his
+
+relevant prior conduct supports and deterrence is served by a monetary sanction; and finds that
+
+the purpose of the improper citations in advancing party arguments cancels out the mitigating
+
+nature of the relatively small number of citation errors. Nevertheless, the Court recognizes that
+
+
+
+
+                                                  10
+          4:25-cv-04217-SLD-RLH           # 33        Filed: 09/02/26    Page 11 of 11
+
+
+
+
+the only consequence Reyes had suffered by the time he filed the motion for default judgment in
+
+this case was a stricken motion.
+
+                                         CONCLUSION
+
+       Accordingly, Attorney David Baldemar Reyes is ORDERED to pay a fine of $1,000 to the
+
+Clerk of Court within sixty days and send a copy of this order to the Illinois Attorney Registration
+
+and Disciplinary Commission. Reyes must also file a status report with the Court within sixty
+
+days, updating the Court on the status of his compliance with this order. Because no request for
+
+attorneys’ fees and costs has been timely made, the Court declines to award any.
+
+       Entered this 2nd day of September, 2026.
+
+                                                                 s/ Sara Darrow
+                                                               SARA DARROW
+                                                        UNITED STATES DISTRICT JUDGE
+
+
+
+
+                                                 11
+
