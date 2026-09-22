@@ -1,0 +1,792 @@
+AustLII
+Federal Circuit and Family Court of Australia - Division 2 General Federal Law
+Dey v Minister for Immigration and Citizenship (No 2) [2026] FedCFamC2G 1799 (14 September 2026)
+
+Last Updated: 14 September 2026
+
+                              FEDERAL CIRCUIT AND FAMILY COURT OF AUSTRALIA
+
+                                                     (DIVISION 2)
+
+
+                    Dey v Minister for Immigration and Citizenship (No 2) [2026] FedCFamC2G 1799
+
+     File number(s):                         MLG 1637 of 2020
+
+
+
+
+     Judgment of:                            JUDGE BINGHAM
+
+
+
+
+     Date of judgment:                       14 September 2026
+
+
+
+
+     Catchwords:                             MIGRATION– costs – whether costs should be awarded against Mr Gurdial Sin
+                                             Ranjit Singh, sole practitioner of Quantum Consulting: Quantum Legal Advisory
+                                             Migration Consultants Pty Ltd of Suite 1.06, Level 1/365 Little Collins St,
+                                             Melbourne VIC 3000 – where the lawyer failed to disclose that he had drafted a
+                                             settled an application on behalf of the applicant – where the lawyer acted ‘in the
+                                             shadows’ – where his failure to disclose his involvement resulted in the
+                                             adjournment of the matter – where he failed to attend court in relation to the
+                                             question of costs resulting in a further adjournment – breach of the lawyer’s dut
+                                             to the Court – costs ordered personally against practitioner
+
+
+
+
+                                             PRACTICE AND PROCEDURE – inappropriate use of generative artificial
+                                             intelligence in the preparation of submissions by Mr Gurdial Singh Ranjit Singh
+                                             where the Court was required to check the citations provided – where citations
+                                             were either AI hallucinations or did not support the proposition for which they
+                                             were cited – breach of duty to the Court – consideration of the appropriate
+                                             sanction for a lawyer’s improper use of generative artificial intelligence
+
+
+
+
+     Legislation:                            Federal Circuit and Family Court of Australia Act 2021 (Cth) ss 190; 191(1)
+                                             Migration Act 1958 (Cth) ss 486F; 486I
+                                             Legal Profession Uniform Application Act 2014 (Vic) s 174
+                                             Legal Profession Uniform Law Australian Solicitors’ Conduct Rules 2015
+                                             Federal Circuit and Family Court of Australia (Division 2) (General Federal Law)
+                                             Rules 2021 (Cth) rr 1.06(2); 22.06
+                                             Federal Circuit and Family Court of Australia (Division 2) (General Federal Law)
+                                             Rules 2025 (Cth) rr 2.10(b); 32.05
+                                             Federal Court Rules 2011 (Cth) r 2.16
+Cases cited:                          Dayal [2024] FedCFamC2F 1166
+                                      IZT24 v Minister for Immigration and Citizenship [2026] FedCFamC2G 740
+                                      JNE24 v Minister for Immigration and Citizenship [2025] FedCFamC2G 1314
+                                      Mertz & Mertz (No 3) [2025] FedCFamC1A 222
+                                      Mitry Lawyers v Barden [2014] FCA 918
+                                      Murray on behalf the Wamba Wemba Native Title Claim Group v State of Victor
+                                      [2025] FCA 731
+                                      Myron & Milson [2020] FamCAFC 151
+                                      Pasuengos v Minister for Immigrations and Citizenship No2 [2026] FedCFamC2
+                                      96
+                                      Sandison & Thornhill (No 3) [2023] FedCFamCF1 981
+                                      SZFDZ v Minister for Immigration and Multicultural Affairs [2006] FCA 1366
+                                      Tesar & Szep (No.3) [2026] FedCFamC1F 21
+                                      Valu v Minister for Immigration and Multicultural Affairs (No 2) [2025]
+                                      FedCFamC2G 95
+
+
+
+
+Division:                             Division 2 General Federal Law
+
+
+
+
+Number of paragraphs:                 84
+
+
+
+
+Date of hearing:                      5 May 2026
+
+
+
+
+Place:                                Melbourne
+
+
+
+
+Applicant:                            Appearing in person
+
+
+
+
+Solicitor for the Respondents:        HWLE Lawyers
+
+
+
+
+Counsel for Mr Gurdial Singh Ranjit   Mr White
+Singh:
+
+
+
+
+                                                 ORDERS
+
+                                                                                                       MLG 1637 of 20
+
+
+FEDERAL CIRCUIT AND FAMILY COURT OF AUSTRALIA (DIVISION 2)
+BETWEEN:                                   RUPANTAR DEY
+
+
+                                           Applicant
+     AND:                                               MINISTER FOR IMMIGRATION AND CITIZENSHIP
+
+                                                        First Respondent
+
+
+
+
+                                                        ADMINISTRATIVE REVIEW TRIBUNAL
+
+
+                                                        Second Respondent
+
+     ORDER MADE BY:                     JUDGE BINGHAM
+     DATE OF ORDER:                     14 SEPTEMBER 2026
+
+
+
+
+THE COURT ORDERS THAT:
+
+1. Mr Dey pay the Minister’s costs fixed in the amount of $6,700.00.
+2. Mr Gurdial Singh Ranjit Singh pay the Minister’s costs fixed in the amount of $9,600.00.
+3. Order 5 of the Orders of Registrar Roberts dated 26 June 2026 be vacated.
+
+     Note: The form of the order is subject to the entry in the Court’s records.
+
+
+
+
+     Note: The Court may vary or set aside a judgment or order to remedy minor typographical or grammatical errors (r
+     24.04(g) Federal Circuit and Family Court of Australia (Division 2) (General Federal Law) Rules 2025 (Cth)), or to record
+     a variation to the order pursuant to r 24.04 Federal Circuit and Family Court of Australia (Division 2) (General Federal
+     Law) Rules 2025 (Cth).
+
+
+
+
+                                                   REASONS FOR JUDGMENT
+
+JUDGE BINGHAM:
+
+1. This matter concerns an application by the First Respondent (Minister) for costs, including costs against a lawyer, Mr
+Gurdial Singh Ranjit Singh, following my decision in Dey v Minister for Immigration and Citizenship [2026] FedCFamC2G 373
+(Judicial Review Decision) dismissing Mr Dey’s judicial review application.
+2. In addition to the issue of costs, it involves the consideration of sanctions to be imposed on Mr Gurdial Singh Ranjit Singh
+for the inappropriate use of generative artificial intelligence (generative AI) in the preparation of documents filed in the judicial
+review proceedings and in the cost proceedings that followed.
+3. The Minister seeks orders:
+
+       (a) vacating the cost order of Registrar Roberts made 26 June 2025;
+       (b) for costs thrown away by reason of the adjournment of the final hearing on 30 October 2025 fixed in the
+       amount of $3,500.00 to be paid by Mr Gurdial Singh Ranjit Singh;
+
+       (c) for costs in relation to the determination of the application for costs fixed in the amount of $3,500.00 to be
+       paid by Mr Gurdial Singh Ranjit Singh; and
+
+       (d) for costs otherwise incurred with respect to Mr Dey’s judicial review proceeding:
+
+               (i) fixed in the amount of $6,700.00 to be paid by Mr Dey;
+               (ii) fixed in the amount of $2,600.00 to be paid by Mr Gurdial Singh Ranjit Singh.
+4. Mr Dey agrees with the Minister’s proposed apportionment of costs between him and Mr Gurdial Singh Ranjit Singh.
+5. Mr Gurdial Singh Ranjit Singh opposes the cost orders sought by the Minister against him personally. He concedes that the
+Minister incurred costs in relation to the determination of the application for costs because of his inappropriate use of
+generative AI in the preparation of submissions filed in this Court on 1 March 2026 and withdrawn on 5 May 2026, but any
+costs order made against him in this regard should be fixed in the amount of $1,500.00.
+
+
+HOW IS MR GURDIAL SINGH RANJIT SINGH INVOLVED IN THESE PROCEEDINGS?
+
+6. Mr Gurdial Singh Ranjit Singh is the Principal Solicitor and Director of Quantum Legal Advisory & Migration Consultants Pty
+Ltd. He is a sole practitioner who practises primarily in migration law and attests to being a specialist in the area. He was
+admitted as a solicitor in 2003.
+7. In or around June 2025, Mr Dey was referred to Mr Gurdial Singh Ranjit Singh by the director of Aussizz, a migration
+agency in which Mr Gurdial Singh Ranjit Singh had previously worked as an in-house solicitor. Mr Gurdial Singh Ranjit Singh
+claims that Mr Dey paid $250.00 for the initial consultation.
+8. Mr Gurdial Singh Ranjit Singh says that he met with Mr Dey on 26 June 2025 and that at that meeting he agreed to assist
+Mr Dey with his judicial review application by drafting an amended application for judicial review, drafting a written submission
+and settling an affidavit. Mr Gurdial Singh Ranjit Singh says he told Mr Dey that he would charge him $3,500.00 inclusive of
+GST and met with Mr Dey in person on three occasions and otherwise spoke with him by telephone or communicated via
+WhatsApp. He also said that he told Mr Dey at their first meeting that he would not be acting as Mr Dey’s solicitor on the
+record and that he would not be filing a notice of address for service in Mr Dey’s judicial review proceeding and would not be
+appearing at the hearing unless a separate retainer was entered into and a hearing fee paid.
+9. There was no retainer in writing. Mr Gurdial Singh Ranjit Singh did not make contemporaneous file notes of his discussions
+with Mr Dey, nor did he record the terms upon which Mr Dey retained him.
+10. Mr Dey described the arrangement he had with Mr Gurdial Singh Ranjit Singh as “pay as you go”. He agrees that he
+engaged Mr Gurdial Singh Ranjit Singh to prepare and settle documents for his judicial review application. Mr Dey said that he
+paid for his initial consultation with Mr Gurdial Singh Ranjit Singh when he met with him. Mr Dey received an invoice for the
+preparation and settling of documents from Mr Gurdial Singh Ranjit Singh for $2,200.00 including GST, which he also paid. Mr
+Dey says that he paid Mr Gurdial Singh Ranjit Singh through PayID. Mr Dey denies that Mr Gurdial Singh Ranjit Singh told him
+that the estimate legal fees for the legal work to be performed on his behalf was $3,500.00 including GST. He gave evidence
+that he did not know why Mr Gurdial Singh Ranjit Singh was seeking an additional $1,300.00 from him as he had paid for the
+work that Mr Gurdial Singh Ranjit Singh had undertaken on his behalf. He also said that Mr Gurdial Singh Ranjit Singh “did not
+directly or indirectly say that he would not file a notice of address for service”. Mr Dey denies that there were any discussions
+about a separate retainer for an appearance in Court.
+11. The affidavit of Mr Dey and the amended thirteen ground application and submission prepared by Mr Gurdial Singh Ranjit
+Singh were provided to the Court on 24 July 2025. Each of those documents represented to the Court that they were prepared
+by Mr Dey. Another amended application setting out three grounds of review was provided to the Court on 26 July 2025. It also
+represented to the Court that Mr Dey had prepared it. Mr Dey relied upon the three ground amended application, the
+submissions and affidavit at the judicial review hearing. Each of these documents were accepted for filing on 2 March 2026.
+The submission relied upon by Mr Dey correspond with the grounds set out in three ground amended application. I am
+prepared to infer that Mr Gurdial Singh Ranjit Singh also prepared the three ground amended application as it corresponded to
+the written submissions authored by Mr Gurdial Singh Ranjit Singh.
+12. On 24 September 2025, Mr Gurdial Singh Ranjit Singh and Mr Dey conversed via WhatsApp. Mr Gurdial Singh Ranjit
+Singh inquired of Mr Dey whether there was “any update from the fccfoa (sic)” and promising to “...call back after 530pm”.
+13. Mr Dey’s judicial review application was listed for final hearing on 30 October 2025. From the Monday prior to the
+scheduled hearing Mr Dey was desperately trying to speak with Mr Gurdial Singh Ranjit Singh without success. On 29 October
+2025 a nine minute telephone conversation between Mr Gurdial Singh Ranjit Singh and Mr Dey took place. During the course
+of that conversation Mr Gurdial Singh Ranjit Singh provided advice to Mr Dey regarding the content of an email to the Court
+requesting an adjournment. This email was subsequently settled by Mr Gurdial Singh Ranjit Singh. The Minister opposed the
+application for adjournment and consequently Mr Dey’s judicial review application remained listed for final hearing on 30
+October 2025. Mr Gurdial Singh Ranjit Singh then advised Mr Dey regarding the content of a second email requesting an
+adjournment. The application for adjournment was again opposed and refused.
+14. From approximately 3.12pm on 29 October to the morning of 30 October 2025, Mr Dey attempted contact Mr Gurdial Singh
+Ranjit Singh on no less than 12 occasions without a response. Mr Dey gave evidence that he held the genuine belief that Mr
+Gurdial Singh Ranjit Singh would either represent him at the final hearing or at the very least help him prepare so that he could
+appear himself.
+15. Mr Gurdial Singh Ranjit Singh says that his retainer with Mr Dey ended upon him drawing and settling an amended
+application and submission and settling Mr Dey’s affidavit. He describes his interactions with Mr Dey after this point as
+“voluntary assistance” where no legal advice was given, including, he says, in settling Mr Dey’s correspondence to the Court
+requesting an adjournment.
+16. On 30 October 2025 Mr Dey appeared before me and revived his application for an adjournment. The basis for the
+adjournment, Mr Dey submitted, was that Mr Gurdial Singh Ranjit Singh, being the lawyer that he had engaged, had not
+responded to his telephone calls and text messages and was not present to represent him. Mr Dey produced a number of
+documents which indicated that he had engaged and paid Mr Singh as his legal representative.
+17. The documents relied upon by Mr Dey included:
+
+       (a) emails of 24 July 2025 from Mr Gurdial Singh Ranjit Singh to Mr Dey:
+
+                (i) seeking payment of legal fees in the amount of $2,000.00 associated with the preparation of an
+                “Amended Application, research and redrafting” and “Amending and additional review of supporting
+                affidavit”;
+                (ii) providing a Word version of an affidavit of Mr Dey directing him to sign “at the bottom of each
+                page of the affidavit, where provided, and the last page and email it back to me clearly scanned.
+                No phone scan please.”; and
+
+                (iii) providing the text for an email to the Court attaching the Amended Application and supporting
+                affidavit.
+
+       (b) copies of text messages from a person described as “Gurdial Singh Ranjit Lawyer” between 24 September
+       2025 and 30 October 2025 requesting an update from the FCFCOA.
+
+       (c) WhatsApp messages in which Mr Dey sought advice regarding what should be written in emails to the court
+       for seeking the adjournment of the 30 October hearing.
+
+18. I adjourned the judicial review hearing to 20 January 2026 and made orders including requiring Mr Gurdial Singh Ranjit
+Singh to file a notice of address for service in the matter and for the Minister to serve any submissions on costs against the
+lawyer occasioned by the adjournment on Mr Gurdial Singh Ranjit Singh. The issue of the costs of the adjournment of the 30
+October 2025 hearing was reserved until final hearing.
+19. Mr Gurdial Singh Ranjit Singh did not file a notice of address for service. He said he did not do so on advice from an ethics
+advisor from the Law Institute of Victoria. Mr Gurdial Singh Ranjit Singh has never appeared on the record as the lawyer for Mr
+Dey.
+20. From 4 November 2025 the filing of a notice of address for service became a moot point as Mr Dey informed the Court
+that he did not wish to be represented or take “any legal services and advice” from Mr Gurdial Singh Ranjit Singh.
+21. Mr Gurdial Singh Ranjit Singh’s involvement in these proceedings did not end with Mr Dey severing the solicitor-client
+relationship.
+22. The final hearing listed on 20 January 2026 of Mr Dey’s judicial review application was again adjourned on Mr Dey’s
+application, on this occasion on medical grounds. Mr Dey was ordered to pay the Minister’s cost thrown away on this occasion
+in the amount of $1,000.00. Mr Gurdial Singh Ranjit Singh did not appear on 20 January 2026 despite the issue of costs
+against him personally. The final judicial review hearing together with the Minister’s application for costs against Mr Gurdial
+Singh Ranjit Singh was relisted before the Court on 2 March 2026.
+23. On 1 March 2026, Mr Gurdial Singh Ranjit Singh filed with this Court a submission and affidavit directed to the issue of
+making a costs order against him personally. These documents purported to answer the affidavit and submission filed by the
+Minister on 19 November 2025. The Court identified that generative AI had been used in the preparation of these submissions
+(First Costs Submission). The First Cost Submission contained authorities that were hallucinations or were not an authority
+for the proposition asserted. Upon fact checking the submissions filed in Mr Dey’s judicial review proceedings it also became
+apparent that generative AI was also used in the preparation of the judicial review submission. This submission also contained
+many authorities that were hallucinations or were not an authority for the proposition asserted. It was not until the
+commencement of the hearing on costs on 5 May 2026 did Mr Gurdial Singh Ranjit Singh inform the Court through his
+Counsel that he no longer relied on the First Cost Submissions.
+24. At 1.46pm on 2 March 2026 less than a half hour prior to the commencement of the judicial review and cost hearing, the
+Court received an email from Mr Gurdial Singh Ranjit Singh attaching a medical certificate in the following terms:
+
+               Mr Gurdial Singh Ranjit Singh has a medical condition and will be unfit for work from 02/03/2026 to
+               03/03 2026 inclusive.
+
+25. The certificate does not disclose the nature of the medical condition or that Mr Gurdial Singh Ranjit Singh was unable to
+appear in court. No application was made to attend remotely. It appears that no attempt was made to engage Counsel to
+appear on Mr Gurdial Singh Ranjit Singh’s behalf on that occasion.
+26. The final judicial review hearing proceeded in Mr Gurdial Singh Ranjit Singh’s absence on 2 March 2026. I reserved my
+judgment at the conclusion of the hearing.
+27. I pronounced my judgment on Mr Dey’s judicial review application on 16 March 2026 dismissing the judicial review
+application. Mr Gurdial Singh Ranjit Singh was notified of the listing for the delivery of judgment and did not attend Court that
+day. It is his evidence he notified the Minister that he did not intend to appear on the morning of 16 March 2026. Mr Gurdial
+Singh Ranjit Singh reason for not attending Court that day was that he was getting ready to depart for Malaysia to visit his
+mother-in-law and attend Eid. In light of the identification of the inappropriate use of generative AI, the issue of costs in the
+judicial review proceedings was deferred until 5 May 2026.
+28. On 16 March 2026 orders were made requiring Mr Gurdial Singh Ranjit Singh to file any affidavit material and submissions
+upon which he sought to rely with respect to the use of generative AI by 4.00pm on 30 March 2026, and with respect to costs
+by 4.00pm on 3 April 2026. Mr Gurdial Singh Ranjit Singh filed affidavits and submissions in purported compliance with these
+orders. At the hearing two further written submissions were filed, one on costs and one on the use of generative AI. An
+additional affidavit of Mr Gurdial Singh Ranjit Singh was also filed. It was not until the hearing commenced that the Minister, Mr
+Dey, and the Court were apprised of the material upon which Mr Gurdial Singh Ranjit Singh would rely, namely:
+
+       (a) Outline of submissions dealing with the use of artificial intelligence accepted for filing on 30 April 2026;
+       (b) ‘Supplementary Written Submissions of Mr Singh on Regulatory Consequences’ filed 4 May 2026;
+
+       (c) ‘Outline of Submissions of Mr Singh on Costs’ filed 4 May 2026;
+
+       (d) an affidavit of Mr Gurdial Singh Ranjit Singh emailed to Chambers but not filed on 1 March 2026;
+
+       (e) an affidavit of Mr Gurdial Singh Ranjit Singh filed 21 April 2026; and
+
+       (f) an affidavit of Mr Gurdial Singh Ranjit Singh filed 4 May 2026.
+
+29. Counsel appeared instructed by Mr Gurdial Singh Ranjit Singh at the hearing on 5 May 2026. Mr Dey appeared as a
+litigant in person. The Minister appeared by a solicitor advocate. Both Mr Gurdial Singh Ranjit Singh and Mr Dey gave oral
+evidence at the hearing and were cross examined.
+30. Neither Mr Dey, nor the solicitor representing the Minister objected to the material filed on 4 May 2026, despite being filed
+only late afternoon the day prior to the hearing on costs.
+31. The Minister relied upon the following documents:
+
+       (a) Outline of submissions on costs filed 19 November 2025 (The Minister’s 2025 Submissions);
+       (b) Outline of further submissions on costs filed on 17 April 2026 (The Minister’s 2026 Submissions); and
+
+       (c) An affidavit of Emma Rogerson filed on 17 April 2026.
+
+Duties of a legal practitioner
+
+32. The fundamental duties of a solicitor in Victoria between 1 July 2015 and 30 June 2026 were governed by the Legal
+Profession Uniform Law Australian Solicitors’ Conduct Rules 2015 (Uniform Legal Professional Rules). Rule 3.1 provides:
+
+               A solicitors’ duty to the court and the administration of justice is paramount and prevails to the
+               extent of inconsistency with any other duty
+
+33. In addition to the paramount duty the following duties apply among others:
+
+       (a) A solicitor must not deceive or knowingly or recklessly mislead the court (Rule 19.1);
+       (b) A solicitor must take all necessary steps to correct any misleading statement made by the solicitor to a court
+       as soon as possible after the solicitor becomes aware that the statement is misleading (Rule 19.2);
+
+       (c) A solicitor must take care to ensure solicitor’s advice to invoke the coercive powers of a court is reasonably
+       justified by the material available (Rule 21.1.1); and
+
+       (d) A solicitor must not allege any matter of fact in any court document settled by the solicitor unless the solicitor
+       believes on reasonable grounds that the factual material already available provides a proper basis to do so (Rule
+       21.3.1).
+
+34. The Court also imposes duties upon legal practitioners by operation of the rules that are in place at any one time. These
+proceedings traverse two iterations of the applicable Court’s rules, being both the Federal Circuit and Family Court of Australia
+(Division 2) (General Federal Law) Rules 2021 (Cth) (GFL Rules 2021) and the Federal Circuit and Family Court of Australia
+(Division 2) (General Federal Law) Rules 2025 (Cth) (GFL Rules 2025) which came into effect on 1 September 2025.
+35. The combined effect of r 1.06(2) of the GFL Rules 2021 and r 2.16 of the Federal Court Rules 2011 (Cth) (Federal Court
+Rules) require the disclosure of the name of the person or lawyer responsible for the preparation of the document: IZT24 v
+Minister for Immigration and Citizenship [2026] FedCFamC2G 740 at [26] – [28] (IZT24). Rule 2.10(b) of the GFL Rules 2025
+impose the same obligation that a document filed in a proceeding must contain the name of the person or lawyer responsible
+for preparing the document.
+36. The Minister’s 2025 Submissions also identifies relevant duties namely:
+
+       (a) a proceeding in this Court must be conducted in a manner consistent with the Court’s overarching purpose:
+       ss 190 and 191(1) of the Federal Circuit and Family Court of Australia Act 2021 (Cth) (FCFCOA Act). A lawyer
+       must, in their conduct, assist a party to comply with the Court’s overarching purpose; and
+       (b) the Migration Act 1958 (Cth) (Migration Act) imposes a requirement that a lawyer who has prepared a
+       document that initiates migration proceedings certify that the matter has reasonable prospects of success: s
+       486I.
+
+37. In IZT24 Judge Gerrard observed:
+
+               [29] As noted in AYF15 v Minister for Immigration, Citizenship, Migrant Services and Multicultural
+               Affairs [2022] FedCFamC2G 10 (AYF15), it is appropriate to complement the 2021 FCFCOA Rules
+               with r 2.16 of the Federal Court Rules. Importantly, Judge Given found in AYF15 at [44] (emphasis
+               added):
+
+                      While it is true that r 2.04(2) of the Rules makes provision for substantial, and not
+                      strict, compliance with forms, in my view one area where strict compliance with
+                      forms is required is the “prepared by” component prescribed by r 2.16(1)(b) of
+                      the FCA Rules, a fortiori when the author is a lawyer.
+
+               [30] In ARN17 v Minister for Immigration and Border Protection [2018] FCA 974, Charlesworth J had
+               cause to consider documents which were purported to have been prepared by a self-represented
+               applicant but were clearly prepared by a lawyer. Her Honour observed at [43] as follows (emphasis
+               added):
+
+                      In a similar vein, I am not prepared to accept at face value the representations made
+                      on the face of the originating documents to the effect that the applicant was self-
+                      represented at the commencement of the proceedings and that he had personally
+                      prepared and filed the papers. As I have said, the applications before the Court are
+                      not accompanied by evidence disclosing the terms on which the first barrister was
+                      retained. The documents contain assertions on their face that they were prepared by
+                      the applicant personally and yet clearly they were not. The assertions are apt to
+                      mislead the Court as to the identity of the person who has drawn the
+                      documents and thus as to the status of the applicant as a truly self-represented
+                      litigant.
+              [31] Similarly, in CPJ17 v Minister for Immigration and Border Protection [2018] FCA 1242; (2018)
+              258 FCR 495, Charlesworth J found at [97] that the obligation in r 2.16 to identify the person who
+              prepared a legal document is “expressed in absolute terms”. Her Honour further observed at [100]
+              (emphasis added):
+
+                      To be clear, where a document is prepared by a lawyer (including by the formulation
+                      of the grounds of appeal), the lawyer’s name must be identified in the footer of the
+                      document, irrespective of the capacity in which the lawyer is engaged. This Court
+                      has previously expressed the view that to represent such a document as
+                      having been prepared by a self-represented litigant would be apt to mislead the
+                      Court: ARN17 v Minister for Immigration and Border Protection [2018] FCA 974 at
+                      [43].
+
+38. Judge Gerrard concluded:
+
+
+              [36] There can be no doubt that there is an obligation on lawyers to identify that they have
+              prepared any document which is filed in this Court. Furthermore, lawyers in migration proceedings
+              must also certify that they have considered whether an application has reasonable prospects.
+              These obligations require strict compliance. Any breach of these obligations is likely to mislead the
+              Court. Such breaches should be considered to be very serious.
+
+39. I agree with these observations and findings.
+
+Principles to be applied when considering costs orders against lawyers personally
+
+40. Rule 22.06 of GFL Rules 2021 provided:
+
+              22.06 Order for costs against lawyer
+
+                      (1) The Court or a Registrar may make an order for costs against a lawyer if the
+                      lawyer, or an employee or agent of the lawyer, has caused costs:
+
+                             (a) to be incurred by a party or another person; or
+
+                             (b) to be thrown away;
+
+                      because of undue delay, negligence, improper conduct or other misconduct or
+                      default.
+
+
+                      (2) A lawyer may be in default if a hearing may not proceed conveniently because the
+                      lawyer has unreasonably failed:
+
+                             (a) to attend, or send another person to attend, the hearing; or
+
+                             (b) to file, lodge or deliver a document as required; or
+
+
+                             (c) to prepare any proper evidence or information; or
+
+                             (d) to do any other act necessary for the hearing to proceed.
+
+                      (3) An order for costs against a lawyer may be made:
+
+                             (a) on the initiative of the Court or Registrar; or
+
+                             (b) on application by a party to the proceeding; or
+                                       (c) by another person who has incurred the costs or costs
+                                       thrown away.
+
+                      (4) The order may provide:
+
+                               (a) that the costs, or part of the costs, as between the lawyer and party
+                               be disallowed; or
+                               (b) that the lawyer pay the costs, or part of the costs, incurred by the
+                               other person; or
+
+                               (c) that the lawyer pay to the party or other person the costs, or part of
+                               the costs, that the party has been ordered to pay to the other person.
+
+
+
+
+                      (5) Before making an order for costs, the Court or Registrar:
+
+                               (a) must give the lawyer, and any other person who may be affected by
+                               the decision, a reasonable opportunity to be heard; and
+                               (b) may order that notice of the order, or of any proceeding against the
+                               lawyer, be given to a party for whom the lawyer may be acting or any
+                               other person.
+
+41. Rule 32.05 of the GFL Rules 2025 is in similar terms to Rule 22.06 of the GFL Rules 2021.
+42. Section 486F of the Migration Act also provides for costs orders to be made against a person who encourages another to
+commence or continue migration litigation. Section 486F is in the following form:
+
+
+              (1) If a person acts in contravention of section 486E, the court in which the migration litigation is
+              commenced or continued may make one or more of the following orders:
+
+                      (a) an order that the person pay a party to the migration litigation (other than the
+                      litigant), the costs incurred by that party because of the commencement or
+                      continuation of the migration litigation;
+
+
+                      (b) an order that the person repay to the litigant any costs already paid by the litigant
+                      to another party to the migration litigation, because of the commencement or
+                      continuation of the migration litigation;
+
+                      (c) where the person is a lawyer who has acted for the litigant in the migration
+                      litigation:
+
+                               (i) an order that costs incurred by the litigant in the commencement or
+                               continuation of the migration litigation, are not payable to the lawyer;
+
+                               (ii) an order that the lawyer repay the litigant costs already paid by the
+                               litigant to the lawyer in relation to the commencement or continuation of
+                               the migration litigation.
+
+              (2) If the court, at the time of giving judgment on the substantive issues in the migration litigation,
+              finds that the migration litigation had no reasonable prospect of success, the court must consider
+              whether an order under this section should be made.
+
+              (3) An order under this section may be made:
+
+                      (a) on the motion of the court; or
+
+                      (b) on the application of a party to the migration litigation.
+               (4) The motion or application must be considered at the time the question of costs in the migration
+               litigation is decided.
+
+               (5) A person is not entitled to demand or recover from the litigant any part of an amount which the
+               person is directed to pay under an order made under this section.
+
+43. Justice Wigney in Mitry Lawyers v Barden [2014] FCA 918 at [42] conveniently summarised the principles to be applied
+when considering whether cost should be awarded against a lawyer personally:
+
+               The relevant principles emerge from three decisions of this Court: the judgment of Goldberg J in
+               White Industries (Qld) Pty Ltd v Flower & Hart [1998] FCA 806; (1998) 156 ALR 169; and two Full
+               Court decisions; Levick; and Macteldir v Roskov [2007] FCAFC 49. The principles may be
+               summarised as follows:
+               1. Instituting or maintaining a proceeding on behalf of a client which has no, or substantially no,
+               prospect of success will not, without more, invoke the jurisdiction to make a costs order against a
+               lawyer.
+
+                         2. Something which involves “unreasonable conduct” is required.
+                         3. What constitutes unreasonable conduct will depend on the circumstances of the
+                         particular case.
+                         4. The element of acting unreasonably involves some deliberate or conscious
+                         decision taken by reference to circumstances unrelated to the prospects of success,
+                         with either a recognition that there is no chance of success, or an intention to use the
+                         proceeding for an ulterior purpose, or to abuse the processes of the court, or with a
+                         disregard of any proper consideration of the prospects of success.
+                         5. The circumstances must involve or result in a serious dereliction of duty owed to
+                         the court, or serious misconduct in promoting the course of, and the proper
+                         administration of, justice.
+                         6. An ulterior purpose or an abuse of process cannot be assumed simply because
+                         the case is hopeless.
+                         7. The reason that the mere pursuit of an unmeritorious case is not so sufficient to
+                         invoke the jurisdiction to make a costs order against a lawyer is that a party is entitled
+                         to have a practitioner act for him or her in an unmeritorious case. The court is
+                         concerned to avoid the risks of a practice developing whereby lawyers endeavour to
+                         browbeat their opponents into abandoning clients, or particular issues or arguments,
+                         for fear of personal costs orders being made against them.
+
+44. His Honour also observed at [39] that the power to order costs against a lawyer personally is a power that must be
+“exercised with care and discretion and only in clear cases” and at [43] that procedurally “a lawyer against whom a costs order
+is made must have full and sufficient notice of the complaint and sufficient opportunity to answer it”.
+
+Should I make personal costs orders against Mr Gurdial Singh Rangit Singh?
+
+45. In my view this is one of those clear cases in which a cost order must be made against the lawyer personally. Mr Gurdial
+Singh Ranjit Singh does not contend that he has not been given full and sufficient notice of the complaints made against him.
+The issue of a personal cost order was first raised on 30 October 2025, submissions and affidavit material were filed by the
+Minister on 19 November 2025 and 17 April 2026. My concerns regarding Mr Gurdial Singh Ranjit Singh’s inappropriate used of
+generative AI was raised in the judicial review decision of 16 March 2026 and the orders I subsequently made with respect to
+this proceeding. The issue of costs and Mr Gurdial Singh Ranjit Singh’s use of generative AI was not heard until 5 May 2026.
+46. Contrary to rule 1.06(2) GFL Rules 2021 and rule 2.16 Federal Court Rules, Mr Gurdial Singh Ranjit Singh failed to identify
+that he:
+
+
+       (a) prepared and settled the amended application for judicial review filed 25 July 2025;
+       (b) prepared and settled the submission relied upon by Mr Dey in or around 25 July 2025 but filed 6 October
+       2025; and
+
+       (c) settle the affidavit of Mr Dey filed 25 July 2025.
+
+47. Mr Singh did not, as required by s 486I of the Migration Act, certify that as a lawyer the amended application for judicial
+review had reasonable prospects of success.
+48. There is no retainer in writing. There are no file notes of the conversations that took place between Mr Gurdial Singh
+Ranjit Singh and Mr Dey regarding the terms of the retainer. Nor has Mr Gurdial Singh Ranjit Singh complied with his
+disclosure obligations under s 174 of the Legal Profession Uniform Application Act 2014 (Vic).
+49. I prefer Mr Dey’s account of the terms on which he secured legal representation to those of Mr Gurdial Singh Ranjit Singh.
+I find that there was no substantive discussion regarding the terms and the extent of the work which Mr Gurdial Singh Ranjit
+Singh would perform for Mr Dey with respect to the judicial review proceedings. I do not accept that there was a discussion
+where Mr Gurdial Singh Ranjit Singh said to Mr Dey he would not be filing a notice of address for service in the Court. I find
+that a discussion took place where Mr Gurdial Singh Ranjit Singh said that he would go on the record closer to the hearing.
+50. I accept that Mr Gurdial Singh Ranjit Singh sought the advice from the Law Institute of Victoria regarding my order and, as
+a consequence, did not file a notice of address for service. This advice does not excuse Mr Singh’s failure to identify himself
+as the person who prepared the amended applications, affidavit and submission.
+51. I do not accept that after Mr Gurdial Singh Ranjit Singh had drawn and settled the amended applications for judicial review,
+submissions and Mr Dey’s affidavit that the engagement ended and that any additional work performed was on a ‘voluntary’
+basis. This includes advising Mr Dey on applying for an adjournment of the final hearing and the settling of emails to the Court
+seeking that adjournment.
+52. I find that Mr Dey genuinely expected Mr Gurdial Singh Ranjit Singh to appear at the final hearing, or if Mr Gurdial Singh
+Ranjit Singh was unavailable to appear, that he would provide assistance to Mr Dey to prepare for the final hearing as a litigant
+in person. This is evidenced by the desperate attempts of Mr Dey to contact Mr Gurdial Singh Ranjit Singh on the afternoon
+and evening of 29 October and on the morning of 30 October 2025 when an adjournment had not been granted on the papers.
+I also find that by 4 November 2025, Mr Dey no longer wanted Mr Gurdial Singh Ranjit Singh to represent him as indicated by
+his email to the court stating that he was still looking for an alternative lawyer.
+53. Mr Gurdial Singh Ranjit Singh attests to being a migration law specialist and a solicitor of 20 years standing. I consider
+that he would have more than a passing familiarity with the rules of this court and the duty imposed on lawyers under the
+Migration Act.
+54. It is clear on the evidence before me that it was Mr Gurdial Singh Ranjit Singh’s intention to deliberately mislead the Court
+by representing that Mr Dey had prepared the amended applications for judicial review, the submission and Mr Dey’s affidavit.
+Further, his failure to attend on 30 October 2025, even out of simple courtesy to the Court, and because of the material relied
+upon by Mr Dey to support his application for an adjournment, undue delay was subsequently caused. Mr Gurdial Singh Ranjit
+Singh breached his duty to the Court.
+55. At paragraph [40] of the Judicial Review Decision, I found that the evidence did not discharge the onus that the migration
+agent engaged in fraud but rather established that Mr Dey was recklessly indifferent to the actions of the migration agent. The
+evidence relied upon being contained in the affidavit settled by Mr Gurdial Singh Ranjit Singh, which I might also add was
+littered with errors, was incomplete and was at times repetitive.
+56. At paragraphs [43] and [55] of the Judicial Review Decision, I found that the submissions failed to engage with the
+dispositive issue. The submissions referred to irrelevant parts of the Migration Regulations 1994 (Cth) and referred to genuine
+temporary entrant criteria, all of which had nothing to do with Mr Dey’s judicial review application. The submissions were
+drawn and settled by Mr Gurdial Singh Ranjit Singh.
+57. In my view, a lawyer exercising due diligence in assessing whether there were reasonable grounds for believing that the
+amended application had reasonable prospects of success would not have been able to provide the certificate required by s
+486I of the Migration Act. Mr Gurdial Singh Ranjit Singh did not properly consider the prospects of Mr Dey’s judicial review
+application. He encouraged Mr Dey to continue the judicial review proceeding by preparing and settling documents which were
+filed in the Court and were later relied upon by Mr Dey at the final hearing: SZFDZ v Minister for Immigration and Multicultural
+Affairs [2006] FCA 1366 at [21]. In addition to this, Mr Gurdial Singh Ranjit Singh also settled the emails Mr Dey sent to the
+Court requesting an adjournment of proceedings. I consider this conduct of Mr Gurdial Singh Ranjit Singh to constitute a
+breach of his duty to the Court.
+58. In IZT24 at [46] Judge Gerrard aptly described the conduct of lawyers who mislead the Court by failing to comply with their
+duty under the combined operations of rules 1.06(1) and (2) of the GFL Rules 2021 and rule 2.16 of the Federal Court Rules
+and section 486I of the Migration Act as “effectively act[ing] for an applicant in the shadows”. I consider Mr Gurdial Singh Ranjit
+Singh’s conduct unacceptable. I am also gravely concerned that the practice of lawyers acting in the shadows in migration
+proceedings is rife. Not only does such a practice take unfair advantage of a vulnerable cohort of litigants who pay legal fees
+but also encourages the maintenance of unmeritorious cases that lawyers are unwilling to argue placing further strain on Court
+resources.
+59. The Minister does not seek indemnity costs but rather seeks costs calculated on a party/party basis being 75% of the
+costs actually incurred. I consider the calculation of costs on this basis to be fair and reasonable.
+60. I will order that Mr Gurdial Singh Ranjit Singh pay the Minister’s costs thrown away on 30 October 2025 by reason of the
+adjournment of the final hearing in the amount of $3,500.00.
+61. Mr Dey continued to rely on the material prepared by Mr Gurdial Singh Ranjit Singh in circumstances where no s 486I
+certificate was provided after the solicitor client relationship ended. It is that material that the Court considered in the judicial
+review decision.
+62. I consider that it is appropriate that:
+
+
+        (a) Mr Dey pay the Minister’s reasonable costs incurred with respect to the application for judicial review fixed in
+        the amount of $6,700.00 being the costs up to 25 July 2025 (being the date that the amended application
+        prepared by Mr Singh was filed) and 50% of the costs reasonably incurred thereafter; and
+        (b) Mr Gurdial Singh Ranjit Singh pay the Minister’s reasonable costs incurred with respect to the application for
+        judicial review fixed in the amount of $2,600.00 being 50% of the costs reasonably incurred from 25 July 2025.
+
+MR GURDIAL SINGH RANJIT SINGH’S USE OF GENERATIVE AI
+
+63. I now turn Mr Gurdial Singh Ranjit Singh’s improper use of generative AI and the Minister’s application for costs against
+Mr Gurdial Singh Ranjit Singh associated with the cost proceedings.
+64. Mr Gurdial Singh Ranjit Singh admits to the inappropriate use of generative AI, not only in the preparation of the judicial
+review submissions, but also in the preparation of the First Costs Submission.
+65. There is no blanket prohibition upon the use of generative AI. This Court now has in place a practice direction regarding
+the use of AI which applies to all proceedings in the Court. This Practice Direction came into effect on 29 May 2026 and does
+not apply to the judicial review proceedings or these cost proceedings. In any event generative AI can be a useful research
+tool but “it is not a proper substitute for legal research and it must be used having a legal practitioner’s duty to the Court firmly
+in mind”: Pasuengos v Minister for Immigrations and Citizenship No2 [2026] FedCFamC2G 96 (Pasuengos (No 2.)).
+66. It is the Court that identified that Mr Gurdial Singh Ranjit Singh had included in the judicial review submissions relied upon
+by Mr Dey and in the First Cost Submission. Court resources were utilised to fact check submissions prepared by a legal
+practitioner. It is unacceptable that this occurred. The Court expects that a lawyer will use their expertise and ensure that the
+authorities relied upon in submissions do in fact exist and are not a mere hallucination of a generative AI program. The Court
+expects that a lawyer will maintain their professional duties and obligations when utilising generative AI. Mr Gurdial Singh
+Ranjit Singh admits that six authorities referred to in the judicial review submissions were hallucinations and five of the
+authorities in the First Costs Submissions were also hallucinations. He only did so after the Court sought clarification as to the
+existence of the authorities from him.
+67. In JNE24 v Minister for Immigration and Citizenship [2025] FedCFamC2G 1314 (JNE24) at [24] Judge Gerrard described
+the inherent dangers associated with hallucinated authorities in the following manner:
+
+
+                First, if discovered, there is the potential for a good case to be undermined by rank incompetence.
+                Second, if undiscovered, there is the potential that the Court may be embarrassed and the
+                administration of justice risks being compromised. Relatedly, the repetition of such cases in
+                reported cases in turn feeds the cycle, and the possibility of a tranche of cases relying upon a
+                falsehood ensues. Further, the prevalence of this practice significantly wastes the time and
+                resources of opposing parties and the Court. Finally, there is damage to the reputation of the
+                profession when the clients of practitioners can genuinely feel aggrieved that they have paid for
+                professional legal representation but received only the benefit of an amateurish and perfunctory
+                online search.
+
+68. I consider Mr Gurdial Singh Ranjit Singh placing before the Court hallucinated authorities in his submissions improper
+conduct and a breach of his duties to the Court. He did this not once but in two separate submissions filed in these
+proceedings. The First Costs Submission was prepared and filed after Judge Gerrard’s decision in JNE24 a decision in a
+jurisdiction which Mr Gurdial Singh Ranjit Singh professes to specialise in. The improper use of generative AI caused
+inconvenience to the Court, has delayed the determination of the issue of costs and resulted in additional costs to the Minister
+in preparing to address submissions which were not ultimately relied upon and to address the Court on the matter of improper
+use of generative AI. I consider that Mr Gurdial Singh Ranjit Singh’s improper use of generative AI compromised the effective
+administration of justice: Murray on behalf the Wamba Wemba Native Title Claim Group v State of Victoria [2025] FCA 731
+(Murray) at [14].
+69. Mr Gurdial Singh Ranjit Singh failed to attend court on 2 March 2026 and on 16 March 2026 being the occasions when the
+issue of costs were scheduled to be heard and potentially determined. With respect to his failure to appear on 2 March 2026,
+notice that he did not intend to appear was given a half hour before the hearing. I do not accept that the medical certificate
+provided to the Court gave rise to a reasonable excuse for Mr Gurdial Singh Ranjit Singh’s failure to appear. The certificate did
+not describe his medical condition, nor did it state that Mr Gurdial Singh Ranjit Singh was unfit to attend court to make
+submissions or describe any accommodations that could be implemented by the Court to allow him to appear.
+70. The fact that Mr Gurdial Singh Ranjit Singh did not intend to appear on 16 March 2026 was made on short notice to the
+Minister’s representative and without notice to the Court. The reason proffered for the failure to appear was that he was
+distracted by his impending trip to Malaysia. This is likewise unacceptable.
+71. There was no request on either 2 March 2026 or 16 March 2026 for Mr Gurdial Singh Ranjit Singh to appear remotely, nor
+did Mr Singh retain counsel to appear on his behalf. Mr Gurdial Singh Ranjit Singh simply did not show up. This conduct was
+disrespectful and was tantamount to treating the Court, Mr Dey, and the Minister’s lawyers with contempt.
+72. Mr Gurdial Singh Ranjit Singh also failed to comply with my orders for the filing of material by providing to the Court and
+the Minister’s lawyer two additional submissions and an additional affidavit after 4.00pm on 4 May 2026, the evening before
+the costs hearing.
+73. I consider the conduct of Mr Gurdial Singh Ranjit Singh with respect to the Cost Proceeding and the improper use of
+generative AI, including failing to verify authorities contained in the First Costs Submission, is an appropriate basis upon which
+a personal cost order should be made against him with respect to the cost proceeding: Murray at [16] and Pasuengos No.2 at
+[44].
+74. The Minister seeks costs against Mr Gurdial Singh Ranjit Singh in the fixed sum of $3,500.00 I consider this reasonable as
+it is 75% on the costs incurred by the Minister and represents a reasonable estimate of party/party cost of the costs
+proceeding.
+
+What sanctions should be imposed on Mr Gurdial Singh Ranjit Singh because of his conduct?
+
+75. There are numerous sanctions that a Court can impose upon a lawyer such as Mr Gurdial Singh Ranjit Singh who
+inappropriately uses generative AI and fails to take reasonable steps to verify the accuracy of the material relied upon in
+submissions resulting in that lawyer misleading the Court. These sanctions include personal costs orders, admonishment and
+disapproval, and referral to the regulator.
+76. I intend to make the personal costs orders against Mr Gurdial Singh Ranjit Singh in the form sought by the Minister.
+77. I have made findings that Mr Gurdial Singh Ranjit Singh has failed to comply with the rules of this Court. He did not identify
+that he prepared the amended applications, affidavit and submission relied upon by Mr Dey in the judicial review proceeding.
+He failed to comply with his obligations under s 486I of the Migration Act. Due to his failure to verify authorities in the
+submissions that he prepared, he recklessly misled the Court. I consider that Mr Gurdial Singh Ranjit Singh breached his
+paramount duty to this Court. I also consider that he encouraged the maintenance of Mr Dey’s judicial review proceedings up
+to 5 November 2025. These are serious findings and I do not intend provide Mr Gurdial Singh Ranjit Singh with a shield by
+anonymising his identity. It is not in the administration of justice to do so.
+78. I have decided not to refer Mr Gurdial Singh Ranjit Singh to the regulator. In making this determination I have considered
+the approaches taken in this Court by Judge Skaros in Valu v Minister for Immigration and Multicultural Affairs (No 2) [2025]
+FedCFamC2G 95 at [38], Judge A Humphreys in Dayal [2024] FedCFamC2F 1166 at [19] – [22], Judge Gerrard in JNE24 at
+[34] – [35], Justices Aldrige, Carew and Behrens in Mertz & Mertz (No 3) [2025] FedCFamC1A 222 at [18] – [19] and Justice
+Brasch in Tesar & Szep (No.3) [2026] FedCFamC1F 21 (Tesar) at [23] and [43]. As Justice Brasch states at paragraph [23] of
+Tesar:
+
+               ... [there is] an unfortunately developing body of caselaw concerning the use of AI in the
+               preparation of documents filed with the Court, and with legal practitioners being referred to their
+                relevant Legal Services Commission (however so styled in each state and territory) and/or being
+                required to personally pay costs.
+
+79. I asked Mr Gurdial Singh Ranjit Singh to address me on why he should not be referred to the regulator. I make the
+observation that I have not made any findings of unsatisfactory professional conduct or professional misconduct under ss 296
+or 297 of the Legal Professional Rules. Those are matters for the regulator not for me: Tesar at [42]. The referral by the Court
+of a lawyer to the regulator is an administrative action: Sandison & Thornhill (No 3) [2023] FedCFamCF1 981 at [174] per
+Henderson J; Myron & Milson [2020] FamCAFC 151 at [77] – [81] per Ainslie-Wallace, Ryan & Watts JJ. A referral to the
+regulator by the Court does not require me to anonymise the lawyer in my judgment. Any party to these proceedings or the
+lawyer representing the Minister can independently refer Mr Gurdial Singh Ranjit Singh whether I do so or not.
+80. Mr Gurdial Singh Ranjit Singh:
+
+         (a) acknowledges that he inappropriately used generative artificial intelligence in the preparation of documents
+         relied upon in proceedings in this Court and considers it a serious error on his part;
+         (b) accepts that he did not verify authorities and references contained in the submissions filed in this court and
+         has identified steps to be undertaken to ensure that proper verification occurs in the future;
+
+         (c) has apologised for his conduct not only to the Court but also to Mr Dey and the Minister;
+
+         (d) accepts that his inappropriate use of generative AI constitutes a breach of his duty to the Court;
+
+         (e) has undertaken professional development courses on the responsible use of artificial intelligence in legal
+         practice; and
+
+         (f) has attested to since undertaking the verification of documents filed and where necessary corrected or has
+         withdrawn citations.
+
+81. I observed Mr Gurdial Singh Ranjit Singh in the witness box. I have no reason to believe that his remorse regarding his
+conduct and his apology was not genuine. I also consider that it is very unlikely that Mr Gurdial Singh Ranjit Singh will repeat
+the conduct.
+82. I consider that the public reprimand of being named in these reasons and orders in the interests of justice and within the
+inherent supervisory jurisdiction of the Court over lawyers: Murray per Justice Murphy; Re Walker [2025] VSC 74 per Justice
+Moore.
+
+CONCLUSION
+
+83. I will make the orders sought by the Minister including the cost order against Mr Dey in the sum of $6,700.00 and against
+Mr Gurdial Singh Ranjit Singh in the sum of $9,600.00. The Minister also sought to vacate order 5 of the orders of judicial
+registrar Roberts made 26 June 2025, being a costs order made during the proceedings. I will also make that order.
+84. For the avoidance of doubt, the orders of 20 January 2026 ordering Mr Dey to pay the Minister’s costs thrown away due to
+the adjournment fixed in the sum of $1,000.00, remains in full force and effect.
+
+
+     I certify that the preceding eighty-four (84) numbered paragraphs are a true copy of the Reasons for Judgment of Judge
+     Bingham.
+
+         Associate:
+
+         Dated: 14 September 2026
+

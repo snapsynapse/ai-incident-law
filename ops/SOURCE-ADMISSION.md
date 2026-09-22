@@ -45,7 +45,27 @@ A receipt binds:
 
 Primary retrieval evidence also retains the original bytes, their digest, final observed URL, successful HTTP status, content type, and real retrieval time. Use retained_snapshot when original transport metadata was not retained. Do not invent retrieval timestamps.
 
-Evidence must live under data/admission/raw/. Native records, generated API/site output, secondary-source folders, and AI Incident Law's own published surfaces cannot ground a change. Identity and support excerpts must occur exactly in the retained readable snapshot. If normalized readable text differs from downloaded bytes, retain and hash both.
+Evidence must live under data/admission/raw/.
+
+## Mirror provenance
+
+Decided 2026-09-22. A receipt records where retained bytes came from; it is not a citable
+source, which is what the dataset's own `public_record_link`, `secondary_source_links` and
+`best_available_sources` fields are. So a receipt may bind evidence obtained from a
+discovery mirror or an aggregator when no issuing-body copy is reachable, on three
+conditions enforced by `npm run test:admission-policy`:
+
+- the evidence carries a `provenance_note` saying plainly that the location is not the
+  issuing body;
+- the record itself carries **no** source URL in any of the three fields, and states the
+  sourcing gap in `reason_for_review`;
+- the receipt's `unresolved` list records that no issuing-body publication was reachable and
+  that authenticity rests on the document's internal consistency.
+
+This does not weaken the sourcing rule. A record with a reachable original must bind its
+receipt to that original, and the tracker remains barred from every dataset source field in
+every bucket. The mirror path exists so that an accurate candidate with no URL can be
+recorded at all, rather than being lost because the only copy sits behind a CAPTCHA. Native records, generated API/site output, secondary-source folders, and AI Incident Law's own published surfaces cannot ground a change. Identity and support excerpts must occur exactly in the retained readable snapshot. If normalized readable text differs from downloaded bytes, retain and hash both.
 
 ## Semantic safeguards
 A changed AI attribution needs a source-located AI excerpt. A changed non-English record needs an original-language excerpt and an English rendering. An agent receipt cannot renew last_verified_date.

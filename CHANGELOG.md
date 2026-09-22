@@ -21,6 +21,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   against two attorneys); **AIEL-2026-073** Cole v. Hobby Town Unlimited (C.D. Ill.,
   hallucinated citations embedded in a reusable AI-built motion template, $1,000 fine and
   ARDC self-report).
+- Four candidates from the same sweep, each verified against its order but held on sourcing
+  alone and carrying no source URL: **AIEL-GLOB-023** Gadiya v. Union of India (2026 INSC
+  947, the Supreme Court finding in its own voice that a customs officer's Order-in-Original
+  relied on AI-hallucinated precedent, penalty of Rs 425.28 crore set aside);
+  **AIEL-GLOB-024** Dey v Minister for Immigration and Citizenship (No 2) ([2026]
+  FedCFamC2G 1799, eleven admitted hallucinated authorities, $9,600 personal costs, and a
+  refusal to refer the practitioner to the regulator that departs from AIEL-GLOB-020);
+  **AIEL-CAND-033** Asiedu v. Eastlund (Minn. Ct. App., $2,341.25 fee-shift);
+  **AIEL-CAND-034** State ex rel. Schnell v. Richardson (Mo. Ct. App., $1,750 in fees to the
+  opposing parties, with the panel disclaiming any sanction for AI use as such).
+- Mirror provenance in the source-admission contract. A receipt records where retained bytes
+  came from and is not a citable source, so it may bind evidence obtained from a discovery
+  mirror when no issuing-body copy is reachable. Three conditions are enforced by
+  `test:admission-policy`: the evidence carries a `provenance_note`, the record carries no
+  source URL in any of the three dataset fields, and the receipt's `unresolved` list records
+  the gap. The tracker remains barred from every dataset source field in every bucket.
 - Scope inventory 1.2.0 registers three court institutions and the `us-dc` territorial
   identity. The reviewed baseline diff is additive: 36 claims added, none removed or changed.
 - `jurisdictionRef` now maps the District of Columbia to `us-dc`. It previously fell through

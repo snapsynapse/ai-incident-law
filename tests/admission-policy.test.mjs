@@ -164,3 +164,39 @@ test('the discovery tracker never appears as a source anywhere', () => {
         }
     }
 });
+
+// A discovery mirror may record where retained bytes came from, because a receipt is
+// provenance and not a citable source. The bargain is strict: a record whose receipt
+// leans on a mirror must itself carry no source URL, and the receipt must say so.
+// Decided 2026-09-22 when four verified matters had no reachable issuing-body copy.
+test('a receipt may cite a mirror only for a record that cites no source of its own', () => {
+    const receipts = JSON.parse(fs.readFileSync('data/admission/receipts.json', 'utf8'));
+    const MIRROR = /damiencharlotin\.com|websitedc\.s3|austlii\.edu\.au|canlii\.org|indiankanoon\.org/i;
+    const SOURCE_FIELDS = ['public_record_link', 'secondary_source_links', 'best_available_sources'];
+    const byId = new Map();
+    for (const bucket of ['included', 'review', 'global']) {
+        for (const record of data.datasets[bucket].records) {
+            byId.set(`${bucket}/${record.error_id || record.candidate_id}`, record);
+        }
+    }
+    for (const [key, receipt] of Object.entries(receipts.records || {})) {
+        for (const [name, evidence] of Object.entries(receipt.evidence || {})) {
+            if (!MIRROR.test(evidence.official_url || '')) continue;
+            const record = byId.get(key);
+            if (!record) continue; // superseded receipt, frozen history
+            assert.ok(
+                evidence.provenance_note,
+                `${key}.${name} cites a mirror without a provenance_note explaining that it is ` +
+                'not the issuing body.'
+            );
+            for (const field of SOURCE_FIELDS) {
+                assert.equal(
+                    String(record[field] || '').trim(),
+                    '',
+                    `${key} cites a mirror in its receipt but also carries ${field}. A record with ` +
+                    'a reachable source must bind its receipt to that source, not to a mirror.'
+                );
+            }
+        }
+    }
+});

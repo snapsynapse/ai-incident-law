@@ -160,17 +160,19 @@ Run an isolated bake-off before changing the default:
 ## Verified but unsourced, from the 2026-09-22 sweep
 
 Four matters cleared gate 1 against their orders but have no citable original reachable by
-automated retrieval, so none was drafted. Each is admissible on the merits; the block is
+automated retrieval. Each is drafted as a candidate rather than a record, carries no source
+URL, and states its gap in `reason_for_review`; their receipts record mirror provenance under
+the rule in `ops/SOURCE-ADMISSION.md`. Each is admissible on the merits; the block is
 sourcing alone.
 
-- **Gadiya v. Union of India**, 2026 INSC 947 (Supreme Court of India, 2026-09-02). The
+- **AIEL-GLOB-023 Gadiya v. Union of India**, 2026 INSC 947 (Supreme Court of India, 2026-09-02). The
   Court found in its own voice that a customs officer's Order-in-Original relied on
   authorities that "appear to be a hallucination of AI"; the order and the Rs 425.28 crore
   penalty were set aside and remanded to a different officer. Adjudicator-side, but the
   adjudicator is a quasi-judicial administrative officer rather than a judge. A guessed
   `api.sci.gov.in` path returned HTTP 200 with a zero-byte body, so the e-copy route is
   unresolved; the signed PDF carries a digital signature block that may expose one.
-- **Dey v Minister for Immigration and Citizenship (No 2)**, [2026] FedCFamC2G 1799
+- **AIEL-GLOB-024 Dey v Minister for Immigration and Citizenship (No 2)**, [2026] FedCFamC2G 1799
   (2026-09-14). The practitioner admitted eleven hallucinated authorities, six in the
   judicial-review submissions and five in the costs submission. Costs of $6,700 against the
   applicant and $9,600 personally against the practitioner. The Court expressly declined to
@@ -178,10 +180,10 @@ sourcing alone.
   and holding referral to be an administrative act any party could take independently. That
   **departs from** AIEL-GLOB-020 (Asif), where referral was held impossible because a lay
   litigant owes no professional duty, and is the reason this matter is worth admitting.
-- **Asiedu v. Eastlund** (Minn. Ct. App., 2026-09-08). Self-represented appellant admitted
+- **AIEL-CAND-033 Asiedu v. Eastlund** (Minn. Ct. App., 2026-09-08). Self-represented appellant admitted
   using AI as a research tool without verifying citations; $2,341.25 awarded as respondents'
   costs and fees under the district court's inherent authority, a fee-shift rather than a fine.
-- **State ex rel. Schnell v. Richardson** (Mo. Ct. App. E.D., No. ED114731, 2026-09-08).
+- **AIEL-CAND-034 State ex rel. Schnell v. Richardson** (Mo. Ct. App. E.D., No. ED114731, 2026-09-08).
   Counsel's show-cause response stated she used generative AI to research authorities and
   failed to verify them; $1,750 in fees payable to the opposing private parties. The judge
   named in the caption is the respondent by writ convention only and used no AI.

@@ -1,0 +1,262 @@
+     In the Missouri Court of Appeals
+             Eastern District
+                                WRIT DIVISION FOUR
+
+STATE OF MISSOURI, EX REL.                 )      ED114731
+STEVEN SCHNELL,                            )
+                                           )
+       Relator,                            )
+                                           )
+v.                                         )
+                                           )
+HONORABLE REBECCA                          )      Filed: September 8, 2026
+RICHARDSON,                                )
+
+       Respondent.
+
+                               Original Writ in Mandamus
+
+       Relator filed a petition for a writ of mandamus, asking this Court to order the
+
+circuit court to grant a motion to transfer venue. Relator filed a writ summary, writ
+
+petition, and suggestions in support of his writ. Relator’s petition has no merit and is,
+
+therefore, denied.
+
+       When reviewing the writ filings, this Court discovered that Relator’s counsel,
+
+Jenna Rohr Conley, cited two cases that she now admits do not exist. These fictitious
+
+citations misled this Court and required the petitioners in the underlying matter to
+
+unnecessarily respond to the baseless writ petition. This Court finds it appropriate to
+impose a monetary sanction against Conley as authorized by Rule 55.03 in the amount of
+
+$1,750, which the Court determines is a reasonable amount of attorney’s fees.
+
+                                         Discussion
+
+       The underlying petition seeks the termination of Relator’s parental rights and an
+
+adoption of a minor child by the child’s stepparent. Relator argued that the case should be
+
+transferred to St. Charles County, where other litigation concerning the minor is pending,
+
+under the theory that all cases regarding one family must be decided by the same judge
+
+regardless of the nature of the cases.
+
+       In the suggestions in support of the petition, Conley cited two cases that she
+
+argued held that all cases involving one family must be heard by a single court. On
+
+Conley’s representation of the law, this Court ordered the filing of suggestions in
+
+opposition to the petition.
+
+       When this Court reviewed the pleadings together, it discovered the issues with
+
+Conley’s citations. The citations did not correspond to the cases cited. And the cases at
+
+the cited locations did not involve the subject matter at issue in the writ petition. Through
+
+its own research the Court identified cases with the same names provided in the briefing,
+
+but not at the citations provided by Conley. These cases, although bearing the names that
+
+Conley provided, do not stand for the proposition identified. 1 This Court issued a show
+
+
+
+
+1
+  This Court’s independent research has not identified any authority to support such a
+broad statement. Certain statutory authority suggests this to be the case in particular
+circumstances not at issue here.
+
+                                              2
+cause order asking counsel to explain the issues with the citations, provide corrected
+
+citations, or show cause why sanctions should not issue for violation of Rule 55.03.
+
+       Conley’s response to the show cause order stated that she used generative artificial
+
+intelligence to research legal authorities supporting her position but failed to verify the
+
+accuracy of the citations before submitting them to the Court. Conley’s response was
+
+earnest and apologetic. Nonetheless, the citations misrepresented the law and falsely
+
+suggested the arguments were supported by legal authority. Worse still, this Court acted
+
+on Conley’s misrepresentations and ordered Respondent to file suggestions in opposition.
+
+As a result, it is appropriate to impose sanctions as authorized by Rule 55.03.
+
+       Rule 55.03(b) states,
+
+       By presenting and maintaining a claim, defense, request, demand,
+       objection, contention, or argument in a pleading, motion, or other paper
+       filed with or submitted to the court, an attorney or party is certifying that to
+       the best of the person's knowledge, information, and belief, formed after an
+       inquiry reasonable under the circumstances, that: … (2) The claims,
+       defenses, and other legal contentions therein are warranted by existing law
+       or by a nonfrivolous argument for the extension, modification, or reversal
+       of existing law or the establishment of new law[.]
+
+The basis of Rule 55.03 is relatively simple. When attorneys or unrepresented parties sign
+
+a pleading, they certify having a legal and factual basis for the claims made. “Rule 55.03
+
+also requires that a ‘reasonable’ prefiling inquiry be conducted into the law and facts. The
+
+rule imposes an objective standard of conduct.” State ex rel. Accurate Const. Co. v.
+
+Quillen¸ 809 S.W.2d 437, 440 (Mo. App. 1991) (emphasis in original).
+
+       Conley violated Rule 55.03 in at least two ways. First, it seems obvious that for a
+
+claim to be “warranted by existing law,” the law being used to support it must actually
+
+
+
+                                              3
+exist. The cases Conley relied upon, by her own admission, did not. In her response to the
+
+show cause order, Conley was unable to identify a case that supported her statements of
+
+the law. This Court’s independent research has not identified any case or statute
+
+supporting Relator’s request to transfer venue or a non-frivolous argument that the law
+
+should require transfer here.
+
+       Second, Conley failed to conduct an objectively reasonable prefiling inquiry. At
+
+this point in time, generative AI’s tendency to fabricate caselaw and citations is well
+
+documented. See, e.g., Kruse v. Karlen, 692 S.W.3d 43 (Mo. App. 2024); Mata v.
+
+Avianca, Inc., 678 F.Supp. 3d 443 (S.D.N.Y. 2023); William C. Martucci et. al., Artificial
+
+Intelligence and the Legal Profession: Practical and Ethical Considerations in the New
+
+Technological Era, 82 J. Mo. B. 126, 127 (2026) (“AI-generated outputs are statistical in
+
+nature and can produce inaccurate or misleading information, often referred to as
+
+‘hallucinations.’ These hallucinations are not rare anomalies; they are a known limitation
+
+of large language models.”). 2 In addition to simply fabricating cases, generative AI is
+
+prone to citing real cases for propositions they do not support, misstating holdings of
+
+cases, and generating false testimony from a legal record. See, e.g., State v. Coleman, 280
+
+N.E.3d 1042, 1063-64 (Ohio. Ct. App. 2026) (“The submission of fabricated transcript
+
+quotations to an appellate court is … not merely negligent; it is an assault on the integrity
+
+
+2
+  Some scholars argue that the use of the term “hallucination” is inaccurate because it
+suggests that generative AI systems actually think, when, in reality, they are “predicting
+the word that is most apt to come next in a response – which may not be the word that
+would come next in an accurate or correct response.” Stephen McJohn & Ian McJohn, AI
+Mistakes: “Confabulation” and Abduction, Not “Hallucination”, Suffolk Univ. Sch. of
+L. Legal Stud. Rsch. Paper Series, Research Paper No. 26-4, at 3 (Spring 2026).
+
+                                              4
+of the appellate process, which depends entirely upon the fidelity of the record and the
+
+candor of counsel.”). Given the well-known tendency of generative AI models to make
+
+fabrications, it is objectively unreasonable for any attorney or self-represented party to
+
+fail to verify AI’s accuracy. For this reason alone, sanctions are appropriate.
+
+       To be clear, this Court is not sanctioning Conley because she used generative AI.
+
+The use of AI is only incidental to the sanction. There is nothing inherently problematic
+
+from a briefing perspective with the use of generative AI. Rather, the sanction is
+
+appropriate because Conley filed pleadings in this Court that cited cases that do not exist
+
+for unsupportable propositions. In this respect, it is no different than if Conley signed her
+
+name to work prepared by someone else without verifying the accuracy of claims therein.
+
+       The use of generative AI in legal practice is now commonplace. In many ways, it
+
+can be profoundly beneficial. AI can assist in reviewing voluminous discovery,
+
+summarizing lengthy documents, providing insight into potential outcomes, and even
+
+researching legal authority and drafting legal documents. When used properly, AI is an
+
+impactful tool for attorneys, saving them time and saving their clients money. But when
+
+used improperly or carelessly, AI carries great risks.
+
+       Careless or improper use of generative AI also implicates multiple rules of
+
+professional conduct. For example, Rule 4-1.1 requires attorneys to provide competent
+
+representation. The comments to that rule require attorneys to maintain the requisite
+
+knowledge and skill regarding “the benefits and risks associated with relevant
+
+technology.” Rule 4-3.1 prohibits attorneys from bringing any claims without a “basis in
+
+law and fact.” Rule 4-3.3 prohibits attorneys from knowingly making a false statement of
+
+
+                                              5
+the law. Rule 4-5.4 requires attorneys to maintain independent professional judgment.
+
+And Rule 4-8.4 prohibits dishonesty, misrepresentations, and other conduct “prejudicial
+
+to the administration of justice.” Improper or careless use of generative AI can lead to a
+
+violation of any one of these rules, particularly when it results in fabricated law or facts. 3
+
+The Office of Ethics Counsel published an informal opinion discussing numerous rules
+
+implicated by attorney use of generative AI. See Mo. Informal Op. 2024-11 (Apr. 25,
+
+2024). This Court encourages all attorneys practicing in Missouri to be familiar with this
+
+opinion.
+
+                                         Conclusion
+
+       As authorized by Rule 55.03(c) Conley is ordered to pay a total of $1,750 to the
+
+petitioners in the underlying action, K.N.O. and J.W.O, for payment of reasonable
+
+attorney’s fees incurred for their counsel’s preparation of suggestions in opposition to the
+
+writ petition. The writ petition is denied.
+
+
+
+
+                                              _____________________________________
+                                              John P. Torbitzky, Presiding Judge
+
+
+Lisa P. Page, Judge, and
+Michael S. Wright, Judge, concur.
+
+
+
+
+3
+ This Court makes no decision regarding whether Conley’s conduct violated any rule.
+That determination, and whether any violation warrants discipline, rests solely in the
+discretion of the Supreme Court of Missouri.
+
+                                                6
+

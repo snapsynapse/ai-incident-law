@@ -1,6 +1,522 @@
 {
   "version": 1,
   "records": {
+    "global/AIEL-GLOB-023": {
+      "baseline_sha256": null,
+      "record_sha256": "649a90c6adf7ae615eaedbef1d73e9360c522bec2f2ec7da3907c2487934a8bf",
+      "evidence": {
+        "sci-judgment": {
+          "path": "data/admission/raw/aiel-glob-023/sci-judgment.txt",
+          "official_url": "https://damiencharlotin.com/documents/3013/Vijay_Ghanshyam_Gadiya_v_Union_of_India_.pdf",
+          "sha256": "fa86196b0d2a86222edf462f7f6cbc7ceafa493b6ba86ad7a48ab4325af9f492",
+          "document_id": "2026 INSC 947; SLP (Civil) No. 15605 of 2026",
+          "document_title": "Vijay Ghanshyam Gadiya v. Union of India & Anr., reportable judgment",
+          "issuing_body": "Supreme Court of India",
+          "document_type": "judgment",
+          "version": "Delivered 2026-09-02; mirror copy of the signed reportable judgment retrieved 2026-09-22",
+          "locator": "Paragraphs 3 to 7, covering the appellant's contention, the Court's own verification, the AI finding and the disposition",
+          "excerpt": "therefrom and it appears to be a hallucination of AI.",
+          "identity_excerpts": [
+            "2026 INSC 947",
+            "SUPREME COURT OF INDIA",
+            "15605"
+          ],
+          "ai_attribution_excerpt": "therefrom and it appears to be a hallucination of AI.",
+          "acquisition": "primary_retrieval",
+          "provenance_note": "Obtained from the Damien Charlotin hallucinations index, which is a discovery mirror and not the issuing body. The record itself cites no source and carries the gap in reason_for_review; this evidence records where the retained bytes came from, not a citable source.",
+          "retrieval": {
+            "http_status": 200,
+            "retrieved_at": "2026-09-22T21:05:15Z",
+            "content_type": "application/pdf",
+            "final_url": "https://websitedc.s3.amazonaws.com/documents/Vijay_Ghanshyam_Gadiya_v_Union_of_India_.pdf",
+            "original_path": "data/admission/raw/aiel-glob-023/sci-judgment.pdf",
+            "original_sha256": "314bd9158c8f24822b8526a3dc3f1b2c49c7e8c2c2c0562fcc4bff0ba9438017"
+          }
+        }
+      },
+      "units": {
+        "dataset": {
+          "before_sha256": null,
+          "after_sha256": "00a98ccda74596363103ca57044cd66c1c9d0a71272a83aa3a0074bfe4da9cd3",
+          "candidate_content": "global",
+          "reason": "Records this source-supported unit of AIEL-GLOB-023 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-023 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sci-judgment"
+          ]
+        },
+        "field:authority_type": {
+          "before_sha256": null,
+          "after_sha256": "774e393565ee38ed6a13e18445d6f2c45cd42de4b03265a6959a1ac186b613fe",
+          "candidate_content": "court; administrative/quasi-judicial customs authority",
+          "reason": "Records this source-supported unit of AIEL-GLOB-023 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-023 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sci-judgment"
+          ]
+        },
+        "field:best_available_sources": {
+          "before_sha256": null,
+          "after_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+          "candidate_content": "",
+          "reason": "Records this source-supported unit of AIEL-GLOB-023 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-023 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sci-judgment"
+          ]
+        },
+        "field:candidate_id": {
+          "before_sha256": null,
+          "after_sha256": "3125dcafd4cb110edc2153957dbac1bb04323a572cc245198d95eedf973de79a",
+          "candidate_content": "AIEL-GLOB-023",
+          "reason": "Records this source-supported unit of AIEL-GLOB-023 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-023 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sci-judgment"
+          ]
+        },
+        "field:candidate_matter": {
+          "before_sha256": null,
+          "after_sha256": "bf380121902499d3608fc3bb038566c69af9f49ddb8430c236495faf8c673c26",
+          "candidate_content": "Vijay Ghanshyam Gadiya v. Union of India & Anr., 2026 INSC 947, Civil Appeal arising out of SLP (Civil) No. 15605 of 2026 (Supreme Court of India, 2 September 2026)",
+          "reason": "Records this source-supported unit of AIEL-GLOB-023 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-023 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sci-judgment"
+          ]
+        },
+        "field:candidate_title": {
+          "before_sha256": null,
+          "after_sha256": "1f81b17a848419acb4c2fea9099ef032c571ac8d8d9d860dbaa8eef3708002d8",
+          "candidate_content": "Supreme Court of India sets aside a customs penalty order built on AI-hallucinated precedent",
+          "reason": "Records this source-supported unit of AIEL-GLOB-023 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-023 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sci-judgment"
+          ]
+        },
+        "field:country": {
+          "before_sha256": null,
+          "after_sha256": "a68f454b67dfd8429e41dca15c43c3171a94510b1daeca2c38d0b44561937e5d",
+          "candidate_content": "India",
+          "reason": "Records this source-supported unit of AIEL-GLOB-023 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-023 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sci-judgment"
+          ]
+        },
+        "field:event_grain": {
+          "before_sha256": null,
+          "after_sha256": "7ae1538a21741d41b239491435845bdd13f38ab3f9a96c8ce3f5f774515acfea",
+          "candidate_content": "individualized_error_event",
+          "reason": "Records this source-supported unit of AIEL-GLOB-023 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-023 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sci-judgment"
+          ]
+        },
+        "field:last_checked_date": {
+          "before_sha256": null,
+          "after_sha256": "9ae0631fc55f60fea857df73e2f5282345c3cbd3446a30c9380aa2bacb70f0e4",
+          "candidate_content": "2026-09-22",
+          "reason": "Records this source-supported unit of AIEL-GLOB-023 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-023 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sci-judgment"
+          ]
+        },
+        "field:legal_basis": {
+          "before_sha256": null,
+          "after_sha256": "d8235327a6ba32d400208aabc130c02f77bfa3fec215f9fa3ff807bb4e8beb43",
+          "candidate_content": "Section 114, Customs Act 1962; principles governing reliance on non-existent precedent in quasi-judicial adjudication",
+          "reason": "Records this source-supported unit of AIEL-GLOB-023 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-023 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sci-judgment"
+          ]
+        },
+        "field:next_verification_step": {
+          "before_sha256": null,
+          "after_sha256": "992790d6d5b157d6210f74ad29d50f459679a9d39ddaa450cb0642c7013e81ac",
+          "candidate_content": "Retrieve the signed judgment from the Supreme Court of India, either through the eCourts judgment portal in a browser or by resolving the digital-signature or QR verification route printed on the signed copy, and confirm the neutral citation 2026 INSC 947, the bench and the penalty figure before promotion. The draft Regulations for Use of Artificial Intelligence in Courts, 2026 are separately worth routing to EveryAILaw.",
+          "reason": "Records this source-supported unit of AIEL-GLOB-023 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-023 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sci-judgment"
+          ]
+        },
+        "field:reason_for_review": {
+          "before_sha256": null,
+          "after_sha256": "2b731d0104dc86ef7c82295048b26ecc61aac4fdad3d403f33e68e8e0c0314c0",
+          "candidate_content": "Gate 1 is satisfied in the Court’s own voice after independent checking: it found the authorities relied on in the Order-in-Original \"are generated using Artificial Intelligence\" and that a passage \"appears to be a hallucination of AI\". Adjudicator-side, but the AI-using adjudicator is an Additional Commissioner of Customs exercising quasi-judicial power, not a judicial officer, so the tracker’s \"Judge\" tag over-claims; no judge of the High Court or the Supreme Court used AI. The Court set aside both the High Court order and the Order-in-Original imposing a penalty of Rs 425,27,99,100 and remitted the matter to a different officer of the same rank, leaving action against the author of the order to the appointing authority. The judgment goes beyond the individual matter, distinguishing legitimate assistive use of AI from reliance on fabricated material as though it were precedent, and referring to draft Regulations for Use of Artificial Intelligence in Courts, 2026. Held on gate 2 alone: no citable original was reachable. A guessed api.sci.gov.in judgment path returned HTTP 200 with a zero-byte body, digiscr.sci.gov.in does not resolve, and the eCourts judgment portal is a JavaScript search application behind tokens.",
+          "reason": "Records this source-supported unit of AIEL-GLOB-023 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-023 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sci-judgment"
+          ]
+        },
+        "field:region": {
+          "before_sha256": null,
+          "after_sha256": "31d6dac4255d8989a7df0ce72e5772b80c7953cb6496e91df6d5eface4fbbf96",
+          "candidate_content": "APAC / Commonwealth",
+          "reason": "Records this source-supported unit of AIEL-GLOB-023 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-023 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sci-judgment"
+          ]
+        },
+        "field:source_language": {
+          "before_sha256": null,
+          "after_sha256": "32889a931b08ba01dadfc309df2ec6bd7b8234aa9a8db49ffd49818f3b3aa1c6",
+          "candidate_content": "English",
+          "reason": "Records this source-supported unit of AIEL-GLOB-023 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-023 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sci-judgment"
+          ]
+        },
+        "field:translation_status": {
+          "before_sha256": null,
+          "after_sha256": "0e92342d8b476c14d6b45b953a3c86e71184abe156c34227c53a8d626263a063",
+          "candidate_content": "not needed",
+          "reason": "Records this source-supported unit of AIEL-GLOB-023 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-023 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "sci-judgment"
+          ]
+        }
+      },
+      "unresolved": [
+        "No issuing-body publication of this document was reachable, so the candidate carries no source URL and cannot be promoted until one is obtained.",
+        "The retained bytes come from a discovery mirror rather than the issuing body; the content was read and checked, but authenticity rests on internal consistency rather than on the issuing body's own delivery."
+      ],
+      "review": {
+        "actor": "claude:find-new-cases-sweep-2026-09-22",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Complete source-consistency review of the new global candidate AIEL-GLOB-023 against the retained document named in this packet. No promotion, no human approval and no Verified freshness is asserted.",
+        "reviewed_at": "2026-09-22T21:06:57.272Z",
+        "packet_sha256": "416c33dbb8ff580a25b00764a1f4f55b03a2c95c01640ebd40bce33df1c02490"
+      }
+    },
+    "global/AIEL-GLOB-024": {
+      "baseline_sha256": null,
+      "record_sha256": "171387763ebbe8b33971a7009a67e92035d6a636bd907ab169cce6142b93ec3d",
+      "evidence": {
+        "fcfcoa-reasons": {
+          "path": "data/admission/raw/aiel-glob-024/fcfcoa-reasons.txt",
+          "official_url": "https://damiencharlotin.com/documents/3104/Dey_v_Minister_for_Immigration_and_Citizenship_14_September_2026.pdf",
+          "sha256": "7cc4a1aecf04def236c1201727b68ce698ad32ebe86b1af4c7fed9612f115ee0",
+          "document_id": "[2026] FedCFamC2G 1799",
+          "document_title": "Dey v Minister for Immigration and Citizenship (No 2), reasons for judgment as rendered by AustLII",
+          "issuing_body": "Federal Circuit and Family Court of Australia (Division 2)",
+          "document_type": "judgment",
+          "version": "Delivered 2026-09-14; AustLII rendering retrieved through a mirror 2026-09-22",
+          "locator": "Catchwords, the orders, and paragraphs 63 to 79 on the use of generative AI, costs and the regulator-referral question",
+          "excerpt": "Ranjit Singh admits that six authorities referred to in the judicial review submissions were hallucinations and five of",
+          "identity_excerpts": [
+            "FedCFamC2G 1799",
+            "Gurdial Singh Ranjit Singh",
+            "BINGHAM"
+          ],
+          "ai_attribution_excerpt": "Ranjit Singh admits that six authorities referred to in the judicial review submissions were hallucinations and five of",
+          "acquisition": "primary_retrieval",
+          "provenance_note": "Obtained from the Damien Charlotin hallucinations index, which is a discovery mirror and not the issuing body. The record itself cites no source and carries the gap in reason_for_review; this evidence records where the retained bytes came from, not a citable source. The retained bytes are an AustLII rendering of the reasons rather than the court's own publication. AustLII is an aggregator and cannot be cited as a source; this is provenance for the retained text only.",
+          "retrieval": {
+            "http_status": 200,
+            "retrieved_at": "2026-09-22T21:05:16Z",
+            "content_type": "application/pdf",
+            "final_url": "https://websitedc.s3.amazonaws.com/documents/Dey_v_Minister_for_Immigration_and_Citizenship_14_September_2026.pdf",
+            "original_path": "data/admission/raw/aiel-glob-024/fcfcoa-reasons.pdf",
+            "original_sha256": "8da1b2e8577fc9d2ffa694b88f1e89b568af73082194393562ee529a60c0b570"
+          }
+        }
+      },
+      "units": {
+        "dataset": {
+          "before_sha256": null,
+          "after_sha256": "00a98ccda74596363103ca57044cd66c1c9d0a71272a83aa3a0074bfe4da9cd3",
+          "candidate_content": "global",
+          "reason": "Records this source-supported unit of AIEL-GLOB-024 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-024 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "fcfcoa-reasons"
+          ]
+        },
+        "field:authority_type": {
+          "before_sha256": null,
+          "after_sha256": "3d33a7a9fa73abb366cbad34af4123d53f687f25b0e891f2d92e17899665627d",
+          "candidate_content": "court",
+          "reason": "Records this source-supported unit of AIEL-GLOB-024 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-024 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "fcfcoa-reasons"
+          ]
+        },
+        "field:best_available_sources": {
+          "before_sha256": null,
+          "after_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+          "candidate_content": "",
+          "reason": "Records this source-supported unit of AIEL-GLOB-024 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-024 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "fcfcoa-reasons"
+          ]
+        },
+        "field:candidate_id": {
+          "before_sha256": null,
+          "after_sha256": "36e209fc764482101d828a80cb047f362398fe6783cdf24a586a6f7d7607b913",
+          "candidate_content": "AIEL-GLOB-024",
+          "reason": "Records this source-supported unit of AIEL-GLOB-024 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-024 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "fcfcoa-reasons"
+          ]
+        },
+        "field:candidate_matter": {
+          "before_sha256": null,
+          "after_sha256": "fc16d9fc1aace59e4597246548994f6ca8135959807e82655a16cce81c0fa0a0",
+          "candidate_content": "Dey v Minister for Immigration and Citizenship (No 2) [2026] FedCFamC2G 1799 (Federal Circuit and Family Court of Australia, Division 2, Judge Bingham, 14 September 2026)",
+          "reason": "Records this source-supported unit of AIEL-GLOB-024 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-024 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "fcfcoa-reasons"
+          ]
+        },
+        "field:candidate_title": {
+          "before_sha256": null,
+          "after_sha256": "3a79eb439255c17a4974f8b5abbca0e17ebe547d68d1a878538c7cfb755e4615",
+          "candidate_content": "Australian court orders personal costs against a practitioner over eleven hallucinated authorities but declines to refer him to the regulator",
+          "reason": "Records this source-supported unit of AIEL-GLOB-024 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-024 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "fcfcoa-reasons"
+          ]
+        },
+        "field:country": {
+          "before_sha256": null,
+          "after_sha256": "fd69e60b1fc1719546c9d7ac189d4d5d9a22db5f2e900778937ab77548a1c6f1",
+          "candidate_content": "Australia",
+          "reason": "Records this source-supported unit of AIEL-GLOB-024 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-024 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "fcfcoa-reasons"
+          ]
+        },
+        "field:event_grain": {
+          "before_sha256": null,
+          "after_sha256": "7ae1538a21741d41b239491435845bdd13f38ab3f9a96c8ce3f5f774515acfea",
+          "candidate_content": "individualized_error_event",
+          "reason": "Records this source-supported unit of AIEL-GLOB-024 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-024 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "fcfcoa-reasons"
+          ]
+        },
+        "field:last_checked_date": {
+          "before_sha256": null,
+          "after_sha256": "9ae0631fc55f60fea857df73e2f5282345c3cbd3446a30c9380aa2bacb70f0e4",
+          "candidate_content": "2026-09-22",
+          "reason": "Records this source-supported unit of AIEL-GLOB-024 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-024 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "fcfcoa-reasons"
+          ]
+        },
+        "field:legal_basis": {
+          "before_sha256": null,
+          "after_sha256": "1cccd3e749c92dd3ab883fc0b2cd0519c9780bd14d21c51190ed0d5fd742beaa",
+          "candidate_content": "Costs against a practitioner personally; Rule 3.1, Legal Profession Uniform Law Australian Solicitors’ Conduct Rules 2015 (paramount duty to the court)",
+          "reason": "Records this source-supported unit of AIEL-GLOB-024 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-024 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "fcfcoa-reasons"
+          ]
+        },
+        "field:next_verification_step": {
+          "before_sha256": null,
+          "after_sha256": "1af781f4287ce068920d554c854337d3f1f815d5d8785426ad8d6a9de0d74a3a",
+          "candidate_content": "Retrieve the reasons from the Federal Circuit and Family Court of Australia’s own judgment database through a browser pass at fcfcoa.gov.au, confirm the neutral citation [2026] FedCFamC2G 1799 and both costs figures, and establish what the first judgment, [2026] FedCFamC2G 373, decided and whether it warrants its own record. The Court’s AI practice direction of 29 May 2026 is separately worth routing to EveryAILaw.",
+          "reason": "Records this source-supported unit of AIEL-GLOB-024 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-024 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "fcfcoa-reasons"
+          ]
+        },
+        "field:reason_for_review": {
+          "before_sha256": null,
+          "after_sha256": "e940770e2199eb96cc5a25722fad060787701edb221dc22d7b1ac9fab59e38e8",
+          "candidate_content": "Gate 1 is satisfied on admissions recorded in the reasons: the practitioner \"admits that six authorities referred to in the judicial review submissions were hallucinations and five of the\" authorities in the First Costs Submission were also hallucinations, and he did so only after the Court sought clarification. Costs were ordered in two parts, $6,700 payable by Mr Dey and $9,600 payable personally by the practitioner; the tracker reports only the second figure and its penalty column is unusable. The reason to admit this record is the contrast it draws with AIEL-GLOB-020 (Asif), which holds that a lay litigant owes no duty to the court and so cannot be referred to any regulator. Here the respondent is a practitioner who does owe that duty and referral was available, yet the Court declined it, having made no finding of unsatisfactory professional conduct or professional misconduct, treating referral as an administrative act any party could take independently, and noting that declining to refer does not require anonymising the practitioner. The Court also records a practice direction on AI use that took effect 29 May 2026 and did not apply to these proceedings. Held on gate 2 alone: the retained copy is an AustLII rendering rather than the court’s own publication, AustLII is an aggregator and bars citation, and fcfcoa.gov.au was unreachable from this run behind a Radware Bot Manager CAPTCHA.",
+          "reason": "Records this source-supported unit of AIEL-GLOB-024 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-024 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "fcfcoa-reasons"
+          ]
+        },
+        "field:region": {
+          "before_sha256": null,
+          "after_sha256": "31d6dac4255d8989a7df0ce72e5772b80c7953cb6496e91df6d5eface4fbbf96",
+          "candidate_content": "APAC / Commonwealth",
+          "reason": "Records this source-supported unit of AIEL-GLOB-024 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-024 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "fcfcoa-reasons"
+          ]
+        },
+        "field:source_language": {
+          "before_sha256": null,
+          "after_sha256": "32889a931b08ba01dadfc309df2ec6bd7b8234aa9a8db49ffd49818f3b3aa1c6",
+          "candidate_content": "English",
+          "reason": "Records this source-supported unit of AIEL-GLOB-024 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-024 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "fcfcoa-reasons"
+          ]
+        },
+        "field:translation_status": {
+          "before_sha256": null,
+          "after_sha256": "0e92342d8b476c14d6b45b953a3c86e71184abe156c34227c53a8d626263a063",
+          "candidate_content": "not needed",
+          "reason": "Records this source-supported unit of AIEL-GLOB-024 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-GLOB-024 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "fcfcoa-reasons"
+          ]
+        }
+      },
+      "unresolved": [
+        "No issuing-body publication of this document was reachable, so the candidate carries no source URL and cannot be promoted until one is obtained.",
+        "The retained bytes come from a discovery mirror rather than the issuing body; the content was read and checked, but authenticity rests on internal consistency rather than on the issuing body's own delivery."
+      ],
+      "review": {
+        "actor": "claude:find-new-cases-sweep-2026-09-22",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Complete source-consistency review of the new global candidate AIEL-GLOB-024 against the retained document named in this packet. No promotion, no human approval and no Verified freshness is asserted.",
+        "reviewed_at": "2026-09-22T21:06:57.272Z",
+        "packet_sha256": "b1d2d57cab0caa26debf6da4f11522b02923baf329142a40e455c8788212d71e"
+      }
+    },
     "included/AIEL-2024-001": {
       "baseline_sha256": "086f8e21eb319851f98d0678423ae38f1188212c18415cc23fdc6e352d1400f2",
       "record_sha256": "9360df5060a9ebee5e6c76d65bf673544f654bff09101e0394cf6f3a8be3012b",
@@ -3215,6 +3731,326 @@
         "scope": "Complete source-consistency review of AIEL-CAND-032 against the retained eight-page official final order text; no promotion or human approval asserted.",
         "reviewed_at": "2026-09-10T00:23:12.063Z",
         "packet_sha256": "d76e4fac87d0d9ae7a0089d8403e684599cd6ae3e9a47837b792ffe37acef6af"
+      }
+    },
+    "review/AIEL-CAND-033": {
+      "baseline_sha256": null,
+      "record_sha256": "1fddf885b2b88f33d482d24c604445e40b83b84d487f8a6b0e3006d538417568",
+      "evidence": {
+        "minn-ctapp-opinion": {
+          "path": "data/admission/raw/aiel-cand-033/minn-ctapp-opinion.txt",
+          "official_url": "https://damiencharlotin.com/documents/3044/Asiedu_USA_8_September_2026.pdf",
+          "sha256": "6462358877443cfd4f254956cec8a1ceebefef3068a4fe200f1dbcd477968936",
+          "document_id": "A25-2106",
+          "document_title": "Asiedu v. Eastlund, nonprecedential opinion",
+          "issuing_body": "Minnesota Court of Appeals",
+          "document_type": "opinion",
+          "version": "Filed 2026-09-08; mirror copy retrieved 2026-09-22",
+          "locator": "Caption page and the sanctions discussion recording the appellant's admission",
+          "excerpt": "hearing, Asiedu admitted that he used artificial intelligence as a research tool to draft his",
+          "identity_excerpts": [
+            "Asiedu",
+            "A25-2106",
+            "MINNESOTA"
+          ],
+          "ai_attribution_excerpt": "hearing, Asiedu admitted that he used artificial intelligence as a research tool to draft his",
+          "acquisition": "primary_retrieval",
+          "provenance_note": "Obtained from the Damien Charlotin hallucinations index, which is a discovery mirror and not the issuing body. The record itself cites no source and carries the gap in reason_for_review; this evidence records where the retained bytes came from, not a citable source.",
+          "retrieval": {
+            "http_status": 200,
+            "retrieved_at": "2026-09-22T21:05:12Z",
+            "content_type": "application/pdf",
+            "final_url": "https://websitedc.s3.amazonaws.com/documents/Asiedu_USA_8_September_2026.pdf",
+            "original_path": "data/admission/raw/aiel-cand-033/minn-ctapp-opinion.pdf",
+            "original_sha256": "0b9d8e9e8a4b0585b05984be0cfcd2996eef98b1b28fe64fd4b9c30991b0bcd7"
+          }
+        }
+      },
+      "units": {
+        "dataset": {
+          "before_sha256": null,
+          "after_sha256": "fe82cb229e29dfc87a309c8d1679ff9f58be239c8e6f3ff52bc431efb3709b6b",
+          "candidate_content": "review",
+          "reason": "Records this source-supported unit of AIEL-CAND-033 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-CAND-033 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "minn-ctapp-opinion"
+          ]
+        },
+        "field:best_available_sources": {
+          "before_sha256": null,
+          "after_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+          "candidate_content": "",
+          "reason": "Records this source-supported unit of AIEL-CAND-033 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-CAND-033 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "minn-ctapp-opinion"
+          ]
+        },
+        "field:candidate_id": {
+          "before_sha256": null,
+          "after_sha256": "33148c39ea8c584158c78bf50039dbe131b5b5582374cc4d31d51b5c0d15b96e",
+          "candidate_content": "AIEL-CAND-033",
+          "reason": "Records this source-supported unit of AIEL-CAND-033 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-CAND-033 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "minn-ctapp-opinion"
+          ]
+        },
+        "field:candidate_matter": {
+          "before_sha256": null,
+          "after_sha256": "153a8fec310f760ffde74b715d0e66ddd85ce141a533bad0d92c60df9a077396",
+          "candidate_content": "Asiedu v. Eastlund, Nos. A25-2106 and A26-0xxx (Minn. Ct. App., nonprecedential opinion filed 8 September 2026)",
+          "reason": "Records this source-supported unit of AIEL-CAND-033 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-CAND-033 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "minn-ctapp-opinion"
+          ]
+        },
+        "field:candidate_title": {
+          "before_sha256": null,
+          "after_sha256": "3365dc459d53814b15903513af3f1878976a17685fa8323787116b734b054c2d",
+          "candidate_content": "Minnesota Court of Appeals affirms sanctions against a self-represented appellant who admitted using AI to draft filings",
+          "reason": "Records this source-supported unit of AIEL-CAND-033 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-CAND-033 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "minn-ctapp-opinion"
+          ]
+        },
+        "field:last_checked_date": {
+          "before_sha256": null,
+          "after_sha256": "9ae0631fc55f60fea857df73e2f5282345c3cbd3446a30c9380aa2bacb70f0e4",
+          "candidate_content": "2026-09-22",
+          "reason": "Records this source-supported unit of AIEL-CAND-033 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-CAND-033 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "minn-ctapp-opinion"
+          ]
+        },
+        "field:next_verification_step": {
+          "before_sha256": null,
+          "after_sha256": "0c4881553f67fc45701f8245bdeaa2a6cd63d8f4fc2fd8a5cd983ad6954d9252",
+          "candidate_content": "Retrieve the nonprecedential opinion from the Minnesota Court of Appeals through a browser pass at mn.gov/law-library-stat/archive/ctapun/2026/, or via a CourtListener opinion result once one appears, and confirm the second appeal number, the panel and the exact $2,341.25 award before promotion.",
+          "reason": "Records this source-supported unit of AIEL-CAND-033 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-CAND-033 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "minn-ctapp-opinion"
+          ]
+        },
+        "field:reason_for_review": {
+          "before_sha256": null,
+          "after_sha256": "76fde02466210ff21800970bfd5859aa89e7833fa00080199eded35862a9f9a8",
+          "candidate_content": "Gate 1 is satisfied on the opinion’s own text: at a hearing the appellant \"admitted that he used artificial intelligence as a research tool to draft his\" filings and did not ensure the accuracy of the citations, and the court affirmed dismissal together with inherent-authority sanctions for citing misleading, misrepresented and non-existent caselaw. The tool is unnamed. The award of $2,341.25 is respondents’ reasonable costs and attorney fees, a fee-shift computed from actual costs rather than a flat fine; the tracker’s \"2341\" drops the cents and implies a penalty. Held on gate 2 alone: no citable original was reachable. The Minnesota opinion archive at mn.gov/law-library-stat sits behind a Radware Bot Manager CAPTCHA that answers HTTP 200 with a challenge page, mncourts.gov returns HTTP 403 to scripted requests, and CourtListener carries no opinion for this matter.",
+          "reason": "Records this source-supported unit of AIEL-CAND-033 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-CAND-033 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "minn-ctapp-opinion"
+          ]
+        }
+      },
+      "unresolved": [
+        "No issuing-body publication of this document was reachable, so the candidate carries no source URL and cannot be promoted until one is obtained.",
+        "The retained bytes come from a discovery mirror rather than the issuing body; the content was read and checked, but authenticity rests on internal consistency rather than on the issuing body's own delivery."
+      ],
+      "review": {
+        "actor": "claude:find-new-cases-sweep-2026-09-22",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Complete source-consistency review of the new review candidate AIEL-CAND-033 against the retained document named in this packet. No promotion, no human approval and no Verified freshness is asserted.",
+        "reviewed_at": "2026-09-22T21:06:57.270Z",
+        "packet_sha256": "29473261e2a1ddb9463c276b1fedfc66dbce5a75be620f9bcdc748e8c72550ca"
+      }
+    },
+    "review/AIEL-CAND-034": {
+      "baseline_sha256": null,
+      "record_sha256": "cf2ef3a52227eecd05ef70418725c45fb3e83ad8d65f934224dc4ddf420a9d21",
+      "evidence": {
+        "mo-ctapp-order": {
+          "path": "data/admission/raw/aiel-cand-034/mo-ctapp-order.txt",
+          "official_url": "https://damiencharlotin.com/documents/3051/State_of_Missouri_v._Richardson_USA_8_September_2026.pdf",
+          "sha256": "163aa65c3921f1bc31654fd4c023c586d080002359e14bc2a5704c0e7626c074",
+          "document_id": "ED114731",
+          "document_title": "State ex rel. Schnell v. Honorable Rebecca Richardson, order denying writ and imposing sanctions",
+          "issuing_body": "Missouri Court of Appeals, Eastern District",
+          "document_type": "order",
+          "version": "Issued 2026-09-08; mirror copy retrieved 2026-09-22",
+          "locator": "Caption page and the Rule 55.03 sanctions discussion, including the court's disclaimer that AI use is incidental to the sanction",
+          "excerpt": "Conley’s response to the show cause order stated that she used generative artificial",
+          "identity_excerpts": [
+            "ED114731",
+            "SCHNELL",
+            "RICHARDSON"
+          ],
+          "ai_attribution_excerpt": "Conley’s response to the show cause order stated that she used generative artificial",
+          "acquisition": "primary_retrieval",
+          "provenance_note": "Obtained from the Damien Charlotin hallucinations index, which is a discovery mirror and not the issuing body. The record itself cites no source and carries the gap in reason_for_review; this evidence records where the retained bytes came from, not a citable source.",
+          "retrieval": {
+            "http_status": 200,
+            "retrieved_at": "2026-09-22T21:05:13Z",
+            "content_type": "application/pdf",
+            "final_url": "https://websitedc.s3.amazonaws.com/documents/State_of_Missouri_v._Richardson_USA_8_September_2026.pdf",
+            "original_path": "data/admission/raw/aiel-cand-034/mo-ctapp-order.pdf",
+            "original_sha256": "1b57ffc86ab10b55b8882fd229d9628eb869ad0ed2a52283584df093f08a9e4c"
+          }
+        }
+      },
+      "units": {
+        "dataset": {
+          "before_sha256": null,
+          "after_sha256": "fe82cb229e29dfc87a309c8d1679ff9f58be239c8e6f3ff52bc431efb3709b6b",
+          "candidate_content": "review",
+          "reason": "Records this source-supported unit of AIEL-CAND-034 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-CAND-034 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "mo-ctapp-order"
+          ]
+        },
+        "field:best_available_sources": {
+          "before_sha256": null,
+          "after_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+          "candidate_content": "",
+          "reason": "Records this source-supported unit of AIEL-CAND-034 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-CAND-034 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "mo-ctapp-order"
+          ]
+        },
+        "field:candidate_id": {
+          "before_sha256": null,
+          "after_sha256": "4acdeed8b86f814da2286fa40d62ed543cc6ecbbe0fe8976c09806d1d7dd3843",
+          "candidate_content": "AIEL-CAND-034",
+          "reason": "Records this source-supported unit of AIEL-CAND-034 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-CAND-034 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "mo-ctapp-order"
+          ]
+        },
+        "field:candidate_matter": {
+          "before_sha256": null,
+          "after_sha256": "dd0d856b6a7c9c48bae32c0d3fd6c789e76d61e9833de0f965d0850e0789e037",
+          "candidate_content": "State of Missouri ex rel. Steven Schnell v. Honorable Rebecca Richardson, No. ED114731 (Mo. Ct. App. E.D., Writ Division Four, 8 September 2026)",
+          "reason": "Records this source-supported unit of AIEL-CAND-034 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-CAND-034 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "mo-ctapp-order"
+          ]
+        },
+        "field:candidate_title": {
+          "before_sha256": null,
+          "after_sha256": "32d7f40ace185fdb6eba412e60b56db72d5a2c1f9833e0e506a10f424085e84b",
+          "candidate_content": "Missouri Court of Appeals sanctions counsel over two non-existent cases while disclaiming any sanction for using AI as such",
+          "reason": "Records this source-supported unit of AIEL-CAND-034 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-CAND-034 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "mo-ctapp-order"
+          ]
+        },
+        "field:last_checked_date": {
+          "before_sha256": null,
+          "after_sha256": "9ae0631fc55f60fea857df73e2f5282345c3cbd3446a30c9380aa2bacb70f0e4",
+          "candidate_content": "2026-09-22",
+          "reason": "Records this source-supported unit of AIEL-CAND-034 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-CAND-034 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "mo-ctapp-order"
+          ]
+        },
+        "field:next_verification_step": {
+          "before_sha256": null,
+          "after_sha256": "71feeb33fa4491bec1358acc6f2d6326d6b5c10910a9b5ad4f2ea15cf53e5074",
+          "candidate_content": "Retrieve the order from the Missouri Court of Appeals, Eastern District, through courts.mo.gov when its opinion index is serving, and confirm the panel, the obligor and that the $1,750 runs to the underlying petitioners rather than to the court.",
+          "reason": "Records this source-supported unit of AIEL-CAND-034 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-CAND-034 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "mo-ctapp-order"
+          ]
+        },
+        "field:reason_for_review": {
+          "before_sha256": null,
+          "after_sha256": "c3e2d39d2dbce561dea801d015e14bb051b08a1f9c34786d402facc55b43fe14",
+          "candidate_content": "Gate 1 is satisfied on the order’s own text: counsel’s \"response to the show cause order stated that she used generative artificial\" intelligence to research authorities and failed to verify them. The writ petition was denied and $1,750 imposed under Mo. R. Civ. P. 55.03. Two framing points matter for any eventual record. The sanction runs as attorney’s fees payable to the opposing private parties, not as a fine to the court, so the tracker’s amount is right but its character is not. And the panel expressly disclaims sanctioning the use of AI itself: \"The use of AI is only incidental to the sanction.\" That is a framing statement rather than a displacement, since the order’s own mechanism for the fabrication is unverified generative-AI research. The judge named in the caption is the respondent by writ convention and used no AI. Held on gate 2 alone: courts.mo.gov returned HTTP 500 and then an empty body for its opinion index across repeated attempts, and CourtListener carries no opinion for this matter.",
+          "reason": "Records this source-supported unit of AIEL-CAND-034 from the retained document without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-CAND-034 was checked against the retained document in this packet.",
+            "exceptions": "No citable original location, professional-discipline outcome, subsequent phase, legal entailment, exhaustive discovery or authenticated human approval is certified. The candidate is held in review precisely because no issuing-body publication was reachable.",
+            "time": "The document's own date is recorded in the candidate fields; the retained copy was obtained 2026-09-22. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "mo-ctapp-order"
+          ]
+        }
+      },
+      "unresolved": [
+        "No issuing-body publication of this document was reachable, so the candidate carries no source URL and cannot be promoted until one is obtained.",
+        "The retained bytes come from a discovery mirror rather than the issuing body; the content was read and checked, but authenticity rests on internal consistency rather than on the issuing body's own delivery."
+      ],
+      "review": {
+        "actor": "claude:find-new-cases-sweep-2026-09-22",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Complete source-consistency review of the new review candidate AIEL-CAND-034 against the retained document named in this packet. No promotion, no human approval and no Verified freshness is asserted.",
+        "reviewed_at": "2026-09-22T21:06:57.272Z",
+        "packet_sha256": "d66bc178c19119d74f16942aa5269030864c0294a61cbc8e69bb92dcde8f8344"
       }
     }
   }

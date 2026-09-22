@@ -1,0 +1,501 @@
+                 This opinion is nonprecedential except as provided by
+                       Minn. R. Civ. App. P. 136.01, subd. 1(c).
+
+                              STATE OF MINNESOTA
+                              IN COURT OF APPEALS
+                                    A25-2106
+                                    A26-0532
+
+                               Michael Kwabena Asiedu,
+                                      Appellant,
+
+                                           vs.
+
+                                 Terry Eastlund, et al.,
+                                     Respondents.
+
+                               Filed September 8, 2026
+                                      Affirmed
+                                    Larson, Judge
+
+                            Olmsted County District Court
+                              File No. 55-CV-25-2902
+
+Michael Kwabena Asiedu, Milwaukee, Wisconsin (self-represented appellant)
+
+Gregory J. Griffiths, Christopher W. Coon, Dunlap and Seeger, P.A., Rochester, Minnesota
+(for respondents)
+
+      Considered and decided by Ross, Presiding Judge; Larson, Judge; and Beane, Judge.
+
+                         NONPRECEDENTIAL OPINION
+
+LARSON, Judge
+
+      Appellant Michael Kwabena Asiedu challenges the district court’s decision to
+
+dismiss his complaint under Minn. R. Civ. P. 12.02(e) and impose sanctions. We affirm.
+
+                                        FACTS
+
+      In May 2025, Asiedu filed an amended complaint naming respondents Olmsted
+
+County’s Health, Housing, and Human Services division (the county), Teri Eastlund
+(caseworker Eastlund), Kris Giere (supervisor Giere), and John Does 1-5 1 as defendants.
+
+The county is a governmental subdivision “that administers child protection services.”
+
+Caseworker Eastlund and supervisor Giere are county employees working in “child
+
+protection services.”    John Does 1-5 are “other county employees or agents who
+
+participated in the acts alleged.”
+
+       According to the complaint, 2 respondents removed Asiedu’s 12-year-old child
+
+(child) from school without a court order, child-in-need-of-protection-or-services petition,
+
+or emergency-removal findings.       The complaint asserts that respondents’ reason for
+
+removing child was “false and unsubstantiated claims” that child “had disclosed abuse.”
+
+Respondents placed child in protective care. Caseworker Eastlund then authored a safety
+
+plan (the plan), which child signed. The plan contained the “false and unsubstantiated”
+
+abuse allegations. The plan was disseminated to third parties. Because of the plan, Asiedu
+
+lost access to child’s education and health information, had restricted access to child, and
+
+was not able to make decisions about child’s schooling or health. Respondents then refused
+
+to give Asiedu access to the plan, case notes, or other relevant records. Based upon these
+
+allegations, Asiedu asserted five claims against respondents, including a claim under
+
+42 U.S.C. § 1983 (2025), and four state-law claims.
+
+
+
+
+1
+  We refer to caseworker Eastlund, supervisor Giere, and John Does 1-5 collectively as
+“employees.”
+2
+  In reviewing a district court’s decision to grant a motion to dismiss, “we must accept the
+allegations in [the] complaint as true.” Sterry v. Minn. Dep’t of Corr., 8 N.W.3d 224, 228
+(Minn. 2024).
+
+                                             2
+       Respondents moved to dismiss under Rule 12.02(e). As relevant here, respondents
+
+asserted that Asiedu’s claims failed because respondents were entitled to qualified and
+
+official immunity. Following a hearing, the district court agreed and granted respondents’
+
+motion. Using its inherent authority, the district court also sanctioned Asiedu on the
+
+ground that he provided caselaw in a manner that was “either misleading, false, [or] non-
+
+existent.”   The district court determined the appropriate sanction was respondents’
+
+reasonable costs and attorney fees in the amount of $2,341.25.
+
+       Asiedu appeals. 3
+
+                                       DECISION
+
+       Asiedu challenges the district court’s decisions to dismiss his complaint under
+
+Rule 12.02(e) and impose sanctions. 4 We address each challenge in turn.
+
+                                            I.
+
+       Asiedu first challenges the district court’s decision to dismiss his complaint under
+
+Rule 12.02(e). A district court must dismiss a complaint that fails “to state a claim upon
+
+which relief can be granted.” Minn. R. Civ. P. 12.02(e). A claim withstands a motion to
+
+dismiss if “it is possible on any evidence which might be produced, consistent with the
+
+
+3
+  Before the district court adjudicated the amount of attorney fees, Asiedu appealed. We
+dismissed the attorney-fees portion of Asiedu’s appeal as premature. Following the district
+court’s decision on the amount of costs and attorney fees, Asiedu appealed and moved to
+consolidate. We granted that request.
+4
+  In district court, Asiedu “reasserted” a motion for a temporary restraining order, which
+the district court declined to address because Asiedu failed to request permission to bring
+a motion to reconsider. Asiedu appears to challenge that decision on appeal, but we decline
+to reach any arguments regarding this decision because they are inadequately briefed. See
+State Dep’t of Lab. & Indus. v. Wintz Parcel Drivers, Inc., 558 N.W.2d 480, 480 (Minn.
+1997) (declining to address inadequately briefed question).
+
+                                            3
+pleader’s theory, to grant the relief demanded.” Walsh v. U.S. Bank, N.A., 851 N.W.2d
+
+598, 603 (Minn. 2014). We review whether a complaint sets forth a legally sufficient claim
+
+de novo, accepting the facts alleged in the complaint as true and construing all reasonable
+
+inferences in favor of the nonmoving party. Sterry, 8 N.W.3d at 235. 5
+
+       As relevant here, 6 Asiedu argues the district court erred when it dismissed his
+
+complaint on the ground that respondents were entitled to immunity. To resolve these
+
+arguments, we first address whether employees were entitled to qualified immunity from
+
+Asiedu’s section 1983 claim. 7 Second, we address whether respondents were entitled to
+
+official and vicarious official immunity on Asiedu’s state-law claims. Whether a party is
+
+immune from suit is a legal question that we review de novo. Mumm v. Mornson, 708
+
+N.W.2d 475, 481 (Minn. 2006) (addressing both qualified and official immunity).
+
+       A.     Qualified Immunity
+
+       Asiedu argues the district court erred when it determined employees were entitled
+
+to qualified immunity from his section 1983 claim. Section 1983 8 provides a private right
+
+
+5
+  Because we independently review whether Asiedu failed to state a claim upon which
+relief could be granted, we do not reach Asiedu’s argument that the district court
+improperly construed his complaint. See Sterry, 8 N.W.3d at 235 (noting we review district
+court’s decision to grant motion to dismiss de novo).
+6
+  Because we resolve this appeal on immunity grounds, we do not reach Asiedu’s
+alternative arguments regarding the merits.
+7
+  We do not discern that Asiedu raises any arguments on appeal to challenge the merits of
+the district court’s decision that the county was entitled to “vicarious qualified immunity.”
+To the extent Asiedu intended to raise this issue, it was inadequately briefed, and we
+decline to consider it. See State Dep’t of Lab. & Indus., 558 N.W.2d at 480 (declining to
+address inadequately briefed question).
+8
+  Section 1983 creates a cause of action if a person, under color of state law, “subjects, or
+causes to be subjected, any citizen of the United States . . . to the deprivation of any rights,
+privileges, or immunities secured by the Constitution and laws.”
+
+                                               4
+of action for damages when state officials violate a person’s constitutional rights. McDeid
+
+v. Johnston, 984 N.W.2d 864, 871 (Minn. 2023) (citing Ziglar v. Abbasi, 582 U.S. 120,
+
+129 (2017)). Qualified immunity shields a government official from civil liability under
+
+section 1983 if “their conduct does not violate clearly established statutory or constitutional
+
+rights of which a reasonable person would have known.” Mumm, 708 N.W.2d at 483
+
+(quoting Harlow v. Fitzgerald, 457 U.S. 800, 818 (1982)).             Questions of qualified
+
+immunity “should be resolved at the earliest possible stage to shield [officials] from
+
+disruptive effects of broad-ranging discovery and effects of litigation.” Elwood v. Rice
+
+County, 423 N.W.2d 671, 675 (Minn. 1988) (citing Anderson v. Creighton, 483 U.S. 635,
+
+646 n.6 (1987)). As such, plaintiffs must provide more than conclusory allegations and
+
+“should supply in their complaints or other supporting materials greater factual specificity
+
+and particularity than is usually required.” Id. at 676 (quotation omitted).
+
+       To evaluate a qualified-immunity claim, we must assess “whether the facts alleged
+
+are adequate to show a constitutional violation,” and “whether the law regarding the right
+
+allegedly violated ‘was clearly established.’” Mumm, 708 N.W.2d at 483 (quoting Saucier
+
+v. Katz, 533 U.S. 194, 201 (2001)). “A constitutional right is clearly established when its
+
+contours are sufficiently clear that a reasonable official would understand that what he is
+
+doing violates that right.” Welters v. Minn. Dep’t of Corr., 982 N.W.2d 457, 480 (Minn.
+
+2022) (quotation omitted).
+
+
+
+
+                                              5
+       Asiedu argues he stated a claim that employees violated his substantive due-process
+
+rights. 9 “To state a substantive due process claim against a state official, a plaintiff must
+
+demonstrate that a fundamental right was violated and that the official’s conduct shocks
+
+the conscience.” Mitchell v. Dakota Cnty. Soc. Servs., 959 F.3d 887, 898 (8th Cir. 2020).
+
+“Conscience shocking conduct only includes ‘the most severe violations of individual
+
+rights that result from the brutal and inhumane abuse of official power.’” Id. (quoting
+
+White v. Smith, 696 F.3d 740, 757-58 (8th Cir. 2012)). “Only a purpose to cause harm
+
+unrelated to the legitimate object of the government action in question will satisfy the
+
+element of arbitrary conduct shocking to the conscience, necessary for a [substantive] due
+
+process violation.” Folkerts v. City of Waverly, 707 F.3d 975, 981 (8th Cir. 2010)
+
+(emphasis omitted).
+
+       We conclude that Asiedu failed to allege the conscious-shocking behavior necessary
+
+to establish a violation of his substantive due-process rights. Asiedu’s allegations against
+
+employees all “derive from actions taken during the course of a child abuse investigation.”
+
+See Mitchell, 959 F.3d at 898. Even assuming as true that the abuse allegations were “false
+
+and unsubstantiated,” reliance on those allegations to ensure child’s safety “is not an
+
+egregious abuse of power that shocks the conscience.”           Id.; see also Fitzgerald v.
+
+Williamson, 787 F.2d 403, 408 (8th Cir. 1986) (concluding caseworker conduct did not
+
+
+9
+  The complaint also alleged that respondents violated Asiedu’s procedural due-process
+rights. But to sustain such a claim, Asiedu must allege facts demonstrating that respondents
+deprived him of “notice and an opportunity to be heard at a meaningful time and in a
+meaningful manner.” Sawh v. City of Lino Lakes, 823 N.W.2d 627, 632 (Minn. 2012)
+(quotation omitted). Asiedu made no such allegations and, accordingly, Asiedu’s
+section 1983 claim related to procedural due process fails.
+
+                                              6
+shock the conscience when caseworker “arranged for the child to be examined by a
+
+psychologist and, after receiving confirmation of child abuse, reduced the parents’
+
+visitation rights”). Accordingly, the district court did not err when it dismissed Asiedu’s
+
+section 1983 claim with respect to employees because they were entitled to qualified
+
+immunity.
+
+       B.     Official and Vicarious Official Immunity
+
+       Asiedu challenges the district court’s decision to dismiss his state-law claims on the
+
+grounds that employees were entitled to common-law official immunity and the county
+
+was entitled to common-law vicarious official immunity. Common-law official immunity
+
+provides that a public official cannot be held personally liable for damages from carrying
+
+out “duties which call for the exercise of [their] judgment or discretion.” Elwood, 423
+
+N.W.2d at 677 (quotation omitted). Official immunity protects individual government
+
+actors so they may “perform their duties effectively, without fear of personal liability that
+
+might inhibit the exercise of their independent judgment.” Kariniemi v. City of Rockford,
+
+882 N.W.2d 593, 600 (Minn. 2016) (quotation omitted).
+
+       “Official immunity is subject to two limitations.” Jepsen as Tr. for Dean v. County
+
+of Pope, 966 N.W.2d 472, 482 (Minn. 2021). First, a public official is not entitled to
+
+official immunity if their “exercise of independent [judgment] or discretion is a willful or
+
+malicious wrong—meaning that the public official intentionally performs a wrongful act
+
+without legal justification or excuse or willfully violates a known right of the plaintiff.” Id.
+
+Second, a public official is not entitled to official immunity if they “fail[] to perform or
+
+negligently perform[] an act that is deemed ministerial.” Id. (quotation omitted).
+
+
+                                               7
+       Asiedu first argues, without citation to any authority, that the allegations in his
+
+complaint sufficiently allege “willful or malicious” conduct on the part of employees. In
+
+this context, “wil[l]ful and malicious are synonymous” and mean “the intentional doing of
+
+a wrongful act without legal justification or excuse, or, otherwise stated, the willful
+
+violation of a known right.” Rico v. State, 472 N.W.2d 100, 107 (Minn. 1991). And, as
+
+observed by the district court, there are no allegations in the complaint that employees
+
+acted with an improper motive in their efforts to respond to an allegation of child abuse—
+
+even assuming as true that the allegation was “false and unsubstantiated.”
+
+       Asiedu argues second, again without citation to any authority, that employees were
+
+not acting in “an open-ended discretionary function” because they failed to follow the
+
+proper statutory process for removing a child from a parent’s care. Common-law official
+
+immunity applies to a public official’s “discretionary” duties, but not their “ministerial”
+
+duties. Anderson v. Anoka Hennepin Indep. Sch. Dist. 11, 678 N.W.2d 651, 655 (Minn.
+
+2004) (quotation omitted). To determine whether an act is ministerial or discretionary, we
+
+focus “on the nature of the act at issue.” Id. at 656. “A discretionary act requires the
+
+exercise of individual judgment.” Kari v. City of Maplewood, 582 N.W.2d 921, 923 (Minn.
+
+1998). Whereas a ministerial duty is “absolute, certain, and imperative, involving merely
+
+the execution of a specific duty arising from fixed and designated facts.” Johnson v. State,
+
+553 N.W.2d 40, 46 (Minn. 1996) (quotation omitted).
+
+       With respect to employees, Asiedu alleged that, in their role working for “child
+
+protection services,” they placed child in protective custody, created the plan based on
+
+fabricated allegations, disseminated the plan to third parties, and denied Asiedu access to
+
+
+                                             8
+relevant information. We conclude that these are discretionary duties. See Olson v.
+
+Ramsey County, 509 N.W.2d 368, 371-72 (Minn. 1993) (concluding county worker
+
+exercised discretionary duties when making case plan). And in our independent review,
+
+we find no support for Asiedu’s assertion that, because he alleged the discretionary conduct
+
+did not comport with existing law, employees are not entitled to official immunity. See,
+
+e.g., Elwood, 423 N.W.2d at 676-79 (concluding police officers were entitled to official
+
+immunity even though they unlawfully entered home without warrant).
+
+       Moving to the county, if common-law official immunity applies to a public official’s
+
+conduct, the government employer generally will be vicariously immune from suit as well.
+
+See Schroeder v. St. Louis County, 708 N.W.2d 497, 508 (Minn. 2006). “Ultimately, the
+
+extension of vicarious official immunity is a policy question for the court.” Id. Even so,
+
+granting official immunity to an employee while denying it to their employer would put
+
+“stifling attention on the social worker’s performance, to the serious detriment of that
+
+performance.” Olson, 509 N.W.2d at 372. Because employees were entitled to official
+
+immunity, we conclude that the district court correctly extended the same protection to the
+
+county.
+
+       For these reasons, we conclude the district court correctly dismissed Asiedu’s state-
+
+law claims.
+
+                                             II.
+
+       Asiedu challenges the district court’s decision to impose sanctions using its inherent
+
+power and to award respondents attorney fees. District courts possess inherent authority
+
+to impose sanctions to protect “their vital function—the disposition of individual cases to
+
+
+                                             9
+deliver remedies for wrongs and justice freely and without purchase; completely and
+
+without denial; promptly and without delay, conformable to the laws.” Patton v. Newmar
+
+Corp., 538 N.W.2d 116, 118 (Minn. 1995) (quotations omitted). We review a district
+
+court’s decision to use its inherent authority to impose sanctions in the form of attorney
+
+fees for an abuse of discretion. Peterson v. 2004 Ford Crown Victoria, 792 N.W.2d 454,
+
+461 (Minn. App. 2010). “Attorney fees may be an appropriate sanction when a party has
+
+‘acted in bad faith, vexatiously, wantonly, or for oppressive reasons.’” Id. at 462 (quoting
+
+Chambers v. NASCO, Inc., 501 U.S. 32, 45-46 (1991)). A party challenging a district
+
+court’s decision to impose attorney fees using its inherent authority “has the difficult
+
+burden of convincing” our court that “‘no reasonable person’” would agree with the
+
+imposition of sanctions. Patton, 538 N.W.2d at 119 (quoting Marrocco v. Gen. Motors
+
+Corp., 966 F.2d 220, 223 (7th Cir. 1992)).
+
+       Here, the district court found that Asiedu repeatedly misrepresented caselaw, either
+
+by citing a case for the wrong legal principle or citing non-existent cases. And during the
+
+hearing, Asiedu admitted that he used artificial intelligence as a research tool to draft his
+
+filings and did not ensure the accuracy of the caselaw citations on the basis that he was
+
+“doing this part time.” The district court determined that, in doing so, Asiedu did not
+
+conduct himself in accordance with the promises he made to the court when signing his
+
+documents. Cf. Minn. R. Civ. P. 11.02(b) (stating that when signing pleadings, attorney
+
+certifies “the claims, defenses, and other legal contentions therein are warranted by existing
+
+law.”); Dehghani v. Castro, No. 2:25-CV-0052, 2025 WL 988009, at *6 (D.N.M. Apr. 2,
+
+2025) (finding a Fed. R. Civ. P. 11 violation for, in part, citing to non-existent case law
+
+
+                                             10
+because the citations “do not support the stated proposition.”), aff’d, 2025 WL 1361765
+
+(D.N.M. May 9, 2025); Ramirez v. Humala, No. 24-CV-242, 2025 WL 1384161, at *1
+
+(E.D.N.Y. May 13, 2025) (listing multiple district court decisions and a Second Circuit
+
+case finding “submission of nonexistent case citations in filings to the court” as amounting
+
+to a Fed. R. Civ. P. 11 violation). 10 The district court also concluded the citations misled
+
+the district court. See Matthew Garner v. Kadince, Inc., 571 P.3d 812, 815 (Utah Ct. App.
+
+2025) (“A fake opinion is not ‘existing law’ that can support a party’s legal contention.”
+
+(citation omitted)).
+
+       Based upon this record, we conclude the district court found that Asiedu acted in
+
+bad faith when he did not ensure the accuracy of the caselaw citations on the basis that he
+
+was “doing this part time.” We hold pro se parties to the same standard as attorneys when
+
+filing documents in court. See Fitzgerald v. Fitzgerald, 629 N.W.2d 115, 119 (Minn. App.
+
+2001) (“[P]ro se litigants are generally held to the same standards as attorneys and must
+
+comply with court rules.”). Accordingly, we conclude Asiedu has not met his burden to
+
+show the district court abused its discretion when it imposed sanctions. See Patton, 538
+
+N.W.2d at 119.
+
+       Affirmed.
+
+
+
+
+10
+  “Though they do not bind us, we consider federal court opinions for their persuasive
+value and afford those opinions due deference.” Laliberte v. Dollar Tree, Inc., 987 N.W.2d
+590, 594 n.4 (Minn. App. 2023) (quotation omitted).
+
+                                             11
+

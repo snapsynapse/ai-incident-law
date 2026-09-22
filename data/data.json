@@ -2902,6 +2902,24 @@
           "next_verification_step": "Steward policy decision: decline, or retain in review as a limiting precedent alongside Mullins v. Duquesne and Maxwell v. Michael. Do not promote on this record without a documented reason why an unexplained generative-AI CLE sanction counts as the source discussing AI in connection with the defect despite the recorded denial and the adopted internet-search mechanism. If pursuing admission, first retrieve the TTAB opinion of February 7, 2024 in Cancellation No. 92077944 (TTABVUE) and check whether the Board itself discussed AI; the OED order's quotations from it do not. Any admitted record must carry attribution-not-determined, confidence_score no higher than low, and must not assert that AI caused the defect.",
           "best_available_sources": "https://foiadocuments.uspto.gov/oed/Matos-Final-Order-(D2025-13)-Redacted.pdf",
           "last_checked_date": "2026-09-10"
+        },
+        {
+          "candidate_id": "AIEL-CAND-033",
+          "candidate_title": "Minnesota Court of Appeals affirms sanctions against a self-represented appellant who admitted using AI to draft filings",
+          "candidate_matter": "Asiedu v. Eastlund, Nos. A25-2106 and A26-0xxx (Minn. Ct. App., nonprecedential opinion filed 8 September 2026)",
+          "reason_for_review": "Gate 1 is satisfied on the opinion’s own text: at a hearing the appellant \"admitted that he used artificial intelligence as a research tool to draft his\" filings and did not ensure the accuracy of the citations, and the court affirmed dismissal together with inherent-authority sanctions for citing misleading, misrepresented and non-existent caselaw. The tool is unnamed. The award of $2,341.25 is respondents’ reasonable costs and attorney fees, a fee-shift computed from actual costs rather than a flat fine; the tracker’s \"2341\" drops the cents and implies a penalty. Held on gate 2 alone: no citable original was reachable. The Minnesota opinion archive at mn.gov/law-library-stat sits behind a Radware Bot Manager CAPTCHA that answers HTTP 200 with a challenge page, mncourts.gov returns HTTP 403 to scripted requests, and CourtListener carries no opinion for this matter.",
+          "next_verification_step": "Retrieve the nonprecedential opinion from the Minnesota Court of Appeals through a browser pass at mn.gov/law-library-stat/archive/ctapun/2026/, or via a CourtListener opinion result once one appears, and confirm the second appeal number, the panel and the exact $2,341.25 award before promotion.",
+          "best_available_sources": "",
+          "last_checked_date": "2026-09-22"
+        },
+        {
+          "candidate_id": "AIEL-CAND-034",
+          "candidate_title": "Missouri Court of Appeals sanctions counsel over two non-existent cases while disclaiming any sanction for using AI as such",
+          "candidate_matter": "State of Missouri ex rel. Steven Schnell v. Honorable Rebecca Richardson, No. ED114731 (Mo. Ct. App. E.D., Writ Division Four, 8 September 2026)",
+          "reason_for_review": "Gate 1 is satisfied on the order’s own text: counsel’s \"response to the show cause order stated that she used generative artificial\" intelligence to research authorities and failed to verify them. The writ petition was denied and $1,750 imposed under Mo. R. Civ. P. 55.03. Two framing points matter for any eventual record. The sanction runs as attorney’s fees payable to the opposing private parties, not as a fine to the court, so the tracker’s amount is right but its character is not. And the panel expressly disclaims sanctioning the use of AI itself: \"The use of AI is only incidental to the sanction.\" That is a framing statement rather than a displacement, since the order’s own mechanism for the fabrication is unverified generative-AI research. The judge named in the caption is the respondent by writ convention and used no AI. Held on gate 2 alone: courts.mo.gov returned HTTP 500 and then an empty body for its opinion index across repeated attempts, and CourtListener carries no opinion for this matter.",
+          "next_verification_step": "Retrieve the order from the Missouri Court of Appeals, Eastern District, through courts.mo.gov when its opinion index is serving, and confirm the panel, the obligor and that the $1,750 runs to the underlying petitioners rather than to the court.",
+          "best_available_sources": "",
+          "last_checked_date": "2026-09-22"
         }
       ]
     },
@@ -3244,6 +3262,38 @@
           "source_language": "Hebrew",
           "translation_status": "partial",
           "last_checked_date": "2026-09-02"
+        },
+        {
+          "candidate_id": "AIEL-GLOB-023",
+          "candidate_title": "Supreme Court of India sets aside a customs penalty order built on AI-hallucinated precedent",
+          "country": "India",
+          "region": "APAC / Commonwealth",
+          "event_grain": "individualized_error_event",
+          "candidate_matter": "Vijay Ghanshyam Gadiya v. Union of India & Anr., 2026 INSC 947, Civil Appeal arising out of SLP (Civil) No. 15605 of 2026 (Supreme Court of India, 2 September 2026)",
+          "authority_type": "court; administrative/quasi-judicial customs authority",
+          "legal_basis": "Section 114, Customs Act 1962; principles governing reliance on non-existent precedent in quasi-judicial adjudication",
+          "reason_for_review": "Gate 1 is satisfied in the Court’s own voice after independent checking: it found the authorities relied on in the Order-in-Original \"are generated using Artificial Intelligence\" and that a passage \"appears to be a hallucination of AI\". Adjudicator-side, but the AI-using adjudicator is an Additional Commissioner of Customs exercising quasi-judicial power, not a judicial officer, so the tracker’s \"Judge\" tag over-claims; no judge of the High Court or the Supreme Court used AI. The Court set aside both the High Court order and the Order-in-Original imposing a penalty of Rs 425,27,99,100 and remitted the matter to a different officer of the same rank, leaving action against the author of the order to the appointing authority. The judgment goes beyond the individual matter, distinguishing legitimate assistive use of AI from reliance on fabricated material as though it were precedent, and referring to draft Regulations for Use of Artificial Intelligence in Courts, 2026. Held on gate 2 alone: no citable original was reachable. A guessed api.sci.gov.in judgment path returned HTTP 200 with a zero-byte body, digiscr.sci.gov.in does not resolve, and the eCourts judgment portal is a JavaScript search application behind tokens.",
+          "next_verification_step": "Retrieve the signed judgment from the Supreme Court of India, either through the eCourts judgment portal in a browser or by resolving the digital-signature or QR verification route printed on the signed copy, and confirm the neutral citation 2026 INSC 947, the bench and the penalty figure before promotion. The draft Regulations for Use of Artificial Intelligence in Courts, 2026 are separately worth routing to EveryAILaw.",
+          "best_available_sources": "",
+          "source_language": "English",
+          "translation_status": "not needed",
+          "last_checked_date": "2026-09-22"
+        },
+        {
+          "candidate_id": "AIEL-GLOB-024",
+          "candidate_title": "Australian court orders personal costs against a practitioner over eleven hallucinated authorities but declines to refer him to the regulator",
+          "country": "Australia",
+          "region": "APAC / Commonwealth",
+          "event_grain": "individualized_error_event",
+          "candidate_matter": "Dey v Minister for Immigration and Citizenship (No 2) [2026] FedCFamC2G 1799 (Federal Circuit and Family Court of Australia, Division 2, Judge Bingham, 14 September 2026)",
+          "authority_type": "court",
+          "legal_basis": "Costs against a practitioner personally; Rule 3.1, Legal Profession Uniform Law Australian Solicitors’ Conduct Rules 2015 (paramount duty to the court)",
+          "reason_for_review": "Gate 1 is satisfied on admissions recorded in the reasons: the practitioner \"admits that six authorities referred to in the judicial review submissions were hallucinations and five of the\" authorities in the First Costs Submission were also hallucinations, and he did so only after the Court sought clarification. Costs were ordered in two parts, $6,700 payable by Mr Dey and $9,600 payable personally by the practitioner; the tracker reports only the second figure and its penalty column is unusable. The reason to admit this record is the contrast it draws with AIEL-GLOB-020 (Asif), which holds that a lay litigant owes no duty to the court and so cannot be referred to any regulator. Here the respondent is a practitioner who does owe that duty and referral was available, yet the Court declined it, having made no finding of unsatisfactory professional conduct or professional misconduct, treating referral as an administrative act any party could take independently, and noting that declining to refer does not require anonymising the practitioner. The Court also records a practice direction on AI use that took effect 29 May 2026 and did not apply to these proceedings. Held on gate 2 alone: the retained copy is an AustLII rendering rather than the court’s own publication, AustLII is an aggregator and bars citation, and fcfcoa.gov.au was unreachable from this run behind a Radware Bot Manager CAPTCHA.",
+          "next_verification_step": "Retrieve the reasons from the Federal Circuit and Family Court of Australia’s own judgment database through a browser pass at fcfcoa.gov.au, confirm the neutral citation [2026] FedCFamC2G 1799 and both costs figures, and establish what the first judgment, [2026] FedCFamC2G 373, decided and whether it warrants its own record. The Court’s AI practice direction of 29 May 2026 is separately worth routing to EveryAILaw.",
+          "best_available_sources": "",
+          "source_language": "English",
+          "translation_status": "not needed",
+          "last_checked_date": "2026-09-22"
         }
       ]
     }
