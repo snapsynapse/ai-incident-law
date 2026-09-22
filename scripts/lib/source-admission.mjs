@@ -209,10 +209,44 @@ export function validateAdmission({ data, legacy, admissions, root, priorAdmissi
       errors.push(key + ": legacy record removal requires a separately reviewed retirement migration");
     }
   }
-  for (const key of Object.keys(admissions.records || {})) {
-    if (!Object.hasOwn(current, key)) {
-      errors.push(key + ": admission receipt references a missing native record");
+  // A candidate promoted into another dataset leaves its own native record behind. The
+  // superseding record's receipt must name it, and the superseded receipt stays in the
+  // inventory, so a promotion is explicit and nothing is dropped to restore legacy status.
+  const superseded = new Map();
+  for (const [key, receipt] of Object.entries(admissions.records || {})) {
+    if (!Object.hasOwn(receipt, "supersedes")) continue;
+    if (!Array.isArray(receipt.supersedes) || receipt.supersedes.length === 0) {
+      errors.push(key + ": supersedes must be a nonempty array of superseded receipt keys");
+      continue;
     }
+    if (!Object.hasOwn(current, key)) {
+      errors.push(key + ": a receipt for a missing native record cannot supersede another receipt");
+      continue;
+    }
+    for (const target of receipt.supersedes) {
+      if (target === key) {
+        errors.push(key + ": a receipt cannot supersede itself");
+        continue;
+      }
+      if (!Object.hasOwn(admissions.records || {}, target)) {
+        errors.push(key + ": supersedes an absent receipt " + target);
+        continue;
+      }
+      if (Object.hasOwn(current, target)) {
+        errors.push(key + ": cannot supersede " + target + " while its native record is still present");
+        continue;
+      }
+      if (superseded.has(target)) {
+        errors.push(key + ": " + target + " is already superseded by " + superseded.get(target));
+        continue;
+      }
+      superseded.set(target, key);
+    }
+  }
+  for (const key of Object.keys(admissions.records || {})) {
+    if (Object.hasOwn(current, key)) continue;
+    if (superseded.has(key)) continue;
+    errors.push(key + ": admission receipt references a missing native record");
   }
   for (const key of Object.keys(priorAdmissions?.records || {})) {
     if (!Object.hasOwn(admissions.records || {}, key)) {

@@ -3605,6 +3605,65 @@
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
       ]
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved"
+        }
+      ],
+      "@type": "of:Determination",
+      "@id": "https://aiincidentlaw.org/determination/aiel-2026-069-determination.json",
+      "id": "aiel-2026-069-determination",
+      "issuedBy": [
+        "https://aiincidentlaw.org/authority/u-s-patent-and-trademark-office.json"
+      ],
+      "jurisdiction": {
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. Patent and Trademark Office"
+        ]
+      },
+      "decides": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-069-allegation.json"
+      ],
+      "disposition": "confirmed",
+      "issued_date": "2026-07-27",
+      "remedy": {
+        "status": "reprimanded",
+        "notes": "Final Order approving a proposed settlement agreement, executed by the respondent on 2026-07-20 and by the OED Director on 2026-07-21, approved by the USPTO Director and setting out joint stipulated facts, joint legal conclusions and an agreed-upon sanction. Admitted on the stipulated facts: the order discusses AI in its own voice as the mechanism of the defective citations, so criterion 1 is satisfied without recourse to the undetermined-attribution rule. Admitted notwithstanding the absence of a court sanction, under the outcome-valence rule in INTENT.md: the AI-attributable defect is established even though the district court imposed no penalty. The order names neither AI tool, gives no date for the claim-chart submission, and states no proceeding filing date, so none is recorded here. Source observed 2026-09-09; the retained official PDF and its extracted text are held under data/admission/raw/aiel-2026-069."
+      },
+      "notes": "Final Order approving a proposed settlement agreement, executed by the respondent on 2026-07-20 and by the OED Director on 2026-07-21, approved by the USPTO Director and setting out joint stipulated facts, joint legal conclusions and an agreed-upon sanction. Admitted on the stipulated facts: the order discusses AI in its own voice as the mechanism of the defective citations, so criterion 1 is satisfied without recourse to the undetermined-attribution rule. Admitted notwithstanding the absence of a court sanction, under the outcome-valence rule in INTENT.md: the AI-attributable defect is established even though the district court imposed no penalty. The order names neither AI tool, gives no date for the claim-chart submission, and states no proceeding filing date, so none is recorded here. Source observed 2026-09-09; the retained official PDF and its extracted text are held under data/admission/raw/aiel-2026-069.",
+      "source": "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf",
+      "source_locator": "In re Brian E. Mitchell, Proceeding No. D2026-16 (USPTO Office of Enrollment and Discipline)",
+      "evidence_type": "primary record",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The order names neither AI tool, so the specific systems remain unidentified.",
+        "No date is established for the claim-chart submission or for the opening of the disciplinary proceeding, so no incident or filing date is recorded.",
+        "The district court's own docket was not retrieved; the no-sanction and dismissal facts rest on the order's recital and the respondent's representations within it."
+      ],
+      "ai_incident_law_record_id": "AIEL-2026-069"
     }
   ]
 }

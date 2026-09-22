@@ -6,6 +6,17 @@ Scope: ai-incident-law adopter-owned recognition and coverage declarations. F11 
 
 `tests/fixtures/of-scope-inventory.json` declares inventory version 1.0.0 and this adopter's owner, exact territorial/institutional identities, source pointers, extensions and any coverage statements. `tests/fixtures/of-scope-baseline.json` preserves exact projected record/path/value tuples and pins the inventory digest. This initial inventory is reviewed against the accepted P1 source projection, not newly certified legal geography or a fresh audit of each source record.
 
+### Inventory 1.1.0, 2026-09-22
+
+Adding the promoted record AIEL-2026-069 (In re Brian E. Mitchell, USPTO Proceeding No.
+D2026-16) introduced one institutional identity the inventory did not carry, `U.S. Patent
+and Trademark Office`, evidenced by the retained final order under
+`data/admission/raw/aiel-2026-069/`. The reviewed baseline diff is additive: ten claims
+added, none removed and none changed, all of them belonging to that record's Proceeding and
+Determination and to the Authority derived from its jurisdiction. Territorial scope resolves
+to `us` through the existing federal-body rule; no territorial identity was added. Coverage
+remains unspecified, therefore unknown.
+
 The initial inventory retains territorial scope and source forum/institution names independently. British Columbia remains `ca-bc` with parent `ca`; the parent is recognition metadata, never a rewrite rule. Coverage remains unspecified, therefore unknown. Curated versus inferred procedural meaning remains F15.
 
 ## Checks and maintenance

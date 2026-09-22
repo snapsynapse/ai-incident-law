@@ -203,7 +203,7 @@ test("Moffatt keeps the decision date off the proceeding and exposes reviewed-ch
   assert.equal(determination.source, "https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do");
 });
 
-test("source follow-up preserves source roles and keeps Mitchell pending human admission", async () => {
+test("source follow-up preserves source roles and projects the promoted Mitchell record", async () => {
   const source = JSON.parse(await readFile(path.join(ROOT, "data", "data.json"), "utf8"));
   const authorities = JSON.parse(await readFile(path.join(ROOT, "api", "v1", "of", "authorities.json"), "utf8")).authorities;
   const proceedings = JSON.parse(await readFile(path.join(ROOT, "api", "v1", "of", "proceedings.json"), "utf8")).proceedings;
@@ -213,7 +213,7 @@ test("source follow-up preserves source roles and keeps Mitchell pending human a
   const parks = included.find(record => record.error_id === "AIEL-2024-015");
   const murphy = included.find(record => record.error_id === "AIEL-2024-017");
   const cnn = included.find(record => record.error_id === "AIEL-2026-020");
-  const mitchell = source.datasets.review.records.find(record => record.candidate_id === "AIEL-CAND-031");
+  const mitchell = included.find(record => record.error_id === "AIEL-2026-069");
   const cnnAllegation = allegations.find(record => record.id === "aiel-2026-020-allegation");
 
   assert.equal(parks.source_quality, "primary record");
@@ -224,12 +224,20 @@ test("source follow-up preserves source roles and keeps Mitchell pending human a
   assert.equal(murphy.filing_status, "pending");
   assert.equal(cnn.public_record_link, "https://storage.courtlistener.com/recap/gov.uscourts.nysd.664916/gov.uscourts.nysd.664916.1.0_1.pdf");
   assert.equal(cnnAllegation.source, cnn.public_record_link);
+  // Promoted from AIEL-CAND-031 on the steward decision of 2026-09-22. The candidate's own
+  // record is gone; its accepted receipt survives because this record's receipt supersedes it.
+  assert.equal(source.datasets.review.records.some(record => record.candidate_id === "AIEL-CAND-031"), false);
   assert.equal(mitchell.last_checked_date, "2026-09-09");
-  assert.equal(mitchell.best_available_sources, "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf");
-  assert.match(mitchell.reason_for_review, /explicit per-candidate steward confirmation/);
-  assert.equal(authorities.some(record => record.id === "uspto-office-of-enrollment-and-discipline"), false);
-  assert.equal(proceedings.some(record => record.id === "aiel-2026-069-proceeding"), false);
-  assert.equal(determinations.some(record => record.id === "aiel-2026-069-determination"), false);
+  assert.equal(mitchell.last_verified_date, undefined, "an agent receipt cannot renew Verified");
+  assert.equal(mitchell.public_record_link, "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf");
+  assert.equal(mitchell.source_quality, "primary record");
+  assert.equal(mitchell.filing_status, "reprimanded");
+  assert.equal(authorities.some(record => record.id === "u-s-patent-and-trademark-office"), true);
+  const mitchellProceeding = proceedings.find(record => record.id === "aiel-2026-069-proceeding");
+  const mitchellDetermination = determinations.find(record => record.id === "aiel-2026-069-determination");
+  assert.equal(mitchellProceeding.projection_basis, "curated-legal-graph");
+  assert.equal(mitchellProceeding.filed_date, undefined, "the order establishes no proceeding filing date");
+  assert.equal(mitchellDetermination.issued_date, "2026-07-27");
 });
 
 test("partial filing dates remain source strings without fabricated day precision", async () => {

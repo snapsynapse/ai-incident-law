@@ -7,6 +7,39 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- AIEL-2026-069, In re Brian E. Mitchell (USPTO OED Proceeding No. D2026-16), promoted from
+  review candidate AIEL-CAND-031 on the steward decision of 2026-09-22. The final order
+  establishes that the respondent used one generative AI tool to draft proposed claim
+  constructions and a second to review them, that the AI-generated citations to the patent's
+  intrinsic record did not exist or were inaccurately attributed, and that the USPTO publicly
+  reprimanded him under 37 C.F.R. sections 11.101, 11.103, 11.804(c) and 11.804(d). Admitted
+  notwithstanding the district court's decision not to sanction, under the outcome-valence
+  rule. The order names neither AI tool and establishes no proceeding or incident date, so
+  none is recorded; the promotion carries `last_checked_date`, not Verified freshness.
+- Receipt supersession in the source-admission contract. Promoting a candidate removes its
+  native record while its accepted receipt must stay in the inventory, which the contract
+  previously had no way to express: keeping the receipt failed as a reference to a missing
+  record, and dropping it failed as a receipt dropped to restore legacy status. A receipt may
+  now declare `supersedes`, naming the candidate receipt it replaces. The checker requires the
+  superseding record to exist, refuses self-supersession, an absent target, a target whose
+  record is still present, and two receipts claiming the same target; the superseded receipt
+  stays as frozen history and `supersedes` is inside the review-packet digest. Four regression
+  tests cover the accepted path and each refusal. Contract in ops/SOURCE-ADMISSION.md.
+- Scope inventory 1.1.0 registers `U.S. Patent and Trademark Office` as an institutional
+  identity, evidenced by the retained final order. The reviewed baseline diff is additive:
+  ten claims added, none removed or changed. Recorded in docs/SCOPE-CONTRACT.md.
+
+### Fixed
+- Phone-width layout. The page scrolled horizontally below 980px because the filter controls
+  carried `min-width: auto` sized to their longest option text and the results track shared
+  the same min-content behaviour. Measured on the deployed page after the fix: scrollWidth
+  equals clientWidth at 375px.
+- OpenGraph and Twitter card metadata, absent although `imgs/og.png` was already served, so a
+  shared link produced no preview card.
+- sitemap.xml declared only the root at a lastmod of 2026-08-18. The three HTML documentation
+  pages are now declared and each carries the canonical link the search contract requires.
+
 ## [0.4.3] - 2026-09-12
 
 - Correct package-facing publication guidance so immutable npm artifacts do not claim a different published version or infer delivery from source state.

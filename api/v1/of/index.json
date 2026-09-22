@@ -10,11 +10,11 @@
     "tombstones": "tombstones.json"
   },
   "counts": {
-    "authorities": 59,
-    "parties": 67,
-    "proceedings": 69,
-    "allegations": 67,
-    "determinations": 63,
+    "authorities": 60,
+    "parties": 68,
+    "proceedings": 70,
+    "allegations": 68,
+    "determinations": 64,
     "tombstones": 8
   }
 }

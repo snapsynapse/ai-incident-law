@@ -1,8 +1,8 @@
 {
   "contract_version": 1,
-  "inventory_version": "1.0.0",
+  "inventory_version": "1.1.0",
   "owner": "https://aiincidentlaw.org/",
-  "source": "Initial inventory reviewed against accepted P1 projection; see docs/SCOPE-CONTRACT.md",
+  "source": "Initial inventory reviewed against accepted P1 projection; see docs/SCOPE-CONTRACT.md. 1.1.0 adds the USPTO as the institutional scope introduced by AIEL-2026-069.",
   "entries": [
     {
       "id": "Appellate Court of Illinois, First District",
@@ -354,6 +354,12 @@
     },
     {
       "id": "U.S. Government Accountability Office",
+      "kind": "institutional",
+      "source": "data/data.json; scripts/build-obligation-first.mjs",
+      "extension": false
+    },
+    {
+      "id": "U.S. Patent and Trademark Office",
       "kind": "institutional",
       "source": "data/data.json; scripts/build-obligation-first.mjs",
       "extension": false

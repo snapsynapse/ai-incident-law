@@ -78,9 +78,9 @@ receipt under `data/admission/`; what is missing is a human admission or policy 
 - AIEL-2024-001 (Moffatt v. Air Canada): whether a chatbot whose technical nature the
   decision does not describe satisfies the criterion 1 AI-discussion rule. See INTENT.md
   "Status".
-- AIEL-CAND-031 (In re Brian E. Mitchell, USPTO OED D2026-16): all four criteria appear
-  satisfied on the official order; promotion to `included` needs explicit steward
-  confirmation. A PAICE.work blog draft is waiting on the assigned record id.
+- AIEL-CAND-031 (In re Brian E. Mitchell, USPTO OED D2026-16): decided 2026-09-22. Promoted
+  to `included` as AIEL-2026-069 on the steward decision. The PAICE.work blog draft now has
+  its record id.
 - AIEL-CAND-032 (In re Anthony Matos, USPTO OED D2025-13): retained official order; the
   order records a denial of AI drafting and an internet-search mechanism, so the
   recommendation is decline or hold as a limiting precedent beside Mullins and Maxwell.
@@ -159,18 +159,14 @@ Run an isolated bake-off before changing the default:
 
 ## Open steward decisions
 
-Verified still open on 2026-09-22. Each is a human call, not agent work, and each
+Verified on 2026-09-22. AIEL-CAND-031 was decided that day and promoted to AIEL-2026-069;
+the three below remain open. Each is a human call, not agent work, and each
 implementation is a record change requiring an admission receipt under
 `ops/SOURCE-ADMISSION.md`.
 
 - **AIEL-2024-001 Moffatt v. Air Canada.** Whether "chatbot" in the tribunal's own voice
   satisfies criterion 1. Named in INTENT.md "Status" as the pending criterion challenge;
   the record stays included with `needs_review` until it is disposed of.
-- **AIEL-CAND-031 In re Brian E. Mitchell.** Promotion to `included`. All four criteria
-  appear satisfied on the USPTO OED final order of 2026-07-27, with the order retained
-  under `data/admission/raw/aiel-2026-069`. Held only because the find-new-cases workflow
-  requires per-candidate steward confirmation. A PAICE2 blog draft waits on the assigned
-  record id.
 - **AIEL-CAND-032 In re Anthony Matos.** Decline, or retain in `review` as a limiting
   precedent alongside Mullins v. Duquesne and Maxwell v. Michael. Criterion 1 is not
   satisfied on the current reading: the order records a denial of AI drafting and adopts an

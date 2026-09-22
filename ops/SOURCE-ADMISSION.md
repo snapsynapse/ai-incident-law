@@ -7,6 +7,29 @@ data/admission/legacy.json freezes the 115 native records at merged commit 8d8c7
 
 At the pinned bootstrap state, data/admission/receipts.json starts empty. The current file contains accepted receipts for reviewed changes made after that bootstrap. A new record or any field change requires a record receipt. Unchanged records remain explicit debt and do not need fabricated receipts. Removing a legacy record requires a separately reviewed retirement migration.
 
+## Promotion and supersession
+
+Promoting a review or global candidate into included removes the candidate's own native
+record while its accepted receipt must remain in the inventory: a receipt can never be
+dropped to restore legacy status, and a receipt for a record that no longer exists is
+otherwise a failure. The promoted record's receipt therefore declares the candidate
+receipt it replaces:
+
+```json
+"supersedes": ["review/AIEL-CAND-031"]
+```
+
+The checker accepts a missing native record only for a receipt that is named this way. It
+requires the superseding receipt's own record to exist, refuses self-supersession, refuses
+an absent target, refuses a target whose native record is still present, and refuses two
+receipts claiming the same target. The superseded receipt stays in the file as frozen
+history. `supersedes` is inside the review packet digest, so a promotion cannot be claimed
+after acceptance without invalidating the packet.
+
+This does not weaken the legacy baseline. Removing a record frozen in
+`data/admission/legacy.json` still requires a separately reviewed retirement migration;
+supersession covers only post-bootstrap candidates.
+
 ## Evidence and review packet
 A receipt binds:
 

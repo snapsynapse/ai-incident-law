@@ -591,3 +591,163 @@ test("CLI default HEAD comparison prevents dropping an accepted receipt", async 
     await rm(root, { recursive: true, force: true });
   }
 });
+
+// Promotion: a review candidate becomes an included record, so its own native record is
+// gone while its accepted receipt must stay in the inventory. The superseding receipt
+// names it explicitly.
+function promotionFixture({ supersedes = ["review/AIEL-CAND-900"] } = {}) {
+  const candidate = {
+    candidate_id: "AIEL-CAND-900",
+    candidate_title: "Synthetic promotion candidate",
+    candidate_matter: "In re Synthetic Matter",
+    best_available_sources: "https://agency.example/decisions/42",
+    last_checked_date: "2026-09-01"
+  };
+  const promoted = record({ error_id: "AIEL-TEST-900", last_checked_date: "2026-09-01" });
+  delete promoted.last_verified_date;
+  const empty = {
+    generated_at: "2026-09-09",
+    datasets: {
+      included: { records: [] },
+      review: { records: [] },
+      global: { records: [] }
+    }
+  };
+  const before = {
+    generated_at: "2026-09-09",
+    datasets: {
+      included: { records: [] },
+      review: { records: [candidate] },
+      global: { records: [] }
+    }
+  };
+  const after = {
+    generated_at: "2026-09-09",
+    datasets: {
+      included: { records: [promoted] },
+      review: { records: [] },
+      global: { records: [] }
+    }
+  };
+  return { candidate, empty, before, after, supersedes };
+}
+
+async function promotionReceipts({ after, source, supersedes }) {
+  const snapshot = datasetSnapshot(after)["included/AIEL-TEST-900"];
+  const receipt = {
+    baseline_sha256: null,
+    record_sha256: snapshot.sha256,
+    evidence: {
+      primary: {
+        path: source.relative,
+        sha256: hash(source.bytes),
+        acquisition: "retained_snapshot",
+        official_url: "https://agency.example/decisions/42",
+        document_id: "decision-42",
+        document_title: "Final Decision 42",
+        issuing_body: "Official Agency",
+        document_type: "final decision",
+        source_role: "primary record",
+        version: "issued 2026-09-01",
+        identity_excerpts: ["Official Agency", "Final Decision 42"],
+        locator: "Findings paragraph 4",
+        excerpt: "This final decision states that an AI system produced fabricated citations in the filing.",
+        ai_attribution_excerpt: "an AI system produced fabricated citations"
+      }
+    },
+    units: Object.fromEntries(Object.entries(snapshot.units).map(([unit, value]) => [unit, {
+      before_sha256: null,
+      after_sha256: value.sha256,
+      candidate_content: value.content ?? null,
+      reason: "Synthetic promoted unit is supported by the retained decision.",
+      qualifications: {
+        scope: "Only the promoted synthetic record was reviewed.",
+        exceptions: "No broader source or corpus conclusion.",
+        time: "The review is limited to the issued decision version."
+      },
+      evidence: ["primary"]
+    }])),
+    unresolved: [],
+    review: {
+      actor: "source-admission-test",
+      actor_type: "agent",
+      decision: "source-consistency-reviewed-changes",
+      scope: "Synthetic promotion fixture only.",
+      reviewed_at: REVIEWED_AT
+    }
+  };
+  if (supersedes !== null) receipt.supersedes = supersedes;
+  receipt.review.packet_sha256 = packetDigest(receipt);
+  return {
+    version: 1,
+    records: {
+      "included/AIEL-TEST-900": receipt,
+      "review/AIEL-CAND-900": { historical: true }
+    }
+  };
+}
+
+test("a promoted candidate's receipt survives when the superseding receipt names it", async () => {
+  const root = await mkdtemp(path.join(tmpdir(), "aiel-source-admission-promotion-"));
+  try {
+    const source = await writeSource(root);
+    const { empty, after, supersedes } = promotionFixture();
+    const admissions = await promotionReceipts({ after, source, supersedes });
+    const report = validateAdmission({ data: after, legacy: legacyOf(empty), admissions, root });
+    assert.equal(report.status, "passed", report.errors.join("\n"));
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
+test("removing a candidate without declaring supersession fails closed", async () => {
+  const root = await mkdtemp(path.join(tmpdir(), "aiel-source-admission-promotion-silent-"));
+  try {
+    const source = await writeSource(root);
+    const { empty, after } = promotionFixture();
+    const admissions = await promotionReceipts({ after, source, supersedes: null });
+    const report = validateAdmission({ data: after, legacy: legacyOf(empty), admissions, root });
+    assert.equal(report.status, "failed");
+    assert.match(report.errors.join("\n"), /references a missing native record/);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
+test("supersession cannot be claimed over a record that is still present", async () => {
+  const root = await mkdtemp(path.join(tmpdir(), "aiel-source-admission-promotion-live-"));
+  try {
+    const source = await writeSource(root);
+    const { candidate, empty, after, supersedes } = promotionFixture();
+    const stillPresent = structuredClone(after);
+    stillPresent.datasets.review.records = [candidate];
+    const admissions = await promotionReceipts({ after, source, supersedes });
+    const report = validateAdmission({ data: stillPresent, legacy: legacyOf(empty), admissions, root });
+    assert.equal(report.status, "failed");
+    assert.match(report.errors.join("\n"), /while its native record is still present/);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
+test("supersession cannot point at an absent receipt or at itself", async () => {
+  const root = await mkdtemp(path.join(tmpdir(), "aiel-source-admission-promotion-target-"));
+  try {
+    const source = await writeSource(root);
+    const { empty, after } = promotionFixture();
+
+    const absent = await promotionReceipts({ after, source, supersedes: ["review/AIEL-CAND-999"] });
+    absent.records["included/AIEL-TEST-900"].review.packet_sha256 = packetDigest(absent.records["included/AIEL-TEST-900"]);
+    const absentReport = validateAdmission({ data: after, legacy: legacyOf(empty), admissions: absent, root });
+    assert.equal(absentReport.status, "failed");
+    assert.match(absentReport.errors.join("\n"), /supersedes an absent receipt/);
+
+    const self = await promotionReceipts({ after, source, supersedes: ["included/AIEL-TEST-900"] });
+    self.records["included/AIEL-TEST-900"].review.packet_sha256 = packetDigest(self.records["included/AIEL-TEST-900"]);
+    const selfReport = validateAdmission({ data: after, legacy: legacyOf(empty), admissions: self, root });
+    assert.equal(selfReport.status, "failed");
+    assert.match(selfReport.errors.join("\n"), /cannot supersede itself/);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});

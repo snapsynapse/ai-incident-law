@@ -1,15 +1,15 @@
 {
   "actor_roles": {
     "roles": {
-      "deployer": 67
+      "deployer": 68
     }
   },
   "adopter": "https://aiincidentlaw.org/",
   "applies_to": "obligation-first >=0.6.0 <0.7.0",
   "contexts": {
-    "[\"https://obligationfirst.org/v1/context.jsonld\",{\"ail\":\"https://aiincidentlaw.org/vocab/\",\"id\":\"ail:id\",\"ai_incident_law_record_id\":\"ail:recordId\",\"matter_type\":\"ail:matterType\",\"filing_status\":\"ail:filingStatus\",\"ai_system_name\":\"ail:aiSystemName\",\"deployer\":\"ail:deployer\",\"domain\":\"ail:domain\",\"error_type\":\"ail:errorType\",\"canonical_source_conflicted\":\"ail:canonicalSourceConflicted\",\"mitigation_gap\":\"ail:mitigationGap\",\"reliance_or_harm\":\"ail:relianceOrHarm\",\"projection_basis\":\"ail:projectionBasis\",\"admission_status\":\"ail:admissionStatus\",\"source_review_unresolved\":\"ail:sourceReviewUnresolved\",\"filing_date_source\":\"ail:filingDateSource\",\"procedural_stage\":\"ail:proceduralStage\"}]": 9,
+    "[\"https://obligationfirst.org/v1/context.jsonld\",{\"ail\":\"https://aiincidentlaw.org/vocab/\",\"id\":\"ail:id\",\"ai_incident_law_record_id\":\"ail:recordId\",\"matter_type\":\"ail:matterType\",\"filing_status\":\"ail:filingStatus\",\"ai_system_name\":\"ail:aiSystemName\",\"deployer\":\"ail:deployer\",\"domain\":\"ail:domain\",\"error_type\":\"ail:errorType\",\"canonical_source_conflicted\":\"ail:canonicalSourceConflicted\",\"mitigation_gap\":\"ail:mitigationGap\",\"reliance_or_harm\":\"ail:relianceOrHarm\",\"projection_basis\":\"ail:projectionBasis\",\"admission_status\":\"ail:admissionStatus\",\"source_review_unresolved\":\"ail:sourceReviewUnresolved\",\"filing_date_source\":\"ail:filingDateSource\",\"procedural_stage\":\"ail:proceduralStage\"}]": 10,
     "[\"https://obligationfirst.org/v1/context.jsonld\",{\"ail\":\"https://aiincidentlaw.org/vocab/\",\"id\":\"ail:id\",\"ai_incident_law_record_id\":\"ail:recordId\",\"matter_type\":\"ail:matterType\",\"filing_status\":\"ail:filingStatus\",\"ai_system_name\":\"ail:aiSystemName\",\"deployer\":\"ail:deployer\",\"domain\":\"ail:domain\",\"error_type\":\"ail:errorType\",\"canonical_source_conflicted\":\"ail:canonicalSourceConflicted\",\"mitigation_gap\":\"ail:mitigationGap\",\"reliance_or_harm\":\"ail:relianceOrHarm\",\"projection_basis\":\"ail:projectionBasis\",\"admission_status\":\"ail:admissionStatus\",\"source_review_unresolved\":\"ail:sourceReviewUnresolved\",\"filing_date_source\":\"ail:filingDateSource\"}]": 60,
-    "[\"https://obligationfirst.org/v1/context.jsonld\",{\"ail\":\"https://aiincidentlaw.org/vocab/\",\"id\":\"ail:id\",\"ai_incident_law_record_id\":\"ail:recordId\",\"matter_type\":\"ail:matterType\",\"filing_status\":\"ail:filingStatus\",\"ai_system_name\":\"ail:aiSystemName\",\"deployer\":\"ail:deployer\",\"domain\":\"ail:domain\",\"error_type\":\"ail:errorType\",\"canonical_source_conflicted\":\"ail:canonicalSourceConflicted\",\"mitigation_gap\":\"ail:mitigationGap\",\"reliance_or_harm\":\"ail:relianceOrHarm\",\"projection_basis\":\"ail:projectionBasis\",\"admission_status\":\"ail:admissionStatus\",\"source_review_unresolved\":\"ail:sourceReviewUnresolved\"}]": 264
+    "[\"https://obligationfirst.org/v1/context.jsonld\",{\"ail\":\"https://aiincidentlaw.org/vocab/\",\"id\":\"ail:id\",\"ai_incident_law_record_id\":\"ail:recordId\",\"matter_type\":\"ail:matterType\",\"filing_status\":\"ail:filingStatus\",\"ai_system_name\":\"ail:aiSystemName\",\"deployer\":\"ail:deployer\",\"domain\":\"ail:domain\",\"error_type\":\"ail:errorType\",\"canonical_source_conflicted\":\"ail:canonicalSourceConflicted\",\"mitigation_gap\":\"ail:mitigationGap\",\"reliance_or_harm\":\"ail:relianceOrHarm\",\"projection_basis\":\"ail:projectionBasis\",\"admission_status\":\"ail:admissionStatus\",\"source_review_unresolved\":\"ail:sourceReviewUnresolved\"}]": 268
   },
   "exact_edges": [
     [
@@ -681,6 +681,16 @@
       "https://aiincidentlaw.org/allegation/aiel-2026-068-allegation.json",
       "related_to_party",
       "https://aiincidentlaw.org/party/aiel-2026-068-deployer.json"
+    ],
+    [
+      "https://aiincidentlaw.org/allegation/aiel-2026-069-allegation.json",
+      "related_to",
+      "https://aiincidentlaw.org/incident/aiel-2026-069#ai-system"
+    ],
+    [
+      "https://aiincidentlaw.org/allegation/aiel-2026-069-allegation.json",
+      "related_to_party",
+      "https://aiincidentlaw.org/party/aiel-2026-069-deployer.json"
     ],
     [
       "https://aiincidentlaw.org/authority/appellate-court-of-illinois-third-district.json",
@@ -1811,6 +1821,16 @@
       "https://aiincidentlaw.org/determination/aiel-2026-068-determination.json",
       "issuedBy",
       "https://aiincidentlaw.org/authority/u-s-district-court-district-of-arizona.json"
+    ],
+    [
+      "https://aiincidentlaw.org/determination/aiel-2026-069-determination.json",
+      "decides",
+      "https://aiincidentlaw.org/allegation/aiel-2026-069-allegation.json"
+    ],
+    [
+      "https://aiincidentlaw.org/determination/aiel-2026-069-determination.json",
+      "issuedBy",
+      "https://aiincidentlaw.org/authority/u-s-patent-and-trademark-office.json"
     ],
     [
       "https://aiincidentlaw.org/proceeding/aiel-2017-012-proceeding.json",
@@ -3161,133 +3181,153 @@
       "https://aiincidentlaw.org/proceeding/aiel-2026-068-proceeding.json",
       "parties",
       "https://aiincidentlaw.org/party/aiel-2026-068-deployer.json"
+    ],
+    [
+      "https://aiincidentlaw.org/proceeding/aiel-2026-069-proceeding.json",
+      "hasAllegation",
+      "https://aiincidentlaw.org/allegation/aiel-2026-069-allegation.json"
+    ],
+    [
+      "https://aiincidentlaw.org/proceeding/aiel-2026-069-proceeding.json",
+      "hasDetermination",
+      "https://aiincidentlaw.org/determination/aiel-2026-069-determination.json"
+    ],
+    [
+      "https://aiincidentlaw.org/proceeding/aiel-2026-069-proceeding.json",
+      "heardBy",
+      "https://aiincidentlaw.org/authority/u-s-patent-and-trademark-office.json"
+    ],
+    [
+      "https://aiincidentlaw.org/proceeding/aiel-2026-069-proceeding.json",
+      "parties",
+      "https://aiincidentlaw.org/party/aiel-2026-069-deployer.json"
     ]
   ],
-  "exact_edges_sha256": "6f68c360733e74a4fe9b964b8aae0a032b66b7d1d8325d3f1e0779a9dd9ca8f1",
+  "exact_edges_sha256": "730cf3033a630290dd46b2c72c1506bd6e5f0fb3b7c9876f5bf71a3e96321a2e",
   "field_coverage": {
     "of:Allegation": {
       "@context": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "@id": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "@type": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "admission_status": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "ai_incident_law_record_id": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "ai_system_name": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "asserted_by": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "asserted_by_adopter": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "canonical_source_conflicted": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "deployer": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "domain": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "error_type": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "evidence_type": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "id": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "mitigation_gap": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "projection_basis": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "related_to": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "related_to_party": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "reliance_or_harm": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "source": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "source_citation": {
-        "missing": 62,
+        "missing": 63,
         "populated": 5,
         "present": 5
       },
       "source_locator": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "source_review_unresolved": {
         "missing": 63,
-        "populated": 4,
-        "present": 4
+        "populated": 5,
+        "present": 5
       },
       "text": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "verified": {
-        "missing": 0,
+        "missing": 1,
         "populated": 67,
         "present": 67
       }
@@ -3295,91 +3335,91 @@
     "of:Authority": {
       "@context": {
         "missing": 0,
-        "populated": 59,
-        "present": 59
+        "populated": 60,
+        "present": 60
       },
       "@id": {
         "missing": 0,
-        "populated": 59,
-        "present": 59
+        "populated": 60,
+        "present": 60
       },
       "@type": {
         "missing": 0,
-        "populated": 59,
-        "present": 59
+        "populated": 60,
+        "present": 60
       },
       "admission_status": {
         "missing": 0,
-        "populated": 59,
-        "present": 59
+        "populated": 60,
+        "present": 60
       },
       "asserted_by_adopter": {
         "missing": 0,
-        "populated": 59,
-        "present": 59
+        "populated": 60,
+        "present": 60
       },
       "evidence_type": {
         "missing": 0,
-        "populated": 59,
-        "present": 59
+        "populated": 60,
+        "present": 60
       },
       "id": {
         "missing": 0,
-        "populated": 59,
-        "present": 59
+        "populated": 60,
+        "present": 60
       },
       "institutional_scope": {
         "missing": 0,
-        "populated": 59,
-        "present": 59
+        "populated": 60,
+        "present": 60
       },
       "jurisdiction": {
         "missing": 0,
-        "populated": 59,
-        "present": 59
+        "populated": 60,
+        "present": 60
       },
       "organization": {
         "missing": 0,
-        "populated": 59,
-        "present": 59
+        "populated": 60,
+        "present": 60
       },
       "projection_basis": {
         "missing": 0,
-        "populated": 59,
-        "present": 59
+        "populated": 60,
+        "present": 60
       },
       "sameAs": {
-        "missing": 24,
+        "missing": 25,
         "populated": 35,
         "present": 35
       },
       "source": {
         "missing": 0,
-        "populated": 59,
-        "present": 59
+        "populated": 60,
+        "present": 60
       },
       "source_citation": {
-        "missing": 54,
+        "missing": 55,
         "populated": 5,
         "present": 5
       },
       "source_locator": {
         "missing": 0,
-        "populated": 59,
-        "present": 59
+        "populated": 60,
+        "present": 60
       },
       "source_review_unresolved": {
         "missing": 55,
-        "populated": 4,
-        "present": 4
+        "populated": 5,
+        "present": 5
       },
       "territorial_scope": {
         "missing": 3,
-        "populated": 56,
-        "present": 56
+        "populated": 57,
+        "present": 57
       },
       "verified": {
-        "missing": 0,
+        "missing": 1,
         "populated": 59,
         "present": 59
       }
@@ -3387,121 +3427,121 @@
     "of:Determination": {
       "@context": {
         "missing": 0,
-        "populated": 63,
-        "present": 63
+        "populated": 64,
+        "present": 64
       },
       "@id": {
         "missing": 0,
-        "populated": 63,
-        "present": 63
+        "populated": 64,
+        "present": 64
       },
       "@type": {
         "missing": 0,
-        "populated": 63,
-        "present": 63
+        "populated": 64,
+        "present": 64
       },
       "admission_status": {
         "missing": 0,
-        "populated": 63,
-        "present": 63
+        "populated": 64,
+        "present": 64
       },
       "ai_incident_law_record_id": {
         "missing": 0,
-        "populated": 63,
-        "present": 63
+        "populated": 64,
+        "present": 64
       },
       "anchors": {
-        "missing": 4,
+        "missing": 5,
         "populated": 59,
         "present": 59
       },
       "asserted_by_adopter": {
         "missing": 0,
-        "populated": 63,
-        "present": 63
+        "populated": 64,
+        "present": 64
       },
       "decides": {
         "missing": 0,
-        "populated": 63,
-        "present": 63
+        "populated": 64,
+        "present": 64
       },
       "describesSameEntityAs": {
-        "missing": 62,
+        "missing": 63,
         "populated": 1,
         "present": 1
       },
       "disposition": {
         "missing": 0,
-        "populated": 63,
-        "present": 63
+        "populated": 64,
+        "present": 64
       },
       "evidence_type": {
         "missing": 0,
-        "populated": 63,
-        "present": 63
+        "populated": 64,
+        "present": 64
       },
       "id": {
         "missing": 0,
-        "populated": 63,
-        "present": 63
+        "populated": 64,
+        "present": 64
       },
       "issued_date": {
         "missing": 57,
-        "populated": 6,
-        "present": 6
+        "populated": 7,
+        "present": 7
       },
       "issuedBy": {
         "missing": 0,
-        "populated": 63,
-        "present": 63
+        "populated": 64,
+        "present": 64
       },
       "jurisdiction": {
         "missing": 0,
-        "populated": 63,
-        "present": 63
+        "populated": 64,
+        "present": 64
       },
       "neutral_citation": {
-        "missing": 58,
+        "missing": 59,
         "populated": 5,
         "present": 5
       },
       "notes": {
         "missing": 0,
-        "populated": 63,
-        "present": 63
+        "populated": 64,
+        "present": 64
       },
       "projection_basis": {
         "missing": 0,
-        "populated": 63,
-        "present": 63
+        "populated": 64,
+        "present": 64
       },
       "remedy": {
         "missing": 0,
-        "populated": 63,
-        "present": 63
+        "populated": 64,
+        "present": 64
       },
       "source": {
         "missing": 0,
-        "populated": 63,
-        "present": 63
+        "populated": 64,
+        "present": 64
       },
       "source_citation": {
-        "missing": 58,
+        "missing": 59,
         "populated": 5,
         "present": 5
       },
       "source_locator": {
         "missing": 0,
-        "populated": 63,
-        "present": 63
+        "populated": 64,
+        "present": 64
       },
       "source_review_unresolved": {
         "missing": 61,
-        "populated": 2,
-        "present": 2
+        "populated": 3,
+        "present": 3
       },
       "verified": {
-        "missing": 0,
+        "missing": 1,
         "populated": 63,
         "present": 63
       }
@@ -3509,82 +3549,82 @@
     "of:Party": {
       "@context": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "@id": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "@type": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "admission_status": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "asserted_by_adopter": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "evidence_type": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "id": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "name": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "party_kind": {
-        "explicit_unknown": 51,
+        "explicit_unknown": 52,
         "missing": 0,
         "populated": 16,
-        "present": 67
+        "present": 68
       },
       "projection_basis": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "roles": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "source": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "source_citation": {
-        "missing": 62,
+        "missing": 63,
         "populated": 5,
         "present": 5
       },
       "source_locator": {
         "missing": 0,
-        "populated": 67,
-        "present": 67
+        "populated": 68,
+        "present": 68
       },
       "source_review_unresolved": {
         "missing": 63,
-        "populated": 4,
-        "present": 4
+        "populated": 5,
+        "present": 5
       },
       "verified": {
-        "missing": 0,
+        "missing": 1,
         "populated": 67,
         "present": 67
       }
@@ -3592,147 +3632,147 @@
     "of:Proceeding": {
       "@context": {
         "missing": 0,
-        "populated": 69,
-        "present": 69
+        "populated": 70,
+        "present": 70
       },
       "@id": {
         "missing": 0,
-        "populated": 69,
-        "present": 69
+        "populated": 70,
+        "present": 70
       },
       "@type": {
         "missing": 0,
-        "populated": 69,
-        "present": 69
+        "populated": 70,
+        "present": 70
       },
       "admission_status": {
         "missing": 0,
-        "populated": 69,
-        "present": 69
+        "populated": 70,
+        "present": 70
       },
       "ai_incident_law_record_id": {
         "missing": 0,
-        "populated": 69,
-        "present": 69
+        "populated": 70,
+        "present": 70
       },
       "asserted_by_adopter": {
         "missing": 0,
-        "populated": 69,
-        "present": 69
+        "populated": 70,
+        "present": 70
       },
       "describesSameEntityAs": {
-        "missing": 68,
+        "missing": 69,
         "populated": 1,
         "present": 1
       },
       "evidence_type": {
         "missing": 0,
-        "populated": 69,
-        "present": 69
+        "populated": 70,
+        "present": 70
       },
       "filed_date": {
-        "missing": 7,
+        "missing": 8,
         "populated": 62,
         "present": 62
       },
       "filing_date_source": {
-        "missing": 1,
+        "missing": 2,
         "populated": 68,
         "present": 68
       },
       "filing_status": {
         "missing": 0,
-        "populated": 69,
-        "present": 69
+        "populated": 70,
+        "present": 70
       },
       "hasAllegation": {
         "missing": 0,
-        "populated": 69,
-        "present": 69
+        "populated": 70,
+        "present": 70
       },
       "hasDetermination": {
         "empty_array": 6,
         "missing": 0,
-        "populated": 63,
-        "present": 69
+        "populated": 64,
+        "present": 70
       },
       "heardBy": {
         "missing": 0,
-        "populated": 69,
-        "present": 69
+        "populated": 70,
+        "present": 70
       },
       "id": {
         "missing": 0,
-        "populated": 69,
-        "present": 69
+        "populated": 70,
+        "present": 70
       },
       "institutional_scope": {
         "missing": 0,
-        "populated": 69,
-        "present": 69
+        "populated": 70,
+        "present": 70
       },
       "jurisdiction": {
         "missing": 0,
-        "populated": 69,
-        "present": 69
+        "populated": 70,
+        "present": 70
       },
       "matter_type": {
         "missing": 0,
-        "populated": 69,
-        "present": 69
+        "populated": 70,
+        "present": 70
       },
       "neutral_citation": {
-        "missing": 64,
+        "missing": 65,
         "populated": 5,
         "present": 5
       },
       "parties": {
         "missing": 1,
-        "populated": 68,
-        "present": 68
+        "populated": 69,
+        "present": 69
       },
       "procedural_stage": {
         "missing": 60,
-        "populated": 9,
-        "present": 9
+        "populated": 10,
+        "present": 10
       },
       "projection_basis": {
         "missing": 0,
-        "populated": 69,
-        "present": 69
+        "populated": 70,
+        "present": 70
       },
       "source": {
         "missing": 0,
-        "populated": 69,
-        "present": 69
+        "populated": 70,
+        "present": 70
       },
       "source_citation": {
-        "missing": 64,
+        "missing": 65,
         "populated": 5,
         "present": 5
       },
       "source_locator": {
         "missing": 0,
-        "populated": 69,
-        "present": 69
+        "populated": 70,
+        "present": 70
       },
       "source_review_unresolved": {
         "missing": 64,
-        "populated": 5,
-        "present": 5
+        "populated": 6,
+        "present": 6
       },
       "territorial_scope": {
         "missing": 3,
-        "populated": 66,
-        "present": 66
+        "populated": 67,
+        "present": 67
       },
       "title": {
         "missing": 0,
-        "populated": 69,
-        "present": 69
+        "populated": 70,
+        "present": 70
       },
       "verified": {
-        "missing": 0,
+        "missing": 1,
         "populated": 69,
         "present": 69
       }
@@ -3823,29 +3863,29 @@
   "fingerprint_version": 3,
   "id_inventory": {
     "of:Allegation": {
-      "count": 67,
-      "file_names_sha256": "ff5e9d9f38712398a8df8999d8bdedd5d074fadc18b07fd597c0099366f089fe",
-      "ids_sha256": "5e5beb195c690bd6fdbf930ec8d4c0eb528da94aa01b2560a9401b2eef8c68b1"
+      "count": 68,
+      "file_names_sha256": "eb9ebf5939da1a256131965354246e9880d3d3aac938a55ad42df22c14557afc",
+      "ids_sha256": "a20b1267c1e17948d31498adac7dff463237787ac039723bc3781a1f38e787dd"
     },
     "of:Authority": {
-      "count": 59,
-      "file_names_sha256": "53945801cc7388b00a11ca79ec6ec5cf548d1166a046b1d982864735f9215708",
-      "ids_sha256": "e4136096b0ca0d64a2add0862745d3cde7302de21867d84be746880b85372732"
+      "count": 60,
+      "file_names_sha256": "75f5cc6fd39f33b49d6444d4a03b54f64bf5677d09756055aec9216d4d576693",
+      "ids_sha256": "955a678c984e066174e91ee685021b3d29e98b7dc5d07ab244cacd22daaf2af6"
     },
     "of:Determination": {
-      "count": 63,
-      "file_names_sha256": "3fed70f1cb050111783c575139149363787292b7639d79804363ac0e663e0d3e",
-      "ids_sha256": "7a698e83d44253ae35f830ee7c6e21fbee8e0451e59f57669f268631c3df1e34"
+      "count": 64,
+      "file_names_sha256": "9645e02716349e9bcdd4f0cc0da440bfee120c927e651dff815365b4125336bb",
+      "ids_sha256": "0967ded4197ceb4efbac9c976f026306c188b6d628df60765a51497de7305465"
     },
     "of:Party": {
-      "count": 67,
-      "file_names_sha256": "97d5264d41b99587c1aaa0403b85979d50d2b32b6e9a459a8d47f79ef9f4cdc8",
-      "ids_sha256": "1f86801faea958b6f1ed4e19614b9b0d2398c011d5410a8a1680133ec48ed81e"
+      "count": 68,
+      "file_names_sha256": "7ffb42f027c9f54c0299bfb499ac1e35af298b9088d4e49870c102a5b945f30f",
+      "ids_sha256": "ed7f07c77e76a506c5ce37e3ca7a012ec16269f15720c962fab869536ce2f847"
     },
     "of:Proceeding": {
-      "count": 69,
-      "file_names_sha256": "a489cdcac071c0ea8ca22ca0854963cda0f6819d7a055841f8ea249586fd8539",
-      "ids_sha256": "3195540100de8b6759b5f940556831aa01d1cadbb1eab1d99c2e020055ccc522"
+      "count": 70,
+      "file_names_sha256": "ddf813bd31ea7cb688693a7a8033230c1fdb7cf2f141770a2ab39205e5187985",
+      "ids_sha256": "3cb9abb4f10dc954d24763ada68e0bb38eafbb4a95375fe809951b9f36ee3b78"
     },
     "of:Tombstone": {
       "count": 8,
@@ -3854,8 +3894,8 @@
     }
   },
   "jurisdiction_shapes": {
-    "missing": 142,
-    "object:of:Jurisdiction": 191
+    "missing": 144,
+    "object:of:Jurisdiction": 194
   },
   "naming_profile_entities": [
     "Allegation",
@@ -4245,6 +4285,12 @@
       "remedy": {
         "notes": "Order by Judge Dominic W. Lanza, resolved through the CourtListener RECAP path (PACER case id azd.1348340, entry 179). This is the terminal order of a three-stage proceeding (Doc. 163 order to show cause, Doc. 172 finding of AI misuse, Doc. 179 final reprimand); no earlier phase of this matter previously existed in the corpus. Note: the hallucination tracker's separate entry for an earlier July 28, 2026 phase of this same matter attributes one of the fabricated quotations to \"Claude AI,\" but this order quotes counsel's own admission that she \"utilized ChatGPT\" for that same brief — treat any future Claude attribution for this matter with caution pending re-verification against Doc. 172.",
         "status": "sanctioned"
+      }
+    },
+    "https://aiincidentlaw.org/determination/aiel-2026-069-determination.json": {
+      "remedy": {
+        "notes": "Final Order approving a proposed settlement agreement, executed by the respondent on 2026-07-20 and by the OED Director on 2026-07-21, approved by the USPTO Director and setting out joint stipulated facts, joint legal conclusions and an agreed-upon sanction. Admitted on the stipulated facts: the order discusses AI in its own voice as the mechanism of the defective citations, so criterion 1 is satisfied without recourse to the undetermined-attribution rule. Admitted notwithstanding the absence of a court sanction, under the outcome-valence rule in INTENT.md: the AI-attributable defect is established even though the district court imposed no penalty. The order names neither AI tool, gives no date for the claim-chart submission, and states no proceeding filing date, so none is recorded here. Source observed 2026-09-09; the retained official PDF and its extracted text are held under data/admission/raw/aiel-2026-069.",
+        "status": "reprimanded"
       }
     }
   },
@@ -4874,6 +4920,20 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1348340/gov.uscourts.azd.1348340.179.0.pdf",
       "source_locator": "Michael L. Ruiz v. Magellan Financial & Insurance Services, No. CV-23-02090-PHX-DWL (D. Ariz.), Doc. 179"
     },
+    "https://aiincidentlaw.org/allegation/aiel-2026-069-allegation.json": {
+      "admission_status": "source-consistency-reviewed-changes",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "canonical_source_conflicted": "The patent's own intrinsic record, comprising the specification, figures and prosecution history, against citations and quotations that did not exist in it or were inaccurately attributed to it",
+      "evidence_type": "primary record",
+      "projection_basis": "native-record-projection",
+      "source": "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf",
+      "source_locator": "In re Brian E. Mitchell, Proceeding No. D2026-16 (USPTO Office of Enrollment and Discipline)",
+      "source_review_unresolved": [
+        "The order names neither AI tool, so the specific systems remain unidentified.",
+        "No date is established for the claim-chart submission or for the opening of the disciplinary proceeding, so no incident or filing date is recorded.",
+        "The district court's own docket was not retrieved; the no-sanction and dismissal facts rest on the order's recital and the respondent's representations within it."
+      ]
+    },
     "https://aiincidentlaw.org/authority/appellate-court-of-illinois-first-district.json": {
       "admission_status": "legacy-unreviewed",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
@@ -5421,6 +5481,19 @@
       "source": "https://gao.gov/assets/890/884082.pdf",
       "source_locator": "Matter of: CVTEK, LLC, B-423943; B-423943.2 (U.S. Government Accountability Office)"
     },
+    "https://aiincidentlaw.org/authority/u-s-patent-and-trademark-office.json": {
+      "admission_status": "source-consistency-reviewed-changes",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "evidence_type": "primary record",
+      "projection_basis": "legacy-jurisdiction-inference",
+      "source": "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf",
+      "source_locator": "In re Brian E. Mitchell, Proceeding No. D2026-16 (USPTO Office of Enrollment and Discipline)",
+      "source_review_unresolved": [
+        "The order names neither AI tool, so the specific systems remain unidentified.",
+        "No date is established for the claim-chart submission or for the opening of the disciplinary proceeding, so no incident or filing date is recorded.",
+        "The district court's own docket was not retrieved; the no-sanction and dismissal facts rest on the order's recital and the respondent's representations within it."
+      ]
+    },
     "https://aiincidentlaw.org/determination/aiel-2017-012-determination.json": {
       "admission_status": "legacy-unreviewed",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
@@ -5958,6 +6031,19 @@
       "projection_basis": "legacy-filing-status-inference",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1348340/gov.uscourts.azd.1348340.179.0.pdf",
       "source_locator": "Michael L. Ruiz v. Magellan Financial & Insurance Services, No. CV-23-02090-PHX-DWL (D. Ariz.), Doc. 179"
+    },
+    "https://aiincidentlaw.org/determination/aiel-2026-069-determination.json": {
+      "admission_status": "source-consistency-reviewed-changes",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "evidence_type": "primary record",
+      "projection_basis": "curated-legal-graph",
+      "source": "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf",
+      "source_locator": "In re Brian E. Mitchell, Proceeding No. D2026-16 (USPTO Office of Enrollment and Discipline)",
+      "source_review_unresolved": [
+        "The order names neither AI tool, so the specific systems remain unidentified.",
+        "No date is established for the claim-chart submission or for the opening of the disciplinary proceeding, so no incident or filing date is recorded.",
+        "The district court's own docket was not retrieved; the no-sanction and dismissal facts rest on the order's recital and the respondent's representations within it."
+      ]
     },
     "https://aiincidentlaw.org/party/aiel-2017-012-deployer.json": {
       "admission_status": "legacy-unreviewed",
@@ -6516,6 +6602,19 @@
       "projection_basis": "native-record-projection",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1348340/gov.uscourts.azd.1348340.179.0.pdf",
       "source_locator": "Michael L. Ruiz v. Magellan Financial & Insurance Services, No. CV-23-02090-PHX-DWL (D. Ariz.), Doc. 179"
+    },
+    "https://aiincidentlaw.org/party/aiel-2026-069-deployer.json": {
+      "admission_status": "source-consistency-reviewed-changes",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "evidence_type": "primary record",
+      "projection_basis": "native-record-projection",
+      "source": "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf",
+      "source_locator": "In re Brian E. Mitchell, Proceeding No. D2026-16 (USPTO Office of Enrollment and Discipline)",
+      "source_review_unresolved": [
+        "The order names neither AI tool, so the specific systems remain unidentified.",
+        "No date is established for the claim-chart submission or for the opening of the disciplinary proceeding, so no incident or filing date is recorded.",
+        "The district court's own docket was not retrieved; the no-sanction and dismissal facts rest on the order's recital and the respondent's representations within it."
+      ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2017-012-proceeding.json": {
       "admission_status": "legacy-unreviewed",
@@ -7094,6 +7193,19 @@
       "projection_basis": "legacy-record-inference",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1348340/gov.uscourts.azd.1348340.179.0.pdf",
       "source_locator": "Michael L. Ruiz v. Magellan Financial & Insurance Services, No. CV-23-02090-PHX-DWL (D. Ariz.), Doc. 179"
+    },
+    "https://aiincidentlaw.org/proceeding/aiel-2026-069-proceeding.json": {
+      "admission_status": "source-consistency-reviewed-changes",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "evidence_type": "primary record",
+      "projection_basis": "curated-legal-graph",
+      "source": "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf",
+      "source_locator": "In re Brian E. Mitchell, Proceeding No. D2026-16 (USPTO Office of Enrollment and Discipline)",
+      "source_review_unresolved": [
+        "The order names neither AI tool, so the specific systems remain unidentified.",
+        "No date is established for the claim-chart submission or for the opening of the disciplinary proceeding, so no incident or filing date is recorded.",
+        "The district court's own docket was not retrieved; the no-sanction and dismissal facts rest on the order's recital and the respondent's representations within it."
+      ]
     }
   },
   "provenance_dates": {
@@ -7433,14 +7545,14 @@
   },
   "records": {
     "by_type": {
-      "of:Allegation": 67,
-      "of:Authority": 59,
-      "of:Determination": 63,
-      "of:Party": 67,
-      "of:Proceeding": 69,
+      "of:Allegation": 68,
+      "of:Authority": 60,
+      "of:Determination": 64,
+      "of:Party": 68,
+      "of:Proceeding": 70,
       "of:Tombstone": 8
     },
-    "total": 333
+    "total": 338
   },
   "relations": {
     "anchors": {
@@ -7451,10 +7563,10 @@
       }
     },
     "decides": {
-      "edges": 63,
-      "sources": 63,
+      "edges": 64,
+      "sources": 64,
       "target_hosts": {
-        "aiincidentlaw.org": 63
+        "aiincidentlaw.org": 64
       }
     },
     "describesSameEntityAs": {
@@ -7465,52 +7577,52 @@
       }
     },
     "hasAllegation": {
-      "edges": 69,
-      "sources": 69,
+      "edges": 70,
+      "sources": 70,
       "target_hosts": {
-        "aiincidentlaw.org": 69
+        "aiincidentlaw.org": 70
       }
     },
     "hasDetermination": {
-      "edges": 63,
-      "sources": 63,
+      "edges": 64,
+      "sources": 64,
       "target_hosts": {
-        "aiincidentlaw.org": 63
+        "aiincidentlaw.org": 64
       }
     },
     "heardBy": {
+      "edges": 70,
+      "sources": 70,
+      "target_hosts": {
+        "aiincidentlaw.org": 70
+      }
+    },
+    "issuedBy": {
+      "edges": 64,
+      "sources": 64,
+      "target_hosts": {
+        "aiincidentlaw.org": 64
+      }
+    },
+    "parties": {
       "edges": 69,
       "sources": 69,
       "target_hosts": {
         "aiincidentlaw.org": 69
       }
     },
-    "issuedBy": {
-      "edges": 63,
-      "sources": 63,
-      "target_hosts": {
-        "aiincidentlaw.org": 63
-      }
-    },
-    "parties": {
+    "related_to": {
       "edges": 68,
       "sources": 68,
       "target_hosts": {
         "aiincidentlaw.org": 68
       }
     },
-    "related_to": {
-      "edges": 67,
-      "sources": 67,
-      "target_hosts": {
-        "aiincidentlaw.org": 67
-      }
-    },
     "related_to_party": {
-      "edges": 67,
-      "sources": 67,
+      "edges": 68,
+      "sources": 68,
       "target_hosts": {
-        "aiincidentlaw.org": 67
+        "aiincidentlaw.org": 68
       }
     },
     "sameAs": {
@@ -7523,14 +7635,14 @@
   },
   "source_identity": {
     "ai_incident_law_record_id": {
-      "records": 207,
-      "unique_values": 67,
-      "values_sha256": "6d946e3969b5310ddddef5cc70f6dcbc8cefa7892ef2ac56a679eb2a72ccbc4b"
+      "records": 210,
+      "unique_values": 68,
+      "values_sha256": "7f48a1eae959cc52bf1df542ae3120d089a80f9bb655ac9f4dcccb486a082663"
     },
     "id": {
-      "records": 333,
-      "unique_values": 333,
-      "values_sha256": "6277f6eaa789afd71df40392f490bd17868d8a08aedc2218b44fdf50314902d7"
+      "records": 338,
+      "unique_values": 338,
+      "values_sha256": "61d1ad32f60808cfe5ead27b14850126ef1480cfadb2f9534f78aee29b36fd61"
     }
   },
   "tombstones": {

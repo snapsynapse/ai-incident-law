@@ -2,8 +2,8 @@
   "baseline_version": 1,
   "contract_version": 1,
   "owner": "https://aiincidentlaw.org/",
-  "inventory_version": "1.0.0",
-  "inventory_sha256": "91d0de17c704e0969dfda16802d6e828f2364c3be29e96cff76854328d3ef68a",
+  "inventory_version": "1.1.0",
+  "inventory_sha256": "3f998f2a7ec718b1b8e413a8267511d0fbe0029f77516b467d81a89abd5a2432",
   "claims": [
     ["https://aiincidentlaw.org/authority/appellate-court-of-illinois-first-district.json","institutional_scope",["Appellate Court of Illinois, First District"]],
     ["https://aiincidentlaw.org/authority/appellate-court-of-illinois-first-district.json","jurisdiction/institutional_scope",["Appellate Court of Illinois, First District"]],
@@ -235,6 +235,10 @@
     ["https://aiincidentlaw.org/authority/u-s-government-accountability-office.json","jurisdiction/institutional_scope",["U.S. Government Accountability Office"]],
     ["https://aiincidentlaw.org/authority/u-s-government-accountability-office.json","jurisdiction/territorial_scope",["us"]],
     ["https://aiincidentlaw.org/authority/u-s-government-accountability-office.json","territorial_scope",["us"]],
+    ["https://aiincidentlaw.org/authority/u-s-patent-and-trademark-office.json","institutional_scope",["U.S. Patent and Trademark Office"]],
+    ["https://aiincidentlaw.org/authority/u-s-patent-and-trademark-office.json","jurisdiction/institutional_scope",["U.S. Patent and Trademark Office"]],
+    ["https://aiincidentlaw.org/authority/u-s-patent-and-trademark-office.json","jurisdiction/territorial_scope",["us"]],
+    ["https://aiincidentlaw.org/authority/u-s-patent-and-trademark-office.json","territorial_scope",["us"]],
     ["https://aiincidentlaw.org/determination/aiel-2017-012-determination.json","jurisdiction/institutional_scope",["Arkansas Supreme Court"]],
     ["https://aiincidentlaw.org/determination/aiel-2017-012-determination.json","jurisdiction/territorial_scope",["us-ar"]],
     ["https://aiincidentlaw.org/determination/aiel-2022-011-determination.json","jurisdiction/institutional_scope",["Michigan Supreme Court"]],
@@ -358,6 +362,8 @@
     ["https://aiincidentlaw.org/determination/aiel-2026-067-determination.json","jurisdiction/territorial_scope",["us-fl"]],
     ["https://aiincidentlaw.org/determination/aiel-2026-068-determination.json","jurisdiction/institutional_scope",["U.S. District Court, District of Arizona"]],
     ["https://aiincidentlaw.org/determination/aiel-2026-068-determination.json","jurisdiction/territorial_scope",["us"]],
+    ["https://aiincidentlaw.org/determination/aiel-2026-069-determination.json","jurisdiction/institutional_scope",["U.S. Patent and Trademark Office"]],
+    ["https://aiincidentlaw.org/determination/aiel-2026-069-determination.json","jurisdiction/territorial_scope",["us"]],
     ["https://aiincidentlaw.org/proceeding/aiel-2017-012-proceeding.json","institutional_scope",["Arkansas Supreme Court"]],
     ["https://aiincidentlaw.org/proceeding/aiel-2017-012-proceeding.json","jurisdiction/institutional_scope",["Arkansas Supreme Court"]],
     ["https://aiincidentlaw.org/proceeding/aiel-2017-012-proceeding.json","jurisdiction/territorial_scope",["us-ar"]],
@@ -627,6 +633,10 @@
     ["https://aiincidentlaw.org/proceeding/aiel-2026-068-proceeding.json","institutional_scope",["U.S. District Court, District of Arizona"]],
     ["https://aiincidentlaw.org/proceeding/aiel-2026-068-proceeding.json","jurisdiction/institutional_scope",["U.S. District Court, District of Arizona"]],
     ["https://aiincidentlaw.org/proceeding/aiel-2026-068-proceeding.json","jurisdiction/territorial_scope",["us"]],
-    ["https://aiincidentlaw.org/proceeding/aiel-2026-068-proceeding.json","territorial_scope",["us"]]
+    ["https://aiincidentlaw.org/proceeding/aiel-2026-068-proceeding.json","territorial_scope",["us"]],
+    ["https://aiincidentlaw.org/proceeding/aiel-2026-069-proceeding.json","institutional_scope",["U.S. Patent and Trademark Office"]],
+    ["https://aiincidentlaw.org/proceeding/aiel-2026-069-proceeding.json","jurisdiction/institutional_scope",["U.S. Patent and Trademark Office"]],
+    ["https://aiincidentlaw.org/proceeding/aiel-2026-069-proceeding.json","jurisdiction/territorial_scope",["us"]],
+    ["https://aiincidentlaw.org/proceeding/aiel-2026-069-proceeding.json","territorial_scope",["us"]]
   ]
 }

@@ -1,0 +1,50 @@
+{
+  "@context": [
+    "https://obligationfirst.org/v1/context.jsonld",
+    {
+      "ail": "https://aiincidentlaw.org/vocab/",
+      "id": "ail:id",
+      "ai_incident_law_record_id": "ail:recordId",
+      "matter_type": "ail:matterType",
+      "filing_status": "ail:filingStatus",
+      "ai_system_name": "ail:aiSystemName",
+      "deployer": "ail:deployer",
+      "domain": "ail:domain",
+      "error_type": "ail:errorType",
+      "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+      "mitigation_gap": "ail:mitigationGap",
+      "reliance_or_harm": "ail:relianceOrHarm",
+      "projection_basis": "ail:projectionBasis",
+      "admission_status": "ail:admissionStatus",
+      "source_review_unresolved": "ail:sourceReviewUnresolved"
+    }
+  ],
+  "@type": "of:Allegation",
+  "@id": "https://aiincidentlaw.org/allegation/aiel-2026-069-allegation.json",
+  "id": "aiel-2026-069-allegation",
+  "text": "The final order records that, preparing the plaintiff's portion of a Joint Claim Construction Chart in Magpul Industries Corp. v. Mission First Tactical Group, Inc., No. 2:24-cv-5551 (E.D. Pa.), the respondent \"used one generative artificial intelligence (“AI”) tool to assist with drafting proposed claim constructions of certain claim terms of the patent in question\" and \"then used a second AI tool to review\" that portion of the document. The AI-generated sections cited the patent's intrinsic evidence, including the specification, figures and prosecution history, and at least some of those citations were erroneous: the parties determined that many of the plaintiff's \"citations, quotations, and parentheticals referred to portions of the record that did not exist or were inaccurately attributed.\" The order does not name either AI tool.",
+  "asserted_by": "asserting party not identified in the indexed source fields",
+  "related_to": "https://aiincidentlaw.org/incident/aiel-2026-069#ai-system",
+  "related_to_party": [
+    "https://aiincidentlaw.org/party/aiel-2026-069-deployer.json"
+  ],
+  "ai_system_name": "Two unnamed generative AI tools, one for drafting and one for review (neither identified in the order)",
+  "deployer": "Brian E. Mitchell, registered patent attorney (Registration Number 50,612)",
+  "domain": "legal services",
+  "error_type": "fabricated and misattributed citations to the intrinsic record",
+  "canonical_source_conflicted": "The patent's own intrinsic record, comprising the specification, figures and prosecution history, against citations and quotations that did not exist in it or were inaccurately attributed to it",
+  "mitigation_gap": "The respondent acknowledged that the erroneous citations \"were not sufficiently checked against the source documents.\" The joint legal conclusions locate the failure in not understanding the inherent risks of AI-based research and drafting tools, in not adequately reviewing citations to the intrinsic record before submission, and in not conducting an inquiry reasonable under the circumstances before certifying the paper to the tribunal.",
+  "reliance_or_harm": "The erroneous citations reached a claim construction chart filed with the district court. Once the parties identified them the respondent reviewed the chart, found further errors, and circulated a corrected version the following day. The order records that the court imposed no sanction and that the respondent represents his client suffered no prejudice and that the underlying suit was later dismissed with prejudice on settlement. The USPTO publicly reprimanded him under 37 C.F.R. §§ 11.101, 11.103, 11.804(c) and 11.804(d), with the order published in the OED FOIA Reading Room and a Notice of Public Reprimand in the Official Gazette.",
+  "ai_incident_law_record_id": "AIEL-2026-069",
+  "source": "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf",
+  "source_locator": "In re Brian E. Mitchell, Proceeding No. D2026-16 (USPTO Office of Enrollment and Discipline)",
+  "evidence_type": "primary record",
+  "asserted_by_adopter": "https://aiincidentlaw.org/",
+  "projection_basis": "native-record-projection",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "The order names neither AI tool, so the specific systems remain unidentified.",
+    "No date is established for the claim-chart submission or for the opening of the disciplinary proceeding, so no incident or filing date is recorded.",
+    "The district court's own docket was not retrieved; the no-sanction and dismissal facts rest on the order's recital and the respondent's representations within it."
+  ]
+}

@@ -738,6 +738,416 @@
         "packet_sha256": "b00ae6df29248f143de2c5ac339a4b943dadb80129ddfa53b10be8c30b3e7e10"
       }
     },
+    "included/AIEL-2026-069": {
+      "baseline_sha256": null,
+      "supersedes": [
+        "review/AIEL-CAND-031"
+      ],
+      "record_sha256": "b85aa087e9a7efd8b3801992e530819f1b3600bbb7b3421ac7a258f09c765fcb",
+      "evidence": {
+        "uspto-final-order": {
+          "path": "data/admission/raw/aiel-2026-069/uspto-final-order.txt",
+          "official_url": "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf",
+          "sha256": "1e243b8d61a3b46e16efab6e454fad25fa852540dde0b18b31d9cb97528047f4",
+          "document_id": "Proceeding No. D2026-16",
+          "document_title": "In the Matter of Brian E. Mitchell, Final Order",
+          "issuing_body": "United States Patent and Trademark Office",
+          "document_type": "final order",
+          "version": "Signed and served 2026-07-27; official PDF retrieved 2026-09-09",
+          "locator": "Pages 1-6, Joint Stipulated Facts paragraphs 3-18, Joint Legal Conclusions paragraph 19, and Agreed-Upon Sanction paragraph 20",
+          "excerpt": "Respondent used one generative artificial intelligence (“AI”) tool to assist with drafting proposed",
+          "identity_excerpts": [
+            "Brian E. Mitchell",
+            "Proceeding No. D2026-16"
+          ],
+          "ai_attribution_excerpt": "used one generative artificial intelligence",
+          "acquisition": "primary_retrieval",
+          "retrieval": {
+            "http_status": 200,
+            "retrieved_at": "2026-09-09T17:31:55Z",
+            "content_type": "application/pdf",
+            "final_url": "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf",
+            "original_path": "data/admission/raw/aiel-2026-069/uspto-final-order.pdf",
+            "original_sha256": "a7f252b12617328d2158c63f4ec0c29a22004c9356d5504daddf92928850f724"
+          },
+          "source_role": "primary record"
+        }
+      },
+      "units": {
+        "dataset": {
+          "before_sha256": null,
+          "after_sha256": "531cecca496a7f46e4aa9ef40641db12f8bef53aaa6b67c429d2c0717dc599ce",
+          "candidate_content": "included",
+          "reason": "Places the matter in included following the explicit steward admission decision recorded for AIEL-CAND-031.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:ai_system_name": {
+          "before_sha256": null,
+          "after_sha256": "10b74d470f11712398f91b6c80871f76eaede5dd1ec1fe419b7b6e955d8bc3fe",
+          "candidate_content": "Two unnamed generative AI tools, one for drafting and one for review (neither identified in the order)",
+          "reason": "Records that the order establishes two generative AI tools, one drafting and one reviewing, and names neither.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:canonical_source_conflicted": {
+          "before_sha256": null,
+          "after_sha256": "54a468c489718e8ecd301d854cf803bd46d5f185303073e3d8217e892444037d",
+          "candidate_content": "The patent's own intrinsic record, comprising the specification, figures and prosecution history, against citations and quotations that did not exist in it or were inaccurately attributed to it",
+          "reason": "Records this source-supported unit from the retained final order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:confidence_score": {
+          "before_sha256": null,
+          "after_sha256": "b57c4299afe3cda154124bdb96ceaf618a9d8d9cd8d2c8f6580ff26faa5fe5ca",
+          "candidate_content": "high",
+          "reason": "Records this source-supported unit from the retained final order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:deployer": {
+          "before_sha256": null,
+          "after_sha256": "8c56d50ab065b59f6c9a461c536eda2f036c8841055f4c08290b85a76183ae58",
+          "candidate_content": "Brian E. Mitchell, registered patent attorney (Registration Number 50,612)",
+          "reason": "Records this source-supported unit from the retained final order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:domain": {
+          "before_sha256": null,
+          "after_sha256": "086733358f2458e89bda1c251339dfc2104ce7352944f769c7a88aabdcd1937e",
+          "candidate_content": "legal services",
+          "reason": "Records this source-supported unit from the retained final order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:error_description": {
+          "before_sha256": null,
+          "after_sha256": "1e5458b57ce39c90577edea89e6b69ab0707b2d3cc5615a7f67a52ed7283fe8a",
+          "candidate_content": "The final order records that, preparing the plaintiff's portion of a Joint Claim Construction Chart in Magpul Industries Corp. v. Mission First Tactical Group, Inc., No. 2:24-cv-5551 (E.D. Pa.), the respondent \"used one generative artificial intelligence (“AI”) tool to assist with drafting proposed claim constructions of certain claim terms of the patent in question\" and \"then used a second AI tool to review\" that portion of the document. The AI-generated sections cited the patent's intrinsic evidence, including the specification, figures and prosecution history, and at least some of those citations were erroneous: the parties determined that many of the plaintiff's \"citations, quotations, and parentheticals referred to portions of the record that did not exist or were inaccurately attributed.\" The order does not name either AI tool.",
+          "reason": "Binds the incident summary to the stipulated facts at paragraphs 6 to 8, quoting the order for the AI mechanism and the citation defect.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:error_id": {
+          "before_sha256": null,
+          "after_sha256": "8b8df7b9f50b9f443290cf9bbd7fc6d8ed6038585b7521a62846a2ceb026c3e0",
+          "candidate_content": "AIEL-2026-069",
+          "reason": "Records this source-supported unit from the retained final order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:error_title": {
+          "before_sha256": null,
+          "after_sha256": "f3ca7dd5dfca44d9ac0fa8652c7c416a762ec192fcd2e02d0e5f26d927b35e23",
+          "candidate_content": "USPTO publicly reprimands patent attorney over AI-generated citations to a patent intrinsic record",
+          "reason": "Records this source-supported unit from the retained final order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:error_type": {
+          "before_sha256": null,
+          "after_sha256": "dfd769c5f7910ddd75902a8269e41c3204e41532924719eff5e231c002c12009",
+          "candidate_content": "fabricated and misattributed citations to the intrinsic record",
+          "reason": "Records this source-supported unit from the retained final order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:filing_status": {
+          "before_sha256": null,
+          "after_sha256": "f50e821dd8bc15a0d4426d524f178696825817889bc7ade80abd444af273c59d",
+          "candidate_content": "reprimanded",
+          "reason": "Records the agreed-upon sanction: the respondent is publicly reprimanded.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:jurisdiction": {
+          "before_sha256": null,
+          "after_sha256": "4eeb6178bd03bc2da5297beb6c7c57ed3ad3e60926600b1366d1867802d59dc4",
+          "candidate_content": "U.S. Patent and Trademark Office",
+          "reason": "Records this source-supported unit from the retained final order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:last_checked_date": {
+          "before_sha256": null,
+          "after_sha256": "deab17f5c24dfc69254d7427a910923048244bb75e30f66a7d2bc6916b4ca270",
+          "candidate_content": "2026-09-09",
+          "reason": "Records this source-supported unit from the retained final order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:legal_graph": {
+          "before_sha256": null,
+          "after_sha256": "a5ab41427f1c1f83f20d5d4c5dcca61b9325a7dcb05641fb1484101b31bcfde2",
+          "candidate_content": {
+            "proceedings": [
+              {
+                "id": "aiel-2026-069-proceeding",
+                "heard_by": [
+                  "u-s-patent-and-trademark-office"
+                ],
+                "determination_ids": [
+                  "aiel-2026-069-determination"
+                ],
+                "procedural_stage": "federal-discipline"
+              }
+            ],
+            "determinations": [
+              {
+                "id": "aiel-2026-069-determination",
+                "issued_by": [
+                  "u-s-patent-and-trademark-office"
+                ],
+                "issued_date": "2026-07-27",
+                "disposition": "confirmed"
+              }
+            ]
+          },
+          "reason": "Projects one disciplinary proceeding and the final order as its Determination, issued 2026-07-27 by the USPTO.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:mitigation_gap": {
+          "before_sha256": null,
+          "after_sha256": "1ec0d7549ee4b4c53b235d41a7e01f85fa7a8d1a2d7f77b0d23b34ec50f605c4",
+          "candidate_content": "The respondent acknowledged that the erroneous citations \"were not sufficiently checked against the source documents.\" The joint legal conclusions locate the failure in not understanding the inherent risks of AI-based research and drafting tools, in not adequately reviewing citations to the intrinsic record before submission, and in not conducting an inquiry reasonable under the circumstances before certifying the paper to the tribunal.",
+          "reason": "Binds the control failure to stipulated fact 10 and the joint legal conclusions at paragraph 19.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:needs_review": {
+          "before_sha256": null,
+          "after_sha256": "04a06452677210a3cdaec376fd5ebbca1714cb7af9e62bf5cce1644310a9086a",
+          "candidate_content": "no",
+          "reason": "Records this source-supported unit from the retained final order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:notes_on_resolution": {
+          "before_sha256": null,
+          "after_sha256": "1d32d71759f8ac129fee095845055ad83b010fb34f0939334acf777cc4c84c58",
+          "candidate_content": "Final Order approving a proposed settlement agreement, executed by the respondent on 2026-07-20 and by the OED Director on 2026-07-21, approved by the USPTO Director and setting out joint stipulated facts, joint legal conclusions and an agreed-upon sanction. Admitted on the stipulated facts: the order discusses AI in its own voice as the mechanism of the defective citations, so criterion 1 is satisfied without recourse to the undetermined-attribution rule. Admitted notwithstanding the absence of a court sanction, under the outcome-valence rule in INTENT.md: the AI-attributable defect is established even though the district court imposed no penalty. The order names neither AI tool, gives no date for the claim-chart submission, and states no proceeding filing date, so none is recorded here. Source observed 2026-09-09; the retained official PDF and its extracted text are held under data/admission/raw/aiel-2026-069.",
+          "reason": "Records the settlement-agreement posture, the admission basis, and the facts the order does not establish.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:public_matter_name": {
+          "before_sha256": null,
+          "after_sha256": "065e0b5a526eaafec69541b82c3f3ead70a9d3bde999824c0f929e82e4b95deb",
+          "candidate_content": "In re Brian E. Mitchell, Proceeding No. D2026-16 (USPTO Office of Enrollment and Discipline)",
+          "reason": "Records this source-supported unit from the retained final order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:public_matter_type": {
+          "before_sha256": null,
+          "after_sha256": "f5016d4201a147193da881304273c20640e2b239fa54284db9ac1cc43d438e28",
+          "candidate_content": "attorney disciplinary order",
+          "reason": "Records this source-supported unit from the retained final order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:public_record_link": {
+          "before_sha256": null,
+          "after_sha256": "b5141fedb573575ef4a005b8f6631a93608cb113052f534e6dd2e76c6d8a6d62",
+          "candidate_content": "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf",
+          "reason": "Binds the record to the official OED FOIA Reading Room copy that grounds this packet.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:reliance_or_harm": {
+          "before_sha256": null,
+          "after_sha256": "2f11cf1ad6d5ec0ce3fa36ac6cce5f64d105d5cb1874661350771eccfc5efc2c",
+          "candidate_content": "The erroneous citations reached a claim construction chart filed with the district court. Once the parties identified them the respondent reviewed the chart, found further errors, and circulated a corrected version the following day. The order records that the court imposed no sanction and that the respondent represents his client suffered no prejudice and that the underlying suit was later dismissed with prejudice on settlement. The USPTO publicly reprimanded him under 37 C.F.R. §§ 11.101, 11.103, 11.804(c) and 11.804(d), with the order published in the OED FOIA Reading Room and a Notice of Public Reprimand in the Official Gazette.",
+          "reason": "Binds the consequences to stipulated facts 9, 11 and 12 and the agreed-upon sanction at paragraph 20.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:research_status": {
+          "before_sha256": null,
+          "after_sha256": "531cecca496a7f46e4aa9ef40641db12f8bef53aaa6b67c429d2c0717dc599ce",
+          "candidate_content": "included",
+          "reason": "Records this source-supported unit from the retained final order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:source_quality": {
+          "before_sha256": null,
+          "after_sha256": "8b60775068860bb40eab0cb04c57db849f6cd6b04a287c8a959c85b1cca20500",
+          "candidate_content": "primary record",
+          "reason": "Records this source-supported unit from the retained final order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        },
+        "field:tags": {
+          "before_sha256": null,
+          "after_sha256": "6cdf87c5096ee998af4896b6c5cbd3fe24ee6d81687fd8a666ae30620b50aada",
+          "candidate_content": "fabricated-citations; misattributed-quotations; attorney-discipline; uspto; public-reprimand; patent-prosecution; no-court-sanction; legal-services",
+          "reason": "Records this source-supported unit from the retained final order without certifying omitted facts.",
+          "qualifications": {
+            "scope": "Only the named changed unit of AIEL-2026-069 was checked against the retained USPTO final order in this packet.",
+            "exceptions": "No AI tool identity, claim-chart submission date, proceeding filing date, district-court outcome beyond the order's own statement, legal entailment, exhaustive discovery or authenticated human approval is certified.",
+            "time": "The final order was signed and served 2026-07-27; the official PDF was observed 2026-09-09. No Verified freshness is renewed."
+          },
+          "evidence": [
+            "uspto-final-order"
+          ]
+        }
+      },
+      "unresolved": [
+        "The order names neither AI tool, so the specific systems remain unidentified.",
+        "No date is established for the claim-chart submission or for the opening of the disciplinary proceeding, so no incident or filing date is recorded.",
+        "The district court's own docket was not retrieved; the no-sanction and dismissal facts rest on the order's recital and the respondent's representations within it."
+      ],
+      "review": {
+        "actor": "claude:presentation-readiness-session",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Complete source-consistency review of the new included record AIEL-2026-069 against the retained USPTO final order in Proceeding No. D2026-16, carrying out the steward promotion decision recorded for AIEL-CAND-031. No human approval is asserted and no Verified freshness is renewed.",
+        "reviewed_at": "2026-09-22T20:01:32.462Z",
+        "packet_sha256": "19fa66b4d1c2405afa73f2ee761621b66b095496e007bf5b6bc01dff0cfad414"
+      }
+    },
     "review/AIEL-CAND-031": {
       "baseline_sha256": null,
       "record_sha256": "c64e82febef46eec3ca8820340f1fbeabfd456fda0bd317e432e47d630a3f91e",

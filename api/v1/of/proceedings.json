@@ -4566,6 +4566,76 @@
       "ai_incident_law_record_id": "AIEL-2026-068",
       "matter_type": "sanctions order (court's own show-cause proceeding)",
       "filing_status": "sanctioned"
+    },
+    {
+      "@context": [
+        "https://obligationfirst.org/v1/context.jsonld",
+        {
+          "ail": "https://aiincidentlaw.org/vocab/",
+          "id": "ail:id",
+          "ai_incident_law_record_id": "ail:recordId",
+          "matter_type": "ail:matterType",
+          "filing_status": "ail:filingStatus",
+          "ai_system_name": "ail:aiSystemName",
+          "deployer": "ail:deployer",
+          "domain": "ail:domain",
+          "error_type": "ail:errorType",
+          "canonical_source_conflicted": "ail:canonicalSourceConflicted",
+          "mitigation_gap": "ail:mitigationGap",
+          "reliance_or_harm": "ail:relianceOrHarm",
+          "projection_basis": "ail:projectionBasis",
+          "admission_status": "ail:admissionStatus",
+          "source_review_unresolved": "ail:sourceReviewUnresolved",
+          "filing_date_source": "ail:filingDateSource",
+          "procedural_stage": "ail:proceduralStage"
+        }
+      ],
+      "@type": "of:Proceeding",
+      "@id": "https://aiincidentlaw.org/proceeding/aiel-2026-069-proceeding.json",
+      "id": "aiel-2026-069-proceeding",
+      "title": "In re Brian E. Mitchell, Proceeding No. D2026-16 (USPTO Office of Enrollment and Discipline)",
+      "heardBy": [
+        "https://aiincidentlaw.org/authority/u-s-patent-and-trademark-office.json"
+      ],
+      "jurisdiction": {
+        "@type": "of:Jurisdiction",
+        "territorial_scope": [
+          "us"
+        ],
+        "institutional_scope": [
+          "U.S. Patent and Trademark Office"
+        ]
+      },
+      "territorial_scope": [
+        "us"
+      ],
+      "institutional_scope": [
+        "U.S. Patent and Trademark Office"
+      ],
+      "parties": [
+        "https://aiincidentlaw.org/party/aiel-2026-069-deployer.json"
+      ],
+      "hasAllegation": [
+        "https://aiincidentlaw.org/allegation/aiel-2026-069-allegation.json"
+      ],
+      "hasDetermination": [
+        "https://aiincidentlaw.org/determination/aiel-2026-069-determination.json"
+      ],
+      "source": "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf",
+      "source_locator": "In re Brian E. Mitchell, Proceeding No. D2026-16 (USPTO Office of Enrollment and Discipline)",
+      "evidence_type": "primary record",
+      "asserted_by_adopter": "https://aiincidentlaw.org/",
+      "projection_basis": "curated-legal-graph",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The order names neither AI tool, so the specific systems remain unidentified.",
+        "No date is established for the claim-chart submission or for the opening of the disciplinary proceeding, so no incident or filing date is recorded.",
+        "The district court's own docket was not retrieved; the no-sanction and dismissal facts rest on the order's recital and the respondent's representations within it."
+      ],
+      "ai_incident_law_record_id": "AIEL-2026-069",
+      "matter_type": "attorney disciplinary order",
+      "filing_status": "reprimanded",
+      "procedural_stage": "federal-discipline"
     }
   ]
 }

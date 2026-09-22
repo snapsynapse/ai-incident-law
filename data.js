@@ -2397,6 +2397,54 @@ window.AIEL_DATA = {
           "obligation_first_anchors": [
             "https://everyailaw.com/obligation-category/human-oversight.json"
           ]
+        },
+        {
+          "error_id": "AIEL-2026-069",
+          "error_title": "USPTO publicly reprimands patent attorney over AI-generated citations to a patent intrinsic record",
+          "ai_system_name": "Two unnamed generative AI tools, one for drafting and one for review (neither identified in the order)",
+          "deployer": "Brian E. Mitchell, registered patent attorney (Registration Number 50,612)",
+          "domain": "legal services",
+          "error_type": "fabricated and misattributed citations to the intrinsic record",
+          "error_description": "The final order records that, preparing the plaintiff's portion of a Joint Claim Construction Chart in Magpul Industries Corp. v. Mission First Tactical Group, Inc., No. 2:24-cv-5551 (E.D. Pa.), the respondent \"used one generative artificial intelligence (“AI”) tool to assist with drafting proposed claim constructions of certain claim terms of the patent in question\" and \"then used a second AI tool to review\" that portion of the document. The AI-generated sections cited the patent's intrinsic evidence, including the specification, figures and prosecution history, and at least some of those citations were erroneous: the parties determined that many of the plaintiff's \"citations, quotations, and parentheticals referred to portions of the record that did not exist or were inaccurately attributed.\" The order does not name either AI tool.",
+          "canonical_source_conflicted": "The patent's own intrinsic record, comprising the specification, figures and prosecution history, against citations and quotations that did not exist in it or were inaccurately attributed to it",
+          "mitigation_gap": "The respondent acknowledged that the erroneous citations \"were not sufficiently checked against the source documents.\" The joint legal conclusions locate the failure in not understanding the inherent risks of AI-based research and drafting tools, in not adequately reviewing citations to the intrinsic record before submission, and in not conducting an inquiry reasonable under the circumstances before certifying the paper to the tribunal.",
+          "reliance_or_harm": "The erroneous citations reached a claim construction chart filed with the district court. Once the parties identified them the respondent reviewed the chart, found further errors, and circulated a corrected version the following day. The order records that the court imposed no sanction and that the respondent represents his client suffered no prejudice and that the underlying suit was later dismissed with prejudice on settlement. The USPTO publicly reprimanded him under 37 C.F.R. §§ 11.101, 11.103, 11.804(c) and 11.804(d), with the order published in the OED FOIA Reading Room and a Notice of Public Reprimand in the Official Gazette.",
+          "public_matter_type": "attorney disciplinary order",
+          "public_matter_name": "In re Brian E. Mitchell, Proceeding No. D2026-16 (USPTO Office of Enrollment and Discipline)",
+          "filing_status": "reprimanded",
+          "jurisdiction": "U.S. Patent and Trademark Office",
+          "public_record_link": "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf",
+          "confidence_score": "high",
+          "notes_on_resolution": "Final Order approving a proposed settlement agreement, executed by the respondent on 2026-07-20 and by the OED Director on 2026-07-21, approved by the USPTO Director and setting out joint stipulated facts, joint legal conclusions and an agreed-upon sanction. Admitted on the stipulated facts: the order discusses AI in its own voice as the mechanism of the defective citations, so criterion 1 is satisfied without recourse to the undetermined-attribution rule. Admitted notwithstanding the absence of a court sanction, under the outcome-valence rule in INTENT.md: the AI-attributable defect is established even though the district court imposed no penalty. The order names neither AI tool, gives no date for the claim-chart submission, and states no proceeding filing date, so none is recorded here. Source observed 2026-09-09; the retained official PDF and its extracted text are held under data/admission/raw/aiel-2026-069.",
+          "tags": "fabricated-citations; misattributed-quotations; attorney-discipline; uspto; public-reprimand; patent-prosecution; no-court-sanction; legal-services",
+          "source_quality": "primary record",
+          "research_status": "included",
+          "last_checked_date": "2026-09-09",
+          "needs_review": "no",
+          "legal_graph": {
+            "proceedings": [
+              {
+                "id": "aiel-2026-069-proceeding",
+                "heard_by": [
+                  "u-s-patent-and-trademark-office"
+                ],
+                "determination_ids": [
+                  "aiel-2026-069-determination"
+                ],
+                "procedural_stage": "federal-discipline"
+              }
+            ],
+            "determinations": [
+              {
+                "id": "aiel-2026-069-determination",
+                "issued_by": [
+                  "u-s-patent-and-trademark-office"
+                ],
+                "issued_date": "2026-07-27",
+                "disposition": "confirmed"
+              }
+            ]
+          }
         }
       ]
     },
@@ -2646,15 +2694,6 @@ window.AIEL_DATA = {
           "next_verification_step": "Check nmcourts.gov and the New Mexico Supreme Court's own case-information system periodically for the written contempt order once it is docketed and posted; if a text order becomes available, promote to `included` using it as public_record_link. Venue detail (\"Las Cruces area\"/Chaparral/Doña Ana County) is press-sourced only (Santa Fe New Mexican, ABA Journal) and should be confirmed against the eventual written order rather than carried forward from news coverage.",
           "best_available_sources": "https://supremecourt.nmcourts.gov/about-this-court/recordings-of-oral-arguments/; https://supremecourt.nmcourts.gov/wp-content/uploads/sites/2/2026/08/08212026.mp3; https://santafenewmexican.com/news/local_news/new-mexico-high-court-blasts-lawyer-takes-him-off-case-for-ai-errors-in-brief/article_a162daf7-95a4-4010-a017-dedcbdb68b0b.html; https://abajournal.com/news/article/criminal-defense-attorney-admits-stupidity-over-ai-errors-but-still-receives-sharp-rebuke-from-his-states-high-court",
           "last_checked_date": "2026-09-02"
-        },
-        {
-          "candidate_id": "AIEL-CAND-031",
-          "candidate_title": "USPTO publicly reprimands patent attorney for unchecked AI-generated intrinsic-record citations",
-          "candidate_matter": "In re Brian E. Mitchell, Proceeding No. D2026-16 (USPTO OED final order, July 27, 2026)",
-          "reason_for_review": "All four INTENT admission criteria appear satisfied on the official USPTO final order. The order establishes that Mitchell used one generative AI tool to help draft proposed patent claim constructions and a second AI tool to review the document; AI-generated citations, quotations, and parentheticals referred to intrinsic-record portions that did not exist or were inaccurately attributed; the USPTO publicly reprimanded him under 37 C.F.R. sections 11.101, 11.103, 11.804(c), and 11.804(d). The district court imposed no sanction, Mitchell represented that his client suffered no prejudice, and a corrected chart circulated the following day. The source does not name either AI tool or give a precise date for the claim-chart submission. Held only because the find-new-cases workflow requires explicit per-candidate steward confirmation before a new record enters included; no agent-only exemption was found.",
-          "next_verification_step": "Steward confirms or declines promotion to included. If confirmed, use the retained official PDF and reviewed text in data/admission/raw/aiel-2026-069, preserve the July 27, 2026 final-order issue date only on the determination, omit an unknown proceeding filing date and incident date, use Checked rather than Verified, and retain the no-court-sanction/no-client-prejudice qualifications.",
-          "best_available_sources": "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf",
-          "last_checked_date": "2026-09-09"
         },
         {
           "candidate_id": "AIEL-CAND-032",
