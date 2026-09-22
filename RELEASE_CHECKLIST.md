@@ -4,6 +4,14 @@ Use this checklist for every tagged package or public-site release. A release
 candidate is not ready until every required gate passes on the exact candidate
 commit.
 
+## Carried into the next release
+
+- [ ] Add `admission_status` to `.well-known/assistant-guide.txt` and the root copy, then
+  regenerate the manifests. The MCP dataset tools have reported the field since 2026-09-22,
+  but the guide was left unchanged because its manifest carries an `immutable-release-url`
+  pinned to the shipped tag: editing the guide outside a release would describe an artifact
+  that no release contains. Bump `guide-version` with the change.
+
 ## Required local gates
 
 - [ ] `npm ci` completed from `package-lock.json` in a clean checkout.

@@ -13,10 +13,22 @@ Generated files in this repo:
 Edit `data/data.json` records or `index.html` SPA shell directly. Then:
 
 ```bash
-npm run build       # build-data + build-of + validate
-npm run check       # full validation + URL policy + MCP + discovery tests
-git add data/ data.js api/ index.html
+npm run build       # build:data + build:of + validate:data
+npm run check       # the full gate; read the "check" script in package.json, it grows
 ```
+
+Then stage the whole generated set. CI asserts generated artifacts are committed
+(`git diff --exit-code`), so a data change that lands without its output fails the build:
+
+```bash
+git add data/ data.js api/ proceeding/ allegation/ determination/ authority/ party/ tombstone/ tests/fixtures/
+```
+
+`party/` and `tests/fixtures/of-contract-fingerprint.json` are both easy to miss and both
+break CI on their own. Add `index.html` only if the SPA shell was hand-edited. If a record's
+`jurisdiction` changed, delete the stale `authority/<old-slug>.json` and
+`api/v1/of/records/<old-slug>.json` before committing, or the generated set will not match
+the data.
 
 When in doubt, grep `scripts/` for the file path before editing.
 

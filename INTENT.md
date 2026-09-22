@@ -158,6 +158,8 @@ Non-responsibilities:
 
 Subscribes to: Measurement Authority, Calibration Compounding (both from the portfolio INTENT).
 
+Note, 2026-09-22: whether measurement remains the portfolio's organizing proposition is an open question in the Moonshots review and is awaiting a decision from the portfolio owner. Foundation INTENT still centers both hypotheses, so this subscription stands today; do not assert it as settled without rechecking the portfolio record. Nothing in this component's admission criteria or stewardship principles depends on the outcome.
+
 Current tier: working hypothesis.
 
 Last review: 2026-08-19. Three criterion clarifications (outcome valence, undetermined AI attribution, jurisdiction and the `global` bucket) were decided and recorded in the changelog below; none required a dataset version bump.

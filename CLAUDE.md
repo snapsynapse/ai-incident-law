@@ -22,8 +22,12 @@ Audience: compliance teams, legal counsel, AI governance leads, researchers.
 - `data/data.json` — **source of truth** for the dataset.
 - `data.js` — generated browser bundle (do NOT hand-edit).
 - `api/v1/of/` — generated Obligation-First binding artifacts.
-- `proceeding/`, `allegation/`, `determination/`, `authority/` — generated Obligation-First record files.
+- `proceeding/`, `allegation/`, `determination/`, `authority/`, `party/`, `tombstone/` — generated Obligation-First record files. `party/` is easy to miss when staging and breaks CI on its own; `tombstone/` is currently empty.
 - `scripts/` — maintainer tooling (build, validate, eval, MCP server, staleness report).
+- `data/admission/` — the source-admission contract: the frozen `legacy.json` baseline, accepted `receipts.json`, and retained primary-source bytes under `raw/`.
+- `ops/` — maintainer operating records (source admission, matter-monitor pilot, cross-repo mitigation queue, release evidence).
+- `design/` — published provider observations and publication state.
+- `handoffs/` — gitignored session-continuity queue. Never history: migrate anything durable and delete the file.
 - `docs/` — `data-schema.md`, `methodology.html`, `submit-a-case.html`, `legal-graph.html`.
 - `.well-known/` — MCP discovery + GuideCheck assistant guide.
 - `agents.json`, `robots.txt`, `llms.txt`, `mcp.json`, `server.json` — agent/MCP discovery metadata.
@@ -43,17 +47,44 @@ Audience: compliance teams, legal counsel, AI governance leads, researchers.
 
 ```bash
 npm run build   # build:data + build:of + validate:data
-npm run check   # validate:data + validate:guidecheck + url-policy + eval:of + check:of + test:mcp + test:discovery
+npm run check   # the full gate, currently 31 steps
 ```
 
-Individual: `build:data`, `build:of`, `validate:data`, `validate:guidecheck`, `test:url-policy`, `eval:url-policy`, `eval:of`, `test:mcp`, `test:discovery`, `report:staleness` (overdue-for-reverification ranking), `serve` (local static server on :4173).
+Do not trust any list of the gate's steps written in prose, here or elsewhere: read the
+`check` script in `package.json`, which grows. Useful individual scripts: `build:data`,
+`build:of`, `validate:data`, `check:admission`, `validate:guidecheck`, `test:url-policy`,
+`eval:url-policy`, `eval:of`, `eval:package`, `test:mcp`, `test:discovery`,
+`test:admission-policy`, `report:staleness` (overdue-for-reverification ranking),
+`check:search` / `check:production-search` (sitemap-scoped local and live checks),
+`serve` (local static server on :4173).
 
-After editing data or the shell: `npm run build`, then `npm run check`, then stage `data/ data.js api/ index.html`.
+`check:of` and `check:of-fingerprint` need a sibling checkout of `snapsynapse/obligation-first`;
+those steps failing locally when it is absent is expected, and should be reported as such
+rather than as a red gate.
+
+After editing data or the shell: `npm run build`, then `npm run check`, then stage the full
+generated set named in `AGENTS.md`. When the record count changes, the Obligation-First
+contract fingerprint moves too; regenerate it with `npm run check:of-fingerprint -- --write`,
+but only once every delta is accounted for by the records you actually added or removed. A
+count that moves without a matching record change is a projection bug, not a fixture to
+overwrite.
 
 CI (`validate.yml`) runs the build, URL-policy tests/evals, checks out sibling `snapsynapse/obligation-first` for cross-repo version/binding validation, and asserts generated artifacts are committed (`git diff --exit-code`).
 
 ## Current state
 
-- Branch `main`, clean tree, in sync with `origin/main`.
-- Version 0.4.0; admission-policy decisions, source-verified legal-graph projections, Tombstone continuity, deterministic package evaluation, accessibility regression coverage, and GuideCheck surfaces are released.
+- Branch `main`, clean tree, in sync with `origin/main`. No open issues, pull requests or
+  side branches as at 2026-09-22.
+- Released version 0.4.3. Verify publication state at
+  `https://aiincidentlaw.org/design/publication-state.json` rather than inferring it from
+  this file or from `package.json`.
+- Corpus at 2026-09-22: 72 `included`, 30 `review`, 23 `global`. Treat these as a dated
+  observation and read `data/data.json` for the current figures.
+- 63 of the 72 included records remain `legacy-unreviewed`, meaning their fields were frozen
+  at the pre-contract baseline and never reviewed against retained source bytes. This is the
+  corpus's largest outstanding debt and it is disclosed rather than hidden: both the MCP
+  dataset tools and the graph tools report `admission_status` per record.
+- Open steward decisions and known gaps live in `ROADMAP.md`. Four candidates are held on
+  sourcing alone behind CAPTCHA-walled or failing court hosts, and two access blockers
+  (CanLII, SAFLII) need credentials only the maintainer can obtain.
 - Actively maintained; no open TODO/FIXME markers in tracked source.
