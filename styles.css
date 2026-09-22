@@ -708,11 +708,26 @@ tr:last-child td {
   }
 
   .workspace {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
-  .filters {
+  .filters,
+  .results-panel {
     position: static;
+    min-width: 0;
+  }
+
+  .filters select,
+  .filters input {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .cards-view,
+  .case-card,
+  .case-meta,
+  .meta-grid {
+    min-width: 0;
   }
 }
 
