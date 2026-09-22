@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- The MCP dataset tools now report `admission_status`, and `source_review_unresolved` where
+  a receipt left questions open, matching what the graph tools already disclosed. Previously
+  `get_record` served `confidence_score` and `source_quality` for a frozen pre-contract
+  record while withholding that its fields had never been reviewed against retained source
+  bytes, which `get_obligation_first_record` disclosed one call away. 63 of the 72 included
+  records are `legacy-unreviewed` and 59 of those read `confidence_score` high, so the
+  omission sat exactly where it mattered. Review and global candidates report
+  `not-applicable-candidate` rather than a null, because only included records are exported.
+  Three `test:mcp` cases pin the parity, the coverage and the presence of the field in
+  compact listings.
 - Four records from a sweep of the 2 - 22 September 2026 gap, each verified against a
   court-published or RECAP original rather than the discovery tracker: **AIEL-2026-070**
   Tiekert v. Village of Mamaroneck (S.D.N.Y., ChatGPT admitted, $500 to the court, ethics

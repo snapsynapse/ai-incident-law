@@ -253,3 +253,79 @@ test("MCP rejects extra arguments for every strict tool schema", () => {
     assert.match(body.detail, /Unexpected argument/);
   }
 });
+
+// The dataset tools and the graph tools describe the same records. Before this parity
+// existed, get_record served confidence_score and source_quality for a frozen
+// pre-contract record while withholding that its fields had never been reviewed against
+// retained source bytes, which get_obligation_first_record disclosed one call away. A
+// caller that trusted the first tool was not told what the second one knew.
+test("dataset tools disclose the same admission status as the graph tools", () => {
+    const fs = require("node:fs");
+    const allegations = JSON.parse(
+        fs.readFileSync(path.join(ROOT, "api", "v1", "of", "allegations.json"), "utf8")
+    ).allegations;
+    const sample = allegations.slice(0, 12);
+    assert.ok(sample.length > 0, "projection carries no allegations to compare against");
+
+    const responses = callMcp([
+        { jsonrpc: "2.0", id: 1, method: "initialize", params: { protocolVersion: "2024-11-05", capabilities: {}, clientInfo: { name: "parity", version: "1" } } },
+        ...sample.map((allegation, index) =>
+            toolCall(index + 2, "get_record", { id: allegation.ai_incident_law_record_id }))
+    ]);
+
+    for (const [index, allegation] of sample.entries()) {
+        const record = payload(responses.find(r => r.id === index + 2)).data;
+        assert.equal(
+            record.admission_status,
+            allegation.admission_status,
+            `${allegation.ai_incident_law_record_id}: dataset path reports ` +
+            `${record.admission_status} while the graph path reports ${allegation.admission_status}`
+        );
+        if (allegation.source_review_unresolved?.length) {
+            assert.deepEqual(
+                record.source_review_unresolved,
+                allegation.source_review_unresolved,
+                `${allegation.ai_incident_law_record_id}: unresolved source questions did not travel`
+            );
+        }
+    }
+});
+
+test("every included record reports an admission status, and candidates say why they have none", () => {
+    const fs = require("node:fs");
+    const data = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "data.json"), "utf8"));
+    const included = data.datasets.included.records.slice(0, 8).map(r => r.error_id);
+    const candidates = data.datasets.review.records.slice(0, 2).map(r => r.candidate_id)
+        .concat(data.datasets.global.records.slice(0, 2).map(r => r.candidate_id));
+
+    const ids = [...included, ...candidates];
+    const responses = callMcp([
+        { jsonrpc: "2.0", id: 1, method: "initialize", params: { protocolVersion: "2024-11-05", capabilities: {}, clientInfo: { name: "coverage", version: "1" } } },
+        ...ids.map((id, index) => toolCall(index + 2, "get_record", { id }))
+    ]);
+
+    for (const [index, id] of ids.entries()) {
+        const record = payload(responses.find(r => r.id === index + 2)).data;
+        const expected = included.includes(id)
+            ? ["legacy-unreviewed", "source-consistency-reviewed-changes"]
+            : ["not-applicable-candidate"];
+        assert.ok(
+            expected.includes(record.admission_status),
+            `${id}: admission_status ${JSON.stringify(record.admission_status)} is not one of ${expected.join(", ")}`
+        );
+    }
+});
+
+test("compact listings carry admission status too, not only single-record reads", () => {
+    const [, listed] = callMcp([
+        { jsonrpc: "2.0", id: 1, method: "initialize", params: { protocolVersion: "2024-11-05", capabilities: {}, clientInfo: { name: "listing", version: "1" } } },
+        toolCall(2, "list_records", { dataset: "included", limit: 5 })
+    ]);
+    for (const record of payload(listed).data) {
+        assert.ok(
+            record.admission_status,
+            `${record.id}: listing omits admission_status, so a caller filtering a list cannot ` +
+            'see review status without a second call per record'
+        );
+    }
+});

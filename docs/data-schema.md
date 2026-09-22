@@ -144,6 +144,15 @@ When `determinations` is present, including as an empty array, it is authoritati
 
 Every generated entity declares `projection_basis`, which identifies the actual path that emitted it. Values distinguish curated legal-graph projections, legacy filing-status or record inference, legacy jurisdiction inference, native record projection, and curated retirement. This label describes production logic, not source quality.
 
+The MCP server's dataset tools (`list_records`, `get_record`, `search_records`) report the
+same `admission_status` on the native record, resolved from its allegation projection, and
+carry `source_review_unresolved` when a receipt left questions open. A review or global
+candidate reports `not-applicable-candidate`, because only `included` records are exported.
+This exists so a caller reading a record through the dataset tools is told what a caller
+reading the same matter through the graph tools would learn; `npm run test:mcp` pins the
+parity. Treat `admission_status` as a separate axis from `confidence_score` and
+`source_quality`: most included records are `legacy-unreviewed` and still read `high`.
+
 Every generated entity also declares `admission_status`. The frozen pre-contract corpus is `legacy-unreviewed`. A valid receipt changes the label to `source-consistency-reviewed-changes`, which covers only the changed units named in that receipt. A nonempty receipt `unresolved` list travels separately as `source_review_unresolved`; it is absent for legacy records because their review questions were not inventoried. The existing `canonical_source_conflicted` field describes the authority or source material contradicted by the incident and is not a source-review flag.
 
 Example:
