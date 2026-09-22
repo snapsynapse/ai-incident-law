@@ -157,6 +157,60 @@ Run an isolated bake-off before changing the default:
 - Record the fixture manifest, ground truth, commands, model versions, raw outputs, and
   adoption decision in the repository
 
+## Open steward decisions
+
+Verified still open on 2026-09-22. Each is a human call, not agent work, and each
+implementation is a record change requiring an admission receipt under
+`ops/SOURCE-ADMISSION.md`.
+
+- **AIEL-2024-001 Moffatt v. Air Canada.** Whether "chatbot" in the tribunal's own voice
+  satisfies criterion 1. Named in INTENT.md "Status" as the pending criterion challenge;
+  the record stays included with `needs_review` until it is disposed of.
+- **AIEL-CAND-031 In re Brian E. Mitchell.** Promotion to `included`. All four criteria
+  appear satisfied on the USPTO OED final order of 2026-07-27, with the order retained
+  under `data/admission/raw/aiel-2026-069`. Held only because the find-new-cases workflow
+  requires per-candidate steward confirmation. A PAICE2 blog draft waits on the assigned
+  record id.
+- **AIEL-CAND-032 In re Anthony Matos.** Decline, or retain in `review` as a limiting
+  precedent alongside Mullins v. Duquesne and Maxwell v. Michael. Criterion 1 is not
+  satisfied on the current reading: the order records a denial of AI drafting and adopts an
+  internet-search mechanism, and the generative-AI CLE requirement is a remedy rather than
+  the source discussing AI in connection with the defect.
+- **AIEL-2026-019 Swanson v. IBM.** AI attribution and complaint-versus-findings wording.
+  This is unfinished source work rather than a policy call: the tool is unnamed, the
+  machine-learning versus rules-based nature is unverified, and the complaint has not been
+  pulled from PACER. Sibling matter: Loeffler v. IBM, No. 2:25-cv-05765 (C.D. Cal.).
+
+## Standing maintenance cautions
+
+- Retained FTC and DOJ source-access limits, CourtListener 403s, the Murphy media mirror and
+  the 64-record historical review inventory (`ops/evidence/historical-review-inventory-2026-09-06.json`)
+  remain open. Work at most five matters per session.
+- Failure notification currently relies on native GitHub failure email, accepted only for
+  the two EveryAILaw and AI Tool Watch canaries. NAS hosting was declined and a disposable
+  database was deferred. Do not pick a host silently.
+- Before any release, refresh npm, registry and tag state from
+  `https://aiincidentlaw.org/design/publication-state.json` rather than from source
+  documentation. As of 2026-09-22 the published version is 0.4.3.
+
+## Cross-repo mitigation queue
+
+What this repository owes the PAICE legal graph is recorded in
+`ops/CROSS-REPO-MITIGATION-2026-09-14.md`: the coverage limit on case-to-law links, making
+source-review scope visible for selected records, candidate coordination with the private
+EveryAILaw runner, and the three assigned evals. The durable specification lives in the
+Foundation workspace; read it before implementing.
+
+## Known projection gaps
+
+- AIEL-2026-019 and AIEL-2026-020 carry `legal_graph` blocks without a `proceedings` key,
+  so their Proceedings are still emitted by legacy record inference. Fixture F15-06 in
+  `tests/fixtures/of-traversal-fixtures.json` pins that state. Curating the projection is a
+  record change and fails `check:admission` without an admission receipt grounded in
+  retained docket bytes, which CourtListener 403s currently block for both matters.
+- Only 3 of 62 Determination/Proceeding pairs are day-precise on both sides, so the temporal
+  check mostly reports unknown. Curating `issued_date` on Determinations is the lever.
+
 ## Medium-term improvements
 
 - Add archive or snapshot references for fragile sources. Partly done: reviewed changes
@@ -169,6 +223,11 @@ Run an isolated bake-off before changing the default:
 
 ## Not a priority right now
 
+- Model-assisted matter-review triage. Proposed 2026-09-22 and deferred the same day behind
+  the selected EveryAILaw, Siteline and PAICE pilots. Reopen only with evidence of a review
+  bottleneck and a named reviewer. Exact-URL identity matching stays deterministic; any
+  experiment runs in an isolated `experiments/` replay and must not touch `data/data.json`,
+  generated projections or admission policy. Paid inference remains unapproved.
 - Framework migration
 - Complex build tooling
 - Database backend
