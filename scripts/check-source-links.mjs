@@ -18,6 +18,10 @@ const BOT_FILTERED_HOSTS = new Set([
   "nycourts.gov",
 ]);
 const USER_AGENT = "AI-Incident-Law-Source-Checker/1.0 (+https://aiincidentlaw.org/)";
+// DC Courts rejects the normal checker agent but serves identical retained PDF
+// bytes to this compatibility agent. Keep our identity visible. Evidence:
+// ops/evidence/source-link-access-2026-10-01.md. A retry must still pass validation.
+const DC_COURTS_COMPAT_AGENT = "Mozilla/5.0 (compatible; AI-Incident-Law-Source-Checker/1.0; +https://aiincidentlaw.org/) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36";
 const MAX_CONCURRENCY = 4;
 const TIMEOUT_MS = 20_000;
 
@@ -66,31 +70,48 @@ export function assessSourceResponse(urlString, status, contentType, bytes) {
   return { ok: true };
 }
 
-async function fetchOnce(url) {
-  const response = await fetch(url, {
-    redirect: "follow",
-    signal: AbortSignal.timeout(TIMEOUT_MS),
-    headers: {
-      "User-Agent": USER_AGENT,
-      Accept: "application/pdf,text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
-    },
-  });
-  const bytes = new Uint8Array(await response.arrayBuffer());
-  return assessSourceResponse(url, response.status, response.headers.get("content-type"), bytes);
+export async function fetchOnce(url, fetchImpl = fetch, budget = { remaining: 2 }) {
+  async function request(userAgent) {
+    budget.remaining -= 1;
+    const response = await fetchImpl(url, {
+      redirect: "follow",
+      signal: AbortSignal.timeout(TIMEOUT_MS),
+      headers: {
+        "User-Agent": userAgent,
+        Accept: "application/pdf,text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
+      },
+    });
+    const bytes = new Uint8Array(await response.arrayBuffer());
+    return {
+      status: response.status,
+      assessment: assessSourceResponse(url, response.status, response.headers.get("content-type"), bytes),
+    };
+  }
+
+  const first = await request(USER_AGENT);
+  if (bareHost(new URL(url).hostname) !== "dccourts.gov" || first.status !== 403 || budget.remaining === 0) {
+    return first.assessment;
+  }
+  const retry = await request(DC_COURTS_COMPAT_AGENT);
+  return retry.assessment.ok
+    ? { ...retry.assessment, warning: "initial HTTP 403; compatibility retry returned validated content" }
+    : retry.assessment;
 }
 
-async function checkSource({ id, url }) {
+export async function checkSource({ id, url }, fetchImpl = fetch) {
   let lastError;
-  for (let attempt = 1; attempt <= 2; attempt += 1) {
+  // Normal retries and the compatibility fallback consume the same request cap.
+  const budget = { remaining: 2 };
+  while (budget.remaining > 0) {
     try {
-      const result = await fetchOnce(url);
-      if (result.ok || attempt === 2 || !/^HTTP (?:429|5\d\d)$/.test(result.reason || "")) {
+      const result = await fetchOnce(url, fetchImpl, budget);
+      if (result.ok || budget.remaining === 0 || !/^HTTP (?:429|5\d\d)$/.test(result.reason || "")) {
         return { id, url, ...result };
       }
       lastError = result.reason;
     } catch (error) {
       lastError = error instanceof Error ? error.message : String(error);
-      if (attempt === 2) break;
+      if (budget.remaining === 0) break;
     }
   }
   return { id, url, ok: false, reason: lastError || "request failed" };
@@ -138,7 +159,7 @@ async function run() {
     console.error(`Source link check failed: ${failures.length}/${results.length} links.`);
     process.exit(1);
   }
-  console.log(`Checked ${results.length} source links (${warnings.length} allowed bot-filtered responses).`);
+  console.log(`Checked ${results.length} source links (${warnings.length} source-access warnings).`);
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {
