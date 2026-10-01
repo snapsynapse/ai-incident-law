@@ -226,7 +226,10 @@ implementation is a record change requiring an admission receipt under
   (`mn.gov/law-library-stat`) and `fcfcoa.gov.au` both sit behind a Radware Bot Manager
   CAPTCHA that answers HTTP 200 with a challenge page, and `dccourts.gov` refuses a plain
   `urllib` user agent after its redirect while serving normally to a browser agent. A guessed
-  `api.sci.gov.in` judgment path returned HTTP 200 with a zero-byte body.
+  `api.sci.gov.in` judgment path returned HTTP 200 with a zero-byte body. The October 1
+  [DC Courts transport check](ops/evidence/source-link-access-2026-10-01.md) recovered the
+  byte-identical retained PDF with an identified compatibility agent; the checker now
+  retries that host's HTTP 403 once and still rejects denied or invalid retry content.
 - Retained FTC and DOJ source-access limits, CourtListener 403s, the Murphy media mirror and
   the 64-record historical review inventory (`ops/evidence/historical-review-inventory-2026-09-06.json`)
   remain open. Work at most five matters per session.
