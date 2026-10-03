@@ -1,0 +1,40 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://www.courtlistener.com/?q=%223%3A23-cv-00770%22&type=d",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots HTTP 403 blocks access",
+  "attempts": [
+    {
+      "id": "bca291e1fb9d4cf497ad94d2abc0ef3c",
+      "url": "https://www.courtlistener.com/robots.txt",
+      "kind": "robots",
+      "host": "www.courtlistener.com",
+      "status": 403,
+      "headers": {
+        "server": "envoy",
+        "date": "Sat, 03 Oct 2026 18:37:45 GMT",
+        "content-type": "text/html",
+        "content-length": "919",
+        "x-cache": "Error from cloudfront",
+        "via": "1.1 a7bc8344485537068a2a5c5b0897102c.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "ORD51-P2",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-amz-cf-id": "0LgQwZbYEXtADFSNd0l8Mnnv6xr7J8gQyJRGKYY-LXxJT1r76iXwgw==",
+        "x-envoy-upstream-service-time": "46",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:45.524749+00:00",
+      "sha256": "f5bcefb13a791ba4a8aa8328fd8d533042a4bf09f6447a1878fc8f4aabe5b7d2",
+      "bytes": 919,
+      "body_path": "/workspace/freshness-control/transport-evidence/bca291e1fb9d4cf497ad94d2abc0ef3c.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T18:37:45.727931+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://www.courtlistener.com/?q=%223%3A23-cv-00770%22&type=d",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/resume-20261003/5fc67d4a5c0d73cf4ce53bd8.body"
+}

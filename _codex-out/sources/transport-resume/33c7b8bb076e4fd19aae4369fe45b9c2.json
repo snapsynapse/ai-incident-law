@@ -1,0 +1,22 @@
+{
+  "id": "33c7b8bb076e4fd19aae4369fe45b9c2",
+  "url": "https://seyfarth.com/news-insights/eeocs-settlement-challenging-simple-algorithm-provides-warning-for-employers-using-artificial-intelligence.html",
+  "kind": "fetch",
+  "host": "seyfarth.com",
+  "status": 301,
+  "headers": {
+    "content-length": "0",
+    "location": "https://www.seyfarth.com/news-insights/eeocs-settlement-challenging-simple-algorithm-provides-warning-for-employers-using-artificial-intelligence.html",
+    "x-envoy-upstream-service-time": "183",
+    "date": "Sat, 03 Oct 2026 18:37:45 GMT",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:45.243660+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/33c7b8bb076e4fd19aae4369fe45b9c2.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/33c7b8bb076e4fd19aae4369fe45b9c2.body"
+}

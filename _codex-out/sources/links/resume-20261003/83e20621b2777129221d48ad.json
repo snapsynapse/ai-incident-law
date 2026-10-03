@@ -1,0 +1,75 @@
+{
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:42 GMT",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "cache-control": "no-store",
+    "x-frame-options": "DENY",
+    "content-type": "application/pdf",
+    "set-cookie": "[REDACTED]",
+    "x-envoy-upstream-service-time": "148",
+    "server": "envoy",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "finalUrl": "https://media.ca7.uscourts.gov/cgi-bin/OpinionsWeb/processWebInputExternal.pl?Submit=Display&Path=Y2026/D06-01/C:25-1988:J:Brennan:aut:T:fnOp:N:3550588:S:0",
+  "complete": true,
+  "redirects": [],
+  "error": null,
+  "attempts": [
+    {
+      "id": "524b4e932a7145efbc048e2167ba52f0",
+      "url": "https://media.ca7.uscourts.gov/robots.txt",
+      "kind": "robots",
+      "host": "media.ca7.uscourts.gov",
+      "status": 404,
+      "headers": {
+        "date": "Sat, 03 Oct 2026 18:37:40 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "cache-control": "no-store",
+        "x-frame-options": "DENY",
+        "content-length": "196",
+        "content-type": "text/html; charset=iso-8859-1",
+        "set-cookie": "[REDACTED]",
+        "x-envoy-upstream-service-time": "119",
+        "server": "envoy",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:40.497838+00:00",
+      "sha256": "80c3fe2ae1062abf56456f52518bd670f9ec3917b7f85e152b347ac6b6faf880",
+      "bytes": 196,
+      "body_path": "/workspace/freshness-control/transport-evidence/524b4e932a7145efbc048e2167ba52f0.body"
+    },
+    {
+      "id": "e3a4aee25964466f8efc991a008d6aa8",
+      "url": "https://media.ca7.uscourts.gov/cgi-bin/OpinionsWeb/processWebInputExternal.pl?Submit=Display&Path=Y2026/D06-01/C:25-1988:J:Brennan:aut:T:fnOp:N:3550588:S:0",
+      "kind": "fetch",
+      "host": "media.ca7.uscourts.gov",
+      "status": 200,
+      "headers": {
+        "date": "Sat, 03 Oct 2026 18:37:42 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "cache-control": "no-store",
+        "x-frame-options": "DENY",
+        "content-type": "application/pdf",
+        "set-cookie": "[REDACTED]",
+        "x-envoy-upstream-service-time": "148",
+        "server": "envoy",
+        "connection": "close",
+        "transfer-encoding": "chunked"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:42.497949+00:00",
+      "sha256": "fd506528f787b6f426c87ad628dce279414b9e86c2d3cba3fabfd6037dd78651",
+      "bytes": 264292,
+      "body_path": "/workspace/freshness-control/transport-evidence/e3a4aee25964466f8efc991a008d6aa8.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T18:37:42.497949+00:00",
+  "sha256": "fd506528f787b6f426c87ad628dce279414b9e86c2d3cba3fabfd6037dd78651",
+  "requested_url": "https://media.ca7.uscourts.gov/cgi-bin/OpinionsWeb/processWebInputExternal.pl?Submit=Display&Path=Y2026/D06-01/C:25-1988:J:Brennan:aut:T:fnOp:N:3550588:S:0",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/resume-20261003/83e20621b2777129221d48ad.body"
+}

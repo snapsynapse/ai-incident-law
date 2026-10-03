@@ -1,0 +1,475 @@
+Case 2:24-cv-10761-ODW-AJR           Document 46 Filed 04/28/26            Page 1 of 12 Page ID
+                                          #:7354
+
+
+
+ 1                                                                                                     O
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+                            United States District Court
+ 9
+                            Central District of California
+10
+11   TEKOMA CHANEY,                                      Case № 2:24-cv-10761-ODW (AJRx)
+12                         Plaintiff,
+13                                                       ORDER GRANTING MOTIONS
+            v.
+                                                         FOR SUMMARY JUDGMENT [31]
+14   TRANSDEV SERVICES INC. et al.,                      [32] AND IMPOSING SANCTIONS
+15
+                           Defendants.
+16
+17                                      I.     INTRODUCTION
+18          Plaintiff Tekoma Chaney brings this action for labor and civil rights violations
+19   against Defendants Transdev Services Inc. and Jamie Ogilvie.                    (Notice Removal
+20   (“NOR”) Ex. A (“Compl.”), Dkt. No. 1-1.)               Defendants now move for summary
+21   judgment, arguing, in part, that Chaney does not have standing to bring her claims.
+22   (Ogilvie Mot. Summ. J. (“OMSJ”), Dkt. No. 31; Transdev Mot. Summ. J. (“TMSJ”),
+23   Dkt. No. 32.) For the reasons below, the Court GRANTS the Motions. Separately,
+24   for the reasons below, the Court also SANCTIONS Chaney’s counsel for his misuse
+25   of generative-artificial intelligence without verification. 1
+26
+     1
+27     Having carefully considered the papers filed in connection with the Motions and the Court’s Order
+     to Show Cause regarding potential sanctions, the Court deemed the matters appropriate for decision
+28   without oral argument or a further evidentiary hearing. Fed. R. Civ. P. 78; C.D. Cal. L.R. 7-15; Pac.
+     Harbor Cap., Inc. v. Carnival Air Lines, Inc., 210 F.3d 1112, 1118 (9th Cir. 2000).
+Case 2:24-cv-10761-ODW-AJR            Document 46 Filed 04/28/26             Page 2 of 12 Page ID
+                                           #:7355
+
+
+
+ 1                                    II.        BACKGROUND 2
+ 2          On March 18, 2019, Chaney began working for Transdev as a bus driver.
+ 3   (TSUF ¶ 5.) 3      On January 24, 2020, Transdev terminated Chaney’s employment.
+ 4   (TSUF ¶ 133.) In January 2021, Chaney retained legal counsel to pursue potential
+ 5   discrimination and retaliation claims. (TSUF ¶ 141.) On January 8, 2023, Chaney
+ 6   filed a civil rights complaint against Transdev and Ogilvie with the California Civil
+ 7   Rights Department. (TSUF ¶¶ 142–43.)
+ 8          On June 21, 2023, Chaney filed for bankruptcy in the United States Bankruptcy
+ 9   Court for the Western District of Texas.               (See Req. Judicial Notice ISO OMSJ
+10   (“RJN”) Ex. UU (“Bankr. Dkt.”), Dkt. No. 31-13.)                     In her bankruptcy petition,
+11   Chaney did not disclose any “[c]laims against third parties, whether or not [she] [has]
+12   filed a lawsuit,” including “employment disputes.” (RJN Ex. VV (“Bankr. Pet.”) 18,
+13   Dkt. No. 31-13.) 4
+14          On August 8, 2023, the trustee appointed to Chaney’s estate recommended
+15   discharge after reporting that “there is no property belonging to the estate” and “no
+16   property available for distribution from the estate over and above that exempted by
+17   law.” (Bankr. Dkt. 4.) On August 16, 2023, Chaney filed an amended Form 107
+18   (Statement of Financial Affairs), disclosing that she was party to a pending wrongful
+19   termination and discrimination case.               (RJN Ex. WW (“Am. Filings”) 16, Dkt.
+20   No. 31-13.)5 Chaney failed to specify that the claims were against Transdev and
+21
+22
+23   2
+       The Court derives the factual background, none of which is disputed, from Transdev’s Statement of
+     Uncontroverted Facts (“TSUF”). (TSUF, Dkt. No. 32-2; see Pl.s’ Resp., Dkt. No. 35-4.)
+24
+     Furthermore, as the Court does not rely on any evidence to which Chaney objects, the Court need
+25   not resolve Chaney’s evidentiary objections. Finally, the Court references exhibits attached to
+     Ogilvie’s Request for Judicial Notice, which the Court GRANTS, (Dkt. No. 31-13), because the
+26   exhibits are easily ascertainable through official public records searches, see Fed. R. Evid. 201(b)(2).
+     3
+27     The Court only cites to Transdev’s Statement of Uncontroverted Facts as the relevant facts are
+     substantively the same in Ogilvie’s Statement.
+     4
+28     When citing to the Bankruptcy Petition, the Court cites to the original CM/ECF pagination.
+     5
+       When citing to the Amended Filings, the Court cites to the original CM/ECF pagination.
+
+
+
+                                                        2
+Case 2:24-cv-10761-ODW-AJR           Document 46 Filed 04/28/26            Page 3 of 12 Page ID
+                                          #:7356
+
+
+
+ 1   Ogilvie. (See id.) On September 28, 2023, the Bankruptcy Court granted discharge of
+ 2   Chaney’s bankruptcy. (RJN Ex. XX (“Discharge”), Dkt. No. 31-13.)
+ 3          On November 17, 2023, Chaney filed this action, asserting fifteen causes of
+ 4   action against Transdev under California statutory and common law, and one cause of
+ 5   action against both Transdev and Ogilvie for harassment. (Compl. ¶¶ 60–263.) On
+ 6   April 9, 2026, the Court granted Transdev’s motion for judgment on the pleadings and
+ 7   dismissed several of Chaney’s claims as time-barred.6                    (Order Grant Mot. J.
+ 8   Pleadings 7, Dkt. No. 42.)          Transdev and Ogilvie now each move for summary
+ 9   judgment on the remainder of Chaney’s claims. (TMSJ; OMSJ.)
+10                                III.       LEGAL STANDARD
+11          A court “shall grant summary judgment if the movant shows that there is no
+12   genuine dispute as to any material fact and the movant is entitled to judgment as a
+13   matter of law.” Fed. R. Civ. P. 56(a). A disputed fact is “material” where it might
+14   affect the outcome of the suit under the governing law, and the dispute is “genuine”
+15   where “the evidence is such that a reasonable jury could return a verdict for the
+16   nonmoving party.” Anderson v. Liberty Lobby, Inc., 477 U.S. 242, 248 (1986). The
+17   burden of establishing the absence of a genuine issue of material fact lies with the
+18   moving party. See Celotex Corp. v. Catrett, 477 U.S. 317, 322–23 (1986).
+19          Once the moving party satisfies its initial burden, the nonmoving party cannot
+20   simply rest on the pleadings or argue that any disagreement or “metaphysical doubt”
+21   about a material issue of fact precludes summary judgment. Matsushita Elec. Indus.
+22   v. Zenith Radio Corp., 475 U.S. 574, 586 (1986); see Celotex, 477 U.S. at 324. The
+23   non-moving party must show that there are “genuine factual issues that . . . may
+24   reasonably be resolved in favor of either party.” Cal. Architectural Bldg. Prods., Inc.
+25
+     6
+       Chaney’s remaining claims against Transdev are: (1) disability discrimination (count 6); (2) race
+26   discrimination (count 7); (3) association-based disability discrimination (count 8); (4) work
+27   environment harassment (also asserted against Ogilvie) (count 9); (5) retaliation (count 10);
+     (6) failure to prevent harassment, discrimination, and retaliation (count 11); (7) failure to provide
+28   reasonable accommodation (count 13); (8) failure to engage in good faith interactive process
+     (count 14); and (9) violation of the California Unfair Competition Law (“UCL”) (count 15).
+
+
+
+                                                      3
+Case 2:24-cv-10761-ODW-AJR          Document 46 Filed 04/28/26   Page 4 of 12 Page ID
+                                         #:7357
+
+
+
+ 1   v. Franciscan Ceramics, Inc., 818 F.2d 1466, 1468 (9th Cir. 1987) (quoting Anderson,
+ 2   477 U.S. at 250) (emphasis omitted). Courts should grant summary judgment against
+ 3   a party who fails to make a sufficient showing on an element essential to her case
+ 4   when she will ultimately bear the burden of proof at trial. Celotex, 477 U.S. at 322–
+ 5   23.
+ 6         In ruling on summary judgment motions, courts “view the facts and draw
+ 7   reasonable inferences in the light most favorable” to the nonmoving party. Scott v.
+ 8   Harris, 550 U.S. 372, 378 (2007) (internal quotation marks omitted). Thus, when
+ 9   parties file cross-motions for summary judgment, the court “evaluate[s] each motion
+10   separately, giving the nonmoving party in each instance the benefit of all reasonable
+11   inferences.” A.C.L.U. of Nev. v. City of Las Vegas, 466 F.3d 784, 790–91 (9th Cir.
+12   2006). The court considers “each party’s evidence, regardless under which motion the
+13   evidence is offered.” Las Vegas Sands, LLC v. Nehme, 632 F.3d 526, 532 (9th Cir.
+14   2011). Conclusory, speculative, or “uncorroborated and self-serving” testimony will
+15   not raise genuine issues of fact sufficient to defeat summary judgment. Villiarimo v.
+16   Aloha Island Air, Inc., 281 F.3d 1054, 1061 (9th Cir. 2002); Thornhill Publ’g Co. v.
+17   GTE Tel. & Elec. Corp., 594 F.2d 730, 738 (9th Cir. 1979). Moreover, though the
+18   Court may not weigh conflicting evidence or make credibility determinations, there
+19   must be more than a mere scintilla of contradictory evidence to survive summary
+20   judgment. Addisu v. Fred Meyer, Inc., 198 F.3d 1130, 1134 (9th Cir. 2000).
+21         The Court may assume that material facts claimed and adequately supported are
+22   undisputed except to the extent that such material facts are (a) included in the
+23   opposing party’s responsive statement of disputes and (b) controverted by declaration
+24   or competent written evidence. C.D. Cal. L.R. 56-4. The Court is not obligated to
+25   look any further in the record for supporting evidence other than what is actually and
+26   specifically referenced. Id.
+27
+28
+
+
+
+
+                                                 4
+Case 2:24-cv-10761-ODW-AJR       Document 46 Filed 04/28/26       Page 5 of 12 Page ID
+                                      #:7358
+
+
+
+ 1                                IV.       DISCUSSION
+ 2         Transdev and Ogilvie each move for summary judgment on all of Chaney’s
+ 3   claims. (See generally OMSJ; TMSJ.) Specifically, Ogilvie argues that Chaney does
+ 4   not have prudential standing to bring her harassment claim against him because the
+ 5   claim belongs to the bankruptcy trustee appointed to Chaney’s estate. (OMSJ 10–11.)
+ 6   In its motion, Transdev adopts Ogilvie’s analysis and argues that it also applies to all
+ 7   of Chaney’s claims against Transdev. (TMSJ 8.)
+ 8         “Under the Bankruptcy Code, ‘all legal or equitable interests of the debtor in
+ 9   property as of the commencement of a bankruptcy case’ belong to the bankruptcy
+10   estate created at the debtor’s filing of a bankruptcy petition.”      Bercy v. City of
+11   Phoenix, 103 F.4th 591, 594 (9th Cir. 2024). Property of the estate includes “all legal
+12   or equitable interests of the debtor in property as of the commencement of the case,”
+13   including “the debtor’s ‘causes of action.’” Smith v. Arthur Andersen LLP, 421 F.3d
+14   989, 1002 (9th Cir. 2005) (first citing 11 U.S.C. § 541(a)(1); and then citing United
+15   States v. Whiting Pools, Inc., 462 U.S. 198, 205 n.9 (1983)). Once a bankruptcy estate
+16   is created, “only the bankruptcy trustee,” who is the “representative of the estate and
+17   the real party in interest in a suit on the estate’s claims, has capacity to sue on the
+18   estate’s behalf.” Bercy, 103 F.4th at 594–95 (citation modified) (citing 11 U.S.C.
+19   § 323(a)–(b)). Debtors lack prudential standing to do so. Id.
+20         The Court starts from a position that the parties do not appear to dispute: as of
+21   June 21, 2023, the date that Chaney filed bankruptcy, (see Bankr. Dkt.), Chaney’s
+22   claims belonged to her estate. There can be no dispute because Chaney’s claims in
+23   this action stem from conduct that allegedly took place between 2019 and 2020. (See
+24   TSUF ¶¶ 5, 133.) As the claims are based on conduct that occurred before her
+25   bankruptcy petition, which Chaney filed in 2023, the claims “belong to the bankruptcy
+26   estate.” Bercy, 103 F.4th at 595. Thus, as of the date Chaney filed bankruptcy, only
+27   the bankruptcy trustee had standing to bring the underlying claims.
+28
+
+
+
+
+                                                5
+Case 2:24-cv-10761-ODW-AJR       Document 46 Filed 04/28/26       Page 6 of 12 Page ID
+                                      #:7359
+
+
+
+ 1         The crux of the parties’ dispute is whether the bankruptcy trustee then
+ 2   abandoned Chaney’s claims, allowing her to bring this suit. (Opp’n OMSJ 16–17,
+ 3   Dkt. No. 36; Reply OMSJ 9–10, Dkt. No. 37.) Under 11 U.S.C. § 554(a), “[a]fter
+ 4   notice and a hearing, the trustee may abandon any property of the estate that is
+ 5   burdensome to the estate or that is of inconsequential value and benefit to the estate.”
+ 6   Courts may also consider property abandoned to the debtor where the property is
+ 7   “scheduled . . . [and] not otherwise administered at the time of the closing of a
+ 8   [bankruptcy case].” 11 U.S.C. § 554(c) (emphasis added). If a bankruptcy trustee
+ 9   abandons a particular claim, “the abandonment could constitute the estate’s
+10   ratification of [the debtor’s] lawsuit,” allowing the debtor to bring the lawsuit “as if
+11   the estate itself had originally commenced the action.” Dunmore v. United States,
+12   358 F.3d 1107, 1112 (9th Cir. 2004).
+13         Here however, the documentary evidence demonstrates that the trustee did not
+14   abandon Chaney’s claims.      First, there is no evidence that the trustee expressly
+15   abandoned any property after “notice and a hearing” pursuant to 11 U.S.C. § 554(a).
+16   It is undisputed that, when the bankruptcy trustee recommended discharge on
+17   August 8, 2023, he expressly declared that he found no “property belonging to the
+18   estate” and “no property available for distribution from the estate.” (Bankr. Dkt. 4.)
+19   It is also undisputed that Chaney had knowledge of the claims at issue here but failed
+20   to schedule them for the trustee to evaluate.         (See TSUF ¶¶ 5, 133, 141–43
+21   (establishing Chaney’s knowledge of her employment dispute claims); Bankr. Pet.)
+22   From these undisputed facts, the only reasonable inference the Court can draw is that
+23   the bankruptcy trustee did not know of Chaney’s pending claims when he
+24   recommended discharge.
+25         Chaney attempts to raise a factual dispute by asserting that the “trustee had
+26   notice of pending litigation yet certified zero assets, demonstrating his determination
+27   that disclosed claims had no value to the estate or were abandoned.”            (Opp’n
+28   OMSJ 17.) However, as explained, this assertion runs contrary to the documentary
+
+
+
+
+                                                6
+Case 2:24-cv-10761-ODW-AJR        Document 46 Filed 04/28/26        Page 7 of 12 Page ID
+                                       #:7360
+
+
+
+ 1   evidence. The trustee recommended discharge prior to receiving notice of Chaney’s
+ 2   pending claims. (See Bankr. Dkt.) Chaney only amended her petition to add her
+ 3   pending claims after the bankruptcy trustee recommended discharge. (See id.) Thus,
+ 4   the bankruptcy trustee could not have had notice of Chaney’s claims, and therefore,
+ 5   could not have abandoned them, prior to the Bankruptcy Court’s discharge.
+ 6   Moreover, Chaney fails to support her assertion with any citation to evidence that
+ 7   could create a material factual dispute. Thus, the Court disregards this purported
+ 8   factual dispute as unsupported. See Keenan v. Allan, 91 F.3d 1275, 1279 (“[I]t is not
+ 9   our task . . . to scour the record in search of a genuine issue of triable fact. We rely on
+10   the nonmoving party to identify with reasonable particularity the evidence that
+11   precludes summary judgment.”). As the bankruptcy trustee did not know of Chaney’s
+12   pending claims, he could not have expressly abandoned them after notice and a
+13   hearing under 11 U.S.C. § 554(a).
+14          Second, Chaney did not “schedule” her claims in her initial bankruptcy petition,
+15   meaning that her claims could not have been later abandoned by the bankruptcy
+16   trustee under 11 U.S.C. § 554(c). In her initial bankruptcy petition, Chaney failed to
+17   disclose her claims despite clear language asking whether she had any “[c]laims
+18   against third parties,” including “employment disputes.” (Bankr. Pet. 18.) Chaney’s
+19   failure to schedule her claims “on her bankruptcy petition” means that “she is divested
+20   of prudential standing to assert that cause of action.” Neal v. NaturalCare, Inc.,
+21   No. 5:12-cv-00531-DOC (OPx), 2014 WL 346639, at *3 (C.D. Cal. Jan. 30, 2014)
+22   (citing Dunmore, 358 F.3d at 1112). Indeed, 11 U.S.C. § 554(c) is clear that courts
+23   may consider only scheduled property as abandoned to the debtor. As Chaney failed
+24   to properly schedule her claims prior to the trustee’s discharge recommendation, the
+25   Court cannot consider her claims to be abandoned by the bankruptcy trustee. Thus,
+26   the bankruptcy trustee, and not Chaney, continues to have standing to bring the claims
+27   in this action.
+28
+
+
+
+
+                                                  7
+Case 2:24-cv-10761-ODW-AJR             Document 46 Filed 04/28/26             Page 8 of 12 Page ID
+                                            #:7361
+
+
+
+ 1          For these reasons, the Court finds that Chaney does not have standing in this
+ 2   action and that summary judgment should be granted against her.                            See Bercy,
+ 3   103 F.4th at 597 (affirming summary judgment against debtor without prudential
+ 4   standing to pursue her claims).
+ 5                                       V.         SANCTIONS
+ 6          Unfortunately, the Court must, once again, discuss sanctions related to the use
+ 7   of generative-artificial intelligence (“generative-AI”). After the Court took these
+ 8   matters under submission, Chaney’s counsel Gavril T. Gabriel filed a declaration
+ 9   regarding his opposition briefs. (Decl. Gavril T. Gabriel re Pl.’s Opp’n (“Gabriel
+10   Decl.”), Dkt. No. 43.) In the declaration, Gabriel attempts to improperly rehabilitate
+11   his use of certain case law, (see id. ¶¶ 3–4, 10), and also attempts to improperly
+12   supplement his opposition with additional case law, (see id. ¶¶ 7–8). The Court
+13   disregards these improper attempts to file a sur-response to Defendants’ replies.
+14          However, the subject of this Court’s sanctions is what Gabriel attempts to bury
+15   in the middle of his declaration. According to Gabriel, he states that “[o]n page 17 of
+16   Plaintiff’s Memorandum of Points and Authorities in support of her opposition to
+17   Defendant James Ogilvie’s Motion for Summary Judgment,” that “there was an
+18   inadvertently made citation to In re Shubert, 799 F.3d 1124, 1129 (9th Cir. 2015) for
+19   the proposition that ‘Property abandoned by a trustee reverts to the debtor.’”7 (Gabriel
+20   Decl. ¶ 5.) While he stated that he meant to cite to a different, real case—with a
+21   markedly different case name, reporter, pincite, jurisdiction, and year—Gabriel did not
+22   say what became apparent to the Court: In re Shubert is not a real case. Instead, the
+23   reporter and pincite associated with In re Shubert leads to Cause of Action v. FTC,
+24   799 F.3d 1108, 1124 (D.C. Cir. 2015), a case that has no bearing on any of the issues
+25   presented in this case.
+26
+27
+     7
+28     Notably, Gabriel raised this issue only after Ogilvie noted in his reply brief that In re Shubert was
+     fake. (Reply OMSJ 10.)
+
+
+
+                                                         8
+Case 2:24-cv-10761-ODW-AJR            Document 46 Filed 04/28/26           Page 9 of 12 Page ID
+                                           #:7362
+
+
+
+ 1          After receiving Gabriel’s declaration, the Court ordered Gabriel to show cause
+ 2   addressing this citation error. (Order Show Cause, Dkt. No. 44.) It also ordered
+ 3   Gabriel to address why he was not forthcoming with his use of generative-AI in his
+ 4   declaration; why the Court should not sanction him for using generative-AI to perform
+ 5   legal research and failing to perform a reasonable inquiry into whether his legal
+ 6   citations are supported; and why the Court should not also sanction him for bad faith
+ 7   misrepresentations to the Court. (Id. at 2.)
+ 8          Gabriel’s declaration satisfactorily addresses his use of generative-AI, but not of
+ 9   his bad faith misrepresentations. (See Decl. Gavril T. Gabriel re OSC (“Gabriel OSC
+10   Decl.”), Dkt. No. 45.) In an effort to give the Court “a complete and honest answer,”
+11   Gabriel admits to using LexisNexis+, and its drafting feature called Protégé, to draft
+12   portions of the brief. 8 (Id. ¶ 4.) However, Gabriel does not address why he buried his
+13   admission to using generative-AI in what was essentially an improper sur-response.
+14          The Court took Gabriel’s declaration under consideration and began preparing
+15   this Order. While considering the parties’ papers, the Court noted that In re Shubert
+16   did not appear just once in Chaney’s opposition to Ogilvie’s Motion for Summary
+17   Judgment, but also appeared twice in Chaney’s opposition to Transdev’s Motion for
+18   Summary Judgment. (Opp’n TMSJ 15–16, Dkt. No. 35.) Notably, while Gabriel
+19   admitted to fabricating In re Shubert in Chaney’s opposition to Ogilvie’s Motion,
+20   Gabirel failed to mention, in either his initial declaration or in his response to the
+21   Court’s Order to Show Cause, that the same, fabricated case also appeared twice more
+22   in the opposition to Transdev’s Motion.
+23          Courts have “the inherent authority to impose sanctions for bad faith, which
+24   includes a broad range of willful improper conduct.” Fink v. Gomez, 239 F.3d 989,
+25   992 (9th Cir. 2001). This inherent power extends to a full range of litigation abuse
+26
+     8
+27     Gabriel also addresses his apparent failure to attach a generative-AI disclosure to his oppositions.
+     (Id. ¶ 9.iii.) However, the Court did not begin mandating this certification until after Gabriel filed
+28   his oppositions. Thus, the Court does not consider the lack of a generative-AI disclosure when
+     issuing sanctions.
+
+
+
+                                                       9
+Case 2:24-cv-10761-ODW-AJR         Document 46 Filed 04/28/26      Page 10 of 12 Page ID
+                                         #:7363
+
+
+
+ 1   tactics, such as bad faith conduct or willful disobedience of a court’s order. Id.
+ 2   Though this power must be exercised with restraint, courts have wide latitude in
+ 3   fashioning appropriate sanctions to fit the conduct. See Roadway Express, Inc. v.
+ 4   Piper, 447 U.S. 752, 764–65 (1980). However, courts must make “[a] specific finding
+ 5   of bad faith” before imposing a “sanction under the court’s inherent powers.” United
+ 6   States v. Stoneberger, 805 F.2d 1391, 1393 (1980) (quoting Roadway Express,
+ 7   447 U.S. at 767).
+ 8           Two overarching factors drive the Court’s sanctions order. First, the imposition
+ 9   of sanctions for submitting generative-AI hallucinations is so well-documented at this
+10   point that the Court finds the failure to verify citations after using generative-AI rises
+11   to the level of bad faith. According to one source, in the United States alone, there
+12   have been 915 legal opinions addressing the improper use of generative-AI in the last
+13   three     years.        See     Damien      Carlotin,    AI     Hallucination      Cases,
+14   https://www.damiencharlotin.com/hallucinations/ (last visited Apr. 26, 2026). Courts
+15   in this District have begun ordering heavy sanctions against attorneys caught using
+16   fabricated cases generated by AI. See, e.g., N.Z. v. Fenix Int’l Ltd., No. 8:24-cv-
+17   01655-FWS (SSCx), 2025 WL 3626155, at *5 (C.D. Cal. Dec. 12, 2025) (ordering
+18   $13,000 in sanctions against plaintiffs’ counsel for filing briefs containing hallucinated
+19   authority). Any attorney diligently fulfilling his or her “duty to keep abreast of the
+20   changes in the law and its practice, including the benefits and risks associated with
+21   relevant technology,” Cal. Rules Pro. Conduct 1.1 cmt. 1, should be aware of the
+22   grave peril to which they subject themselves by relying on generative-AI without
+23   verification. Thus, Gabriel’s failure to verify his citations, despite this knowledge,
+24   warrants sanctions for bad faith.
+25           Second, and perhaps more egregious, is Gabriel’s apparent attempts to hide his
+26   misconduct. In his initial declaration, Gabriel buries his use of fabricated authority
+27   between multiple paragraphs of improper sur-responses to Defendants’ reply briefs.
+28   (See Gabriel Decl. (containing eleven paragraphs, only two of which address his
+
+
+
+
+                                                 10
+Case 2:24-cv-10761-ODW-AJR       Document 46 Filed 04/28/26         Page 11 of 12 Page ID
+                                       #:7364
+
+
+
+ 1   misuse of generative-AI).) Moreover, Gabriel initially presented the hallucinated case
+ 2   as a mere copy-and-paste error, (id. ¶¶ 5–6); only after the Court ordered Gabriel to
+ 3   show cause did Gabriel admit to using generative-AI without verification.          (See
+ 4   Gabriel OSC Decl.)      To make matters worse, in neither declaration did Gabriel
+ 5   acknowledge that the fabricated citation appeared twice more in a second brief,
+ 6   separate from the one that Gabriel initially acknowledged. (See Gabriel Decl. ¶ 5
+ 7   (mentioning only Chaney’s opposition to Ogilvie’s motion and not Chaney’s separate
+ 8   opposition to Transdev’s motion).)      Gabriel’s multiple and repeated attempts to
+ 9   obfuscate and minimize his generative-AI misuse also warrants sanctions for bad faith
+10   conduct.
+11         Monetary sanctions are required to attempt to deter this conduct. However, the
+12   Court is also cognizant that monetary sanctions have proved inadequate deterrence
+13   generally, as the submission of fabricated case citations continues to occur throughout
+14   the country, on a near-daily basis. Thus, the Court imposes $500 in sanctions for
+15   Gabriel’s use of In re Shubert in his opposition to Ogilvie’s motion for summary
+16   judgment, and $1,000 in sanctions for each of Gabriel’s two uses of In re Shubert in
+17   his opposition to Transdev’s motion for summary judgment, totaling $2,500. The
+18   Court also requires Gabriel to file a declaration in every case in which he is an
+19   attorney in the Central District of California.      The declaration shall include an
+20   explanation of how he used generative-AI to draft his briefing in this case, and shall
+21   also detail the Court’s bad faith findings made in this order. For every judge in the
+22   Central District before whom Gabriel is not currently appearing, Gabriel shall email
+23   his declaration to each judge’s chambers email. The Court finds that this is both
+24   necessary and proportionate to deter Gabriel from repeating such conduct, as well as
+25   to deter other attorneys from similar conduct in the future.
+26
+27
+28
+
+
+
+
+                                                11
+Case 2:24-cv-10761-ODW-AJR       Document 46 Filed 04/28/26      Page 12 of 12 Page ID
+                                       #:7365
+
+
+
+ 1                                   VI.    CONCLUSION
+ 2         For the reasons discussed above, the Court GRANTS Transdev’s and Ogilvie’s
+ 3   Motions for Summary Judgment. (Dkts. No. 31, 32.) Judgment shall issue.
+ 4         The Court also SANCTIONS Chaney’s counsel $2,500.00 for bad faith
+ 5   conduct, including using AI-generated and hallucinated caselaw without verification
+ 6   three times, payable to the Court. Chaney’s counsel shall remit payment to the Court
+ 7   no later than MAY 28, 2026 and shall file proof of payment in this case by that date.
+ 8   Chaney’s counsel shall also file a declaration, no later than MAY 12, 2026, in every
+ 9   case in which he is an appearing attorney in the Central District of California. The
+10   declaration shall contain an explanation of how he used generative AI to draft his
+11   briefing in this case and of the Court’s bad faith findings in this order. For every
+12   judge in the Central District before whom Chaney’s attorney is not currently
+13   appearing, the Court ORDERS him to email the declaration, no later than MAY 12,
+14   2026, to each judge’s chambers email. Failure to strictly comply with these orders
+15   will result in further disciplinary proceedings, including, but not limited to, contempt
+16   proceedings and referral to the California state bar.
+17
+18         IT IS SO ORDERED.
+19
+20         April 28, 2026
+21                                 ____________________________________
+22                                          OTIS D. WRIGHT, II
+                                    UNITED STATES DISTRICT JUDGE
+23
+24
+25
+26
+27
+28
+
+
+
+
+                                                 12
+

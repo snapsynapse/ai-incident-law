@@ -1,0 +1,174 @@
+{
+  "status": 302,
+  "headers": {
+    "cache-control": "private",
+    "content-type": "text/html; charset=utf-8",
+    "location": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/23d7df84-ed51-48df-8477-3a6872db40d5/Scott%20v.%20IL%20Human%20Rights%20Commn%202026%20IL%20App%20(1st)%20251462.pdf",
+    "server": "envoy",
+    "x-frame-options": "SAMEORIGIN",
+    "set-cookie": "[REDACTED]",
+    "x-powered-by": "ASP.NET",
+    "date": "Sat, 03 Oct 2026 18:37:37 GMT",
+    "x-envoy-upstream-service-time": "66",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "finalUrl": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/23d7df84-ed51-48df-8477-3a6872db40d5/Scott%20v.%20IL%20Human%20Rights%20Commn%202026%20IL%20App%20(1st)%20251462.pdf",
+  "complete": false,
+  "redirects": [
+    {
+      "from": "https://illinoiscourts.gov/resources/23d7df84-ed51-48df-8477-3a6872db40d5/file",
+      "to": "https://www.illinoiscourts.gov/resources/23d7df84-ed51-48df-8477-3a6872db40d5/file",
+      "status": 301
+    },
+    {
+      "from": "https://www.illinoiscourts.gov/resources/23d7df84-ed51-48df-8477-3a6872db40d5/file",
+      "to": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/23d7df84-ed51-48df-8477-3a6872db40d5/Scott%20v.%20IL%20Human%20Rights%20Commn%202026%20IL%20App%20(1st)%20251462.pdf",
+      "status": 302
+    }
+  ],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "3aa155719fcc485cb5880cc3394b7db6",
+      "url": "https://illinoiscourts.gov/robots.txt",
+      "kind": "robots",
+      "host": "illinoiscourts.gov",
+      "status": 301,
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "location": "https://www.illinoiscourts.gov/robots.txt",
+        "server": "envoy",
+        "x-powered-by": "ASP.NET",
+        "date": "Sat, 03 Oct 2026 18:37:35 GMT",
+        "content-length": "164",
+        "x-envoy-upstream-service-time": "90",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:35.268811+00:00",
+      "sha256": "ad126d6f39ed59e3059955afae6bdce14183f79395e8b73b419a688223f40952",
+      "bytes": 164,
+      "body_path": "/workspace/freshness-control/transport-evidence/3aa155719fcc485cb5880cc3394b7db6.body"
+    },
+    {
+      "id": "22255472a5334deaa82fcb335ff37961",
+      "url": "https://www.illinoiscourts.gov/robots.txt",
+      "kind": "robots",
+      "host": "www.illinoiscourts.gov",
+      "status": 200,
+      "headers": {
+        "cache-control": "private",
+        "content-type": "text/plain; charset=utf-8",
+        "server": "envoy",
+        "x-frame-options": "SAMEORIGIN",
+        "set-cookie": "[REDACTED]",
+        "x-powered-by": "ASP.NET",
+        "date": "Sat, 03 Oct 2026 18:37:35 GMT",
+        "content-length": "403",
+        "x-envoy-upstream-service-time": "110",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:35.457540+00:00",
+      "sha256": "8ae2d6c2b9d44120bc39dfbfce95aea57f0d83a0fe923f356f0333abfb7fc474",
+      "bytes": 403,
+      "body_path": "/workspace/freshness-control/transport-evidence/22255472a5334deaa82fcb335ff37961.body"
+    },
+    {
+      "id": "2b89baa725324de78ecb0b102a8a8cd7",
+      "url": "https://illinoiscourts.gov/resources/23d7df84-ed51-48df-8477-3a6872db40d5/file",
+      "kind": "fetch",
+      "host": "illinoiscourts.gov",
+      "status": 301,
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "location": "https://www.illinoiscourts.gov/resources/23d7df84-ed51-48df-8477-3a6872db40d5/file",
+        "server": "envoy",
+        "x-powered-by": "ASP.NET",
+        "date": "Sat, 03 Oct 2026 18:37:36 GMT",
+        "content-length": "205",
+        "x-envoy-upstream-service-time": "90",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:37.269033+00:00",
+      "sha256": "059acb44ae1846dd6082df043631ffbfaacd76abc1617155ff723e1b5babe213",
+      "bytes": 205,
+      "body_path": "/workspace/freshness-control/transport-evidence/2b89baa725324de78ecb0b102a8a8cd7.body"
+    },
+    {
+      "id": "22255472a5334deaa82fcb335ff37961",
+      "url": "https://www.illinoiscourts.gov/robots.txt",
+      "kind": "robots",
+      "host": "www.illinoiscourts.gov",
+      "status": 200,
+      "headers": {
+        "cache-control": "private",
+        "content-type": "text/plain; charset=utf-8",
+        "server": "envoy",
+        "x-frame-options": "SAMEORIGIN",
+        "set-cookie": "[REDACTED]",
+        "x-powered-by": "ASP.NET",
+        "date": "Sat, 03 Oct 2026 18:37:35 GMT",
+        "content-length": "403",
+        "x-envoy-upstream-service-time": "110",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:35.457540+00:00",
+      "sha256": "8ae2d6c2b9d44120bc39dfbfce95aea57f0d83a0fe923f356f0333abfb7fc474",
+      "bytes": 403,
+      "body_path": "/workspace/freshness-control/transport-evidence/22255472a5334deaa82fcb335ff37961.body",
+      "cached": true
+    },
+    {
+      "id": "6c406b0aad2c42e881f050369795fcb0",
+      "url": "https://www.illinoiscourts.gov/resources/23d7df84-ed51-48df-8477-3a6872db40d5/file",
+      "kind": "fetch",
+      "host": "www.illinoiscourts.gov",
+      "status": 302,
+      "headers": {
+        "cache-control": "private",
+        "content-type": "text/html; charset=utf-8",
+        "location": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/23d7df84-ed51-48df-8477-3a6872db40d5/Scott%20v.%20IL%20Human%20Rights%20Commn%202026%20IL%20App%20(1st)%20251462.pdf",
+        "server": "envoy",
+        "x-frame-options": "SAMEORIGIN",
+        "set-cookie": "[REDACTED]",
+        "x-powered-by": "ASP.NET",
+        "date": "Sat, 03 Oct 2026 18:37:37 GMT",
+        "x-envoy-upstream-service-time": "66",
+        "connection": "close",
+        "transfer-encoding": "chunked"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:37.457651+00:00",
+      "sha256": "276b34b4353b537eb89b3d6713c227697541f949922700dc93297e39cee61d18",
+      "bytes": 306,
+      "body_path": "/workspace/freshness-control/transport-evidence/6c406b0aad2c42e881f050369795fcb0.body"
+    },
+    {
+      "id": "37069361068c4c62b748acd1fa69306e",
+      "url": "https://ilcourtsaudio.blob.core.windows.net/robots.txt",
+      "kind": "robots",
+      "host": "ilcourtsaudio.blob.core.windows.net",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T18:37:37.606767+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/37069361068c4c62b748acd1fa69306e.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T18:37:37.457651+00:00",
+  "sha256": "276b34b4353b537eb89b3d6713c227697541f949922700dc93297e39cee61d18",
+  "requested_url": "https://illinoiscourts.gov/resources/23d7df84-ed51-48df-8477-3a6872db40d5/file",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/resume-20261003/11f99c15622a686e7fc2618a.body"
+}

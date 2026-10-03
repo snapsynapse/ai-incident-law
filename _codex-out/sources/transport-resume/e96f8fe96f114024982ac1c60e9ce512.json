@@ -1,0 +1,28 @@
+{
+  "id": "e96f8fe96f114024982ac1c60e9ce512",
+  "url": "https://www.gasupreme.us/robots.txt",
+  "kind": "robots",
+  "host": "www.gasupreme.us",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:46 GMT",
+    "content-type": "text/plain",
+    "content-length": "71",
+    "vary": "Accept-Encoding",
+    "last-modified": "Tue, 10 Oct 2017 20:33:16 GMT",
+    "etag": "\"47-55b37377fbb00\"",
+    "x-cache-nxaccel": "MISS",
+    "accept-ranges": "bytes",
+    "x-frame-options": "SAMEORIGIN",
+    "x-envoy-upstream-service-time": "165",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:45.975400+00:00",
+  "sha256": "2c3d50be784b56de8c6cbdc174817ab688c3b9892494616d3a414a115aa85196",
+  "bytes": 71,
+  "body_path": "/workspace/freshness-control/transport-evidence/e96f8fe96f114024982ac1c60e9ce512.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/e96f8fe96f114024982ac1c60e9ce512.body"
+}

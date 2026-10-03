@@ -1,0 +1,29 @@
+{
+  "id": "1b19658f3cb1492eb155400842daa34d",
+  "url": "https://www.canlii.org/robots.txt",
+  "kind": "robots",
+  "host": "www.canlii.org",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:23 GMT",
+    "content-type": "text/plain;charset=utf-8",
+    "content-length": "50327",
+    "server": "envoy",
+    "strict-transport-security": "max-age=31536000 ; includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "0",
+    "vary": "Accept-Encoding",
+    "x-datadome": "protected",
+    "accept-ch": "Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory,Sec-CH-UA-Platform-Version",
+    "set-cookie": "[REDACTED]",
+    "x-envoy-upstream-service-time": "242",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:22.911316+00:00",
+  "sha256": "86137745ca9d79ddb3e41e53da66c68581394c99e9ba7a3c72d0be8d0f42d9ec",
+  "bytes": 50327,
+  "body_path": "/workspace/freshness-control/transport-evidence/1b19658f3cb1492eb155400842daa34d.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/1b19658f3cb1492eb155400842daa34d.body"
+}

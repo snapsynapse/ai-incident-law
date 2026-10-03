@@ -1,0 +1,31 @@
+{
+  "id": "2721985c0df1436995e537cbf3b6e88b",
+  "url": "https://govinfo.gov/content/pkg/USCOURTS-ca2-22-02057/pdf/USCOURTS-ca2-22-02057-0.pdf",
+  "kind": "fetch",
+  "host": "govinfo.gov",
+  "status": 301,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:52 GMT",
+    "content-type": "text/html",
+    "location": "https://www.govinfo.gov/content/pkg/USCOURTS-ca2-22-02057/pdf/USCOURTS-ca2-22-02057-0.pdf",
+    "server": "envoy",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "content-security-policy": "default-src 'self'  https://analytics.govinfo.gov https://stackpath.bootstrapcdn.com https://cdn.jsdelivr.net https://maxcdn.bootstrapcdn.com; frame-ancestors 'self'; script-src 'unsafe-inline' 'unsafe-eval' 'self' *.videodelivery.net *.cloudflarestream.com  https://cdn.jsdelivr.net  https://stackpath.bootstrapcdn.com https://api.data.gov https://maxcdn.bootstrapcdn.com https://www.google.com/recaptcha https://recaptcha.google.com/recaptcha; object-src 'unsafe-inline' 'self' ; style-src 'unsafe-inline' 'self' https://cdn.jsdelivr.net https://maxcdn.bootstrapcdn.com https://api.data.gov  https://stackpath.bootstrapcdn.com https://fonts.googleapis.com https://www.google.com/recaptcha https://recaptcha.google.com/recaptcha; img-src 'unsafe-inline' 'self' https://maxcdn.bootstrapcdn.com https://stackpath.bootstrapcdn.com  https://analytics.govinfo.gov data:; font-src 'unsafe-inline' 'self' https://cdn.jsdelivr.net  https://stackpath.bootstrapcdn.com https://api.data.gov https://maxcdn.bootstrapcdn.com https://fonts.gstatic.com https://fonts.googleapis.com; connect-src 'self' *.videodelivery.net *.cloudflarestream.com https://cdn.jsdelivr.net  https://api.data.gov https://analytics.govinfo.gov; frame-src 'self'  https://stackpath.bootstrapcdn.com https://maxcdn.bootstrapcdn.com https://www.google.com/recaptcha https://recaptcha.google.com/recaptcha;",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a44e0f809ce3b57d-ORD",
+    "x-envoy-upstream-service-time": "76",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:52.018869+00:00",
+  "sha256": "9e17cb15dd75bbbd5dbb984eda674863c3b10ab72613cf8a39a00c3e11a8492a",
+  "bytes": 162,
+  "body_path": "/workspace/freshness-control/transport-evidence/2721985c0df1436995e537cbf3b6e88b.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/2721985c0df1436995e537cbf3b6e88b.body"
+}

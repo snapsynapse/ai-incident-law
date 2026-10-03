@@ -1,0 +1,138 @@
+Case 2:12-cv-00970-TS        Document 385         Filed 09/09/26      PageID.4786       Page 1 of 3
+
+
+
+
+                          IN THE UNITED STATES DISTRICT COURT
+
+                                     FOR THE DISTRICT OF UTAH
+
+
+ BEUS GILBERT PLLC,
+
+                        Plaintiff,                    MEMORANDUM DECISION AND
+ v.                                                   ORDER IMPOSING SANCTIONS
+
+ BRIGHAM YOUNG UNIVERSITY, et al.,
+                                                      Case No. 2:12-cv-00970-TS
+                        Defendants.
+                                                      District Judge Ted Stewart
+
+
+
+       On September 2, 2026, counsel for Brigham Young University (“BYU”), Chad Pehrson
+
+and Robert S. Clark (“Counsel”), appeared before the Court upon an Order to Show Cause1 after
+
+BYU filed briefing containing errors and citations that appeared to be AI-hallucinated.2
+
+       Prior to the issuance of the Order to Show Cause, Mr. Pehrson filed a Notice of Errata
+
+identifying and correcting twelve errors embodied in the briefing.3 Prior to the hearing, Counsel
+
+filed a Notice of Acknowledgment wherein Counsel apologized for the harm caused by the errors
+
+and stated they had refunded opposing counsels’ legal fees incurred as a result.4 At the hearing,
+
+Mr. Pehrson stated he drafted the briefing, which included a citation to a nonexistent case and
+
+several citations to cases that do not support and are unrelated to the stated propositions, some of
+
+which misstated the controlling law of the dispute. Mr. Pehrson also stated that he relied on
+
+several AI models in drafting the briefing, including ClearBrief, Claude, ChatGPT, and Gemini.
+
+
+       1
+           Docket Nos. 380, 384.
+       2
+           See Docket Nos. 375, 376.
+       3
+           Docket No. 378.
+       4
+           Docket No. 383.
+Case 2:12-cv-00970-TS         Document 385         Filed 09/09/26      PageID.4787        Page 2 of 3
+
+
+
+
+Mr. Pehrson explained that the errors resulted from his failure to review the accuracy of the legal
+
+contentions contained therein. Mr. Clark also explained his failure to perform a review of the
+
+filings prior to submission, and he informed the Court that he enrolled in a CLE course relating
+
+to the use of AI in the legal profession.
+
+       The Federal Rules of Civil Procedure provide that presenting a legal document to the
+
+court, “whether by signing, filing, submitting, or later advocating it,” certifies that the attorneys
+
+have conducted a reasonable inquiry to ensure the legal contentions therein are “warranted by
+
+existing law,” or by a nonfrivolous argument to extend, modify, or reverse it, or establish new
+
+law.5 Based on Counsels’ admissions at the show cause hearing, the Court finds that Mr. Pehrson
+
+and Mr. Clark violated Federal Rule of Civil Procedure 11(b) by failing to conduct a reasonable
+
+inquiry into the existence and accuracy of the legal authority cited in the briefing submitted to
+
+the Court that was riddled with AI-generated errors.
+
+       The Court takes misuse of AI, and the harm flowing therefrom, very seriously. As one
+
+court has stated:
+
+       The Court’s time is taken from other important endeavors. The client may be
+       deprived of arguments based on authentic judicial precedents. There is potential
+       harm to the reputation of judges and courts whose names are falsely invoked as
+       authors of the bogus opinions and to the reputation of a party attributed with
+       fictional conduct. It promotes cynicism about the legal profession and the American
+       judicial system. And a future litigant may be tempted to defy a judicial ruling by
+       disingenuously claiming doubt about its authenticity.6
+
+       In light of Mr. Pehrson’s and Mr. Clark’s accepted responsibility, and having already
+
+reimbursed opposing counsels’ legal fees, the Court HEREBY ORDERS Mr. Pehrson to
+
+
+       5
+          Fed. R. Civ. P. 11(b); see Bus. Guides, Inc. v. Chromatic Commc’ns Enters., Inc., 498
+U.S. 533, 541–42 (1991); Park v. Kim, 91 F.4th 610, 615 (2d Cir. 2024) (“At the very least, the
+duties imposed by Rule 11 require that attorneys read, and thereby confirm the existence and the
+validity of, the legal authorities on which they rely.”).
+       6
+           Mata v. Avianca, Inc., 678 F. Supp. 3d 443, 448–49 (S.D.N.Y. 2023).
+Case 2:12-cv-00970-TS          Document 385      Filed 09/09/26      PageID.4788        Page 3 of 3
+
+
+
+
+successfully complete two (2) CLE courses related to the ethical use of AI in the legal profession
+
+and submit successful completion of each within six (6) months from the date of this order. It is
+
+further ORDERED that Mr. Pehrson pay a penalty of $2,000 and Mr. Clark pay a penalty of
+
+$1,000 to the court and file proof of payment within thirty (30) days from the date of this order.7
+
+       SO ORDERED.
+
+
+
+       DATED this 9th day of September, 2026.
+
+                                              BY THE COURT:
+
+
+                                              ________________________________________
+                                              TED STEWART
+                                              United States District Judge
+
+
+
+
+       7
+           See Fed. R. Civ. P. 11(c)(4).
+

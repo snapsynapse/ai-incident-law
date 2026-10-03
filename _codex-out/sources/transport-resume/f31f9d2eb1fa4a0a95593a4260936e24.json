@@ -1,0 +1,26 @@
+{
+  "id": "f31f9d2eb1fa4a0a95593a4260936e24",
+  "url": "https://cbsnews.com/robots.txt",
+  "kind": "robots",
+  "host": "cbsnews.com",
+  "status": 301,
+  "headers": {
+    "retry-after": "0",
+    "location": "https://www.cbsnews.com/robots.txt",
+    "accept-ranges": "bytes",
+    "date": "Sat, 03 Oct 2026 18:37:24 GMT",
+    "via": "1.1 varnish",
+    "fastly-restarts": "0",
+    "content-length": "0",
+    "x-envoy-upstream-service-time": "42",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:24.168058+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/f31f9d2eb1fa4a0a95593a4260936e24.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/f31f9d2eb1fa4a0a95593a4260936e24.body"
+}

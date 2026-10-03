@@ -1,0 +1,81 @@
+{
+  "status": 200,
+  "headers": {
+    "cache-control": "private",
+    "content-type": "text/html; charset=utf-8",
+    "server": "envoy",
+    "set-cookie": "[REDACTED]",
+    "content-security-policy": "script-src 'self' 'unsafe-eval' 'unsafe-inline'  https://*.google/ https://*.google.com https://*.googletagmanager.com https://*.googleapis.com https://ajax.aspnetcdn.com https://hostedpaynow.com https://www.hcdistrictclerk.com https://www.gstatic.com",
+    "x-aspnet-version": "4.0.30319",
+    "x-powered-by": "ASP.NET",
+    "date": "Sat, 03 Oct 2026 18:37:44 GMT",
+    "vary": "Accept-Encoding",
+    "x-envoy-upstream-service-time": "195",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "finalUrl": "https://www.hcdistrictclerk.com/Edocs/Public/Search.aspx",
+  "complete": true,
+  "redirects": [],
+  "error": null,
+  "attempts": [
+    {
+      "id": "545c42b053234c0a97486369c14a87db",
+      "url": "https://www.hcdistrictclerk.com/robots.txt",
+      "kind": "robots",
+      "host": "www.hcdistrictclerk.com",
+      "status": 200,
+      "headers": {
+        "content-type": "text/plain",
+        "last-modified": "Fri, 24 Aug 2012 18:38:13 GMT",
+        "accept-ranges": "bytes",
+        "etag": "\"ac23509e2782cd1:0\"",
+        "server": "envoy",
+        "x-powered-by": "ASP.NET",
+        "date": "Sat, 03 Oct 2026 18:37:31 GMT",
+        "content-length": "703",
+        "set-cookie": "[REDACTED]",
+        "vary": "Accept-Encoding",
+        "x-envoy-upstream-service-time": "142",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:46.746860+00:00",
+      "sha256": "759518711109fdae8c338f66926f61e32b438697b53c08bb022d88fd9738e87c",
+      "bytes": 703,
+      "body_path": "/workspace/freshness-control/transport-evidence/545c42b053234c0a97486369c14a87db.body"
+    },
+    {
+      "id": "4d250ac2ab374324b8fd5a5d3dac2fe4",
+      "url": "https://www.hcdistrictclerk.com/Edocs/Public/Search.aspx",
+      "kind": "fetch",
+      "host": "www.hcdistrictclerk.com",
+      "status": 200,
+      "headers": {
+        "cache-control": "private",
+        "content-type": "text/html; charset=utf-8",
+        "server": "envoy",
+        "set-cookie": "[REDACTED]",
+        "content-security-policy": "script-src 'self' 'unsafe-eval' 'unsafe-inline'  https://*.google/ https://*.google.com https://*.googletagmanager.com https://*.googleapis.com https://ajax.aspnetcdn.com https://hostedpaynow.com https://www.hcdistrictclerk.com https://www.gstatic.com",
+        "x-aspnet-version": "4.0.30319",
+        "x-powered-by": "ASP.NET",
+        "date": "Sat, 03 Oct 2026 18:37:44 GMT",
+        "vary": "Accept-Encoding",
+        "x-envoy-upstream-service-time": "195",
+        "connection": "close",
+        "transfer-encoding": "chunked"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:48.746992+00:00",
+      "sha256": "dc940f333807d02a107c93f6757a2a3f35244d926558b711e34d968877cdfcb3",
+      "bytes": 1017684,
+      "body_path": "/workspace/freshness-control/transport-evidence/4d250ac2ab374324b8fd5a5d3dac2fe4.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T18:37:48.746992+00:00",
+  "sha256": "dc940f333807d02a107c93f6757a2a3f35244d926558b711e34d968877cdfcb3",
+  "requested_url": "https://www.hcdistrictclerk.com/Edocs/Public/Search.aspx",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/resume-20261003/b595aaf22a376c7a544778ff.body"
+}

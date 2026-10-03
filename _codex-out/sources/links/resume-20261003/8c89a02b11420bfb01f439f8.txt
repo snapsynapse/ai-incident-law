@@ -1,0 +1,1055 @@
+             Case 3:24-cv-05808-TMC            Document 269     Filed 08/18/26     Page 1 of 19
+
+
+
+
+ 1
+
+ 2
+
+ 3
+
+ 4
+
+ 5
+                                 UNITED STATES DISTRICT COURT
+ 6                              WESTERN DISTRICT OF WASHINGTON
+                                          AT TACOMA
+ 7
+         JOANN LEDOUX, a single woman,                  Case No. 3:24-cv-05808-TMC
+ 8
+                             Plaintiff,                 ORDER GRANTING DEFENDANTS’
+ 9
+                                                        MOTION FOR SUMMARY JUDGMENT
+               v.
+10
+         OUTLIERS, INC. (d/b/a THESIS, THESIS
+11
+         NOOTROPICS, FIND MY FORMULA, and
+12
+         FORMULA), et al.
+13
+                             Defendants.
+14
+
+15
+                                          I.    INTRODUCTION
+16
+              Plaintiff Joann LeDoux, a nurse for the Army, alleges that Defendants’ 1 nootropic
+17
+     supplement kits were adulterated with amphetamines and other ingredients that Defendants
+18
+     failed to disclose. Dkt. 45 ¶¶ 92–94, 100. In January 2026, this Court granted partial summary
+19
+     judgment and dismissed Plaintiff’s claims to the extent they relied on her primary theory of
+20
+     liability—that the supplements caused Plaintiff to test positive on a routine drug screening and
+21
+
+22   1
+       Defendants include Outliers, Inc. (doing business as Thesis Nootropics), Brand Nutraceuticals,
+     Inc. (doing business as Brand Nutra), Brand Packaging Group, Inc., and one to five unidentified
+23   Doe defendants. Dkt. 45 ¶¶ 2–9. Although Plaintiff also sued Daniel Freed and Matt Rubin—
+     Thesis’s CEO and Director of Supply Chain, respectively—the Court dismissed these claims
+24   without prejudice on October 28, 2025. Id. ¶¶ 3–4; Dkt. 169.
+
+
+     ORDER GRANTING DEFENDANTS’ MOTION FOR SUMMARY JUDGMENT - 1
+           Case 3:24-cv-05808-TMC             Document 269      Filed 08/18/26     Page 2 of 19
+
+
+
+
+ 1   resulted in a court martial, a missed promotion, and various other damages. Dkt. 202. Defendants
+
+ 2   now move for summary judgment against Plaintiff’s remaining claims and theories. Dkt. 207.
+
+ 3   Defendants also ask the Court to exclude evidence from two of Plaintiff’s remaining experts.
+
+ 4   Dkts. 206, 208.
+
+ 5          Finding oral argument unnecessary, the Court GRANTS Defendants’ motion to exclude
+
+ 6   Ms. Evelyn Cadman (Dkt. 206), GRANTS their motion to exclude Dr. Gabriel Holguin
+
+ 7   (Dkt. 208), and GRANTS their motion for summary judgment (Dkt. 207). Plaintiff’s remaining
+
+ 8   claims are DISMISSED WITH PREJUDICE and without leave to amend.
+
+ 9                                      II.     BACKGROUND
+
+10          The Court discussed the facts of this case in detail when it addressed the motions for
+
+11   partial summary judgment and will not do so again here. Dkt. 202 at 2–8. When the Court
+
+12   granted partial summary judgment, it ordered the following:
+
+13          The Court GRANTS IN PART Defendants’ motion to exclude and strike Plaintiff’s
+            expert evidence. Dkt. 194. Expert evidence provided by Drs. Dezell, Okano, and
+14          Shippee, along with Mr. Kababick’s second report, is STRICKEN from the record
+            and may not be used “to supply evidence on a motion, at a hearing, or at trial.” Fed.
+15          R. Civ. P. 37(c)(1).
+
+16          The Court GRANTS IN PART Defendants’ motion for partial summary judgment.
+            Dkt. 112. Plaintiff’s claims are DISMISSED WITH PREJUDICE to the extent they
+17          (1) rely on allegations of amphetamine adulteration and (2) claim damages caused
+            by Plaintiff’s positive test for amphetamines. Defendants’ motion for partial
+18          summary judgment is DENIED IN PART with respect to the argument that
+            Plaintiff’s [Consumer Protection Act (“CPA”)] claim is not legally cognizable, for
+19          the reasons previously explained in the Court’s order on Defendants’ motion to
+            dismiss. See Dkt. 169. As with all of Plaintiffs’ claims, however, the CPA claim is
+20          barred to the extent it relies on allegations of amphetamine adulteration.
+
+21
+     Id. at 23. On July 8, 2026, the Court denied Plaintiff’s motion for lesser sanctions wherein she
+22
+     asked the Court to reconsider its wholesale exclusion of her experts. Dkt. 262.
+23
+
+24
+
+
+     ORDER GRANTING DEFENDANTS’ MOTION FOR SUMMARY JUDGMENT - 2
+             Case 3:24-cv-05808-TMC          Document 269         Filed 08/18/26      Page 3 of 19
+
+
+
+
+ 1            The Court also issued sua sponte sanctions against Plaintiff’s attorney, Ms. Jocelyn
+
+ 2   Stewart, for generating numerous false citations with artificial intelligence and submitting them
+
+ 3   to the Court without verification. Dkt. 265. Multiple such citations existed in the expert reports
+
+ 4   of Mr. James Kababick and Dr. Ronald Shippee, where Plaintiff admitted that “she used Claude
+
+ 5   or ChatGPT to ‘generate a formatted citation table’ for academic articles and ‘provided the same
+
+ 6   AI-generated citation table to both experts as an appendix, and neither expert caught the errors in
+
+ 7   the citation data before signing their reports.’” Dkt. 265 at 7 (quoting Dkt. 245 at 17–18).
+
+ 8            Defendants now move to exclude the expert opinions of Ms. Evelyn Cadman and
+
+ 9   Dr. Gabriel Holguin. Dkts. 206, 208. Defendants argue that (1) Ms. Cadman’s opinion offers
+
+10   impermissible legal conclusions and is unreliable, Dkt. 206 at 4–9, and (2) Dr. Holguin’s opinion
+
+11   relates only to theories of liability this Court already dismissed and contains citation errors like
+
+12   those forming the basis for the Court’s sanctions against Ms. Stewart. Dkt. 208 at 3–5.
+
+13            Defendants also move for summary judgment on Plaintiff’s remaining claims, which
+
+14   assert that Defendants’ products contained New Dietary Ingredients (“NDI”) and that Defendants
+
+15   misrepresented their products’ qualities and violated the Food, Drug, and Cosmetic Act
+
+16   (“FDCA”). Dkt. 207 at 4 (citing Dkt. 45). Defendants challenge these claims on multiple
+
+17   grounds, including by arguing that Plaintiff cannot prove any damages. Specifically, Defendants
+
+18   assert that (1) Plaintiff has not shown that any health symptoms she suffered were caused by
+
+19   Defendants’ products; and (2) any damages based on the purchase price that Plaintiff paid for
+
+20   Defendants’ products are moot because Defendants have already given Plaintiff an unconditional
+
+21   payment above the maximum amount Plaintiff could recover based on the purchase price. Id. at
+
+22   9–26.
+
+23
+
+24
+
+
+     ORDER GRANTING DEFENDANTS’ MOTION FOR SUMMARY JUDGMENT - 3
+           Case 3:24-cv-05808-TMC           Document 269         Filed 08/18/26      Page 4 of 19
+
+
+
+
+ 1                                   III.   LEGAL STANDARDS
+
+ 2   A.     Summary Judgment
+
+            “The court shall grant summary judgment if the movant shows that there is no genuine
+ 3
+     dispute as to any material fact and the movant is entitled to judgment as a matter of law.” Fed. R.
+ 4
+     Civ. P. 56(a). A dispute as to a material fact is genuine “if the evidence is such that a reasonable
+ 5
+     jury could return a verdict for the nonmoving party.” Villiarimo v. Aloha Island Air, Inc., 281
+ 6
+     F.3d 1054, 1061 (9th Cir. 2002) (quoting Anderson v. Liberty Lobby, Inc., 477 U.S. 242, 248
+ 7
+     (1986)). The moving party has the initial burden of “‘showing’—that is, pointing out to the
+ 8
+     district court—that there is an absence of evidence to support the nonmoving party’s case.”
+ 9
+     Celotex Corp. v. Catrett, 477 U.S. 317, 325 (1986). If the moving party meets its initial burden,
+10
+     the non-moving party must go beyond the pleadings and “set forth specific facts showing that
+11
+     there is a genuine issue for trial.” Zellmer v. Meta Platforms, Inc., 104 F.4th 1117, 1122 (9th Cir.
+12
+     2024) (quoting Anderson, 477 U.S. at 256).
+13
+            The evidence relied upon by either party must be able to be “presented in a form that
+14
+     would be admissible in evidence.” See Fed. R. Civ. P. 56(c)(2). “An affidavit or declaration used
+15
+     to support or oppose a motion must be made on personal knowledge, set out facts that would be
+16
+     admissible in evidence, and show that the affiant or declarant is competent to testify on the
+17
+     matters stated.” Fed. R. Civ. P. 56(c)(4); see also Fed. R. Evid. 602 (“A witness may testify to a
+18
+     matter only if evidence is introduced sufficient to support a finding that the witness has personal
+19
+     knowledge of the matter. Evidence to prove personal knowledge may consist of the witness’s
+20
+     own testimony.”).
+21
+            Conclusory, nonspecific statements in affidavits are not sufficient, and “missing facts”
+22
+     will not be “presume[d].” Lujan v. Nat’l Wildlife Fed’n, 497 U.S. 871, 889 (1990). However,
+23
+     “[t]he evidence of the nonmovant is to be believed, and all justifiable inferences are to be drawn
+24
+
+
+     ORDER GRANTING DEFENDANTS’ MOTION FOR SUMMARY JUDGMENT - 4
+           Case 3:24-cv-05808-TMC              Document 269         Filed 08/18/26       Page 5 of 19
+
+
+
+
+ 1   in his favor.” Tolan v. Cotton, 572 U.S. 650, 651 (2014) (per curiam) (alteration in original)
+
+ 2   (quoting Anderson, 477 U.S. at 255). Consequently, “a District Court must resolve any factual
+
+ 3   issues of controversy in favor of the non-moving party only in the sense that, where the facts
+
+ 4   specifically averred by that party contradict facts specifically averred by the movant, the motion
+
+ 5   must be denied.” Lujan, 497 U.S. at 888 (internal quotations omitted).
+
+ 6   B.        Federal Rule of Evidence 702 and Daubert
+
+ 7             Federal Rule of Evidence 702 governs the admissibility of expert testimony. “Expert
+
+ 8   testimony must be both relevant and reliable.” United States v. Vallejo, 237 F.3d 1008, 1019 (9th
+
+ 9   Cir. 2001). Before trial, “[t]he trial court acts as a ‘gatekeeper’ to exclude expert testimony that”
+
+10   does not meet these standards. Neal-Lomax v. Las Vegas Metro. Police Dep’t, 574 F. Supp. 2d
+
+11   1193, 1201 (D. Nev. 2008) (quoting Kumho Tire Co. v. Carmichael, 526 U.S. 137, 145 (1999)).
+
+12             Expert testimony is relevant if it will help “the trier of fact to understand the evidence or
+
+13   to determine a fact in issue.” Daubert v. Merrell Dow Pharms., Inc. (Daubert I), 509 U.S. 579,
+
+14   591 (1993) (quoting Fed. R. Evid. 702(a)); see also Daubert v. Merrell Dow Pharms., Inc.
+
+15   (Daubert II), 43 F.3d 1311, 1315 (9th Cir. 1995) (explaining that relevant evidence is that which
+
+16   “logically advances a material aspect of the proposing party’s case”), cert. denied, 516 U.S. 869
+
+17   (1995).
+
+18             Expert testimony is reliable if it “is based on sufficient facts or data,” “is the product of
+
+19   reliable principles and methods,” and “reflects a reliable application of the principles and
+
+20   methods to the facts of the case.” Fed. R. Evid. 702(b), (c), (d). More generally, evidence is
+
+21   reliable if it “has a reliable basis in the knowledge and experience of [the relevant] discipline.”
+
+22   United States v. Sandoval-Mendoza, 472 F.3d 645, 654 (9th Cir. 2006) (alteration in original)
+
+23   (quoting Kumho Tire, 526 U.S. at 149). In Daubert, the Supreme Court set out several factors
+
+24   that courts consider in determining reliability:
+
+
+     ORDER GRANTING DEFENDANTS’ MOTION FOR SUMMARY JUDGMENT - 5
+           Case 3:24-cv-05808-TMC             Document 269          Filed 08/18/26       Page 6 of 19
+
+
+
+
+ 1           (1) whether a scientific theory or technique can be (and has been) tested;
+             (2) whether the theory or technique has been subjected to peer review and
+ 2           publication; (3) the known or potential rate of error and the existence and
+             maintenance of standards controlling the techniques operation; and (4) whether the
+ 3           technique is generally accepted.
+
+ 4   Neal-Lomax, 574 F. Supp. 2d at 1201 (quoting Daubert I, 509 U.S. at 593–94). But these factors
+
+ 5   are not a “definitive checklist or test,” see Daubert I, 509 U.S. at 593, and “[i]n other cases, the
+
+ 6   relevant reliability concerns may focus upon personal knowledge or experience.” Kumho Tire,
+
+ 7   526 U.S. at 150. Nor do the Daubert factors “necessarily apply even in every instance in which
+
+ 8   the reliability of scientific testimony is challenged.” Id. at 151. Rather, “Rule 702 grants the
+
+ 9   district judge the discretionary authority . . . to determine reliability in light of the particular facts
+
+10   and circumstances of the particular case.” Id. at 158; see also Hangarter v. Provident Life &
+
+11   Accident Ins. Co., 373 F.3d 998, 1017 (9th Cir. 2004) (“[A] trial court not only has broad latitude
+
+12   in determining whether an expert’s testimony is reliable, but also in deciding how to determine
+
+13   the testimony’s reliability.” (internal quotation marks and emphasis omitted)).
+
+14                                          IV.    DISCUSSION
+
+15   A.      The Court GRANTS Defendants’ motion to exclude Ms. Evelyn Cadman (Dkt. 206).
+
+16           Defendants ask the Court to exclude expert evidence from Ms. Evelyn Cadman, retained
+
+17   by Plaintiff to render “opinions regarding the regulatory status of the dietary supplement
+
+18   product” sold to Plaintiff by Defendants. Dkt. 206-1 at 2. According to Defendants, Cadman
+
+19   impermissibly “offers only legal advocacy—applying federal statutes and regulations to alleged
+
+20   facts and pronouncing whether Defendants violated the law—telling the Court and jury what
+
+21   judgments to reach.” Dkt. 206 at 1. The Court agrees with Defendants.
+
+22           While Federal Rule of Evidence 704(a) states that “[a]n opinion is not objectionable just
+
+23   because it embraces an ultimate issue,” the Ninth Circuit “has repeatedly affirmed that ‘an expert
+
+24   witness cannot give an opinion as to her legal conclusion, i.e., an opinion on an ultimate issue of
+
+
+     ORDER GRANTING DEFENDANTS’ MOTION FOR SUMMARY JUDGMENT - 6
+           Case 3:24-cv-05808-TMC             Document 269         Filed 08/18/26     Page 7 of 19
+
+
+
+
+ 1   law.’” United States v. Diaz, 876 F.3d 1194, 1197 (9th Cir. 2017) (quoting Hangarter, 373 F.3d
+
+ 2   at 1016). “This prohibition of opinion testimony on an ultimate issue of law recognizes that,
+
+ 3   ‘when an expert undertakes to tell the jury what result to reach, this does not aid the jury in
+
+ 4   making a decision, but rather attempts to substitute the expert’s judgment for the jury’s.’” Id.
+
+ 5   (alteration and emphasis omitted) (quoting United States v. Duncan, 42 F.3d 97, 101 (2d Cir.
+
+ 6   1994)).
+
+ 7             Here, Ms. Cadman’s analysis and conclusions relate solely to whether Defendants’
+
+ 8   products were “adulterated” under federal law or whether Defendants violated federal law in
+
+ 9   labeling or marketing those products. Dkt. 206-1. For example, Ms. Cadman concludes that:
+
+10             •   [T]he product sold to [Plaintiff] was adulterated as that term is defined in 21
+                   U.S.C. § 342(a)(1) and (a)(2)(C), and under the implementing regulations at 21
+11                 C.F.R. Part 111 and 21 C.F.R. § 190.6. It contained one or more substances that
+                   qualify as new dietary ingredients for which the required 75-day premarket
+12                 notification under 21 U.S.C. § 350b and 21 C.F.R. § 190.6 was not filed.
+
+13             •   [C]ertain ingredients in the product have pharmacological effects and are not
+                   appropriately classified as dietary ingredients under 21 U.S.C. § 321(f) and 21
+14                 C.F.R. §§ 101.36 and 190.10. The inclusion of such substances renders the
+                   product adulterated.
+15
+               •   [T]he product at issue contained one or more substances that fall outside the
+16                 definition of a dietary ingredient and instead meet the definition of a “drug”
+                   under 21 U.S.C. § 321(g)(1), as further clarified in the regulations at 21 C.F.R.
+17                 § 201.128 (intended uses) and 21 C.F.R. § 310.3 (new drugs).
+
+18             •   [T]he product packaging and labeling for the Thesis supplement sold to
+                   [Plaintiff] failed to meet the requirements of the Food, Drug, and Cosmetic Act
+19                 and associated FDA regulations concerning adequate warnings and disclosures.
+
+20             •   [T]he Defendants’ manufacturing and quality control procedures, including
+                   their handling of batch records and testing protocols, were not consistent with
+21                 Current Good Manufacturing Practices (cGMPs) as codified in 21 C.F.R. Part
+                   111.
+22
+
+23   Id. at 2–4. The remainder of Ms. Cadman’s opinion contains similar analysis explaining how
+
+24   Defendants’ practices violated various federal statutes and regulations. Id. at 4–6.
+
+
+     ORDER GRANTING DEFENDANTS’ MOTION FOR SUMMARY JUDGMENT - 7
+           Case 3:24-cv-05808-TMC            Document 269        Filed 08/18/26      Page 8 of 19
+
+
+
+
+ 1          Ms. Cadman’s opinion offers impermissible legal conclusions that are irrelevant because
+
+ 2   they do not “aid the jury in making its decision.” Fontana v. City of Auburn, No. C13-0245-JCC,
+
+ 3   2014 WL 4162528, at *6 (W.D. Wash. Aug. 21, 2014), aff’d in part, 679 F. App’x 613 (9th Cir.
+
+ 4   2017). If an expert witness uses terms that have a specialized meaning in the law and that
+
+ 5   “represent an attempt to instruct the jury on the law, or how to apply the law to the facts of the
+
+ 6   case,” the testimony is an impermissible legal conclusion. Diaz, 876 F.3d at 1198–99. Terms
+
+ 7   such as “new dietary ingredient” and “adulterated” have a “separate, distinct[,] and specialized
+
+ 8   meaning in the law different from that present in the vernacular.” Id. at 1198 (quoting United
+
+ 9   States v. McIver, 470 F.3d 550, 562 (4th Cir. 2006)). Ms. Cadman’s findings that Defendants
+
+10   violated federal regulations are similarly impermissible legal conclusions. See Georges v.
+
+11   Novartis Pharms. Corp., No. CV 06-5207 SJO VBKX, 2012 WL 9064768, at *9–10 (C.D. Cal.
+
+12   Nov. 2, 2012) (allowing testimony “generally regarding pharmaceutical drugs within the context
+
+13   of the FDA” but not “legal conclusions on . . . whether Defendant was in regulatory compliance
+
+14   with the FDA”).
+
+15          Citing In re Fosamax Products Liability Litigation, Plaintiff argues that Ms. Cadman may
+
+16   opine on “general FDA regulatory requirements and procedures” and Defendants’ compliance
+
+17   with them. Dkt. 210 at 20–21 (quoting 645 F. Supp. 2d 164, 191 (S.D.N.Y. 2009)). But
+
+18   Ms. Cadman’s opinion is distinguishable from those of other regulatory experts that courts have
+
+19   deemed admissible. Critically, Ms. Cadman does not offer any specialized knowledge about
+
+20   FDA requirements that would assist a jury. Cf. In re Fosamax Prods. Liab. Litig., 645 F. Supp.
+
+21   2d at 191 (“A lay jury cannot be expected to understand the complex regulatory framework that
+
+22   informs the standard of care in the pharmaceutical industry. Dr. Parisian’s assessment of the
+
+23   reasonableness of Merck’s conduct in light of her experience and her understanding of FDA
+
+24   regulations will be helpful to the jury.”).
+
+
+     ORDER GRANTING DEFENDANTS’ MOTION FOR SUMMARY JUDGMENT - 8
+           Case 3:24-cv-05808-TMC           Document 269         Filed 08/18/26      Page 9 of 19
+
+
+
+
+ 1          Instead, Ms. Cadman simply (1) identifies relevant statutes and regulations and
+
+ 2   (2) explains her conclusion that Defendants’ conduct violated those statutes and regulations. For
+
+ 3   example, Ms. Cadman notes that Thesis’s products contained Zembrin and that the FDA
+
+ 4   previously declined another company’s use of Zembrin in a dietary supplement because of
+
+ 5   “insufficient verification of safety for human consumption.” Dkt. 206-1 at 3. She then concludes
+
+ 6   that “[a]ccordingly, Zembrin’s inclusion in a dietary supplement—absent an accepted NDI
+
+ 7   notification or exemption—renders the product adulterated under 21 U.S.C. § 342(f)(1)(B).” Id.
+
+ 8   This “reads much like a legal memorandum, making legal conclusions, commenting on the
+
+ 9   applicable law, and applying the law to the facts.” Enberg v. Am. Home Assurance, No. CV-11-
+
+10   125-BLG-RFC, 2013 WL 11821480, at *1 (D. Mont. Feb. 13, 2013). Aside from her reference to
+
+11   a previous FDA decision—which she does not name or specify any details about—
+
+12   Ms. Cadman’s expertise plays no role in her opinion that a product with Zembrin is “adulterated”
+
+13   under federal law. Absent the use of any specialized knowledge, it is improper for Ms. Cadman
+
+14   to advance these arguments “cloaked with the mantle of an expert” and perhaps “carry special
+
+15   weight with the jury.” Jinro Am. Inc. v. Secure Invs., Inc., 266 F.3d 993, 1004 (9th Cir.), op.
+
+16   amended on denial of reh’g, 272 F.3d 1289 (9th Cir. 2001).
+
+17          Ms. Cadman’s opinion is not relevant under Daubert. The Court therefore GRANTS
+
+18   Defendants’ motion to exclude Ms. Cadman. 2 Dkt. 206.
+
+19
+     2
+       Both Ms. Cadman and Dr. Holguin submitted declarations which attempt to “clarify” their
+20   expert reports. Dkts. 211-1, 214-2. Because Plaintiff has not explained why these should be
+     considered as part of the expert record when she submitted them more than four months after the
+21   expert disclosure deadline of September 22, 2025, see Dkt. 37, the Court declines to consider
+     them as part of the experts’ opinions, just as it has rejected similar “supplemental” reports in this
+22   case. Dkt. 202 at 14–19.
+
+23   To the extent that the declarations withdraw certain portions of the expert opinions, the Court
+     does not rely on those withdrawn portions in making any ruling here. See Dkt. 210 at 21–22
+24   (withdrawing portions of the Cadman opinion that spoke to the state of mind of Defendant);
+
+
+     ORDER GRANTING DEFENDANTS’ MOTION FOR SUMMARY JUDGMENT - 9
+          Case 3:24-cv-05808-TMC            Document 269        Filed 08/18/26      Page 10 of 19
+
+
+
+
+ 1   B.     The Court GRANTS Defendants’ motion to exclude Dr. Gabriel Holguin (Dkt. 208).
+
+ 2          Defendants also ask the Court to strike Dr. Holguin’s opinion about the “psychological
+
+ 3   impacts of the dietary supplement product sold to [Plaintiff].” Dkt. 208-1 at 2. Defendants argue
+
+ 4   that Dr. Holguin’s opinion (1) is irrelevant because it concerns only claims which the Court has
+
+ 5   already dismissed and (2) is unreliable because it contains citations “hallucinated” by artificial
+
+ 6   intelligence. Dkt. 208 at 3–6.
+
+ 7          First, Plaintiff has agreed to withdraw the first three of four opinions in Dr. Holguin’s
+
+ 8   expert report “because they were linked to consequences of the positive drug test results” and the
+
+ 9   theory of liability the Court found was unavailable to Plaintiff when it granted partial summary
+
+10   judgment. Dkt. 213-1 at 10 (citing Dkt. 202). Dr. Holguin’s fourth and only remaining opinion is
+
+11   as follows:
+
+12          4. Time-linked symptom course consistent with stimulant withdrawal and
+            stress response
+13
+            The marked fatigue, hypersomnia, cognitive fog, and mood lability reported in
+14          October 2021 after abrupt cessation of Thesis products are consistent with the
+            clinical course of stimulant/amphetamine withdrawal and stress-related
+15          decompensation—especially when superimposed on occupational and psycholegal
+            stressors. Plaintiff described under oath about the intense fatigue and concentration
+16          problems she experienced after stopping the supplements; subsequent negative
+            urine/hair testing after cessation dovetails with the reported symptom course. The
+17          acute symptom pattern is consistent with clinical reviews of amphetamine
+            withdrawal. Additionally, when depressive and anxiety symptoms arising from her
+18          court-martial, flagging, and removal from clinical duties are considered alongside
+            the physiological symptoms of stimulant withdrawal, the combined burden and
+19          multifaceted and complex clinical picture can result in a synergistic impact. In
+            clinical terms, the psychiatric stressors and the neurochemical withdrawal would
+20          be expected to exacerbate one another, thereby intensifying both the severity and
+            duration of functional impairment.
+21
+     Dkt. 208-1 at 4–5.
+22
+
+23
+     Dkt. 214-2 at 4–5 (withdrawing portions of the Holguin opinion that relate to claims the Court
+24   dismissed in granting partial summary judgment).
+
+
+     ORDER GRANTING DEFENDANTS’ MOTION FOR SUMMARY JUDGMENT - 10
+          Case 3:24-cv-05808-TMC            Document 269        Filed 08/18/26      Page 11 of 19
+
+
+
+
+ 1          Defendants argue that, like the other three opinions that Plaintiff has already withdrawn,
+
+ 2   this fourth opinion is foreclosed by the Court’s partial summary judgment order. Dkt. 208 at 4.
+
+ 3   According to Defendants, Dr. Holguin’s opinion that Plaintiff experienced symptoms “consistent
+
+ 4   with the clinical course of stimulant/amphetamine withdrawal” is “render[ed] . . . irrelevant” by
+
+ 5   the Court’s “disposing of [Plaintiff’s] amphetamines theory.” Id.
+
+ 6          The Court’s partial summary judgment order does not preclude Dr. Holguin’s fourth
+
+ 7   opinion. That order dismissed claims “to the extent they (1) rel[ied] on allegations of
+
+ 8   amphetamine adulteration and (2) claim[ed] damages caused by Plaintiff’s positive test for
+
+ 9   amphetamines.” Dkt. 202 at 23 (emphasis added). Defendants’ broad reading would preclude
+
+10   any claims based on amphetamine adulteration at all, which is not what this Court intended.
+
+11   Rather, the Court barred claims based on Plaintiff’s “urinalysis theory” that amphetamine
+
+12   adulteration caused Plaintiff to test positive on a drug screening. Id. at 10, 20–23. The claim that
+
+13   Plaintiff ingested adulterated products (whether with amphetamines, other stimulants, or other
+
+14   ingredients) that caused negative health effects was not precluded by the Court’s ruling, nor were
+
+15   any otherwise-admissible expert opinions which relate to that claim.
+
+16          But Dr. Holguin’s report also contains “hallucinated” citations to academic articles which
+
+17   appear generated by artificial intelligence. Dkt. 208-2 at 2–3. Because Plaintiff withdrew the
+
+18   portions of Dr. Holguin’s opinion containing these citations, the Court did not address them
+
+19   when it ordered Plaintiff’s counsel to show cause—and ultimately sanctioned her—for her
+
+20   unverified use of generative artificial intelligence and submission of false citations to the Court.
+
+21   Dkts. 209, 265. Defendants argue that, even though these citations exist only in the withdrawn
+
+22   portions of Dr. Holguin’s opinion, they “irreparably undermine[] Holguin’s credibility, rendering
+
+23   his opinions unreliable.” Dkt. 208 at 3.
+
+24
+
+
+     ORDER GRANTING DEFENDANTS’ MOTION FOR SUMMARY JUDGMENT - 11
+          Case 3:24-cv-05808-TMC            Document 269         Filed 08/18/26      Page 12 of 19
+
+
+
+
+ 1          The Court agrees with Defendants and finds that Dr. Holguin’s multiple hallucinated
+
+ 2   citations “shatter[] his credibility with this Court.” Kohls v. Ellison, No. 24-CV-3754
+
+ 3   (LMP/DLM), 2025 WL 66514, at *4 (D. Minn. Jan. 10, 2025). While Plaintiff’s counsel was not
+
+ 4   asked to provide information about these citations, the errors are similar to those in other expert
+
+ 5   reports where she “used Claude or ChatGPT to ‘generate a formatted citation table’ for academic
+
+ 6   articles and ‘provided the same AI-generated citation table to both experts as an appendix, and
+
+ 7   neither expert caught the errors in the citation data before signing their reports.’” Dkt. 265 at 7
+
+ 8   (quoting Dkt. 245 at 17–18). This level of involvement from counsel in drafting (with AI) the list
+
+ 9   of materials supposedly relied upon by Dr. Holguin, and Dr. Holguin’s lack of diligence in
+
+10   verifying the sources that he represented were the basis for his opinion, prevent Plaintiff from
+
+11   meeting her burden to show that Dr. Holguin’s opinion is “based on sufficient facts or data,” is
+
+12   “the product of reliable principles and methods,” or “reflects a reliable application of the
+
+13   principles and methods to the facts of the case.” Fed. R. Evid. 702(b)–(d). Thus, although these
+
+14   errors occur only in the withdrawn portions of Dr. Holguin’s opinion, they “undermine[] the
+
+15   overall credibility” of the report. Concord Music Grp., Inc. v. Anthropic PBC, No. 24-CV-
+
+16   03811-EKL (SVK), 2025 WL 1482734, at *3 (N.D. Cal. May 23, 2025).
+
+17          The Court finds that the hallucinated citations undermine Dr. Holguin’s entire report and
+
+18   that the report is not reliable under Daubert. The Court therefore GRANTS Defendants’ motion
+
+19   to exclude Dr. Holguin. Dkt. 208.
+
+20   C.     The Court GRANTS Defendants’ motion for summary judgment (Dkt. 207).
+
+21          Each of Plaintiff’s remaining claims alleges damages based on either (1) medical
+
+22   symptoms from Plaintiff’s consumption of and subsequent withdrawal from ingredients in
+
+23   Defendants’ supplements or (2) the purchase price Plaintiff paid for Defendants’ supplements.
+
+24   Dkt. 222 at 20–30, 35–39. Defendants argue that neither category of damages is available
+
+
+     ORDER GRANTING DEFENDANTS’ MOTION FOR SUMMARY JUDGMENT - 12
+          Case 3:24-cv-05808-TMC           Document 269        Filed 08/18/26     Page 13 of 19
+
+
+
+
+ 1   because Plaintiff cannot prove that the supplements caused her withdrawal symptoms and
+
+ 2   because she has received an unconditional tender of $13,000, which exceeds the maximum
+
+ 3   amount she could obtain based on the purchase price of the supplements. 3 Dkt. 207 at 9–15, 23–
+
+ 4   26. The Court agrees with Defendants and finds that each of Plaintiff’s remaining claims fails
+
+ 5   because she is unable to prove that she suffered any damages as a result of Defendants’ conduct.
+
+ 6          1.      Plaintiff cannot prove that Defendants’ supplement kits caused any medical
+                    damages.
+ 7
+            Plaintiff alleges medical damages from her consumption of and subsequent withdrawal
+ 8
+     from ingredients in Defendants’ supplements. Dkt. 45 ¶ 130. Defendants argue that these claims
+ 9
+     fail because Plaintiff does not have the expert evidence necessary to prove this “medically
+10
+     complex” theory of damages and, even if an expert were not required, the available evidence is
+11
+     insufficient to convince a reasonable jury that Defendants caused any of Plaintiff’s medical
+12
+     symptoms. Dkt. 207 at 9–15. Defendants’ arguments mirror those that the Court previously
+13
+     found persuasive in granting partial summary judgment against Plaintiff’s urinalysis theory.
+14
+     Dkt. 202 at 12–13, 20–23. The Court finds that the same reasoning applies against Plaintiff’s
+15
+     medical damages.
+16
+            First, Plaintiff’s theory of medical damages is medically complex and would require
+17
+     expert testimony at trial. Washington courts require expert testimony to establish causation for
+18
+     “complex questions that laypersons would not be able to answer without medical training.”
+19
+     Spence v. Walsh, 19 Wn. App. 2d 1018, 2021 WL 4432745, at *3 (2021); see Lo v. United
+20
+
+21
+     3
+       Defendants also argue that Plaintiff’s claims premised on the FDCA are preempted and that her
+22   misrepresentation claims are inactionable because she did not rely on any alleged
+     misrepresentations and all representations were mere puffery. Dkt. 207 at 7–9, 16–23. Because
+23   the Court finds that summary judgment is warranted on other grounds, it does not address these
+     arguments.
+24
+
+
+     ORDER GRANTING DEFENDANTS’ MOTION FOR SUMMARY JUDGMENT - 13
+          Case 3:24-cv-05808-TMC           Document 269         Filed 08/18/26   Page 14 of 19
+
+
+
+
+ 1   States, No. 2:17-CV-01202-TL, 2023 WL 2014331, at *18 (W.D. Wash. Feb. 15, 2023) (noting
+
+ 2   that expert testimony is required where an injury “involves obscure medical factors that would
+
+ 3   require an ordinary lay person to speculate or conjecture in making a finding” (quoting Bruns v.
+
+ 4   PACCAR, Inc., 77 Wn. App. 201, 214, 890 P.2d 469 (1995))). Washington courts have rejected
+
+ 5   the argument that “only medical testimony can show causation” but clarified that “[m]edical
+
+ 6   causation must be established by a more-likely-than-not standard.” Ma’ele v. Arrington, 111 Wn.
+
+ 7   App. 557, 563–64, 45 P.3d 557 (2002)). On the other hand, “material facts could be within the
+
+ 8   expertise of a layman when they are observable by the layman’s senses and describable without
+
+ 9   medical training.” Pagnotta v. Beall Trailers of Or., Inc., 99 Wn. App. 28, 33, 991 P.2d 728
+
+10   (2000) (citing Young v. Key Pharms., Inc., 112 Wn.2d 216, 228, 770 P.2d 182 (1989)).
+
+11          Plaintiff alleges the following in her complaint:
+
+12          Due to DEFENDANTS’ wrongful acts and omissions, JOANN LEDOUX suffered
+            physiological withdrawal effects when she suddenly terminated the use of THESIS’
+13          Formula Nootropic Supplements. She experienced depression combined with
+            cravings and dependency symptoms, including that she was unable to stay awake,
+14          alert, or mentally present, despite ingesting copious amounts of caffeine. She
+            gained substantial weight as a result of depression and attendant overeating.
+15          JOANN LEDOUX fell into a spiraling depression from the feelings of shame and
+            embarrassment at being a medical provider who was duped by DEFENDANTS’
+16          marketing. She often neglected her own basic needs including hygiene, sleeping
+            too much at times, or bouts of insomnia. JOANN LEDOUX’s mental thought
+17          processes were overrun by looping and intrusive thoughts of shame from her
+            unwitting ingestion of Adderall® without a prescription and other ingredients in
+18          DEFENDANTS’ Formula Nootropic Supplement products. JOANN LEDOUX
+            experienced overwhelming bouts of guilt that she had offered DEFENDANTS’
+19          Formula Nootropic Supplement products to her medical provider colleagues and
+            friends for their own ingestion, which thankfully they all declined.
+20
+     Dkt. 45 ¶ 130.
+21
+            Much like Plaintiff’s urinalysis theory, these allegations pose medically complex
+22
+     questions requiring an expert to link Defendants’ products to Plaintiffs’ symptoms. See Dkt. 202
+23
+
+24
+
+
+     ORDER GRANTING DEFENDANTS’ MOTION FOR SUMMARY JUDGMENT - 14
+          Case 3:24-cv-05808-TMC           Document 269        Filed 08/18/26     Page 15 of 19
+
+
+
+
+ 1   at 12–13. But no remaining expert in the record discusses how the supplements could have
+
+ 2   caused withdrawal symptoms or any other medical damages.
+
+ 3          Even if the Court considered Dr. Holguin’s opinion despite its unreliability, it does not
+
+ 4   speak directly to medical causation. Instead, Dr. Holguin opines that the symptoms Plaintiff
+
+ 5   reported experiencing after she stopped taking Thesis products—namely “fatigue, hypersomnia,
+
+ 6   cognitive fog, and mood lability”—are “consistent with the clinical course of
+
+ 7   stimulant/amphetamine withdrawal.” Dkt. 208-1 at 4. But as the Court noted in its partial
+
+ 8   summary judgment order, more is required. Dkt. 202 at 20–21 (finding that Mr. Kababick’s
+
+ 9   opinion that “there is no way to know that the products [Plaintiff] ingested were not adulterated”
+
+10   could not prove causation). To support causation, “[e]xpert testimony must demonstrate that the
+
+11   defendant’s conduct probably or more likely than not caused the injury, rather than might have,
+
+12   could have, or possibly did.” Bolson, 2014 WL 2211401, at *6 (internal quotation marks
+
+13   omitted) (quoting Fabrique v. Choice Hotels Int’l, Inc., 144 Wn. App. 675, 687, 183 P.3d 1118
+
+14   (2008)); Rathod v. United States, No. 22-36045, 2023 WL 8710550, at *1 (9th Cir. Dec. 18,
+
+15   2023) (“Summary judgment is appropriate where a plaintiff’s expert fails to identify specific
+
+16   facts in support of a causation analysis.”). And as Defendants note, Holguin “indisputably never
+
+17   opined on more-likely-than-not causation.” Dkt. 207 at 12. Thus, summary judgment on
+
+18   Plaintiff’s claims for medical damages is appropriate.
+
+19          Second, even if Plaintiff was not required to produce an expert opinion addressing
+
+20   causation, her claims for medical damages do not survive summary judgment. Viewed in the
+
+21   light most favorable to Plaintiff, the available evidence supports no more than a speculative
+
+22   chance that Plaintiff’s withdrawal or other medical symptoms resulted from Thesis’s conduct. As
+
+23   discussed in the Court’s order granting partial summary judgment:
+
+24
+
+
+     ORDER GRANTING DEFENDANTS’ MOTION FOR SUMMARY JUDGMENT - 15
+          Case 3:24-cv-05808-TMC            Document 269         Filed 08/18/26      Page 16 of 19
+
+
+
+
+ 1          After she tested positive, Plaintiff tested her own samples of Thesis supplements,
+            and Defendants tested a sample from each batch that could have been sold to
+ 2          Plaintiff. Dkt. 113-1 at 14–15, 128–29, 150–51, 162, 175–95. In both tests, all four
+            types of supplements tested negative for amphetamines. Id. at 128–29, 162, 175–
+ 3          95. Brand requires that its vendors submit certificates of analysis with identity tests,
+            and no relevant ingredient purports to contain amphetamines. Id. at 21–22, 30–116.
+ 4          Brand is also certified by NSF International, the same organization to which
+            Plaintiff sent her supplements for testing. Id. at 118–20. The certification is part of
+ 5          a “good manufacturing practices registration program” that requires Brand to meet
+            certain standards of training, cleanliness, and recordkeeping, and be subject to a
+ 6          yearly inspection and audit. Id. at 130–32. The certification requires the
+            manufacturer to sign an affidavit that they do not produce or purchase any
+ 7          substances “on the NSF 306 list,” including amphetamines. Id. at 132–33.
+            Moreover, Plaintiff tested positive for Adderall’s proprietary three-to-one ratio of
+ 8          D-amphetamines to L-amphetamines. Dkt. 113-1 at 226. Plaintiff has not shown
+            that any amphetamines, let alone Adderall, ever made their way into any Thesis or
+ 9          Brand product.
+
+10
+     Dkt. 202 at 21. The Court then discussed Plaintiff’s evidence of adulteration, which included
+11
+     Plaintiff’s positive drug test followed by a negative test after stopping her use of Thesis
+12
+     supplements and the fact that neither Thesis nor Brand screened ingredients in Thesis
+13
+     supplements for amphetamines. Id. at 22. The Court found that “[n]o jury could reasonably
+14
+     conclude from this evidence that Thesis supplements caused Plaintiff’s positive urinalysis.” Id.
+15
+            The same is true for Plaintiff’s medical damages here. Plaintiff presents no evidence from
+16
+     which a reasonable jury could find Defendants at fault for any withdrawal-like symptoms or
+17
+     other medical conditions. Plaintiff argues that her symptom testimony is backed by her medical
+18
+     experience, but such testimony can only establish that Plaintiff experienced “fatigue,
+19
+     hypersomnia, cognitive fog, and mood instability” days after she stopped taking Thesis
+20
+     supplements. Dkt. 222 at 27–28. Like with Dr. Holguin’s opinion, Plaintiff’s testimony cannot
+21
+     establish that the supplements caused those symptoms because they contained amphetamines or
+22
+     any NDI. In fact, Dr. Holguin suggests that other factors are just as likely to have caused any
+23
+     symptoms. See Dkt. 208-1 at 4–5 (“[W]hen depressive and anxiety symptoms arising from her
+24
+
+
+     ORDER GRANTING DEFENDANTS’ MOTION FOR SUMMARY JUDGMENT - 16
+          Case 3:24-cv-05808-TMC            Document 269         Filed 08/18/26      Page 17 of 19
+
+
+
+
+ 1   court-martial, flagging, and removal from clinical duties are considered alongside the
+
+ 2   physiological symptoms of stimulant withdrawal, the combined burden and multifaceted and
+
+ 3   complex clinical picture can result in a synergistic impact.”). 4
+
+ 4          Considering Plaintiff’s limited evidence regarding causation, Defendants’ tests and
+
+ 5   certifications indicating that Thesis products did not contain amphetamines, and the likelihood of
+
+ 6   other potential causes, a jury would ultimately be “left to speculate” as to the true culprit of
+
+ 7   Plaintiff’s symptoms. Mendez Jimenez v. County of Sacramento, No. 218CV00044JAMKJN,
+
+ 8   2019 WL 5862909, at *2 (E.D. Cal. Nov. 8, 2019). “[Plaintiff’s] speculation does not create a
+
+ 9   factual dispute.” Witherow v. Paff, 52 F.3d 264, 266 (9th Cir. 1995). Thus, even if Plaintiff was
+
+10   not required to provide a relevant expert, her claims based on medical damages fail because there
+
+11   is no material dispute of fact as to whether Thesis supplements caused any medical symptoms. 5
+
+12          2.      Any damages based on the purchase price Plaintiff paid for Defendants’ products
+                    were rendered moot by Defendants’ unconditional payment.
+13
+            Defendants next attack Plaintiff’s state-law claims to recover the purchase price she paid
+14
+     for Defendants’ products. Dkt. 207 at 24–25 (citing Dkt. 45 ¶¶ 86, 98, 183, 196). Defendants
+15
+     argue that the maximum allowable damages for these claims at the time they moved for
+16
+
+17
+     4
+      Plaintiff asks this Court to judicially notice the fact that “ceasing intake of stimulants produces
+18   withdrawal” and that certain compounds included in Thesis supplements are “stimulants.”
+     Dkt. 222 at 31–32. The Court agrees with Defendants that these requests “sweep too broadly,”
+19   Dkt. 231 at 10, and that the documents cited by Plaintiff do not establish the high degree of
+     certainty required for judicial notice.
+20
+     5
+       Plaintiff also requests injunctive relief under the CPA, asking the Court to enjoin the
+21   distribution and sale of Defendants’ products in Washington. Dkt. 45 ¶ 27; Dkt. 222 at 35–37.
+     But as this Court ruled in another CPA case, “[t]o establish standing to seek injunctive relief, a
+22   plaintiff must demonstrate ‘a risk of future harm’ that ‘is sufficiently imminent and substantial.’”
+     Larsen v. PTT, LLC, No. 3:18-CV-05275-TMC, 2024 WL 5088994, at *8 (W.D. Wash. Dec. 12,
+23   2024) (quoting TransUnion LLC v. Ramirez, 594 U.S. 413, 435 (2021)). Like the class
+     representative in Larsen, Plaintiff has stopped using the products at issue and has not signaled
+24   any intention to use them ever again. Id. Injunctive relief is therefore unavailable.
+
+
+     ORDER GRANTING DEFENDANTS’ MOTION FOR SUMMARY JUDGMENT - 17
+          Case 3:24-cv-05808-TMC           Document 269        Filed 08/18/26      Page 18 of 19
+
+
+
+
+ 1   summary judgment would be $12,708.78 based on the $632 Plaintiff spent on Defendants’
+
+ 2   products. Id. (citing Dkt. 129 at 4, 10–15; Dkt. 190-26 at 6, 8). They then present evidence that
+
+ 3   they provided Plaintiff with an unconditional tender of $13,000 on January 20, 2026. Dkt. 207-
+
+ 4   11 at 2. They also present persuasive authority holding that such an unconditional tender moots
+
+ 5   Plaintiff’s remaining claims so long as it meets or exceeds the maximum amount she could
+
+ 6   recover. Dkt. 207 at 23–24 (citing Ballin v. Russ Bassett Corp., No. 17-CV-3981 PSG, 2017 WL
+
+ 7   10527368, at *2–3 (C.D. Cal. Dec. 6, 2017)).
+
+ 8          Plaintiff responds that Defendants’ calculation “rests entirely on the premise that
+
+ 9   LeDoux’s only possible remaining damages are the price she paid to purchase Defendants’
+
+10   products.” Dkt. 222 at 37 (citing Dkt. 207 at 24). But because the Court has granted summary
+
+11   judgment on Plaintiff’s claims for medical damages and injunctive relief, see supra Section
+
+12   IV.C.1, damages based on the purchase price are the only type of relief for the Court to address.
+
+13   Although Plaintiff argues that her evidence supports damages far exceeding the tender, Dkt. 222
+
+14   at 38–39, the damages she identifies relate to “the emotional impacts tied to her unwitting
+
+15   ingestion of unapproved drugs and NDIs” and “the impacts to her of learning of the dangerous
+
+16   NDIs.” Id. at 38. As discussed above, the record contains no evidence from which a reasonable
+
+17   jury could find that Defendants caused these harms.
+
+18          The Court therefore finds that Defendants’ unconditional tender of $13,000 moots the
+
+19   remaining claims based on the purchase price Plaintiff paid for Defendants’ supplements.
+
+20                                       V.     CONCLUSION
+
+21          The Court GRANTS Defendants’ Daubert motions. Dkts. 206, 208.
+
+22          The Court GRANTS Defendants’ motion for summary judgment. Dkt. 207. Plaintiff’s
+
+23   remaining claims are DISMISSED WITH PREJUDICE.
+
+24
+
+
+     ORDER GRANTING DEFENDANTS’ MOTION FOR SUMMARY JUDGMENT - 18
+         Case 3:24-cv-05808-TMC         Document 269   Filed 08/18/26      Page 19 of 19
+
+
+
+
+ 1         Dated this 18th day of August, 2026.
+
+
+
+                                                   a
+ 2
+
+ 3
+                                                   Tiffany M. Cartwright
+ 4                                                 United States District Judge
+ 5
+
+ 6
+
+ 7
+
+ 8
+
+ 9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+
+     ORDER GRANTING DEFENDANTS’ MOTION FOR SUMMARY JUDGMENT - 19
+

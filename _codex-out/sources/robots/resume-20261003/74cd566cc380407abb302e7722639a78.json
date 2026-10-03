@@ -1,0 +1,22 @@
+{
+  "id": "74cd566cc380407abb302e7722639a78",
+  "url": "https://gao.gov/robots.txt",
+  "kind": "robots",
+  "host": "gao.gov",
+  "status": 302,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:32 GMT",
+    "server": "envoy",
+    "location": "https://www.gao.gov/robots.txt",
+    "content-length": "272",
+    "content-type": "text/html; charset=iso-8859-1",
+    "x-envoy-upstream-service-time": "118",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:32.790909+00:00",
+  "sha256": "9a152aed2415da231ad1e1ece1dc53d101c2dac22bb3a4cdfad4e5ebd38fa6b3",
+  "bytes": 272,
+  "body_path": "/workspace/freshness-control/transport-evidence/74cd566cc380407abb302e7722639a78.body"
+}

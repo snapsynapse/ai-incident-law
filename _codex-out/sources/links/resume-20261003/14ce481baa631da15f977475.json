@@ -1,0 +1,51 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://jud.ct.gov/external/supapp/Cases/AROcr/CR355/ORD355.3.pdf",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "b29d79e23d4f4bcba1aab95aa491765f",
+      "url": "https://jud.ct.gov/robots.txt",
+      "kind": "robots",
+      "host": "jud.ct.gov",
+      "status": 301,
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "location": "https://www.jud.ct.gov/robots.txt",
+        "server": "envoy",
+        "x-powered-by": "ASP.NET",
+        "date": "Sat, 03 Oct 2026 18:37:37 GMT",
+        "content-length": "156",
+        "x-envoy-upstream-service-time": "185",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:37.842792+00:00",
+      "sha256": "196f3f98f52b44fa90a3600b8c6f336284b68e0dfae04c25dfa0e2621cd995f7",
+      "bytes": 156,
+      "body_path": "/workspace/freshness-control/transport-evidence/b29d79e23d4f4bcba1aab95aa491765f.body"
+    },
+    {
+      "id": "614bbd15bd994ae0a43e9ea33acd15eb",
+      "url": "https://www.jud.ct.gov/robots.txt",
+      "kind": "robots",
+      "host": "www.jud.ct.gov",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T18:37:38.129496+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/614bbd15bd994ae0a43e9ea33acd15eb.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T18:37:38.145190+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://jud.ct.gov/external/supapp/Cases/AROcr/CR355/ORD355.3.pdf",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/resume-20261003/14ce481baa631da15f977475.body"
+}

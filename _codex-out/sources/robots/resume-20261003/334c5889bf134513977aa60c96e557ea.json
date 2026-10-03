@@ -1,0 +1,28 @@
+{
+  "id": "334c5889bf134513977aa60c96e557ea",
+  "url": "https://canliiconnects.org/robots.txt",
+  "kind": "robots",
+  "host": "canliiconnects.org",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:24 GMT",
+    "content-type": "text/plain;charset=utf-8",
+    "content-length": "970",
+    "server": "envoy",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "0",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "pragma": "no-cache",
+    "expires": "0",
+    "x-frame-options": "SAMEORIGIN",
+    "vary": "Accept-Encoding",
+    "x-envoy-upstream-service-time": "141",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:23.649154+00:00",
+  "sha256": "94b0785e35cb52097cbb8db22988b57b966fbc83571596881c90e6386ab65f70",
+  "bytes": 970,
+  "body_path": "/workspace/freshness-control/transport-evidence/334c5889bf134513977aa60c96e557ea.body"
+}

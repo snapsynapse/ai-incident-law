@@ -1,0 +1,776 @@
+<!DOCTYPE HTML>
+<html lang="nl">
+   <head>
+      <meta name="google-site-verification" content="ZwCymQU7dIBff9xaO68Ru8RXxJkE8uTM3tzRKLiDz4Y">
+      <meta name="google-site-verification" content="Rno7Qhrz5aprfIEGOfFjMeIBYPOk8KyrfPBKExNMCLA">
+      <meta name="google-site-verification" content="Wp-HgLO7ykWccI5p-xpXq1s_C8YHT0OnSasWHMRSiXc">
+      <title>Uitspraak - Overheid.nl | Tuchtrecht</title>
+      <script>document.documentElement.className = 'has-js';</script>
+      
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <link rel="stylesheet" title="default" href="/cb-common/2.42.2/css/main.css">
+      <link rel="stylesheet" href="/cb-common/2.42.2/css/print.css">
+      <link rel="stylesheet" href="/cb-common/2.42.2/css/common.css?v105">
+      <link rel="shortcut icon" href="/cb-common/misc/favicon.ico?v105" type="image/vnd.microsoft.icon">
+      <link rel="stylesheet" href="/css/tuchtrecht.css">
+   </head>
+   <body class="preview"><!--Start Piwik PRO Tag Manager code--><script type="text/javascript">
+    (function(window, document, dataLayerName, id) {
+    window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+    function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/; Secure"}
+    var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+    var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),qP.push("use_secure_cookies"),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
+    tags.async=!0,tags.src="https://koop.piwik.pro/containers/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+    !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+    })(window, document, 'dataLayer', 'd90cee3b-fed0-4b6f-a2d6-a266f584a95d');
+  </script>
+      <!--End Piwik PRO Tag Manager code--><!--Geen informatiemelding.--><div class="skiplinks container"><a href="#content">Direct naar content</a></div>
+      <header class="header">
+         <div class="header__start">
+            <div class="container"><button type="button" class="hidden-desktop button button--icon-hamburger" data-handler="toggle-nav" aria-controls="nav" aria-expanded="false">Menu</button><div class="logo "><a href="https://www.overheid.nl"><img src="/cb-common/2.0.0/images/logo.svg" alt="Logo Overheid.nl, ga naar de startpagina overheid.nl"></a><p class="logo__you-are-here"><span class="visually-hidden">U bent hier:</span><span>Tuchtrecht</span></p>
+               </div>
+            </div>
+         </div>
+         <nav class="header__nav header__nav--closed" id="nav">
+            <h2 class="visually-hidden">Primaire navigatie</h2>
+            <div class="container">
+               <ul class="header__primary-nav list list--unstyled">
+                  <li class="hidden-mobile"><a href="#other-sites" data-handler="toggle-other-sites" data-decorator="init-toggle-other-sites" aria-controls="other-sites" aria-expanded="false"><span class="visually-hidden">Andere sites binnen </span>Overheid.nl
+                        </a></li>
+                  <li><a href="/" class="">Home</a></li>
+                  <li><a href="/zoeken" class="">Uitgebreid Zoeken</a></li>
+               </ul><a href="#other-sites" class="hidden-desktop" data-handler="toggle-other-sites" data-decorator="init-toggle-other-sites" aria-controls="other-sites" aria-expanded="false"><span class="visually-hidden">Andere sites binnen </span>Overheid.nl
+                  </a></div>
+         </nav>
+      </header>
+      <div class="header__more header__more--closed" id="other-sites" aria-hidden="true">
+         <div class="container columns">
+            <div>
+               <h2>Berichten over uw Buurt</h2>
+               <p>Zoals vergunningen, bouwplannen en lokale regelgeving</p>
+               <ul class="list list--linked">
+                  <li><a href="https://www.overheid.nl/berichten-over-uw-buurt/rondom-uw-woonadres">Rondom uw woonadres</a></li>
+                  <li><a href="https://www.overheid.nl/berichten-over-uw-buurt">Rondom een zelfgekozen adres</a></li>
+               </ul>
+            </div>
+            <div>
+               <h2>Dienstverlening</h2>
+               <p>Zoals belastingen, uitkeringen en subsidies.</p>
+               <ul class="list list--linked">
+                  <li><a href="https://www.overheid.nl/dienstverlening">Naar dienstverlening</a></li>
+               </ul>
+            </div>
+            <div>
+               <h2>Beleid &amp; regelgeving</h2>
+               <p>Officiële publicaties van de overheid.</p>
+               <ul class="list list--linked">
+                  <li><a href="https://www.overheid.nl/beleid-en-regelgeving">Naar beleid &amp; regelgeving</a></li>
+               </ul>
+            </div>
+            <div>
+               <h2>Contactgegevens overheden</h2>
+               <p>Adressen en contactpersonen van overheidsorganisaties.</p>
+               <ul class="list list--linked">
+                  <li><a href="https://organisaties.overheid.nl">Naar overheidsorganisaties</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="row row--page-opener">
+         <div class="container">
+            <div class="breadcrumb">
+               <p>U bent hier:</p>
+               <ol>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/zoeken">Zoeken</a></li>
+                  <li><a href="/zoeken/resultaat">Zoekresultaten</a></li>
+                  <li>Uitspraak</li>
+               </ol>
+            </div>
+         </div>
+      </div>
+      <div id="content" class="container row">
+         <div class="columns columns--sidebar-left">
+            <div class="column">
+               <div class="align-right">
+                  <ul class="pageactions">
+                     <li><a href="" data-decorator="init-printtrigger"><img src="/cb-common/2.42.2/images/icon-print.svg" alt="" role="presentation">Print</a></li>
+                     <li><a href="https://repository.overheid.nl/frbr/tuchtrecht/2026/ECLI:NL:TADRSHE:2026:93/1/pdf/ECLI_NL_TADRSHE_2026_93.pdf"><img src="/cb-common/2.42.2/images/icon-download.svg" alt="" role="presentation">Download PDF</a></li>
+                  </ul>
+               </div>
+               <h1 class="h1">ECLI:NL:TADRSHE:2026:93 Raad van Discipline 's-Hertogenbosch 26-379/DB/LI/D</h1>
+               <table class="table table--condensed table__data-overview">
+                  <tbody>
+                     <tr>
+                        <th scope="row">ECLI:</th>
+                        <td>ECLI:NL:TADRSHE:2026:93</td>
+                     </tr>
+                     <tr>
+                        <th scope="row">Datum uitspraak:</th>
+                        <td>27-07-2026</td>
+                     </tr>
+                     <tr>
+                        <th scope="row">Datum publicatie:</th>
+                        <td>27-07-2026</td>
+                     </tr>
+                     <tr>
+                        <th scope="row">Zaaknummer(s):</th>
+                        <td>26-379/DB/LI/D</td>
+                     </tr>
+                     <tr>
+                        <th scope="row">Onderwerp:</th>
+                        <td>Zorg voor de cliënt, <i>subonderwerp: </i>Kwaliteit van de dienstverlening</td>
+                     </tr>
+                     <tr>
+                        <th scope="row">Beslissingen:</th>
+                        <td>Regulier</td>
+                     </tr>
+                     <tr>
+                        <th scope="row">Inhoudsindicatie:</th>
+                        <td>Dekenbezwaar. Verweerster heeft in de zaken M en A niet gehandeld zoals het een behoorlijk
+                           advocaat betaamt omdat de kwaliteit van verweersters dienstverlening in deze zaken
+                           ondermaats was. Verweerster is namelijk niet ter zitting verschenen en de door verweerster
+                           ingediende processtukken bevatten onjuistheden en onvolledigheden, onder meer als
+                           gevolg van ontoereikende kennis van en ervaring met het huurrecht en het gebruik van
+                           een AI-tool. Dit alles levert een schending op van de in artikel 10a Advocatenweten
+                           genoemde kernwaarden integriteit en deskundigheid. Berisping.</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+               <p>                  <strong>                      Beslissing van de Raad van Discipline in het ressort ‘s-Hertogenbosch                  </strong>            </p>
+               
+               <p>                  <strong>                      van 27 juli 2026                  </strong>            </p>
+               
+               <p>                  <strong>                      in de zaak 26-379/DB/LI/D                  </strong>            </p>
+               
+               
+               <p>                                        naar aanleiding van het bezwaar van:                              </p>
+               
+               
+               <p>                                        de deken van de Orde van Advocaten in het arrondissement Limburg                              </p>
+               
+               <p>                            <strong>                                          deken                                    </strong>                    </p>
+               
+               
+               <p>                            over:                    </p>
+               
+               
+               <p>                  <strong>                      verweerster                  </strong>            </p>
+               
+               <p>                            <strong>                          gemachtigde:                       </strong>                    </p>
+               
+               <p>                                        mr. A.F.Th.M. Heutink                              </p>
+               
+               <p>                                        advocaat te Venray                              </p>
+               
+               
+               <p>                  <strong>                                                    1 VERLOOP VAN DE PROCEDURE                                            </strong>            </p>
+               
+               <p>                                        1.1 Bij brief aan de raad van 30 april 2026 met kenmerk DK26-001 heeft de deken van
+                  de Orde van Advocaten in het arrondissement Limburg, hierna: “de deken”, tegen verweerster
+                  een dekenbezwaar bij de raad ingediend.                               </p>
+               
+               <p>                                        1.2 Partijen zijn opgeroepen voor de behandeling van het dekenbezwaar ter zitting
+                  van 29 juni 2026.                                                 Ter zitting van de raad zijn de deken, vergezeld van mr. IH, en verweerster, bijgestaan
+                  door haar gemachtigde mr. AH, verschenen. Van de mondelinge behandeling is proces-verbaal
+                  opgemaakt.                               </p>
+               
+               <p>1.3&nbsp;De raad heeft kennisgenomen van:</p>
+               
+               <ul>    
+                  <li>                                                                  de onder 1.1 genoemde brief van de deken van 30 april 2026 met bijlagen;                                                      </li>    
+                  <li>                                                                  het door verweersters gemachtigde ingediende verweerschrift met bijlagen van 14 juni
+                     2026                                                    . &nbsp;                                        </li>  </ul>
+               
+               
+               <p>                  <strong>                                                    2 FEITEN                                            </strong>            </p>
+               
+               <p>                                        Voor de beoordeling van het bezwaar van de deken wordt, gelet op de stukken en hetgeen
+                  ter zitting is verklaard, van de volgende feiten uitgegaan:                              </p>
+               
+               <p>                                        2.1 Verweerster voert een zelfstandige praktijk als advocaat in de vorm van een eenmanszaak.&nbsp;
+                  Verweerster is beëdigd in 2008 en staat bij de NOvA geregistreerd op het gebied “algemene
+                  praktijk (burgerlijk recht)”. Op de website van verweersters kantoor is vermeld dat
+                  zij zaken op het gebied van het arbeids- en ontslagrecht, contracten- en ondernemingsrecht,
+                  aansprakelijkheidsrecht, het beslag- en executierecht alsmede incassozaken behandelt.
+                                                </p>
+               
+               <p>                                        2.2 Eind 2025 heeft de deken van de rechtbank Oost-Brabant een signaal ontvangen over
+                  het optreden van verweerster in een huurzaak. Het signaal hield in dat verweerster
+                  op onzorgvuldige wijze gebruik had gemaakt van artificiële intelligentie (hierna:
+                  “AI”). Bij e-mail van 11 december 2025 heeft de deken de processtukken en correspondentie
+                  uit het betreffende dossier, hierna: “dossier M”, bij verweerster opgevraagd. Verweerster
+                  heeft de gevraagde stukken aan de deken verstrekt.                               </p>
+               
+               <p>                                        2.3&nbsp;<strong><u>Dossier M</u></strong>                              </p>
+               
+               <p>                                                      In dossier M heeft klaagster de heer M bijgestaan in een geschil met zijn verhuurder.
+                  De heer M is op 23 mei 2025 gedagvaard om te verschijnen voor de kantonrechter. De
+                  verhuurder heeft samengevat primair gevorderd om de huurovereenkomst te ontbinden
+                  en subsidiair om de einddatum van de huurovereenkomst vast te stellen op 19 oktober
+                  2025. De grondslag voor de primaire vordering was volgens de verhuurder samengevat
+                  gelegen in ernstige tekortkomingen in de nakoming van de huurovereenkomst, doordat
+                  de heer M (a) niet zijn hoofdverblijf in het gehuurde zou hebben (gehad), (b) het
+                  gehuurde onbeheerd zou hebben achtergelaten en (c) zonder toestemming het gehuurde
+                  zou hebben onderverhuurd. Aan de subsidiaire vordering tot vaststelling van de einddatum
+                  van de huurovereenkomst lag volgens de verhuurder samengevat ten grondslag dat er
+                  zijdens de verhuurder sprake was van dringend eigen gebruik.                                           </p>
+               
+               <p>                                        2.4 Op 10 juli 2025 heeft verweerster namens de heer M een conclusie van antwoord
+                  ingediend. In deze conclusie heeft verweerster verweer gevoerd tegen de primaire vordering
+                  (ontbinding wegens ernstige tekortkomingen in de nakoming van de huurovereenkomst).
+                  Verweerster heeft in de conclusie geen verweer gevoerd tegen de subsidiaire vordering
+                  (tot vaststelling van de einddatum wegens dringend eigen gebruik). In de conclusie
+                  heeft verweerster onder meer het volgende namens de heer M naar voren gebracht:                              </p>
+               
+               <p>                                                      <em>“Toepasselijkheid nieuwe procesregels en omvang van het stuk</em>                                          </p>
+               
+               <p>                  <em>                                    (1.) Per 1 juli 2025 treden de nieuwe Landelijke Procesrichtlijnen Civiel in werking,
+                     die onder meer beperkingen stellen aan de omvang van conclusies in kantonzaken met
+                     een uitgangspunt van maximaal 15 pagina's. Deze richtlijn biedt echter ruimte om van
+                     dat maximum af te wijken indien de aard en complexiteit van de zaak dit rechtvaardigen
+                     en partijen dat gemotiveerd aangeven.                               </em>            </p>
+               
+               <p>                  <em>                                    (…)                              </em>            </p>
+               
+               <p>                  <em>                                    Juridisch kader en beoordeling                              </em>            </p>
+               
+               <p>                  <em>                                    Woonverblijf                              </em>            </p>
+               
+               <p>                  <em>                                    (22.) De vordering van [de verhuurder] steunt op artikel 7:274 lid 1 onder c BW, dat
+                     bepaalt dat de rechter de huurovereenkomst kan beëindigen indien de huurder zijn hoofdverblijf
+                     in het gehuurde heeft opgegeven. Dit is een limitatieve beëindigingsgrond binnen het
+                     dwingendrechtelijke huurrecht en moet volgens vaste rechtspraak restrictief worden
+                     uitgelegd, omdat beëindiging van huurbescherming een ingrijpende maatregel is.                              </em>            </p>
+               
+               <p>                  <em>                                    (23.) Voor beëindiging op deze grond moet vaststaan dat [M] zijn hoofdverblijf duurzaam
+                     en daadwerkelijk heeft opgegeven. Tijdelijk verblijf elders, zakelijke verhuur of
+                     het gebruik van een ander pand als kantoorruimte is daarvoor onvoldoende. De Hoge
+                     Raad heeft bepaald dat het gaat om de duurzame persoonlijke binding met het gehuurde
+                     en het zwaartepunt van het persoonlijk leven (HR 6 december 2013, ECLl:NL:HR:2013:1385).                              </em>            </p>
+               
+               <p>                  <em>                                    (24.) De bewijslast voor het ontbreken van hoofdverblijf rust volledig op [de verhuurder].
+                     Volgens HR 14 januari 2000 (NJ 2000/112) moet de verhuurder voldoende concreet stellen
+                     en bij betwisting bewijzen dat de huurder het hoofdverblijf daadwerkelijk heeft beëindigd.
+                     Die maatstaf vereist beoordeling van alle relevante omstandigheden en feiten, niet
+                     louter vermoedens of meldingen.                              </em>            </p>
+               
+               <p>                  <em>                                    (25.) Rechtbanken hanteren daarbij een strenge maatstaf. Zo overwoog de Rechtbank
+                     Oost-Brabant op 20 juli 2022 (ECLl:NL:RBOBR:2022:3899) dat het enkele feit dat een
+                     huurder over een tweede woning beschikt of elders verblijft niet betekent dat hij
+                     zijn hoofdverblijf heeft opgegeven. Er moet blijken van een duurzame en daadwerkelijke
+                     beëindiging van de woonfunctie.                              </em>            </p>
+               
+               <p>                  <em>                                    (26.) Ook Rechtbank Noord-Holland 24 april 2019 (ECLl:NL:RBNHO:2019:3293) benadrukte
+                     dat het huren of gebruiken van een tweede ruimte op zichzelf geen bewijs is voor het
+                     opgeven van hoofdverblijf. De verhuurder moet aantonen dat het zwaartepunt van het
+                     persoonlijk leven daadwerkelijk is verplaatst.                              </em>            </p>
+               
+               <p>                  <em>                                    (27.) In Rechtbank Amsterdam 8 mei 2019 (ECLl:NL:RBAMS:2019:3528) werd uitdrukkelijk
+                     geoordeeld dat zakelijke verhuur of beheer van andere panden geen bewijs oplevert
+                     voor het prijsgeven van het hoofdverblijf in de eigen woning. Dat past bij [M]s situatie,
+                     die aantoont dat hij andere panden zakelijk financiert en beheert, met een vastgoedhypotheek
+                     op zijn naam en duidelijke scheiding tussen zijn hoofdverblijf en zijn professionele
+                     activiteiten. De hypotheekdocumenten van NIBC (productie 2) bevestigen dit zakelijke
+                     karakter en ondersteunen dat [M] zijn hoofdverblijf juist op de [adres] behield.                              </em>            </p>
+               
+               <p>                  <em>                                    (…)                              </em>            </p>
+               
+               <p>                  <em>                                    (29.) Getuigenverklaringen van (…..) bevestigen bovendien dat [M] op de [adres] woont
+                     en hen daar heeft ontvangen (productie 10). Dit geheel aan bewijsstukken onderbouwt
+                     zijn persoonlijke binding met het gehuurde adres.                              </em>            </p>
+               
+               <p>                  <em>                                    (30.) Ook Rechtbank Rotterdam 29 maart 2021 (ECLl:NL:RBROT:2021:2648) bevestigde dat
+                     hoofdverblijf vraagt om duurzame persoonlijke binding met het gehuurde, die concreet
+                     moet worden bewezen door de verhuurder. Rechtbank Zeeland-West-Brabant 18 februari
+                     2020 (ECLl:NL:RBZWB:2020:1021) en Rechtbank Den Haag 19 november 2015 (ECLl:NL:RBDHA:2015:13540)
+                     onderstreepten dat het enkel beschikken over een andere woning of elders verblijven
+                     niet volstaat. Er moet blijken van een daadwerkelijk verbroken binding met het gehuurde
+                     adres.                              </em>            </p>
+               
+               <p>                  <em>                                    (…)                              </em>            </p>
+               
+               <p>                  <em>                                    (32.)&nbsp; Voor zover [de verhuurder] of de rechtbank acht zou willen slaan op de recente
+                     uitspraak van de rechtbank Amsterdam van 27 maart 2025 (ECLl:NL:RBAMS:2025:2080),
+                     geldt dat deze niet op de situatie van gedaagde van toepassing is. In die zaak was
+                     sprake van constructies waarbij panden feitelijk door de eigenaar zelf werden bewoond
+                     ondanks zakelijke financiering. In het onderhavige geval gelden uitdrukkelijk hypothecaire
+                     voorwaarden waarin zelfbewoning niet is toegestaan en worden de panden aantoonbaar
+                     verhuurd met officiële contracten en inschrijvingen. De situatie van gedaagde is juist
+                     dat hij zijn hoofdverblijf op de [adres] heeft behouden en elders uitsluitend zakelijk
+                     verhuurt, volledig in lijn met de financieringsvoorwaarden.                              </em>            </p>
+               
+               <p>                  <em>                                    (…)                              </em>            </p>
+               
+               <p>                  <em>                                    (37.)&nbsp; De rechtbank Amsterdam oordeelde op 26 oktober 2018 (ECLl:NL:RBAMS:2018:7732)
+                     dat een verhuurder bij vermoedens van onderhuur niet mag volstaan met een enkele melding,
+                     maar zorgvuldig moet onderzoeken of die melding betrouwbaar is. [De verhuurder] heeft
+                     echter in deze zaak nagelaten om [M] inhoudelijk te horen of zijn bewijsstukken te
+                     beoordelen. Zij heeft een melding uit een persoonlijk conflict overgenomen zonder
+                     hoor en wederhoor toe te passen, terwijl [M] juist bereid was om zijn situatie uitgebreid
+                     toe te lichten en alle relevante documenten te overleggen (productie 12).                              </em>            </p>
+               
+               <p>                  <em>                                    (…)                              </em>            </p>
+               
+               <p>                  <em>                                    (41.) De Rechtbank Amsterdam oordeelde op 26 oktober 2018 (ECLl:NL:RBAMS:2018:7732)
+                     dat de verhuurder bij een melding over onderhuur of schending van hoofdverblijfverplichting
+                     de huurder moet horen en diens uitleg serieus moet onderzoeken, juist vanwege het
+                     ingrijpende karakter van een ontruimingsvordering. Ook in HR 19 december 2008 (ECLl:NL:HR:2008:BD2646}
+                     overwoog de Hoge Raad dat een professionele verhuurder gehouden is zorgvuldig onderzoek
+                     te doen bij betwiste verwijten en niet lichtvaardig tot beëindiging van de huurovereenkomst
+                     mag overgaan.(…)”                              </em>            </p>
+               
+               <p>                                        2.5&nbsp; Op 3 december 2025 heeft verweerster namens de heer M een “akte rectificatie”
+                  ingediend, waarin zij het volgende heeft gesteld:                              </p>
+               
+               <p>                  <em>                                    “In de namens gedaagde opgestelde conclusie van antwoord is verwezen naar diverse
+                     rechterlijke uitspraken (ECLI-verwijzingen) die na controle niet traceerbaar bleken.
+                     Deze onjuiste verwijzingen staan in de alinea's 23- 27, 29, 30, 32, 37 en 41. Hierbij
+                     trekt gedaagde deze verwijzingen in.                              </em>            </p>
+               
+               <p>                  <em>                                    De overige inhoudelijke standpunten in de conclusie van antwoord blijven ongewijzigd,
+                     behoudens de hierboven gerectificeerde verwijzingen.”                              </em>            </p>
+               
+               <p>                                        2.6 Op 9 december 2025 heeft de mondelinge behandeling plaatsgevonden. De heer M is
+                  zonder verweerster ter zitting verschenen.                              </p>
+               
+               <p>                                        2.7 Bij tussenvonnis van 12 februari 2026 heeft de kantonrechter de zaak verwezen
+                  naar de rol van 26 maart 2026 voor het indienen van een akte uitlaten door verweerster,
+                  met het verzoek om te reageren op r.o. 4.4 en om enkele vragen van de kantonrechter
+                  in relatie tot het door de verhuurder gestelde dringend eigen gebruik te beantwoorden.
+                  De kantonrechter heeft onder meer het volgende overwogen:                              </p>
+               
+               <p>                                                      <em>“Schending van artikel 21 Rv</em>                                          </p>
+               
+               <p>                  <em>                                    (4.1) In de akte rectificatie conclusie van antwoord staat:                               </em>                              “In de namens gedaagde opgestelde conclusie van antwoord is verwezen naar diverse
+                  rechterlijke uitspraken (ECLI-verwijzingen) die na controle niet traceerbaar bleken.
+                  Deze onjuiste verwijzingen staan in de alinea's 23-27, 29, 30, 32, 31, 32, 37 en 41.
+                  Hierbij trekt gedaagde deze verwijzingen in.”&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </em>                              </p>
+               
+               <p>                  <em>                                    In de conclusie van antwoord zijn acht uitspraken aangehaald. Eén ECLI-nummer bestaat
+                     niet en van de zeven andere uitspraken behoort het ECLI-nummer bij heel andere uitspraken
+                     dan omschreven in de conclusie van antwoord (bijvoorbeeld een echtscheidingsbeschikking
+                     en een strafzaak). De verwijzingen zijn ingetrokken. De ECLI-nummers zijn niet verbeterd
+                     en er is ook niet verwezen naar andere uitspraken ter onderbouwing van de verweren
+                     van [M].                              </em>            </p>
+               
+               <p>                  <em>                                    (4.4)&nbsp; De kantonrechter had deze onjuiste verwijzingen graag op de mondelinge behandeling
+                     met de gemachtigde willen bespreken (zeker nu er in een andere zaak ook een soortgelijke
+                     akte rectificatie is ingediend door dezelfde gemachtigde) maar de gemachtigde was
+                     (net als in de andere zaak) niet op de mondelinge behandeling aanwezig. [M] heeft
+                     desgevraagd aangegeven dat zijn gemachtigde hem op de hoogte had gesteld van deze
+                     akte rectificatie. De gemachtigde had hem verteld dat zij een bepaald systeem had
+                     gebruikt en dat daardoor de verwijzingen niet klopten. De kantonrechter heeft vervolgens
+                     gevraagd of zij ook had verteld wat voor systeem dit was en of dit ChatGPT of een
+                     ander Al-systeem was. maar dat was [M] niet bekend.                              </em>            </p>
+               
+               <p>                  <em>                                    (4.5)&nbsp; De kantonrechter heeft de sterke indruk dat de gemachtigde van [M] (delen van)
+                     de conclusie van antwoord heeft laten opstellen door een Al-tool zonder in ieder geval
+                     de uitspraken waar door de Al-tool naar wordt verwezen te controleren om na te gaan
+                     of er niet sprake is van een verkeerde of (zoals in dit geval) verzonnen bron. Als
+                     dit inderdaad het geval is dan is dit naar het oordeel van de kantonrechter kwalijk.
+                     Dit schaadt namelijk de belangen van de cliënt en de andere procespartij kan daardoor
+                     op het verkeerde been worden gezet. Zoals hierna wordt besproken zal de zaak worden
+                     verwezen voor akte. De gemachtigde van [M] dient in deze akte nadere uitleg te geven
+                     over het bovenstaande.                              </em>            </p>
+               
+               <p>                  <em>                                    (4.6) [De verhuurder] heeft zich op het standpunt gesteld dat gelet op de ingetrokken
+                     verwijzingen geen acht moet worden geslagen op de conclusie van antwoord en voorbij
+                     moet worden gegaan aan de daarin opgeworpen verweren. De kantonrechter is voorshands
+                     van oordeel dat met de onjuiste verwijzingen weliswaar artikel 21 Rv is geschonden,
+                     maar dat het passeren van alle verweren uit de conclusie van antwoord een te zware
+                     sanctie voor [M] zou zijn.”                              </em>            </p>
+               
+               <p>                                        2.8 Op 25 maart 2026 heeft verweerster namens de heer M een “akte n.a.v. tussenvonnis
+                  12 februari 2026” ingediend, waarin zij onder meer het volgende heeft gesteld:                              </p>
+               
+               <p>                  <em>                                    “Naar aanleiding van het tussenvonnis d.d. 12 februari jl. laat gedaagde zich hierbij
+                     als volgt uit.                              </em>            </p>
+               
+               <p>                  <em>                                    t.a.v. rechtsoverweging 4.4                              </em>            </p>
+               
+               <p>                  <em>                                    Het is juist dat gebruik is gemaakt van een Al-tool voor de ECLI-nummers. Welke tool
+                     dat exact is geweest, kan ondergetekende niet meer achterhalen. Ze zijn gecontroleerd,
+                     vandaar de akte rectificatie. Het spijt ondergetekende enorm dat dit is gebeurd en
+                     daar is uiteraard lering uit getrokken.”                              </em>            </p>
+               
+               <p>                                        2.9&nbsp;<strong><u>Dossier A</u></strong>                              </p>
+               
+               <p>                                        Naar aanleiding van het tussenvonnis van 12 februari 2026 heeft de deken bij e-mail
+                  van 24 februari 2026 het volgende aan verweerster medegedeeld:                              </p>
+               
+               <p>                  <em>                                    “(…) In het tussenvonnis van de kantonrechter verwijst hij in r.o. 4.4 naar een andere
+                     zaak van uw hand waarin ook met AI zou zijn gewerkt. Graag ontvang ik van die zaak
+                     ook alle processtukken. Wilt u zo vriendelijk zijn mij die binnen één week na heden
+                     toe te zenden?”                              </em>            </p>
+               
+               <p>                                        Bij e-mail van dezelfde dag heeft verweerster de gevraagde stukken uit het dossier
+                  A aan de deken toegezonden.                              </p>
+               
+               <p>                                        2.10 In dossier A heeft verweerster de heer A bijgestaan in een geschil met de huurder.
+                  Op 3 april 2025 is de heer A door de huurder gedagvaard om te verschijnen voor de
+                  kantonrechter. De huurder heeft samengevat primair gevorderd de heer A te veroordelen
+                  tot terugbetaling van de waarborgsom, onverschuldigd doorbelaste kosten en tot restitutie
+                  van teveel betaalde huur.                               </p>
+               
+               <p>                                                      2.11 Verweerster heeft namens de heer A een conclusie van antwoord ingediend. In deze
+                  conclusie van antwoord zijn onjuiste verwijzingen naar (deels niet bestaande) rechtspraak
+                  opgenomen.                                          </p>
+               
+               <p>                                                      2.12 Op enig moment heeft verweerster namens de heer A een soortgelijke akte rectificatie
+                  als in de zaak M ingediend.                                          </p>
+               
+               <p>                                        2.13 Op enig moment heeft de mondelinge behandeling plaatsgevonden. De heer A is zonder
+                  verweerster ter zitting verschenen.                              </p>
+               
+               <p>                                                      2.14&nbsp;<strong><u>Contact deken - verweerster</u></strong>                                          </p>
+               
+               <p>                                                      Op 3 maart 2026 hebben de deken en verweerster een gesprek gevoerd. Bij e-mail van
+                  5 maart 2026 heeft de deken naar aanleiding van dit gesprek het volgende aan verweerster
+                  bericht:                                          </p>
+               
+               <p>                                                                      <em>“Naar aanleiding van ons overleg van 3 maart jl. in aanwezigheid van mr. [H] van mijn
+                     bureau, vraag ik graag uw aandacht voor het volgende.</em>                                                        </p>
+               
+               <p>                            <em>                                          U heeft erkend dat u voor het concipiëren van de conclusies van antwoord in de zaken
+                     [M] en [A] een AI-tool heeft gebruikt. Beide zaken hadden het huurrecht als onderwerp.
+                     U bent daarin niet geoefend en bezit daarin geen deskundigheid, nu u nagenoeg uitsluitend
+                     arbeidsrechtzaken behandelt. U hebt aangegeven niet te hebben gecontroleerd of de
+                     uitspraken die u heeft vermeld in deze conclusies van antwoord en die door AI zijn
+                     gegenereerd, correct waren. Ook heeft u verklaard dat u alleen in voornoemde zaken
+                     een AI-tool zonder verdere controle heeft gebruikt.                                    </em>                    </p>
+               
+               <p>                            <em>                                          Tijdens ons gesprek bleven een aantal vragen van mijn zijde onbeantwoord. Ik som die
+                     hieronder op:                                    </em>                    </p>
+               
+               <p>                            <em>                                          1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Welke AI-tool heeft u gebruikt in de hiervoor genoemde zaken?                                    </em>                    </p>
+               
+               <p>                            <em>                                          2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Was de gebruikte AI-tool gratis verkrijgbaar?                                    </em>                    </p>
+               
+               <p>                            <em>                                          3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Zo neen, wilt u dan de overeenkomst waarbij u het gebruik van de betreffende
+                     AI-tool heeft overeengekomen toezenden en tevens de                                    </em>                                              <em>                                          betaalbewijzen die op de periode van het concipiëren betrekking hebben?                                    </em>                    </p>
+               
+               <p>                            <em>                                          4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hoe heeft u de vertrouwelijkheid van de (cliënt)gegevens gewaarborgd in
+                     de door u gebruikte AI-tool?                                    </em>                    </p>
+               
+               <p>                            <em>                                          5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Graag ontvang ik een afschrift van de akte die u zult nemen in de zaak
+                     [M].                                    </em>                    </p>
+               
+               <p>                            <em>                                          6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Graag ontvang ik een afschrift van het vonnis in de zaak [M].                                    </em>                    </p>
+               
+               <p>                            <em>                                          Naast het gebruiken van AI in de hiervoor genoemde zaken, is door mij eveneens opgemerkt
+                     dat het opvallend is dat u in beide zaken wel de schriftelijke stukken heeft voorbereid
+                     en bij de rechtbank heeft ingediend maar niet met uw cliënten naar de mondelinge behandeling
+                     bent gegaan. Uw cliënten lopen met deze handelwijze serieus te nemen procesrisico's,
+                     aangezien u tijdens de mondelinge behandeling niet aanwezig bent om eventuele juridische
+                     vragen van de rechter te beantwoorden. Ik heb u erop gewezen dat ik van mening ben
+                     dat een deskundig advocaat (één van de kernwaarden van art. 10a van de Advocatenwet)
+                     zijn cliënten ook begeleidt ter mondelinge behandeling. U heeft toegezegd dat u dat
+                     in het vervolg ook zult doen.                                    </em>                    </p>
+               
+               <p>                            <em>                                          Graag zie ik de antwoorden op de vragen 1 t/m 4 binnen 14 dagen na heden tegemoet.
+                     De akte ontvangen wij graag nadat u deze bij de rechtbank heeft ingediend. Het vonnis
+                     ontvangen wij graag nadat u daarover de beschikking heeft gekregen.”                                    </em>                    </p>
+               
+               <p>                                                      2.15 Bij e-mail van 23 maart 2026 heeft verweerster als volgt geantwoord:                                          </p>
+               
+               <p>                                                                      <em>“Dank voor uw bericht. Ik heb inderdaad aangegeven dal ik een algemene praktijk heb,
+                     zo sta ik ook ingeschreven, met de nadruk op arbeidsrecht. Geen strafzaken en echtscheidingszaken
+                     zoals gezegd. Ik heb u aangegeven dat het een vaste cliënt betrof en de andere zaak
+                     een relatie van hem. Ik bevestig dat ik met u heb afgesproken dat ik geen zaken meer
+                     aanneem zonder zitting; de betreffende cliënt moet het dan maar zelf doen of elders
+                     naar toe. Hieronder volgen mijn antwoorden.</em>                                                        </p>
+               
+               <p>                            <em>                                          1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Welke AI-tool heeft u gebruikt in de hiervoor genoemde zaken?                                     </em>                                    Ik heb niet kunnen achterhalen welke Al-tool ik heb gebruikt.                                          </p>
+               
+               <p>                            <em>                                          2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Was de gebruikte AI-tool gratis verkrijgbaar?                                     </em>                                    De laatste tool die ik heb gebruikt was LegalPA. Die heb ik zoals gezegd vorige maand
+                  opgezegd. De eerste maand was die volgens mij gratis, dat was medio november vorig
+                  jaar, daarna moest ik daarvoor betalen.                                          </p>
+               
+               <p>                            <em>                                          3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Zo neen, wilt u dan de overeenkomst waarbij u het gebruik van de betreffende
+                     AI-tool heeft overeengekomen toezenden en tevens de betaalbewijzen die op de periode
+                     van het concipiëren betrekking hebben?                                     </em>                                    Die kan ik niet overleggen, op de bankafschriften kan ik het niet terughalen.                                          </p>
+               
+               <p>                            <em>                                          4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hoe heeft u de vertrouwelijkheid van de (client)gegevens gewaarborgd in
+                     de door u gebruikte AI-tool?                                     </em>                                    Door geen vertrouwelijke gegevens in te voeren.                                          </p>
+               
+               <p>                            <em>                                          5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Graag ontvang ik een afschrift van de akte die u zult nemen in de zaak
+                     [M].                                     </em>                                    Dat zal ik doen.                                          </p>
+               
+               <p>                            <em>                                          6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Graag ontvang ik een afschrift van het vonnis in de zaak [M].                                     </em>                                    Dat zal ik doen.<em>”</em>                                          </p>
+               
+               <p>                                                      2.16 Bij e-mail van 7 april 2026 heeft de deken het concept dekenbezwaar aan verweerster
+                  toegezonden. Bij e-mail van 20 april 2026 heeft verweerster daarop gereageerd.                                          </p>
+               
+               <p>                                                      2.17 Op 30 april 2026 heeft de deken een dekenbezwaar tegen verweerster ingediend.
+                                                            </p>
+               
+               
+               <p>                            <strong>                                                            3 BEZWAAR                                                    </strong>                    </p>
+               
+               <p>                                        3.1 Het bezwaar van de deken houdt, zakelijk weergegeven, in dat verweerster tuchtrechtelijk
+                  verwijtbaar heeft gehandeld als bedoeld in artikel 46 Advocatenwet. De deken verwijt
+                  verweerster het volgende:                              </p>
+               
+               <p>                                                      Verweerster heeft in de zaken M en A niet gehandeld zoals het een behoorlijk advocaat
+                  betaamt omdat de kwaliteit van verweersters dienstverlening in deze zaken ondermaats
+                  was. Verweerster is namelijk niet ter zitting verschenen en de door verweerster ingediende
+                  processtukken bevatten onjuistheden en onvolledigheden, onder meer als gevolg van
+                  ontoereikende kennis van en ervaring met het huurrecht en het gebruik van een AI-tool.
+                  Dit alles levert een schending op van de in artikel 10a Advocatenwet &nbsp;genoemde kernwaarden
+                  deskundigheid, integriteit en vertrouwelijkheid en gedragsregel 8.                                          </p>
+               
+               
+               <p>                  <strong>                                                    4&nbsp; VERWEER                                            </strong>            </p>
+               
+               <p>                                        4.1 Verweerster heeft verweer gevoerd. De raad zal hierna, waar nodig, op het verweer
+                  ingaan.                              </p>
+               
+               
+               <p>                  <strong>                                    5&nbsp; BEOORDELING                              </strong>            </p>
+               
+               <p>                                        5.1&nbsp;                <em>          <u>                                          Toetsingskader                                    </u>        </em>            </p>
+               
+               <p>                                        De tuchtrechter dient bij de beoordeling van een tegen een advocaat ingediende klacht
+                  het aan die advocaat verweten handelen of nalaten te toetsen aan de in artikel 46
+                  Advocatenwet omschreven normen, waaronder de kernwaarden zoals omschreven in artikel
+                  10a Advocatenwet. De tuchtrechter is niet gebonden aan de gedragsregels, maar die
+                  regels kunnen wel van belang zijn vanwege het open karakter van de behoorlijkheidsnorm
+                  in artikel 46 Advocatenwet.                              </p>
+               
+               <p>                                        5.2 Bij de beantwoording van de vraag of een advocaat zich betamelijk heeft gedragen
+                  als bedoeld in artikel 46 Advocatenwet hanteert de raad als uitgangspunt dat de tuchtrechter
+                  mede tot taak heeft de kwaliteit van de dienstverlening te beoordelen als daarover
+                  wordt geklaagd. Er is pas sprake van tuchtrechtelijk verwijtbaar handelen als de kwaliteit
+                  duidelijk onder de maat is geweest. De tuchtrechter houdt bij de beoordeling rekening
+                  met de vrijheid die een advocaat heeft bij de wijze waarop hij een zaak behandelt.
+                  Ook houdt de tuchtrechter rekening met de keuzes waar een advocaat bij de behandeling
+                  van de zaak voor kan komen te staan. Die (keuze)vrijheid is niet onbeperkt, maar wordt
+                  begrensd door bepaalde eisen die aan het werk van de advocaat worden gesteld. Als
+                  algemene professionele standaard geldt dat de advocaat te werk moet gaan zoals van
+                  een redelijk bekwame en redelijk handelende beroepsgenoot mag worden verwacht.                               </p>
+               
+               <p>                                                      5.3&nbsp;                    <em>            <u>                                                Kwaliteit van de door verweerster verleende rechtsbijstand en wijze van procederen                                          </u>          </em>                    </p>
+               
+               <p>                                                      Als uitdrukkelijk door verweerster erkend staat vast dat zij in de conclusie van antwoord
+                  die zij namens M heeft ingediend alsook in de conclusie van antwoord die zij namens
+                  A heeft ingediend verwijzingen naar rechtelijke uitspraken heeft opgenomen. Voor een
+                  deel van genoemde verwijzingen gold dat het ECLI-nummer helemaal niet bestond. Voor
+                  een ander deel gold dat het ECLI-nummer verwees naar andere uitspraken dan die werden
+                  omschreven in de conclusie van antwoord. Verweerster heeft toegelicht dat de oorzaak
+                  van de fouten in de conclusie was gelegen in het gebruik van AI-tool. Verweerster
+                  heeft naar eigen zeggen rechtspraak gezocht in een of meerdere AI-tools en de rechtspraak
+                  die werd gegenereerd in haar processtukken overgenomen.                                          </p>
+               
+               <p>                                                      5.4 Verweerster heeft aangevoerd dat zij AI-tools destijds beschouwde als een soort
+                  zoekmachines en dat zij niet bedacht was op het risico dat AI-tools zelf niet bestaande
+                  rechtspraak of anderszins onjuiste informatie genereren. Toen verweerster de gemaakte
+                  fouten ontdekte, heeft zij deze direct hersteld door in beide zaken een “akte rectificatie”
+                  in te dienen, waarmee de foutieve verwijzingen werd ingetrokken en geen deel meer
+                  uit maakten van de rechtsstrijd, aldus nog steeds verweerster.                                           </p>
+               
+               <p>                                                      5.5 Hetgeen verweerster heeft aangevoerd neemt niet weg dat uit de overgelegde stukken
+                  en hetgeen verweerster zelf heeft verklaard over de wijze waarop zij haar rechtsbijstand
+                  heeft vorm gegeven, naar het oordeel van de raad genoegzaam blijkt dat verweerster
+                  haar werkzaamheden in                                                          de beide dossiers niet met inachtneming van de op haar rustende zorgplicht heeft verricht.
+                  Verweerster heeft gelijk waar zij stelt dat niet iedere fout, zoals een enkele onjuiste
+                  verwijzing naar rechtspraak, een schending van de kernwaarde deskundigheid oplevert.
+                  De raad is echter van oordeel dat verweerster met haar wijze van procesvoering de
+                  kernwaarde deskundigheid wel heeft geschonden.                                           </p>
+               
+               <p>                                                      5.6&nbsp;&nbsp;&nbsp;&nbsp; In de eerste plaats heeft verweerster de door de door haar gebruikte AI-tool
+                  gegenereerde rechtspraak klakkeloos overgenomen in de conclusie van antwoord in zaak
+                  M, zonder de verwijzingen op juistheid te controleren of de uitspraken ook maar te
+                  lezen. Door op deze wijze gebruik te maken van een hulpmiddel, in dit geval een AI-tool,
+                  heeft verweerster de op haar rustende verantwoordelijkheid miskend. Dit handelen is
+                  uiterst onzorgvuldig en tuchtrechtelijk verwijtbaar, omdat dit niet alleen de belangen
+                  van de cliënt schaadt, maar ook die van de overige bij de gerechtelijke procedure
+                  betrokkenen. De kantonrechter heeft aan de onjuiste verwijzingen de conclusie verbonden
+                  dat artikel 21 Rv was geschonden. De raad overweegt dat alle bij de gerechtelijke
+                  procedure betrokken partijen erop moeten kunnen vertrouwen dat door een advocaat in
+                  een processtuk genoemde rechtspraak daadwerkelijk bestaat en dat verwijzingen kloppen.
+                  Verweerster heeft dit vertrouwen met haar wijze van procederen geschaad en heeft daarmee
+                  niet alleen de kernwaarde deskundigheid, maar ook de kernwaarde integriteit en gedragsregel
+                  8 (verstrekken van informatie waarvan de advocaat weet of behoort te weten dat deze
+                  onjuist is) geschonden.                                          </p>
+               
+               <p>                                                      5.7 Verder staat als niet weersproken vast staat dat verweerster in randnummer 1 van
+                  de conclusie van antwoord in zaak M een onjuiste stelling heeft geponeerd over de
+                  inhoud van het van toepassing zijnde Landelijk Procesreglement, door ten onrechte
+                  te stellen dat daarin is bepaald dat processtukken maximaal vijftien pagina’s mogen
+                  beslaan.                                           </p>
+               
+               <p>                                                      5.8 Voorts heeft verweerster in randnummer 22 van de conclusie van antwoord in de
+                  zaak M &nbsp;ten onrechte gesteld dat in artikel 7:274 lid 1 onder c BW is bepaald dat
+                  de rechter de huurovereenkomst kan beëindigen indien de huurder zijn hoofdverblijf
+                  in het gehuurde heeft opgegeven. Artikel 7:274 lid 1 sub c BW luidt echter:                                 <em>                                          “De rechter kan de vordering slechts toewijzen (…) (c)&nbsp; indien de verhuurder aannemelijk
+                     maakt dat hij het verhuurde zo dringend nodig heeft voor eigen gebruik, vervreemding
+                     van de gehuurde woonruimte niet daaronder begrepen, dat van hem, de belangen van beide
+                     partijen en van onderhuurders naar billijkheid in aanmerking genomen, niet kan worden
+                     gevergd dat de huurovereenkomst wordt verlengd, en tevens blijkt dat de huurder, met
+                     uitzondering van de huurder, bedoeld in lid 4, andere passende woonruimte kan verkrijgen”.
+                                                         </em>                                    Verweerster heeft in de randnummers 22 en verder namens M verweer gevoerd tegen de
+                  grondslag van de primaire vordering, die volgens de verhuurder samengevat was gelegen
+                  in ernstige tekortkomingen in de nakoming van de huurovereenkomst, doordat de heer
+                  M (a) niet zijn hoofdverblijf in het gehuurde zou hebben (gehad), (b) het gehuurde
+                  onbeheerd zou hebben achtergelaten en (c) zonder toestemming het gehuurde zou hebben
+                  onderverhuurd. In het debat over de grondslag van die primaire vordering is het bepaalde
+                  van artikel 7:274 lid 1 sub c BW geenszins van toepassing, zodat niet valt in te zien
+                  waarom verweerster deze wettelijke bepaling in het verweer tegen de primaire vordering
+                  heeft betrokken.                                           </p>
+               
+               <p>                                                      5.9 Overigens heeft verweerster in de door haar namens M ingediende conclusie van
+                  antwoord met geen woord gerept over de subsidiaire vordering op grond van dringend
+                  eigen gebruik en dus tegen die subsidiaire vordering geen enkel verweer gevoerd. Ook
+                  op dat punt heeft verweerster steken laten vallen. Over de reden waarom verweerster
+                  tegen de subsidiaire vordering geen verweer heeft gevoerd heeft zijn geen duidelijkheid
+                  geschept. Dat M zijn standpunten ten aanzien van de subsidiaire vordering uiteindelijk
+                  wel in de procedure kenbaar heeft kunnen maken is louter het gevolg van het feit dat
+                  de kantonrechter hem daartoe uitdrukkelijk in het tussenvonnis van 12 februari 2026
+                  heeft uitgenodigd.                                           </p>
+               
+               <p>                                                      5.10 De raad stelt constateert voorts dat verweerster, nadat zij in de akte rectificatie
+                  de verwijzingen naar ter onderbouwing van het verweer genoemde rechtspraak integraal
+                  had ingetrokken, geen andere rechtspraak ter onderbouwing van het verweer heeft genoemd.
+                  Verweerster is zowel in de zaak M als in de zaak A niet ter zitting verschenen. Verweerster
+                  heeft gesteld dat zij bij aanvang van haar bijstand aan M en A met hen beiden had
+                  afgesproken dat zij wegens kostenoverwegingen de zitting niet zou bijwonen. Wat daar
+                  ook van zij, toen verweerster de door haar gemaakte fouten ontdekte was er naar het
+                  oordeel van de raad alle aanleiding om (kosteloos) haar cliënten alsnog ter zitting
+                  bij te staan, het verweer ter zitting handen en voeten te geven en vragen van de kantonrechter
+                  te beantwoorden. Verweerster heeft dit nagelaten en ook daarmee heeft zij niet de
+                  zorg betracht die van haar had kunnen worden verwacht.                                           </p>
+               
+               <p>                                                      5.11 De raad komt op grond van het voorgaande tot de conclusie dat verweerster met
+                  de wijze waarop zij haar bijstand in de zaken M en A heeft vormgegeven, heeft &nbsp;gehandeld
+                  in strijd met de in artikel 10a van de Advocatenwet genoemde kernwaarden integriteit
+                  en deskundigheid en gedragsregel 8. In zoverre is het dekenbezwaar dan ook gegrond.                                          </p>
+               
+               <p>                                                      5.12 De deken verwijt verweerster tot slot schending van de kernwaarde vertrouwelijkheid.
+                  Verweerster heeft desgevraagd, op de vraag welke AI-tools zij bij het vervaardigen
+                  van de processtukken in de zaken M en A heeft gebruikt, geen antwoord gegeven, ook
+                  niet ter zitting van de raad. Verweerster heeft wel uitdrukkelijk verklaard dat zij
+                  bij het gebruik van de AI-tools geen vertrouwelijke gegevens betreffende de zaken
+                  M en A heeft ingevoerd. Dat dit anders zou zijn heeft de raad op grond van de overgelegde
+                  stukken niet kunnen vaststellen. Het enkele door de deken geuite vermoeden dat verweerster
+                  bij de gebruikmaking van de AI-tools in strijd met haar geheimhoudingsplicht heeft
+                  gehandeld, is onvoldoende om schending van de kernwaarde vertrouwelijkheid aan te
+                  nemen. In zoverre is het dekenbezwaar dan ook ongegrond.                                          </p>
+               
+               
+               <p>                  <strong>                                    6 MAATREGEL                              </strong>            </p>
+               
+               <p>                                                      6.1 Vast staat dat verweerster in een tweetal zaken is tekortgeschoten in haar bijstand
+                  en dat zij in strijd heeft gehandeld met de kernwaarden deskundigheid en integriteit.
+                  Verweerster heeft ten opzichte van haar cliënten en de overige bij de gerechtelijke
+                  procedure betrokkenen niet die zorg in acht genomen, die van een behoorlijk handelend
+                  advocaat mag worden verwacht. Het handelen van verweerster is in strijd met de in
+                  artikel 10a Advocatenwet vastgelegde kernwaarden deskundigheid en integriteit en met
+                  gedragsregel 8.                                                          De raad is daarom van oordeel dat niet kan worden volstaan met oplegging van een waarschuwing,
+                  zoals betoogd door verweersters gemachtigde.                                          </p>
+               
+               <p>                  6.2&nbsp;Voor wat betreft de aard van de op te leggen maatregel weegt de raad in het voordeel
+                  van verweerster mee dat zij niet eerder tuchtrechtelijk is veroordeeld. Ten tijde
+                  van het opstellen van de gewraakte processtukken (juli 2025) was AI-geletterdheid
+                  nog geen gemeengoed en de aanbevelingen van de Orde ten aanzien van AI-gebruik zijn
+                  eveneens van latere datum. Ook die omstandigheden laat de raad in verweersters voordeel
+                  meewegen. Alles afwegend is de raad van oordeel dat een berisping passend en geboden
+                  is.            </p>
+               
+               
+               <p>                            <strong>                                          7 KOSTENVEROORDELING                                     </strong>                    </p>
+               
+               <p>                                        7.1 Omdat de raad een maatregel oplegt, zal de raad verweerster op grond van artikel
+                  48ac lid 1 Advocatenwet veroordelen in de volgende proceskosten:                              </p>
+               
+               <p>                                        a) € 750,- kosten van de Nederlandse Orde van Advocaten en                              </p>
+               
+               <p>                                        b) € 500,- kosten van de Staat.                              </p>
+               
+               <p>                                        7.2 Verweerster moet het bedrag van € 1.250,- (het totaal van de in 7.1 onder a en
+                  b genoemde kosten) binnen vier weken nadat deze beslissing onherroepelijk is geworden,
+                  overmaken naar rekeningnummer lBAN: NL85 lNGB 0000 079000, BIC: INGBNL2A, Nederlandse
+                  Orde van Advocaten, Den Haag, onder vermelding van “kostenveroordeling raad van discipline"
+                  en het zaaknummer.                              </p>
+               
+               
+               
+               <p>                            <strong>                                                            BESLISSING                                                    </strong>                    </p>
+               
+               <p>                                                      De raad van discipline:                                          </p>
+               
+               <p>                                                      -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; verklaart het dekenbezwaar ongegrond, voor zover het ziet op schending van
+                  de kernwaarde vertrouwelijkheid, en voor het overige gegrond;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                            </p>
+               
+               <p>                                        -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; legt aan verweerster de maatregel van berisping;                              </p>
+               
+               <p>                                        -&nbsp;&nbsp;&nbsp; veroordeelt verweerster tot betaling van de proceskosten van € 1.250,- aan de
+                  Nederlandse Orde van Advocaten, op de manier en binnen de termijn als hiervóór bepaald
+                  in 7.2.                              </p>
+               
+               
+               <p>                            Aldus beslist door mr. E. Loesberg, voorzitter, mrs. H.C. Struijk, S.M. Kurvers, leden,
+                  bijgestaan door mr. T.H.G. Huber-van de Langenberg als griffier, en uitgesproken op
+                  27 juli 2026.                    </p>
+               
+               
+               <p>                                                      Griffier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  Voorzitter                                          </p>
+               
+               
+               <p>                                                      Verzonden op: 27 juli 2026                                          </p>
+               </div>
+            <div class="column column--sidebar">
+               <p><a href="/zoeken/resultaat" class="icon icon--arrow-cta-right">Terug naar zoekresultaten</a></p>
+            </div>
+         </div>
+      </div><br><br><div class="footer row--footer" role="contentinfo">
+         <div class="container columns">
+            <div>
+               <div>
+                  <ul class="list list--linked">
+                     <li class="list__item"><a href="https://www.overheid.nl/over-deze-site">Over deze website</a></li>
+                     <li class="list__item"><a href="https://www.overheid.nl/contact/reageren-op-wetten">Contact</a></li>
+                     <li class="list__item"><a href="https://www.overheid.nl/english" lang="en">English</a></li>
+                     <li class="list__item"><a href="https://www.overheid.nl/help/tuchtrecht">Help</a></li>
+                     <li class="list__item"><a href="https://www.overheid.nl/help/zoeken">Zoeken</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div>
+               <div>
+                  <ul class="list list--linked">
+                     <li class="list__item"><a href="https://www.overheid.nl/informatie-hergebruiken">Informatie hergebruiken</a></li>
+                     <li class="list__item"><a href="https://www.overheid.nl/privacy-statement">Privacy en cookies</a></li>
+                     <li class="list__item"><a href="https://www.overheid.nl/toegankelijkheid">Toegankelijkheid</a></li>
+                     <li class="list__item"><a href="https://www.overheid.nl/sitemap">Sitemap</a></li>
+                     <li class="list__item"><a href="https://www.ncsc.nl/contact/kwetsbaarheid-melden">Kwetsbaarheid melden</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div>
+               <div>
+                  <ul class="list list--linked">
+                     <li class="list__item"><a href="https://data.overheid.nl/">Open data</a></li>
+                     <li class="list__item"><a href="https://linkeddata.overheid.nl/">Linked Data Overheid</a></li>
+                     <li class="list__item"><a href="https://puc.overheid.nl/">PUC Open Data</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div>
+               <div>
+                  <ul class="list list--linked">
+                     <li class="list__item"><a href="https://mijn.overheid.nl">MijnOverheid.nl</a></li>
+                     <li class="list__item"><a href="https://www.rijksoverheid.nl">Rijksoverheid.nl</a></li>
+                     <li class="list__item"><a href="https://ondernemersplein.nl">Ondernemersplein.nl</a></li>
+                     <li class="list__item"><a href="https://www.werkenbijdeoverheid.nl">Werkenbijdeoverheid.nl</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div><script src="/cb-common/2.42.2/js/main.js"></script><script src="/cb-common/2.42.2/js/sessionStorage.js"></script><script src="/js/tuchtrecht.js?v105"></script></body>
+   <!-- v1.6.3 (0985bdb6) --></html>

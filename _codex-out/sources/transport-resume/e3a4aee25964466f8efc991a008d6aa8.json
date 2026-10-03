@@ -1,0 +1,26 @@
+{
+  "id": "e3a4aee25964466f8efc991a008d6aa8",
+  "url": "https://media.ca7.uscourts.gov/cgi-bin/OpinionsWeb/processWebInputExternal.pl?Submit=Display&Path=Y2026/D06-01/C:25-1988:J:Brennan:aut:T:fnOp:N:3550588:S:0",
+  "kind": "fetch",
+  "host": "media.ca7.uscourts.gov",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:42 GMT",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "cache-control": "no-store",
+    "x-frame-options": "DENY",
+    "content-type": "application/pdf",
+    "set-cookie": "[REDACTED]",
+    "x-envoy-upstream-service-time": "148",
+    "server": "envoy",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:42.497949+00:00",
+  "sha256": "fd506528f787b6f426c87ad628dce279414b9e86c2d3cba3fabfd6037dd78651",
+  "bytes": 264292,
+  "body_path": "/workspace/freshness-control/transport-evidence/e3a4aee25964466f8efc991a008d6aa8.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/e3a4aee25964466f8efc991a008d6aa8.body"
+}

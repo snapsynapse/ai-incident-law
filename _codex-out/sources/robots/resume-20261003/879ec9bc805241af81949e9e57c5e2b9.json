@@ -1,0 +1,22 @@
+{
+  "id": "879ec9bc805241af81949e9e57c5e2b9",
+  "url": "https://democracynow.org/robots.txt",
+  "kind": "robots",
+  "host": "democracynow.org",
+  "status": 301,
+  "headers": {
+    "server": "envoy",
+    "date": "Sat, 03 Oct 2026 18:37:29 GMT",
+    "content-type": "text/html",
+    "content-length": "162",
+    "location": "https://www.democracynow.org/robots.txt",
+    "x-envoy-upstream-service-time": "244",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:29.165746+00:00",
+  "sha256": "9e17cb15dd75bbbd5dbb984eda674863c3b10ab72613cf8a39a00c3e11a8492a",
+  "bytes": 162,
+  "body_path": "/workspace/freshness-control/transport-evidence/879ec9bc805241af81949e9e57c5e2b9.body"
+}

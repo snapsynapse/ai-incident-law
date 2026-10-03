@@ -1,0 +1,1058 @@
+    Case 1:24-cv-08705-JLR-GWG                  Document 192       Filed 04/29/26   Page 1 of 20
+
+
+
+
+UNITED STATES DISTRICT COURT
+SOUTHERN DISTRICT OF NEW YORK
+---------------------------------------------------------------X
+SAI MALENA JIMENEZ-FOGARTY                                     :
+
+                                                             :     OPINION AND ORDER
+                          Plaintiff,
+                                                             :     24 Civ. 8705 (JLR) (GWG)
+
+         -v.-                                                :
+
+                                                             :
+THOMAS FOGARTY et al.,
+                                                             :
+
+                           Defendants.                         :
+---------------------------------------------------------------X
+
+GABRIEL W. GORENSTEIN, United States Magistrate Judge
+
+         Tricia S. Lindsay, attorney for plaintiff Sai Malena Jimenez-Fogarty, responded to two
+
+motions to dismiss by filing a pair of memoranda of law that cited to numerous nonexistent
+
+cases. In response, the Court ordered Lindsay to show cause why she should not be sanctioned
+
+for her misleading filings. 1 Upon consideration of Lindsay’s response to these orders, 2 we find
+                              0F                                                         F
+
+
+
+
+that she should be sanctioned in the amount of $2,500.00 pursuant to Fed. R. Civ. P. 11.
+
+    I.          BACKGROUND
+
+         On June 20, 2025, plaintiff filed two memoranda of law to oppose motions to dismiss
+
+brought by defendant Emily Hirshowitz and by defendants Judge Sherri Eisenpress and Judge
+
+Thomas Zugibe. See Memorandum of Law in Opposition, filed June 20, 2025 (Docket # 122)
+
+
+
+1
+ See Amended Order to Show Cause, dated July 17, 2025 (Docket # 144) (“1st OSC”); Order to
+Show Cause, dated Sept. 11, 2025 (Docket # 157) (“2d OSC”).
+2
+ See Memorandum in Response to the Court’s Order to Show Cause, filed Aug. 9, 2025 (Docket
+# 149) (“Resp.”); Affidavit of Tricia S. Lindsay, filed Aug. 9, 2025 (Docket # 149-1) (“Lindsay
+Aff.”); Memorandum in Response to the Court’s Order to Show Cause, filed Sept. 18, 2025
+(Docket # 159) (“Supp. Resp.”).
+    Case 1:24-cv-08705-JLR-GWG               Document 192       Filed 04/29/26     Page 2 of 20
+
+
+
+
+(“1st Opp.”); Memorandum of Law in Opposition, filed June 20, 2025 (Docket # 123) (“2d
+
+Opp.”).
+
+          The two briefs were signed by Lindsay, and each contained a number of fabricated
+
+citations. When we say “fabricated,” we do not mean citations that arguably contain
+
+typographical errors — for example, Lindsay’s citations to cases that exist and support the
+
+propositions for which they were cited but are not located in the volume or at the page of the
+
+reporter (or database identifier) given. 3 Similarly, we exclude any otherwise correct citations
+                                        2F
+
+
+
+
+that give the wrong case name. 4 We also exclude those instances where the cited case covers the
+                                 3F
+
+
+
+
+same topic as the proposition for which it is cited but where the case’s holding is completely
+
+mischaracterized, although such a citation is itself grossly misleading and perhaps deserving of
+
+sanctions. 54F
+
+
+
+
+          Instead, we consider only citations to cases that cannot be located at all by name — or
+
+that were not located where Lindsay said they were and have nothing to do with the propositions
+
+
+
+
+3
+ For example, Lindsay cited to “Wells Fargo Bank, N.A. v. Enitan (155 A.D.3d 781, 2d Dept.
+2017)” for the proposition that “a process server’s affidavit establishes a presumption of proper
+service, which a defendant’s conclusory denial cannot overcome.” 1st Opp. at 7. This case
+exists and supports the above proposition, but it is located at 200 A.D.3d 736 and was decided in
+2021.
+4
+  For example, Lindsay cited to “Well v. Pelham (2021 U.S. Dist. LEXIS 52247, S.D.N.Y. Mar.
+19, 2021)” for the proposition that the plaintiff “bears the burden of establishing that service was
+proper, typically through affidavits or other evidence that create a prima facie case of compliance
+with legal requirements.” 1st Opp. at 3. This case exists and supports the above proposition, but
+it is called Regan v. Pelham.
+5
+ For example, Lindsay cited to “Serraro v. Staropoli, 94 A.D.3d 1083 (2d Dept. 2012)” for the
+proposition that “two attempts at personal service constituted due diligence, justifying nail and
+mail service.” 1st Opp. at 7. But this case held that four attempts at personal service did not
+constitute due diligence under N.Y. C.P.L.R. 308(4). See Serraro v. Staropoli, 94 A.D.3d 1083,
+1085 (2d Dep’t 2012).
+                                                 2
+   Case 1:24-cv-08705-JLR-GWG              Document 192         Filed 04/29/26       Page 3 of 20
+
+
+
+
+for which they were cited — thus showing that the citations were completely made up. The
+
+following are descriptions of some of the fabricated citations:
+
+   •   Lindsay cited to “Cornhill LLC v. Sowers, 183 A.D.3d 649 (2d Dept. 2020)” and
+       represented that this case “[u]pheld nail and mail service based on multiple
+       service attempts and mailing evidence.” 1st Opp. at 7. We cannot find any case
+       by this name. The reporter (183 A.D.3d 649) points to an entirely unrelated case,
+       Matter of Goodine v. Evans, 183 A.D.3d 649 (2d Dep’t 2020).
+
+   •   Lindsay cited to “T.E. v. Pine Bush Cent. Sch. Dist., No. 16-CV-8607, 2017 WL
+       5496274, at *3 (S.D.N.Y. Nov. 15, 2017)” to support an argument regarding
+       “authority to accept service.” 2d Opp. at 7. The Westlaw citation is to a District
+       of Iowa case that does not have that name or docket number and has nothing to do
+       with authority to accept service of process. The case assigned to docket number
+       “16-CV-8607” in the Southern District of New York does not have that name, and
+       there is no opinion filed in that case at all, let alone one that relates to authority to
+       accept service of process. While there is a case on Westlaw with that name
+       (appearing at 58 F. Supp. 3d 332 (S.D.N.Y. 2014)), the decision has an entirely
+       different docket number and does not relate to service of process.
+
+   •   Lindsey cited to “Bank of Am., N.A. v. Gruff, 131 A.D.3d 1185 (2d Dept. 2015)”
+       and represented that this case “[u]pheld nail and mail service with evidence of
+       affixation and mailing.” 1st Opp. at 7. We cannot find any case by this name, and
+       the reporter (131 A.D.3d 1185) points to an entirely unrelated case, Bachvarov v
+       Lawrence Union Free Sch. Dist., 131 A.D.3d 1182 (2d Dep’t 2015).
+
+   •   Lindsay cited to “Boss v. N.Y. Life Ins. Co., 298 N.Y. 917, 918 (1949)” to argue
+       that “[a]ctual notice, evidenced by the judges’ ties to co-defendants . . . negates
+       prejudice.” 2d Opp. at 6. We cannot find any case by this name, and the reporter
+       (298 N.Y. 917) points to two unrelated cases, Condur Affiliates, Inc. v. Ronnie,
+       Inc., 298 N.Y. 917 (1949) and Marks v. Provident Mut. Life Ins. Co. of Phila., 298
+       N.Y. 917 (1949).
+
+   •   Lindsay cited to “Dixon v. Cty. of Albany, 39 N.Y.S.3d 580, 583 (N.Y. App. Div.
+       2016)” to make the same argument. 2d Opp. at 6. While we were able to locate a
+       similarly named case at a different citation, Matter of Dixon v. County of Albany,
+       145 N.Y.S.3d 639 (3d Dep’t 2021), this case bears no relation to plaintiff’s
+       argument. Meanwhile, the reporter Lindsay gave (“39 N.Y.S.3d 580”) points to
+       an entirely unrelated case, People v. Menner, 53 Misc. 3d 52 (App. Term 2016).
+
+   •   Lindsay cited to “Nagib v. News Syndicate Co., 413 N.Y.S.2d 108, 109 (1st Dep’t
+       1978)” to argue that “[a]ny claim that service on judges requires special
+       procedures is baseless.” 2d Opp. at 7. We cannot find any case by this name, and
+       the reporter (413 N.Y.S.2d 108) points to an entirely unrelated case, Matter of
+                                                  3
+    Case 1:24-cv-08705-JLR-GWG            Document 192         Filed 04/29/26      Page 4 of 20
+
+
+
+
+        Depew Union Free School Dist. v Depew Teachers Org., 98 Misc. 2d 85 (Sup. Ct.
+        1979), rev’d, 77 A.D.2d 798 (4th Dep’t 1980).
+
+    •   Lindsay cited to “Koulkina v. City of New York, No. 06 Civ. 11357, 2009 WL
+        2103627, at *3 (S.D.N.Y. July 14, 2009)” for the proposition that “[c]ourts uphold
+        service on clerks designated to receive process for judicial officers.” 2d Opp. at 5.
+        There is no case at the database identifier given. There are three cases by the
+        name “Koulkina v. City of New York” in Westlaw, but none support the above
+        proposition.
+
+        First alerted to some of these errors by the reply brief of Eisenpress and Zugibe, see
+
+Reply Memorandum of Law in Support, filed June 27, 2025 (Docket # 130) (“Eisenpress-Zugibe
+
+Reply”), at 5-6, the Court ordered Lindsay to show cause why she should not be sanctioned
+
+pursuant to Fed. R. Civ. P. 16(f), 28 U.S.C. § 1927, or the Court’s inherent power “for submitting
+
+memoranda of law . . . that contain numerous non-existent or improper citations.” 1st OSC at 2.
+
+To this end, the Order to Show Cause (“OSC”) required Lindsay to provide “a complete and
+
+detailed description of the process of the drafting of the two memoranda of law” and “a detailed
+
+and complete description of the role of any individual or computer system that was involved in
+
+the drafting process.” Id. The Court also directed her to draw up a list of “all cases that she now
+
+recognizes are inaccurate” and, for each case, to “specify the manner in which the citation was
+
+inaccurate,” state “the reason she included an incorrect citation,” and give a corrected citation,
+
+where possible. Id.
+
+        Lindsay responded to this OSC. See Resp.; Lindsay Aff. 6 Her explanation for how the
+                                                                  5F
+
+
+
+
+fabricated citations ended up in her briefs is discussed in section III.A below. We note here only
+
+
+
+
+6
+  Lindsay filed two versions of her memorandum of law and affidavit in response to the Court’s
+first OSC. See Memorandum in Response to the Court’s Order to Show Cause, filed Aug. 9,
+2025 (Docket # 148); Affidavit of Tricia S. Lindsay, filed Aug. 9, 2025 (Docket # 148-1); Resp.;
+Lindsay Aff. Because we discern no difference between the two versions, we refer only to the
+later-filed version.
+                                                4
+   Case 1:24-cv-08705-JLR-GWG             Document 192         Filed 04/29/26     Page 5 of 20
+
+
+
+
+that her response in most instances failed to satisfy the Court’s requirement that she “specify the
+
+manner in which the [incorrect] citation was inaccurate.” To give but a single example among
+
+many: for the “Cornhill LLC” case, Lindsay states, “Case number exists; incorrect case name.”
+
+Resp. (appendix entitled “List #2: Inaccurate Case Citations”). This statement fails to recognize
+
+that the case located at the “Case number” (presumably referring to the case whose citation is
+
+“183 A.D.3d 649”) has nothing to do with service of process. Lindsay repeats this same
+
+meaningless phrase — “Case number exists; incorrect case name” — to purportedly explain
+
+multiple fabricated citations. See id.
+
+       After Lindsay filed her response, Hirshowitz filed papers in support of sanctioning
+
+Lindsay under Fed. R. Civ. P. 11 and seeking attorneys’ fees and costs from plaintiff. See
+
+Memorandum of Law in Reply and Support of Order to Show Cause, filed Aug. 14, 2025
+
+(Docket # 153); Affirmation in Reply and in Support of Sanctions Against Plaintiff’s Counsel,
+
+filed Aug. 14, 2025 (Docket # 152). Lindsay filed a reply. See Attorney Lindsay’s Reply to
+
+Defendant Hirshowitz’s Response to the Court’s Order to Show Cause, filed Aug. 19, 2025
+
+(Docket # 154) (“Reply to Hirshowitz”).
+
+       The Court then issued a second OSC stating that it would also consider whether Lindsay
+
+should be sanctioned pursuant to Rule 11 and affording Lindsay another opportunity to respond.
+
+See 2d OSC. Lindsay filed a response. See Supp. Resp. Hirshowitz filed two documents
+
+reiterating her support for sanctioning Lindsay under Rule 11 and requesting attorneys’ fees and
+
+costs. See Memorandum of Law in Reply and Support of Order Regarding Sanctioning of
+
+Plaintiff’s Counsel Pursuant to Rule 11, filed Sept. 26, 2025 (Docket # 162); Letter from Jacob
+
+B. Sher, filed Jan. 15, 2026 (Docket # 191) (“Sher Letter”).
+
+
+
+                                                 5
+   Case 1:24-cv-08705-JLR-GWG                 Document 192        Filed 04/29/26       Page 6 of 20
+
+
+
+
+   II.       LEGAL STANDARDS
+
+         While the Court indicated that it was considering sanctions under Fed. R. Civ. P. 16(f),
+
+we believe that the conduct at issue here is potentially governed only by Fed. R. Civ. P. 11, 28
+
+U.S.C. § 1927, and the Court’s inherent power, since the submission of the fabricated citations
+
+did not violate a court order.
+
+         Rule 11 provides in relevant part:
+
+         By presenting to the court a pleading, written motion, or other paper — whether by
+         signing, filing, submitting, or later advocating it — an attorney . . . certifies that to
+         the best of the person’s knowledge, information, and belief, formed after an inquiry
+         reasonable under the circumstances:
+                 (1) it is not being presented for any improper purpose, such as to harass,
+                 cause unnecessary delay, or needlessly increase the cost of litigation;
+                 (2) the claims, defenses, and other legal contentions are warranted by
+                 existing law or by a nonfrivolous argument for extending, modifying, or
+                 reversing existing law or for establishing new law . . . .
+
+Fed. R. Civ. P. 11(b). This rule “imposes a duty on attorneys to certify that they have conducted
+
+a reasonable inquiry and have determined that any papers filed with the court are well grounded
+
+in fact, [and] legally tenable.” Park v. Kim, 91 F.4th 610, 614 (2d Cir. 2024) (quoting Cooter &
+
+Gell v. Hartmarx Corp., 496 U.S. 384, 393 (1990)) (alteration in original). “At the very least,” it
+
+“require[s] that attorneys read, and thereby confirm the existence and validity of, the legal
+
+authorities on which they rely,” as there is “no other way to ensure that the arguments made
+
+based on those authorities are ‘warranted by existing law,’ . . . or otherwise ‘legally tenable.’” Id.
+
+at 615 (first quoting Fed. R. Civ. P. 11(b)(2); then quoting Cooter & Gell, 466 U.S. at 393).
+
+When an attorney “rel[ies] on non-existent authority,” she “reveals” that she “made no inquiry,
+
+much less the reasonable inquiry required by Rule 11.” Id.
+
+         A court is authorized to impose “an appropriate sanction on any attorney” if she violates
+
+Rule 11 “after notice and a reasonable opportunity to respond.” Fed. R. Civ. P. 11(c)(1). Any
+
+                                                    6
+   Case 1:24-cv-08705-JLR-GWG             Document 192        Filed 04/29/26      Page 7 of 20
+
+
+
+
+sanction “must be limited to what suffices to deter repetition of the conduct or comparable
+
+conduct by others similarly situated.” Fed. R. Civ. P. 11(c)(4). While “Rule 11 contemplates that
+
+ordinarily opposing counsel will initiate sanctions proceedings,” it “gives the court the power to
+
+initiate sanctions proceedings sua sponte . . . without providing opportunity to withdraw the
+
+misstatement.” Muhammad v. Walmart Stores E., L.P., 732 F.3d 104, 108 (2d Cir. 2013)
+
+(citation and internal quotation marks omitted); see Fed. R. Civ. P. 11(c)(3). However, the court
+
+should only impose a sanction sua sponte “upon a finding of subjective bad faith.” Id. (citation
+
+omitted); accord Mata v. Avianca, Inc., 678 F. Supp. 3d 443, 462 (S.D.N.Y. 2023); Benjamin v.
+
+Costco Wholesale Corp., 779 F. Supp. 3d 341, 347 (E.D.N.Y. 2025). “[C]ourts in this [C]ircuit
+
+have repeatedly found that presenting AI-generated hallucinations as valid caselaw constitutes
+
+subjective bad faith.” Braica v. Frankowski, 2025 WL 3644231, at *4 (D. Conn. Dec. 25, 2025)
+
+(collecting cases).
+
+       Under 28 U.S.C. § 1927, a court is also empowered require an attorney “who so
+
+multiplies the proceedings in any case unreasonably and vexatiously . . . to satisfy personally the
+
+excess costs, expenses, and attorneys’ fees reasonably incurred because of such conduct.”
+
+Further, the court possesses the inherent power to sanction an attorney “for conduct which abuses
+
+the judicial process.” Chambers v. NASCO, Inc., 501 U.S. 32, 44-45 (1991). The imposition of
+
+sanctions under 28 U.S.C. § 1927 or the court’s inherent power generally “requires a finding of
+
+bad faith.” Rossbach v. Montefiore Med. Ctr., 81 F.4th 124, 143 (2d Cir. 2023) (citations
+
+omitted). Additionally, to impose sanctions under the court’s inherent power, the court must find
+
+that “the challenged claim was without a colorable basis.” Enmon v. Prospect Cap. Corp., 675
+
+F.3d 138, 143 (2d Cir. 2012) (citation and internal quotation marks omitted). A finding of bad
+
+faith in this context requires “clear and convincing evidence” that an attorney’s conduct was
+
+                                                 7
+   Case 1:24-cv-08705-JLR-GWG              Document 192        Filed 04/29/26       Page 8 of 20
+
+
+
+
+“motivated by improper purposes such as harassment or delay.” Lee v. Hong, 2025 WL
+
+3637495, at *1 (2d Cir. Dec. 16, 2025) (quoting Liebowitz v. Bandshell Artist Mgmt., 6 F.4th
+
+267, 286 n.22 (2d Cir. 2021); and Enmon, 675 F.3d at 143). However, a finding of bad faith is
+
+not required if “the attorney ‘negligently or recklessly failed to perform [her] responsibilities as
+
+an officer of the court,’” although in this scenario, attorneys’ fees may not be awarded.
+
+Rossbach, 81 F.4th at 143 (quoting Wilder v. GL Bus Lines, 258 F.3d 126, 130 (2d Cir. 2001)).
+
+The responsibilities of an officer of the court include “making accurate representations to a
+
+court,” because breach of “an attorney’s core duty of accuracy in its representations both causes
+
+tangible harm to the other parties and undermines the integrity of the judicial process.” Safeco
+
+Ins. Co. of Am. v. M.E.S., Inc., 2014 WL 12833779, at *4 (E.D.N.Y. Mar. 25, 2014) (quoting
+
+Nunez v. Bistro N.Y. Dev. Inc., 2013 WL 5495550, at *4 (S.D.N.Y. Oct. 3, 2013)).
+
+   III.      DISCUSSION
+
+          Because, as described below, Lindsay’s misconduct can be “adequately sanctioned” under
+
+Fed. R. Civ. P. 11, we see no need to impose sanctions under the Court’s inherent power.
+
+Chambers, 501 U.S. at 50. As for 28 U.S.C. § 1927, for reasons also described below, we do not
+
+find that an award of attorneys’ fees is appropriate here. Accordingly, we confine our discussion
+
+to sanctions under Rule 11(c)(3).
+
+          A. Lindsay Violated Rule 11
+
+          In presenting the memoranda of law at issue to the Court, Lindsay failed to make the
+
+reasonable inquiry required by Rule 11. As the Second Circuit has held, when an attorney
+
+“rel[ies] on non-existent authority,” she “reveals” that she “made no inquiry, much less the
+
+reasonable inquiry required by Rule 11.” Park, 91 F.4th at 615. That is precisely what happened
+
+here. Lindsay does not dispute that the memoranda of law rely on false or fabricated citations,
+
+                                                  8
+   Case 1:24-cv-08705-JLR-GWG             Document 192         Filed 04/29/26      Page 9 of 20
+
+
+
+
+see Resp. at 1, which are tantamount to non-existent authority.
+
+       Lindsay’s response to being alerted to the fabricated citations did not follow the typical
+
+pattern in cases where courts have called upon attorneys to explain the presence of fabricated
+
+citations in their papers. The Court’s first OSC specifically ordered Lindsay to provide “a
+
+complete and detailed description of the process of the drafting of the two memoranda of law.”
+
+1st OSC at 2. While most attorneys provide such an explanation, which often involves an
+
+admission of reliance on artificial intelligence (“AI”) platforms, Lindsay’s brief sworn statement
+
+in response offers only airy generalities and conclusory statements. Her response contains no
+
+coherent explanation for how the two memoranda of law came to contain the fabricated citations.
+
+The most basic questions — most obviously: what was the source of the fabricated citations? —
+
+are never answered.
+
+       Thus, Lindsay states merely that she “follow[s] a structured and diligent process designed
+
+to ensure accuracy, thoroughness, and compliance with all applicable legal and ethical
+
+standards.” Aff. ¶ 2. Bizarrely, she then discusses her “typical” process for drafting briefs
+
+without specifically attesting that this was the actual process she followed in drafting the
+
+memoranda of law at issue in this case. Id. The clear implication of her statement, however, is
+
+that her “typical” process was followed in this case; otherwise, there would be no reason to
+
+mention it. Lindsay states that she “manually cross-check[s] case names, docket numbers, and
+
+reporter citations against the primary sources in legal databases” and verifies that “the authorities
+
+cited support the propositions for which they are referenced.” Id. Lindsay’s contention that
+
+these actions occurred in this case are obviously false, however, because a “manual[]” check of
+
+any of the fabricated citations would have instantly shown that each citation was fake or
+
+inaccurate. Thus, while Lindsay’s response acknowledges that eleven citations are inaccurate,
+
+                                                  9
+  Case 1:24-cv-08705-JLR-GWG              Document 192        Filed 04/29/26      Page 10 of 20
+
+
+
+
+she provides no explanation of how these citations came to be included in the memoranda of law.
+
+See Resp. at 14.
+
+       At one point, Lindsay states that citations to “nonexistent cases” resulted from
+
+“typographical errors, misreading of secondary sources, or limitations in the search functionality
+
+of legal databases.” Id. ¶ 5. In addition to being conclusory, this explanation makes no sense
+
+inasmuch as Lindsay never shows how “typographical errors, misreading of secondary sources,
+
+or limitations in the search functionality of legal databases” produced the “nonexistent cases”
+
+cited to in the memoranda of law. And, in any event, no explanation is made of how Lindsay’s
+
+“manual[]” check did not reveal the nonexistent cases.
+
+       At another point, Lindsay emphasizes that she relied on “established legal research
+
+platforms.” Id. ¶ 3. But that obviously did not occur here, as there is no evidence that any
+
+“established” legal research platform generates or contains fabricated citations, or that an
+
+“established” legal research platform somehow supplied the fabricated citations in the
+
+memoranda of law. Tellingly, in her initial response, Lindsay never even named what “legal
+
+research platforms” she used to draft the memoranda of law and thus never specified which one
+
+supplied her with the fabricated citations.
+
+       In light of the complete lack of evidence to support the claim that any “established” legal
+
+research platform could have supplied these citations, we reject this contention. As a result, there
+
+remain only two plausible explanations for the source of the fabricated citations in Lindsay’s
+
+memoranda of law: a person who deliberately created them knowing they were fabricated or an
+
+AI system. Lindsay never claims that she had the assistance of any person in drafting the
+
+memoranda of law. To the contrary, her declaration states:
+
+       I am solely responsible for the research, drafting, and review of the memoranda at
+
+                                                 10
+    Case 1:24-cv-08705-JLR-GWG               Document 192      Filed 04/29/26       Page 11 of 20
+
+
+
+
+       issue. While I utilize legal research databases and citation management tools to
+       assist in my work, I do not delegate these core responsibilities to others. No other
+       individual or computer system played a substantive role in the drafting process
+       beyond the use of standard legal research and word processing software.
+
+Id. ¶ 7 (emphasis added). Denying she had any human help, Lindsay thus asks that Court to
+
+accept a proposition that is utterly devoid of evidence: that an “established” legal research
+
+platform created the fabricated citations.
+
+       In her response to Hirshowitz’s filing, Lindsay for the first time states that she “routinely
+
+utilizes Lexis Nexis[’s] . . . AI-driven features,” and then states that the fabricated citations “may
+
+very well have been generated by the Lexis Nexis software during the research phase.” Reply to
+
+Hirshowitz at 8-9. The response, however, is devoid of any specifics as to what Lexis Nexis’s
+
+“AI-driven features” she used, how they actually supplied any of the false citations, or any
+
+examples where Lexis Nexis’s “AI-driven features” have supplied fabricated citations. 7    6F
+
+
+
+
+       We thus find that Lindsay used an AI program that generated the fabricated citations in
+
+the memoranda of law and that Lindsay failed to check that these citations were genuine.
+
+       On the legal question of the applicability of Rule 11, Lindsay questions whether the
+
+memoranda of law “violated one of the four subsections of Rule 11(b).” Supp. Resp. at 4. She
+
+contends that her briefs “were objectively not ‘presented for an improper purpose,’ as they were
+
+in response to a motion” (actually, motions), see id. (quoting Fed. R. Civ. P. 11(b)(1)), and that
+
+“the ‘claims, defenses, and other legal contentions’ contained within the memoranda, when taken
+
+
+
+
+7
+  In her response to the Court’s second OSC addressing the applicability of Rule 11, Lindsay
+continued her failure to describe how the fabricated citations ended up in her brief. Instead, she
+stated that “the citation errors at issue were not the result of any intent to mislead the Court or
+opposing counsel” but rather “were isolated and inadvertent mistakes that occurred despite good
+faith efforts to ensure accuracy.” Supp. Resp. at 3. She also states that she “reli[ed] on
+technology that is not immune to error” without specifying that technology. Id. at 4.
+                                                   11
+  Case 1:24-cv-08705-JLR-GWG              Document 192        Filed 04/29/26      Page 12 of 20
+
+
+
+
+as a whole, are supported by existing law, despite the incorrect citations,” id. (quoting Fed. R.
+
+Civ. P. 11(b)(2)).
+
+        Case law has considered such arguments and rejected them. Because Lindsay clearly
+
+“made no attempts to check” her citations (or at least no reasonable attempts), her use of
+
+“misleading hallucinations to advance [her client’s] case” amounted to making “misleading
+
+representation[s]” to this Court “for an improper purpose” in violation of Rule 11(b)(1). Braica,
+
+2025 WL 3644231, at *6 (quoting Rankin v. City of Niagara Falls, 293 F.R.D. 375, 387
+
+(W.D.N.Y. 2013)). And Rule 11(b)(2) bars a filing unless the “legal contentions” made in the
+
+filing are “warranted by existing law.” Fed. R. Civ. P. 11(b)(2). As the Second Circuit has noted,
+
+“[a] fake opinion is not ‘existing law.’” Park, 91 F.4th at 615 (quoting Mata, 678 F. Supp. 3d at
+
+461). Contrary to Lindsay’s assertion, the standard under Rule 11 is not whether the contents of
+
+a filing are supported by existing law “when taken as a whole.” Supp. Resp. at 4.
+
+        More to the point, Lindsay’s argument misapprehends what Rule 11 required. Rule 11
+
+required Lindsay to certify “to the best of [her] knowledge, information, and belief, formed after
+
+an inquiry reasonable under the circumstances,” that, inter alia, the memoranda of law were “not
+
+being presented for any improper purpose” and that “the claims, defenses, and other legal
+
+contentions” therein were “warranted by existing law or by a nonfrivolous argument for
+
+extending, modifying, or reversing existing law or for establishing new law.” Fed. R. Civ. P.
+
+11(b) (emphasis added), 11(b)(1), 11(b)(2). By presenting the memoranda of law to the Court,
+
+Lindsay certified that she made “an inquiry reasonable under the circumstances.” Fed. R. Civ. P.
+
+11(b). But, as we have found, Lindsay in fact “made no inquiry” into the validity of the
+
+fabricated citations “much less the reasonable inquiry required by Rule 11.” Park, 91 F.4th at
+
+615. As the Second Circuit has noted, “[a]t the very least, the duties imposed by Rule 11 require
+
+                                                 12
+  Case 1:24-cv-08705-JLR-GWG               Document 192         Filed 04/29/26       Page 13 of 20
+
+
+
+
+that attorneys read, and thereby confirm the existence and validity of, the legal authorities on
+
+which they rely.” Id.; see also Benjamin, 779 F. Supp. 3d at 348 (“Confirming a case is good law
+
+is a basic, routine matter and something to be expected from a practicing attorney”) (quoting Mid
+
+Cent. Operating Eng’rs Health & Welfare Fund v. Hoosiervac LLC, 2025 WL 574234, at *2-3
+
+(S.D. Ind. Feb. 21, 2025)). Had Lindsay actually read the cases she cited to in the memoranda of
+
+law — or attempted to look them up in order to read them — she would have discovered many
+
+did not exist or did not in any way relate to or support the propositions she claimed they stood
+
+for.
+
+        Lindsay implicitly admits that she was required to check all citations inasmuch as she
+
+represents that it is her practice “[p]rior to filing” to “undertake[] a review of her draft
+
+memoranda, focusing on both substantive content and citation integrity.” Resp. at 5. “This
+
+review may include . . . [r]e-examining cited authorities to confirm their applicability.” Id. That
+
+obviously did not occur here, and her acknowledgement that such a review is required further
+
+supports the imposition of Rule 11 sanctions.
+
+        B. Lindsay Acted in Bad Faith
+
+        As noted, any sua sponte sanction under Rule 11 requires a finding that Lindsay acted in
+
+bad faith. Muhammad, 732 F.3d at 108. Where an attorney submits fabricated citations, we can
+
+think of only two explanations for how they were generated: by a human or by an AI program.
+
+As already noted, Lindsay does not claim that any other person generated the fabricated citations.
+
+We thus have concluded that they were generated as a result of the use of some kind of AI
+
+program (though we do not credit that it was any such program supplied by Lexis Nexis, as
+
+Lindsay at one point hints). “[C]ourts in this [C]ircuit have repeatedly found that presenting AI-
+
+generated hallucinations as valid caselaw constitutes subjective bad faith.” Braica, 2025 WL
+
+                                                  13
+  Case 1:24-cv-08705-JLR-GWG             Document 192          Filed 04/29/26     Page 14 of 20
+
+
+
+
+3644231, at *4.
+
+       Lindsay’s bad faith is also reflected in the fact that she failed to provide the “complete
+
+and detailed description of the process of the drafting of the two memoranda of law” and
+
+“detailed and complete description of the role of any individual or computer system that was
+
+involved in the drafting process” required by the Court. 1st OSC at 2. Her obfuscation reflects a
+
+complete lack of acceptance of responsibility, notwithstanding her assertion that she “deeply
+
+regret[s] the errors that occurred” and her claim to have “taken all reasonable steps to address
+
+and correct them.” Lindsay Aff. ¶ 9. Moreover, her other representations to the Court
+
+consistently minimize her actions. See Resp. at 9 (“Citation errors, while regrettable, are not
+
+uncommon in complex litigation.”); Lindsay Aff. ¶ 6 (“These errors . . . reflect the inherent
+
+challenges of legal research and citation in complex litigation, particularly when working under
+
+time constraints and with voluminous records.”); Supp. Resp. at 4 (“The citation errors
+
+acknowledged by Ms. Lindsay were the result of an innocent oversight in the review process,
+
+compounded by reliance on technology that is not immune to error.”). Even if Lindsay had
+
+meaningfully apologized or accepted responsibility for her conduct, “regret and apologies are not
+
+necessarily enough to avoid the imposition of sanctions for the submission of non-existent legal
+
+authority.” Benjamin, 779 F.Supp.3d at 350 (citing Dehghani v. Castro, 2025 WL 988009, at *5
+
+(D.N.M. Apr. 2, 2025)); accord Kaur v. Desso, 2025 WL 1895859, at *3 (N.D.N.Y. July 9, 2025).
+
+Here of course we have no real acceptance of responsibility.
+
+       The Court is aware of two cases in this Circuit where courts have found that an attorney’s
+
+presentation of fabricated citations did not amount to subjective bad faith. Both are readily
+
+distinguishable, however.
+
+       In United States v. Cohen, 724 F. Supp. 3d 251 (S.D.N.Y. 2024), the court determined
+
+                                                14
+  Case 1:24-cv-08705-JLR-GWG              Document 192         Filed 04/29/26      Page 15 of 20
+
+
+
+
+that an attorney who cited to fake cases did not act in bad faith because: (1) the citations were
+
+supplied by his client, also a lawyer (albeit, a disbarred one); (2) the attorney “understandably”
+
+believed the citations had been provided to his client by another lawyer (in fact, his client used
+
+AI to generate them); and (3) the attorney apologized and accepted responsibility. See id. at 258-
+
+59. In other words, the attorney, unlike Lindsay, had at least some reason to believe the citations
+
+had been vetted by a lawyer.
+
+       In Hall v. Acad. Charter Sch., 2025 WL 2256653 (E.D.N.Y. Aug. 7, 2025), the court held
+
+that an attorney who cited to fake cases did not act in bad faith because: (1) the citations were
+
+supplied by her clerk; (2) the attorney failed to check the clerk’s work due to “the sudden,
+
+unexpected death of her spouse”; and (3) the attorney apologized, accepted responsibility, and
+
+stated “her intentions on seeking medical and mental treatment.” See Hall, 2025 WL 2256653, at
+
+*5. Hall differs from this case because the attorney in Hall fully described the circumstances that
+
+led to the false citations being submitted. See id. She also relied on a “clerk” who presumably
+
+had been trained in the law. Here, by contrast, Lindsay has not been forthright in explaining
+
+what occurred here, there are no unusual personal circumstances, and there is no evidence that
+
+she obtained the citations from a reliable source.
+
+       Lindsay’s bad faith is further reflected in the fact that she filed papers with false citations
+
+on two occasions after the Court issued the OSCs.
+
+       First, two months after the first OSC, she filed a brief in the United States Court of
+
+Appeals for the Second Circuit that contained two fabricated citations. We know this because
+
+the Second Circuit in Ioio v. City of New York, 2026 WL 731089 (2d Cir. Mar. 16, 2026), issued
+
+a decision that contains the following concluding paragraph:
+
+
+
+                                                 15
+  Case 1:24-cv-08705-JLR-GWG             Document 192         Filed 04/29/26      Page 16 of 20
+
+
+
+
+       There is evidence . . . that Appellants’ counsel used false citations in their opening
+       brief to this Court and purported to represent as a plaintiff in this action someone
+       who expressly asked not to be involved. We therefore REFER Attorneys Jo Saint-
+       George and Tricia S. Lindsay to the Court’s Grievance Panel pursuant to Local Rule
+       46.2 for further investigation, and for consideration of a referral to the Committee
+       on Admissions and Grievances. See 2d Cir. R. 46.2.
+
+Id. at *4 (footnotes omitted). The referenced brief was filed on September 12, 2025. See id. at
+
+*3 n.6. The Court has obtained the brief from the public docket and examined the citations
+
+flagged by the Second Circuit. See id. at *4 n.7. We can find no evidence that the cited cases
+
+exist at the reporters given or stand for what Lindsay and her co-counsel claimed they do.
+
+       Second, in October 2025, Lindsay filed objections to a Report and Recommendation
+
+issued by the undersigned that addressed the motions to dismiss filed by defendants. See
+
+Objection, filed Oct, 14, 2025 (Docket # 164). In a brief filed in opposition to the objection,
+
+Hirshowitz’s counsel pointed out that Lindsay’s objection contained eight false, fake, or
+
+“hallucinated” citations. See Response to Plaintiff’s Objections, filed Oct. 27, 2025 (Docket
+
+# 167). These suspect citations were described at length and in detail. See id. at 7-11. In
+
+response, Lindsay stated that she was withdrawing the “specific . . . citations contained within
+
+[the objection] that defense counsel has claimed violate Rule 11” while at the same time
+
+asserting that she was doing so “without admission of liability.” Letter from Tricia S. Lindsay,
+
+dated Nov. 12, 2025 (Docket # 172). In other words, Lindsay again failed to own up to her
+
+errors or give any explanation of how they occurred. We have examined the eight citations in
+
+Lindsay’s original objection identified by Hirshowitz’s counsel and concur that they are in some
+
+cases completely fabricated.
+
+       Lindsay’s repetition of the same mistake makes it impossible to credit her contention that
+
+the erroneous citations do not “reflect a pattern of disregard for professional obligations” and
+
+
+                                                16
+  Case 1:24-cv-08705-JLR-GWG              Document 192       Filed 04/29/26      Page 17 of 20
+
+
+
+
+“were isolated and inadvertent mistakes that occurred despite good faith efforts to ensure
+
+accuracy.” Supp. Resp. at 3. Lindsay represented that she “has taken steps to further strengthen
+
+her review protocols to ensure accuracy going forward.” Id. at 4. These unspecified efforts have
+
+turned out to be completely inadequate.
+
+       Lindsay insists that there is “no ‘clear and convincing evidence’ that [her] conduct as
+
+alleged in the order to show cause ‘was undertaken with subjective bad-faith.’” Id. at 5.
+
+Accepting arguendo that “clear and convincing evidence” is the standard of proof where sua
+
+sponte sanctions are imposed under Rule 11(c)(3), see Rankin, 293 F.R.D. at 387, there is clear
+
+and convincing evidence of Lindsay’s bad faith here, as evidenced in her own responses to the
+
+Court’s OSCs for the reasons already stated.
+
+       C. Appropriate Sanction
+
+       When it comes to imposing sanctions, there are unfortunately hundreds of cases similar to
+
+this one in the United States that may serve as precedent. See Damien Charlotin, AI
+
+HALLUCINATION CASES, https://www.damiencharlotin.com/hallucinations/ (last accessed Apr. 28,
+
+2026) (identifying 916 proceedings in U.S. courts to date involving citations to non-existent
+
+cases likely “hallucinated” by AI, including 342 where lawyers supplied the offending citations);
+
+accord Benjamin, 779 F. Supp. 3d at 343 (availability of AI tools has unleashed an “epidemic of
+
+. . . fake cases” in legal submissions). The sanctions imposed in these cases range from
+
+admonishment to entry of a default judgment, see Flycatcher Corp. Ltd. v. Affable Ave. LLC,
+
+2026 WL 306683, at *1 (S.D.N.Y. Feb. 5, 2026).
+
+       Rule 11 itself indicates that a court must impose “appropriate” sanctions and that
+
+sanctions “must be limited to what suffices to deter repetition of the conduct or comparable
+
+conduct by others similarly situated.” Fed. R. Civ. P. 11(c)(1), 11(c)(4). A court must also
+
+                                                17
+    Case 1:24-cv-08705-JLR-GWG            Document 192         Filed 04/29/26      Page 18 of 20
+
+
+
+
+impose Rule 11 sanctions “with restraint,” Schlaifer Nance & Co. v. Est. of Warhol, 194 F.3d
+
+323, 334 (2d Cir. 1999)), in light of the fact that it may be acting “as accuser, fact finder and
+
+sentencing judge,” Mackler Prods., Inc. v. Cohen, 146 F.3d 126, 128 (2d Cir. 1998).
+
+       Considering our finding of clear and convincing evidence of bad faith, we are constrained
+
+to conclude that a sanction must be imposed to deter Lindsay in the future and to deter other
+
+practitioners. As to attorneys who “submitted fake cases,” one case has noted that “courts have
+
+imposed financial sanctions on similarly situated attorneys ranging from approximately $1,500 to
+
+$5,000.” Benjamin, 779 F. Supp. 3d at 351. A more recent survey of case law finds that
+
+sanctions of “$1,000 to $10,000 are routinely imposed” where attorneys have submitted
+
+fabricated citations. Lifetime Well LLC v. IBSpot.com Inc., 2026 WL 195644, at *5 (E.D. Pa.
+
+Jan. 26, 2026); see also Mid Cent. Operating Eng’rs Health & Welfare Fund, 2025 WL 1511211,
+
+at *1-2 (S.D. Ind. May 28, 2025) ($6,000 fine for citing fabricated cases in three briefs). 8
+                                                                                            7F
+
+
+
+
+       In one recent case, DOC App, Inc. v. Leafwell, Inc., 2025 WL 3288251 (M.D. Fla. Nov.
+
+26, 2025), the court ordered an attorney who did not meaningfully take responsibility for citing
+
+to non-existent cases to pay attorneys’ fees associated with the cost of responding to his papers
+
+featuring the erroneous citations, among other sanctions. Id. at *5. Here, we have considered
+
+whether it would be appropriate to order Lindsay to pay Hirshowitz’s fees in relation to the
+
+relevant motion to dismiss, as Hirshowitz has requested. See Sher Letter. We are not inclined to
+
+
+
+
+8
+  Other sanctions imposed on attorneys include: “striking the filing containing the fictitious
+citations”; requiring “written notification to the client” and/or to “the judges incorrectly
+identified as having authored the fictitious cases cited”; dismissing the complaint or the appeal;
+and “initiat[ing] disciplinary procedures by referring attorneys to the relevant disciplinary body.”
+United States v. Hayes, 763 F. Supp. 3d 1054, 1071-72 (E.D. Cal. 2025) (collecting cases),
+reconsideration denied, 2025 WL 1067323 (E.D. Cal. Apr. 9, 2025).
+
+                                                  18
+  Case 1:24-cv-08705-JLR-GWG              Document 192         Filed 04/29/26      Page 19 of 20
+
+
+
+
+do so, however, because there is no indication that Hirshowitz’s attorney expended any particular
+
+amount of hours to address the fabricated citations in the memoranda of law. It was the attorney
+
+for Zugibe and Eisenpress, not the attorney for Hirshowitz, who alerted the Court to the
+
+existence of the fabricated citations. See Eisenpress-Zugibe Reply at 5-6. Hirshowitz’s reply
+
+papers did not even note the existence of these cases. See Memorandum of Law in Reply and
+
+Further Support of Motion to Dismiss for Insufficient Service of Process, filed June 27, 2025
+
+(Docket # 129). While Hirshowitz addressed Lindsay’s errors in filings after the Court issued the
+
+OSCs, the OSCs did not require Hirshowitz to weigh in. The Court appreciates Hirshowitz’s
+
+efforts at elucidating the law on sanctions, but we do not believe that those efforts entitle her to
+
+fees for what amounted to a voluntary effort to educate the Court. Because there is no
+
+information in the record as to whether Hirshowitz was required to make any significant effort to
+
+track down the fabricated citations in relation to the motion to dismiss, we do not find that an
+
+award of attorneys’ fees is warranted.
+
+       Deterrence is paramount here, given Lindsay’s obdurate refusal to explain how the
+
+citations came to be included in her briefs. We believe that a fine of $2,500 will serve as an
+
+appropriate deterrent, along with a requirement that she supply to her client a copy of this
+
+Opinion and Order. Additionally, it is important that other courts be aware of Linsday’s repeated
+
+misconduct, which calls into question filings she has made. Thus, the Court directs that Lindsay
+
+supply a copy of this Opinion and Order to the presiding judge in each pending case where she
+
+appears as attorney of record by means of a letter filed on the docket and served on opposing
+
+counsel.
+
+
+
+
+                                                 19
+  Case 1:24-cv-08705-JLR-GWG              Document 192        Filed 04/29/26       Page 20 of 20
+
+
+
+
+         CONCLUSION
+
+         Tricia S. Lindsay is sanctioned pursuant to Rule 11 of the Federal Rules of Civil
+
+Procedure in the amount of $2,500.00. On or before May 14, 2026, Lindsay shall pay this sum
+
+by check (payable to “Clerk, S.D.N.Y.”) and delivered to the Cashier’s Office.
+
+         Lindsay shall also by May 14, 2026, supply to her client a copy of this Opinion and
+
+Order.
+
+         Lindsay shall also by May 14, 2026, alert the judge in each pending case where she
+
+appears as attorney of record of the existence of this Opinion and Order by means of a letter filed
+
+on the docket and served on opposing counsel.
+
+         Finally, Lindsay shall file a sworn statement by May 14, 2026, describing what she did to
+
+comply with this Order.
+
+         If Lindsay files timely objections to this Opinion and Order under Fed. R. Civ. P. 72, the
+
+deadlines in the above paragraph will be automatically extended to 7 days following the
+
+disposition of those objections in the event this Opinion and Order is affirmed.
+
+Dated: April 29, 2026
+         New York, New York
+
+
+
+
+                                                 20
+

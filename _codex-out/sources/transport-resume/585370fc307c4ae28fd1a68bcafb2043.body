@@ -1,0 +1,283 @@
+# Bot rules:
+# 1. A bot may not injure a human being or, through inaction, allow a human being to come to harm.
+# 2. A bot must obey orders given it by human beings except where such orders would conflict with the First Law.
+# 3. A bot must protect its own existence as long as such protection does not conflict with the First or Second Law.
+
+# If you can read this then you should apply here https://www.bloombergindustry.com/careers/
+
+User-agent: *
+Disallow: /search
+
+User-agent: Twitterbot
+Allow: /
+
+# AI/LLM Bots
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+# Development Tools
+User-agent: Python-urllib
+Disallow: /
+
+User-agent: python-requests
+Disallow: /
+
+User-agent: Python-http-client
+Disallow: /
+
+# Google Services
+User-agent: Google-Apps
+Disallow: /
+
+User-agent: Google-Apps-Script
+Disallow: /
+
+User-agent: AppEngine-Google
+Disallow: /
+
+User-agent: Google-Cloud
+Disallow: /
+
+User-agent: Google-CloudVertexBot
+Disallow: /
+
+# Major Company Bots
+User-agent: AmazonBot
+Disallow: /
+
+User-agent: AmazonAdBot
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: ByteSpider
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+# Analytics & Marketing
+User-agent: comscore
+Disallow: /
+
+User-agent: Comscore
+Disallow: /
+
+User-agent: HubSpot
+Disallow: /
+
+User-agent: hubspot
+Disallow: /
+
+User-agent: Criteo
+Disallow: /
+
+User-agent: criteo-bot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: WazzupCrawler
+Disallow: /
+
+User-agent: Peer39_Crawler
+Disallow: /
+
+User-agent: rogerbot
+Disallow: /
+
+User-agent: linkdexbot
+Disallow: /
+
+User-agent: NTENT
+Disallow: /
+
+User-agent: AndersPinkBot
+Disallow: /
+
+User-agent: IndeedBot
+Disallow: /
+
+# Search Engine Bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: Petalbot
+Disallow: /
+
+User-agent: YisouSpider
+Disallow: /
+
+User-agent: 360Spider
+Disallow: /
+
+User-agent: Qwantify
+Disallow: /
+
+User-agent: ToutiaoSpider
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: YandexImages
+Disallow: /
+
+User-agent: YandexMobileBot
+Disallow: /
+
+User-agent: YandexAccessibilityBot
+Disallow: /
+
+# Monitoring & Security
+User-agent: Screaming Frog SEO Spider
+Disallow: /
+
+User-agent: PRTG
+Disallow: /
+
+User-agent: FreshpingBot
+Disallow: /
+
+User-agent: Panopta
+Disallow: /
+
+User-agent: DatadogSynthetics
+Disallow: /
+
+User-agent: Rackspace
+Disallow: /
+
+User-agent: censys
+Disallow: /
+
+User-agent: burp
+Disallow: /
+
+User-agent: Burp
+Disallow: /
+
+User-agent: check_http
+Disallow: /
+
+User-agent: DotcomMonitor
+Disallow: /
+
+User-agent: WatchSumo
+Disallow: /
+
+User-agent: WormlyBot
+Disallow: /
+
+User-agent: CalibreBot
+Disallow: /
+
+User-agent: AudistoBot
+Disallow: /
+
+# Social & Content
+User-agent: Hatena
+Disallow: /
+
+User-agent: Hatena-Bookmark
+Disallow: /
+
+User-agent: EveryoneSocialBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Netvibes
+Disallow: /
+
+User-agent: WebCEO
+Disallow: /
+
+User-agent: Postano
+Disallow: /
+
+User-agent: RebelMouse
+Disallow: /
+
+User-agent: Muck-Rack
+Disallow: /
+
+User-agent: InstapaperViewer
+Disallow: /
+
+User-agent: Twurly
+Disallow: /
+
+User-agent: LivelapBot
+Disallow: /
+
+User-agent: DatagnionBot
+Disallow: /
+
+User-agent: Linespider
+Disallow: /
+
+User-agent: Discourse
+Disallow: /
+
+# Potentially Malicious
+User-agent: Medusa
+Disallow: /
+
+User-agent: pingback
+Disallow: /
+
+User-agent: WordPress
+Disallow: /
+
+User-agent: wp_ping
+Disallow: /
+
+User-agent: MauiBot
+Disallow: /
+
+User-agent: ltx71
+Disallow: /
+
+User-agent: WeSEE
+Disallow: /
+
+User-agent: halebot
+Disallow: /
+
+User-agent: BrightBot
+Disallow: /
+
+# Gaming/3D
+User-agent: UnityPlayer
+Disallow: /

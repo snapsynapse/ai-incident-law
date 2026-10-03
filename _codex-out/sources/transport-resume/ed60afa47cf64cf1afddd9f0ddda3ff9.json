@@ -1,0 +1,23 @@
+{
+  "id": "ed60afa47cf64cf1afddd9f0ddda3ff9",
+  "url": "https://michigan.gov/ag/news/press-releases/2022/10/20/som-settlement-of-civil-rights-class-action-alleging-false-accusations-of-unemployment-fraud",
+  "kind": "fetch",
+  "host": "michigan.gov",
+  "status": 301,
+  "headers": {
+    "server": "envoy",
+    "content-length": "0",
+    "location": "https://www.michigan.gov/ag/news/press-releases/2022/10/20/som-settlement-of-civil-rights-class-action-alleging-false-accusations-of-unemployment-fraud",
+    "date": "Sat, 03 Oct 2026 18:37:42 GMT",
+    "alt-svc": "h3=\":443\"; ma=93600",
+    "x-envoy-upstream-service-time": "16",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:42.568123+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/ed60afa47cf64cf1afddd9f0ddda3ff9.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/ed60afa47cf64cf1afddd9f0ddda3ff9.body"
+}

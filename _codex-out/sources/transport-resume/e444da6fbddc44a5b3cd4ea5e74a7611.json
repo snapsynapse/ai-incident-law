@@ -1,0 +1,32 @@
+{
+  "id": "e444da6fbddc44a5b3cd4ea5e74a7611",
+  "url": "https://regmedia.co.uk/robots.txt",
+  "kind": "robots",
+  "host": "regmedia.co.uk",
+  "status": 200,
+  "headers": {
+    "content-length": "0",
+    "server": "envoy",
+    "accept-ranges": "bytes",
+    "x-reg-bofh": "pfyweb-us-central1-0.sitpub.com",
+    "x-clacks-overhead": "GNU Terry Pratchett, Lester Haines",
+    "x-content-type-options": "nosniff",
+    "via": "1.1 google",
+    "date": "Sat, 03 Oct 2026 05:15:55 GMT",
+    "age": "48107",
+    "last-modified": "Fri, 06 Aug 2010 14:14:49 GMT",
+    "etag": "\"0-48d284a252840\"",
+    "content-type": "text/plain",
+    "cache-control": "public,max-age=3600",
+    "alt-svc": "h3=\":443\"; ma=2592000",
+    "x-envoy-upstream-service-time": "96",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:42.671057+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/e444da6fbddc44a5b3cd4ea5e74a7611.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/e444da6fbddc44a5b3cd4ea5e74a7611.body"
+}

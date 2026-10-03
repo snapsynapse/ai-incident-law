@@ -1,0 +1,15 @@
+{
+  "id": "614bbd15bd994ae0a43e9ea33acd15eb",
+  "url": "https://www.jud.ct.gov/robots.txt",
+  "kind": "robots",
+  "host": "www.jud.ct.gov",
+  "status": null,
+  "headers": {},
+  "complete": false,
+  "error": "Tunnel connection failed: 403 Forbidden",
+  "retrieved_at": "2026-10-03T18:37:38.129496+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/614bbd15bd994ae0a43e9ea33acd15eb.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/614bbd15bd994ae0a43e9ea33acd15eb.body"
+}

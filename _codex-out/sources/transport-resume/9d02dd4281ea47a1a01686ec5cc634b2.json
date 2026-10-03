@@ -1,0 +1,27 @@
+{
+  "id": "9d02dd4281ea47a1a01686ec5cc634b2",
+  "url": "https://www.aclu.org/robots.txt",
+  "kind": "robots",
+  "host": "www.aclu.org",
+  "status": 200,
+  "headers": {
+    "retry-after": "0",
+    "content-type": "text/plain; charset=UTF-8",
+    "accept-ranges": "bytes",
+    "date": "Sat, 03 Oct 2026 18:37:27 GMT",
+    "aclu-req-hosts": "www.aclu.org",
+    "permissions-policy": "interest-cohort=()",
+    "strict-transport-security": "max-age=31557600",
+    "content-length": "1370",
+    "x-envoy-upstream-service-time": "37",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:27.281669+00:00",
+  "sha256": "a4167582e46a74c556e36382e63927cb279b8913019df8f731d6c1ecdaada5d9",
+  "bytes": 1370,
+  "body_path": "/workspace/freshness-control/transport-evidence/9d02dd4281ea47a1a01686ec5cc634b2.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/9d02dd4281ea47a1a01686ec5cc634b2.body"
+}

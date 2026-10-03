@@ -1,0 +1,41 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://www.gasupreme.us/wp-content/uploads/2026/05/s26a0459.pdf",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots.txt disallows this URL for PAICELegalFreshness/1.0",
+  "attempts": [
+    {
+      "id": "e96f8fe96f114024982ac1c60e9ce512",
+      "url": "https://www.gasupreme.us/robots.txt",
+      "kind": "robots",
+      "host": "www.gasupreme.us",
+      "status": 200,
+      "headers": {
+        "date": "Sat, 03 Oct 2026 18:37:46 GMT",
+        "content-type": "text/plain",
+        "content-length": "71",
+        "vary": "Accept-Encoding",
+        "last-modified": "Tue, 10 Oct 2017 20:33:16 GMT",
+        "etag": "\"47-55b37377fbb00\"",
+        "x-cache-nxaccel": "MISS",
+        "accept-ranges": "bytes",
+        "x-frame-options": "SAMEORIGIN",
+        "x-envoy-upstream-service-time": "165",
+        "server": "envoy",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:45.975400+00:00",
+      "sha256": "2c3d50be784b56de8c6cbdc174817ab688c3b9892494616d3a414a115aa85196",
+      "bytes": 71,
+      "body_path": "/workspace/freshness-control/transport-evidence/e96f8fe96f114024982ac1c60e9ce512.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T18:37:46.744182+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://www.gasupreme.us/wp-content/uploads/2026/05/s26a0459.pdf",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/resume-20261003/a8d23fdf9359f7218f628ad4.body"
+}

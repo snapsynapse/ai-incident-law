@@ -1,0 +1,30 @@
+{
+  "id": "2f086217e05d47c7b7ccc31a2d4e4ba5",
+  "url": "https://www.lawnext.com/robots.txt",
+  "kind": "robots",
+  "host": "www.lawnext.com",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:39 GMT",
+    "server": "envoy",
+    "last-modified": "Mon, 30 Aug 2021 19:43:01 GMT",
+    "accept-ranges": "bytes",
+    "content-length": "162",
+    "cache-control": "max-age=3600, public",
+    "expires": "Sat, 03 Oct 2026 19:37:39 GMT",
+    "vary": "Accept-Encoding,Cookie",
+    "pragma": "public",
+    "x-powered-by": "jCacheOpt v0.1.1",
+    "content-type": "text/plain",
+    "x-envoy-upstream-service-time": "102",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:38.961023+00:00",
+  "sha256": "ec2796c23d11b36664a3694ef36ffd31efc683e489136cf0d65a9efdc6352624",
+  "bytes": 162,
+  "body_path": "/workspace/freshness-control/transport-evidence/2f086217e05d47c7b7ccc31a2d4e4ba5.body",
+  "cached": true,
+  "body_evidence_copy": "_codex-out/sources/transport-resume/2f086217e05d47c7b7ccc31a2d4e4ba5.body"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "8ee4938894194c3d81eeafb0494c5aaa",
+  "url": "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf",
+  "kind": "fetch",
+  "host": "foiadocuments.uspto.gov",
+  "status": 200,
+  "headers": {
+    "content-type": "application/pdf",
+    "content-length": "522263",
+    "date": "Sat, 03 Oct 2026 18:37:34 GMT",
+    "accept-ranges": "bytes",
+    "server": "envoy",
+    "last-modified": "Thu, 27 Aug 2026 17:38:37 GMT",
+    "etag": "\"7f817-65a0ace50e220\"",
+    "x-cache": "Miss from cloudfront",
+    "via": "1.1 d1edb64e41a7a1561107bd52b72c8d34.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "ORD51-P1",
+    "x-amz-cf-id": "-iaaK7hYPdzcRhDZ8vmkKT8-J3D_Bey7AdymQRxrF_KORtBAvGKaKQ==",
+    "x-envoy-upstream-service-time": "94",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:34.232562+00:00",
+  "sha256": "a7f252b12617328d2158c63f4ec0c29a22004c9356d5504daddf92928850f724",
+  "bytes": 522263,
+  "body_path": "/workspace/freshness-control/transport-evidence/8ee4938894194c3d81eeafb0494c5aaa.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/8ee4938894194c3d81eeafb0494c5aaa.body"
+}

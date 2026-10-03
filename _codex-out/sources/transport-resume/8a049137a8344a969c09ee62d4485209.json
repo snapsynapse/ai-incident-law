@@ -1,0 +1,26 @@
+{
+  "id": "8a049137a8344a969c09ee62d4485209",
+  "url": "https://reason.com/volokh/2026/09/04/incredulity-that-competent-law-firm-representing-one-of-the-largest-financial-institutions-in-the-world-filed-brief-with-ai-hallucinations/",
+  "kind": "fetch",
+  "host": "reason.com",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:45 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "server": "envoy",
+    "vary": "Accept-Encoding",
+    "link": "<https://reason.com/wp-json/wp/v2/volokh-post/8400335>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"",
+    "last-modified": "Sat, 03 Oct 2026 18:37:45 GMT",
+    "content-security-policy": "frame-ancestors 'self';",
+    "x-envoy-upstream-service-time": "725",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:44.563256+00:00",
+  "sha256": "dce7e3234cf960e1a68598cfb3876f5d6deda772dbf48a231debe144b3afac26",
+  "bytes": 163399,
+  "body_path": "/workspace/freshness-control/transport-evidence/8a049137a8344a969c09ee62d4485209.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/8a049137a8344a969c09ee62d4485209.body"
+}

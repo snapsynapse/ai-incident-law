@@ -1,0 +1,14 @@
+{
+  "id": "b08ac2fe7b0d4cda9290f3210dedaf70",
+  "url": "https://law.nyu.edu/robots.txt",
+  "kind": "robots",
+  "host": "law.nyu.edu",
+  "status": null,
+  "headers": {},
+  "complete": false,
+  "error": "Tunnel connection failed: 403 Forbidden",
+  "retrieved_at": "2026-10-03T03:03:47.741473+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/b08ac2fe7b0d4cda9290f3210dedaf70.body"
+}

@@ -1,0 +1,68 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots.txt disallows this URL for PAICELegalFreshness/1.0",
+  "attempts": [
+    {
+      "id": "e0f59e6577f7472b9a5531c7d3a8602b",
+      "url": "https://canlii.org/robots.txt",
+      "kind": "robots",
+      "host": "canlii.org",
+      "status": 301,
+      "headers": {
+        "date": "Sat, 03 Oct 2026 18:37:22 GMT",
+        "content-type": "text/html; charset=iso-8859-1",
+        "content-length": "281",
+        "location": "https://www.canlii.org/robots.txt",
+        "server": "envoy",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-datadome": "protected",
+        "accept-ch": "Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory,Sec-CH-UA-Platform-Version",
+        "set-cookie": "[REDACTED]",
+        "x-envoy-upstream-service-time": "183",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:22.304157+00:00",
+      "sha256": "b2fbd3b4912fa28441ca12c017e82cd80348d897ab6c5f825baf5d2d184f0c40",
+      "bytes": 281,
+      "body_path": "/workspace/freshness-control/transport-evidence/e0f59e6577f7472b9a5531c7d3a8602b.body"
+    },
+    {
+      "id": "1b19658f3cb1492eb155400842daa34d",
+      "url": "https://www.canlii.org/robots.txt",
+      "kind": "robots",
+      "host": "www.canlii.org",
+      "status": 200,
+      "headers": {
+        "date": "Sat, 03 Oct 2026 18:37:23 GMT",
+        "content-type": "text/plain;charset=utf-8",
+        "content-length": "50327",
+        "server": "envoy",
+        "strict-transport-security": "max-age=31536000 ; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-xss-protection": "0",
+        "vary": "Accept-Encoding",
+        "x-datadome": "protected",
+        "accept-ch": "Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory,Sec-CH-UA-Platform-Version",
+        "set-cookie": "[REDACTED]",
+        "x-envoy-upstream-service-time": "242",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:22.911316+00:00",
+      "sha256": "86137745ca9d79ddb3e41e53da66c68581394c99e9ba7a3c72d0be8d0f42d9ec",
+      "bytes": 50327,
+      "body_path": "/workspace/freshness-control/transport-evidence/1b19658f3cb1492eb155400842daa34d.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T18:37:23.647162+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/resume-20261003/329b8a31aedd5ea532324638.body"
+}

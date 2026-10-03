@@ -1,0 +1,27 @@
+{
+  "id": "8add9b5da99045eba66225f2ab731d80",
+  "url": "https://decisions.civilresolutionbc.ca/robots.txt",
+  "kind": "robots",
+  "host": "decisions.civilresolutionbc.ca",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:29 GMT",
+    "content-type": "text/plain; charset=utf-8",
+    "content-length": "217",
+    "server": "envoy",
+    "strict-transport-security": "max-age=63072000; includeSubDomains",
+    "last-modified": "Tue, 29 Sep 2026 23:12:11 GMT",
+    "etag": "\"d9-65ca74ff74dd0\"",
+    "accept-ranges": "bytes",
+    "vary": "Accept-Encoding",
+    "x-envoy-upstream-service-time": "350",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:28.410619+00:00",
+  "sha256": "4970116f70425ceefadaff4188bd911daf1ca8311758a37551104c7cc64d405c",
+  "bytes": 217,
+  "body_path": "/workspace/freshness-control/transport-evidence/8add9b5da99045eba66225f2ab731d80.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/8add9b5da99045eba66225f2ab731d80.body"
+}

@@ -1,0 +1,1482 @@
+         Case 1:25-cv-03552-JLR           Document 161      Filed 03/10/26      Page 1 of 28
+
+
+
+UNITED STATES DISTRICT COURT
+SOUTHERN DISTRICT OF NEW YORK
+
+
+    JOSEPH CARTAGENA,
+                                   Plaintiff,
+
+                       -against-                             Case No. 1:25-cv-03552 (JLR)
+
+    TERRANCE DIXON, TYRONE                                     OPINION AND ORDER
+    BLACKBURN, and T.A. BLACKBURN
+    LAW, PLLC,
+                                   Defendants.
+
+
+JENNIFER L. ROCHON, United States District Judge:
+
+          On April 29, 2025, Plaintiff Joseph Cartagena (“Plaintiff” or “Cartagena”) commenced
+
+this action against Defendants Terrance Dixon (“Dixon”), Tyrone Blackburn (“Blackburn”), and
+
+T.A. Blackburn Law, PLLC (“Blackburn Law”) (collectively, “Defendants”), alleging a
+
+defamation claim against Dixon and an intentional infliction of emotional distress (“IIED”) claim
+
+against all Defendants.1 See Dkt. 1. Plaintiff twice amended the Complaint, adding a
+
+defamation claim against Blackburn and Blackburn Law. Dkt. 33 (“Second Amended
+
+Complaint” or “SAC”) ¶¶ 131-41. On August 11, 2025, Defendants moved to dismiss the
+
+Second Amended Complaint in its entirety pursuant to Federal Rule of Civil Procedure (“Rule”)
+
+12(b)(6) and sought an award of costs and attorney’s fees under N.Y. Civ. Rights Law § 70-a.
+
+Defendants later filed a motion for sanctions pursuant to Rule 11 against Plaintiff on December
+
+4, 2025. Plaintiff opposed both motions. For the following reasons, the Court GRANTS in part
+
+and DENIES in part Defendants’ motion to dismiss. Furthermore, the Court DENIES
+
+Defendants’ motion for sanctions.
+
+
+
+
+1
+    Due to a filing error, Plaintiff refiled the Complaint on April 30, 2025. See Dkt. 9 (“Compl.”).
+       Case 1:25-cv-03552-JLR         Document 161        Filed 03/10/26     Page 2 of 28
+
+
+
+                                        BACKGROUND
+
+       The following facts are drawn from the Second Amended Complaint and taken as true for
+
+purposes of resolving the motion to dismiss. See Koch v. Christie’s Int’l PLC, 699 F.3d 141, 145
+
+(2d Cir. 2012).
+
+  I.   Factual Background
+
+       This suit arises out of Defendants’ social media posts accusing Cartagena of various
+
+crimes. Cartagena, professionally known as “Fat Joe,” is a musician whose career dates back to
+
+the 1990s. SAC ¶¶ 19, 27. From 2006 to 2019, Defendant Dixon, professionally known as
+
+“TA,” served as Cartagena’s “hype man — a supporting performer who increases audience
+
+engagement with interjections and chants.” Id. ¶ 1; see also id. ¶ 34. For Dixon’s hype-man
+
+work, Cartagena paid him the industry rate, id. ¶ 1, and Dixon also enjoyed the fringe benefits of
+
+touring, such as luxury travel, id. ¶ 2. Dixon never complained or expressed dissatisfaction with
+
+his pay or other conditions of employment. Id. ¶¶ 1, 2. Even when Dixon and Cartagena parted
+
+ways in 2019, they did so amicably. Id. ¶ 2.
+
+       However, Cartagena and Dixon’s relationship soured in or around 2023. See id. ¶¶ 3, 36.
+
+According to the Second Amended Complaint, Dixon falsely claimed that Cartagena had kept
+
+him from securing outside funding for a record label, and further claimed that Cartagena’s
+
+former manager had told Dixon that he should have been paid more for his work. Id. ¶ 3. Dixon
+
+also told family members that if they did not stop working with Cartagena, he would post false
+
+information about Cartagena on social media and “take all of [Cartagena’s] money.” Id. ¶ 36.
+
+       In 2023, Dixon began making accusations about Cartagena on public social media
+
+accounts, including Instagram. Id. In these posts, Dixon falsely claimed that he witnessed
+
+Cartagena sexually assault a woman in 2010. Id. ¶¶ 37, 38. Dixon made these accusations even
+
+though Cartagena was cleared of any wrongdoing after speaking with the police in 2010 and
+
+                                                2
+      Case 1:25-cv-03552-JLR            Document 161        Filed 03/10/26       Page 3 of 28
+
+
+
+Dixon knew that the “inappropriate touching” allegation was made against Dixon and not
+
+Cartagena. Id. He posted a picture of Cartagena with a caption referring to a “rape charge” and
+
+threatening to “go into full detail.” Id. ¶ 38 (capitalization omitted). Dixon followed up in
+
+August and September of 2023 with further social media posts accusing Cartagena of being a
+
+pedophile and claiming to have witnessed Cartagena engage in inappropriate sexual relations
+
+with an underage girl. Id. ¶¶ 46-48.
+
+       In a series of messages on October 2023 to Cartagena’s manager, Dixon sent an image of
+
+a fake news headline “FAT JOE STATUTORY RAPE VICTIM REVEALED” and threatened
+
+that “[t]his is what the news paper [sic] is going to look like . . . .” Id. ¶¶ 40-41. Dixon further
+
+warned that “[t]he countdown is on . . . [t]ell the fat man be smart I warned him before” and that
+
+“Joe got it fucked up I get it joe didn’t get it yet I’m the predator joes the prey.” Id. ¶ 42
+
+(emphasis in original) (errors in original). Dixon then followed through on this threat, publicly
+
+accusing Cartagena of statutory rape, id. ¶¶ 49-50, and also asserting that Cartagena stole money
+
+and credit for songs that Dixon claimed to have written, id. ¶¶ 54-58. According to the Second
+
+Amended Complaint, all of these accusations were false, and Dixon knew so. See, e.g., id. ¶¶ 44,
+
+53, 58. Dixon also publicly posted that Cartagena’s wife cheated on Cartagena and that he
+
+cheated on her. Id. ¶¶ 59-61.
+
+       Dixon continued making false and defamatory accusations throughout 2024 and 2025.
+
+Those statements included the following:
+
+       1. On May 23, 2024, Dixon made an Instagram post directed at Cartagena, who
+          Dixon notoriously refers to as “Lil Joey,” stating: “LIL JOEY WAS DATING
+          AND HAVING SEX WITH A 16 YEAR OLD GIRL NAMED NIKKI AKA
+          CHIQUITA HE HAD A FULL FLEDGE RELATIONSHIP WITH HER FOR
+          5 YEARS.” Id. ¶ 124(a).
+
+       2. On September 20, 2024, Dixon made an Instagram post accompanied by a
+          photo of Cartagena, Sean “Diddy” Combs, and DJ Khaled that said: “#fatjoe
+
+
+                                                  3
+      Case 1:25-cv-03552-JLR           Document 161        Filed 03/10/26     Page 4 of 28
+
+
+
+             Nikki was underage when u flew her across state lines and out the country.” Id.
+             ¶ 124(b).
+
+       3. On October 1, 2024, Dixon made an Instagram post stating: “FAT JOE HAD
+          A FULL FLEDGE RELATIONSHIP WITH NIKKI WHO WAS
+          UNDERAGE” and “FAT JOE KNEW DRE WAS HAVING SEX WITH A
+          UNDERAGE GIRL BECAUSE JOE WAS THE GUY TELLING HIM CALM
+          DOWN WE GOING TO TAKE CARE OF IT.” Id. ¶ 124(c).
+
+       4. On December 28, 2024, Dixon made an Instagram post alongside photos of
+          Cartagena captioned: “#FATJOE Milwaukee was scary the girl wasn’t lying”
+          and “this happened in Wisconsin joe was being a thirsty n**** and almost got
+          us locked up for #sexualassault.” The caption included four headlines: “It’s
+          Officially Over for Fat Joe,” “Fat Joe Investigated for Sexual Assault” “Fat
+          Joe’s Ghostwriter T.A. The Legend,” and “Fat Joe Former employee finally
+          speaks out.” Id. ¶ 124(d).
+
+       5. On December 28, 2024, Dixon posted to his Instagram an interview that he had
+          given in which he made false statements accusing Cartagena of sexually
+          assaulting a Wisconsin woman by putting his hand up her skirt. Id. ¶ 124(e).
+
+       6. On March 17, 2025, Dixon posted an Instagram story, accompanied by the
+          headline of a video titled “Fat Joe Calls Gongu Roach a Liar!,” stating: “You
+          have a very long history of stealing and robbing people” and “You stole from
+          Pun and his family you settled in court to pay Liaz Rios 2.3 million not counting
+          the rest of the money you stole.” Id. ¶ 124(f)
+
+       7. On March 18, 2025, Dixon made a post on Instagram Threads that featured an
+          image of Cartagena’s album cover “Jealous Ones Still Enny,” stating:
+          “#FATJOE DONT NEVER FORGET WHO KEPT YOU BREATHING I
+          WROTE THIS FOR YOUR HOMIE.” Id. ¶ 124(g)
+
+       8. On April 13, 2025, Dixon, while being interviewed on the “Off da Books
+          Podcast,” alleged that Cartagena underpaid him and did not credit him for the
+          songs he said he had written for Cartagena. Id. ¶ 124(h)
+
+       As a result of Dixon’s accusations, Cartagena lost out on several business opportunities,
+
+including advertising deals and appearances on podcasts and national television networks. Id.
+
+¶¶ 114-21.
+
+       Dixon then retained Defendants Blackburn and Blackburn Law allegedly to “shake
+
+Cartagena down.” Id. ¶ 63. On March 23, 2025, Blackburn sent a demand letter to Cartagena,
+
+requesting compensation for Dixon as a ghostwriter and uncredited vocalist on some of
+
+                                                 4
+       Case 1:25-cv-03552-JLR         Document 161       Filed 03/10/26      Page 5 of 28
+
+
+
+Cartagena’s songs. Id. ¶ 9. Cartagena did not agree to the demands, leading Blackburn to send a
+
+second letter on April 21, 2025. See id. ¶ 69. In his second letter, Blackburn again demanded
+
+payment, but also asserted that Cartagena engaged in misconduct and violations of the
+
+Trafficking Victims Protection Act (“TVPA”) for alleged acts of forced labor and coercive sex
+
+trafficking. Id. Blackburn threatened to file a lawsuit “if Cartagena did not accede to Dixon’s
+
+demands by April 25, 2025.” Id. ¶ 71.
+
+        On April 22, 2025, Blackburn emailed Cartagena’s counsel and threatened to report
+
+Cartagena to Homeland Security and file his lawsuit “without further warning.” Id. ¶ 72.
+
+Blackburn also claimed to have “video and other evidence” supporting Dixon’s allegations
+
+against Cartagena. Id. In response to these threats, Cartagena’s counsel spoke with Blackburn
+
+on April 23, 2025, about Dixon’s allegations and why Blackburn had threatened to call
+
+Homeland Security. Id. ¶ 73. During that call, Blackburn explained that he intended to call
+
+Homeland Security because Dixon had learned from an anonymous source that Cartagena had
+
+“put a hit out on” Dixon. Id. ¶ 74. Cartagena’s counsel denied this allegation, and Blackburn
+
+admitted that “he had not personally corroborated [Dixon’s] story with the purported witness.”
+
+Id. ¶ 75.
+
+        Blackburn further claimed that he had spoken with three women who had sexual
+
+encounters with Cartagena while they were underage; however, an investigation determined that
+
+at least two of those individuals had never spoken with Blackburn. Id. ¶¶ 76-77. Cartagena’s
+
+counsel also requested the video “evidence” of Dixon’s alleged sex trafficking claim, “but
+
+Blackburn admitted he had never seen some of the video evidence he claims substantiates
+
+[Dixon’s] allegations.” Id. ¶ 78.
+
+
+
+
+                                                5
+      Case 1:25-cv-03552-JLR            Document 161        Filed 03/10/26      Page 6 of 28
+
+
+
+       According to the Second Amended Complaint, “Blackburn made it abundantly clear that
+
+the hit job claims and accusations of statutory rape were mere side shows and leverage to obtain
+
+shakedown money,” by stating:
+
+       I mean, listen, Homeland Security and all that stuff aside, you know, nothing -- The
+       whole resolution of this before my client’s call yesterday to me, and my email to
+       you, you know, my goal was to see if we can have some sort of resolution to the
+       claims that my client has regarding what he feels to be, you know, his contributions
+       that was not compensated, and you know, work and all sorts of stuff, and time and
+       all these other things that he feels that he was not compensated for.
+
+       ...
+
+       Listen, I want you to be very clear. This is not about Joe’s decisions in the bedroom
+       with whomever he chooses to sleep with. This is business. This is about what he
+       required my client to do, and left my client in Africa, left my client in Asia, left my
+       client in Europe when my client refused to do those things. Right? That is the key.
+       That’s the part. If any part of the TVPA was going to be brought, it’s going to be
+       based on those things. Nothing to do with [Doe 3]. I’m not filing on her behalf.
+       I’m not filing on [Doe 2]’s behalf. I’m not filing on [Doe 1]’s behalf. I’m not filing
+       on any of people’s behalf.
+
+Id. ¶ 80 (emphasis in original) (insertions in original).
+
+       Two days later, on April 25, 2025, Blackburn provided Cartagena’s counsel with a third
+
+letter “containing even more vile and false accusations” and a demand for a $20 million
+
+settlement payment. Id. ¶ 82. Blackburn followed up with a series of what Cartagena’s counsel
+
+deems as “unhinged emails” from April 26-29, 2025, spoke with Cartagena’s counsel again on
+
+April 28, 2025 about his supposed verification of his alleged claims and demand for $20 million,
+
+and then emailed with a threat to bring a RICO claim against Cartagena. Id. ¶¶ 83-85.
+
+       On April 29, 2025, Cartagena filed the present suit, alleging defamation and intentional
+
+infliction of emotional distress. See generally Compl. The same day, Blackburn made an
+
+Instagram post directed at Cartagena’s counsel:
+
+       @joetacopina_spal, you ran and filed a baseless lawsuit against my client and me
+       in the SDNY, alleging Defamation and Intentional Infliction of emotional distress
+       in an attempt to get ahead of the forthcoming lawsuit against your client @fatjoe.
+
+                                                   6
+      Case 1:25-cv-03552-JLR           Document 161        Filed 03/10/26      Page 7 of 28
+
+
+
+       No matter how hard you try to deflect and cherry-pick emails and conversations,
+       your client has a lot of explaining to do. I invited you and me to meet with the
+       SDNY Prosecutors, but you have yet to respond. You can bring your baseless
+       accusation of extortion, and I will bring the 19-min audio recording of your client’s
+       felonious henchman, Pistol Pete, soliciting a former member of Terror Squad to
+       lure my client to a specific location for Pistol Pete and his thugs to “pound him
+       out.” Your client, @fatjoe, ordered a hit job against my client. Pistol Pete also
+       discusses how he had to run down on @tonyyayo a member of @gunitbrands due
+       to some fued [sic] with @50cent and run up into clubs to attack other victims. Your
+       client should also prepare to answer questions surrounding two additional
+       recordings where two females discuss your client’s disgusting pattern of grooming
+       and sleeping with 16-year-old children.
+
+Id. ¶ 88 (emphasis in original). Later, on May 2, 2025, Blackburn provided an interview that was
+
+published on the Instagram account @officialprinceofpain. Id. ¶ 91. In this interview,
+
+Blackburn claimed to have an audio clip of a man named “Pistol Pete” threatening to have Dixon
+
+“pounded out.” Id. Cartagena alleges that Blackburn knew these statements were false and that
+
+the clips did not support any such claim or implicate Cartagena in ordering violence against
+
+Dixon. Id. ¶ 92. During the interview, Blackburn also claimed to have evidence of Cartagena’s
+
+relationship with a minor, stating:
+
+       Before that, they got a recording of a young lady that I gave them, another snippet.
+       It was probably like about 60 seconds long of a 15-minute conversation of another
+       young lady who was Fat Joe’s, uh, girlfriend. And he started dating her when she
+       was 16 years old and he was in his late 30s. And it is clear as day on this recording
+       she’s saying that where he did to her — because now she’s an adult and now she’s
+       a Christian . . . was inappropriate . . . ‘cause, you know, she was a child[.]
+
+Id. ¶ 132(b)(ii) (omissions in original). Blackburn affirmed that these statements were his,
+
+stating that the information was “according to [him], one hundred percent . . . a hundred percent
+
+all Tyrone Blackburn,” going so far as to state that he would “indemnify” the interviewer “100
+
+million bajillion percent[.]” Id. ¶ 132(c) (alterations and omission in original). After the
+
+interview, Blackburn sent Cartagena’s attorneys a 60-second segment of a recorded conversation
+
+between an unidentified woman and man in which the woman made statements about
+
+inappropriate conduct and someone dating somebody twice their age, but neither participant
+
+                                                 7
+       Case 1:25-cv-03552-JLR         Document 161        Filed 03/10/26      Page 8 of 28
+
+
+
+identifies or references Cartagena as the older individual or states that the younger person being
+
+discussed was underage. Id. ¶ 94.
+
+       A few weeks after this interview, on June 19, 2025, Dixon, represented by Blackburn and
+
+Blackburn Law filed a lawsuit in the Southern District of New York against Cartagena and
+
+several other defendants alleging state and federal claims, including RICO claims, related to
+
+activity such as sex trafficking, forced labor, and ordering a hit job against Dixon. See Dixon v.
+
+Cartagena et al., No. 25-cv-05144 (JLR).
+
+ II.   Procedural Background
+
+       As noted, Cartagena commenced this action on April 29, 2025, bringing claims for
+
+defamation against Dixon and IIED against Dixon, Blackburn, and Blackburn Law. Compl. On
+
+May 1, 2025, Cartagena filed his First Amended Complaint. Dkt. 14 (“FAC”). Defendants filed
+
+a motion to dismiss the First Amended Complaint on June 23, 2025. Dkt. 28. Plaintiffs
+
+thereafter filed a Second Amended Complaint on July 21, 2025, adding a defamation claim
+
+against Defendants Blackburn and Blackburn Law for statements made in social media posts and
+
+interviews after the suit was initially filed. SAC ¶¶ 131-41. On August 11, 2025, Defendants
+
+moved to dismiss the Second Amended Complaint. Dkt. 45 (“Mot.”); Dkt. 46 (“Br.”); Dkt. 47
+
+(“Dixon Decl.”). Cartagena filed his opposition on September 5, 2025, Dkt. 53 (“Opp.”), and
+
+Defendants filed their reply on September 13, 2025, Dkt. 56 (“Reply”). Defendants later filed a
+
+notice of supplemental authority on October 9, 2025, citing Graham v. UMG Recordings, Inc.,
+
+806 F. Supp. 3d 454 (S.D.N.Y. 2025). See Dkt. 74. Cartagena responded to the supplemental
+
+authority on October 22, 2025. See Dkt. 77.
+
+       On December 4, 2025, Defendants filed a motion for Rule 11 sanctions against
+
+Cartagena. Dkt. 98; Dkt. 99 (“Sanctions Br.”); Dkt. 100 (“Blackburn Aff.”). Defendants argued
+
+that the SAC was frivolous, legally baseless, and filed for an improper purpose. See generally
+
+                                                 8
+      Case 1:25-cv-03552-JLR            Document 161         Filed 03/10/26       Page 9 of 28
+
+
+
+Sanctions Br. Cartagena opposed the motion, arguing that the sanctions motion itself was
+
+frivolous and that the Court should award Cartagena reasonable fees for responding to the
+
+motion for sanctions. See generally Dkt. 107 (“Sanctions Opp.”); see also Dkt. 106 (“Siev
+
+Decl.”). Defendants filed their reply. Dkt. 110 (“Sanctions Reply”). Both motions are now fully
+
+briefed.
+
+                                       LEGAL STANDARD
+
+        To survive a motion to dismiss under Rule 12(b)(6), a pleading must contain “sufficient
+
+factual matter, accepted as true, to ‘state a claim to relief that is plausible on its face.’” Ashcroft
+
+v. Iqbal, 556 U.S. 662, 678 (2009) (quoting Bell Atl. Corp. v. Twombly, 550 U.S. 544, 570
+
+(2007)). The Court accepts as true all non-conclusory allegations of fact and draws all
+
+reasonable inferences in the nonmovant’s favor. Francis v. Kings Park Manor, Inc., 992 F.3d
+
+67, 72 (2d Cir. 2021) (en banc). But a court need not “accept as true a legal conclusion couched
+
+as a factual allegation.” Iqbal, 556 U.S. at 678 (quoting Twombly, 550 U.S. at 555). A pleading
+
+must allege “more than a sheer possibility that a [party] has acted unlawfully.” Id. (quoting
+
+Twombly, 550 U.S. at 557). “[T]he court’s task is to assess the legal feasibility of the
+
+[allegations]; it is not to assess the weight of the evidence that might be offered on either side.”
+
+Lynch v. City of New York, 952 F.3d 67, 75 (2d Cir. 2020). Determining whether a pleading
+
+states a claim is “a context-specific task that requires the reviewing court to draw on its judicial
+
+experience and common sense.” Iqbal, 556 U.S. at 679.
+
+                                            DISCUSSION
+
+        Defendants argue that the Court should grant the motion to dismiss because the SAC fails
+
+to adequately allege claims for defamation or IIED. See Br. at 5-6. Defendants further argue
+
+that sanctions are warranted because the lawsuit is frivolous, legally baseless, and filed for an
+
+improper purpose. Sanctions Br. at 4-5. The Court addresses each argument in turn.
+
+                                                   9
+       Case 1:25-cv-03552-JLR         Document 161        Filed 03/10/26      Page 10 of 28
+
+
+
+  I.    Hallucinated Cases
+
+        Before this Court begins its analysis, it must address Blackburn’s pervasive citations to
+
+non-existent authority in his briefing in support of Defendants’ motion to dismiss. As Plaintiff
+
+points out, Defendants’ brief contains several fake authorities and misrepresentations of the law.
+
+Opp. at 10-11; see also Dkt. 57.
+
+        Blackburn does not dispute this and instead states that the miscited cases resulted from
+
+using the AI legal research platform Protégé in LexisNexis. Dkt. 58. LexisNexis, however,
+
+provided a letter to the Court refuting that Blackburn had a subscription to its AI tools, “Lexis+
+
+AI” or “Protege.” Dkt. 96-1. Thus, the Court is not only concerned with Blackburn’s
+
+submission of hallucinated cases and misstatements of the law in his brief, but also with his
+
+misrepresentations to the Court regarding the source of his research.
+
+        Sanctions may be imposed for submitting false or nonexistent legal authority to the
+
+Court. See, e.g., Flycatcher Corp. v. Affable Ave. LLC, No. 24-cv-09429 (KPF), 2026 WL
+
+306683, at *12-13 (S.D.N.Y. Feb. 5, 2026) (sanctioning attorney that submitted documents
+
+containing fake cases and misattributed quotes hallucinated by AI); Mata v. Avianca, Inc., 678 F.
+
+Supp. 3d 443, 459-66 (S.D.N.Y. 2023) (same). Alternatively, the Court may refer an attorney to
+
+the Grievance Committee for filing such non-existent authority. See, e.g., Park v. Kim, 91 F.4th
+
+610, 613-16 (2d Cir. 2024) (per curiam) (referring to Second Circuit’s Committee on Admissions
+
+and Grievances an attorney whose brief, drafted in reliance on ChatGPT, included fake
+
+opinions). Blackburn has been sanctioned and warned in the past for litigation misconduct. For
+
+example, in Zunzurovski v. Fisher, No. 23-cv-10881 (DLC), 2024 WL 1434076 (S.D.N.Y. Apr.
+
+3, 2024), appeal dismissed, (July 30, 2024), Judge Denise Cote referred Blackburn to the Court’s
+
+Grievance Committee for failing to conduct a reasonable inquiry to support his assertion of
+
+jurisdiction. Id. at *2. Later, in Jones v. Combs, No. 24-cv-01457 (JPO), 2025 WL 896829
+
+                                                10
+      Case 1:25-cv-03552-JLR              Document 161     Filed 03/10/26      Page 11 of 28
+
+
+
+(S.D.N.Y. Mar. 24, 2025), Judge J. Paul Oetken issued a warning to Blackburn for making
+
+several “inaccurate statements of law, conclusory accusations, and inappropriate ad hominem
+
+attacks on opposing counsel” in his complaint and opposition brief. Id. at *4.
+
+        Most relevant to the conduct here, on June 26, 2025, a federal judge in Pennsylvania
+
+ordered Blackburn to show cause why he should not be sanctioned for submitting fabricated
+
+cases and misrepresentations in two briefs that he filed, see Memorandum Order at 7-8, Jakes v.
+
+Youngblood, No. 24-cv-1608 (W.D. Pa. June 26, 2025), Dkt. 53, and ultimately granted attorney
+
+fees in the amount of $5,000 as a sanction on October 6, 2025, id. Dkt. 71 at 5. Additionally, on
+
+September 15, 2025, Justice Rosado of the Supreme Court of the State of New York ordered
+
+Blackburn to submit an affirmation in a New York state court action to explain “why his motions
+
+papers repeatedly cite to cases that do not exist and/or stand for legal propositions that are
+
+discussed nowhere in the cited decisions.” Dkt. 57, Ex. 1 (Decision + Order on Motion in Facey
+
+v. Fisher, et al., Index. No. 152088/2025, NYSCEF Doc. No. 50).
+
+        After the order to show cause was issued by the Pennsylvania court, and after Blackburn
+
+asserts that he completed continuing legal education courses between July 18, 2025 to August 7,
+
+2025 “to better understand the implications of artificial intelligence in legal drafting,” Dkt. 58 at
+
+3-4, he continued to include hallucinated cases in his brief in this case, which was filed on
+
+August 11, 2025, see Mot. Blackburn’s representation that he used a LexisNexis tool that
+
+LexisNexis refutes he had access to, Dkt. 96-1, is also troubling. It seems that the warnings and
+
+sanctions by the courts, as well as the CLE courses, did not have an appreciable impact on
+
+Blackburn. This lengthy historic recitation is intended to serve as a public admonition aimed to
+
+deter future misconduct. While the Court will not strike the Defendants’ submissions or award
+
+attorneys’ fees as requested by Plaintiff, Dkt. 57, further misconduct by Blackburn may lead to
+
+sanctions or a referral for discipline.
+
+                                                 11
+       Case 1:25-cv-03552-JLR          Document 161         Filed 03/10/26       Page 12 of 28
+
+
+
+ II.    Defamation Claims
+
+        Turning to the merits of the present motion to dismiss, the Court finds that Cartagena has
+
+adequately pleaded a claim for defamation against Defendants. “Defamation is the ‘making of a
+
+false statement which tends to expose the plaintiff to public contempt, ridicule, aversion or
+
+disgrace, or induce an evil opinion of him in the minds of right-thinking persons, and to deprive
+
+him of their friendly intercourse in society.’” Moraes v. White, 571 F. Supp. 3d 77, 93 (S.D.N.Y.
+
+2021) (quoting Foster v. Churchill, 665 N.E.2d 153, 157 (1996)). To state a claim for
+
+defamation under New York law, the plaintiff must allege “(1) a written [or spoken] defamatory
+
+statement of and concerning the plaintiff, (2) publication to a third party, (3) fault, (4) falsity of
+
+the defamatory statement, and (5) special damages or [defamation] per se[.]” Palin v. New York
+
+Times Co., 940 F.3d 804, 809 (2d Cir. 2019); accord Moraes, 571 F. Supp. 3d at 93.
+
+        Here, Cartagena brings two defamation claims. The first claim is against Dixon and is
+
+based on Dixon’s public statements that Cartagena engaged in sexual assault, statutory rape, and
+
+theft. SAC ¶¶ 123-30. The second defamation claim is against Blackburn and Blackburn Law
+
+and is based on Blackburn’s public statements falsely accusing Cartagena of sexual misconduct,
+
+ordering a hit on Dixon, statutory rape, violence, and stealing, as well as falsely stating in an
+
+interview that he had recorded evidence of the threatened violence and statutory rape. Id.
+
+¶¶ 131-41.
+
+        It is undisputed that Cartagena has plausibly alleged facts that would satisfy the first,
+
+second, and fifth elements of a defamation claim. First, Cartagena identifies specific statements
+
+made by Defendants concerning Cartagena. Cartagena alleges that Dixon accused Cartagena of
+
+sexual assault, id. ¶¶ 124(d)-(e), statutory rape, see id. ¶¶ 124(a)-(c), and stealing money and
+
+credit from Dixon, see id. ¶ 124(f)-(h). Likewise, Cartagena identifies Blackburn and Blackburn
+
+Law’s statements that Cartagena ordered a hit against Dixon, see id. ¶¶ 132(a)-(b)(i), and that he
+
+                                                  12
+      Case 1:25-cv-03552-JLR          Document 161        Filed 03/10/26      Page 13 of 28
+
+
+
+had evidence to corroborate this accusation and further evidence that Cartagena engaged in a
+
+sexual relationship with a minor, see id. ¶¶ 132(b)(ii). These accusations of serious criminal
+
+activity are plausibly defamatory because they would “expose [Plaintiff] to public contempt,
+
+ridicule, aversion or disgrace, or induce an evil opinion of him in the minds of right-thinking
+
+persons.” Moraes, 571 F. Supp. 3d at 93 (citation omitted); see, e.g., Erdman v. Victor, No. 20-
+
+cv-04162 (LGS), 2021 WL 5359660, at *2 (S.D.N.Y. Nov. 17, 2021) (holding complaint
+
+“sufficiently pleads a claim of defamation” when “[d]efendant[] accus[ed] [p]laintiff of criminal
+
+activity”). As for the second element, Cartagena alleges that Defendants intentionally published
+
+or caused these statements to be published to a third-party via social media or podcasts. See
+
+SAC ¶¶ 125, 133. With respect to the fifth element, Cartagena plausibly alleges that the
+
+statements are defamatory per se. “Under New York law, to recover on a defamation claim, a
+
+plaintiff must either plead special damages or that the statements are defamatory per se.
+
+Statements that are defamatory per se ‘are actionable without pleading and proof of special
+
+damages.’” Moraes, 571 F. Supp. 3d at 95 (internal citation omitted) (quoting Celle v. Filipino
+
+Rep. Enters. Inc., 209 F.3d 163, 179 (2d Cir. 2000)). The New York Court of Appeals has
+
+recognized certain categories of statements as defamatory per se, which include, as relevant here,
+
+those that “charg[e] plaintiff with a serious crime.” Liberman v. Gelstein, 605 N.E.2d 344, 347
+
+(N.Y. 1992); accord Zherka v. Amicone, 634 F.3d 642, 645 n.6 (2d Cir. 2011). Here, Defendants
+
+accuse Cartagena of sexual assault, statutory rape, and theft, all of which are serious crimes. See,
+
+e.g., Lazar v. City of New York, No. 21-cv-01748 (LGS), 2023 WL 3346085, at *4 (S.D.N.Y.
+
+May 10, 2023) (finding accusations of theft to be defamatory per se); Goldman v. Reddington,
+
+417 F. Supp. 3d 163, 173 (E.D.N.Y. 2019) (“Rape is a sufficiently ‘serious’ crime to support a
+
+claim for defamation per se.”). Therefore, Cartagena adequately pleads facts that satisfy the
+
+first, second, and fifth elements of defamation.
+
+                                                   13
+      Case 1:25-cv-03552-JLR          Document 161         Filed 03/10/26      Page 14 of 28
+
+
+
+       Defendants argue that the Second Amended Complaint does not satisfy the third and
+
+fourth elements of a defamation claim. See Br. at 6. Specifically, Defendants assert that the
+
+third element is not met because the Second Amended Complaint does not plausibly allege that
+
+the statements were made with actual malice, id. at 7-9, and the fourth element is not met
+
+because Dixon and Blackburn’s statements are true, id. at 8-9. Defendants also argue that even if
+
+those elements were adequately alleged, the defamation claims still fail because Defendants’
+
+statements are non-actionable opinions, id. at 9-11; Reply at 4-5, Blackburn’s statements are
+
+privileged, Br. at 11-12, and the claims are time-barred under New York law, id. at 6. The Court
+
+does not agree with any of Defendants’ arguments and will address each in turn.
+
+       A.      Third Element – Fault
+
+       When a plaintiff is a public figure, the third element of fault can be satisfied only if the
+
+“[defamatory] statement was made with actual malice, that is, made with knowledge that it was
+
+false or with reckless disregard of whether it was false or not.” Palin, 940 F.3d at 809 (quoting
+
+Church of Scientology Int’l v. Behar, 238 F.3d 168, 173-74 (2d Cir. 2001)). On a motion to
+
+dismiss, “a public-figure plaintiff must plead plausible grounds to infer actual malice by alleging
+
+enough facts to raise a reasonable expectation that discovery will reveal evidence of actual
+
+malice.” Biro v. Conde Nast, 807 F.3d 541, 546 (2d Cir. 2015) (citation modified); accord
+
+McDougal v. Fox News Network, LLC, 489 F. Supp. 3d 174, 185 (S.D.N.Y. 2020). “‘Although
+
+actual malice is subjective, a court typically will infer actual malice from objective facts’ such as
+
+‘the defendant’s own actions or statements, the dubious nature of his sources, and the inherent
+
+improbability of [his] story among other circumstantial evidence.’” Carroll v. Trump, 151 F.4th
+
+50, 72 (2d Cir. 2025) (alteration in original) (quoting Celle, 209 F.3d at 183). “These facts
+
+should provide evidence of ‘negligence, motive and intent such that an accumulation of the
+
+evidence and appropriate inferences supports the existence of actual malice.’” Celle, 209 F.3d
+
+                                                 14
+      Case 1:25-cv-03552-JLR          Document 161        Filed 03/10/26      Page 15 of 28
+
+
+
+163, 183 (2d Cir. 2000) (emphasis omitted) (quoting Bose Corp. v. Consumers Union of United
+
+States, Inc., 692 F.2d 189, 196 (1st Cir. 1982)); see Panini Am., Inc. v. Fanatics, Inc., No. 23-cv-
+
+09714 (LTS) (VF), 2025 WL 753954, at *12 (S.D.N.Y. Mar. 10, 2025) (finding plaintiff
+
+adequately pleaded actual malice when complaint alleged defendants engaged in a scheme to
+
+harm plaintiff’s business and knew the truth about the defamatory statements).
+
+       The parties do not dispute that Cartagena is a public figure, and thus, to plead a claim for
+
+defamation, he must allege that Defendants made the alleged defamatory statements with actual
+
+malice. The Second Amended Complaint expressly pleads that Defendants published statements
+
+with actual malice because he had a subjective awareness of the falsity of the statements, or
+
+acted with reckless disregard to the falsity of the statements. SAC ¶¶ 126, 134, 135, 152.
+
+Cartagena also pleads facts that support the allegation that Defendants acted with actual malice.
+
+According to the Second Amended Complaint, Dixon did not begin making accusations about
+
+Cartagena until he came to believe that Cartagena interfered with a business opportunity and that
+
+he had been underpaid. Id. ¶ 3. Cartagena alleges that Dixon told his family members that he
+
+intended to extort Cartagena for money. Id. ¶ 36. After Dixon’s first accusations in 2023, he
+
+sent multiple threatening messages to Cartagena’s manager. Id. ¶¶ 40-42. Likewise, when
+
+Blackburn began communicating with Cartagena’s counsel, he initially demanded compensation
+
+for songwriting and performing. Id. ¶ 69. Only after the initial refusal did Blackburn raise
+
+allegations of sex crimes. Id. And when Blackburn and Cartagena’s counsel spoke by phone
+
+about Dixon’s various accusations, Blackburn indicated that Dixon’s goal was to obtain the
+
+compensation Dixon believed he was owed. Id. ¶ 80. These facts support a plausible inference
+
+that Dixon and Blackburn made the statements not because they were true but instead to obtain
+
+money from Cartagena by publicizing false accusations.
+
+
+
+                                                15
+      Case 1:25-cv-03552-JLR           Document 161         Filed 03/10/26      Page 16 of 28
+
+
+
+       Indeed, Cartagena alleges that Dixon knew that the sexual misconduct and statutory rape
+
+claims were false. Id. ¶ 53. Cartagena also alleges that Blackburn never spoke with the woman
+
+who supposedly corroborated Dixon’s accusations. Id. ¶ 76-77. And, according to the Plaintiff,
+
+the audio recordings Blackburn claimed to have do not support the assertion that Cartagena
+
+ordered a hit job on Dixon or that Cartagena slept with a minor. Id. ¶¶ 92-94. Taken together,
+
+Cartagena has pleaded facts sufficient to plausibly infer actual malice.
+
+       B.      Fourth Element – Falsity
+
+       Moving to the fourth element, falsity, the Court is not persuaded by Defendants’
+
+argument that the defamation claims should be dismissed because the identified statements are
+
+true. Br. at 9-13. At the pleading stage, courts “require[] plaintiffs to plead facts that, if proven,
+
+would allow a reasonable person to consider the statement false.” Tannerite Sports, LLC v.
+
+NBCUniversal News Grp., a division of NBCUniversal Media, LLC, 864 F.3d 236, 247 (2d Cir.
+
+2017) (collecting cases). Cartagena does so here. According to the Second Amended
+
+Complaint, Cartagena was cleared of any allegations of sexual assault after being questioned by
+
+the police. SAC ¶ 37. Cartagena also pleads that Dixon’s specific claims that he had sex with a
+
+16 year-old are false, id. ¶ 54, and that the woman who Blackburn claimed corroborated Dixon’s
+
+allegations never spoke with Blackburn, id. ¶ 76-77. Cartagena also pleads that Dixon’s claims
+
+that he stole money and credit from Dixon are false. Id. ¶ 57. Lastly, the Second Amended
+
+Complaint alleges that the audio files that supposedly corroborated Cartagena’s order of a hit job
+
+on Dixon or an inappropriate relationship with a minor reflected no such information. Id. ¶¶ 92-
+
+94.
+
+       In refuting this element, Defendants point to Dixon’s Declaration filed with this lawsuit
+
+and the separate complaint in Dixon v. Cartagena et al. Br. at 9-11. However, a defamation
+
+claim may be dismissed for failure to plead the fourth element “only if the statement’s truth may
+
+                                                  16
+      Case 1:25-cv-03552-JLR          Document 161        Filed 03/10/26      Page 17 of 28
+
+
+
+be established from the complaint alone.” Bobulinski v. Tarlov, 758 F. Supp. 3d 166, 176
+
+(S.D.N.Y. 2024) (quoting Stega v. N.Y. Downtown Hosp., 107 N.E.3d 543, 553 (N.Y. 2018)),
+
+appeal withdrawn, No. 25-17, 2025 WL 1009663 (2d Cir. Mar. 31, 2025). Therefore, Dixon’s
+
+declaration and statements made in a separate litigation cannot be considered. Whether the
+
+statements that Cartagena claims are defamatory are in fact false is a matter for another day. On
+
+a motion to dismiss, the Court must accept all allegations in the Second Amended Complaint as
+
+true and, taken together, Cartagena pleads sufficient facts to support a plausible inference that the
+
+statements were false.
+
+       C.      Opinions
+
+       Next, the Court disagrees with Defendants’ argument that Dixon and Blackburn’s
+
+statements are all nonactionable opinions. Br. at 21; Reply at 4. Under New York law,
+
+statements of opinion are not actionable as defamation, no matter how “unreasonable the opinion
+
+or vituperous the expression of it may be.” Davis v. Ross, 754 F.2d 80, 85 (2d Cir. 1985)
+
+(quoting Hotchner v. Castillo-Puche, 551 F.2d 910, 913 (2d Cir. 1977)); accord Cassava Scis.,
+
+Inc. v. Bredt, No. 22-cv-09409 (GHW), 2024 WL 1347362, at *7 (S.D.N.Y. Mar. 28, 2024).
+
+“Determining whether a statement is an allegation of fact or mere opinion is a legal question for
+
+the court.” Chau v. Lewis, 771 F.3d 118, 128 (2d Cir. 2014). The New York Court of Appeals
+
+has identified three factors to guide courts in distinguishing nonactionable opinion statements
+
+from actionable statements of fact:
+
+       (1) whether the specific language in issue has a precise meaning which is readily
+       understood; (2) whether the statements are capable of being proven true or false;
+       and (3) whether either the full context of the communication in which the statement
+       appears or the broader social context and surrounding circumstances are such as to
+       signal readers or listeners that what is being read or heard is likely to be opinion,
+       not fact.
+
+
+
+
+                                                 17
+      Case 1:25-cv-03552-JLR          Document 161        Filed 03/10/26      Page 18 of 28
+
+
+
+Gross v. N.Y. Times Co., 623 N.E.2d 1163, 1167 (N.Y. 1993) (alteration, internal quotation
+
+marks, and citation omitted). “The Court considers the import of the [statements] holistically,
+
+without attempting to artificially disentangle fact from opinion.” See Moraes, 571 F. Supp. 3d at
+
+95. “The dispositive inquiry, under either Federal or New York law, is whether a reasonable
+
+[reader] could have concluded that [the statements] were conveying facts about the plaintiff.”
+
+Gross, 623 N.E.2d at 1167 (first alteration in original) (internal quotation marks and citation
+
+omitted); accord Cassava Scis., Inc., 2024 WL 1347362, at *7.
+
+       The Court finds that the allegedly defamatory statements made by Dixon and Blackburn
+
+are actionable statements of fact. To start, the defamatory statements Dixon is alleged to have
+
+made include specific accusations that Cartagena assaulted a woman in 2010, had sex with a
+
+minor, and stole money from a specific individual. SAC ¶¶ 124(a)-(h). This language references
+
+specific actions Cartagena took rather than vague conclusions. See, e.g., Giffuni v. Feingold, 749
+
+N.Y.S.2d 716, 716 (N.Y. App. Div. 2002) (finding that certain statements were “not loose,
+
+figurative or hyperbolic, . . . especially since they allege[d] criminal conduct”). Likewise,
+
+Dixon’s allegations that Cartagena had sex with a minor, sexually assaulted a woman, and stole
+
+money are capable of being proven true or false. See, e.g., Giuffre v. Maxwell, 165 F. Supp. 3d
+
+147, 152 (S.D.N.Y. 2016) (“Sexual assault of a minor is a clear-cut issue; either transgression
+
+occurred or it did not.”). Furthermore, the context of Dixon’s statements indicates that a
+
+reasonable reader would understand them as statements of fact rather than mere opinions. Dixon
+
+made the statements as part of a series of posts accusing Cartagena of specific criminal acts and
+
+holding himself out as a former employee with firsthand knowledge. For example, when making
+
+the claim that Cartagena had sexually assaulted a woman, Dixon included a headline: “Fat Joe
+
+Former employee finally speaks out.” SAC ¶ 124(d). In this context, an ordinary reader would
+
+understand Dixon’s statements as statements of fact. See, e.g., Restis v. Am. Coal. Against
+
+                                                 18
+      Case 1:25-cv-03552-JLR          Document 161          Filed 03/10/26     Page 19 of 28
+
+
+
+Nuclear Iran, Inc., 53 F. Supp. 3d 705, 721 (S.D.N.Y. 2014) (finding that accusations of criminal
+
+behavior were statements of fact when “grounded in assertions of fact about Plaintiffs’ business
+
+activities and are not framed in hyperbole, but rather purport to rely on documents that establish
+
+the existence of Plaintiffs’ scheme”) (collecting cases).
+
+       Cartagena’s claims against Blackburn also involve actionable statements of fact.
+
+Blackburn’s alleged defamatory statements were based on claims that he had corroborating
+
+evidence that Cartagena ordered a hit job on Dixon and that that Cartagena engaged in sex with a
+
+minor. SAC ¶ 132(a)-(b)(i). These are verifiable statements. The context of the statements
+
+during the interview also supports the conclusion that a reasonable listener would understand
+
+Blackburn to be stating facts rather than an opinion. Blackburn stated in the interview that the
+
+information was “a hundred percent all Tyrone Blackburn” and that he would “indemnify” the
+
+interviewer “100 million bajillion percent.” Id. ¶ 132(c).
+
+       Defendants disagree and point to Graham v. UMG Recordings, Inc., 806 F. Supp. 3d 454
+
+(S.D.N.Y. 2025), where a court found Kendrick Lamar’s statements in his song “Not Like Us,”
+
+insinuating that Drake has sexual relations with minors, to be nonactionable opinions. See
+
+generally Dkt. 74. In Graham, the court reasoned that the statements were part of a rap “diss
+
+track,” and “[t]he average listener is not under the impression that a diss track is the product of a
+
+thoughtful or disinterested investigation, conveying to the public fact-checked verifiable
+
+content.” Graham, 806 F. Supp. 3d at 469. The song was also part of a broader “rap battle,”
+
+where listeners would expect heated and hyperbolic accusations. Id. at 470. Finally, the song’s
+
+language was “replete with profanity, trash-talking, threats of violent, and figurative and
+
+hyperbolic language, all of which are indicia of opinion.” Id. at 473. The language and the
+
+context of the statements led the court to conclude that the song could not be reasonably
+
+
+
+                                                 19
+     Case 1:25-cv-03552-JLR           Document 161       Filed 03/10/26      Page 20 of 28
+
+
+
+understood to convey “as a factual matter that Drake [was] a pedophile or . . . engaged in sexual
+
+relations with minors.” Id. at 467.
+
+       Defendants argue that Graham is analogous because Defendants made the accusations on
+
+social media as part of his broader feud with Cartagena. See Dkt. 74 at 2. The Court does not
+
+agree. The context surrounding Defendants’ statements is far different than Graham. Dixon’s
+
+alleged defamatory statements were not contained in “diss tracks” during a “rap battle” in which
+
+both sides leveled hyperbolic insults at one another. Far from vague lyrics in a song or other
+
+means of artistic expression, Defendants publicly identified specific instances of Cartagena’s
+
+supposed sexual misconduct and criminal conduct, identifying names and other details
+
+surrounding the conduct, and claimed to have firsthand knowledge or corroborating evidence
+
+supporting the stated facts. See SAC ¶¶ 124, 132. And even though social media pages
+
+oftentimes are a forum for opinions, the “forum in which a statement appears is not dispositive of
+
+the fact versus opinion inquiry.” Graham, 806 F. Supp. 3d at 469. Considering the language and
+
+context of Defendants’ statements, including that they had firsthand knowledge and
+
+corroborating evidence, the Court finds that the average person would understand the statements
+
+as statements of facts, not opinions. Cf. Moraes, 571 F. Supp. 3d at 97 (finding Facebook post
+
+by former employer actionable when it implied that she knew certain facts to support her opinion
+
+that plaintiff should be prosecuted for stalking and harassment). Thus, the Court finds that
+
+Cartagena adequately alleges that Defendants made actionable defamatory statements rather than
+
+statements of opinion.
+
+       D.      Litigation Privilege
+
+       The Court is also not persuaded by Defendants’ argument that their statements are
+
+privileged because they were made in anticipation of Defendants’ litigation. Br. at 14-15. Under
+
+New York law, “statements made by attorneys in connection with a proceeding before a court”
+
+                                                20
+      Case 1:25-cv-03552-JLR          Document 161         Filed 03/10/26      Page 21 of 28
+
+
+
+are granted “absolute immunity from liability for defamation” when the statements are “material
+
+and pertinent to the questions involved.” Front, Inc. v. Khalil, 28 N.E.3d 15, 18 (N.Y. 2015)
+
+(quoting Youmans v. Smith, 47 N.E. 265, 266 (N.Y. 1897)). Statements made in anticipation of
+
+litigation are protected by a qualified privilege. Id. at 19. However, the “privilege is lost where
+
+a defendant proves that the statements were not pertinent to a good faith anticipated litigation.”
+
+Id. This rubric promotes the legitimate interest in encouraging communication prior to litigation
+
+but avoids abuse by “attorneys who are seeking to bully, harass, or intimidate their client’s
+
+adversaries by threatening baseless litigation or by asserting wholly unmeritorious claims.” Id.
+
+       First, the allegedly defamatory statements by Defendants are not in the context of their
+
+litigation since that litigation was not yet filed. See Dixon v. Cartagena, No. 25-cv-05144 (JLR)
+
+(filed June 19, 2025). The statements were also public statements made on social media and
+
+during online interviews, and were not pre-litigation communications with counsel regarding a
+
+draft complaint, settlement negotiations, or otherwise. Finally, even if the Court were to evaluate
+
+the public statements under a qualified privilege lens for pre-litigation communications,
+
+Cartagena adequately alleges that Defendants’ statements were made in bad faith in order to
+
+extort a monetary payment from Cartagena, precisely the behavior that would defeat any
+
+qualified privilege protection, if true. See, e.g., SAC ¶¶ 5, 10, 17, 71, 138, 144, 146, 156; see
+
+also Moraes, 571 F. Supp. 3d at 101 (holding that the litigation privilege did not apply where the
+
+Complaint alleged that the defamatory statements were part of a “campaign of harassment”).
+
+Therefore, the motion to dismiss based on litigation privilege is rejected.
+
+       E.      Statute of Limitations
+
+       Finally, the defamation claims alleged in the Second Amended Complaint are not barred
+
+by New York’s one-year statute of limitations. Under New York law, defamation claims must
+
+be brought within one year. N.Y. C.P.L.R. § 215(3). Cartagena commenced this lawsuit on
+
+                                                 21
+       Case 1:25-cv-03552-JLR          Document 161       Filed 03/10/26      Page 22 of 28
+
+
+
+April 29, 2025, and thus the statute of limitations bars defamation claims for statements made
+
+more than one year before that date.
+
+        Cartagena’s defamation claim against Dixon is based on statements made on May 23,
+
+2024, SAC ¶ 124(a), September 20, 2024, id. ¶ 124(b), October 1, 2024, id. ¶ 124(c), December
+
+28, 2024, id. ¶ 124(d)-(e), March 17, 2025, id. ¶ 124(f), March 18, 2025, id. ¶ 124(g), and April
+
+13, 2025, id. ¶ 124(h). Likewise, Cartagena’s defamation claim against Defendants Blackburn
+
+and Blackburn Law is based on statements made on April 30, 2025, id. ¶ 132(a), and May 2,
+
+2025, id. ¶¶ 132(b)-(c). Therefore, Cartagena’s defamation claims fall within the one-year time
+
+period and are not time-barred. Prior communications that fall outside the statute of limitations
+
+are not actionable defamation but may provide context to Cartagena’s claims and assertions that
+
+Defendants were acting with actual malice.
+
+                               *              *               *
+
+        For all of these reasons, the Court denies the motion to dismiss Cartagena’s defamation
+
+claims and Defendants’ request for attorney’s fees under N.Y. Civ. Rights Law § 70-a.
+
+III.    IIED Claims
+
+        Moving next to Cartagena’s IIED claims, “[u]nder New York law, a claim for [IIED]
+
+requires a showing of (1) extreme and outrageous conduct; (2) intent to cause, or reckless
+
+disregard of a substantial probability of causing, severe emotional distress; (3) a causal
+
+connection between the conduct and the injury; and (4) severe emotional distress.” Stuto v.
+
+Fleishman, 164 F.3d 820, 827 (2d Cir. 1999); accord Cagle v. Weill Cornell Med., 680 F. Supp.
+
+3d 428, 438 (S.D.N.Y. 2023). “[T]he standard for stating a valid claim of intentional infliction
+
+of emotional distress is ‘rigorous, and difficult to satisfy.’” Conboy v. AT & T Corp., 241 F.3d
+
+242, 258 (2d Cir. 2001) (quoting Howell v. New York Post Co., 612 N.E.2d 699, 702 (N.Y.
+
+1993)). “Liability has been found only where the conduct has been so outrageous in character,
+
+                                                  22
+      Case 1:25-cv-03552-JLR          Document 161        Filed 03/10/26      Page 23 of 28
+
+
+
+and so extreme in degree, as to go beyond all possible bounds of decency, and to be regarded as
+
+atrocious, and utterly intolerable in a civilized community.” Howell, 612 N.E.2d at 702 (quoting
+
+Murphy v. Am. Home Prods. Corp., 448 N.E.2d 86, 90 (N.Y. 1983)).
+
+       Defendants argue that Cartagena fails to adequately plead an IIED claim because (1) the
+
+IIED claim is duplicative of Cartagena’s defamation claims, (2) he has not alleged severe
+
+emotional distress, and (3) he does not plead extreme and outrageous conduct. Br. at 26-29. The
+
+Court need not address the third argument because it agrees with Defendants that the IIED claim
+
+is duplicative of the defamation claims and the Second Amended Complaint fails to allege severe
+
+emotional distress.
+
+       With respect to overlap with Cartagena’s defamation claims, the New York Court of
+
+Appeals has cautioned that a claim for IIED may not be sustainable “where the conduct
+
+complained of falls well within the ambit of other traditional tort liability.” Fischer v. Maloney,
+
+373 N.E.2d 1215, 1217 (N.Y. 1978). Applying this guidance, New York courts have
+
+“exclude[d] claims for [IIED] where a cause of action for defamation may be asserted on the
+
+facts of the case.” Turley v. ISG Lackawanna, Inc., 774 F.3d 140, 159 (2d Cir. 2014) (collecting
+
+cases); see, e.g., McCollum v. Baldwin, 688 F. Supp. 3d 117, 133 (S.D.N.Y. 2023) (dismissing
+
+IIED claim that “rel[ied] on the same underlying facts” as the defamation claim); Matthaus v.
+
+Hadjedj, 49 N.Y.S.3d 393, 425 (N.Y. App. Div. 2017) (affirming dismissal of IIED claim as
+
+duplicative of plaintiff’s defamation claim). Cf. Hengjun Chao v. Mount Sinai Hosp., 476 F.
+
+App’x 892, 895 (2d Cir. 2012) (summary order) (“New York law considers claims sounding in
+
+tort to be defamation claims . . . where those causes of action seek damages only for injury to
+
+reputation, or where the entire injury complained of by plaintiff flows from the effect on his
+
+reputation.” (quoting Jain v. Sec. Indus. and Fin. Mkts. Ass’n., No. 08-cv-6463, 2009 WL
+
+3166684, at *9 (S.D.N.Y. Sept. 28, 2009)).
+
+                                                23
+      Case 1:25-cv-03552-JLR          Document 161        Filed 03/10/26      Page 24 of 28
+
+
+
+       Here, Cartagena’s IIED claim relies on the same underlying facts as his defamation
+
+claims. Specifically, both claims rely on Dixon and Blackburn’s public accusations of statutory
+
+rape, sexual misconduct, and violence against Cartagena and their conversations with
+
+Cartagena’s business and legal representatives that indicate they knew such accusations were
+
+false. Compare SAC ¶¶ 123-41, with id. ¶ 142-60. Furthermore, Cartagena identifies the same
+
+injuries as flowing from his defamation and IIED claims. With respect to his defamation claims,
+
+Cartagena alleges that he suffered “emotional distress” and “special injury . . . from lost deals
+
+and potential contracts,” SAC ¶¶ 128(d), 129, 140, and he similarly claims that the IIED caused
+
+him to suffer “severe emotional distress” and “significant special damages, including loss of
+
+business opportunities, harm to his professional reputation, and financial setbacks.” SAC ¶ 158.
+
+These injuries all “flow from the effect” of the Defendants’ allegedly defamatory actions and
+
+threats on Cartagena’s reputation. Hengjun Chao, 476 F. App’x at 895.
+
+       In response, Cartagena points to conduct that he alleges is distinct from his defamation
+
+claims: Defendants’ (1) “humiliating accusations concerning Cartagena and his wife’s private
+
+sexual behavior”, (2) “threat[s] to report Cartagena to Homeland Security”, (3) “physical[]
+
+assault[]” of “Cartagena’s process server”, (4) “ominous and threatening statements to
+
+Cartagena’s manager”, and (5) “threat[s] [to] . . . disparage [Cartagena] in the eyes of his
+
+children.” Opp. at 26. However, this conduct is all related to Cartagena’s defamation claims,
+
+including supporting an inference that Defendants acted with actual malice — with the exception
+
+of Cartagena’s allegation that Blackburn assaulted a process server, which is not relevant to any
+
+of Cartagena’s claims. Given that the IIED and defamation claims are based on the same
+
+conduct and allege the same injuries, the IIED claim is duplicative. See Baiqiao Tang v. Wengui
+
+Guo, No. 17-cv-09031 (JFK), 2019 WL 6169940, at *6 (S.D.N.Y. Nov. 20, 2019) (dismissing
+
+IIED claim as duplicative when “injuries arising from the defamation claim are the same as the
+
+                                                 24
+      Case 1:25-cv-03552-JLR           Document 161         Filed 03/10/26       Page 25 of 28
+
+
+
+IIED claim and, thus, ‘resolution of the . . . defamation claims will fully redress the injuries
+
+alleged under the IIED action.’” (quoting McNamee v. Clemens, 762 F. Supp. 2d 584, 608
+
+(E.D.N.Y. 2011))); Jacob v. Lorenz, No. 21-cv-06807 (ER), 2023 WL 4106298, at *15
+
+(S.D.N.Y. June 21, 2023) (dismissing IIED claim as duplicative when it was “is a variation of
+
+[p]laintiffs’ defamation allegations”); Bendit v. Canva, Inc., No. 23-cv-00473 (RA), 2023 WL
+
+5391413, at *10 (S.D.N.Y. Aug. 22, 2023) (finding IIED and defamation claims as duplicative
+
+when the complaint lacked “allegations unique to an IIED cause of action”); Restis, 53 F. Supp.
+
+3d at 729 (dismissing IIED claim when “it falls within the ambit of another tort”).
+
+        Even if Cartagena’s IIED claim was not duplicative of the defamation claim, the Second
+
+Amended Complaint also does not plausibly allege that Cartagena suffered severe emotional
+
+distress. “To qualify as severe emotional distress, ‘the emotional distress suffered by the
+
+plaintiff must be so severe that no reasonable [person] could be expected to endure it.’” Medcalf
+
+v. Walsh, 938 F. Supp. 2d 478, 490 (S.D.N.Y. 2013) (alteration in original) (quoting Wiener v.
+
+Unumprovident Corp., 202 F. Supp. 2d 116, 122 (S.D.N.Y. 2002)). “[C]onclusory allegations
+
+that [plaintiff] suffered emotional distress . . . are insufficient to” survive a motion to dismiss.
+
+Specht v. City of New York, 15 F.4th 594, 606 (2d Cir. 2021); accord Asinga v. Gatorade Co.,
+
+No. 24-cv-05210 (CS), 2025 WL 1225212, at *8 (S.D.N.Y. Apr. 28, 2025).
+
+        The Second Amended Complaint does not meet this standard. It only cursorily alleges
+
+that Cartagena suffered “humiliation” and “severe emotional distress,” see id. ¶¶ 112, 158, but
+
+does not plead any facts about how the severe emotional distress manifested itself, such as “the
+
+severity or duration of his emotional distress,” “how [it] impacted his daily activities,” or “how
+
+Defendants’ conduct has affected his health.” Akhtar v. Aggarwala, No. 23-cv-06585 (JGLC)
+
+(VF), 2024 WL 3862504, at *12 (S.D.N.Y. June 5, 2024), report and recommendation adopted
+
+sub nom. Akhtar v. Adams, 2024 WL 3862673 (S.D.N.Y. Aug. 19, 2024), appeal dismissed, No.
+
+                                                  25
+      Case 1:25-cv-03552-JLR          Document 161        Filed 03/10/26      Page 26 of 28
+
+
+
+24-2370, 2025 WL 2625360 (2d Cir. July 31, 2025); see Asinga, 2025 WL 1225212, at *8
+
+(finding allegations that defendant “suffer[ed] from depression and despair” insufficient to
+
+“satisfy the injury prong of an IIED claim”); Verschleiser v. Frydman, No. 22-cv-07909 (JGK),
+
+2023 WL 5835031, at *18 (S.D.N.Y. Sept. 7, 2023) (dismissing IIED claim when plaintiff failed
+
+to allege “any supporting details or facts regarding the nature of the distress”); Medcalf, 938 F.
+
+Supp. 2d at 490 (dismissing IIED claim where plaintiff “d[id] not make any non-conclusory
+
+allegation that [she] suffered severe emotional distress”).
+
+       Cartagena’s argument, relying on Doe v. Doe, No. 16-cv-00332 (NSR), 2017 WL
+
+3025885 (S.D.N.Y. July 14, 2017), that he need not provide a diagnosis or medical evidence at
+
+the pleading stage, does not alter the Court’s conclusion. Opp. at 25. While the Doe court held
+
+that medical corroboration of the connection between the plaintiff’s emotional distress and the
+
+defendant’s conduct was not required for plaintiff to succeed on summary judgment, Doe, 2017
+
+WL 3025885, at *7-8, the Doe complaint still alleged specific non-conclusory allegations of
+
+severe emotional distress such as anxiety, depression, embarrassment, and difficulty sleeping and
+
+eating. Doe v. Doe, No. 16-cv-00332 (NSR), Complaint ¶ 29. By contrast, Cartagena does not
+
+identify anything beyond his conclusory statement that he suffered “severe emotional distress”
+
+and “humiliation.” SAC ¶ 112, 158.
+
+       For all of these reasons, Cartagena does not adequately allege a claim for IIED and it will
+
+be dismissed.2
+
+
+2
+   Cartagena’s IIED claim will be dismissed without leave to amend. Cartagena has already
+amended his complaint twice, including after Defendants raised the same arguments regarding
+this pleading deficiency in their earlier motion. See Dkt. 29 at 14-15 (arguing that IIED claims
+are duplicative of defamation claims); id. at 17-19 (arguing that Cartagena does not adequately
+allege severe emotional distress). Moreover, Cartagena does not request leave to amend or
+otherwise indicate what additional facts he would plead to resolve the deficiencies. See Solomon
+v. Flipps Media, Inc., 136 F.4th 41, 55 (2d Cir. 2025) (holding that district court did not abuse
+discretion in denying leave to amend where plaintiff only perfunctorily requested leave to amend
+                                                  26
+      Case 1:25-cv-03552-JLR          Document 161         Filed 03/10/26      Page 27 of 28
+
+
+
+IV.    Sanctions
+
+       Defendants also filed a motion for sanctions. See Dkt. 98. Defendants argue that
+
+sanctions are warranted under Rule 11 of the Federal Rules of Civil Procedure for three reasons:
+
+(1) Cartagena’s Complaint is factually frivolous and lacks evidentiary support, (2) Cartagena’s
+
+claims are legally baseless, and (3) Cartagena filed the Complaint for improper purposes. See
+
+Sanctions Br. at 4-5. The Court does not agree.
+
+       Rule 11(b) provides that an attorney presenting a pleading, written motion, or other paper
+
+to the Court certifies that “(1) it is not being presented for any improper purpose, such as to
+
+harass, cause unnecessary delay, or needlessly increase the cost of litigation; (2) the claims,
+
+defenses, and other legal contentions are warranted by existing law or by a nonfrivolous
+
+argument for extending, modifying, or reversing existing law or for establishing new law; [and]
+
+(3) the factual contentions have evidentiary support or . . . will likely have evidentiary support
+
+after a reasonable opportunity for further investigation or discovery.” Fed. R. Civ. P. 11(b). If a
+
+court determines that Rule 11(b) has been violated, “the decision whether or not to impose
+
+sanctions is a matter for the court’s discretion.” Bobcar Media, LLC v. Aardvark Event
+
+Logistics, Inc., No. 16-cv-00885, 2019 WL 422613, at *2 (S.D.N.Y. Feb. 4, 2019) (quoting
+
+Perez v. Posse Comitatus, 373 F.3d 321, 325 (2d Cir. 2004)).
+
+       The Court can quickly dismiss Defendants’ first two arguments, since the Court refused
+
+to dismiss Cartagena’s defamation claims and, while it dismissed the IIED claim, there is no
+
+basis to find that it was so factually baseless or legally frivolous as to warrant sanctions. See JM
+
+Holdings 1 LLC v. Quarters Holding GmbH, No. 20-cv-03480 (JPO), 2021 WL 860516, at *8
+
+(S.D.N.Y. Mar. 8, 2021) (rejecting sanctions because allegations were not “so ‘patently void of
+
+
+
+in a footnote, and was put on notice of the deficiencies in a premotion letter and had ample
+opportunity to address them).
+                                                 27
+     Case 1:25-cv-03552-JLR          Document 161        Filed 03/10/26     Page 28 of 28
+
+
+
+any legal or factual basis’ as to warrant sanctions” (quoting Louis Vuitton Malletier v. Dooney &
+
+Bourke, Inc., No. 04-cv-05316 (RMB) (MHD), 2006 WL 2807213, at *6 (S.D.N.Y. Sept. 28,
+
+2006))).
+
+       Finally, the Court is not persuaded by Defendants’ argument that the complaint was filed
+
+for an improper purpose. “In the Second Circuit, improper purpose is not a valid basis for
+
+sanctions unless the complaint has been found to be frivolous.” JM Holdings 1 LLC, 2021 WL
+
+860516, at *8. Indeed, “[i]t would be counterproductive to use Rule 11 to penalize the assertion
+
+of non-frivolous substantive claims, even when the motives for asserting those claims are not
+
+entirely pure.” Id. (quoting Sussman v. Bank of Israel, 56 F.3d 450, 459 (2d Cir. 1995). Since
+
+Defendants have failed to demonstrate that Cartagena’s claims are frivolous, Rule 11 sanctions
+
+are not warranted.
+
+       Thus, Defendants’ motion for sanctions is denied. Plaintiff’s request for reimbursement
+
+of attorney’s fees incurred in opposing the motion is denied as well.
+
+                                        CONCLUSION
+
+       For the aforementioned reasons, the Court GRANTS in part and DENIES in part
+
+Defendants’ motion to dismiss. The Court dismisses Plaintiff’s third claim for intentional
+
+infliction of emotional distress without leave to amend. The Court denies the remainder of
+
+Defendants’ motion to dismiss and request for fees pursuant to N.Y. Civil Rights Law § 70-a.
+
+       Defendants’ motion for sanctions is DENIED. Plaintiff’s request for fees related to that
+
+motion is DENIED. The Clerk of the Court is respectfully directed to close the open motions at
+
+Dkt. 45 and Dkt. 98.
+
+Dated: March 10, 2026
+       New York, New York                                SO ORDERED.
+
+                                                          JENNIFER L. ROCHON
+                                                          United States District Judge
+                                                28
+

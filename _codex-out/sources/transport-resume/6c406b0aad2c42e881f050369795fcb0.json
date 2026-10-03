@@ -1,0 +1,27 @@
+{
+  "id": "6c406b0aad2c42e881f050369795fcb0",
+  "url": "https://www.illinoiscourts.gov/resources/23d7df84-ed51-48df-8477-3a6872db40d5/file",
+  "kind": "fetch",
+  "host": "www.illinoiscourts.gov",
+  "status": 302,
+  "headers": {
+    "cache-control": "private",
+    "content-type": "text/html; charset=utf-8",
+    "location": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/23d7df84-ed51-48df-8477-3a6872db40d5/Scott%20v.%20IL%20Human%20Rights%20Commn%202026%20IL%20App%20(1st)%20251462.pdf",
+    "server": "envoy",
+    "x-frame-options": "SAMEORIGIN",
+    "set-cookie": "[REDACTED]",
+    "x-powered-by": "ASP.NET",
+    "date": "Sat, 03 Oct 2026 18:37:37 GMT",
+    "x-envoy-upstream-service-time": "66",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:37.457651+00:00",
+  "sha256": "276b34b4353b537eb89b3d6713c227697541f949922700dc93297e39cee61d18",
+  "bytes": 306,
+  "body_path": "/workspace/freshness-control/transport-evidence/6c406b0aad2c42e881f050369795fcb0.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/6c406b0aad2c42e881f050369795fcb0.body"
+}

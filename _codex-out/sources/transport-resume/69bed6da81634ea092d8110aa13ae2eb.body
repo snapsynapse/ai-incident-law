@@ -1,0 +1,17 @@
+User-agent: *
+Crawl-delay: 10
+
+Disallow: /*?s=*
+Disallow: /collections/
+Disallow: /search
+Disallow: /search/
+Disallow: /search/*
+Disallow: /en/search
+Disallow: /en/search/
+Disallow: /en/search/*
+Disallow: /es/search
+Disallow: /es/search/
+Disallow: /es/search/*
+Disallow: /wp-login.php
+Disallow: /wp/wp-admin/
+Allow: /wp/wp-admin/admin-ajax.php

@@ -1,0 +1,8 @@
+User-agent: BUbiNG
+Disallow: /
+
+User-agent: *
+Disallow: /icm/icm/en/item/120620/index.do
+Disallow: /icm/icm/en/120620/1/document.do
+Disallow: /icm/icm/en/item/111322/index.do
+Disallow: /icm/icm/en/111322/1/document.do

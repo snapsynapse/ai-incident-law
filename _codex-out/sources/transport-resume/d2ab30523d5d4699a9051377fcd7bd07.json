@@ -1,0 +1,25 @@
+{
+  "id": "d2ab30523d5d4699a9051377fcd7bd07",
+  "url": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
+  "kind": "fetch",
+  "host": "ecf.flmd.uscourts.gov",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:32 GMT",
+    "cache-control": "max-age=0",
+    "expires": "Sat, 03 Oct 2026 18:37:32 GMT",
+    "content-type": "application/pdf",
+    "set-cookie": "[REDACTED]",
+    "x-envoy-upstream-service-time": "363",
+    "server": "envoy",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:32.267164+00:00",
+  "sha256": "7c5deaa49bab0fc1b4bfe8f70781a44a5470bd805da35a13de910e429d6a2ecd",
+  "bytes": 146796,
+  "body_path": "/workspace/freshness-control/transport-evidence/d2ab30523d5d4699a9051377fcd7bd07.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/d2ab30523d5d4699a9051377fcd7bd07.body"
+}

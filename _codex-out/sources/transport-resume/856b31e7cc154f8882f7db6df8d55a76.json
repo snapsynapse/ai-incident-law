@@ -1,0 +1,29 @@
+{
+  "id": "856b31e7cc154f8882f7db6df8d55a76",
+  "url": "https://www.smithlaw.com/robots.txt",
+  "kind": "robots",
+  "host": "www.smithlaw.com",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:44 GMT",
+    "content-type": "text/plain;charset=UTF-8",
+    "content-length": "178",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536001; preload; includeSubDomains",
+    "content-security-policy": "default-src 'self'; connect-src 'self' *; font-src 'self' data: *; frame-src 'self' *; frame-ancestors 'none'; img-src 'self' data: *; media-src 'self' *; object-src 'self' *; script-src 'self' 'unsafe-eval' 'unsafe-inline' *; style-src 'self' 'unsafe-inline' *; report-uri https://csp-reports.firmseek.com/smithanderson2;",
+    "x-content-type-options": "nosniff",
+    "x-envoy-upstream-service-time": "116",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:44.310939+00:00",
+  "sha256": "2a17194cb79bdb10d29ce13936e7249cd3cb9064bbce563db47a204b5fd54575",
+  "bytes": 178,
+  "body_path": "/workspace/freshness-control/transport-evidence/856b31e7cc154f8882f7db6df8d55a76.body",
+  "cached": true,
+  "body_evidence_copy": "_codex-out/sources/transport-resume/856b31e7cc154f8882f7db6df8d55a76.body"
+}

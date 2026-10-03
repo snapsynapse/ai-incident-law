@@ -1,0 +1,14 @@
+{
+  "id": "fd632bdddec24d32bef0dab11eba7292",
+  "url": "https://cohenmilstein.com/robots.txt",
+  "kind": "robots",
+  "host": "cohenmilstein.com",
+  "status": null,
+  "headers": {},
+  "complete": false,
+  "error": "Tunnel connection failed: 403 Forbidden",
+  "retrieved_at": "2026-10-03T03:03:47.651961+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/fd632bdddec24d32bef0dab11eba7292.body"
+}

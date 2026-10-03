@@ -1,0 +1,25 @@
+{
+  "id": "93c7d22b99e24f799995279f079b550a",
+  "url": "https://lawnext.com/wp-content/uploads/2024/03/M.D.-Fla.-24-mc-00002-dckt-000003_000-filed-2024-02-01.pdf",
+  "kind": "fetch",
+  "host": "lawnext.com",
+  "status": 301,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:40 GMT",
+    "server": "envoy",
+    "location": "https://www.lawnext.com/wp-content/uploads/2024/03/M.D.-Fla.-24-mc-00002-dckt-000003_000-filed-2024-02-01.pdf",
+    "cache-control": "max-age=1",
+    "expires": "Sat, 03 Oct 2026 18:37:41 GMT",
+    "content-length": "357",
+    "content-type": "text/html; charset=iso-8859-1",
+    "x-envoy-upstream-service-time": "107",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:40.648797+00:00",
+  "sha256": "2e68e5d668c1d2f4eaca4b8a0ce04928fb3ca93d8db045b0f1dbf4659352da61",
+  "bytes": 357,
+  "body_path": "/workspace/freshness-control/transport-evidence/93c7d22b99e24f799995279f079b550a.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/93c7d22b99e24f799995279f079b550a.body"
+}

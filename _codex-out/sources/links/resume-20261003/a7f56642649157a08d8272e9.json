@@ -1,0 +1,13 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots HTTP 403 blocks access",
+  "attempts": [],
+  "retrieved_at": "2026-10-03T18:37:54.217298+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/resume-20261003/a7f56642649157a08d8272e9.body"
+}

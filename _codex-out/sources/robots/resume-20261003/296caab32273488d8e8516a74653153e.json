@@ -1,0 +1,22 @@
+{
+  "id": "296caab32273488d8e8516a74653153e",
+  "url": "https://www.opn.ca6.uscourts.gov/robots.txt",
+  "kind": "robots",
+  "host": "www.opn.ca6.uscourts.gov",
+  "status": 301,
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "location": "https://www.ca6.uscourts.gov/robots.txt",
+    "server": "envoy",
+    "date": "Sat, 03 Oct 2026 18:37:47 GMT",
+    "content-length": "162",
+    "x-envoy-upstream-service-time": "222",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:47.195840+00:00",
+  "sha256": "6e021fce09ceb6d07b12a50f87d33dd3caa5347a13aa8a39e6db1e038a09c75e",
+  "bytes": 162,
+  "body_path": "/workspace/freshness-control/transport-evidence/296caab32273488d8e8516a74653153e.body"
+}

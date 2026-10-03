@@ -1,0 +1,26 @@
+{
+  "id": "225f6c53ec304bd7b3032d78ae3bc7f7",
+  "url": "https://ca10.uscourts.gov/sites/ca10/files/opinions/010111382504.pdf",
+  "kind": "fetch",
+  "host": "ca10.uscourts.gov",
+  "status": 301,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:30 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "280",
+    "location": "https://www.ca10.uscourts.gov/sites/ca10/files/opinions/010111382504.pdf",
+    "x-cache-status": "MISS",
+    "strict-transport-security": "max-age=16070400; preload",
+    "set-cookie": "[REDACTED]",
+    "x-envoy-upstream-service-time": "36",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:30.530983+00:00",
+  "sha256": "8b8a5446ca673b71487c24a5119b4da9234a54705a948104c1c385f102566bd3",
+  "bytes": 280,
+  "body_path": "/workspace/freshness-control/transport-evidence/225f6c53ec304bd7b3032d78ae3bc7f7.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/225f6c53ec304bd7b3032d78ae3bc7f7.body"
+}

@@ -1,0 +1,471 @@
+USCA11 Case: 24-11033    Document: 72-1       Date Filed: 07/10/2026      Page: 1 of 14
+
+
+
+
+                             FOR PUBLICATION
+
+
+                                     In the
+                 United States Court of Appeals
+                         For the Eleventh Circuit
+                           ____________________
+                                  No. 24-11033
+                             Non-Argument Calendar
+                           ____________________
+
+        PATRICK AKERLUND,
+        MICHAEL ALZATI,
+        ERIC W. ANDERSON,
+        MICHAEL G. BALLARD, JR., et al.,
+                                                         Plaintiﬀs-Appellants,
+        versus
+
+        ATLAS AIR, INC.,
+        FLIGHT SERVICES INTERNATIONAL, LLC,
+                                          Defendants-Appellees,
+                           ____________________
+                    Appeal from the United States District Court
+                        for the Southern District of Florida
+                       D.C. Docket No. 1:22-cv-23519-KMM
+                           ____________________
+
+        Before ROSENBAUM, GRANT, and KIDD, Circuit Judges.
+USCA11 Case: 24-11033      Document: 72-1      Date Filed: 07/10/2026      Page: 2 of 14
+
+
+
+
+        2                       Opinion of the Court                 24-11033
+
+        GRANT, Circuit Judge:
+
+               A group of plaintiﬀs, employees in the commercial aviation
+        business, personally reject their companies’ pandemic-era policies
+        on masks, testing, and vaccination. The district court dismissed the
+        third amended complaint for lack of personal jurisdiction and
+        failure to state a claim, and we aﬃrm.
+               The claims in this case are remarkably weak, at least as
+        pleaded. We are more candid than usual in this assessment because
+        the plaintiﬀs’ counsel Anthony F. Sabatini has not been candid with
+        us. Sabatini ﬁled multiple briefs replete with fake and hallucinated
+        citations. Even after being warned. “Always a bad idea.” Chief
+        Justice John G. Roberts, Jr., 2023 Year-End Report on the Federal
+        Judiciary, at 6 (2023). By outsourcing his legal work to an AI
+        algorithm, Sabatini violated his ethical duties to both his clients and
+        this Court.
+                                          I.
+               Atlas Air is a commercial airline, and Flight Services
+        International hires contractors to staﬀ Atlas Air’s ﬂights. During
+        the Covid-19 pandemic, both companies required employees to
+        vaccinate against Covid-19, unless they obtained a religious or
+        medical exemption—in which case, they had to undergo periodic
+        testing and wear a mask on the job.
+              The plaintiﬀs say they object on religious grounds to what
+        they perceive as “a dangerous social and medical experiment.”
+        They explain that, among other things, their “conscience prohibits
+USCA11 Case: 24-11033      Document: 72-1       Date Filed: 07/10/2026     Page: 3 of 14
+
+
+
+
+        24-11033               Opinion of the Court                          3
+
+        them from being inoculated with any experimental foreign
+        substance,” and that their religious rights were violated as a result
+        of “the Biden Administration’s goal of achieving universal
+        vaccination and to unlawfully acquire [their] personal, genetic
+        information.” And in their view, the companies’ accommodations
+        for religious objectors to the vaccination requirement were
+        unreasonable: monthly testing imposed “substantial burdens,” and
+        masks were “functionally useless” “symbols” that accomplished
+        “nothing more than political advertising.” Some plaintiﬀs say that
+        they “succumbed to the pressure” and took the vaccine; others
+        begrudgingly wore masks and tested. The complaint does not
+        allege that anyone lost their job, but does allege that some plaintiﬀs
+        were assigned to less desirable, lower-paying ﬂights.
+               The plaintiﬀs assert that their employers’ Covid-19 protocols
+        led to a hostile work environment under Title VII; a Federal Food,
+        Drug, and Cosmetic Act violation; a federal constitutional
+        deprivation; a tortious invasion of privacy; a negligent disclosure
+        of private medical information; and an inﬂiction of emotional
+        distress. The district court dismissed all claims against Flight
+        Services International and some claims against Atlas Air for lack of
+        personal jurisdiction, and the remaining claims against Atlas Air for
+        failure to state a claim.
+                                          II.
+               We review de novo a district court’s dismissal of a complaint
+        for lack of personal jurisdiction and for failure to state a claim. See
+        Carmouche v. Tamborlee Mgmt., Inc., 789 F.3d 1201, 1203 (11th Cir.
+USCA11 Case: 24-11033         Document: 72-1        Date Filed: 07/10/2026        Page: 4 of 14
+
+
+
+
+        4                         Opinion of the Court                      24-11033
+
+        2015); Quality Auto Painting Ctr. of Roselle, Inc. v. State Farm Indem.
+        Co., 917 F.3d 1249, 1260 (11th Cir. 2019) (en banc).
+                                             III.
+                Federal Rule of Civil Procedure 4(k)(1)(A) offers personal
+        jurisdiction over a defendant “who is subject to the jurisdiction of
+        a court of general jurisdiction in the state where the district court
+        is located.” To meet that requirement, “the exercise of jurisdiction
+        must (1) be appropriate under the state long-arm statute and (2) not
+        violate the Due Process Clause of the Fourteenth Amendment.”
+        United Techs. Corp. v. Mazer, 556 F.3d 1260, 1274 (11th Cir. 2009).
+        “A plaintiff bears the burden of establishing a prima facie case of
+        personal jurisdiction over the non-resident defendant.” Jekyll
+        Island-State Park Auth. v. Polygroup Macau Ltd., 140 F.4th 1304, 1315
+        (11th Cir. 2025).
+               Exercising personal jurisdiction over Flight Services
+        International in this lawsuit would violate due process because
+        neither general nor specific jurisdiction is available in Florida for
+        this company.1
+               Those two concepts match their terminology. General
+        jurisdiction is broader, allowing a court “to hear any and all claims”
+        against an out-of-state company when its “affiliations with the State
+
+
+        1 We do not reach Atlas Air’s personal jurisdiction arguments because it
+
+        concedes that the district court may decide claims brought by employees who
+        work in Florida. As we explain in part IV, all claims against Atlas Air fail on
+        the merits.
+USCA11 Case: 24-11033       Document: 72-1       Date Filed: 07/10/2026     Page: 5 of 14
+
+
+
+
+        24-11033                Opinion of the Court                           5
+
+        are so ‘continuous and systematic’ as to render them essentially at
+        home in the forum State.” Goodyear Dunlop Tires Operations, S.A. v.
+        Brown, 564 U.S. 915, 919 (2011) (quoting Int’l Shoe Co. v. Washington,
+        326 U.S. 310, 317 (1945)). Though general jurisdiction allows a
+        broad set of claims to be litigated, it is available only in relatively
+        narrow circumstances. See Daimler AG v. Bauman, 571 U.S. 117, 137
+        (2014). A corporation’s “place of incorporation and principal place
+        of business are paradigm bases for general jurisdiction.” Id.
+        (alterations adopted and quotation omitted). Beyond that, only in
+        an “exceptional case” will a corporation’s operations in a forum be
+        “so substantial and of such a nature as to render the corporation at
+        home.” Carmouche, 789 F.3d at 1204 (quotations omitted).
+                Specific jurisdiction, on the other hand, “covers defendants
+        less intimately connected with a State, but only as to a narrower
+        class of claims.” Ford Motor Co. v. Mont. Eighth Jud. Dist. Ct., 592 U.S.
+        351, 359 (2021). Specific jurisdiction attaches if the defendant
+        “purposefully avails itself of the privilege of conducting activities
+        within the forum State,” and there is “an affiliation between the
+        forum and the underlying controversy.” Hanson v. Denckla, 357
+        U.S. 235, 253 (1958); Bristol-Myers Squibb Co. v. Superior Ct. of Cal.,
+        San Francisco Cnty., 582 U.S. 255, 262 (2017) (quotation omitted).
+               Neither general nor specific jurisdiction is available here. To
+        start, Flight Services International is incorporated and
+        headquartered in Texas. The general jurisdiction inquiry
+        ordinarily ends here. Even so, the plaintiffs insist that the company
+        is “at home” in Florida because it sends employees to attend
+USCA11 Case: 24-11033         Document: 72-1         Date Filed: 07/10/2026         Page: 6 of 14
+
+
+
+
+        6                          Opinion of the Court                       24-11033
+
+        “annual or biannual” training sessions in Miami. That is not
+        enough. An employee’s “brief presence” in the forum state “for
+        the purpose of attending the training sessions” does not establish
+        general jurisdiction. See Helicopteros Nacionales de Colombia, S.A. v.
+        Hall, 466 U.S. 408, 417–18 (1984).
+               The plaintiffs’ theory of specific jurisdiction likewise hinges
+        on Flight Services International’s training sessions in Miami. But
+        their claims do not “arise out of or relate to” these sessions. Ford
+        Motor Co., 592 U.S. at 359 (quotation omitted). The plaintiffs do
+        not so much as allege that any one of them ever traveled to Florida
+        to attend those training sessions while the vaccination requirement
+        was in place. Nor do they contend that anyone was barred from
+        attending those sessions because of their vaccination status. To the
+        extent any plaintiff was aggrieved, it was not in Florida.2
+               The district court was correct that it lacked personal
+        jurisdiction over Flight Services International.
+                                              IV.
+               We now turn to the plaintiffs’ claims against Atlas Air.
+        Because some of the plaintiffs work in the airline’s Florida facilities,
+        the district court had jurisdiction over at least those employees’
+        claims. But none are plausible.
+
+
+
+        2 Because the plaintiffs fail to establish a prima facie case for personal
+        jurisdiction, they are not entitled to jurisdictional discovery. Butler v. Sukhoi
+        Co., 579 F.3d 1307, 1314 (11th Cir. 2009).
+USCA11 Case: 24-11033      Document: 72-1      Date Filed: 07/10/2026     Page: 7 of 14
+
+
+
+
+        24-11033               Opinion of the Court                         7
+
+                                         A.
+               The plaintiffs first allege that Atlas Air created a work
+        environment hostile to their religious beliefs, in violation of Title
+        VII. They say that Atlas Air’s “repeated attempts to coerce” them
+        into getting vaccinated constituted “unwelcomed harassment.”
+                To prevail on this claim, “the plaintiff is required to prove
+        that the defendant had a discriminatory intent or motive.” Watson
+        v. Fort Worth Bank & Tr., 487 U.S. 977, 986 (1988). But the plaintiffs
+        do not allege any facts indicating that Atlas Air intended to
+        discriminate against their religious beliefs. In fact, the allegations
+        suggest the opposite. Under its policy, Atlas Air exempted from its
+        vaccine requirement employees who professed a sincere religious
+        objection to the Covid-19 vaccine. Instead, they had to wear a
+        mask at work and test once a month.
+               The plaintiffs now seem to assert that these
+        accommodations are also hostile to their religion. The problem
+        with this argument is that there is nothing to back it up in the
+        pleadings. The plaintiffs do not allege any religious objections to
+        masks or tests—only political and logistical ones. Masks, they say,
+        are “functionally useless” “political symbols” that “serve no other
+        purpose than identifying ‘dissident’ employees.” And the plaintiffs
+        offer no real problem with testing, other than a generalized
+        complaint that it entails “substantial burdens.” What those
+        burdens are, and whether they are religious in nature, the plaintiffs
+        do not say. Nor do they allege that employees who received
+USCA11 Case: 24-11033       Document: 72-1      Date Filed: 07/10/2026      Page: 8 of 14
+
+
+
+
+        8                       Opinion of the Court                  24-11033
+
+        religious exemptions were treated any worse than those who
+        received medical exemptions.
+                Whatever one makes of the plaintiffs’ dislike of masks and
+        tests, they have alleged no facts signaling animosity from Atlas Air
+        toward their religious beliefs. The allegation that Atlas Air
+        harbored a discriminatory motive is not only conclusory, but
+        “wildly implausible.” Miller v. Donald, 541 F.3d 1091, 1100 (11th
+        Cir. 2008).
+                                          B.
+               The plaintiffs also bring claims under the Federal Food,
+        Drug, and Cosmetic Act, alleging that Atlas Air unlawfully required
+        its employees to take medical products authorized for emergency
+        use. See 21 U.S.C. § 360bbb-3. But they cannot sue to enforce such
+        claims; only the federal government can bring enforcement actions
+        under that statute. See 21 U.S.C. § 337(a); Buckman Co. v. Plaintiffs’
+        Legal Comm., 531 U.S. 341, 349 n.4 (2001).
+                                          C.
+                The plaintiffs also allege various constitutional harms,
+        attempting to sue under § 1983 and Bivens v. Six Unknown Named
+        Agents of Federal Bureau of Narcotics, 403 U.S. 388 (1971). Of course,
+        § 1983 allows suits against state officers, and Bivens, to the limited
+        extent it applies, is for suits against federal officers. So we need not
+        elaborate further on why these claims against Atlas Air—a private
+        company—fail. And even if we were to assume (though it would
+        be a stretch to do so) that Atlas Air qualifies as a state actor because
+        as a federal contractor it introduced its vaccine requirement to
+USCA11 Case: 24-11033       Document: 72-1       Date Filed: 07/10/2026      Page: 9 of 14
+
+
+
+
+        24-11033                Opinion of the Court                            9
+
+        comply with President Biden’s Executive Order 14042, § 2, 86 Fed.
+        Reg. 50985 (Sept. 9, 2021), “recognizing a cause of action under
+        Bivens is a disfavored judicial activity.” Goldey v. Fields, 606 U.S. 942,
+        944 (2025) (quotations omitted). We decline to make the dramatic
+        Bivens extension that the plaintiffs request. See Ziglar v. Abbasi, 582
+        U.S. 120, 135 (2017).
+                                           D.
+                The plaintiffs also allege several state tort claims. The first
+        is that Atlas Air tortiously invaded their privacy by disclosing
+        private medical information—namely, vaccination status—to
+        company administrators in charge of enforcing Covid-19 protocols.
+        “In Florida, except in cases of physical invasion, the tort of invasion
+        of privacy must be accompanied by publication to the public in
+        general or to a large number of persons.” Steele v. Offshore
+        Shipbuilding, Inc., 867 F.2d 1311, 1315 (11th Cir. 1989); see also
+        Williams v. City of Minneola, 575 So. 2d 683, 689 (Fla. Dist. Ct. App.
+        1991). And publicity “requires that a matter be made public, by
+        communicating it to the public at large, or to so many persons that
+        the matter must be regarded as substantially certain to become one
+        of public knowledge.” Hunstein v. Preferred Collection & Mgmt.
+        Servs., Inc., 48 F.4th 1236, 1246 (11th Cir. 2022) (en banc) (quotation
+        omitted). The plaintiffs do not allege sufficient facts on this score.
+               Indeed, their theory of publicity is even further afield than
+        the theory we rejected in Hunstein. There, we explained that the
+        defendant’s disclosure of personal information to a third-party
+        intermediary does not, by itself, satisfy publicity. Id. at 1247. Here,
+USCA11 Case: 24-11033       Document: 72-1       Date Filed: 07/10/2026       Page: 10 of 14
+
+
+
+
+        10                       Opinion of the Court                    24-11033
+
+        the plaintiffs allege that Atlas Air “circulate[d] the information
+        about which crewmembers (vaccinated or unvaccinated) would
+        qualify for certain flights involving company imposed COVID-19
+        restrictions.” In other words, Atlas Air disseminated employees’
+        vaccination status internally—to assign shifts and rearrange work
+        schedules based on compliance with the company’s vaccination,
+        testing, and masking rules. An internal email or memo disclosing
+        an employee’s medical information for legitimate work-related
+        reasons does not amount to public disclosure. That information
+        does not reach, nor is it sure to reach, the public. Id. The tortious
+        invasion of privacy claims were properly dismissed. 3
+               In a similar vein, the plaintiffs assert that Atlas Air
+        negligently disclosed their private medical information to the
+        public. But these negligence claims fail for the same reason: their
+        medical information did not reach, nor was it sure to reach, the
+        public.
+               We also reject the plaintiffs’ intentional infliction of
+        emotional distress claims. Those would require showing that Atlas
+        Air intentionally or recklessly caused “severe emotional distress”
+        through “extreme and outrageous conduct.” E. Airlines, Inc. v. King,
+        557 So. 2d 574, 575–76 (Fla. 1990) (quoting Restatement (Second)
+        of Torts § 46 (A.L.I. 1965)). The challenged conduct must “go
+
+
+        3 Separately, the plaintiffs arguably assert that Atlas Air’s masking rules
+        constituted compelled disclosure of one’s vaccination status. But the
+        complaint does not plausibly allege that an employee’s vaccination status
+        could be readily inferred from the fact that she is masked.
+USCA11 Case: 24-11033         Document: 72-1         Date Filed: 07/10/2026         Page: 11 of 14
+
+
+
+
+        24-11033                   Opinion of the Court                                11
+
+        beyond all possible bounds of decency, and to be regarded as
+        atrocious, and utterly intolerable in a civilized community.” 4 Id. at
+        576 (quotation omitted).
+               Like many other employers at the time, Atlas Air required
+        certain precautions designed to prevent the spread of Covid-19.
+        But the fact that the plaintiffs disagree with the steps Atlas Air took
+        does not put the airline’s actions beyond all possible bounds of
+        decency. The district court correctly dismissed the plaintiffs’
+        intentional infliction of emotional distress claims.
+                                               V.
+               Though the filings in this case were substandard in a variety
+        of ways, we have saved the worst for last. The plaintiffs’ counsel
+        Anthony F. Sabatini’s filings are riddled with citations to
+        nonexistent, “hallucinated” cases. His opening brief relies on at
+        least eight such cases, including one purportedly decided by this
+        Court.5 After the defendants identified this problem, Sabatini
+
+        4 To the extent the plaintiffs allege negligent infliction of emotional distress
+
+        claims, they concede that Florida law generally requires a plaintiff to allege
+        “that the emotional stress suffered flowed from injuries sustained in an
+        impact.” Fernander v. Bonis, 947 So. 2d 584, 590 (Fla. Dist. Ct. App. 2007)
+        (quotation omitted). That requirement is not satisfied here.
+        5 These include Doe v. Roe, 638 So. 2d 87 (Fla. 4th DCA 1994); Spilfogel v. Fox
+
+        Broadcasting Co., 792 So. 2d 1254 (Fla. 4th DCA 2001); Doe v. University of Miami,
+        2020 WL 7647634 (S.D. Fla. Dec. 23, 2020); Jewell v. New York Life Insurance Co.,
+        2018 WL 1792348 (M.D. Fla. Apr. 16, 2018); Lofton v. Kravitz, 672 So. 2d 591
+        (Fla. 4th DCA 1996); Tillery v. ATSI, Inc., 2005 WL 81628 (11th Cir. Jan. 14,
+        2005); Koutsouradis v. Delta Air Lines, Inc., 427 So. 2d 1105 (Fla. 3d DCA 1983);
+        Weinstein v. City of North Bay Village, 977 So. 2d 703 (Fla. 3d DCA 2008); Draper
+USCA11 Case: 24-11033        Document: 72-1        Date Filed: 07/10/2026        Page: 12 of 14
+
+
+
+
+        12                        Opinion of the Court                      24-11033
+
+        acknowledged in his (untimely) proposed reply brief that those
+        citations were “erroneous or unverifiable,” and sought to
+        withdraw his reliance on eight listed cases. 6 At this point, things go
+        from bad to worse: the eight cases Sabatini “withdrew” did not
+        match a single one of the eight hallucinated cases in his opening
+        brief. And not only were they not the right cases—all eight were
+        also hallucinated.
+              We are far from the first court to see lawyers uncritically rely
+        on artificial intelligence software and submit briefs citing
+        nonexistent cases. See Chief Justice John G. Roberts, Jr., 2023 Year-
+        End Report on the Federal Judiciary, at 5–6 (2023). The typical
+        response when this kind of violation is identified is some version of
+        an apology from the attorney, often with sanctions to follow. It is
+        rare to see the kind of blatant and repeated misconduct that
+        Sabatini has committed in this case.
+             The first rule of our profession is that a lawyer “shall provide
+        competent representation to a client”—“competent” in the sense
+
+        v. United Airlines, Inc., No. 22-cv-02985, 2023 WL 3002478 (D. Colo. Apr. 19,
+        2023).
+        6 These are Truong v. Waste Pro USA, Inc., 175 So. 3d 929 (Fla. 4th DCA 2015);
+
+        Marvin v. Dade County School Board, 2020 WL 603633 (S.D. Fla. Feb. 7, 2020);
+        Morrison v. Palm Beach County School Board, 2018 WL 6727067 (S.D. Fla. Dec.
+        21, 2018); Scott v. Eglin Federal Credit Union, 2022 WL 1558341 (N.D. Fla. May
+        17, 2022); Hansen v. Florida, 2022 WL 2980744 (M.D. Fla. July 28, 2022); Palmer
+        v. McDonald’s Corp., 2022 WL 413680 (S.D. Fla. Feb. 10, 2022); Negron v. School
+        Board of Miami-Dade County, 2021 WL 4948181 (S.D. Fla. Oct. 22, 2021). While
+        Koutsouradis v. Delta Air Lines, Inc. appears in both filings, the reply brief
+        attributes it to a different court.
+USCA11 Case: 24-11033        Document: 72-1        Date Filed: 07/10/2026        Page: 13 of 14
+
+
+
+
+        24-11033                  Opinion of the Court                             13
+
+        that it requires “legal knowledge, skill, thoroughness and
+        preparation.” Model Rules of Pro. Conduct r. 1.1 (A.B.A. 1983). It
+        goes without saying that completely outsourcing one’s legal work
+        to artificial intelligence software is not competent. See A.B.A.
+        Comm. on Ethics & Pro. Resp., Formal Op. 512, at 3–4 (2024).
+        Doing so is a dramatic violation of the client’s interests.
+                But it does not stop there, because lawyers are also officers
+        of the Court. We expect that when lawyers submit briefs, they give
+        us their best view of what the law is, and how that law supports
+        their clients. We read those briefs carefully—not just because they
+        are the product of counsel’s time, effort, and skill, but because they
+        help us as we try to reach the right answer. All that is lost if a
+        lawyer decides that it is not worthwhile to do the work to persuade
+        us—if he is willing to sign his name on whatever a machine churns
+        out without so much as checking it for accuracy. We cannot do
+        our job the same way unless lawyers do theirs.
+               Whatever the merits of artificial intelligence, it is no
+        substitute for actual intelligence. Any “use of AI requires caution
+        and humility.” Roberts, 2023 Year-End Report on the Federal Judiciary,
+        at 5. When lawyers rely on AI tools, there is no way to get around
+        the obligation to verify that the software got it right, and that what
+        it got wrong will not end up in court filings. 7 By signing his name
+
+
+        7 AI algorithms are notorious for producing “outputs that echo users’ opinions
+
+        and beliefs, even when those views are incorrect.” Lujain Ibrahim et al.,
+        Training Language Models to Be Warm Can Reduce Accuracy and Increase
+        Sycophancy, 652 Nature 1159, 1162 (2026). This tendency presents a particular
+USCA11 Case: 24-11033         Document: 72-1         Date Filed: 07/10/2026          Page: 14 of 14
+
+
+
+
+        14                         Opinion of the Court                         24-11033
+
+        on briefs filled with hallucinated citations—not once but twice—
+        Sabatini violated his professional obligations, both to his clients and
+        to this Court. If he thinks these claims are not worth the effort, he
+        should either tell his clients they fall short or advise them to hire
+        another lawyer—not file obviously insufficient pleadings and briefs
+        generated by AI tools. In a separate order, this Court, through the
+        Chief Judge, will refer the matter to the Committee on Lawyer
+        Qualifications and Conduct. See 11th Cir. Rules, Addendum 8, r.
+        2(C).
+                                        *       *        *
+               We AFFIRM the dismissal of the third amended complaint
+        for lack of personal jurisdiction and failure to state a claim.
+
+
+
+
+        danger in legal filings, as one of a lawyer’s chief duties is to give his clients a
+        clear-eyed view of whether the law says what the client wants it to say.
+

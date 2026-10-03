@@ -1,0 +1,30 @@
+{
+  "id": "05d3a8b9a4564d8e8bca868c0e5edf64",
+  "url": "https://aclumich.org/cases/facial-recognition/",
+  "kind": "fetch",
+  "host": "aclumich.org",
+  "status": 301,
+  "headers": {
+    "retry-after": "0",
+    "server": "envoy",
+    "location": "https://www.aclumich.org/cases/facial-recognition/",
+    "x-pantheon-redirect": "primary-domain-policy-doc",
+    "accept-ranges": "bytes",
+    "date": "Sat, 03 Oct 2026 18:37:27 GMT",
+    "via": "1.1 varnish",
+    "x-served-by": "cache-chi-klot8100030-CHI",
+    "x-cache": "HIT",
+    "x-cache-hits": "0",
+    "x-timer": "S1791052647.132077,VS0,VE8",
+    "content-length": "0",
+    "x-envoy-upstream-service-time": "52",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:26.879142+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/05d3a8b9a4564d8e8bca868c0e5edf64.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/05d3a8b9a4564d8e8bca868c0e5edf64.body"
+}

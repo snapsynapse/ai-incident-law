@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+Sitemap: https://dockets.justia.com/dockets-sitemap-recent.xml
+Sitemap: https://dockets.justia.com/dockets-sitemap-archive.xml

@@ -1,0 +1,28 @@
+{
+  "id": "eb37b053c7234d75bfd6e6e0018b0a94",
+  "url": "https://www.ftc.gov/robots.txt",
+  "kind": "robots",
+  "host": "www.ftc.gov",
+  "status": 200,
+  "headers": {
+    "accept-ranges": "bytes",
+    "content-type": "text/plain",
+    "etag": "\"e6376368cc1318afbb1c72b98638693b:1652288510.292592\"",
+    "last-modified": "Wed, 11 May 2022 17:01:50 GMT",
+    "server": "envoy",
+    "content-length": "3056",
+    "date": "Sat, 03 Oct 2026 18:37:32 GMT",
+    "alt-svc": "h3=\":443\"; ma=93600",
+    "strict-transport-security": "max-age=31536000 ; preload",
+    "x-envoy-upstream-service-time": "46",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:32.499735+00:00",
+  "sha256": "85024bc00d13205858fefe8d39817407cee112295dc2dd7e80ab38ce30e21737",
+  "bytes": 3056,
+  "body_path": "/workspace/freshness-control/transport-evidence/eb37b053c7234d75bfd6e6e0018b0a94.body",
+  "cached": true,
+  "body_evidence_copy": "_codex-out/sources/transport-resume/eb37b053c7234d75bfd6e6e0018b0a94.body"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e32f48a9a97145a3931b51e6f95e3227",
+  "url": "https://tuchtrecht.overheid.nl/ECLI:NL:TADRSHE:2026:93",
+  "kind": "fetch",
+  "host": "tuchtrecht.overheid.nl",
+  "status": 200,
+  "headers": {
+    "server": "envoy",
+    "date": "Sat, 03 Oct 2026 18:37:49 GMT",
+    "content-type": "text/html;charset=UTF-8",
+    "content-language": "en-US",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "content-security-policy": "frame-ancestors 'self'",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "permissions-policy": "accelerometer=(), camera=(), gyroscope=(), magnetometer=(), microphone=(), payment=()",
+    "x-envoy-upstream-service-time": "443",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:48.242661+00:00",
+  "sha256": "63647570ae2bd54562bbcdd42e51c449270761a2f3bf9d31522972d72e05d457",
+  "bytes": 70881,
+  "body_path": "/workspace/freshness-control/transport-evidence/e32f48a9a97145a3931b51e6f95e3227.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/e32f48a9a97145a3931b51e6f95e3227.body"
+}

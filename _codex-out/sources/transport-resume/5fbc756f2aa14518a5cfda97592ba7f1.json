@@ -1,0 +1,22 @@
+{
+  "id": "5fbc756f2aa14518a5cfda97592ba7f1",
+  "url": "https://fisherphillips.com/en/insights/insights/discrimination-lawsuit-over-workdays-ai-hiring-tools-can-proceed-as-class-action-6-things",
+  "kind": "fetch",
+  "host": "fisherphillips.com",
+  "status": 301,
+  "headers": {
+    "content-length": "0",
+    "location": "https://www.fisherphillips.com/en/insights/insights/discrimination-lawsuit-over-workdays-ai-hiring-tools-can-proceed-as-class-action-6-things",
+    "x-envoy-upstream-service-time": "180",
+    "date": "Sat, 03 Oct 2026 18:37:41 GMT",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:41.279781+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/5fbc756f2aa14518a5cfda97592ba7f1.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/5fbc756f2aa14518a5cfda97592ba7f1.body"
+}

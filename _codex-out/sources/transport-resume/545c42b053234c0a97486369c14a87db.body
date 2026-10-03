@@ -1,0 +1,16 @@
+# This file disallows web spiders from crawling unreachable pages.
+# Further references about this file can be found using the links below:
+#		http://support.microsoft.com/kb/217103
+#		http://www.robotstxt.org/orig.html
+#		http://www.robotstxt.org/wc/faq.html
+#		http://www.robotstxt.org/
+User-agent: *
+Disallow: /edocs/public/CaseDetails.aspx
+Disallow: /edocs/public/CaseDetailsFromJims.aspx
+Disallow: /edocs/public/CaseDetailsPrinting.aspx
+Disallow: /edocs/public/ChronologicalListing.aspx
+Disallow: /edocs/public/Search.aspx
+Disallow: /edocs/public/SearchMinutesResults.aspx
+Disallow: /edocs/public/SearchSpecialMinutes.aspx
+Disallow: /edocs/public/ViewFilePage.aspx
+Disallow: /*.axd

@@ -1,0 +1,22 @@
+{
+  "id": "c4eba499e9464399ba63a85a1a36a06c",
+  "url": "https://app.ediscoveryassistant.com/robots.txt",
+  "kind": "robots",
+  "host": "app.ediscoveryassistant.com",
+  "status": 301,
+  "headers": {
+    "server": "envoy",
+    "date": "Sat, 03 Oct 2026 18:37:17 GMT",
+    "content-type": "text/html",
+    "content-length": "134",
+    "location": "https://app.minerva26.com:443/robots.txt",
+    "x-envoy-upstream-service-time": "136",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:16.881021+00:00",
+  "sha256": "34ccdc351dc93dbf30a8630521968421091e3ed19c31a16e32c2eabb55c6a73a",
+  "bytes": 134,
+  "body_path": "/workspace/freshness-control/transport-evidence/c4eba499e9464399ba63a85a1a36a06c.body"
+}

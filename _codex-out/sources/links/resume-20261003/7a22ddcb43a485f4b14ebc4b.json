@@ -1,0 +1,75 @@
+{
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:45 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "server": "envoy",
+    "vary": "Accept-Encoding",
+    "link": "<https://reason.com/wp-json/wp/v2/volokh-post/8400335>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"",
+    "last-modified": "Sat, 03 Oct 2026 18:37:45 GMT",
+    "content-security-policy": "frame-ancestors 'self';",
+    "x-envoy-upstream-service-time": "725",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "finalUrl": "https://reason.com/volokh/2026/09/04/incredulity-that-competent-law-firm-representing-one-of-the-largest-financial-institutions-in-the-world-filed-brief-with-ai-hallucinations/",
+  "complete": true,
+  "redirects": [],
+  "error": null,
+  "attempts": [
+    {
+      "id": "0efeee6592874cc19a9c361a140ead2a",
+      "url": "https://reason.com/robots.txt",
+      "kind": "robots",
+      "host": "reason.com",
+      "status": 200,
+      "headers": {
+        "date": "Sat, 03 Oct 2026 18:37:43 GMT",
+        "content-type": "text/plain; charset=utf-8",
+        "server": "envoy",
+        "vary": "Accept-Encoding",
+        "x-robots-tag": "noindex, follow",
+        "link": "<https://reason.com/wp-json/>; rel=\"https://api.w.org/\"",
+        "content-security-policy": "frame-ancestors 'self';",
+        "x-envoy-upstream-service-time": "248",
+        "connection": "close",
+        "transfer-encoding": "chunked"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:42.563144+00:00",
+      "sha256": "4d5a7cd7a299203059a5b588d5c30b46a90efd65a71aedfee5eb6a7d63291764",
+      "bytes": 248,
+      "body_path": "/workspace/freshness-control/transport-evidence/0efeee6592874cc19a9c361a140ead2a.body"
+    },
+    {
+      "id": "8a049137a8344a969c09ee62d4485209",
+      "url": "https://reason.com/volokh/2026/09/04/incredulity-that-competent-law-firm-representing-one-of-the-largest-financial-institutions-in-the-world-filed-brief-with-ai-hallucinations/",
+      "kind": "fetch",
+      "host": "reason.com",
+      "status": 200,
+      "headers": {
+        "date": "Sat, 03 Oct 2026 18:37:45 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "server": "envoy",
+        "vary": "Accept-Encoding",
+        "link": "<https://reason.com/wp-json/wp/v2/volokh-post/8400335>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"",
+        "last-modified": "Sat, 03 Oct 2026 18:37:45 GMT",
+        "content-security-policy": "frame-ancestors 'self';",
+        "x-envoy-upstream-service-time": "725",
+        "connection": "close",
+        "transfer-encoding": "chunked"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:44.563256+00:00",
+      "sha256": "dce7e3234cf960e1a68598cfb3876f5d6deda772dbf48a231debe144b3afac26",
+      "bytes": 163399,
+      "body_path": "/workspace/freshness-control/transport-evidence/8a049137a8344a969c09ee62d4485209.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T18:37:44.563256+00:00",
+  "sha256": "dce7e3234cf960e1a68598cfb3876f5d6deda772dbf48a231debe144b3afac26",
+  "requested_url": "https://reason.com/volokh/2026/09/04/incredulity-that-competent-law-firm-representing-one-of-the-largest-financial-institutions-in-the-world-filed-brief-with-ai-hallucinations/",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/resume-20261003/7a22ddcb43a485f4b14ebc4b.body"
+}

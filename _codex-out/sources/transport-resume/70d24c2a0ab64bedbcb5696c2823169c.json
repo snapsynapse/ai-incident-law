@@ -1,0 +1,30 @@
+{
+  "id": "70d24c2a0ab64bedbcb5696c2823169c",
+  "url": "https://hcamag.com/us/news/general/24-year-ibm-veteran-sues-says-algorithm-blocked-his-rehire-at-48/576441",
+  "kind": "fetch",
+  "host": "hcamag.com",
+  "status": 308,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:35 GMT",
+    "content-length": "0",
+    "location": "https://www.hcamag.com/us/news/general/24-year-ibm-veteran-sues-says-algorithm-blocked-his-rehire-at-48/576441",
+    "set-cookie": "[REDACTED]",
+    "server": "envoy",
+    "x-content-type-options": "nosniff",
+    "request-context": "appId=cid-v1:c7ed3d8c-367b-415a-9991-6176ad182b01",
+    "x-powered-by": "ASP.NET",
+    "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a44e0f162b3a2d2a-ORD",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "x-envoy-upstream-service-time": "81",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:34.944059+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/70d24c2a0ab64bedbcb5696c2823169c.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/70d24c2a0ab64bedbcb5696c2823169c.body"
+}

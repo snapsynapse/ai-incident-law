@@ -1,0 +1,1872 @@
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 1 of 43 PageID: 1409
+
+
+
+
+                         UNITED STATES DISTRICT COURT
+                        FOR THE DISTRICT OF NEW JERSEY
+
+
+
+   NIJEER PARKS,
+
+          Plaintiff,
+
+   v.
+                                                     Case No. 2:21-cv-04021-
+   JOHN E. McCORMAC, et al.,                               JKS-LDW
+
+          Defendants.
+
+
+
+
+        AMICUS CURIAE BRIEF OF THE AMERICAN CIVIL LIBERTIES
+        UNION AND THE AMERICAN CIVIL LIBERTIES UNION OF NEW
+           JERSEY IN SUPPORT OF PLAINTIFF’S OPPOSITION TO
+            DEFENDANTS’ MOTION FOR SUMMARY JUDGMENT
+
+   Nathan Freed Wessler                  Dillon Reisman
+   American Civil Liberties Union        Alexander Shalom
+    Foundation                           Jeanne LoCicero
+   125 Broad Street, 18th Floor          American Civil Liberties Union
+   New York, NY 10004                     of New Jersey Foundation
+   (212) 549-2500                        570 Broad Street, 11th Floor
+   nwessler@aclu.org                     P.O. Box 32159
+                                         Newark, NJ 07102
+                                         (973) 642-2086
+                                         dreisman@aclu-nj.org
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 2 of 43 PageID: 1410
+
+
+
+
+                                        TABLE OF CONTENTS
+
+  TABLE OF AUTHORITIES ................................................................................. ii
+
+  INTEREST OF AMICI CURIAE .......................................................................... 1
+
+  SUMMARY OF ARGUMENT ............................................................................. 1
+
+  ARGUMENT......................................................................................................... 4
+
+  I. Face Recognition Technology Is Inherently Unreliable and Cannot Be
+     Relied on as a Positive Identification of a Suspect ............................................ 4
+
+  II. A Witness Identification Based Solely on a FRT Search Result is
+      Inherently Suggestive and Cannot Support Probable Cause .............................14
+
+  III. Record Evidence Supports Plaintiff’s Malicious Prosecution Claim ...............19
+
+      A. Officers knowingly or recklessly withheld material information from
+         the warrant applications, resulting in issuance of warrants not based
+         on probable cause .......................................................................................19
+
+      B. The facts would support a jury finding of malice ........................................28
+
+      C. Qualified immunity cannot shield officers who submit affidavits
+         containing knowingly false statements or statements made in reckless
+         disregard of the truth. ..................................................................................29
+
+  IV. Woodbridge Township Is Liable for its Failure to Train its Officers or
+      Institute Policies on the Proper Use of Face Recognition Technology ............30
+
+  CONCLUSION ....................................................................................................35
+
+
+
+
+                                                               i
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 3 of 43 PageID: 1411
+
+
+
+
+                                          TABLE OF AUTHORITIES
+  Cases
+
+
+  Berg v. County of Allegheny,
+     219 F.3d 261 (3d Cir. 2000) .......................................................................32, 35
+
+  Brady v. Maryland,
+     373 U.S. 83 (1963)............................................................................................ 1
+
+  City of Canton, Ohio v. Harris,
+     489 U.S. 378 (1989) .........................................................................................30
+
+  Dempsey v. Bucknell University,
+    834 F.3d 457 (3d Cir. 2016) .............................................................................20
+
+  Edrei v. City of New York.,
+    254 F. Supp. 3d 565 (S.D.N.Y. 2017) ..............................................................32
+
+  Forrest v. Parry,
+    930 F.3d 93 (3d Cir. 2019) ...............................................................................30
+
+  Franks v. Delaware,
+     438 U.S. 154 (1978) .........................................................................................20
+
+  Harvard v. Cesnalis,
+    973 F.3d 190 (3d Cir. 2020) .............................................................................28
+
+  Lippay v. Christos,
+     996 F.2d 1490 (3d Cir. 1993) ...........................................................................29
+
+  Malley v. Briggs,
+    475 U.S. 335 (1986) .........................................................................................29
+
+  Maryland v. Pringle,
+    540 U.S. 366 (2003) .........................................................................................27
+
+  Monell v. Department of Social Services of New York,
+    436 U.S. 658 (1978) .........................................................................................30
+                                                               ii
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 4 of 43 PageID: 1412
+
+
+
+
+  Oliver v. Bussa,
+     No. 20-cv-12711 (E.D. Mich.) .......................................................................... 3
+
+  Orsatti v. New Jersey State Police,
+    71 F.3d 480 (3d Cir. 1995) ...............................................................................29
+
+  Perryman v. City of Bloomington,
+     No. 23-cv-1984 (D. Minn.) ............................................................................... 3
+
+  Perryman v. City of Bloomington,
+     No. 23-cv-1984, 2023 WL 8374283 (D. Minn. Dec. 4, 2023) ..........................34
+
+  Pinkney v. Meadville, Pennsylvania,
+     648 F. Supp. 3d 615 (W.D. Pa. 2023) ..............................................................29
+
+  Reid v. Bartholomew,
+     No. 23-cv-4035 (N.D. Ga.) ............................................................................... 3
+
+  State v. Arteaga,
+     296 A.3d 542 (N.J. Super. Ct. App. Div. 2023)........................................ 1, 5, 16
+
+  State v. Henderson,
+     23 A.3d 872 (N.J. 2011)...................................................................................18
+
+  Thomas v. Cumberland County,
+    749 F.3d 217 (3d Cir. 2014) .............................................................................31
+
+  United States v. Williams,
+    974 F.3d 320 (3d Cir. 2020) .............................................................................20
+
+  Williams v. City of Detroit,
+     No. 2:21-cv-10827 (E.D. Mich.) ....................................................................1, 3
+
+  Wilson v. Russo,
+     212 F.3d 781 (3d Cir. 2000) .............................................................................27
+
+  Woodruff v. City of Detroit,
+    No. 23-cv-11886 (E.D. Mich) ........................................................................... 3
+
+
+                                                            iii
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 5 of 43 PageID: 1413
+
+
+
+
+  Zimmerman v. Corbett,
+     873 F.3d 414 (3d Cir. 2017) .............................................................................19
+
+  Other Authorities
+
+
+  American Law Institute, Principles of the Law, Policing § 10.03 (2023) ..............15
+
+  Aman Bhatta et al., Impact of Blur and Resolution on Demographic
+    Disparities in 1-to-Many Facial Identification, preprint (2023) ........................ 8
+
+  Andrew Guthrie Ferguson, Facial Recognition and the Fourth Amendment,
+    105 Minn. L. Rev. 1105 (2021) ......................................................................... 5
+
+  Bureau of Justice Assistance, U.S. Department of Justice, Face Recognition:
+    Policy Development Template (2017) ........................................................13, 33
+
+  City of Detroit Government, WATCH LIVE: Chief White Will Provide
+     Updated Comments on a Lawsuit Filed Last Week, Facebook
+     (Aug. 9, 2023)..................................................................................................17
+
+  David White et al., Error Rates in Users of Automatic Face Recognition
+    Software, 10 PLoS ONE e0139827 (2015) .......................................................12
+
+  David White et al., Human Oversight of Facial Recognition Technology in
+    Forensic Applications (U.K. Parliament 2021) ................................................12
+
+  Drew Harwell, Federal Study Confirms Racial Bias of Many Facial-
+     Recognition Systems, Casts Doubt on Their Expanding Use, Wash. Post,
+     Dec. 19, 2019 ...................................................................................................10
+
+  Eyal Press, Does A.I. Lead Police to Ignore Contradictory Evidence, The
+    New Yorker, Nov. 20, 2023 .........................................................................5, 11
+
+  Gary L. Wells et al., Eyewitness Identification: Bayesian Information Gain,
+    Base-Rate Effect Equivalency Curves, and Reasonable Suspicion, 39 L.
+    & Hum. Behav. 99 (2015) ................................................................................16
+
+
+
+                                                                iv
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 6 of 43 PageID: 1414
+
+
+
+
+  Gary L. Wells et al., Policy and Procedure Recommendations for the
+    Collection and Preservation of Eyewitness Identification Evidence, 44 L.
+    & Hum. Behav. 3 (2020)..................................................................................15
+
+  Georgetown Center on Privacy & Technology, Model Face Recognition Use
+    Policy (Oct. 18, 2016) ......................................................................................33
+
+  Henry H. Perritt Jr., Defending Face-Recognition Technology (And
+    Defending Against It), 25 J. Tech. L. & Pol’y 41 (2021) ..................................17
+
+  IJIS Institute & IACP, Law Enforcement Facial Recognition Use Case
+     Catalog (2019) .................................................................................................13
+
+  Indiana Intelligence Fusion Center, Face Recognition Policy (2019) ....................14
+
+  Jason Koebler, Detroit Police Chief: Facial Recognition Software
+     Misidentifies 96% of the Time, Vice News (June 29, 2020)............................... 7
+
+  K.S. Krishnapriya et al., Issues Related to Face Recognition Accuracy
+     Varying Based on Race and Skin Tone, 1 IEEE Transactions on Tech. &
+     Soc’y No. 1 (2020)...........................................................................................10
+
+  Kashmir Hill, Eight Months Pregnant and Arrested After False Facial
+    Recognition Match, N.Y. Times, Aug. 6, 2023 ................................................11
+
+  Kate Crookes & Gillian Rhodes, Poor Recognition of Other-Race Faces
+    Cannot Always Be Explained by a Lack of Effort, 25 Visual Cognition
+    430 (2017) .......................................................................................................11
+
+  Khari Johnson, The Hidden Role of Facial Recognition Tech in Many
+    Arrests, Wired, Mar. 7, 2022............................................................................10
+
+  Laura Moy, Facing Injustice: How Face Recognition Technology May
+    Increase the Incidence of Misidentifications and Wrongful Convictions,
+    30 Wm. & Mary Bill Rts. J. 337 (2021) ...........................................................16
+
+  New Jersey Model Criminal Jury Charges, Identification: In-Court and Out-
+    of-Court Identifications (May 18, 2020) ..........................................................11
+
+
+                                                                v
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 7 of 43 PageID: 1415
+
+
+
+
+  New Jersey Office of the Attorney General, Attorney General Guidelines for
+    Preparing and Conducting Out-of-Court Eyewitness
+    Identifications (2021) .................................................................................15, 27
+
+  New York State Municipal Police Training Council, Facial Recognition
+    Model Policy (2019) ........................................................................................14
+
+  Nicole A. Spaun, Face Recognition in Forensic Science, in Handbook of
+     Face Recognition (Stan Z. Li & Anil Jain, eds., 2011) ...................................... 6
+
+  Patrick Grother et al., Face Recognition Technology Evaluation (FRTE) Part
+     2: Identification, Nat’l Inst. of Standards & Tech. (2023) ................................. 6
+
+  Patrick Grother et al., Face Recognition Vendor Test (FRVT) Part 2:
+     Identification, Nat’l Inst. Standards & Tech. (2019) ......................................... 7
+
+  Patrick Grother et al., Face Recognition Vendor Test Part 3: Demographic
+     Effects, Nat’l Inst. of Standards & Tech. (2019) ................................................ 7
+
+  Patrick Grother et al., Face Recognition Vendor Test (FRVT) Part 3:
+     Demographic Effects, Nat’l Inst. of Standards & Tech. (2019), .......................10
+
+  Raja Parasuraman & Dietrich Manzey, Complacency and Bias in Human
+     Use of Automation: An Attentional Integration,
+     52 Hum. Factors 381 (2010) ............................................................................12
+
+  Rank One Computing, Face Recognition Dictionary (Nov. 1, 2018) ..................... 6
+
+  Rebecca Darin Goldberg, You Can See My Face, Why Can’t I? Facial
+    Recognition and Brady, 5 Colum. Hum. Rts. L. Rev. Online 261 (2021) .........16
+
+  Thaddeus L. Johnson et al., Facial Recognition Systems in Policing and
+    Racial Disparities in Arrests, 39 Gov’t Info. Q. no. 4 (2022) ...........................10
+
+  The Handbook of Eyewitness Psychology, Volume 1: Memory for Events
+     (Michael P. Toglia et al. eds., 2007).................................................................11
+
+  Thomas D. Albright, Why Eyewitnesses Fail, 114 Proc. Nat’l Acad. Sci.
+    7758 (2017) .....................................................................................................18
+
+                                                               vi
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 8 of 43 PageID: 1416
+
+
+
+
+  U.S. Department of Homeland Security, DHS/ICE/PIA-054, Privacy Impact
+     Assessment for the Use of Facial Recognition Services (2020) ......................... 8
+
+  William Crumpler & James A. Lewis, How Does Facial Recognition Work?
+    A Primer, Center for Strategic & Int’l Studies (2021) ....................................... 6
+
+
+
+
+                                                    vii
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 9 of 43 PageID: 1417
+
+
+
+
+                           INTEREST OF AMICI CURIAE
+        The American Civil Liberties Union (ACLU) is a nationwide, nonprofit,
+
+  nonpartisan organization dedicated to the principles embodied in the United States
+
+  Constitution and our nation’s civil rights laws. The American Civil Liberties Union
+
+  of New Jersey is a state affiliate of the ACLU whose mission is to preserve, advance,
+
+  and extend the individual rights and liberties guaranteed to every New Jerseyan by the
+
+  State and Federal Constitutions in courts, in legislative bodies, and in our communities.
+
+  The ACLU has appeared before courts throughout the country in cases involving the
+
+  dangers posed by unfettered police use of emerging technologies, including face
+
+  recognition technology. Attorneys associated with the ACLU represent Robert
+
+  Williams in Williams v. City of Detroit, No. 2:21-cv-10827 (E.D. Mich.), alleging
+
+  that the misuse of face recognition technology led to his wrongful arrest. The ACLU
+
+  and the ACLU of New Jersey have also participated as amici curiae at the state level
+
+  to protect the rights of defendants under Brady v. Maryland, 373 U.S. 83 (1963), and
+
+  related doctrines to learn about the role facial recognition played in their prosecution.
+
+  See State v. Arteaga, 296 A.3d 542 (N.J. Super. Ct. App. Div. 2023).
+
+                            SUMMARY OF ARGUMENT
+        Officers from the Woodbridge Police Department (WPD) did exactly what
+
+  they should have known they were not supposed to do: they received a possible lead
+
+  from a face recognition technology (FRT) search, and just thirty minutes later,
+                                                 1
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 10 of 43 PageID: 1418
+
+
+
+
+   without undertaking a single reliable confirmatory investigative step, declared they
+
+   had their suspect. They then submitted arrest warrant applications riddled with
+
+   omissions and misrepresentations to a magistrate. As a result, Nijeer Parks spent ten
+
+   days in jail and nearly ten months under prosecution for a crime he didn’t commit.
+
+   Mr. Parks’s case represents the unfortunate and increasingly common story of how
+
+   the police’s uncritical reliance on results of unreliable FRT searches can deprive the
+
+   innocent of their liberty and directly violate constitutional rights. As in this case, the
+
+   harms of FRT misidentification disproportionately fall on Black Americans.
+
+         The travesty of justice in this case is squarely attributable to grossly deficient
+
+   investigative practices of Woodbridge Police Department investigators and to the
+
+   WPD’s complete lack of training of its officers on proper use of FRT results in
+
+   investigations. Here, officers unreasonably relied on a shaky lead from
+
+   fundamentally unreliable technology, and then withheld material information from
+
+   the magistrate judge when seeking arrest warrants. Had the Woodbridge Police
+
+   Department provided any training to its personnel about how unreliable FRT results
+
+   are and the necessity of following them with reliable independent investigation, the
+
+   officers would not have believed their paper-thin investigation established probable
+
+   cause. And had the officers accurately described the FRT search result and their lack
+
+
+
+
+                                                  2
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 11 of 43 PageID: 1419
+
+
+
+
+   of confirmatory investigative steps following receipt of that result, the magistrate
+
+   would not have issued warrants so sorely lacking in probable cause.
+
+         Not only did Defendants mislead the magistrate by overstating the reliability
+
+   of the FRT lead, but they again misrepresent how FRT works and the strength of the
+
+   FRT lead in their submissions to this Court. See, e.g., Defs’ Br., Statement of
+
+   Material Facts ¶¶ 27, 38, 41, ECF No. 109-6 at 11–12, 14–15. Amici write to aid the
+
+   Court in rendering a decision based on an accurate understanding of face recognition
+
+   technology and how it was misused in this case. This is particularly important
+
+   because this case will likely yield the first judicial opinion in the nation on a
+
+   developed record addressing some of the questions raised here relating to FRT, and
+
+   the Court’s decision could affect the lives of countless individuals. 1
+
+         This brief makes four main points. First, FRT results are nowhere near as
+
+   reliable as Defendants imply in their motion and as the Woodbridge officers
+
+   represented in their warrant applications. Second, if police are to ever use FRT in
+
+   investigations, it must be followed by reliable investigative steps. The slipshod
+
+
+   1
+    In cases elsewhere in the country raising similar facts, summary judgment
+   proceedings are paused pending settlement negotiations, see Williams v. City of
+   Detroit, No. 2:21-cv-10827 (E.D. Mich.); Oliver v. Bussa, No. 20-cv-12711 (E.D.
+   Mich.), litigation is still in discovery, see Woodruff v. City of Detroit, No. 23-cv-
+   11886 (E.D. Mich); Perryman v. City of Bloomington, No. 23-cv-1984 (D. Minn.),
+   or the parties are awaiting decision on jurisdictional and venue issues, see Reid v.
+   Bartholomew, No. 23-cv-4035 (N.D. Ga.).
+                                                 3
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 12 of 43 PageID: 1420
+
+
+
+
+   subsequent “identification” by an officer in this case was unreliable and tainted by
+
+   reliance on a false-match lookalike—Mr. Parks—generated by the FRT process.
+
+   Third, officers in this case misrepresented the strength of their case to a magistrate
+
+   and procured warrants for Mr. Parks’s arrest despite no real probable cause, meeting
+
+   the elements of a malicious prosecution claim. And fourth, the failures in this case
+
+   are directly attributable to the Woodbridge Police Department’s complete lack of
+
+   training of its officers about how to handle FRT-generated leads.
+
+                                      ARGUMENT
+   I.    Face Recognition Technology Is Inherently Unreliable and Cannot Be
+         Relied on as a Positive Identification of a Suspect.
+         In their briefing to this Court, Defendants misleadingly claim that “[t]he facial
+
+   recognition software matched the photograph displayed on the suspect’s fraudulent
+
+   driver’s license to Nijeer Parks.” Defs’ Br. 14, ¶ 38, ECF No. 109-6. The warrant
+
+   applications that gave rise to Mr. Parks’s wrongful arrest were similarly misleading,
+
+   asserting that the FRT search produced a “high profile comparison” (a term
+
+   apparently made up out of whole cloth by the officers) and as a result “[t]he suspect
+
+   was identified as Nijeer Parks.” ECF No. 109-5 at 253 (Defs’ Ex. N); accord id. at
+
+   268 (Defs’ Ex. O). These claims seriously misstate how FRT works and vouch a
+
+   level of reliability that the technology simply cannot deliver.
+
+
+
+
+                                                 4
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 13 of 43 PageID: 1421
+
+
+
+
+         Face recognition algorithms used by police are not designed to (and do not)
+
+   return a single definitive “match.” Rather, they are probabilistic systems that return
+
+   a number of potential candidates based on an “algorithmic best guess.” 2
+
+         When police personnel run an FRT search, the algorithm extracts a
+
+   “faceprint” 3 from the image of an unknown suspect (the “probe image”) and
+
+   compares it to a database of faceprints taken from images of known individuals (for
+
+   example, arrest photos or drivers’ license photos). The system generates similarity
+
+   scores for each comparison, which are often represented (as in this case) as a number
+
+   between 0 and 1000. Lyons Dep. 54:4–5, ECF No. 109-5 at 176 (Defs’ Ex. I). The
+
+   system outputs a “candidate list” of possible matches, generally organized in order
+
+   of similarity score. Although higher scores indicate the algorithm’s calculation that
+
+   the candidate appears more similar to the probe image than candidates with lower
+
+   scores further down the list, a true match may appear anywhere in the candidate list,
+
+   if it appears at all. Nonetheless, a particularly low similarity score—such as the
+
+
+
+
+   2
+     Eyal Press, Does A.I. Lead Police to Ignore Contradictory Evidence, The New
+   Yorker, Nov. 20, 2023, https://www.newyorker.com/magazine/2023/11/20/does-a-
+   i-lead-police-to-ignore-contradictory-evidence/.
+   3
+     A faceprint is a “map written in code that measures the distance between features,
+   lines, and facial elements.” State v. Arteaga, 296 A.3d 542, 555 (N.J. Super. Ct.
+   App. Div. 2023) (quoting Andrew Guthrie Ferguson, Facial Recognition and the
+   Fourth Amendment, 105 Minn. L. Rev. 1105, 1111 (2021)).
+                                                5
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 14 of 43 PageID: 1422
+
+
+
+
+   “594” accompanying the image of Mr. Parks in this case, Lyons Dep. 53:15–22, ECF
+
+   No. 109-5 at 176 (Defs’ Ex. I) (describing score as “not a very high number”); ECF
+
+   No. 109-5 at 282 (Defs’ Ex. Q)—can be an indicator of a weak possible match. 4
+
+         The number of possible-match candidates returned by an FRT system can be
+
+   high—for example, the system used by the Detroit Police Department can return
+
+   “anywhere up to 10 to 100 or 500” potential matches. Dep. of Joseph Dablitz 18:17–
+
+   18, Oliver v. Bussa, No. 20-cv-12711 (E.D. Mich.), ECF No. 51-3. Naturally, only
+
+
+   4
+     Defendants mislead the Court where they assert that “[w]hen the software
+   identifies a potential match, the software gives a probability of a positive match.”
+   Defs’ Br. 12, ¶ 27, ECF No. 109-6; see also id. at 15, ¶ 41. The similarity score
+   does not represent a probability of a positive match. See William Crumpler &
+   James A. Lewis, How Does Facial Recognition Work? A Primer 11–14, Center for
+   Strategic & Int’l Studies (2021), https://csis-website-prod.s3.amazonaws.com/s3fs-
+   public/publication/210610_Crumpler_Lewis_FacialRecognition.pdf.
+   A similarity score is “a factor of the system’s algorithm.” Nicole A. Spaun, Face
+   Recognition in Forensic Science, in Handbook of Face Recognition 667 (Stan Z. Li
+   & Anil Jain, eds., 2011). For a particular algorithm, a higher similarity score for
+   one image may indicate that a match is more likely than for another image with a
+   lower similarity score. Patrick Grother et al., Face Recognition Technology
+   Evaluation (FRTE) Part 2: Identification 29, Nat’l Inst. of Standards & Tech.
+   (2023), https://pages.nist.gov/frvt/reports/1N/frvt_1N_report.pdf. But the score
+   does not represent a probability of a true match (e.g., a score of “500 out of 1000”
+   does not indicate a 50% likelihood of a true match—it is simply a measurement of
+   how similar two faces are according to the algorithms’ internal scale). As facial
+   recognition vendor Rank One Computing notes, “While the similarity will be a
+   numerical value, . . . no assumptions can be made about the meaning of a given
+   similarity score for an algorithm without knowledge of the underlying distribution,
+   which will be different for every vendor.” Rank One Computing, Face Recognition
+   Dictionary (Nov. 1, 2018), https://roc.ai/2018/11/01/face-recognition-dictionary/.
+                                               6
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 15 of 43 PageID: 1423
+
+
+
+
+   one of the potentially many candidates can be the true identity of the suspect. The
+
+   rest will be innocent “false positives.” And a true match to the suspect photo may
+
+   not appear in the results at all, either because the quality of the probe image is low,
+
+   or because the database of images being searched does not include the true match,
+
+   or for other reasons.5 As the chief of the Detroit Police Department once put it, “[i]f
+
+   [police] were just to use the technology by itself, to identify someone, I would say
+
+   96 percent of the time it would misidentify.” 6
+
+         Although FRT algorithms generate false positives even in controlled test
+
+   conditions, they are especially prone to error when probe image quality is low. The
+
+   quality of the probe photo and the ways in which it is manipulated necessarily affect
+
+   the accuracy of the search results. Lighting, shadow, angle, pixel density, facial
+
+   expression, and partial occlusion of the face all affect accuracy. 7 And even images
+
+
+   5
+    See Patrick Grother et al., Face Recognition Vendor Test Part 3: Demographic
+   Effects 5, Nat’l Inst. of Standards & Tech. (2019),
+   https://pages.nist.gov/frvt/reports/demographics/nistir_8280.pdf.
+   6
+    Jason Koebler, Detroit Police Chief: Facial Recognition Software Misidentifies
+   96% of the Time, Vice News (June 29, 2020),
+   https://www.vice.com/en/article/dyzykz/detroit-police-chief-facial-recognition-
+   software-misidentifies-96-of-the-time.
+   7
+     See, e.g., Patrick Grother et al., Face Recognition Vendor Test (FRVT) Part 2:
+   Identification 9–10, Nat’l Inst. Standards & Tech. (2019), https://perma.cc/BR6Y-
+   6X6D; U.S. Dep't of Homeland Sec., DHS/ICE/PIA-054, Privacy Impact
+   Assessment for the Use of Facial Recognition Services 26 (2020),
+
+                                                 7
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 16 of 43 PageID: 1424
+
+
+
+
+   captured from a higher-quality source can be degraded if the image is scanned into
+
+   a computer at a low resolution, compressed, resized, or reformatted. The blurriness,
+
+   or lack of sufficient pixel density, of an image can have a huge effect on the ability
+
+   of a FRT algorithm to produce an accurate match. 8
+
+         In this case, the probe image suffered from multiple defects that rendered it
+
+   unsuitable for a face recognition search. The image was “blurry,” Lyons Dep. 44:17–
+
+   18, ECF No. 109-5 at 173 (Defs’ Ex. I), the sides and bottom third of the face were
+
+   heavily shadowed, and an extraneous shape (possibly a watermark from the fake
+
+   license) was superimposed over the forehead, ECF No. 109-5 at 276, 282 (Defs’ Ex.
+
+   Q). By the time it was run through the FRT program, the image had been
+
+   manipulated a number of times, leaving it much degraded from its original state: an
+
+   original digital photo was (1) printed on a fake driver’s license (likely losing some
+
+   image definition), which (2) was photographed by police (in low resolution and
+
+   creating an apparent shadow on the license), see ECF No. 109-5 at 3 (Defs’ Ex. A),
+
+   (3) that photograph was pasted into a flyer and rendered into PDF format, see ECF
+
+
+
+
+   https://www.dhs.gov/sites/default/files/publications/privacy-pia-ice-frs-054-
+   may2020.pdf.
+   8
+    See, e.g., Aman Bhatta et al., Impact of Blur and Resolution on Demographic
+   Disparities in 1-to-Many Facial Identification, preprint arXiv:2309.04447 (2023),
+   https://arxiv.org/abs/2309.04447.
+                                                8
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 17 of 43 PageID: 1425
+
+
+
+
+   No. 109-5 at 275 (Defs’ Ex. Q), which was attached to an email, transmitted, and
+
+   then (4) extracted from the flyer (into an unknown file format) and (5) resized, Lyons
+
+   Dep. 77:1–22, ECF No. 109-5 at 182 (Defs’ Ex. I). Each step of that process risked
+
+   progressive degradation of the image quality—in other words, loss of data from the
+
+   image that the FRT algorithm would have needed to generate a faceprint—resulting
+
+   in the poor-quality image used in the search. See Figure 1 (copied from ECF No.
+
+   109-5 at 282 (Defs’ Ex. Q)).
+
+
+
+
+         Figure 1:
+
+         Even where probe image quality is ideal, facial recognition systems exhibit
+
+   race, gender, and age bias, with higher rates of false matches when used on people
+
+
+
+
+                                                9
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 18 of 43 PageID: 1426
+
+
+
+
+   of color, women, and young adults than on white people, men, and older people. 9
+
+   According to the National Institute of Standards and Technology, “even the best
+
+   algorithms can be wrong more than 20 percent of the time” in test conditions, 10 and
+
+   “Asian and African American people were up to 100 times more likely to be
+
+   misidentified than white men, depending on the particular algorithm and type of
+
+   search.” 11 Additional risk of error is introduced when police conduct a search against
+
+   a database of images that overrepresents people of color, such as an arrest photo
+
+   database that reflects historical patterns of overpolicing of communities of color. 12
+
+   In this case—as in every known U.S. suit against police alleging wrongful arrest due
+
+
+
+
+   9
+    See, e.g., Patrick Grother et al., Face Recognition Vendor Test (FRVT) Part 3:
+   Demographic Effects 7–8, Nat’l Inst. of Standards & Tech. (2019),
+   https://perma.cc/R9RE-HHD9; K.S. Krishnapriya et al., Issues Related to Face
+   Recognition Accuracy Varying Based on Race and Skin Tone, 1 IEEE Transactions
+   on Tech. & Soc’y No. 1, at 8–20 (2020),
+   https://ieeexplore.ieee.org/document/9001031.
+   10
+    Khari Johnson, The Hidden Role of Facial Recognition Tech in Many Arrests,
+   Wired, Mar. 7, 2022, https://perma.cc/ECB6-LM22.
+   11
+      Drew Harwell, Federal Study Confirms Racial Bias of Many Facial-Recognition
+   Systems, Casts Doubt on Their Expanding Use, Wash. Post, Dec. 19, 2019,
+   https://www.washingtonpost.com/technology/2019/12/19/federal-study-confirms-
+   racial-bias-many-facial-recognition-systems-casts-doubt-their-expanding-use/.
+   12
+     Thaddeus L. Johnson et al., Facial Recognition Systems in Policing and Racial
+   Disparities in Arrests, 39 Gov’t Info. Q. no. 4, at 2 (2022).
+                                                10
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 19 of 43 PageID: 1427
+
+
+
+
+   to police reliance on an incorrect FRT result—the person falsely identified and
+
+   wrongly arrested is Black.13
+
+         Additional risk of error is introduced by human review of the FRT search
+
+   results. Research has consistently shown that it is difficult for people to accurately
+
+   identify people from other racial and ethnic groups. 14 When a human analyst does
+
+   an initial review of the hundreds of FRT-generated candidates, the analyst’s own
+
+   cognitive biases can compound racial biases in the FRT-generated candidate list and
+
+   introduce further error.
+
+         Further, people reflexively over-rely on computer outputs because of
+
+   “automation bias,” “a heuristic replacement for vigilant information seeking and
+
+   processing” that can “lead to decisions that are not based on a thorough analysis of
+
+
+
+
+   13
+      See supra note 1 (listing cases); see also, e.g., Eyal Press, Does A.I. Lead Police
+   to Ignore Contradictory Evidence, The New Yorker, Nov. 20, 2023,
+   https://www.newyorker.com/magazine/2023/11/20/does-a-i-lead-police-to-ignore-
+   contradictory-evidence/; Kashmir Hill, Eight Months Pregnant and Arrested After
+   False Facial Recognition Match, N.Y. Times, Aug. 6, 2023,
+   https://www.nytimes.com/2023/08/06/business/facial-recognition-false-arrest.html.
+   14
+     See The Handbook of Eyewitness Psychology, Volume 1: Memory for Events
+   257–81 (Michael P. Toglia et al. eds., 2007) (detailing dozens of studies); Kate
+   Crookes & Gillian Rhodes, Poor Recognition of Other-Race Faces Cannot Always
+   Be Explained by a Lack of Effort, 25 Visual Cognition 430 (2017); N.J. Model
+   Criminal Jury Charges, Identification: In-Court and Out-of-Court Identifications 9
+   (May 18, 2020),
+   https://www.njcourts.gov/sites/default/files/charges/idinout.pdf?cb=5b9183a5.
+                                                11
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 20 of 43 PageID: 1428
+
+
+
+
+   all available information but that are strongly biased by the automatically generated
+
+   advice.” 15 Automation bias lulls human users of automated technologies, such as
+
+   FRT, into an over-reliance on the computers, leading the analysts to uncritically
+
+   accept the computer’s returns. 16 Automation bias means analysts will be less critical
+
+   and discerning when selecting a possible match, including by deferring to the
+
+   similarity scores generated by the algorithm in place of the analyst’s own judgment.
+
+   Human analysts may also assume there is an accurate match in a computer’s returns
+
+   even when there is not.
+
+            For these and other reasons, research shows that human operators make errors
+
+   on average 50 percent of the time “when deciding which faces in candidate lists
+
+   match the search image. This is consistent with research on eye-witness
+
+   identification—which is known to be unreliable, with well-meaning witnesses often
+
+   mistakenly identifying innocent suspects.”17
+
+
+   15
+     Raja Parasuraman & Dietrich Manzey, Complacency and Bias in Human Use of
+   Automation: An Attentional Integration, 52 Hum. Factors 381, 391 (2010).
+   16
+        Id. at 391–97.
+   17
+     David White et al., Human Oversight of Facial Recognition Technology in
+   Forensic Applications ¶ 5 (U.K. Parliament 2021),
+   https://committees.parliament.uk/writtenevidence/38555/html/. See also David
+   White et al., Error Rates in Users of Automatic Face Recognition Software, 10
+   PLoS ONE e0139827 at 1 (2015) (concluding that the subjective selection process
+   “potentially reduc[es] benchmark estimates [of FRT accuracy] by 50% in
+   operational settings”).
+                                                12
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 21 of 43 PageID: 1429
+
+
+
+
+          Because of these and other sources of unreliability and error in the FRT
+
+   search process, it is virtually universally understood and acknowledged that the
+
+   results of a face recognition search do not constitute a positive identification of a
+
+   suspect, and that additional reliable investigation is needed to develop probable
+
+   cause to arrest. For example, when Sgt. Tapia filled out a facial recognition search
+
+   request form during the investigation, the form warned that a “possible match” from
+
+   a FRT search “should only be considered an investigative lead. Further investigation
+
+   is needed to confirm a possible match through other investigative corroborated
+
+   information and/or evidence. INVESTIGATIVE LEAD, NOT PROBABLE
+
+   CAUSE TO MAKE AN ARREST.” ECF No. 109-5 at 290 (Defs’ Ex. T) (emphasis
+
+   in original). Such warnings to police were common at the time of the face recognition
+
+   search in this case (2019), including from the International Association of Chiefs of
+
+   Police, 18 the U.S. Department of Justice, 19 and police departments across the
+
+
+   18
+     IJIS Inst. & IACP, Law Enforcement Facial Recognition Use Case Catalog 3
+   (2019), https://www.theiacp.org/sites/default/files/2019-
+   10/IJIS_IACP%20WP_LEITTF_Facial%20Recognition%20UseCasesRpt_201903
+   22.pdf (a FRT search result is “a strong clue, and nothing more, which must then
+   be corroborated against other facts and investigative findings before a person can
+   be determined to be the subject whose identity is being sought”).
+   19
+      Bureau of Justice Assistance, U.S. Department of Justice, Face Recognition
+   Policy Development Template 22 (2017),
+   https://bja.ojp.gov/sites/g/files/xyckuh186/files/Publications/Face-Recognition-
+   Policy-Development-Template-508-compliant.pdf.
+                                               13
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 22 of 43 PageID: 1430
+
+
+
+
+   country. 20
+
+          Yet, far from heeding that warning, police in this case treated a single face
+
+   recognition search result not as a dubious investigative lead requiring independent
+
+   corroboration, but as a definitive match. See Cilento Expert Report, ECF No. 109-5
+
+   at 344 (Defs’ Ex. V). Instead of conducting reliable confirmatory investigative steps,
+
+   police merely had an officer eyeball the photo returned by the FRT search process,
+
+   and then proceeded to seek authorization to arrest. Defendants try to focus attention
+
+   on whether it was reasonable for Woodbridge police to submit the suspect photo for
+
+   a FRT search. See Defs’ Br. 30, ECF No. 109-6. But the central issue in this case is
+
+   what officers did after receiving the FRT lead. Because they did not gather any
+
+   reliable confirmatory evidence before seeking an arrest warrant, the resulting arrest
+
+   lacked the requisite probable cause.
+
+   II.    A Witness Identification Based Solely on a FRT Search Result is
+          Inherently Suggestive and Cannot Support Probable Cause.
+          Although the Woodbridge officers did not disclose it to the magistrate in the
+
+   warrant applications, Defendants now claim that probable cause was “bolster[ed]”
+
+
+   20
+      See, e.g., N.Y. State Mun. Police Training Council, Facial Recognition Model
+   Policy 3 (2019), https://www.criminaljustice.ny.gov/crimnet/ojsa/standards/
+   MPTC%20Model%20Policy-Facial%20Recognition%20December%202019.pdf;
+   Ind. Intelligence Fusion Ctr., Face Recognition Policy 14 (2019),
+   https://www.in.gov/iifc/files/Indiana_Intelligence_Fusion_Center_Face_Recogniti
+   on_Policy.pdf.
+                                                14
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 23 of 43 PageID: 1431
+
+
+
+
+   by a “confirmatory identification” made by Officer Lyszyk following receipt of the
+
+   FRT results. Defs’ Br. 30, ECF No. 109-6. But that identification was the product of
+
+   an unduly suggestive procedure tainted by the false-match result generated by the
+
+   FRT search. It could not establish a positive identification.
+
+         The presence of someone in a facial recognition candidate list alone is not a
+
+   sufficient basis to proceed to a witness identification procedure, including a lineup
+
+   or photo array. 21 As the American Law Institute explains, “[p]olicing agencies
+
+   should not conduct eyewitness identifications unless they have . . . a substantial basis
+
+   to believe that the suspect committed the crime and should therefore be presented to
+
+   the eyewitness.” Am. Law Inst., Principles of the Law, Policing § 10.03 (2023),
+
+   https://perma.cc/B9V4-P4DU. 22 As discussed above, facial recognition technology
+
+
+
+
+   21
+     In this case, of course, police did not conduct a photographic lineup according to
+   established best practices for avoiding false identifications. Lyszyk Dep. 55:14–16,
+   ECF No. 109-5 at 37 (Defs’ Ex. C). See, e.g., N.J. Off. of the Att’y Gen., Attorney
+   General Guidelines for Preparing and Conducting Out-of-Court Eyewitness
+   Identifications (2021), https://www.nj.gov/oag/dcj/agguide/Photo-Lineup-ID-
+   Guidelines.pdf; Gary L. Wells et al., Policy and Procedure Recommendations for
+   the Collection and Preservation of Eyewitness Identification Evidence, 44 L. &
+   Hum. Behav. 3 (2020), https://doi.org/10.1037/lhb0000359.
+   22
+     See also Wells, 44 L. & Hum. Behav. at 8 (“There should be evidence-based
+   grounds to suspect that an individual is guilty of the specific crime being
+   investigated before including that individual in an identification procedure.”).
+                                                 15
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 24 of 43 PageID: 1432
+
+
+
+
+   creates a list of speculative and, in most cases, unreliable candidate matches that
+
+   provide no such basis.
+
+         One of the most significant determinants of the reliability of an eyewitness
+
+   identification from a photo array or lineup is the inclusion of the actual perpetrator
+
+   of the crime. 23 But as described above, FRT searches are prone to returning false
+
+   matches—even worse, these false matches are likely to be a lookalike or
+
+   “doppelgänger” for the true suspect. Accord Cilento Expert Report, ECF No. 109-5
+
+   at 344 (Defs’ Ex. V). As New Jersey’s Appellate Division has explained, this “has
+
+   obvious implications for the accuracy of the identification process because an array
+
+   constructed around a mistaken potential match would leave the witness with no
+
+   actual perpetrator to choose.” State v. Arteaga, 296 A.3d 542, 557 (N.J. Super. Ct.
+
+   App. Div. 2023). Instead, a witness has a greater chance of believing that the FRT-
+
+   returned doppelgänger is a match to the suspect. 24 “[T]he witness’s corroboration
+
+
+
+
+   23
+     Gary L. Wells et al., Eyewitness Identification: Bayesian Information Gain,
+   Base-Rate Effect Equivalency Curves, and Reasonable Suspicion, 39 L. & Hum.
+   Behav. 99, 115 (2015).
+   24
+     See Rebecca Darin Goldberg, You Can See My Face, Why Can’t I? Facial
+   Recognition and Brady, 5 Colum. Hum. Rts. L. Rev. Online 261, 274 (2021);
+   Laura Moy, Facing Injustice: How Face Recognition Technology May Increase the
+   Incidence of Misidentifications and Wrongful Convictions, 30 Wm. & Mary Bill
+   Rts. J. 337, 347–350 (2021).
+                                                16
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 25 of 43 PageID: 1433
+
+
+
+
+   may be so closely tied to the computerized face-recognition match that it lacks
+
+   independence,” thus creating an inherently suggestive procedure. 25
+
+         This dynamic has been central to most of the known cases of wrongful arrests
+
+   due to police reliance on incorrect FRT results. In Detroit, for example, police are
+
+   known to have wrongfully arrested three people based solely on the combination of
+
+   a false match from FRT, and a false identification from a witness viewing a six-pack
+
+   photo lineup that was constructed around the FRT lead and five filler photos. In all
+
+   three cases, the witnesses chose the FRT-derived false-match, instead of deciding
+
+   that the true suspect did not in fact appear in the lineup. After DPD’s third FRT-
+
+   derived wrongful arrest became public last year, Detroit’s Chief of Police
+
+   acknowledged the problem of erroneous FRT results tainting subsequent witness
+
+   identifications, explaining that by moving straight from FRT result to lineup “it is
+
+   possible to taint the photo lineup by presenting a person who looks most like the
+
+   suspect” but is not in fact the suspect.26
+
+
+
+
+   25
+     Henry H. Perritt Jr., Defending Face-Recognition Technology (And Defending
+   Against It), 25 J. Tech. L. & Pol’y 41, 59 (2021).
+   26
+      City of Detroit Government, WATCH LIVE: Chief White Will Provide Updated
+   Comments on a Lawsuit Filed Last Week, Facebook (Aug. 9, 2023),
+   https://www.facebook.com/CityofDetroit/videos/287218473992047.
+                                                17
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 26 of 43 PageID: 1434
+
+
+
+
+          Automation bias and the belief that FRT algorithms are reliable can also taint
+
+   witness identifications. A photo array or lineup should be administered by an officer
+
+   with no knowledge of the investigation. See, e.g., State v. Henderson, 23 A.3d 872,
+
+   896 (N.J. 2011). As relevant here, if a witness is told that FRT identified a suspect
+
+   in the investigation, they may succumb to automation bias and believe the computer
+
+   must have flagged the true suspect. That can lead to overconfidence in their own
+
+   choice. Mistaken identifications under these circumstances are reflective of the fact
+
+   that “observers become confident when multiple pieces of sensory evidence point to
+
+   the same conclusion, even when the individual pieces are themselves sparse and
+
+   unreliable.” 27
+
+          Here, Officer Lyszyk’s supposedly confirmatory “identification” suffered
+
+   from these defects: Mr. Parks’s photo was derived from an FRT algorithm designed
+
+   to identify faces similar to the suspect’s image, but he was not in fact a match to the
+
+   suspect. Nonetheless, Officer Lyszyk was informed prior to attempting the
+
+   identification that face recognition technology had produced a match, Lyszyk Dep.
+
+   51:5–8, ECF No. 109-5 at 36 (Defs’ Ex. C), and then was presented with a single
+
+   photo, not a photo array, an extremely suggestive procedure. Lyszyk’s identification
+
+
+
+   27
+     Thomas D. Albright, Why Eyewitnesses Fail, 114 Proc. Nat’l Acad. Sci. 7758,
+   7760 (2017).
+                                                18
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 27 of 43 PageID: 1435
+
+
+
+
+   was fundamentally unreliable and could not provide probable cause. See Cilento
+
+   Expert Report, ECF No. 109-5 at 344–45 (Defs’ Ex. V) (“this identification
+
+   procedure [was] improper, highly suggestive, and likely inadmissible”).
+
+   III.   Record Evidence Supports Plaintiff’s Malicious Prosecution Claim
+          The elements of a Section 1983 malicious prosecution claim in the Third
+
+   Circuit are: (1) the defendants initiated a criminal proceeding; (2) the criminal
+
+   proceeding ended in the plaintiff’s favor; (3) the defendants initiated the proceeding
+
+   without probable cause; (4) the defendants acted maliciously or for a purpose other
+
+   than bringing the plaintiff to justice; and (5) the plaintiff suffered deprivation of
+
+   liberty consistent with the concept of seizure as a consequence of a legal proceeding.
+
+   Zimmerman v. Corbett, 873 F.3d 414, 418 (3d Cir. 2017). Only the third and fourth
+
+   elements are contested in this case. Because the record provides ample basis for a
+
+   reasonable jury to conclude that both those elements are satisfied, amici urge the
+
+   Court to deny Defendants’ motion for summary judgment.
+
+          A. Officers knowingly or recklessly withheld material information
+             from the warrant applications, resulting in issuance of warrants not
+             based on probable cause.
+          A police officer can be held responsible for “initiat[ing] [a] proceeding
+
+   without probable cause,” id., when he or she withholds material information from
+
+   the ultimate decisionmaker (such as a prosecutor or judge). This makes the officer,
+
+   rather than the judge or prosecutor, culpable for the wrongful arrest or prosecution.
+                                               19
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 28 of 43 PageID: 1436
+
+
+
+
+   Thus, if a “false statement knowingly and intentionally, or with reckless disregard
+
+   for the truth” was made to support a warrant, and without such statement the warrant
+
+   would lack probable cause, then the warrant is invalid. Franks v. Delaware, 438 U.S.
+
+   154, 155–56 (1978). False assertions are knowing or reckless “when viewing all the
+
+   evidence, the affiant must have entertained serious doubts as to the truth of his
+
+   statements or had obvious reasons to doubt the accuracy of the information he
+
+   reported.” United States v. Williams, 974 F.3d 320, 352 (3d Cir. 2020) (internal
+
+   quotations mark omitted). Similarly, omissions are knowing or reckless when they
+
+   involve “a fact in [the officer’s] ken that any reasonable person would have known
+
+   . . . was the kind of thing the judge would wish to know.” Dempsey v. Bucknell Univ.,
+
+   834 F.3d 457, 470 (3d Cir. 2016) (cleaned up) (citation omitted).
+
+         In cases like this, the Third Circuit has instructed courts to first assess the
+
+   falsehoods recklessly added to and information recklessly omitted from the affidavit.
+
+   Id. Next, courts should reconstruct the affidavit to subtract falsehoods and add any
+
+   recklessly omitted information. Id. And finally, courts should assess the materiality
+
+   of the falsehoods and omitted information to the probable cause determination. Id.
+
+   Doing so here reveals that, had the Woodbridge officers satisfied their duty of candor
+
+   to the magistrate, it would have been clear that there was no probable cause and the
+
+   warrants could not have issued.
+
+                                                20
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 29 of 43 PageID: 1437
+
+
+
+
+         The warrant application submitted by Sgt. Tapia read, in relevant part:
+
+         I sent out the suspect’s Tennessee driver’s license picture to the
+         Regional Operations Intelligence Center (ROIC) and the New York
+         State Intelligence Center (NYSIC) for facial recognition. On January
+         27, 2019, I received a high profile comparison to the picture on the
+         fraudulent Tennessee driver’s license. The suspect was identified as
+         Nijeer Parks with a date of birth of [________] with a last known
+         address of [_________] Paterson, NJ. I compared the photo on the
+         fraudulent Tennessee driver’s license to Nijeer Parks’ real New Jersey
+         driver’s license and it is the same person.
+
+   ECF No. 109-5 at 253 (Defs’ Ex. N).
+
+         Sgt. Tapia omitted several critical facts from this passage. First, his
+
+   characterization of the FRT result as a “high profile comparison” is both completely
+
+   made up and highly misleading. The term “high profile comparison” appears
+
+   nowhere on the FRT result or in the correspondence between Tapia and Seamus
+
+   Lyons, who provided the FRT lead. See ECF No. 109-5 at 376–81 (Defs’ Ex. Z).
+
+   Rather, Lyons’s email transmitting the FRT result describes it as a “possible hit.” Id.
+
+   at 381. A later email from Lyons describes the FRT result as a “high number hit,”
+
+   id. at 380, but that is at odds with the similarity score actually attached to the FRT
+
+   result in Tapia’s possession, see ECF No. 109-5 at 282 (Defs’ Ex. Q), which Lyons
+
+   later acknowledged was “not a very high number.” Lyons Dep. 53:15–22, ECF No.
+
+   109-5 at 176 (Defs’ Ex. I). Critically, Tapia knew—because he filled out a face
+
+   recognition search request form containing the warning—that FRT results are only
+
+                                                21
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 30 of 43 PageID: 1438
+
+
+
+
+   a “possible match,” “should only be considered an investigative lead,” and are “not
+
+   probable cause to make an arrest.” 28 ECF No. 109-5 at 290 (Defs’ Ex. T). Yet he
+
+   omitted that language, instead making up a term, “high profile comparison,” which
+
+   falsely conveyed that the FRT result was highly reliable.
+
+         Tapia also omitted information about the low quality of the blurry, shadowy,
+
+   partially obscured probe image that made it unsuitable to produce a reliable match.
+
+   And Tapia omitted the fact that Lyons said he had “altered the photo on the license
+
+   a little to get the pixels clear,” ECF No. 109-5 at 380 (Defs’ Ex. Z), which would
+
+   have put the magistrate on further notice that the FRT result was not to be trusted.
+
+         Tapia’s assertion that “[t]he suspect was identified as Nijeer Parks” is
+
+   similarly misleading, as it suggests that the FRT search was capable of making an
+
+   “identification,” as opposed to generating a mere investigative lead that must be
+
+   followed by reliable independent investigation. And Tapia’s last sentence, asserting
+
+   that his own comparison of the photos revealed that “it is the same person” again
+
+   inappropriately communicates an undeserved confidence, failing to add even a
+
+
+
+
+   28
+     Indeed, at the time of the investigation, Tapia informed another officer that “we
+   might have a possible lead on the person,” showing that he knew that FRT matches
+   could not be treated as identifications. Quesada Dep. 34:11–12, ECF No. 109-5 at
+   60 (Defs’ Ex. E) (emphasis added).
+                                               22
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 31 of 43 PageID: 1439
+
+
+
+
+   modest qualifier (i.e., “it appeared to be the same person”) that would have more
+
+   accurately conveyed what he thought he saw.
+
+         The material sections of the warrant application submitted by Officer Lyszyk
+
+   read as follows:
+
+         While investigating a shoplifting of $39.00 worth of merchandise from
+         Hampton Inn, the hotel manager, Richard Charneco, advised us that
+         Parks was the suspect. . . . During the investigation, Parks gave us a
+         fraudulent Tennessee driver’s license, TN DL# 801527486, with his
+         image on it. . . . He ended up getting away, but we still had his
+         fraudulent TN driver’s license on us that contained his image. Det. S.
+         Tapia conducted an investigation and submitted the photograph through
+         the Regional Operations Intelligence Center (ROIC) and the New York
+         State Intelligence Center (NYSIC). On Jan. 27, 2019, Det. Tapia
+         received notification from Inv. Seamus Lyons (Rockland County
+         Sheriff’s Dept.) and Sgt. Dey (Palisades Interstate Parkway PD) that
+         they had a high profile comparison to the picture on the fraudulent TN
+         DL. The suspect was identified as Parks.
+
+   ECF No. 109-5 at 267–68 (Defs’ Ex. O).
+
+         The falsehoods and omissions in Officer Lyszyk’s affidavit are in some ways
+
+   even more stark than Tapia’s. He asserts that the manager of the hotel where the
+
+   alleged shoplifting took place “advised us that Parks was the suspect.” But as Lyszyk
+
+   has admitted, this is false: the manager did not know who Mr. Parks was and made
+
+   no such identification. Lyszyk Dep. 57:1–11, 57:24–58:2, ECF No. 109-5 at 38
+
+   (Defs’ Ex. C). The rest of Lyszyk’s affidavit repeatedly refers to the suspect as
+
+
+
+
+                                               23
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 32 of 43 PageID: 1440
+
+
+
+
+   “Parks” even when describing points in the investigation before Mr. Parks became
+
+   a suspect.
+
+         Incredibly, Lyszyk completely omits the fact that FRT was used, instead
+
+   writing only that “Det. Tapia received notification from Inv. Seamus Lyons
+
+   (Rockland County Sheriff’s Dept.) and Sgt. Dey (Palisades Interstate Parkway PD)
+
+   that they had a high profile comparison to the picture on the fraudulent TN DL. The
+
+   suspect was identified as Parks.” ECF No. 109-5 at 268 (Defs’ Ex. O). Nowhere
+
+   does Lyszyk explain that Mr. Parks came to law enforcement’s attention through a
+
+   FRT search (a fact that Lyszyk knew, see Lyszyk Dep. 51:5–8, ECF No. 109-5 at 36
+
+   (Defs’ Ex. C)), nor that Lyons merely transmitted a low-reliability FRT lead, based
+
+   on a low-quality probe image, which could not by itself constitute a positive
+
+   identification. The magistrate would have been left with the inescapable impression
+
+   that Inv. Lyons and Sgt. Dey used some reliable means of identification, but they
+
+   did not.
+
+         Reconstructed versions of the affidavits, correcting misrepresentations and
+
+   restoring omissions, demonstrate that, had officers satisfied their duty of candor to
+
+   the magistrate, the court would have rejected the warrants for lack of probable cause.
+
+         A corrected version of Sgt. Tapia’s affidavit would read, in pertinent part
+
+   (additions in bold; deletions in strikethrough):
+
+                                                24
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 33 of 43 PageID: 1441
+
+
+
+
+         I sent out an image of the photo on the suspect’s fake Tennessee
+         driver’s license picture to the Regional Operations Intelligence Center
+         (ROIC) and the New York State Intelligence Center (NYSIC) for facial
+         recognition. The quality of the image was badly degraded: it was
+         blurry, facial features were obscured by heavy shadows, and there
+         was an extraneous mark over the forehead. On January 27 28, 2019,
+         I received a high profile comparison an investigative lead to the poor-
+         quality picture on the fraudulent Tennessee driver’s license. Inv.
+         Seamus Lyons (Rockland County Sheriff’s Dept.), who conducted
+         the facial recognition search, told me he “altered the photo on the
+         license a little to get the pixels clear” prior to running the search.
+         The suspect possible match was identified as to Nijeer Parks with a
+         date of birth of [_____] with a last known address of [______] Paterson,
+         NJ. A facial recognition search result should only be considered an
+         investigative lead and is not probable cause to make an arrest. I
+         compared the photo on the fraudulent Tennessee driver’s license to an
+         old arrest photo of Nijeer Parks’ real New Jersey’s license and it is the
+         same person I believe the suspect in the fraudulent driver’s license
+         photo looks similar to Parks. I was not a witness to the original
+         incident, so my only knowledge of the suspect’s appearance comes
+         from the fraudulent driver’s license photo. Although forensic
+         evidence, including fingerprints and objects likely to contain the
+         suspect’s DNA, were collected from the crime scene, I have not yet
+         received the results of analysis of that evidence.
+
+         A corrected version of Officer Lyszyk’s affidavit would read, in pertinent part:
+
+         While investigating a shoplifting of $39.00 worth of merchandise from
+         Hampton Inn, the hotel manager, Richard Charneco, advised us that
+         Parks an unidentified man present at the scene was the suspect. No
+         photographic lineup or other identification procedure was
+         administered to Charneco. . . . During the investigation, Parks the
+         unidentified man gave us a fraudulent Tennessee driver’s license, TN
+         DL# 801527486, with his image on it. . . . He ended up getting away,
+         but we still had his fraudulent TN driver’s license on us that contained
+         his image. Det. S. Tapia conducted an investigation and submitted the
+         photograph through the Regional Operations Intelligence Center
+         (ROIC) and the New York State Intelligence Center (NYSIC) for a
+                                               25
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 34 of 43 PageID: 1442
+
+
+
+
+         facial recognition search. The quality of the photograph sent for a
+         facial recognition search was badly degraded: it was blurry, facial
+         features were obscured by heavy shadows, and there was an
+         extraneous mark over the forehead. On Jan. 27 28, 2019, Det. Tapia
+         received notification from Inv. Seamus Lyons (Rockland County
+         Sheriff’s Dept.) and Sgt. Dey (Palisades Interstate Parkway PD) that
+         they had a high profile comparison to the search had produced an
+         investigative lead for the picture on the fraudulent TN DL. The suspect
+         was identified as investigative lead was to Nijeer Parks. A facial
+         recognition search result should only be considered an investigative
+         lead and is not probable cause to make an arrest. 29 Although
+         forensic evidence, including fingerprints and objects likely to
+         contain the suspect’s DNA, were collected from the crime scene, I
+         have not yet received the results of analysis of that evidence.
+
+         Neither officer chose to mention Officer Lyszyk’s supposedly confirmatory
+
+   “identification,” so they evidently did not rely on it to try to establish probable cause.
+
+   Even if they had described Lyszyk’s “identification” in the affidavits, a correct
+
+   recitation of the facts would convey that “Officer Lyszyk was told that facial
+
+   recognition had returned an investigative lead, shown only one photo, and said he
+
+   thought Mr. Parks looked like the suspect.” See Lyszyk Dep. 29:13–15, 30:18–20,
+
+
+
+   29
+     Even if Officer Lyszyk initially lacked first-hand knowledge of the poor quality
+   of the probe image or of the fact that FRT results should only be considered an
+   investigative lead, those facts are properly included in the corrected affidavit
+   because Lyszyk would have learned them from reading a proper affidavit prepared
+   by Sgt. Tapia. See Lyszyk Dep. 39:16–40:16, ECF No. 109-5 at 33 (Defs’ Ex. C)
+   (Lyszyk wrote his probable cause affidavit after Tapia); compare Tapia affidavit,
+   ECF No. 109-5 at 253 (Defs’ Ex. N), with Lyszyk affidavit, ECF No. 109-5 at 268
+   (Defs’ Ex. O) (Lyszyk affidavit repeating language from Tapia affidavit, including
+   “high profile comparison” and “The suspect was identified as [Nijeer] Parks”).
+                                                  26
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 35 of 43 PageID: 1443
+
+
+
+
+   61:6–10, ECF No. 109-5 at 31, 39 (Defs’ Ex. C). An accurate affidavit would also
+
+   need to recite that “no photographic lineup procedure was conducted with Officer
+
+   Lyszyk or with any witness who saw the suspect at the Hampton Inn.” Description
+
+   of this suggestive and unreliable “identification” procedure would not supply
+
+   probable cause. 30
+
+         The corrected affidavits make clear how glaringly deficient the probable cause
+
+   showing was. Probable cause requires showing a “reasonable ground for belief of
+
+   guilt,” Maryland v. Pringle, 540 U.S. 366, 371 (2003), or “a ‘fair probability’ that
+
+   the person committed the crime at issue.” Wilson v. Russo, 212 F.3d 781, 789 (3d
+
+   Cir. 2000). Neither the face recognition lead, nor Lyszyk’s or Tapia’s tainted visual
+
+   review of the false-match lookalike generated by the FRT search, amounted to a “fair
+
+   probability” that Mr. Parks committed the crime. The false and omitted facts are
+
+   particularly material here, where the magistrate was unlikely to have any
+
+   independent expertise about face recognition technology, and was likely to believe
+
+   law enforcement’s misleading claims about the strength of the FRT result. A fulsome
+
+   presentation of the facts would have made clear that there was no probable cause.
+
+
+
+
+   30
+     See N.J. Off. of the Att’y Gen., Attorney General Guidelines for Preparing and
+   Conducting Out-of-Court Eyewitness Identifications (2021),
+   https://www.nj.gov/oag/dcj/agguide/Photo-Lineup-ID-Guidelines.pdf.
+                                               27
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 36 of 43 PageID: 1444
+
+
+
+
+         B.   The facts would support a jury finding of malice.
+         At summary judgment, the fourth prong of the malicious prosecution standard
+
+   asks whether “a reasonable juror could, viewing the facts in the light most favorable
+
+   to [the plaintiff], find that the defendants acted with malice or for a purpose other
+
+   than bringing [the plaintiff] to justice.” Harvard v. Cesnalis, 973 F.3d 190, 203 (3d
+
+   Cir. 2020). The Third Circuit has found this standard satisfied when, as here, police
+
+   “mischaracterized the events and chose to omit crucial exculpatory information in
+
+   the affidavit of probable cause,” which can give rise to an inference that police were
+
+   acting for a purpose other than pursuing the correct defendant. Id. at 203–04. Here,
+
+   police mischaracterized the strength of the FRT result or elided the technology’s use
+
+   altogether, using language that would leave the magistrate with a vastly inflated
+
+   understanding of the reliability of the supposed identification of Mr. Parks.
+
+   Moreover, police immediately seized on the FRT lead as proof of guilt and utterly
+
+   failed to pursue confirmatory investigation—i.e., checking for means, motive, and
+
+   opportunity; canvassing witnesses; checking for alibis, etc.—before seeking a
+
+   warrant. And as detailed in Plaintiff’s expert report, after arresting Mr. Parks, police
+
+   ignored clear indications of innocence and took no steps to check Mr. Parks’s alibi,
+
+   leaving him in jail for 10 days. Cilento Expert Report, ECF No. 109-5 at 349 (Defs’
+
+   Ex. V). There are ample grounds for a jury to infer that Woodbridge police fixated
+
+
+                                                 28
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 37 of 43 PageID: 1445
+
+
+
+
+   on the low-reliability FRT result as proof of guilt and eschewed further reliable
+
+   investigation in service of keeping their first—but innocent—suspect in jail.
+
+         C. Qualified immunity cannot shield officers who submit affidavits
+            containing knowingly false statements or statements made in
+            reckless disregard of the truth.
+         “[T]he right to be free from arrest except on probable cause” is a clearly
+
+   established right for which officers may be held liable under Section 1983. Orsatti
+
+   v. N.J. State Police, 71 F.3d 480, 483 (3d Cir. 1995). In a malicious prosecution case,
+
+   a police officer can only shield themselves with qualified immunity if their actions
+
+   in establishing probable cause were nonetheless objectively reasonable. Id. (citing
+
+   Malley v. Briggs, 475 U.S. 335, 345–46 (1986)). But submitting an affidavit of
+
+   probable cause “containing statements [the officer] knows to be false or would know
+
+   are false if he had not recklessly disregarded the truth” is, by definition,
+
+   unreasonable. Lippay v. Christos, 996 F.2d 1490, 1504 (3d Cir. 1993).
+
+         As particularly relevant here, courts have found that recklessly or knowingly
+
+   inflating the purported reliability of a suspect identification and concealing
+
+   information that would show it to be unreliable is objectively unreasonable under
+
+   this standard. See, e.g., Pinkney v. Meadville, Pa., 648 F. Supp. 3d 615, 645 (W.D.
+
+   Pa. 2023) (holding that an officer could not rely on qualified immunity if he was
+
+   reckless in his affidavit’s presentation of a “tentative identification” as “positive and
+
+
+                                                 29
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 38 of 43 PageID: 1446
+
+
+
+
+   certain” and “falsely implied” non-existent indicia of reliability). Here, a jury finding
+
+   that Officer Lyszyk knowingly or recklessly withheld material information from the
+
+   magistrate, see supra Part III.A, would necessarily also lead to the conclusion that
+
+   he acted objectively unreasonably. He therefore cannot resort to qualified immunity
+
+   to avoid liability.
+
+   IV.    Woodbridge Township Is Liable for its Failure to Train its Officers or
+          Institute Policies on the Proper Use of Face Recognition Technology.
+          The Woodbridge Police Department’s complete failure to train its officers on
+
+   the limitations of face recognition technology and how to use FRT results in
+
+   investigations created a severe and foreseeable risk that its officers would violate
+
+   constitutional rights. That failure makes Woodbridge Township liable for Mr.
+
+   Parks’s malicious prosecution under Monell v. Department of Social Services of New
+
+   York, 436 U.S. 658 (1978).
+
+          A municipality can be held liable under § 1983 where its failure to train its
+
+   officers led to the plaintiff’s injuries. Forrest v. Parry, 930 F.3d 93, 105–06 (3d Cir.
+
+   2019). The question is one of “deliberate indifference”: did the municipality
+
+   disregard a need for training so obvious, and so likely to lead to constitutional
+
+   violations, that its failure can be said to be “deliberate” or “conscious”? City of
+
+   Canton, Ohio v. Harris, 489 U.S. 378, 389–90 (1989). Although one route to
+
+   showing “deliberate indifference” is by identifying a pattern of unremedied
+
+                                                 30
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 39 of 43 PageID: 1447
+
+
+
+
+   unconstitutional conduct caused by untrained officers, even a single incident can
+
+   establish liability when the municipality should have been aware of a need to train
+
+   its personnel to avoid unconstitutional conduct. Thomas v. Cumberland Cnty., 749
+
+   F.3d 217, 223–24 (3d Cir. 2014).
+
+         It is undisputed that WPD provided no training or instruction whatsoever on
+
+   the proper use of FRT prior to Plaintiff’s wrongful arrest (or, for that matter, since). 31
+
+   As of 2019, WPD’s detectives were empowered to use FRT in their investigations
+
+   by making requests to the NJ Regional Operations Intelligence Center (ROIC). 32
+
+
+
+   31
+      Lee Dep. 31:20–23, ECF No. 109-5 at 49 (Defs’ Ex. D) (Off. Lee: “Q: Had
+   facial recognition technology been addressed at any training that you ever had with
+   the department or with the county? A: No.”); Quesada Dep. 31:21–23, ECF No.
+   109-5 at 59 (Defs’ Ex. E) (Det. Quesada: “Q: . . .[H]ave you had any training with
+   facial recognition technology? A: No, sir.”); Tapia Dep. 53:3–6, ECF No. 109-5 at
+   88 (Defs’ Ex. F) (Det. Tapia: “Q: Were you aware of any departmental orders or
+   instructions relating to the use of facial recognition technology? A: No.”); Lyszyk
+   Answers to Pl’s First Interrogatories (Pl’s Ex. A) (answer to interrogatory 6: “I
+   have not received any training in the use of facial recognition technology.”);
+   Hubner Dep. 39:6–17, ECF No. 109-5 at 148 (Defs’ Exh. H) (Dir. Hubner: “Q: . . .
+   Has the department formulated any policy regarding facial recognition technology
+   after January 2019? A: . . . There is no written policy . . . .”).
+   32
+     See Tapia Dep. 45:6–52:11, ECF No. 109-5 at 86–87 (Defs’ Ex. F) (discussing
+   making FRT search requests through ROIC); ECF No. 109-5 at 290 (Defs’ Ex. T)
+   (ROIC facial recognition search request form filled out by Sgt. Tapia). Viewing the
+   record in the light most favorable to the plaintiff, a jury could conclude that
+   Woodbridge Township was on notice that FRT was an available investigate tool to
+   WPD investigators through ROIC. See Hubner Dep. 39:12–13, ECF No. 109-5 at
+   148 (Defs’ Ex. H) (WPD Director recognizing officers’ ability to use ROIC for
+   FRT searches).
+                                                 31
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 40 of 43 PageID: 1448
+
+
+
+
+   WPD should have known it needed to train its officers in how to use results from
+
+   that technology in their investigations, but it failed to do so.
+
+         When law enforcement officers begin using a new technology that risks
+
+   harming the public if misused, there is an obvious need to provide training to avoid
+
+   those harms. See, e.g., Berg v. Cnty. of Allegheny, 219 F.3d 261, 277 (3d Cir. 2000)
+
+   (“[W]idespread computerization carries with it the ability and responsibility to
+
+   institute more effective safeguards against human error than existed in the past.”);
+
+   Edrei v. City of N.Y., 254 F. Supp. 3d 565, 581 (S.D.N.Y. 2017) (denying motion to
+
+   dismiss Monell claim because “[e]ven in the absence of prior similar violations, the
+
+   NYC [sic] knew that officers with [new, potentially dangerous technology] in the
+
+   field were likely to face difficult scenarios . . . where the risk and harm of improperly
+
+   using [the technology] are great–problems that could have been avoided with proper
+
+   training.”). In Berg v. County of Allegheny, for example, the Third Circuit held that
+
+   poor training around the use of a computerized warrant management system created
+
+   an obvious risk of misidentification leading to arrest and imprisonment, and thus the
+
+   municipality could be held liable for failing to mitigate errors through training. 219
+
+   F.3d at 277 (rejecting summary judgment so a trier of fact could decide whether the
+
+   county was “deliberately indifferent to [the] obvious risk” of misuse of the
+
+   department’s computerized warrant system).
+
+                                                 32
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 41 of 43 PageID: 1449
+
+
+
+
+           The need for training was no less stark here. By 2019, the dangers of
+
+   unconstrained use of FRT were well known, including the inability of FRT to make
+
+   positive identifications, the correlation between low-quality probe images and low-
+
+   reliability FRT results, and the disparate rates of false matches by race.33 WPD
+
+   would have had no trouble finding policy templates to guide its formation of a
+
+   policy—the U.S. Department of Justice, for example, had already released policy
+
+   development templates for local law enforcement agencies on the use of FRT, as had
+
+   other organizations. 34 WPD had a clear need to instruct its officers on the limitations
+
+   of FRT, but deliberately adopted a policy of silence instead.
+
+           WPD’s decision to forego FRT training invited the exact kind of obvious risk
+
+   of constitutional harm that creates Monell liability. Because FRT necessarily places
+
+   innocent people under investigative scrutiny, the misuse of FRT results could
+
+
+   33
+        See supra notes 18–20 and accompanying text.
+   34
+      Bureau of Justice Assistance, U.S. Department of Justice, Face Recognition:
+   Policy Development Template 22 (2017),
+   https://bja.ojp.gov/sites/g/files/xyckuh186/files/Publications/Face-Recognition-
+   Policy-Development-Template-508-compliant.pdf; see also, e.g., Georgetown Ctr.
+   on Priv. & Tech., Model Face Recognition Use Policy (Oct. 18, 2016),
+   https://www.perpetuallineup.org/appendix/model-police-use-policy (citing FRT
+   policies from multiple jurisdictions). Amici do not address here the adequacy of
+   any particular provisions in these model policies, nor suggest that a policy without
+   associated training would be sufficient. The salient point in this case is that WPD
+   provided no policy or training guidance to its officers whatsoever, despite the
+   obvious need to do so.
+                                                 33
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 42 of 43 PageID: 1450
+
+
+
+
+   obviously lead to the false arrest and imprisonment of an innocent person. Had
+
+   Woodbridge’s training addressed the unreliability of FRT results or how FRT results
+
+   can taint witness identification procedures, that risk of simple misidentification
+
+   could have been mitigated. See Cilento Expert Report, ECF No. 109-5 at 353–55
+
+   (Defs’ Ex. V).
+
+         Amici are aware of only one other case where a court has considered Monell
+
+   liability in the context of face recognition technology and wrongful arrest. There, the
+
+   court granted a municipal defendant’s pre-discovery motion to dismiss on the basis
+
+   that because the police department had provided guidance to officers on how to use
+
+   FRT results, the plaintiff did not allege enough facts showing that there was a
+
+   “patently obvious” need for additional training. Perryman v. City of Bloomington,
+
+   No. 23-cv-1984, 2023 WL 8374283, at *1 (D. Minn. Dec. 4, 2023) (“Hennepin
+
+   County’s training manual provides that facial recognition technology is only to be
+
+   used for investigative purposes and ‘is NOT a method to positively identify an
+
+   individual.’”). In contrast, Woodbridge Township never provided any training or
+
+   policies on the use of face recognition in investigations. 35 See supra note 31 (citing
+
+   uncontroverted testimony regarding lack of training).
+
+
+   35
+     As of the end of 2022, Woodbridge Township still had not instituted any policy
+   or training on the use of FRT. Hubner Dep. 39:3–17, ECF No. 109-5 at 148 (Defs’
+   Ex. H).
+                                                34
+Case 2:21-cv-04021-JKS-LDW Document 113-1 Filed 01/29/24 Page 43 of 43 PageID: 1451
+
+
+
+
+         The record is clear that Woodbridge provided no training or protections to
+
+   mitigate against a misuse of FRT results that could “so obviously lead to a
+
+   constitutional violation.” Berg, 219 F.3d at 277. The summary judgment record
+
+   provides ample grounds for a factfinder to find Woodbridge liable. See id. Summary
+
+   judgment must be denied.
+
+                                   CONCLUSION
+         For the forgoing reasons, amici urge the Court to deny Defendants’ motion
+
+   for summary judgment.
+
+    Dated: January 29, 2024                 Respectfully submitted,
+
+                                            /s/ Dillon Reisman
+                                            Dillon Reisman
+                                            Alexander Shalom
+                                            Jeanne LoCicero
+                                            American Civil Liberties Union
+                                              of New Jersey Foundation
+                                            570 Broad Street, 11th Floor
+                                            P.O. Box 32159
+                                            Newark, NJ 07102
+                                            (973) 854-1718
+                                            dreisman@aclu-nj.org
+
+                                            Nathan Freed Wessler*
+                                            American Civil Liberties Union
+                                             Foundation
+                                            125 Broad Street, 18th Floor
+                                            New York, NY 10004
+                                            (212) 549-2500
+                                            nwessler@aclu.org
+                                            *Pro hac vice application forthcoming
+                                             35
+

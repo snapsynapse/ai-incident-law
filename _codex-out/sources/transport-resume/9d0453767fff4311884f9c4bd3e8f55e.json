@@ -1,0 +1,28 @@
+{
+  "id": "9d0453767fff4311884f9c4bd3e8f55e",
+  "url": "https://arcourts.gov/sites/default/files/Appellate%20Update%20November%202017.pdf",
+  "kind": "fetch",
+  "host": "arcourts.gov",
+  "status": 200,
+  "headers": {
+    "server": "envoy",
+    "date": "Sat, 03 Oct 2026 18:37:19 GMT",
+    "content-type": "application/pdf",
+    "content-length": "1929015",
+    "x-content-type-options": "nosniff",
+    "last-modified": "Wed, 10 Jul 2019 14:31:14 GMT",
+    "etag": "\"1d6f37-58d5487859080\"",
+    "accept-ranges": "bytes",
+    "cache-control": "max-age=1209600",
+    "expires": "Sat, 17 Oct 2026 18:37:19 GMT",
+    "x-envoy-upstream-service-time": "188",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:18.870773+00:00",
+  "sha256": "2624781cfd72a246bc9cb6751559eeafff076bd552ce66e2b9f6d8511b0c3440",
+  "bytes": 1929015,
+  "body_path": "/workspace/freshness-control/transport-evidence/9d0453767fff4311884f9c4bd3e8f55e.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/9d0453767fff4311884f9c4bd3e8f55e.body"
+}

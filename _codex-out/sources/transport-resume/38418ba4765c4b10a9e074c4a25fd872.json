@@ -1,0 +1,25 @@
+{
+  "id": "38418ba4765c4b10a9e074c4a25fd872",
+  "url": "https://supremecourt.ohio.gov/robots.txt",
+  "kind": "robots",
+  "host": "supremecourt.ohio.gov",
+  "status": 301,
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "content-length": "167",
+    "location": "https://www.supremecourt.ohio.gov/robots.txt",
+    "server": "envoy",
+    "x-powered-by": "ASP.NET",
+    "date": "Sat, 03 Oct 2026 18:37:44 GMT",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-envoy-upstream-service-time": "87",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:44.192233+00:00",
+  "sha256": "bb2bb9ecb2a58b96a1adb7863a6a910a1221cde44195e1e5c2e711184196646b",
+  "bytes": 167,
+  "body_path": "/workspace/freshness-control/transport-evidence/38418ba4765c4b10a9e074c4a25fd872.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/38418ba4765c4b10a9e074c4a25fd872.body"
+}

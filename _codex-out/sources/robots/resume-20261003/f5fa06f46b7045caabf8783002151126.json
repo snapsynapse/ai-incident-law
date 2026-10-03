@@ -1,0 +1,14 @@
+{
+  "id": "f5fa06f46b7045caabf8783002151126",
+  "url": "https://seyfarth.com/robots.txt",
+  "kind": "robots",
+  "host": "seyfarth.com",
+  "status": null,
+  "headers": {},
+  "complete": false,
+  "error": "Tunnel connection failed: 403 Forbidden",
+  "retrieved_at": "2026-10-03T03:03:47.777815+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/f5fa06f46b7045caabf8783002151126.body"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "7bb301e76c56473291d40a66d68e76f9",
+  "url": "https://courtlistener.com/robots.txt",
+  "kind": "robots",
+  "host": "courtlistener.com",
+  "status": 403,
+  "headers": {
+    "server": "envoy",
+    "date": "Sat, 03 Oct 2026 18:37:28 GMT",
+    "content-type": "text/html",
+    "content-length": "919",
+    "x-cache": "Error from cloudfront",
+    "via": "1.1 2cd8d4852079d6c5e6bb88ce998771c2.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "ORD51-P2",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "x-amz-cf-id": "VSOU-NOEoX2uWru8sisaDkT8hECIc4Y0CTMusjm0XMQOww7D7QRdUw==",
+    "x-envoy-upstream-service-time": "43",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:27.800874+00:00",
+  "sha256": "4e495688b5c1a557831602f0f93609474fd81402fd26235bd2555c4469729d88",
+  "bytes": 919,
+  "body_path": "/workspace/freshness-control/transport-evidence/7bb301e76c56473291d40a66d68e76f9.body"
+}

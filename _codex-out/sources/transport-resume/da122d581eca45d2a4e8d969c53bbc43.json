@@ -1,0 +1,28 @@
+{
+  "id": "da122d581eca45d2a4e8d969c53bbc43",
+  "url": "https://www.burr.com/robots.txt",
+  "kind": "robots",
+  "host": "www.burr.com",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:20 GMT",
+    "content-type": "text/plain;charset=UTF-8",
+    "content-length": "176",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "x-frame-options": "SAMEORIGIN",
+    "content-security-policy": "default-src 'self'; script-src * 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src *; frame-src *; img-src data: *; media-src *; object-src *;",
+    "x-content-type-options": "nosniff",
+    "x-envoy-upstream-service-time": "118",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:19.738893+00:00",
+  "sha256": "04cbb5a6f4a6b97cac866905e43bfd79eba465f8aaa23ec749a340139e848614",
+  "bytes": 176,
+  "body_path": "/workspace/freshness-control/transport-evidence/da122d581eca45d2a4e8d969c53bbc43.body",
+  "cached": true,
+  "body_evidence_copy": "_codex-out/sources/transport-resume/da122d581eca45d2a4e8d969c53bbc43.body"
+}

@@ -1,0 +1,301 @@
+     Case 1:25-cv-00268-HSO-BWR       Document 28      Filed 05/22/26   Page 1 of 6
+
+
+
+
+                IN THE UNITED STATES DISTRICT COURT
+              FOR THE SOUTHERN DISTRICT OF MISSISSIPPI
+                         SOUTHERN DIVISION
+
+JOHNNY FUSELIER, individually                                             PLAINTIFF
+and on behalf of a class of all others
+similarly situated
+
+
+v.                                                 Civil No. 1:25-cv-268-HSO-BWR
+
+
+JOHN S. RISCASSI, in his official
+capacity as the Chief Operating
+Officer of the Armed Forces
+Retirement Home                                                         DEFENDANT
+
+                                       ORDER
+
+       On May 1, 2026, the Court ordered Counsel for Plaintiff, Aaron Randall Rice,
+
+to show cause why he should not be sanctioned for failure to comply with Federal
+
+Rule of Civil Procedure 11 by signing and filing a Response [20] in Opposition to
+
+Defendant’s Motion [18] for Summary Judgment that contained a citation to a
+
+fictitious case and quotations that do not appear in a real case. See Ord. [25] at 1-2.
+
+Mr. Rice filed his Response [27] to the Court’s Order [25] on May 15, 2026. See
+
+Resp. [27]. After reviewing Mr. Rice’s Response [27], the Court finds that an
+
+admonishment is sufficient, and no sanction will be imposed.
+
+                                  I. BACKGROUND
+
+       This case stems from what has become an all-too-familiar occurrence in court
+
+filings: the citation to fictitious legal authority. On February 5, 2026, attorney
+
+Aaron Randall Rice filed a Response [20] in Opposition to Defendant’s Motion [18]
+
+for Summary Judgment. To support his claim that Defendant’s Motion [18] was
+   Case 1:25-cv-00268-HSO-BWR          Document 28      Filed 05/22/26   Page 2 of 6
+
+
+
+
+premature, Mr. Rice cited “Rodriguez v. It’s Just Lunch, Int’l, 2013 WL 12173926
+
+(5th Cir. 2013).” Resp. [20] at 4. That case does not exist.
+
+      The Response [20] also contained two quotations to Minnesota Voters Alliance
+
+v. Mansky, 585 U.S. 1 (2018), which do not appear in that case. Specifically,
+
+Plaintiff’s Response [20] claimed that “the Supreme Court has unequivocally
+
+foreclosed that argument, holding that the wearing of political slogans is
+
+‘nondisruptive by nature,’” Resp. [20] at 6-7 (quoting Mansky, 585 U.S. at 19
+
+(emphasis added)), and that “the Supreme Court has unequivocally held that the
+
+wearing of political slogans is ‘nondisruptive by nature,’” id. at 8 (quoting
+
+Mansky, 585 U.S. at 3 (emphasis added)). But the Supreme Court did not use the
+
+phrase “nondisruptive by nature.” Rather, it stated: “[t]o be sure, our decisions
+
+have noted the ‘nondisruptive’ nature of expressive apparel in more mundane
+
+settings.” Mansky, 585 U.S. at 15.
+
+      Based on the foregoing, the Court ordered Mr. Rice to show cause why he
+
+should not be sanctioned for failure to comply with Rule 11. See Ord. [25]. It also
+
+ordered him to disclose the use of any artificial intelligence (“AI”) in conducting
+
+legal research and drafting his brief, and to disclose what measures he took to
+
+verify the citations, quotations, and propositions in his cited cases. See id. at 4.
+
+      According to Mr. Rice’s Response [27] to the Court’s Order [25], in August
+
+2025, to cut costs, his firm, American Dream Legal, replaced the organization’s
+
+Westlaw subscription with Fastcase, a research tool with which Mr. Rice was
+
+unfamiliar and which “had limited performance and functionality.” Resp. [27] at 2.
+
+
+
+                                            2
+   Case 1:25-cv-00268-HSO-BWR           Document 28    Filed 05/22/26    Page 3 of 6
+
+
+
+
+Due to the limited performance capabilities of Fastcase—and Mr. Rice’s admitted
+
+lack of familiarity with the software—he turned to Google to locate relevant legal
+
+authority and conduct legal research. See Resp. [27] at 2; Dkt. [27-3] (Browser
+
+History). Mr. Rice hoped to locate relevant authority through web searches and
+
+then verify any citations or quotations in Fastcase. See Resp. [27] at 3. It was
+
+through these web searches that he “obtained the Rodriguez citation” but he has
+
+been “unable to confirm its source.” Id. at 4. Although Mr. Rice is “not certain it
+
+came from the AI preview, simply because [he is] skeptical of AI responses and
+
+do[es] not use interactive AI tools for legal research,” he recognizes that because
+
+“the citation refers to a nonexistent opinion . . . it may have appeared there,
+
+particularly since [he] planned to verify online citations with Fastcase regardless of
+
+their specific source.” Id. Regrettably, while “rushing to meet the deadline” to
+
+submit his brief, Mr. Rice did not verify this citation. Id. at 5. But to Mr. Rice’s
+
+credit, he appears to have taken full responsibility for this mistake and has
+
+acknowledged that citing fictitious cases poses a “danger . . . to the proper
+
+administration of justice.” Id. at 5.
+
+      Turning to errors identified in Mansky, they appear to stem from a lack of
+
+attention to detail. Mr. Rice has explained that in other briefs he filed—and
+
+apparently in the draft of his Response [20]—he included brackets to show
+
+alterations, but he “inadvertently took the altered but unbracketed Mansky quote
+
+from the outline” he drafted and “included it in Plaintiff’s Response [20].” Resp. [27]
+
+at 6; see also Dkt. [27-5] (Revision Chronology). And he has thoroughly detailed the
+
+
+
+                                           3
+   Case 1:25-cv-00268-HSO-BWR          Document 28     Filed 05/22/26    Page 4 of 6
+
+
+
+
+measures he took to verify the information. See Resp. [27] at 6-7. Mr. Rice once
+
+again acknowledged and took responsibility for his errors. See id. at 7.
+
+                                   II. DISCUSSION
+
+      Federal Rule of Civil Procedure 11 governs all pleadings, motions, and other
+
+papers submitted to the Court. See Fed. R. Civ. P. 11(a); Thomas v. Capital Sec.
+
+Servs., Inc., 836, 870 (5th Cir. 1988). It provides in relevant part:
+
+      (b) Representations to the Court. By presenting to the court a pleading,
+      written motion, or other paper--whether by signing, filing, submitting,
+      or later advocating it--an attorney or unrepresented party certifies that
+      to the best of the person’s knowledge, information, and belief, formed
+      after an inquiry reasonable under the circumstances:
+      ...
+      (2) the claims, defenses, and other legal contentions are warranted by
+      existing law or by a nonfrivolous argument for extending, modifying, or
+      reversing existing law or for establishing new law . . . .
+
+Fed. R. Civ. P. 11(b)(2).
+
+      Simply put, all attorneys are obligated to review and verify the information
+
+contained in their briefs and the cases cited before they submit them. See Fletcher
+
+v. Experian Info. Sols., Inc., 168 F.4th 231, 239 (5th Cir. 2026) (“[Counsel] failed to
+
+check her own brief before submitting it, leading her to repeatedly misrepresent the
+
+law to the court.” (citing Fed. R. Civ. P. 11(b) and (c) advisory committee’s note to
+
+1993 amendment)); see also Park v. Kim, 91 F.4th 610, 615 (2d Cir. 2024). And
+
+courts in the Fifth Circuit have recognized that attorneys shirk their Rule 11
+
+obligations when they fail to verify the information contained in their briefs, like
+
+citing fictitious cases. See, e.g., Ferris v. Amazon.com Servs., LLC, 778 F. Supp. 3d
+
+879, 881 (N.D. Miss. 2025) (“[Plaintiff] violated Rule 11 by submitting false citations
+
+to the Court[.]”); Fletcher, 168 F.4th at 239.
+                                            4
+   Case 1:25-cv-00268-HSO-BWR           Document 28     Filed 05/22/26   Page 5 of 6
+
+
+
+
+         Although Mr. Rice is “not certain [the fictitious case] came from the AI
+
+preview,” on his web searches, Resp. [27] at 4, the case does not exist, and in the
+
+Court’s view it is hard to see what else would have generated the fake case. And in
+
+any event, when Mr. Rice filed his brief containing a non-existent case—regardless
+
+of its source—he violated Rule 11. As for the misquotations to Mansky, the Court is
+
+satisfied that those errors were the result of a lack of attention to detail. See Resp.
+
+[27] at 5-7. On this record, the Court must determine the “least severe sanction
+
+adequate to serve the purpose[s]” of Rule 11, “deterrence, punishment, and
+
+compensation.” Thomas v. Cap. Sec. Servs., Inc., 836 F.2d 866, 878, 879 (5th Cir.
+
+1988).
+
+         The Court finds that, under the circumstances, a judicial admonishment is a
+
+sufficient remedy for Mr. Rice’s conduct. See id. at 878 (“[A]s a less severe
+
+alternative to monetary sanctions, district courts may choose to admonish or
+
+reprimand attorneys who violate Rule 11.”). It appears that Mr. Rice has taken
+
+responsibility for his actions, that he recognizes the severity of his conduct, and that
+
+he acknowledges the risk posed to the rule of law by fake cases. See Resp. [27] at 5.
+
+Mr. Rice has been apologetic, see id., and he has related the efforts made to ensure
+
+this does not happen again, see id. at 7. Specifically, American Dream Legal has
+
+implemented a “policy requiring attorney training for any future changes to legal
+
+research providers and a policy prohibiting the use of AI, including search engines
+
+with integrated AI features, for legal research.” Id. And American Dream Legal
+
+has procured a LexisNexis subscription and scheduled training. See id.
+
+
+
+                                            5
+   Case 1:25-cv-00268-HSO-BWR          Document 28      Filed 05/22/26   Page 6 of 6
+
+
+
+
+      Without minimizing the seriousness of the violations here, the Court is
+
+satisfied that given their limited nature, Mr. Rice’s apparent ownership of the
+
+mistakes, and the changes implemented to prevent future violations, no further
+
+action is needed in this case other than to admonish Mr. Rice once again regarding
+
+his obligations under Rule 11.
+
+                                  III. CONCLUSION
+
+      “Trials are a search for the truth. Parties who cite false cases not only seek
+
+to secure unfair advantage, they are, in fact, avatars of a post-truth world.” Ferris,
+
+778 F. Supp. 3d at 881. Citing fictitious cases poses a grave risk to the rule of law
+
+and the proper administration of justice. In the age of artificial intelligence, all
+
+attorneys must remember their obligations under Rule 11. Finally, although the
+
+Court finds that no additional action is warranted in this case, Mr. Rice is
+
+ADMONISHED and WARNED that future conduct of this kind will result in
+
+sanctions.
+
+      SO ORDERED, this the 22nd day of May, 2026.
+
+
+                                  s/ Halil Suleyman Ozerden
+                                  HALIL SULEYMAN OZERDEN
+                                  CHIEF UNITED STATES DISTRICT JUDGE
+
+
+
+
+                                           6
+

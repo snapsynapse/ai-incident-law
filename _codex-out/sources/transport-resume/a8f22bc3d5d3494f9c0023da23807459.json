@@ -1,0 +1,25 @@
+{
+  "id": "a8f22bc3d5d3494f9c0023da23807459",
+  "url": "https://dccourts.gov/robots.txt",
+  "kind": "robots",
+  "host": "dccourts.gov",
+  "status": 301,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:28 GMT",
+    "content-type": "text/html",
+    "content-length": "0",
+    "location": "https://www.dccourts.gov/robots.txt",
+    "x-azure-ref": "20261003T183728Z-176d9fff4ffl8fxvhS1PHX7uu000000012m00000000033xh",
+    "x-cache": "CONFIG_NOCACHE",
+    "x-envoy-upstream-service-time": "317",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:28.036390+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/a8f22bc3d5d3494f9c0023da23807459.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/a8f22bc3d5d3494f9c0023da23807459.body"
+}

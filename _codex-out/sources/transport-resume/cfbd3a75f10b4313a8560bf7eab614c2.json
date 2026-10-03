@@ -1,0 +1,27 @@
+{
+  "id": "cfbd3a75f10b4313a8560bf7eab614c2",
+  "url": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
+  "kind": "fetch",
+  "host": "aclu.org",
+  "status": 301,
+  "headers": {
+    "retry-after": "0",
+    "accept-ranges": "bytes",
+    "date": "Sat, 03 Oct 2026 18:37:47 GMT",
+    "aclu-req-hosts": "aclu.org",
+    "permissions-policy": "interest-cohort=()",
+    "strict-transport-security": "max-age=31557600",
+    "location": "https://www.aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
+    "content-length": "0",
+    "x-envoy-upstream-service-time": "45",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:47.721233+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/cfbd3a75f10b4313a8560bf7eab614c2.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/cfbd3a75f10b4313a8560bf7eab614c2.body"
+}

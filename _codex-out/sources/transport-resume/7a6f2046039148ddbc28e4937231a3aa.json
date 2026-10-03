@@ -1,0 +1,31 @@
+{
+  "id": "7a6f2046039148ddbc28e4937231a3aa",
+  "url": "https://jcorsmeier.wordpress.com/robots.txt",
+  "kind": "robots",
+  "host": "jcorsmeier.wordpress.com",
+  "status": 200,
+  "headers": {
+    "server": "envoy",
+    "date": "Sat, 03 Oct 2026 18:37:37 GMT",
+    "content-type": "text/plain; charset=utf-8",
+    "vary": "Accept-Encoding,accept, content-type",
+    "x-hacker": "Want root?  Visit join.a8c.com/hacker and mention this header.",
+    "host-header": "WordPress.com",
+    "link": "<https://public-api.wordpress.com/wp-json/?rest_route=/sites/jcorsmeier.wordpress.com>; rel=\"https://api.w.org/\"",
+    "x-nc": "HIT dca 165",
+    "x-ac": "33.mdw _dca MISS",
+    "alt-svc": "clear",
+    "strict-transport-security": "max-age=31536000",
+    "server-timing": "a8c-cdn, dc;desc=mdw, cache;desc=MISS;dur=21.0",
+    "x-envoy-upstream-service-time": "59",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:37.624865+00:00",
+  "sha256": "52bfaf9928f83054b12c8d96f3cd8e2b0e6f8630238ff60645bf412cebb10c11",
+  "bytes": 648,
+  "body_path": "/workspace/freshness-control/transport-evidence/7a6f2046039148ddbc28e4937231a3aa.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/7a6f2046039148ddbc28e4937231a3aa.body"
+}

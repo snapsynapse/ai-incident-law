@@ -1,0 +1,25 @@
+{
+  "id": "11c2a1c8e4ba491887e8c57dfbf142f1",
+  "url": "https://media.ca11.uscourts.gov/robots.txt",
+  "kind": "robots",
+  "host": "media.ca11.uscourts.gov",
+  "status": 404,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:40 GMT",
+    "server": "envoy",
+    "vary": "accept-language,accept-charset",
+    "strict-transport-security": "max-age=31536000; include SubDomains",
+    "accept-ranges": "bytes",
+    "content-type": "text/html; charset=utf-8",
+    "content-language": "en",
+    "x-envoy-upstream-service-time": "172",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:40.331195+00:00",
+  "sha256": "0f0282996ca9578b945983b485d3a2526044d7b2cfcada0b2ebbe124f831aa70",
+  "bytes": 963,
+  "body_path": "/workspace/freshness-control/transport-evidence/11c2a1c8e4ba491887e8c57dfbf142f1.body"
+}

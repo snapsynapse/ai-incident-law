@@ -1,0 +1,33 @@
+{
+  "id": "2b71075146914177bde1fc16857a0fe8",
+  "url": "https://humanservices.arkansas.gov/divisions-shared-services/aging-adult-behavioral-health-services/find-home-community-based-services-for-adults-seniors/archoices-in-homecare/court-ordered-information/",
+  "kind": "fetch",
+  "host": "humanservices.arkansas.gov",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:37 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "server": "envoy",
+    "vary": "Accept-Encoding,Accept-Encoding,Cookie",
+    "link": "<https://humanservices.arkansas.gov/?p=100471>; rel=shortlink",
+    "x-powered-by": "WP Engine",
+    "x-cacheable": "SHORT",
+    "cache-control": "max-age=600, must-revalidate",
+    "x-cache": "MISS",
+    "x-cache-group": "normal",
+    "set-cookie": "[REDACTED]",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a44e0f200c4610f5-ORD",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "x-envoy-upstream-service-time": "1218",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:36.533932+00:00",
+  "sha256": "98ea6bfb680cc041af115b9d238bb9a202b47719af346670c8746ea8bd61676d",
+  "bytes": 437472,
+  "body_path": "/workspace/freshness-control/transport-evidence/2b71075146914177bde1fc16857a0fe8.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/2b71075146914177bde1fc16857a0fe8.body"
+}

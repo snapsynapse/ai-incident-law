@@ -1,0 +1,28 @@
+{
+  "id": "3e1d6a5489dd4e5b94f20e8d4b77fe32",
+  "url": "https://tuchtrecht.overheid.nl/zoeken/resultaat/uitspraak/2026/ECLI_NL_TADRSHE_2026_93",
+  "kind": "fetch",
+  "host": "tuchtrecht.overheid.nl",
+  "status": 301,
+  "headers": {
+    "server": "envoy",
+    "date": "Sat, 03 Oct 2026 18:37:47 GMT",
+    "content-length": "0",
+    "location": "/ECLI:NL:TADRSHE:2026:93",
+    "content-language": "en-US",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "content-security-policy": "frame-ancestors 'self'",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "permissions-policy": "accelerometer=(), camera=(), gyroscope=(), magnetometer=(), microphone=(), payment=()",
+    "x-envoy-upstream-service-time": "396",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:46.242509+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/3e1d6a5489dd4e5b94f20e8d4b77fe32.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/3e1d6a5489dd4e5b94f20e8d4b77fe32.body"
+}

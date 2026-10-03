@@ -1,0 +1,50 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://www.opn.ca6.uscourts.gov/opinions.pdf/26a0105p-06.pdf",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "296caab32273488d8e8516a74653153e",
+      "url": "https://www.opn.ca6.uscourts.gov/robots.txt",
+      "kind": "robots",
+      "host": "www.opn.ca6.uscourts.gov",
+      "status": 301,
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "location": "https://www.ca6.uscourts.gov/robots.txt",
+        "server": "envoy",
+        "date": "Sat, 03 Oct 2026 18:37:47 GMT",
+        "content-length": "162",
+        "x-envoy-upstream-service-time": "222",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:47.195840+00:00",
+      "sha256": "6e021fce09ceb6d07b12a50f87d33dd3caa5347a13aa8a39e6db1e038a09c75e",
+      "bytes": 162,
+      "body_path": "/workspace/freshness-control/transport-evidence/296caab32273488d8e8516a74653153e.body"
+    },
+    {
+      "id": "0418a311b0db4fd88a46b8edd411c30c",
+      "url": "https://www.ca6.uscourts.gov/robots.txt",
+      "kind": "robots",
+      "host": "www.ca6.uscourts.gov",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T18:37:47.456921+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/0418a311b0db4fd88a46b8edd411c30c.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T18:37:47.467669+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://www.opn.ca6.uscourts.gov/opinions.pdf/26a0105p-06.pdf",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/resume-20261003/2774d166d9661bb4f2feca51.body"
+}

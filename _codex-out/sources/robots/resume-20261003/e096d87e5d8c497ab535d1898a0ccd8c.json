@@ -1,0 +1,29 @@
+{
+  "id": "e096d87e5d8c497ab535d1898a0ccd8c",
+  "url": "https://aclumich.org/robots.txt",
+  "kind": "robots",
+  "host": "aclumich.org",
+  "status": 301,
+  "headers": {
+    "retry-after": "0",
+    "server": "envoy",
+    "location": "https://www.aclumich.org/robots.txt",
+    "x-pantheon-redirect": "primary-domain-policy-doc",
+    "accept-ranges": "bytes",
+    "date": "Sat, 03 Oct 2026 18:37:17 GMT",
+    "via": "1.1 varnish",
+    "x-served-by": "cache-chi-klot8100042-CHI",
+    "x-cache": "HIT",
+    "x-cache-hits": "0",
+    "x-timer": "S1791052637.303537,VS0,VE5",
+    "content-length": "0",
+    "x-envoy-upstream-service-time": "55",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:16.879033+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/e096d87e5d8c497ab535d1898a0ccd8c.body"
+}

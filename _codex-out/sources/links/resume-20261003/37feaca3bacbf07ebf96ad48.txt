@@ -1,0 +1,518 @@
+         Case 1:21-cv-00157-CL        Document 225        Filed 03/23/26       Page 1 of 10
+
+
+
+
+                              UNITED STATES DISTRICT COURT
+
+                                     DISTRICT OF OREGON
+
+
+
+ JOANNE COUVRETTE, MICHELLE                                          Case No. 1:21-cv-00157-CL
+ SULLIVAN, as special administrator of the
+ estate ofAnn M Wisnovsky; and                                         OPINION AND ORDER
+ WISNOVSKY LAND, LLC, an Oregon
+ limited liability company,
+
+            Plaintiffs,
+
+    V.
+
+
+ MARK A. WISNOVSKY; MICHAEL J.
+ WISNOVSKY; and VALLEY VIEW
+ WINERY, INC., an Oregon Domestic
+ Business Corporation,
+
+            Defendants.
+
+
+CLARKE, United States Magistrate Judge.
+
+          On December 12, 2025 , the Court entered an Opinion and Order sanctioning Plaintiffs
+
+and pro hac vice counsel Mr. Brigandi for repeated violations of Rule 11 (b) and the Local Rules.
+
+Couvrette v. Wisnovsky, No. 1:21-CV-00157-CL, 2025 WL 4109655 at *15 (D. Or. Dec. 12,
+
+2025); ECF No. 212. The Court explained that Timothy Murphy was local counsel of record
+
+when Plaintiffs filed their summary judgment briefing and when Defendants responded and
+
+replied with notice of Plaintiffs' use of non-existent cases, fabricated quotations, and egregious
+
+violations of the Local Rules. The Court ordered Mr. Murphy to show cause as to why he should
+
+
+
+
+Page 1 - OPINION AND ORDER
+      Case 1:21-cv-00157-CL           Document 225         Filed 03/23/26       Page 2 of 10
+
+
+
+not be subject to sanctions, or in the alternative, to propose the appropriate sanctions to be
+
+imposed against him.
+
+       The Court has closely reviewed Mr. Murphy ' s response (ECF No. 221) and
+
+accompanying declaration (ECF No. 221-1) and finds that Mr. Murphy failed to meaningfully
+
+participate in the case in willful violation of LR 83-3. The Court ORDERS Mr. Murphy to pay
+
+Defendants 15% of Defendants' Amended Bill of Costs and Reasonable Attorney Fees, ECF No.
+
+223 . Mr. Murphy is also ORDERED to attach this Opinion and Order with any future motions
+
+for leave to appear pro hac vice in which he seeks to associate as local counsel in the District of
+
+Oregon. The parties consent to magistrate judge jurisdiction. ECF No. 38.
+
+                                         BACKGROUND
+
+       This case arises from a family dispute over the tenancy and ownership of a winery. On
+
+January 29, 2021, Joanne Couvrette ("Ms. Couvrette") as trustee of her mother's estate filed this
+
+lawsuit against two of her brothers. In early January, 2024, Ms. Couvrette contacted Mr. Murphy
+
+with questions related to issues in this case. Ms. Couvrette told Mr. Murphy that Stephen
+
+Brigandi, an attorney in California, was taking over as her attorney, replacing her Oregon
+
+counsel. Mr. Murphy began consulting with Ms. Couvrette and Mr. Brigandi about potential
+
+options relating to the commercial property that might resolve the case. Ms. Couvrette then asked
+
+Mr. Murphy to serve as local counsel for Mr. Brigandi's pro hac vice admission. Mr. Murphy
+
+signed Mr. Birgandi' s pro hac vice application and personally attested that he read and
+
+understood the requirements of serving as local counsel under LR 83-3. Pls.' Mot. for Leave to
+
+Appear Pro Hae Vice at 3, ECF No. 107. On February 7, 2024, the Court granted Mr. Brigandi's
+
+motion to appear pro hac vice.
+
+
+
+
+Page 2 - OPINION AND ORDER
+      Case 1:21-cv-00157-CL          Document 225          Filed 03/23/26     Page 3 of 10
+
+
+
+
+       Mr. Brigandi' s son was dating Ms. Couvrette's daughter, and Mr. Brigandi had agreed to
+
+represent Plaintiffs for free. Michael Wisnovsky Deel. ,r 4, ECF No. 207. According to Mr.
+
+Murphy, Mr. Brigandi was primarily responsible for the litigation strategy and for all dispositive
+
+motions practice. Mr. Murphy explained, " [m]y role mostly involved strategizing with Mr.
+
+Brigandi and Ms. Couvrette on how to fashion a settlement in connection to the commercial
+
+property .... I believed that my expertise in landlord tenant law would be helpful." Murphy
+
+Deel. ,r 6, ECF No. 221-1.
+
+       In July 2024, Ms. Couvrette, in consultation with Mr. Brigandi, filed two lawsuits in
+
+Oregon small claims court involving the same commercial property and parties as this federal
+
+case. Despite the overlap, Ms. Couvrette and Mr. Brigandi did not notify Mr. Murphy of the
+
+small claims court cases until November 2024 when Plaintiffs were facing the imposition of
+
+attorney fees against them. Mr. Murphy attested that " [t]his incident raised serious concerns
+
+about my ability to effectively represent Ms. Couvrette and work with Mr. Brigandi going
+
+forward. " ,r 7. Mr. Murphy concluded that he needed to withdraw from representation. He told
+
+Ms. Couvrette that he would try to find a replacement to serve as local counsel but that she
+
+should also be looking. Because Mr. Brigandi appeared pro hac vice, he required local counsel to
+
+participate in the case. With the dispositive motions deadline coming in January 2025, Mr.
+
+Murphy was concerned that moving for leave to withdraw without a local counsel replacement
+
+would prejudice Plaintiffs by leaving them high and dry.
+
+       On December 16, 2024, the Court found that Mr. Brigandi violated Local Rule 7-1 by
+
+filing a motion to substitute without conferral. Opinion and Order at 4, ECF No. 137. The Court
+
+declined to deny Plaintiffs' motion on that basis but gave notice that:
+
+       [n]oncompliance with Local Rules is not something this Court takes lightly, and
+       further noncompliance may result in denial or dismissal of this case. The Court
+
+
+
+Page 3 - OPINION AND ORDER
+      Case 1:21-cv-00157-CL          Document 225         Filed 03/23/26       Page 4 of 10
+
+
+
+       recognizes that Plaintiffs' lead attorney is admitted to practice in this jurisdiction
+       pro hac vice and encourages local counsel [(Mr. Murphy)] to help ensure
+       compliance with Local Rules.
+Id.
+
+       Despite the Court' s express guidance, Mr. Murphy did not help ensure compliance with
+
+the Local Rules. On January 8, 2025, Mr. Murphy emailed Mr. Brigandi to confirm that "Mr.
+
+Brigandi would be entirely handling all aspects of the summary judgment motion." Murphy
+
+Deel. ,r 9. Mr. Murphy also sought advice from the Oregon State Bar on when it would be
+
+appropriate to move for leave to withdraw. Mr. Murphy then emailed Ms. Couvrette and Mr.
+
+Brigandi and advised that he would move for leave to withdraw after the dispositive motions
+
+were fully briefed. On February 3, 2025, three days after they were filed, Mr. Murphy cursorily
+
+reviewed Plaintiffs Motion for Summary Judgment and Defendants' Motion for Partial
+
+Summary Judgment. He did not review any of the subsequently filed briefings.
+
+       On May 5, 2025, after the cross motions for summary judgment were fully briefed, Mr.
+
+Murphy emailed Defendants' counsel to inform them that he intended to move for leave to
+
+withdraw. Defendants' counsel responded that they were intending to file a motion for sanctions
+
+based on citations to fake cases contained in Plaintiffs' summary judgment briefing. Defendants'
+
+summary judgment briefing had put Plaintiffs on notice of Plaintiffs' use of fake cases,
+
+fabricated quotations, and flagrant violations of the Local Rules. Because Mr. Murphy ' s
+
+participation was limited to counting the days until he could move to withdraw, he had been
+
+unaware of the issue.
+
+       On May 19, 2025, Mr. Murphy filed a motion to withdraw as local counsel, citing "that
+
+circumstances have arisen that allow for withdrawal." ECF No. 174. Because the summary
+
+judgment briefing was only recently under advisement and Defendants' motion for sanctions had
+
+not yet been filed, the Court was not yet aware of Ms. Couvrette and Mr. Brigandi' s misconduct.
+
+
+Page 4 - OPINION AND ORDER
+      Case 1:21-cv-00157-CL           Document 225         Filed 03/23/26       Page 5 of 10
+
+
+
+
+The Court granted Mr. Murphy' s motion for leave to withdraw, allowing thirty days for Plaintiffs
+
+to retain new local counsel. ECF No. 175. On June 11 , 2025, Plaintiffs filed a notice of
+
+appearance of new local counsel. ECF No. 185.
+
+       On December 12, 2025, the Court entered an Opinion and Order sanctioning Plaintiffs
+
+and Mr. Brigandi for repeated violations of Rule 1 l(b) and the Local Rules. 2025 WL 4109655
+
+at * 15. The Court detailed the egregiousness of the misconduct, entered monetary sanctions
+
+against Mr. Brigandi, ordered Plaintiffs' summary judgment briefing stricken, and dismissed
+
+Plaintiffs' claims with prejudice. The Court explained that Mr. Murphy was local counsel of
+
+record when Plaintiffs filed their summary judgment briefing and when Defendants responded
+
+and replied with notice of Plaintiffs' apparent use of non-existent cases, fabricated quotations,
+
+and violations of the Local Rules. The Court vacated its Order granting Mr. Murphy' s motion for
+
+leave to withdraw and ordered him to show cause as to why he should not be subject to sanctions
+
+for either failing to meaningfully participate in the case or for participating in the sanctioned
+
+misconduct. Id. at *12. On December 31 , 2025 , Mr. Murphy filed a response to the Court' s show
+
+cause order. Mr. Murphy did not request a hearing.
+
+                                       LEGAL STANDARD
+
+       "Local Rules are promulgated by District Courts primarily to promote the efficiency of
+
+the Court, and . .. the Court has a large measure of discretion in interpreting and applying them."
+
+Lance, Inc. v. Dewco Servs., Inc. , 422 F.2d 778, 784 (9th Cir. 1970). Within that scope of
+
+discretion, the Court has the authority to award attorney fees as a sanction for bad faith
+
+misconduct or for the "willful disobedience of court orders or rules." Zambrano v. City of Tustin,
+
+885 F.2d 1473, 1481 (9th Cir. 1989). " [L]awyers who willfully, repeatedly, or recklessly
+
+disregard court rules or orders may be sanctioned. But the authority of the court to punish
+
+
+
+
+Page 5 - OPINION AND ORDER
+      Case 1:21-cv-00157-CL           Document 225         Filed 03/23/26        Page 6 of 10
+
+
+
+violations oflocal rules should be reserved for serious breaches." Id. at 1485; but see Los
+
+Angeles Mem'l Coliseum Comm'n v. City of Oakland, 717 F.2d 470,473 (9th Cir. 1983)
+
+(affirming award of attorney fees where counsel violated local rule by merely raising arguments
+
+on motion for reconsideration previously raised).
+
+        "Like other sanctions, attorney ' s fees certainly should not be assessed lightly or without
+
+fair notice and an opportunity for a hearing on the record." Roadway Exp., Inc. v. Piper, 447 U.S.
+
+752, 767 (1980) (footnote omitted). Prior to awardi~g fees, district courts should enter a show
+
+cause order and hold a hearing, if requested. Miranda v. S. Pac. Transp. Co., 710 F.2d 516, 522
+
+(9th Cir. 1983).
+
+                                          DISCUSSION
+
+       At issue before the Court is whether Mr. Murphy willfully violated LR 83-3 by failing to
+
+meaningfully participate in the case. Mr. Murphy argues that the Court should not impose a
+
+sanction because he did not participate in the summary judgment briefing and he was unaware
+
+that the Local Rules required him to review his associated pro hac vice counsel's filings prior to
+
+submission.
+
+       Local Rule 83-3 provides in relevant part:
+
+       (a) Application for Special Admission Pro Hae Vice
+       Any attorney who is an active member in good standing of the bar of any United
+       States court, or the highest court of any state, territory, or insular possession of the
+       United States, may apply to be specially admitted pro hac vice in a particular case,
+       provided he or she:
+               (1) Associates with an attorney admitted to general practice before the bar
+               of this Court, who will meaningfully participate in the preparation and trial
+               of the case. (See LR 83-2 and LR 83-4).
+LR 83-3(a)(l). To appear pro hac vice, the out of state attorney must file a motion for leave to
+
+appear pro hac vice. LR 83-3(a)(4). Within that motion, the associated local counsel often (as
+
+here) certifies that they read and understand the requirements of LR 83-3 and that they will serve
+
+
+Page 6 - OPINION AND ORDER
+      Case 1:21-cv-00157-CL          Document 225         Filed 03/23/26       Page 7 of 10
+
+
+
+
+as designated counsel in the case. Form Motion for Leave to Appear Pro Hae Vice, available at
+
+https://www. ord. uscourts. gov /index.php/attorneys/attomey-admissions#instructions-for-
+
+appl ying-for-admission-pro-hac-vice.
+
+       As explained in the quarterly publication of the Oregon Chapter of the Federal Bar
+
+Association, LR 83-3(a)(l) "provides flexibility to the court and counsel as to the appropriate
+
+level of participation by local counsel. If there is some doubt, however, on whether local counsel
+
+should participate in some aspect of the case or court proceeding, counsel should err on the side
+
+of participation." For the District of Oregon, Vol. XVII, No. 2, at 1 (Summer 2013); In re Pac.
+
+Cargo Servs. , LLC, No. BR 13-30439-TMB?, 2013 WL 5299545, at *10 (Bankr. D. Or. Sept. 18,
+
+2013), affd, No. 3:13-CV-01978-AA, 2014 WL 2041821 (D. Or. May 9, 2014).
+
+       Here, Mr. Murphy does not dispute that he failed to meaningfully participate in the case.
+
+By his own admission:
+
+       [t]he preparation and filing of the summary judgment papers was handled solely by
+       Mr. Brigandi. Respondent [(Mr. Murphy)] did not sign or file the offending briefs;
+       he did not advocate for the positions taken in those briefs; and he did not draft,
+       review or contribute in any way to the briefs nor was he asked to do so. As explained
+       in his declaration, Respondent did a cursory review of the plaintiffs' initial motion
+       for summary judgment, three days after it was filed; and he did not review the
+       subsequent briefing by either party. He had no idea whatsoever the motion included
+       fake legal authorities until [Defendants' counsel] emailed him on May 5, 2025.
+
+Murphy Resp. to Order to Show Cause at 2. Mr. Murphy asserts that his role "mostly involved
+
+strategizing with Mr. Brigandi and Ms. Couvrette on how to fashion a settlement in connection
+
+to the commercial property." Murphy Deel., 6. At best, Mr. Murphy briefly played an advisory
+
+role, far short of any plausible interpretation of what it means to "meaningfully participate."
+
+       Mr. Murphy argues that his failure to meaningfully participate in the case was not done
+
+willfully or in bad faith. From Mr. Murphy's perspective, the term "meaningfully participate" is
+
+vague. He argues:
+
+
+
+Page 7 - OPINION AND ORDER
+      Case 1:21-cv-00157-CL          Document 225         Filed 03/23/26       Page 8 of 10
+
+
+
+
+       [n]either this court's local rules, nor the court's prior admonition from its December
+       16, 2024 order, direct that Respondent was expected to serve as a check on, or
+       guarantor of, Mr. Brigandi's legal work. And even if such requirement was
+       expected by this court (without an express directive to that effect), there is no
+       evidence to suggest or find that Respondent knew that was his responsibility,
+       willfully failed to undertake that responsibility, or did so for an improper purpose.
+       At most, any failure on the part of Respondent in this regard was unintentional,
+       inadvertent, and an error in judgment.
+ECF No. 221 at 11. The Court disagrees.
+
+       Mr. Murphy ' s purported lack of notice about the requirements of LR 83-3 is not well
+
+taken where, as here, the Court specifically warned the parties that " [n ]oncompliance with Local
+
+Rules is not something this Court takes lightly[,]" and it advised that Mr. Murphy should "help
+
+ensure compliance with Local Rules." ECF No. 137 at 4. Despite the Court' s express guidance,
+
+Mr. Murphy took no steps to mitigate Mr. Brigandi's continued noncompliance with the Local
+
+Rules. 1 Having been put on notice of Mr. Brigandi' s propensity to violate the Local Rules, Mr.
+
+Murphy ' s failure to review any of Mr. Brigandi's work prior to submission was a willful
+
+violation of LR 83-3 .
+
+       Mr. Murphy had "serious concerns" about his ability represent Ms. Couvrette and work
+
+with Mr. Brigandi. Murphy Deel. ,r 7. In consultation with the Oregon State Bar, Mr. Murphy
+
+decided that he would wait to withdraw until after the dispositive motions were fully briefed. The
+
+Court does not know what advice the Oregon State Bar provided, but surely it did not advise Mr.
+
+Murphy to hold his breath and cover his eyes while he waited in the wings. Having discovered
+
+that Ms. Couvrette and Mr. Brigandi were practicing duplicative litigation without his knowledge
+
+
+
+1
+  For example, Plaintiffs' Motion for Summary Judgment (ECF No. 142): (1) contained a false
+certification that it contained fewer than 11 ,000 words, violating LR 7-2(b); (2) failed to comply
+with the formatting and filing requirements of attaching exhibits and declarations, violating LR
+10-l(e)(2) and LR 10-3(a); and (3) failed to comply with factual citation requirements on summary
+judgment, violating LR 56-1. These violations were in addition to Mr. Brigandi's violations of LR
+83-7 for the use of non-existent cases and fabricated quotations.
+
+
+Page 8 - OPINION AND ORDER
+      Case 1:21-cv-00157-CL             Document 225       Filed 03/23/26       Page 9 of 10
+
+
+
+or input, Mr. Murphy was subjectively aware of their untrustworthiness. Under these
+
+circumstances, Mr. Murphy's decision to exercise no oversight exceeds a merely negligent
+
+violation of LR 83-3.
+
+       Mr. Brigandi agreed to act as Oregon counsel, presumably was compensated for that role,
+
+and he should not be heard now to profess no responsibility for the acts of the lawyer for whom
+
+he vouched and for whom he served as a conduit in this district. Mr. Murphy signed Mr.
+
+Birgandi' s pro hac vice application and personally attested that he read and understood the
+
+requirements of serving as local counsel under LR 83-3. Pls.' Mot. for Leave to Appear Pro Hae
+
+Vice at 3, ECF No. 107. While meaningful participation does not ordinarily require local counsel
+
+to confirm the veracity of their associated pro hac vice counsel's legal citations, it necessarily
+
+requires local counsel to provide more than an OSB number and a signature on the pro hac vice
+
+application. We will never know what could have been prevented had Mr. Murphy meaningfully
+
+participated in this case. What we know is that Mr. Murphy chose not to participate in this case,
+
+meaningfully or otherwise. Mr. Murphy's decision not to participate in this case-despite the
+
+Court's stated expectations on the role of local counsel and his own "serious concerns" about
+
+Ms. Couvrette and Mr. Brigandi--evidences a willful violation of LR 83-3. The Court' s
+
+authority to sanction an attorney for a violation of the Local Rules is appropriately exercised
+
+under the circumstances of this case.
+
+                                          CONCLUSION
+
+       The Court previously awarded Defendants reasonable attorney fees and costs directly
+
+resulting from Plaintiffs' submission of the summary judgment briefing. 2025 WL 4109655 at
+
+*15. The Court has closely reviewed Defendants' Amended Bill of Costs and Reasonable
+
+Attorney Fees (ECF No. 223) and finds the requested amount of $94,704.38 reasonable. Mr.
+
+
+
+
+Page 9 - OPINION AND ORDER
+    Case 1:21-cv-00157-CL          Document 225         Filed 03/23/26       Page 10 of 10
+
+
+
+Murphy is ORDERED to pay Defendants 15% of that award, $14,205.66 within thirty (30) days
+
+of this Opinion and Order. This amount appropriately accounts for Mr. Murphy's failure to
+
+meaningfully participate in the case in willful disobedience of LR 83-3(a)(l). For the reasons
+
+explained in the Court's December 12, 2025 Opinion and Order, Mr. Brigandi is ORDERED to
+
+pay Defendants the remaining 85% of Defendants' Amended Bill of Costs and Reasonable
+
+Attorney Fees (ECF No. 223), $80,498.72 within thirty (30) days of this Opinion and Order.
+
+       Mr. Murphy attests that he will never appear again in this district as local counsel in
+
+association with pro hac vice counsel. The Court does not impose such a ban on Mr. Murphy but
+
+ORDERS him to ensure that a copy of this Opinion and Order is attached to any future pro hac
+
+vice motion sponsored by Mr. Murphy as local counsel in this district.
+
+           IT IS SO ORDERED.
+
+
+
+
+                                             MARK D. CLARKE
+                                             United States Magistrate Judge
+
+
+
+
+Page 10 - OPINION AND ORDER
+

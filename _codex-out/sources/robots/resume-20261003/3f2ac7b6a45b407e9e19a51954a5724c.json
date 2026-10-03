@@ -1,0 +1,14 @@
+{
+  "id": "3f2ac7b6a45b407e9e19a51954a5724c",
+  "url": "https://smithlaw.com/robots.txt",
+  "kind": "robots",
+  "host": "smithlaw.com",
+  "status": null,
+  "headers": {},
+  "complete": false,
+  "error": "Tunnel connection failed: 403 Forbidden",
+  "retrieved_at": "2026-10-03T03:03:47.779865+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/3f2ac7b6a45b407e9e19a51954a5724c.body"
+}

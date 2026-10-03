@@ -1,0 +1,26 @@
+{
+  "id": "628a43232fb0400099d457f5b3a607a4",
+  "url": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
+  "kind": "fetch",
+  "host": "justice.gov",
+  "status": 301,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:49 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "location": "https://www.justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "server": "envoy",
+    "cf-ray": "a44e0f727b700045-ORD",
+    "x-envoy-upstream-service-time": "34",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:49.756525+00:00",
+  "sha256": "446a6087825fa73eadb045e5a2e9e2adf7df241b571228187728191d961dda1f",
+  "bytes": 167,
+  "body_path": "/workspace/freshness-control/transport-evidence/628a43232fb0400099d457f5b3a607a4.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/628a43232fb0400099d457f5b3a607a4.body"
+}

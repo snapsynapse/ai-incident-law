@@ -1,0 +1,15 @@
+{
+  "id": "fc71a45289a04ad7ada44d778769b5b9",
+  "url": "https://app.minerva26.com:443/robots.txt",
+  "kind": "robots",
+  "host": "app.minerva26.com",
+  "status": null,
+  "headers": {},
+  "complete": false,
+  "error": "Tunnel connection failed: 403 Forbidden",
+  "retrieved_at": "2026-10-03T18:37:17.144507+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/fc71a45289a04ad7ada44d778769b5b9.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/fc71a45289a04ad7ada44d778769b5b9.body"
+}

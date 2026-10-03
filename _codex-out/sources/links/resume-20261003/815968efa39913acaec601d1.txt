@@ -1,0 +1,195 @@
+     Case 2:23-cv-02090-DWL        Document 179       Filed 08/24/26     Page 1 of 5
+
+
+
+ 1   WO
+ 2
+ 3
+ 4
+ 5
+ 6                       IN THE UNITED STATES DISTRICT COURT
+ 7                               FOR THE DISTRICT OF ARIZONA
+ 8
+ 9    Michael L Ruiz,                                    No. CV-23-02090-PHX-DWL
+10                  Plaintiff,                           ORDER
+11    v.
+12    Magellan Financial & Insurance Services,
+13                  Defendant.
+14
+            On July 8, 2026, the Court issued an order to show cause (“OSC”) requiring
+15
+     Plaintiff’s counsel, Elizabeth Tate, to show cause why she should not be sanctioned or
+16
+     disciplined for including, in Plaintiff’s response to Defendant’s motion for attorneys’ fees,
+17
+     two false quotations from Ninth Circuit cases. (Doc. 163.) After reviewing Ms. Tate’s
+18
+     response (Doc. 171), the Court identified “three other briefs [that] contain similar errors”
+19
+     and ordered Ms. Tate to address those “additional examples [that] may also be attributable
+20
+     to the misuse of generative AI.” (Doc. 172 at 3-5.) Ms. Tate has now done so. (Doc. 177.)
+21
+            The first issue to be addressed is whether Ms. Tate’s conduct violated any
+22
+     procedural or ethical rules. It did. Ms. Tate acknowledges that she filed three different
+23
+     briefs in this action that contained fake AI-generated quotations and filed a fourth brief that
+24
+     contained an inaccurate AI-generated case summary. (Doc. 171 at 1 [“The response to
+25
+     Defendant’s application for attorneys’ fees and costs that Ms. Tate filed on behalf of
+26
+     Plaintiff (Doc. 155) . . . contained two false quotations in the parenthetical portion of case
+27
+     citations. Ms. Tate acknowledges that representing the language as direct quotations from
+28
+     the cases was a mistake . . . .”]; Doc. 177 at 2 [“In the course of preparing this Motion, Ms.
+     Case 2:23-cv-02090-DWL         Document 179        Filed 08/24/26    Page 2 of 5
+
+
+
+ 1   Tate utilized ChatGPT to prepare the draft brief. ChatGPT cited the Ansell v. Green Acres
+ 2   Contracting Co., 347 F.3d 515 (3d Cir. 2003) case to support the proposition that evidence
+ 3   of favorable treatment of the plaintiff or others does not preclude discrimination and may
+ 4   be excluded as irrelevant or misleading. . . . She now fully understands the need to be more
+ 5   precise in her review and analysis of the cases AI includes in a draft brief . . . .”]; Doc. 177
+ 6   at 2-3 [“Ms. Tate also utilized ChatGPT to assist with the Brief on Impeachment. . . . While
+ 7   Ms. Tate confirmed the cases stood for the proposition for which she understood them to
+ 8   when she first prompted ChatGPT to include them in the draft brief, Ms. Tate mistakenly
+ 9   did not correct the misquotations from the Antonakeas or Osazuwa cases. She apologizes
+10   and accepts full responsibility for the quotation errors.”]; Doc. 177 at 3 [“Ms. Tate’s
+11   Opposition to Defendant’s Motion to Extend Time to File Bill of Costs . . . suffered from
+12   the same issue: a false direct quotation.”].)       Although Ms. Tate argues these were
+13   “inadvertent oversights” (Doc. 177 at 3), that argument goes at most to the selection of the
+14   sanction (if any) to be imposed for the violation, not to whether a violation occurred. As
+15   discussed in more detail in the July 8, 2026 order, the conduct at issue here violated, at a
+16   minimum, Rule 11(b)(2) of the Federal Rules of Civil Procedure, ER 1.3’s duty of
+17   reasonable diligence, ER 1.1’s duty of competence, and ER 3.1’s prohibition against
+18   advancing legal arguments that lack a good faith basis in the law. (Doc. 163 at 9-11.)
+19          The remaining issue to be addressed is the identification of the appropriate sanction,
+20   if any. In her initial response, Ms. Tate argues that the Court should “forego sanctions or
+21   discipline” because she “has learned her lesson,” “did not act in bad faith but understands
+22   that she cannot make this type of mistake again,” and “knows that any subsequent
+23   transgressions likely would merit sanctions.” (Doc. 171 at 7.) Ms. Tate also asserts that
+24   she “sought to use AI in a responsible manner,” “has been honest and forthright about how
+25   the errors happened,” “is embarrassed by her mistake and does not intend to let it happen
+26   ever again,” “has suffered public humiliation as a result of her errors,” and “also faces
+27   potential disciplinary action by the State Bar of Arizona.” (Id. at 6.) Finally, Ms. Tate
+28   contrasts her conduct with the conduct that resulted in the imposition of sanctions in other
+
+
+                                                  -2-
+     Case 2:23-cv-02090-DWL          Document 179         Filed 08/24/26     Page 3 of 5
+
+
+
+ 1   AI hallucination cases by emphasizing that those other cases “involved widescale false
+ 2   citations in multiple briefs followed by a lack of candor and affirmative misrepresentations
+ 3   to the court concerning the facts surrounding the citations,” whereas this case involves “two
+ 4   citation errors.” (Id. at 6.)
+ 5            This latter assertion was, in part, the impetus for the Court’s request for Ms. Tate to
+ 6   file a supplemental brief addressing the additional AI hallucinations it had detected in other
+ 7   briefs. In her supplemental brief, Ms. Tate “maintains her position that her conduct does
+ 8   not warrant sanctions or discipline.” (Doc. 177 at 3.) Ms. Tate again asserts that she
+ 9   engaged in “genuine efforts to comply with her ethical obligations while utilizing
+10   generative AI,” reiterates that she “accepts full responsibility for the misquotations
+11   contained in her filings and has unquestionably learned her lesson,” and concludes that
+12   “her failures to fix the citations were embarrassing mistakes, and she will do her best to
+13   ensure no similar citation errors occur again.” (Id. at 4.)
+14            Although the Court appreciates Ms. Tate’s honesty and expressions of contrition in
+15   response to the OSC and agrees that the conduct at issue here is not as egregious as some
+16   of the conduct that has warranted severe sanctions in other cases, the Court still concludes
+17   that some form of sanction is warranted. As discussed in more detail in the July 8, 2026
+18   order,    potential   sanctions    in   this   context    include     “disbarment,    suspension,
+19   reprimand/censure (‘public discipline which declares the conduct of the lawyer improper,
+20   but does not limit the lawyer’s right to practice’), admonition (‘private reprimand’), and
+21   probation,” and the factors to consider when deciding which sanction to impose include
+22   “(a) the duty violated; (b) the lawyer’s mental state; (c) the actual or potential injury caused
+23   by the lawyer’s misconduct; and (d) the existence of aggravating or mitigating factors.”
+24   (Id. at 10, cleaned up.) Here, Ms. Tate violated multiple duties; acted with a mental state
+25   that, if not intentional, was at least negligent and was arguably reckless; and created at least
+26   a potential for injury—had the Court uncritically accepted her fake quotations and
+27   inaccurate case citation, this could have led to legal errors that may have derailed the
+28   trajectory of the case. Finally, although Ms. Tate’s responses to the OSC establish that this
+
+
+                                                    -3-
+     Case 2:23-cv-02090-DWL           Document 179        Filed 08/24/26    Page 4 of 5
+
+
+
+ 1   case involves two important mitigating factors (remorse and the absence of a dishonest
+ 2   motive), the Court cannot ignore the presence of three aggravating factors (prior discipline,
+ 3   a pattern of misconduct/multiple offenses, and substantial experience).
+ 4             When it comes to “discipline for misrepresentations to a court,” the Ninth Circuit
+ 5   employs the ABA Standards, which depend “in large measure, on the lawyer’s mental
+ 6   state”:
+ 7             6.12. Suspension is generally appropriate when a lawyer knows that false
+               statements or documents are being submitted to the court or that material
+ 8             information is improperly being withheld, and takes no remedial action, and
+               causes injury or potential injury to a party to the legal proceeding, or causes
+ 9             an adverse or potentially adverse effect on the legal proceeding.
+10             6.13. Reprimand is generally appropriate when a lawyer is negligent either
+               in determining whether statements or documents are false or in taking
+11             remedial action when material information is being withheld and causes
+               injury or potential injury to a party to the legal proceeding, or causes an
+12             adverse or potentially adverse effect on the legal proceeding.
+13             6.14. Admonition is generally appropriate when a lawyer engages in an
+               isolated instance of neglect in determining whether submitted statements or
+14             documents are false or in failing to disclose material information upon
+               learning of its falsity, and causes little or no actual or potential injury to a
+15             party, or causes little or no adverse or potentially adverse effect on the legal
+               proceeding.
+16
+17   In re Girardi, 611 F.3d 1027, 1038 (9th Cir. 2010).
+18             As discussed above, this case involved conduct that was at least negligent (albeit
+19   not knowingly deceptive), was not isolated, created a potential for injury, and was
+20   accompanied by several aggravating factors. Under these circumstances, no sanction less
+21   severe than a reprimand would be appropriate.
+22             …
+23             …
+24             …
+25             …
+26             …
+27             …
+28             …
+
+
+                                                    -4-
+     Case 2:23-cv-02090-DWL       Document 179        Filed 08/24/26   Page 5 of 5
+
+
+
+ 1          Accordingly,
+ 2          IT IS ORDERED that this order constitutes a formal public reprimand. Ms. Tate
+ 3   must report this discipline in any context in which she is required to report past instances
+ 4   of attorney discipline.
+ 5          Dated this 24th day of August, 2026.
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+
+
+                                                -5-
+

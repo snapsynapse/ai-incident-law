@@ -1,0 +1,4 @@
+User-agent: *
+Crawl-delay: 10
+# Directories
+Disallow: /live/uploads/2024/11/ACLU2024_Election*.pdf

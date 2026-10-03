@@ -1,0 +1,27 @@
+{
+  "id": "4db29cdf2cf74fc0b059c739ee40edaa",
+  "url": "https://arcourts.gov/robots.txt",
+  "kind": "robots",
+  "host": "arcourts.gov",
+  "status": 200,
+  "headers": {
+    "server": "envoy",
+    "date": "Sat, 03 Oct 2026 18:37:17 GMT",
+    "content-type": "text/plain; charset=UTF-8",
+    "content-length": "1594",
+    "x-content-type-options": "nosniff",
+    "last-modified": "Tue, 15 Jun 2021 16:51:35 GMT",
+    "etag": "\"63a-5c4d0c9763af7\"",
+    "accept-ranges": "bytes",
+    "cache-control": "max-age=1209600",
+    "expires": "Sat, 17 Oct 2026 18:37:17 GMT",
+    "x-envoy-upstream-service-time": "148",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:16.870612+00:00",
+  "sha256": "3200f655bd0e859a4fb1a7237cc64d4cec38824f6f5ee914c37d0b9de0f9c554",
+  "bytes": 1594,
+  "body_path": "/workspace/freshness-control/transport-evidence/4db29cdf2cf74fc0b059c739ee40edaa.body"
+}

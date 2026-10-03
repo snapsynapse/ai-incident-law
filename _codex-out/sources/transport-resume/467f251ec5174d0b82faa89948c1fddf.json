@@ -1,0 +1,23 @@
+{
+  "id": "467f251ec5174d0b82faa89948c1fddf",
+  "url": "https://gao.gov/products/b-423943,b-423943.2",
+  "kind": "fetch",
+  "host": "gao.gov",
+  "status": 302,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:44:32 GMT",
+    "server": "envoy",
+    "location": "https://www.gao.gov/products/b-423943,b-423943.2",
+    "content-length": "290",
+    "content-type": "text/html; charset=iso-8859-1",
+    "x-envoy-upstream-service-time": "108",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:44:32.791029+00:00",
+  "sha256": "ec1924a73e6eab12d798f2c122224fa6346c3ae5456a3e98b55ca55cebae4095",
+  "bytes": 290,
+  "body_path": "/workspace/freshness-control/transport-evidence/467f251ec5174d0b82faa89948c1fddf.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/467f251ec5174d0b82faa89948c1fddf.body"
+}

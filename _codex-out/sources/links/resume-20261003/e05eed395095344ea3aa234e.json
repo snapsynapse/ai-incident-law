@@ -1,0 +1,13 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://courtlistener.com/docket/73387361/swanson-v-international-business-machines-corporation/",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots HTTP 403 blocks access",
+  "attempts": [],
+  "retrieved_at": "2026-10-03T18:37:51.601804+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://courtlistener.com/docket/73387361/swanson-v-international-business-machines-corporation/",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/resume-20261003/e05eed395095344ea3aa234e.body"
+}

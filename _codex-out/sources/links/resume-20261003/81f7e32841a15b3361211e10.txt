@@ -1,0 +1,206 @@
+      Case 4:24-cv-00801   Document 26      Filed on 07/18/24 in TXSD    Page 1 of 5
+                                                                           United States District Court
+                                                                             Southern District of Texas
+
+                                                                                ENTERED
+                        UNITED STATES DISTRICT COURT                            July 18, 2024
+                         SOUTHERN DISTRICT OF TEXAS                          Nathan Ochsner, Clerk
+
+                             HOUSTON DIVISION
+ HARVEY EUGENE MURPHY, JR.,                §
+                                           §
+         Plaintiff.                        §
+                                           §
+ V.                                        § CIVIL ACTION NO. 4:24-cv-00801
+                                           §
+ ESSILORLUXOTTICA USA INC.,                §
+ et al.,                                   §
+                                           §
+         Defendants.                       §
+                      MEMORANDUM AND RECOMMENDATION
+        Pending before me is a Motion to Remand filed by Plaintiff Harvey Eugene
+Murphy, Jr. (“Murphy”). See Dkt. 17. For the reasons discussed below, I recommend
+the motion be GRANTED and this case returned to state court.
+                                   BACKGROUND
+        Murphy, a citizen of Texas, sued Defendants EssilorLuxottica USA Inc.
+(“EssilorLuxottica”), Luxottica of America Inc., Luxottica Retail North America Inc.,
+Thomas Stites (“Stites”), Greysi Nayeli Rodriguez Bonilla (“Rodriguez”), Anthony
+Pfleger (“Pfleger”), Macy’s, Inc., and Kimco Realty Corporation (collectively,
+“Defendants”) in the 125th Judicial District Court of Harris County, Texas, for
+malicious prosecution, false imprisonment, negligence, and gross negligence.
+        Murphy’s case, in a nutshell, is this: he was allegedly beaten and gang-raped
+after being held in jail on charges that he robbed a Sunglass Hut on a date when he
+was 2,000 miles away. According to Murphy’s state court petition, Pfleger, the head
+of loss prevention for EssilorLuxottica (Sunglass Hut’s parent company), allegedly
+convinced police that artificial intelligence and facial recognition software identified
+Murphy as the culprit. Murphy also claims that EssilorLuxottica “prepped” and
+“primed” Rodriguez, a Sunglass Hut employee, to identify Murphy as the robber in a
+photo lineup, which she did, leading to a warrant for Murphy’s arrest. Dkt. 1-4 at 6.
+        Pfleger, a citizen of Florida, removed the case to federal court on the basis of
+improper joinder, contending that Murphy improperly joined Stites, another Sunglass
+   Case 4:24-cv-00801      Document 26      Filed on 07/18/24 in TXSD      Page 2 of 5
+
+
+
+
+Hut employee, and Rodriguez—both citizens of Texas—“solely to defeat diversity
+jurisdiction.” Dkt. 1 at 2.1 Pfleger contends that Stites and Rodriguez are improperly
+joined because Murphy cannot establish any cause of action against them. Murphy
+has moved to remand, arguing that he has stated a claim against Rodriguez for
+malicious prosecution and/or false imprisonment.2
+                                 LEGAL STANDARD
+       “The improper joinder doctrine constitutes a narrow exception to the rule of
+complete diversity.” McDonal v. Abbott Lab’ys, 408 F.3d 177, 183 (5th Cir. 2005).
+When a “plaintiff improperly joins a non-diverse defendant, . . . the court may
+disregard the citizenship of that defendant, dismiss the non-diverse defendant from
+the case, and exercise subject matter jurisdiction over the remaining diverse
+defendant.” Flagg v. Stryker Corp., 819 F.3d 132, 136 (5th Cir. 2016). The Fifth Circuit
+has recognized two ways to establish improper joinder: “(1) actual fraud in the
+pleading of jurisdictional facts, or (2) inability of the plaintiff to establish a cause of
+action against the non-diverse party in state court.” Travis v. Irby, 326 F.3d 644, 647
+(5th Cir. 2003). Because Pfleger has not alleged actual fraud in Murphy’s pleading of
+jurisdictional facts, I will consider only the latter method for determining improper
+joinder. In that situation, the test for improper joinder is “whether the defendant has
+demonstrated that there is no possibility of recovery by the plaintiff against an in-state
+defendant, which stated differently means that there is no reasonable basis for the
+district court to predict that the plaintiff might be able to recover against an in-state
+defendant.” Smallwood v. Ill. Cent. R.R. Co., 385 F.3d 568, 573 (5th Cir. 2004). There
+are two ways to make this determination.
+       The first option is to “conduct a Rule 12(b)(6)-type analysis, looking initially at
+the allegations of the complaint to determine whether the complaint states a claim
+under state law against the in-state defendant.” Id. The second path is suitable for
+
+
+
+1 The corporate defendants are citizens of Delaware, New York, Ohio, and Maryland. See
+
+Dkt. 1 at 2.
+2 Murphy abandoned his claims against Stites in his Motion to Remand, along with his
+
+negligence claims against Rodriguez.
+
+                                            2
+   Case 4:24-cv-00801      Document 26      Filed on 07/18/24 in TXSD     Page 3 of 5
+
+
+
+
+cases “in which a plaintiff has stated a claim, but has misstated or omitted discrete
+facts that would determine the propriety of joinder.” Id. In those cases, “the district
+court may, in its discretion, pierce the pleadings and conduct a summary inquiry,”
+considering summary judgment-type evidence such as affidavits and deposition
+testimony. Id. “[A] summary inquiry is appropriate only to identify the presence of
+discrete and undisputed facts that would preclude plaintiff’s recovery against the in-
+state defendant.” Id. at 573–74. “For example, the in-state doctor defendant did not
+treat the plaintiff patient, the in-state pharmacist defendant did not fill a prescription
+for the plaintiff patient, a party’s residence was not as alleged, or any other fact that
+easily can be disproved if not true.” Id. at 574 n.12. In determining whether a
+defendant has been improperly joined, a district court may exercise its discretion to
+employ either a Rule 12(b)(6)-type inquiry or a summary inquiry, “but it must use one
+and only one of them, not neither or both.” Int’l Energy Ventures Mgmt., L.L.C. v.
+United Energy Grp., 818 F.3d 193, 207 (5th Cir. 2016).
+      Pfleger bears a “heavy burden” of proving improper joinder. Smallwood, 385
+F.3d at 576. Because federal courts are courts of limited jurisdiction, removal statutes
+are “strictly construed, and any doubt about the propriety of removal must be resolved
+in favor of remand.” Gasch v. Hartford Accident & Indem. Co., 491 F.3d 278, 281–82
+(5th Cir. 2007). Accordingly, in deciding whether a party has been improperly joined,
+I must “resolve all contested factual issues and ambiguities of state law in [Murphy’s]
+favor.” Id. at 281. Furthermore, “the existence of even a single valid cause of action
+against” Rodriguez “requires remand of the entire case to state court.” Gray ex rel.
+Rudd v. Beverly Enters.-Miss., Inc., 390 F.3d 400, 412 (5th Cir. 2004).
+                                      ANALYSIS
+      I will conduct a Rule 12(b)(6)-type analysis of Murphy’s malicious prosecution
+claim against Rodriguez to determine whether Rodriguez was improperly joined.
+When performing a Rule 12(b)(6)-type analysis, I must determine whether Murphy
+has pleaded “enough facts to state a claim to relief that is plausible on its face.” Bell
+Atl. Corp. v. Twombly, 550 U.S. 544, 570 (2007). A claim is facially plausible when
+the plaintiff pleads facts that allow the district court to “draw the reasonable inference
+
+
+                                            3
+   Case 4:24-cv-00801       Document 26      Filed on 07/18/24 in TXSD      Page 4 of 5
+
+
+
+
+that the defendant is liable for the misconduct alleged.” Ashcroft v. Iqbal, 556 U.S.
+662, 678 (2009). “[T]he central issue is whether, in the light most favorable to the
+plaintiff, the complaint states a valid claim for relief.” Travis, 326 F.3d at 648
+(emphasis added and removed) (quotation omitted).
+       To state a claim for malicious prosecution, Murphy must allege: (1) a criminal
+prosecution was commenced against him; (2) Rodriguez initiated or procured the
+criminal prosecution; (3) the prosecution was terminated in his favor, (4) his
+innocence; (5) the absence of probable cause for the criminal proceedings;
+(6) Rodriguez’s malice in filing the charge; and (7) damages. See Richey v. Brookshire
+Grocery Co., 952 S.W.2d 515, 517 (Tex. 1997). Pfleger contends that Murphy “has
+made no allegation in his pleadings that would establish . . . elements (2), (5), or (6),
+set forth above, as to Ms. Rodriguez.” Dkt. 1 at 5.
+       The bulk of Pfleger’s argument for removal turns on his argument that Murphy
+has failed to sufficiently allege Rodriguez made a false statement to police.3 I concede
+that the question of whether Murphy has stated a claim against Rodriguez is a close
+call. Even so, the liberality with which I must construe Murphy’s pleadings, coupled
+with Pfleger’s heavy burden to establish improper joinder, tip the scales in favor of
+remand.
+       Put simply, if this were a motion to dismiss, I would deny it. Pfleger complains
+that Murphy does not specifically state in his state court petition that “Rodriguez
+knowingly provided law enforcement with false information about [Murphy’s]
+
+
+3 To satisfy elements 2, 5, and 6 of a malicious prosecution claim, Murphy must allege
+
+that Rodriguez knew that she provided false information to the authorities. See
+Browning-Ferris Indus., Inc. v. Lieck, 881 S.W.2d 288, 293 (Tex. 1994) (“A person does
+not procure a criminal prosecution when the decision whether to prosecute is left to the
+discretion of another, including a law enforcement official or the grand jury, unless the
+person provides information which he knows is false.” (quotation omitted)) (element 2);
+Kjellvander v. Citicorp, 156 F.R.D. 138, 144 (S.D. Tex. 1994) (probable cause does not
+exist “if the charging party knowingly makes false statements” to law enforcement “or
+withholds material facts”) (element 5); Hayter v. City of Mount Vernon, 154 F.3d 269,
+275 (5th Cir. 1998) (“Under Texas law, malice may be inferred from the lack of probable
+cause or from a finding that the defendant acted in reckless disregard of the other person’s
+rights.”) (element 6).
+
+                                             4
+    Case 4:24-cv-00801      Document 26       Filed on 07/18/24 in TXSD      Page 5 of 5
+
+
+
+
+culpability.” Dkt. 18 at 13. Although Murphy’s Original Petition does not contain those
+exact words, the clear import of Murphy’s lawsuit is that Rodriguez falsely represented
+to law enforcement that she recognized Murphy as the person who robbed the
+Sunglass Hut. Indeed, Murphy alleges that Rodriguez picked Murphy out of a line-up
+only after being “prepped” and “primed to identify Murphy as the robber” despite “not
+hav[ing] the facts . . . that Murphy was guilty of a crime.” Dkt. 1-4 at 6, 9. That is
+enough at the pleading stage to allege the knowledge requirement of a malicious
+prosecution claim. Because I cannot say that Murphy has no possibility of recovery
+against Rodriguez on the malicious prosecution claim, this court lacks subject matter
+jurisdiction and this case must be remanded to state court.4
+                                     CONCLUSION
+       For the reasons discussed above, I recommend Murphy’s Motion to Remand
+(Dkt. 17) be GRANTED and this matter be REMANDED to the 125th Judicial
+District Court of Harris County, Texas.5
+       The parties have 14 days from service of this Memorandum and
+Recommendation to file written objections. See 28 U.S.C. § 636(b)(1)(C); FED. R. CIV.
+P. 72(b)(2). Failure to file timely objections will preclude appellate review of factual
+findings and legal conclusions, except for plain error.
+       SIGNED this 18th day of July 2024.
+
+
+                                            ______________________________
+                                                    ANDREW M. EDISON
+                                             UNITED STATES MAGISTRATE JUDGE
+
+
+
+
+4 Because I have found that Murphy has sufficiently stated a claim for malicious
+prosecution against Rodriguez, I need not address the sufficiency of the false
+imprisonment claim.
+5 If Stites and Rodriguez are, for whatever reason, dismissed from this action, the
+remaining diverse Defendants may remove to federal district court again. See S.W.S.
+Erectors, Inc. v. Infax, Inc., 72 F.3d 489, 492 (5th Cir. 1996) (“The Fifth Circuit recognizes
+a defendant’s right to seek subsequent removals after remand.”).
+
+                                              5
+

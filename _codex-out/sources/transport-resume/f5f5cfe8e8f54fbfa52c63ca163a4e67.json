@@ -1,0 +1,27 @@
+{
+  "id": "f5f5cfe8e8f54fbfa52c63ca163a4e67",
+  "url": "https://vibegraveyard.ai/robots.txt",
+  "kind": "robots",
+  "host": "vibegraveyard.ai",
+  "status": 200,
+  "headers": {
+    "cache-control": "public, max-age=3600",
+    "expires": "Sat, 03 Oct 2026 19:37:44 GMT",
+    "content-type": "text/plain",
+    "last-modified": "Tue, 28 Jul 2026 04:05:30 GMT",
+    "accept-ranges": "bytes",
+    "content-length": "930",
+    "date": "Sat, 03 Oct 2026 18:37:44 GMT",
+    "server": "envoy",
+    "x-turbo-charged-by": "LiteSpeed",
+    "x-envoy-upstream-service-time": "188",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:44.277342+00:00",
+  "sha256": "7eaa778a9fc360a43152e72886617932fd44a2b449fa629c0be17f45564d1a75",
+  "bytes": 930,
+  "body_path": "/workspace/freshness-control/transport-evidence/f5f5cfe8e8f54fbfa52c63ca163a4e67.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/f5f5cfe8e8f54fbfa52c63ca163a4e67.body"
+}

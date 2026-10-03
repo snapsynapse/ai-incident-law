@@ -1,0 +1,237 @@
+    Case: 1:25-cv-03096 Document #: 96 Filed: 04/07/26 Page 1 of 5 PageID #:1728
+
+
+
+
+                        THE UNITED STATES DISTRICT COURT
+                      FOR THE NORTHERN DISTRICT OF ILLINOIS
+                                EASTERN DIVISION
+
+                                                   )
+IFEOMA DELLIANE CHINEDU OBI,                       )
+                                                   )
+                       Plaintiff,                  )
+       v.                                          )      No. 25 C 3096
+                                                   )
+COOK COUNTY, ILLINOIS; MICHAEL                     )      Chief Judge Virginia M. Kendall
+IAN BENDER; CAESAR & BENDER, LLP;                  )
+LEVING LAW GROUP; ERIC HARTIG;                     )
+LESLIE POOLE; COOK COUNTY COURT                    )
+– CIRCUIT COURT 2; JUDGE MATTHEW                   )
+LINKS; JUDGE ZELLER, and                           )
+ASSOCIATED PARTIES                                 )
+                                                   )
+                       Defendants.                 )
+                                                   )
+
+                                     OPINION AND ORDER
+
+       The Court dismissed Plaintiff Ifeoma Delliane Chinedu Obi’s complaint and entered
+
+judgment against her on November 18, 2025. (Dkts. 88-89). Twelve days later she filed a motion
+
+to alter or amend the judgment under Rule 59(e). (Dkt. 90). The Court strikes Plaintiff’s motion
+
+for violating Local Rule 7.1 and sanctions her $9,750 for violating Rule 11.
+
+       Plaintiff’s motion is 10.5 pages single-spaced and her core argument runs six straight pages
+
+in a single paragraph. (Dkt. 90 at 2-8). 10.5 single-spaced pages is 21 pages double-spaced.
+
+Plaintiff’s reply briefs are 23 pages single-spaced (46 pages double-spaced) and 13 pages single-
+
+spaced (26 pages double-spaced). (Dkts. 94-95). Plaintiff never sought leave to file such
+
+voluminous papers. The lack of table of contents is also problematic because, as discussed below,
+
+many of Plaintiff’s citations are fictious. Plaintiff violated Local Rule 7.1. “Neither a motion nor
+
+brief in support . . . shall exceed 15 pages without prior approval of the court.” L.R. 7.1. Any brief
+
+that exceeds 15 pages “must have a table of contents with the pages noted and a table of cases.”
+
+                                                  1
+    Case: 1:25-cv-03096 Document #: 96 Filed: 04/07/26 Page 2 of 5 PageID #:1729
+
+
+
+
+Id. “Any brief . . . that does not comply with this rule shall be . . . subject to being stricken by the
+
+court.” Id. The Court “strictly enforce[s]” this rule. (See Chamber’s Court Procedures, Memoranda
+
+of Law) (https://www.ilnd.uscourts.gov/judge_display.php?LastName=Kendall). The Court
+
+therefore strikes Plaintiff’s motion and replies. L.R. 7.1; Nance v. United States, 2023 WL
+
+5211606, at *9 (N.D. Ill. Aug. 14, 2023) (“the Court strikes [Plaintiff’s] second memorandum of
+
+law . . . because it exceeds the page limit under Local Rule 7.1”); O’Brien v. United States, 2023
+
+WL 8451801, at *1 n.2 (N.D. Ill. Dec. 6, 2023) (striking excess pages from oversized brief);
+
+Arkeyo, LLC v. Saggezza, Inc., 2021 WL 2254959, at *2 (N.D. Ill. June 3, 2021) (granting request
+
+under L.R. 7.1 and considering the brief only up to page fifteen).
+
+       Normally the Court, recognizing Plaintiff’s pro se status, would offer leeway and consider
+
+Plaintiff’s briefs despite violating Local Rule 7.1. Plaintiff’s egregious, repeated, and ongoing Rule
+
+11 violations, however, foreclose any such possibility. Plaintiff generated each brief using AI.
+
+Plaintiff’s motion is riddled with AI hallucinations, made up cases, quotes, and statements of law
+
+and fact. (Dkt. 90); (see also Dkt. 92-1) (identifying 13 hallucinated cases, quotes, and statements
+
+of law). For example, Plaintiff quotes Marshall v. Marshall, 547 U.S. 293 (2006) for the rule that
+
+“Federal courts may exercise jurisdiction even when the case touches upon matters traditionally
+
+reserved to state law, where federal rights are at issue.” (Dkt. 90 at 3). That quoted language is not
+
+in Marshall. Plaintiff cites Andrade v. Arby Concessions, 88 F.4th 1014, 1018 (7th Cir. 2023) to
+
+dispute the Court’s Order dismissing her complaint. (Dkt. 90 at 6). “Andrade” is not a real case.
+
+Plaintiff’s reliance on AI hallucinations is not limited to made up cases either. Plaintiff conjures
+
+up new language from this Court’s prior orders as well. Plaintiff asserts that “Page 7 [of the Court’s
+
+November 18, 2025, Order] explicitly references that ‘a federal court may hear a claim alleging a
+
+state court judgment is void for lack of jurisdiction,’ which is precisely the central and repeated
+
+
+
+                                                   2
+    Case: 1:25-cv-03096 Document #: 96 Filed: 04/07/26 Page 3 of 5 PageID #:1730
+
+
+
+
+allegation raised by Plaintiff.” (Dkt. 90 at 6). That language is not in the Court’s Order. (See Dkt.
+
+88). Plaintiff’s motion is so replete with fabricated law, quotes, and statements that there is
+
+virtually no cogent argument actually supported by real law. (Dkt. 90 at 3-7) (core argument
+
+predicated on fabrication); (see also Dkt. 92-1) (charting Plaintiff’s Rule 11 violations). This is
+
+not the first time Plaintiff has done this. In a prior filing, Plaintiff’s brief contained at least 17
+
+instances of fake cases, quotes, and statements of law and fact from AI hallucinations. (Compare
+
+Dkt. 78 with Dkt. 86-1 at 1-3). The Court then gave Plaintiff grace—Plaintiff has exhausted that
+
+leniency.
+
+       Plaintiff’s replies suffer from similar Rule 11 violations. In one reply, Plaintiff quoted
+
+Ridder v. City of Springfield, 109 F.3d 288, 296 (6th Cir. 1997) as stating that “Sanctions under
+
+Rule 11 are unavailable unless served before the case is disposed of.” That quoted language is not
+
+in Ridder. (Dkt. 94 at 11). In the other reply, Plaintiff asserted that the “Court dismissed claims it
+
+never reviewed” and that “[t]he operative complaint in this matter is Docket #14 Plaintiff’s
+
+Amended Complaint, which properly superseded all prior pleadings.” (Dkt. 95 at 2). This is false.
+
+The operative complaint is Docket 46. The Court—extending significant leeway to Plaintiff on
+
+account of her pro se status—also accepted Plaintiff’s “Supplemental Complaint” (Dkt. 50) along
+
+with her operative complaint (Dkt. 46). (See Dkt. 88 at 10) (considering and dismissing both Dkts.
+
+46 and 50).
+
+       The severity of Plaintiff’s Rule 11 ongoing and repeated violations warrants sanctions.
+
+“Pro se status does not shelter plaintiffs from sanctions pursuant to Rule 11.” Helen Allen v. Cass
+
+Casper & Disparti Law Group, 2026 WL 674309, at *9 (N.D. Ill. Mar. 10, 2026) (quoting
+
+Eberhardt v. Vill. of Tinley Park, 2022 WL 22896754, at *2 (N.D. Ill. Aug. 18, 2022));
+
+Vukadinovich v. McCarthy, 901 F.2d 1439, 1445 (7th Cir. 1990). “When a self-represented party
+
+
+
+                                                  3
+    Case: 1:25-cv-03096 Document #: 96 Filed: 04/07/26 Page 4 of 5 PageID #:1731
+
+
+
+
+files a document in federal court, that party is certifying to the court that the legal contentions
+
+contained in it ‘are warranted by existing law.’” Id. (quoting Fed. R. Civ. P. 11(b)(2)).
+
+“‘Carelessness, good faith, or ignorance are not an excuse for submitting materials that do not
+
+comply with Rule 11.’” Id. (quoting Attaway v. Illinois Dep’t of Corr., 2025 WL 1101398, at *2
+
+(S.D. Ill. Apr. 14, 2025)). Plaintiff “must ensure that the case citations and representations she
+
+presents to the court are accurate and are supported by valid precedent; the fact that she is
+
+representing herself does not relieve her of that duty.” Id.
+
+       “Filing a document that contains citations to nonexistent cases, quotes language that comes
+
+from no real case, or that contains arguments wholly unsupported by the record violates Rule 11.”
+
+Id. at *10. Plaintiff did just that repeatedly. “This demonstrates that [Plaintiff] failed to make a
+
+reasonable inquiry into the supporting law or facts. This wastes both the parties’ and the Court’s
+
+time attempting to locate nonexistent cases and unpack made up factual assertions.” Id. The Court
+
+sanctions Plaintiff $9,750 for filing false cases, quotes, and statements of law and fact to the Court
+
+in violation of Rule 11. Id. (sanctioning plaintiff $1,500 for filing at least two false cases and
+
+statements of law); Seth Cameron Virgil v. Experian Information Solutions Inc, et al., 2026 WL
+
+401066, at *5 (S.D. Ind. Feb. 12, 2026) (recommending $10,000 sanction for submitting a brief
+
+with hallucinated cases); Mid Cent. Operating Eng’rs Health & Welfare Fund v. HoosierVac LLC,
+
+2025 WL 1511211 (S.D. Ind. May 28, 2025) (imposing $6,000 sanctions for briefs containing
+
+hallucinated citations); Davis v. Marion Cnty. Superior Ct. Juv. Det. Ctr., 2025 WL 2502308 (S.D.
+
+Ind. Sept. 2, 2025) (recommending $7,500 sanction for a brief containing hallucinated citations).
+
+
+
+
+                                                  4
+    Case: 1:25-cv-03096 Document #: 96 Filed: 04/07/26 Page 5 of 5 PageID #:1732
+
+
+
+
+                                        CONCLUSION
+
+       The Court strikes Plaintiff’s motion to alter or amend the judgment. (Dkt. 90). Plaintiff is
+
+hereby ordered to pay $5000 to the Clerk of the Court within two weeks of the date of this Order
+
+for violating Rule 11 of the Federal Rules of Civil Procedure.
+
+
+
+
+                                             ____________________________________
+                                             Virginia M. Kendall
+                                             United States District Judge
+
+Date: April 7, 2026
+
+
+
+
+                                                5
+

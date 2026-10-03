@@ -1,0 +1,25 @@
+{
+  "id": "0efeee6592874cc19a9c361a140ead2a",
+  "url": "https://reason.com/robots.txt",
+  "kind": "robots",
+  "host": "reason.com",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:43 GMT",
+    "content-type": "text/plain; charset=utf-8",
+    "server": "envoy",
+    "vary": "Accept-Encoding",
+    "x-robots-tag": "noindex, follow",
+    "link": "<https://reason.com/wp-json/>; rel=\"https://api.w.org/\"",
+    "content-security-policy": "frame-ancestors 'self';",
+    "x-envoy-upstream-service-time": "248",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:42.563144+00:00",
+  "sha256": "4d5a7cd7a299203059a5b588d5c30b46a90efd65a71aedfee5eb6a7d63291764",
+  "bytes": 248,
+  "body_path": "/workspace/freshness-control/transport-evidence/0efeee6592874cc19a9c361a140ead2a.body"
+}

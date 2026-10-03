@@ -1,0 +1,141 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/pdf",
+    "content-length": "196966",
+    "x-content-type-options": "nosniff",
+    "last-modified": "Wed, 18 Feb 2026 14:30:48 GMT",
+    "accept-ranges": "bytes",
+    "x-request-id": "v-acb9b150-bc15-11f1-8044-634b112502a6",
+    "x-ah-environment": "prod",
+    "x-age": "0",
+    "cache-control": "max-age=7200",
+    "expires": "Sat, 03 Oct 2026 20:51:33 GMT",
+    "date": "Sat, 03 Oct 2026 18:51:33 GMT",
+    "strict-transport-security": "max-age=15768000",
+    "x-envoy-upstream-service-time": "194",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "finalUrl": "https://www.gao.gov/assets/890/884082.pdf",
+  "complete": true,
+  "redirects": [
+    {
+      "from": "https://gao.gov/assets/890/884082.pdf",
+      "to": "https://www.gao.gov/assets/890/884082.pdf",
+      "status": 302
+    }
+  ],
+  "error": null,
+  "attempts": [
+    {
+      "id": "74cd566cc380407abb302e7722639a78",
+      "url": "https://gao.gov/robots.txt",
+      "kind": "robots",
+      "host": "gao.gov",
+      "status": 302,
+      "headers": {
+        "date": "Sat, 03 Oct 2026 18:37:32 GMT",
+        "server": "envoy",
+        "location": "https://www.gao.gov/robots.txt",
+        "content-length": "272",
+        "content-type": "text/html; charset=iso-8859-1",
+        "x-envoy-upstream-service-time": "118",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:32.790909+00:00",
+      "sha256": "9a152aed2415da231ad1e1ece1dc53d101c2dac22bb3a4cdfad4e5ebd38fa6b3",
+      "bytes": 272,
+      "body_path": "/workspace/freshness-control/transport-evidence/74cd566cc380407abb302e7722639a78.body"
+    },
+    {
+      "id": "28c60ae773054fb29e26651b6011ff13",
+      "url": "https://www.gao.gov/robots.txt",
+      "kind": "robots",
+      "host": "www.gao.gov",
+      "status": 200,
+      "headers": {
+        "content-type": "text/plain",
+        "x-content-type-options": "nosniff",
+        "last-modified": "Wed, 23 Sep 2026 21:39:03 GMT",
+        "x-request-id": "v-545a397c-b81d-11f1-b2b3-c7615af2e60a",
+        "x-ah-environment": "prod",
+        "x-cache-hits": "40",
+        "x-age": "44004",
+        "vary": "Accept-Encoding",
+        "cache-control": "max-age=75499",
+        "expires": "Sun, 04 Oct 2026 15:35:52 GMT",
+        "date": "Sat, 03 Oct 2026 18:37:33 GMT",
+        "content-length": "2806",
+        "strict-transport-security": "max-age=15768000",
+        "x-envoy-upstream-service-time": "83",
+        "server": "envoy",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:32.996582+00:00",
+      "sha256": "38f284999fe48dfe3c7c1fc89600a2c65ed07066243f4224eb0e70845e140dcd",
+      "bytes": 2806,
+      "body_path": "/workspace/freshness-control/transport-evidence/28c60ae773054fb29e26651b6011ff13.body"
+    },
+    {
+      "id": "9dd057219174456cb41ba7e787747d20",
+      "url": "https://gao.gov/assets/890/884082.pdf",
+      "kind": "fetch",
+      "host": "gao.gov",
+      "status": 302,
+      "headers": {
+        "date": "Sat, 03 Oct 2026 18:51:32 GMT",
+        "server": "envoy",
+        "location": "https://www.gao.gov/assets/890/884082.pdf",
+        "content-length": "283",
+        "content-type": "text/html; charset=iso-8859-1",
+        "x-envoy-upstream-service-time": "117",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:51:32.791220+00:00",
+      "sha256": "6b6ac827bee00fce65aa1616f8d330ecddac2856285cd8549feb67850092a7d3",
+      "bytes": 283,
+      "body_path": "/workspace/freshness-control/transport-evidence/9dd057219174456cb41ba7e787747d20.body"
+    },
+    {
+      "id": "43907786b4ec41a39ecc9e508180e1e0",
+      "url": "https://www.gao.gov/assets/890/884082.pdf",
+      "kind": "fetch",
+      "host": "www.gao.gov",
+      "status": 200,
+      "headers": {
+        "content-type": "application/pdf",
+        "content-length": "196966",
+        "x-content-type-options": "nosniff",
+        "last-modified": "Wed, 18 Feb 2026 14:30:48 GMT",
+        "accept-ranges": "bytes",
+        "x-request-id": "v-acb9b150-bc15-11f1-8044-634b112502a6",
+        "x-ah-environment": "prod",
+        "x-age": "0",
+        "cache-control": "max-age=7200",
+        "expires": "Sat, 03 Oct 2026 20:51:33 GMT",
+        "date": "Sat, 03 Oct 2026 18:51:33 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "x-envoy-upstream-service-time": "194",
+        "server": "envoy",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:51:33.017176+00:00",
+      "sha256": "ee69e4d95e088d07f19fc4c0041321646cedf9f6605de77778f4812f42730a8e",
+      "bytes": 196966,
+      "body_path": "/workspace/freshness-control/transport-evidence/43907786b4ec41a39ecc9e508180e1e0.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T18:51:33.017176+00:00",
+  "sha256": "ee69e4d95e088d07f19fc4c0041321646cedf9f6605de77778f4812f42730a8e",
+  "requested_url": "https://gao.gov/assets/890/884082.pdf",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/resume-20261003/f998ff5f1e5a8f33af3af68e.body"
+}

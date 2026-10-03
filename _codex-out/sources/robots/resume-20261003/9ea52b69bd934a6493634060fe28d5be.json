@@ -1,0 +1,23 @@
+{
+  "id": "9ea52b69bd934a6493634060fe28d5be",
+  "url": "https://eeoc.gov/robots.txt",
+  "kind": "robots",
+  "host": "eeoc.gov",
+  "status": 302,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:30 GMT",
+    "content-type": "text/html",
+    "content-length": "138",
+    "location": "https://www.eeoc.gov/robots.txt",
+    "strict-transport-security": "max-age=63072000",
+    "x-envoy-upstream-service-time": "143",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:30.617168+00:00",
+  "sha256": "753e0dd54f28c4f7009b9c0b18a68aed175416bd8b7d134858264586eaac56f0",
+  "bytes": 138,
+  "body_path": "/workspace/freshness-control/transport-evidence/9ea52b69bd934a6493634060fe28d5be.body"
+}

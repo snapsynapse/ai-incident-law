@@ -1,0 +1,27 @@
+{
+  "id": "e96b1c2bbd2f443485d36d1b84ac031a",
+  "url": "https://aclu.org/cases/parks-v-mccormac",
+  "kind": "fetch",
+  "host": "aclu.org",
+  "status": 301,
+  "headers": {
+    "retry-after": "0",
+    "accept-ranges": "bytes",
+    "date": "Sat, 03 Oct 2026 18:37:27 GMT",
+    "aclu-req-hosts": "aclu.org",
+    "permissions-policy": "interest-cohort=()",
+    "strict-transport-security": "max-age=31557600",
+    "location": "https://www.aclu.org/cases/parks-v-mccormac",
+    "content-length": "0",
+    "x-envoy-upstream-service-time": "47",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:26.872029+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/e96b1c2bbd2f443485d36d1b84ac031a.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/e96b1c2bbd2f443485d36d1b84ac031a.body"
+}

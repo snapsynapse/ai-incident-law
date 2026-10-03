@@ -1,0 +1,30 @@
+{
+  "id": "7b2dc0e63fc6442d8aab828845ebb44d",
+  "url": "https://aclu-nj.org/robots.txt",
+  "kind": "robots",
+  "host": "aclu-nj.org",
+  "status": 301,
+  "headers": {
+    "retry-after": "0",
+    "server": "envoy",
+    "location": "https://www.aclu-nj.org/robots.txt",
+    "x-pantheon-redirect": "primary-domain-policy-doc",
+    "accept-ranges": "bytes",
+    "date": "Sat, 03 Oct 2026 18:37:17 GMT",
+    "via": "1.1 varnish",
+    "x-served-by": "cache-chi-klot8100095-CHI",
+    "x-cache": "HIT",
+    "x-cache-hits": "0",
+    "x-timer": "S1791052637.316890,VS0,VE6",
+    "content-length": "0",
+    "x-envoy-upstream-service-time": "46",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:16.881652+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/7b2dc0e63fc6442d8aab828845ebb44d.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/7b2dc0e63fc6442d8aab828845ebb44d.body"
+}

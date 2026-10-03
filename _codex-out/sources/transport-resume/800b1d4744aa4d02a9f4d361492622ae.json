@@ -1,0 +1,31 @@
+{
+  "id": "800b1d4744aa4d02a9f4d361492622ae",
+  "url": "https://ca10.uscourts.gov/robots.txt",
+  "kind": "robots",
+  "host": "ca10.uscourts.gov",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:20 GMT",
+    "content-type": "text/plain; charset=UTF-8",
+    "content-length": "2189",
+    "x-content-type-options": "nosniff",
+    "last-modified": "Mon, 12 Jun 2017 20:49:09 GMT",
+    "etag": "\"88d-551c9735bdcd3\"",
+    "cache-control": "max-age=1209600",
+    "expires": "Tue, 13 Oct 2026 19:29:59 GMT",
+    "x-cache-status": "HIT",
+    "accept-ranges": "bytes",
+    "set-cookie": "[REDACTED]",
+    "strict-transport-security": "max-age=16070400; preload",
+    "x-envoy-upstream-service-time": "160",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:20.530845+00:00",
+  "sha256": "278e83bcf567badfebcdea4d5d20ca9898e4449fe4eb2e3b5a08227b4ca9b762",
+  "bytes": 2189,
+  "body_path": "/workspace/freshness-control/transport-evidence/800b1d4744aa4d02a9f4d361492622ae.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/800b1d4744aa4d02a9f4d361492622ae.body"
+}

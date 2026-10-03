@@ -1,0 +1,27 @@
+{
+  "id": "024f2fb3130e4cd1b99fe9315abce30c",
+  "url": "https://tuchtrecht.overheid.nl/robots.txt",
+  "kind": "robots",
+  "host": "tuchtrecht.overheid.nl",
+  "status": 404,
+  "headers": {
+    "server": "envoy",
+    "date": "Sat, 03 Oct 2026 18:37:45 GMT",
+    "content-type": "text/html;charset=UTF-8",
+    "content-language": "en-US",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "content-security-policy": "frame-ancestors 'self'",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "permissions-policy": "accelerometer=(), camera=(), gyroscope=(), magnetometer=(), microphone=(), payment=()",
+    "x-envoy-upstream-service-time": "358",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:44.242380+00:00",
+  "sha256": "230a9b546f62b1578e1d4d5c0e5f6f7e7f28c159aef70174a169b107edf6eb06",
+  "bytes": 9312,
+  "body_path": "/workspace/freshness-control/transport-evidence/024f2fb3130e4cd1b99fe9315abce30c.body"
+}

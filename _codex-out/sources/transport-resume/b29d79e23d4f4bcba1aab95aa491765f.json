@@ -1,0 +1,24 @@
+{
+  "id": "b29d79e23d4f4bcba1aab95aa491765f",
+  "url": "https://jud.ct.gov/robots.txt",
+  "kind": "robots",
+  "host": "jud.ct.gov",
+  "status": 301,
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "location": "https://www.jud.ct.gov/robots.txt",
+    "server": "envoy",
+    "x-powered-by": "ASP.NET",
+    "date": "Sat, 03 Oct 2026 18:37:37 GMT",
+    "content-length": "156",
+    "x-envoy-upstream-service-time": "185",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:37.842792+00:00",
+  "sha256": "196f3f98f52b44fa90a3600b8c6f336284b68e0dfae04c25dfa0e2621cd995f7",
+  "bytes": 156,
+  "body_path": "/workspace/freshness-control/transport-evidence/b29d79e23d4f4bcba1aab95aa491765f.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/b29d79e23d4f4bcba1aab95aa491765f.body"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6b2e96d43eb347f8b9adcfa0dd85b1a6",
+  "url": "https://www.abajournal.com/news/article/no-42-law-firm-by-headcount-could-face-sanctions-over-fake-case-citations-generated-by-chatgpt",
+  "kind": "fetch",
+  "host": "www.abajournal.com",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:27 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "server": "envoy",
+    "set-cookie": "[REDACTED]",
+    "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+    "cache-control": "no-store, no-cache, must-revalidate",
+    "pragma": "no-cache",
+    "x-frame-options": "SAMEORIGIN",
+    "last-modified": "Sat, 03 Oct 2026 18:37:27 GMT",
+    "vary": "Accept-Encoding",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a44e0ee56a3c866c-ORD",
+    "x-envoy-upstream-service-time": "445",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:27.195086+00:00",
+  "sha256": "59991b9adaf8f479e479128bef7903badd58f6b8bf0a446c63fef64ec2cd60ac",
+  "bytes": 47829,
+  "body_path": "/workspace/freshness-control/transport-evidence/6b2e96d43eb347f8b9adcfa0dd85b1a6.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/6b2e96d43eb347f8b9adcfa0dd85b1a6.body"
+}

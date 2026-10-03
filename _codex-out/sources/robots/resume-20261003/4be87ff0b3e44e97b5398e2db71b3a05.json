@@ -1,0 +1,32 @@
+{
+  "id": "4be87ff0b3e44e97b5398e2db71b3a05",
+  "url": "https://law.justia.com/robots.txt",
+  "kind": "robots",
+  "host": "law.justia.com",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:38 GMT",
+    "content-type": "text/plain",
+    "set-cookie": "[REDACTED]",
+    "server": "envoy",
+    "last-modified": "Tue, 04 Aug 2026 18:49:56 GMT",
+    "vary": "Accept-Encoding,User-Agent",
+    "referrer-policy": "origin, unsafe-url",
+    "content-security-policy": "frame-ancestors 'self' https://*.justia.com http://*.justia.com",
+    "x-cache": "Miss from cloudfront",
+    "via": "1.1 8b1c9f51d282a3cf670569654d83d794.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "ORD58-P16",
+    "x-amz-cf-id": "_jlw2cyw0lZVDSPxP6wJFuHyZjavjiXwpduu3w68iChSX_1VL6SRbw==",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a44e0f2aacea0059-ORD",
+    "x-envoy-upstream-service-time": "120",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:38.235349+00:00",
+  "sha256": "aee2238ef5f196aef25e023a10e488811880b20cebc56e0191510a476973f197",
+  "bytes": 576,
+  "body_path": "/workspace/freshness-control/transport-evidence/4be87ff0b3e44e97b5398e2db71b3a05.body"
+}

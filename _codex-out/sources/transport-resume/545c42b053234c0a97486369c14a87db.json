@@ -1,0 +1,28 @@
+{
+  "id": "545c42b053234c0a97486369c14a87db",
+  "url": "https://www.hcdistrictclerk.com/robots.txt",
+  "kind": "robots",
+  "host": "www.hcdistrictclerk.com",
+  "status": 200,
+  "headers": {
+    "content-type": "text/plain",
+    "last-modified": "Fri, 24 Aug 2012 18:38:13 GMT",
+    "accept-ranges": "bytes",
+    "etag": "\"ac23509e2782cd1:0\"",
+    "server": "envoy",
+    "x-powered-by": "ASP.NET",
+    "date": "Sat, 03 Oct 2026 18:37:31 GMT",
+    "content-length": "703",
+    "set-cookie": "[REDACTED]",
+    "vary": "Accept-Encoding",
+    "x-envoy-upstream-service-time": "142",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:46.746860+00:00",
+  "sha256": "759518711109fdae8c338f66926f61e32b438697b53c08bb022d88fd9738e87c",
+  "bytes": 703,
+  "body_path": "/workspace/freshness-control/transport-evidence/545c42b053234c0a97486369c14a87db.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/545c42b053234c0a97486369c14a87db.body"
+}

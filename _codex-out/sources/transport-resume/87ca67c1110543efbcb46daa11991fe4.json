@@ -1,0 +1,33 @@
+{
+  "id": "87ca67c1110543efbcb46daa11991fe4",
+  "url": "https://dockets.justia.com/docket/texas/txsdce/4:2024cv00801/1952110",
+  "kind": "fetch",
+  "host": "dockets.justia.com",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:32 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "server": "envoy",
+    "cache-control": "no-cache",
+    "vary": "Accept-Encoding,User-Agent",
+    "set-cookie": "[REDACTED]",
+    "referrer-policy": "origin, unsafe-url",
+    "content-security-policy": "frame-ancestors 'self' https://*.justia.com http://*.justia.com",
+    "x-cache": "Miss from cloudfront",
+    "via": "1.1 793e2b58c1d0ffdf0ead8aa4a3b13098.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "ORD58-P13",
+    "x-amz-cf-id": "N2hHJjzOBnLZqWmDdxdutGDvvhg5JALehM5TpYdt1j8iGjjJYiWYeg==",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a44e0f041f74eb0b-ORD",
+    "x-envoy-upstream-service-time": "189",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:32.061789+00:00",
+  "sha256": "918121b07920a5ba77c90b9ea304434b48a564588becdab44753e8d9654527d3",
+  "bytes": 153653,
+  "body_path": "/workspace/freshness-control/transport-evidence/87ca67c1110543efbcb46daa11991fe4.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/87ca67c1110543efbcb46daa11991fe4.body"
+}

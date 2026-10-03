@@ -1,0 +1,924 @@
+Case No. 1:22-cv-01129-NYW-SBP         Document 424      filed 05/07/26    USDC Colorado
+                                        pg 1 of 17
+
+
+
+
+                     IN THE UNITED STATES DISTRICT COURT
+                        FOR THE DISTRICT OF COLORADO
+                               Judge Nina Y. Wang
+
+Civil Action No. 22-cv-01129-NYW-SBP
+
+ERIC COOMER,
+
+       Plaintiff,
+
+v.
+
+MICHAEL J. LINDELL,
+FRANKSPEECH LLC, and
+MY PILLOW, INC.,
+
+       Defendants.
+
+                                         ORDER
+
+
+       This matter is before the Court on the Order to Show Cause issued in the Court’s
+
+Order on Post-Trial Motions (“Second Order to Show Cause”). [Doc. 413 at 26–29].
+
+Defendant Frankspeech LLC (“Frankspeech”) and Defendants’ counsel Christopher
+
+Kachouroff (“Mr. Kachouroff”) have responded. [Doc. 416; Doc. 417]. For the reasons
+
+set forth herein, the Second Order to Show Cause is MADE ABSOLUTE in part and
+
+DISCHARGED in part.
+
+                                    BACKGROUND
+
+       This is a defamation case brought by Plaintiff Eric Coomer (“Plaintiff” or “Dr.
+
+Coomer”) over accusations that he used his position at Dominion Voting Systems to
+
+interfere with the results of the 2020 presidential election. See, e.g., [Doc. 119 at 1–5;
+
+Doc. 197 at 3–7; Doc. 413 at 2–4]. The case went to trial, and the jury delivered a partial
+
+verdict for Plaintiff. [Doc. 375; Doc. 377; Doc. 379]. The verdict included a punitive
+
+damages award against Frankspeech. [Doc. 377 at 3].
+Case No. 1:22-cv-01129-NYW-SBP           Document 424       filed 05/07/26     USDC Colorado
+                                          pg 2 of 17
+
+
+
+
+I.     The First Order to Show Cause and Sanctions Order
+
+       Before trial, Plaintiff filed a motion in limine. [Doc. 279]. Defendants then filed a
+
+response brief that included “nearly thirty defective citations.” [Doc. 309 at 3]; see [Doc.
+
+283]. As the Court summarized,
+
+       These defects include but are not limited to misquotes of cited cases;
+       misrepresentations of principles of law associated with cited cases,
+       including discussions of legal principles that simply do not appear within
+       such decisions; misstatements regarding whether case law originated from
+       a binding authority such as the United States Court of Appeals for the Tenth
+       Circuit; misattributions of case law to this District; and most egregiously,
+       citation of cases that do not exist.
+
+[Doc. 309 at 3 (emphasis added)].          After questioning from the Court at the Final
+
+Pretrial/Trial Preparation Conference (“Pretrial Conference”), Mr. Kachouroff eventually
+
+admitted that he had used artificial intelligence (“AI”) in drafting the response brief. [Id. at
+
+4–5]. He also represented that he had delegated citation checking for the brief to his co-
+
+counsel, Jennifer DeMaster (“Ms. DeMaster”). [Id. at 4]. Based on Mr. Kachouroff’s
+
+statements and the pervasive citation errors in the response brief, the Court ordered Mr.
+
+Kachouroff, Ms. DeMaster, and Defendants to show cause why they should not be
+
+sanctioned. [Id. at 5–6].
+
+       Defendants responded that the filed response brief “was not the correct version. It
+
+was a prior draft.” [Doc. 311 at 2]. They claimed the filed response—and accompanying
+
+citation errors—“was inadvertent, an erroneous filing that was not done intentionally, and
+
+was filed mistakenly through human error.” [Id.]. In a sworn declaration, Ms. DeMaster
+
+averred that she and Mr. Kachouroff had discussed the possibility of hallucinated citations
+
+(i.e., incorrect, AI-generated citations) in the draft. [Doc. 311-5 at ¶ 6]. She asserted that
+
+she had reviewed the draft, corrected or removed various citations in a separate version,
+
+
+
+                                               2
+Case No. 1:22-cv-01129-NYW-SBP           Document 424       filed 05/07/26     USDC Colorado
+                                          pg 3 of 17
+
+
+
+
+and verified the remaining citations using a Westlaw report. [Id. at ¶¶ 4, 7–8]. Mr.
+
+Kachouroff similarly declared that he “routinely use[s]” AI when drafting, but that he and
+
+Ms. DeMaster “had not relied on AI legal research and had prepared a thoroughly cite-
+
+checked final document to be filed as our Opposition.”           [Doc. 311-6 at ¶¶ 6–7, 13
+
+(emphasis omitted)]. Defendants submitted the “correct” version of their response brief,
+
+[Doc. 311-1], that Mr. Kachouroff claimed “appears to account for all of the issues pointed
+
+out by the Court,” [Doc. 311-6 at ¶ 26]. Defendants also submitted other versions of the
+
+brief and email communications between Mr. Kachouroff and Ms. DeMaster.
+
+       The Court was not persuaded by Mr. Kachouroff and Ms. DeMaster’s claim that
+
+they simply filed the wrong version of their response. See [Doc. 383]. First, neither the
+
+email communications nor anything else in the record corroborated the existence of the
+
+“correct” version of the brief. [Id. at 14]. Ms. DeMaster ran the Westlaw report on a
+
+different version. [Id. at 16]. The “correct” version of the brief also used a different file
+
+naming convention than the filed version of the brief and the versions exchanged in
+
+counsel’s emails—all of which contained hallucinated citations.           [Id. at 9–14].   And
+
+although Mr. Kachouroff claimed he reviewed the “correct” version, there was no record
+
+that Ms. DeMaster (or anyone else) ever sent him the document. [Id. at 16–17]. Second,
+
+the “correct” version of the brief still contained substantive errors. [Id. at 15]. Those errors
+
+included an incomplete caption, several preexisting citation errors, and—tellingly—two
+
+citation errors that the Court did not bring to Mr. Kachouroff’s attention during the Pretrial
+
+Conference. [Id. at 15–16]; see also [id. at 3 (discussing the two omitted errors)]. Third,
+
+Mr. Kachouroff and Ms. DeMaster engaged in similar conduct before another federal court
+
+around the same time. [Id. at 17]. In that case, they submitted briefing containing similar
+
+
+
+                                               3
+Case No. 1:22-cv-01129-NYW-SBP          Document 424       filed 05/07/26    USDC Colorado
+                                         pg 4 of 17
+
+
+
+
+citation errors to a court in the Eastern District of Wisconsin. [Id. (citing Pelishek v. City
+
+of Sheboygan, No. 2:23-cv-01048-WED (E.D. Wis. Apr. 30, 2025), ECF Nos. 160, 162)].
+
+They attempted to withdraw their briefing shortly after this Court issued its first Order to
+
+Show Cause, [id.], and the Eastern District of Wisconsin court ultimately sanctioned them,
+
+see Pelishek v. City of Sheboygan, No. 2:23-cv-01048-WED, 2025 WL 2675094 (E.D.
+
+Wis. Sept. 18, 2025). For those reasons, the Court could not conclude that counsel
+
+merely filed the wrong version of the response, or that the “correct” version of the
+
+response was prepared and ready when the filed version was submitted. [Id. at 18].
+
+       Based on that finding, the Court determined that Mr. Kachouroff and Ms. DeMaster
+
+had failed to meet the “reasonable level of competence and care” expected under Rule
+
+11 of the Federal Rules of Civil Procedure. [Id. at 18–19 (quoting White v. Gen. Motors
+
+Corp., 908 F.2d 675, 683 (10th Cir. 1990))]. The Court concluded that a $3,000 sanction
+
+on Mr. Kachouroff and his law firm and a $3,000 sanction on Ms. DeMaster was the “least
+
+severe sanction adequate to deter and punish defense counsel in this instance.” [Id. at
+
+19]. The Court declined to extend the sanction to Defendants themselves. [Id. at 19–20].
+
+II.    The Second Order to Show Cause
+
+       After trial, and after the Court’s first sanctions order, the Parties submitted their
+
+post-trial motions. [Doc. 386; Doc. 387]. Plaintiff moved to increase the punitive damages
+
+award against Frankspeech, pursuant to Colorado law. [Doc. 387]. In relevant part,
+
+Frankspeech’s response brief (“Response”) argued that such an award would violate the
+
+Reexamination Clause of the Seventh Amendment. See [Doc. 404 at 1–4]. The brief
+
+stated, “The 10th Circuit recognized in Capital Solutions, LLC v. Konica Minolta Business
+
+Solutions USA, Inc., 695 F.Supp.2d 1149, 1154-56 (10th Cir. 2010), that the jury’s
+
+
+
+                                              4
+Case No. 1:22-cv-01129-NYW-SBP          Document 424      filed 05/07/26    USDC Colorado
+                                         pg 5 of 17
+
+
+
+
+determination on this issue [i.e., the amount of punitive damages] is entitled to finality.”
+
+[Id. at 1].
+
+        In its Order on Post-Trial Motions, the Court observed that the Capital Solutions
+
+citation is defective for two reasons. [Doc. 413 at 26–27 & n.5]. First, Capital Solutions
+
+is a district court decision, even though Frankspeech erroneously referred to it as a Tenth
+
+Circuit case. [Id. at 26]; see also Cap. Sols., LLC v. Konica Minolta Bus. Sols. U.S.A.,
+
+Inc., 695 F. Supp. 2d 1149, 1152 (D. Kan. 2010). Second, Capital Solutions does not
+
+support the proposition that a jury’s determination of the amount of punitive damages is
+
+“entitled to finality” under the Reexamination Clause. [Doc. 413 at 26 n.5]. The Court
+
+explained that a reasonable review should have alerted defense counsel to this mistake.
+
+[Id. at 27]. And given that counsel had already been sanctioned for “this exact type of
+
+error,” the Court ordered Mr. Kachouroff, Ms. DeMaster, and Frankspeech to show cause
+
+why they should not be sanctioned again under Rule 11. [Id. at 27–28]. The Court
+
+considers their responses below.
+
+                                   LEGAL STANDARD
+
+        Rule 11(b) provides that
+
+        “By presenting to the court a pleading, written motion, or other paper—
+        whether by signing, filing, submitting, or later advocating it—an attorney or
+        unrepresented party certifies that to the best of the person’s knowledge,
+        information, and belief, formed after an inquiry reasonable under the
+        circumstances: . . . the claims, defenses, and other legal contentions are
+        warranted by existing law or by a nonfrivolous argument for extending,
+        modifying, or reversing existing law or for establishing new law.”
+
+Fed. R. Civ. P. 11(b)(2). In other words, Rule 11 imposes an “affirmative duty” on an
+
+attorney to conduct a reasonable inquiry into the legal basis for a filing before submitting
+
+it. Bus. Guides, Inc. v. Chromatic Commc’ns Enters., Inc., 498 U.S. 533, 551 (1991). The
+
+
+
+                                             5
+Case No. 1:22-cv-01129-NYW-SBP         Document 424       filed 05/07/26   USDC Colorado
+                                        pg 6 of 17
+
+
+
+
+standard under Rule 11 is one of “reasonableness under the circumstances.” Burkhart v.
+
+Kinsley Bank, 804 F.2d 588, 589 (10th Cir. 1986) (citing Fed. R. Civ. P. 11, advisory
+
+committee’s notes on 1983 amendment). The Tenth Circuit has described the inquiry as
+
+“whether a reasonable attorney admitted to practice before the district court would file
+
+such a document.” Collins v. Daniels, 916 F.3d 1302, 1320 (10th Cir. 2019) (quotation
+
+omitted).
+
+       It is well-settled that citation to non-existent cases implicates Rule 11. See, e.g.,
+
+Wadsworth v. Walmart Inc., 348 F.R.D. 489, 495 (D. Wyo. 2025); Mata v. Avianca, Inc.,
+
+678 F. Supp. 3d 443, 461 (S.D.N.Y. 2023). So too does misrepresenting a case’s
+
+holdings. See, e.g., Safe Choice, LLC v. City of Cleveland, No. 1:24-cv-02033-PAB, 2025
+
+WL 2958211, at *4 (N.D. Ohio Oct. 17, 2025) (“[A]s it always has, misrepresenting the
+
+holdings of case law violates Rule 11.” (collecting cases)); United States v. Hayes, 763
+
+F. Supp. 3d 1054, 1067 (E.D. Cal. 2025) (“[M]isrepresenting the holdings of a case is
+
+making a false statement to a court.” (quotation omitted)); Platt v. Volunteers of Am. Ohio
+
+& Ind., No. 1:25-cv-01866-SEB-KMB, 2026 WL 670057, at *1 (S.D. Ind. Mar. 10, 2026)
+
+(similar) (collecting cases). “Misrepresenting the legal significance of a case” may also
+
+violate Rule 11.   Pettit v. Allina Health Sys., No. 23-cv-02789-JWB-JFD, 2025 WL
+
+339275, at *9 (D. Minn. Jan. 30, 2025), report and recommendation adopted, 2025 WL
+
+904403 (D. Minn. Mar. 25, 2025). Although these errors can occur without the use of AI,
+
+the   nationwide    “rash   of   cases”   involving   AI-generated    hallucinations    and
+
+misrepresentations have made the risks of careless AI use well known. See Willis v. U.S.
+
+Bank Nat’l Ass’n, No. 3:25-cv-00516-BN, 2025 WL 1224273, at *2 (N.D. Tex. Apr. 28,
+
+2025) (quotation omitted) (collecting authorities); see also, e.g., Benjamin v. Costco
+
+
+
+                                             6
+Case No. 1:22-cv-01129-NYW-SBP            Document 424        filed 05/07/26     USDC Colorado
+                                           pg 7 of 17
+
+
+
+
+Wholesale Corp., 779 F. Supp. 3d 341, 343 (E.D.N.Y. 2025) (describing an “epidemic” of
+
+cases involving AI-generated errors). And because Rule 11(b) demands a reasonable
+
+inquiry, “[a] litigant’s using AI and then failing to verify the accuracy of the results it yields
+
+violates the litigant’s [Rule] 11 obligations.” Willis, 2025 WL 1224273, at *3.
+
+       “If, after notice and a reasonable opportunity to respond, the court determines that
+
+Rule 11(b) has been violated, the court may impose an appropriate sanction on any
+
+attorney, law firm, or party that violated the rule or is responsible for the violation.” Fed.
+
+R. Civ. P. 11(c)(1). “Rule 11 sanctions are meant to serve several purposes, including
+
+(1)   deterring   future   litigation   abuse,   (2)   punishing   present     litigation   abuse,
+
+(3) compensating victims of litigation abuse, and (4) streamlining court dockets and
+
+facilitating case management.” White, 908 F.2d at 683 (citation omitted). The central
+
+purpose of Rule 11 is deterrence. Cooter & Gell v. Hartmarx Corp., 496 U.S. 384, 393
+
+(1990). “The appropriate sanction should be the least severe sanction adequate to deter
+
+and punish the [violating party].” White, 908 F.2d at 684 (citations omitted). A Rule 11
+
+sanction also aims to “deter . . . comparable conduct by others similarly situated.” Fed.
+
+R. Civ. P. 11(b)(4). “Absent exceptional circumstances, a law firm must be held jointly
+
+responsible for a violation committed by its partner, associate, or employee.” Fed. R. Civ.
+
+P. 11(c)(1).
+
+                                           ANALYSIS
+
+       As an initial matter, the Court credits the representations in the record that Mr.
+
+Kachouroff was solely responsible for the preparation of the Response, and that neither
+
+Ms. DeMaster nor Frankspeech’s corporate representatives were involved. See [Doc.
+
+417-1; Doc. 417-2; Doc. 417-3 at ¶¶ 3, 13]. The Second Order to Show Cause is therefore
+
+
+
+                                                 7
+Case No. 1:22-cv-01129-NYW-SBP          Document 424       filed 05/07/26   USDC Colorado
+                                         pg 8 of 17
+
+
+
+
+DISCHARGED as to Ms. DeMaster and Frankspeech.                   The Court turns to Mr.
+
+Kachouroff’s response and supporting declarations. [Doc. 417; Doc. 417-3; Doc. 418].
+
+I.     Violation of Rule 11
+
+       Mr. Kachouroff concedes that he made a “real error” in both his description of
+
+Capital Solutions’s holding and his reference to it as a Tenth Circuit decision. [Doc. 417
+
+at 1–2]. Although he does not know why the error occurred, he asserts that Capital
+
+Solutions’s discussion of Tenth Circuit precedent is on point. [Doc. 417-3 at ¶¶ 8–9]. He
+
+claims that he cite-checked the brief and did not use AI other than Westlaw for legal
+
+research. [Id. at ¶ 4]; see also [Doc. 417 at 6 (“Mr. Kachouroff did not use any generative
+
+AI to research and download cases.”)]. Finally, he argues that sanctions are unwarranted
+
+because the error was minor and “the legal principle for which [he] cited Capital Solutions
+
+is good law.” [Doc. 417 at 9–10].
+
+       The Court has a significant amount of skepticism that the Capital Solutions
+
+misrepresentation resulted only from human error. True, the Court could write off one
+
+erroneous reference to the Tenth Circuit as a typographical error. But the Response
+
+makes the same obvious mistake twice in quick succession: “The 10th Circuit recognized
+
+in Capital Solutions, LLC v. Konica Minolta Business Solutions USA, Inc., 695 F. Supp.
+
+2d 1149, 1154–56 (10th Cir. 2010) . . . .” [Doc. 404 at 1 (emphasis added)]. Contra [Doc.
+
+417 at 2 (Mr. Kachouroff admitting that “[t]he parenthetical reference to the Tenth Circuit
+
+was incorrect,” without noting the in-text reference)]. And this type of misattribution
+
+error—deploying an otherwise correct citation but attributing it to the wrong court—is a
+
+form of hallucination that has already occurred in this case. For instance, in the brief that
+
+previously led to sanctions, Mr. Kachouroff claimed that the “District of Colorado” had
+
+
+
+                                             8
+Case No. 1:22-cv-01129-NYW-SBP           Document 424       filed 05/07/26    USDC Colorado
+                                          pg 9 of 17
+
+
+
+
+addressed an issue, citing “Ginter v. Northwestern Mut. Life Ins. Co., 576 F. Supp. 627,
+
+630 (D. Colo. 1984)” in support. [Doc. 283 at 4]. While the case name and reporter for
+
+Ginter are correct, it was not issued by a court in this District. See Ginter v. Nw. Mut. Life.
+
+Ins. Co., 576 F. Supp. 627, 630 (E.D. Ky. 1984); see also [Doc. 309 at 4; Doc. 383 at 11–
+
+12 (noting the Ginter misattribution error)]. Similarly, Mr. Kachouroff’s prior brief asserted
+
+that “[t]he Tenth Circuit . . . specifically addressed” a certain evidentiary issue in “United
+
+States v. Hassan,” with a citation to “Hassan, 742 F.3d 104, 133 (10th Cir. 2014).” [Doc.
+
+283 at 9]. But Hassan is a Fourth Circuit decision. See United States v. Hassan, 742
+
+F.3d 104, 133 (4th Cir. 2014); see also [Doc. 383 at 16]. Viewed against this backdrop,
+
+the nature of the errors in the Response suggests that this is not the kind of mistake a
+
+human attorney would make.
+
+       Furthermore, Mr. Kachouroff’s statements to the Court in this case do not inspire
+
+confidence. He currently attests, “I did not use any Generative Artificial Intelligence
+
+program to create Document 404 with the exception of Westlaw which I used solely for
+
+the purpose of legal research.”      See [Doc. 417-3 at ¶ 4].       But Mr. Kachouroff has
+
+previously represented that he “routinely” uses AI tools to prepare his arguments. [Doc.
+
+311-6 at ¶ 6]. And strikingly, despite adamantly attesting in response to the First Order
+
+to Show Cause that “I do not rely on AI to do legal research or find cases,” [Doc. 311-6 at
+
+¶ 6], Mr. Kachouroff now admits that “the circumstances at issue here are not,
+
+respectfully, the same type of AI generated error in a draft pleading that was the
+
+subject of that earlier sanction.” [Doc. 417 at 9 (emphasis added)].
+
+       The Court is also unimpressed by Mr. Kachouroff’s attempts to minimize his
+
+conduct. The Capital Solutions citation is located prominently in the Response; it is the
+
+
+
+                                              9
+Case No. 1:22-cv-01129-NYW-SBP            Document 424        filed 05/07/26    USDC Colorado
+                                          pg 10 of 17
+
+
+
+
+only citation in the first paragraph of the first page of the brief. And as the Court previously
+
+explained, the citation error is obvious. See [Doc. 413 at 26–27]. Any lawyer—especially
+
+one of Mr. Kachouroff’s experience—would or should recognize that a case reported in
+
+the Federal Supplement is from a district court, not a circuit court. [Id.]. This error would
+
+be apparent upon even a brief inspection of the first page of the Response.                  The
+
+obviousness of the error alone indicates that Mr. Kachouroff failed to reasonably review
+
+the Response before filing it. Regardless of whether or not generative AI was used, this
+
+is not the type of error a seasoned attorney would or should make.
+
+       In and of itself, falsely citing a district court case as binding authority is a “material”
+
+error. [Doc. 383 at 16]. This Court is bound by published Tenth Circuit and Supreme
+
+Court opinions, not the decisions of other district courts. See Camreta v. Greene, 563
+
+U.S. 692, 709 n.7 (2011). By holding out Capital Solutions as a Tenth Circuit decision,
+
+Mr. Kachouroff misrepresented the “legal significance” of its holding. Pettit, 2025 WL
+
+339275, at *9. Yet Mr. Kachouroff asks the Court to overlook the “citation error” because
+
+his “description of Capital Solutions did not involve the assertion of an unsupported legal
+
+proposition.” [Doc. 417 at 4]. The Court respectfully disagrees.
+
+       The Response misstates both Capital Solutions’s holding and the applicable
+
+Seventh Amendment law. In relevant part, the Response asserts, “Among the issues
+
+historically committed to the jury is the amount of punitive damages—a factual question
+
+within the meaning of the Seventh Amendment’s Reexamination Clause. The 10th Circuit
+
+recognized in Capital Solutions . . . that the jury’s determination on this issue is entitled
+
+to finality.” [Doc. 404 at 1]. The Court has already explained why this description of
+
+Capital Solutions’s holding is misleading:
+
+
+
+                                               10
+Case No. 1:22-cv-01129-NYW-SBP           Document 424       filed 05/07/26    USDC Colorado
+                                         pg 11 of 17
+
+
+
+
+       Capital Solutions dealt with a Kansas statute that “prescribes a procedure
+       by which the jury first determines whether punitive damages should be
+       allowed, and then the court determines the amount of such damages in a
+       separate proceeding.” [Cap. Sols., 695 F. Supp. 2d at 1152 (citing Kan.
+       Stat. Ann. § 60-3702(a) (2010))]. Before trial, the court held that the
+       Seventh Amendment’s “trial by jury” clause—not the Reexamination
+       Clause—entitled a plaintiff “to have the entirety of its claim for punitive
+       damages, including the determination of the amount, decided by the jury.”
+       Id. at 155–56. In other words, Capital Solutions dealt with whether a jury
+       should decide the amount of punitive damages in the first instance, as
+       opposed to ruling that an award of punitive damages is “entitled to finality”
+       in the post-trial context. Compare id., with [Doc. 404 at 1].
+
+[Doc. 413 at 26 n.5].     Mr. Kachouroff suggests that he merely gave an “imprecise
+
+description of the case’s procedural posture.” [Doc. 417 at 4]. But Capital Solutions’s
+
+holding was inextricably intertwined with its procedural posture; whether a jury must
+
+decide the amount of punitive damages in the first instance was the substantive
+
+constitutional question before the court. And Mr. Kachouroff still fails to acknowledge that
+
+Capital Solutions turned on the Seventh Amendment’s “trial by jury” clause, not the
+
+Reexamination Clause. See [Doc. 417; Doc. 417-3].
+
+       This distinction matters because Supreme Court precedent contravenes Mr.
+
+Kachouroff’s assertion that “the amount of punitive damages” is a “factual question” on
+
+which the jury’s verdict is protected by the Reexamination Clause. [Doc. 404 at 1]. As
+
+this Court pointed out, the Supreme Court has held that “the level of punitive damages is
+
+not really a ‘fact’ ‘tried’ by the jury,” so judicial review of the amount of an award does not
+
+offend the Reexamination Clause. Cooper Indus., Inc. v. Leatherman Tool Grp., Inc., 532
+
+U.S. 424, 437 (2001) (quotation omitted); see also [Doc. 413 at 22 n.4]. Capital Solutions
+
+addressed Cooper Industries and expressly disclaimed any reliance on the
+
+Reexamination Clause. 695 F. Supp. 2d at 1154–55. But despite relying on Capital
+
+
+
+
+                                              11
+Case No. 1:22-cv-01129-NYW-SBP          Document 424       filed 05/07/26   USDC Colorado
+                                        pg 12 of 17
+
+
+
+
+Solutions and other cases analyzed in that opinion,1 the Response still cited Capital
+
+Solutions in support of the argument that the Reexamination Clause “entitle[s]” a jury’s
+
+punitive damages award “to finality.” [Doc. 404 at 1]. Even after the Court specifically
+
+noted Cooper Industries in its Order on Post-Trial Motions, [Doc. 413 at 22 n.4], Mr.
+
+Kachouroff maintains that Capital Solutions “support[s] the proposition I made” in the
+
+Response, [Doc. 417-3 at ¶ 11]. That is simply not true.
+
+       Finally, Mr. Kachouroff argues that because his errors only relate to one case, the
+
+Court would be demanding “citation perfection” by sanctioning him. [Doc. 417 at 3]. But
+
+Mr. Kachouroff is not facing sanctions because of a technical error or “inconsequential
+
+violation[].” [Id. (quoting Fed. R. Civ. P. 11 advisory committee’s note to 1993
+
+amendment)]. He is also not being singled out by this Court.2 This is the latest incident
+
+in what is now a pattern of Mr. Kachouroff submitting briefs with citations that
+
+“misrepresent[] what courts have said.” Pelishek, 2025 WL 2675094, at *1. As previously
+
+discussed, [Doc. 383 at 18–19], it is axiomatic that “[a]ttorneys are not merely participants
+
+in a competitive market for legal services; they are officers of the court,” FTC v. Superior
+
+Ct. Trial Laws. Ass’n, 493 U.S. 411, 453 (1990) (Blackmun, J., concurring in part and
+
+
+
+1
+  For instance, the Response’s Reexamination Clause argument cites Markman v.
+Westview Instruments, Inc., 517 U.S. 370 (1996), Pacific Mut. Life Ins. Co. v. Haslip, 499
+U.S. 1 (1991), and O’Gilvie v. Int’l Playtex, Inc., 821 F.2d 1438 (10th Cir. 1987). [Doc.
+404 at 1–4]. Capital Solutions covers these authorities and discusses Cooper Industries
+immediately before turning to the O’Gilvie case that Mr. Kachouroff claims to have relied
+on. See Cap. Sols., 695 F. Supp. at 1153–55; [Doc. 417-3 at ¶¶ 6, 8–10].
+2
+  Mr. Kachouroff has been sanctioned by a separate district court, in a different case, for
+submitting briefs containing defective and hallucinated citations. To be sure, in Pelishek,
+the briefing at issue was primarily prepared by Ms. DeMaster. 2025 WL 2675094, at *3–
+4. Mr. Kachouroff then undertook a “brief gloss” to “ensure that the case citations existed.”
+Id. at *6. There, as here, his cursory review failed to correct the defective citations. See
+id. at *1.
+                                             12
+Case No. 1:22-cv-01129-NYW-SBP         Document 424      filed 05/07/26    USDC Colorado
+                                       pg 13 of 17
+
+
+
+
+dissenting in part). And as officers of the court, attorneys are “essential to the primary
+
+governmental function of administering justice.” See Goldfarb v. Va. State Bar, 421 U.S.
+
+773, 792 (1975). The judiciary undermines its own central purpose of administering
+
+justice for the public good—and the public’s confidence in the institution—when it permits
+
+attorneys to breach their duties, including diligence and candor, owed to the court and the
+
+public without consequence.     Cf. Holloway v. Arkansas, 435 U.S. 475, 486 (1978)
+
+(“[A]ttorneys are officers of the court, and when they address the judge solemnly upon a
+
+matter before the court, their declarations are virtually made under oath.” (quotation
+
+omitted)).
+
+       As an officer of the court, Mr. Kachouroff submitted yet another Response
+
+containing a materially incorrect citation that should have been corrected through a
+
+reasonable review, regardless of whether it was initially AI-generated or not.        The
+
+Response misrepresents the holding of that same case to support an argument that is
+
+squarely foreclosed by Supreme Court precedent.           All of this occurred after Mr.
+
+Kachouroff had already been sanctioned for failing to properly verify his citations in this
+
+very case and others. The Court thus finds that Mr. Kachouroff failed to conduct an inquiry
+
+that was reasonable under the circumstances before filing the Response. Burkhart, 804
+
+F.2d at 589; Fed. R. Civ. P. 11(b)(2).       The Court respectfully concludes that Mr.
+
+Kachouroff has violated his obligations under Rule 11(b).
+
+II.    Appropriate Sanction
+
+       The Court accounts for the scope of the error when determining the appropriate
+
+sanction. The Court has proposed a sanction of $5,000 and referral to the State Bar of
+
+Virginia—where Mr. Kachouroff is licensed—for disciplinary proceedings. [Doc. 413 at
+
+
+
+                                            13
+Case No. 1:22-cv-01129-NYW-SBP          Document 424       filed 05/07/26    USDC Colorado
+                                        pg 14 of 17
+
+
+
+
+28]. Mr. Kachouroff responds that this sanction is “unnecessarily severe and punitive.”
+
+[Doc. 417 at 9]. He also argues that his errors in the Response are not the same as the
+
+errors in the brief that led to his previous sanction. [Id.]. The Court agrees that the issues
+
+with the Capital Solutions citation do not rise to the level of pervasiveness of the
+
+hallucinated citations in Mr. Kachouroff’s prior brief. But it would be a mistake to describe
+
+this latest error as less serious. The Capital Solutions citation and description in the
+
+Response still reflect fundamental errors regarding substantive legal representations
+
+made to the Court that warrant a sanction under Rule 11. Further, the pattern of Mr.
+
+Kachouroff’s actions supports imposing a sanction for the conduct at issue here. As the
+
+Court has emphasized, Mr. Kachouroff has already been sanctioned twice for this exact
+
+type of error. He had ample notice of the importance of verifying the technical and
+
+substantive accuracy of his citations—particularly if and when AI has played a role in the
+
+research and drafting process. But, as with the Court’s first Order to Show Cause, Mr.
+
+Kachouroff’s responses regarding his AI use and the accuracy of his citation are
+
+unsupported by the record and relevant legal authority. The Court cannot conclude that
+
+excusing this conduct as less pervasive or even repeating the previous sanction of $3,000
+
+is sufficient to deter this conduct in the future. See [Doc. 383].
+
+       As in its previous sanctions order, the Court considers the sanctions imposed by
+
+other district courts for similar conduct to provide a framework of reasonableness. See
+
+[Doc. 383 at 19 (collecting cases imposing sanctions between $3,000 and $6,000)]. In
+
+cases involving AI-generated citations, “courts have imposed monetary sanctions ranging
+
+from $1,500 to $15,000.” Benjamin, 779 F. Supp. 3d at 347–48; see also Amarsingh v.
+
+Frontier Airlines, No. 24-1391, 2026 WL 352016, at *7 (10th Cir. Feb. 9, 2026)
+
+
+
+                                             14
+Case No. 1:22-cv-01129-NYW-SBP        Document 424       filed 05/07/26   USDC Colorado
+                                      pg 15 of 17
+
+
+
+
+(sanctioning pro se litigant $1,000 for hallucinated citations pursuant to Federal Rule of
+
+Appellate Procedure 38, and citing various decisions from the “related context” of Rule
+
+11). “Courts have recently begun to issue higher [sanctions] amounts.” Safe Choice,
+
+LLC v. City of Cleveland (Safe Choice II), No. 1:24-cv-02033-PAB, 2025 WL 3029553, at
+
+*5 (N.D. Ohio Oct. 30, 2025) (collecting cases with sanctions up to $10,000 and imposing
+
+$7,500 sanction); see also Hayes, 763 F. Supp. 3d at 1071–72 (surveying various types
+
+of sanctions, including disciplinary referral, awarding attorney’s fees to opposing party,
+
+and monetary sanctions up to $10,000). Recently, a court in the District of Oregon levied
+
+a sanction of $15,000 for filings with hallucinated citations, in addition to an award of
+
+attorney’s fees and expenses. See Couvrette v. Wisnovsy, No. 21-cv-00157-CL, 2025
+
+WL 4109655, at *11–12 (D. Or. Dec. 12, 2025). Given the “epidemic” of cases involving
+
+citation errors like those present in the Response, Benjamin, 779 F. Supp. 3d at 343, and
+
+Mr. Kachouroff’s conduct in this case, this Court shares other courts’ concern that
+
+relatively modest monetary sanctions are insufficient to “deter attorneys from haphazardly
+
+using AI tools to craft legal arguments,” Safe Choice II, 2025 WL 3029553, at *6.
+
+      Having reviewed the entirety of the record, the Court finds that an additional,
+
+moderately increased monetary sanction of $5,000 is sufficient to deter Mr. Kachouroff
+
+and similarly situated individuals from engaging in this conduct. See, e.g., Mid Cent.
+
+Operating Eng’rs Health & Welfare Fund v. HoosierVac LLC, No. 2:24-cv-00326-JPH-
+
+MJD, 2025 WL 1511211, at *2 (S.D. Ind. May 28, 2025) (sanctioning attorney $6,000 for
+
+submitting three briefs with AI-generated citations).     The Court will not refer Mr.
+
+Kachouroff to the Virginia Bar for disciplinary proceedings.     In doing so, the Court
+
+specifically relies on Mr. Kachouroff’s representation that he has stepped back from
+
+
+
+                                           15
+Case No. 1:22-cv-01129-NYW-SBP           Document 424       filed 05/07/26    USDC Colorado
+                                         pg 16 of 17
+
+
+
+
+“active trial-level litigation other than matters necessary to conclude existing obligations
+
+which include the present show-cause proceedings and limited local-counsel
+
+responsibilities in one remaining case. I do not intend to return to trial work which I have
+
+done for the past 25 years,”3 due to health issues.4 [Doc. 418-1 at ¶ 6]. The Court
+
+observes that Mr. Kachouroff’s cumulative sanction in this case of $8,000 remains well
+
+within the normal range for attorneys engaging in similar conduct.
+
+                                       CONCLUSION
+
+       For the reasons set forth herein, IT IS ORDERED that:
+
+       (1)    The Second Order to Show Cause [Doc. 413] is DISCHARGED as to
+
+              Jennifer DeMaster and Frankspeech LLC;
+
+       (2)    The Second Order to Show Cause [Doc. 413] is MADE ABSOLUTE as to
+
+              Christopher Kachouroff;
+
+       (3)    Pursuant to Rule 11(c)(1), the Court hereby SANCTIONS Christopher
+
+              Kachouroff and the law firm of McSweeney Cynkar & Kachouroff PLLC,
+
+
+3
+  The Court notes that Mr. Kachouroff has filed a Notice of Appeal on behalf of Defendants
+in this action. [Doc. 421].
+4
+  Counsel has filed a Motion for Protec[ti]ve Order to Restrict Public Access (“Motion to
+Restrict”), seeking restriction of a Second Affidavit submitted by Mr. Kachouroff detailing
+specific health issues. [Doc. 419]. Pursuant to D.C.COLO.LCivR 7.2(c)(4), a party
+seeking restriction of a document must explain why no alternative to restriction is
+practicable and specifically consider redaction. This Court agrees that Mr. Kachouroff’s
+private health information is appropriately restricted from public access but respectfully
+disagrees that the public has no justiciable interest in other statements contained in the
+Second Affidavit, given Mr. Kachouroff’s reliance on that information to support his
+Response to the Second Order to Show Cause. Accordingly, the Court ORDERS Mr.
+Kachouroff to file a publicly accessible version of his Second Affidavit, with only his private
+health information redacted. The Motion to Restrict is otherwise GRANTED, and the
+Clerk of Court is DIRECTED to maintain a Level 1 restriction on the unredacted version
+of Mr. Kachouroff’s Second Affidavit, [Doc. 418-1]. Mr. Kachouroff claims no privacy
+interest in the Notice of Filing, [Doc. 418], so the Clerk of Court is DIRECTED to unrestrict
+that filing.
+                                              16
+Case No. 1:22-cv-01129-NYW-SBP        Document 424      filed 05/07/26    USDC Colorado
+                                      pg 17 of 17
+
+
+
+
+            jointly and severally, in the amount of $5,000;
+
+      (4)   Such sanctions are DUE and PAYABLE to the Registry of the United States
+
+            District Court for the District of Colorado no later than May 21, 2026;
+
+      (5)   The Motion for Protec[ti]ve Order to Restrict Public Access [Doc. 419] is
+
+            GRANTED in part and DENIED in part;
+
+      (6)   The Notice of Filing [Doc. 418] is UNRESTRICTED;
+
+      (7)   The Clerk of the Court is DIRECTED to MAINTAIN Mr. Kachouroff’s second
+
+            affidavit [Doc. 418-1] under Level 1 Restriction; and
+
+      (8)   No later than May 14, 2026, Mr. Kachouroff shall SUBMIT a redacted
+
+            version of his second affidavit [Doc. 418-1] for public viewing, redacting only
+
+            Paragraphs 3, 4, and the specific reference to his health condition in the
+
+            first sentence of Paragraph 6. All other statements should remain in the
+
+            public version.
+
+
+
+DATED: May 7, 2026                             BY THE COURT:
+
+
+
+
+                                               Nina Y. Wang
+                                               United States District Judge
+
+
+
+
+                                          17
+
