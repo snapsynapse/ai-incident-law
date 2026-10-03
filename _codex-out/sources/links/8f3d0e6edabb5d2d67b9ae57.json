@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://jcorsmeier.wordpress.com/2024/03/20/florida-middle-district-federal-judge-suspends-florida-lawyer-for-filing-false-cases-created-by-artificial-intelligence/",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "8cd71d81b9704f1f884e3362771b2bf5",
+      "url": "https://jcorsmeier.wordpress.com/robots.txt",
+      "kind": "robots",
+      "host": "jcorsmeier.wordpress.com",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T03:03:47.725405+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/8cd71d81b9704f1f884e3362771b2bf5.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:03:47.743991+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://jcorsmeier.wordpress.com/2024/03/20/florida-middle-district-federal-judge-suspends-florida-lawyer-for-filing-false-cases-created-by-artificial-intelligence/",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/8f3d0e6edabb5d2d67b9ae57.body"
+}

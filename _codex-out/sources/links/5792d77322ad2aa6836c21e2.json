@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://publicportal.alappeals.gov/portal/court/68f021c4-6a44-4735-9a76-5360b2e8af13/case/47683afc-2f85-469d-8562-9dca094bb680",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "a86e1a7ea42b4dc4b6cf6a2fff840299",
+      "url": "https://publicportal.alappeals.gov/robots.txt",
+      "kind": "robots",
+      "host": "publicportal.alappeals.gov",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T03:03:47.769003+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/a86e1a7ea42b4dc4b6cf6a2fff840299.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:03:47.785706+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://publicportal.alappeals.gov/portal/court/68f021c4-6a44-4735-9a76-5360b2e8af13/case/47683afc-2f85-469d-8562-9dca094bb680",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/5792d77322ad2aa6836c21e2.body"
+}

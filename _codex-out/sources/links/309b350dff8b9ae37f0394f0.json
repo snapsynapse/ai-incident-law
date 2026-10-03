@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://law.nyu.edu/sites/default/files/Park%20v.%20Kim,%20No.%2022-2057%20(2024).pdf",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "b08ac2fe7b0d4cda9290f3210dedaf70",
+      "url": "https://law.nyu.edu/robots.txt",
+      "kind": "robots",
+      "host": "law.nyu.edu",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T03:03:47.741473+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/b08ac2fe7b0d4cda9290f3210dedaf70.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:03:47.759644+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://law.nyu.edu/sites/default/files/Park%20v.%20Kim,%20No.%2022-2057%20(2024).pdf",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/309b350dff8b9ae37f0394f0.body"
+}

@@ -1,0 +1,13 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://btah.org/case-study/michigan-unemployment-insurance-false-fraud-determinations.html",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [],
+  "retrieved_at": "2026-10-03T03:03:47.834374+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://btah.org/case-study/michigan-unemployment-insurance-false-fraud-determinations.html",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/124add3f3a20cd76ff58055d.body"
+}

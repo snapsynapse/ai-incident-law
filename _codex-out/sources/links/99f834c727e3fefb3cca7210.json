@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://www.ca5.uscourts.gov/opinions/pub/25/25-20086-CV0.pdf",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "2879ad20e9fb404797c9ced7e3fc7c3d",
+      "url": "https://www.ca5.uscourts.gov/robots.txt",
+      "kind": "robots",
+      "host": "www.ca5.uscourts.gov",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T03:03:47.797382+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/2879ad20e9fb404797c9ced7e3fc7c3d.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:03:47.819256+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://www.ca5.uscourts.gov/opinions/pub/25/25-20086-CV0.pdf",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/99f834c727e3fefb3cca7210.body"
+}

@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://www.gasupreme.us/wp-content/uploads/2026/05/s26a0459.pdf",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "751040dcdd3b4db394ebc78ee0a9911a",
+      "url": "https://www.gasupreme.us/robots.txt",
+      "kind": "robots",
+      "host": "www.gasupreme.us",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T03:03:47.815840+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/751040dcdd3b4db394ebc78ee0a9911a.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:03:47.826879+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://www.gasupreme.us/wp-content/uploads/2026/05/s26a0459.pdf",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/a8d23fdf9359f7218f628ad4.body"
+}

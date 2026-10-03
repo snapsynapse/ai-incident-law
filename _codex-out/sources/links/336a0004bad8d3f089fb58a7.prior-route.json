@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://courtlistener.com/docket/55220104/226/couvrette-v-wisnovsky/",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "42348e8d58c24d959083661afdfb9107",
+      "url": "https://courtlistener.com/robots.txt",
+      "kind": "robots",
+      "host": "courtlistener.com",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "retrieved_at": "2026-10-03T03:01:40.050582+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/42348e8d58c24d959083661afdfb9107.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:01:50.066276+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://courtlistener.com/docket/55220104/226/couvrette-v-wisnovsky/",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/336a0004bad8d3f089fb58a7.body"
+}

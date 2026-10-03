@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://seyfarth.com/news-insights/eeocs-settlement-challenging-simple-algorithm-provides-warning-for-employers-using-artificial-intelligence.html",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "f5fa06f46b7045caabf8783002151126",
+      "url": "https://seyfarth.com/robots.txt",
+      "kind": "robots",
+      "host": "seyfarth.com",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T03:03:47.777815+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/f5fa06f46b7045caabf8783002151126.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:03:47.795999+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://seyfarth.com/news-insights/eeocs-settlement-challenging-simple-algorithm-provides-warning-for-employers-using-artificial-intelligence.html",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/d22a9b06ab98fd8308fb961e.body"
+}

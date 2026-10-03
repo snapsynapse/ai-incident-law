@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://nytimes.com/2020/12/29/technology/facial-recognition-misidentify-jail.html",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "146dc5ef9cb54f3793d074c4a70011cf",
+      "url": "https://nytimes.com/robots.txt",
+      "kind": "robots",
+      "host": "nytimes.com",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T03:03:47.760287+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/146dc5ef9cb54f3793d074c4a70011cf.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:03:47.771736+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://nytimes.com/2020/12/29/technology/facial-recognition-misidentify-jail.html",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/7a2c041db7c37f255b95e47b.body"
+}

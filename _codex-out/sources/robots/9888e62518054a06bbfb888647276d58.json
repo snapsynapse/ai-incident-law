@@ -1,0 +1,14 @@
+{
+  "id": "9888e62518054a06bbfb888647276d58",
+  "url": "https://humanservices.arkansas.gov/robots.txt",
+  "kind": "robots",
+  "host": "humanservices.arkansas.gov",
+  "status": null,
+  "headers": {},
+  "complete": false,
+  "error": "Tunnel connection failed: 403 Forbidden",
+  "retrieved_at": "2026-10-03T03:03:47.718796+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/9888e62518054a06bbfb888647276d58.body"
+}

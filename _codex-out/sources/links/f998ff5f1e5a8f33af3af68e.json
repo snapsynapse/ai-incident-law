@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://gao.gov/assets/890/884082.pdf",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "c005820621d847fca4d32744b5bbc4d8",
+      "url": "https://gao.gov/robots.txt",
+      "kind": "robots",
+      "host": "gao.gov",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T03:03:47.702465+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/c005820621d847fca4d32744b5bbc4d8.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:03:47.723444+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://gao.gov/assets/890/884082.pdf",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/f998ff5f1e5a8f33af3af68e.body"
+}

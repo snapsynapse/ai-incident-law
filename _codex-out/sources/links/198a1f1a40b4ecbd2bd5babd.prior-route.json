@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://arcourts.gov/sites/default/files/Appellate%20Update%20November%202017.pdf",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "b8f23266b7b146fb959ccd35faa1461c",
+      "url": "https://arcourts.gov/robots.txt",
+      "kind": "robots",
+      "host": "arcourts.gov",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "retrieved_at": "2026-10-03T03:01:30.017146+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/b8f23266b7b146fb959ccd35faa1461c.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:01:40.030741+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://arcourts.gov/sites/default/files/Appellate%20Update%20November%202017.pdf",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/198a1f1a40b4ecbd2bd5babd.body"
+}

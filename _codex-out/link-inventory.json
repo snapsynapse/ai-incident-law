@@ -1,0 +1,1094 @@
+[
+  {
+    "id": "AIEL-2024-001",
+    "title": "Moffatt v. Air Canada, 2024 BCCRT 149",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "ordered",
+    "links": [
+      {
+        "url": "https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
+        "role": "secondary_source_links"
+      },
+      {
+        "url": "https://dentons.com/insights/alerts/2024/february/29/air-canada-liable-for-negligent-misrepresentation-by-chatbot-on-website",
+        "role": "secondary_source_links"
+      },
+      {
+        "url": "https://canliiconnects.org/en/commentaries/93547",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2023-002",
+    "title": "Mata v. Avianca, Inc., No. 22-cv-1461",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.575368/gov.uscourts.nysd.575368.54.0_8.pdf",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://nytimes.com/2023/05/27/nyregion/avianca-airline-lawsuit-chatgpt.html",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2024-003",
+    "title": "Park v. Kim, No. 22-2057",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "ordered",
+    "links": [
+      {
+        "url": "https://govinfo.gov/content/pkg/USCOURTS-ca2-22-02057/pdf/USCOURTS-ca2-22-02057-0.pdf",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://law.nyu.edu/sites/default/files/Park%20v.%20Kim,%20No.%2022-2057%20(2024).pdf",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2025-004",
+    "title": "Wadsworth v. Walmart Inc.",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://news.bloomberglaw.com/litigation/morgan-morgan-lawyers-fined-for-hallucinated-ai-citations",
+        "role": "secondary_source_links"
+      },
+      {
+        "url": "https://abajournal.com/news/article/no-42-law-firm-by-headcount-could-face-sanctions-over-fake-case-citations-generated-by-chatgpt",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-005",
+    "title": "Fletcher v. Experian Information Solutions, Inc., No. 25-20086",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://www.ca5.uscourts.gov/opinions/pub/25/25-20086-CV0.pdf",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://reuters.com/legal/government/us-appeals-court-orders-lawyer-pay-2500-over-ai-hallucinations-brief-2026-02-18/",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2025-006",
+    "title": "Huffman Construction, LLC, ASBCA Nos. 62591, 62783",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "ordered",
+    "links": [
+      {
+        "url": "https://www.asbca.mil/LinkClick.aspx?fileticket=eAIy2KSL_Zg%3D&portalid=143",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://smithlaw.com/newsroom/publications/you-cant-spell-sanction-without-a-and-i-when-unchecked-ai-hallucinations-result-in-court-sanctions",
+        "role": "secondary_source_links"
+      },
+      {
+        "url": "https://burr.com/government-contracting/gen-ai-misuse-in-procurement-litigation",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2025-007",
+    "title": "Buchanan v. Vuori, Inc., No. 5:23-cv-01121-NC",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.409525/gov.uscourts.cand.409525.96.0.pdf",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://blogs.duanemorris.com/classactiondefense/2026/02/03/ai-hallucinated-case-citations-prompt-sanctions-and-delay-class-action-settlement/",
+        "role": "secondary_source_links"
+      },
+      {
+        "url": "https://vibegraveyard.ai/story/ndcal-dal-bon-ai-citation-class-action-sanctions/",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2024-008",
+    "title": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "resolved",
+    "links": [
+      {
+        "url": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://lawnext.com/wp-content/uploads/2024/03/M.D.-Fla.-24-mc-00002-dckt-000003_000-filed-2024-02-01.pdf",
+        "role": "secondary_source_links"
+      },
+      {
+        "url": "https://jcorsmeier.wordpress.com/2024/03/20/florida-middle-district-federal-judge-suspends-florida-lawyer-for-filing-false-cases-created-by-artificial-intelligence/",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2023-009",
+    "title": "EEOC v. iTutorGroup, Inc., et al., No. 1:22-cv-02565",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "settled",
+    "links": [
+      {
+        "url": "https://eeoc.gov/newsroom/itutorgroup-pay-365000-settle-eeoc-discriminatory-hiring-suit",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://seyfarth.com/news-insights/eeocs-settlement-challenging-simple-algorithm-provides-warning-for-employers-using-artificial-intelligence.html",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2024-010",
+    "title": "Louis et al. v. SafeRent Solutions, LLC et al.",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "settled",
+    "links": [
+      {
+        "url": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://justice.gov/archives/opa/pr/justice-department-files-statement-interest-fair-housing-act-case-alleging-unlawful-algorithm",
+        "role": "secondary_source_links"
+      },
+      {
+        "url": "https://cohenmilstein.com/rental-applicants-reach-2-28m-settlement-agreement-for-discriminatory-ai-powered-screening-tool/",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2022-011",
+    "title": "Bauserman v. Unemployment Insurance Agency",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "settled",
+    "links": [
+      {
+        "url": "https://michigan.gov/ag/news/press-releases/2022/10/20/som-settlement-of-civil-rights-class-action-alleging-false-accusations-of-unemployment-fraud",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://law.justia.com/cases/michigan/supreme-court/2022/160813.html",
+        "role": "secondary_source_links"
+      },
+      {
+        "url": "https://btah.org/case-study/michigan-unemployment-insurance-false-fraud-determinations.html",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2017-012",
+    "title": "Ledgerwood v. Arkansas Department of Human Services / related federal litigation",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "resolved",
+    "links": [
+      {
+        "url": "https://arcourts.gov/sites/default/files/Appellate%20Update%20November%202017.pdf",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://humanservices.arkansas.gov/divisions-shared-services/aging-adult-behavioral-health-services/find-home-community-based-services-for-adults-seniors/archoices-in-homecare/court-ordered-information/",
+        "role": "secondary_source_links"
+      },
+      {
+        "url": "https://btah.org/case-study/arkansas-medicaid-home-and-community-based-services-hours-cuts.html",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2023-013",
+    "title": "FTC v. Rite Aid facial-recognition enforcement",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "settled",
+    "links": [
+      {
+        "url": "https://ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2024-014",
+    "title": "Williams v. City of Detroit, No. 2:21-cv-10827",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "settled",
+    "links": [
+      {
+        "url": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://freep.com/story/news/local/michigan/detroit/2024/06/28/man-wrongfully-arrested-with-facial-recognition-tech-settles-lawsuit/74243839007/",
+        "role": "secondary_source_links"
+      },
+      {
+        "url": "https://aclumich.org/cases/facial-recognition/",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2024-015",
+    "title": "Parks v. McCormac, No. 2:21-cv-04021 (D.N.J.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "settled",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.njd.462874/gov.uscourts.njd.462874.125.0.pdf",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.njd.462874/gov.uscourts.njd.462874.126.0.pdf",
+        "role": "secondary_source_links"
+      },
+      {
+        "url": "https://assets.aclu.org/live/uploads/2024/01/113-1.-ACLU-ACLU-NJ-Amicus-Brief-Filed.pdf",
+        "role": "secondary_source_links"
+      },
+      {
+        "url": "https://aclu.org/cases/parks-v-mccormac",
+        "role": "secondary_source_links"
+      },
+      {
+        "url": "https://aclu-nj.org/press-releases/aclu-nj-and-aclu-national-file-amicus-challenge-wrongful-arrest-due-face-recognition/",
+        "role": "secondary_source_links"
+      },
+      {
+        "url": "https://nytimes.com/2020/12/29/technology/facial-recognition-misidentify-jail.html",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2025-016",
+    "title": "Woodruff v. Oliver, No. 2:23-cv-11597",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "dismissed / appeal flagged",
+    "links": [
+      {
+        "url": "https://aclu.org/cases/woodruff-v-oliver",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://democracynow.org/2023/8/9/porcha_woodruff_false_facial_recognition_arrest",
+        "role": "secondary_source_links"
+      },
+      {
+        "url": "https://cbsnews.com/detroit/news/woman-wrongly-accused-carjacking-loses-lawsuit-detroit-police-used-facial-tech/",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2024-017",
+    "title": "Murphy v. EssilorLuxottica USA Inc. et al., No. 2024-03265",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "pending",
+    "links": [
+      {
+        "url": "https://govinfo.gov/content/pkg/USCOURTS-txsd-4_24-cv-00801/pdf/USCOURTS-txsd-4_24-cv-00801-1.pdf",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://govinfo.gov/content/pkg/USCOURTS-txsd-4_24-cv-00801/pdf/USCOURTS-txsd-4_24-cv-00801-0.pdf",
+        "role": "secondary_source_links"
+      },
+      {
+        "url": "https://regmedia.co.uk/2024/01/23/harvey_eugene_murphy_jr_lawsuit.pdf",
+        "role": "secondary_source_links"
+      },
+      {
+        "url": "https://dockets.justia.com/docket/texas/txsdce/4:2024cv00801/1952110",
+        "role": "secondary_source_links"
+      },
+      {
+        "url": "https://cbsnews.com/news/facial-recognition-mistaken-identity-sunglass-hut-robber-harvey-eugene-murphy-suing-after-sexually-assaulted-jail/",
+        "role": "secondary_source_links"
+      },
+      {
+        "url": "https://www.hcdistrictclerk.com/Edocs/Public/Search.aspx",
+        "role": "docket-observation"
+      },
+      {
+        "url": "https://www.courtlistener.com/?q=%224%3A24-cv-00801%22&type=d",
+        "role": "docket-observation"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2025-018",
+    "title": "Mobley v. Workday, Inc., No. 3:23-cv-00770",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "pending",
+    "links": [
+      {
+        "url": "https://govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-00770/pdf/USCOURTS-cand-3_23-cv-00770-1.pdf",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://clearinghouse.net/case/44074/",
+        "role": "secondary_source_links"
+      },
+      {
+        "url": "https://fisherphillips.com/en/insights/insights/discrimination-lawsuit-over-workdays-ai-hiring-tools-can-proceed-as-class-action-6-things",
+        "role": "secondary_source_links"
+      },
+      {
+        "url": "https://www.courtlistener.com/?q=%223%3A23-cv-00770%22&type=d",
+        "role": "docket-observation"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-019",
+    "title": "Swanson v. International Business Machines Corporation, No. 1:26-cv-01382",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "filed",
+    "links": [
+      {
+        "url": "https://courtlistener.com/docket/73387361/swanson-v-international-business-machines-corporation/",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://hcamag.com/us/news/general/24-year-ibm-veteran-sues-says-algorithm-blocked-his-rehire-at-48/576441",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-020",
+    "title": "Cable News Network, Inc. v. Perplexity AI, Inc., No. 1:26-cv-04427",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "filed",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.664916/gov.uscourts.nysd.664916.1.0_1.pdf",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-021",
+    "title": "State of Oklahoma ex rel. Oklahoma Bar Association v. Reeves, 2026 OK 37",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=551746",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.alnd.179677/gov.uscourts.alnd.179677.204.0.pdf",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-022",
+    "title": "Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930 (No. S-25-035)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://supremecourt.ohio.gov/rod/docs/pdf/6/2026/2026-Ohio-1930.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-023",
+    "title": "United States v. Farris, No. 25-5623 (6th Cir.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://www.opn.ca6.uscourts.gov/opinions.pdf/26a0105p-06.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-024",
+    "title": "Hill v. Workday, Inc., No. 3:23-cv-06558-PHK",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.422617/gov.uscourts.cand.422617.230.0.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-025",
+    "title": "Chaney v. Transdev Services Inc., No. 2:24-cv-10761-ODW (AJRx)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.cacd.951252/gov.uscourts.cacd.951252.46.0.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-026",
+    "title": "Jimenez-Fogarty v. Fogarty, No. 1:24-cv-08705-JLR-GWG (S.D.N.Y.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.631979/gov.uscourts.nysd.631979.192.0.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-027",
+    "title": "Ibach v. Stewart, No. SC-2025-0106 (Ala.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://publicportal-api.alappeals.gov/courts/68f021c4-6a44-4735-9a76-5360b2e8af13/cms/case/47683afc-2f85-469d-8562-9dca094bb680/docketentrydocuments/d95cdd15-7428-4cc9-8389-3cc27ac88089",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://publicportal.alappeals.gov/portal/court/68f021c4-6a44-4735-9a76-5360b2e8af13/case/47683afc-2f85-469d-8562-9dca094bb680",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-028",
+    "title": "Bunce v. Visual Technology Innovations, Inc., No. 2:23-cv-01740-KNS",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.paed.609239/gov.uscourts.paed.609239.225.0.pdf",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.paed.609239/gov.uscourts.paed.609239.226.0.pdf",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-029",
+    "title": "Obi v. Cook County, Illinois, No. 1:25-cv-03096",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.475370/gov.uscourts.ilnd.475370.97.0.pdf",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.475370/gov.uscourts.ilnd.475370.96.0_1.pdf",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-030",
+    "title": "Hulvat v. Gumina, 2026 IL App (3d) 240628-U",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://illinoiscourts.gov/resources/63539016-cb02-4575-b3da-0dd0632244c1/file",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-031",
+    "title": "In re Wise, No. 25-51132 (Bankr. W.D. La.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.lawb.374130/gov.uscourts.lawb.374130.84.0.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-032",
+    "title": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://courts.ca.gov/opinions/archive/D085584.PDF",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-033",
+    "title": "Kattom v. Bondi, No. 25-1497 SEC P (W.D. La.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.lawd.213966/gov.uscourts.lawd.213966.28.0.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-034",
+    "title": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.laed.273860/gov.uscourts.laed.273860.25.0.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-035",
+    "title": "State v. Coleman, 2026-Ohio-965, No. 2024-A-0040 (Ohio Ct. App., 11th Dist.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://supremecourt.ohio.gov/rod/docs/pdf/11/2026/2026-Ohio-965.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-036",
+    "title": "Couvrette v. Wisnovsky, No. 1:21-cv-00157-CL (D. Or.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.ord.158388/gov.uscourts.ord.158388.225.0.pdf",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://courtlistener.com/docket/55220104/226/couvrette-v-wisnovsky/",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-037",
+    "title": "Heimkes v. Fairhope Motorcoach Resort Condominium Owners Association et al., No. 1:22-cv-00448-TFM-N (S.D. Ala.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.alsd.70919/gov.uscourts.alsd.70919.353.0.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-038",
+    "title": "Rivera v. Triad Properties Corporation et al., No. 2:24-cv-01802-AMM (N.D. Ala.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.alnd.192599/gov.uscourts.alnd.192599.116.0.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-040",
+    "title": "Coomer v. Lindell/MyPillow Inc., No. 1:22-cv-01129-NYW-SBP (D. Colo.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.cod.215068/gov.uscourts.cod.215068.424.0.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-041",
+    "title": "Chakma v. Sushi Katsuei Inc., No. 1:23-cv-07804-KPF (S.D.N.Y.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.605627/gov.uscourts.nysd.605627.142.0.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-042",
+    "title": "Davis v. Marion County Superior Court Juvenile Detention Center, No. 1:24-cv-01918-JRO-MJD (S.D. Ind.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.insd.217901/gov.uscourts.insd.217901.127.0.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-043",
+    "title": "Perez-Castillo v. Blanche (Att'y Gen.), No. 25-1988 (7th Cir.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://media.ca7.uscourts.gov/cgi-bin/OpinionsWeb/processWebInputExternal.pl?Submit=Display&Path=Y2026/D06-01/C:25-1988:J:Brennan:aut:T:fnOp:N:3550588:S:0",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://govinfo.gov/content/pkg/USCOURTS-ca7-25-01988/pdf/USCOURTS-ca7-25-01988-0.pdf",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-044",
+    "title": "Deutsche Bank Natl. Trust Co. v. LeTennier, 2026 NY Slip Op 00040, Docket No. CV-23-0713 (N.Y. App. Div., 3d Dep\u2019t)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://nycourts.gov/reporter/3dseries/2026/2026_00040.htm",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-045",
+    "title": "Hodges v. Meridian Waste Acquisitions USA, No. 3:25-cv-62; Rieske v. AFS, No. 5:25-cv-45 (M.D. Fla.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-046",
+    "title": "Lifetime Well LLC v. IBSpot.com Inc., No. 2:25-cv-05135-MAK (E.D. Pa.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://govinfo.gov/content/pkg/USCOURTS-paed-2_25-cv-05135/pdf/USCOURTS-paed-2_25-cv-05135-0.pdf",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.paed.643304/gov.uscourts.paed.643304.42.0.pdf",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-047",
+    "title": "Lexos Media IP, LLC v. Overstock.com, Inc., No. 2:22-cv-02324-JAR (D. Kan.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://govinfo.gov/content/pkg/USCOURTS-ksd-2_22-cv-02324/pdf/USCOURTS-ksd-2_22-cv-02324-9.pdf",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.ksd.142916/gov.uscourts.ksd.142916.218.0.pdf",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-048",
+    "title": "Amarsingh v. Frontier Airlines, Inc., No. 24-1391 (10th Cir.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://ca10.uscourts.gov/sites/ca10/files/opinions/010111382504.pdf",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://govinfo.gov/content/pkg/USCOURTS-ca10-24-01391/pdf/USCOURTS-ca10-24-01391-0.pdf",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-049",
+    "title": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., No. B329314 (Cal. Ct. App., 2d Dist., Div. Three) (unpublished)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://courts.ca.gov/opinions/nonpub/B329314.PDF",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-050",
+    "title": "Maldonado v. Professional Animal Retirement Center (PARC), No. 1:25-cv-00454-HAB-ALT (N.D. Ind.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.innd.124045/gov.uscourts.innd.124045.26.0.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-051",
+    "title": "In re Rosslyn2016, LLC, Texas Esencia 2019 LLC and Timbers2020 LLC, No. 25-34507 (Bankr. S.D. Tex., Houston Div.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.txsb.485264/gov.uscourts.txsb.485264.312.0.pdf",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://courtlistener.com/docket/71022557/rosslyn2016-llc-and-texas-esencia-2019-llc/",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-052",
+    "title": "Del Biaggio v. Bansen, No. A174647 (Cal. Ct. App., 1st Dist., Div. 4) (Humboldt County Super. Ct. No. CV1901078)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://courts.ca.gov/opinions/documents/A174647.PDF",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://courts.ca.gov/opinions",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-053",
+    "title": "Akerlund v. Atlas Air, Inc., Flight Services International, LLC, No. 24-11033 (11th Cir.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "referred for discipline",
+    "links": [
+      {
+        "url": "https://media.ca11.uscourts.gov/opinions/pub/files/202411033.pdf",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://govinfo.gov/content/pkg/USCOURTS-ca11-24-11033/pdf/USCOURTS-ca11-24-11033-0.pdf",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-054",
+    "title": "Hannah Renea Payne v. The State, No. S26A0459 (Ga.), 324 Ga. 305",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://www.gasupreme.us/wp-content/uploads/2026/05/s26a0459.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-055",
+    "title": "Withers v. City of Aberdeen, No. 1:24-CV-218-SA-RP (N.D. Miss.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.msnd.50181/gov.uscourts.msnd.50181.123.0_1.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-056",
+    "title": "Joseph Cartagena v. Terrance Dixon, Tyrone Blackburn, and T.A. Blackburn Law, PLLC, No. 1:25-cv-03552 (JLR) (S.D.N.Y.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "admonished",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.641455/gov.uscourts.nysd.641455.161.0.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-057",
+    "title": "Matter of: CVTEK, LLC, B-423943; B-423943.2 (U.S. Government Accountability Office)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "warned",
+    "links": [
+      {
+        "url": "https://gao.gov/assets/890/884082.pdf",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://gao.gov/products/b-423943,b-423943.2",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-058",
+    "title": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.pawd.314851/gov.uscourts.pawd.314851.71.0.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-059",
+    "title": "Billups v. Louisville Municipal School District, No. 1:24-cv-00074-SA-RP (N.D. Miss.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.msnd.49169/gov.uscourts.msnd.49169.79.0.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-060",
+    "title": "Scott v. Illinois Human Rights Commission, 2026 IL App (1st) 251462, No. 1-25-1462",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://illinoiscourts.gov/resources/23d7df84-ed51-48df-8477-3a6872db40d5/file",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-061",
+    "title": "Barteca Holdings LLC v. Tacobarn Newtown LLC, No. 3:26-cv-00250-VDO (D. Conn.), ECF No. 43",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.ctd.169303/gov.uscourts.ctd.169303.43.0.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-062",
+    "title": "LeDoux v. Outliers, Inc., No. 3:24-cv-05808-TMC (W.D. Wash.), ECF No. 265",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned; case dismissed with prejudice",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.wawd.339711/gov.uscourts.wawd.339711.265.0.pdf",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.wawd.339711/gov.uscourts.wawd.339711.269.0.pdf",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-063",
+    "title": "TOV Realty, LLC v. Suarez (SC 21183) and Kosel Equity, LLC v. MacGregor (SC 21184), 355 Conn. 902 (2026)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://jud.ct.gov/external/supapp/Cases/AROcr/CR355/ORD355.3.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-064",
+    "title": "Fuselier v. Riscassi, No. 1:25-cv-268-HSO-BWR (S.D. Miss.), ECF No. 28",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "admonished; no sanction imposed",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.mssd.130336/gov.uscourts.mssd.130336.28.0.pdf",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.mssd.130336/gov.uscourts.mssd.130336.25.0.pdf",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-065",
+    "title": "Beslissing in de zaak 26-379/DB/LI/D, ECLI:NL:TADRSHE:2026:93 (Raad van Discipline in het ressort 's-Hertogenbosch)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "reprimanded; costs ordered",
+    "links": [
+      {
+        "url": "https://tuchtrecht.overheid.nl/zoeken/resultaat/uitspraak/2026/ECLI_NL_TADRSHE_2026_93",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-066",
+    "title": "Erin Booker v. The Kroger Co., No. 1:26-cv-02006-SDG (N.D. Ga.), ECF No. 66",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.gand.358237/gov.uscourts.gand.358237.66.0.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-067",
+    "title": "Capital Standard, LLC v. U.S. Bank National Association, as trustee for Bear Stearns Asset Backed Securities I Trust 2005-AC9, No. 2D2024-1392 (Fla. 2d DCA)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned; judgment affirmed",
+    "links": [
+      {
+        "url": "https://flcourts-media.flcourts.gov/content/download/2494161/opinion/Opinion_2024-1392.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-068",
+    "title": "Michael L. Ruiz v. Magellan Financial & Insurance Services, No. CV-23-02090-PHX-DWL (D. Ariz.), Doc. 179",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1348340/gov.uscourts.azd.1348340.179.0.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-069",
+    "title": "In re Brian E. Mitchell, Proceeding No. D2026-16 (USPTO Office of Enrollment and Discipline)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "reprimanded",
+    "links": [
+      {
+        "url": "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-070",
+    "title": "Tiekert v. Village of Mamaroneck, No. 23-CV-8714 (CS) (S.D.N.Y.), ECF No. 100",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.607614/gov.uscourts.nysd.607614.100.0.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-071",
+    "title": "Douglas v. Deutsche Bank National Trust Company, No. 24-CV-1099 (D.C. Ct. App.)",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "brief stricken; referred for discipline",
+    "links": [
+      {
+        "url": "https://dccourts.gov/sites/default/files/2026-09/Douglas%20v.%20Deutsche%20Bank%20Nat%27l%20Trt%20Co.%2024-CV-1099%20ORDER.pdf",
+        "role": "public_record_link"
+      },
+      {
+        "url": "https://reason.com/volokh/2026/09/04/incredulity-that-competent-law-firm-representing-one-of-the-largest-financial-institutions-in-the-world-filed-brief-with-ai-hallucinations/",
+        "role": "secondary_source_links"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-072",
+    "title": "Beus Gilbert PLLC v. Brigham Young University, No. 2:12-cv-00970-TS (D. Utah), Dkt. 385",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.utd.86552/gov.uscourts.utd.86552.385.0.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  },
+  {
+    "id": "AIEL-2026-073",
+    "title": "Cole v. Hobby Town Unlimited, Inc., No. 4:25-cv-04217-SLD-RLH (C.D. Ill.), ECF No. 33",
+    "source": "data/data.json#datasets.included.records",
+    "filing_status": "sanctioned",
+    "links": [
+      {
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.ilcd.98203/gov.uscourts.ilcd.98203.33.0.pdf",
+        "role": "public_record_link"
+      }
+    ]
+  }
+]

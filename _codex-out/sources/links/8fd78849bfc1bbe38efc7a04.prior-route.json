@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "7c2a0e3d4f0f495bb26aab613bd5643c",
+      "url": "https://ecf.flmd.uscourts.gov/robots.txt",
+      "kind": "robots",
+      "host": "ecf.flmd.uscourts.gov",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "retrieved_at": "2026-10-03T03:01:50.065000+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/7c2a0e3d4f0f495bb26aab613bd5643c.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:02:00.083827+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/8fd78849bfc1bbe38efc7a04.body"
+}

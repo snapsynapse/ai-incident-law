@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=551746",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "7af7647b893442d0ace96015f442a809",
+      "url": "https://www.oscn.net/robots.txt",
+      "kind": "robots",
+      "host": "www.oscn.net",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T03:03:47.828262+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/7af7647b893442d0ace96015f442a809.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:03:47.843748+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=551746",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/e55ebc1148e5511896be218c.body"
+}

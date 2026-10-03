@@ -1,0 +1,14 @@
+{
+  "id": "0ad042aadca54c8bac8a7ee332d45766",
+  "url": "https://dockets.justia.com/robots.txt",
+  "kind": "robots",
+  "host": "dockets.justia.com",
+  "status": null,
+  "headers": {},
+  "complete": false,
+  "error": "Tunnel connection failed: 403 Forbidden",
+  "retrieved_at": "2026-10-03T03:03:47.674898+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/0ad042aadca54c8bac8a7ee332d45766.body"
+}

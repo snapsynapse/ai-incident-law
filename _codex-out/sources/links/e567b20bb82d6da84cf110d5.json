@@ -1,0 +1,45 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://btah.org/case-study/arkansas-medicaid-home-and-community-based-services-hours-cuts.html",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "51912f8fc38c4a6da235958ac10a3a2f",
+      "url": "https://btah.org/robots.txt",
+      "kind": "robots",
+      "host": "btah.org",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T03:03:47.629354+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/51912f8fc38c4a6da235958ac10a3a2f.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:03:47.651323+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://btah.org/case-study/arkansas-medicaid-home-and-community-based-services-hours-cuts.html",
+  "prior_route_attempts": [
+    {
+      "id": "a99af3a1859543a6a174d0cfa21ca9e1",
+      "url": "https://btah.org/robots.txt",
+      "kind": "robots",
+      "host": "btah.org",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "retrieved_at": "2026-10-03T03:01:35.025296+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/a99af3a1859543a6a174d0cfa21ca9e1.body"
+    }
+  ],
+  "prior_route_error": "BLOCKED: robots transport failed; policy unknown",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/e567b20bb82d6da84cf110d5.body"
+}

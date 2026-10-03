@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://assets.aclu.org/live/uploads/2024/01/113-1.-ACLU-ACLU-NJ-Amicus-Brief-Filed.pdf",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "41fa691f422945749faef524003c9964",
+      "url": "https://assets.aclu.org/robots.txt",
+      "kind": "robots",
+      "host": "assets.aclu.org",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "retrieved_at": "2026-10-03T03:01:30.017439+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/41fa691f422945749faef524003c9964.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:01:40.041499+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://assets.aclu.org/live/uploads/2024/01/113-1.-ACLU-ACLU-NJ-Amicus-Brief-Filed.pdf",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/12f86939b830e1882869457c.body"
+}

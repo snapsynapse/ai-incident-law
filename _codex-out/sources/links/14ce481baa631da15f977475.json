@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://jud.ct.gov/external/supapp/Cases/AROcr/CR355/ORD355.3.pdf",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "74758ff80aa947ff95145ef72ced52e5",
+      "url": "https://jud.ct.gov/robots.txt",
+      "kind": "robots",
+      "host": "jud.ct.gov",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T03:03:47.730000+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/74758ff80aa947ff95145ef72ced52e5.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:03:47.747523+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://jud.ct.gov/external/supapp/Cases/AROcr/CR355/ORD355.3.pdf",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/14ce481baa631da15f977475.body"
+}
