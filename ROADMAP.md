@@ -248,6 +248,20 @@ source-review scope visible for selected records, candidate coordination with th
 EveryAILaw runner, and the three assigned evals. The durable specification lives in the
 Foundation workspace; read it before implementing.
 
+## External supply comparison
+
+The 2026-09-22 Moonshots review asked each Legal Graph component whether external sources
+already serve what it maintains. This repository's answer, from one bounded matter
+(AIEL-2023-002 Mata v. Avianca) against the tracker, CourtListener/RECAP and GovInfo, is in
+`ops/EXTERNAL-SUPPLY-COMPARISON-2026-10-11.md`. Candidate recommendation: narrow, do not
+replace. Discovery stays with the tracker and document hosting with RECAP, as now; the
+proceeding/allegation/determination layer, published refusals, admission state and receipts
+remain this repository's contribution. All three terminal not-admissible candidates appear
+in the tracker, which is the clearest evidence that substitution would reintroduce
+overclaim. Open owner choices: adopt the recommendation, add a non-source crosswalk to
+tracker rows and CourtListener docket ids, and sequence the structured-dispositions and
+calibration-eval proposals ahead of any narrowing. Reassess at the 2026-11-30 INTENT review.
+
 ## Known projection gaps
 
 - AIEL-2026-019 and AIEL-2026-020 carry `legal_graph` blocks without a `proceedings` key,
