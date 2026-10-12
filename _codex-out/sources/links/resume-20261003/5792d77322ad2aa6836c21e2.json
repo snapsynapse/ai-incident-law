@@ -1,0 +1,35 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://publicportal.alappeals.gov/portal/court/68f021c4-6a44-4735-9a76-5360b2e8af13/case/47683afc-2f85-469d-8562-9dca094bb680",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots HTTP 403 blocks access",
+  "attempts": [
+    {
+      "id": "ff68636e0551412c88b441fdfa971fa9",
+      "url": "https://publicportal.alappeals.gov/robots.txt",
+      "kind": "robots",
+      "host": "publicportal.alappeals.gov",
+      "status": 403,
+      "headers": {
+        "server": "envoy",
+        "date": "Sat, 03 Oct 2026 18:37:42 GMT",
+        "content-type": "text/html",
+        "content-length": "179",
+        "x-envoy-upstream-service-time": "124",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:42.414821+00:00",
+      "sha256": "1f2e1251b1d5fab2f47bbfe3e09b149064e61571f98a5e02c6ace5f86bacb1d5",
+      "bytes": 179,
+      "body_path": "/workspace/freshness-control/transport-evidence/ff68636e0551412c88b441fdfa971fa9.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T18:37:42.669392+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://publicportal.alappeals.gov/portal/court/68f021c4-6a44-4735-9a76-5360b2e8af13/case/47683afc-2f85-469d-8562-9dca094bb680",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/resume-20261003/5792d77322ad2aa6836c21e2.body"
+}

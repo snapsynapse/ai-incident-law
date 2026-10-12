@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://abajournal.com/news/article/no-42-law-firm-by-headcount-could-face-sanctions-over-fake-case-citations-generated-by-chatgpt",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "ca97d22ddad046dd929c946b405a10e5",
+      "url": "https://abajournal.com/robots.txt",
+      "kind": "robots",
+      "host": "abajournal.com",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "retrieved_at": "2026-10-03T03:01:30.011354+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/ca97d22ddad046dd929c946b405a10e5.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:01:35.024177+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://abajournal.com/news/article/no-42-law-firm-by-headcount-could-face-sanctions-over-fake-case-citations-generated-by-chatgpt",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/7a256a25aa1433af1031d843.body"
+}

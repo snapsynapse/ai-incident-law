@@ -1,0 +1,31 @@
+{
+  "id": "5f21c5b3a6c749cf8de7e9080992da81",
+  "url": "https://law.nyu.edu/robots.txt",
+  "kind": "robots",
+  "host": "law.nyu.edu",
+  "status": 301,
+  "headers": {
+    "retry-after": "0",
+    "server": "envoy",
+    "location": "https://www.law.nyu.edu/robots.txt",
+    "x-pantheon-redirect": "primary-domain-policy-doc",
+    "date": "Sat, 03 Oct 2026 18:37:38 GMT",
+    "x-served-by": "cache-chi-klot8100131-CHI",
+    "x-cache": "HIT",
+    "x-cache-hits": "0",
+    "x-timer": "S1791052659.615438,VS0,VE7",
+    "age": "0",
+    "accept-ranges": "bytes",
+    "via": "1.1 varnish",
+    "content-length": "0",
+    "x-envoy-upstream-service-time": "61",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:38.241906+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/5f21c5b3a6c749cf8de7e9080992da81.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/5f21c5b3a6c749cf8de7e9080992da81.body"
+}

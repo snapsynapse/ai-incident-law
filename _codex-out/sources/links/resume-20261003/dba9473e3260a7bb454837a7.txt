@@ -1,0 +1,1937 @@
+     Case 1:23-cv-07804-KPF     Document 142    Filed 05/19/26   Page 1 of 37
+
+
+
+
+UNITED STATES DISTRICT COURT
+SOUTHERN DISTRICT OF NEW YORK
+
+ RUPAN CHAKMA, SULOY TRIPORA,
+ TAPAN KANTI TANCHANGYA, TIYANIT
+ KAEWPAN, and PRAMITA CHAKMA, on
+ behalf of themselves and others
+ similarly situated,
+                                                     23 Civ. 7804 (KPF)
+                           Plaintiffs,
+                                                  OPINION AND ORDER
+                    -v.-
+
+ SUSHI KATSUEI, INC., d/b/a SUSHI
+ KATSUEI PARK SLOPE; ROYAL
+ KATSUEI, INC., d/b/a SUSHI
+ KATSUEI WEST VILLAGE; AYE AYE
+ SWE; and AUNG KO WIN,
+                           Defendants.
+
+KATHERINE POLK FAILLA, District Judge:
+
+      Plaintiffs brought this class action against Sushi Katsuei, Inc., Royal
+
+Katsuei, Inc., Aye Aye Swe, and Aung Ko Win (collectively, “Sushi Katsuei” or
+
+“Defendants”), alleging various labor law violations. Before the Court now is
+
+Plaintiffs’ motion for sanctions, a motion predicated on numerous missteps by
+
+Defendants and their counsel since the Court granted Plaintiffs’ class
+
+certification motion. See generally Chakma v. Sushi Katsuei, Inc., No. 23 Civ.
+
+7804 (KPF), 2025 WL 429730 (S.D.N.Y. Feb. 7, 2025) (“Sushi Katsuei I”). For
+
+the reasons explained below, the Court grants in large part Plaintiffs’ motion
+
+for sanctions.
+
+      First, the Court orders Defendants to pay Class Counsel’s attorneys’ fees
+
+associated with multiple instances of discovery misconduct in the amount of
+
+$46,980. Second, the Court orders Defendants to pay Class Counsel’s costs in
+     Case 1:23-cv-07804-KPF    Document 142     Filed 05/19/26   Page 2 of 37
+
+
+
+
+the amount of $781.88. Third, the Court orders Defense Counsel to pay Class
+
+Counsel’s attorneys’ fees associated with Defense Counsel’s use of improper
+
+authority and generative AI in the amount of $1,710. Fourth, the Court
+
+imposes a $1,000 monetary penalty on Defense Counsel for the same.
+
+                                BACKGROUND
+
+A.    The Court’s Decision in Sushi Katsuei I
+
+      On February 7, 2025, the Court issued an Opinion and Order certifying a
+
+Class and a Subclass in this case. See Sushi Katsuei I, 2025 WL 429730, at
+
+*14. (See Dkt. #60). The Class includes “all tipped food-service employees
+
+other than sushi chefs who worked for Defendants at the Sushi Katsuei
+
+restaurants at any time on or after September 1, 2017.” Sushi Katsuei I, 2025
+
+WL 429730, at *4 (internal quotation marks omitted). The Subclass includes
+
+“tipped food-service employees (other than sushi chefs) at SK Park Slope, who
+
+were subject to Defendants’ tip-pooling system, at any time on or after
+
+September 1, 2017.” Id. Now, Plaintiffs seek sanctions arising from three sets
+
+of actions that Defendants and Defense Counsel took after the Court decided
+
+Sushi Katsuei I. The Court discusses each in turn.
+
+B.    The Sanctionable Conduct of Defendants and Their Counsel
+
+      1.    Defendants’ Delayed Production of the Class List and
+            Classwide Payroll Records
+
+      The first category of misconduct pertains to Defendants’ delay in
+
+producing discovery in the form of a class list and classwide payroll records.
+
+By way of background, in Sushi Katsuei I, the Court ordered Defendants to
+
+produce on or before March 15, 2025, a “list of all class members’ and subclass
+
+                                        2
+     Case 1:23-cv-07804-KPF     Document 142     Filed 05/19/26   Page 3 of 37
+
+
+
+
+members’ names, dates of employment, last known addresses, and last known
+
+phone numbers” (the “Class List”). Sushi Katsuei, 2025 WL 429730, at *14.
+
+Compliance with that order proved difficult for Defendants.
+
+      On March 17, 2025, two days after the deadline set in Sushi Katsuei I,
+
+Defendants sought an extension of time to produce the Class List. (Dkt. #61).
+
+The Court granted that extension but noted that the request came after the
+
+initial production deadline and warned that no further extensions would be
+
+granted. (Dkt. #64). On April 14, 2025, Defendants purportedly provided the
+
+Class List, but Plaintiffs later informed the Court that the Class List included
+
+only Class Members who worked at Defendants’ restaurants through
+
+September 2023, despite the fact that the Class and the Subclass certified by
+
+the Court included no such limitations. (Dkt. #69; see also Dkt. #132 (“Def.
+
+Opp.”) at 5 (explaining that Plaintiffs’ submission listed an incorrect date)).
+
+      Consequently, Plaintiffs moved for sanctions. (Dkt. #69). Responding via
+
+endorsement on May 5, 2025, the Court expressed its concern that Defendants
+
+had not complied with various orders. (Dkt. #71). But it denied without
+
+prejudice Plaintiffs’ request for sanctions. (Id.). To facilitate Defendants’
+
+compliance with their production obligations, the Court explicitly set a
+
+February 7, 2025 end date for the class period; gave Defendants until May 9,
+
+2025, “to produce a complete class list”; and warned that “[i]f Defendants[ ] yet
+
+again fail to comply with the Court’s deadlines, Plaintiffs[ ] are welcome to
+
+renew their application for sanctions.” (Id.).
+
+
+
+
+                                         3
+     Case 1:23-cv-07804-KPF     Document 142    Filed 05/19/26   Page 4 of 37
+
+
+
+
+      Six days after that deadline, on May 15, 2025, Plaintiffs informed the
+
+Court that the updated Class List lacked the phone numbers of Class
+
+Members. (Dkt. #73). In addition, Plaintiffs shared that Defendants had yet to
+
+produce classwide payroll records despite having a deadline of May 5, 2025, to
+
+do so. (Id.). Expressing its “dismay[ ],” the Court ordered Defendants to
+
+produce an updated Class List and all outstanding discovery by May 29, 2025.
+
+(Dkt. #74). Additionally, the Court ordered Defendants to submit a sworn
+
+certification from all Defendants confirming that they had produced all
+
+responsive classwide payroll documents in their possession. (Id.).
+
+       Defendants’ gamesmanship again got in the way of compliance with the
+
+Court’s orders. Specifically, they produced paychecks for some Class Members
+
+but no tip records, and their certifications reflected the same. (Dkt. #79).
+
+Accordingly, on June 16, 2025, the Court ordered Defendants to produce by
+
+June 23, 2025, (i) any existing documents related to tips and (ii) revised
+
+certifications indicating that they had produced all payroll and tip records, not
+
+merely paychecks. (Dkt. #81).
+
+      Defendants did not produce the required information by the deadline,
+
+and Plaintiffs filed a motion to compel and for discovery sanctions on June 24,
+
+2025. (Dkt. #86). In response, the Court once again stated that it was
+
+“dismayed by Defendants’ continued failure to comply with discovery orders
+
+and Defendants’ total disregard for the deadlines imposed by this Court.” (Dkt.
+
+#89). The Court noted that it had “generously granted multiple extensions of
+
+discovery deadlines in an effort to facilitate Defendants’ compliance with its
+
+
+                                        4
+     Case 1:23-cv-07804-KPF      Document 142     Filed 05/19/26   Page 5 of 37
+
+
+
+
+directives,” but “[i]ts patience ha[d] worn thin,” and it struggled “to credit any of
+
+Defendants’ representations.” (Id.). Accordingly, the Court ordered Defendants
+
+to show cause in writing on or before July 10, 2025, “as to why sanctions
+
+should not be imposed on Defendants and defense counsel, up to and
+
+including the entry of a default judgment, for their continued failure to comply
+
+with Court orders.” (Id.).
+
+      The day after the Court’s deadline, Defendants filed their response to the
+
+Order to Show Cause. (Dkt. #96). In their response, Defendants asked the
+
+Court not to impose a default. (Id.). Despite having missed multiple document
+
+production deadlines, Defendants requested an extension to produce
+
+documents “for the last chance, within 30 day[s].” (Id.). Four days later,
+
+Defendants filed a declaration from Defendant A. Swe. (Dkt. #100). In the
+
+declaration, A. Swe explained that her failure to provide the required
+
+information stemmed from her and her co-Defendants “simply trying to operate
+
+each of [their] own restaurants, often with limited time to attend even to our
+
+own personal well-being or family responsibilities.” (Id. ¶ 6). The declaration
+
+reiterated the request for an additional 30 days to produce the necessary
+
+documents. (Id. ¶ 23).
+
+      On July 18, 2025, the Court filed an endorsement, noting that it “shares
+
+Plaintiffs’ outrage at Defendants’ continued disregard for this Court’s
+
+instructions.” (Dkt. #102). The Court further reminded Defendants that their
+
+complete production was “long overdue,” and remarked that it was “not at all
+
+persuaded by Defendants’ attempts to justify their delay.” (Id.). Further
+
+                                         5
+     Case 1:23-cv-07804-KPF     Document 142    Filed 05/19/26   Page 6 of 37
+
+
+
+
+discussion of Defendants’ conduct would take place at a September 16, 2025
+
+hearing. (Id.). Four days before the hearing, however, the parties informed the
+
+Court that Defendants had provided Plaintiffs with affidavits stating that no
+
+additional responsive documents existed. (Dkt. #113). In light of these
+
+representations, Plaintiffs sought no additional documents. (Id.).
+
+      2.    Defendants’ Agents’ Communications with Class Members
+
+      The second category of relevant conduct relates to improper
+
+communications between Defendants or their agents and Class Members. On
+
+or around May 30, 2025, Class Counsel mailed notices of the class action to
+
+approximately 75 Class Members. (Dkt. #88). In June 2025, two Class
+
+Members contacted Class Counsel to inform them that a manager at
+
+Defendants’ restaurant named Maya Swe had been pressuring them to opt out
+
+of the case. (Id.). By late June 2025, Class Counsel had received 31 requests
+
+to be excluded from the class, an unusually high opt-out rate in the experience
+
+of both Class Counsel and the Court. (Id.). Consequently, Plaintiffs wrote to
+
+the Court on June 26, 2025, (i) to notify the Court of M. Swe’s actions and
+
+(ii) to request an evidentiary hearing in advance of an anticipated motion to
+
+void the exclusion requests. (Id.).
+
+      On July 1, 2025, Defendants responded and included a sworn
+
+declaration from M. Swe that denied Plaintiffs’ allegations and denied that
+
+Defendants A. Win and A. Swe had any involvement in or knowledge of M.
+
+Swe’s communications with Class Members. (Dkt. #91, 91-1). The next day,
+
+the Court explained that it “expect[ed] Defendants and M. Swe to immediately
+
+
+                                        6
+     Case 1:23-cv-07804-KPF     Document 142   Filed 05/19/26   Page 7 of 37
+
+
+
+
+cease from engaging in conduct that could be perceived … to obstruct or
+
+contravene Court orders,” and it warned “that any further impermissible
+
+communications with class members … will almost certainly lead to sanctions.”
+
+(Dkt. #92).
+
+      The next day, Plaintiffs notified the Court that they had been informed
+
+that another one of Defendants’ employees, K. Tun, was pressuring Class
+
+Members to opt out at the behest of M. Swe. (Dkt. #93). Accordingly, Plaintiffs
+
+requested an evidentiary hearing to determine whether exclusions requests
+
+should be voided and a corrective notice disseminated to the Class. (Id.).
+
+Plaintiffs also requested that the Court permit them to take certain discovery
+
+from Defendants and their agents. (Id.). Defendants responded on July 8,
+
+2026. (Dkt. #94).
+
+      On July 9, 2025, the Court granted Plaintiffs’ request for a hearing.
+
+(Dkt. #95). The Court ordered Defendants A. Swe and A. Win, as well as their
+
+employees M. Swe and K. Tun, to appear at the hearing. (Id.). In the
+
+meantime, the Court instructed these individuals to produce to Class Counsel
+
+(i) affidavits identifying every class member to whom they had spoken about the
+
+lawsuit since February 7, 2025, (ii) lists of all Class Members’ phone numbers
+
+in their possession, and (iii) all written communications with Class Members
+
+since February 7, 2025. (Id.). Finally, the Court instructed M. Swe to turn
+
+over her call logs since May 1, 2025. (Id.).
+
+      Plaintiffs later informed the Court that Defendants produced affidavits
+
+from Defendants A. Swe and A. Win the day after the Court’s deadline. (Dkt.
+
+                                        7
+     Case 1:23-cv-07804-KPF     Document 142    Filed 05/19/26   Page 8 of 37
+
+
+
+
+#104). But Defendants failed to produce M. Swe’s call logs, a list of Class
+
+Members’ phone numbers in Defendants’ or their agents’ possession, or K.
+
+Tun’s declaration. (Id.). Defendants only provided a declaration from M. Swe
+
+(id.), in which she claimed not to know who qualified as a Class Member
+
+despite working at Defendants’ restaurants for the entirety of the class period
+
+(Dkt. #103-1).
+
+      Acknowledging their noncompliance, Defendants explained that they had
+
+“made every effort to comply with the Court’s [July 9, 2025] Order,” but they
+
+could not because they were busy with work, family matters, and a settlement
+
+conference. (Dkt. #104). In response, the Court recognized “that Defendants
+
+have competing work and family obligations.” (Dkt. #105). Nonetheless, the
+
+Court noted that it was “not persuaded” by Defendants’ justifications,
+
+especially given that Defendants (i) had never sought extensions of the relevant
+
+deadlines and (ii) had “displayed a pattern of disregard for this Court’s orders
+
+and their discovery obligations more broadly.” (Id.). The Court closed by
+
+ordering Defendants to produce all outstanding material on or before August 1,
+
+2025. (Id.).
+
+      Following a now-familiar script, Defendants failed to fully comply with
+
+the Court’s order by the August 1, 2025 deadline, leading Plaintiffs to request a
+
+conference on the matter. (Dkt. #106). The Court granted that request. (Dkt.
+
+#107). Defendants later responded by claiming compliance with the Court’s
+
+order, but their response admitted that certain material in the possession of
+
+nonparties M. Swe and K. Tun had not been produced. (Dkt. #110). In direct
+
+
+                                        8
+     Case 1:23-cv-07804-KPF    Document 142     Filed 05/19/26   Page 9 of 37
+
+
+
+
+contravention of the Court’s previous orders, Defendants asserted that they
+
+had “no obligation to produce documents” in M. Swe’s and K. Tun’s possession.
+
+(Id.). Furthermore, Defendants called the request for M. Swe’s call logs
+
+“overbroad and improper,” despite the fact that they had not raised such an
+
+argument when the Court initially ordered the call logs’ production. (Id.).
+
+      On August 15, 2025, the Court held a telephonic conference to address
+
+the matter in advance of the evidentiary hearing that the Court had previously
+
+scheduled. (See August 15, 2025 Minute Entry; Dkt. #111). At the conference,
+
+the Court rejected Defendants’ argument that they had no control over Ms.
+
+Swe’s communications with Class Members, explaining that “at the very least,
+
+[Defendants] should have obtained from Ms. Swe all of her text messages or e-
+
+mails … regarding company business.” (Dkt. #111 at 16:21-17:3). It was “not
+
+an acceptable answer” to say that M. Swe’s communications to Class Members
+
+were not in Defendants’ possession because Defendants “either enacted or
+
+allowed to exist a policy by which Ms. Swe was a point person for
+
+communications with employees.” (Id. at 17:4-17:9; see also id. at 17:10-18:22
+
+(rejecting Defendants’ arguments to the contrary)). Defendants ultimately
+
+acknowledged that certain call logs should have been produced and had not
+
+been. (Id. at 23:9-25:24).
+
+      Next, Defendants attempted to walk back M. Swe’s statements that she
+
+did not know the Class Members, explaining that she may have misunderstood
+
+the concept of a class member. (Dkt. #111 at 25:25-28:25). Defense Counsel
+
+ultimately admitted that M. Swe’s sworn statements were likely false. (Id. at
+
+                                        9
+    Case 1:23-cv-07804-KPF     Document 142     Filed 05/19/26   Page 10 of 37
+
+
+
+
+30:1-32:9 (“I don’t believe that [M. Swe] doesn’t know who class members are
+
+at all.”)). Consequently, the Court gave Defendants yet another extension in
+
+the form of one additional week to provide any remaining discovery or corrected
+
+sworn statements. (Id. at 49:6-49:10).
+
+      Taking a step back, the Court recognized the “enormous expenditure of
+
+resources by both plaintiffs’ counsel and [the Court] to get [Defendants] to
+
+comply with [directives] that [they] should have complied with in the first
+
+instance.” (Dkt. #111 at 34:21-35:1). On September 12, 2025, four days
+
+before the previously scheduled evidentiary hearing, the parties informed the
+
+Court that Defendants had agreed (i) to invalidate all exclusion requests
+
+received by putative Class Members by that date and (ii) to allow Plaintiffs to
+
+send out corrective notice to Class Members who had previously opted out.
+
+(Dkt. #113).
+
+      3.       Defendants’ Use of Improper Authority
+
+      The final category of conduct relevant to Plaintiffs’ sanctions motion
+
+pertains to legal authority on which Defense Counsel relied in her submissions
+
+to the Court. Specifically, on July 15, 2025, Plaintiffs brought to the attention
+
+of the Court that Defendants had fabricated legal authority in at least two
+
+submissions to the Court. (See Dkt. #101 (alerting the Court to Defendants’
+
+improper citations)).
+
+      The most egregious examples appeared in Defendants’ July 8, 2025 letter
+
+regarding their interference with the class notice process. There, Defendants
+
+cited Federal Rule of Civil Procedure 23 and OConner v. Agilant Solutions, Inc.,
+
+
+                                         10
+     Case 1:23-cv-07804-KPF    Document 142     Filed 05/19/26   Page 11 of 37
+
+
+
+
+444 F. Supp. 3d 593 (S.D.N.Y. 2020), for the proposition that text messages
+
+from K. Tun could not establish misconduct by Defendants because they were
+
+inadmissible hearsay. (Dkt. #94). But Rule 23 concerns class actions, and
+
+OConner’s relevance is therefore limited because it discusses when a court may
+
+enjoin an employer-defendant from contacting putative class members through
+
+a protective order. See 444 F. Supp. 3d at 606-07.
+
+      In that same letter, Defendants again cited OConner, as well as Haider v.
+
+Lyft, Inc., No. 20 Civ. 2997 (AJN), 2021 WL 3475621 (S.D.N.Y. Aug. 6, 2021), to
+
+argue that “communications by independent third parties cannot be attributed
+
+to defendants absent clear evidence of an agency relationship” (Dkt. #94). But
+
+Haider and OConner have nothing to do with agency law, and neither discusses
+
+when a third party’s communications can be attributed to defendants. See
+
+Haider, 2021 WL 3475621, at *2-3 (discussing a district court’s “discretion to
+
+restrict communications between parties and absent class members”);
+
+OConner, 444 F. Supp. 3d at 606-07 (similar). Defendants cite these cases
+
+repeatedly throughout the July 8, 2025 letter, each time incorrectly. (Dkt.
+
+#94). At another point in the letter, Defendants cite to “§ 3.01 Certification Is
+
+Crucial Step In Class Actions,” with no indication as to the source of such
+
+authority. (Id.).
+
+      On September 16, 2025, the Court held a hearing to discuss, among
+
+other things, these improper citations. (See September 16, 2025 Minute Entry;
+
+Dkt. #120). At the hearing, Defense Counsel acknowledged that she had used
+
+LexisNexis’s AI tool to help construct multiple submissions to the Court and
+
+                                        11
+    Case 1:23-cv-07804-KPF      Document 142     Filed 05/19/26   Page 12 of 37
+
+
+
+
+then failed to review the final versions for correctness. (Dkt. #120 at 23:12-
+
+23:16, 25:20-26:5). And she recognized that certain of the citations, including
+
+to “§ 3.01,” resulted from AI hallucinations. (Id. at 29:19-30:3).
+
+      The Court expressed skepticism that Defense Counsel’s sole impropriety
+
+consisted of failing to review the submissions, noting that in the July 8, 2025
+
+letter, “there’s no case that [Defendants] cit[ed] that actually stands for the
+
+proposition” that it is used to support. (Dkt. #120 at 29:4-29:12). The Court,
+
+looking at Defendants’ letters filed on July 1, 2025, July 8, 2025, and July 11,
+
+2025, noted that “all of the cases that are cited seem to be irrelevant to the
+
+points that [Defendants] rais[ed].” (Id. at 31:6-31:9).
+
+      At the hearing, Defense Counsel maintained that she had not filed
+
+unchecked AI-generated submissions outside of this case. (Dkt. #120 at 34:6-
+
+35:1). And she explained that her oversight in this case resulted from some
+
+personal challenges that had taken up much of her time. (Id. at 35:4-37:4).
+
+Nonetheless, given the blatant errors in the submissions, the Court found it
+
+“troubling” that Defendants had “never tried to fix” the submissions and had
+
+“never acknowledged these mistakes until [the Court] had to convene a court
+
+hearing.” (Id. at 37:14-39:3). Defense Counsel responded that she “was not …
+
+in the right mind.” (Id. at 37:24-38:1). Defendants did not seek to replace
+
+their submissions until January 21, 2026, over six months after Defendants’
+
+original filings, and only after Plaintiffs raised these same concerns in the
+
+instant sanctions motion. (See Dkt. #133 (Defendants’ request to replace the
+
+
+
+
+                                        12
+     Case 1:23-cv-07804-KPF    Document 142     Filed 05/19/26   Page 13 of 37
+
+
+
+
+submissions); Dkt. #125 (“Pl. Br.”) at 19 (Plaintiffs’ brief noting that Defendants
+
+“have done nothing” to “remedy the false submissions”)).
+
+C.    The Instant Motion
+
+      Taking all of the above into account, the Court set a briefing schedule at
+
+the September 16, 2025 hearing for Plaintiffs to file a motion for sanctions.
+
+(See September 16, 2025 Minute Entry). On November 13, 2025, Plaintiffs filed
+
+their motion for sanctions and supporting papers. (Dkt. #124-126).
+
+Defendants filed their opposition and supporting papers on January 13, 2026.
+
+(Dkt. #131-132). Plaintiffs filed their reply on January 26, 2026, thus
+
+concluding the briefing on the instant motion. (Dkt. #134). In short, Plaintiffs
+
+ask the Court (i) to order Defendants and Defense Counsel to pay Class
+
+Counsel’s attorneys’ fees and costs associated with the above conduct, and
+
+(ii) to impose a monetary penalty for submitting false citations. (Pl. Br. 17-23).
+
+                                  DISCUSSION
+
+A.    Sanctions Determination
+
+      1.    Applicable Law
+
+            a.     Sanctions Under Federal Rule of Civil Procedure Rule 37
+
+      The Second Circuit has confirmed that “a district court ‘has wide
+
+discretion to impose sanctions for abusing’ the discovery process.” Bilodeau v.
+
+Usinage Berthold, Inc., No. 24-299-cv, 2025 WL 1778857, at *3 (2d Cir.
+
+June 27, 2025) (summary order) (quoting Kyros Law P.C. v. World Wrestling
+
+Ent., Inc., 78 F.4th 532, 545 (2d Cir. 2023), cert. denied, 144 S. Ct. 822 (2024)).
+
+
+
+
+                                        13
+    Case 1:23-cv-07804-KPF     Document 142     Filed 05/19/26    Page 14 of 37
+
+
+
+
+Federal Rule of Civil Procedure 37 allows the Court to impose discovery
+
+sanctions in multiple contexts, two of which are relevant here.
+
+      First, Rule 37(a) applies when a party files a motion to compel. The Rule
+
+provides that if such a “motion is granted — or if the disclosure or requested
+
+discovery is provided after the motion was filed — the court must … require the
+
+party … whose conduct necessitated the motion, the party or attorney advising
+
+that conduct, or both to pay the movant’s reasonable expenses incurred in
+
+making the motion.” Fed. R. Civ. P. 37(a)(5)(A) (emphasis added). But the
+
+Court “must not” impose such sanctions if “(i) the movant filed the motion
+
+before attempting in good faith to obtain the disclosure or discovery without
+
+court action; (ii) the opposing party’s nondisclosure, response, or objection was
+
+substantially justified; or (iii) other circumstances make an award of expenses
+
+unjust.” Id.
+
+      Second, Rule 37(b) concerns a party’s failure to comply with a court
+
+order, and it provides that when “a party ... fails to obey an order to provide or
+
+permit discovery ... the court … may issue further just orders.” Fed. R. Civ.
+
+P. 37(b)(2)(A). Indeed, “the court must order the disobedient party, the attorney
+
+advising that party, or both to pay the reasonable expenses, including
+
+attorney’s fees, caused by the failure, unless the failure was substantially
+
+justified or other circumstances make an award of expenses unjust.” Fed. R.
+
+Civ. P. 37(b)(2)(C) (emphasis added).
+
+      Several considerations inform the Court’s analysis of a motion for
+
+sanctions under Rule 37, including: “[i] the willfulness of the non-compliant
+
+                                        14
+    Case 1:23-cv-07804-KPF      Document 142      Filed 05/19/26   Page 15 of 37
+
+
+
+
+party or the reason for noncompliance; [ii] the efficacy of lesser sanctions;
+
+[iii] the duration of the period of noncompliance[;] and [iv] whether the
+
+noncompliant party had been warned of the consequences of noncompliance.”
+
+Agiwal v. Mid Island Mortg. Corp., 555 F.3d 298, 302-03 (2d Cir. 2009) (internal
+
+quotation marks omitted) (quoting Nieves v. City of New York, 208 F.R.D. 531,
+
+535 (S.D.N.Y. 2002)); accord Doe v. Delta Airlines Inc., 672 F. App’x 48, 50 (2d
+
+Cir. 2016) (summary order) (discussing the Agiwal factors). The Second Circuit
+
+has characterized the imposition of reasonable expenses and attorneys’ fees as
+
+“[t]he mildest” of the sanctions that Rule 37 authorizes. Cine Forty-Second St.
+
+Theatre Corp. v. Allied Artists Pictures Corp., 602 F.2d 1062, 1066 (2d Cir.
+
+1979); accord Ritchie Risk-Linked Strategies Trading (Ir.), Ltd. v. Coventry First
+
+LLC, 280 F.R.D. 147, 157 (S.D.N.Y. 2012).
+
+             b.    Sanctions Under the Court’s Inherent Powers and 28
+                   U.S.C. § 1927
+
+      In addition to the authority provided by Rule 37, a district court has the
+
+“inherent power to supervise and control its own proceedings and to sanction
+
+counsel or a litigant for bad-faith conduct.” Sussman v. Bank of Isr., 56 F.3d
+
+450, 459 (2d Cir. 1995); see also Chambers v. NASCO, Inc., 501 U.S. 32, 45-46
+
+(1991) (“[A] court may assess attorney’s fees when a party has ‘acted in bad
+
+faith, vexatiously, wantonly, or for oppressive reasons.’” (quoting Alyeska
+
+Pipeline Serv. Co. v. Wilderness Soc’y, 421 U.S. 240, 258-59 (1975))); Int’l
+
+Techs. Mktg., Inc. v. Verint Sys., Ltd., 991 F.3d 361, 367-68 (2d Cir. 2021)
+
+(discussing a district court’s inherent power).
+
+
+
+                                        15
+    Case 1:23-cv-07804-KPF      Document 142     Filed 05/19/26   Page 16 of 37
+
+
+
+
+      On top of this inherent power, 28 U.S.C. § 1927 authorizes a court to
+
+require an attorney “who so multiplies the proceedings in any case
+
+unreasonably and vexatiously ... to satisfy personally the excess costs,
+
+expenses, and attorneys’ fees reasonably incurred because of such conduct.”
+
+28 U.S.C. § 1927; see also Madison 92nd St. Assocs., LLC v. Marriott Int’l, Inc.,
+
+No. 13 Civ. 291 (CM), 2013 WL 5913382, at *12 (S.D.N.Y. Oct. 31, 2013) (“The
+
+purpose of § 1927 is ‘to ensure that those who create unnecessary costs also
+
+bear them.’” (quoting O’Rear v. Am. Fam. Life Assurance Co. of Columbus, Inc.,
+
+144 F.R.D. 410, 413 (M.D. Fla. 1992)), aff’d sub nom., Boies, Schiller & Flexner
+
+LLP v. Host Hotels & Resorts, Inc., 603 F. App’x 19 (2d Cir. 2015) (summary
+
+order).
+
+      Unlike in the Rule 37 context, to impose sanctions under Section 1927 or
+
+a district court’s inherent power, the court must find “clear evidence that the
+
+conduct at issue is [i] entirely without color and [ii] motivated by improper
+
+purposes.” Wolters Kluwer Fin. Servs., Inc. v. Scivantage, 564 F.3d 110, 114
+
+(2d Cir. 2009); see generally Sorenson v. Wolfson, 683 F. App’x 33, 36-37 (2d
+
+Cir. 2017) (summary order) (discussing sanctions imposed under the inherent
+
+powers doctrine and 28 U.S.C. § 1927). Regarding the first prong, “[c]onduct is
+
+entirely without color when it lacks any legal or factual basis; it is colorable
+
+when it has some legal and factual support, considered in light of the
+
+reasonable beliefs of the attorney whose conduct is at issue.” Scivantage, 564
+
+F.3d at 114 (citing Schlaifer Nance & Co. v. Est. of Warhol, 194 F.3d 323, 337
+
+(2d Cir. 1999)).
+
+                                        16
+    Case 1:23-cv-07804-KPF     Document 142     Filed 05/19/26   Page 17 of 37
+
+
+
+
+      The second prong requires the district court to find bad faith, which
+
+requires a high degree of factual specificity in most cases. See United States v.
+
+Seltzer, 227 F.3d 36, 41-42 (2d Cir. 2000); Oliveri v. Thompson, 803 F.2d 1265,
+
+1273 (2d Cir. 1986). Under this requirement, sanctions are appropriate only
+
+“when the attorney’s actions are so completely without merit as to require the
+
+conclusion that they must have been undertaken for some improper purpose
+
+such as delay.” Oliveri, 803 F.2d at 1273; see also Int’l Techs. Mktg., Inc., 991
+
+F.3d at 367-68.
+
+      2.    Defendants Must Pay Most of Class Counsel’s Fees Related to
+            Securing Defendants’ Production of the Class List and
+            Classwide Payroll Records
+
+      As discussed, multiple disputes arose following the Court’s directive that
+
+Defendants produce the Class List and classwide payroll records. Plaintiffs
+
+now seek an award of attorneys’ fees and costs incurred in litigating those
+
+disputes. (Pl. Br. 17-18). The Court awards fees to Plaintiffs, but only with
+
+respect to disputes that arose after May 5, 2025.
+
+      As discussed above, Plaintiffs’ initial motion to compel, filed April 24,
+
+2025, relayed the fact that Defendants’ initial Class List included only people
+
+who worked at Defendants’ restaurants through September 2023. (Dkt. #69).
+
+The motion sought production of a revised Class List that included people who
+
+worked at the restaurants through 2025. (Id.). On May 5, 2025, the Court
+
+granted the motion but declined to impose sanctions because it recognized
+
+that, read most charitably, there may have been confusion about the end date
+
+of the class period. (Dkt. #71). It subsequently set the end date of the class
+
+
+                                        17
+    Case 1:23-cv-07804-KPF        Document 142   Filed 05/19/26   Page 18 of 37
+
+
+
+
+period as February 7, 2025, the day class certification was granted, and
+
+ordered Defendants to produce all required materials — both the Class List and
+
+payroll documents — on or before May 9, 2025. (Id.).
+
+      Returning to this dispute in the context of the instant motion, the Court
+
+again declines to impose sanctions because of Defendants’ potentially
+
+justifiable confusion. In short, Defendants had a colorable justification for not
+
+producing the complete Class List before Plaintiffs filed their April 24, 2025
+
+motion to compel. See Fed. R. Civ. P. 37(a)(5)(A)(ii) (noting that a court must
+
+not order the payment of attorneys’ fees if a party’s discovery nondisclosure
+
+“was substantially justified”).
+
+      The Court reaches a different conclusion regarding all disputes arising
+
+thereafter. In its May 5, 2025 Order, the Court warned that “[i]f Defendants[ ]
+
+yet again fail to comply with the Court’s deadlines, Plaintiffs[ ] are welcome to
+
+renew their application for sanctions.” (Dkt. #71). Yet on May 15, 2025,
+
+Plaintiffs informed the Court that Defendants had provided a Class List that
+
+lacked Class Members’ phone numbers, contrary to the Court’s clear
+
+instructions, and that certain payroll records remained outstanding. (See Dkt.
+
+#73). Defendants acknowledge that such material had not been produced.
+
+(See Def. Opp. 6 (explaining that Defendants produced the outstanding
+
+documents on May 29, 2025, and May 30, 2025)).
+
+      Afterward, Defendants produced paychecks for some Class Members, but
+
+no tip records, so Plaintiffs again moved to compel. (Dkt. #79). On June 16,
+
+2025, the Court granted the motion and gave Defendants until June 23, 2025,
+
+
+                                         18
+    Case 1:23-cv-07804-KPF     Document 142      Filed 05/19/26   Page 19 of 37
+
+
+
+
+to produce the remaining material. (Dkt. #81). But again, Defendants failed to
+
+make the necessary production. (Dkt. #86). Like clockwork, Plaintiffs moved
+
+to compel (Dkt. #86), which motion the Court granted on June 26, 2025, after
+
+noting “Defendants’ total disregard for the deadlines imposed by this Court”
+
+(Dkt. #89). Plaintiffs filed no further motions to compel on the issue before the
+
+parties confirmed that all discovery had been produced. (Dkt. #113).
+
+      Given this course of events, the Court orders Defendants to pay Class
+
+Counsel’s fees related to disputes memorialized in Plaintiffs’ motions to compel
+
+that were filed on May 15, 2025 (Dkt. #73), June 12, 2025 (Dkt. #79), and
+
+June 24, 2025 (Dkt. #86). See Fed. R. Civ. P. 37(a)(5)(A), 37(b)(2)(C). In fact,
+
+the Court “must” reach this conclusion because Defendants’ attempts to justify
+
+their actions are wholly unpersuasive, so no “circumstances make an award of
+
+expenses unjust.” Fed. R. Civ. P. 37(a)(5)(A).
+
+      As to the discovery disputes that arose after May 5, 2025, Defendants’
+
+only explanation was that they had “limited time” to comply with the discovery
+
+orders given their busy personal and professional lives. (Dkt. #100 ¶ 6; see
+
+also Def. Opp. 12 (making similar excuses of “family-related issues and
+
+defendant’s illness”)). The Court remarked then — and reiterates now — that it
+
+is “not at all persuaded by Defendants’ attempts to justify their delay.” (Dkt.
+
+#102). The Court is skeptical because Defendants routinely allowed deadlines
+
+to pass without seeking extensions and without contemporaneously informing
+
+the Court of scheduling challenges. (See Dkt. #105 (explaining Defendants’
+
+problematic tendencies of “disregard[ing] the Court’s explicit instructions and
+
+
+                                        19
+    Case 1:23-cv-07804-KPF      Document 142     Filed 05/19/26   Page 20 of 37
+
+
+
+
+comply[ing] [only] as they see fit”)). This prompted Plaintiffs to file various
+
+motions with the Court and caused unnecessary delay in the litigation.
+
+      Defendants also try to avoid sanctions by arguing that their discovery
+
+errors were “not a result of willful noncompliance” and “not based on bad-
+
+faith.” (Def. Opp. 6, 13). But that is irrelevant under Rule 37. “Although
+
+severe sanctions under [Rule 37], such as dismissal of the action, can generally
+
+be imposed only upon a showing of willfulness or bad faith … , monetary
+
+damages may be awarded for discovery abuses or failures, even absent bad
+
+faith.” Thai Lao Lignite (Thai.) Co., Ltd. v. Gov’t of the Lao People’s Democratic
+
+Republic, No. 10 Civ. 5256 (KMW), 2011 WL 4111504, at *8 (S.D.N.Y. Sep. 13,
+
+2011) (citing Cine Forty-Second St. Theatre Corp., 602 F.2d at 1066 & n.8).
+
+Consequently, the Court imposes sanctions in the form of attorneys’ fees and
+
+costs that Plaintiffs incurred after May 5, 2025, to effectuate Defendants’
+
+production of the Class List and payroll records. See Fed. R. Civ. P. 37(a)(5)(A),
+
+37(b)(2)(C); Cine Forty-Second St. Theatre Corp., 602 F.2d at 1066.
+
+      3.     Defendants Must Pay Class Counsel’s Fees Related to
+             Communications Between Defendants’ Agents and Class
+             Members and the Subsequent Voiding of Opt-Outs
+
+      Plaintiffs next seek attorneys’ fees related to the improper
+
+communication between Defendants or their agents and Class Members, and
+
+Plaintiffs’ subsequent successful effort to void Class Members’ opt-outs. (Pl.
+
+Br. 18-19). The Court awards fees to Plaintiffs for the entirety of this dispute.
+
+      The problem began when Plaintiffs became aware that M. Swe and K.
+
+Tun engaged in improper communication with Class Members. Plaintiffs
+
+
+                                         20
+    Case 1:23-cv-07804-KPF     Document 142     Filed 05/19/26   Page 21 of 37
+
+
+
+
+subsequently informed the Court about such communication (Dkt. #88, 93),
+
+and the Court issued an order on July 9, 2025, instructing named Defendants
+
+A. Swe and A. Win, as well as nonparties M. Swe and K. Tun, to provide
+
+(i) affidavits identifying every class member they had spoken to about this
+
+lawsuit since February 7, 2025, (ii) lists of all Class Members’ phone numbers
+
+in their possession, and (iii) all written communications with Class Members
+
+since February 7, 2025 (Dkt. #95). The July 9, 2025 Order also instructed M.
+
+Swe to turn over her call logs dating back to May 1, 2025. (Id.).
+
+      Defendants did not produce all the required materials, again providing
+
+excuses that the Court found unpersuasive. (Dkt. #103-105). Perhaps even
+
+more disturbing, among the documents that Defendants did produce was a
+
+declaration from M. Swe that Defense Counsel later admitted was misleading, if
+
+not outright false. (Dkt. #111 at 30:1-32:9).
+
+      In response to Defendants’ noncompliance, the Court gave Defendants a
+
+new deadline — August 1, 2025 — to comply with the Court’s July 9, 2025
+
+Order, but that deadline came and went. (Dkt. #105-107). Later, Defendants
+
+acknowledged their noncompliance with the Court’s July 9, 2025 Order but
+
+claimed that they had “no obligation” to ensure M. Swe’s and K. Tun’s
+
+compliance. (Dkt. #110; see also Dkt. #111 at 23:9-25:24 (acknowledging that,
+
+contrary to their earlier statements, certain materials should have been
+
+produced)). Notably, Defendants had not made such an argument previously
+
+to the Court, nor had they requested any amendment to the July 9, 2025
+
+Order. (See Dkt. #104 (making only a vague statement on July 24, 2025, that
+
+
+                                       21
+    Case 1:23-cv-07804-KPF     Document 142     Filed 05/19/26   Page 22 of 37
+
+
+
+
+“Defendants and/or their Counsel have no control over the third-party, Ms.
+
+Mya Swe,” but affirming that Defendants were in contact with her)). Only after
+
+a conference on the matter did Defendants agree to invalidate the opt-outs and
+
+allow Plaintiffs to send out corrective notices. (Dkt. #113).
+
+      In sum, Defendants or their agents M. Swe and K. Tun interfered with
+
+the class notice process to such a degree that Class Counsel had to seek the
+
+intervention of the Court to secure the integrity of that process. Under such
+
+circumstances, “Plaintiffs’ counsel are also entitled to costs, including
+
+attorneys’ fees reasonably incurred in uncovering, proving, and applying for
+
+relief from [the defendant’s] misconduct.” Tedesco v. Mishkin, 629 F. Supp.
+
+1474, 1486 (S.D.N.Y. 1986); see id. (noting that, as here, when the defendant
+
+interfered with the notice process, “extensive hearings and testimony required
+
+to bring these matters to conclusion … could have been eliminated if [the
+
+defendant] and his counsel in good faith had stipulated to known facts”); see
+
+also Romano v. SLS Residential, Inc., 253 F.R.D. 292, 299-300 (S.D.N.Y. 2008)
+
+(ordering the payment of attorneys’ fees and the issuance of corrective notice
+
+after voiding opt-outs because the defendant improperly interfered in the notice
+
+process).
+
+      Defendants argue that they should not be on the hook for Plaintiffs’ fees
+
+related to this dispute for multiple reasons. First, they argue that sanctions
+
+are inappropriate because Defendants themselves did not contact Class
+
+Members about opting out. (Def. Opp. 14-15). In support, Defendants point to
+
+certain cases where district courts have declined to intervene when there was
+
+                                        22
+    Case 1:23-cv-07804-KPF      Document 142      Filed 05/19/26   Page 23 of 37
+
+
+
+
+no evidence that opt-outs resulted from the defendant’s conduct. (See id.
+
+(citing, among others, Chime v. Peak Sec. Plus, Inc., No. 13 Civ. 470 (AMD) (PK),
+
+2016 WL 3440593, at *3 (E.D.N.Y. June 20, 2016))).
+
+      But these cases do not capture the situation here because, as discussed
+
+at the August 15, 2025 conference, M. Swe and K. Tun were acting as
+
+Defendants’ agents when they contacted Class Members. The record makes
+
+clear that at the very least, M. Swe is a manager at Defendants’ restaurants
+
+who is responsible for communicating with Class Members on behalf of
+
+Defendants. (See Dkt. #88; Dkt. #111 at 16:21-18:22 (rejecting Defendants’
+
+argument because Defendants “either enacted or allowed to exist a policy by
+
+which Ms. Swe was a point person for communications with employees”)).
+
+      “[W]hen a manager acts as an agent for a corporate employer,” as here,
+
+the manager’s “actions may be attributed to a corporate entity for FLSA
+
+purposes.” Keawsri v. Ramen-Ya Inc., No. 17 Civ. 2406 (VEC), 2018 WL
+
+279756, at *4 (S.D.N.Y. Jan. 2, 2018) (collecting cases). “So long as
+
+the manager or supervisor had actual supervisory authority over the plaintiff
+
+and acted in the course of his or her employment … , the manager is
+
+an agent of the plaintiff's employer.” In re Global Crossing, Ltd. Sec. Litig.,
+
+No. 02 Civ. 910 (GEL), 2004 WL 725969, at *4 (S.D.N.Y. Apr. 2, 2004). This is
+
+at least true with respect to M. Swe, who communicated with employees on
+
+behalf of Defendants, if not also K. Tun. Consequently, Defendants cannot
+
+avoid sanctions for M. Swe’s or K. Tun’s actions on the basis that they are not
+
+named Defendants.
+
+                                         23
+    Case 1:23-cv-07804-KPF     Document 142    Filed 05/19/26   Page 24 of 37
+
+
+
+
+      Second, Defendants suggest that after being alerted about the “alleged
+
+improper communication, they agreed to void the opt-outs and send[ ]
+
+corrective notices without causing any delay in the case.” (Def. Opp. 15). That
+
+assertion strains credulity. As Plaintiffs point out, between June 2025 and
+
+September 2025, the Court (i) issued multiple orders instructing Defendants to
+
+produce sworn statements from them and their agents about their
+
+communications with Class Members and (ii) held two conferences to discuss
+
+the issue. (Pl. Reply 5). Defendants repeatedly ignored the Court’s orders and
+
+did not agree to void the improper opt-outs until September 12, 2025, on the
+
+eve of the second conference and over two months after Plaintiffs brought the
+
+issue to the attention of the Court. (Dkt. #113). Defendants cannot on this
+
+record avoid sanctions on a theory of cooperation or acceptance of
+
+responsibility.
+
+      Third, Defendants posit that their actions were taken without bad faith.
+
+(Def. Opp. 15). But, as explained above, bad faith is not necessary to award
+
+sanctions for discovery violations. See Thai Lao Lignite (Thai.) Co., 2011 WL
+
+4111504, at *8; Cine Forty-Second St. Theatre Corp., 602 F.2d at 1066. And
+
+nearly all of the relevant misconduct involved failing to produce material that
+
+the Court ordered Defendants to produce, thus necessitating the filing of
+
+multiple motions to compel. Consequently, bad faith is not necessary to award
+
+sanctions for much of this dispute.
+
+      To be sure, some of the conduct, including the initial communications
+
+between Defendants’ agents and Class Members, may not in and of itself
+
+
+                                       24
+    Case 1:23-cv-07804-KPF      Document 142      Filed 05/19/26   Page 25 of 37
+
+
+
+
+amount to a discovery violation. But to the extent that bad faith is required to
+
+impose sanctions for that conduct, it is present here. Defendants’ agents met
+
+with Class Members, whom they supervised at work, and pressured them to
+
+opt out of the Class. (Dkt. #88, 93). This conduct is “entirely without color”
+
+and could not be motivated by anything other than an “improper purpose” of
+
+undermining Plaintiffs’ case. Scivantage, 564 F.3d at 114. For this reason,
+
+courts have found bad faith and awarded attorneys’ fees when presented with
+
+similar conduct by defendants. See, e.g., Tedesco, 629 F. Supp. at 1486;
+
+Romano, 253 F.R.D. at 299-300. The Court does the same here.
+
+      4.    Defense Counsel Must Pay Class Counsel’s Fees Related to
+            Defense Counsel’s Use of Improper Authority
+
+      Finally, Plaintiffs seek attorneys’ fees related to litigation over Defense
+
+Counsel’s use of improper authority in certain submissions to the Court.
+
+Looking at three of Defense Counsel’s letters, the Court noted that all cited
+
+cases “seem to be irrelevant to [Defendants’] points.” (Dkt. #120 at 31:6-31:9).
+
+And some citations were entirely hallucinated. (Id. at 29:19-30:3). Indeed,
+
+Defense Counsel admitted to submitting false authority and to misapplying
+
+case law. (Id. at 23:12-23:16, 25:20-26:5, 29:19-30:3). Yet despite these
+
+admissions, Defense Counsel did not seek to replace the false submissions
+
+until over six months later, and only when Plaintiffs raised this exact concern
+
+in their motion for sanctions. (See Dkt. #133).
+
+      Defense Counsel’s action caused Class Counsel to have to uncover and
+
+respond to Defense Counsel’s false submissions. Given this pattern, the Court
+
+holds that Defense Counsel must pay the fees that Class Counsel incurred in
+                                        25
+     Case 1:23-cv-07804-KPF     Document 142     Filed 05/19/26   Page 26 of 37
+
+
+
+
+litigating Defense Counsel’s false submissions. See Byoplanet Int’l, LLC v.
+
+Johansson, 792 F. Supp. 3d 1341, 1357 (S.D. Fla. 2025) (ordering an attorney
+
+to pay attorneys’ fees to opposing counsel “for all time spent responding to any
+
+filing in which generative AI was used to develop hallucinated cases and
+
+fabricated quotations”).
+
+      As before, Defense Counsel attempts to avoid sanctions by arguing that
+
+she did not use AI in bad faith. (Def. Opp. 15-16). Instead, she asserts that her
+
+use of AI resulted from “her oversight” and was not “an intentional attempt to
+
+mislead the Court or cause delay in the proceeding.” (Id. at 15). That
+
+oversight, she explains, resulted from certain extraordinary personal
+
+circumstances, including harassment that required police intervention and the
+
+issuance of multiple orders of protection,. (Id.).
+
+      The Court sympathizes with Defense Counsel’s personal challenges, but
+
+it believes that her use of generative AI without the necessary checks
+
+nonetheless constitutes bad faith. Indeed, “courts in this circuit have
+
+repeatedly found that presenting AI-generated hallucinations as valid caselaw
+
+constitutes subjective bad faith.” Braica v. Frankowski, — F. Supp. 3d —,
+
+No. 3:24 Civ. 1709 (VDO), 2025 WL 3644231, at *4 (D. Conn. Dec. 15, 2025)
+
+(collecting cases).
+
+      As in those cases, Defense Counsel here made “misleading
+
+representation[s]” to the Court “for an improper purpose.” Rankin v. City of
+
+Niagara Falls, 293 F.R.D. 375, 387 (W.D.N.Y. 2013), aff’d, 569 F. App’x 25 (2d
+
+Cir. 2014) (summary order). “Namely, [s]he made no attempts to check
+
+                                        26
+     Case 1:23-cv-07804-KPF     Document 142     Filed 05/19/26   Page 27 of 37
+
+
+
+
+whether h[er] AI-generated [letters] were accurate, and [s]he used these
+
+misleading hallucinations to advance h[er] case.” Braica, 2025 WL 3644231, at
+
+*6. The Court thus imposes sanctions in the form of attorneys’ fees and costs
+
+for Defense Counsel’s use of improper authority. Having determined that
+
+attorneys’ fees are warranted, the Court next decides the reasonable amount.
+
+B.    Reasonable Attorneys’ Fees
+
+      1.     The Lodestar Method of Awarding Attorneys’ Fees
+
+      Attorneys’ fees are typically awarded by determining the “presumptively
+
+reasonable fee,” often (if imprecisely) referred to as the “lodestar.” Millea v.
+
+Metro-N. R.R. Co., 658 F.3d 154, 166 (2d Cir. 2011) (internal quotation marks
+
+omitted) (quoting Arbor Hill Concerned Citizens Neighborhood Ass’n v. County of
+
+Albany, 522 F.3d 182, 183 (2d Cir. 2008)); see also Perdue v. Kenny A. ex rel.
+
+Winn, 559 U.S. 542, 552-53 (2010); Rossbach v. Montefiore Med. Ctr., No. 19
+
+Civ. 5758 (DLC), 2021 WL 4940306, at *1 (S.D.N.Y. Oct. 22, 2021) (“When a
+
+court imposes a monetary sanction against a party in the amount of its
+
+adversary’s attorneys’ fees, the familiar lodestar method is used to calculate the
+
+appropriate sum.”), aff’d in part and vacated in part on other grounds, 81 F.4th
+
+124 (2d Cir. 2023). The lodestar is calculated by multiplying the “reasonable
+
+hourly rate and the reasonable number of hours required by the case.” Millea,
+
+658 F.3d at 166.
+
+      Courts may, only after the initial calculation of the presumptively
+
+reasonable fee, adjust the total when it “does not adequately take into account
+
+a factor that may properly be considered in determining a reasonable fee.” Lilly
+
+
+                                         27
+    Case 1:23-cv-07804-KPF          Document 142         Filed 05/19/26      Page 28 of 37
+
+
+
+
+v. City of New York, 934 F.3d 222, 230 (2d Cir. 2019) (internal quotation marks
+
+omitted) (quoting Millea, 658 F.3d at 167). 1 A district court possesses
+
+considerable discretion in awarding attorneys’ fees. See Millea, 658 F.3d at
+
+166; Arbor Hill, 522 F.3d at 190.
+
+       “To determine the reasonable hourly rate for each attorney, courts must
+
+look to the market rates ‘prevailing in the community for similar services by
+
+lawyers of reasonably comparable skill, experience, and reputation.’” Heng
+
+Chan v. Sung Yue Tung Corp., No. 03 Civ. 6048 (GEL), 2007 WL 1373118, at *2
+
+(S.D.N.Y. May 8, 2007) (quoting Gierlinger v. Gleason, 160 F.3d 858, 882 (2d
+
+Cir. 1998)). The Second Circuit’s “forum rule” requires courts to “generally use
+
+the hourly rates employed in the district in which the reviewing court sits in
+
+calculating the presumptively reasonable fee.” Simmons v. N.Y.C. Transit Auth.,
+
+575 F.3d 170, 174 (2d Cir. 2009) (internal quotation marks omitted) (quoting
+
+Arbor Hill, 493 F.3d at 119).
+
+
+
+
+1     The Second Circuit confirmed in Lilly v. City of New York, 934 F.3d 222 (2d Cir. 2019),
+      that while this Circuit has adopted the lodestar approach for fee determinations, the 12
+      factors set forth in Johnson v. Ga. Highway Express, Inc., 488 F.2d 714, 717-19 (5th
+      Cir. 1974), abrogated on other grounds by, Blanchard v. Bergeron, 489 U.S. 87 (1989) —
+      which articulated a competing method for fee determinations — “remain important tools
+      for helping district courts calculate the lodestar and, in exceptional cases, determining
+      whether an enhancement or cut to the lodestar is warranted.” Lilly, 934 F.3d at 233.
+      These 12 factors are: (i) the time and labor required; (ii) the novelty and difficulty of the
+      questions; (iii) the level of skill required to perform the legal service properly; (iv) the
+      preclusion of employment by the attorney due to acceptance of the case; (v) the
+      attorney’s customary hourly rate; (vi) whether the fee is fixed or contingent; (vii) the
+      time limitations imposed by the client or the circumstances; (viii) the amount involved
+      in the case and results obtained; (ix) the experience, reputation, and ability of the
+      attorneys; (x) the “undesirability” of the case; (xi) the nature and length of the
+      professional relationship with the client; and (xii) awards in similar cases. Arbor Hill
+      Concerned Citizens Neighborhood Ass’n v. County of Albany, 522 F.3d 182, 186 n.3 (2d
+      Cir. 2008) (citing Johnson, 488 F.2d at 717-19).
+
+                                               28
+    Case 1:23-cv-07804-KPF     Document 142     Filed 05/19/26   Page 29 of 37
+
+
+
+
+      “A district court has discretion to determine a reasonable hourly rate
+
+based on considerations such as the complexity of the case, the prevailing
+
+rates in similar cases in the district, and the quality of representation.” Pasini
+
+v. Godiva Chocolatier, Inc., 764 F. App’x 94, 95 (2d Cir. 2019) (summary order)
+
+(citing Townsend v. Benjamin Enters., Inc., 679 F.3d 41, 59 (2d Cir. 2012));
+
+accord Lilly, 934 F.3d at 231-32. In this setting, “the district court does not
+
+play the role of an uninformed arbiter but may look to its own familiarity with
+
+the case and its experience generally as well as to the evidentiary submissions
+
+and arguments of the parties.” Bliven v. Hunt, 579 F.3d 204, 213 (2d Cir.
+
+2009) (internal quotation marks omitted) (quoting DiFilippo v. Morizio, 759 F.2d
+
+231, 236 (2d Cir. 1985)).
+
+      When determining the reasonable number of hours, a court must make
+
+“a conscientious and detailed inquiry into the validity of the representations
+
+that a certain number of hours were usefully and reasonably expended.” Haley
+
+v. Pataki, 106 F.3d 478, 484 (2d Cir. 1997) (internal quotation marks omitted)
+
+(quoting Lunday v. City of Albany, 42 F.3d 131, 134 (2d Cir. 1994) (per
+
+curiam)). In addition, the court should examine the hours expended by
+
+counsel with a view to the value of the work product to the client’s case. See
+
+Lunday, 42 F.3d at 133-34. The court is to exclude “excessive, redundant or
+
+otherwise unnecessary hours, as well as hours dedicated to severable
+
+unsuccessful claims.” Quaratino v. Tiffany & Co., 166 F.3d 422, 425 (2d Cir.
+
+1999).
+
+
+
+
+                                        29
+    Case 1:23-cv-07804-KPF      Document 142      Filed 05/19/26   Page 30 of 37
+
+
+
+
+      In determining whether hours are excessive, “the critical inquiry is
+
+‘whether, at the time the work was performed, a reasonable attorney would
+
+have engaged in similar time expenditures.’” Samms v. Abrams, 198 F. Supp.
+
+3d 311, 322 (S.D.N.Y. 2016) (quoting Grant v. Martinez, 973 F.2d 96, 99 (2d
+
+Cir. 1992)). Where “the billing records are voluminous, it is less important that
+
+judges attain exactitude, than that they use their experience with the case, as
+
+well as their experience with the practice of law, to assess the reasonableness
+
+of the hours spent.” Yea Kim v. 167 Nail Plaza, Inc., No. 05 Civ. 8560 (GBD)
+
+(GWG), 2009 WL 77876, at *4 (S.D.N.Y. Jan. 12, 2009) (internal quotation
+
+marks omitted) (quoting Alveranga v. Winston, No. 04 Civ. 4356 (ARR) (CLP),
+
+2007 WL 595069, at *5 (E.D.N.Y. Feb. 22, 2007)); see also Fox v. Vice, 563 U.S.
+
+826, 838 (2011) (observing that “[t]he essential goal in shifting fees ... is to do
+
+rough justice, not to achieve auditing perfection”). A court retains the
+
+discretion to make across-the-board percentage reductions to exclude
+
+unreasonable hours, colloquially referred to as “trimming fat.” E.g., In re Agent
+
+Orange Prod. Liab. Litig., 818 F.2d 226, 237 (2d Cir. 1987); accord McDonald ex
+
+rel. Prendergast v. Pension Plan of the NYSA-ILA Pension Tr. Fund, 450 F.3d 91,
+
+96 (2d Cir. 2006).
+
+      The burden is on the fee applicant — here, Plaintiffs — to “document[ ]
+
+the appropriate hours expended and hourly rates.” Dancy v. McGinley, 141 F.
+
+Supp. 3d 231, 235 (S.D.N.Y. 2015) (internal quotation marks omitted) (quoting
+
+Hensley v. Eckerhart, 461 U.S. 424, 437 (1983)). Requested fees “must be
+
+supported with contemporaneous time records establishing for each attorney
+
+                                         30
+    Case 1:23-cv-07804-KPF     Document 142     Filed 05/19/26   Page 31 of 37
+
+
+
+
+for whom fees are sought, the date on which work was performed, the hours
+
+expended, and the nature of the work done.” Abdell v. City of New York, No. 05
+
+Civ. 8453 (RJS), 2015 WL 898974, at *2 (S.D.N.Y. Mar. 2, 2015) (internal
+
+quotation marks omitted) (quoting Sprint Commc’ns Co. L.P. v. Chang, No. 13
+
+Civ. 3846 (RA), 2014 WL 6611484, at *6 (S.D.N.Y. Nov. 21, 2014)).
+
+“[C]ounsel ... [are] not required to record in great detail how each minute of
+
+[their] time was expended,” but “counsel should identify the general subject
+
+matter of [their] time expenditures.” Hensley, 461 U.S. at 437 n.12.
+
+      2.    The Court Awards Reasonable Attorneys’ Fees and Costs
+
+            a.     Reasonable Hourly Rates
+
+      Here, Plaintiffs seek fees for work performed by three attorneys: Maimon
+
+Kirschenbaum, Josef Nussbaum, and Denise Shulman, each a partner at
+
+Joseph & Kirschenbaum LLP. Plaintiffs have outlined each attorney’s
+
+education and experience in their submission to the Court. (Pl. Br. 20-21).
+
+      Each attorney has been approved by other courts in this District at $500
+
+per hour. (Pl. Br. 21). See, e.g., Martinenko v. 212 Steakhouse, Inc., No. 22
+
+Civ. 518 (JLR), 2024 WL 5199792, at *3 (S.D.N.Y. Dec. 23, 2024) (collecting
+
+cases and awarding fees at $500 per hour for Mr. Kirschenbaum and Ms.
+
+Shulman); Alexander v. DRG Hosp. Grp., Inc., No. 23 Civ. 11101 (ER), 2024 WL
+
+4789401, at *2-3 (S.D.N.Y. Nov. 14, 2024) (same); Dougherty v. 2With Deli
+
+Corp., No. 23 Civ. 3496 (ER), 2023 WL 8432866, at *2 (S.D.N.Y. Dec. 5, 2023)
+
+(same). (See also Dkt. #126-6 at 17:12-18:22 (Judge Woods approving Mr.
+
+Kirschenbaum, Ms. Schulman, and Mr. Nussbaum at $500 per hour at a
+
+
+                                        31
+    Case 1:23-cv-07804-KPF     Document 142     Filed 05/19/26   Page 32 of 37
+
+
+
+
+hearing in Zivkovic v. Laura Christy LLC, No. 17 Civ. 553 (GHW) (S.D.N.Y.
+
+June 15, 2022))).
+
+      Defendants have not disputed Class Counsel’s requested hourly rates.
+
+(See Def. Opp. 11 (recognizing the $500 hourly rates but not contesting them)).
+
+This Court agrees that $500 per hour is reasonable for Mr. Kirschenbaum, Ms.
+
+Schulman, and Mr. Nussbaum, and thus follows its sister courts and approves
+
+the three attorneys at that rate.
+
+            b.      Hours Worked
+
+      Plaintiffs have submitted time records reflecting their time spent, among
+
+other things, (i) drafting multiple letter motions related to Defendants’
+
+discovery misconduct and reviewing Court orders related to the same;
+
+(ii) communicating with Defense Counsel about continued discovery
+
+deficiencies; (iii) meeting with Class Members who were pressured by
+
+Defendants’ agents to opt out and helping them draft declarations;
+
+(iv) preparing for and attending the August 15, 2025 and September 16, 2025
+
+conferences; (v) preparing and submitting a corrective notice to Class Members;
+
+and (vi) drafting the instant sanctions motion. (See Dkt. #126-3). See Reed v.
+
+A.W. Lawrence & Co., 95 F.3d 1170, 1183-84 (2d Cir. 1996) (holding that time
+
+spent working on a fee application is compensable).
+
+      In total, Plaintiffs seek fees for 29.1 hours worked by Mr. Kirschenbaum,
+
+67.6 hours worked by Mr. Nussbaum, and 20.2 hours worked by Ms.
+
+Schulman. (See Pl. Br. 22 (seeking fees for 28.2 hours worked by Mr.
+
+Kirschenbaum, 62.1 hours worked by Mr. Nussbaum, and 19.4 hours billed by
+
+
+                                        32
+    Case 1:23-cv-07804-KPF       Document 142   Filed 05/19/26   Page 33 of 37
+
+
+
+
+Ms. Schulman); Pl. Reply 2 (seeking addition fees for .9 hours worked by Mr.
+
+Kirschenbaum, 5.5 hours worked by Mr. Nussbaum, and .8 worked by Ms.
+
+Schulman)).
+
+      Defendants argue that Class Counsel have performed “duplicative
+
+work[ ],” and they ask the Court to reduce Class Counsel’s hours by omitting
+
+the same. (Def. Opp. 11). Defendants also argue that Class Counsel have
+
+requested reimbursement for work “related to routine case management rather
+
+than addressing the actual discovery misconduct.” (Id. at 12). Finally,
+
+Defendants reiterate that the awarded amount “should be substantially
+
+reduced as the delays in production of discovery w[ere] not willful and
+
+Defendants eventually fulfilled their obligation to complete discovery, although
+
+they caused some delay.” (Id.).
+
+      The Court begins by noting that it is cutting all hours worked before and
+
+through May 5, 2025, as the Court has declined to impose sanctions for the
+
+discovery disputes until after that date. The Court disagrees with Defendants’
+
+argument that Class Counsel seeks fees for duplicative work, but it
+
+nonetheless will impose a 10% across-the-board reduction on the resulting fee
+
+because the Court has questions about whether certain of the work for which
+
+Class Counsel seeks fees in fact relates to Defendants’ sanctionable conduct.
+
+For example, Class Counsel requests fees for general meetings regarding
+
+“litigation strategy.” (See, e.g., Dkt. #126-3 at 3 (August 4, 2025 Entry)). A
+
+10% deduction thus serves to trim the fat. See, e.g., In re Agent Orange Prod.
+
+Liab. Litig., 818 F.2d at 237.
+
+
+                                        33
+    Case 1:23-cv-07804-KPF          Document 142         Filed 05/19/26      Page 34 of 37
+
+
+
+
+             c.      The Fee Award
+
+      Applying rates of $500 for the three lawyers, Plaintiffs seek total fees of
+
+$58,450. (Pl. Reply 2 & n.1 (requesting an award of $56,550 because Defense
+
+Counsel already paid $1,900)). Plaintiffs ask that the Court attribute $1,900 of
+
+those fees to Defense Counsel, which amount corresponds to the time incurred
+
+in researching and responding to her letter with false citations, and the
+
+remaining $56,550 to Defendants. (Pl. Br. 22; Pl. Reply 2 & n.1). 2
+
+      As explained above, the Court removes all fees claimed for work
+
+performed through May 5, 2025, which includes 1.2 hours of work by Mr.
+
+Kirschenbaum, 6.7 hours of work by Mr. Nussbaum, and 0.8 hours of work by
+
+Ms. Schulman. That brings Mr. Kirschenbaum’s hours down to 27.9, Mr.
+
+Nussbaum’s to 60.9, and Ms. Schulman’s to 19.4. Applying the relevant
+
+hourly rate of $500 yields a total amount of $54,100. Applying the 10% cut
+
+yields a final award of $48,690. Defense Counsel shall pay $1,710 of that,
+
+while Defendants shall pay the remaining $46,980.
+
+             d.      The Costs Award
+
+      Defendants also must pay for the costs Class Counsel incurred in
+
+purchasing copies of the transcripts of the August 15, 2025 and September 16,
+
+2026 conferences, both of which concerned Defendants’ misconduct. See, e.g.,
+
+Doubleline Cap. LP v. Odebrecht Fin., Ltd., No. 17 Civ. 4576 (GHW) (BCM), 2022
+
+
+
+2     Plaintiffs informed the Court that Defense Counsel sent Class Counsel a check for
+      $1,900 in legal fees attributable to her. The Court still finds it necessary to clarify here
+      that such fees were sought and awarded in large part, but it recognizes that Defense
+      Counsel has already paid those fees.
+
+                                               34
+     Case 1:23-cv-07804-KPF        Document 142       Filed 05/19/26      Page 35 of 37
+
+
+
+
+WL 3029014, at *13 (S.D.N.Y. July 19, 2022) (ordering the defendants to “pay
+
+the reasonable expenses, including … out-of-pocket costs … incurred by
+
+plaintiffs in … preparing and pursuing the instant sanctions motion”); cf.
+
+Kosher Sports, Inc. v. Queens Ballpark Co., LLC, No. 10 Civ. 2618 (JBW) (RLM),
+
+2011 WL 3471508, at *14 (E.D.N.Y. Aug. 5, 2011) (ordering sanctions under
+
+Rule 37 that included “the costs incurred in … preparing transcripts” of certain
+
+depositions). The Court awards $781.88, which is equal to the total costs.
+
+(See Dkt. #126-4). 3
+
+C.    The Court Imposes a Penalty on Defense Counsel for Submitting
+      False Citations
+
+      As part of a sanctions determination, a court may require an attorney to
+
+pay a fine to advance the interests of deterrence, but not as punishment or
+
+compensation. E.g., Universitas Educ., LLC v. Nova Grp., Inc., 784 F.3d 99,
+
+103-04 (2d Cir. 2015); Mata v. Avianca, Inc., 678 F. Supp. 3d 443, 466
+
+(S.D.N.Y. 2023). In “nearly all cases” where attorneys have submitted AI
+
+hallucinated citations, “courts have imposed monetary sanctions ranging from
+
+$1,500 to $15,000.” Benjamin v. Costco Wholesale Corp., 779 F. Supp. 3d 341,
+
+347-48 (E.D.N.Y. 2025) (collecting cases).
+
+      As explained above, Defense Counsel admitted to submitting false
+
+authority and to misapplying case law. And while she expressed remorse for
+
+her actions, she did not attempt to withdraw or correct her submissions until
+
+
+3     Plaintiffs informed the Court that Defense Counsel sent Class Counsel a check for
+      $781.88, corresponding to the amount in costs that Plaintiffs seek. The Court still finds
+      it necessary to clarify here that such costs were sought and awarded, but it recognizes
+      that Defense Counsel has already paid those costs.
+
+                                             35
+    Case 1:23-cv-07804-KPF     Document 142     Filed 05/19/26   Page 36 of 37
+
+
+
+
+Plaintiffs had already filed their opening sanctions brief. Consequently, the
+
+Court finds it necessary to fashion a penalty that is “sufficient but not more
+
+than necessary to advance the goals of specific and general deterrence.” Mata,
+
+678 F. Supp. 3d at 466.
+
+      Here, the Court imposes a penalty of $1,000, which is on the low end of
+
+what other courts have imposed in similar circumstances. This is because the
+
+Court recognizes the personal challenges that Defense Counsel was
+
+experiencing at the time, and it believes that the remorse she expressed at the
+
+September 16, 2025 hearing was genuine. “Further, it appears that this is the
+
+only time [that Defense Counsel] has used an AI platform to replace her own
+
+legal judgment.” Benjamin, 779 F. Supp. 3d at 351 (awarding a monetary
+
+sanction of $1,000 after considering this and other factors). While these
+
+circumstances do not excuse Defense Counsel’s actions, “they are mitigating
+
+factors that lead the Court to conclude that a fine of $1,000 is sufficient.” Id.
+
+                                  CONCLUSION
+
+      For the reasons explained above, Plaintiffs’ motion for sanctions is
+
+GRANTED IN PART and DENIED IN PART. Defendants must pay $46,980 to
+
+Class Counsel as reimbursement for attorneys’ fees and $781.88 as
+
+reimbursement for costs. Defense Counsel must pay $1,710 to Class Counsel
+
+as reimbursement for attorneys’ fees. Finally, the Court imposes a $1,000
+
+penalty on Defense Counsel, to be payable within 30 days by check or money
+
+order to the Clerk of Court of the U.S. District Court for the Southern District
+
+of New York. Defense Counsel may now move to replace its AI-generated
+
+
+                                        36
+    Case 1:23-cv-07804-KPF       Document 142     Filed 05/19/26    Page 37 of 37
+
+
+
+
+submissions. (See Dkt. #135 (denying Defense Counsel’s request for the same
+
+until after the resolution of Plaintiffs’ motion for sanctions)).
+
+      The Court recognizes that Class Counsel spent significant time and
+
+resources sorting through various messes that Defendants created. The least
+
+the Court can do is to ensure that Defendants pay for the time they forced
+
+Class Counsel to spend on those efforts. The Court also adds that Defendants
+
+are fortunate that Plaintiffs have declined to seek the entry of a default
+
+judgment, a request which the Court would have considered seriously. The
+
+Court cannot promise that such grace will be extended to Defendants in the
+
+event of future missteps.
+
+      The Clerk of Court is directed to terminate the pending motion at docket
+
+entry 124.
+
+      SO ORDERED.
+
+Dated:       May 19, 2026
+             New York, New York               __________________________________
+                                                   KATHERINE POLK FAILLA
+                                                  United States District Judge
+
+
+
+
+                                         37
+

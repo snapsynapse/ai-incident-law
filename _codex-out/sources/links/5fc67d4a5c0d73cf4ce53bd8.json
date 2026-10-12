@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://www.courtlistener.com/?q=%223%3A23-cv-00770%22&type=d",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "92d1f05ab3cb44ba988538a57dcb1306",
+      "url": "https://www.courtlistener.com/robots.txt",
+      "kind": "robots",
+      "host": "www.courtlistener.com",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T03:03:47.805821+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/92d1f05ab3cb44ba988538a57dcb1306.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:03:47.821943+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://www.courtlistener.com/?q=%223%3A23-cv-00770%22&type=d",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/5fc67d4a5c0d73cf4ce53bd8.body"
+}

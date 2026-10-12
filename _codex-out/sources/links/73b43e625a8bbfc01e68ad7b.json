@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://justice.gov/archives/opa/pr/justice-department-files-statement-interest-fair-housing-act-case-alleging-unlawful-algorithm",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "b6c52e68b4ff47a7bf4bca8a1d957d92",
+      "url": "https://justice.gov/robots.txt",
+      "kind": "robots",
+      "host": "justice.gov",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T03:03:47.732595+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/b6c52e68b4ff47a7bf4bca8a1d957d92.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:03:47.753169+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://justice.gov/archives/opa/pr/justice-department-files-statement-interest-fair-housing-act-case-alleging-unlawful-algorithm",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/73b43e625a8bbfc01e68ad7b.body"
+}

@@ -1,0 +1,100 @@
+{
+  "status": 200,
+  "headers": {
+    "access-control-allow-origin": "*",
+    "content-security-policy": "default-src 'self' aclu.org *.aclu.org peoplepower.org *.peoplepower.org *.mapbox.com heapanalytics.com *.heapanalytics.com *.youtube.com *.youtube-nocookie.com https://*.optimizely.com https://aclu.hosted.jacksonriverdev.com https://w.soundcloud.com *.instagram.com infogram.com e.infogram.com *.givingdocs.com givingdocs.com *.doublethedonation.com https://doublethedonation.com https://aclu-viz-embeds.netlify.app www.paypalobjects.com https://*.paypal.com https://open.spotify.com https://*.givechariot.com https://*.dafpay.com/ https://*.ngpvan.com https://static.everyaction.com/ https://cdn.us.heap-api.com https://c.us.heap-api.com; style-src 'self' 'unsafe-inline' aclu.org *.aclu.org peoplepower.org *.peoplepower.org heapanalytics.com *.givingdocs.com givingdocs.com *.doublethedonation.com https://doublethedonation.com https://*.givechariot.com https://*.ngpvan.com https://static.everyaction.com/; script-src 'self' 'unsafe-inline' 'unsafe-eval' aclu.org *.aclu.org peoplepower.org *.peoplepower.org *.mapbox.com heapanalytics.com *.heapanalytics.com https://*.optimizely.com https://optimizely.s3.amazonaws.com https://cdn-assets-prod.s3.amazonaws.com *.instagram.com assets.gospringboard.io infogram.com e.infogram.com https://js-agent.newrelic.com https://bam.nr-data.net *.youtube.com *.youtube-nocookie.com *.doublethedonation.com https://doublethedonation.com www.paypalobjects.com https://*.paypal.com https://*.givechariot.com https://*.ngpvan.com https://static.everyaction.com/ https://cdn.us.heap-api.com https://*.contentsquare.net; img-src 'self' data: blob: aclu.org *.aclu.org peoplepower.org *.peoplepower.org *.mapbox.com heapanalytics.com https://*.optimizely.com *.gospringboard.io https://secure.gravatar.com *.doublethedonation.com https://doublethedonation.com https://*.paypal.com https://*.givechariot.com https://*.paypalobjects.com https://*.ngpvan.com https://static.everyaction.com/ https://static.quorum.us; font-src 'self' data: *.aclu.org *.doublethedonation.com https://doublethedonation.com *.auryc.com https://*.givechariot.com https://*.ngpvan.com https://static.everyaction.com/; connect-src 'self' https://bam.nr-data.net https://*.optimizely.com https://*.aclu.org https://aclu.hosted.jacksonriverdev.com *.doublethedonation.com https://doublethedonation.com *.auryc.com https://*.paypal.com https://*.givechariot.com https://*.ngpvan.com https://static.everyaction.com/ https://c.us.heap-api.com https://*.contentsquare.net *.heapanalytics.com heapanalytics.com https://api.mapbox.com; ;",
+    "content-type": "text/html; charset=UTF-8",
+    "link": "<https://www.aclu.org/?p=194182>; rel=shortlink",
+    "x-distributor": "yes",
+    "x-pantheon-styx-hostname": "styx-us-a-58d475665b-b672x",
+    "x-styx-req-id": "8df83971-bf59-11f1-aecc-7eb9887915e1",
+    "pcontext-platform": "cos",
+    "cache-control": "max-age=600, public",
+    "accept-ranges": "bytes",
+    "age": "0",
+    "date": "Sat, 03 Oct 2026 18:37:58 GMT",
+    "aclu-req-hosts": "www.aclu.org",
+    "permissions-policy": "interest-cohort=()",
+    "strict-transport-security": "max-age=31557600",
+    "content-length": "52426",
+    "x-envoy-upstream-service-time": "836",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "finalUrl": "https://www.aclu.org/cases/woodruff-v-oliver",
+  "complete": true,
+  "redirects": [
+    {
+      "from": "https://aclu.org/cases/woodruff-v-oliver",
+      "to": "https://www.aclu.org/cases/woodruff-v-oliver",
+      "status": 301
+    }
+  ],
+  "error": null,
+  "attempts": [
+    {
+      "id": "a5c67038848f4f619578dfa068fc27e5",
+      "url": "https://aclu.org/cases/woodruff-v-oliver",
+      "kind": "fetch",
+      "host": "aclu.org",
+      "status": 301,
+      "headers": {
+        "retry-after": "0",
+        "accept-ranges": "bytes",
+        "date": "Sat, 03 Oct 2026 18:37:57 GMT",
+        "aclu-req-hosts": "aclu.org",
+        "permissions-policy": "interest-cohort=()",
+        "strict-transport-security": "max-age=31557600",
+        "location": "https://www.aclu.org/cases/woodruff-v-oliver",
+        "content-length": "0",
+        "x-envoy-upstream-service-time": "61",
+        "server": "envoy",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:57.721384+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/a5c67038848f4f619578dfa068fc27e5.body"
+    },
+    {
+      "id": "b2b8f002facc4099b3d6bce843a193d2",
+      "url": "https://www.aclu.org/cases/woodruff-v-oliver",
+      "kind": "fetch",
+      "host": "www.aclu.org",
+      "status": 200,
+      "headers": {
+        "access-control-allow-origin": "*",
+        "content-security-policy": "default-src 'self' aclu.org *.aclu.org peoplepower.org *.peoplepower.org *.mapbox.com heapanalytics.com *.heapanalytics.com *.youtube.com *.youtube-nocookie.com https://*.optimizely.com https://aclu.hosted.jacksonriverdev.com https://w.soundcloud.com *.instagram.com infogram.com e.infogram.com *.givingdocs.com givingdocs.com *.doublethedonation.com https://doublethedonation.com https://aclu-viz-embeds.netlify.app www.paypalobjects.com https://*.paypal.com https://open.spotify.com https://*.givechariot.com https://*.dafpay.com/ https://*.ngpvan.com https://static.everyaction.com/ https://cdn.us.heap-api.com https://c.us.heap-api.com; style-src 'self' 'unsafe-inline' aclu.org *.aclu.org peoplepower.org *.peoplepower.org heapanalytics.com *.givingdocs.com givingdocs.com *.doublethedonation.com https://doublethedonation.com https://*.givechariot.com https://*.ngpvan.com https://static.everyaction.com/; script-src 'self' 'unsafe-inline' 'unsafe-eval' aclu.org *.aclu.org peoplepower.org *.peoplepower.org *.mapbox.com heapanalytics.com *.heapanalytics.com https://*.optimizely.com https://optimizely.s3.amazonaws.com https://cdn-assets-prod.s3.amazonaws.com *.instagram.com assets.gospringboard.io infogram.com e.infogram.com https://js-agent.newrelic.com https://bam.nr-data.net *.youtube.com *.youtube-nocookie.com *.doublethedonation.com https://doublethedonation.com www.paypalobjects.com https://*.paypal.com https://*.givechariot.com https://*.ngpvan.com https://static.everyaction.com/ https://cdn.us.heap-api.com https://*.contentsquare.net; img-src 'self' data: blob: aclu.org *.aclu.org peoplepower.org *.peoplepower.org *.mapbox.com heapanalytics.com https://*.optimizely.com *.gospringboard.io https://secure.gravatar.com *.doublethedonation.com https://doublethedonation.com https://*.paypal.com https://*.givechariot.com https://*.paypalobjects.com https://*.ngpvan.com https://static.everyaction.com/ https://static.quorum.us; font-src 'self' data: *.aclu.org *.doublethedonation.com https://doublethedonation.com *.auryc.com https://*.givechariot.com https://*.ngpvan.com https://static.everyaction.com/; connect-src 'self' https://bam.nr-data.net https://*.optimizely.com https://*.aclu.org https://aclu.hosted.jacksonriverdev.com *.doublethedonation.com https://doublethedonation.com *.auryc.com https://*.paypal.com https://*.givechariot.com https://*.ngpvan.com https://static.everyaction.com/ https://c.us.heap-api.com https://*.contentsquare.net *.heapanalytics.com heapanalytics.com https://api.mapbox.com; ;",
+        "content-type": "text/html; charset=UTF-8",
+        "link": "<https://www.aclu.org/?p=194182>; rel=shortlink",
+        "x-distributor": "yes",
+        "x-pantheon-styx-hostname": "styx-us-a-58d475665b-b672x",
+        "x-styx-req-id": "8df83971-bf59-11f1-aecc-7eb9887915e1",
+        "pcontext-platform": "cos",
+        "cache-control": "max-age=600, public",
+        "accept-ranges": "bytes",
+        "age": "0",
+        "date": "Sat, 03 Oct 2026 18:37:58 GMT",
+        "aclu-req-hosts": "www.aclu.org",
+        "permissions-policy": "interest-cohort=()",
+        "strict-transport-security": "max-age=31557600",
+        "content-length": "52426",
+        "x-envoy-upstream-service-time": "836",
+        "server": "envoy",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:57.954787+00:00",
+      "sha256": "52aca414b9a6362f0d367c0089e77ab456f719c083eddcef31ee2674bc1f5dff",
+      "bytes": 52426,
+      "body_path": "/workspace/freshness-control/transport-evidence/b2b8f002facc4099b3d6bce843a193d2.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T18:37:57.954787+00:00",
+  "sha256": "52aca414b9a6362f0d367c0089e77ab456f719c083eddcef31ee2674bc1f5dff",
+  "requested_url": "https://aclu.org/cases/woodruff-v-oliver",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/resume-20261003/abc0c3cfb1adee20891ace6f.body"
+}

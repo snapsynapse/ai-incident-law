@@ -1,0 +1,31 @@
+{
+  "id": "dfa145ef981a49358f65c1f32b5299e9",
+  "url": "https://cohenmilstein.com/rental-applicants-reach-2-28m-settlement-agreement-for-discriminatory-ai-powered-screening-tool/",
+  "kind": "fetch",
+  "host": "cohenmilstein.com",
+  "status": 301,
+  "headers": {
+    "retry-after": "0",
+    "server": "envoy",
+    "location": "https://www.cohenmilstein.com/rental-applicants-reach-2-28m-settlement-agreement-for-discriminatory-ai-powered-screening-tool/",
+    "x-pantheon-redirect": "primary-domain-policy-doc",
+    "date": "Sat, 03 Oct 2026 18:37:29 GMT",
+    "x-served-by": "cache-chi-klot8100020-CHI",
+    "x-cache": "HIT",
+    "x-cache-hits": "0",
+    "x-timer": "S1791052650.956907,VS0,VE3",
+    "age": "0",
+    "accept-ranges": "bytes",
+    "via": "1.1 varnish",
+    "content-length": "0",
+    "x-envoy-upstream-service-time": "9",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:29.687407+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/dfa145ef981a49358f65c1f32b5299e9.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/dfa145ef981a49358f65c1f32b5299e9.body"
+}

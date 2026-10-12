@@ -1,0 +1,9 @@
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://www.lawsitesblog.com/sitemap_index.xml
+

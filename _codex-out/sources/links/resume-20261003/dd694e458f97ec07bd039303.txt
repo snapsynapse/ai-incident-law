@@ -1,0 +1,1056 @@
+        Case 3:26-cv-00250-VDO        Document 43       Filed 08/04/26    Page 1 of 20
+
+
+
+
+                                UNITED STATES DISTRICT COURT
+                                    DISTRICT OF CONNECTICUT
+--------------------------------------------------------------- x
+BARTECA HOLDINGS LLC and                                        :
+BARTECA INTERMEDIATE HOLDINGS LLC,                              :
+                                                                :
+                                          Plaintiffs,           : ORDER IMPOSING
+                                                                : SANCTIONS
+                -against-                                       :
+                                                                : 26-CV-250 (VDO)
+TACOBARN NEWTOWN LLC and                                        :
+TACOBARN GREENWICH LLC,                                         :
+                                                                x
+                                          Defendants.
+---------------------------------------------------------------
+VERNON D. OLIVER, United States District Judge:
+
+         This Order addresses the Court’s previously issued Order to Show Cause concerning
+
+defense counsel Hilary Miller’s use of unverified generative artificial intelligence (“AI”) in
+
+this matter. Having considered counsel’s written response to the Order to Show Cause and his
+
+representations made at the show-cause hearing, the Court concludes that sanctions are
+
+warranted and imposes the sanctions set forth below.
+
+I.       BACKGROUND
+
+         The Court recounts the following history, as previously laid out in the Order to Show
+
+Cause issued at ECF No. 33:
+
+         On April 21, 2026, Defendants in this matter filed a Motion to Dismiss. 1 On May 20,
+
+2026, Defendants filed a Motion to Exclude Extrinsic Evidence and to Direct Plaintiffs to File
+
+a Conforming Opposition to Defendants’ Motion to Dismiss 2 (hereinafter, together with the
+
+
+
+
+1
+    See ECF No. 24.
+2
+    See ECF No. 28.
+      Case 3:26-cv-00250-VDO            Document 43            Filed 08/04/26      Page 2 of 20
+
+
+
+
+Motion to Dismiss, the “Motions”). Upon review of the Motions, the Court discovered
+
+numerous case quotes that do not exist, erroneous citations, and misrepresentations of the law.
+
+       Specifically, in the Motion to Dismiss, the Court noted the following hallucinations:
+
+            Case Law in the Motion                                          Notes
+ ECF No. 24-1 at 8: The Court accepts all               Erroneous citation. Quotations do not exist
+ well-pleaded factual allegations as true and           on cited page. “Bare assertions” appears on
+ draws all reasonable inferences in the                 page 681 and in the dissent. “Conclusory
+ plaintiff’s favor, but is not required to credit       allegation” (singular) appears on 686. The
+ “bare assertions,” “conclusory allegations,”           most similar terms used on page 678 are
+ or legal conclusions couched as factual                “labels and conclusions” and “naked
+ statements. Id. (referring to Ashcroft v.              assertion[s].” Iqbal, 556 U.S. at 678, 686.
+ Iqbal, 556 U.S. 662, 678 (2009).)
+
+ ECF No. 24-1 at 9–10: Incontestability bars Mischaracterization of the law. Streetwise
+ certain validity challenges, but it does not does not address incontestability.
+ convert a conceptually weak mark into a
+ strong one or expand the scope of protection
+ against nonidentical marks. Park ‘N Fly,
+ Inc. v. Dollar Park & Fly, Inc., 469 U.S.
+ 189, 205 (1985); Streetwise Maps, Inc. v.
+ VanDam, Inc., 159 F.3d 739, 744 (2d Cir.
+ 1998).
+
+ ECF No. 24-1 at 14: Despite this seemingly             Erroneous citation. Citation should be to
+ favorable balance, the court held that the             pages 249–50.
+ plaintiff’s complaint must be dismissed
+ because the marks actually presented to
+ consumers—1-800 CONTACTS on the one
+ hand, and WARBY PARKER on the
+ other—were “substantially different.” Id. at
+ 251.
+
+ ECF No. 24-1 at 20: The Second Circuit has             Quote does not exist. Instead, the case says:
+ explained why that requirement is
+ substantive rather than technical: “Without            Without such a precise expression of the
+ such a precise expression of the character             character and scope of the claimed trade
+ and scope of the claimed dress, it is                  dress, litigation will be difficult, as courts
+ impossible to evaluate the degree to which             will be unable to evaluate how unique and
+ the alleged trade dress is distinctive, or the         unexpected the design elements are in the
+ scope of protection, if any, to which it is            relevant market. Courts will also be unable
+ entitled, and courts will be unable to shape           to shape narrowly-tailored relief if they do
+ narrowly tailored relief.” Landscape Forms,            not know what distinctive combination of
+
+
+                                                    2
+     Case 3:26-cv-00250-VDO           Document 43            Filed 08/04/26      Page 3 of 20
+
+
+
+
+Inc. v. Columbia Cascade Co., 113 F.3d                ingredients deserves protection.
+373, 381 (2d Cir. 1997).
+                                                      Landscape Forms, Inc., 113 F.3d at 381.
+
+ECF No. 24-1 at 21: A plaintiff “must                 Quote does not exist. Yurman says that a
+articulate the specific elements that                 plaintiff “must articulate the design
+comprise the alleged trade dress and cannot           elements that compose the trade dress” at
+claim an amorphous overall style.” Yurman             the bottom of page 116, but nothing about
+Design, Inc. v. PAJ, Inc., 262 F.3d 101,              amorphous overall style. Yurman Design,
+116–17 (2d Cir. 2001); see also Jeffrey               Inc., 262 F.3d 101 at 116.
+Milstein, Inc. v. Greger, Lawlor, Roth, Inc.,
+58 F.3d 27, 32 (2d Cir. 1995); O Zon Inc. v.
+Charles, 272 F. Supp. 2d 307, 317–18
+(S.D.N.Y. 2003).                                      As to O Zon, erroneous citation. O Zon ends
+                                                      on page 314.
+
+ECF No. 24-1 at 25: Courts in this Circuit            Erroneous citation. O Zon ends on page
+routinely dismiss trade dress claims at the           314.
+pleading stage where the plaintiff alleges
+only a generalized “concept” without
+identifying what makes the design
+distinctive. O Zon, 272 F. Supp. 2d at 317–
+18.
+
+ECF No. 24-1 at 26: In trademark cases, the           Mischaracterization of the law and
+Second Circuit recognizes that declaratory            erroneous citation. Declaratory judgment is
+relief is justified only when it clarifies and        required when these two conditions are met;
+settles the legal relations in issue or               this is not the only time declaratory relief is
+terminates the uncertainty giving rise to the         possible. Additionally, the proposition
+proceeding. Starter Corp. v. Converse, Inc.,          appears on page 597.
+84 F.3d 592, 595–96 (2d Cir. 1996).
+
+ECF No. 24-1 at 26–27: Where a                        Misrepresentation of the law. This case does
+declaratory judgment claim presents no                not stand for the asserted proposition.
+distinct controversy but merely restates the
+defense to the plaintiff’s own affirmative
+claims, the district court may exercise its
+discretion to dismiss it, since it can neither
+clarify nor settle anything beyond what the
+substantive counts will resolve. Wilton v.
+Seven Falls Co., 515 U.S. 277, 286–87
+(1995).
+
+ECF No. 24-1 at 27: Here, Count VI will               Misrepresentation of the law. This case does
+rise or fall with the Court’s resolution of the       not stand for the asserted proposition.
+
+
+
+                                                  3
+      Case 3:26-cv-00250-VDO          Document 43          Filed 08/04/26     Page 4 of 20
+
+
+
+
+ infringement and unfair-competition counts.
+ Because those substantive claims already
+ present the same controversy and will fully
+ determine the parties’ rights, the
+ declaratory-judgment claim is redundant
+ and may be dismissed in the Court’s
+ discretion. See Wilton v. Seven Falls Co.,
+ 515 U.S. at 282–89.
+
+
+       With respect to the Motion to Exclude Extrinsic Evidence, the Court noted the
+
+following hallucinations:
+
+           Case Law in the Motion                                      Notes
+ ECF No. 28 at 2: The governing rule is             Quote does not exist. Instead, the case says:
+ settled. On a motion to dismiss under Rule
+ 12(b)(6), the Court’s review is limited to         For purposes of this rule, “the complaint is
+ “the complaint, any written instrument             deemed to include any written instrument
+ attached to it as an exhibit, any statements       attached to it as an exhibit or any statements
+ or documents incorporated in it by                 or documents incorporated in it by
+ reference, and any document upon which             reference.” Int’l Audiotext Network, Inc. v.
+ the complaint heavily relies.” Chambers v.         Am. Tel. & Tel. Co., 62 F.3d 69, 72 (2d Cir.
+ Time Warner, Inc., 282 F.3d 147, 152–53            1995) (per curiam) (quoting Cortec Indus.,
+ (2d Cir. 2002).                                    Inc. v. Sum Holding L.P., 949 F.2d 42, 47
+                                                    (2d Cir.1991)); see Fed. R. Civ. P. 10(c)
+                                                    (“A copy of any written instrument which is
+                                                    an exhibit to a pleading is a part thereof for
+                                                    all purposes.”). Even where a document is
+                                                    not incorporated by reference, the court may
+                                                    nevertheless consider it where the complaint
+                                                    “relies heavily upon its terms and effect,”
+                                                    which renders the document “integral” to
+                                                    the complaint. Int’l Audiotext, 62 F.3d at 72.
+
+                                                    Chambers., 282 F.3d at 152–53.
+
+ ECF No. 28 at 2: A court may also take      Mischaracterization of the law. Case does
+ judicial notice of adjudicative facts under not stand for this proposition. Nothing about
+ Fed. R. Evid. 201(b). Chambers v. Time      FRE 201(b) appears in Chambers.
+ Warner, Inc., 282 F.3d 147, 152–53 (2d Cir.
+ 2002).
+
+ ECF No. 28 at 2–3: The Second Circuit has          Erroneous citation. Pearson does not
+ recently reaffirmed the strictness of that         contain pages 410–12.
+
+
+                                                4
+     Case 3:26-cv-00250-VDO         Document 43          Filed 08/04/26     Page 5 of 20
+
+
+
+
+boundary. In Pearson v. Gesner, 125 F.4th
+400 (2d Cir. 2025), the court held it was
+error to consider a defendant-created
+misbehavior report and video on a Rule
+12(b)(6) motion where the pro se plaintiff
+did not rely on those materials in drafting
+the pleading, even though the materials
+were in the record and were argued to be
+“integral.” Id. at 409–12.
+
+ECF No. 28 at 3: In Friedl v. City of New         Quote does not exist. Instead, the case says:
+York, 210 F.3d 79, 83–84 (2d Cir. 2000),
+the Second Circuit held that “[w]hen              [W]hen matters outside the pleadings are
+presented with a 12(b)(6) motion, the             presented in response to a 12(b)(6) motion,”
+district court may not consider matters           a district court must either “exclude the
+outside of the pleadings without converting       additional material and decide the motion
+the motion into a motion for summary              on the complaint alone” or “convert the
+judgment.”                                        motion to one for summary judgment under
+                                                  Fed. R. Civ. P. 56 and afford all parties the
+                                                  opportunity to present supporting material.”
+                                                  Fonte v. Board of Managers of Continental
+                                                  Towers Condominium, 848 F.2d 24, 25 (2d
+                                                  Cir. 1988).
+
+                                                  Friedl, 210 F.3d at 83.
+
+ECF No. 28 at 3: And a district court errs        Quote does not exist. Instead, the case says:
+when it “relies on factual allegations
+contained in legal briefs or memoranda” to        Factual allegations contained in legal briefs
+decide a Rule 12(b)(6) motion. Fonte v. Bd.       or memoranda are also treated as matters
+Of Managers of Cont’l Towers Condo., 848          outside the pleading for purposes of Rule
+F.2d 24, 25 (2d Cir. 1988).                       12(b).
+
+                                                  Fonte, 848 F.2d at 25.
+
+ECF No. 28 at 3: See also Kopec v.                Erroneous citation. Relevant discussion
+Coughlin, 922 F.2d 152, 155–56 (2d Cir.           appears on pages 154–55.
+1991) (Rule 12 requires exclusion or
+conversion when affidavits/exhibits are
+considered)
+
+ECF No. 28 at 3: Cortec Indus., Inc. v. Sum       Mischaracterization of the law. Case does
+Holding L.P., 949 F.2d 42, 47–48 (2d Cir.         not stand for the proposition that documents
+1991) (documents may be considered at             at Rule 12 may “only” be considered if
+
+
+
+                                              5
+     Case 3:26-cv-00250-VDO         Document 43         Filed 08/04/26      Page 6 of 20
+
+
+
+
+Rule 12 only when plaintiffs had notice of       plaintiff had notice of them and relies on
+them and relied on them in bringing suit).       them in bringing suit.
+
+                                                 Instead, it says that in the context of
+                                                 security fraud cases, “when a plaintiff
+                                                 chooses not to attach to the complaint or
+                                                 incorporate by reference a prospectus upon
+                                                 which it solely relies and which is integral
+                                                 to the complaint, the defendant may
+                                                 produce the prospectus when attacking the
+                                                 complaint for its failure to state a claim,
+                                                 because plaintiff should not so easily be
+                                                 allowed to escape the consequences of its
+                                                 own failure” and “when a district court
+                                                 decides a motion to dismiss a complaint
+                                                 alleging securities fraud, it may review and
+                                                 consider public disclosure documents
+                                                 required by law to be and which actually
+                                                 have been filed with the SEC, particularly
+                                                 where plaintiff has been put on notice by
+                                                 defendant’s proffer of these public
+                                                 documents. Cortec Indus., 949 F.2d at 47.
+
+                                                 The case then goes on to say that a “finding
+                                                 that plaintiff has had notice of documents
+                                                 used by defendant in a 12(b)(6) motion is
+                                                 significant since, as noted earlier, the
+                                                 problem that arises when a court reviews
+                                                 statements extraneous to a complaint
+                                                 generally is the lack of notice to the plaintiff
+                                                 that they may be so considered; it is for that
+                                                 reason—requiring notice so that the party
+                                                 against whom the motion to dismiss is made
+                                                 may respond—that Rule 12(b)(6) motions
+                                                 are ordinarily converted into summary
+                                                 judgment motions. Where plaintiff has
+                                                 actual notice of all the information in the
+                                                 movant’s papers and has relied upon these
+                                                 documents in framing the complaint the
+                                                 necessity of translating a Rule 12(b)(6)
+                                                 motion into one under Rule 56 is largely
+                                                 dissipated.” Id. at 48.
+
+                                                 In any case, it is unclear how Cortec applies
+                                                 to the instant case, where it is Plaintiffs, not
+
+                                             6
+       Case 3:26-cv-00250-VDO           Document 43         Filed 08/04/26      Page 7 of 20
+
+
+
+
+                                                      Defendants, who seek to introduce extrinsic
+                                                      evidence.
+
+
+       On June 12, 2026, having discovered the above hallucinations, the Court issued the
+
+underlying Order to Show Cause. 3 On June 18, 2026, Attorney Miller filed his response to the
+
+Order to Show Cause, in which he “accept[ed] full and unqualified responsibility for the
+
+defects the Court identified.” 4 Attorney Miller represented that the errors were unintentional
+
+and resulted from an inadequate verification process that confirmed only the existence of the
+
+cited cases, rather than the accuracy of the quotations, pin cites, parentheticals, and legal
+
+propositions attributed to those authorities. 5 He further stated that he had undertaken a line-
+
+by-line review of the challenged filings, requested leave to file a corrected memorandum in
+
+support of the Motion to Dismiss and to withdraw the Motion to Exclude Extrinsic Evidence,
+
+offered to reimburse Plaintiffs for any reasonable incremental attorneys’ fees and expenses
+
+resulting from the corrected briefing, and described changes to his verification practices
+
+designed to prevent similar errors in the future. 6
+
+       On June 25, 2026, the Court held a show-cause hearing, at which Attorney Miller
+
+reiterated those representations and further explained the circumstances under which the AI-
+
+generated material was incorporated into his briefing. 7 Attorney Miller clarified that this matter
+
+is the first and only matter in which he utilized artificial intelligence. As for his writing process,
+
+Attorney Miller explained that he first wrote the brief himself conventionally. Then, in an
+
+
+3
+  ECF No. 33.
+4
+  ECF No. 36 ¶ 2.
+5
+  Id. ¶¶ 3–5.
+6
+  Id. ¶¶ 6, 8–12.
+7
+  ECF No. 37.
+
+
+                                                  7
+      Case 3:26-cv-00250-VDO           Document 43        Filed 08/04/26     Page 8 of 20
+
+
+
+
+attempt to improve it, he used a tool called Open Law, which he paid for, for suggestions on
+
+arguments and additional cases. He also used Claude and Chat GPT for additional suggestions.
+
+Concerned about the risk of AI hallucinations, Attorney Miller then cross-checked the citations
+
+in the brief to determine whether they existed and were cited correctly, including by
+
+Shepardizing every case in the brief through Lexis. However, he did not adequately verify that
+
+each “pin cite” referred to the correct page or that the quotations included in his brief were
+
+accurate.
+
+II.    LEGAL STANDARD
+
+       Rule 11 of the Federal Rules of Civil Procedure (“Rule 11”) dictates that “[e]very
+
+pleading, written motion, and other paper must be signed by . . . a party personally if the party
+
+is unrepresented.” Fed. R. Civ. P. 11(a). Rule 11(b) states, in relevant part, that:
+
+       By presenting to the court a pleading, written motion, or other paper—whether
+       by signing, filing, submitting, or later advocating it—an attorney or
+       unrepresented party certifies that to the best of the person’s knowledge,
+       information, and belief, formed after an inquiry reasonable under the
+       circumstances:
+
+       (1) it is not being presented for any improper purpose, such as to harass, cause
+           unnecessary delay, or needlessly increase the cost of litigation;
+
+       (2) the claims, defenses, and other legal contentions are warranted by existing
+           law or by a nonfrivolous argument for extending, modifying, or reversing
+           existing law or for establishing new law…
+
+       Fed. R. Civ. P. 11(b). Rule 11 “is not aspirational; it is the minimal standard of honesty
+
+that keeps the adversarial process tethered to reality.” Mattox v. Prod. Innovations Rsch., LLC,
+
+807 F. Supp. 3d 1341, 1347–48 (E.D. Okla. 2025). In short, Rule 11(b) imposes an affirmative
+
+duty on parties and counsel to ensure that all papers filed with the Court are factually and
+
+legally well-founded. “Under Rule 11, a court may sanction an attorney for, among other
+
+
+
+                                                8
+      Case 3:26-cv-00250-VDO          Document 43        Filed 08/04/26     Page 9 of 20
+
+
+
+
+things, misrepresenting facts or making frivolous legal arguments.” Muhammad v. Walmart
+
+Stores E., L.P., 732 F.3d 104, 108 (2d Cir. 2013) (per curiam).
+
+       “Merely incorrect legal statements are not sanctionable under Rule 11(b)(2).” Storey v.
+
+Cello Holdings, L.L.C., 347 F.3d 370, 391 (2d Cir. 2003). “The fact that a legal theory is a
+
+long-shot does not necessarily mean it is sanctionable.” Fishoff v. Coty Inc., 634 F.3d 647, 654
+
+(2d Cir. 2011). A legal contention is frivolous because it has “no chance of success” and there
+
+“is no reasonable argument to extend, modify or reverse the law as it stands.” Id. (quoting
+
+Morley v. Ciba–Geigy Corp., 66 F.3d 21, 25 (2d Cir. 1995)). The filing of papers “without
+
+taking the necessary care in their preparation” is an “abuse of the judicial system” that is
+
+subject to Rule 11 sanction. Cooter & Gell v. Hartmarx Corp., 496 U.S. 384, 398 (1990). Rule
+
+11 creates an “incentive to stop, think and investigate more carefully before serving and filing
+
+papers.” Id. (cleaned up).
+
+       Rule 11 obligations take on particular significance in the context of filings prepared
+
+with the assistance of generative AI. “Federal courts increasingly confront filings prepared
+
+with the assistance of generative artificial intelligence. While such tools can enhance
+
+efficiency, they also create a new professional hazard, synthetic authority presented as
+
+precedent.” Mattox, 807 F. Supp. 3d at 1347. The main problem with filings that rely on
+
+generative AI of course, is that they often include hallucinations. The Court has defined a
+
+“hallucination” in the context of AI-assisted legal research as one of three errors:
+
+       (1) fabricated cases (whether a nonexistent case name and citation, an existing
+       case name with an invented or erroneous citation, or a real citation that leads to
+       a wholly unrelated decision); (2) fabricated quotations from actual cases; and
+       (3) misstatements of law (representations of legal rules, standards, or holdings
+       that are inaccurate, incomplete, or unsupported by any real authority, including
+       AI-generated summaries that distort or materially alter what a case actually
+       decided).
+
+                                               9
+      Case 3:26-cv-00250-VDO            Document 43        Filed 08/04/26       Page 10 of 20
+
+
+
+
+See Andre v. Warden, FCI Danbury, 827 F. Supp. 3d 294, 305 (D. Conn. 2025).
+
+       “In an adversarial system that depends on litigants to candidly present accurate
+
+authority, such hallucinations mislead the Court, forcing it either to expend substantial
+
+resources verifying fabricated material or, worse, risk reliance on an erroneous statement of
+
+the law.” Id. Numerous additional concerns abound:
+
+       “Many harms flow from the submission of fake opinions . . . The Court’s time
+       is taken from other important endeavors. The client may be deprived of
+       arguments based on authentic judicial precedents. There is potential harm to the
+       reputation of judges and courts whose names are falsely invoked as authors of
+       the bogus opinions and to the reputation of a party attributed with fictional
+       conduct. It promotes cynicism about the legal profession and the American
+       judicial system. And a future litigant may be tempted to defy a judicial ruling
+       by disingenuously claiming doubt about its authenticity.”
+
+Id. at 305–06 (quoting Mata v. Avianca, Inc., 678 F. Supp. 3d 443, 448–49 (S.D.N.Y. 2023)).
+
+       The Court previously adopted, in part, the analytical framework set forth by the Mattox
+
+court while confronting a pro se party who used artificial intelligence in drafting its pleadings. 8
+
+Id. at 306. Under that framework, once “a pleading containing fabricated citations or
+
+nonexistent law has been identified and a hearing held,” the court considers two principal
+
+factors in determining whether sanctions are warranted. Id. Specifically, the Court considers:
+
+       1. Verification and Inquiry — Whether counsel [or the unrepresented party]
+       conducted a reasonable, human-based verification of every cited authority
+       before filing. A reasonable inquiry requires more than reliance on an automated
+       tool; it demands independent confirmation through recognized primary legal
+
+8
+  The full Mattox test includes an additional factor titled “Accountability and Supervision.” 807 F.
+Supp. 3d at 1348. The Mattox court explained the factor as: “Whether supervising or associated
+attorneys exercised oversight consistent with [ABA] Model Rules [of Professional Conduct] 5.1
+and 5.3 and whether firm-level safeguards existed to prevent recurrence. The inquiry extends
+beyond the drafter to the institutional culture that permitted unverified authority to reach the
+docket. A firm’s silence or absence of policy does not immunize it; it implicates it.” Id. The Court
+originally omitted this factor in Andre as it found it to be inapplicable to pro se litigants. It omits
+the factor as inapplicable here, too, because Attorney Miller is a sole practitioner.
+
+
+                                                  10
+       Case 3:26-cv-00250-VDO         Document 43        Filed 08/04/26    Page 11 of 20
+
+
+
+
+        sources. The signature of an attorney [or the unrepresented party] certifies
+        human diligence, not mechanical output.
+
+        2. Candor and Correction — Whether counsel [or the unrepresented party]
+        promptly disclosed the use of AI and corrected the record once inaccuracies
+        were discovered. Candor after filing weighs heavily in mitigation; concealment
+        or minimization aggravates the violation. The duty of candor extends beyond
+        the moment of signature, it continues for as long as the filing remains before the
+        Court.
+
+        Id. (quoting Mattox, 807 F. Supp. 3d at 1348).
+
+        A court may “initiate sanctions sua sponte by issuing an order ‘to show cause why
+
+conduct specifically described in the order has not violated Rule 11(b).” Kyros L. P.C. v. World
+
+Wrestling Ent., Inc., 78 F.4th 532, 543 (2d Cir. 2023) (quoting Fed. R. Civ. P. 11(c)(3)). The
+
+power to sua sponte impose Rule 11 sanctions is akin to a courts inherent power of contempt,
+
+and like contempt, a district court may sua sponte sanction a litigant only upon finding they
+
+acted with “subjective bad faith.” In re Pennie & Edmonds LLP, 323 F.3d 86, 87, 90 (2d. Cir.
+
+2003). Subjective bad faith is a “heightened mens rea standard” designed to promote zealous
+
+advocacy while deterring improper submissions. Id. at 91. The heightened standard can be
+
+satisfied upon finding that a litigant made a “misleading representation to a district court for
+
+an improper purpose.” Rankin v. City of Niagara Falls, 293 F.R.D. 375, 387 (W.D.N.Y. 2013),
+
+aff’d sub nom, 569 F. App’x 25 (2d Cir. 2014). “Courts in this circuit have repeatedly found
+
+that presenting AI-generated hallucinations as valid caselaw constitutes subjective bad faith.”
+
+Andre, 827 F. Supp. 3d at 306 (collecting cases).
+
+III.    DISCUSSION
+
+        A.     Violation of Rule 11
+
+        Applying the framework discussed above, the Court finds that the first factor—
+
+verification and inquiry—weighs in favor of sanctions because Attorney Miller failed to
+
+
+                                               11
+        Case 3:26-cv-00250-VDO          Document 43     Filed 08/04/26      Page 12 of 20
+
+
+
+
+conduct a reasonable human verification of the authorities cited in the challenged filings before
+
+submitting them. As he admitted in his response to the Court’s Order to Show Cause to
+
+Attorney Miller did not “check[] the precise text of each quotation, the accuracy of each pin
+
+cite, or the fidelity of each explanatory parenthetical and statement of law to its source.” 9 But
+
+“Rule 11 imposes an obligation on attorneys to, at a minimum, read the cases they cite to the
+
+Court.” Benjamin v. Costco Wholesale Corp., 779 F. Supp. 3d 341, 348 (E.D.N.Y. 2025)
+
+(citing Park v. Kim, 91 F.4th 610, 615 (2d Cir. 2024)). Had Attorney Miller undertaken the
+
+routine task of cite checking his brief, he would have discovered the errors the Court later
+
+identified. He thus failed to undertake the “reasonable inquiry” required by Rule 11.
+
+         The second factor, however,—candor and correction—weighs in favor of mitigation.
+
+Attorney Miller promptly accepted responsibility, apologized to the Court, and undertook
+
+meaningful remedial measures, including offering to correct the record, reimburse plaintiffs
+
+for reasonable incremental attorneys’ fees, and implement enhanced verification procedures to
+
+prevent similar errors in the future.
+
+         Nevertheless, Attorney Miller’s candor does not preclude a finding of subjective bad
+
+faith in this matter—a finding that is necessary for a court’s imposition of sanctions sua sponte.
+
+The Court appreciates that he did not obfuscate or attempt to skirt responsibility for his
+
+conduct, but rather immediately accepted responsibility and proposed remedial measures. “But
+
+regret and apologies are not necessarily enough to avoid the imposition of sanctions for the
+
+submission of non-existent legal authority.” Id. at 350. As discussed, “[b]y presenting to the
+
+court a pleading, written motion, or other paper—whether by signing, filing, submitting, or
+
+
+
+9
+    ECF No. 36 ¶ 4.
+
+
+                                               12
+      Case 3:26-cv-00250-VDO          Document 43       Filed 08/04/26     Page 13 of 20
+
+
+
+
+later advocating it—an attorney” makes certain certifications “to the best of the person’s
+
+knowledge, information, and belief,” including that “the claims, defenses, and other legal
+
+contentions [included in the submission] are warranted by existing law.” Fed. R. Civ. P. 11(b).
+
+Here, Attorney Miller’s failure to review the cited authorities before filing the Motions
+
+establishes that, at the time he made the Rule 11 certifications, he lacked the knowledge
+
+necessary to truthfully represent that the legal contentions contained therein were warranted
+
+by existing law. His certifications therefore conveyed a level of knowledge and verification
+
+that he did not possess. “A false statement of knowledge can constitute subjective bad faith
+
+where the speaker knew that he had no such knowledge.” Mata, 678 F. Supp. 3d at 462–63
+
+(cleaned up). Accordingly, the Court finds that Attorney Miller acted with subjective bad faith
+
+in submitting filings containing legal authorities that he had not reviewed or verified.
+
+       Separately, the Court notes that Attorney Miller’s conduct has come at a cost to
+
+Defendants. “Clients hire attorneys to perform legal research, investigate the merit of their
+
+claims, and provide the best argument in support of their case to the Court. The Court cannot
+
+permit attorneys to delegate these fundamental tenants of the attorney-client relationship to an
+
+AI platform and submit the product to the Court without review.” Benjamin, 779 F. Supp. 3d
+
+at 349. Lawyers in the State of Connecticut carry a duty to “provide competent representation
+
+to a client,” Conn. R. of Professional Conduct 1.1. “Competent representation requires the
+
+legal knowledge, skill, thoroughness and preparation reasonably necessary for the
+
+representation.” Id. By utilizing AI for a task that he should have undertaken on his own,
+
+Attorney Miller did not live up to this duty and violated the Connecticut Rules of Professional
+
+Conduct, the authority of which this Court has recognized. See D. Conn. L. Civ. R. 83.2(a).
+
+
+
+
+                                               13
+        Case 3:26-cv-00250-VDO           Document 43       Filed 08/04/26      Page 14 of 20
+
+
+
+
+          Additionally, Attorney Miller’s use of unverified AI has unnecessarily consumed the
+
+Court’s limited resources. Before discovering the deficiencies in counsel’s filings, the Court
+
+had undertaken a thorough review of Defendants’ Motion to Exclude Extrinsic Evidence and
+
+was in the process of drafting an order resolving that motion. In the course of reviewing the
+
+briefing in preparation for drafting its opinion—which relied, in part, on authorities cited by
+
+defense counsel—the Court identified indications that certain citations had been generated by
+
+unverified AI. This discovery caused the Court to question the reliability of Defendant’ other
+
+pending filings, including the Motion to Dismiss. Upon further review, the Court identified
+
+additional inaccuracies in that motion as well. As a result, the Court was required to suspend
+
+its work on the merits of the pending motions and instead expend additional judicial resources
+
+investigating the issue, preparing an Order to Show Cause, conducting a hearing, and drafting
+
+the present Order. These unnecessary proceedings would have been avoided had counsel
+
+fulfilled his obligation to verify the accuracy and authenticity of the authorities presented to
+
+the Court.
+
+          The circumstances of this case are particularly troubling because Attorney Miller had
+
+explicit notice of the risks associated with submitting unverified AI-generated material to the
+
+Court. The District of Connecticut has adopted a Standing Order that is posted on the docket
+
+of all cases that warns litigants of their obligation to independently verify any AI-generated
+
+content before filing it with the Court. 10 The undersigned has likewise provided additional
+
+
+10
+     See ECF No. 6, Notice to Counsel and Litigants Regarding AI-Assisted Research, which states:
+
+          Attorneys and pro se litigants alike should exercise great caution in submitting any
+          AI-generated language in filings before the Court. Use of AI without verification
+          of the accuracy of the information it generates like any other shoddy research
+
+
+                                                  14
+      Case 3:26-cv-00250-VDO           Document 43        Filed 08/04/26       Page 15 of 20
+
+
+
+
+guidance emphasizing that counsel remain responsible for the accuracy of all representations
+
+made to the Court, regardless of whether artificial intelligence tools are used in their
+
+preparation. 11 Thus, this was not a case in which counsel encountered an issue arising in an
+
+unsettled area without guidance; rather, Attorney Miller failed to comply with obligations that
+
+had been expressly brought to the attention of litigants appearing before this Court. This
+
+heightened notice makes his failure to verify the authorities submitted in his filings all the more
+
+significant.
+
+       B.      Imposition of Sanctions
+
+       “A sanction imposed under [Rule 11] must be limited to what suffices to deter repetition
+
+of the conduct or comparable conduct by others similarly situated.” Fed. R. Civ. P. 11(c)(4).
+
+A court has available a variety of possible sanctions to impose for Rule 11 violations,
+
+including, but not limited to, “nonmonetary directives; an order to pay a penalty into court; or,
+
+if imposed on motion and warranted for effective deterrence, an order directing payment to the
+
+movant of part or all of the reasonable attorney’s fees and other expenses directly resulting
+
+
+
+       method from other sources or tools implicates Federal Rule of Civil Procedure 11,
+       the central purpose of which is to deter baseless filings in district court and thus to
+       streamline the administration and procedure of the federal courts. Rule 11 applies
+       fully to actions filed by pro se litigants.
+
+       Therefore, all parties are on notice that the Court has a no-tolerance policy for any
+       briefing (AI-assisted or not) that hallucinates legal propositions or otherwise
+       severely misstates the law. Such filings will often result in sanctions absent
+       reasonable excuse. See generally Willis v. U.S. Bank Nat'l Ass'n et al, No. 3:25-CV-
+       516-BN, 2025 WL 1408897 (N.D. Tex. May 15, 2025).
+
+11
+      See   Pretrial    Preferences     of   Judge     Vernon      D.    Oliver,    available at
+https://www.ctd.uscourts.gov/content/vernon-d-oliver (warning litigants that “AI . . . presents
+risks: Namely, ‘hallucinated’ cases or otherwise patently incorrect statements of law).
+
+
+                                                 15
+      Case 3:26-cv-00250-VDO          Document 43       Filed 08/04/26     Page 16 of 20
+
+
+
+
+from the violation.” Id. A court could also “strik[e] the offending paper” and “issu[e] an
+
+admonition.” Fed. R. Civ. P. 11, advisory committee’s note to 1993 Amendments. Relatedly,
+
+pursuant to the Local Rules of the District of Connecticut, “[w]hen any misconduct or
+
+allegation of misconduct which would warrant discipline of any attorney admitted to practice
+
+before this Court comes to the attention of any Judge of this Court, the Judge may refer the
+
+matter to the Grievance Committee for the initiation of a presentment or the formulation of
+
+such other recommendation as may be appropriate.” D. Conn. L. Civ. R. 83(d)(4).
+
+       Courts across the country have issued a variety of sanctions against attorneys who
+
+engaged in the use of unverified AI. Monetary sanctions, in most cases, have ranged from
+
+$1,500 to $15,000. See, e.g., Mid Cent. Operating Eng’rs Health & Welfare Fund v.
+
+HoosierVac LLC, No. 24-CV-326, 2025 WL 574234, at *2–3 (S.D. Ind. Feb. 21, 2025), R&R
+
+adopted as modified, 2025 WL 1511211 (S.D. Ind. May 28, 2025) (recommending $15,000
+
+fine for filing a brief with a non-existent citation); Mata, 678 F. Supp. 3d at 466 ($5,000 fine
+
+for citing fake cases and then submitting AI-generated fake excerpts from the fake cases);
+
+Wadsworth v. Walmart Inc., 348 F.R.D. 489, 499 (D. Wyo. 2025) ($3,000 fine for the drafter
+
+of the brief with fake cases and $1,000 for other attorneys who signed, but did not draft brief);
+
+McCormick v. Texakoma Financial Inc., 25-CV-773, 2026 WL 1746259, at *9 (E.D. Tex. June
+
+11, 2026) ($5,000 fine where attorney’s filing contained fake cases); Landberg v. City of New
+
+York, No. 2025-02380, 2026 WL 1792016, at *7 (N.Y. App. Div. June 23, 2026) (imposing
+
+$8,000 sanction for attorney who cited fake cases and initially denied use of AI, and $2,500
+
+for his law firm).
+
+       Numerous courts have admonished or reprimanded offending attorneys. See, e.g.,
+
+McCormick, 2026 WL 1746259, at *9. Other courts have referred matters to the chief judge
+
+                                               16
+     Case 3:26-cv-00250-VDO          Document 43       Filed 08/04/26    Page 17 of 20
+
+
+
+
+for further disciplinary proceedings, see, e.g., Mid Cent., 2025 WL 574234, at *5, or referred
+
+attorneys to applicable state disciplinary authorities for review. See, e.g., Mezu v. Mezu, 267
+
+Md. App. 354, 374 (2025). In addition to monetary sanctions (which are imposed in the vast
+
+majority of cases), admonitions, and referrals, courts have imposed more targeted sanctions
+
+given the circumstances by, for example, revoking the pro hac vice admission of an attorney,
+
+Wadsworth, 348 F.R.D. at 497–98, or requiring the attorney attend CLE trainings regarding
+
+the use of AI. Gauthier v. Goodyear Tire & Rubber Co., No. 23-CV-281, 2024 WL 4882651,
+
+at *3 (E.D. Tex. Nov. 25, 2024). In one case, the U.S. District Court for the Western District
+
+of North Carolina ordered an offending attorney to write a law review article about the dangers
+
+and pitfalls of AI based on his own offending conduct. Doe v. Univ. of N.C. Sys., No. 23-CV-
+
+41, ECF No. 227 (E.D.N.C. June 16, 2026).
+
+       In imposing sanctions, the Court has considered the particular circumstances of this
+
+case and recognizes that the cases discussed above involve a range of conduct warranting
+
+different forms and levels of sanctions. On the one hand, the Court acknowledges that Attorney
+
+Miller’s misconduct, while serious, differs in certain respects from the conduct addressed in
+
+many of those cases. For example, although Attorney Miller relied on hallucinated quotations,
+
+erroneous citations, and unsupported legal propositions, he did not submit entirely fabricated
+
+cases or authorities that did not exist, as occurred in many of the cases discussed above.
+
+Additionally, unlike some attorneys sanctioned in other matters, Attorney Miller did not
+
+attempt to evade responsibility after the Court raised concerns regarding his filings. Instead,
+
+he promptly acknowledged his errors, accepted responsibility, and proposed remedial
+
+measures.
+
+
+
+
+                                              17
+      Case 3:26-cv-00250-VDO          Document 43       Filed 08/04/26       Page 18 of 20
+
+
+
+
+       On the other hand, Attorney Miller’s conduct nonetheless warrants a meaningful
+
+sanction. He violated Rule 11 by submitting filings containing legal authorities that he had not
+
+verified, failed to satisfy his professional obligation to provide competent representation to his
+
+clients, and caused the unnecessary expenditure of judicial resources. These concerns are
+
+further heightened by the fact that Attorney Miller had received advance notice regarding the
+
+risks associated with the use of artificial intelligence in legal filings. The Court’s Standing
+
+Order Regarding the Use of Artificial Intelligence and the undersigned’s express warning for
+
+attorneys to exercise caution and independent judgment when utilizing AI tools provided clear
+
+guidance that AI-generated material must be carefully reviewed and verified before
+
+submission.
+
+       Balancing these considerations, the Court concludes that a monetary sanction of
+
+$3,500, together with a referral of this matter to the Grievance Committee pursuant to Local
+
+Rule 83(c)(2), is appropriate. This sanction is sufficient to underscore the seriousness of
+
+Attorney Miller’s conduct, deter similar conduct in the future, and reinforce counsel’s
+
+obligation to independently verify all authorities submitted to the Court.
+
+       Additionally, based on Attorney Miller’s representation that he will withdraw the
+
+pending Motion to Exclude Extrinsic Evidence, the Court construes that representation as a
+
+motion for withdrawal and hereby grants it. The Motion to Exclude Extrinsic Evidence at ECF
+
+No. 28 is therefore withdrawn. Further, because the sanctions imposed herein arise from
+
+counsel’s conduct rather than any action by Defendants, and to avoid prejudicing Defendants,
+
+the Court terminates the Motion to Dismiss at ECF No. 24 and grants Defendants leave to
+
+file a corrected Motion to Dismiss.
+
+
+
+
+                                               18
+        Case 3:26-cv-00250-VDO        Document 43       Filed 08/04/26   Page 19 of 20
+
+
+
+
+         Lastly, despite Attorney Miller’s representation that he is “prepared, personally, to
+
+reimburse plaintiffs for reasonable attorneys’ fees and expenses caused by the need to respond
+
+again to corrected briefing,” 12 the Court declines to order him to do so. As noted above, Rule
+
+11 permits a court to impose “an order directing payment to the movant of part or all of the
+
+reasonable attorney's fees and other expenses directly resulting from the violation.” Fed. R.
+
+Civ. P. 11(c)(4). However, such a sanction may be imposed only upon motion. See id. Because
+
+the sanctions imposed herein arise from the Court’s sua sponte issuance of an Order to Show
+
+Cause, rather than a motion brought by Plaintiffs, the Court will not direct Attorney Miller to
+
+reimburse Plaintiffs for their attorneys’ fees or expenses. Indeed, the substantial resources
+
+expended in this matter were largely incurred by the Court itself, which identified the AI-
+
+related deficiencies, prepared the Order to Show Cause, conducted the resulting hearing, and
+
+drafted this Order without the benefit of adversarial briefing.
+
+IV.      CONCLUSION
+
+         For the foregoing reasons, the Court concludes that Attorney Miller’s submission of
+
+unverified AI-generated legal authorities warrants sanctions under Rule 11 and, accordingly,
+
+imposes a $3,500 monetary sanction and refers this matter to the Grievance Committee
+
+pursuant to Local Rule 83(c)(2). Attorney Miller should deposit the monetary sanction with
+
+the Clerk of Court on or before August 14, 2026.
+
+         Additionally, the Motion to Exclude Extrinsic Evidence at ECF No. 28 is withdrawn,
+
+and the Motion to Dismiss at ECF No. 24 is terminated. The Court grants Defendants leave
+
+to file a corrected Motion to Dismiss on or before August 14, 2026. Plaintiffs may file a
+
+
+
+12
+     ECF No. 36 ¶ 11.
+
+
+                                               19
+      Case 3:26-cv-00250-VDO         Document 43       Filed 08/04/26     Page 20 of 20
+
+
+
+
+response on or before September 4, 2026, and Defendants may file a reply on or before
+
+September 18, 2026. Each case, statute, or other legal authority cited by Defendants in any
+
+future filing—including the anticipated corrected Motion to Dismiss and the reply thereto—
+
+shall include a hyperlink to the corresponding Westlaw or Lexis entry for that authority.
+
+       “The Court will not tolerate pleadings riddled with hallucinated citations masquerading
+
+as legitimate legal authority.” Hanson v. Nest Home Lending, LLC, No. 25-CV-2599, 2025
+
+WL 2959293, at *3 (D. Colo. Oct. 17, 2025). “This conduct undermines the integrity of the
+
+judicial process and disrespects and wastes the Court's and parties’ time and resources.” Id.
+
+The Court emphasizes that the use of artificial intelligence does not diminish counsel’s
+
+fundamental obligations to exercise independent professional judgment, verify legal
+
+authorities, and ensure that every representation made to the Court is accurate, and trusts that
+
+the sanctions imposed herein will serve to deter similar conduct by counsel appearing before
+
+this Court.
+
+
+                                                   SO ORDERED.
+
+
+Hartford, Connecticut
+August 4, 2026
+
+                                                   /s/Vernon D. Oliver
+                                                   VERNON D. OLIVER
+                                                   United States District Judge
+
+
+
+
+                                              20
+

@@ -1,0 +1,14 @@
+{
+  "id": "16657d1215744b8a895aa863fd579030",
+  "url": "https://eeoc.gov/robots.txt",
+  "kind": "robots",
+  "host": "eeoc.gov",
+  "status": null,
+  "headers": {},
+  "complete": false,
+  "error": "[Errno -3] Temporary failure in name resolution",
+  "retrieved_at": "2026-10-03T03:01:50.067916+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/16657d1215744b8a895aa863fd579030.body"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "537f230f4c5e44b484b71cbbefc63951",
+  "url": "https://www.michigan.gov/robots.txt",
+  "kind": "robots",
+  "host": "www.michigan.gov",
+  "status": 200,
+  "headers": {
+    "content-type": "text/plain; charset=utf-8",
+    "access-control-allow-methods": "GET, OPTIONS",
+    "request-context": "appId=cid-v1:40d344b9-956b-43e4-81f1-b051926eac28",
+    "content-security-policy": "frame-ancestors 'self'",
+    "x-frame-options": "SAMEORIGIN",
+    "vary": "Accept-Encoding",
+    "date": "Sat, 03 Oct 2026 18:37:40 GMT",
+    "content-length": "7013",
+    "alt-svc": "h3=\":443\"; ma=93600",
+    "x-envoy-upstream-service-time": "54",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:40.658954+00:00",
+  "sha256": "cc23e2cfd99a1ac09421fb3ead0b5bbc29b932196f2152803fda11b0bc2a7a1d",
+  "bytes": 7013,
+  "body_path": "/workspace/freshness-control/transport-evidence/537f230f4c5e44b484b71cbbefc63951.body",
+  "cached": true,
+  "body_evidence_copy": "_codex-out/sources/transport-resume/537f230f4c5e44b484b71cbbefc63951.body"
+}

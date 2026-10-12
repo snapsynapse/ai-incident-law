@@ -1,0 +1,23 @@
+{
+  "id": "6b6a27a02e634185b9e0df51d53fa2ee",
+  "url": "https://democracynow.org/2023/8/9/porcha_woodruff_false_facial_recognition_arrest",
+  "kind": "fetch",
+  "host": "democracynow.org",
+  "status": 301,
+  "headers": {
+    "server": "envoy",
+    "date": "Sat, 03 Oct 2026 18:37:39 GMT",
+    "content-type": "text/html",
+    "content-length": "162",
+    "location": "https://www.democracynow.org/2023/8/9/porcha_woodruff_false_facial_recognition_arrest",
+    "x-envoy-upstream-service-time": "147",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:39.165870+00:00",
+  "sha256": "9e17cb15dd75bbbd5dbb984eda674863c3b10ab72613cf8a39a00c3e11a8492a",
+  "bytes": 162,
+  "body_path": "/workspace/freshness-control/transport-evidence/6b6a27a02e634185b9e0df51d53fa2ee.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/6b6a27a02e634185b9e0df51d53fa2ee.body"
+}

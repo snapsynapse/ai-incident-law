@@ -1,0 +1,135 @@
+User-agent: gsa-crawler
+Disallow: /mobile/
+Disallow: /comments/
+Disallow: /mobile/comments/
+Disallow: /report_abuse/
+Disallow: /admin_tools/
+Disallow: /aba07journ/
+Disallow: /mobile/search_results/
+Disallow: /abajournal_utility_library/
+
+User-agent: gsa-crawler-aba
+Disallow: /mobile/
+Disallow: /comments/
+Disallow: /mobile/comments/
+Disallow: /report_abuse/
+Disallow: /admin_tools/
+Disallow: /aba07journ/
+Disallow: /mobile/search_results/
+Disallow: /abajournal_utility_library/
+
+User-agent: EC2LinkFinder
+Disallow: /
+
+## DEFAULT RULES
+User-agent: *
+Crawl-delay: 10
+Disallow: /mobile/
+Disallow: /staging/
+Disallow: /staging/west/
+Disallow: /aba07journ/
+Disallow: /newsletter/
+Disallow: /newsletter_new/
+Disallow: /.src/
+Disallow: /.img/
+Disallow: /test/
+Disallow: /weekly/
+Disallow: /inc-popular-today/
+Disallow: /member/
+Disallow: /files/
+Disallow: /test/
+Disallow: /themes/
+Disallow: /news/kindlefeed/
+Disallow: /mag_full_treatment_test/
+Disallow: /iphone/
+Disallow: /ipad/
+Disallow: /admin/
+Disallow: /report_abuse/
+Disallow: /comments/
+Disallow: /mobile/comments/
+Disallow: /mobile/search_results/
+Disallow: /legalrebelsprofiles/
+Disallow: /legalrebelsconnected/
+Disallow: /legalrebelsmanifesto/
+Disallow: /legalrebelsposts/
+Disallow: /legalrebels2009/
+Disallow: /legalrebelsresources/
+Disallow: /admin_tools/
+Disallow: /login/
+Disallow: /abajournal_utility_library/
+
+
+## ===================================================================
+## AI ANSWER ENGINES  (added 2026-07 for AEO / Answer Engine Optimization)
+## -------------------------------------------------------------------
+## Goal: let AI assistants that CITE and link back index our editorial
+## content freely (no crawl-delay), while keeping private/system paths
+## closed. Site map for LLMs lives at /llms.txt.
+##
+## NOTE: named user-agents below are matched instead of "*", so these
+## crawlers do NOT inherit the Crawl-delay: 10 above.
+## ===================================================================
+
+## --- Search & citation crawlers: ALLOWED (they drive referrals + citations) ---
+## OpenAI - ChatGPT search index + user-initiated browsing
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+## Anthropic - Claude search + user-initiated browsing
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+## Perplexity - answer citations + user-initiated fetch
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+Disallow: /mobile/
+Disallow: /member/
+Disallow: /files/
+Disallow: /login/
+Disallow: /admin/
+Disallow: /admin_tools/
+Disallow: /comments/
+Disallow: /report_abuse/
+Disallow: /newsletter/
+Disallow: /newsletter_new/
+Disallow: /staging/
+Disallow: /test/
+Disallow: /aba07journ/
+Disallow: /abajournal_utility_library/
+
+## --- Model-training crawlers: DECISION REQUIRED (shipped default = ALLOW) ---
+## These crawlers gather content primarily to TRAIN models rather than to
+## cite/link back. Whether to feed them ABA Journal's original journalism is
+## an editorial / IP call for ABA, not a purely technical one. As shipped they
+## get the same access as the citation crawlers above.
+##
+## Google-Extended and Applebot-Extended ONLY affect model training; blocking
+## them does NOT reduce Search or AI Overview visibility, so they are the
+## lowest-risk to opt out of first.
+##
+## To OPT OUT of AI training entirely, replace this group's rules with:  Disallow: /
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: Bytespider
+User-agent: meta-externalagent
+Disallow: /mobile/
+Disallow: /member/
+Disallow: /files/
+Disallow: /login/
+Disallow: /admin/
+Disallow: /admin_tools/
+Disallow: /newsletter/
+Disallow: /newsletter_new/
+Disallow: /staging/
+Disallow: /test/
+Disallow: /aba07journ/
+Disallow: /abajournal_utility_library/
+
+
+
+
+
+
+## XML sitemap index (standard sitemaps + Google News) - added 2026-07 (ABA-348)
+Sitemap: https://www.abajournal.com/sitemap

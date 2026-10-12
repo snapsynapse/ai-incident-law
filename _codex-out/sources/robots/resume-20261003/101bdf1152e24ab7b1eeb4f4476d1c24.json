@@ -1,0 +1,30 @@
+{
+  "id": "101bdf1152e24ab7b1eeb4f4476d1c24",
+  "url": "https://hcamag.com/robots.txt",
+  "kind": "robots",
+  "host": "hcamag.com",
+  "status": 308,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:33 GMT",
+    "content-length": "0",
+    "location": "https://www.hcamag.com/robots.txt",
+    "server": "envoy",
+    "vary": "accept-encoding",
+    "request-context": "appId=cid-v1:c7ed3d8c-367b-415a-9991-6176ad182b01",
+    "x-powered-by": "ASP.NET",
+    "set-cookie": "[REDACTED]",
+    "cf-cache-status": "BYPASS",
+    "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "cf-ray": "a44e0f09eee9cc6e-ORD",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "x-envoy-upstream-service-time": "89",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:32.943942+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/101bdf1152e24ab7b1eeb4f4476d1c24.body"
+}

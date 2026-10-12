@@ -1,0 +1,45 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://dockets.justia.com/docket/texas/txsdce/4:2024cv00801/1952110",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "0ad042aadca54c8bac8a7ee332d45766",
+      "url": "https://dockets.justia.com/robots.txt",
+      "kind": "robots",
+      "host": "dockets.justia.com",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T03:03:47.674898+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/0ad042aadca54c8bac8a7ee332d45766.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:03:47.700459+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://dockets.justia.com/docket/texas/txsdce/4:2024cv00801/1952110",
+  "prior_route_attempts": [
+    {
+      "id": "98a8fa6ea2f2498bb930ed005e27e266",
+      "url": "https://dockets.justia.com/robots.txt",
+      "kind": "robots",
+      "host": "dockets.justia.com",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "retrieved_at": "2026-10-03T03:01:50.064776+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/98a8fa6ea2f2498bb930ed005e27e266.body"
+    }
+  ],
+  "prior_route_error": "BLOCKED: robots transport failed; policy unknown",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/c6725e5a7d9df0ee2a1c05fd.body"
+}

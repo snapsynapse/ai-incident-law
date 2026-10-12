@@ -1,0 +1,13 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://cbsnews.com/news/facial-recognition-mistaken-identity-sunglass-hut-robber-harvey-eugene-murphy-suing-after-sexually-assaulted-jail/",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [],
+  "retrieved_at": "2026-10-03T03:03:47.835078+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://cbsnews.com/news/facial-recognition-mistaken-identity-sunglass-hut-robber-harvey-eugene-murphy-suing-after-sexually-assaulted-jail/",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/aad035d51134f4a2dfc59272.body"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "bca291e1fb9d4cf497ad94d2abc0ef3c",
+  "url": "https://www.courtlistener.com/robots.txt",
+  "kind": "robots",
+  "host": "www.courtlistener.com",
+  "status": 403,
+  "headers": {
+    "server": "envoy",
+    "date": "Sat, 03 Oct 2026 18:37:45 GMT",
+    "content-type": "text/html",
+    "content-length": "919",
+    "x-cache": "Error from cloudfront",
+    "via": "1.1 a7bc8344485537068a2a5c5b0897102c.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "ORD51-P2",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "x-amz-cf-id": "0LgQwZbYEXtADFSNd0l8Mnnv6xr7J8gQyJRGKYY-LXxJT1r76iXwgw==",
+    "x-envoy-upstream-service-time": "46",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:45.524749+00:00",
+  "sha256": "f5bcefb13a791ba4a8aa8328fd8d533042a4bf09f6447a1878fc8f4aabe5b7d2",
+  "bytes": 919,
+  "body_path": "/workspace/freshness-control/transport-evidence/bca291e1fb9d4cf497ad94d2abc0ef3c.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/bca291e1fb9d4cf497ad94d2abc0ef3c.body"
+}

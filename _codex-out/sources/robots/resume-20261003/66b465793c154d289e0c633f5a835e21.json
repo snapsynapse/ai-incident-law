@@ -1,0 +1,23 @@
+{
+  "id": "66b465793c154d289e0c633f5a835e21",
+  "url": "https://www.asbca.mil/robots.txt",
+  "kind": "robots",
+  "host": "www.asbca.mil",
+  "status": 403,
+  "headers": {
+    "server": "envoy",
+    "content-type": "text/html",
+    "content-length": "381",
+    "expires": "Sat, 03 Oct 2026 18:37:44 GMT",
+    "date": "Sat, 03 Oct 2026 18:37:44 GMT",
+    "strict-transport-security": "max-age=31536000",
+    "x-envoy-upstream-service-time": "53",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:44.413743+00:00",
+  "sha256": "4f4aa91295b7e640e14d4244157da092d12c38defd7a4e0581c4926fe304313a",
+  "bytes": 381,
+  "body_path": "/workspace/freshness-control/transport-evidence/66b465793c154d289e0c633f5a835e21.body"
+}

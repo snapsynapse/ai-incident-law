@@ -1,0 +1,101 @@
+{
+  "status": 200,
+  "headers": {
+    "x-content-type-options": "nosniff",
+    "last-modified": "Sat, 03 Oct 2026 18:37:49 GMT",
+    "core-api-cache-key": "2f8d11f7-fd79-438e-bf6d-1bd074627cfa a3339413-577e-4ca6-a2ec-ca483c796da9",
+    "link": "<https://assets1.cbsnewsstatic.com>; rel=\"preconnect\", <https://assets2.cbsnewsstatic.com>; rel=\"preconnect\", <https://assets3.cbsnewsstatic.com>; rel=\"preconnect\", </fly/bundles/cbsnewscontent/fonts/ProximaNova-Regular/ProximaNova-Regular.woff2>; rel=\"preload\"; as=\"font\"; crossorigin, </fly/bundles/cbsnewscontent/fonts/ProximaNova-Bold/ProximaNova-Bold.woff2>; rel=\"preload\"; as=\"font\"; crossorigin, </fly/bundles/cbsnewscontent/fonts/PublicoHeadline-Bold/PublicoHeadline-Bold.woff2>; rel=\"preload\"; as=\"font\"; crossorigin, </fly/bundles/cbsnewscontent/fonts/PublicoHeadline-Black/PublicoHeadline-Black.woff2>; rel=\"preload\"; as=\"font\"; crossorigin, </fly/bundles/cbsnewscontent/fonts/PublicoText/PublicoText.woff2>; rel=\"preload\"; as=\"font\"; crossorigin, </fly/bundles/cbsnewscontent/css/articleV2.min.css?v=07783f604e42ee36976f687d52f18663>; rel=\"preload\"; as=\"style\", </fly/bundles/cbsnewscontent/fonts/TTNorms/TTNormsProSerif_TTNormsProSerif_normal_normal_400.woff2>; rel=\"preload\"; as=\"font\"; crossorigin, </fly/bundles/cbsnewscontent/fonts/TTNorms/TTNormsProSerif_TTNormsProSerif_italic_normal_400.woff2>; rel=\"preload\"; as=\"font\"; crossorigin, </fly/bundles/cbsnewscontent/fonts/TTNorms/TTNormsProSerif_TTNormsProSerif_normal_normal_700.woff2>; rel=\"preload\"; as=\"font\"; crossorigin, </fly/bundles/cbsnewscontent/fonts/TTNorms/TTNormsProNormal_normal_normal.woff2>; rel=\"preload\"; as=\"font\"; crossorigin, </fly/bundles/cbsnewscontent/fonts/TTNorms/TTNormsProNormItalic_italic_normal.woff2>; rel=\"preload\"; as=\"font\"; crossorigin, </fly/bundles/cbsnewscontent/fonts/TTNorms/TTNormsProBold_normal_normal.woff2>; rel=\"preload\"; as=\"font\"; crossorigin, </fly/bundles/cbsnewscontent/css/responsiveV2.min.css?v=07783f604e42ee36976f687d52f18663>; rel=\"preload\"; as=\"style\", <https://www.cbsnews.com/fly/bundles/cbsnewscore/js-build/main.js?v=07783f604e42ee36976f687d52f18663>; rel=\"preload\"; as=\"script\", <https://www.cbsnews.com/fly/bundles/cbsnewscore/js-build/main.responsive.js?v=07783f604e42ee36976f687d52f18663>; rel=\"preload\"; as=\"script\"",
+    "x-xss-protection": "1; mode=block",
+    "cache-control": "max-age=14400, public",
+    "content-type": "text/html; charset=UTF-8",
+    "set-cookie": "[REDACTED]",
+    "via": "1.1 varnish, 1.1 varnish",
+    "x-device": "desktop",
+    "x-edge-forwarded-proto": "https",
+    "accept-ranges": "bytes",
+    "age": "0",
+    "date": "Sat, 03 Oct 2026 18:37:50 GMT",
+    "vary": "Accept-Encoding, X-Geo-GDPR, X-Device, X-Edge-Forwarded-Proto,Origin, X-Device, X-Edge-Forwarded-Proto,Origin",
+    "fastly-restarts": "0",
+    "content-length": "627715",
+    "x-envoy-upstream-service-time": "940",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "finalUrl": "https://www.cbsnews.com/news/facial-recognition-mistaken-identity-sunglass-hut-robber-harvey-eugene-murphy-suing-after-sexually-assaulted-jail/",
+  "complete": true,
+  "redirects": [
+    {
+      "from": "https://cbsnews.com/news/facial-recognition-mistaken-identity-sunglass-hut-robber-harvey-eugene-murphy-suing-after-sexually-assaulted-jail/",
+      "to": "https://www.cbsnews.com/news/facial-recognition-mistaken-identity-sunglass-hut-robber-harvey-eugene-murphy-suing-after-sexually-assaulted-jail/",
+      "status": 301
+    }
+  ],
+  "error": null,
+  "attempts": [
+    {
+      "id": "64fb30c7362a46588dbacc7138eda401",
+      "url": "https://cbsnews.com/news/facial-recognition-mistaken-identity-sunglass-hut-robber-harvey-eugene-murphy-suing-after-sexually-assaulted-jail/",
+      "kind": "fetch",
+      "host": "cbsnews.com",
+      "status": 301,
+      "headers": {
+        "retry-after": "0",
+        "location": "https://www.cbsnews.com/news/facial-recognition-mistaken-identity-sunglass-hut-robber-harvey-eugene-murphy-suing-after-sexually-assaulted-jail/",
+        "accept-ranges": "bytes",
+        "date": "Sat, 03 Oct 2026 18:37:49 GMT",
+        "via": "1.1 varnish",
+        "fastly-restarts": "0",
+        "content-length": "0",
+        "x-envoy-upstream-service-time": "7",
+        "server": "envoy",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:48.944900+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/64fb30c7362a46588dbacc7138eda401.body"
+    },
+    {
+      "id": "646d58465516497bb813935f662096f0",
+      "url": "https://www.cbsnews.com/news/facial-recognition-mistaken-identity-sunglass-hut-robber-harvey-eugene-murphy-suing-after-sexually-assaulted-jail/",
+      "kind": "fetch",
+      "host": "www.cbsnews.com",
+      "status": 200,
+      "headers": {
+        "x-content-type-options": "nosniff",
+        "last-modified": "Sat, 03 Oct 2026 18:37:49 GMT",
+        "core-api-cache-key": "2f8d11f7-fd79-438e-bf6d-1bd074627cfa a3339413-577e-4ca6-a2ec-ca483c796da9",
+        "link": "<https://assets1.cbsnewsstatic.com>; rel=\"preconnect\", <https://assets2.cbsnewsstatic.com>; rel=\"preconnect\", <https://assets3.cbsnewsstatic.com>; rel=\"preconnect\", </fly/bundles/cbsnewscontent/fonts/ProximaNova-Regular/ProximaNova-Regular.woff2>; rel=\"preload\"; as=\"font\"; crossorigin, </fly/bundles/cbsnewscontent/fonts/ProximaNova-Bold/ProximaNova-Bold.woff2>; rel=\"preload\"; as=\"font\"; crossorigin, </fly/bundles/cbsnewscontent/fonts/PublicoHeadline-Bold/PublicoHeadline-Bold.woff2>; rel=\"preload\"; as=\"font\"; crossorigin, </fly/bundles/cbsnewscontent/fonts/PublicoHeadline-Black/PublicoHeadline-Black.woff2>; rel=\"preload\"; as=\"font\"; crossorigin, </fly/bundles/cbsnewscontent/fonts/PublicoText/PublicoText.woff2>; rel=\"preload\"; as=\"font\"; crossorigin, </fly/bundles/cbsnewscontent/css/articleV2.min.css?v=07783f604e42ee36976f687d52f18663>; rel=\"preload\"; as=\"style\", </fly/bundles/cbsnewscontent/fonts/TTNorms/TTNormsProSerif_TTNormsProSerif_normal_normal_400.woff2>; rel=\"preload\"; as=\"font\"; crossorigin, </fly/bundles/cbsnewscontent/fonts/TTNorms/TTNormsProSerif_TTNormsProSerif_italic_normal_400.woff2>; rel=\"preload\"; as=\"font\"; crossorigin, </fly/bundles/cbsnewscontent/fonts/TTNorms/TTNormsProSerif_TTNormsProSerif_normal_normal_700.woff2>; rel=\"preload\"; as=\"font\"; crossorigin, </fly/bundles/cbsnewscontent/fonts/TTNorms/TTNormsProNormal_normal_normal.woff2>; rel=\"preload\"; as=\"font\"; crossorigin, </fly/bundles/cbsnewscontent/fonts/TTNorms/TTNormsProNormItalic_italic_normal.woff2>; rel=\"preload\"; as=\"font\"; crossorigin, </fly/bundles/cbsnewscontent/fonts/TTNorms/TTNormsProBold_normal_normal.woff2>; rel=\"preload\"; as=\"font\"; crossorigin, </fly/bundles/cbsnewscontent/css/responsiveV2.min.css?v=07783f604e42ee36976f687d52f18663>; rel=\"preload\"; as=\"style\", <https://www.cbsnews.com/fly/bundles/cbsnewscore/js-build/main.js?v=07783f604e42ee36976f687d52f18663>; rel=\"preload\"; as=\"script\", <https://www.cbsnews.com/fly/bundles/cbsnewscore/js-build/main.responsive.js?v=07783f604e42ee36976f687d52f18663>; rel=\"preload\"; as=\"script\"",
+        "x-xss-protection": "1; mode=block",
+        "cache-control": "max-age=14400, public",
+        "content-type": "text/html; charset=UTF-8",
+        "set-cookie": "[REDACTED]",
+        "via": "1.1 varnish, 1.1 varnish",
+        "x-device": "desktop",
+        "x-edge-forwarded-proto": "https",
+        "accept-ranges": "bytes",
+        "age": "0",
+        "date": "Sat, 03 Oct 2026 18:37:50 GMT",
+        "vary": "Accept-Encoding, X-Geo-GDPR, X-Device, X-Edge-Forwarded-Proto,Origin, X-Device, X-Edge-Forwarded-Proto,Origin",
+        "fastly-restarts": "0",
+        "content-length": "627715",
+        "x-envoy-upstream-service-time": "940",
+        "server": "envoy",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:49.041531+00:00",
+      "sha256": "ed640b7da0deef940761262a1c9cba4fbe46d714819c8f89f322eb3f14565fe7",
+      "bytes": 627715,
+      "body_path": "/workspace/freshness-control/transport-evidence/646d58465516497bb813935f662096f0.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T18:37:49.041531+00:00",
+  "sha256": "ed640b7da0deef940761262a1c9cba4fbe46d714819c8f89f322eb3f14565fe7",
+  "requested_url": "https://cbsnews.com/news/facial-recognition-mistaken-identity-sunglass-hut-robber-harvey-eugene-murphy-suing-after-sexually-assaulted-jail/",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/resume-20261003/aad035d51134f4a2dfc59272.body"
+}

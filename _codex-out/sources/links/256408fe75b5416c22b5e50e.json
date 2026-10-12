@@ -1,0 +1,45 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://eeoc.gov/newsroom/itutorgroup-pay-365000-settle-eeoc-discriminatory-hiring-suit",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "bc457dce8d514d938b0d347be102ecf9",
+      "url": "https://eeoc.gov/robots.txt",
+      "kind": "robots",
+      "host": "eeoc.gov",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T03:03:47.678106+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/bc457dce8d514d938b0d347be102ecf9.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:03:47.701974+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://eeoc.gov/newsroom/itutorgroup-pay-365000-settle-eeoc-discriminatory-hiring-suit",
+  "prior_route_attempts": [
+    {
+      "id": "16657d1215744b8a895aa863fd579030",
+      "url": "https://eeoc.gov/robots.txt",
+      "kind": "robots",
+      "host": "eeoc.gov",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "retrieved_at": "2026-10-03T03:01:50.067916+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/16657d1215744b8a895aa863fd579030.body"
+    }
+  ],
+  "prior_route_error": "BLOCKED: robots transport failed; policy unknown",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/256408fe75b5416c22b5e50e.body"
+}

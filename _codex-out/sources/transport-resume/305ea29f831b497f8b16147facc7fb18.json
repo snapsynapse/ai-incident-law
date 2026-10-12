@@ -1,0 +1,24 @@
+{
+  "id": "305ea29f831b497f8b16147facc7fb18",
+  "url": "https://www.dentons.com/robots.txt",
+  "kind": "robots",
+  "host": "www.dentons.com",
+  "status": 403,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:30 GMT",
+    "content-type": "text/html",
+    "content-length": "102",
+    "x-azure-ref": "20261003T183730Z-1745795bb748d4cxhC1CHI4phg0000000ezg000000000dmx",
+    "x-cache": "CONFIG_NOCACHE",
+    "x-envoy-upstream-service-time": "84",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:30.364373+00:00",
+  "sha256": "349320e90d3bfc083b73b29dc4977d313d0f7006ef7407436fa568289468404e",
+  "bytes": 102,
+  "body_path": "/workspace/freshness-control/transport-evidence/305ea29f831b497f8b16147facc7fb18.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/305ea29f831b497f8b16147facc7fb18.body"
+}

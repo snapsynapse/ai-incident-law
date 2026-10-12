@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://law.justia.com/cases/michigan/supreme-court/2022/160813.html",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "9df82eaeb193416e812409402722e88a",
+      "url": "https://law.justia.com/robots.txt",
+      "kind": "robots",
+      "host": "law.justia.com",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T03:03:47.735550+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/9df82eaeb193416e812409402722e88a.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:03:47.751743+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://law.justia.com/cases/michigan/supreme-court/2022/160813.html",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/9e8f8991b24a5bcaadb9502a.body"
+}

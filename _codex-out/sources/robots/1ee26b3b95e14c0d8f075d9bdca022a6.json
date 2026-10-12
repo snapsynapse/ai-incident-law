@@ -1,0 +1,14 @@
+{
+  "id": "1ee26b3b95e14c0d8f075d9bdca022a6",
+  "url": "https://tuchtrecht.overheid.nl/robots.txt",
+  "kind": "robots",
+  "host": "tuchtrecht.overheid.nl",
+  "status": null,
+  "headers": {},
+  "complete": false,
+  "error": "Tunnel connection failed: 403 Forbidden",
+  "retrieved_at": "2026-10-03T03:03:47.796354+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/1ee26b3b95e14c0d8f075d9bdca022a6.body"
+}

@@ -1,0 +1,837 @@
+USDC IN/ND case 1:25-cv-00454-HAB-ALT                   document 26         filed 04/01/26   page 1 of 16
+
+
+                                UNITED STATES DISTRICT COURT
+                                NORTHERN DISTRICT OF INDIANA
+                                    FORT WAYNE DIVISION
+
+  JOSEPH MALDONADO,
+
+                   Plaintiff,
+
+                           v.                                 CASE NO. 1:25-CV-454-HAB-ALT
+
+  PROFESSIONAL ANIMAL RETIREMENT
+  CENTER,
+
+                   Defendant.
+
+                                        OPINION AND ORDER
+
+         “Are the animals happy? Who the hell knows?” Certainly not Plaintiff Joseph Maldonado,
+
+ who uttered those words in a 2020 Netflix documentary 1 and who is now suing the wildlife park
+
+ housing some of his former tigers under the citizen suit provision of the Endangered Species Act,
+
+ 16 U.S.C. § 1540(g) (“ESA”). But Maldonado has no connection to these big cats beyond his
+
+ personal history with them, nor has he ever visited the park. And though he claims he has had
+
+ “agents” visit the tigers on his behalf, he himself is federally incarcerated and cannot view them
+
+ in person until his release.
+
+         Maldonado filed his Complaint on August 29, 2025, alleging that Defendant Professional
+
+ Animal Retirement Center (“PARC” or “Black Pine”), a/k/a Black Pine Animal Sanctuary, has
+
+ “wounded,” “harmed,” and “harassed” four tigers formerly owned by Maldonado by (1) having
+
+ them spayed or neutered; (2) forcing them into public observation; and (3) confining them in
+
+ “woefully inadequate enclosures,” all of which Maldonado alleges violate the ESA’s prohibition
+
+ against “taking.” (ECF No. 1). Now before the Court is PARC’s Motion to Dismiss, in which it
+
+
+
+
+ 1 Tiger King: Murder, Mayhem, and Madness: Dethroned (Netflix, released March 20, 2020)
+USDC IN/ND case 1:25-cv-00454-HAB-ALT                          document 26        filed 04/01/26         page 2 of 16
+
+
+ argues Maldonado has no Article III standing to sue under the ESA and thus the Court has no
+
+ subject matter jurisdiction. (ECF No. 11, 12). 2 PARC’s Motion is now fully briefed (ECF Nos. 17,
+
+ 18, 19) 3 and thus ripe for ruling.
+
+          Additionally, the Court issued a Show Cause Order on February 27, 2026 (ECF No. 23)
+
+ ordering Maldonado’s counsel to show good cause, if there be any, for inaccuracies and legal
+
+ misrepresentations presented in Maldonado’s Complaint and briefing. Maldonado’s counsel
+
+ submitted his response on March 27, 2026 (ECF No. 24), accepting responsibility for the
+
+ misrepresentations but emphasizing that these errors were not made in bad faith. This issue is also
+
+ ripe for ruling.
+
+     I.       Factual and Procedural Background
+
+          Plaintiff Joseph Maldonado is known to many through his public personas—“Joe Exotic”
+
+ or the self-proclaimed “Tiger King.” Maldonado is the former owner and operator of the Greater
+
+ Wynnewood Exotic Animal Park in Oklahoma, and he is presently incarcerated at the FMC Fort
+
+ Worth, Texas, with an anticipated release date of March 18, 2036. https://www.bop.gov/inmateloc
+
+ (last accessed February 24, 2026). 4
+
+
+
+ 2
+   PARC’s Brief in Support of its Motion nominally references moving to dismiss under Rule 12(b)(2), but no further
+ reference or argument is made as to lack of personal jurisdiction, so the Court need not address this ground further.
+
+ Additionally, PARC moves to dismiss under Rule 12(b)(4) and 12(b)(5) for insufficient process and service of
+ process due to the process server allegedly leaving the service documents on the doorstep of one of the property’s
+ outbuildings, without personal delivery or delivery through certified mail. See ECF No. 12 at 8–13. Because the
+ Court finds it does not have subject matter jurisdiction over Maldonado’s claims, the insufficient service argument is
+ moot.
+ 3
+  Maldonado moved for leave to file a surreply on November 25, 2025 (ECF No. 19), which the Court granted the
+ following day (ECF No. 20). On December 1, 2025, PARC filed a Motion to Reconsider the grant of the surreply
+ (ECF No. 21), which the Court took under advisement pending the outcome of the motion to dismiss (ECF No. 22).
+ Because the Court dismisses the case for lack of subject matter jurisdiction, PARC’s Motion to Reconsider will be
+ denied as moot.
+ 4
+  Black Pine has also moved the Court to take judicial notice of Maldonado’s Federal Bureau of Prison records,
+ specifically highlighting his anticipated release date. (ECF No. 9). This release date had been noted in the Court’s
+ May 22, 2025 Opinion and Order in Maldonado’s first attempt at this claim. See Maldonado v. Professional Animal
+
+
+                                                           2
+USDC IN/ND case 1:25-cv-00454-HAB-ALT                      document 26       filed 04/01/26       page 3 of 16
+
+
+         While operating Wynnewood, Maldonado bred, owned, and maintained the bloodlines of
+
+ numerous big cats, including four now housed at PARC: Prince, Ima, Elvis, and Patronus. Though
+
+ the tigers are no longer in his care, Maldonado claims he has “deep, profound, specific and concrete
+
+ interests in the welfare and genetic heritage of the Big Cats in question, having bred and maintained
+
+ their bloodlines for more than sixteen years” as part of his own breeding program and in
+
+ partnership with research studies at Texas A&M University. ECF No. 1 at 3–4; see also ECF No.
+
+ 17-1 at 2 (“Between approximately 2004 and 2019, I developed and maintained a controlled
+
+ breeding program designed to preserve genetic diversity within captive tiger populations. Each
+
+ tiger was tracked, microchipped, and logged for inclusion in a research database supporting the
+
+ Tiger Genome Diversity Project at Texas A&M University’s College of Veterinary Medicine.”).
+
+ Though currently incarcerated, he has expressed an interest “in seeing these bloodlines maintained
+
+ and continued for possible further and future research.” (Id.)
+
+         Maldonado alleges in his Complaint that Black Pine is violating the ESA’s “take”
+
+ prohibition for endangered species by “harming,” “harassing,” and “wounding” the tigers. He
+
+ asserts the animals are confined in inadequate enclosures that lack sufficient enrichment and force
+
+ the cats into extended public view. (Id. at 13). According to Maldonado, these conditions cause
+
+ physical and psychological injuries “by depriving them of the ability to express a full range of
+
+ natural behaviors such as simulated predatory behaviors, investigatory behaviors, and social
+
+ avoidance behaviors, including the autonomy to choose to engage with or avoid others.” (Id. at
+
+ 14). In addition to the inadequate enclosures, Maldonado also objects to the tigers’ near-constant
+
+ proximity to and observation by humans, which can disrupt their natural behavioral patterns. (Id.
+
+
+
+ Retirement Ctr. a/k/a/ Black Pine Animal Sanctuary, No. 1:25-cv-239, 2025 WL 1474499, at *3 (N.D. Ind. May 22,
+ 2025). Thus, the Court grants Defendant’s Motion for Judicial Notice of Government Records (ECF No. 9) and
+ takes notice of Maldonado’s scheduled release date.
+
+
+                                                       3
+USDC IN/ND case 1:25-cv-00454-HAB-ALT                 document 26     filed 04/01/26    page 4 of 16
+
+
+ at 9). Maldonado claims Black Pine is harming the cats by spaying or neutering them without
+
+ permits required by the federal government, and that these cats undergo these substantial medical
+
+ procedures not for any legitimate medical need but “to alter their natural behavior, making them
+
+ more docile, inactive, and to keep them from scent marking, so that they can exhibit and display
+
+ them for profit to customers, including young children during ‘day-camps’, and renting out their
+
+ facility for private parties.” (Id. at 8). Maldonado asserts that an inspection of Black Pine’s tax
+
+ returns shows the park does not have sufficient funds to properly care for the animals but
+
+ nevertheless continues to accept more animals into their facility, which he argues further violates
+
+ the “take” provision of the ESA. (Id. at 10).
+
+        Maldonado first attempted to bring his claims to this Court on May 16, 2025, but that
+
+ Complaint was dismissed without prejudice because he did not comply with the ESA’s 60-day
+
+ notice requirement. See Maldonado v. Pro. Animal Ret. Ctr. (PARC) a/k/a Black Pines Animal
+
+ Sanctuary, No. 1:25- cv-239, 2025 WL 1474499 (N.D. Ind. May 22, 2025). Maldonado then filed
+
+ this Complaint on August 29, 2025, in which he claims the above actions should be considered an
+
+ unlawful “take” and possession of a protected species under the ESA and asks that the Court enjoin
+
+ Black Pine from exhibiting, neutering, and possessing the tigers. (Id. at 16).
+
+        Black Pine filed a Motion to Dismiss on October 24, 2025 (ECF No. 11), arguing that
+
+ Maldonado has no Article III standing to pursue his claims because he has never visited the cats
+
+ at the wildlife park nor expressed any intent to visit the cats, and his “research” interest is too
+
+ speculative to comprise an “injury in fact,” (ECF No. 12). Black Pine also asked the Court to
+
+ dismiss the Complaint due to inadequate service of process. (Id.)
+
+        In reviewing the briefing for the Motion to Dismiss, the Court noticed Maldonado’s filings
+
+ included a trend of inaccuracies and misleading characterizations of law that suggested a violation
+
+
+
+
+                                                  4
+USDC IN/ND case 1:25-cv-00454-HAB-ALT                    document 26      filed 04/01/26      page 5 of 16
+
+
+ of counsel’s duty of candor to the court. Thus, the Court issued a Show Cause Order on February
+
+ 27, 2026, pointing out the inaccuracies and misrepresentations in the filings and ordering
+
+ Maldonado’s counsel to show good cause, if there be any, why these errors should not result in
+
+ sanctions for making false statements of fact or law to the Court. (ECF No. 23). Maldonado’s
+
+ counsel responded to the Show Cause Order on March 27, 2026, accepting responsibility for the
+
+ errors but emphasizing that the errors were not made in bad faith. (ECF No. 24).
+
+     II.      Legal Standard
+
+           Under Rule 12(b)(1), a court must dismiss a claim if it lacks subject-matter jurisdiction
+
+ over it. See State of Ill. v. City of Chicago, 137 F.3d 474, 478 (7th Cir. 1998) (“Subject-matter
+
+ jurisdiction is the first question in every case, and if the court concludes that it lacks jurisdiction it
+
+ must proceed no further”). As the Supreme Court has instructed, the elements of Article III
+
+ standing “are not mere pleading requirements but rather an indispensable part of the plaintiff's
+
+ case, [and] each element must be supported in the same way as any other matter on which the
+
+ plaintiff bears the burden of proof, i.e., with the manner and degree of evidence required at the
+
+ successive stages of the litigation.” Lujan v. Defenders of Wildlife, 504 U.S. 555, 561 (1992).
+
+           “When ruling on a motion to dismiss for lack of subject matter jurisdiction under Federal
+
+ Rule of Civil Procedure 12(b)(1), the district court must accept as true all well-pleaded factual
+
+ allegations, and draw reasonable inferences in favor of the plaintiff.” Ezekiel v. Michel, 66 F.3d
+
+ 894, 897 (7th Cir. 1995) (citation omitted). Further, “[t]he district court may properly look beyond
+
+ the jurisdictional allegations of the complaint and view whatever evidence has been submitted on
+
+ the issue to determine whether in fact subject matter jurisdiction exists.” Id. (citation and quotation
+
+ marks omitted). The burden of establishing proper federal subject matter jurisdiction rests on the
+
+ party asserting it. Muscarello v. Ogle Cnty. Bd. of Comm’rs, 610 F.3d 416, 425 (7th Cir. 2010).
+
+
+
+
+                                                     5
+USDC IN/ND case 1:25-cv-00454-HAB-ALT                  document 26     filed 04/01/26      page 6 of 16
+
+
+    III.      Discussion
+
+              a. Motion to Dismiss
+
+           Article III of the Constitution limits the jurisdiction of federal courts to cases or
+
+ controversies. U.S. Const. art. III, § 2; Milwaukee Police Ass’n v. Flynn, 863 F.3d 636, 639 (7th
+
+ Cir. 2017). “There is no case or controversy if the plaintiff lacks standing to challenge the
+
+ defendant’s alleged misconduct,” Diedrich v. Ocwen Loan Servicing., LLC, 839 F.3d 583, 587
+
+ (7th Cir. 2016), and for there to be Article III standing, “the plaintiff must have a ‘personal stake’
+
+ in the case.” TransUnion LLC v. Ramirez, 594 U.S. 413, 423 (2021). Requiring a “personal stake”
+
+ ensures “that the named plaintiff was actually injured and is entitled to an adjudication of the claim
+
+ asserted, not merely abstractly distressed by unfounded fears or a wrong suffered by the public at
+
+ large.” Waste Action Project v. Draper Valley Holdings LLC, 49 F. Supp. 3d 799, 802 (W.D.
+
+ Wash. 2014) (citing Friends of the Earth, Inc. v. Gaston Copper Recycling Corp., 204 F.3d 149,
+
+ 154, 156 (4th Cir. 2000)). The plaintiff has the burden of establishing that an actual case or
+
+ controversy exists, Clapper v. Amnesty Int’l USA, 568 U.S. 398, 408 (2013), and he must make
+
+ the required showing “with the manner and degree of evidence required at the successive stages
+
+ of the litigation,” Lujan v. Defenders of Wildlife, 504 U.S. 555, 561 (1992).
+
+           Thus, to pursue his citizens’ suit under the ESA, Maldonado must show he has suffered an
+
+ “injury-in-fact,” which is an injury that is both “concrete and particularized” and “actual or
+
+ imminent, not ‘conjectural’ or ‘hypothetical’” Lujan, 504 U.S. at 560. For purposes of Article III
+
+ standing, the relevant “injury” is an injury to the plaintiff, not an injury to the environment or to
+
+ the animals at issue. See Friends of the Earth Inc. v. Laidlaw Envtl. Servs., 528 U.S. 167, 181
+
+ (2000). And though Article III standing requires two additional elements—traceability and
+
+ redressability—it is the “injury-in-fact” requirement that concerns us here. To that end, PARC
+
+
+
+
+                                                   6
+USDC IN/ND case 1:25-cv-00454-HAB-ALT                         document 26        filed 04/01/26        page 7 of 16
+
+
+ argues that Maldonado’s case fails for lack of standing because “Maldonado makes no allegation
+
+ that he has visited the Big Cats during their residence at Black Pine, and he makes no mention of
+
+ any intent to visit the Big Cats at Black Pine in the future.” (ECF No. 12 at 2). PARC also contends
+
+ that any claim Maldonado might have as a “research interest” due to his past participation in a
+
+ university research study is too speculative of an injury to give him standing, as Maldonado only
+
+ mentions “possible further and future research” rather than any ongoing study. (Id. at 6 (quoting
+
+ ECF No. 1 at 4)).
+
+         In response, Maldonado presents what amounts to a treatise on the ESA, including its
+
+ legislative history, its intended “broad scope” of protection, and the potential policy implications
+
+ should the Court find Maldonado does not have standing, all of which make the filing read more
+
+ like a law review article than a court brief. (ECF No. 17). As to a specific standing “injury-in-fact”
+
+ argument, Maldonado asserts that federal courts have recognized numerous kinds of ESA
+
+ injuries—aesthetic, emotional, scientific, informational, professional, and genetic and
+
+ reproductive interests—and that his “constellation of injuries—including genetic lineage
+
+ destruction, scientific frustration, informational deprivation, emotional harm and aesthetic loss—
+
+ falls directly within the categories consistently upheld by federal courts.” (Id. at 15–16). A review
+
+ of the cases Maldonado cites, however, show not only little support for his claims but also expose
+
+ a concerning pattern of legal misrepresentation that hinted at the use of artificial intelligence. At
+
+ the end of the day, however, Maldonado’s Complaint does not sufficiently allege a cognizable
+
+ injury to himself to demonstrate an injury in fact. Though he claims he has suffered a “constellation
+
+ of injuries,” only two are recognized by caselaw, 5 and his claims fit neither mold.
+
+
+
+ 5
+   Maldonado attempts to argue that courts have recognized an “informational injury” in cases with “ESA plaintiffs
+ invoking data, research, or observational interests,” citing to FEC v. Akins, 524 U.S. 11, 21 (1998) and WildEarth
+ Guardians v. U.S. Dep’t of the Interior, 870 F.3d 1222, 1230 (10th Cir. 2017). (ECF No. 17 at 15). As the Court
+
+
+                                                          7
+USDC IN/ND case 1:25-cv-00454-HAB-ALT                           document 26         filed 04/01/26         page 8 of 16
+
+
+          First, courts time and again have found an individual plaintiff’s aesthetic or recreational
+
+ interests may constitute an injury sufficient to establish Article III standing, and “the desire to use
+
+ or observe an animal species, even for purely esthetic purposes, is undeniably a cognizable interest
+
+ for purpose of standing.” Lujan, 504 U.S. at 562; Laidlaw, 528 U.S. at 183; Animal Legal Def.
+
+ Fund, Inc. v. Glickman, 154 F.3d 426, 437 (D.C. Cir. 1998) (collecting cases which recognize
+
+ “individual plaintiffs’ injury in fact based on affronts to their aesthetic interests in observing
+
+ animals living in humane habitats, or in using pristine environmental areas that have not been
+
+ despoiled”); Am. Society for Prevention of Cruelty to Animals v. Ringling Bros. and Barnum &
+
+ Bailey Circus, 317 F.3d 334, 337 (D.C. Cir. 2003) (“[A]n injury in fact can be found when a
+
+ defendant adversely affects a plaintiff’s enjoyment of flora or fauna, which the plaintiff wishes to
+
+ enjoy again upon the cessation of the defendant’s actions.”).
+
+          But a fundamental component of establishing an aesthetic injury is the plaintiff’s
+
+ individual, personal use or observation of the animals in the allegedly unlawful conditions, in
+
+ addition to an intention to view the animals in the imminent future. See Hill v. Coggins, 2014 WL
+
+ 2738664, at *4 (W.D.N.C. June 17, 2014) (“Plaintiffs allege that they want to visit the bears again
+
+ but are unable to do so while the bears are kept at the Zoo in their current condition because of the
+
+ additional injury Plaintiffs would suffer from witnessing the bears in these conditions. Such
+
+ conditional statements that Plaintiffs would return to visit the bears but for the complained of
+
+ conditions is sufficient to satisfy the pleading requirements for Article III standing.”), aff’d, 867
+
+ F.3d 499 (4th Cir. 2017); S. Utah Wilderness Alliance v. Palma, 707 F.3d 1143, 1156 (10th Cir.
+
+ 2013) (“A plaintiff who has repeatedly visited a particular site, has imminent plans to do so again,
+
+
+
+ mentioned in its Show Cause order, neither case relates to the ESA, and while Akins acknowledges that a plaintiff
+ suffers a concrete injury “when the plaintiff fails to obtain information which must be publicly disclosed pursuant to
+ a statute,” see Akins, 524 U.S. at 21, it is unclear how that type of injury could be found in this scenario, given that
+ the ESA does not entitle an individual such as Maldonado to any information at all.
+
+
+                                                            8
+USDC IN/ND case 1:25-cv-00454-HAB-ALT                        document 26        filed 04/01/26        page 9 of 16
+
+
+ and whose interests are harmed by a defendant’s conduct has suffered injury in fact that is concrete
+
+ and particularized.”).
+
+         Maldonado has not pointed to—and the Court could not independently find—any case in
+
+ which an ESA plaintiff had neither personally observed nor expressed any intention to observe the
+
+ animals they were seeking to protect. Rather, courts dispose of claims such as this for that very
+
+ failure. See, e.g., New England Anti-Vivisection Society v. United States Fish and Wildlife Serv.,
+
+ 208 F. Supp. 3d 142, 170 (D.D.C. 2014) (“It is not at all clear that being saddened by the knowledge
+
+ that an animal you love but with which you have no present contact may be sent to a place in which
+
+ it will potentially be mistreated—as opposed to seeing such an animal in that condition—qualifies
+
+ an aesthetic harm.”). And Maldonado’s unsupported and last-minute assertion that he has had
+
+ “agents” view the tigers on his behalf does nothing to establish that he personally has standing.
+
+ Further, even if he himself had ever visited the tigers at Black Pine, he likely still would not be
+
+ able to establish standing because he cannot visit them for at least a decade due to his present
+
+ incarceration, 6 making any alleged future injury far too speculative to support a finding of Article
+
+ III standing at this time. See Lujan, 504 U.S. at 564 (“Such ‘some day’ intentions—without any
+
+ description of concrete plans, or indeed even any specification of when the some day will be—do
+
+ not support a finding of the ‘actual or imminent’ injury that our cases require.”).
+
+         Beyond an aesthetic or recreational interest, one court in the First Circuit recognized an
+
+ ESA injury based on a plaintiff’s impacted “scientific” or “research” interest. In Strahan v. Coxe,
+
+ 939 F. Supp. 963 (D. Mass. 1996), aff’d in part and vacated in part, 127 F.3d 155 (1st Cir. 1997),
+
+
+
+
+ 6
+  The Court also notes that the United States Supreme Court quite recently denied Maldonado’s petition for writ of
+ certiorari in his criminal case, essentially closing the book on any hope he may have had to observe the tigers at
+ Black Pine in the next decade. See Maldonado-Passage v. United States, No. 25-1025, 2026 WL 858459 (U.S. Mar.
+ 30, 2026)
+
+
+                                                         9
+USDC IN/ND case 1:25-cv-00454-HAB-ALT                document 26        filed 04/01/26     page 10 of 16
+
+
+  the plaintiff alleged in an affidavit that he routinely went on whale watching tours and that he was
+
+  a conservation biologist engaging in scientific research on the Northern Right whale, which the
+
+  district court concluded was sufficient to show that Strahan had suffered an “injury in fact.”
+
+  Maldonado claims he has suffered a similar injury because he “bred these cats as part of an ongoing
+
+  research study” and thus he has “a compelling interest in the bloodlines being maintained and
+
+  continued into the future,” an interest which would undoubtedly be dashed by the cats’ sterilization
+
+  at Black Pine. (ECF No. 1 at 14). But even if Strahan were precedential in this circuit, the pleadings
+
+  and briefings give no indication that Maldonado personally is engaging in any research at this time.
+
+  Indeed, Maldonado’s own affidavit attests to only his past engagement with a research program:
+
+         Between approximately 2004 and 2019, I developed and maintained a controlled
+         breeding program designed to preserve genetic diversity within captive tiger
+         populations. Each tiger was tracked, microchipped, and logged for inclusion in a
+         research database supporting the Tiger Genome Diversity Project at Texas A&M
+         University’s College of Veterinary Medicine. Through that program, I provided
+         biological samples, pedigree information, and DNA sequencing data used to
+         identify genetic markers relating to fertility and congenital conditions in tigers. This
+         work produced verifiable data, supported by correspondence with university
+         researchers, showing that the lineages I established contributed to ongoing
+         scientific studies.
+
+  (ECF No. 17-1 at 2). Even if the university’s research project is ongoing, nothing leads the Court
+
+  to believe that Maldonado, while incarcerated, is continuing to personally engage in any research
+
+  whatsoever, and his hopes to re-engage with that project in the future are likewise too speculative
+
+  to establish standing. See Lujan, 504 U.S. at 564.
+
+         The only thing clear at this point is that Maldonado has strong feelings about these cats—
+
+  but those strong feelings and his hope to work with them in the future are not enough to give this
+
+  Court subject matter jurisdiction over his claims. See Ringling Bros., 317 F.3d at 337 (rejecting
+
+  plaintiff’s argument that he has standing due to his desire to work with the elephants in the future
+
+  because the court “can be sure that the prospect of his working in the elephant barns again is nil”).
+
+
+
+                                                   10
+USDC IN/ND case 1:25-cv-00454-HAB-ALT                document 26       filed 04/01/26      page 11 of 16
+
+
+  Because Maldonado cannot establish Article III standing, the Court must dismiss his suit for lack
+
+  of subject matter jurisdiction.
+
+             b. Sanctions
+
+         As the Court conducted its own research to resolve PARC’s Motion, it noticed
+
+  Maldonado’s Complaint and briefing included multiple inaccurate citations and misleading
+
+  characterizations of law. These inaccuracies included citations to cases that existed but could not
+
+  be located at the given citation and in no way supported the propositions for which they were cited,
+
+  as well as multiple references to numerous cases which could be located but nevertheless in no
+
+  way supported Maldonado’s contentions. These inaccuracies and misrepresentations led the Court
+
+  to suspect counsel used generative AI to produce these filings, in part or in full, and it issued a
+
+  Show Cause Order on February 27, 2026, ordering Maldonado’s counsel Roger Roots to explain
+
+  these errors and why he should not be sanctioned for his apparent misconduct. (ECF No. 23).
+
+         Roots submitted his response to the Court’s Order on March 27, 2026, in which he accepts
+
+  responsibility for the errors and attempts to explain how they came to be. (ECF No. 24). According
+
+  to Roots, his paralegal was undergoing a medical emergency at the time the response was due and
+
+  inadvertently filed an earlier, uncorrected working draft of the response brief. Although he does
+
+  not directly address the use of AI for the filings, that use can be read between the lines. See id. at
+
+  4 (listing remedial measures taken by counsel, including a pledge that he “will not rely on AI-
+
+  assisted or database-generated research summaries, citation suggestions, or automated citation-
+
+  formatting output in any filed submission unless the underlying authority and proposition have
+
+  first been independently verified”); see also id., Dec. of Paralegal Lambert, at 7 (admitting
+
+  knowledge that earlier drafts of filings “included older research notes, secondary summaries, and
+
+  preliminary citation suggestions generated or compiled during electronic legal research, including
+
+
+
+
+                                                   11
+USDC IN/ND case 1:25-cv-00454-HAB-ALT                      document 26          filed 04/01/26       page 12 of 16
+
+
+  Lexis research tools and AI-assisted research features”). While acknowledging that counsel—as
+
+  the one signing the filings—ultimately remains responsible for what is submitted to the court,
+
+  Roots nevertheless asserts that these errors were not made in bad faith. Along with his response to
+
+  the Court’s Show Cause Order, he submitted a signed declaration by his paralegal, an “Errata and
+
+  Corrected Authorities” in which he withdraws his use of nearly every case he cited in support of
+
+  his client’s standing, and a “Corrected Response in Opposition to Defendant’s Motion to Dismiss”7
+
+  in which he presents an “updated” response brief with a standing argument containing little to no
+
+  relevant caselaw. See id. at 20–24.
+
+          While the Court appreciates counsel’s response, it is still troubled by the carelessness
+
+  displayed here. Over three months passed before the Court pointed out these blatant errors, during
+
+  which time Roots filed a surreply not only discounting as inapplicable the very cases he had cited
+
+  in his response but also defending the extraordinary length of that brief. And that defense leads the
+
+  Court to question the veracity of his assertion that the ten-page “Corrected Response” was the
+
+  version Roots originally intended to file. Indeed, if Roots intended only to file a short brief, he
+
+  should have caught on that the wrong version was filed when PARC’s reply noted an objection to
+
+  pages 26–37 of Maldonado’s response brief as violative of Local Rule 7-1(e)(1) (ECF No. 18 at 1
+
+  n.1). At that time, Roots should have notified the Court and PARC of his mistake. Instead, he
+
+  doubled down to defend the lengthy brief as indicative of “[t]he complexity and importance of the
+
+  issues here—including questions of ESA standing, jurisdiction, and citizen-suit enforcement . . . .”
+
+  (ECF No. 19 at 15). So, which is the Court to believe: that the extraordinarily long brief was
+
+
+
+
+  7
+   On March 30, 2026, PARC filed a motion requesting the Court set a briefing schedule for PARC to respond to
+  Maldonado’s “Corrected Response in Opposition to Defendant’s Motion to Dismiss.” (ECF No. 25). Though the
+  corrected response does nothing to bolster Maldonado’s standing argument, because the Court has found it lacks
+  subject matter jurisdiction and must dismiss the case, PARC’s request is denied as moot.
+
+
+                                                         12
+USDC IN/ND case 1:25-cv-00454-HAB-ALT                document 26       filed 04/01/26      page 13 of 16
+
+
+  intentional and should be considered despite its violation of the Local Rules, or that the same brief,
+
+  riddled with errors, was inadvertently filed instead of a shortened, seemingly more correct brief?
+
+         The Court remains unconvinced that it should be lenient in addressing Roots’s clear
+
+  abdication of his duty of candor. Federal Rule of Civil Procedure 11 provides in relevant part:
+
+         By presenting to the court a pleading, written motion, or other paper—whether by
+         signing, filing, submitting, or later advocating it—an attorney or unrepresented
+         party certifies that to the best of the person's knowledge, information, and belief,
+         formed after an inquiry reasonable under the circumstances: . . . (2) the claims,
+         defenses, and other legal contentions are warranted by existing law or by a
+         nonfrivolous argument for extending, modifying, or reversing existing law or for
+         establishing new law . . . .
+
+  Fed. R. Civ. P. 11(b). If the Court determines that Rule 11(b) has been violated, in may impose an
+
+  appropriate sanction on the attorney that violated the rule. Fed. R. Civ. P. 11(c)(1).
+
+         The standard for imposing Rule 11 sanctions is “an objective determination of whether a
+
+  sanctioned party’s conduct was reasonable under the circumstances.” Brown v. Fed’n of State Med.
+
+  Bds. of the U.S., 830 F.2d 1429, 1435 (7th Cir. 1987), overruled on other grounds by Mars Steel
+
+  Corp. v. Cont’l Bank N.A., 880 F.2d 928 (7th Cir. 1989). Included in that inquiry is a determination
+
+  of “whether the party or attorney made a reasonable inquiry into the law.” Id. The Seventh Circuit
+
+  has long held:
+
+         Rule 11 requires counsel to study the law before representing its contents to a
+         federal court. An empty head but a pure heart is no defense. The Rule requires
+         counsel to read and consider before litigating. Counsel who puts the burden of study
+         and illumination on the defendants or the court must expect to pay attorneys’ fees
+         under the Rule. . . . The point, rather, is that every lawyer must do the necessary
+         work to find the law before filing the brief. It is not acceptable to make an assertion
+         of law and hope that it will turn out to be true.
+
+  Thornton v. Wahl, 787 F.2d 1151, 1154 (7th Cir. 1986) (internal citations removed). Further, in
+
+  this Circuit “[g]ood faith is not a defense to the imposition of Rule 11 sanctions.” Ordower v.
+
+  Feldman, 826 F.2d 1569, 1574 (7th Cir. 1987). “Right to it, all litigants—represented and
+
+
+
+
+                                                   13
+USDC IN/ND case 1:25-cv-00454-HAB-ALT               document 26        filed 04/01/26     page 14 of 16
+
+
+  unrepresented—must read their filings and take reasonable care to avoid misrepresentations,
+
+  factual and legal.” Jones v. Kankakee Cnty. Sheriff’s Dept., 164 F.4th 967, 970 (7th Cir. 2026).
+
+         In imposing Rule 11 sanctions, the court must keep in mind the guiding principle that it
+
+  should order only “the least severe sanction adequate to serve the purpose” for which it is being
+
+  imposed. Brown, 830 F.2d at 1437 (quoting Cabell v. Petty, 810 F.2d 463, 466 (4th Cir. 1987)).
+
+  That includes imposing fines on careless or reckless lawyers “who unnecessarily burdened
+
+  opposing counsel or the court.” Mid Cent. Operating Eng’rs Health & Welfare Fund v. HoosierVac
+
+  LLC, No. 2:24-CV-00326, 2025 WL 574234, at *3 (S.D. Ind. Feb. 21, 2025) (citing Thornton, 787
+
+  F.2d at 1154), adopted as modified, No. 2:24-CV-326, 2025 WL 1511211 (S.D. Ind. May 28,
+
+  2025); see also Bigelow v. Dell Techs. Inc., No. 25-3007, 2026 WL 813756, at *8 (10th Cir. March
+
+  24, 2026) (“[A] litigant’s failure to verify the accuracy of the authority cited results in waste of
+
+  both judicial resources and the opposing party’s time and money, and it can damage the credibility
+
+  of the legal system.”). And while compensation is “an important consideration . . . [a]n even more
+
+  important purpose is deterrence.” Brown, 830 F.2d at 1438.
+
+         It is abundantly clear that Roots did not make the requisite reasonable inquiry into the law
+
+  in crafting both the Complaint and the response to PARC’s Motion to Dismiss. Had he done his
+
+  due diligence for either filing, he would have discovered that the opinions and citations he provided
+
+  were woefully mispresented or else nonexistent. Whether these incorrect filings are the work of
+
+  generative AI or counsel’s own sloppiness, the resulting errors and legal misrepresentations are
+
+  glaring. And while the Court appreciates Roots’ acceptance of some responsibility, these issues
+
+  nevertheless warrant sanctions.
+
+         Thus, the Court concludes the following sanctions are appropriately tailored to the conduct
+
+  and circumstances in this case: First, within 30 days of the filing of this decision, Maldonado’s
+
+
+
+
+                                                   14
+USDC IN/ND case 1:25-cv-00454-HAB-ALT               document 26         filed 04/01/26    page 15 of 16
+
+
+  counsel Roger Roots is ordered to pay to the Clerk of Court the amount of $1,500.00 for his
+
+  repeated violations of Fed. R. Civ. P. 11(b)—$500 for each filing which relied on incorrect or
+
+  nonexistent citations or else included blatant misrepresentations and mischaracterizations of the
+
+  law and an additional $500 for his admitted failure to review the documents he signed and filed
+
+  with this Court. The Court notes that such a monetary sanction is at the low end of fines imposed
+
+  by courts in similar circumstances. Compare Jackson v. Auto-Owners Ins. Co., No. 7-24-cv-136,
+
+  2025 WL 1932274, at *5 (M.D. Ga. July 14, 2025) (imposing a $1,000 fine for the submission of
+
+  filings with hallucinated cases), and Gauthier v. Goodyear Tire & Rubber Co., No. 1:23-CV-281,
+
+  2024 WL 4882651, at *3 (E.D. Tex. Nov. 25, 2024) (imposing $2,000 sanction on attorney who
+
+  submitted a response “without reading the cases cited, or even confirming the existence or validity
+
+  of the cases included therein”), with Mata v. Avianca, Inc., 678 F. Supp. 3d 443 (S.D.N.Y. 2023)
+
+  (sanctioning attorneys $5,000 for producing a filing with citation to an opinion which did not exist)
+
+  and HoosierVac LLC, 2025 WL 1511211, at *2 (imposing sanction of $6,000 for filing briefs
+
+  containing non-existent AI-generated legal citations).
+
+         Second, the Court directs the clerk’s office to transmit a copy of this Opinion and Order—
+
+  as well as a copy of the Show Cause Order (ECF No. 23) which more explicitly details counsel’s
+
+  misconduct—to the appropriate attorney-disciplinary authority of the State of Rhode Island where
+
+  Roots is licensed. See, e.g., Amarsingh v. Frontier Airlines, Inc., No. 24-1391, 2026 WL 352016,
+
+  at *8 (10th Cir. Feb. 9, 2026) (referring attorney to relevant disciplinary body); Park v. Kim, 91
+
+  F.4th 610, 616 (2d Cir. 2024) (same); Johnson v. Dunn, 792 F. Supp. 3d 1241, 1267 (N.D. Ala.
+
+  2025) (“[T]he referral to licensing authorities is a bare minimum in the light of the primary nature
+
+  of a lawyer’s professional responsibility not to make things up.”).
+
+
+
+
+                                                   15
+USDC IN/ND case 1:25-cv-00454-HAB-ALT               document 26        filed 04/01/26    page 16 of 16
+
+
+     IV.      Conclusion
+
+           For these reasons, the Court:
+
+           (1) GRANTS PARC’s Motion for Judicial Notice of BOP Record (ECF No. 9);
+
+           (2) GRANTS PARC’s Motion to Dismiss (ECF No. 11) for lack of Article III standing and
+               DISMISSES the case for lack of subject matter jurisdiction;
+
+           (3) DENIES AS MOOT PARC’s Motion for Reconsideration (ECF No. 21) and Motion to
+               Set Briefing Schedule (ECF No. 25);
+
+           (4) ORDERS Maldonado’s counsel, Roger Roots, to pay $1,500.00 to the Clerk of Court
+               for violating Fed. R. Civ. P. 11(b)(3); and
+
+           (5) DIRECTS the Clerk to send a copy of this Opinion and Order, and a copy of the Show
+               Cause Order (ECF No. 23), to the attorney-disciplinary authority for the State of Rhode
+               Island Judiciary at:
+                        Office of Chief Disciplinary Counsel
+                        Philip W. Noel Judicial Complex
+                        222 Quaker Lane – Room #1083
+                        Warwick, RI 02886
+
+           SO ORDERED this April 1, 2026.
+
+
+
+                                                    s/ Holly A. Brady
+                                                    CHIEF JUDGE HOLLY A. BRADY
+                                                    UNITED STATES DISTRICT COURT
+
+
+
+
+                                                   16
+

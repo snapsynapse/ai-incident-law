@@ -1,0 +1,24 @@
+{
+  "id": "d7acdaf1fa774a68bc22863c854925c5",
+  "url": "https://www.oscn.net/robots.txt",
+  "kind": "robots",
+  "host": "www.oscn.net",
+  "status": 200,
+  "headers": {
+    "content-type": "text/plain",
+    "last-modified": "Wed, 10 Nov 2021 21:14:27 GMT",
+    "accept-ranges": "bytes",
+    "etag": "\"fcd2b0f177d6d71:0\"",
+    "server": "envoy",
+    "date": "Sat, 03 Oct 2026 18:37:47 GMT",
+    "content-length": "354",
+    "x-envoy-upstream-service-time": "104",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:47.390658+00:00",
+  "sha256": "8b79982e172be8d4b0d62f8247c69da0eab99507cf2c381ba42bb46138137c81",
+  "bytes": 354,
+  "body_path": "/workspace/freshness-control/transport-evidence/d7acdaf1fa774a68bc22863c854925c5.body"
+}

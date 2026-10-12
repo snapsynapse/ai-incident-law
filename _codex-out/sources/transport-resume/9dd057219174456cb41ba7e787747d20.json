@@ -1,0 +1,23 @@
+{
+  "id": "9dd057219174456cb41ba7e787747d20",
+  "url": "https://gao.gov/assets/890/884082.pdf",
+  "kind": "fetch",
+  "host": "gao.gov",
+  "status": 302,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:51:32 GMT",
+    "server": "envoy",
+    "location": "https://www.gao.gov/assets/890/884082.pdf",
+    "content-length": "283",
+    "content-type": "text/html; charset=iso-8859-1",
+    "x-envoy-upstream-service-time": "117",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:51:32.791220+00:00",
+  "sha256": "6b6ac827bee00fce65aa1616f8d330ecddac2856285cd8549feb67850092a7d3",
+  "bytes": 283,
+  "body_path": "/workspace/freshness-control/transport-evidence/9dd057219174456cb41ba7e787747d20.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/9dd057219174456cb41ba7e787747d20.body"
+}

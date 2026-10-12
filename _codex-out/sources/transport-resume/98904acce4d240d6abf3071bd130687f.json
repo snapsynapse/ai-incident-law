@@ -1,0 +1,33 @@
+{
+  "id": "98904acce4d240d6abf3071bd130687f",
+  "url": "https://www.govinfo.gov/content/pkg/USCOURTS-txsd-4_24-cv-00801/pdf/USCOURTS-txsd-4_24-cv-00801-0.pdf",
+  "kind": "fetch",
+  "host": "www.govinfo.gov",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:38:07 GMT",
+    "content-type": "application/pdf",
+    "content-length": "191079",
+    "server": "envoy",
+    "last-modified": "Tue, 23 Dec 2025 09:51:38 GMT",
+    "accept-ranges": "bytes",
+    "content-disposition": "inline; filename=\"USCOURTS-txsd-4_24-cv-00801-0.pdf\"",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "content-security-policy": "default-src 'self'  https://analytics.govinfo.gov https://stackpath.bootstrapcdn.com https://cdn.jsdelivr.net https://maxcdn.bootstrapcdn.com; frame-ancestors 'self'; script-src 'unsafe-inline' 'unsafe-eval' 'self' *.videodelivery.net *.cloudflarestream.com  https://cdn.jsdelivr.net  https://stackpath.bootstrapcdn.com https://api.data.gov https://maxcdn.bootstrapcdn.com https://www.google.com/recaptcha https://recaptcha.google.com/recaptcha; object-src 'unsafe-inline' 'self' ; style-src 'unsafe-inline' 'self' https://cdn.jsdelivr.net https://maxcdn.bootstrapcdn.com https://api.data.gov  https://stackpath.bootstrapcdn.com https://fonts.googleapis.com https://www.google.com/recaptcha https://recaptcha.google.com/recaptcha; img-src 'unsafe-inline' 'self' https://maxcdn.bootstrapcdn.com https://stackpath.bootstrapcdn.com  https://analytics.govinfo.gov data:; font-src 'unsafe-inline' 'self' https://cdn.jsdelivr.net  https://stackpath.bootstrapcdn.com https://api.data.gov https://maxcdn.bootstrapcdn.com https://fonts.gstatic.com https://fonts.googleapis.com; connect-src 'self' *.videodelivery.net *.cloudflarestream.com https://cdn.jsdelivr.net  https://api.data.gov https://analytics.govinfo.gov; frame-src 'self'  https://stackpath.bootstrapcdn.com https://maxcdn.bootstrapcdn.com https://www.google.com/recaptcha https://recaptcha.google.com/recaptcha;",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a44e0fe2bb35c77f-ORD",
+    "x-envoy-upstream-service-time": "66",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:38:07.771494+00:00",
+  "sha256": "c3dad389a192a66897eafc51f99786888528374656e0aa903240e4f0b19e8b6f",
+  "bytes": 191079,
+  "body_path": "/workspace/freshness-control/transport-evidence/98904acce4d240d6abf3071bd130687f.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/98904acce4d240d6abf3071bd130687f.body"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "e0f59e6577f7472b9a5531c7d3a8602b",
+  "url": "https://canlii.org/robots.txt",
+  "kind": "robots",
+  "host": "canlii.org",
+  "status": 301,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:22 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "281",
+    "location": "https://www.canlii.org/robots.txt",
+    "server": "envoy",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-datadome": "protected",
+    "accept-ch": "Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory,Sec-CH-UA-Platform-Version",
+    "set-cookie": "[REDACTED]",
+    "x-envoy-upstream-service-time": "183",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:22.304157+00:00",
+  "sha256": "b2fbd3b4912fa28441ca12c017e82cd80348d897ab6c5f825baf5d2d184f0c40",
+  "bytes": 281,
+  "body_path": "/workspace/freshness-control/transport-evidence/e0f59e6577f7472b9a5531c7d3a8602b.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/e0f59e6577f7472b9a5531c7d3a8602b.body"
+}

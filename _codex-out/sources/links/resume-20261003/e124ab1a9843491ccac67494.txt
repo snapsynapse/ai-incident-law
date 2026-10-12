@@ -1,0 +1,611 @@
+           Case 3:24-cv-05808-TMC               Document 265    Filed 07/24/26      Page 1 of 11
+
+
+
+
+ 1
+
+ 2
+
+ 3
+
+ 4
+
+ 5
+                                  UNITED STATES DISTRICT COURT
+ 6                               WESTERN DISTRICT OF WASHINGTON
+                                           AT TACOMA
+ 7
+      JOANN LEDOUX,                                     Case No. 3:24-cv-05808-TMC
+ 8
+                              Plaintiff,                ORDER ON SANCTIONS
+ 9
+              v.
+10
+      OUTLIERS, INC. (d/b/a THESIS, THESIS
+11
+      NOOTROPICS, FIND MY FORMULA, and
+      FORMULA), et al.,
+12
+                              Defendants.
+13
+
+14
+                                           I.    INTRODUCTION
+15
+            In November and December 2025, Plaintiff Joann LeDoux submitted multiple filings
+16
+     containing dozens of inaccurate factual and legal citations which appeared “hallucinated” by a
+17
+     generative artificial intelligence tool. On February 4, 2026, the Court ordered Plaintiff’s counsel,
+18
+     Ms. Jocelyn Stewart, to show cause and explain why she should not be sanctioned for these
+19
+     errors. Dkt. 209 at 7.
+20
+            Ms. Stewart filed a sworn declaration on March 4, explaining that she had used two
+21
+     artificial intelligence programs—ChatGPT and Claude—to generate the false citations, that she
+22
+     was unaware of any falsities when she submitted the documents, and that she “accept[s] full
+23
+
+24
+
+
+     ORDER ON SANCTIONS - 1
+           Case 3:24-cv-05808-TMC            Document 265         Filed 07/24/26       Page 2 of 11
+
+
+
+
+ 1   responsibility for the errors” and has “changed [her] practices to ensure this does not happen
+
+ 2   again.” Dkt. 245 at 10–25, 33.
+
+ 3           For the reasons discussed below, the Court ORDERS that Ms. Stewart be SANCTIONED
+
+ 4   pursuant to Federal Rule of Procedure 11.
+
+ 5                     II.   BACKGROUND AND PROCEDURAL HISTORY
+
+ 6           On December 2, 2025, the Court held oral argument on Defendants’ motions for partial
+
+ 7   summary judgment. 1 Dkt. 184. During that hearing, Defendants raised concerns that Plaintiff’s
+
+ 8   recently-filed Daubert motion was “littered” with citations Defendants believed to be false and
+
+ 9   hallucinated by artificial intelligence. Dkt. 187 at 48 (citing Dkt. 176). Over the following weeks,
+
+10   Defendants identified multiple other seemingly erroneous citations in Plaintiff’s proposed
+
+11   amended complaint (Dkt. 173-1), Daubert motion (Dkt. 176), motion to strike affirmative
+
+12   defenses (Dkt. 178), expert evidence (Dkt. 177 at 288–315; Dkt. 194-13; Dkt. 194-15), and
+
+13   response to Defendants’ motion to strike experts (Dkt. 197). Dkt. 191 at 2–3; Dkt. 194 at 14–15;
+
+14   Dkt. 194-17; Dkt. 201 at 1–2.
+
+15           On February 4, 2026, the Court found that Ms. Stewart “submitted dozens of inaccurate
+
+16   factual and legal citations across at least five different filings.” Dkt. 209 at 6. These errors
+
+17   included citations to nonexistent sources, as well as fictitious quotations from real sources.
+
+18   Concerningly, two of Plaintiff’s expert reports contained citations to the same nonexistent or
+
+19   misattributed academic articles. Id. at 3–5. Although Ms. Stewart had attempted to correct
+
+20   hallucinated citations in her Daubert motion, the Court found that “[h]er explanations and
+
+21   corrections [were] incomplete at best and misleading at worst.” Id. at 5. For example, “Plaintiff’s
+
+22   ‘corrected’ Daubert motion replaced some false quotations with real ones but, in doing so,
+
+23
+     1
+      The Court discussed the facts of this case in detail when it addressed the motions for partial
+24   summary judgment and will not do so again here. Dkt. 202 at 2–8.
+
+
+     ORDER ON SANCTIONS - 2
+           Case 3:24-cv-05808-TMC           Document 265         Filed 07/24/26      Page 3 of 11
+
+
+
+
+ 1   completely changed their meaning.” Id. at 5–6 (citing Dkt. 192 at 2–3). The Court ordered
+
+ 2   Ms. Stewart to show cause and explain why she should not be sanctioned pursuant to Rule 11. Id.
+
+ 3   at 7. Specifically, the Court required Ms. Stewart to submit a sworn declaration and:
+
+ 4          (1) detail all incorrect, misleading, or nonexistent citations and all incorrect or
+            misleading assertions submitted to this Court; (2) provide a thorough explanation
+ 5          for how the incorrect citations discussed in this order were found or generated; and
+            (3) to the extent that she used any artificial intelligence programs in preparing the
+ 6          submissions discussed in this order or any other submissions to this Court,
+            Plaintiff’s counsel shall include the names of those programs in her declaration.
+ 7
+     Id.
+ 8
+            Ms. Stewart filed a declaration in response to the order on March 4, 2026. Dkt. 245. She
+ 9
+     avers that she used Claude and ChatGPT to draft her submissions in this case, that these
+10
+     programs generated the false citations identified in the Court’s order, and that she “did not verify
+11
+     the output against the source before filing.” Id. at 10, 28–30. She attributes her mistake to an
+12
+     errant belief that the programs would correctly reference documents she provided in a “closed
+13
+     system” and that “reliable inputs would produce reliable outputs.” Id. at 5–6, 29. She “do[es] not
+14
+     contend that [she] met [her] obligations under Rule 11(b)” as she “did not conduct a reasonable
+15
+     inquiry into the accuracy of every citation and quotation before signing and submitting the
+16
+     filings.” Id. at 28. She also states that she has “fundamentally changed [her] practices regarding
+17
+     the use of automation/AI tools in legal work” and “no longer use[s] any AI tool to generate
+18
+     quotations or citations for filings submitted to any court.” Id. at 30. Ms. Stewart ends her
+19
+     statement with the following:
+20
+            I accept full responsibility for the errors described in this declaration. I have
+21          changed my practices to ensure this does not happen again. I am committed to
+            maintaining the integrity of submissions to this Court and to every court in which I
+22          practice. I am deeply embarrassed and can only undertake each new filing as the
+            chance to try to reclaim the trust and confidence of this Court and opposing counsel.
+23          I respectfully submit this declaration and ask the Court to consider the corrective
+            measures I have already taken and am prepared to undertake in determining an
+24          appropriate sanction.
+
+
+     ORDER ON SANCTIONS - 3
+           Case 3:24-cv-05808-TMC           Document 265         Filed 07/24/26      Page 4 of 11
+
+
+
+
+ 1
+
+ 2   Id. at 33. Although Defendants initially raised the false citations with this Court, they have not
+
+ 3   moved for sanctions. The Court therefore addresses Ms. Stewart’s Rule 11 violations sua sponte.
+
+ 4                                   III.   LEGAL STANDARDS
+
+ 5           Federal Rule of Civil Procedure 11 “imposes a duty on attorneys to certify that they have
+
+ 6   conducted a reasonable inquiry and have determined that any papers filed with the court are well
+
+ 7   grounded in fact, legally tenable, and not interposed for any improper purpose.” Cooter & Gell v.
+
+ 8   Hartmarx Corp., 496 U.S. 384, 393 (1990) (internal quotation marks omitted). Rule 11 provides,
+
+ 9   in relevant part, that:
+
+10           By presenting to the court a pleading, written motion, or other paper—whether by
+             signing, filing, submitting, or later advocating it—an attorney or unrepresented
+11           party certifies that to the best of the person’s knowledge, information, and belief,
+             formed after an inquiry reasonable under the circumstances:
+12
+             ...
+13
+             (2) the claims, defenses, and other legal contentions are warranted by existing law
+14           or by a nonfrivolous argument for extending, modifying, or reversing existing law
+             or for establishing new law.
+15
+     Fed. R. Civ. P. 11(b). “On its own, the court may order an attorney, law firm, or party to show
+16
+     cause why conduct specifically described in the order has not violated Rule 11(b).” Fed. R. Civ.
+17
+     P. 11(c)(3).
+18
+             Courts have “wide discretion in determining the appropriate sanction for a Rule 11
+19
+     violation.” Hudson v. Moore Bus. Forms, Inc., 836 F.2d 1156, 1163 (9th Cir. 1987). “A sanction
+20
+     imposed under this rule must be limited to what suffices to deter repetition of the conduct or
+21
+     comparable conduct by others similarly situated.” Fed. R. Civ. P. 11(c)(4). Additionally, sua
+22
+     sponte sanctions under Rule 11 “will ordinarily be imposed only in situations that are akin to a
+23
+     contempt of court.” United Nat’l Ins. Co. v. R&D Latex Corp., 242 F.3d 1102, 1116 (9th Cir.
+24
+
+
+     ORDER ON SANCTIONS - 4
+           Case 3:24-cv-05808-TMC            Document 265        Filed 07/24/26       Page 5 of 11
+
+
+
+
+ 1   2001) (emphasis omitted) (quoting Barber v. Miller, 146 F.3d 707, 711 (9th Cir. 1998)). “[I]n the
+
+ 2   Ninth Circuit, the ‘akin to a contempt’ standard ‘generally requires the court to find bad faith or
+
+ 3   conduct tantamount to bad faith.’” Mavy v. Comm’r of Soc. Sec. Admin., No. CV-25-00689-
+
+ 4   PHX-KML (ASB), 2026 WL 91483, at *6 (D. Ariz. Jan. 13, 2026) (quoting Rocha v. Fiedler,
+
+ 5   No. 24-3692, 2025 WL 1219007, at *1 (9th Cir. Apr. 28, 2025)).
+
+ 6                                        IV.     DISCUSSION
+
+ 7          Ms. Stewart concedes that she violated Rule 11 by failing to properly review her
+
+ 8   submissions to this Court, resulting in dozens of false citations. Dkt. 245 at 28, 33. The Court
+
+ 9   must therefore determine (1) whether her conduct was akin to contempt and (2) if so, what
+
+10   sanctions are appropriate.
+
+11   A.     Ms. Stewart’s conduct was akin to contempt, and the Court may issue sanctions sua
+            sponte.
+12
+            Ms. Stewart’s conduct was tantamount to bad faith and therefore akin to contempt. Her
+13
+     false citations “constitute fundamental, material, legal and factual errors submitted to the Court
+14
+     because AI-generated work product . . . was subjected to no discernable scrutiny.” Parker v.
+15
+     Costco Wholesale Corp., No. C25-0519-SKV, 2025 WL 4228413, at *11 (W.D. Wash. Nov. 7,
+16
+     2025). “That failure was compounded by [Ms. Stewart] certifying, under Rule 11, that [s]he had
+17
+     conducted [a] reasonable inquiry into the supportability of h[er] filings knowing full well [s]he
+18
+     had not done so.” Id.
+19
+            Ms. Stewart complied with the Court’s order to show cause—admitting that she
+20
+     generated the false citations, accepting full responsibility for her conduct, and noting that she had
+21
+     ceased using artificial intelligence “to generate quotations or citations for filings submitted to
+22
+     any court.” Dkt. 245 at 28–30, 33. While the Court appreciates Ms. Stewart’s responsiveness,
+23
+     several factors weigh toward a finding of bad faith.
+24
+
+
+     ORDER ON SANCTIONS - 5
+           Case 3:24-cv-05808-TMC            Document 265         Filed 07/24/26       Page 6 of 11
+
+
+
+
+ 1           First, the volume and severity of Ms. Stewart’s violations show that her submissions were
+
+ 2   not “subjected to any meaningful scrutiny.” Parker, 2025 WL 4228413, at *8. “Many of the
+
+ 3   errors were obvious on the face of the document. A competent attorney would have, upon review
+
+ 4   of the arguments and authority cited, flagged that something was wrong.” Id. But Ms. Stewart
+
+ 5   admits that she simply did not review the outputs of ChatGPT and Claude because she believed
+
+ 6   them to be without error. See Dkt. 245 at 7 (“Using automation in this manner gave me
+
+ 7   confidence that . . . so long as the inputs were reliable, the output would be accurate.”); id. at 15
+
+ 8   (“I obtained that characterization from the tool when I asked it to summarize what Dr. Kelman
+
+ 9   relied upon, and I did not verify it against his report before including it in the motion.”); id. at 17
+
+10   (“I did not verify the accuracy of the citation information that the tool generated against the
+
+11   actual articles.”).
+
+12           Ms. Stewart’s blind trust in these programs was unfounded. “[A] lawyer using technology
+
+13   in law practice is obliged to do so competently.” Wash. State Bar Ass’n, Advisory Opinion
+
+14   202505 (Nov. 20, 2025). “[T]he imposition of sanctions for submitting generative-AI
+
+15   hallucinations is so well-documented at this point” that Ms. Stewart’s repeated failure to verify
+
+16   citations generated by these programs “rises to the level of bad faith.” Chaney v. Transdev Servs.
+
+17   Inc., No. 2:24-CV-10761-ODW (AJRX), 2026 WL 1146736, at *6 (C.D. Cal. Apr. 28, 2026).
+
+18   Ms. Stewart even states that she was initially skeptical about using generative artificial
+
+19   intelligence because she had previously heard of an attorney being sanctioned for “us[ing] what
+
+20   was generated without checking it.” Dkt. 245 at 2. And by the time Ms. Stewart filed the
+
+21   offending motions in late 2025, numerous Ninth Circuit courts had issued or threatened sanctions
+
+22   for similar misconduct. See, e.g., Twist It Up, Inc. v. Annie Int’l, Inc., No. SA CV 24-736-DMG
+
+23   (ADSX), 2025 WL 3049841, at *2 (C.D. Cal. June 26, 2025); Ligeri v. Amazon.com Servs. LLC,
+
+24
+
+
+     ORDER ON SANCTIONS - 6
+           Case 3:24-cv-05808-TMC           Document 265         Filed 07/24/26      Page 7 of 11
+
+
+
+
+ 1   No. 2:25-CV-00764-JHC, 2025 WL 2161497, at *2 (W.D. Wash. July 30, 2025); Oneto v.
+
+ 2   Watson, 808 F. Supp. 3d 974, 980 (N.D. Cal. Oct. 10, 2025).
+
+ 3          Ms. Stewart avers that she believed the programs she used would generate correct
+
+ 4   citations so long as they operated in a “closed system” and referred only to documents she
+
+ 5   provided. Dkt. 245 at 5–6. But while a closed system might reduce the risk of errors,
+
+ 6   Ms. Stewart’s belief that it would eliminate that risk was unsupported. See Jonathan Ciottone, et
+
+ 7   al., A Lawyer’s Guide to Understanding AI Hallucinations in a Closed System, NAT’L L. REV.
+
+ 8   (June 26, 2024), https://natlawreview.com/article/lawyers-guide-understanding-ai-hallucinations-
+
+ 9   closed-system (“Improper use of the AI tool, even in a closed system designed for legal use, can
+
+10   lead to illogical outputs or hallucinations.”). In any event, Ms. Stewart’s “failure to make any
+
+11   inquiry at all into the veracity” of the citations “was so ‘completely without merit’ that subjective
+
+12   bad faith may be inferred.” Ramirez v. Humala, No. 24-CV-242 (RPK) (JAM), 2025 WL
+
+13   1384161, at *2 (E.D.N.Y. May 13, 2025) (quoting In re 60 E. 80th St. Equities, Inc., 218 F.3d
+
+14   109, 115 (2d Cir. 2000)).
+
+15          Second, the citation errors in the expert evidence are especially flagrant because they
+
+16   indicate Ms. Stewart “may have been so involved with the drafting of expert reports as to
+
+17   ‘jeopardize the experts’ independence.’” Dkt. 209 at 5 (quoting Gerke v. Travelers Cas. Ins. Co.
+
+18   of Am., 289 F.R.D. 316, 326 (D. Or. 2013)); see also McClellan v. I-Flow Corp., 710 F. Supp. 2d
+
+19   1092, 1118 (D. Or. 2010) (“[E]xpert reports may be discredited if they ‘merely express the
+
+20   opinions of the lawyers who hired them.’” (quoting Trigon Ins. Co. v. United States, 204 F.R.D.
+
+21   277, 294 (E.D. Va. 2001))). Ms. Stewart now states that she used Claude or ChatGPT to
+
+22   “generate a formatted citation table” for academic articles and “provided the same AI-generated
+
+23   citation table to both experts as an appendix, and neither expert caught the errors in the citation
+
+24   data before signing their reports.” Dkt. 245 at 17–18. Although the Court has already struck these
+
+
+     ORDER ON SANCTIONS - 7
+           Case 3:24-cv-05808-TMC           Document 265        Filed 07/24/26      Page 8 of 11
+
+
+
+
+ 1   expert opinions for other reasons, Dkt. 202 at 17–20, the fact that Ms. Stewart’s faulty citations
+
+ 2   tainted two expert reports further indicates bad faith.
+
+ 3           Third, Defendants first raised their concerns about AI hallucinations during oral argument
+
+ 4   on December 2, 2025, when they provided the Court and Ms. Stewart with a table of allegedly
+
+ 5   false citations in Plaintiff’s Daubert motion. Dkt. 187 at 48. On December 9, Defendants filed a
+
+ 6   similar table with respect to Plaintiff’s motion to strike affirmative defenses. Dkt. 191-1. Several
+
+ 7   citations in these tables were clearly erroneous and ultimately formed the basis for the Court’s
+
+ 8   order to show cause and the present order. Dkt. 209 at 3–4. Ms. Stewart should have reviewed
+
+ 9   these citations with urgency and—upon realizing that they were erroneous—revisited all
+
+10   citations that she generated with artificial intelligence, withdrawn or amended all motions
+
+11   containing those citations, and explained her mistakes to the Court. See, e.g., Mavy, 2026 WL
+
+12   91483, at *7 (finding no bad faith where supervising attorney “immediately pursued an
+
+13   investigation to determine what had happened[,] did not attempt to defend the opening brief but
+
+14   submitted a proposed brief containing correct citations[, and] proactively investigated the
+
+15   contract attorney’s work in different cases and found ‘four other briefs containing erroneous
+
+16   citations’”).
+
+17           Prior to responding to the order to show cause, Ms. Stewart did little to remedy her
+
+18   errors. She submitted an additional hallucinated citation to this Court on December 18, over two
+
+19   weeks after learning that her citations in other briefs might have been erroneous. Dkt. 209 at 5
+
+20   (citing Dkt. 197). She also filed a “corrected” Daubert motion, which fixed an errant citation but
+
+21   completely changed the meaning of the relevant argument. Id. at 5–6 (citing Dkt. 192 at 2–3).
+
+22   Ms. Stewart now admits that even the corrected motion still contained some of the original false
+
+23   citations that Defendants had highlighted. See Dkt. 245 at 20 (“I also acknowledge that the
+
+24   corrections were incomplete. Several errors identified in the original motion remained
+
+
+     ORDER ON SANCTIONS - 8
+           Case 3:24-cv-05808-TMC            Document 265         Filed 07/24/26      Page 9 of 11
+
+
+
+
+ 1   uncorrected in Dkt. 192, including the Hankey quotation, the ISO accreditation attribution to
+
+ 2   Dr. Kelman, and the characterization of Dr. Tucker’s opinion in a later section.”). At no point
+
+ 3   before the Court ordered Ms. Stewart to show cause on February 4, 2026 did she explain the
+
+ 4   origin of the errant citations.
+
+ 5           Ms. Stewart’s conduct “exceed[ed] mere ignorance or negligence” and was tantamount to
+
+ 6   bad faith. Parker, 2025 WL 4228413, at *6. The Court may therefore issue sanctions for
+
+ 7   Ms. Stewart’s Rule 11 violations on its own motion, and it does so here.
+
+ 8   B.      Sanctions
+
+ 9           The Court must now determine what types of sanctions against Ms. Stewart are sufficient
+
+10   to deter future, similar misconduct from her and other attorneys. “Rule 11 sanctions are meant to
+
+11   serve several purposes, including (1) deterring future litigation abuse, (2) punishing present
+
+12   litigation abuse, (3) compensating victims of litigation abuse, and (4) streamlining court dockets
+
+13   and facilitating case management.” Wadsworth v. Walmart Inc., 348 F.R.D. 489, 496–97
+
+14   (D. Wyo. 2025) (quoting White v. Gen. Motors Corp., 908 F.2d 675, 683 (10th Cir. 1990)).
+
+15           Sanctions for fabricated citations may include “(1) monetary sanctions, (2) striking the
+
+16   filing containing erroneous citations, (3) requiring written notification to the client, (4) requiring
+
+17   written notification to judges incorrectly identified as having authored nonexistent cases, and
+
+18   (5) referring attorneys to the appropriate disciplinary body for disciplinary proceedings.” Oneto,
+
+19   808 F. Supp. 3d at 980 (collecting cases); see, e.g., Chaney, 2026 WL 1146736, at *6 (imposing
+
+20   a $2,500 fine and requiring that the attorney file a declaration explaining the court’s findings of
+
+21   bad faith in his other cases in the district); Tercero v. Sacramento Logistics, LLC, No. 2:24-CV-
+
+22   00953-DC-JDP, 2025 WL 2605020, at *13 (E.D. Cal. Sept. 9, 2025) (imposing a $1,500 fine,
+
+23   requiring that the attorney serve a copy of the court’s sanctions order on her client, and directing
+
+24   the clerk of court to serve the order on the California Bar).
+
+
+     ORDER ON SANCTIONS - 9
+          Case 3:24-cv-05808-TMC            Document 265         Filed 07/24/26       Page 10 of 11
+
+
+
+
+ 1          “[A]ny sanction imposed must be proportionate to the offense and commensurate with
+
+ 2   principles of restraint and dignity inherent in judicial power.” Oneto, 808 F. Supp. 3d at 980
+
+ 3   (quoting Zambrano v. City of Tustin, 885 F.2d 1473, 1480 (9th Cir. 1989)). Courts handling
+
+ 4   similar cases tend toward leniency where attorneys are forthcoming about their misuse of
+
+ 5   artificial intelligence and take significant steps to correct their mistakes. See, e.g., Dodge v.
+
+ 6   FirstService Residential Ariz. LLC, No. CV-24-01550-PHX-SMM, 2025 WL 3653164, at *3
+
+ 7   (D. Ariz. Dec. 17, 2025) (imposing no sanctions where an attorney “openly and honestly
+
+ 8   admitted to his improper use of AI, including the submission of hallucinated citations” and “took
+
+ 9   the initiative to self-report to the State Bar for his improper use of AI and contend[ed] that he
+
+10   [was] reviewing all other pending matters”).
+
+11          Here, Ms. Stewart’s actions warrant significant sanctions. Ms. Stewart submitted dozens
+
+12   of false citations throughout four briefs and two expert reports. When Defendants identified
+
+13   multiple clearly erroneous citations in December 2025, Ms. Stewart was not proactive in
+
+14   rectifying her mistakes. Her attempt to correct the citations in her Daubert motion was
+
+15   incomplete and confusing, and she did not explain how the errors occurred. After making those
+
+16   corrections, she then submitted a brief containing one additional hallucinated citation.
+
+17          The Court acknowledges that Ms. Stewart responded to the order to show cause by fully
+
+18   admitting fault and explaining how her unverified use of artificial intelligence caused each error.
+
+19   At the same time, “submitting fake citations and filing unverified generative AI outputs . . .
+
+20   prejudices clients, undermines faith in attorneys and the justice system, and compels diversion of
+
+21   public resources from pending cases.” Parker, 2025 WL 4228413, at *9. The Court spent
+
+22   significant time reviewing and addressing Ms. Stewart’s false citations while managing other
+
+23   matters on its docket, including a high volume of time-sensitive immigration habeas matters.
+
+24
+
+
+     ORDER ON SANCTIONS - 10
+          Case 3:24-cv-05808-TMC          Document 265         Filed 07/24/26      Page 11 of 11
+
+
+
+
+ 1   Ms. Stewart’s concessions, while appreciated, cannot replace the time and resources lost. The
+
+ 2   Court thus finds that the below sanctions are necessary to address Ms. Stewart’s conduct.
+
+ 3                                      V.       CONCLUSION
+
+ 4          The Court ORDERS the following sanctions for violation of Federal Rule of Civil
+
+ 5   Procedure 11(b):
+
+ 6          1.     Attorney Jocelyn Stewart is personally sanctioned in the amount of $3,000.
+
+ 7                 Within 21 days of the date of this order, Ms. Stewart shall pay this sanction to the
+
+ 8                 Clerk of the Court. The case number and a copy of this order should be included
+
+ 9                 with payment.
+
+10          2.     Ms. Stewart shall include a certification with all subsequent briefing in this case
+
+11                 stating that all citations have been verified and accurately reflect the propositions
+
+12                 put forth.
+
+13          3.     Ms. Stewart shall provide a copy of this order to Plaintiff Joann LeDoux and file a
+
+14                 certification with the Court that she has done so no later than July 28, 2026.
+
+15          4.     The order to show cause issued on February 4, 2026 (Dkt. 209) is hereby
+
+16                 discharged.
+
+17
+
+18          Dated this 24th day of July, 2026.
+
+
+
+                                                          a
+19
+
+20
+                                                          Tiffany M. Cartwright
+21                                                        United States District Judge
+
+22
+
+23
+
+24
+
+
+     ORDER ON SANCTIONS - 11
+

@@ -1,0 +1,940 @@
+       APPELLATE I.JPDATE
+
+PUBLISHED BY THE                                                                      NOVEMBER 2OI7
+ADMINISTRATIVE OFFICE OF THE COURTS                                                  VOLUME 25, NO. 3
+
+
+
+
+  Appelløte Update is a service provided by the Administrative Office of the Courts to assist in
+  lóóating p,rbli.h"d decisions olth" Arkansas Supreme Court and the Court of Appeals. It is not
+  un omJifu publication of the Supreme Court or the Court of Appeals. It is not intended to be a
+  complete .u1¡rnury of each case; rather, it hightights some of the issues in the case. A case of
+  interest can be found in its entirety by searching this website:
+  http s //opinions. arcourts. gov/ark/en/nav' do
+       :
+
+
+
+
+  ANNOUNCEMENTS
+
+   on December 7th, the Supreme Court adopted rules changes to be effective January I,2018. The
+   rules affected are Rules of Civil Procedure 45,45.1 (new), Sup, Ct, R. 4-6, Rules of App. P.-Civ
+   2, and l2 (new). Administrative Order No. 2 was amended regarding the entry of orders by the
+  judg,..
+
+
+
+   CRIMINAL
+
+   Ray v. State,2OlT Ark. App. 574 [constitutional challenges; Ark. Code Ann. $ 12'12'919]
+                                                                                                 A
+   rational basis exists for treating sex offenders convicted under more than one case number
+   differently than those convicted under a single case number. The legislative intent behind the
+   sex-offender registry is to protect the public from sex offenders, whom the legislature has found
+   to pose a high risk of reoffending after having been released from custody, Individuals convicted
+   of a subsequent sex offense under a second case number have committed more than one sex
+   crime, and the General Assembly could have concluded that these individuals are more likely to
+   reoffend. The requirements under the Sex Offender Registration Act have been determined to be
+
+
+
+                                                   1
+civil in nature and as such cannot be considered violative of the ex postfacro prohibitions of the
+United States or Arkansas Constitutions. (Phillips, G.: CR-I7-294;11-I-17 Klappenbach, N.)
+
+Harrison v, State,2017 Ark. App. 580 [severance] A defendant has a right to a severance when
+two or more offenses have been joined solely on the ground that they are of the same or similar
+character. Otherwise, granting or refusing a severance is within the discretion of the trial court,
+and the decision by the trial court will not be disturbed absent an abuse of discretion. A
+severance motion may be denied if the two offenses were part of a single scheme or plan or if
+both offenses require the same evidence, In appellant's case, the circuit court refused to sever
+the murder-in-the first-degree charge from the possession-of-a-firearm-by-a-certain-person
+charge, The Arkansas Supreme Court has explained that while possession of a firearm is a
+common element with murder perpetrated by means of a firearm, the introduction of a conviction
+of a prior felony as required for a possession-of-a-firearm-by-certain-persons charge has nothing
+to do with the elements of proof required for murder in the hrst degree. Moreover, the Court
+advised that presentation of a prior conviction to the jury runs the risk of prejudicing the trial of
+the joined offense to some degree. Because the two offenses in appellant's case were not part of
+a single scheme or plan nor did they require the same evidence, the trial court erred in refusing to
+sever the two charges. (Proctor, R.; CR-16-820; l 1' l-17; Hixson, K.)
+
+
+Cummings v. State,2017 Ark. App. 573 [bond reduction] The proper means to challenge a bond
+decision is by a writ of certiorari and a party who does not seek a timely writ of certiorari from a
+bond decision abandons the issue. Once an appellant has been found guilty and is incarcerated,
+the issue of pretrial bond is moot. (Clawson, C.: CR-17-187; 1I-I-17; Harrison, B')
+
+
+State v. Cossio,2017 Ark.297 lrape-shield statute; Ark. R. Evid. 4111 The trial court abused
+its discretion when it admitted evidence of the victim's prior sexual conduct with a third party
+because the evidence was not relevant or admissible under the rape-shield statute or Ark. R'
+Evid. 411. Contrary to the appellant's assertion, the evidence was not relevant to show the res
+gestae of the charged offense or to establish the relationship between the parties. (Wright, H';
+CR-17-250; ll-2-17; Goodson, C.)
+
+pennington v. State,2017 Ark.305 [sentencing] A trial court cannot amend the original valid
+sentence to run the sentences consecutively after a sentence has been put into execution.
+However, that rule does not apply if the original sentences were invalid, and the case is reversed
+and remanded for resentencing. Additionally, where a sentence involves separate sentences, as
+with several counts for example, the law generally prohibits the modification of the legal portion
+of the sentence. However, when there is an error in one portion of an individual sentence, the
+court views the sentence as an indivisible totality and if modification is required, the court may
+on resentencing impose any sentence it could have lawfully imposed at the outset. In appellant's
+case, because his original sentence was invalid, on remand for resentencing the circuit court was
+
+
+                                                  2
+permitted to impose any sentence that would have been permissible at the time the original
+sentence was imposed, which could include requiring that appellant serve the multiple sentences
+consecutively, (Wright, H,; CR-17-143; lI-2-17; Wynne, R.)
+
+Hanley v. State,2017 Ark. App. 583 [sentencing] "Double counting" jail time is impermissible,
+Credit for jail time is appropriate when the pretrial incarceration is due to inability to make bail,
+but not appropriate when the incarceration is due wholly to unrelated charges based on conduct
+other than that for which the defendant is sentenced, (Jones, B.; CR-17-185; 11-8-17; Gruber, R.)
+
+Todd v, State,2017 Ark. App. 587 [Ark. R. Crim. P.37.2|Because appellant's petition seeking
+post-conviction relief complied with the terms of Rule 37 .2 (g) of the Arkansas Rules of
+Criminal Procedure, the trial court erred when it denied the petition based upon untimeliness.
+(Culpepper, D.: CR-17-12; 1l-8-17; Virden, B.)
+
+
+Baltimore v. State,2017 Ark. App. 622 [sufficiency of the evidence; possession of cocaine;
+constructive possessionl Constructive possession can be inferred when drugs are in the joint
+control of the accused and another, However, joint occupancy of a vehicle, standing alone, is not
+sufficient to establish possession or joint possession. There must be some other factor linking
+the accused to the drugs. Other factors to be considered in cases involving automobiles occupied
+by more than one person are: (l) whether the contraband is in plain view; (2) whether the
+contraband is found with the accused's personal effects; (3) whether it is found on the same side
+of the car seat as the accused was sitting or in near proximity to it; (4) whether the accused is the
+owner of the automobile or exercises dominion and control over it; and (5) whether the accused
+acted suspiciously before or during the arrest. In appellant's case, the only evidence linking
+appellant to the cocaine that was found in the vehicle was the fact that he was driving the jointly
+occupied vehicle when it was pulled over and the cocaine was found in the front center cup
+holder. Beyond those two factors, there was a lack of evidence linking appellant to the cocaine.
+The prosecution failed to elicit any testimony that established who owned the vehicle; whether
+the cocaine was found in plain view or whether things had to be moved in order to see it; where
+in the cup holder the cocaine was found; whether the cup holder was open or had a closed lid; the
+proximity of the cocaine in the front center cup holder to the front-seat passenger; on which
+floorboard the cocaine was found; whether the cocaine was found with appellant's personal
+effects; and whether he acted suspiciously before or during his arrest. Based upon the facts of the
+case, the appellate court concluded that the evidence was insufficient to raise a reasonable
+inference that appellant knew that the two small rocks of cocaine were in the front center cup
+holder or on the floorboard of the vehicle. Accordingly, substantial evidence did not support the
+circuit court's finding that appellant constructively possessed the cocaine. (Johnson, L.; CR-17-
+ 157 l1-15-17; Vaught, L,)
+
+
+
+
+                                                  -3
+Myers v. State,2017 Ark. App.617 [sex-offender] Sexual abuse in the second degree is not a
+substantially equivalent offense to aggravated sexual abuse as defined in 18 U.S,C. $ 22a1(a)(1),
+which requires "knowingly causing another person to engage in a sexual act by using force
+against that other person." Thus, sexual abuse in the second degree is not an"aggravated sex
+offense" as that term is defined by Ark. Code Ann. ç12-12-903(3). (Dennis, J.; CR-17-131; 1 1-
+| 5 -17 ; Klappenbach, N.)
+
+
+Cutsinger v. State,2017 Ark. App.647 [motion in limine] Appellant requested that the trial
+court exclude from evidence a portion of a text message that he sent to a friend. The challenged
+message stated: "I'm ready to kill me some cops," Appellant's defense at trial was that he did not
+have the requisite mental state to commit the crimes with which he was charged which included
+murder and attempted murder of individuals who were not police officers. The appellate court
+concluded that because the text message was not relevant to the issue of appellant's mental state
+for the murder and attempted murder of individuals who were not police officers, the trial court
+erred by denying appellant's motion in limine and admitting the evidence. (Cox, J,; CR-17-96;
+I I -29 -17;'Whiteaker, P.)
+
+
+
+CIVIL
+
+Gerber Products Co. v. CECO Concrete Const., LLC,2017 Ark. App. 568 [work product
+interlocutory appeal] Based on the facts of the case, Gerber waived its right to assert the
+privilege by failing to object in a timely fashion. Gerber failed to object on the grounds of
+attorney-client and work-product privileges in its initial responses to discovery, it waited more
+than two years to assert those privileges. Moreover, Gerber's lack of a timely objection persisted,
+despite its having been informed in the earliest stages of discovery that it had inadvertently
+delivered privileged materials to CECO; and despite the fact that the circuit court's July 2013
+order to compel pointed out Gerber's failure to object to the requests. Further, Gerber continued
+to produce over 100,000 pages of documents during discovery while still making no objection on
+the basis of the attorney-client and work-product privileges. [inadvertent disclosure] The circuit
+court was within its discretion to determine that a waiver occurred based on Gerber's lack of
+precautions to prevent inadvertent disclosure. The record shows that the court's concern about
+Gerber's lack of precautions was well-founded. For example, Gerber cites an affidavit from a
+representative of its former law firm as evidence of precautions taken against the inadvertent
+disclosure of privileged documents. However, the affidavit is lacking in detail on that subject and
+would by no means require the circuit court to find that reasonable precautions were taken.
+Moreover, the series of events throughout the parties' multiyear history of discovery
+demonstrates a pattern by Gerber of providing large numbers of documents without objection
+and without sufficient and diligent screening for privileged materials. (Tabor, S.; CV-16-1096;
+l1-1-17; Abramson, R.)
+
+
+                                                 4
+Dept. of Corrections Co. v, Shults, 2017 Ark.300 [FolA-lethal drugs] The circuit court was
+correct in determining that the identity of drug manufacturers is not protected under the
+confidentiality provisions of section 5-4-617 . However, because disclosure of information such
+as lot, control, and/or batch numbers could lead to the identif,rcation of the seller and/or supplier
+of the midazolam, the ADC is correct that it is required to redact and maintain this information as
+confidential under section 5-4-617O. The portion of the circuit court's order requiring disclosure
+of the unredacted records is reversed and remanded for the court to determine, based on the
+evidence presented by the parties, which information must be redacted on the midazolam labels
+and/or package inserts at issue, (Pierce, M.; CV-17-888; 1l-2-I7; Goodson, C.)
+
+
+Box v, J.B. Hunt,2017 Ark. App. 605 [employment-noncompete] Box, a former employee of
+J.B. Hunt brings this interlocutory appeal from the trial court's order granting Hunt's motion for
+an injunction and temporary restraining order. In the order, the trial court enjoined Box from
+disclosing conhdential information and trade secrets to Hub Group and from employment with
+Hub Group for a period of one year from Box's separation from J.B. Hunt. The temporary order
+was based on three agreements containing confidentiality, noncompete, and restricted stock
+provisions executed between the parties during Box's employment. 1. The trial court erred in
+finding that J.B. Hunt established a likelihood of success that Box had violated the 2013
+noncompete and nonsolicit agreement. A party seeking a preliminary injunction bears the burden
+to prove a reasonable probability of success on the merits. In this case, there was testimony
+indicating that any information obtained by Box while working for J.B. Hunt in the intermodal
+division between 2004 and 2011 would be dated and less useful due to changed conditions.
+Moreover, J.B. Hunt produced no evidence of any specific conhdential information that Box had
+obtained during his employment, And there was an absence of any evidence that any conf,rdential
+information would be inevitably disclosed by Box or would give Hub Group an unfair
+advantage. J.B. Hunt's witnesses merely testihed in conclusory fashion that unspecified
+information obtained by Box during his employment with J.B. Hunt could be used in his
+employment with Hub Group; this was not sufficient to demonstrate a reasonable probability that
+Box violated the agreement. 2. The trial court did not find the necessary facts to trigger the
+noncompete clause in the restricted stock agreement. The trial court here and in other parts of its
+order used the phrase "presumptively and voluntarily" to essentially find that, because Box
+voluntarily signed the agreements, J.B, Hunt is presumptively entitled to injunctive relief
+regardless of the facts. However, by signing the restricted stock agreement, Box did not agree
+that J.B, Hunt would automatically be entitled to injunctive relief; he agreed that it would be
+entitled to injunctive relief only if Box committed a violation of the agreement. This necessarily
+involves an inquiry into whether Box likely violated the agreement based on the evidence
+presented. Because the trial court made no f,rndings on that issue, it erroneously awarded
+injunctive relief based on the restricted stock agreement. (Karren, B.; CV-17-207; ll-9-I7;
+Hixson, K,)
+
+
+
+                                                  5
+Bqker v. Dept. Human Services, 2017 Ãrk. App. 593 [employment termination] Employee
+challenged her firing. ADHS contends that Baker's suit was properly dismissed for her failure to
+challenge her termination through ADHS's grievance procedures. It is well established thal a
+litigant must exhaust her administrative remedies before instituting litigation to challenge the
+action of the administrative agency. (Fox, T.; CV-17-171; 11-9-17; Gladwin, R.)
+
+
+Holladay v. Glass, 2017 Ark. App. 595 IFOIA] A prison transport manifest did not fall within
+the scope of the "undisclosed investigation" exception to the Arkansas Freedom of Information
+Act. The manifest at issue in this case was simply a record kept in the regular course of business
+and was not investigatory in nature such that the exemption would apply. Attorney's fees and
+costs were properly awarded to person making the request. (Griffen, W.; CV-17-159; 1l-9-17;
+Harrison, B,)
+
+Ogborn v. DHS, 2017 Ark. App. 600 [administrative appeal] Ogborn appeals the
+administrative decision of the Department of Human Services (DHS) to place her name on the
+Child Maltreatment Central Registry. Circuit court properly affirmed the administrative decision.
+The administrative judged did not err in finding that it was bound by the decision of the Benton
+County Circuit Court in the dependency-neglect adjudication. (Smith, T; CV-17-173; ll-9-17;
+Whiteaker, P.)
+
+Ashley Bancstock Co. v. Meredith, 2017 Ark. App. 598 [corporations-shareholders rights]
+Shareholders of ABC demanded to inspect and copy certain records of ABC pursuant to
+Arkansas Code Annotated section 4-26-715. Instead of providing the requested records, ABC
+sued them in circuit court seeking declaratory relief regarding the nature and extent of the
+records the shareholders were entitled to inspect and copy pursuant to the statute. The circuit
+court properly found the shareholders were entitled to all the records they sought. Challenges to
+request on the following grounds were properly rejected: (1) Corporation was not required to
+produce sensitive financial records that spanned a nine-year period; (2) Shareholders were not
+entitled to inspect and copy the records of related entities; and (3) Shareholders were not entitled
+to copies of liability-insurance policies, (Glover, D.; CV-16-657;11-9-17; Glover, D.)
+
+DHS v. Ledgerwoo d,2017 Ark, 30S (TROI DHS contends that the circuit court abused its
+discretion in granting appellees' motion for temporary restraining order and enjoining it from
+reassessing appellees by using the RUGs methodology. Specifically, DHS argues that the circuit
+court abused its discretion in finding that appellees (1) demonstrated a likelihood of success on
+the merits and (2) will suffer irreparable harm in the absence of a TRO. Given the evidence,
+appellees have provided a suffrcient showing of irreparable harm to justify the circuit court's
+issuance of a temporary restraining order. Appellees have sustained injuries for which money
+damages are not available. Based on their sworn affrdavits, appellees admit that they have
+suffered lack of food, have remained in soiled clothes, have gone without bathing, have missed
+
+
+                                                  6
+treatments and turnings, face increased risk of falling, have become more isolated, and have
+suffered worsened medical conditions as a result of their lack of care provided by DHS, The
+moving party has demonstrated a likelihood of success on the merits. Without delving into the
+underlying merits of appellees' ongoing claims, it appears that they have demonstrated a
+substantial likelihood of success on the merits that, by failing to provide proper notice, DHS did
+not substantially comply with section 25-15- 204 inpromulgating the new RUGs methodology.
+(Griffen, W.; CV-17-183;November 9, 2017; Kemp, J.)
+
+Tran v. Vo Meredith,2077 Ark. App. 618 [new triat/jury instructions] Trial court abused its
+discretion in finding that a new trial was warranted due to a jury instruction not including a
+definition of clear and convincing evidence. There was no objection to the instruction and the
+basis improperly raised by the trial court on its own did not warrant a new trial. (V/elch, M; CV-
+17-l17; lll5-Il    Klappenbach, M.)
+
+
+Swindle v, State Ferm,2017 Ark. Ãpp. 632 [dismissaVres judicata] The trial court found that
+res judicata based on issue preclusion applied and dismissed appellant's complaint. This was in
+error. Although an attorney client relationship is usually suffrcient to satisfu the privity
+requirement, this is not the case when the parties' interests are adversary to each other. Thus, the
+trial court erred by finding that res judicata supported dismissal of appellant's claim against State
+Farm, (Karren, B,; CV-17-3I0; fi-15-17 Brown, V/.)
+
+Engleman v. McCullough,20IT Ark. App, 613 [jury instruction] The trial court did not err in
+giving AMI 1501 because it accurately states the law and must be given in medical-malpractice
+cases such as this one. A trial court is required to give AMI 1501 in its entirety when plaintiffs
+contend medical-care providers acted negligently in treating their patients, and failure to do so
+would have been reversible error. (Jackson, S.; CV-16-786; ll45-17; Gladwin, R')
+
+Industrial Welding Supplies v. Pinsen,2017 Ark.315 [class certification] The circuit court's
+order failed to comply with the mandatory requirements contained in Rule 23(b) of the Arkansas
+Rules of Civil Procedure -- that "la]n order certifying a class action must define the class and the
+class claims, issues, or defenses." Here, the circuit court defined the class as "all persons who
+were employed by Industrial Welding Supplies of Hattiesburg, LLC on December 3 l, 20II,
+were so employed for at least one year prior thereto, and continued to be so employed until
+Industrial Welding Supplies of Hattiesburg, LLC was acquired by Airgas, LLC on March 31,
+ 2012," However, the circuit court failed to comply with the remainder of Rule 23(b)'s
+requirements to define the "class claims, issues, or defenses." (Guthrie, D.; CV-17-86; 1l-16-17
+Baker, K.)
+
+
+Wqit v. Elmen,2017 Ark. App. 648 [injunction] The circuit court abused its discretion in
+concluding that Elmen had established that irreparable harm would occur in the absence of an
+
+
+                                                  7
+injunction. In both the complaint and the motion for preliminary injunction, Elmen sought an
+order barring'Wait from any role in the management of the companies; enjoining Wait from self-
+dealing; and a full accounting of all company information and money spent. The circuit court
+granted this relief, but went further suspending all salary, distributions, and other payments to
+both V/ait and Elmen. A circuit court may not entertain injunctive relief sua sponte in the
+absence of pleadings requesting such relief. The circuit court abused its discretion when it
+granted sua sponte relief beyond that requested in the pleadings. (Fox, T.; CV-16-836 11-29-17;
+Whiteaker, P.)
+
+Barnett v, Cleghorn,2017 Ark. App, 641 [negligence/summary judgment] The evidence
+presented to the circuit court demonstrated the existence of a material issue of fact regarding
+causation. Summary judgment is not designed for assessing the probative strength of conflicting
+proof or expert opinions, Rather, that process is correctly done by the trier of fact after a trial on
+the merits. Therefore, the circuit court erred in granting summary judgment. (Williams, C.; CV-
+ 17-24; I1-29-17; Klappenbach, M.)
+
+
+Walker v. I4/ilmoe Corp.,2017 Ark.340 [class certifTcation] The class definitions require
+potential plaintiffs to have incurred a debt arising out of pawn transactions with National Pawn
+Shop. Here, appellee contends that no loans were ever made and, by extension, no one ever
+incurred a debt pursuant to pawn transactions with National Pawn Shop. Thus, the circuit court
+would be required to determine one of the ultimate issues in the case-whether a debt was
+incurred-before it could be determined whether prospective plaintiffs could properly be
+included in either of the proposed classes. The definitions of the proposed classes are not based
+on objective criteria, The trial court did not abuse its discretion in denying the motion to certify
+the classes. (Piazza, C.; CV-17-227;11-30-17; Wynne, R.)
+
+
+Arch Street Pawn Shop v. Gunn, 2017 Ark.341 [class certification] The class definition
+attempts to lasso all who "owe or will incur debts" springing from business with Arch Street.
+Given the nature of the legal claims, however, proceeding with class litigation on this basis
+would put the cart before the horse. The ultimate legal issue in this case is whether the
+transactions Arch Street typically engages in are "loans" that create "debts" for which appellees
+"owe" payment as those terms are contemplated in, or controlled by, the Arkansas Constitution's
+anti-usury language. Determining whether a particular pawn transaction was a loan and thus
+created a debt is the sort of predicate question that would have to be determined by reference to
+each potential class member's situation rather than a uniform set of objective criteria. All
+customers at Arch Street received similarly phrased pawn tickets. However, some customers
+redeemed their pawned items, some surrendered their pledges intending to redeem them but
+ultimately did not, and still others pawned items with no intent to redeem them at all. Proposed
+class dehnitions posing such administrative difficulties are not suitable for certification. Because
+the class as defined is not ascertainable as a threshold matter, the circuit court abused its
+
+
+                                                   8
+discretion by proceeding to a Rule 23 analysis and granting certification. The circuit court erred
+in certifying the class. (Griffen, W.; CV-17-I82; l1-30-17; Womack, S.) See also Pawnderosa
+Pawn Shop, Inc. v. Conley,2017 Ark.342.
+
+
+ Desoto Gathering Co. v. Hill,2017 Ark. 326 [unauthorized practice of law] The circuit court
+did not err in dismissing DeSoto's appeal from the board of equalization to the circuit court for
+lack ofjurisdiction because the appeal was initiated by a nonlawyer. By filing the appeal, the
+person engaged in the unauthorized practice of law. The appeals filed on behalf of DeSoto must
+be deemed a nullity because they were filed in violation of the prohibition of the unauthorized
+practice of law. Because the notices of appeal are a nullity and the deadline for filing an appeal
+under Ark. Code Ann. $ 26-27 -318 had lapsed when the amended notices were filed, the
+petitions of appeal were a nullity, the county court did not have jurisdiction, and the circuit court
+did not have jurisdiction. The circuit court did not err in granting Hill's motion to dismiss.
+(Braswell, T.; CV-l 6-990;11-30-17; Baker, K.) See also Desoto v. Hill,2017 Ark.324; USAC
+Leasing v. Hill,2017 Ark.329 USAC Leasing v. Hill,2017 Ark.335.
+
+
+
+DOMESTIC RELATIONS
+
+Atchley v. Atchley,2017 Ãrk. App, 575 fmotion to dismiss custody case following petitioner's
+case in chief] The appellate court found error in the circuit court's granting of Appellee's motion
+to dismiss because it did not view the evidence in the proper light. At the conclusion of
+Appellant's presentation, the circuit court was not to weigh the evidence or make credibility
+determination in ruling on Appellee's motion to dismiss. All the evidence was to be viewed
+most favorable to Appellant's petition, giving the proof presented its highest probative value and
+taking into account all reasonable inferences deductible therefrom. Because fair-minded people
+could have undoubtedly come to differing conclusion on the evidence, it was error to summarily
+dismiss Appellant's petition to change custody where a prima facie case of material change in
+circumstance was presented. (McCormick, D.; CV-I7-255;11-l-L7; Klappenbach, N.)
+
+Moodyv. Moody,2017 Ark. App.582 [plain language of settlement agreement; equal
+division of marital property; burden regarding proof of nonmarital property; failure to
+provide evidence to circuit court and failure to provide legal authority at appellate levell
+The appellate court found the circuit court did not err in finding Appellant responsible for the
+real estate taxes on the martial home that appellee received in the property-settlement agreement.
+The parties' temporary order unequivocally ordered Appellant to pay the property taxes, and the
+parties' final divorce decree states she would be responsible for the marital residence expenses
+she was previously ordered to pay until she vacated the martial home. Because it is clear from
+the plain language of the divorce decree that appellant would receive an increased amount of
+support for the duration of her stay in the marital home for the express purpose of paying certain
+expenses including the real estate taxes, the appellate court found no error. Second, the appellate
+court found no error in the circuit court's ruling to equally divide value of the "missing" flatware
+following credible witnesses' testimony as to its existence. The appellate court also found no
+error in the circuit court equally dividing the lion statues, as the court has the obligation to
+
+                                                  -9
+distribute one-half of marital property to each party. Next, the appellate court found error in the
+circuit court's failure to include the parties' tractor as martial property. The appellate court
+stated that the burden was on the Appellee to establish that the property was his separate
+nonmarital property and that the court could not hold that the burden was met; therefore, it
+should be included in the division of marital property. Lastly, the appellate court found no error
+in the circuit court dismissing the Appellant's contempt motion, as she provided no testimony or
+evidence in support of her contempt allegations regarding the wellbeing of the child. The
+appellate court recognized that the circuit court did not deny the parties an opportunity to testify
+regarding any issues-it simply advised the parties that they could not extend their hearing past
+the scheduled time. The appellate court also did not consider any additional arguments raised by
+Appellant as she failed to assert any legal authority and failed to provide evidence to the circuit
+court in support of certain arguments, (Smith, V.; CV-16-514; ll-1-17; Brown, W.)
+
+Kelly v. Kelly,2017 A1r.. App. 599 finformation to be clarifïed in findings regarding financial
+need for alimony; repayment of alimony overages following mandate from appellate court]
+The appellate court found error in the circuit court's factual finding that Appellee had established
+a need for $10,616.50 per month in support, The support order considered the financial needs of
+her three-person household and not only Appellee's personal financial needs. The appellate
+court found the circuit court's order should be modified to clarify that the $10,616.50 need is for
+Appellee and her children. Appellant did not challenge the $10,616.50 support amount-only
+the finding that it was for Appellee's needs only. The appellate court also found error in the
+circuit court's finding that it would be inequitable to require Appellee to repay a portion of the
+excess alimony payments received, as it was money that Appellee was not entitled. For a period
+of 32 months (from the date of the alimony award through the date the circuit court heard the
+case on remand following the first appeal), Appellant overpaid Appellee monthly by $6,043,50.
+Appellee received 5193,392 overpayments in total. While the appellate court found that
+repaying the total overpayments is inequitable, the court found it is not inequitable for Appellee
+to repay the 7 months of alimony overage received between the appellate opinion and the circuit
+court's new order in response to the mandate. The appellate court ordered repayment of the
+overage by giving Appellant a $1,000,00 per month credit until repaid in full. (Taylor, J.; CV-17-
+279; ll-8-17; Glover, D.)
+
+Tipton v. Tipton,2017 Ark. App. 601 funequal distribution of marital property and factors
+that must be considered] The appellate court found error in the circuit court's unequal division
+of marital property without appropriate consideration of the factors established in Ark. Code
+Ann. 9- 12-315. Although the circuit court's ruling from the bench seemed to indicate that the
+court found that the real estate was not marital property, the written order states it was making an
+unequal distribution of property and the written order controls over the circuit court's oral
+pronouncement, Therefore, the circuit court erred when the written Order did consider or recite
+the factors, basis, and reasons for not dividing the marital property equally between the parties.
+(Compton, C.; CV-17-266; 11-8-17; V/hiteaker, P.)
+
+Stahl v. Smith,2017 Ark. App. 603 forder of protection and defïnition of domestic abuse] The
+appellate court found error in the circuit court's entering a final order ofprotection based on a
+finding that Appellant had committed domestic abuse against the parties' child. A petition for
+order of protection shall allege, among other things, the existence of domestic abuse. Because
+
+
+                                                 10-
+there is no evidence on the record of harm or injury by Appellant, the circuit court must have
+relied on the second portion of the domestic abuse definition, i,e. that Appellant inflicted fear of
+imminent physical harm. The only evidence to arguably support such a finding was that
+Appellant failed to protect the child from alleged abuse, that Appellant thought the child was
+lying about the abuse, that Appellant became aggressive and angry when speaking to the child
+about the allegations, and that Appellant continued to allow the child around the alleged abuser.
+The appellate court found that this evidence, even if assuming all of Appellee's testimony is true,
+is insufficient to support the domestic abuse filing. (Duncan, X.; CV-l7-415;11-8-17; Vaught,
+L.)
+
+Henderson v. Henderson,2077 Ark, App.620 fchild support retroactive to child's birth; child
+support and visitation are separate issues] The appellate court found error in the circuit court
+failing to award child support anearages back to the date that Appellee stopped providing
+voluntary support for his minor child. While the circuit court awarded retroactive child support
+only back to the date that the petition to establish paternity was filed, the appellate courts
+repeatedly have upheld a circuit court's order awarding retroactive child support from the date of
+the child's birth, The appellate court explained that a parent has a legal duty to support his
+minor child, regardless of the existence of a support order, and child support is an obligation
+owed to the child, not the parents. In addition, Appellee never disputed his paternity. The
+appellate court also found error in the circuit court's abating Appellee's child support obligation
+for the two years that Appellant had taken the child to Great Britain. The appellate court states
+that child support obligations and visitation are completely separate issues, When the custodial
+spouse interferes with visitation, the remedy is to seek enforcement of visitation- not to withhold
+.hild rrpport. Child support is an obligation owed to the child independent of the noncustodial
+parent's relationship or visitation with the child. (Smith, V.; CV-17-257; Il-15-17; Glover, D.)
+
+Grindstaff v. Strickland and minor children,2017 Ark. App. 634 fmaterial change of
+circumstance; best interest; changing custody before using contempt powers] The appellate
+court found that there was sufficient evidence for the circuit court to have found a material
+change of circumstance to warrant a modification of custody. The circuit court noted the
+following concerns: Appellant's rigid imposition of visitation exchange times, her failure to list
+Appellee as a parent on school forms, her failure to follow their agreement to jointly decide
+children's issues, her suggestion for Appellee to give up his parental rights, and her "miserable
+job" of communicating with Appellee. The appellate court also rejected Appellant's argument
+that, because there was no testimony that the children were aware of Appellee's poor choices, the
+ circuit court erred in finding that it was in the best interest of the children to modify custody'
+The appellate court recognized that once the noncustodial parent has established a material
+ change in circumstances, the court itself is to weight the best interest of the child, and the circuit
+ court did not clearly err in its best-interest analysis. Lastly, the appellate court found no error in
+the circuit court's choosing not to use its power to hold Appellant in contempt as a step
+preceding the change of custody, There is no requirement to do so. The attorney ad litem and
+õircuit court were concerned about the effect that alienation and failure to communicate would
+ have on Appellee's relationship with the children, The ad litem, noting Appellant's repeated
+ behavior and violation of court orders, specifically recommended it was in the children's best
+ interest that the court change custody rather than holding her in contempt. (Schrantz, D.; CV-17-
+ 333; 1I-29-17; Gruber, R.)
+
+                                                  -t1.-
+,Ienkins v. Jenkins,2017 Ark. App. 642 falimony modification and enforcement] The appellate
+court found no error in the circuit court's findings of facts regarding Appellant's income and
+found no error in the circuit court's finding that Appellant had failed to prove that his income
+had decreased. The parties' 2010 property settlement agreement stated Appellant would pay
+Appellee $3,000 per month in alimony until Appellant's "income is reduced". The agreement
+did not recite what his was income was in 2010. Appellant failed to pay any alimony beginning
+in January 2016, and he claimed his income had decreased. The appellate court found that
+Appellant's 2010 1 099 was the best evidence of Appellant's income that year, and the only
+remaining evidence on income was the 2015 1099, which showed a higher income than that in
+2010. It was Appellant's burden to establish that there was a decrease in his income, and he
+failed to present any evidence regarding his year-to-date income in2016. The appellate court
+also found no error in the circuit court ordering Appellant to pay an additional $1,000 per month
+towards his alimony arrearage. Appellant argued, but failed to explain, how the circuit court's
+enforcing the written contractual agreement constituted a modification of that agreement. The
+circuit court had the power to construe, clarify, and enforce the agreement, and the circuit court
+did not change the terms of the alimony agreement in any way. The additional $1,000 was
+merely a method of enforcing payment. (Reif, M.; CV-17-83; 1l-29-17: Klappenbach, N.)
+
+James v. Walchli,2017 Ark. App. 645 [child support in joint custody; attorney's fee finding]
+The appellate court found error in the circuit court's failure to establish an award of child support
+in Appellant's favor, The parties each have custody of one minor child, Appellant's W-2 income
+reflected an income of $37,000, and an expert witness testihed that Appellee's income was
+between $300,000-$500,000 for the 2-year period proceeding. Because the parties each have
+custody of one child, and since the circuit court found no clear figure on Appellee's income, the
+circuit court ordered no child support. The appellate court found error and remanded the matter
+for further proceedings. The appellate court directed the circuit court to follow Administrative
+Order No, l0(c) addressing calculation of support for self-employed payors, specifically the
+procedure for determining child support by using the net-worth method. The appellate court
+found no error in the circuit court's award of attorney's fees in favor of Appellee, as Appellant
+willfully violated the order regarding the children's passport. The sanction for her disregard was
+appropriate, despite the disparity of the parties' incomes. Note: Appellant did not challenge the
+finding of contempt which resulted in the award of attorney's fees. (Cox, J,; CV-17-I24;1I-29-
+17; Glover, D.)
+
+Cooper v. Kallauarf,20IT Ark.331 frelocation- Hollandsworth vs. Singletary] The appellate
+court found error in the circuit court's application of Hollandsworth v. Knyzewsfri in Appellee's
+request to relocate. In Hollandsworth, the Court announced a presumption in favor of relation
+for custodial parents with sole or primary custody, with the noncustodial parent having the
+burden to rebut this presumption. In Singletary,the Court explained that the Hollandsworth
+presumption does not apply when the parents share joint custody of a child. The proper analysis
+for a change-in-custody request due to the relocation of one parent in a joint-custody situation is
+the same as that when relocation is not involved; the court must first determine whether a
+material change in circumstances has transpired since the divorce decree and then whether the
+change in custody is in the best interest of the child. In this case, just as in Singletary, the decree
+states that the parties are to share joint legal custody but that appellee is the primary physical
+custodian. The decree then awards Appellant nearly equal time with the minor child. Because
+
+
+                                                  -1.2-
+the language in the decree is unclear whether the parties had joint custody such that the
+Singletary analysis should apply, the circuit court was correct in reviewing the parties'
+subsequent statements and conduct. The circuit court found that Appellant had custody 42.9
+percent of the time, and he had some form of contact with the child at least 60 percent of the
+days in the year. Despite these findings, the circuit court concluded that Appellee was the
+primary custody and entitled to a presumption in favor of relocation based on the fact that the
+parties' custodial arrangement was not 50/50. The appellate court disagreed and clarified that
+ the Hollandsworth presumption should be applied only when the parent seeking to relocate is not
+just labeled the "primary" custodian but also spends significantly more time with the child than
+the other parent. The appellate court did not impose a percentage of time that a parent must
+ spend with the child for the Singletøry analysis to apply. The appellate court then concluded that
+the analysis set forth in Singletarl governs Appellee's relocation petition and remanded for the
+ circuit court to apply this analysis to the facts of this case. (Smith, V.; CV-l7-298;11-30-17;
+ Goodson, C.)
+
+
+PROBATE
+
+Childress v. Braden,2017 Ark. App. 569 fconsent not required in stepparent adoption;
+definition of "failed significantly" within the consent statute; best interest of childl The
+appellate court found no error in the circuit court's hnding that Appellant's consent to adoption
+was not required because she failed significantly without justifiable cause to provide for the care
+and support of her child for a period of at least one year. Appellant argued that her failure to pay
+child support was justified because she had no knowledge of the order requiring her to pay child
+support, but the circuit court specifically discredited her testimony regarding this. Also, the
+circuit court found that Appellants gifts to the child did not constitute support in a meaningful
+degree. "Failed significantly" within the statute does not mean "failed totally"; it only means
+that the failure must be signif,rcant, meaningful, or important. Lastly, the appellate court found
+no error in the circuit court's ruling that the adoption was in the child's best interest, as the
+mother had not seen the child in three years which was Y, of the child's life, the evidence showed
+the maternal grandparents could continue their relationship with the child after the adoption, and
+the stepmother had a strong relationship with the child. (McCormick, D.; CY-17-67;ll-I-17;
+Abramson, R.)
+
+Dawson v. Dawson,2017 Ark. App. 584 freopening estate following 4l(b) dismissal] The
+appellate court found no error in the circuit court's finding that it did not have jurisdiction to
+reopen the estate following a al @) dismissal. Because Appellant did not appeal the 201 1
+dismissal of the case nor file a motion to set aside or vacate the dismissal, the appellate court
+found it is now too late to argue that the circuit court erred in dismissing the case in 20IL
+Furthermore, while Ark. Code Ann. 28-53-119 allows the circuit court to reopen an estate in
+certain circumstances, the statute only authorizes a reopen when the estate "has been settled and
+the personal representative discharged". Because the estate was dismissed for failure of the
+executrix to administer the estate, it was not settled and the personal representative was not
+discharged. Therefore, this statute does not apply, (Bell, K.; CV-16-992; 11-8-17; Gruber, R.)
+
+
+
+
+                                                -13-
+In the Matter of the Estate of Tom Alexander Deceased, and David Neal, et al. v. Sparks
+Regional Medical Center,2017 Ark. App, 588 fdecedent's intent when beneficiary name
+misnomer; entity changes effect on devise; cy pres applied to charitable bequest; decedent's
+charitable intent; cy pres beneficiary] Appellants, the natural heirs of decedent, appealed the
+circuit court's decision to grant the decedent's estate to Sparks Regional Medical Center
+(SRMC). The appellate court found error in the circuit court's finding that SRMC is the same
+entity as Sparks Memorial Hospital (SMH), but the appellate court found no eÍror in the other
+points on appeal. First, the appellate court found no error in the circuit court's f,rnding that the
+decedent intended to leave his estate to the specific legal entity, SMH. The decedent's use of the
+name "sparks Hospital" rather than "sparks Memorial Hospital" could have been a simple
+misnomer, and the circuit court successfully effectuated the intent of the testator to devise his
+estate to the entity that owned and operated Sparks Hospital, i.e. SMH. Second, the appellate
+court found that SRMC is not the same entity as the Sparks Hospital named in the will, not does
+SRMC have the same function as SMH, The changes that took place are transformative and
+profound, including SRMC no longer identifies charity care as a purpose, no longer operates as a
+hospital, and does not even provide direct medical care. Because SRMC is not the same entity as
+SMH and does not serve the same puposes, the decedent's devise fails and the appellate court
+must address the issues regarding cy pres. Third, the appellate court found no error in the circuit
+court's finding that cy pres may be applied to charitable bequests. The equitable doctrine of cy
+pres in the principle that equity will, when a charitable originally or later becomes impossible or
+impracticable of fulfillment, substitute another charitable object which is believed to approach
+the original purpose as closely as possible. Although the general assembly codified cy pres as it
+relates to charitable trusts, there is no indication that the legislature sought to end the application
+ of cy pres to bequests and the Arkansas Supreme Court acknowledges that cy pres may be
+ applied to devises and trusts alike. Fourth, the appellate court found no error in the circuit
+ court's finding that the decedent had charitable intent and that the decedent's underlying
+ charitable intent of his bequest was to promote public health, which is an enumerated statutory
+ charitable purpose. Fifth, although disagreeing with the circuit court that SRMC is not the same
+ entity as SMH, the appellate court found SRMC is the appropriate cy pres beneficiary. The
+ circuit court fashioned a use for the funds as near to the decedent's intent as possible under the
+ circumstances, and the appellate court found no erïor. (Spears, J,; CV-16-805; 11-8-17; Virden,
+B)
+Clarkv. Clark,2017 Ark. App.612 [due process rights in adoption] The appellate court found
+that the biological parents/Appellants' due process rights were violated for failure to receive
+notice of the adoption petition filed by the grandparents/guardians. Even though more than one
+year had elapsed since entry of the adoption decree, the appellate court found there was no
+evidence that the Appellants received any notice of the adoption proceeding before entry of the
+decree. In Mayberuy v. Flowers,347 Ark.476,the Arkansas Supreme Court found that the one
+year statute of limitations (to question a decree of adoption for failure to give the required notice)
+did not bar a father's motion to set aside an adoption when the father received no notice of the
+adoption petition until after the entry of adoption, In contrast, the Supreme Court has also held
+that because a mother received actual notice of the pending adoption, her due process rights were
+not violated even if the evidence revealed defects in the service of process. Due process requires
+notice reasonably calculated to apprise parties of the pendency of the adoption action and to
+afford them an opportunity to respond. The appellate court found that the dependency neglect
+
+
+                                                   1.4-
+action did not give the Appellants notice reasonably calculated to apprise them of the pending
+adoption and afford them an opportunity to respond, (Choate, S.; CV-17-326;1I-15-I7;
+Abramson, R.)
+
+
+JUVENILE
+
+Connors v. Ark. Dep't of Human Servs.,2017 Ark. App. 579 ITPR -suffTciency of the
+evidence; adoptabilityl Termination order was appealed on the basis that there was insufficient
+evidence that termination was in the child's best interest. Appellant father, who was incarcerated
+during the pendency of the case, argued that the trial court erred in terminating his rights because
+there was insufficient evidence that the child was adoptable due to the child's sexual aggression,
+and there was a relative willing to take custody of the child. The appellate court aff,trmed,
+explaining that the trial court considered evidence of adoptability, including the case worker's
+testimony concerning sexual aggression. Moreover, the court found that sexual aggression was
+not an issue because the child was not sexually aggressive. With regard to relative placement, the
+relative that Appellant claimed was interested in placement did not contact DHS as a potential
+placement until after the child had been in DHS custody for over twenty months and did not
+testify at the termination hearing. Termination was affirmed. (James, P., JV-15-725; November
+1,2017; Vaught, L,)
+
+Jacobs v. Ark. Dep't of Humøn Servs.,2017 Ark. App. 586 [TPR-sufficiency of evidence of
+potential harml Order terminating parental rights was afftrmed where mother was arrested on
+four separate occasions throughout pendency of the DN case, completed two in-patient drug-
+treatment programs but failed to demonstrate long-term sobriety, and the children were out of the
+mother's custody for twenty months. The appellant mother argued that there was insufficient
+evidence that termination was in the children's best interest because there was insufficient proof
+that the children would be subjected to potential harm if returned to her. The appellate court
+disagreed, noting that this was a case where the child's need for permanency and stability
+overrides a parent's request for additional time to improve circumstances. (Zuerker, L.; JV-15-
+299;November 8, 2017;' Abramson, R.)
+
+Knightv.Ark. Dep'to.f HumanServs.,2}l7 Ark.App.602 [TPR-sufficiencyof evidenceof
+potential harm] Child was removed after mother was arrested for possession of
+methamphetamine, drug paraphernalia, and a pipe bomb, all while the child was present. The
+trial court found grounds for termination based on twelve months failure to remedy and
+subsequent other factors. On appeal, the appellant mother argued that there was insufficient
+evidence of potential harm to the children if they were returned to her custody. The appellate
+court disagreed, finding that there was sufficient evidence of potential harm because the mother's
+continued drug use demonstrates potential harm. Moteover, potential harm includes the harm a
+child suffers from lack of stability. Here, the mother never once provided a clean drug screen
+
+                                                 15-
+during the case and did not demonstrate stability. Termination was affirmed. (Richardson, M.;
+JV- 16- 1 ; November 8,2017; Whiteaker, P.)
+
+
+Brinkleyv.Ark. Dep'tof HumanServs.,2017 Ark.App.625 [TPR-sufficiencyof the
+evidencel Three young children were removed from mother after she left them locked out of
+their home and unsupervised for two hours while she was across town. The father of the children
+was incarcerated at the time of removal and remained incarcerated throughout the case. Efforts to
+reunify were unsuccessful and a termination hearing was ultimately held. The mother's rights
+were terminated because the children had remained out of the home for twelve months and the
+mother had failed to remedy the situation that led to the removal and also on the basis of factors
+that arose subsequent to the filing of the case, including the mother being incarcerated on
+seventeen separate occasions during the case and continued persistent alcohol abuse. The father's
+rights were terminated on the grounds of abandonment. The appellate court affirmed the
+mother's termination, finding no error in the termination based on subsequent factors. However,
+the father's termination on the ground of abandonment was reversed, There was no proof that the
+father had been served the emergency order of custody or any subsequent orders, and DHS
+offered no assistance, guidance, and only minimal contact concerning what the father needed to
+do to comply with the case plan, which he also never received. The DHS caseworker testified
+that DHS had no contact with the father and offered no services throughout the case.
+Additionally, the father was not appointed an attorney until immediately before the termination
+hearing. The father testified that he was incarcerated throughout the proceedings, that he did not
+abandon his children, and he was not included by DHS as a participant in the case although they
+knew his location. The appellate court found that the father's conduct under these circumstances
+does not rise to the level of abandonment under a clear-and-convincing standard, and termination
+as to the father was reversed. (Richardson, M.; JV-l5-173;November 1.5,2017; Hixson, K')
+
+
+Burleson v. Ark. Dep't of Human Servs.,2017 Ark. App. 616 [TPR-sufficiency of the
+evidence] Mother appealed order terminating her parental rights. Children were removed after
+the family was involved with DHS in a protective services case, the mother was arrested for
+failing to attend a court hearing regarding one of the children's school absences, and a law
+enforcement offrcer found the front door of the home open one morning and the home in a state
+of squalor, The mother had mental health issues and a history of illegal drug use and was ordered
+to submit to a psychological evaluation and a drug-and-alcohol assessment. During the case, the
+mother attempted suicide on three separate occasions, continued failing drug tests, visited the
+children infrequently, and waited until a month before the termination hearing to obtain housing
+and complete her psychological and drug assessments, The trial court terminated the mother's
+rights on three separate grounds, and the appellate court affirmed. The court found that there
+were grounds for termination based on factors that arose subsequent to the removal of the
+children where the mother failed to comply with the case plan for almost ayear. Under the
+
+
+
+                                                -1.6-
+circumstances, termination was in the children's best interest in order to provide them stability
+and permanency. (Sullivan, T.; JY-16-l;November 15,2017; Harrison, B')
+
+
+Hortonv. Ark. Dep't of Human Servs.,2017 Ark. App. 633 [TPR-sufficiency of the evidence]
+Termination order was entered after mother failed to remedy the circumstances that caused
+removal. The mother was low functioning and the infant was removed due to neglect after being
+hospitalized and diagnosed with failure to thrive. There was evidence that the mother did not
+properly mix the baby's formula, and that the mother's learning disabilities, for which she
+received SSI benefits, affected her ability to read and write and her ability to parent. Evidence
+from multiple sources indicated that the mother needed assistance from another competent adult
+in order to parent her child, and the mother testified that she could take care of her child with
+help from others. The maternal grandmother provided some assistance but was not always
+reliable and there were concerns about her being consistently available to provide the necessary
+support. Fourteen months into the case, the mother filed a motion requesting accommodations
+under the ADA due to her disability. The trial court denied the motion, finding it untimely, and
+the appellate court found that the order denying the motion was not properly designated in the
+notice of appeal and noted in a footnote that the court's opinion does not address the issue of
+whether the ADA applies as a defense in a termination proceeding. Termination was affrrmed
+because the circumstances that led to removal had not been remedied, as the mother could not
+demonstrate after fifteen months of service that she could safely parent her child. (Sullivan, T.;
+JV-1 5-39; November 15, 2017 ; Brown, W.)
+
+
+Hudsonv. Ark. Dep't of Human Servs.,2017 Ark. Ãpp.629 [TPR-sufficiency of the evidence;
+potential harml Mother appealed termination of her rights, arguing that there was insufficient
+evidence that termination was in the child's best interest because it was not proven that the child
+was at risk of potential harm if custody were returned, The court aff,trmed termination, finding
+that the undisputed evidence that the mother sexually abused the child was suff,tcient evidence of
+potential harm. A parent's past behavior may be viewed as a predictor of potential harm and
+living in uncertainty, concerning permanency, is potentially harmful to children. (Jackson, S.;
+JV-1 6-34; November | 5, 2017; Murphy, M.)
+
+
+Johnston v, Ark. Dep't of Human Servs., 2017 Ark. App. 6 i 5 [Permanency Planning] After a
+permanency planning hearing twelve months into the case, the trial court found that that the
+mother had not made substantial and measurable progress and a permanency planning order was
+entered changing the goal of case to APPLA for the seventeen-year-old, to a permanent
+guardianship for the fourteen-year-old, and to permanent custody with grandparents for the five-
+year-old. On appeal, the appellate court recognized that the case was close on the merits but
+affirmed the trial court. The problem that brought the children into care was inadequate housing
+after the mother was arrested and DHS became involved with the family. In addition to obtaining
+stable housing and employment, the mother was also ordered to undergo a drug-and-alcohol
+
+
+                                                 -17-
+assessment, complete a drug-treatment program, under a psychological evaluation, and submit to
+counseling. By the time of the permanency planning hearing, the mother had had at least five
+different living arrangements, but she had completed her drug-and-alcohol assessment and drug
+treatment, she had completed her psychological evaluation and followed the recommendations,
+she had completed parenting classes and visited the children, The case worker's concern focused
+on the fact that the mother had been in her current home only a month, had had several
+temporary living arrangements that were inappropriate for children, did not have employment,
+and had gotten married a few days prior to the hearing to a man that the case worker had not had
+the opportunity to background check, and who was later determined to be a felon, Ultimately, the
+court found that because the problem that caused the removal of the children was inadequate and
+unstable housing and this problem had not been remedied, the mother had not made sufficient
+and measurable progress and the goal change was appropriate. Under these circumstances, the
+appellate court found no clear error and affirmed the permanency planning order. (Elmore, B.;
+JY -1,6-17 ;November 15, 2017 ; Harrison, B.)
+
+
+Meyers v. Ark. Dep't of Human Servs.,2017 Ark. App. 614 [Adjudication; Termination of
+Reunification Services; Change of Custodyl Two-year-old child whose body covered in
+cockroach bites was removed from cockroach-infested home which was cluttered with dirty
+dishes, clothes, and dog feces. The mother from whom custody was removed reported that she
+suffered from schizophrenia, ADHD, bipolar disorder, and a "split personality" for which she did
+not take medication or receive treatment, The mother further reported that she had older children
+who had been removed from her custody, two who were placed in their father's custody after the
+mother attempted to kill him and was jailed for breaking the tibia of one child, and another child
+that had been placed for adoption due to a birth defect. The father of the two-year-old, who lived
+in Tennessee, appeared at the adjudication hearing and requested that custody be placed with
+him. He testified that he was gainfully employed, that he had an approved home study from
+Tennessee, that he had passed all background checks, and that he had previously been awarded
+joint-custody of the child along with the mother. The trial court thereafter entered an order
+terminating reunification services, changing custody to the father, and closing the case, The
+ mother appealed, arguing that Ark. Code Ann. ç 9-27-365 provides thatamotion for no
+ reunification services be provided to all parties in writing at least twenty days prior to a hearing
+ and the failure to provide notice violated her constitutional rights. The appellate court agreed that
+ terminating reunification services without written notice to the mother constituted reversible
+ error and also found that a change of custody was improper where only a dependency-neglect
+ petition had been filed. (Talley, D.i JV-17-1 1; November 15, 2017; Gladwin, R')
+
+Rickman v, Ark. Dep't of Human Servs.,2017 Ark. App. 610 [Termination of Reunification
+Services; Aggravated Circumstancesl After years of DHS working with the mother, an order
+terminating reunification services was entered based on aggravated circumstances. The child was
+first removed from the home due to the mother's testing positive for drugs and using prescription
+
+
+                                                  18-
+drugs that were not prescribed to her. Numerous issues arose during the case, including the
+mother's illegal drug use, signif,rcant issues with clutter and trash in the home, the mother's
+romantic relationship with a man that was abusive, excessive alcohol use, and mental health
+issues. After more than two years of services, DHS f,rled a motion to terminate reunification
+services, arguing that there was little likelihood that services to the mother would result in a
+successful reunification, The trial court agreed, and on appeal, the appellate court affirmed. The
+appellate court explained that it gave due regard to the credibility findings of the trial court and
+great weight to the trial court's personal observations, and that there numerous examples of
+instability in the mother's life demonstrating little likelihood of successful reunification.
+(V/ilson, R.; JV-14-110;November 15, 2017 Gruber, R.)
+
+l4talker v. Ark. Dep't of Human Servs.,2017 Ark. App.627 [Adjudication-efforts to prevent
+removall Appeal was taken from entry of adjudication and disposition order. The department
+had been involved with the family in a protective services cases and had provided services
+including parenting classes and a bus pass to prevent removal of the children. However, after the
+mother admitted marijuana and cocaine use, a dependency-neglect petition was filed and the
+children were temoved from the home. On appeal, the mother argued that the department was
+required to prove that reasonable efforts had been made to prevent removal of the children
+because the emergency exception provided in Ark. Code Ann. ç 9-27-327(a)(2) did not apply
+because the department was working with the family in a protective services case at the time of
+removal. DHS conceded that the emergency exception did not apply but argued that under $ 9-
+27-335(e)(2)(C), it was permitted to remove the children without reasonable efforts to prevent
+removal in order to protect the juvenile's health and safety. The appellate court declined to
+consider arguments concerning the disposition part of the ordet, because under Arkansas
+Supreme Court Rule 6-9(aXlXB), a disposition order is appealable only with a 54(b) certificate
+under Arkansas Rule of Civil Procedure 54(b), which was lacking here. (Zimmerman, S.; JV-17-
+186;November 15,2017; Hixson, K,)
+
+Solee v. Ark. Dep't of Human Servs.,2017 Ãrk. App. 640 [TPR-sufficiency of the evidence]
+Termination order was entered terminating rights to five of appellant mother's six children, The
+children were removed due to educational neglect and the mother's drug use. During the case, it
+was discovered that three of the children had serious behavior problems that required additional
+support staff to assist with transportation of the children and required their visits to be separate
+from the other three children. One child had been in several placements, was destructive, and
+was considered a treatment failure, while another child was suspended from school. After the
+mother failed to remedy the issues that led to removal, the mother's rights were terminated for all
+but one child who was to be placed in his father's custody. The mother appealed, arguing that
+there was not sufficient evidence presented that the children are adoptable. The appellate court
+affirmed, explaining that the trial court is not required to find that the children are adoptable by
+clear and convincing evidence. Rather, it must be shown that the trial court considered the factor
+
+
+                                                 -19-
+of adoptability, and the case worker's testimony that the children are potentially adoptable
+demonstrated that the trial court considered the factor. There are no "magic words" or "specific
+quantum" of evidence required to prove adoptability. (James, P.; JY-16-295; November 29,
+2017; Gladwin, R.)
+
+
+
+Cases in which the Court of Appeals affrrmed No-Merit TPR and Motion to Withdraw Granted
+
+
+Beaty v. Ark. Dep't of Humøn Servs.,2}I7 Ark. App. 62I (Zimmerman, S.; JY-I6-546:
+November 15,2017; Glover, D.)
+
+Stampley v. Ark. Dep't of Human Servs.,2017 Ark. App.628 (James, P.; JV-l6-106;November
+15,201.7; Murphy, M.)
+
+
+Snow v. Ark. Dep't of Human Servs ,, 2017 Ark. App. 654 (Layton, D.; JV- 16-3 1 ; November 29,
+2017; Brown, Vy',)
+
+
+L,J. v. State,2017 Ark. App. 607 [Possession of controlled substance with intent to deliver-
+sufficiency of the evidencel Seventeen-year-old was charged as a juvenile with the crimes of
+possession of a controlled substance with intent to deliver and possession of drug paraphernalia
+ after atraffic stop revealed Xanax pills, methamphetamine, and syringes, and glass pipe in the
+console of the car she was driving. Appellant argues on appeal that there was insufhcient
+evidence for each crime. The Arkansas Rules of Criminal Procedure apply in juvenile-
+delinquency proceedings, and under Rule 33.1(b), a motion to dismiss must be made at the close
+of the prosecution's evidence and renewed at the close of all the evidence in order to challenge
+the suffrciency of the evidence on appeal. Here, the appellant failed to renew her motion to
+dismiss at the close of all the evidence, thus waived the argument on appeal. But the appellate
+court indicated that even if the appellant had preserved the argument for appeal, the evidence
+was sufficient, because as the driver and owner of the car who admitted to smoking marijuana,
+her knowledge of the contraband could have been inferred under the circumstances. (Warren, J.;
+JY -I 6-945; November 8, 2017 ; Murphy, M.)
+
+
+Hubbard v. State,2017 Ark. App. 636 [Motion to transfer to Juvenile Court] The trial court's
+ denial of a motion to transfer a criminal case to juvenile court will not be reversed unless it is
+ clearly effoneous, In this case, the defendant had been previously involved in juvenile court, had
+been under the supervision of a probation officer, and had participated in the Arkansas Dream
+ Center, but he continued to engage in criminal activity. The trial court's denial of the motion to
+transfer was not clearly erroneous where it was unlikely the defendant would be rehabilitated in
+juvenile court, (Wright, H,; CR-16-3702; November 29,2017 Abramson, R.)
+
+
+
+                                                -20-
+DISTRICT COURT
+
+Trice v. City of Pine Blffi2017 Ark. App. 638 [District Court Appeat] [Ex Post Facto
+Violationl [Procedural Due Process]. Appellant was convicted of a city ordinance violation for
+failure to abate a nuisance in district court. An appeal to circuit court followed and a bench trial
+took place. Testimony was heard from various officials concerning city council procedures and
+appeal processes to the Code Enforcement Board of Zoning Adjustments and Appeal, The
+appellant testified that the Board heard his appeal, but explained that there was no chance to
+appeal to the city planning commission. A motion to dismiss the case was denied. The circuit
+court entered an order finding appellant guilty of failure to abate a nuisance. On argument to the
+Court of Appeals, appellant contends that the event giving rise to the cause of action, the collapse
+of the building, happened two months before the ordinance was amended so an ex post facto
+violation occurred, The Court of Appeals stated that the citation for the failure to abate is the
+event giving rise to the cause of action and because it occurred months after the collapse there is
+no constitutional violation. Also affrrmed was the contention the Historic Commission properly
+had jurisdiction because appellant cited no authority superseding a statute which gives a city
+authority to order removal of unsafe buildings. Another contention of appellant was affirmed as
+it was not demonstrated how the Inspection and Zoning Office's refusal to issue a repair permit
+is a violation of procedural due process. (Deruris, J.; CR-17-109; 1112912017; Virden, B.)
+
+
+
+
+                                                -21.-
+

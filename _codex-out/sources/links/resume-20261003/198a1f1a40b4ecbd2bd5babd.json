@@ -1,0 +1,81 @@
+{
+  "status": 200,
+  "headers": {
+    "server": "envoy",
+    "date": "Sat, 03 Oct 2026 18:37:19 GMT",
+    "content-type": "application/pdf",
+    "content-length": "1929015",
+    "x-content-type-options": "nosniff",
+    "last-modified": "Wed, 10 Jul 2019 14:31:14 GMT",
+    "etag": "\"1d6f37-58d5487859080\"",
+    "accept-ranges": "bytes",
+    "cache-control": "max-age=1209600",
+    "expires": "Sat, 17 Oct 2026 18:37:19 GMT",
+    "x-envoy-upstream-service-time": "188",
+    "connection": "close"
+  },
+  "finalUrl": "https://arcourts.gov/sites/default/files/Appellate%20Update%20November%202017.pdf",
+  "complete": true,
+  "redirects": [],
+  "error": null,
+  "attempts": [
+    {
+      "id": "4db29cdf2cf74fc0b059c739ee40edaa",
+      "url": "https://arcourts.gov/robots.txt",
+      "kind": "robots",
+      "host": "arcourts.gov",
+      "status": 200,
+      "headers": {
+        "server": "envoy",
+        "date": "Sat, 03 Oct 2026 18:37:17 GMT",
+        "content-type": "text/plain; charset=UTF-8",
+        "content-length": "1594",
+        "x-content-type-options": "nosniff",
+        "last-modified": "Tue, 15 Jun 2021 16:51:35 GMT",
+        "etag": "\"63a-5c4d0c9763af7\"",
+        "accept-ranges": "bytes",
+        "cache-control": "max-age=1209600",
+        "expires": "Sat, 17 Oct 2026 18:37:17 GMT",
+        "x-envoy-upstream-service-time": "148",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:16.870612+00:00",
+      "sha256": "3200f655bd0e859a4fb1a7237cc64d4cec38824f6f5ee914c37d0b9de0f9c554",
+      "bytes": 1594,
+      "body_path": "/workspace/freshness-control/transport-evidence/4db29cdf2cf74fc0b059c739ee40edaa.body"
+    },
+    {
+      "id": "9d0453767fff4311884f9c4bd3e8f55e",
+      "url": "https://arcourts.gov/sites/default/files/Appellate%20Update%20November%202017.pdf",
+      "kind": "fetch",
+      "host": "arcourts.gov",
+      "status": 200,
+      "headers": {
+        "server": "envoy",
+        "date": "Sat, 03 Oct 2026 18:37:19 GMT",
+        "content-type": "application/pdf",
+        "content-length": "1929015",
+        "x-content-type-options": "nosniff",
+        "last-modified": "Wed, 10 Jul 2019 14:31:14 GMT",
+        "etag": "\"1d6f37-58d5487859080\"",
+        "accept-ranges": "bytes",
+        "cache-control": "max-age=1209600",
+        "expires": "Sat, 17 Oct 2026 18:37:19 GMT",
+        "x-envoy-upstream-service-time": "188",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:18.870773+00:00",
+      "sha256": "2624781cfd72a246bc9cb6751559eeafff076bd552ce66e2b9f6d8511b0c3440",
+      "bytes": 1929015,
+      "body_path": "/workspace/freshness-control/transport-evidence/9d0453767fff4311884f9c4bd3e8f55e.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T18:37:18.870773+00:00",
+  "sha256": "2624781cfd72a246bc9cb6751559eeafff076bd552ce66e2b9f6d8511b0c3440",
+  "requested_url": "https://arcourts.gov/sites/default/files/Appellate%20Update%20November%202017.pdf",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/resume-20261003/198a1f1a40b4ecbd2bd5babd.body"
+}

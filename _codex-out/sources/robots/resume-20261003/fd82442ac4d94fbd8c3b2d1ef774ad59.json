@@ -1,0 +1,14 @@
+{
+  "id": "fd82442ac4d94fbd8c3b2d1ef774ad59",
+  "url": "https://courts.ca.gov/robots.txt",
+  "kind": "robots",
+  "host": "courts.ca.gov",
+  "status": null,
+  "headers": {},
+  "complete": false,
+  "error": "[Errno -3] Temporary failure in name resolution",
+  "retrieved_at": "2026-10-03T03:01:45.040401+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/fd82442ac4d94fbd8c3b2d1ef774ad59.body"
+}

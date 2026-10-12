@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://hcamag.com/us/news/general/24-year-ibm-veteran-sues-says-algorithm-blocked-his-rehire-at-48/576441",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "a0f439970621438f93c370106279f0ba",
+      "url": "https://hcamag.com/robots.txt",
+      "kind": "robots",
+      "host": "hcamag.com",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T03:03:47.718824+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/a0f439970621438f93c370106279f0ba.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:03:47.734303+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://hcamag.com/us/news/general/24-year-ibm-veteran-sues-says-algorithm-blocked-his-rehire-at-48/576441",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/3dae00fdb9e77667c3b993c3.body"
+}

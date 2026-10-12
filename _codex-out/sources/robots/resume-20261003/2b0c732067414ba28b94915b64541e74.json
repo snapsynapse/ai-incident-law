@@ -1,0 +1,26 @@
+{
+  "id": "2b0c732067414ba28b94915b64541e74",
+  "url": "https://www.ca5.uscourts.gov/robots.txt",
+  "kind": "robots",
+  "host": "www.ca5.uscourts.gov",
+  "status": 404,
+  "headers": {
+    "content-length": "21208",
+    "content-type": "text/html; charset=utf-8",
+    "content-security-policy": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; img-src 'self' data:; font-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; media-src 'self' https://5thcircuit.streamguys1.com",
+    "x-frame-options": "DENY",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "date": "Sat, 03 Oct 2026 18:37:44 GMT",
+    "set-cookie": "[REDACTED]",
+    "x-envoy-upstream-service-time": "153",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:44.822689+00:00",
+  "sha256": "04a4347ed684e5f75b884b78e848df7d028bf4e6ddf6266266d12a7fd714a423",
+  "bytes": 21208,
+  "body_path": "/workspace/freshness-control/transport-evidence/2b0c732067414ba28b94915b64541e74.body"
+}

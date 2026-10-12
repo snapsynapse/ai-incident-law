@@ -1,0 +1,13 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [],
+  "retrieved_at": "2026-10-03T03:03:47.844570+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/7deb4bb63737184c1478a174.body"
+}

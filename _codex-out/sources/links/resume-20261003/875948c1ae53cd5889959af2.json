@@ -1,0 +1,61 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://dccourts.gov/sites/default/files/2026-09/Douglas%20v.%20Deutsche%20Bank%20Nat%27l%20Trt%20Co.%2024-CV-1099%20ORDER.pdf",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots HTTP 403 blocks access",
+  "attempts": [
+    {
+      "id": "a8f22bc3d5d3494f9c0023da23807459",
+      "url": "https://dccourts.gov/robots.txt",
+      "kind": "robots",
+      "host": "dccourts.gov",
+      "status": 301,
+      "headers": {
+        "date": "Sat, 03 Oct 2026 18:37:28 GMT",
+        "content-type": "text/html",
+        "content-length": "0",
+        "location": "https://www.dccourts.gov/robots.txt",
+        "x-azure-ref": "20261003T183728Z-176d9fff4ffl8fxvhS1PHX7uu000000012m00000000033xh",
+        "x-cache": "CONFIG_NOCACHE",
+        "x-envoy-upstream-service-time": "317",
+        "server": "envoy",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:28.036390+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/a8f22bc3d5d3494f9c0023da23807459.body"
+    },
+    {
+      "id": "bcb264c17402437a94216c08005e3a01",
+      "url": "https://www.dccourts.gov/robots.txt",
+      "kind": "robots",
+      "host": "www.dccourts.gov",
+      "status": 403,
+      "headers": {
+        "date": "Sat, 03 Oct 2026 18:37:29 GMT",
+        "content-type": "text/html",
+        "content-length": "179",
+        "x-azure-ref": "20261003T183729Z-15df8c46995kqwmghS1SNRk40000000016y0000000002nxv",
+        "x-cache": "CONFIG_NOCACHE",
+        "x-envoy-upstream-service-time": "321",
+        "server": "envoy",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:28.558724+00:00",
+      "sha256": "1f2e1251b1d5fab2f47bbfe3e09b149064e61571f98a5e02c6ace5f86bacb1d5",
+      "bytes": 179,
+      "body_path": "/workspace/freshness-control/transport-evidence/bcb264c17402437a94216c08005e3a01.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T18:37:29.163251+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://dccourts.gov/sites/default/files/2026-09/Douglas%20v.%20Deutsche%20Bank%20Nat%27l%20Trt%20Co.%2024-CV-1099%20ORDER.pdf",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/resume-20261003/875948c1ae53cd5889959af2.body"
+}

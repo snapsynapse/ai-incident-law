@@ -1,0 +1,15 @@
+{
+  "id": "6cc93245b3d0430bb8b54052c0ca290f",
+  "url": "https://www.ca10.uscourts.gov/robots.txt",
+  "kind": "robots",
+  "host": "www.ca10.uscourts.gov",
+  "status": null,
+  "headers": {},
+  "complete": false,
+  "error": "Tunnel connection failed: 403 Forbidden",
+  "retrieved_at": "2026-10-03T18:37:30.603660+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/6cc93245b3d0430bb8b54052c0ca290f.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/6cc93245b3d0430bb8b54052c0ca290f.body"
+}

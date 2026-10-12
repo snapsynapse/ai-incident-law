@@ -1,0 +1,2096 @@
+   Case 2:22-cv-02324-JAR-ADM              Document 218        Filed 02/02/26      Page 1 of 36
+
+
+
+
+                          IN THE UNITED STATES DISTRICT COURT
+                               FOR THE DISTRICT OF KANSAS
+
+ LEXOS MEDIA IP, LLC,
+
+             Plaintiff,
+
+             v.                                             Case No. 22-2324-JAR
+
+ OVERSTOCK.COM, INC.,
+
+             Defendant.
+
+
+                                 MEMORANDUM AND ORDER
+
+        Plaintiff Lexos Media IP, LLC (“Lexos”) brings this patent infringement action against
+
+Defendant Overstock.com, Inc. (“Overstock”), alleging it infringed three patents that relate to
+
+modifying the display of a cursor image on a website. This matter is before the Court on Lexos’s
+
+Opposition to Defendant’s Motion to Exclude the Testimony of Samule [sic] Russ, Ph.D. (Doc.
+
+194), and Response to Defendant’s Motion for Summary Judgment (Doc. 193). The Court
+
+previously directed each attorney for Lexos listed on the signature blocks of Docs. 193 and 194
+
+to show cause in writing why they should not be sanctioned under Fed. R. Civ. P. 11 and referred
+
+to the relevant disciplinary administrators for signing and submitting documents in this case that
+
+contain defective legal citations created through the use of generative artificial intelligence
+
+(“AI”), which were not checked and confirmed before filing.
+
+        Lexos’s attorneys responded to the Court’s Order to Show Cause with declarations, and
+
+the Court is prepared to rule on whether they should be sanctioned under Rule 11. As described
+
+more fully below, the Court finds that all five Lexos attorneys violated Rule 11(b) by signing
+
+filings that included fabricated and misrepresented legal authority. The Court releases counsel
+
+Michael Doell from further sanctions. The Court sanctions the remaining attorneys
+
+proportionate to their role in the violations.
+     Case 2:22-cv-02324-JAR-ADM                  Document 218           Filed 02/02/26         Page 2 of 36
+
+
+
+
+I.      Background
+
+        A.         Attorneys of Record for Lexos and the July 7, 2025 Filings
+
+        Six attorneys are listed as counsel of record for Lexos. Kenneth P. Kula, Michael W.
+
+Doell, Christopher M. Joe, and Eric W. Buether from the Texas law firm Buether Joe &
+
+Counselors, LLC are all admitted pro hac vice. Sandeep Seth of SethLaw PLLC in Texas is also
+
+admitted pro hac vice. David R. Cooper of the Kansas firm Fisher, Patterson, Sayler & Smith,
+
+LLP, is local counsel. Buether Joe & Counselors, LLC is handling this case on behalf of Lexos
+
+on a contingent-fee basis. Mr. Buether and Mr. Kula appeared on behalf of Lexos at the in-
+
+person claim construction hearing on September 21, 2023.1 According to Mr. Joe’s declaration,
+
+“[i]n October 2024, the lead attorney in charge in this case[,] Eric Buether (and my law
+
+partner)[,] passed away. I took his place as the lead attorney in charge of this case after his
+
+passing.”2 Mr. Seth was permitted to appear as co-counsel in this matter pro hac vice on March
+
+28, 2023.3 He has a small practice comprised of himself and a paralegal who also works as an
+
+office manager. “[His] practice largely involves co-counseling with other firms.”4
+
+        Overstock filed a motion for summary judgment and two motions to exclude expert
+
+testimony under Daubert on June 13, 2025.5 Relevant to the issues before the Court is
+
+Overstock’s motion to exclude Samuel Russ, Ph.D., who Lexos designated as its technical expert
+
+
+        1
+            Doc. 98.
+        2
+          Doc. 217-5 ¶ 4. The Court notes that no withdrawal of appearance has been filed for Mr. Buether; he still
+appears as an active attorney on the docket more than one year after his death.
+        3
+          Doc. 51. The Court is aware that Lexos has filed many other lawsuits around the country to enforce the
+same patents at issue in this case. A short review of those cases on Westlaw indicates that the Buether law firm and
+Mr. Seth together represent Lexos in several of those cases too. See, e.g., Lexos Media IP, LLC v. eBay Inc., 722 F.
+Supp. 3d 1042 (N.D. Cal. 2024); Lexos Media IP, LLC v. Amazon.com, Inc., No. 2:22-CV-00169-JRG, 2023 WL
+5723642 (E.D. Tex. Sept. 5, 2023); Lexos Media IP LLC v. MSC Indus. Direct Co., No. 3:22-CV-1736-X, 2023 WL
+11967299 (N.D. Tex. Sept. 6, 2023).
+        4
+            Doc. 217-1 ¶ 13.
+        5
+            Docs. 174, 175, 177.
+
+
+
+
+                                                         2
+   Case 2:22-cv-02324-JAR-ADM                   Document 218   Filed 02/02/26      Page 3 of 36
+
+
+
+
+in this case. In his opening report, Dr. Russ incorrectly identified the stipulated claim
+
+construction for “cursor image” as “a movable image on a display screen whose position can be
+
+controlled through a user interface.”6 In other words, he failed to include the second part of the
+
+claim construction: “. . . and that indicates where user input can be received.”7 Overstock’s
+
+motion to exclude Dr. Russ’s testimony argues that because he considered the incorrect claim
+
+construction for “cursor image,” his opinion should be excluded.8 And as part of its motion for
+
+summary judgment, Overstock argues that without Dr. Russ’s technical opinion, Lexos cannot
+
+show as a matter of law that Overstock infringed.9
+
+       Lexos responded to Overstock’s motions on time.10 Counsel neither sought, nor
+
+apparently discussed, seeking an extension of time. In their declarations submitted in response to
+
+the Court’s Order to Show Cause, counsel broke down their division of labor on the responses to
+
+Overstock’s June 13 motions. Mr. Kula worked on the response to Overstock’s other motion to
+
+exclude, pertaining to Lexos’s damages expert, Justin Blok. Mr. Seth “was assigned the ultimate
+
+responsibility to draft, review, finalize, and ensure proper filing of both” the summary-judgment
+
+response and the response to Overstock’s motion to exclude Dr. Russ.11 Mr. Doell worked on
+
+“the initial drafting of some sections”12 of the response to Overstock’s summary-judgment
+
+motion, but Mr. Seth “was primarily responsible for drafting”13 the response to Overstock’s
+
+
+
+
+       6
+           Doc. 174-2 at 4.
+       7
+           See Doc. 92-1 at 8, Doc. 99 at 6.
+       8
+           Doc. 174 at 8–14.
+       9
+           Doc. 177 at 31–35.
+       10
+            Docs. 190, 193, 194 (superseding Doc. 192).
+       11
+            Doc. 217-5 ¶ 8.
+       12
+            Doc. 217-3 ¶ 5.
+       13
+            Doc. 217-1 ¶ 5.
+
+
+
+
+                                                          3
+   Case 2:22-cv-02324-JAR-ADM                     Document 218             Filed 02/02/26          Page 4 of 36
+
+
+
+
+motion to exclude Dr. Russ’s report and testimony and the response to the summary-judgment
+
+motion. Mr. Joe, “never reviewed or looked at the documents at issue prior to their filing with
+
+the Court.”14
+
+         Mr. Cooper did not research or draft any of these filings. He received the Texas
+
+attorneys’ drafts on July 7, 2025, the same day they were due. He read them in their entirety and
+
+generally understood the arguments being made therein. “[N]one of the quotes or citations drew
+
+[his] attention, so [he] did not cite check either document. [He] instead relied upon Mr. Doell
+
+and Mr. Seth, whom [he] understood to be the drafters of the documents, for the accuracy and
+
+authenticity of the citations in the documents.”15
+
+         B.         Incorrect Citations, Quotations, and Statements of Law
+
+         The response briefs to Overstock’s motion to exclude Dr. Russ and motion for summary
+
+judgment contain multiple problematic legal citations and statements of authority that were
+
+created through the use of generative AI, which were not checked and confirmed before filing.
+
+First, and primarily, Plaintiff’s response to the motion to exclude Dr. Russ (Doc. 194) contains a
+
+litany of problems: (1) nonexistent quotations; (2) nonexistent and incorrect citations; and (3)
+
+misrepresentations about cited authority. Overstock submitted a reply brief disclosing the
+
+defective citations, quotations, and statements of authority,16 and Mr. Seth admits that he used
+
+generative AI to help research and draft the brief without confirming the accuracy of authority it
+
+produced.17 Second, Part III.D of Plaintiff’s Response to Defendant’s Motion for Summary
+
+
+         14
+              Doc. 217-5 ¶ 7.
+         15
+              Doc. 217-2 ¶ 13.
+         16
+            Doc. 200-1 (providing a table of fabricated and misleading case citations in Plaintiff’s response brief to
+the motion to exclude Dr. Russ).
+         17
+           Doc. 217-1 ¶¶ 5–9; Doc. 207 at 3 n.1 (admitting that Plaintiff’s response to the summary judgment
+motion also contains “two paragraphs with the same mistake which were carried over concerning the Cordis,
+Baldwin, and AstraZeneca cases” and requesting that “the Court strike these citations” (citations omitted)).
+
+
+
+
+                                                           4
+   Case 2:22-cv-02324-JAR-ADM              Document 218        Filed 02/02/26       Page 5 of 36
+
+
+
+
+Judgment (Doc. 193) addresses Overstock’s argument that Dr. Russ’s failure to incorporate the
+
+correct claim construction for “cursor image” precludes its infringement theory. As part of that
+
+argument, Lexos included several of the same defects from the response to Overstock’s motion
+
+to exclude Dr. Russ.
+
+       The Daubert response, Doc. 194, contains the following erroneous citations, quotations,
+
+or statements of authority:
+
+       1.         Lexos cited Flexuspine, Inc. v. Globus Medical, Inc., 879 F.3d 1369, 1375 (Fed.
+
+Cir. 2018) and i4i Ltd. P’ship v. Microsoft Corp., 598 F.3d 831, 856–57 (Fed. Cir. 2010), aff’d,
+
+564 U.S. 91 (2011), for the proposition that “the Federal Circuit has cautioned against striking
+
+expert opinions for immaterial or correctable errors in claim construction, particularly where the
+
+overall analysis is sound and does not mislead the jury.”18
+
+       Flexuspine contains no discussion of expert admissibility on the cited page number. On a
+
+later page, the Federal Circuit considered a challenge to the district court’s ruling of
+
+noninfringement on the basis that there was no evidence to support the second portion of the
+
+plaintiff’s claim construction because the expert did not discuss it.19 But the court found no error
+
+with the district court’s order and noted that the plaintiff “does not cite to any evidence that
+
+might satisfy the second requirement of the claim construction.”20 This case does not support the
+
+proposition for which it was cited.
+
+       In Microsoft, the Federal Circuit considered the district court’s decision to admit expert
+
+testimony on the appropriate damages calculation and to support the degree of infringement
+
+through survey evidence. The court concluded that the damages expert’s royalty calculations
+
+
+       18
+            Doc. 194 at 6.
+       19
+            879 F.3d at 1377.
+       20
+            Id.
+
+
+
+
+                                                  5
+   Case 2:22-cv-02324-JAR-ADM                   Document 218           Filed 02/02/26   Page 6 of 36
+
+
+
+
+were based on a sound methodology, and that the defendant’s objections went to the weight,
+
+rather than the admissibility of the evidence.21 The court also considered a challenge to survey
+
+evidence that was offered to support the degree of infringement.22 The defendant challenged the
+
+survey’s methodology and the data used to extrapolate damage calculations from the survey, but
+
+the court determined that the survey met the minimum standards required for relevance and
+
+reliability.23 And the court found that the challenges were best addressed through cross-
+
+examination and the presentation of contrary evidence.24 Neither challenge to the expert
+
+evidence in this case related to an incomplete claim construction. This case does not support the
+
+proposition for which it was cited.
+
+       2.          Lexos cited United States v. Rodriguez-Felix, 450 F.3d 1117, 1123 (10th Cir.
+
+2006) for the proposition that Tenth Circuit case law recognizes a preference for “addressing
+
+admissibility disputes that go to weight rather than fundamental reliability [with] ‘[v]igorous
+
+cross-examination, presentation of contrary evidence, and careful instruction on the burden of
+
+proof,’ not wholesale exclusion.”25 This language is not in Rodriguez-Felix; it is in Daubert.26
+
+       Moreover, Rodriguez-Felix, a criminal case, addressed the specific issue of expert
+
+testimony on the reliability of eyewitness identification.27 The Tenth Circuit determined that the
+
+district court did not abuse its discretion in excluding a defendant’s expert testimony about the
+
+reliability of eyewitness testimony, largely because such testimony was unlikely to assist the
+
+
+
+       21
+            Microsoft, 598 F.3d at 854.
+       22
+            Id. at 855–56.
+       23
+            Id. at 856.
+       24
+            Id.
+       25
+            Doc. 194 at 6.
+       26
+            Daubert v. Merrell Dow Pharms., Inc., 509 U.S. 579, 596 (1993).
+       27
+            Rodriguez-Felix, 450 F.3d at 1123–27.
+
+
+
+
+                                                        6
+   Case 2:22-cv-02324-JAR-ADM                    Document 218           Filed 02/02/26         Page 7 of 36
+
+
+
+
+jury.28 Instead, the court explained that “skillful cross-examination provides an equally, if not
+
+more, effective tool for testing the reliability of an eyewitness at trial.”29 Although the statement
+
+of law by Lexos is not incorrect,30 this particular case neither includes the quotation attributed to
+
+it nor discusses the court’s preference for testing expert testimony that goes to the weight of the
+
+evidence through cross-examination, contrary evidence, and jury instructions.
+
+        3.          Lexos twice cited Hockett v. City of Topeka, No. 19-4037-DDC, 2020 WL
+
+6796766, at *3 (D. Kan. Nov. 19, 2020). It cited this case first for the proposition that
+
+“[e]xclusion is a ‘drastic remedy’ and is only warranted where the report is irreparably unreliable
+
+or prejudicially misleading.”31 Second, it cited Hockett to argue that inadvertent use of an
+
+incomplete claim construction by an expert does not require exclusion, but instead cross-
+
+examination and supplementation.32 The second citation includes an explanatory parenthetical
+
+with a quotation from the case: “The exclusion of evidence is an extreme sanction, and courts
+
+should prefer less severe remedies, particularly where the error appears inadvertent or can be
+
+cured without prejudice.”33 Neither this case nor the quotation exists.34
+
+        4.          Lexos cited AVM Techs., LLC v. Intel Corp., 927 F.3d 1364, 1370–71 (Fed. Cir.
+
+2019) for the proposition that “deficiencies in a report that go to weight, not admissibility, should
+
+
+
+
+        28
+             Id. at 1125.
+        29
+             Id. (emphasis added).
+        30
+             See Daubert, 509 U.S. at 596.
+        31
+             Doc. 194 at 6.
+        32
+             Id. at 13.
+        33
+             Id.
+        34
+            This case number is a Social Security appeal, Russell v. Comm’r of Soc. Sec. Admin. The undersigned,
+not District Judge Daniel D. Crabtree, presided over that case. There is no case against the City of Topeka in the
+Court’s CM/ECF database by a plaintiff with the last name of Hockett. Nor can the Court locate this case in the
+Westlaw database in any other federal jurisdiction.
+
+
+
+
+                                                         7
+   Case 2:22-cv-02324-JAR-ADM                      Document 218   Filed 02/02/26   Page 8 of 36
+
+
+
+
+be resolved by cross-examination.”35 This citation is incorrect. The correct citation is AVM
+
+Techs., LLC v. Intel Corp., 927 F. Supp. 2d 139 (D. Del. 2013). This case involved motions to
+
+exclude two expert witnesses in a patent case: (1) an expert witness on royalty damages who
+
+relied on a single settlement agreement on a different patent; and (2) the patent inventor’s
+
+testimony about damages. The court determined that neither expert offered reliable testimony
+
+under Daubert and granted motions to exclude them both.36 This case does not support the
+
+proposition for which it was cited, even if the citation was correct.
+
+       5.         Lexos quoted from and relied on Liquid Dynamics Corp. v. Vaughan Co., 449
+
+F.3d 1209, 1224 (Fed. Cir. 2006).37 There are multiple problems with this authority. First,
+
+Lexos provided the following quotation from this case in an explanatory parenthetical: “Expert
+
+testimony should not be excluded simply because the expert applied an incorrect claim
+
+construction, so long as the expert’s analysis can be understood and evaluated in light of the
+
+court’s proper construction.”38 This quotation does not exist.
+
+       Second, Lexos cited this case for the proposition that “[t]he Federal Circuit has
+
+consistently held that expert opinions based on even partially incorrect constructions may be
+
+admissible where the expert’s methodology remains sound.”39 But Liquid Dynamics does not
+
+support this proposition. To be sure, the court determined in that case that the defendant’s
+
+challenge to certain parameters used by the expert in his analysis went to the weight and not the
+
+admissibility of the opinion.40 But that ruling was not based on an incorrect claim construction
+
+
+       35
+            Doc. 194 at 6.
+       36
+            Intel Corp., 927 F. Supp. 2d at 141.
+       37
+            Doc. 194 at 7.
+       38
+            Id.
+       39
+            Id.
+       40
+            Liquid Dynamics, 449 F.3d at 1220–21.
+
+
+
+
+                                                        8
+   Case 2:22-cv-02324-JAR-ADM                   Document 218     Filed 02/02/26      Page 9 of 36
+
+
+
+
+used by the expert. The Federal Circuit separately ruled as follows on the issue of the expert’s
+
+reliance on an incorrect claim construction:
+
+                   The district court excluded the expert opinion evidence [on
+                   enablement] as irrelevant because it was based on an
+                   impermissible claim construction and relied heavily on Figure 6 of
+                   the patent specification that shows perfect helical flow instead of
+                   substantial helical flow. Furthermore, the court found that the
+                   evidence could prejudice and confuse the jury. Since the
+                   enablement inquiry necessarily depends on an interpretation of the
+                   claims, we conclude that the district court did not abuse its
+                   discretion in excluding the expert’s testimony pertaining to
+                   enablement.41
+
+       6.          Lexos cited two cases for the proposition that “[t]he Federal Circuit has
+
+consistently held that ‘technical flaws in an expert’s methodology or assumptions go to the
+
+weight of the evidence rather than its admissibility.’”42 Immediately following this quotation,
+
+Lexos cited Apple Inc. v. Motorola, Inc., 757 F.3d 1286, 1314 (Fed. Cir. 2014), but this
+
+quotation does not appear in Apple, Inc. Lexos next cited Liquid Dynamics. The quote is not in
+
+that case either, and, as described above, Liquid Dynamics holds contrary to Lexos’s statement of
+
+law with respect to the relevance of an expert opinion based on an incorrect claim construction.43
+
+       7.          Lexos cited two Tenth Circuit decisions for the proposition that under that court’s
+
+standards, “exclusion is a drastic remedy reserved for fundamentally unreliable expert analysis,
+
+not for technical deficiencies that can be addressed through cross-examination”: Rodriguez-Felix
+
+and Goebel v. Denver & Rio Grande W. R.R., 215 F.3d 1083, 1088 (10th Cir. 2000).44 As
+
+stated above, Rodriguez-Felix addresses the reliability of expert testimony on eyewitness
+
+
+
+
+       41
+            Id. at 1224 n.2.
+       42
+            Doc. 194 at 8.
+       43
+            Liquid Dynamics, 449 F.3d at 1224 n.2.
+       44
+            Doc. 194 at 9.
+
+
+
+
+                                                     9
+  Case 2:22-cv-02324-JAR-ADM                   Document 218      Filed 02/02/26      Page 10 of 36
+
+
+
+
+credibility and excluded the expert’s opinion in that case.45 And Goebel does not contain any
+
+language about exclusion being a drastic remedy; it reversed the district court’s decision to admit
+
+an expert report because it had not made sufficient findings under Daubert to support admitting
+
+the expert testimony; it remanded for the district court to put more explicit findings on the record
+
+for review.46 Neither case discussed nor applied Daubert in the context of a “technical
+
+deficiency.”
+
+       8.         Lexos explained the Federal Circuit’s decision in Cordis Corp. v. Medtronic Ave,
+
+Inc., 511 F.3d 1157, 1174–75 (Fed. Cir. 2008) as follows:
+
+                  [T]he Federal Circuit considered the phrase “expandable to a
+                  diameter.” The Court held that this language did not limit the
+                  structure to only that diameter, but rather described a capability or
+                  result—not an exclusive state. Likewise, “modify . . . to [an
+                  image] in the shape and appearance of [another image]” does not
+                  demand exclusive substitution. Rather, it permits the modified
+                  cursor to include or incorporate the specific image’s shape and
+                  appearance, while retaining or overlaying other visual features.47
+
+These quotations do not appear in Cordis. Almost as troubling, the patents that are discussed in
+
+Cordis do not appear to contain any of the language quoted above.
+
+       9.         Lexos included a citation to Baldwin Graphic Systems, Inc. v. Siebert, Inc., 512
+
+F.3d 1338, 1342 (Fed. Cir. 2008) with the following quotation in an explanatory parenthetical:
+
+“The use of ‘comprising’. . . renders the claim open-ended—meaning that the claim does not
+
+exclude additional elements or steps.”48 This quotation does not exist.
+
+
+
+
+       45
+            450 F.3d 1117, 1123–27 (10th Cir. 2006).
+       46
+            Goebel, 215 F.3d at 1088–89.
+       47
+            Doc. 194 at 12.
+       48
+            Id.
+
+
+
+
+                                                       10
+  Case 2:22-cv-02324-JAR-ADM                    Document 218           Filed 02/02/26         Page 11 of 36
+
+
+
+
+        10.         Lexos included a citation to AstraZeneca AB v. Mutual Pharm. Co., 384 F.3d
+
+1333, 1339 (Fed. Cir. 2004) with the following quotation in an explanatory parenthetical: “The
+
+open-ended term ‘comprising’ permits the inclusion of other steps or components.”49 This
+
+quotation does not exist.
+
+        11.         Lexos purported to quote the earlier-cited Microsoft Corp. case as follows: “[T]he
+
+question of whether the expert is credible or whether his theories are correct given the partial
+
+reliance on an incorrect claim construction is for the jury to decide after cross-examination.”50
+
+This quotation does not exist.
+
+        Part III.D.1 of the summary-judgment response repeats the incorrect quotations from
+
+Cordis,51 Baldwin Graphic Systems, Inc.,52 and AstraZeneca AB.53
+
+        C.          Motion for Leave to Correct
+
+        In the reply to the response on the motion to exclude Dr. Russ, Overstock pointed out the
+
+citation errors in Lexos’s opposition brief.54 Eight days later, Lexos filed a motion for leave to
+
+file a corrected response brief.55 Lexos stated that after reading Overstock’s reply, it reviewed
+
+the opposition brief and “discovered that certain case citations and quotations could not be
+
+substantiated.”56 The motion admitted that Mr. Seth used AI tools in drafting the opposition and
+
+that he did not verify the citations before filing. In a footnote, the motion acknowledged that the
+
+
+
+        49
+             Id.
+        50
+          Doc. 194 at 13–14 (quoting I4i Ltd. P’ship v. Microsoft Corp., 598 F.3d 831, 854 (Fed. Cir. 2010), aff’d,
+564 U.S. 91 (2011)).
+        51
+             Doc. 193 at 33–34.
+        52
+             Id. at 34.
+        53
+             Id.
+        54
+             Doc. 200 at 6 & n.1; Doc. 200-1.
+        55
+             Doc. 207.
+        56
+             Id. ¶ 3.
+
+
+
+
+                                                        11
+  Case 2:22-cv-02324-JAR-ADM              Document 218         Filed 02/02/26      Page 12 of 36
+
+
+
+
+summary-judgment response also contains “two paragraphs with the same mistake which were
+
+carried over concerning the Cordis, Baldwin, and AstraZeneca cases” and requested that “the
+
+Court strike these citations.”57
+
+        Mr. Seth submitted a declaration in conjunction with the reply in support of the motion
+
+for leave to correct.58 No other attorney for Lexos did so. In that declaration, Mr. Seth
+
+acknowledged the errors in Docs. 193 and 194, admitted that they were derived from his research
+
+using generative AI that was not independently verified prior to submission, admitted that he
+
+“authored the majority of the document,” and stated that he regrets the “oversight” and has put
+
+into place “stricter internal review procedures to ensure that all future filings are fully sourced,
+
+accurate, and independently verified.”59 Mr. Seth indicated in this declaration that at the time of
+
+filing, he was struggling with multiple family health emergencies; his mother and aunt were both
+
+hospitalized and ultimately passed away in July and early August. He indicated that “[t]hese
+
+overlapping personal situations weighed heavily on [his] time, attention and emotional state
+
+during the time of original filing,”60 and although he acknowledged that this does not excuse his
+
+conduct, he claimed that it was unprecedented and that he did not intend to file the document
+
+without first verifying the citations.
+
+        The proposed corrected response brief would have: (1) deleted the nonexistent citations
+
+and quotations; (2) corrected the incorrect citations; (3) deleted the offending citations from the
+
+table of authorities; (4) added one new citation; and (5) added text to shore up Lexos’s
+
+arguments.
+
+
+
+        57
+             Id. at 3 n.1.
+        58
+             Doc. 211-1.
+        59
+             Id. ¶¶ 2, 3, 9.
+        60
+             Id. ¶ 7.
+
+
+
+
+                                                  12
+  Case 2:22-cv-02324-JAR-ADM              Document 218        Filed 02/02/26      Page 13 of 36
+
+
+
+
+       Because there was nothing in the docket text that pointed this Court to an allegation of
+
+sanctionable conduct, it was not alerted to this issue until it reviewed the motion to correct in
+
+conjunction with the substantive motions several months later. On December 15, 2025, upon
+
+review of the relevant filings, the Court denied Lexos’s motion for leave to correct to the extent
+
+it sought to shore up its substantive research with new or corrected authority, or with new
+
+arguments.61 The Court found that the prejudice to Overstock cannot be overstated, that the
+
+errors have wasted judicial resources, and that the need to correct was well within the control of
+
+Plaintiff’s counsel. The Court acknowledged Mr. Seth’s admission that he used generative AI
+
+without validation, and his remorse, but it determined that a “do-over” was not warranted.
+
+Instead, the Court denied the motion to file the proposed corrected brief, struck Plaintiff’s
+
+response brief filed as Doc. 194, and granted Plaintiff’s motion to correct with a new filing that
+
+removed the fake and incorrect citations, quotations, and misstated authority from the document.
+
+Lexos timely filed this corrected document on December 19, 2025.62
+
+       Also on December 15, the Court entered an Order to Show Cause to all counsel of record
+
+for Lexos. The Court was not satisfied with Mr. Seth’s declaration that was submitted along
+
+with the reply brief on the motion to correct, given that four other attorneys’ names are listed on
+
+the signature blocks of the offending documents. The Court directed each of the attorneys on the
+
+signature blocks of Docs. 193 and 194 to show cause in writing, under penalty of perjury, why
+
+they should not be sanctioned under Rule 11 and referred to the disciplinary panel of this Court
+
+and to disciplinary administrators in the jurisdictions where they are licensed for submitting
+
+briefs containing nonexistent or misrepresented authority. The Court put counsel on notice that
+
+
+
+       61
+            Doc. 214.
+       62
+            Doc. 216.
+
+
+
+
+                                                 13
+   Case 2:22-cv-02324-JAR-ADM                      Document 218           Filed 02/02/26         Page 14 of 36
+
+
+
+
+failure to show cause may result in sanctions under Rule 11, including monetary sanctions,
+
+attorneys’ fees, revocation of pro hac vice privileges, continuing legal education requirements,
+
+and reporting obligations in their other cases and to the judges whose decisions were misquoted,
+
+misrepresented, or made up.63 Counsel have now filed their declarations. The following
+
+findings of each attorney’s role are based on these declarations.
+
+         D.          Lexos Attorneys’ Roles in Submitting Docs. 193 and 194
+
+                     1.      Mr. Seth
+
+         Mr. Seth has practiced law for over thirty years. He makes clear in his second declaration
+
+that he alone used generative AI to insert the problematic citations, quotations, and discussions
+
+of authority into the offending briefs. After writing an initial draft of the Daubert response on
+
+June 28, 2025, Mr. Seth used ChatGPT “as a shortcut to find 10th [C]ircuit and Federal Circuit
+
+case law consistent with the facts of the case.”64 That first search provided him with the
+
+quotations and citations for the mistakes in items 3–5 and 11 above. He admits that he did not
+
+check these citations, quotations, or statements of authority for accuracy. He then circulated the
+
+draft to the “litigation team.”65
+
+         Mr. Seth then wrote a second draft that “substantially expanded the factual basis of our
+
+argument.”66 Again, he queried ChatGPT to find additional case law. Part of that query was:
+
+“[t]aking the role of a judge, write an order that denies the motion to strike with caselaw support
+
+for the proposition that where the expert report is criticized for inadvertently using an immaterial
+
+
+
+        63
+           The Court recognizes that attorneys’ fees are not an option for sanctions when it acts sua sponte, as it did
+here. See Fed. R. Civ. P. 11(c)(5)(B). Therefore, notwithstanding the language in its Order to Show Cause, the
+Court will not impose this sanction.
+         64
+              Doc. 217-1 ¶ 7.a.
+         65
+              Id. Mr. Seth does not specify who the litigation team included.
+         66
+              Id. ¶ 7.b.
+
+
+
+
+                                                           14
+  Case 2:22-cv-02324-JAR-ADM             Document 218         Filed 02/02/26      Page 15 of 36
+
+
+
+
+incomplete claim construction, the remedy is not to strike the entire report/testimony of that
+
+expert.”67 Mr. Seth believed this would give him the best chance of finding on-point case law.
+
+That query resulted in the mistakes in items 1, 2, 6, and 7 above. Mr. Seth does not address the
+
+nonexistent quotations set forth in items 8–10 above.
+
+       At some point, Mr. Doell provided minor edits to Mr. Seth’s draft, but these were
+
+exclusively to add exhibit numbers and make small typographical suggestions. As the junior
+
+attorney working on this case, he was not instructed to make substantive revisions or second
+
+guess the senior co-counsel’s work. Mr. Doell made these minor edits and executed a
+
+declaration for the exhibits.68
+
+       Mr. Seth contends that “neither co-counsel nor Lexos were aware of” his use of
+
+generative AI, and that “Lexos was not billed for any of [his] time in the drafting of the brief
+
+(and the portion of Document 193) containing the erroneous citations or for any subsequent time
+
+in connection with their removal.”69
+
+       Mr. Seth contends that his family’s emergency medical situation led him to reach for
+
+ChatGPT to help draft the Daubert response and that this was the first and only time he used it.
+
+He claims to have been “untrained” on how to use it and a “novice.”70 He insists that using
+
+ChatGPT is not his normal practice for research and that he made an isolated poor decision due
+
+to the strain of end-of-life caregiving for his mother and aunt. Because his focus was elsewhere,
+
+he failed to “double-check for accuracy.”71 He states that only now is he “fully aware of ‘AI
+
+
+
+       67
+            Id.
+       68
+            See Doc. 194-1.
+       69
+            Doc. 217-1 ¶ 6.
+       70
+            Id. ¶ 8.
+       71
+            Id. ¶ 10.
+
+
+
+
+                                                 15
+  Case 2:22-cv-02324-JAR-ADM                 Document 218     Filed 02/02/26      Page 16 of 36
+
+
+
+
+hallucinations’ and take[s] full and sole responsibility for the resulting misinformation to the
+
+Court.”72 At the same time, Mr. Seth states that he “inten[ded] at the time to check [the cites]
+
+prior to any filing with the Court, but [he] failed to do so either because [he] thought [he] had
+
+already done so, or just because of [his] scrambled state of mind.”73
+
+                   2.         Buether Joe and Counselors, LLC Attorneys
+
+       Mr. Joe is the lead attorney in this matter and the managing member of the Buether Joe
+
+law firm. Mr. Joe played no role in drafting or compiling the defective citations in Docs. 193
+
+and 194. In fact, he attests that he never reviewed or looked at either document prior to filing.
+
+The Buether Joe law firm has a policy of not allowing the use of AI platforms by members of the
+
+firm. He provides no information about how this policy is enforced.
+
+       Mr. Kula is a senior counsel at the Buether firm. He played no role in drafting or
+
+compiling the defective citations in Docs. 193 and 194. He admits that he “never reviewed either
+
+document at issue prior to them being filed with the Court.”74 Instead, Mr. Kula worked on
+
+responding to the other Daubert motion that sought to exclude Lexos’s damages expert. When
+
+Docs. 193 and 194 were filed, Mr. Kula was on a family vacation out of the country. Mr. Kula
+
+understood that Mr. Doell was primarily responsible for drafting “limited sections” of the
+
+summary-judgment response, but that Mr. Seth had “overall responsibility to research, draft,
+
+review, finalize, and ensure the proper filing of both documents at issue.”75
+
+       Mr. Doell is an associate attorney at the Buether Joe law firm. As stated above, he
+
+primarily drafted several sections of the summary-judgment response, which did not include
+
+
+
+       72
+            Id. ¶ 14.
+       73
+            Id. ¶ 9.
+       74
+            Doc. 217-4 ¶ 6.
+       75
+            Id. ¶¶ 11, 12.
+
+
+
+
+                                                   16
+  Case 2:22-cv-02324-JAR-ADM              Document 218        Filed 02/02/26       Page 17 of 36
+
+
+
+
+section III.D.1. Mr. Doell attests that his portion of the brief did not utilize AI; he understood
+
+and abided by his firm’s policy prohibiting the use of AI platforms in writing, drafting, or
+
+creating documents to be filed in court. Despite reading over and editing Mr. Seth’s work, he
+
+was not aware, nor did he have reason to be aware, that Mr. Seth used AI in drafting the Daubert
+
+response. He makes clear that in his subordinate role as an associate attorney working with co-
+
+counsel who has 30 years of patent law experience, he “did not provide, nor intended to provide,
+
+nor was expected to provide a substantive review of the caselaw or arguments in Mr. Seth’s draft
+
+of Document 194.”76
+
+                  3.       Mr. Cooper
+
+       Mr. Cooper is local counsel. In that capacity, he signed Docs. 193 and 194 and filed
+
+them on behalf of Lexos. Mr. Cooper is a partner at the Fisher Patterson law firm, and has
+
+appeared in this Court many times over the last 25 years. He was aware that this Court’s local
+
+rule requires that “[a]ll pleadings or other papers signed by an attorney admitted pro hac vice
+
+must also be signed by a member of the bar of this court in good standing, who must participate
+
+meaningfully in the preparation and trial of the case or proceedings to the extent the court
+
+requires.”77
+
+       As already stated, Mr. Cooper received Docs. 193 and 194 on the day that they were due.
+
+In a past filing in this case, Mr. Cooper “noticed an incomplete citation in a draft before filing,”
+
+which he corrected.78 On July 7, 2025, he read the documents provided to him by the Texas
+
+attorneys, but because none of the citations or arguments looked suspicious to him, he did not
+
+cite check them. He had no knowledge that Mr. Seth used generative AI to compile his research,
+
+
+       76
+            Doc. 217-3 ¶ 11.
+       77
+            D. Kan. Rule 83.5.4(b).
+       78
+            Doc. 217-2 ¶ 14.
+
+
+
+
+                                                 17
+  Case 2:22-cv-02324-JAR-ADM              Document 218         Filed 02/02/26      Page 18 of 36
+
+
+
+
+or that he included defective citations and statements of authority in the briefs. He relied on Mr.
+
+Doell and Mr. Seth to include accurate and authentic legal authority in the documents. Mr.
+
+Cooper approved affixing his signature and then filed the offending documents in the Court’s
+
+CM/ECF database.
+
+       Mr. Cooper apologizes to the Court and sets forth steps his firm has taken since the Court
+
+issued its Order to Show Cause to ensure that this grievous error does not occur again. Fisher
+
+Patterson has adopted a formal policy prohibiting the use of generative AI platforms without the
+
+consent of the client and the express permission of the supervising partner or attorney on the
+
+case. All documents produced using generative AI will be required to be independently verified
+
+by the author as being true and accurate. The firm is also developing a policy that will extend
+
+this policy to its attorneys’ practice as local or co-counsel, requiring local counsel to
+
+independently cite-check and verify the accuracy of all citations.
+
+II.    Legal Standard
+
+       Under Rule 11(b):
+
+               By presenting to the court a pleading, written motion, or other
+               paper—whether by signing, filing, submitting, or later advocating
+               it—an attorney or unrepresented party certifies that to the best of
+               the person’s knowledge, information, and belief, formed after an
+               inquiry reasonable under the circumstances:
+
+               ....
+
+               (2)     the claims, defenses, and other legal contentions are
+                       warranted by existing law or by a nonfrivolous argument
+                       for extending, modifying, or reversing existing law or for
+                       establishing new law . . . .
+
+As the Supreme Court has explained, “the central purpose of Rule 11 is to deter baseless filings
+
+in district court and thus, consistent with the Rules Enabling Act’s grant of authority, streamline
+
+
+
+
+                                                  18
+  Case 2:22-cv-02324-JAR-ADM                     Document 218            Filed 02/02/26        Page 19 of 36
+
+
+
+
+the administration and procedure of the federal courts.”79 The rule “imposes . . . an affirmative
+
+duty to conduct a reasonable inquiry into the facts and the law before filing, and . . . the
+
+applicable standard is one of reasonableness under the circumstances.”80 “The award of Rule 11
+
+sanctions involves two steps. The district court first must find that a pleading violates Rule 11.
+
+The second step is for the district court to impose an appropriate sanction.”81
+
+       Where, as here, the Court invokes Rule 11 on its own initiative, it must order “an
+
+attorney, law firm, or party to show cause why conduct specifically described in the order has not
+
+violated Rule 11(b).”82 The Court met this requirement when it issued its Order to Show Cause
+
+on December 15, 2025, giving Lexos’s counsel the opportunity to show cause in writing why
+
+they should not be sanctioned for signing Docs. 193 and 194, which contain nonexistent citations
+
+and quotations, and misstatements of legal authority, in contravention of Rule 11(b)(2).
+
+III.   Violation: Rule 11(b)
+
+       The Court now turns to the first step of the Rule 11 analysis: whether the Lexos attorneys
+
+submitted a pleading that violates Rule 11(b). In determining whether an attorney’s conduct
+
+violates Rule 11, the Court employs an “objective reasonableness” standard.83 The question is,
+
+“whether a reasonable attorney admitted to practice before [this] court would file such a
+
+document.”84 The Advisory Committee’s note to the 1993 Rule 11 Amendments explains that
+
+the rule “require[s] litigants to ‘stop-and-think’ before initially making legal or factual
+
+
+
+
+       79
+            Cooter & Gell v. Hartmarx Corp., 496 U.S. 384, 393 (1990).
+       80
+            Bus. Guides, Inc. v. Chromatic Commc’ns Enters., Inc., 498 U.S. 533, 551 (1991).
+       81
+            Collins v. Daniels, 916 F.3d 1302, 1319 (10th Cir. 2019) (citation modified).
+       82
+            Fed. R. Civ. P. 11(c)(3).
+       83
+            Predator Int’l, Inc. v. Gamo Outdoor USA, Inc., 793 F.3d 1177, 1182 (10th Cir. 2015).
+       84
+            Id. (quoting Adamson v. Bowen, 855 F.2d 668, 673 (10th Cir. 1988)).
+
+
+
+
+                                                         19
+   Case 2:22-cv-02324-JAR-ADM                     Document 218           Filed 02/02/26          Page 20 of 36
+
+
+
+
+contentions.”85 And this duty is nondelegable.86 Thus, when an attorney signs a filing, that
+
+attorney pledges that he or she conducted a reasonable inquiry into the existing law stated
+
+therein.87 “[B]lind reliance on another attorney can be an improper delegation of this duty and a
+
+violation of Rule 11.”88
+
+         There is no question that citing to a nonexistent case, attributing a nonexistent quotation
+
+to an existing case, and misstating the law violates Rule 11(b).89 Such reliance does not
+
+constitute “existing law” and certainly does not provide to the Court a nonfrivolous argument for
+
+extending, modifying, or reversing existing law or for establishing new law. As the Tenth
+
+Circuit recently noted, “there is nothing inherently problematic with the use of GenAI in the
+
+practice of law.”90 Instead, the violation here is due to the failure to verify that the cases
+
+generated by ChatGPT actually exist and confirm that they stand for the propositions for which
+
+they are cited.91 Because there is no dispute that all five Lexos attorneys signed both documents
+
+that included these errors, and they admit that not one of them verified that the case law in those
+
+
+
+
+         85
+              Fed. R. Civ. P. 11 advisory committee’s note to 1993 amendment.
+         86
+              Pavelic & LeFlore v. Marvel Ent. Grp., 493 U.S. 120, 126–27 (1989).
+         87
+             Bus. Guides, Inc. v. Chromatic Commc’ns Enters., Inc., 498 U.S. 533, 542 (1991) (“A signature certifies
+to the court that the signer has read the document, has conducted a reasonable inquiry into the facts and the law and
+is satisfied that the document is well grounded in both, and is acting without any improper motive.”).
+         88
+            Wadsworth v. Walmart Inc., 348 F.R.D. 489, 495–96 (D. Wyo. 2025); see also Dehghani v. Castro, 782
+F. Supp. 3d 1051, 1058 (D.N.M. 2025) (finding a Rule 11(b) violation where attorney “outsourced his duties to
+another attorney and failed to adequately review that attorney’s work-product and ensure its accuracy before putting
+his own name on it and filing it with th[e] Court”).
+          89
+             See, e.g., Park v. Kim, 91 F.4th 610, 615 (2d Cir. 2024) (“At the very least, the duties imposed by Rule
+11 require that attorneys read, and thereby confirm the existence and validity of, the legal authorities on which they
+rely.”); Mata v. Avianca, Inc., 678 F. Supp. 3d 445, 461 (S.D.N.Y. 2023) (“A fake opinion is not ‘existing law’ and
+citation to a fake opinion does not provide a non-frivolous ground for extending, modifying, or reversing existing
+law, or for establishing new law.”); Coomer v. Lindell, No. 22-CV-01129, 2025 WL 1865282, at *3 (D. Colo. July
+7, 2025) (“Courts across the country—both within the United States Court of Appeals for the Tenth Circuit . . . and
+outside of it—recognize that Rule 11 applies to the use of artificial intelligence.”).
+         90
+              Moore v. City of Del City, No. 25-6002, 2025 WL 3471341, at *2 (10th Cir. Dec. 3, 2025).
+         91
+              See id.
+
+
+
+
+                                                          20
+   Case 2:22-cv-02324-JAR-ADM                    Document 218           Filed 02/02/26          Page 21 of 36
+
+
+
+
+briefs actually exist and stand for the propositions for which they were cited, their conduct
+
+violates Rule 11(b)(2).
+
+         All of the attorneys focus their declarations on their lack of bad faith in signing these
+
+offending documents. But, as explained above, an attorney violates Rule 11 even when that
+
+attorney does not subjectively intend to deceive the court.92 The standard is an objective one.
+
+And the Court cannot find that any of these attorneys met this objective standard here. It is
+
+undisputed that only Mr. Seth utilized ChatGPT and inserted the inaccurate legal authority from
+
+those queries into the documents, and that none of the other attorneys were aware that he did so.
+
+But all of the attorneys who signed the briefs had a nondelegable duty to conduct a reasonable
+
+inquiry into the legal authority relied on in the briefs before signing their names.93 By signing
+
+their names to Docs. 193 and 194, they “certified that each filing had been reviewed and verified
+
+by human judgment,” yet they were not.94 As another district court in this circuit has noted
+
+under similar circumstances, “ignorance does not excuse [this attorney’s] Rule 11(b) violations.
+
+It was [the attorney’s] responsibility to ensure that the Brief, which he signed and filed, was
+
+accurate.”95
+
+
+
+         92
+            See White v. Gen. Motors Corp., 908 F.2d 675, 680 (10th Cir. 1990) (“A good faith belief in the merit of
+an argument is not sufficient; the attorney’s belief must also be in accord with what a reasonable, competent attorney
+would believe under the circumstances.”); In re Allen, 248 F. App’x 874, 882 (10th Cir. 2007) (affirming district
+court’s application of an objective Rule 11 standard when imposing sua sponte sanctions); Omniq Corp. v. Redlpr,
+LLC, No. 19-CV-437, 2025 WL 525044, at *9 (D. Utah Feb. 18, 2025) (rejecting argument that sua sponte sanctions
+must be decided under a subjective bad faith standard in the Tenth Circuit). But see Kyros L. P.C. v. World
+Wrestling Ent., Inc., 78 F.4th 532, 543 (2d Cir. 2023) (“When a court initiates Rule 11 sanctions sua sponte and the
+opportunity to correct or withdraw the challenged submission is unavailable, the court must make a finding of bad
+faith on the part of the attorney before imposing the sanctions.”); United Nat. Ins. v. R&D Latex Corp., 242 F.3d
+1102, 1115–16 (9th Cir. 2001) (explaining that sua sponte sanctions under Rule 11 should “ordinarily be imposed
+only in situations that are akin to a contempt of court”).
+         93
+           Mattox v. Prod. Innovations Rsch., LLC, No. 6:24-CV-235-JAR, 2025 WL 3012828, at *5 (E.D. Okla.
+Oct. 22, 2025) (“Responsibility under Rule 11 extends to all attorneys of record.”).
+         94
+              Id. at *4.
+         95
+              Dehghani v. Castro, 782 F. Supp. 3d 1051, 1059 (D.N.M. 2025).
+
+
+
+
+                                                         21
+  Case 2:22-cv-02324-JAR-ADM                  Document 218          Filed 02/02/26   Page 22 of 36
+
+
+
+
+       The Court finds that Mr. Doell was placed in an untenable position by his superiors. He
+
+was directed to draft much of the summary-judgment response, not including the portion that
+
+came from Mr. Seth’s faulty ChatGPT research. There is no indication that his own work
+
+product utilized unverified research, and he attests under penalty of perjury that it did not. He
+
+was also told to provide limited edits of Mr. Seth’s work, but not to conduct a substantive
+
+review. The Court is mindful that this created a difficult power differential—Mr. Doell is the
+
+associate attorney on this matter, and Mr. Seth was co-counsel bringing 30 years of experience
+
+and no prior ethical lapses or violations to the table. Mr. Doell’s superiors at the Buether Joe
+
+firm apparently had no role in reviewing these two documents or supervising his work. One of
+
+them was out of the country on the date they were filed. Nonetheless, Mr. Doell played a role in
+
+drafting and editing these documents, and under the objective standard that applies to Rule
+
+11(b)(2), he did not make a reasonable inquiry into the law relied on by Mr. Seth before he
+
+signed them. Had he done so, he would have discovered these many errors.
+
+       Mr. Joe and Mr. Kula did not even read the documents before they were filed. They
+
+should have known that giving signature authority without review runs the risk of violating Rule
+
+11. As another district court in the Tenth Circuit has explained, “[w]hen an attorney gives
+
+another permission to sign on their behalf without reviewing the document, it is not only
+
+actionable under Rule 11 but also a possible violation of a state’s ethical rule of competence.”96
+
+Indeed, “no inquiry cannot be deemed objectively reasonable even if the reliance is placed in an
+
+experienced attorney.”97 There was a simple way for these attorneys to avoid the risk of a
+
+
+
+
+       96
+            Wadsworth v. Walmart Inc., 348 F.R.D. 489, 496 (D. Wyo. 2025).
+       97
+            Id.
+
+
+
+
+                                                      22
+   Case 2:22-cv-02324-JAR-ADM                     Document 218             Filed 02/02/26          Page 23 of 36
+
+
+
+
+violation: they did not have to sign the documents. By doing so, they placed their imprimatur on
+
+the filings and are therefore subject to the consequences of that decision.98
+
+          Mr. Cooper, as local counsel, read the documents, but he failed to cite-check them,
+
+despite having discovered a citation error in a previous brief submitted to him for filing in this
+
+case.99 He admits relying on his co-counsel to properly cite the cases therein when he signed his
+
+name to the documents. But by blindly relying on his co-counsel, he delegated a nondelegable
+
+duty. Adherence to Rule 11 is particularly important in the context of local counsel. In this
+
+district, counsel admitted pro hac vice may not directly file documents in CM/ECF. They are
+
+required to use local counsel to do so. And local counsel gives those filings “a presumption of
+
+legitimacy.”100 This is why the Court’s local rule requires pleadings prepared by pro hac vice
+
+attorneys be signed by local counsel who is in good standing and that local counsel meaningfully
+
+participate in the proceedings.101 Mr. Cooper abdicated this responsibility by not confirming the
+
+accuracy of the authority in Docs. 193 and 194 before affixing his signature and filing them
+
+under his own name.
+
+         There was simply no oversight provided by the many seasoned attorneys of record for
+
+Lexos when responding to these motions, despite the fact that they each had a duty under Rule
+
+11, not to mention the rules of professional responsibility, to ensure that the documents they
+
+
+
+
+         98
+           See Mattox, 2025 WL 3012828, at *8 (“When a lawyer lends his signature, or his silence, to filings
+without inquiry, he converts inattention into representation and transforms friendship into liability.”).
+         99
+            See Doc. 217-2 ¶ 14 (“The process described in ¶ 13, supra, differs from the review and approval of at
+least one earlier filing where I had noticed an incomplete citation in a draft before filing. I found the original case
+and corrected the citation before filing the document.”).
+         100
+               Mattox, 2025 WL 3012828, at *8.
+         101
+             See D. Kan. Rule 83.5.4; Doc. 51 (Mr. Cooper’s signed pro hac vice application on behalf of Mr. Seth
+agreeing to “participate meaningfully in the preparation and trial of this case.”).
+
+
+
+
+                                                           23
+  Case 2:22-cv-02324-JAR-ADM                    Document 218          Filed 02/02/26   Page 24 of 36
+
+
+
+
+signed were based on existing law. As such, they all violated Rule 11 when they signed or
+
+allowed their names to be added to the signature blocks of Docs. 193 and 194.
+
+IV.    Sanctions: Rule 11(c)
+
+       While the Rule 11(b) violation in this case is crystal clear to the Court, the appropriate
+
+sanction for each attorney is more difficult. The rule dictates that any sanction imposed “must be
+
+limited to what suffices to deter repetition of the conduct or comparable conduct by others
+
+similarly situated.”102 And the Court must consider the relative fault of each attorney in
+
+fashioning sanctions.103
+
+       This Court has already stricken Doc. 194 and granted leave to Lexos to file a corrected
+
+document that removes the offending citations. As a practical matter, this removed all but three
+
+case citations that counsel previously submitted in support of the motion, and all of the
+
+substantively-specific authority Lexos previously used to persuade the Court not to grant the
+
+motion to strike. Although the Court did not explicitly address the summary-judgment response
+
+in its order on the motion for leave to correct, at this time it also strikes the offending authority
+
+that was copied from the Daubert response into Part III.D of the summary-judgment response.
+
+Beyond this consequence of counsel’s conduct, the Court discusses below the relative fault of
+
+each attorney and the sanctions, if any, it imposes.
+
+       In considering the range of sanctions available, the Court cannot ignore the context in
+
+which these violations occur. The sheer amount of case law that has erupted over the last few
+
+years due to attorneys’ reliance on unverified generative AI research, often generating
+
+
+
+
+       102
+             Fed. R. Civ. P. 11(c)(4).
+       103
+             White v. Gen. Motors Corp., 908 F.2d 675, 685–86 (10th Cir. 1990).
+
+
+
+
+                                                        24
+   Case 2:22-cv-02324-JAR-ADM                     Document 218             Filed 02/02/26          Page 25 of 36
+
+
+
+
+hallucinated legal authority, is staggering.104 There are too many sanctions orders at this point
+
+by other courts to cite them all,105 and the problem has been reported in news sources.106 The
+
+American Bar Association107 and many state bar associations have issued guidance.108 Several
+
+courts now either have notices, local rules, or standing orders that address the use of generative
+
+AI by litigants.109
+
+
+
+
+         104
+             See Anna Conley, Understanding the Duty of Competence for Attorneys Using Generative AI, 27 N.C. J.
+L. & Tech. 65, 75 & n.38 (2025) (stating that the author had located over 40 different cases involving attorneys
+citing generative AI with nonexistent cases and citing to high profile examples); see also Evan Gorelick, Vigilante
+Lawyers Expose the Rising Tide of A.I. Slop in Court Filings, N.Y. Times (Nov. 11, 2025), at B3 (referencing
+lawyer and researcher Damien Charlotin’s attempt to create online databases tracking cases that deal with fabricated
+cases generated by A.I. and noting at that time that he had documented 509 such cases); Tracking Federal Judge
+Orders on Artificial Intelligence, Law360, https://www.law360.com/pulse/ai-tracker (last visited Jan. 27, 2026)
+(aggregating 59 cases).
+         105
+           See, e.g., Johnson v. Dunn, 892 F. Supp. 3d 1241, 1266 (N.D. Ala. 2025) (collecting cases); Mattox v.
+Prod. Innovations Rsch., LLC, No. 24-CV-235, 2025 WL 3012828, at *6–7 (E.D. Okla. Oct. 22, 2025) (same).
+         106
+            See, e.g., Benjamin Weiser, So, Have You Heard the One About the Lawyer Using A.I.?, N.Y. Times
+(May 29, 2023), at A1; Sarah Martinson, Judges’ AI Orders Keep Trickling in as Fake Citations Persist, Law360
+(July 21, 2025), https://www.law360.com/pulse/articles/2357542?; Daniel Wu, Lawyers Using AI Keep Citing Fake
+Cases in Court. Judges Aren’t Happy, Washington Post (June 3, 2025),
+https://www.washingtonpost.com/nation/2025/06/03/attorneys-court-ai-hallucinations-judges/.
+         107
+               A.B.A. Comm. on Ethics & Pro. Resp., Formal Op. 512 (2024).
+          108
+              See A.B.A. Task Force on Law & A.I., Addressing the Legal Challenges of AI, Year 2 Report on the
+Impact of AI on the Practice of Law, at 47 (Dec. 2025) (compiling state bar ethics rules and guidance). Mr. Seth is
+licensed in Texas and California. Both state bars provide guidance on attorneys’ use of AI. State Bar of Cal.
+Standing Comm. on Pro. Resp. & Conduct, Practical Guidance for the Use of Generative Artificial Intelligence in
+the Practice of Law (2023) (providing guiding principles regarding how the rules of professional responsibility
+should be applied to lawyers’ use of generative AI, including that under Rules 1.1 and 1.3, “AI-generated outputs
+can be used as a starting point but must be carefully scrutinized. They should be critically analyzed for accuracy and
+bias, supplemented, and improved, if necessary. . . . A lawyer’s professional judgment cannot be delegated to
+generative AI and remains the lawyer’s responsibility at all times”); Tex. Comm. on Pro. Ethics, Op. 705 (Feb.
+2025) (“While there may be many ways that generative AI can assist in the practice of law and benefit lawyers and
+clients alike, Texas lawyers must always be aware of the ethical issues that may arise in the use of generative AI.
+Among many other issues, lawyers should acquire basic technological competence before using any generative AI
+tool, should always ensure that the tool does not imperil confidential client information, should always verify the
+accuracy of any responses received from a generative AI tool, and should not charge clients for the time ‘saved’ by
+using a generative AI program.”).
+         109
+              See, e.g., United States District Court for the District of Connecticut, Notice to Counsel and Litigants
+Regarding AI-Assisted Research, at https://www.ctd.uscourts.gov/; E.D. Tex. Admin. R. III(3)(m); In re Use of
+Artificial Intelligence, No. 3:24-mc-104, slip op. (W.D.N.C. June 18, 2024), at
+https://www.ncwd.uscourts.gov/sites/default/files/general-orders/AI%20Standing%20Order.pdf. See generally
+RAILS, Analysis of AI Use in Courts, at https://rails.legal/resources/resource-ai-orders/ (providing table of court
+rules, local rules, and judicial guidelines governing the use of AI through May 2025).
+
+
+
+
+                                                           25
+   Case 2:22-cv-02324-JAR-ADM                   Document 218            Filed 02/02/26         Page 26 of 36
+
+
+
+
+         A reasonably competent attorney filing documents in court should be aware of the
+
+pronounced, well-publicized risks of using unverified generative AI for legal research and the
+
+ethical obligations associated with signing a court filing without checking it for accuracy.
+
+Nonetheless, all of the attorneys here disclaim such knowledge. Mr. Seth claims he was a novice
+
+and did not appreciate the risk of case hallucinations. The Buether Joe attorneys suggest that
+
+because their firm had a strict prohibition on the use of AI, they had no further obligation to
+
+check their own work, and no reason to think that co-counsel, who was not covered by this
+
+internal policy, used AI. Mr. Cooper relied on the Texas attorneys to cite check their work. The
+
+Court finds that these attorneys’ collective failure to devise a system of checking their filings for
+
+accuracy in the face of the well-publicized need to do so requires sanctions in order to deter
+
+repetition of this conduct by them and by other attorneys who are similarly situated.
+
+         The Court has considered the many other cases where judges have sanctioned attorneys
+
+for similar conduct. In most of them, courts have imposed monetary penalties ranging from as
+
+high as $31,000,110 to as low as $500.111 In addition to the admonishment contained in this
+
+Order, the Court imposes fines proportionate to the individual attorney’s violation in this case,
+
+with the exception of Mr. Doell, as well as other targeted sanctions designed to ensure that these
+
+attorneys and others similarly situated do not commit similar infractions in the future.
+
+
+
+
+         110
+            Lacey v. State Farm Gen. Ins., No. CV 24-5205, 2025 WL 1363069, at *5 (C.D. Cal. May 5, 2025)
+(special master order sanctioning the plaintiff’s law firms, including ordering them to pay compensation to the
+defense in the total amount of $31,000).
+         111
+            See, e.g., Wadsworth v. Walmart Inc., 348 F.R.D. 489, 495–96 (D. Wyo. 2025) ($3,000 fine for drafter;
+$1,000 for other attorneys who signed); Cojom v. Roblen, LLC, No. 23-CV-1669, 2025 WL 3205930, at *4 (D.
+Conn. Nov. 17, 2025) ($500 fine); Coomer v. Lindell, No. 22-1129, 2025 WL 1865282, at *8 (D. Colo. July 7,
+2025) ($3,000 per attorney); Mattox v. Prod. Innovations Rsch., LLC, No. 6:24-CV-235-JAR, 2025 WL 3012828, at
+*8 (E.D. Okla. Oct. 22, 2025) ($3,000 fine for drafter, $2,000 for counsel of record who did not sign, and $1,000 for
+signer who did not review).
+
+
+
+
+                                                         26
+  Case 2:22-cv-02324-JAR-ADM                   Document 218    Filed 02/02/26       Page 27 of 36
+
+
+
+
+       A.          Mr. Seth
+
+       There is no doubt on this record that Mr. Seth carries the most relative fault. He admits
+
+that he used ChatGPT without verifying its research results, he admits to not telling his co-
+
+counsel or the client that he did so, and he allowed his co-counsel to add their names to the
+
+documents despite this knowledge. In fact, Mr. Seth asks the Court not to sanction any of the
+
+other attorneys for the violation and states that he is solely to blame.
+
+       In fashioning an appropriate sanction for Mr. Seth, the Court is mindful of the difficult
+
+family circumstances he was dealing with at the time of filing. This situation was so serious that
+
+Mr. Seth states it had “a profound effect on [his] mental state at the time of this error that left
+
+[him] distraught and somewhat distracted.”112 While the Court is sympathetic to Mr. Seth’s
+
+family circumstances, it cannot ignore that there were obvious options open to him short of using
+
+a publicly-available generative AI search tool that he had never used before to research his brief
+
+without verifying the accuracy of that research. The Court cannot understand why he did not
+
+share his situation, even generically, with one or more of his many co-counsel who could have
+
+helped him. Mr. Kula handled the claim construction hearing and should have been in a position
+
+to assist him on this Daubert issue. Another obvious option for Mr. Seth would have been to
+
+seek an extension of time to file his response brief. Certainly caring for and attending to
+
+extremely sick or dying family members would have constituted good cause for an extension of
+
+time.113 Yet, he chose neither of these options. Instead, Mr. Seth chose to use ChatGPT, not
+
+once but twice, and then failed to confirm that the very strong authority it generated was
+
+accurate.
+
+
+
+       112
+             Doc. 217-1 ¶ 10.
+       113
+             See Fed. R. Civ. P. 6(b)(1)(A).
+
+
+
+
+                                                    27
+  Case 2:22-cv-02324-JAR-ADM             Document 218         Filed 02/02/26      Page 28 of 36
+
+
+
+
+        Mr. Seth claims that this was the first and only time he used this tool that he admits he
+
+did not understand. And despite using this tool for the first time while admittedly not
+
+understanding it, he claims that he intended to but did not check the accuracy of its output. He
+
+blames this oversight on his emotional state at the time. But the Court finds that, in addition to
+
+his failure to verify the accuracy of his research, Mr. Seth’s admitted use of a generative AI tool
+
+without understanding it is an aggravating circumstance that it must consider when imposing a
+
+sanction.
+
+        The Court also takes into account Mr. Seth’s remorse and the fact that he attempted to
+
+correct the defective pleading. Mr. Seth apologizes to the Court, his co-counsel, and opposing
+
+counsel in his declarations, and assures the Court that he has learned his lesson. While the Court
+
+is heartened by his remorse, several statements in Mr. Seth’s declaration leave it convinced that
+
+further sanctions are necessary to deter future conduct both by Mr. Seth and by others similarly
+
+situated.
+
+        First, Mr. Seth overemphasizes the fact that he did not deliberately intend to deceive the
+
+Court.114 The Court recognizes that he did not set out to deliberately deceive the Court when he
+
+chose to use ChatGPT to generate case citations, quotations, and statements of the law that he
+
+then inserted into the briefs without checking them for accuracy. But if Mr. Seth was not aware
+
+of the very real risk of case hallucinations resulting from unverified generative AI legal research,
+
+he should have been. As referenced above, the number of cases, published and unpublished, that
+
+resulted in Rule 11 sanctions for this very conduct has ballooned in recent years. And it has been
+
+highly publicized. The states in which Mr. Seth is licensed have issued guidance. A reasonable,
+
+
+
+
+        114
+              Doc. 217-1 ¶¶ 12–14.
+
+
+
+
+                                                 28
+  Case 2:22-cv-02324-JAR-ADM                    Document 218   Filed 02/02/26     Page 29 of 36
+
+
+
+
+competent attorney in Mr. Seth’s position should have been aware of the risks of using this
+
+research tool.
+
+       Second, the Court is troubled by Mr. Seth’s assertion that he was merely seeking to
+
+corroborate “the approximately 95% of humanly generated brief and substantive arguments
+
+contained therein [that he] personally drafted based upon the facts in this case and not any AI
+
+output.”115 This statement conveys that he does not appreciate the magnitude of his error. A
+
+quick comparison of Mr. Seth’s original and corrected draft belies his claim that the original
+
+brief was composed of 95% human-generated content.116 The correct brief is approximately two
+
+pages shorter than the faulty one. The eleven misstatements of authority—all either nonexistent
+
+or incorrect—pervaded Doc. 194.
+
+       Moreover, the only human-generated content in the original brief is either generic, or
+
+made without citation to authority. The false quotations, citations, and misrepresented authority
+
+were all highly specific to the issue raised in Overstock’s motion. And, as set forth in detail
+
+earlier in this opinion, these statements of authority were quite strong. Mr. Seth did not merely
+
+query ChatGPT for a few citations to add after his own text. He asked it to take on the role of
+
+judge and provide him with authority and language opposing the motion. All citations in the
+
+brief, other than the generic references to the Daubert standard, were generated by his unverified
+
+use of ChatGPT. All of them were problematic. To deflect attention from this reckless conduct
+
+by focusing on the other language in the brief is inconsistent with the remorse that Mr. Seth
+
+expresses in other parts of his declaration. The Court instead weighs heavily the severity of the
+
+
+
+
+       115
+             Id. ¶ 14.
+       116
+             Compare Doc. 194, with Doc. 216.
+
+
+
+
+                                                     29
+   Case 2:22-cv-02324-JAR-ADM                    Document 218           Filed 02/02/26          Page 30 of 36
+
+
+
+
+violation when fashioning Mr. Seth’s sanction—the repeated instances of hallucinated case
+
+citations and quotations, and strong misstatements of authority.
+
+         In fashioning a sanction that focuses on deterrence, the Court is also mindful that Mr.
+
+Seth has and continues to represent Lexos and others in the field of patent law in courts around
+
+the country. Mr. Seth contends that much of his work is through contracts with co-counsel
+
+arrangements similar to the one in this case—where he completes work as co-counsel on briefs
+
+joined by other attorneys. Thus, his sanction must be designed to deter the violative conduct in
+
+this and other cases.
+
+         Mr. Seth indicates that it is his “practice going forward to never use AI to identify case
+
+law or quotes attributed to case law from AI,” and that his employees and independent
+
+contractors will be advised the same.117 Respectfully, this is insufficient. As stated throughout
+
+this Order, the Rule 11(b) violation was not necessarily counsel’s use of generative AI to conduct
+
+legal research. The violation was (1) failing to understand the technology so that he could use it
+
+in an informed way; and (2) failing to check the research it generated for accuracy.118 “As
+
+attorneys transition to the world of AI, the duty to check their sources and make a reasonable
+
+inquiry into existing law remains unchanged.”119 Nothing about Mr. Seth’s stated policy
+
+addresses the need for competence and verification. Thus, the Court directs Mr. Seth to
+
+implement a more robust policy designed to deter any future instance of submitting unverified
+
+authority in a filing. The Court will require him to submit to the Clerk for filing a certificate
+
+
+
+
+         117
+               Doc. 217-1 ¶ 11.
+         118
+            Whether Mr. Seth also violated the rules of professional responsibility is not before this Court. The
+Court will defer to Mr. Seth’s state disciplinary authorities to make that determination.
+         119
+               Wadsworth v. Walmart Inc., 348 F.R.D. 489, 493 (D. Wyo. 2025).
+
+
+
+
+                                                         30
+  Case 2:22-cv-02324-JAR-ADM              Document 218         Filed 02/02/26      Page 31 of 36
+
+
+
+
+outlining specific internal procedures at his firm that he intends to impose that will ensure that
+
+the legal authority contained in the firm’s work product is accurate.
+
+       With these considerations in mind, the Court imposes a monetary fine of $5,000 against
+
+Mr. Seth and revokes his pro hac vice admission to this Court, given that several other competent
+
+counsel appear in this matter on behalf of Lexos. The Court further directs Mr. Seth to self-
+
+report to the state disciplinary authorities where he is licensed by providing them with a copy of
+
+this Order, and to submit to the Clerk for filing by no later than February 28, 2026, a certificate
+
+outlining the specific internal procedures at his firm that will ensure that the legal authority
+
+contained in the firm’s work product is accurate.
+
+       B.      Mr. Kula
+
+       As already discussed, Mr. Kula did not generate the defective citations, nor did he
+
+contribute in any way to Docs. 193 and 194. Mr. Kula’s violation was signing a filing despite
+
+failing to review it or otherwise ensuring that its contents were accurate. Mr. Kula instead
+
+assigned an associate, Mr. Doell, to work on the majority of the summary-judgment brief, and to
+
+assist Mr. Seth with both defective briefs. Mr. Kula left for a family vacation several days before
+
+these briefs were filed.
+
+       Because he had no knowledge that Mr. Seth used unverified generative AI to help draft
+
+Doc. 194, and inserted some of that defective authority into Doc. 193, and because he was only
+
+responsible for handling the response to a different Daubert motion, Mr. Kula asks that sanctions
+
+not be imposed. But as the Court has already explained, Mr. Kula’s lack of knowledge that Mr.
+
+Seth used hallucinated authority in Doc. 194 does not absolve him of the Rule 11(b) violation. It
+
+is his failure to review these briefs at all, despite affixing his name to the documents, that
+
+
+
+
+                                                  31
+  Case 2:22-cv-02324-JAR-ADM                        Document 218   Filed 02/02/26   Page 32 of 36
+
+
+
+
+constitutes sanctionable conduct; he violated his duty to conduct a reasonable inquiry into the
+
+facts and the law before filing.
+
+          The Buether Joe attorneys appear to take the position in their declarations that because
+
+the firm had a flat prohibition on the use of “AI platforms by firm personnel or attorneys for
+
+writing, drafting, or creating documents to be filed with any court” and because they had no
+
+reason to believe Mr. Seth used generative AI to draft Doc. 194, they should not be
+
+sanctioned.120 Neither Mr. Kula nor Mr. Joe accept responsibility for signing the documents or
+
+failing to supervise their preparation. Nor do they show any remorse for the fact that Docs. 193
+
+and 194 were filed bearing their names with fabricated and misrepresented legal authority.
+
+Given Mr. Kula’s abdication of his Rule 11 duties by affixing his name to documents that he
+
+failed to review, and his failure to acknowledge this breach, the Court finds a sanction is
+
+warranted. In addition to the public admonishment in this Order, the Court imposes a fine of
+
+$3,000.
+
+       C.            Mr. Joe
+
+       Like Mr. Kula, Mr. Joe states that he took no part in drafting or reviewing the defective
+
+filings in this case, despite allowing his name to be affixed to the documents and despite being
+
+the lead attorney in this matter. And, like Mr. Kula, Mr. Joe fails to acknowledge that he
+
+breached a duty under Rule 11 by delegating his duty to conduct a reasonable inquiry into the
+
+facts and law in Docs. 193 and 194 before signing them. For the same reasons the Court
+
+sanctions Mr. Kula, the Court finds that a sanction is warranted against Mr. Joe in the form of
+
+this public admonishment and a $3,000 fine.
+
+
+
+
+          120
+                Doc. 217-4 ¶ 15; Doc. 217-5 ¶ 11.
+
+
+
+
+                                                         32
+  Case 2:22-cv-02324-JAR-ADM                   Document 218           Filed 02/02/26        Page 33 of 36
+
+
+
+
+       In addition, given Mr. Joe’s role as the managing member of his law firm, the Court
+
+imposes the additional sanction of ordering him to reconsider his firm’s internal policies
+
+addressing the use of AI for generating filings in court. As the Court explained in ordering the
+
+same for Mr. Seth, a mere prohibition on the use of AI platforms without any training,
+
+enforcement, or verification procedure does not ensure the Court that the Buether Joe firm will
+
+not be placed in a similar situation in the future, particularly if they submit briefs with co-counsel
+
+from outside the firm who would not be subject to its policy. As the ABA’s guidance provides:
+
+                          Model Rules 5.1 and 5.3 address the ethical duties of
+                  lawyers charged with managerial and supervisory responsibilities
+                  and set forth those lawyers’ responsibilities with regard to the firm,
+                  subordinate lawyers, and nonlawyers. Managerial lawyers must
+                  create effective measures to ensure that all lawyers in the firm
+                  conform to the rules of professional conduct, and supervisory
+                  lawyers must supervise subordinate lawyers and nonlawyer
+                  assistants to ensure that subordinate lawyers and nonlawyer
+                  assistants conform to the rules. These responsibilities have
+                  implications for the use of [generative AI (“GAI”)] tools by
+                  lawyers and nonlawyers.
+
+                          Managerial lawyers must establish clear policies regarding
+                  the law firm’s permissible use of GAI, and supervisory lawyers
+                  must make reasonable efforts to ensure that the firm’s lawyers and
+                  nonlawyers comply with their professional obligations when using
+                  GAI tools. Supervisory obligations also include ensuring that
+                  subordinate lawyers and nonlawyers are trained, including in the
+                  ethical and practical use of the GAI tools relevant to their work as
+                  well as on risks associated with relevant GAI use. Training could
+                  include the basics of GAI technology, the capabilities and
+                  limitations of the tools, ethical issues in use of GAI and best
+                  practices for secure data handling, privacy, and confidentiality.121
+
+       Thus, the Court directs Mr. Joe to cause the implementation of specific internal
+
+procedures at his firm that will ensure that the legal authority contained in the firm’s future court
+
+filings are accurate. The Court strongly encourages him to consider verification and training
+
+
+       121
+             A.B.A. Comm. on Ethics & Pro. Resp., Formal Op. 512, at 10 (2024) (footnotes omitted).
+
+
+
+
+                                                       33
+  Case 2:22-cv-02324-JAR-ADM              Document 218        Filed 02/02/26      Page 34 of 36
+
+
+
+
+requirements for all members of his firm. He shall file by no later than February 28, 2026, a
+
+certificate outlining these procedures.
+
+       D.      Mr. Doell
+
+       As the Court has already discussed, as the most junior attorney on this matter without
+
+supervisory authority, Mr. Doell was placed in a difficult position by his supervising attorneys.
+
+He was apparently neither expected nor instructed to substantively check Mr. Seth’s work,
+
+despite being asked to execute a declaration in support of the exhibits attached to it, and despite
+
+being asked to conduct a technical edit. One of his supervising attorneys at the firm was out of
+
+the country, and the other took no part in preparing, reviewing, or supervising the July 7, 2025
+
+filings. The Court finds that the public admonishment of this Order is sufficient to deter any
+
+similar future conduct by Mr. Doell and releases him from further sanctions. The remedial
+
+sanctions that the Court imposes on Mr. Joe will apply to him as an associate at the firm and
+
+should prevent him from being placed in this situation again.
+
+       E.      Mr. Cooper
+
+       As local counsel, Mr. Cooper signed the defective filings. By doing so, he vouched for
+
+the Texas attorneys in this matter. Although Mr. Cooper at least reviewed the filings before he
+
+submitted them to the Court, he did not cite-check them. But the Court weighs heavily that,
+
+unlike Mr. Kula and Mr. Joe, Mr. Cooper acknowledges that he had a duty to check the filings
+
+for accuracy before signing and filing them under Rule 11 and that such duty was an objective
+
+one; he expresses remorse for failing to meet this duty, and he sets forth in detail his and his
+
+firm’s efforts to ensure that a similar infraction does not occur again.
+
+       The Fisher Patterson firm has adopted a formal policy (1) prohibiting the use of
+
+generative AI platforms without the consent of the client and the express permission of the
+
+
+
+
+                                                 34
+  Case 2:22-cv-02324-JAR-ADM               Document 218       Filed 02/02/26      Page 35 of 36
+
+
+
+
+responsible partner and, if different, the overseeing attorney, and (2) requiring that all documents
+
+produced using generative AI be independently verified by the author as being true and accurate.
+
+The firm is in the process of developing a policy that extends the formal AI policy to all
+
+instances where an attorney in the firm is local counsel and sponsors other attorneys as pro hac
+
+vice. In addition, Mr. Cooper has voluntarily sanctioned himself in the form of refraining from
+
+serving as sponsoring or local counsel for pro hac vice attorneys for a period of 12 months.
+
+        Thus, the Court finds that the admonishment in this Order, the policies adopted by Mr.
+
+Cooper’s firm, and a $1,000 fine are sufficient to deter Mr. Cooper and any other local counsel
+
+who may be similarly situated from committing a similar infraction in the future.
+
+       IT IS THEREFORE ORDERED BY THE COURT that the following language is
+
+stricken in Lexos’s response to Overstock’s summary-judgment motion: Doc. 193 at 38 and 39,
+
+the entire paragraph under the heading “1. ‘Modify . . . to’ Does Not Imply Exclusivity” and the
+
+citations on page 39 to Baldwin Graphic Systems, Inc. and AstraZeneca.
+
+       IT IS FURTHER ORDERED BY THE COURT that all five Lexos attorneys are
+
+publicly admonished for violating Fed. R. Civ. P. 11(b) as set forth in this Order. The individual
+
+attorneys are further sanctioned under Rule 11 as follows:
+
+           •   Mr. Seth is fined $5,000, the Court revokes his pro hac vice admission to this
+
+               Court, he shall self-report to the state disciplinary authorities where he is licensed
+
+               by providing them with a copy of this Order, and he shall submit to the Clerk for
+
+               filing by no later than February 28, 2026, a certificate outlining specific internal
+
+               procedures to be imposed at his firm that will ensure that the legal authority
+
+               contained in the firm’s future court filings are accurate.
+
+           •   Mr. Kula is fined $3,000.
+
+
+
+
+                                                 35
+  Case 2:22-cv-02324-JAR-ADM              Document 218       Filed 02/02/26      Page 36 of 36
+
+
+
+
+           •   Mr. Joe is fined $3,000 and shall file, by no later than February 28, 2026, a
+
+               certificate outlining specific internal procedures to be imposed at the Buether Joe
+
+               law firm that are designed to ensure that the legal authority contained in the firm’s
+
+               future court filings are accurate.
+
+           •   Mr. Cooper is fined $1,000.
+
+           •   Mr. Doell is released from any further sanctions.
+
+       The fines imposed by this Order shall be made payable to the Court’s registry within 14
+
+days of this Order.
+
+       IT IS SO ORDERED.
+
+       Dated: February 2, 2026
+
+                                                     S/ Julie A. Robinson
+                                                     JULIE A. ROBINSON
+                                                     UNITED STATES DISTRICT JUDGE
+
+
+
+
+                                                    36
+

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /print/content/
+Disallow: /public/docgen/
+Crawl-delay: 10
+

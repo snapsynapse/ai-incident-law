@@ -1,0 +1,15 @@
+{
+  "id": "37069361068c4c62b748acd1fa69306e",
+  "url": "https://ilcourtsaudio.blob.core.windows.net/robots.txt",
+  "kind": "robots",
+  "host": "ilcourtsaudio.blob.core.windows.net",
+  "status": null,
+  "headers": {},
+  "complete": false,
+  "error": "Tunnel connection failed: 403 Forbidden",
+  "retrieved_at": "2026-10-03T18:37:37.606767+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/37069361068c4c62b748acd1fa69306e.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/37069361068c4c62b748acd1fa69306e.body"
+}

@@ -1,0 +1,53 @@
+User-agent: Googlebot
+Disallow: /en/cases/
+Disallow: /fr/arr%C3%AAts/
+Disallow: /fr/arrêts/
+
+User-agent: MSNBot
+Disallow: /en/cases/
+Disallow: /fr/arr%C3%AAts/
+Disallow: /fr/arrêts/
+
+User-agent: Slurp
+Disallow: /en/cases/
+Disallow: /fr/arr%C3%AAts/
+Disallow: /fr/arrêts/
+
+User-agent: Teoma
+Disallow: /en/cases/
+Disallow: /fr/arr%C3%AAts/
+Disallow: /fr/arrêts/
+
+User-agent: Gigabot
+Disallow: /en/cases/
+Disallow: /fr/arr%C3%AAts/
+Disallow: /fr/arrêts/
+
+User-agent: Scrubby
+Disallow: /en/cases/
+Disallow: /fr/arr%C3%AAts/
+Disallow: /fr/arrêts/
+
+User-agent: Robozilla
+Disallow: /en/cases/
+Disallow: /fr/arr%C3%AAts/
+Disallow: /fr/arrêts/
+
+User-agent: ia_archiver
+Disallow: /en/cases/
+Disallow: /fr/arr%C3%AAts/
+Disallow: /fr/arrêts/
+
+User-agent: baiduspider
+Disallow: /en/cases/
+Disallow: /fr/arr%C3%AAts/
+Disallow: /fr/arrêts/
+
+User-agent: Yandex
+Disallow: /en/cases/
+Disallow: /fr/arr%C3%AAts/
+Disallow: /fr/arrêts/
+
+User-agent: *
+Disallow: /
+Disallow: /*.pdf$

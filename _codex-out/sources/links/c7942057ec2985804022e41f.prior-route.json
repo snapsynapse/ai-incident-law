@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "c928e2a6d37144dcadfabc2061a169b0",
+      "url": "https://app.ediscoveryassistant.com/robots.txt",
+      "kind": "robots",
+      "host": "app.ediscoveryassistant.com",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "retrieved_at": "2026-10-03T03:01:30.012704+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/c928e2a6d37144dcadfabc2061a169b0.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:01:40.034022+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/c7942057ec2985804022e41f.body"
+}

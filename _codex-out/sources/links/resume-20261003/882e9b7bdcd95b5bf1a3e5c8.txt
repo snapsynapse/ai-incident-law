@@ -1,0 +1,1108 @@
+     Case: 1:24-cv-00074-SA-DAS Doc #: 79 Filed: 12/19/25 1 of 21 PageID #: 492
+
+
+
+
+                         IN THE UNITED STATES DISTRICT COURT
+                       FOR THE NORTHERN DISTRICT OF MISSISSIPPI
+                                  ABERDEEN DIVISION
+
+THOMAS BILLUPS                                                                               PLAINTIFF
+
+v.                                                           CIVIL ACTION NO. 1:24-CV-74-SA-RP
+
+LOUISVILLE MUNICIPAL SCHOOL DISTRICT                                                      DEFENDANT
+
+                                         SANCTIONS ORDER
+
+        This matter comes before the Court on its own initiative. On September 11, 2025, the Court
+
+entered an Order to Show Cause [69] directing Thomas Billups’ counsel, Jane Watson, Louis
+
+Watson, and Nick Norris, to show cause as to why the Court should not impose sanctions against
+
+them pursuant to Rule 11 of the Federal Rules of Civil Procedure and/or the Court’s inherent
+
+authority. A hearing on this matter was held on October 24, 2025. At the hearing, counsel admitted
+
+to submitting a memorandum that contained fabricated case citations and misrepresentations of
+
+case holdings—all resulting from unverified artificial intelligence (“AI”) usage. The Court now
+
+turns to the issue of an appropriate sanction.
+
+                            Relevant Factual and Procedural Background
+
+        On April 19, 2024, Thomas Billups initiated this lawsuit by filing his Complaint [1] against
+
+Louisville Municipal School District (“LMSD”). Billups brings an age discrimination claim and
+
+is represented by Watson & Norris, PLLC (“the Firm”). Attorneys Jane Watson (“Ms. Watson”),
+
+Louis Watson (“Mr. Watson”), and Nick Norris all entered an appearance in the case on behalf of
+
+Billups.1
+
+
+1
+  Through a supplemental letter submitted to the Court (and copying counsel of record), Norris notified the
+Court that on October 31, 2025, he provided notice to Louis Watson that he intended to terminate their
+partnership and begin practicing as a sole practitioner. The Court cursorily notes this development and will
+address it in more detail hereinafter. Based upon information provided by these attorneys at the hearing,
+Norris, Ms. Watson, and Mr. Watson were the only attorneys practicing at the Firm when the conduct at
+issue occurred.
+     Case: 1:24-cv-00074-SA-DAS Doc #: 79 Filed: 12/19/25 2 of 21 PageID #: 493
+
+
+
+
+       On May 22, 2025, LMSD filed a Motion for Summary Judgment [60] seeking dismissal of
+
+Billups’ claim. Billups filed a Response in Opposition [64] and supporting Memorandum [65] on
+
+June 12, 2025. Ms. Watson and Norris were signatories on the Response Memorandum [65]. On
+
+June 26, 2025, LMSD filed a Reply [68].
+
+       In reviewing the filings, the Court immediately identified issues with multiple case
+
+citations in Billups’ Response Memorandum [65]. Upon further review and extensive research, the
+
+Court found within the Memorandum [65] one case citation to a nonexistent case and multiple
+
+instances where case holdings were misrepresented. In total, there were four problematic citations
+
+identified in the Response Memorandum [65]:
+
+           1) “United States v. Dr. Pepper Bottling Co. of Tex., 130 F. Supp. 2d 846, 851 (N.D.
+              Tex. 2001)” (nonexistent case);
+
+           2) “Jackson v. Gautreaux, 3 F. 4th 182, 190 (5th Cir. 2021)” (existing case but
+              misrepresents the holding);
+
+           3) “Jackson v. Cal-W. Packaging Corp., 602 F. 3d 374, 380 (5th Cir. 2010)” (existing
+              case but misrepresents the holding); and
+
+           4) “Etienne v. Spanish Lake Truck & Casino Plaza, L.L.C., 778 F. 3d 473, 476 (5th
+              Cir. 2015)” (existing case but misrepresents the holding).
+       As noted previously, on September 11, 2025, the Court issued an Order to Show Cause
+
+[69] directing Ms. Watson, Mr. Watson, and Norris “to show cause as to why the Court should not
+
+impose sanctions pursuant to Federal Rule of Civil Procedure 11 and/or its inherent authority” for
+
+“[t]he submission of fictitious legal authorities and making misrepresentations of case law[.]” [69]
+
+at p. 1. As a result of these issues, the Court was unable to rule on the underlying Motion [60] and
+
+had to cancel the jury trial originally scheduled for October 20, 2025.
+
+       Notably, on September 3, 2025, prior to the entry of this Court’s Order [69], the District
+
+Court for the Southern District of Mississippi issued a similar order identifying discrepancies
+
+found in legal authorities cited in a brief signed and submitted by Ms. Watson. See Lewis v. Entergy
+
+                                                 2
+        Case: 1:24-cv-00074-SA-DAS Doc #: 79 Filed: 12/19/25 3 of 21 PageID #: 494
+
+
+
+
+Mississippi, LLC, 3:25-CV-323-HTW-ASH, Dkt. [22]. That order directed Ms. Watson to file a
+
+written response (supported by a declaration signed under penalty of perjury) explaining how the
+
+discrepancies occurred. See id. In an affidavit accompanying her response, Ms. Watson admitted
+
+to using an AI tool to assist her in drafting the brief at issue in that case. See [23], Ex. 1 at p. 1-3.
+
+Ms. Watson also admitted that she did not verify the accuracy of the citations generated by the AI
+
+tool before submitting the brief to the court. See id.
+
+          Reverting to this case, on October 13, 2025, Ms. Watson, along with Mr. Watson and
+
+Norris, filed a Motion for Leave to File Corrected Memorandum [73]. The Motion [73] stated in
+
+part:
+
+                  Plaintiff's counsel used AI tools to assist in drafting the
+                  memorandum response filed on June 12, 2025. Upon review,
+                  counsel identified inaccuracies in certain citations, resulting from
+                  unverified AI-generated research.
+
+[73] at p. 1.
+
+          That Motion [73] remains pending at this time. On October 24, 2025, the Court held the
+
+show cause hearing. From the outset, Ms. Watson admitted to using AI to assist in research and
+
+drafting without verifying the output, which resulted in the Memorandum [65] being tainted with
+
+misrepresentations of law. The Court presented Ms. Watson with a chart of all the
+
+misrepresentations that it had identified in the filed Response Memorandum [65].2 After being
+
+provided an opportunity to review the chart, Ms. Watson agreed with the Court’s findings
+
+articulated therein.
+
+          Following this admission, further explanation from counsel revealed a concerning
+
+sequence of events.
+
+
+
+
+2
+    The chart is attached as an Appendix to this Order.
+
+                                                          3
+     Case: 1:24-cv-00074-SA-DAS Doc #: 79 Filed: 12/19/25 4 of 21 PageID #: 495
+
+
+
+
+       For context, at all times pertinent to this case, Watson & Norris, PLLC was a plaintiff’s
+
+firm that specialized in employment law. The Firm consisted of two partners, Mr. Watson and
+
+Norris, and one associate, Ms. Watson. Counsel explained at the hearing that Norris acted as lead
+
+counsel on all litigation while Mr. Watson handled administrative agency work. Mr. Watson was
+
+typically not involved in litigation until trial was imminent. In 2023, Ms. Watson joined the Firm
+
+as a legal assistant and then, after being admitted to the Mississippi Bar in 2024, became an
+
+associate attorney.
+
+       Ms. Watson worked primarily as a brief writer under Norris’ supervision. Norris reviewed
+
+and made revisions to all of Ms. Watson’s drafted documents. At the hearing, Norris explained
+
+that a draft would typically go through several iterations before he approved a final version for
+
+Ms. Watson to file.
+
+       According to counsel, in March of 2025, an opposing attorney in a case unrelated to the
+
+case sub judice contacted Ms. Watson and informed her that the attorney noticed certain
+
+discrepancies in a brief that Watson had filed. This same attorney then called Norris and informed
+
+him of the issue and that it appeared to the attorney that Ms. Watson had utilized AI. Norris
+
+independently confirmed that Ms. Watson used unverified AI output. Of note, also in March 2025,
+
+the Firm’s three attorneys attended a continuing legal education (“CLE”) course on ethics in
+
+utilizing AI.
+
+       Following the realization of this incident, Norris and Mr. Watson discussed and instituted
+
+an AI usage policy for the Firm. For context, the Firm has used a case management software named
+
+Smokeball for several years. Within the last year, Smokeball added a built-in AI tool called
+
+“Archie” that, according to Norris, keeps all files internal.3 “Archie” can assist in discovery
+
+
+3
+ Norris explained “Archie” can only be used to search documents already uploaded into the Smokeball
+software and “it does not go outside.” [77] at p. 18.
+
+                                                4
+        Case: 1:24-cv-00074-SA-DAS Doc #: 79 Filed: 12/19/25 5 of 21 PageID #: 496
+
+
+
+
+research, document review, and drafting.4 Norris explained that the Firm’s entire staff was allowed
+
+to use “Archie.”
+
+          The Firm’s newly adopted AI policy limited Ms. Watson’s AI usage to “Archie” and
+
+banned the use of any external AI tool. The Firm explained that Ms. Watson was strongly
+
+encouraged to use traditional legal research methods. Ms. Watson apparently told the Firm that
+
+she would comply with the policy—a promise she clearly did not keep.
+
+          After receiving the two show cause orders within a matter of days, the Firm realized that
+
+Ms. Watson had consistently violated the AI policy since its inception. The Firm then began
+
+reviewing filings that Ms. Watson had drafted and located ten cases wherein briefs that contained
+
+unverified and/or inaccurate citations had been filed in this Court and the District Court for the
+
+Southern District of Mississippi. The Firm represented that four of these cases were in the Northern
+
+District. That representation was inaccurate. In fact, the undersigned is aware of at least five other
+
+cases in this District wherein the Firm has admitted to improper AI usage in submitted filings. See
+
+Duffy v. The Camp House LLC, 1:25-CV-60-SA-DAS; Davis v. City of Indianola, Mississippi,
+
+4:25-CV-34-SA-RP; Strickland v. Mabus, LLC, 1:25-CV-26-SA-DAS; Moore v. Ashley Furniture
+
+Indus., LLC, 1:23-CV-158-GHD; Harris v. Nidec Motor Corp., 4:25-CV-16-DMB-JMV.
+
+          The Firm represented to the Court that it has taken corrective action in cases where
+
+unverified AI output was used. The Firm explained that it first worked to identify the problematic
+
+briefs and sought leave to file corrected memorandums in those cases. The Firm also informed
+
+opposing counsel in those cases and represented that no opposing counsel has raised an objection
+
+to their requests to file corrected briefs. The Firm also informed Billups of the unverified AI use
+
+
+
+
+4
+    Norris did not mention the drafting capabilities of “Archie” during the show cause hearing.
+
+                                                       5
+        Case: 1:24-cv-00074-SA-DAS Doc #: 79 Filed: 12/19/25 6 of 21 PageID #: 497
+
+
+
+
+that caused the delay in his case. Lastly, Mr. Watson detailed his efforts of educating himself on
+
+AI including attending a recent seminar and downloading ABA seminars on the topic.
+
+         Following the hearing, Norris informed the Court via letter that the Firm dissolved effective
+
+on November 30, 2025, and that Billups has elected for Norris to continue to represent him in this
+
+case.
+
+                                                 Rule 115
+
+        “‘[T]he central purpose of Rule 11 is to deter baseless filings in district court and thus …
+
+streamline the administration and procedure of the federal courts.’” Sec. & Exch. Comm’n v.
+
+Faulkner, 2018 WL 3708426, at *2 (N.D. Tex. Aug. 3, 2018) (quoting Cooter & Gell v. Hartmarx
+
+Corp., 496 U.S. 384, 393, 110 S. Ct. 2447, 110 L. Ed. 2d 359 (1990)). In pertinent part, Rule 11
+
+provides:
+
+                By presenting to the court a pleading, written motion, or other
+                paper—whether by signing, filing, submitting, or later advocating
+                it—an attorney or unrepresented party certifies that to the best of the
+                person’s knowledge, information, and belief, formed after an
+                inquiry reasonable under the circumstances:… the claims, defenses,
+                and other legal contentions are warranted by existing law or by a
+                nonfrivolous argument for extending, modifying, or reversing
+                existing law or for establishing new law[.]
+
+FED. R. CIV. P. 11(b)(2).
+
+         Accordingly, “[a]n attorney has a duty to conduct a ‘reasonable inquiry into the facts and
+
+law of a case at the time [at] which she affixes her signature on any papers to the court.’”
+
+Faulkner, 2018 WL 3708426 at *2 (quoting Mercury Air Grp., Inc. v. Mansour, 237 F.3d 542, 548
+
+(5th Cir. 2001)). The Rule requires the signing attorney “to satisfy himself that the filed paper is
+
+factually and legally responsible,” and by signing, he indicates “that he personally applied his own
+
+
+
+5
+ Although the Court is of the opinion that the subject conduct is sanctionable under its inherent authority,
+the Court need only rely on Rule 11 to impose the necessary sanctions in this case.
+
+                                                     6
+     Case: 1:24-cv-00074-SA-DAS Doc #: 79 Filed: 12/19/25 7 of 21 PageID #: 498
+
+
+
+
+judgment.” Pavelic v. LeFlore v. Marvel Ent. Grp., 493 U.S. 120, 125, 110 S. Ct. 456, 107 L. Ed.
+
+2d 438 (1989). This is a “nondelegable duty.” Id. at 126, 110 S. Ct. 456.
+
+        “An attorney’s conduct is judged … with an objective, not a subjective, standard of
+
+reasonableness.” Snow Ingredients, Inc. v. SnoWizard, Inc., 833 F.3d 512, 528 (5th Cir. 2016)
+
+(citing Whitehead v. Food Max of Mississippi, Inc., 332 F.3d 796, 802 (5th Cir. 2003)).
+
+“‘Reasonableness is reviewed according to the ‘snapshot’ rule, focusing upon the instant the
+
+attorney[s] affix[] [their] signature[s] to the document.’” Id. (quoting Smith v. Our Lady of the
+
+Lake Hosp., Inc., 960 F.2d 439, 444 (5th Cir. 1992)). “In light of the objective standard of
+
+reasonableness applied under Rule 11, an attorney’s subjective good faith is not enough to
+
+immunize [them] from sanctions based on a Rule 11 violation.” Dodson v. Nichols, 2024 WL
+
+4299023, at *4 (M.D. La. Sept. 26, 2024) (citing Thomas v. Cap. Sec. Servs., Inc., 836 F.2d 866,
+
+873 (5th Cir. 1988)).
+
+       “The district court is vested with considerable discretion in determining the ‘appropriate’
+
+sanction to impose upon the violating party.” Thomas, 836 F.2d at 877. “When Rule 11 has been
+
+violated, the court must ‘carefully choose sanctions that foster the appropriate purpose of the rule,
+
+depending upon the parties, the violation, and nature of the case.’” Faulkner, 2018 WL 3708426
+
+at *2 (quoting Thomas, 836 F.2d at 877). “The Fifth Circuit has held that the sanction imposed
+
+‘should be the least severe sanction adequate to [accomplish] the purpose of Rule 11.’” Ferris v.
+
+Amazon.com Servs., 778 F. Supp. 3d 879, 881 (N.D. Miss. Apr. 16, 2025) (quoting Thomas, 836
+
+F.2d at 878-79). A sanction imposed under Rule 11 “must be limited to what suffices to deter
+
+repetition of the conduct or comparable conduct by others similarly situated.” FED. R. CIV. P.
+
+11(c)(4). A court may consider a variety of factors including “whether [the sanctionable conduct]
+
+
+
+
+                                                 7
+     Case: 1:24-cv-00074-SA-DAS Doc #: 79 Filed: 12/19/25 8 of 21 PageID #: 499
+
+
+
+
+was part of a pattern of activity, or an isolated event[.]” FED. R. CIV. P. 11, advisory committee’s
+
+note to 1993 amendment.
+
+                                       Analysis and Discussion
+
+       There’s a difference between a seasoned, good lawyer and somebody who uses AI to look
+
+like one. The Court reiterates that:
+
+               AI is a powerful tool, that when used prudently, provides immense
+               benefits. When used carelessly, it produces frustratingly realistic
+               legal fiction that takes inordinately longer to respond to than create.
+               While one party can create a fake legal brief at the click of a button,
+               the opposing party and court must parse through the case names,
+               citations, and points of law to determine which parts, if any, are true.
+
+Ferris, 778 F. Supp. 3d at 881 (emphasis added).
+
+       This case presents a startling example of the harm unverified AI usage can cause. This
+
+Court has wasted significant time and efforts sorting through this Memorandum [65] which
+
+contains blatant misrepresentations. The Court is especially troubled that a firm and its attorneys,
+
+who appear in dozens of pending cases across this state, have utilized and relied on unverified AI
+
+usage to accomplish a portion of their litigation obligations. In determining whether a Rule 11
+
+violation occurred, the Court will assess each attorney’s conduct.
+
+   1. Jane Watson
+
+       Ms. Watson drafted, signed, and personally filed the Memorandum [65] at issue. She
+
+admitted that she used “Grok”, an external AI tool, to assist in drafting and research without
+
+verifying the accuracy of the output. [77] at p. 12-13. At the hearing, Ms. Watson provided the
+
+Court with the following explanation for her actions:
+
+               … I made a big mistake. I was lazy. I did not check my work. And
+               I assumed what I used as a tool to help supplement my research to
+               be accurate; and, upon further review, it’s very clear that a lot of the
+               cases are either hallucinated or they were misrepresented. . .
+
+
+
+                                                  8
+     Case: 1:24-cv-00074-SA-DAS Doc #: 79 Filed: 12/19/25 9 of 21 PageID #: 500
+
+
+
+
+                  And I have nothing more to say other than I -- I will never do it
+                  again. I’ve learned my lesson…
+
+                  [I]t’s very pertinent for attorneys to…double-check these citations
+                  and to make sure they’re correct…
+
+                  I’m new at this; I’m still learning. And I turned to AI to help me
+                  figure out how to do the ropes without trying to take too much time
+                  off my hands… It’s not how lawyers should litigate…
+
+                  I will not make the mistake in not checking my citations again.
+
+[77] at p. 6-7.
+
+        To state “the obvious, an attorney who submits fake cases clearly has not read those
+
+nonexistent cases, which is a violation of Rule 11 of the Federal Rules of Civil Procedure.” Willis
+
+v. U.S. Bank, N.A., 738 F. Supp. 3d 959, 960 (N.D. Tex. May 15, 2025) (citing Benjamin v. Costco
+
+Wholesale Corp., 779 F. Supp. 3d 341, 343-44 (E.D. N.Y. Apr. 24, 2025)) (emphasis in original).
+
+The Court finds that, through Ms. Watson’s own admission, she failed to verify the legal authorities
+
+generated by AI prior to filing the Memorandum [65] at issue. In failing to do so, she failed to
+
+“discharge [her] most basic responsibility as an attorney [] to make sure that the statements in the
+
+motion[] were true.” Johnson v. Dunn, 792 F. Supp. 3d 1241, 1263 (N.D. Ala. July 23, 2025). This
+
+warrants Rule 11 sanctions. See Willis, 738 F. Supp. 3d at 960.
+
+        While Ms. Watson’s misconduct in this case clearly violates Rule 11, the Court’s analysis
+
+does not end here as it is compelled to point out Ms. Watson’s troublesome pattern of conduct. See
+
+FED. R. CIV. P. 11, advisory committee’s note to 1993 amendment (indicating that courts should
+
+consider whether the subject conduct was part of a “pattern of activity”).
+
+        As of March 2025, Ms. Watson was on notice of her mistakes when an opposing attorney
+
+informed her directly that she had submitted a brief that contained misrepresentations of law. She
+
+was apparently then given an opportunity to fix the issue without consequence. Instead of learning
+
+
+
+                                                   9
+    Case: 1:24-cv-00074-SA-DAS Doc #: 79 Filed: 12/19/25 10 of 21 PageID #: 501
+
+
+
+
+from her mistake, she failed to change her ways and continued the same practice of not verifying
+
+AI output—only then, her conduct additionally violated the Firm’s policy prohibiting use of
+
+external AI tools.
+
+       The Response Memorandum [65] was filed on June 12, 2025, roughly three months after
+
+the initial notification from an opposing attorney in another case. That is particularly concerning.
+
+When asked about this continued unverified AI practice, Ms. Watson stated:
+
+               I was told that I can’t rely on [AI] to be forthright and have accurate
+               case representations and citations, but there was nothing said about
+               whether or not I could use it [to] enhance my writing, to make it be
+               more succinct and more clerical…And, so far as not conferring with
+               the policy, it wasn’t totally outright not to use it. It was more of just,
+               you know, you need to be careful in how you use it; and I failed to
+               continue to conform to that.
+
+[77] at p. 36-37.
+
+       Ms. Watson’s response highlights her blatant disregard for the Firm’s policy and the
+
+governing ethical standards of the legal profession. Whether she was allowed to use external AI to
+
+“enhance” her writing is irrelevant. She understood the policy banned reliance on AI legal research
+
+and blindly relied on it anyway. These violations encompass more than what Ms. Watson
+
+characterized as “nothing more than just [a] careless error on [her] end[.]” [77] at p. 7. Ms. Watson
+
+wholly integrated unverified AI usage into her practice of law in blatant disregard of the Firm’s
+
+policy and her ethical obligations as an officer of the Court.
+
+       In light of repeated warnings from federal courts about the risk of hallucinated cases, as
+
+well as CLE trainings she attended, direct notice and knowledge of the same prior mistakes, her
+
+violation of the Firm’s AI policy, and the sheer number of filings, Ms. Watson’s misconduct is
+
+particularly egregious and prolific. The Court will consider all these variables in determining an
+
+appropriate sanction.
+
+
+
+                                                  10
+     Case: 1:24-cv-00074-SA-DAS Doc #: 79 Filed: 12/19/25 11 of 21 PageID #: 502
+
+
+
+
+    2. Nick Norris
+
+        For his part, Norris explained at the show cause hearing that he reviewed the Memorandum
+
+[65] for legal arguments but did not independently check the citations. Norris represented to the
+
+Court that he believes this practice is commonplace and that he was not aware he had a duty to go
+
+back and read every single case cited in the Memorandum [65]:
+
+                 I just assumed that when an attorney gave me a brief and [] the
+                 arguments are right in there - - it was just the wrong cases cited. I
+                 assumed they were correct. I did not understand, as a supervisory
+                 duty, that I have to go back and read every single case in the briefs
+                 . . . If the Court determines that it is [] part of my duty, I understand.
+                 I apologize. I just did not understand that was my duty.
+
+[77] at p. 33.
+
+        In essence, Norris simply assumed the accuracy of the citations in the draft. Other courts
+
+have addressed (and rejected) this excuse ad nauseum. See, e.g., Johnson, 792 F. Supp. 3d at 1264
+
+(holding attorney’s obligation to check citations is not excused because he did not know co-counsel
+
+used generative AI); Elizondo v. City of Laredo, 2025 WL 2071072, at *3 (S.D. Tex. July 23,
+
+2025) (finding law clerk’s unsupervised AI use does not excuse attorney’s failure to verify the
+
+cited authorities); Park v. Kim, 91 F. 4th 610, 615 (2d Cir. 2024) (“at the very least, the duties
+
+imposed by Rule 11 require that attorneys read, and thereby confirm the existence and validity of,
+
+the legal authorities on which they rely”); see also Mid Central Operating Engineers Health &
+
+Welfare Fund v. Hoosiervac LLC, 2025 WL 574234, at *2-3 (S.D. Ind. Feb. 21, 2025) (finding
+
+AI-generated cases appearing valid did not relieve attorney of his duty to conduct a reasonable
+
+inquiry).
+
+        Norris is a signatory to the Memorandum [65] and admitted that he failed to check the
+
+citations. As stated above, an attorney’s responsibility to review a legal filing for factual and legal
+
+
+
+
+                                                    11
+       Case: 1:24-cv-00074-SA-DAS Doc #: 79 Filed: 12/19/25 12 of 21 PageID #: 503
+
+
+
+
+accuracy is “nondelegable.” Pavelic, 493 U.S. at 126, 110 S. Ct. 456. The Court finds that Norris
+
+violated Rule 11.
+
+           Unlike in the cases cited above, Norris was on actual notice that Ms. Watson had
+
+previously used unverified generative AI. He even told Mr. Watson that “[i]f this ever happens
+
+again [Ms. Watson’s AI usage], we’re going to be where I’m standing today.” [77] at p. 17. Despite
+
+having notice and appreciating the gravity of the situation, Norris continued to assume the accuracy
+
+of Ms. Watson’s citations.
+
+           Further troubling is the ample opportunity Norris had to identify the errors. Norris
+
+explained:
+
+                    I did review the memorandum . . . I did not check the cites on it.
+                    There were several iterations of the Billups memorandum that I had
+                    Ms. Watson go back and change. There were what we contended
+                    were contradictions in it . . . [our] communications [were] mostly
+                    30-minute to an hour-long phone calls, kind of going through all the
+                    contradictions I was trying to make sure were in and the arguments
+                    were properly made.
+
+[77] at p. 31-32.
+
+           The Court is concerned at this oversight. As outlined in the attached case chart, a large
+
+portion of Billups’ argument relies on a case styled Jackson v. Gautreaux, 3 F. 4th 182, 190 (5th
+
+Cir. 2021). See Appendix at p. 1-3. In fact, this case is cited eight times, even arguing that a jury
+
+should be instructed under its holding. See [65] at p. 20-21. In reality, Jackson is an excessive force
+
+and failure to train case and is wholly irrelevant to the case at bar.6 A seasoned attorney examining
+
+the brief should have read a case so heavily relied upon. Had he done so, he would have easily
+
+discovered the problems. See Johnson, 792 F. Supp. 3d at 1262-63 (“Any reasonable investigation
+
+(indeed, even the most cursory of investigations, or a spot check) would have quickly revealed the
+
+
+
+6
+    Further, the pincite in the citation does not exist.
+
+                                                           12
+     Case: 1:24-cv-00074-SA-DAS Doc #: 79 Filed: 12/19/25 13 of 21 PageID #: 504
+
+
+
+
+problem.”). In light of how little effort would have been required to uncover this falsehood that
+
+permeated throughout the Memorandum [65], the Court is troubled by Norris’ indifference to his
+
+professional responsibility.
+
+        Although Norris has appeared before this Court for years without issue, the Court simply
+
+cannot overlook this failure. The Court will sanction him accordingly.
+
+    3. Louis Watson
+
+        Mr. Watson did not draft, review, or sign the Memorandum [65] at issue. The Court finds
+
+that Mr. Watson did not individually violate Rule 11 as a signatory. Notwithstanding, as the Court
+
+will discuss infra, Mr. Watson is not absolved of responsibility. See FED. R. CIV. P. 11(c)(1).
+
+        As noted, while Mr. Watson is not usually involved with the bulk of the Firm’s litigation,
+
+he is involved in every case. In fact, he appears as a signatory on the Complaint [1]. Despite not
+
+directly supervising Ms. Watson’s day-to-day work, Mr. Watson acted as a supervisory attorney
+
+in many respects. In March 2025, he personally addressed the unverified AI use incident with Ms.
+
+Watson. After receiving a call from the opposing attorney, Norris explained:
+
+                 From there, I called Mr. Watson and told him about the issue and
+                 was very upset and told him [] this has got to be corrected
+                 immediately … Mr. Watson told me he would handle the issue and
+                 talk to her about it. And we discussed policies for using AI. Because,
+                 prior to that, we did not have a policy.
+
+[77] at p. 17.
+
+        Mr. Watson acknowledged the role he played to this Court:
+
+                 The Court:     Mr. Watson, do you consider yourself a supervisory
+                                attorney?
+
+                 Mr. Watson: Yes, Your Honor.
+
+[77] at p. 34.
+
+
+
+
+                                                  13
+       Case: 1:24-cv-00074-SA-DAS Doc #: 79 Filed: 12/19/25 14 of 21 PageID #: 505
+
+
+
+
+          Mr. Watson, in recognition of his role, reported that he and Ms. Watson were in the process
+
+of self-reporting to the Mississippi Bar. Like Norris, the Court acknowledges that Mr. Watson has
+
+appeared before it for many years in good standing, but the Court cannot ignore what has occurred.
+
+      4. Watson & Norris, PLLC
+
+          Rule 11(c)(1) provides that “[a]bsent exceptional circumstances, a law firm must be held
+
+jointly responsible for a violation committed by its partner, associate, or employee.” FED. R. CIV.
+
+P. 11(c)(1). Again, Louis Watson, Jane Watson, and Nick Norris were the only attorneys practicing
+
+at Watson & Norris, PLLC during the relevant time period.7 The Court does not find any
+
+exceptional circumstances that warrant the Firm’s exemption from being held jointly responsible
+
+for the Rule 11 violations. See Gonzalez Bank of Am., N.A. Hayman Bank of Am., N.A. Calidonio
+
+Deutsche Bank Nat’l Tr. Co. Jack Deutsche Bank Nat’l Tr. Co. Torok v. Wells Fargo Bank, 2014
+
+WL 12616132, at *6 (S.D. Tex. Aug. 5, 2014) (holding nine-attorney firm responsible for Rule 11
+
+violations by three attorneys); see also Wadsworth v. Walmart Inc., 348 F.R.D. 489, 499 (D.
+
+Wyoming Feb. 24, 2025) (acknowledging a firm can be held liable for Rule 11 violations by its
+
+members but ultimately declining to do so). Instead, the Court finds it appropriate to hold the Firm
+
+responsible.
+
+          In addition to the Firm’s liability, the Court is concerned with how the Firm is handling the
+
+situation. The Show Cause Order [69] was issued September 11, 2025 and the hearing did not
+
+occur until October 24, 2025—giving the Firm almost six weeks to prepare. Despite ample time,
+
+Mr. Watson was learning of new cases involving unverified AI usage by the Firm on the morning
+
+of the hearing.
+
+           The Court questioned Mr. Watson:
+
+
+
+7
+    As noted earlier, Watson & Norris, PLLC was dissolved on November 30, 2025.
+
+                                                   14
+    Case: 1:24-cv-00074-SA-DAS Doc #: 79 Filed: 12/19/25 15 of 21 PageID #: 506
+
+
+
+
+               The Court:     Mr. Watson, what steps, if any, has the firm taken to
+                              sanction or punish or address the wrongdoing of Ms.
+                              Watson?
+
+               Mr. Watson: Well, Your Honor, first of all, we try to get our hands
+                           around this situation, you know, to figure out how to
+                           correct it, what steps we needed to take. And that’s
+                           when Mr. Norris and - - primarily Mr. Norris and
+                           myself and Ms. Watson have worked to identify the
+                           cases, first, where this issue existed.
+
+                              And, of those cases - - Mr. Norris mentioned there’s
+                              ten of them. I wasn’t aware, until this morning, of the
+                              issue with the Megan Long case; so we haven’t fully
+                              dealt with that yet. But, the other cases - - I believe
+                              there are eight that we have filed motions to correct
+                              the briefs.
+
+[77] at p. 24 (emphasis added).
+
+       In addition, Mr. Watson and Norris offered conflicting accounts regarding the number of
+
+cases in which they had sought leave to amend a tainted filing. For instance, the Court engaged in
+
+the following dialogue with Norris:
+
+               The Court:     And I know you filed some motions for leave to file
+                              corrected memos. Have you filed -- has your firm
+                              filed leave for correcting in those ten cases?
+
+               Mr. Norris:    In nine of the ten, there has been. I have a meeting
+                              set with a client on Tuesday at two o’clock. We have
+                              one issue in this case; it’s Merit -- Megan Long v.
+                              Carrisus. And we have to put forward a correction to
+                              the defendant. And the defendant responded back
+                              that it needed us to correct a fact on top of it. And I
+                              needed to talk to my client before we change that
+                              fact, because I want to make sure it’s right.
+
+[77] at p. 21-22.
+
+       After Norris provided his explanation, Mr. Watson stated, “I believe there are eight cases
+
+that we have filed to correct the brief.” Id. at 24. The Court finds this discrepancy troublesome,
+
+especially when considering other misstatements regarding the number of cases involving the same
+
+
+                                                15
+    Case: 1:24-cv-00074-SA-DAS Doc #: 79 Filed: 12/19/25 16 of 21 PageID #: 507
+
+
+
+
+issue. Specifically, as noted above, Norris represented there were “four cases in the Northern
+
+District we’ve had this issue with. The rest are in the Southern District.” [77] at p. 20. In reality,
+
+the Court has identified six cases in the Northern District where the Firm has admitted that it
+
+submitted filings containing misrepresentations of law due to unverified AI usage.
+
+        Considering the ample time available to counsel to prepare for the hearing, the Court is
+
+especially troubled and finds that, at least at the time of the hearing, the Firm failed to even identify
+
+the reach of its harm. The Court will consider the Firm’s attempted corrective action in determining
+
+appropriate sanctions.8
+
+    5. LMSD
+
+        The Court also observes that the Defendant, LMSD, could have flagged the fictious citation
+
+and misrepresentation of case law in a reply brief or supplemental filing. See Ferris, 778 F. Supp.
+
+3d at 880-81 (opposing party alerted the court to hallucinated cases). The Court takes this
+
+opportunity to issue a charge. Going forward, the Court expects all parties to assist in maintaining
+
+the integrity of the judicial process and to be diligent in flagging AI misuse. “[O]therwise, the risk
+
+is too great that such errors will persist undetected, potentially leading to an outcome unsupported
+
+by law.” Elizondo, 2025 WL 2071072 at *3.
+
+                                               Sanctions
+
+        This Court takes no pleasure in sanctioning attorneys who appear before it. However, the
+
+seriousness of the violations and the resulting waste of judicial resources demand sanctions to deter
+
+future violations. The Court appreciates the acceptance of responsibility and corrective measures
+
+but finds these efforts inadequate.
+
+
+
+
+8
+ The Court reiterates it may consider a “pattern of conduct” in determining appropriate sanctions. FED. R.
+CIV. P. 11, advisory committee’s note to 1993.
+
+                                                   16
+    Case: 1:24-cv-00074-SA-DAS Doc #: 79 Filed: 12/19/25 17 of 21 PageID #: 508
+
+
+
+
+       Rule 11 assigns particular value to the deterrent function of a sanction. See FED. R. CIV. P.
+
+11(c)(4) (providing that sanctions “must be limited to what suffices to deter repetition of the
+
+conduct or comparable conduct by others similarly situated”). In addition, the Court is cognizant
+
+of the Fifth Circuit’s directive to impose the least severe sanction(s) necessary to accomplish
+
+deterrence. See Thomas, 836 F.2d at 878-79.
+
+       The Court has surveyed the array of sanctions issued against attorneys who filed briefs
+
+containing misrepresentations due to unverified AI usage. Commonly, courts have imposed
+
+monetary sanctions ranging from $1,000 to $15,000. See Benjamin, 779 F. Supp. 3d at 347-48;
+
+Wadsworth v. Walmart Inc., 348 F.R.D. at 498 ($3,000 fine against drafter of the brief with fake
+
+cases and $1,000 for other attorneys who signed, but did not draft brief); Elizondo, 2025 WL
+
+2071072 at *3 ($2,500 fine); Gauthier v. Goodyear Tire & Rubber Co., 2024 WL 4882651, at *3
+
+(E.D. Tex. Nov. 25, 2024) ($2,000 fine); Mid Central, 2025 WL 574234 at *3 ($5,000 fine per
+
+filing with fake cases totaling $15,000).
+
+       In addition to monetary fines, courts have referred attorneys to the applicable disciplinary
+
+body for disciplinary proceedings. See Benjamin, 779 F. Supp. 3d at 348 (citing Park, 91 F. 4th at
+
+615-16). Courts have required attorneys to provide a copy of a sanction order to their clients,
+
+opposing counsel, and the presiding judge in every pending state or federal case in which they are
+
+counsel of record. See Johnson, 792 F. Supp. 3d at 1267-68. Courts have also disqualified attorneys
+
+from further participation in the case and required attorneys to complete CLE courses on generative
+
+AI in the legal context. See id.; see also Gauthier, 2024 WL 4882651 at *3.
+
+       Having considered the potential sanctions, the Court finds the unique facts of this case
+
+render many of the lesser sanctions inadequate. Ms. Watson, Mr. Watson, and Norris have all
+
+already attended CLE trainings on the dangers of AI, self-reported to the Mississippi Bar, and
+
+
+
+                                                17
+     Case: 1:24-cv-00074-SA-DAS Doc #: 79 Filed: 12/19/25 18 of 21 PageID #: 509
+
+
+
+
+informed Billups of the AI misuse.9 The Court also finds that a monetary fine would not have a
+
+meaningful deterrent effect. See Johnson, 792 F. Supp. 3d at 1266 (“If fines and public
+
+embarrassment were effective deterrents, there would not be so many [AI misuse] cases to cite.”).
+
+Though addressed ad nauseum, the Court again emphasizes that the Firm was on notice of Ms.
+
+Watson’s unverified AI usage in March of 2025, and its failure to adequately address the issue has
+
+resulted in a flood of tainted filings throughout this State. This has caused an unnecessary delay in
+
+litigation. For instance, after becoming aware of this issue in this particular case, the Court could
+
+not resolve the pending Motion for Summary Judgment [60] and continued all pretrial deadlines
+
+as well as the trial date until further Order. The case is at a standstill because of the egregious
+
+conduct at issue.
+
+        Considering all of these matters and bearing in mind its obligation to impose the least
+
+severe sanction necessary to deter future conduct, the Court first finds it appropriate to disqualify
+
+all three attorneys and their respective firms from further representation of Billups in this case.10
+
+The Court is aware that disqualification can cause hardship on the client and acknowledges that
+
+Billups’ case has been unnecessarily delayed through no fault of his own. However, the Court
+
+finds disqualification would not cause any additional hardship, and “even if there is some minor
+
+hardship, it must yield to the seriousness of the misconduct here.” Id. at 1267. Billups will be
+
+allowed 60 days within which to find new counsel to represent him in this case moving forward or
+
+advise the Court of his intent to proceed pro se.
+
+
+
+
+9
+ At the time of the hearing, Norris had not yet self-reported to the Mississippi Bar but Mr. Watson indicated
+Norris’ intent to do so.
+10
+   This includes Norris, despite the fact that he has now opened a new law firm. That fact does not negate
+the Rule 11 violations he committed in this case.
+
+                                                     18
+     Case: 1:24-cv-00074-SA-DAS Doc #: 79 Filed: 12/19/25 19 of 21 PageID #: 510
+
+
+
+
+        Secondly, all members of the Firm are required to provide a copy of this Sanctions Order
+
+to all presiding judges in every pending state or federal case in which they are counsel of record.11
+
+        Thirdly, as ordered from the bench during the hearing, Ms. Watson must seek withdrawal
+
+in any case where she appears as attorney of record that is assigned to the undersigned. [77] at p.
+
+37. She shall not enter an appearance in any other case assigned to the undersigned for a period of
+
+two (2) years from today’s date.
+
+        Lastly, the Firm shall conduct an internal audit of all substantive filings on which Jane
+
+Watson is a signatory since she became an associate attorney with the Firm. The Firm must provide
+
+a report of the audit to this Court identifying: (1) every case in which Jane Watson is a signatory
+
+on any filing, (2) any fictious case citations and/or misrepresentations of case holdings in any
+
+filing, and (3) the corrective action that has been taken in each case. All three attorneys shall certify
+
+under oath that they reviewed all filings and identified all fictitious case citations and/or
+
+misrepresentations to the best of their ability. This audit report should be emailed to this Court at
+
+Judge_Aycock@msnd.uscourts.gov. Should this audit not be completed and/or be completed
+
+improperly, the Court will consider the same to be further sanctionable conduct.12
+
+        In light of the serious and prolific nature of the offense, the Court finds these sanctions to
+
+be the least severe to accomplish deterrence. Courts across the country are faced with the arduous
+
+task of upholding judicial integrity in the age of AI. Attorneys and pro se litigants alike are
+
+
+
+11
+   For federal district court cases, this mandate encompasses both the assigned district judge and magistrate
+judge on each case. It also includes all appellate judges assigned to any case that is currently pending in
+state or federal court. This is a continuing duty as to all cases that are currently pending.
+12
+   This audit is limited to cases where Jane Watson is a signatory on any filing. The Court recognizes,
+though, that Norris was also a signatory in this case. However, as the Court understood his explanation at
+the show cause hearing, Norris has not utilized AI in drafting legal briefs for filing. If such is the case, the
+Court directs Norris to submit to the Court an affidavit verifying the same. If the Court is incorrect in that
+assumption, the audit requirement is hereby extended to all cases in which Norris has been a signatory on
+any filing within the last two years.
+
+                                                      19
+    Case: 1:24-cv-00074-SA-DAS Doc #: 79 Filed: 12/19/25 20 of 21 PageID #: 511
+
+
+
+
+bombarding courts with fictious filings that drain the Court’s limited resources. At the end of the
+
+day, it is not the Court who is the victim but the people whose day in court is endlessly delayed.
+
+This cannot continue.
+
+                                           Conclusion
+
+       For the reasons set forth above, the Court issues SANCTIONS as follows:
+
+   1. Ms. Watson, Mr. Watson, and Norris are ORDERED to provide a copy of this Sanctions
+
+       Order to the presiding judge in every pending state or federal case in which any of them
+
+       are counsel of record. They must comply with this requirement within 30 days of today’s
+
+       date and certify to the Court that they have done so by filing a Notice indicating that they
+
+       have done so on the docket within 7 days of completing the requirement;
+
+   2. Nick Norris is DISQUALIFIED from further participation in this case;
+
+   3. Jane Watson is DISQUALIFIED from further participation in this case;
+
+   4. Jane Watson is ORDERED to seek withdrawal from any case where she appears as
+
+       attorney of record that is assigned to the undersigned and shall not enter an appearance in
+
+       any other case assigned to the undersigned for a period of two (2) years from today’s date;
+
+   5. Louis Watson is DISQUALIFIED from further participation in this case;
+
+   6. The Court DIRECTS the Clerk of Court to send a copy of this Sanctions Order to the
+
+       Mississippi Bar; and
+
+   7. The Firm is ORDERED to conduct an internal audit as described herein and submit the
+
+       ordered information to this Court within 60 days of today’s date.
+
+       This case is hereby STAYED for a period of 60 days to provide Billups an opportunity to
+
+obtain new counsel. The Court trusts that Norris will immediately advise Billups of the
+
+disqualification. The Court also directs Norris to provide the Court (via email) with the contact
+
+
+
+                                                20
+     Case: 1:24-cv-00074-SA-DAS Doc #: 79 Filed: 12/19/25 21 of 21 PageID #: 512
+
+
+
+
+information of Billups so that, in the event he does not take action within 60 days, the Court can
+
+communicate with him directly and take appropriate action.13
+
+       SO ORDERED, this the 19th day of December, 2025.
+
+                                             /s/ Sharion Aycock
+                                             SENIOR UNITED STATES DISTRICT JUDGE
+
+
+
+
+13
+ Ms. Watson and Mr. Watson’s respective Motions to Withdraw as Counsel [76, 78] are DENIED AS
+MOOT.
+
+                                               21
+

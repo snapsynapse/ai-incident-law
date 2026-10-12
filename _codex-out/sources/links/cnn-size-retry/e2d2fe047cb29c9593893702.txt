@@ -1,0 +1,2481 @@
+             Case 1:26-cv-04427       Document 1         Filed 05/28/26   Page 1 of 54
+
+
+
+
+                            UNITED STATES DISTRICT COURT
+                          SOUTHERN DISTRICT OF NEW YORK
+
+CABLE NEWS NETWORK, INC.,
+
+                     Plaintiff,                     Civil Action No. 1:26-cv-4427
+
+       v.                                           COMPLAINT
+
+PERPLEXITY AI, INC.,                                JURY TRIAL DEMANDED
+
+                     Defendant.
+
+
+
+
+        Plaintiff Cable News Network, Inc. (“CNN”), by and through its attorneys, Rothwell, Figg,
+
+ Ernst & Manbeck, P.C., respectfully brings this Complaint against Defendant Perplexity AI, Inc.
+
+ (“Perplexity” or “Defendant”).
+
+                                  NATURE OF THE ACTION
+
+        1.     Since its founding in 1980, CNN has transformed modern journalism. As the first
+
+ cable news network to provide continuous, 24-hour coverage, CNN pioneered live reporting of
+
+ major events from around the world. For more than four decades, CNN has invested heavily in
+
+ original reporting that would not exist absent CNN’s commitment to journalism and newsgathering.
+
+ CNN’s history reflects that commitment. In 1986, CNN was the only network broadcasting live
+
+ coverage of the Space Shuttle Challenger disaster. Forty years later, in 2026, CNN was one of the
+
+ few major news organizations reporting directly from Tehran during the war in Iran. CNN’s ability
+
+ to deploy correspondents across the globe—often in dangerous and rapidly evolving conditions—
+
+ demonstrates its longstanding dedication to accurate, timely, and on-the-ground reporting. Through
+
+ its large-scale and unlawful copying and distribution of CNN’s copyrighted content, Perplexity has
+
+ appropriated the benefits of CNN’s substantial investments in journalism to develop and market
+
+                                                     1
+                 Case 1:26-cv-04427              Document 1          Filed 05/28/26          Page 2 of 54
+
+
+
+
+competing commercial products, without authorization or compensation. By exploiting CNN’s
+
+reporting in this manner, Perplexity violates the protections afforded by copyright law and
+
+undermines the economic incentives that make original newsgathering possible. CNN brings this
+
+action to hold Perplexity accountable for its unlawful conduct.
+
+           2.       Perplexity is a generative artificial intelligence (“GenAI”) company that describes its
+
+namesake chatbot as an “answer engine.”1 According to Perplexity, “[w]hen you ask Perplexity a
+
+question, it uses advanced AI to search the internet in real-time, gathering insights from top-tier
+
+sources. It then distills this information into a clear, concise summary, delivering exactly what you
+
+need in an easy-to-understand, conversational tone.”2 Perplexity explains that once it “interpret[s]
+
+your question,” it then “searches the internet, gathering information from authoritative sources like
+
+articles, websites, and journals.”3 What Perplexity characterizes as “gathering” involves copying
+
+news and other content and combining it with a Large Language Model (“LLM”) to produce lengthy
+
+and expressive output derived from copyrighted content that is owned by others. By doing this work,
+
+Perplexity purports to save users’ time and energy and eliminate the need for its users themselves to
+
+visit the websites from which Perplexity derives its “answers.”4
+
+           3.       In describing “what sets Perplexity apart,” Perplexity touts that while “[t]raditional
+
+search engines present you with lots of links to sift through. Perplexity functions as an intelligent
+
+research assistant, streamlining your information gathering by delivering the precise knowledge you
+
+
+
+
+1
+    Perplexity, Getting Started, https://www.perplexity.ai/hub/getting-started (last visited May 27, 2026).
+2
+ Perplexity, How does Perplexity work?, https://www.perplexity.ai/help-center/en/articles/10352895-how-does-
+perplexity-work (last visited May 27, 2026).
+3
+    Id.
+4
+ Perplexity Team, Getting Started with Perplexity, Perplexity (Oct. 1, 2024),
+https://www.perplexity.ai/hub/blog/getting-started-with-perplexity.
+
+
+
+                                                              2
+                 Case 1:26-cv-04427              Document 1          Filed 05/28/26             Page 3 of 54
+
+
+
+
+need without the extra steps and clicks.”5 To bypass the “extra steps and clicks,” upon information
+
+and belief, Perplexity accesses as much content as it can from CNN and other sources of trusted,
+
+original, and reliable information. Indeed, as recently as August 2024, Perplexity boasted that its
+
+“answer engine” allowed users to “Skip the links” by providing “a single, comprehensive answer
+
+that summarizes everything you need to know.” See Dow Jones & Co., Inc. & NYP Holdings, Inc.
+
+v. Perplexity AI, Inc., No. 1:24-cv-07984-KPF, at Dkt. 46 n.1 (S.D.N.Y. Jan. 28, 2025). Although
+
+Perplexity appears to have removed the “Skip the links” catchphrase from its promotional material,
+
+this core practice remains.
+
+           4.       Perplexity then makes copies of that content to store in its “AI-First” search index
+
+and to feed to its suite of retrieval-augmented generation or “RAG” products, including its consumer
+
+chatbot, referred to by Perplexity as its “answer engine”;6 enterprise chatbot;7 application
+
+programming interfaces (“APIs”); 8 and personal assistants (e.g., the Comet browser)9 (collectively,
+
+“Perplexity’s GenAI Products”). Perplexity then repackages the original content in written responses
+
+to users. Those responses, or outputs, often are verbatim or near-verbatim reproductions, summaries,
+
+or abridgements of the original content, including CNN’s copyrighted works.
+
+           5.       Although Perplexity has a free standard tier, it offers paid plans, including Perplexity
+
+Pro, Enterprise Pro, and Enterprise Max. These paid plans offer, inter alia, “deeper sourcing from
+
+Perplexity’s index,” “search across the web, team files, and work apps,” “2x file uploads,” and “deep
+
+
+
+5
+  Perplexity, What is Perplexity, https://www.perplexity.ai/help-center/en/articles/10352155-what-is-perplexity (last
+visited May 27, 2026).
+6
+    Perplexity, Answer Engine, https://www.perplexity.ai/ (last visited May 27, 2026).
+7
+    Perplexity, Enterprise, https://www.perplexity.ai/enterprise (last visited May 27, 2026).
+8
+ Perplexity, API Platform, https://www.perplexity.ai/api-platform (last visited May 27, 2026); Perplexity Research,
+Architecting and Evaluating an AI-First Search API (Sept. 25, 2025), https://research.perplexity.ai/articles/architecting-
+and-evaluating-an-ai-first-search-api.
+9
+    Perplexity, Comet, https://www.perplexity.ai/comet (last visited May 27, 2026).
+
+
+
+                                                              3
+                 Case 1:26-cv-04427              Document 1           Filed 05/28/26         Page 4 of 54
+
+
+
+
+research at any scale.”10 Perplexity solicits users by touting its news gathering abilities, sending
+
+unprompted emails with the following solicitation:
+
+
+
+
+           6.       Perplexity’s chatbot provides suggestions for how its chatbot can be used to gather
+
+news. For example, if you ask Perplexity’s chatbot, “Can Perplexity help gather news?” Perplexity
+
+responds with the following:
+
+
+
+
+10
+     Perplexity, Enterprise Pricing, https://www.perplexity.ai/enterprise/pricing (last visited May 27, 2026).
+
+
+
+                                                              4
+             Case 1:26-cv-04427        Document 1        Filed 05/28/26      Page 5 of 54
+
+
+
+
+       7.      Perplexity’s conduct violates CNN’s exclusive rights under the Copyright Act at two
+
+principal stages: First, at the input stage, Perplexity unlawfully crawls, scrapes, copies, and
+
+distributes CNN’s content from CNN Digital Platforms and third-party platforms using software
+
+programs, including “PerplexityBot” and “Perplexity-User,” to build an AI-First search index and
+
+to provide CNN’s content in real time as input to LLMs to formulate responses to users’ prompts.
+
+And second, at the output stage, when Perplexity’s GenAI Products generate outputs that are
+
+identical or substantially similar to CNN’s content. Upon information and belief, Perplexity has
+
+unlawfully copied over 17,000 CNN stories, videos, images, and other works to power its products
+
+and tools.
+
+       8.      In addition to its massive copyright infringement, Perplexity also violates CNN’s
+
+trademarks under the Lanham Act by falsely claiming an affiliation between Perplexity and CNN
+
+that does not exist. Perplexity’s GenAI products generate fabricated content that claims that its users
+
+can pay to upgrade and get access to CNN’s premium content, when no such option exists. Thus,
+
+Perplexity uses CNN’s famous, registered trademarks and falsely attributes an affiliation between
+
+Perplexity and CNN to its users which causes confusion. Perplexity likewise violates CNN’s
+
+trademarks under the Lanham Act when its GenAI Products misleadingly omit or modify portions
+
+of CNN’s content without disclosing those omissions or modifications and display the inaccurate
+
+reproductions alongside CNN’s famous trademarks. Perplexity also violates CNN’s trademarks
+
+under the Lanham Act in connection with the generation and distribution of confabulated or
+
+“hallucinated” content that Perplexity falsely attributes to CNN. Perplexity’s use of CNN’s
+
+trademarks constitutes false designations of origin, infringement, and dilution by confusing and
+
+deceiving Perplexity users into believing that users may lawfully access CNN’s content on
+
+
+
+
+                                                  5
+             Case 1:26-cv-04427        Document 1        Filed 05/28/26      Page 6 of 54
+
+
+
+
+Perplexity and/or by generating undisclosed omissions, modifications, or hallucinations that it
+
+claims are associated with, sponsored by, or approved by CNN.
+
+                                          THE PARTIES
+
+       9.      Plaintiff CNN is a global 24-hour news organization that owns and operates
+
+numerous news networks and services, including the 24-hour CNN channel in the United States,
+
+CNN International globally and CNN en Español. CNN also operates global digital platforms that
+
+provide access to original news coverage and other features, which are available on CNN.com CNN
+
+All Access, CNN’s subscription digital service and numerous other international, regional, and
+
+specialized digital platforms (collectively, “CNN Digital Platforms”). CNN owns registered
+
+copyrights for over 17,000 articles and digital content, including the articles (and other works)
+
+contained in the registrations set forth in Exhibit A (“CNN Works”).
+
+       10.     CNN is a Delaware corporation with its principal place of business at 1050 Techwood
+
+Drive NW, Atlanta, GA 30303. CNN is ultimately a wholly owned subsidiary of Warner Bros.
+
+Discovery, Inc.
+
+       11.     Defendant Perplexity is a Delaware corporation with its principal place of business
+
+at 115 Sansome Street, Suite 900, San Francisco, California 94104.
+
+                                 JURISDICTION AND VENUE
+
+       12.     This civil action seeks damages, injunctive relief, and other equitable relief under the
+
+Copyright Act of 1976, 17 U.S.C. § 101 et seq., and the Lanham Act, 15 U.S.C. § 1051 et seq.
+
+       13.     This Court has subject matter jurisdiction over this civil action under 28 U.S.C. §§
+
+1331 and 1338.
+
+       14.     As set forth in this section and further supported in the “Factual Allegations” below,
+
+this Court has personal jurisdiction over Perplexity pursuant to New York Civil Practice Law and
+
+
+
+
+                                                  6
+                 Case 1:26-cv-04427              Document 1           Filed 05/28/26         Page 7 of 54
+
+
+
+
+Rules § 302(a)(1)–(4) and the Due Process Clause of the U.S. Constitution. In multiple
+
+independently sufficient ways, Perplexity has purposely availed itself of the privilege of doing
+
+business in the State of New York and subjected itself to New York’s long-arm jurisdiction.
+
+           15.      Since April 21, 2023, Perplexity has been registered to do business in the State of
+
+New York. Perplexity’s New York Department of State identification number is 6837808.
+
+           16.      Perplexity uses real property situated within this State and District, including office
+
+space in Manhattan, which is utilized for the conduct of its business as outlined in this Complaint.
+
+Perplexity states on its website, “You’ll find our teams collaborating in offices across Palo Alto,
+
+New York,” among other locations, and “our in-person team members spend 4 days a week in the
+
+office . . ..”11 On or about February 18, 2025, Perplexity’s Work Experience Manager, Tram Anh
+
+Phun, submitted a declaration in the Dow Jones litigation confirming that “Perplexity rents office
+
+space from Industrious, a co-working facility, located at 215 Park Avenue South, 11th Floor, New
+
+York, New York 10003.” See Dow Jones, at Dkt. 49, at 8 (S.D.N.Y. Feb. 18, 2025). As further
+
+described below, this Court found Perplexity’s office space in New York, in addition to other factors,
+
+to weigh in favor of exercising jurisdiction over Perplexity. See id., at Dkt. 65, 2025 WL 2416401
+
+(S.D.N.Y. Aug. 21, 2025).
+
+           17.      In February 2026, Perplexity was reported to have expanded its total office space
+
+occupancy to 22,000 square feet in Manhattan.12 Reflecting on its expansive office space, Nathan
+
+Barksdale, General Counsel and Vice President of Operations at Perplexity stated: “The connected
+
+space gives us the visibility and flexibility we were looking for, and we’re excited to see how it
+
+
+
+
+11
+     Perplexity, Help us build the future of discovery, https://www.perplexity.ai/hub/careers (last visited May 27, 2026).
+12
+  Max Gillepsie, Perplexity Signs New Lease Spanning 22,000 Square Feet at 841, 853 Broadway in Union Square,
+Manhattan, New York YIMBY (Feb. 17, 2026), https://newyorkyimby.com/2026/02/perplexity-signs-new-lease-
+spanning-22000-square-feet-at-841-853-broadway-in-union-square-manhattan.html.
+
+
+
+                                                              7
+                 Case 1:26-cv-04427        Document 1         Filed 05/28/26        Page 8 of 54
+
+
+
+
+sparks creativity and collaboration among our staff.”13
+
+           18.     Perplexity’s co-founder and Chief Strategy Officer Johnny Ho publicly described
+
+how, since its founding, the company benefitted from its presence in New York. In response to a
+
+question about whether “there was something that gave you conviction about these individuals to go
+
+on the journey [to found Perplexity] with,” Ho stated that “being in New York brought some different
+
+perspectives to the company and allowed us to actually work in an a-sync way where all of us have
+
+our own ideas and push them together and find something that will align, hopefully not only with a
+
+bubble but, like, the entire world.”14
+
+           19.     In another interview, Ho further revealed how the only in-person meeting among
+
+Perplexity’s three co-founders when starting the company took place in New York: “We got
+
+together, like, one time in New York, and we had a whiteboard, and we spent like maybe two or
+
+three days together. And that was, like, pretty much the only time that we had in person. Everything
+
+else was just like remote.”15
+
+           20.     Perplexity actively seeks to expand its presence in New York and take advantage of
+
+talent in this State and District. Perplexity’s career webpage prominently features that it has offices
+
+in San Francisco and New York City, among other cities. On May 12, 2026, its website listed 23
+
+positions that could be based in New York, including:
+
+                   Member of Technical Staff (Software Engineer, Monetization)
+                   Enterprise Growth Lead
+                   Solutions Product Marketing Manager
+
+           Moreover, positions advertised in other cities could still be staffed out of New York.
+
+
+13
+     Id.
+14
+  The Room Podcast, Empowering The Future of Gen AI with Johnny Ho, Co-Founder of Perplexity | The Room Podcast
+S11E1 (Oct. 1, 2024), at 10:02-10:45, https://www.youtube.com/watch?v=ZWtcsjQ1gQ4.
+15
+ Imagination in Action, Inside Perplexity AI: A Conversation with Johnny Ho, Cofounder of Perplexity and CSO IIA
+@ MIT 2025 (Apr. 30, 2025), at 2:55-3:15, https://www.youtube.com/watch?v=4ibfXV5vYaA.
+
+
+
+                                                       8
+                 Case 1:26-cv-04427           Document 1          Filed 05/28/26        Page 9 of 54
+
+
+
+
+           21.      Perplexity also targets customers in or visiting New York with material tailored
+
+specifically to New York. Its webpage https://www.perplexity.ai/encyclopedia/discovernewyork,
+
+invites visitors to “Discover New York with Perplexity.”
+
+
+
+
+           22.      Perplexity also promotes itself in New York City. For example, in September 2024,
+
+Perplexity posted on Instagram a photograph of a billboard in Times Square which read
+
+“Congratulations Perplexity on 250 million questions answered last month.”16 Below is a screenshot
+
+of the Instagram post.
+
+
+
+
+16
+     Perplexity [@perplexity.ai], Instagram (Sept. 4, 2024), https://www.instagram.com/perplexity.ai/p/C_g2TonSHC5.
+
+
+
+                                                           9
+              Case 1:26-cv-04427         Document 1           Filed 05/28/26   Page 10 of 54
+
+
+
+
+        23.     Similarly, on January 5, 2024, Perplexity’s CEO Aravind Srinivas posted on X a
+
+picture of a Tesla Cybertruck emblazoned with Perplexity’s name parked in Times Square. Below
+
+is a screenshot of the X post.17
+
+
+
+
+        24.     Upon information and belief, Perplexity derives substantial revenue from services
+
+rendered in this State and District and from interstate commerce. As of November 2025, Perplexity
+
+
+17
+         Aravind       Srinivas       [@AravSrinivas],   X       (Jan.   6,    2025,    10:41   PM),
+https://x.com/aravsrinivas/status/1876474243921432832?s=46.
+
+
+
+
+                                                     10
+              Case 1:26-cv-04427            Document 1         Filed 05/28/26         Page 11 of 54
+
+
+
+
+has approximately 22 million active users across its website and app.18 Upon information and belief,
+
+a significant number of these users are in this State and District. Moreover, upon information and
+
+belief, and as evidenced by its business operations in this State and District, Perplexity expects or
+
+should reasonably expect its business operations, including its actions alleged to be legal violations
+
+in this Complaint, to have consequences in the State and District. Indeed, Perplexity is already a
+
+party in at least five lawsuits in this District.19
+
+        25.      CNN’s claims in this Complaint relate to Perplexity’s business in this State and
+
+District and to the work of its employees in this State and District who create, design, market, and
+
+grow Perplexity’s products and services. As alleged further in this Complaint, to eliminate “extra
+
+steps and clicks,” Perplexity infringed on copyrighted works by making unauthorized copies and
+
+providing verbatim or substantially similar copies of these copyrighted works in its “answer engine.”
+
+Moreover, when providing answers to subscribers and users in this State and District, Perplexity will
+
+produce fabricated content with misleading omissions or modifications that devalue CNN’s valuable
+
+trademarks.
+
+        26.      This Court is also the appropriate forum for this action. Perplexity is already
+
+defending lawsuits filed against it in this state and district. In December 2025, The New York Times
+
+Company, No. 25-cv-10106-LAP (S.D.N.Y. Dec. 5, 2025), and the Chicago Tribune Company,
+
+LLC, No. 25-cv-10094 (S.D.N.Y. Dec. 4, 2025), filed complaints against Perplexity alleging
+
+copyright and trademark infringement. In September 2025, Encyclopaedia Britannica, Inc. and
+
+Merriam-Webster, Inc. filed a complaint against Perplexity alleging the same. See Encyclopaedia
+
+
+
+18
+    David Curry, Perplexity Revenue and Usage Statistics (2025), Business of Apps (Nov. 10, 2025),
+https://www.businessofapps.com/data/perplexity-ai-statistics/.
+19
+  See New York Times Co. et al. v. Perplexity, AI, Inc., No. 25-cv-10106; Chicago Tribune Co., LLC v. Perplexity AI,
+Inc., No. 25-cv-10094; Reddit, Inc. v. SerpApi LLC et al., No. 25-cv-8736; Encyclopaedia Britannica, Inc. et al. v.
+Perplexity AI, Inc., No. 25-cv-07546; Dow Jones Perplexity AI, Inc., No. 24-cv-7984.
+
+
+
+                                                        11
+               Case 1:26-cv-04427      Document 1        Filed 05/28/26       Page 12 of 54
+
+
+
+
+Britannica, Inc., No. 25-cv-07546-JLR (S.D.N.Y. Sept. 10, 2025). In January 2025, Dow Jones &
+
+Company and NYP Holdings filed their second amended complaint against Perplexity with similar
+
+claims. See Dow Jones, at Dkt. 46 (S.D.N.Y. Jan. 28, 2025).
+
+         27.     On August 21, 2025, the Dow Jones court denied in full Perplexity’s 12(b)(2),
+
+12(b)(3), and 12(b)(6) motion to dismiss the complaint for lack of jurisdiction, improper venue, and
+
+failure to state a claim. Id., at Dkt. 65, 2025 WL 2416401, at *1 (S.D.N.Y. Aug. 21, 2025). The
+
+Court further declined to transfer the case to the Northern District of California. Id. In reaching these
+
+conclusions, the Court recognized Perplexity’s “extensive contacts with this state—such as hiring
+
+key employees in New York, leasing office space in New York, and targeting New York users with
+
+advertisements and New York-specific webpages, coupled with offering an interactive website and
+
+mobile app in New York.” Id. at *13.
+
+         28.     CNN also has substantial operations in New York, including hosting multiple shows
+
+from its studios at 30 Hudson Yards in New York with support from more than 800 staffers located
+
+there.
+
+         29.     Finally, venue is proper in this District under 28 U.S.C. §§ 1391 and 1400(a). As
+
+described above, Perplexity and/or its agents reside in this District and/or may be found in this State
+
+and District.
+
+                                    FACTUAL ALLEGATIONS
+
+         I.      CNN’s History and Mission
+                 A. CNN’s Revolutionizing News Coverage
+
+         30.     Plaintiff CNN is known around the world for its 24-hour news coverage from the
+
+scenes of the most historic events of our time. When CNN began broadcasting in 1980, it
+
+revolutionized the delivery of news to Americans and, ultimately, to the world. As the first 24-hour
+
+news network, CNN quickly became the place that viewers could turn for immediate and ongoing
+
+
+                                                   12
+             Case 1:26-cv-04427        Document 1        Filed 05/28/26       Page 13 of 54
+
+
+
+
+coverage from around the world at any time of day or night. As United Press International noted in
+
+1990: “So ubiquitous is CNN’s live coverage of breaking news events that both broadcast and print
+
+newsrooms all over the country continuously monitor the network.”
+
+       31.     Over ensuing years, Americans have turned to CNN to see for themselves what was
+
+happening around the world—from the streets of Baghdad to lower Manhattan on 9/11 and from
+
+Hurricane Katrina to Afghanistan, Iraq, Iran, and Ukraine. CNN’s work to give the public an
+
+independent view of war and other major world events continues today. Just in the few months
+
+preceding this filing, CNN has reported live from conflict zones in Venezuela, Russia, Ukraine, Iran,
+
+Lebanon, as well as from the White House, Minneapolis, and provided comprehensive coverage of
+
+NASA’s Artemis II launch and landing.
+
+       32.     This work of reporting the news from around the world and here at home is time-
+
+consuming, expensive, and often dangerous. Even at a time when news organizations are under
+
+tremendous financial pressure, CNN maintains 36 bureaus around the world and sends reporters to
+
+major events wherever they are. Those activities require massive efforts to ensure the safety and
+
+effectiveness of the reporters on the ground, including travel, security, legal, and operational support.
+
+Every story requires a team of reporters, editors, and support staff to ensure that CNN’s journalism
+
+meets the highest standards of quality and accuracy. That work is done by the approximately 3,500
+
+people who work at CNN, most of whom are directly involved with supporting CNN reporting.
+
+Without CNN’s continued expenditure of the resources necessary to do this difficult work, the public
+
+would be left without a trusted and reliable source for what is happening at home and around the
+
+world. In a world becoming inundated with false information and manipulated video content, CNN’s
+
+work is more important than ever.
+
+
+
+
+                                                   13
+             Case 1:26-cv-04427       Document 1       Filed 05/28/26      Page 14 of 54
+
+
+
+
+       33.     In addition to its renowned breaking news coverage, CNN also provides viewers with
+
+award-winning investigative reporting and in-depth interviews through a variety of shows and
+
+platforms. CNN offers newsmakers and analysts a platform for sharing their opinion and
+
+commentary and is known for the skills of its interviewers. CNN anchors and journalists have long
+
+been recognized as among the most trusted in America.
+
+       34.     The quality of CNN’s journalism continues to be recognized with awards from its
+
+industry peers and other recognition. In 2026, CNN was nominated for 32 News & Documentary
+
+Emmy® Awards. In addition to winning multiple Emmy® Awards, CNN and its journalists have
+
+also been awarded multiple Peabody Awards; Edward R. Murrow Awards; the George Polk Award;
+
+the Four Freedoms Award; and the Alfred I duPont-Columbia Award, one of the most prestigious
+
+awards in media, for its coverage in Ukraine.
+
+       35.     As technologies have changed, CNN has expanded the availability of its news
+
+coverage across CNN Digital Platforms. CNN Digital is a top online news destination, routinely
+
+registering more than 150 million unique visitors globally each month. CNN Digital Platforms
+
+provide access to both CNN video coverage and a wealth of articles providing original news
+
+coverage and other features. In 2025, CNN Digital Platforms were first in the United States with an
+
+average monthly unique user count of 94 million people for the tenth year in a row. Amidst an
+
+industry-wide shift to mobile news consumption, CNN was the news outlet with the most reach in
+
+the U.S. in mobile visitors with 67 million average monthly users.
+
+       36.     As the cable industry evolves, CNN’s ability to monetize online content and compete
+
+for traffic through CNN Digital Platforms is critical to its continued survival as a news network. In
+
+2024 CNN Digital Platforms introduced a paid subscription service to build a subscription business,
+
+offering CNN.com articles. One year later in 2025, that subscription offering expanded with the
+
+
+
+
+                                                 14
+                 Case 1:26-cv-04427         Document 1         Filed 05/28/26        Page 15 of 54
+
+
+
+
+addition of streaming video. Audiences can now experience the full multimodal CNN offering
+
+through its All Access subscription, a centralized place with live channels, on-demand video, new
+
+releases and library content from CNN Original Series and CNN Films, along with the foundational
+
+CNN.com articles. The direct-to-consumer subscription offering is available across web, mobile and
+
+connected TV apps.
+
+           37.     Perplexity’s actions threaten CNN’s continued efforts to provide breaking news and
+
+analysis by copying, using, and adapting CNN’s content in connection with GenAI products without
+
+compensation to CNN. These actions deprive CNN of visits to its Digital Platforms, decrease its
+
+subscription revenue, threaten its advertising revenue, and reduce its licensing revenue.
+
+           38.     CNN goes to great lengths to protect its content. It registers copyrights in its content
+
+and provides copyright notices in connection with its works. Beyond the protections provided by the
+
+exclusive rights of reproduction, adaptation, publication, performance, and display under copyright
+
+law, CNN uses paywalls to protect some of its content and implements terms of service and terms
+
+of use that restrict the use of the content provided on CNN Digital Platforms. CNN’s terms of use
+
+state,“[t]he Site contains copyrighted material, trademarks and other proprietary information,
+
+including, but not limited to, text, software, photos, video, graphics, music and sound, and the entire
+
+contents of the Site are copyrighted as a collective work under the United States copyright laws.”20
+
+CNN’s terms of use further provide,
+
+             You may not modify, publish, transmit, participate in the transfer or sale, create
+             derivative works, or in any way exploit, any of the content, in whole or in part.
+             You may download copyrighted material for your personal use only. Except as
+             otherwise expressly permitted under copyright law, no copying, redistribution,
+             retransmission, publication or commercial exploitation of downloaded material
+             will be permitted without the express permission of CNN and the copyright
+             owner. In the event of any permitted copying, redistribution or publication of
+             copyrighted material, no changes in or deletion of author attribution, trademark
+
+20
+     CNN Terms of Use, Mobile Apps/Website Terms of Use, https://www.cnn.com/terms0 (last visited May 27, 2026).
+
+
+
+                                                        15
+                 Case 1:26-cv-04427       Document 1       Filed 05/28/26      Page 16 of 54
+
+
+
+
+            legend or copyright notice shall be made. You acknowledge that you do not
+            acquire any ownership rights by downloading copyrighted material.21
+
+           39.     CNN requires that any third party that wishes to use its content obtain a license to do
+
+so. These licensing agreements allow CNN to control how third parties receive and display its
+
+content. CNN licenses its content only under narrowly tailored terms that provide explicit guardrails
+
+regarding how and to what extent third parties can use the licensed content.
+
+           40.     Even under these licensing agreements, third parties are not permitted to “scrape” the
+
+content from CNN Digital Platforms, as Perplexity has done without permission. Instead, CNN
+
+retains control over how third parties access licensed content by requiring them to use specific
+
+channels to obtain CNN content.
+
+           B.      GenAI Products Threaten High-Quality, On-Scene Reporting
+
+           41.     It has become more difficult for the public to sort facts from fiction in today’s
+
+information ecosystem, as misinformation floods the internet, television, and other media. If CNN
+
+and other news organizations cannot produce and protect their independent journalism, there will be
+
+a vacuum that no computer or AI can fill.
+
+           42.     The protection of CNN’s intellectual property is critical to its continued ability to
+
+fund world-class reporting in the public interest. If CNN and its peers cannot control the use of their
+
+content, their ability to monetize that content will be harmed. With less revenue, news organizations
+
+will have fewer journalists able to dedicate time and resources to important, in-depth reporting,
+
+which creates a risk that those stories will go untold. Less reporting will be produced, and the cost
+
+to society will be enormous.
+
+
+
+
+21
+     Id.
+
+
+
+                                                     16
+             Case 1:26-cv-04427       Document 1        Filed 05/28/26     Page 17 of 54
+
+
+
+
+       43.     CNN depends on its exclusive rights of reproduction, adaptation, publication,
+
+performance, and display under copyright law to maintain its business and to develop selected
+
+markets. CNN maintains paywalls and implements terms of service for CNN Digital Platforms that
+
+set limits on the copying and use of its content. To use CNN’s content for commercial purposes, a
+
+party must first approach CNN about a licensing agreement.
+
+       44.     Third parties are required to obtain permission before using CNN’s content and
+
+trademarks for commercial purposes and CNN has licensed its content under negotiated licensing
+
+agreements. These agreements help ensure CNN controls how, where, and for how long its content
+
+and brand appears and that it receives fair compensation for third-party use.
+
+       45.     CNN’s ability to continue to attract and grow its digital subscriber base and to
+
+generate digital advertising revenue depends on the size of CNN’s audience and users’ sustained
+
+engagement directly with CNN Digital Platforms. While CNN permits search engines to access its
+
+content for the limited purpose of surfacing it in traditional search results, CNN has never given
+
+permission to Perplexity to use its content for GenAI purposes. Inherent in this value exchange is
+
+the idea that the search engines will direct users to CNN Digital Platforms, rather than exploit CNN’s
+
+content to keep users within their own search ecosystem.
+
+       46.     CNN has never given permission to Perplexity to use its content for GenAI purposes.
+
+Perplexity was on notice from multiple sources, including but not limited to CNN’s terms of service,
+
+that CNN had not given it permission to engage in any use of CNN’s content, including its protected
+
+paywall content. Perplexity was also put on notice by direct communications between CNN and
+
+Perplexity. CNN and Perplexity negotiated a term sheet effective October 1, 2025, for a CNN -
+
+Perplexity Comet Plus Partnership, with an agreement to finalize the contract within sixty days. Part
+
+of that term sheet would have allowed Perplexity to access CNN paywalled content for its Comet
+
+
+
+
+                                                 17
+                 Case 1:26-cv-04427       Document 1       Filed 05/28/26      Page 18 of 54
+
+
+
+
+Plus users in exchange for compensation to CNN for its use of that content. On October 2, 2025,
+
+Perplexity touted its agreement with CNN, stating the agreement would give “Comet users access
+
+to outlets like CNN . . . .”22 In promoting this agreement, Mr. Srinivas told Business Insider, “We
+
+have always been clear that a product like ours required high-quality sources to exist on the web.”23
+
+Perplexity stated its “goal with Comet is to help people avoid low-quality content and focus on
+
+meaningful, high-quality sources for research.”24
+
+           47.     CNN’s short form agreement did not lead to a final agreement between the parties
+
+due to the inability to agree on multiple issues, including limits on Perplexity’s use of CNN content
+
+in its answers to users. The parties agreed to terminate the term sheet effective November 24, 2025.
+
+Both before and after Perplexity’s negotiations with CNN, CNN had blocked PerplexityBot from
+
+accessing its content. As a result, before and after Perplexity’s negotiations with CNN, Perplexity
+
+knew that it was not permitted to access CNN’s content or to use its trademarks or service marks.
+
+           48.     On December 10, 2025, CNN wrote to Perplexity’s Head of Legal and Operations
+
+(now General Counsel) Nathan Barksdale demanding that Perplexity cease its unauthorized use of
+
+CNN’s name, service marks, and content. CNN made plain to Perplexity in its letter that its activity
+
+was illegal, that CNN had not given Perplexity permission to use any of its content, and the
+
+consequences of Perplexity continuing to engage in this activity:
+
+           CNN’s content is copyrighted and proprietary to CNN, and CNN has valuable rights
+           in and to the CNN Marks and content, which are protected by law. Such rights include
+           the exclusive right to reproduce, adapt, distribute, and sell copies of the CNN content
+           to third parties and the exclusive right to use the CNN Marks. As you know, CNN
+           has not granted Perplexity permission to use the CNN content or CNN Marks in
+           connection with Perplexity services or for any other purpose, and any such use
+           constitutes a violation of CNN’s rights under copyright and trademark law. Please be
+
+22
+    No more slop: Perplexity makes its $200 AI browser free, Business Insider (Oct. 2, 2025),
+https://www.businessinsider.com/perplexity-makes-200-ai-browser-free-to-battle-ai-slop-2025-10.
+23
+     Id.
+24
+     Id.
+
+
+
+                                                     18
+              Case 1:26-cv-04427            Document 1         Filed 05/28/26         Page 19 of 54
+
+
+
+
+        assured that CNN considers this a serious matter. By this notice, CNN hereby
+        demands that Perplexity immediately cease and desist from any further unauthorized
+        copying, exhibition, distribution, or other use, in any manner, of any CNN content or
+        the CNN Marks. Failure to comply with this demand could result in CNN pursuing
+        all available remedies to protect CNN content and CNN Marks, which may include,
+        without limitation, legal proceedings to recover damages and to impose equitable
+        remedies.
+
+        49.      Perplexity never responded to CNN’s December 10, 2025 letter. Instead, Perplexity
+
+has continued using CNN content in violation of CNN’s rights and without its permission.
+
+        II.      Perplexity’s Business and Generative AI Technology
+
+        50.      Backed by investors, Perplexity was valued at $20 billion in its latest funding round.
+
+It has said that it currently delivers more than 100 million generative search results each week. Last
+
+year, its founder and CEO, Aravind Srinivas, stated that Perplexity had handled 780 million search
+
+queries in May 2025.25 On June 24, 2025, news outlets reported that technology giants like Meta
+
+and Apple have been considering Perplexity as a potential target for acquisition.26 On January 29,
+
+2026, it was reported that Perplexity signed a $750 million agreement with Microsoft.27
+
+        51.      The LLMs—a type of AI system that generates human-like language—upon which
+
+Perplexity’s AI products are built are called “generative” AI because they are capable of generating
+
+content, such as text, images, audio, or other data. LLMs work by predicting words that are likely to
+
+follow a given string of text based on the potentially billions of examples used to train them. They
+
+use algorithms to weigh the relevance of different parts of the input data when generating text. LLM
+
+
+
+
+25
+   Aisha Malik, Perplexity received 780 million queries last month, CEO says, Tech Crunch (June 5, 2025),
+https://techcrunch.com/2025/06/05/perplexity-received-780-million-queries-last-month-ceo-says/.
+26
+   See, e.g., Lisa Eadicicco, What is Perplexity, the AI startup said to be catching Meta and Apple’s attention, CNN
+(June 24, 2025), https://www.cnn.com/2025/06/24/tech/perplexity-ai-search-engine-meta-apple.
+27
+   Perplexity signs $750 million AI cloud deal with Microsoft, Bloomberg News reports, Reuters (Jan. 29, 2026),
+https://www.reuters.com/business/perplexity-signs-750-million-ai-cloud-deal-with-microsoft-bloomberg-news-
+reports-2026-01-29/.
+
+
+
+                                                        19
+                 Case 1:26-cv-04427             Document 1          Filed 05/28/26          Page 20 of 54
+
+
+
+
+operators “train” their models on vast datasets of written material, allowing them to encode patterns
+
+and relationships between words and sentences.
+
+           52.      Once trained, LLMs can generate human-like text by taking a seed input (e.g., a
+
+question or prompt) and iteratively predicting the most likely next word based on the patterns it has
+
+learned. Through this process, LLMs can generate answers to questions about information that is
+
+included in their training data. They are also capable of taking documents as input, then summarizing
+
+or answering questions about those documents. The quality of the output depends on the size of the
+
+model, the diversity of training data, and the specific architecture and training techniques used.
+
+           53.      Perplexity has publicly stated that, in addition to leveraging other companies’ LLMs,
+
+including those of OpenAI, Meta, Anthropic, Google, and NVIDIA,28 it offers a proprietary Sonar
+
+family of LLMs specifically designed to support its GenAI Products. For example, Perplexity fine-
+
+tuned (or “post-trained”) open source LLMs using NVIDIA’s NeMo product “to create custom
+
+models for [its] online answer engine.”29 Similarly, Perplexity stated that its Sonar LLM is built on
+
+Meta’s open source Llama 3.3 70B LLM, which had been “further trained to enhance answer
+
+factuality and readability for Perplexity’s default search mode.”30 Perplexity specifically fine-tuned
+
+the Sonar LLMs to support “real world use cases” such as “[b]rowsing news, sports, health and
+
+finance content.”31 As an example, Perplexity describes how Sonar can receive a user query asking
+
+“What is the latest news in AI research?” and generate a grounded answer using content copied from
+
+
+
+28
+   Perplexity, What advanced AI models are included in my subscription?, https://www.perplexity.ai/help-
+center/en/articles/10354919-what-advanced-ai-models-are-included-in-my-subscription (last visited May 27, 2026).
+29
+   NVIDIA, Perplexity Enhances Model Performance for AI-Powered Search Engines With NVIDIA NeMo,
+https://www.nvidia.com/en-us/customer-stories/perplexity-enhances-model-performance-with-nemo/ (last visited May
+27, 2026).
+30
+   Perplexity Team, Meet Sonar: A Blazing Fast Model Optimized for Perplexity Search, (Feb. 11, 2025)
+https://www.perplexity.ai/hub/blog/meet-new-sonar.
+31
+     Perplexity, Sonar, https://docs.perplexity.ai/docs/sonar/models/sonar (last visited May 27, 2026).
+
+
+
+                                                             20
+                 Case 1:26-cv-04427         Document 1         Filed 05/28/26   Page 21 of 54
+
+
+
+
+five different news websites.32 As of February 11, 2025, Perplexity made Sonar available as a default
+
+model for its API.33
+
+           54.      LLMs may also be deployed in conjunction with a technique called “retrieval-
+
+augmented generation” (“RAG”), also known as “grounding.” Once trained, LLMs may be provided
+
+with information specific to a use case or subject matter in order to “ground” their outputs. For
+
+example, an LLM may be asked to generate a text output based on specific external data, such as a
+
+document, provided as context. Using this method, Perplexity’s GenAI Products: (1) receive an
+
+input, such as a prompt; (2) retrieve relevant content related to the input prior to generating a
+
+response; (3) combine the original input with the retrieved documents in order to provide context;
+
+and (4) provide the combined data to an LLM, which generates a human-like language response.
+
+           55.      Perplexity has built a search index, or database, comprising “hundreds of billions of
+
+webpages” that it crawled and scraped from the internet to use as part of the RAG process.34 More
+
+specifically, Perplexity “built an exabyte-scale index and crawling apparatus,” and its “crawler and
+
+indexing fleets collectively comprise tens of thousands of CPUs and hundreds of terabytes of
+
+RAM.”35 Perplexity generates the “answers” to user prompts and questions by using content it
+
+retrieves from its search index or obtains in real-time from available sources (collectively, “RAG
+
+Content”). As Perplexity itself explains, “Perplexity leverages sophisticated AI to interpret your
+
+question” and then “searches the internet, gathering information from authoritative sources like
+
+articles, websites, and journals.”36
+
+
+32
+     Id.
+33
+     Perplexity, supra note 30.
+34
+  Perplexity Team, Introducing the Perplexity Search API (Sept. 25, 2025),
+https://www.perplexity.ai/hub/blog/introducing-the-perplexity-search-api.
+35
+     Perplexity Research, supra note 8.
+36
+     Perplexity, supra note 2.
+
+
+
+                                                        21
+                 Case 1:26-cv-04427            Document 1           Filed 05/28/26          Page 22 of 54
+
+
+
+
+           56.     Mr. Srinivas described the periodicity of Perplexity’s RAG scraping as follows: “I
+
+don’t remember off the top of my head what is the exact periodicity, but it’s pretty frequent, like at
+
+least [] every few hours. It is using retrieval augmented generation.”37
+
+           57.     On information and belief, since it was launched in 2022, Perplexity has included
+
+CNN’s content as RAG Content, including CNN’s content covered by the registrations listed herein.
+
+Upon information and belief, Perplexity obtained CNN’s content by scraping content directly from
+
+CNN Digital Platforms, or via third parties, to use as RAG Content.
+
+           58.     Indeed, Perplexity emphasized RAG and its reliance on high-quality content, like
+
+CNN’s, to distinguish itself from other search engines and AI products on the market. Mr. Srinivas
+
+described that Perplexity is not a traditional search engine but rather “opening a new segment for
+
+these answer bots that support people to come do their research directly.”38 As part of its RAG model
+
+development, Perplexity has built a “a more modern version of PageRank to build a trust map of the
+
+web.” 39 As part of this “trust map,” Mr. Srinivas explained that they placed a higher value on high-
+
+quality news, stating, “For example, sites like The New York Times are generally more reliable than
+
+Substack posts, which may be more opinionated.”40
+
+           59.     Perplexity publicly emphasizes its ability to provide news content. On August 15,
+
+2025, Mr. Srinivas was interviewed on the Hard Fork Podcast41 and explained, “you don’t want to
+
+
+37
+   Outset Capital, Perplexity CEO Aravind Srinivas, Thursday Nights in AI (July 18, 2023), at 24:58-25:20,
+https://www.youtube.com/watch?v=jksGQhMtXjo.
+38
+   Id. at 29:49 (“We found like a lot of users like using it for research. Lots of these questions that you have in your day
+to day life that involve you to like do some amount of research, whether it’s a few minutes, a few hours, our product just
+nails it and that's where we have found a lot of usage, and hence why I think it’s not really like a Google competition,
+even though [it] is very easy to say that. It’s more like opening a new segment for these answer bots that support people
+to come do their research directly.”).
+39
+    Joanne Chen, How Perplexity.ai Is Pioneering The Future Of Search, Forbes (Sept. 6, 2023),
+https://www.forbes.com/sites/joannechen/2023/09/06/how-perplexityai-is-pioneering-the-future-of-search/.
+40
+     Id.
+41
+  Hard Fork, GPT-5 Backlash + Perplexity C.E.O. Aravind Srinivas on the Browser Wars + Hot Mess Express (Aug.
+15, 2025), https://www.nytimes.com/2025/08/15/podcasts/hardfork-gpt5-perplexity.html?showTranscript=1.
+
+
+                                                            22
+                 Case 1:26-cv-04427        Document 1         Filed 05/28/26        Page 23 of 54
+
+
+
+
+just build an Apple News-like model. But it’s going to be closer to Apple News with some
+
+protections for users. So say they can have AIs also read those articles. And the publishers get
+
+rewarded. So that’s how I’m thinking about it.”42
+
+           60.     Perplexity markets itself as a superior research tool compared to other search engines
+
+and AI products because of its RAG integration, which allows Perplexity to “always retrieve relevant
+
+documents and pick relevant paragraphs from each document and use those documents and
+
+paragraphs to write your answer for that query.”43 Indeed, Perplexity’s reproduction and
+
+dissemination of existing content, including copyrighted information, is highlighted by Perplexity
+
+as the primary reason to pick Perplexity over similar platforms. As Mr. Srinivas explained: “The
+
+principle in Perplexity is you’re not supposed to say anything that you don’t retrieve, which is even
+
+more powerful than RAG because RAG just says, ‘Okay, use this additional context and write an
+
+answer.’ But we say, ‘Don’t use anything more than that too.’ That way we ensure a factual
+
+grounding.”
+
+           61.     Mr. Srinivas has stressed the importance of RAG not only to Perplexity but to the
+
+future of generative AI generally. According to Mr. Srinivas, RAG is the framework that can train
+
+AI to have the context to answer a user query. Responding to a question about the most promising
+
+frontier where the next breakthrough in generative AI may come, Mr. Srinivas directly referenced
+
+RAG and the importance of context:
+
+            I think the real breakthrough could potentially come from figuring out extremely
+            long context. So currently, all the AIs are doing something called the retrieval-
+            augmented generation, including Perplexity. It’s called RAG, where the model
+            itself doesn’t have the full context to answer your question. And so it pulls the
+            relevant context from some data store, be it the web index or some other data
+
+
+42
+     Id.
+43
+   Lex Fridman, Aravind Srinivas: Perplexity CEO on Future of AI, Search & the Internet | Lex Fridman Podcast #434
+(June 19, 2024), at 01:56:48, https://www.youtube.com/watch?v=e-gwvmhyU7A.
+
+
+
+                                                       23
+                  Case 1:26-cv-04427          Document 1         Filed 05/28/26   Page 24 of 54
+
+
+
+
+             index, and puts it into the prompt, and then answers your question. But your life—
+             let’s say 10 years of your life—all the context in it cannot be compressed that
+             easily. And what if you wanted to chat with an AI in the same way you would
+             chat with a friend that you’ve known for a decade, where you don’t have to keep
+             starting new chats to talk about different things? It’s all one single stream of chat.
+             I think that’s very hard to do right now. And so figuring out extremely long
+             contexts, like one million or 10 million tokens or even infinite tokens—with,
+             What is the right structure to store all the memories?—is still an open problem.44
+
+           62.      Perplexity’s stated objective of “not saying anything that it doesn’t retrieve” requires
+
+high-quality RAG Content on an ongoing basis. Mr. Srinivas’s interview with interviewer Lex
+
+Fridman is telling in this regard:
+
+             Fridman: Yeah, let’s just linger on that. So in general, RAG is doing the search
+             part with a query to add extra context to generate a better answer?
+
+             Srinivas: Yeah.
+
+             Fridman: I suppose you’re saying you want to really stick to the truth that is
+             represented by the human-written text on the internet?
+
+             Srinivas: Correct.45
+
+            63.     RAG—whether called retrieval-augmented generation, grounding, retrieving, or
+
+contextualizing—is not possible without high-quality, fact-checked content like that of CNN.
+
+Human beings report, research, write, edit, and create the content that Perplexity takes without
+
+permission or compensation. Perplexity expressly depends on, and engages in massive copying of,
+
+this content to distinguish itself in the marketplace. While benefiting from content, including CNN’s,
+
+Perplexity has failed to pay for it, instead choosing to copy it and unlawfully appropriate intellectual
+
+property created by human authors.
+
+
+
+
+44
+   Harvard Business School, Perplexity CEO Aravind Srinivas: From Academic to $9B AI Pioneer | HBS
+Entrepreneurship Summit 2025 (Apr. 25, 2025), at 31:42. https://www.youtube.com/watch?v=Rkizxztabt8.
+45
+     Fridman, supra note 43, at 01:57:27-01:57:39 (emphasis added).
+
+
+
+                                                          24
+                  Case 1:26-cv-04427            Document 1           Filed 05/28/26          Page 25 of 54
+
+
+
+
+           III.      Perplexity’s Unauthorized Use and Copying of CNN’s Content
+
+           64.       Perplexity’s GenAI Products infringe on CNN’s copyrights at two primary stages.
+
+                     A. Perplexity Infringes CNN’s Copyrights at the Input Stage
+
+           65.       Perplexity copies CNN’s content by crawling and scraping CNN’s Digital Platforms
+
+and other content with its own crawlers like PerplexityBot and Perplexity-User, as well as those of
+
+third parties on which Perplexity relies.46 Perplexity also copies CNN’s content by accessing and
+
+using third-party indices and databases comprised of scraped CNN content.
+
+           66.       Perplexity uses its PerplexityBot crawler to crawl, scrape, and copy CNN’s content,
+
+including from its Digital Platforms, to populate Perplexity’s “AI-First” search index to power its
+
+GenAI Products. In addition, Perplexity uses its Perplexity-User crawler to crawl and scrape CNN’s
+
+content, including from CNN Digital Platforms, in real-time to feed to its GenAI Products.
+
+           67.       Perplexity stresses that its crawlers are “designed to surface and link websites in
+
+search results on Perplexity” and are “not used to crawl content for AI foundation models.”47
+
+Notwithstanding Perplexity’s representation that its crawlers are not used for “AI foundation
+
+models,” Perplexity specifically designs and uses its crawlers to obtain RAG Content to answer user
+
+queries. Without employing researchers, writers, or editors, Perplexity boasts that its “content is
+
+sourced from the web in real-time as you ask your questions, ensuring you receive the most up-to-
+
+date information available.”48 Perplexity further highlights its “credible sources,” emphasizing that
+
+“all responses are supported by citations from reputable news organizations, academic publications,
+
+
+
+46
+  Mark Sullivan, Perplexity CEO Aravind Srinivas responds to plagiarism and infringement accusations, Fast Company
+(June    21,     2024),     https://www.fastcompany.com/91144894/perplexity-ai-ceo-aravind-srinivas-on-plagiarism-
+accusations (deflecting blame that Perplexity’s crawlers don’t respect robots.txt protocol by saying Perplexity relies on
+crawlers of unidentified “third-party provider of web crawling and indexing services”).
+47
+     Perplexity, Perplexity Crawlers, https://docs.perplexity.ai/guides/bots (last visited May 27, 2026).
+48
+     Perplexity, supra note 5.
+
+
+
+                                                             25
+                 Case 1:26-cv-04427          Document 1           Filed 05/28/26   Page 26 of 54
+
+
+
+
+and established content sources.”49
+
+           68.      In doing so, Perplexity and/or its agents at times have intentionally ignored or evaded
+
+technical content protection measures, such as robots.txt, designed specifically to guard against such
+
+crawling and to instruct web crawlers to refrain from copying digital content. In fact, Perplexity
+
+openly admits that its Perplexity-User crawler “generally ignores robots.txt rules.”50 WIRED has
+
+further reported how “[i]n theory, Perplexity’s chatbot shouldn’t be able to summarize WIRED
+
+articles, because our engineers have blocked its crawler via our robots.txt file,”51 and “Perplexity
+
+claims to respect the robots.txt standard.” “WIRED’s analysis found that in practice, though,
+
+prompting the chatbot with the headline of a WIRED article or a question based on one will usually
+
+produce a summary appearing to recapitulate the article in detail.”52
+
+           69.      An independent developer, Robb Knight, has further reported his investigation and
+
+findings that “Perplexity had apparently ignored his robots.txt file and evaded his firewall.”53 Upon
+
+information and belief, Perplexity uses “an automated web browser running on a server with an IP
+
+address that the company does not publicly disclose.”54 The lack of disclosure means that its
+
+bots/user agents do not identify themselves, allowing it to avoid efforts by CNN Digital Platforms
+
+to recognize or block Perplexity’s unidentified crawlers from scraping those platforms. WIRED
+
+reports that Conde Nast engineers’ analysis of its system logs shows that Perplexity’s undisclosed
+
+
+
+
+49
+     Id.
+50
+     Perplexity, supra note 47.
+51
+    Dhruv Mehrotra & Tim Marchman, Perplexity Is a Bullshit Machine, Wired (June 19, 2024),
+https://www.wired.com/story/perplexity-is-a-bullshit-machine/ (describing how Perplexity “is surreptitiously
+scraping—and making things up out of thin air”).
+52
+     Id.
+53
+   Id.; see also Robb Knight, Perplexity AI Is Lying about Their User Agent (June 19, 2024),
+https://rknight.me/blog/perplexity-ai-is-lying-about-its-user-agent/.
+54
+     Mehrotra & Marchman, supra note 51; Knight, supra note 53.
+
+
+
+                                                         26
+                 Case 1:26-cv-04427         Document 1          Filed 05/28/26         Page 27 of 54
+
+
+
+
+IP address “likely . . . has accessed the company’s content thousands of times without permission.”55
+
+           70.     Most recently, four independent investigators reported that they “are observing
+
+stealth crawling behavior from Perplexity,” after they conducted testing upon receiving complaints
+
+from customers who specifically blocked Perplexity’s declared crawlers but found that “Perplexity
+
+was still able to access their content even when they saw its bots successfully blocked.”56 They found
+
+that even when websites explicitly prohibit Perplexity from automated access to their content via
+
+robots.txt and other Web Application Firewall rules, Perplexity nonetheless scraped their detailed
+
+content by using undeclared user agents “intended to impersonate Google Chrome on macOS when
+
+their declared crawler was blocked.”57 Perplexity’s crawler “utilized multiple IPs not listed in
+
+Perplexity’s official IP range” in order to “evade website blocks.”58
+
+           71.     Though robots.txt blocks should have been enough to deter Perplexity from accessing
+
+CNN Digital Platforms, it was not. Perplexity continues to use CNN content, including by accessing
+
+CNN's website using PerplexityBot. Moreover, Perplexity continues to access and use CNN’s
+
+content for RAG, as evidenced most clearly by the verbatim and substantially similar Perplexity
+
+outputs described below. Upon information and belief, Perplexity has used, and continues to use,
+
+similar undisclosed methods to access CNN’s content without permission.
+
+                   B. Perplexity Infringes CNN’s Intellectual Property at the Output Stage
+
+           72.     The lengthy outputs from Perplexity’s GenAI Products often contain full or partial
+
+verbatim reproductions of CNN’s copyrighted content, particularly when a user asks a question
+
+
+
+55
+     Mehrotra & Marchman, supra note 51.
+56
+  Gabriel Corral, Vaibhav Singhal, Brian Mitchell & Reid Tatoris, Perplexity is using stealth, undeclared crawlers to
+evade website no-crawl directives, Cloudflare (Aug. 4, 2025), https://blog.cloudflare.com/perplexity-is-using-stealth-
+undeclared-crawlers-to-evade-website-no-crawl-directives/.
+57
+     Id.
+58
+     Id.
+
+
+
+                                                         27
+              Case 1:26-cv-04427       Document 1       Filed 05/28/26      Page 28 of 54
+
+
+
+
+about what CNN has reported. At other times, the outputs are reworded into text that closely
+
+paraphrases or summarizes in detail CNN’s copyrighted works. Perplexity will also provide
+
+information behind CNN’s paywall without paying for that content. These reproductions go far
+
+beyond the snippets typically shown with ordinary search results. Moreover, when a user asks for
+
+further details regarding these outputs, Perplexity often provides such details—including extensive
+
+verbatim language. Even when Perplexity’s outputs include links to source materials, users have less
+
+need to navigate to those sources because their expressive content is already quoted or paraphrased
+
+in the narrative result. Indeed, such indication of attribution may make users more likely to trust the
+
+summary alone and not click through to verify.
+
+        73.     In this way, Perplexity’s RAG outputs divert traffic and revenue away from copyright
+
+holders like CNN. A user who has already read the latest news or found the right kind of product,
+
+even—or especially—with attribution to CNN, has little reason to visit the original source or pay to
+
+access the article they just read.
+
+        74.     Below are illustrative, non-exhaustive examples of Perplexity’s copyright infringing
+
+outputs, generated in May 2026.
+
+                        (i)     Perplexity’s Chatbots
+
+        75.     Perplexity’s flagship consumer GenAI product is an AI chatbot search engine—
+
+which Perplexity refers to as an “answer engine”—that will readily output infringing copies and
+
+derivatives of CNN’s content.
+
+        76.     As an illustrative example, when a user asks Perplexity’s chatbot to, inter alia,
+
+“[d]eeply analyze an article from a single reputable source to tell me what’s been reported about
+
+Marco Rubio dropping one of his job titles,” Perplexity provides verbatim portions from the CNN
+
+
+
+
+                                                  28
+              Case 1:26-cv-04427             Document 1          Filed 05/28/26         Page 29 of 54
+
+
+
+
+article “Marco Rubio drops one of his job titles, while still juggling several other hats.”59 In the
+
+example below, the full copied text from Perplexity’s chatbot is indicated in the left column and
+
+the original article text is in the right column, the copied text is in red.
+
+
+
+
+  Aleena Fayaz, Marco Rubio drops one of his job titles, while still juggling several other hats, CNN (Feb. 5, 2026),
+https://www.cnn.com/2026/02/05/politics/marco-rubio-national-archives.
+
+
+                                                          29
+              Case 1:26-cv-04427           Document 1          Filed 05/28/26        Page 30 of 54
+
+
+
+
+        77.      This article is registered with the U.S. Copyright Office as part of Registration No.
+
+TX 9-574-794.
+
+        78.      Notably, the above example was generated using Perplexity Pro, Perplexity’s fee-
+
+based plan, meaning that users are able to obtain infringing content by paying a fee to Perplexity,
+
+but not to CNN.
+
+        79.      Perplexity will also provide content from CNN when CNN is not referenced in the
+
+prompt. As with the above example, in the below example, Perplexity produced verbatim portions
+
+of the CNN article “Officials race to cool down tank containing toxic chemical as 50,000 residents
+
+remain under evacuation order in California” without being prompted with the article title or
+
+instructed to provide CNN content. 60
+
+
+
+
+60
+  Taylor Romine et al., Officials race to cool down tank containing toxic chemical as 50,000 residents remain under
+evacuation order in California, CNN (May 24, 2026), https://www.cnn.com/2026/05/22/us/chemical-spill-orange-
+county-california.
+
+
+                                                        30
+Case 1:26-cv-04427   Document 1   Filed 05/28/26   Page 31 of 54
+
+
+
+
+                            31
+                 Case 1:26-cv-04427             Document 1      Filed 05/28/26   Page 32 of 54
+
+
+
+
+                    (ii)         Perplexity’s Personal AI Assistants
+
+           80.      Perplexity’s Comet browser, which Perplexity markets as “[y]our personal
+
+assistant,”61 will produce entire, verbatim copies of CNN’s paywalled content to users who are not
+
+subscribed to CNN Digital Platforms. In the example below, Perplexity’s Comet browser returned
+
+and produced a verbatim copy of the paywalled CNN article titled “Trump’s growing volatility is
+
+putting the world on edge.” It does so despite CNN’s clear instruction that the article requires a
+
+subscription with CNN to access.62
+
+
+
+
+61
+     Perplexity, supra note 9.
+62
+    Stephen Collinson, Trump’s growing volatility is putting the world on edge, CNN (Feb. 9, 2026),
+https://www.cnn.com/2026/02/09/politics/trumps-growing-volatility-is-putting-the-world-on-edge.
+
+
+
+                                                          32
+             Case 1:26-cv-04427         Document 1        Filed 05/28/26      Page 33 of 54
+
+
+
+
+       81.     In the example below, the full copied text from Comet Assistant is indicated in the
+
+left column and the original article text is in the right column, the copied text is in red.
+
+
+
+
+                                                   33
+             Case 1:26-cv-04427       Document 1       Filed 05/28/26      Page 34 of 54
+
+
+
+
+       82.     This article is registered with the U.S. Copyright Office as part of Registration TX
+
+9-574-794.
+
+               (iii)   Perplexity’s API Platform
+
+       83.     Perplexity’s API Platform provides access to a suite of LLMs, including Perplexity’s
+
+proprietary “Sonar” family of LLM models, which are open-source models that Perplexity fine-
+
+tuned to optimize for RAG, as well as third-party LLMs offered by OpenAI (GPT), Anthropic
+
+(Sonnet), and Google (Gemini), among others.
+
+                       (a) Perplexity Search API
+
+       84.     One product on Perplexity’s API Platform is Perplexity’s Search API, which provides
+
+
+
+                                                 34
+                 Case 1:26-cv-04427              Document 1          Filed 05/28/26          Page 35 of 54
+
+
+
+
+“real-time access to ranked web search results from a continuously refreshed index”63 and costs $5
+
+per one thousand requests.64 Perplexity markets its Search API as a useful tool for obtaining news.
+
+For example, Perplexity instructs its users to use parameter controls to extract “more content for
+
+comprehensive analysis”65 while using Perplexity’s Search API.
+
+
+
+
+           85.       Perplexity’s Search API will produce verbatim copies—often of an entire article from
+
+CNN Digital Platforms—in response to search queries from users. In the example below,
+
+Perplexity’s Search API outputs verbatim portions of the CNN article “Wes Moore confronts the
+
+limits of his own power in a clash with Maryland Democrats.”66 Perplexity’s output is reflected in
+
+
+
+63
+     Perplexity, Perplexity Search API, https://docs.perplexity.ai/docs/search/quickstart (last accessed May 27, 2026).
+64
+     Perplexity, Pricing, https://docs.perplexity.ai/docs/getting-started/pricing (last accessed May 27, 2026).
+65
+     Id.
+66
+   Edward-Isaac Dovere, Wes Moore confronts the limits of his own power in a clash with Maryland Democrats, CNN
+(Feb. 1, 2026), https://www.cnn.com/2026/02/01/politics/wes-moore-maryland-democrats-redistricting.
+
+
+
+                                                              35
+                Case 1:26-cv-04427          Document 1          Filed 05/28/26         Page 36 of 54
+
+
+
+
+the below left column and the text from the original article is in the right column, the copied text is
+
+in red.
+
+
+
+
+          86.     This article is registered with the U.S. Copyright Office as part of Registration TX
+
+9-574-794.
+
+          87.     In another example, when prompted with part of the title of the CNN article “What’s
+
+next for Minneapolis? A shaky promise, mounting tensions and the fight for control,” 67 Perplexity’s
+
+
+
+67
+   Alaa Elassar, What’s next for Minneapolis? A shaky promise, mounting tensions and the fight for control, CNN (Feb.
+2, 2026), https://www.cnn.com/2026/02/02/us/future-minneapolis-ice-investigations-court.
+
+
+                                                         36
+                Case 1:26-cv-04427          Document 1          Filed 05/28/26         Page 37 of 54
+
+
+
+
+Search API produced substantial portions of the article verbatim. Perplexity’s output is reflected in
+
+the below left column and the text from the original article is in the right column, the copied text is
+
+in red.
+
+
+
+
+          88.     This article is registered with the U.S. Copyright Office as part of Registration TX
+
+9-574-794.
+
+          89.     Similarly, when prompted with part of the title of the CNN article “As a parade of
+
+US allies rattled by Trump visit China, Beijing claims a win for its new world order,” 68 Perplexity’s
+
+
+
+
+68
+ Simone McCarthy, As a parade of US allies rattled by Trump visit China, Beijing claims a win for its new world order,
+CNN (Feb. 2, 2026), https://www.cnn.com/2026/02/02/china/china-us-europe-allies-analysis-hnk-intl.
+
+
+                                                         37
+                Case 1:26-cv-04427       Document 1       Filed 05/28/26      Page 38 of 54
+
+
+
+
+Search API produced a substantial, verbatim portion of the article. Perplexity’s output is reflected in
+
+the below left column and the text from the original article is in the right column, the copied text is
+
+in red.
+
+
+
+
+          90.     This article is registered with the U.S. Copyright Office as part of Registration TX
+
+9-574-794.
+
+                         (b) Perplexity Agent API
+
+          91.     Another product on Perplexity’s API Platform is Perplexity’s Agent API, which
+
+Perplexity describes as “access[ing] models from multiple providers with integrated real-time web
+
+
+
+
+                                                    38
+              Case 1:26-cv-04427           Document 1          Filed 05/28/26        Page 39 of 54
+
+
+
+
+search, tool configuration, reasoning control, and token budgets . . . .”69 As with Perplexity’s Search
+
+API, Perplexity advertises its Agent API as a tool to obtain news. As captured below, Perplexity
+
+instructs users how to use various tools to answer questions about current events and news.
+
+
+
+
+        92.      Perplexity’s Agent API will also produce verbatim copies of an entire article from
+
+CNN Digital Platforms in response to search queries from users. The following example was
+
+produced after prompting Perplexity’s Agent API to do a “sentiment analysis” of a CNN article.
+
+The prompt includes, “If you cannot access a substantial chunk of the text, try other approaches for
+
+accessing it, without requiring follow-ups from me.” In the below example, Perplexity’s Agent API
+
+produced the entire verbatim text from the CNN article “New files deepen a critical mystery about
+
+those who partied with Jeffrey Epstein.”70 Perplexity’s output is reflected in the below left column
+
+and the text from the original article is in the right column, the copied text is in red.
+
+
+
+
+69
+  Perplexity, Agent API, https://docs.perplexity.ai/docs/agent-api/quickstart (last accessed May 27, 2026).
+70
+  Stephen Collinson, New files deepen a critical mystery about those who partied with Jeffrey Epstein, CNN (Feb. 4,
+2026), https://www.cnn.com/2026/02/03/politics/epstein-files-trump-clinton-musk-blanche-analysis.
+
+
+
+                                                        39
+                 Case 1:26-cv-04427        Document 1       Filed 05/28/26      Page 40 of 54
+
+
+
+
+           93.      This article is registered with the U.S. Copyright Office as part of Registration TX
+
+9-574-794.
+
+           94.      Notably, Perplexity’s users pay for the Agent API on a per invocation rate, which
+
+varies based on the tool used.71 When prompting the free Perplexity search engine to produce the
+
+same article, Perplexity responds, “I can’t provide the full text of that article, but can offer a detailed
+
+summary or quote a short excerpt.” Nevertheless, for a fee paid to Perplexity, but not to CNN,
+
+Perplexity willfully violates CNN’s copyright protections.
+
+           95.      These examples of verbatim or otherwise substantially similar or substitutive outputs
+
+
+71
+     Perplexity, supra note 64.
+
+
+                                                      40
+             Case 1:26-cv-04427       Document 1        Filed 05/28/26     Page 41 of 54
+
+
+
+
+create a reasonable inference that Perplexity is generating massive amounts of such outputs in
+
+response to users’ prompts, from all or virtually all of CNN’s valuable, copyrighted works. Those
+
+prompts and outputs are in the sole possession, custody, and control of Perplexity.
+
+       96.     The underlying, original content cited above also reflects the substantial resources
+
+CNN invests in first-hand reporting. A service that requires human reporting and investigative work
+
+cannot be supplanted by AI. From first-hand reporting on toxic chemicals to analysis regarding
+
+foreign policy and domestic politics, the above examples reflect the breadth and unique nature of
+
+CNN reporting, bringing first-hand, insightful reporting from every corner of the globe. By their
+
+infringement, Perplexity endangers the continued creation of this critical service.
+
+       IV.     Perplexity Engages in Trademark Infringement by Falsely Claiming a
+               Relationship with CNN and Modifying Portions of CNN’s Trademarked
+               Publications.
+
+       97.     When Perplexity’s website and app are asked questions that relate to CNN’s content,
+
+the applications will falsely claim that its users can get access to CNN’s premium content, thereby
+
+claiming an affiliation with CNN that does not exist. As seen below, when you ask Perplexity chatbot
+
+“What is comet plus?” Perplexity responds by falsely claiming CNN is part of Perplexity’s
+
+“premium news bundle” under Comet Plus “similar in spirit to Apple News Plus.”
+
+
+
+
+                                                 41
+             Case 1:26-cv-04427      Document 1       Filed 05/28/26      Page 42 of 54
+
+
+
+
+       98.     Perplexity generates fabricated content that claims that its users can pay to upgrade
+
+and get access to CNN’s premium content, when no such option exists, thereby falsely claiming an
+
+affiliation between Perplexity and CNN. Moreover, Perplexity’s fabricated content misleads its users
+
+into believing that its content is sponsored by, endorsed, or approved by CNN. Thus, Perplexity uses
+
+CNN’s famous, registered trademarks to falsely claim an affiliation between Perplexity and CNN.
+
+       99.     Perplexity also violates CNN’s trademarks when it misleadingly omits, modifies, or
+
+hallucinates portions of CNN’s trademarked publications without disclosing those omissions,
+
+modifications, or hallucinations and displays the inaccurate reproductions alongside CNN’s famous
+
+trademarks. For example, as captured below, when asked for quotes attributed to Mikel Arteta, the
+
+
+                                                42
+           Case 1:26-cv-04427        Document 1        Filed 05/28/26     Page 43 of 54
+
+
+
+
+manager of the Arsenal soccer team, Perplexity will produce nonsensical statements—i.e., “I burn
+
+every of blood this football to make it better.” When Perplexity is asked why these quotes appear
+
+incorrect, Perplexity blames CNN, suggesting it is a “bad transcription, bad machine translation, or
+
+a copy-editing.”
+
+
+
+
+                                                43
+           Case 1:26-cv-04427         Document 1       Filed 05/28/26      Page 44 of 54
+
+
+
+
+       100.    Perplexity’s use of CNN’s mark in this manner is likely to cause dilution by blurring
+
+and/or tarnishing CNN’s famous mark and causes serious damage to its worldwide reputation for
+
+truth and accuracy in reporting. Perplexity’s use of CNN’s trademarks to falsely claim an affiliation
+
+
+
+                                                 44
+             Case 1:26-cv-04427            Document 1         Filed 05/28/26        Page 45 of 54
+
+
+
+
+with CNN that does not exist is a commercial transaction that is likely to divert traffic, sales and
+
+subscriptions from CNN, which commercially harms CNN. In addition, Perplexity’s use of this mark
+
+to falsely claim an affiliation constitutes false designations of origin and confuses and deceives
+
+Perplexity users into believing (falsely) that the Perplexity’s outputs are associated with, sponsored
+
+by, or approved by CNN. This false belief, induced by Perplexity, unjustly enriches Perplexity and
+
+causes significant harm to CNN.
+
+        V.       CNN Suffers Harm from Perplexity’s Illegal Conduct
+
+        101.     By copying CNN’s copyrighted content and using it to create substitutive output
+
+derived from its works, obviating the need for users to visit CNN Digital Platforms, Perplexity is
+
+misappropriating substantial subscription, advertising, licensing, and affiliate revenue opportunities
+
+that belong rightfully and exclusively to CNN.
+
+        102.     Perplexity’s latest valuation at $20 billion and success at raising funds of nearly $1.5
+
+billion72 are indicative of the potentially massive illegal transfer of economic value from original
+
+content creators like CNN to Perplexity. Indeed, according to a news report, in 2024, Perplexity
+
+spent $48M on cloud services, paid $19M for talent, and paid $8M to Anthropic and OpenAI to use
+
+their models yet paid CNN nothing for using CNN’s content to power its products.73
+
+        103.     In addition to this massive misappropriation of revenue, when outputs from
+
+Perplexity’s GenAI Products falsely claim that its users can get access to CNN’s premium content,
+
+CNN is further harmed by false attributions and dilution. Perplexity’s false claims (using CNN’s
+
+trademarks) damage the value of CNN’s trademarks and hard-earned reputation. Likewise,
+
+
+
+72
+   Rebecca Torrence, Charles Rollet, and Ben Bergman, AI startup Perplexity is raising more money at a $20 billion
+valuation, Business Insider (Aug. 13, 2025), https://www.businessinsider.com/perplexity-valuation-jumps-to-20-
+billion-in-latest-fundraise-2025-8.
+73
+   Sri Muppidi, For Google Challenger Perplexity, Growth Comes at a High Cost, The Information (May 19, 2025),
+https://www.theinformation.com/articles/google-challenger-perplexity-growth-comes-high-cost?rc=lvqcdt.
+
+
+
+                                                       45
+                 Case 1:26-cv-04427              Document 1           Filed 05/28/26          Page 46 of 54
+
+
+
+
+Perplexity’s misleading excerpts, modifications, or hallucinations of CNN’s content, passed off as
+
+the complete versions of CNN’s high-quality, meticulously researched, and trusted content (using
+
+CNN’s trademarks), damage the value of CNN’s trademarks. The modifications, undisclosed
+
+omissions, and hallucinations also cause harm to the public.
+
+           104.      Perplexity has admitted by its own actions, including its “Publishers’ Program” and
+
+licensing deals with certain publishers, that there is a market for licensing copyrighted works for AI
+
+purposes. Perplexity has stated that one key component of its Publishers Program is “revenue
+
+sharing”: “When Perplexity earns revenue from an interaction where a publisher’s content is
+
+referenced, that publisher will also earn a share.”74 Although Perplexity has been quick to emphasize
+
+that other tech companies have not engaged in revenue-sharing,75 Perplexity is free riding on CNN
+
+reporting.
+
+           105.      Perplexity has willfully chosen to operate without such licenses and to scrape
+
+copyrighted content with impunity even when expressly asked by the copyright owner not to do so.
+
+CNN is directly injured by Perplexity’s theft of its works, which serves to devalue CNN and deprive
+
+it of immediate and potential subscription, advertising, licensing and affiliate revenue. For example,
+
+one published study has concluded that “AI bots on average are sending 95.7% less referral traffic
+
+than traditional Google search.”76
+
+           106.      Perplexity’s unlawful conduct also harms the public by eroding the economic
+
+incentives necessary for creating trustworthy, informative content. In the long term, if the intellectual
+
+
+74
+      Perplexity   Team,      Introducing    the    Perplexity    Publishers’     Program             (July    30,     2024),
+https://www.perplexity.ai/hub/blog/introducing-the-perplexity-publishers-program.
+75
+   Harvard Business School, supra note 44, at 27:02-27:20 (Srinivas: “We’re also having a publisher program, where
+we share revenue made on a query with the publishers. And, by the way, this is something Google never did. They make
+a lot of ad revenue. They tell publishers, we’re giving you traffic. But they don’t share the ad revenue with the
+publishers.”).
+76
+     Tollbit, AI Scraping is on the Rise, Tollbit State of the Bots – Q4 2024 (Feb. 24, 2025), https://tollbit.com/bots/24q4/.
+
+
+
+                                                              46
+            Case 1:26-cv-04427         Document 1        Filed 05/28/26      Page 47 of 54
+
+
+
+
+property rights of CNN and other news organizations are not respected and enforced, creators will
+
+not be able to generate high-quality content because they will not receive a sufficient return on
+
+investment. Diminished content will further result in reduced revenue, and thus less spending on
+
+content creation, spawning even less content of even poorer quality and even less revenue, and so
+
+on in a downward spiral for news organizations like CNN. In this way, Perplexity imperils the very
+
+market for the high-quality content that it copies and reproduces, and upon which its entire business
+
+depends.
+
+                                         COUNT I
+       Copyright Infringement (17 U.S.C. § 106(1)) – Perplexity’s Acquisition of CNN’s
+               Copyrighted Works to Create “Inputs” for its GenAI Products
+
+        107.    CNN restates and incorporates by reference its allegations as set forth in the
+
+preceding paragraphs.
+
+        108.    CNN holds exclusive rights to the extensive body of copyrighted material it seeks to
+
+protect in this case.
+
+        109.    This includes copyrights registered with the U.S. Copyright Office, including the
+
+registrations attached in a summary chart as Exhibit A. It also includes all CNN copyrights
+
+registrations that have been filed subsequent to the last registration listed on Exhibit A.
+
+        110.    Upon information and belief, Perplexity, without CNN’s authorization, directly or
+
+indirectly through third parties, has willfully copied as much CNN content that it has been able to
+
+access with its own or with third parties’ web crawlers as inputs into database(s) or index(es). These
+
+inputs include content covered by the registrations listed at Exhibit A.
+
+        111.    This database(s) or index(es) are used for a process commonly referred to as retrieval-
+
+augmented generation or “RAG.”
+
+        112.    The copies that are made as inputs into Perplexity’s AI product, which may be
+
+
+
+
+                                                  47
+            Case 1:26-cv-04427         Document 1       Filed 05/28/26      Page 48 of 54
+
+
+
+
+retained in Perplexity’s RAG database(s) or index(es), are distinct copyright violations on a massive
+
+scale.
+
+         113.   Perplexity’s massive and ongoing infringements violate the Copyright Act, 17 U.S.C.
+
+§ 106(1).
+
+         114.   Perplexity’s infringements are ongoing, and CNN is entitled to injunctive relief and
+
+other equitable remedies.
+
+         115.   CNN is also entitled to statutory damages, actual damages, restitution of profits,
+
+attorneys’ fees, costs of suit, and other remedies provided by law.
+
+                                       COUNT II
+ Copyright Infringement (17 U.S.C. § 106(2)) – Perplexity’s Copying of CNN’s Copyrighted
+                      Works to Create “Outputs” to User Queries
+
+         116.   CNN restates and incorporates by reference its allegations as set forth in the
+
+preceding paragraphs.
+
+         117.   CNN holds exclusive rights to the extensive body of copyrighted material it seeks to
+
+protect in this case.
+
+         118.   This includes copyrights registered with the U.S. Copyright Office, including the
+
+registrations attached in a summary chart as Exhibit A.
+
+         119.   Upon information and belief, Perplexity, without CNN’s authorization, directly or
+
+indirectly through a third party, has willfully copied as much CNN content that it has been able to
+
+access with its own or with third parties’ web crawlers as inputs into database(s) or index(es),
+
+including content covered by the registrations listed at Exhibit A.
+
+         120.   This database(s) or index(es) are used for a process commonly referred to as retrieval-
+
+augmented generation or “RAG.”
+
+         121.   Perplexity, in turn, uses CNN’s copyrighted content, accessed through its RAG
+
+
+
+
+                                                  48
+            Case 1:26-cv-04427          Document 1        Filed 05/28/26    Page 49 of 54
+
+
+
+
+process, to produce outputs, or “answers” to user queries.
+
+        122.    The outputs or “answers” to user queries contain and/or are derived from CNN’s
+
+copyrighted content, whether they come in the form of verbatim or near-verbatim reproductions,
+
+summaries, or abridgements of CNN’s copyrighted works, or any other reproduced or derivative
+
+content sourced from CNN’s copyrighted works—all of which infringe on CNN’s copyrighted
+
+content.
+
+        123.    As Perplexity has publicly stated, these outputs are designed to eliminate the need for
+
+its users to visit the original content creators’ websites.
+
+        124.    Every instance in which Perplexity, on its own or by directing or controlling a third
+
+party, copies CNN’s copyrighted work in the process of generating outputs or “answers,” constitutes
+
+a separate violation of the Copyright Act, 17 U.S.C. § 106(2).
+
+        125.    Perplexity’s infringements are ongoing, and CNN is entitled to injunctive relief and
+
+other equitable remedies.
+
+        126.    CNN is also entitled to statutory damages, actual damages, restitution of profits,
+
+attorneys’ fees, costs of suit, and other remedies provided by law.
+
+                                          COUNT III
+                       Contributory and Vicarious Copyright Infringement
+
+        127.    CNN restates and incorporates by reference its allegations as set forth in the
+
+preceding paragraphs.
+
+        128.    In the alternative, to the extent that Perplexity argues that an end-user—rather than
+
+Perplexity—should be liable as a direct infringer based on Perplexity outputs, Perplexity is
+
+secondarily liable for unlawfully reproducing, displaying, distributing, and preparing derivatives of
+
+CNN’s copyrighted works under contributory infringement by inducement and vicarious
+
+infringement.
+
+
+
+                                                    49
+              Case 1:26-cv-04427       Document 1         Filed 05/28/26     Page 50 of 54
+
+
+
+
+       129.     Perplexity, without CNN’s permission or consent, has unlawfully reproduced,
+
+distributed to the public, publicly displayed, and prepared derivative works based upon CNN’s
+
+content. Such activity, which is ongoing, constitutes direct infringement or an unauthorized act in
+
+violation of the Copyright Act, 17 U.S.C. §§ 106(1)–(3), (5) and 501.
+
+       130.     Perplexity intentionally induces its users’ infringing activity. Perplexity intends that
+
+its RAG process responds to users with outputs that infringe CNN’s works. Perplexity designs,
+
+operates, and maintains its RAG process that is designed to foster the infringement of CNN’s
+
+copyrighted works and transmit those infringing copies to users via its answer engine. Perplexity has
+
+the means to prevent such material contribution but does not do so. Instead, it intentionally avoids
+
+taking steps to sufficiently mitigate its infringement.
+
+       131.     Perplexity promotes itself as a service providing such content, inducing its users’
+
+direct infringement. As a direct and proximate result of such actions, Perplexity has infringed CNN’s
+
+copyrighted content.
+
+       132.     Perplexity is also vicariously liable for these infringements by licensees. Perplexity
+
+has the legal right and practical ability to supervise and control the infringing activities that occur
+
+through and as a result of its RAG process. Perplexity has refused to take reasonable steps to prevent
+
+the infringement by users and licensees of its RAG process, including by ignoring or evading
+
+technological features, such as robots.txt, designed specifically to guard against Perplexity’s copying
+
+of CNN’s works. As a direct and proximate result of such refusal, Perplexity has infringed CNN’s
+
+copyrights.
+
+       133.     Additionally, Perplexity receives a direct financial benefit from the infringing
+
+activity. First, Perplexity draws users, licensees, and potential licensees to its products by claiming
+
+its “answers” “Skip the links” by providing “a single, comprehensive answer that summarizes
+
+
+
+
+                                                  50
+           Case 1:26-cv-04427         Document 1       Filed 05/28/26      Page 51 of 54
+
+
+
+
+everything you need to know.” In his public statements, Perplexity’s CEO has similarly emphasized
+
+Perplexity’s ability to provide users, licensees, and potential licensees comprehensive responses
+
+based on breaking news content. Second, by providing outputs containing high-quality, breaking
+
+news content, Perplexity encourages users to become paid licensees. Indeed, Perplexity will copy
+
+and output CNN’s articles verbatim to Perplexity users if they pay a fee to Perplexity. See supra ¶¶
+
+79, 95. And a licensee is more likely to remain one (or select a higher-priced plan) if the licensee
+
+continues to obtain the same high-quality news content.
+
+                                         COUNT IV
+               False Designation of Origin and Dilution of CNN’s Trademarks
+                                     (15 U.S.C. § 1125)
+
+       134.    CNN restates and incorporates by reference its allegations as set forth in the
+
+preceding paragraphs.
+
+       135.    CNN is the owner of the federally registered trademarks for the Mark “CNN”
+
+referenced in Exhibit B (collectively “The CNN Mark”). CNN has used, and continues to use, the
+
+CNN Mark on its products and publications, including the CNN.com website, as well as other CNN
+
+Digital Platforms.
+
+       136.    The CNN Mark is distinctive and famous.
+
+       137.    The CNN Mark is a distinctive and “famous mark” within the meaning of Section
+
+43(c) of the Lanham Act, is widely recognized by the general consuming public of the United States,
+
+and became distinctive and famous prior to Perplexity’s unauthorized use.
+
+       138.    The registrations in Exhibit B are valid, subsisting and incontestable.
+
+       139.    Defendant’s unauthorized use of the CNN Mark in interstate commerce to falsely
+
+claim an affiliation between CNN and Perplexity dilutes the quality of the CNN Mark by
+
+tarnishment in violation of 15 U.S.C § 1125(c).
+
+
+
+
+                                                  51
+            Case 1:26-cv-04427        Document 1        Filed 05/28/26     Page 52 of 54
+
+
+
+
+       140.    In addition, when Perplexity’s website and app are asked questions that relate to
+
+CNN’s content, the applications will often misleadingly omit or modify portions of CNN’s
+
+trademarked publications, or falsely attribute hallucinated content to CNN’s trademark
+
+publications. Perplexity’s actions are a commercial transaction.
+
+       141.    Upon information and belief, Perplexity is aware that its applications falsely claim
+
+that its users may lawfully access CNN’s trademarked publications and content. Upon information
+
+and belief, Perplexity is also aware that its applications hallucinate and/or misleadingly omit or
+
+modify portions of CNN’s publications and falsely suggest that its hallucinated or incomplete
+
+reproductions constitute the entirety of CNN’s content.
+
+       142.    Perplexity has used and, upon information and belief, continues to use in interstate
+
+commerce “CNN” and marks similar and/or identical to the CNN Mark in a misleading manner,
+
+falsely claiming that its outputs are sponsored by, endorsed or affiliated with CNN.
+
+       143.    Perplexity’s use of similar and/or identical copies of the CNN Mark without
+
+authorization, in connection with its GenAI Products, creates an association in the minds of its users
+
+that the outputs generated by Perplexity’s GenAI Products are derived from, associated with, and/or
+
+complete version of sources of high-quality content. This association, in turn, impairs the
+
+distinctiveness of the marks.
+
+       144.    Perplexity’s actions also violate 15 U.S.C. § 1125(c) because they are likely to cause
+
+dilution of CNN’s famous and distinctive marks by blurring and/or tarnishment.
+
+       145.    Perplexity’s actions violate 15 U.S.C. § 1125(a)(1) because they trade upon CNN’s
+
+valuable reputation and consumer goodwill by using the CNN Mark and/or confusingly similar
+
+marks in a manner that causes and/or is likely to cause confusion, mistake, or deception of consumers
+
+into believing that Perplexity’s outputs are factually correct, complete, and authoritative because
+
+
+
+
+                                                 52
+              Case 1:26-cv-04427       Document 1       Filed 05/28/26      Page 53 of 54
+
+
+
+
+they are sourced from, associated with, sponsored by, or approved by CNN.
+
+       146.     Upon information and belief, Perplexity has actual knowledge of CNN’s ownership
+
+and use of the CNN Mark. Perplexity’s use of the trademark without the consent of CNN constitutes
+
+a willful violation of 15 U.S.C. § 1125.
+
+       147.     Perplexity’s infringements are ongoing, and CNN is entitled to injunctive relief and
+
+other equitable remedies.
+
+       148.     CNN is also entitled to statutory damages, actual damages, treble damages, restitution
+
+of profits, attorneys’ fees, costs of suit, and other remedies provided by law.
+
+                                           COUNT V
+                            Trademark Infringement (15 U.S.C. § 1114)
+       149.     CNN restates and incorporates by reference its allegations set forth in the preceding
+
+paragraphs.
+
+       150.     Perplexity makes unauthorized and willful use of CNN’s federally registered
+
+trademarks, including in connection with the sale, distribution, and advertising of its services.
+
+Perplexity uses marks in commerce that are either identical to, variations of, or colorable imitations
+
+of CNN’s federally registered trademarks in connection with the generation and distribution of
+
+hallucinated content that CNN did not create.
+
+       151.     Perplexity’s use infringes CNN’s exclusive rights in its federally registered
+
+trademarks, and has caused and is likely to cause confusion, mistake, or deception as to whether the
+
+articles Perplexity provides are associated or affiliated with, or are sponsored, endorsed, or approved
+
+by CNN. Perplexity’s use is intended to reap the benefit of consumers’ trust in CNN. Perplexity
+
+intentionally, willfully, and deliberately uses CNN’s federally registered marks despite Perplexity’s
+
+knowledge that it has no right, license, or authority to use this mark or any confusingly similar
+
+variation of this mark.
+
+
+
+                                                  53
+            Case 1:26-cv-04427         Document 1       Filed 05/28/26      Page 54 of 54
+
+
+
+
+        152.   Perplexity’s infringements are ongoing, and CNN is entitled to injunctive relief and
+
+other equitable remedies.
+
+        153.   CNN is also entitled to statutory damages, actual damages, treble damages, restitution
+
+of profits, attorneys’ fees, costs of suit, and other remedies provided by law.
+
+                                     PRAYER FOR RELIEF
+
+        WHEREFORE, Plaintiff respectfully demands judgment against Perplexity as follows:
+
+   a.      Awarding Plaintiff statutory damages, actual damages, treble damages, restitution of
+
+           profits, and any other relief that may be permitted by law or equity;
+
+   b.      Permanently enjoining Perplexity from engaging in the unlawful conduct alleged herein;
+
+   c.      Awarding Plaintiff costs, expenses, and attorneys’ fees as permitted by law; and
+
+   d.      Awarding Plaintiff such other or further relief as the Court may deem just.
+
+                                  DEMAND FOR JURY TRIAL
+
+        CNN hereby demands a jury trial for all claims so triable.
+
+
+        Dated: May 28, 2026                   By: /s/ Steven Lieberman
+
+                                              Steven Lieberman (SL8687)
+                                              Jennifer B. Maisel (5096995)
+                                              Sharon Davis (pro hac vice forthcoming)
+                                              Alexandra Hughes (pro hac vice forthcoming)
+                                              Kristen J. Logan (pro hac vice forthcoming)
+                                              ROTHWELL, FIGG, ERNST & MANBECK, P.C.
+                                              901 New York Avenue, N.W., Suite 900 East
+                                              Washington, DC 20001
+                                              Telephone: (202) 783-6040
+                                              Facsimile: (202) 783-6031
+                                              slieberman@rothwellfigg.com
+                                              jmaisel@rothwellfigg.com
+                                              sdavis@rothwellfigg.com
+                                              ahughes@rothwellfigg.com
+                                              klogan@rothwellfigg.com
+
+
+                                              Attorneys for Plaintiff Cable News Network, Inc.
+
+
+                                                  54
+

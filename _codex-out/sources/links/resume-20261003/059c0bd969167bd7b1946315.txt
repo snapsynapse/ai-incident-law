@@ -1,0 +1,1123 @@
+                                       Case 3:23-cv-06558-PHK           Document 230        Filed 04/28/26       Page 1 of 17
+
+
+
+
+                                   1
+
+                                   2
+
+                                   3
+
+                                   4                                  UNITED STATES DISTRICT COURT
+
+                                   5                                 NORTHERN DISTRICT OF CALIFORNIA
+
+                                   6                                     SAN FRANCISCO DIVISION
+
+                                   7
+
+                                   8     ANTHONY C. HILL,                                   Case No. 23-cv-06558-PHK
+
+                                   9                    Plaintiff,                          ORDER RE: RESPONSE TO ORDER
+                                                                                            TO SHOW CAUSE BY ATTORNEY
+                                  10             v.                                         WEBB
+
+                                  11     WORKDAY, INC., et al.,                             Re: Dkts. 178, 228
+
+                                  12                    Defendants.
+Northern District of California
+ United States District Court
+
+
+
+
+                                  13                                           INTRODUCTION
+
+                                  14          Lawyers owe a duty of candor to the Court, a duty that cannot be met without reading and
+
+                                  15   understanding the legal authorities on which their arguments rely. When lawyers fail to check
+
+                                  16   citations in a brief prior to filing, as discussed at length previously, [Dkt. 161], or when they
+
+                                  17   materially misrepresent the facts or holdings in a case, they breach their professional and ethical
+
+                                  18   obligations. Moreover, managerial and senior lawyers have professional and ethical duties to the
+
+                                  19   Court, their clients, and their employees to appropriately supervise the work performed. See Cal.
+
+                                  20   Rules of Prof. Conduct r. 5.1. At minimum, a supervising lawyer should read and understand the
+
+                                  21   content of all pleadings and check citations to ensure their accuracy. Managers in law firms have
+
+                                  22   an obligation to take reasonable steps to ensure all lawyers in the firm make ethical representations
+
+                                  23   to the Court.
+
+                                  24          As previously discussed in the Order sanctioning Attorney Katherine Cervantes, [Dkt. 161],
+
+                                  25   courts have long admonished lawyers for their willful or reckless citations to nonexistent or
+
+                                  26   improper case law and fictitious statutes in briefs. See, e.g., Willy v. Coastal Corp., 855 F.2d 1160,
+
+                                  27   1172 (5th Cir. 1988) (affirming Rule 11 sanctions for, among other things, “citing to nonexistent
+
+                                  28   rules of law”). When submitting filings to a court, one of a lawyer’s basic professional and ethical
+                                       Case 3:23-cv-06558-PHK            Document 230          Filed 04/28/26      Page 2 of 17
+
+
+
+
+                                   1   duties is not to “present a claim or defense in litigation that is not warranted under existing law”
+
+                                   2   regardless of the source of the alleged existing law (whether from a computerized source, a
+
+                                   3   generative AI, a traditional legal research tool such as Westlaw, or a treatise). See Cal. Rules of
+
+                                   4   Prof. Conduct r. 3.1(a)(2). Otherwise, “pleadings that cite fake legal authority undermine[] the rule
+
+                                   5   of law and a judicial system based on reason. Such fakery also erodes public trust in the legal
+
+                                   6   profession.” In re Kenney, 422 So. 3d 905, 924 (La. Ct. App. 2025). Supervisors who do not draft
+
+                                   7   or sign submissions to the court, but who remain counsel of record and fail to question the accuracy
+
+                                   8   of defective pleadings, fail in their duty of supervision. Mattox v. Prod. Innovations Rsch., LLC,
+
+                                   9   807 F. Supp. 3d 1341, 1351 (E.D. Okla. Oct. 22, 2025).
+
+                                  10           Here, there is no dispute that the lawyers at issue submitted a brief which included a fake
+
+                                  11   citation to nonexistent law, caused in part by use of AI and ultimately from a lack of care and lack
+
+                                  12   of supervision.
+Northern District of California
+ United States District Court
+
+
+
+
+                                  13           Now before the Court is the response by Attorney Webb, [Dkts. 178, 228], to multiple Orders
+
+                                  14   to Show Cause regarding the brief containing fake citation to nonexistent law, his failure to
+
+                                  15   supervise, and his failure to respond to Court Orders or appear. [Dkts. 129, 161, 177]. After
+
+                                  16   carefully reviewing the submitted declarations and holding a hearing on the Order to Show Cause,
+
+                                  17   the Court ADMONISHES and SANCTIONS Attorney Lenden Webb.
+
+                                  18                                      RELEVANT BACKGROUND
+
+                                  19           As previously described in the Court’s Order sanctioning Attorney Cervantes, [Dkt. 161], in
+
+                                  20   this lawsuit between a former employee and his former employer, Plaintiff Anthony Hill and
+
+                                  21   Defendant Workday filed a Joint Discovery Letter Brief on July 21, 2025. [Dkt. 117]. In the
+
+                                  22   signature block for that brief, both Lenden Webb and Katherine Cervantes are identified as attorneys
+
+                                  23   of record for Plaintiff Hill. Id. Attorney Cervantes signed the discovery letter. Id.
+
+                                  24           On July 30, 2025, the Court issued an Order resolving the dispute and issued an Order to
+
+                                  25   Show Cause directed to Plaintiff Hill’s counsel. [Dkt. 129]. The gravamen of the Order to Show
+
+                                  26   Cause is that Plaintiff Hill’s counsel submitted briefing in the letter brief that: (1) cited at least one
+
+                                  27   nonexistent case, South Pointe Wholesale, Inc. v. Vilardi, No. 16-CV-6758, 2017 WL 11570668, at
+
+                                  28   *2 (E.D.N.Y. May 2, 2017); and (2) misrepresented the holdings of another cited case, Mir v. L–3
+                                                                                           2
+                                       Case 3:23-cv-06558-PHK           Document 230         Filed 04/28/26      Page 3 of 17
+
+
+
+
+                                   1   Commc’ns Integrated Sys., L.P., 319 F.R.D. 220, 227 (N.D. Tex. 2016). Id. at 9–12. The Court’s
+
+                                   2   core concerns centered around the inclusion of false or misleading citations, the source of the
+
+                                   3   citations, how and why they were included in the brief, and potential violations of this Court’s
+
+                                   4   Standing Order, which specifically addresses AI and fictitious or unverified legal citations. Id.
+
+                                   5          Attorney Cervantes filed a declaration responding to the Order to Show Cause the same day,
+
+                                   6   but Attorney Webb did not file a separate response or declaration. [Dkt. 131].
+
+                                   7          The Court held a hearing on the Order to Show Cause on August 12, 2025, at which Attorney
+
+                                   8   Cervantes appeared, but Attorney Webb did not. [Dkt. 148]. On September 5, 2025 the Court issued
+
+                                   9   an Order regarding the response to the Order to Show Cause by Attorneys Webb and Cervantes.
+
+                                  10   [Dkt. 161]. Specifically, the Court admonished Attorney Webb and ordered him to file a declaration
+
+                                  11   “addressing all of the issues raised in the original Order to Show Cause and further addressing the
+
+                                  12   following: (1) explaining his nonappearance at the Order to Show Cause hearing; (2) explaining the
+Northern District of California
+ United States District Court
+
+
+
+
+                                  13   failure to provide advance notice to court staff as to his apparent scheduling conflict; (3) describing
+
+                                  14   his role and responsibilities as counsel of record with regard to the supervision of Attorney
+
+                                  15   Cervantes and other members of his law firm with regard to the filing of the brief containing the
+
+                                  16   fake citation; and (4) identifying what steps he personally and his firm have taken, or plan to take,
+
+                                  17   to mitigate and prevent similar issues from occurring in the future.” Id. at 14. Attorney Webb did
+
+                                  18   not respond to the September 5 Order.
+
+                                  19          On October 22, 2025, the Court issued a Further Order to Show Cause directing Attorney
+
+                                  20   Webb to show cause as to why he should not be sanctioned for failure to obey Court Orders and for
+
+                                  21   filing a brief under his name containing fake citations per the July 30 Order to Show Cause. [Dkt.
+
+                                  22   177]. The Court explicitly warned Attorney Webb that “[c]ontinued failure to obey the previous
+
+                                  23   September 5 Order [Dkt. 161] may result in sanctions. With regard to the failure to obey the
+
+                                  24   September 5 Order [Dkt. 161] and this Further OSC, the Court may consider the full range of
+
+                                  25   appropriate sanctions, including but not limited to monetary sanctions, ordering Attorney Webb to
+
+                                  26   undertake continuing legal education, requiring Attorney Webb to self-report to the Northern
+
+                                  27   District’s Committee on Professional Conduct and the California State Bar (and any other court or
+
+                                  28   bar of which he is a member), or any other sanctions the Court deems appropriate in the
+                                                                                         3
+                                       Case 3:23-cv-06558-PHK           Document 230         Filed 04/28/26     Page 4 of 17
+
+
+
+
+                                   1   circumstances.” Id. at 2. Court staff emailed the September 5 and October 22 Orders directly to
+
+                                   2   Attorney Webb. [Dkt. 178 at 23].
+
+                                   3          Finally, Attorney Webb filed a response on October 23, 2025. [Dkt. 178]. Attorney Webb
+
+                                   4   appeared at a hearing on November 4, 2025 and was afforded a full opportunity to be heard. [Dkt.
+
+                                   5   190]. On April 3, 2026, Attorney Webb filed a further response to the OSC. [Dkt. 228].
+
+                                   6                                           LEGAL STANDARD
+
+                                   7          In language familiar to lawyers appearing in federal courts, Rule 11(b) states that “[b]y
+
+                                   8   presenting to the court a pleading, written motion, or other paper—whether by signing, filing,
+
+                                   9   submitting, or later advocating it—an attorney or unrepresented party certifies that to the best of the
+
+                                  10   person's knowledge, information, and belief, formed after an inquiry reasonable under the
+
+                                  11   circumstances . . . the claims, defenses, and other legal contentions are warranted by existing law or
+
+                                  12   by a nonfrivolous argument for extending, modifying, or reversing existing law or for establishing
+Northern District of California
+ United States District Court
+
+
+
+
+                                  13   new law[.]” Fed. R. Civ. P. 11(b)(2).
+
+                                  14          A lawyer whose name appears on a court filing therefore “certifies to the court that the signer
+
+                                  15   has read the document, has conducted a reasonable inquiry into the facts and the law and is satisfied
+
+                                  16   that the document is well grounded in both, and is acting without any improper motive.” Bus.
+
+                                  17   Guides, Inc. v. Chromatic Commc'ns. Enters., Inc., 498 U.S. 533, 542 (1991). Accordingly, Rule
+
+                                  18   11 “admits of no exceptions to the requirement that all reasonable attorneys will read a document
+
+                                  19   before filing it in court.” Zaldivar v. City of Los Angeles, 780 F.2d 823, 830 (9th Cir. 1986),
+
+                                  20   abrogated on other grounds by Cooter & Gell v. Hartmarx Corp., 496 U.S. 384 (1990). Thus, the
+
+                                  21   lawyer whose name appears on a court filing has “an affirmative duty to conduct a reasonable
+
+                                  22   inquiry into the facts and the law before filing.” Bus. Guides, 498 U.S. at 551 (emphasis added).
+
+                                  23   “[T]he applicable standard is one of reasonableness under the circumstances.” Id. “Courts must
+
+                                  24   apply an objective test in assessing whether the rule has been violated.” Yagman v. Republic Ins.,
+
+                                  25   987 F.2d 622, 628 (9th Cir. 1993). Therefore, a “violation of the rule does not require subjective
+
+                                  26   bad faith.” Id.
+
+                                  27          The Court has authority under Rule 11(c) to impose sanctions for violations of the Rule. See
+
+                                  28   Fed. R. Civ. P. 11(c). Rule 11 assumes a signer read the document, because “obligations imposed
+                                                                                         4
+                                       Case 3:23-cv-06558-PHK            Document 230         Filed 04/28/26     Page 5 of 17
+
+
+
+
+                                   1   under subdivision (b) obviously require that a pleading, written motion, or other paper be read before
+
+                                   2   it is filed or submitted to the court.” Adv. Comm’ee Notes to 1993 Amendment to Fed. R. Civ. P.
+
+                                   3   11(a).
+
+                                   4            Long before the public launch of various AI or large language models such as ChatGPT, the
+
+                                   5   Fifth Circuit affirmed an award of sanctions by noting that “[f]iling mountainous piles of
+
+                                   6   unorganized documents and citing to nonexistent rules of law are precisely the sort of conduct that,
+
+                                   7   under the objective test of Rule 11, could lead a district court to conclude that the attorney had not
+
+                                   8   made reasonable inquiry into the law or was seeking to harass or delay.” Willy, 855 F.2d at 1172.
+
+                                   9   Sanctioning a party for citing to nonexistent law is, unfortunately, not merely a product of AI-
+
+                                  10   hallucinated citations. See, e.g., Dobson v. U.S. Bank Trust, N.A., 2021 WL 1235248 at *2 (C.D.
+
+                                  11   Cal. Feb. 19, 2021) (“Plaintiff's citation to a nonexistent code section and subsequent failure to
+
+                                  12   address the erroneous citation and the merits of Defendant's Motion for Sanctions indicate that
+Northern District of California
+ United States District Court
+
+
+
+
+                                  13   Plaintiff did not conduct a reasonable and competent inquiry into the law before signing and filing
+
+                                  14   his Complaint.”). “One specific inquiry for determining whether sanctions are appropriate is
+
+                                  15   ‘whether the party or attorney made a reasonable inquiry into the law.’” Mid Central Operating
+
+                                  16   Engineers Health and Welfare Fund v. HoosierVac LLC, 2025 WL 574234 at *2 (S.D. Ind. Feb. 21,
+
+                                  17   2025) (quoting Brown v. Federation of State Med. Boards of the U.S., 830 F.2d 1429, 1435 (7th Cir.
+
+                                  18   1987), overruled on other grounds by Mars Steel Corp. v. Continental Bank N.A., 880 F.2d 928 (7th
+
+                                  19   Cir. 1989)). The duty to check every paper filed in court for accuracy and veracity is nondelegable
+
+                                  20   to other attorneys or to technology. See, e.g., Unioil, Inc. v. E.F. Hutton & Co., 809 F.2d 548, 558
+
+                                  21   (9th Cir. 1986), overruled on other grounds by In re Keegan Mgmt. Co., Sec. Litig., 78 F.3d 431,
+
+                                  22   434–35 (9th Cir. 1996) (“An attorney who signs the pleading cannot simply delegate to forwarding
+
+                                  23   co-counsel his duty of reasonable inquiry.”); Versant Funding LLC v. Teras Breakbulk Ocean
+
+                                  24   Navigation Enters., LLC, 2025 WL 1440351, at *4–5 (S.D. Fla. May 20, 2025).
+
+                                  25            “Given the rise of artificial intelligence and its use in court proceedings, courts have begun
+
+                                  26   ordering litigants suspected of citing to AI-hallucinated cases to show cause why sanctions or
+
+                                  27   discipline should not issue. Specifically, courts tend to find that Fed. R. Civ. P. 11(b)(2) applies in
+
+                                  28   the context of litigants citing to AI-hallucinated cases in documents submitted to courts.” Marion
+                                                                                          5
+                                       Case 3:23-cv-06558-PHK            Document 230          Filed 04/28/26      Page 6 of 17
+
+
+
+
+                                   1   v. Hollis Cobb Assocs., 2025 WL 1275828, at *5 (N.D. Ga. Feb. 14, 2025) (citations omitted). The
+
+                                   2   nationwide issue of sanctions for filing briefs with fake citations has been addressed by the Northern
+
+                                   3   District of California. See, e.g., Coronavirus Reporter Corp. v. Apple Inc., 2025 WL 2162947, at
+
+                                   4   *5–6 (N.D. Cal. July 30, 2025). Upon detection of fabricated or erroneous citations, an attorney has
+
+                                   5   an affirmative, personal, non-delegable duty to review all citations for accuracy and validity and to
+
+                                   6   correct them, rather than relying only on citations pointed out as problematic by opposing counsel
+
+                                   7   or a court. In re Kenney, 422 So.3d at 915–16, 920-21.
+
+                                   8           However, the Court recognizes that the motion at issue here is a discovery motion. Under
+
+                                   9   Rule 11(d), such motions are exempt from the requirements of Rule 11. See Fed. R. Civ. P. 11(d)
+
+                                  10   (“This rule does not apply to disclosures and discovery requests, responses, objections, and motions
+
+                                  11   under Rules 26 through 37.”). “This appears to be an unintended anomaly in Rule 11: the advisory
+
+                                  12   committee’s note indicates that discovery motions were excepted from Rule 11 because the
+Northern District of California
+ United States District Court
+
+
+
+
+                                  13   committee expected Rules 26 and 37 to allow courts to address sanctionable misconduct in such
+
+                                  14   motions, but Rules 26 and 37 furnish no basis for the court to address the false statements of law
+
+                                  15   these attorneys made in discovery motions. Regardless, Rule 11 says what it says, it does not apply
+
+                                  16   here, and this court has no authority to change that.” Johnson v. Dunn, 792 F. Supp. 3d 1241, 1259–
+
+                                  17   60 (N.D. Ala. 2025) (citations omitted).
+
+                                  18           Separate from Rule 11, “[w]ithin the federal system, each district court is authorized to
+
+                                  19   govern and discipline its own bar.” Weissman v. Quail Lodge, Inc., 179 F.3d 1194, 1198 (9th Cir.
+
+                                  20   1999). A district court may issue sanctions for violating its local rules or under its inherent authority.
+
+                                  21   See Chambers v. NASCO, Inc., 501 U.S. 32, 46 (1991) (“[T]he inherent power extends to a full
+
+                                  22   range of litigation abuses.”); Fink v. Gomez, 239 F.3d 989, 991–92 (9th Cir. 2001); Zambrano v.
+
+                                  23   City of Tustin, 885 F.2d 1473, 1480 (9th Cir. 1989).
+
+                                  24           Before imposing sanctions on an attorney, the Court must provide the attorney with notice
+
+                                  25   and an opportunity to be heard. Weissman, 179 F.3d at 1198. A separate sanctions hearing is not
+
+                                  26   required when the attorney is given the opportunity to respond in writing. Pac. Harbor Cap., Inc.
+
+                                  27   v. Carnival Air Lines, Inc., 210 F.3d 1112, 1118 (9th Cir. 2000). “The opportunity to brief the issue
+
+                                  28   fully satisfies due process requirements.” Id. (citing Resolution Trust Corp. v. Dabney, 73 F.3d 262,
+                                                                                           6
+                                       Case 3:23-cv-06558-PHK           Document 230         Filed 04/28/26      Page 7 of 17
+
+
+
+
+                                   1   268 (10th Cir. 1995); Toombs v. Leone, 777 F.2d 465, 472 (9th Cir. 1985)).
+
+                                   2          “Broad deference is given to a district court's interpretation of its local rules.” Bias v.
+
+                                   3   Moynihan, 508 F.3d 1212, 1223 (9th Cir. 2007) (citing Christian v. Mattel, Inc., 286 F.3d 1118,
+
+                                   4   1129 (9th Cir. 2002)). This Court’s Civil Local Rule 11-4 provides in relevant part that all attorneys
+
+                                   5   permitted to practice in the Northern District must: “Be familiar and comply with the standards of
+
+                                   6   professional conduct required of members of the State Bar of California;” “Comply with the Local
+
+                                   7   Rules of this Court;” “Maintain respect due to courts of justice and judicial officers;” and “Practice
+
+                                   8   with the honesty, care, and decorum required for the fair and efficient administration of justice[.]”
+
+                                   9   “Failure by counsel or a party to comply with any duly promulgated local rule or any Federal Rule
+
+                                  10   may be a ground for imposition of any authorized sanction.” Civil L.R. 1-4. The Local Rules specify
+
+                                  11   citation formats for legal authorities “in any paper” filed with the Court. Civil L.R. 3-4(d).
+
+                                  12          The undersigned’s Civil Standing Order, which is applicable to this case, states that: “in the
+Northern District of California
+ United States District Court
+
+
+
+
+                                  13   course of preparing filings with the Court or other documents for submission in an action, counsel
+
+                                  14   and Parties choosing to use an AI or other automated tools shall fully comply with any applicable
+
+                                  15   protective order and all applicable ethical/legal obligations (including issues relating to privilege)
+
+                                  16   in their use, disclosure to, submission to, or other interaction with any such AI tools. Such counsel
+
+                                  17   and parties using any AI tool shall maintain records sufficient to establish and corroborate their
+
+                                  18   compliance with this Standing Order, if asked by the Court, such as by keeping records of all
+
+                                  19   prompts or inquiries submitted to any such third-party AI tools.” Civil Standing Order at § VII(C),
+
+                                  20   available    at   https://cand.uscourts.gov/sites/default/files/standing-orders/PHK-Civil-Standing-
+
+                                  21   Order_2025.7.16.pdf (last accessed Apr. 27, 2026) (emphasis added).
+
+                                  22          The Standing Order requires that “all counsel who have appeared, as well as all others
+
+                                  23   responsible for making representations to the Court or opposing counsel (whether or not they make
+
+                                  24   an appearance) . . . , shall competently and responsibly use automated, computer-based software or
+
+                                  25   hardware applications in drafting briefs, pleadings, or other documents to be submitted to the Court,
+
+                                  26   whether such tools are labelled as AI, generative AI, language model, natural language processing
+
+                                  27   tool, machine learning tool, artificial neural network, deep learning neural network, or any other
+
+                                  28   automated generator of text. Counsel and pro se parties shall make use of such tools with competent
+                                                                                         7
+                                       Case 3:23-cv-06558-PHK           Document 230         Filed 04/28/26      Page 8 of 17
+
+
+
+
+                                   1   training, knowledge, and understanding of the limitations and risks of such automated tools.” Id.
+
+                                   2   (emphasis added).
+
+                                   3          As noted, the Local Rules require attorneys to comply with the standards of professional
+
+                                   4   conduct of the State Bar of California. Under the California Rules of Professional Conduct “[a]
+
+                                   5   lawyer shall not intentionally, recklessly, with gross negligence, or repeatedly fail to perform legal
+
+                                   6   services with competence.” Cal. Rules of Prof. Conduct r. 1.1(a). And, as noted above, a lawyer
+
+                                   7   “shall not . . . present a claim or defense in litigation that is not warranted under existing law[.]”
+
+                                   8   Cal. Rules of Prof. Conduct r. 3.1(a)(2). Regarding candor toward a tribunal, the Rules state that a
+
+                                   9   “lawyer shall not . . . knowingly[] make a false statement of fact or law to a tribunal[.]” Cal. Rules
+
+                                  10   of Prof. Conduct r. 3.3(a)(1). Further, a lawyer shall not “knowingly[] misquote to a tribunal[] the
+
+                                  11   language of a book, statute, decision, or other authority[.]” Cal. Rules of Prof. Conduct r. 3.3(a)(2).
+
+                                  12          With respect to the responsibilities of managerial and supervisory attorneys, the Rules
+Northern District of California
+ United States District Court
+
+
+
+
+                                  13   require such attorneys to “make reasonable[] efforts to ensure that the firm[] has in effect measures
+
+                                  14   giving reasonable[] assurance that all lawyers in the firm[] comply with these rules and the State
+
+                                  15   Bar Act.” Cal. Rules of Prof. Conduct r. 5.1(a). A direct supervisor of another lawyer is required to
+
+                                  16   “make reasonable[] efforts to ensure that the other lawyer complies with these rules and the State
+
+                                  17   Bar Act.” Cal. Rules of Prof. Conduct r. 5.1(b). “A lawyer shall be responsible for another lawyer’s
+
+                                  18   violation” if the lawyer “possesses managerial authority in the law firm[] in which the other lawyer
+
+                                  19   practices, or has direct supervisory authority over the other lawyer . . . and knows[] of the conduct
+
+                                  20   at a time when its consequences can be avoided or mitigated but fails to take reasonable[] remedial
+
+                                  21   action.” Cal. Rules of Prof. Conduct r. 5.1(c)(2). The State Bar states in comments for Rule 5.1(c)
+
+                                  22   that “[a] supervisory lawyer violates paragraph (b) by failing to make the efforts required under that
+
+                                  23   paragraph, even if the lawyer does not violate paragraph (c) by knowingly[] directing or ratifying
+
+                                  24   the conduct, or where feasible, failing to take reasonable[] remedial action.” Cal. Rules of Prof.
+
+                                  25   Conduct r. 5.1 cmt. 7.
+
+                                  26          The supervisory duty is not new. “An attorney is responsible for the work product of his
+
+                                  27   employees which is performed pursuant to his direction and authority.” Crane v. State Bar of Cal.,
+
+                                  28   30 Cal. 3d 117, 120 (1981). This supervisory duty is “separate and distinct from the underlying
+                                                                                         8
+                                       Case 3:23-cv-06558-PHK           Document 230          Filed 04/28/26     Page 9 of 17
+
+
+
+
+                                   1   duties of a novice attorney to act competently[.]” Gadda v. State Bar, 50 Cal. 3d 344, 353–54 (1990).
+
+                                   2          In evaluating the issue of sanctioning attorneys responsible for AI-generated hallucinations,
+
+                                   3   the Mattox court articulated a three-part analytical framework which includes consideration of
+
+                                   4   factors such as “accountability and supervision,” or the conduct of the supervising attorneys and
+
+                                   5   safeguards at the firm level to prevent recurrence. Mattox, 807 F. Supp. 3d at 1348. In Mattox, the
+
+                                   6   issues to be resolved included whether three supervising attorneys complied with the American Bar
+
+                                   7   Association Model Rules of Professional Conduct. Id. In this analysis, a court’s “inquiry extends
+
+                                   8   beyond the drafter to the institutional culture that permitted unverified authority to reach the docket.
+
+                                   9   A firm’s silence or absence of policy does not immunize it; it implicates it.” Id.
+
+                                  10          In Mattox, ultimately the court sanctioned the three supervising attorneys for failure of
+
+                                  11   oversight, failing to read pleadings, and lacking firm policy for AI use by associated counsel. Id. at
+
+                                  12   1351. The Mattox court further admonished one of the supervising lawyers (serving as local
+Northern District of California
+ United States District Court
+
+
+
+
+                                  13   counsel) by noting that an attorney’s “name on the docket gave those pleadings a presumption of
+
+                                  14   legitimacy that they did not deserve . . . [which] eroded the safeguard that local representation is
+
+                                  15   meant to provide.” Id. at 1351-52. The Mattox court considered “candid acknowledgement of
+
+                                  16   responsibility and corrective action” in mitigating its sanctions. Id. at 1351.
+
+                                  17          Other caselaw is illustrative of the duties of supervisory attorneys (and the consequences of
+
+                                  18   their failures to properly supervise). In Johnson, a defendant submitted two motions with five
+
+                                  19   citations that were either admitted hallucinations originating from ChatGPT or referred to a case
+
+                                  20   that did not support the proposition for which it was cited. 792 F. Supp. 3d at 1246-48. A supervising
+
+                                  21   attorney in Johnson, William Lunsford, whose name (among others) appeared on the signature block
+
+                                  22   and who was also a practice group leader and firm partner, did not check that the citations were true,
+
+                                  23   and further attempted to avoid appearing at an Order to Show Cause hearing. Id. at 1247–48, 1251-
+
+                                  24   52. After being ordered to appear, the supervising attorney “paired his apology with an explanation
+
+                                  25   in greater fullness of how very little work he personally puts in to be sure that his team’s motions
+
+                                  26   tell the truth.” Id. at 1265. Given that the false citations appeared despite the firm’s large size and
+
+                                  27   reputation, the attorney’s experience, and firm-level controls in the form of training and AI policies,
+
+                                  28   the Johnson court found imposing a fine insufficient. Id at 1266-67. Instead, the court publicly
+                                                                                          9
+                                       Case 3:23-cv-06558-PHK           Document 230          Filed 04/28/26    Page 10 of 17
+
+
+
+
+                                   1   reprimanded the attorneys, ordered them to provide their clients, opposing counsel, and presiding
+
+                                   2   judges in all matters a copy of the order, disqualified them, and ordered them to send the sanctions
+
+                                   3   order to the state bar. Id. at 1267–68.
+
+                                   4                                              DISCUSSION
+
+                                   5          In his declaration filed in response to the second Order to Show Cause, Attorney Webb
+
+                                   6   attests as follows: “Because I did not conduct the research nor contribute to the drafting of the filed
+
+                                   7   Joint [L]etter Brief Regarding Discovery Disputes (Docket #117)[,] I did not believe the Order to
+
+                                   8   Show Cause issued on July 30, 2025 (Docket #129) was directed to me.” [Dkt. 178 at ¶ 7]. “I
+
+                                   9   sincerely apologize to the Court for the misunderstanding and mean no disrespect.” Id. “I do
+
+                                  10   recognize I am listed as an attorney of record and listed on the signature block of the submitted Joint
+
+                                  11   Letter Brief Regarding Discovery Disputes (Docket #117).” Id. “I did not personally appear because
+
+                                  12   I had an advance scheduling conflict to conduct an in-person deposition . . . . If I had believed this
+Northern District of California
+ United States District Court
+
+
+
+
+                                  13   Court was needing my input . . . I would have rescheduled the deposition to appear in-person, again,
+
+                                  14   I apologize for my misunderstanding.” Id. at ¶ 10.
+
+                                  15          With respect to his supervisory authority over Attorney Cervantes and the firm, Attorney
+
+                                  16   Webb attests: “[a]s I understand, I am the namesake for Webb Law Group, APC and the senior
+
+                                  17   attorney who supervises Ms. Cervantes, however, I did not collaborate nor contribute to drafting of
+
+                                  18   the Joint Letter Brief Regarding Discovery Dispute filed with the Court on July 21, 2025 (Docket
+
+                                  19   #117), therefore, I could not competently and truthfully respond to the [Court’s detailed inquiries.]”
+
+                                  20   Id. at ¶ 8. “However, the [C]ourt is 100% accurate in that I do possess managerial authority over
+
+                                  21   Webb Law Group, APC that requires me to make reasonable efforts to ensure that the firm has in
+
+                                  22   effect measures that all attorneys in the firm comply with local rules of the [C]ourt, including, the
+
+                                  23   Court’s Standing Orders and the State Bar Act.” Id. at ¶ 9. “I am deeply concerned and cognizant
+
+                                  24   about ensuring that my obligations entrusting the delegation of drafting competent pleadings by
+
+                                  25   associate attorneys at Webb Law Group, APC complies with my professional responsibilities as the
+
+                                  26   senior supervising attorney.” Id. at ¶ 19. “The misuse of AI tools and the accountability of associate
+
+                                  27   attorneys to check the citations to the case law cited has been thoroughly addressed since this single
+
+                                  28   and isolated event by implementing mandatory case staffer trainings that especially emphasize the
+                                                                                         10
+                                       Case 3:23-cv-06558-PHK          Document 230          Filed 04/28/26    Page 11 of 17
+
+
+
+
+                                   1   professional and ethical duty to check and read all cited case law.” Id. “I flew ten (10) of our staff
+
+                                   2   to ClioCon in Boston last week to work on improving our firm’s efforts to serve clients.” Id. at ¶ 21.
+
+                                   3   “Ms. Cervantes attended multiple seminars along with me on AI issues and we had an evening
+
+                                   4   private room dinner meeting in Boston to go through notes as each staffer was assigned to separate
+
+                                   5   sessions to learn as much as they could.” Id. “Ms. Cervantes diligently sent me at least three (3)
+
+                                   6   emails with notes from her training.” Id. “We also had an ‘all hands’ meeting at our home office in
+
+                                   7   San Diego after the conference to address tools to ensure we are doing the best to continue to
+
+                                   8   improve.” Id. “A large push from this conference is to ethically use AI appropriately.” Id.
+
+                                   9          With respect to his non-appearance for the August 12, 2025 Show Cause hearing, Attorney
+
+                                  10   Webb attests that “I did not personally appear because I had an advance scheduling conflict to
+
+                                  11   conduct an in-person deposition set in Fresno, California on August 12, 2025 at 9:00 AM.” Id. at ¶
+
+                                  12   10. “Moreover, Plaintiff had moved to substitute Webb Law Group, APC out to self-represent
+Northern District of California
+ United States District Court
+
+
+
+
+                                  13   himself, which was granted by this Court’s Order on August 7, 2025 (Docket # 144).” Id. at ¶ 11. “I
+
+                                  14   believed I was doing our firm best by flying Ms. Cervantes to appear in-person on a case where we
+
+                                  15   were no longer counsel of record.” Id. at ¶ 12. “I now acknowledge and understand that I should
+
+                                  16   have provided advance notice to the Court of my scheduling conflict due to a noticed deposition
+
+                                  17   making me unavailable to personally appear at the held hearing on the July 30th Order to Show
+
+                                  18   Cause on August 12, 2025 (Docket #148).” Id. at ¶ 13.
+
+                                  19          With respect to why he did not file a response to the September 5, 2025 Order to Show
+
+                                  20   Cause, Attorney Webb attests that “Unfortunately, [neither] Ms. Cervantes, Esq. nor I received a
+
+                                  21   CM/EFC electronic file notification of the Court’s September 5, 2025, ORDER . . . .” Id. at ¶ 16. “It
+
+                                  22   was not until very recently on Wednesday, October 22, 2025 at 9:08 PM that I received the email
+
+                                  23   correspondence [from court staff] . . . that provides notice of the Court’s earlier ORDER RE:
+
+                                  24   RESPONSE TO ORDER TO SHOW CAUSE BY ATTORNEYS WEBB AND CERVANTES
+
+                                  25   (Docket #161) and FURTHER ORDER TO SHOW CAUSE (Docket #177).” Id. at ¶ 17. “I drafted
+
+                                  26   a brief response this morning and quickly apologized that we internally closed out this case on
+
+                                  27   August 14, 2025 and no longer monitored the case docket.” Id. at ¶ 18.
+
+                                  28          At the Order to Show Cause hearing, Attorney Webb averred that his namesake law firm
+                                                                                        11
+                                       Case 3:23-cv-06558-PHK           Document 230            Filed 04/28/26     Page 12 of 17
+
+
+
+
+                                   1   had conducted training about the problems with misuse of AI prior to the firm’s use of Westlaw’s
+
+                                   2   CoCounsel AI tool. [Dkt. 197 at 4]. He averred that his firm’s staff have daily ongoing didactic
+
+                                   3   trainings and again referenced sending staff to the ClioCon conference. Id. at 4–5. Attorney Webb
+
+                                   4   acknowledged reading the Thompson Reuters disclaimer about the accuracy of the CoCounsel AI
+
+                                   5   tool, but emphasized that the sales representative stated there was “no way” the program could
+
+                                   6   produce hallucinations. Id. at 6–7.
+
+                                   7           Significantly, Attorney Webb averred there are two specific measures the firm has employed
+
+                                   8   to reduce AI-related errors going forward. First, the firm uses software called Clearbrief to check
+
+                                   9   citations. Id. at 7. Second, firm staff “read [any cited] case and make sure that it’s right.” Id. Attorney
+
+                                  10   Webb also shared that the sanction order for Attorney Cervantes was distributed “to every attorney
+
+                                  11   and every law clerk in [the] firm.” Id.
+
+                                  12           Attorney Webb acknowledged at the hearing that “[i]f my name’s on the pleading, even if I
+Northern District of California
+ United States District Court
+
+
+
+
+                                  13   didn’t do the research, I should be more familiar with it, and I apologize.” Id. He acknowledged he
+
+                                  14   did not read Attorney Cervantes’ brief, check it himself, or supervise her use of the AI tool which
+
+                                  15   led to the errors here. Id. at 8. He expressed confidence in Attorney Cervantes, stating she worked
+
+                                  16   with him for seven years through trials and arbitrations, and that he trained her. Id. at 9.
+
+                                  17           The Court appreciates Attorney Webb’s taking responsibility for his lack of supervision and
+
+                                  18   the averred steps taken to date to prevent further recurrence at the firm level. However, Attorney
+
+                                  19   Webb attempted to minimize the impact of the false citation in the record, calling it a “single
+
+                                  20   occurrence and isolated event of a ‘Frankensteinian legal citation’” and a “single and isolated event.”
+
+                                  21   [Dkt. 178 at ⁋⁋ 9, 19]. This argument misses the point: if an attorney engages in multiple instances
+
+                                  22   of submitting fake or hallucinated citations to a court, that may be evidence of pervasive misconduct
+
+                                  23   (or a pattern and practice of misconduct), but that does not logically lead to the conclusion that a
+
+                                  24   single instance of submitting a fake citation is somehow exempt from sanctions. Many bad acts are
+
+                                  25   worse than a single bad act, but that does not mean that a single bad act is somehow irreproachable.
+
+                                  26   “Even a single fabricated citation would be serious. Indeed, other courts have imposed Rule 11
+
+                                  27   sanctions in such an instance. This Court is not minimizing the use of a single fake case.” Mavy v.
+
+                                  28   Comm’r of Soc. Sec. Admin., 2025 WL 2355222 at *8 n.5 (D. Ariz. Aug. 14, 2025) (citation
+                                                                                           12
+                                       Case 3:23-cv-06558-PHK          Document 230          Filed 04/28/26   Page 13 of 17
+
+
+
+
+                                   1   omitted), vacated in part on other grounds, 2026 WL 91483 (D. Ariz. Jan. 13, 2026). When
+
+                                   2   confronted with errors such as those at issue here, courts must expend significant resources to
+
+                                   3   address the errors, and there is an increased risk of undermining the court’s authority, the rule of
+
+                                   4   law, and public trust. See In re Kenney, 422 So. 3d at 924. Further, while this may appear to be a
+
+                                   5   singular event from the point of view of Attorney Webb, the Court is tasked with supervising a
+
+                                   6   number of civil cases and would be further pressed to manage this caseload effectively and
+
+                                   7   efficiently if submissions with even a single fake citation became widespread among multiple cases.
+
+                                   8   “In a system of precedents that is designed to achieve consistency, predictability, and adherence to
+
+                                   9   the rule of law, the judiciary cannot function properly unless judges and lawyers confirm the
+
+                                  10   authenticity of cited authorities and review them to evaluate their holdings and reasoning. When the
+
+                                  11   participants fail to perform this basic function, it compromises these institutional values and
+
+                                  12   diminishes faith in the judicial process.” In re Domestic P’ship of Campos and Munoz, 342 Cal.
+Northern District of California
+ United States District Court
+
+
+
+
+                                  13   Rptr. 3d 227, 231 (Ct. App. 2026). Indeed, one inference from the continuing failures of counsel
+
+                                  14   nationwide to responsibly use AI tools in researching and drafting submissions to courts (resulting
+
+                                  15   in sanctions and publicized orders) is that Orders to Show Cause (such as here) and sanctions orders
+
+                                  16   remain necessary tools to foster the advancement and education of the bar on these AI-related risks.
+
+                                  17   See Noland v. Land of the Free, L.P., 336 Cal. Rptr. 3d 897, 901 (Ct. App. 2025) (“Although the
+
+                                  18   generation of fake legal authority by AI sources has been widely commented on by federal and out-
+
+                                  19   of-state courts and reported by many media sources, no California court has addressed this issue.
+
+                                  20   We therefore publish this opinion as a warning. Simply stated, no brief, pleading, motion, or any
+
+                                  21   other paper filed in any court should contain any citations—whether provided by generative AI or
+
+                                  22   any other source—that the attorney responsible for submitting the pleading has not personally read
+
+                                  23   and verified.”) (emphasis in original).
+
+                                  24          At the November 4 hearing, Attorney Webb took responsibility for his failure to supervise
+
+                                  25   Attorney Cervantes here. In his April 3, 2026 further response to the OSC, Attorney Webb
+
+                                  26   specifically acknowledged that he “bear[s] responsibility to make reasonable efforts to ensure that I
+
+                                  27   and the attorneys and staff working under my supervision comply with applicable professional
+
+                                  28   obligations, local rules, standing orders, and appropriate filing-review procedures.” [Dkt. 228 at
+                                                                                        13
+                                       Case 3:23-cv-06558-PHK           Document 230          Filed 04/28/26     Page 14 of 17
+
+
+
+
+                                   1   ¶ 5]. Attorney Webb identifies remedial steps taken by his firm to address the underlying issues
+
+                                   2   which led to the errors here. In addition to taking CLE courses himself on ethical uses of AI,
+
+                                   3   Attorney Webb avers that he has instituted “weekly cross-training sessions . . . so that workflows,
+
+                                   4   research methods, drafting practices, and file-handling protocols can be reviewed collectively.”
+
+                                   5   [Dkt. 228 at ¶¶ 8, 13]. He further attests “that verification of cited authority is a necessary part of
+
+                                   6   pre-filing review. My expectation within the office is that authorities relied upon in briefing must
+
+                                   7   be checked against the underlying source before submission and that summaries, parentheticals, or
+
+                                   8   characterizations of authority must fairly reflect what the source actually says.” Id. at ¶ 21 (emphasis
+
+                                   9   in original). Finally, Attorney Webb states that his firm pays for CLE time for attorneys and
+
+                                  10   paralegals, that his firm encourages that CLE efforts should include responsible use of AI tools, and
+
+                                  11   that his firm has paid for and intends to continue to pay for staff members to attend an annual legal
+
+                                  12   technology conference. Id. at ¶¶ 16-19; see also Dkt. 178 at ¶ 21 (“A large push from this conference
+Northern District of California
+ United States District Court
+
+
+
+
+                                  13   is to ethically use AI appropriately”). Unlike the supervising lawyer in the Johnson case, Attorney
+
+                                  14   Webb’s actions here compare favorably in demonstrating a better understanding of a supervisor’s
+
+                                  15   professional responsibility to implement corrective policies and procedures. Compare 792 F. Supp.
+
+                                  16   3d at 1263–64. The remedial steps taken by Attorney Webb at his law firm are conceptually similar
+
+                                  17   to the remedial steps taken by a large national law firm after a similar AI-fake citations Order to
+
+                                  18   Show Cause issued in another case. See Ringer v. Bank of Am., N.A., Civil Action No. 1:25-cv-
+
+                                  19   03959-SEG-JSA, Dkt. 19-1 (N.D. Ga. Dec. 23, 2025) (declaration of Managing Partner of McGuire
+
+                                  20   Woods law firm describing remedial steps taken by that firm following issuance of OSC).
+
+                                  21          However, the Court notes that Attorney Webb’s description of remedial steps does not
+
+                                  22   contain many specifics as to the duties of supervisory lawyers and lawyers who are counsel of record
+
+                                  23   to check citations in briefs and other court filings. The only concrete descriptions of his personal
+
+                                  24   efforts to address these situations going forward are in regard to his taking CLE classes himself, his
+
+                                  25   expenditure of his small firm’s resources on CLE and the legal technology conference, and the fact
+
+                                  26   that he “continue[s] to oversee the implementation of these remedial measures and the supervision
+
+                                  27   of work performed under [his] authority.” [Dkt. 228 at ¶ 23]. The Court notes that, while delegation
+
+                                  28   may be appropriate in many circumstances, counsel bears ultimate responsibility for filings
+                                                                                         14
+                                       Case 3:23-cv-06558-PHK         Document 230          Filed 04/28/26    Page 15 of 17
+
+
+
+
+                                   1   submitted to the Court. See Davis v. Marion Cnty. Super. Ct. Juv. Det. Ctr., 2025 WL 2502308 at
+
+                                   2   *1, *4 (S.D. Ind. Sept. 2, 2025) (sanctioning attorney for filing brief with fake citations, where
+
+                                   3   attorney averred that paralegal drafted the brief and attorney alleged he “did not have time to
+
+                                   4   carefully review the paralegal’s draft before filing it.”); Unioil, Inc., 809 F.2d at 558; Versant
+
+                                   5   Funding LLC, 2025 WL 1440351 at *4–5. Thus, while Attorney Webb has stressed training and
+
+                                   6   education of himself and his staff, the Court notes with some lingering concern that Attorney
+
+                                   7   Webb’s declarations do not describe new or specific procedures for he himself to check citations in
+
+                                   8   briefs which are filed under his name as counsel of record.
+
+                                   9          With regard to Attorney Webb’s failure to attend the previous OSC hearing held on August
+
+                                  10   12, 2025 and his failures to respond to the previous OSC (and the followup Further OSC), Attorney
+
+                                  11   Webb states that he assumed the Court did not need to hear from him at the August 12 hearing
+
+                                  12   because the Court “did not request briefing on the responsibility of supervision of associate
+Northern District of California
+ United States District Court
+
+
+
+
+                                  13   attorneys, instead the Court expressly requested ‘include declarations under oath from all persons
+
+                                  14   responsible for the briefing and citation[.]’” [Dkt. 178 at ¶ 7] (emphasis in original). Attorney
+
+                                  15   Webb further attests that his failure to appear was based on a misunderstanding and that his failure
+
+                                  16   to respond to the subsequent OSC was based on a failure to receive a CM/ECF docket notice after
+
+                                  17   his firm had been substituted by successor counsel. Id. at ¶¶ 13, 16-18. Attorney Webb now avers
+
+                                  18   that he continues to monitor the Court’s docket and indicates that he “understand[s] that compliance
+
+                                  19   extends beyond the content of a filing and includes responsiveness to the Court and proper
+
+                                  20   monitoring of the Court’s docket.” [Dkt. 228 at ¶ 22]. Accordingly, the Court accepts Attorney
+
+                                  21   Webb’s explanation as to the delays in his responding to the original OSC and the further OSC, and
+
+                                  22   his failure to attend the original OSC hearing on August 12. Finally, Attorney Webb’s demeanor at
+
+                                  23   the November 4 hearing indicates that he took the Court’s concerns seriously. The Court appreciates
+
+                                  24   Attorney Webb’s candor and acknowledgment of responsibility.
+
+                                  25                                            CONCLUSION
+
+                                  26          Accordingly, for the reasons explained herein, and as an exercise of the Court’s authority
+
+                                  27   to enforce the Local Rules (which incorporate the California Rules of Professional Conduct) and
+
+                                  28   its inherent authority, the Court ADMONISHES and SANCTIONS Attorney Webb as detailed
+                                                                                       15
+                                       Case 3:23-cv-06558-PHK            Document 230            Filed 04/28/26     Page 16 of 17
+
+
+
+
+                                   1   herein.
+
+                                   2             The Court ORDERS the following sanctions:
+
+                                   3                    Circulation Requirement: Attorney Webb shall circulate this Order, together with the
+                                                        Court’s original Order to Show Cause [Dkt. 129], the Further Order to Show Cause
+                                   4                    [Dkt. 177], and Attorney Webb’s original response and further response [Dkts. 178 and
+                                                        228], to all attorneys and paralegals in his firm. The Court highly encourages that all
+                                   5                    recipients read these documents to reinforce the importance of diligence, candor, and
+                                                        compliance with the Court’s Standing Order regarding the use of AI tools, the
+                                   6                    California Rules of Professional Conduct, and the duty of supervision by managing and
+                                                        supervisory attorneys. Attorney Webb SHALL file a certification with the Court that
+                                   7                    he has complied with this circulation requirement within ten (10) days of completion.
+                                   8                    Continuing Legal Education Requirement: Within six months of the date of this
+                                                        Order, Attorney Webb shall complete at least four hours of live, in-person continuing
+                                   9                    legal education from providers approved by the California State Bar. At least two hours
+                                                        shall be in the area of supervision of junior attorneys/staff, and at least two hours shall
+                                  10                    be in the area of ethical/professional use of artificial intelligence/large language models
+                                                        in legal practice. Upon completion of this CLE requirement, Attorney Webb SHALL
+                                  11                    file a declaration under oath certifying completion of the CLE within ten (10) days of
+                                                        completion, attaching copies of certificates of attendance.
+                                  12
+Northern District of California
+
+
+
+
+                                                 As noted, the record indicates that the conduct at issue here resulted from practices or
+ United States District Court
+
+
+
+
+                                  13
+                                       policies of the Webb law firm with regard to improper use of AI tools and failure to perform basic
+                                  14
+                                       legal brief writing tasks such as checking citations for accuracy before filing. Therefore, the Court
+                                  15
+                                       further ORDERS Mr. Webb to provide all attorneys, paralegals, and law clerks of the Webb law
+                                  16
+                                       firm copies of all educational materials received in connected with the CLE courses ordered
+                                  17
+                                       above. The required distribution of CLE educational materials within the Webb firm SHALL be
+                                  18
+                                       completed within ten (10) business days of the completion of each of the CLE courses ordered
+                                  19
+                                       herein. Attorney Webb SHALL file a certification under oath with the Court that he has complied
+                                  20
+                                       with this circulation requirement for all of the CLE courses ordered herein within ten (10) days of
+                                  21
+                                       the circulation of the final set of materials.
+                                  22
+                                                 Finally, because Attorney Webb has admitted his ultimate responsibility as counsel of
+                                  23
+                                       record, as supervisor of attorney Cervantes, and as owner/principal of his namesake firm for the
+                                  24
+                                       issues, policies, and practices that gave rise to the conduct at issue here, the Court exercises its
+                                  25
+                                       discretion and PERSONALLY SANCTIONS Attorney Lenden Webb $1,001 (one thousand and
+                                  26
+                                       one dollars), for his conduct herein and to deter him (and others) from such conduct in
+                                  27
+                                       future. Attorney Webb SHALL pay this amount directly and personally (and this amount shall not
+                                  28
+                                                                                            16
+                                       Case 3:23-cv-06558-PHK           Document 230          Filed 04/28/26     Page 17 of 17
+
+
+
+
+                                   1   be paid by the Webb law firm) by no later than May 22, 2026, to the Clerk of the United States
+
+                                   2   District Court for the Northern District of California. Attorney Webb SHALL attach a copy of this
+
+                                   3   Order to his payment
+
+                                   4          The Court SHALL retain jurisdiction over Attorney Webb, pending completion of the
+
+                                   5   payment, CLEs, and certifications required by this Order, and to ensure proper compliance with this
+
+                                   6   Order and the Court’s directives.
+
+                                   7          After the Court reviews the certifications required above, the Court will take any further
+
+                                   8   appropriate action, if any is needed at that time. No further sanctions will issue at this time.
+
+                                   9
+
+                                  10
+
+                                  11   IT IS SO ORDERED.
+
+                                  12   Dated: April 28, 2026
+Northern District of California
+ United States District Court
+
+
+
+
+                                  13                                                     ______________________________________
+                                                                                         PETER H. KANG
+                                  14                                                     United States Magistrate Judge
+                                  15
+
+                                  16
+
+                                  17
+
+                                  18
+                                  19
+
+                                  20
+
+                                  21
+
+                                  22
+
+                                  23
+
+                                  24
+
+                                  25
+
+                                  26
+                                  27
+
+                                  28
+                                                                                         17
+

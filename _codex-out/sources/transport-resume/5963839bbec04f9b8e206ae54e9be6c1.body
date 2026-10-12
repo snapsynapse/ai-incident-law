@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+sitemap: https://foiadocuments.uspto.gov/xfer-search/foia_sitemap.xml
+

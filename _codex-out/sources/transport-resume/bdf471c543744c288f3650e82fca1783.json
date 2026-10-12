@@ -1,0 +1,25 @@
+{
+  "id": "bdf471c543744c288f3650e82fca1783",
+  "url": "https://lawnext.com/robots.txt",
+  "kind": "robots",
+  "host": "lawnext.com",
+  "status": 301,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:38 GMT",
+    "server": "envoy",
+    "location": "https://www.lawnext.com/robots.txt",
+    "cache-control": "max-age=1",
+    "expires": "Sat, 03 Oct 2026 18:37:39 GMT",
+    "content-length": "282",
+    "content-type": "text/html; charset=iso-8859-1",
+    "x-envoy-upstream-service-time": "118",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:38.648665+00:00",
+  "sha256": "8ad19cbf9d606d7efb20cdfc48666f938fb839f96e62059587b8bd062948b4f0",
+  "bytes": 282,
+  "body_path": "/workspace/freshness-control/transport-evidence/bdf471c543744c288f3650e82fca1783.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/bdf471c543744c288f3650e82fca1783.body"
+}

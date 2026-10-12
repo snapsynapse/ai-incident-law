@@ -1,0 +1,45 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://clearinghouse.net/case/44074/",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "9260adddcd2f479680a10a429392ab69",
+      "url": "https://clearinghouse.net/robots.txt",
+      "kind": "robots",
+      "host": "clearinghouse.net",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T03:03:47.652360+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/9260adddcd2f479680a10a429392ab69.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:03:47.670242+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://clearinghouse.net/case/44074/",
+  "prior_route_attempts": [
+    {
+      "id": "2b9c237a3f4a4dd6b9d7c149b41e0ebe",
+      "url": "https://clearinghouse.net/robots.txt",
+      "kind": "robots",
+      "host": "clearinghouse.net",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "retrieved_at": "2026-10-03T03:01:40.048171+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/2b9c237a3f4a4dd6b9d7c149b41e0ebe.body"
+    }
+  ],
+  "prior_route_error": "BLOCKED: robots transport failed; policy unknown",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/c9be3c88f5bf09e70ea5d19f.body"
+}

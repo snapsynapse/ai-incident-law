@@ -1,0 +1,45 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://courts.ca.gov/opinions",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "25b5b1c2500d43708047641c01601900",
+      "url": "https://courts.ca.gov/robots.txt",
+      "kind": "robots",
+      "host": "courts.ca.gov",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T03:03:47.659249+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/25b5b1c2500d43708047641c01601900.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:03:47.677614+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://courts.ca.gov/opinions",
+  "prior_route_attempts": [
+    {
+      "id": "fd82442ac4d94fbd8c3b2d1ef774ad59",
+      "url": "https://courts.ca.gov/robots.txt",
+      "kind": "robots",
+      "host": "courts.ca.gov",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "retrieved_at": "2026-10-03T03:01:45.040401+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/fd82442ac4d94fbd8c3b2d1ef774ad59.body"
+    }
+  ],
+  "prior_route_error": "BLOCKED: robots transport failed; policy unknown",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/e83b583c4f85ff8241a87d28.body"
+}

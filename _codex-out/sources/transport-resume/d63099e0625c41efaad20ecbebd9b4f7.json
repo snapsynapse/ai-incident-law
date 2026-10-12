@@ -1,0 +1,29 @@
+{
+  "id": "d63099e0625c41efaad20ecbebd9b4f7",
+  "url": "https://www.nycourts.gov/reporter/3dseries/2026/2026_00040.htm",
+  "kind": "fetch",
+  "host": "www.nycourts.gov",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:43 GMT",
+    "content-type": "text/html",
+    "last-modified": "Thu, 08 Jan 2026 19:28:35 GMT",
+    "accept-ranges": "bytes",
+    "set-cookie": "[REDACTED]",
+    "server": "envoy",
+    "x-powered-by": "ASP.NET",
+    "x-frame-options": "SAMEORIGIN",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a44e0f48fc8a6078-ORD",
+    "x-envoy-upstream-service-time": "49",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:43.125650+00:00",
+  "sha256": "39c956c466d335ddb64184ba14dbd4f5e17b1653ce1ecb07de0bb9f62f11fd57",
+  "bytes": 29135,
+  "body_path": "/workspace/freshness-control/transport-evidence/d63099e0625c41efaad20ecbebd9b4f7.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/d63099e0625c41efaad20ecbebd9b4f7.body"
+}

@@ -1,0 +1,86 @@
+{
+  "status": 302,
+  "headers": {
+    "cache-control": "private",
+    "content-type": "text/html; charset=utf-8",
+    "location": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/63539016-cb02-4575-b3da-0dd0632244c1/Hulvat%20v.%20Gumina%202026%20IL%20App%20(3d)%20240628-U.pdf",
+    "server": "envoy",
+    "x-frame-options": "SAMEORIGIN",
+    "set-cookie": "[REDACTED]",
+    "x-powered-by": "ASP.NET",
+    "date": "Sat, 03 Oct 2026 18:37:49 GMT",
+    "x-envoy-upstream-service-time": "114",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "finalUrl": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/63539016-cb02-4575-b3da-0dd0632244c1/Hulvat%20v.%20Gumina%202026%20IL%20App%20(3d)%20240628-U.pdf",
+  "complete": false,
+  "redirects": [
+    {
+      "from": "https://illinoiscourts.gov/resources/63539016-cb02-4575-b3da-0dd0632244c1/file",
+      "to": "https://www.illinoiscourts.gov/resources/63539016-cb02-4575-b3da-0dd0632244c1/file",
+      "status": 301
+    },
+    {
+      "from": "https://www.illinoiscourts.gov/resources/63539016-cb02-4575-b3da-0dd0632244c1/file",
+      "to": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/63539016-cb02-4575-b3da-0dd0632244c1/Hulvat%20v.%20Gumina%202026%20IL%20App%20(3d)%20240628-U.pdf",
+      "status": 302
+    }
+  ],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "950cfc735ca94d54a7430ed415425d4e",
+      "url": "https://illinoiscourts.gov/resources/63539016-cb02-4575-b3da-0dd0632244c1/file",
+      "kind": "fetch",
+      "host": "illinoiscourts.gov",
+      "status": 301,
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "location": "https://www.illinoiscourts.gov/resources/63539016-cb02-4575-b3da-0dd0632244c1/file",
+        "server": "envoy",
+        "x-powered-by": "ASP.NET",
+        "date": "Sat, 03 Oct 2026 18:37:49 GMT",
+        "content-length": "205",
+        "x-envoy-upstream-service-time": "18",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:49.744320+00:00",
+      "sha256": "aac6fd08712b7501c4d8ccae3d5436f2f1ff5d2b567001b513f29df7a705ec41",
+      "bytes": 205,
+      "body_path": "/workspace/freshness-control/transport-evidence/950cfc735ca94d54a7430ed415425d4e.body"
+    },
+    {
+      "id": "f11601769d074bb08ad008b99e235848",
+      "url": "https://www.illinoiscourts.gov/resources/63539016-cb02-4575-b3da-0dd0632244c1/file",
+      "kind": "fetch",
+      "host": "www.illinoiscourts.gov",
+      "status": 302,
+      "headers": {
+        "cache-control": "private",
+        "content-type": "text/html; charset=utf-8",
+        "location": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/63539016-cb02-4575-b3da-0dd0632244c1/Hulvat%20v.%20Gumina%202026%20IL%20App%20(3d)%20240628-U.pdf",
+        "server": "envoy",
+        "x-frame-options": "SAMEORIGIN",
+        "set-cookie": "[REDACTED]",
+        "x-powered-by": "ASP.NET",
+        "date": "Sat, 03 Oct 2026 18:37:49 GMT",
+        "x-envoy-upstream-service-time": "114",
+        "connection": "close",
+        "transfer-encoding": "chunked"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:49.858907+00:00",
+      "sha256": "718115496ff93fa77db6753ef22c9fcd72f2f3a2b562f7d31d5f83d7fb03eda8",
+      "bytes": 287,
+      "body_path": "/workspace/freshness-control/transport-evidence/f11601769d074bb08ad008b99e235848.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T18:37:49.858907+00:00",
+  "sha256": "718115496ff93fa77db6753ef22c9fcd72f2f3a2b562f7d31d5f83d7fb03eda8",
+  "requested_url": "https://illinoiscourts.gov/resources/63539016-cb02-4575-b3da-0dd0632244c1/file",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/resume-20261003/4eb69ea34abfa670682f6131.body"
+}

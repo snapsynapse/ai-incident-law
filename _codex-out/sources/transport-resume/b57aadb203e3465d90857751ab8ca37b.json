@@ -1,0 +1,23 @@
+{
+  "id": "b57aadb203e3465d90857751ab8ca37b",
+  "url": "https://burr.com/government-contracting/gen-ai-misuse-in-procurement-litigation",
+  "kind": "fetch",
+  "host": "burr.com",
+  "status": 302,
+  "headers": {
+    "content-length": "0",
+    "location": "https://www.burr.com/government-contracting/gen-ai-misuse-in-procurement-litigation",
+    "cache-control": "no-cache",
+    "x-envoy-upstream-service-time": "119",
+    "date": "Sat, 03 Oct 2026 18:37:21 GMT",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:21.419382+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/b57aadb203e3465d90857751ab8ca37b.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/b57aadb203e3465d90857751ab8ca37b.body"
+}

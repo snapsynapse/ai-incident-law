@@ -1,0 +1,473 @@
+441 G St. N.W.                                                                     Comptroller General
+Washington, DC 20548                                                               of the United States
+
+
+                                                  DOCUMENT FOR PUBLIC RELEASE
+                                               The decision issued on the date below was subject to
+
+Decision                                       a GAO Protective Order. This redacted version has
+                                               been approved for public release.
+
+
+
+Matter of:   CVTEK, LLC
+
+File:        B-423943; B-423943.2
+
+Date:        February 12, 2026
+
+Michelle F. Kantor, Esq., and Daniel Schoeni, Esq., McDonald Hopkins LLC, for the
+protester.
+Jonathan T. Williams, Esq., Katherine B. Burrows, Esq., Josephine R. Farinelli, Esq.,
+and Kelly A. Kirchgasser, Esq., Piliero Mazza PLLC, for Spatial Front, Inc., the
+intervenor.
+Richard W. Postma, Jr., Esq., and Jessica A. Easton, Esq., Department of Homeland
+Security, for the agency.
+Jungi Hong, Esq., Samantha S. Lee, Esq., and Peter H. Tran, Esq., Office of the
+General Counsel, GAO, participated in the preparation of the decision.
+DIGEST
+
+1. Protest alleging the awardee engaged in a “bait and switch” of key personnel is
+denied where the record does not support the allegation.
+
+2. Protest that agency failed to assess the awardee’s responsibility is denied where
+there is no requirement that an agency determine responsibility prior to issuing a task
+order when a responsibility determination was made at the time of the award of the
+infinite-delivery, indefinite-quantity contract.
+DECISION
+
+CVTEK, LLC, a small business of McLean, Virginia, protests the issuance of a task
+order to Spatial Front, Inc. (SFI), a small business of Bethesda, Maryland, under
+request for proposals (RFP) No. 70SBUR25R00000009, issued by the Department of
+Homeland Security, U.S. Citizenship and Immigration Services (USCIS) for information
+technology support services. The protester challenges the agency’s evaluation of
+proposals and resulting source selection decision.
+
+We deny the protest.
+BACKGROUND
+
+On May 8, 2025, under the fair opportunity procedures of Federal Acquisition
+Regulation (FAR) subpart 16.5, the agency issued the solicitation to holders of
+indefinite-delivery, indefinite-quantity (IDIQ) contracts under the General Services
+Administration’s (GSA) 8(a) 1 Streamlined Technology Acquisition Resource for Services
+(STARS) III governmentwide acquisition contract (GWAC) vehicle. Agency Report
+(AR), Exh. 17, RFP at 5; 2 Contracting Officer’s Statement (COS) at 1-2. The agency
+sought proposals to manage and provide technical operations and support services to
+maintain and enhance operations and maintenance capabilities at USCIS’s Technical
+Operations Center (TOC) in Stennis, Mississippi. AR, Exh. 18, Performance Work
+Statement (PWS) at 4-5; COS at 1.
+
+The solicitation contemplated issuance of a hybrid time-and-materials and fixed-price
+type task order with one 8-month base period, four 12-month option periods, and a final
+4-month option period for a total of 60 months. RFP at 2-4, 47; COS at 1. The RFP
+provided for award to be made on a best-value tradeoff basis, considering four
+evaluation factors, listed in descending order of importance: (1) corporate experience;
+(2) staffing matrix; (3) operational approach; and (4) price. RFP at 86-88; COS at 1.
+When combined, the non-price factors are significantly more important than price. RFP
+at 87. The RFP provided for proposals to be submitted in two phases, addressing
+corporate experience in phase I and the three other evaluation factors in phase II. Id.
+at 86-88. For each non-price factor, USCIS would assess its “confidence level” and
+assign a corresponding adjectival rating of “high confidence,” “some confidence,” or “low
+confidence.” 3 Id. at 89.
+
+The agency received eighteen phase I proposals, including those submitted by CVTEK
+and SFI, by the June 2, deadline for submission. AR, Exh. 42, Award Decision
+
+1
+ Section 8(a) of the Small Business Act, 15 U.S.C. § 637(a), authorizes the Small
+Business Administration to enter into contracts with government agencies and to
+arrange for the performance through subcontracts with socially and economically
+disadvantaged small business concerns. FAR 19.800. Firms participating in this
+program are commonly referred to as “8(a)” contractors. The STARS III GWAC is an
+8(a) set-aside vehicle. 8(a) STARS III, https://www.gsa.gov/technology/it-contract-
+vehicles-and-purchasing-programs/gwacs/8a-stars-iii (last visited Jan. 29, 2026).
+2
+ Citations to the record refer to the documents’ internal Adobe PDF pagination. The
+RFP was amended four times; reference to the RFP is to the conformed version at
+exhibit 17 of the agency report.
+3
+  The solicitation defined the rating of “high confidence” as one where the government
+has “high confidence that the offeror understands the requirement and proposes a
+sound approach that significantly increases the likelihood of success in performing the
+requirements within the PWS with little or no” government intervention. RFP at 89. For
+                                                                             (continued...)
+
+
+Page 2                                                                 B-423943; B-423943.2
+Document at 3-4. Following the phase I evaluation, USCIS issued an advisory “down-
+select” notice to four offerors, including CVTEK and SFI, to proceed to phase II. Id.;
+RFP at 82-83; COS at 2. The table below summarizes the agency’s evaluation of
+CVTEK’s and SFI’s proposals for both phases:
+
+                                         CVTEK                            SFI
+    Corporate Experience            High Confidence               High Confidence
+    Staffing Matrix                 Some Confidence               Some Confidence
+    Operational Approach            High Confidence               High Confidence
+    Price                             $43,340,052                   $39,205,459
+
+AR, Exh. 42, Award Decision Document at 3-4. The contracting officer, serving as the
+source selection authority decided that SFI’s proposal was the most advantageous to the
+government and selected its proposal for award. Id. at 13. USCIS issued the task order
+to SFI on September 12. AR, Exh. 43, Award Notification Emails to Spatial Front. This
+protest followed. 4
+
+DISCUSSION
+
+The protester raises several objections to the evaluation of proposals. CVTEK
+contends the awardee engaged in an impermissible “bait and switch” by relying on a
+proposed program manager (PM) and deputy program manager (DPM) for the firm’s
+oral presentation that CVTEK never intended to provide. Protest at 2, 9. In the
+alternative, the protester contends that the agency relaxed a material requirement for
+the task order place of performance by accepting SFI’s proposed PM and DPM. Supp.
+Protest at 8-12. The protester also alleges that the agency failed to properly evaluate
+Spatial Front’s responsibility to perform the contract before selecting Spatial Front for
+award. Supp. Protest at 3-6. While we do not discuss all of CVTEK’s challenges
+regarding the evaluation of proposals and the resulting tradeoff, we have considered
+them all and conclude none provides a basis to sustain the protest. 5
+
+
+a rating of “some confidence,” the definition was the same except that the government
+has “some confidence” that the offeror is “likely” to be successful in performing with
+“some” government intervention. Id. The same definition applied to a rating of “low
+confidence,” except that the government has “low confidence” that the offeror is “likely”
+to be successful in performing “even with” government intervention. Id.
+4
+ The value of the issued task order exceeds $10 million, therefore, this protest is within
+our jurisdiction to hear protests of task orders placed under civilian agency IDIQ
+contracts. 41 U.S.C. § 4106(f)(B)(2).
+5
+ For example, CVTEK alleges, the agency “failed to promulgate clear evaluation
+criteria, failed to provide guiding procedures to the Evaluation Team, and failed to
+document those criteria in the record. At a minimum, the Agency either did not follow its
+                                                                             (continued...)
+
+
+Page 3                                                                 B-423943; B-423943.2
+Program Management
+
+The protester raises two challenges to the awardee’s approach to program
+management personnel--specifically, the awardee’s proposed PM and DPM. Protest at
+4-5; Supp. Protest at 8-12. Both CVTEK’s primary argument and its argument in the
+alternative hinge on CVTEK’s contention that the solicitation requires the PM and DPM
+to perform their duties on site at the TOC in Stennis, Mississippi. Id.
+
+         Bait and Switch
+
+The protester primarily alleges the awardee engaged in an impermissible “bait and
+switch” by relying on a PM and DPM for the firm’s proposal that SFI never intended to
+provide during performance. Protest at 4-5. The agency denies that the protester has
+established that the awardee misrepresented its approach to performance or that the
+agency relied on any such misrepresentation. MOL at 4-15.
+
+The issue of whether personnel identified in an offeror’s proposal will, in fact, perform
+under the subsequently-awarded contract is generally a matter of contract
+administration that our Office does not review. Patricio Enters. Inc., B-412738,
+B-412738.2, May 26, 2016, 2016 CPD ¶ 145 at 4; see Bid Protest Regulations, 4 C.F.R.
+§ 21.5(a). Nonetheless, our Office will consider allegations that an offeror proposed
+personnel that it did not have a reasonable basis to expect to provide during contract
+performance in order to obtain a more favorable evaluation, because such a material
+misrepresentation has an adverse effect on the integrity of the competitive procurement
+system. Patricio Enters. Inc., supra at 4. Our decisions frequently refer to such
+circumstances as a “bait and switch.” Id. To establish an impermissible bait and switch,
+a protester must show that: (1) the awardee either knowingly or negligently represented
+that it would rely on specific personnel that it did not have a reasonable basis to expect
+
+stated evaluation framework or failed to preserve and produce it.” Supp. Protest at 7.
+The agency requested that we dismiss CVTEK’s allegation as factually and legally
+insufficient. Supp. Memorandum of Law (MOL) at 9.
+Our Bid Protest Regulations require that protests include a detailed statement of the
+legal and factual grounds of protest and that the grounds be legally sufficient. 4 C.F.R.
+§ 21.1(c)(4) and (f). This requirement contemplates that protesters will provide, at a
+minimum, credible allegations that are supported by evidence and are sufficient, if
+uncontradicted, to establish the likelihood of the protester’s claim of improper agency
+action. Warfighter Focused Logistics, Inc., B-423546; B-423546.2, Aug. 5, 2025,
+2025 CPD ¶ 169 at 4. Protesters must provide more than a bare allegation; the
+allegation must be supported by some explanation that establishes the likelihood that
+the protester will prevail in its claim of improper agency action. Id.
+Other than this broad and conclusory assertion of improper action, the initial protest
+provides no information to support the bald assertion that USCIS denied CVTEK a fair
+opportunity to compete. As such, we dismiss, without further discussion, this
+unsupported speculation as failing to state a valid basis of protest.
+
+
+Page 4                                                                 B-423943; B-423943.2
+to furnish during contract performance; (2) the misrepresentation was relied on by the
+agency; and (3) the agency’s reliance had a material effect on the evaluation results.
+Id.
+
+Section 6.5 of the PWS identifies the task order’s key personnel positions, including the
+PM and DPM roles. PWS at 31-33. The solicitation did not require offerors to include
+resumes for personnel at the time of proposal submission, nor did the RFP provide for
+the evaluation of proposed personnel against the minimum experience and
+qualifications for the roles. See RFP at 84-85. Under the operational approach
+evaluation factor, however, offerors were required to participate in oral presentations,
+and the solicitation specified that “Key Personnel of the offeror’s choosing should be
+participants in the oral presentation event.” RFP at 84. To that end, ahead of the oral
+presentations, offerors were required to submit “the name, current employer/company,
+intended roles on the task order and e-mails” for the participants. Id.
+
+For its oral presentation, SFI relied on five participants, including its proposed PM and
+DPM, who we identify as S and R, respectively. AR, Exh. 36, Emails re SFI Oral
+Presentation at 3; Intervenor Comments, exh. 1, Declarations of S and R at 2-3.
+According to CVTEK, in so doing, SFI materially misrepresented its personnel for the
+PM and DPM roles. Protest at 7-8. To support this protest argument, CVTEK argues
+that the solicitation requires the PM and DPM to perform their duties at the TOC in
+Stennis, Mississippi. Protest at 5,7. Because SFI’s proposed PM and DPM are based
+in Maryland, CVTEK alleges that the awardee knew its proposed PM and DPM would
+not relocate to Mississippi, and thus S and R would not perform these roles. Instead,
+the protester asserts that it was always SFI’s intent to recruit its key personnel from
+ValidaTek’s incumbent staff. 6
+
+As an initial matter, USCIS contests the third element of a bait and switch allegation,
+i.e., whether any reliance on the proposed key personnel had a material effect on the
+evaluation. The agency contends key personnel were not a material requirement
+because the solicitation did not provide for the evaluation of key personnel resumes.
+MOL at 9-10. Therefore, the agency argues that any misrepresentation regarding who
+would fill the PM and DPM roles was not material to the agency’s evaluation. Id.
+
+As our Office has stated, proposed key personnel can be considered material even if
+not explicitly required by the RFP, especially where the overall acceptability of the
+proposal is based in part on the awardee’s approach to providing key personnel who
+are capable and available at the start of performance. Patricio Enters. Inc., supra
+at 12-14. Here, the solicitation identified the PM and DPM positions as key personnel,
+and that key personnel were important parts of the oral presentations, which were
+assessed for confidence under the operational approach factor. RFP at 84. The record
+also reflects that SFI proposed S and R, as the firm’s PM and DPM, respectively.
+Intervenor Comments, exh. 1, Declarations of S and R at 2-3. Although the RFP did not
+
+6
+  CVTEK is a joint venture between Choisys Technology Inc. and ValidaTek, Inc., the
+incumbent contractor. Protest at 2; AR, Exh. 7, Q&A at 6 (Question 80).
+
+
+Page 5                                                                 B-423943; B-423943.2
+explicitly provide for evaluating key personnel resumes against the minimum
+qualifications for the roles, we cannot conclude that SFI’s proposed PM and DPM were
+not material to the evaluation because of the extent to which the solicitation involved
+key personnel in the oral presentation. See Patricio Enters. Inc., supra at 13-14. As
+noted, the RFP told offerors that key personnel “should” participate in the oral
+presentation and that offerors “shall” send the names and intended roles of the
+participants prior to the oral presentation. RFP at 84. The agency evaluated SFI’s
+approach based on its overall approach to the presentation, which included the
+identification of, and knowledge demonstrated by, the proposed PM and DPM. AR,
+Exh. 42, Award Decision Document at 9 (noting SFI’s strong presentation, knowledge,
+and prior experience). Under the unique circumstances here, the awardee’s use of its
+proposed key personnel during the oral presentation had a material effect on the
+evaluation of proposals under the operational approach factor.
+
+In any event, the protester has failed to establish the remaining elements of a bait and
+switch. Specifically, the protester has not established that the awardee either knowingly
+or negligently represented that it would rely on specific personnel that the firm did not
+have a reasonable basis to expect to furnish during contract performance based on
+place of performance.
+
+The agency argues that the basic premise of the protester’s argument--that the
+proposed key personnel were required to be located in Stennis--is simply wrong. In this
+regard, the agency explains the RFP required work to be performed at two primary
+locations, the TOC in Stennis, Mississippi “and/or” USCIS’s headquarters in Camp
+Springs, Maryland. Id. at 5-6 (citing to PWS section 6.3). Because the solicitation
+allowed the key personnel to perform their duties at a location in Maryland, which is the
+state where the key personnel reside, the agency argues there is no support for
+CVTEK’s speculation that the awardee did not in fact intend to use the proposed
+individuals during performance. SFI argues in support of the agency’s position that the
+solicitation allows for performance at either location and also provided declarations from
+the proposed PM and DPM stating that they are still employed by SFI and would work at
+either Stennis or Camp Springs in accordance with the solicitation. Intervenor
+Comments at 5; id., exh. 1, Declarations of S and R at 2-3.
+
+When a dispute exists as to a solicitation’s requirements, we will first examine the plain
+language of the solicitation and will resolve the dispute by reading the solicitation as a
+whole and in a manner that gives effect to all of its provisions. CMSoft, Inc., B-419370,
+Jan. 26, 2021, 2021 CPD ¶ 36 at 4. To be reasonable, and therefore valid, an
+interpretation must be consistent with the solicitation when read as a whole and in a
+reasonable manner. Id.; Crew Training Int’l, Inc., B-414126, Feb. 7, 2017, 2017 CPD
+¶ 53 at 4. If the solicitation is unambiguous our inquiry ceases; an ambiguity exists,
+however, where two or more reasonable interpretations of the terms of the solicitation
+are possible. CMSoft, Inc., supra at 4; Perimeter Sec. Partners, LLC, B-422666.4,
+Mar. 11, 2025, 2025 CPD ¶ 72 at 5.
+
+
+
+
+Page 6                                                                 B-423943; B-423943.2
+Here, the plain language of the solicitation contradicts the protester’s contention that the
+PM and DMP had to be at the Stennis location. The PWS unequivocally informed
+offerors that, for this task order, USCIS expected work performance at Stennis “and/or”
+Camp Springs. PWS at 31. More specifically, section 6.3 of the PWS states, in
+relevant part:
+
+         At the discretion of the TOC Federal Manager, work will be performed at
+         the USCIS Technical Operations Center (TOC) which is located within the
+         Enterprise Operations Center (EOC) at 9313 Cypress Loop Road, Stennis
+         Space Center, MS 39529, and/or in the National Capital Region at USCIS
+         HQC 5900 Capital Gateway Drive, Camp Springs, MD 20746. Both are
+         government owned facilities. For Continuity of Operations, the contractor
+         shall be prepared to provide resources at both facilities. The numbers of
+         personnel at each site will be based on operational necessities as
+         determined by the TOC Federal Manager.
+
+PWS at 31.
+
+Again, CVTEK’s protest argument depends on its contention that the RFP required
+offerors to locate their PM and DPM “onsite” at the TOC in Stennis. Protest at 7;
+Comments at 5-6. As explained, however, the solicitation did not expressly require
+offerors to provide their PM or DPM in Stennis. Rather, the PWS clearly establishes
+that the TOC Federal Manager can allow the contractor to perform at the TOC in
+Stennis or at the USCIS headquarters in Camp Springs. PWS at 31. 7 This protest
+argument is denied.
+
+
+
+
+7
+  The protester argues that the RFP’s amended staffing matrix provides context for the
+“onsite” requirement. Comments at 6-7. The record reflects that attachment 4 to the
+RFP is an amended price worksheet with a staffing matrix. AR, Exh. 21, Attachment 4
+Staffing Matrix Price Worksheet. In this regard, the staffing matrix lists the locations of
+two key personnel positions as “Onsite (Camp Springs)” and four other positions simply
+as “Onsite.” Id. at 2. Because the solicitation contains the parenthetical “Onsite (Camp
+Springs),” CVTEK argues that Stennis must be the default location when the
+designation “Onsite” is used by itself. Comments at 6.
+
+The agency explains that the “onsite” designations in the matrix simply distinguish
+between positions eligible for telework and those required to be onsite in Stennis or
+Camp Springs. Specifically, there were two positions (network support specialists) that
+were required to be onsite at Camp Springs. Supp. MOL at 14; AR, Exh. 22, Q&A at 2;
+PWS at 17 (requiring offerors to “assign at least two (2) individuals” at Camp Springs to
+serve as liaisons during emergencies). Thus, we find no basis to credit the protester’s
+allegation and subsequent arguments about the meaning of “onsite” in the solicitation.
+
+
+Page 7                                                                  B-423943; B-423943.2
+         Material Requirement
+
+CVTEK argues in the alternative that, in accepting SFI’s proposed key personnel
+approach, the agency waived a material requirement for the PM and DPM to perform
+onsite in Stennis, Mississippi. Supp. Protest at 8. Specifically, CVTEK alleges that the
+solicitation required the PM and DPM be “onsite” at Stennis, and USCIS “later waived or
+relaxed that requirement when SFI could not meet it.” Id.
+
+Clearly stated RFP requirements are considered material to the needs of the
+government, and a proposal that fails to conform to material terms is unacceptable and
+may not form the basis for award. National Shower Express, Inc.; Rickaby Fire Support,
+B-293970, B-293970.2, July 15, 2004, 2004 CPD ¶ 140 at 4-5. It is a fundamental
+principle in a negotiated procurement that a proposal that fails to conform to a material
+solicitation requirement is unacceptable. The Boeing Co., B-311344 et al., June 18,
+2008, 2008 CPD ¶ 114 at 54.
+
+As set forth above, there is no reasonable basis for the protester’s interpretation of the
+solicitation as requiring “onsite” roles to perform only as Stennis. Thus, we find no merit
+to CVTEK’s argument that the agency impermissibly relaxed any requirement--let alone
+a material one--that mandated the PM and DPM roles be performed exclusively onsite
+at the Stennis facility.
+
+Responsibility Determination
+
+The protester next contends the agency “failed to make a full responsibility inquiry and
+determination” under FAR part 9 before issuing the task order to SFI. Supp. Protest
+at 3. Specifically, CVTEK alleges the USCIS did not consider evidence that bears
+strongly on the awardee’s responsibility arising out of SFI’s performance of a contract
+for the Federal Aviation Administration. Id. at 3-4.
+
+The agency responds that the determination of the awardee’s responsibility was made
+at the time that GSA awarded SFI a contract under the 8(a) STARS III IDIQ GWAC.
+Supp. MOL at 3-4. According to USCIS, because the agency did not specify that it
+would conduct an independent responsibility determination in the solicitation, USCIS
+was not required to make a new responsibility determination under FAR part 9, prior to
+issuing the task order here. We agree with the agency.
+
+Responsibility, in the context of federal acquisitions, refers to the ability of a prospective
+contractor to perform the contract for which it has submitted an offer; by law, a
+contracting officer must determine that an offeror is responsible before awarding it a
+contract. See 41 U.S.C. § 3303(a); see also 41 U.S.C. § 637; FAR 9.103(a), (b). A
+contracting officer is also required to obtain sufficient information, including from the
+offeror itself, before making a responsibility determination. FAR 9.105-1. Our Office
+has explained, however, that there is no requirement that an agency conduct an
+additional responsibility determination when issuing a task order under an IDIQ contract,
+since a responsibility determination was already made at the time of award of the
+
+
+
+Page 8                                                                   B-423943; B-423943.2
+underlying IDIQ contract. 8 Booz Allen Hamilton, Inc., B-409272 et al., Feb. 25, 2014,
+2014 CPD ¶ 84 at 5.
+
+Here, the competition was conducted among offerors that held the 8(a) GSA STARS III
+IDIQ contracts, and the RFP did not provide for a separate responsibility determination.
+RFP at 1. Once an offeror has been determined to be responsible and is awarded the
+underlying IDIQ contract--as here--there is no requirement that an agency conduct an
+additional responsibility determination when issuing a task order. Consequently, we find
+no merit to CVTEK’s argument, and this allegation is denied. GovCIO, LLC,
+B-421290.6 et al., Sep. 11, 2024, 2024 CPD ¶ 254 at 19-20.
+
+Inaccurate Legal Citations
+
+In reviewing the protester’s submissions to our Office, we identified a number of
+irregularities in the citations provided by CVTEK in its supplemental protest. In some
+instances, we were unable to locate decisions that matched the citation provided by the
+protester, and some decisions matching either the B-number or Comptroller General’s
+Procurement Decisions (CPD) citation did not appear to state the proposition for which
+the protester cited the decision.
+
+As a result, we asked the protester to address the basis for the citations and to either
+provide copies of the cited decisions or explain why the protester was unable to provide
+copies of the cited decisions. Notice of Required Protester Resp. at 1. In response,
+one of the protester’s attorneys confirmed that he used Westlaw’s AI (artificial
+intelligence) tool, CoCounsel, in preparing the supplemental protest. Resp. to GAO
+at 1. The protester’s attorneys expressly acknowledged that “some of the citations
+provided by Westlaw CoCounsel were erroneous.” Id. Although, the attorney who used
+the AI tool indicates that he identified some irregularities and attempted to correct them,
+the attorney admittedly failed to correct all the erroneous citations in the final
+supplemental protest filed with our Office. Id. at 1-2. CVTEK’s counsel apologized and
+took full responsibility for the errors, explaining that new protocols have been
+implemented to ensure that “all case citations will be manually verified.” Id. at 2-3;
+Supp. Resp. to GAO at 1-2.
+
+As the courts and our forum have explained, “there is nothing inherently wrong with . . .
+properly and competently utilizing AI or any of its subsets to practice law or litigate
+cases,” but that “the evolving technology has many glitches (including hallucinations)
+and does not always work properly or as expected,” and “[t]his is why close and careful
+attorney supervision, fact-checking, and citation-checking are absolute necessities
+
+8
+  Moreover, our Office generally does not review an affirmative determination of
+responsibility absent a showing of failure to properly apply definitive responsibility
+criteria, or where the protester identifies evidence raising serious concerns that, in
+reaching the responsibility determination, the agency unreasonably failed to consider
+available relevant information or otherwise violated statute or regulation. 4 C.F.R.
+§ 21.5(c); Bannum, Inc., B-408838, Dec. 11, 2013, 2013 CPD ¶ 288 at 4.
+
+
+Page 9                                                                 B-423943; B-423943.2
+when utilizing AI or any of its subsets.” KE Sys. Servs., Inc., B-423881 et al., Dec. 22,
+2025, at 6; Oready, LLC, B-423524.2, Aug. 13, 2025, 2025 CPD ¶ 194 at 7 (both citing
+Versant Funding LLC v. Teras Breakbulk Ocean Navigation Enters., LLC, No. 17-cv-
+81140, 2025 U.S. Dist. LEXIS 98418 at *11 (S.D. Fl. May 20, 2025).
+
+In order to satisfy our statutory mandate to resolve protests expeditiously and to
+maintain our role as a meaningful, efficient protest forum, we expect all parties to
+prepare and present their cases carefully and diligently. Wolverton Prop. Mgmt., LLC--
+Recon., B-415295.4, June 6, 2018, 2018 CPD ¶ 205 at 3. The use of AI tools to draft or
+assist in drafting legal filings can result in the citation of non-existent decisions, such
+that reliance on those programs without review for accuracy wastes the time of all
+parties and GAO. Raven Investigations & Sec. Consulting, LLC, B-423447, May 7,
+2025, 2025 CPD ¶ 81 at 4.
+
+As we have explained, our Office necessarily reserves an inherent right to dismiss any
+protest and to impose sanctions against a protester, where a protester’s actions
+undermine the integrity and effectiveness of our process. Id. Here, because we deny
+this protest, we do not exercise our right to impose sanctions for submission of non-
+existent citations. The protester, however, is advised that any future submission of
+filings to our Office with citations to non-existent authority may, after a review of the
+totality of the circumstances, result in the imposition of sanctions.
+
+The protest is denied.
+
+Edda Emmanuelli Perez
+General Counsel
+
+
+
+
+Page 10                                                                B-423943; B-423943.2
+

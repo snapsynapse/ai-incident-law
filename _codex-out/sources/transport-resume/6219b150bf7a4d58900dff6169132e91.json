@@ -1,0 +1,30 @@
+{
+  "id": "6219b150bf7a4d58900dff6169132e91",
+  "url": "https://www.abajournal.com/robots.txt",
+  "kind": "robots",
+  "host": "www.abajournal.com",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:17 GMT",
+    "content-type": "text/plain",
+    "server": "envoy",
+    "vary": "Accept-Encoding",
+    "last-modified": "Fri, 24 Jul 2026 03:02:18 GMT",
+    "etag": "W/\"fd0-6575299b61e67\"",
+    "expires": "Sat, 03 Oct 2026 22:37:17 GMT",
+    "cache-control": "public, max-age=14400",
+    "cf-cache-status": "HIT",
+    "cf-ray": "a44e0ea7a8abf571-ORD",
+    "x-envoy-upstream-service-time": "70",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:17.194949+00:00",
+  "sha256": "f1520f08288b9ff3b6fc18ac4d184c78a948d6bbca1b0b1b5d64e0abf11e43f8",
+  "bytes": 4048,
+  "body_path": "/workspace/freshness-control/transport-evidence/6219b150bf7a4d58900dff6169132e91.body",
+  "cached": true,
+  "body_evidence_copy": "_codex-out/sources/transport-resume/6219b150bf7a4d58900dff6169132e91.body"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "9b6e9d5861ea4e858fc3df7c4f3ddab1",
+  "url": "https://aclu-nj.org/press-releases/aclu-nj-and-aclu-national-file-amicus-challenge-wrongful-arrest-due-face-recognition/",
+  "kind": "fetch",
+  "host": "aclu-nj.org",
+  "status": 301,
+  "headers": {
+    "retry-after": "0",
+    "server": "envoy",
+    "location": "https://www.aclu-nj.org/press-releases/aclu-nj-and-aclu-national-file-amicus-challenge-wrongful-arrest-due-face-recognition/",
+    "x-pantheon-redirect": "primary-domain-policy-doc",
+    "accept-ranges": "bytes",
+    "date": "Sat, 03 Oct 2026 18:37:27 GMT",
+    "via": "1.1 varnish",
+    "x-served-by": "cache-chi-klot8100095-CHI",
+    "x-cache": "HIT",
+    "x-cache-hits": "0",
+    "x-timer": "S1791052647.092996,VS0,VE6",
+    "content-length": "0",
+    "x-envoy-upstream-service-time": "12",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:26.881740+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/9b6e9d5861ea4e858fc3df7c4f3ddab1.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/9b6e9d5861ea4e858fc3df7c4f3ddab1.body"
+}

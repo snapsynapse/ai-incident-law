@@ -1,0 +1,14 @@
+{
+  "id": "d536b408e8ac4301aadfa1b4e6ab8b52",
+  "url": "https://publicportal-api.alappeals.gov/robots.txt",
+  "kind": "robots",
+  "host": "publicportal-api.alappeals.gov",
+  "status": null,
+  "headers": {},
+  "complete": false,
+  "error": "Tunnel connection failed: 403 Forbidden",
+  "retrieved_at": "2026-10-03T03:03:47.763304+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/d536b408e8ac4301aadfa1b4e6ab8b52.body"
+}

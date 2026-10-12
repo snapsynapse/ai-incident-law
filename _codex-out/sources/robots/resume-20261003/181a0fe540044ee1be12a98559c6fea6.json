@@ -1,0 +1,21 @@
+{
+  "id": "181a0fe540044ee1be12a98559c6fea6",
+  "url": "https://publicportal-api.alappeals.gov/robots.txt",
+  "kind": "robots",
+  "host": "publicportal-api.alappeals.gov",
+  "status": 403,
+  "headers": {
+    "server": "envoy",
+    "date": "Sat, 03 Oct 2026 18:37:42 GMT",
+    "content-type": "text/html",
+    "content-length": "179",
+    "x-envoy-upstream-service-time": "123",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:42.084238+00:00",
+  "sha256": "1f2e1251b1d5fab2f47bbfe3e09b149064e61571f98a5e02c6ace5f86bacb1d5",
+  "bytes": 179,
+  "body_path": "/workspace/freshness-control/transport-evidence/181a0fe540044ee1be12a98559c6fea6.body"
+}

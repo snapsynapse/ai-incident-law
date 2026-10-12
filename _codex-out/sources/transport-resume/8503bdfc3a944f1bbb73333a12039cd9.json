@@ -1,0 +1,28 @@
+{
+  "id": "8503bdfc3a944f1bbb73333a12039cd9",
+  "url": "https://www.smithlaw.com/newsroom/publications/you-cant-spell-sanction-without-a-and-i-when-unchecked-ai-hallucinations-result-in-court-sanctions",
+  "kind": "fetch",
+  "host": "www.smithlaw.com",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:46 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "content-length": "11527",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536001; preload; includeSubDomains",
+    "content-security-policy": "default-src 'self'; connect-src 'self' *; font-src 'self' data: *; frame-src 'self' *; frame-ancestors 'none'; img-src 'self' data: *; media-src 'self' *; object-src 'self' *; script-src 'self' 'unsafe-eval' 'unsafe-inline' *; style-src 'self' 'unsafe-inline' *; report-uri https://csp-reports.firmseek.com/smithanderson2;",
+    "x-content-type-options": "nosniff",
+    "x-envoy-upstream-service-time": "109",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:46.311059+00:00",
+  "sha256": "74d2734422709967f188aa0218e181172b4bcaba9c58c29697875a9593aa8ed3",
+  "bytes": 11527,
+  "body_path": "/workspace/freshness-control/transport-evidence/8503bdfc3a944f1bbb73333a12039cd9.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/8503bdfc3a944f1bbb73333a12039cd9.body"
+}

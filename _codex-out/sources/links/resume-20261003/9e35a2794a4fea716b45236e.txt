@@ -1,0 +1,288 @@
+        Case 1:26-cv-02006-SDG       Document 66     Filed 08/28/26   Page 1 of 6
+
+
+
+
+                  IN THE UNITED STATES DISTRICT COURT
+                 FOR THE NORTHERN DISTRICT OF GEORGIA
+                           ATLANTA DIVISION
+
+    ERIN BOOKER,
+       Plaintiff,
+                                                               Civil Action No.
+                         v.
+                                                              1:26-cv-02006-SDG
+    THE KROGER CO.,
+      Defendant.
+
+                     OPINION AND ORDER OF SANCTIONS
+
+        This matter is before the Court on its previous Order to Show Cause
+
+[ECF 53] directed to counsel for Plaintiff to explain why he should not be
+
+sanctioned for using fake or hallucinated case authorities, as well as
+
+misrepresenting the content of real case authorities, in his filings with the Court.
+
+Because Plaintiff’s counsel, as an officer of the Court, deliberately lied to this Court
+
+about his artificial intelligence (AI) use and because Plaintiff’s counsel’s response
+
+to the Order to Show Cause [ECF 58] lacks credibility, is evasive, and seeks to
+
+divert accountability from his own misconduct, sanctions are warranted.
+
+        Counsel for Defendant was the first to raise concerns about Plaintiff’s
+
+counsel’s reliance on AI tools in a manner that violated his duties and
+
+responsibilities to the Court under Rule 11 of the Federal Rules of Civil Procedure.1
+
+After the Court reviewed Plaintiff’s filings and shared in those concerns,
+
+
+1     See, e.g., ECF 8, Resp. to Pl.’s Mot. to Add Party, at 19–21, n.13; ECF 9, Resp. to
+      Pl.’s Mot. to Remand, at 6–8, n.6.
+
+
+                                            1
+      Case 1:26-cv-02006-SDG     Document 66     Filed 08/28/26   Page 2 of 6
+
+
+
+
+undersigned asked Plaintiff’s counsel to respond to the allegation during a hearing
+
+before the Court. The following exchange ensued:
+
+            THE COURT: But I have a question for you, Mr. Johnson.
+            Do you have a response to the allegations that some of
+            those cases you cited are nonexistent or incorrectly cited
+            the cases —
+
+            MR. JOHNSON: I don’t have —
+
+            THE COURT: Hold on. Let me finish my question . . .
+            cited to the propositions that you represented it stood
+            for?
+
+            MR. JOHNSON: I do not have a response to that, Your
+            Honor, today.
+
+            THE COURT: You do not have a response?
+
+            MR. JOHNSON: I don’t have it in front me to cross-
+            reference what defense counsel’s talking about.
+
+            THE COURT: Did you use any artificial intelligence tools
+            to prepare your briefs?
+
+            MR. JOHNSON: Not that I know of, Your Honor.
+
+            THE COURT: Not that you know of?
+
+            MR. JOHNSON: Yes, Your Honor.
+
+            THE COURT: It seems like something that you would
+            know.
+
+            MR. JOHNSON: Yes, Your Honor.
+
+            THE COURT: So did you or did you not?
+
+            MR. JOHNSON: I did not, Your Honor.
+
+            THE COURT: You’re representing to the Court that you
+            did not use AI tools?
+
+
+                                        2
+          Case 1:26-cv-02006-SDG     Document 66     Filed 08/28/26   Page 3 of 6
+
+
+
+
+                MR. JOHNSON: Yes, Your Honor. I did not use artificial
+                intelligence.2
+
+In his response to the Order to Show Cause, Plaintiff’s counsel now acknowledges
+
+that he “consulted” AI tools in drafting filings he submitted to the Court. While
+
+purporting to accept responsibility for his actions, Plaintiff’s counsel in the same
+
+breath simultaneously deflects it by referring to the drafting as occurring by “this
+
+office.”3 Then, in an entirely disingenuous attempt to explain why he lied to the
+
+Court during the hearing, Plaintiff’s counsel states that “he did not understand
+
+which cases the Court was asking about.”4 To make matters worse for himself,
+
+counsel for Plaintiff expends half of his response to the Show Cause order
+
+advocating for sanctions against Defendant’s counsel for an entirely unrelated
+
+discovery matter that the Court has already addressed.
+
+          The Court finds that counsel for Plaintiff, repeatedly, has lied to the Court.
+
+Plaintiff’s counsel, as an officer of the Court, lied to this Court when he
+
+misrepresented legal propositions based upon non-existent citations. He lied to
+
+this Court when undersigned asked him whether he used any AI tools to prepare
+
+his briefs (“I did not use artificial intelligence”). And now, he has lied to this Court
+
+
+
+
+2   ECF 48, at 3–4 (emphasis supplied).
+3   ECF 58, at 2.
+4   Id.
+
+
+                                             3
+      Case 1:26-cv-02006-SDG       Document 66     Filed 08/28/26   Page 4 of 6
+
+
+
+
+by feigning a lack of understanding of the Court’s very straightforward questions
+
+about his AI use.
+
+      Undersigned’s Standing Order, entered on the docket of this case, addresses
+
+AI use as follows:
+
+             Many courts and individual judges around the country
+             have entered specific rules or procedures concerning the
+             use of artificial intelligence tools. My rule is simple: You
+             can use whatever AI tools you like, but only human
+             beings will be held responsible for the outcome. So, if a
+             pleading or paper that is filed in a case contains factual
+             or legal errors, the party and lawyers who filed it will be
+             held responsible. This includes each and every lawyer
+             listed on the signature block of the filing. Govern
+             yourself accordingly, as they say.5
+
+The Court’s Order to Show Cause highlighted four purported cases cited by
+
+Plaintiff’s counsel that represented the most egregious examples of fake, false, and
+
+misleading case authorities. Counsel for Plaintiff is ordered to pay a fine of $1,000
+
+for each of these fake, false, and misleading case authorities. In addition, this fine
+
+will be doubled as a result of Plaintiff’s counsel’s lies to this Court. Accordingly,
+
+Plaintiff’s counsel’s total fine for his repeated Rule 11 violations is $8,000, payable
+
+to the registry of the Court.6 Plaintiff’s counsel’s fine is due within 30 days of this
+
+Order.
+
+
+
+5   ECF 5, at 30–31.
+6   The Court recognizes that Defendant’s counsel has requested its attorneys’ fees
+    as a sanction for Plaintiff’s counsel’s conduct in this regard since, as noted
+
+                                          4
+      Case 1:26-cv-02006-SDG      Document 66      Filed 08/28/26   Page 5 of 6
+
+
+
+
+      As an additional sanction, the Court considered whether to order Plaintiff’s
+
+counsel to attend CLE or training courses concerning his ethical obligations, both
+
+generally as well as specifically in relation to AI use. But in responding to the
+
+Order to Show Cause, counsel for Plaintiff represented to this Court that he has
+
+already done so: “Counsel has enrolled in and completed targeted ethics and
+
+technology CLE training, including ‘ChatGPT, Alexa, and Siri Are Out to Get
+
+You!’”7 Therefore, in lieu of ordering additional training, counsel for Plaintiff is
+
+ORDERED to file with the Court, within 7 days of this Order, documentation
+
+verifying all “ethics and technology CLE training” courses that he has “enrolled in
+
+and completed” between June 26 (the date of the Court’s hearing) and August 11
+
+(the date of Plaintiff counsel’s Show Cause response), including but not limited to
+
+the specific course identified in his response. The Court will determine whether
+
+any additional sanctions are warranted after receiving Plaintiff’s counsel’s
+
+response.
+
+
+
+    previously, it was Defendant’s counsel who first raised this issue. However,
+    the Court has determined that it would be difficult and cumbersome to
+    equitably parse the specific attorneys’ fees expended by Defendant that are
+    exclusively attributable to Plaintiff’s counsel’s fabricated case citations as
+    opposed to responding to Plaintiff’s motions generally. The use of a court fine
+    rather than a fee award is also in line with other sanction orders from this
+    district and this circuit relating to the misuse of AI, which have recognized that
+    a court fine serves not only as a deterrent, but also as a partial remedy for the
+    taxpayer resources expended by the Court in addressing the misconduct.
+7   ECF 58, at 2.
+
+
+                                          5
+      Case 1:26-cv-02006-SDG      Document 66       Filed 08/28/26   Page 6 of 6
+
+
+
+
+      Conclusion
+
+      The Court concludes that counsel for Plaintiff has repeatedly violated Rule
+
+11, as described herein. As a sanction, counsel for Plaintiff is ORDERED to pay
+
+$8,000 to the Court registry’s general sanctions fund, which the Clerk’s office shall
+
+process as a sanctions payment. Plaintiff’s counsel shall include in the memo field
+
+of his check a reference to the docket number of this case and the document
+
+number of this Order. Plaintiff’s counsel shall make this payment within 30 days
+
+of this Order. The Clerk of Court is DIRECTED to enter a notation on the docket
+
+of this case after the payment has been received.
+
+      Counsel for Plaintiff is further ORDERED, within 7 days of this Order, to
+
+file on the docket of this case a Notice that attaches all documentation verifying
+
+CLE training courses taken, as described above.
+
+      The Clerk is further DIRECTED to submit this Order to undersigned after
+
+7 days.
+
+      SO ORDERED this 28th day of August, 2026.
+
+
+
+
+                                                       Steven D. Grimberg
+                                                    United States District Judge
+
+
+
+
+                                         6
+

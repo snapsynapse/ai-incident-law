@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://dentons.com/insights/alerts/2024/february/29/air-canada-liable-for-negligent-misrepresentation-by-chatbot-on-website",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "a118ae8af201433aaba9751d574074b3",
+      "url": "https://dentons.com/robots.txt",
+      "kind": "robots",
+      "host": "dentons.com",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "retrieved_at": "2026-10-03T03:01:50.062131+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/a118ae8af201433aaba9751d574074b3.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:02:00.076901+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://dentons.com/insights/alerts/2024/february/29/air-canada-liable-for-negligent-misrepresentation-by-chatbot-on-website",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/68555147c5975fc4a7c9ddbd.body"
+}

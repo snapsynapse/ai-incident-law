@@ -1,0 +1,26 @@
+{
+  "id": "1b4accb3ce324c38889782161e7f35f7",
+  "url": "https://cbsnews.com/detroit/news/woman-wrongly-accused-carjacking-loses-lawsuit-detroit-police-used-facial-tech/",
+  "kind": "fetch",
+  "host": "cbsnews.com",
+  "status": 301,
+  "headers": {
+    "retry-after": "0",
+    "location": "https://www.cbsnews.com/detroit/news/woman-wrongly-accused-carjacking-loses-lawsuit-detroit-police-used-facial-tech/",
+    "accept-ranges": "bytes",
+    "date": "Sat, 03 Oct 2026 18:37:26 GMT",
+    "via": "1.1 varnish",
+    "fastly-restarts": "0",
+    "content-length": "0",
+    "x-envoy-upstream-service-time": "54",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:26.168201+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/1b4accb3ce324c38889782161e7f35f7.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/1b4accb3ce324c38889782161e7f35f7.body"
+}

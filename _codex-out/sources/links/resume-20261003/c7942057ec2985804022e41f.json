@@ -1,0 +1,50 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "c4eba499e9464399ba63a85a1a36a06c",
+      "url": "https://app.ediscoveryassistant.com/robots.txt",
+      "kind": "robots",
+      "host": "app.ediscoveryassistant.com",
+      "status": 301,
+      "headers": {
+        "server": "envoy",
+        "date": "Sat, 03 Oct 2026 18:37:17 GMT",
+        "content-type": "text/html",
+        "content-length": "134",
+        "location": "https://app.minerva26.com:443/robots.txt",
+        "x-envoy-upstream-service-time": "136",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:16.881021+00:00",
+      "sha256": "34ccdc351dc93dbf30a8630521968421091e3ed19c31a16e32c2eabb55c6a73a",
+      "bytes": 134,
+      "body_path": "/workspace/freshness-control/transport-evidence/c4eba499e9464399ba63a85a1a36a06c.body"
+    },
+    {
+      "id": "fc71a45289a04ad7ada44d778769b5b9",
+      "url": "https://app.minerva26.com:443/robots.txt",
+      "kind": "robots",
+      "host": "app.minerva26.com",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T18:37:17.144507+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/fc71a45289a04ad7ada44d778769b5b9.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T18:37:17.154831+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/resume-20261003/c7942057ec2985804022e41f.body"
+}

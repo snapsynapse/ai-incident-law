@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://flcourts-media.flcourts.gov/content/download/2494161/opinion/Opinion_2024-1392.pdf",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "5fa396030b054f53b5fd89ee40430c00",
+      "url": "https://flcourts-media.flcourts.gov/robots.txt",
+      "kind": "robots",
+      "host": "flcourts-media.flcourts.gov",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T03:03:47.686871+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/5fa396030b054f53b5fd89ee40430c00.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:03:47.711751+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://flcourts-media.flcourts.gov/content/download/2494161/opinion/Opinion_2024-1392.pdf",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/242cccef3f3754c601af21d8.body"
+}

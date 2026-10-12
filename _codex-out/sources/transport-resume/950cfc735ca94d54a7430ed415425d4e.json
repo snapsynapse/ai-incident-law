@@ -1,0 +1,24 @@
+{
+  "id": "950cfc735ca94d54a7430ed415425d4e",
+  "url": "https://illinoiscourts.gov/resources/63539016-cb02-4575-b3da-0dd0632244c1/file",
+  "kind": "fetch",
+  "host": "illinoiscourts.gov",
+  "status": 301,
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "location": "https://www.illinoiscourts.gov/resources/63539016-cb02-4575-b3da-0dd0632244c1/file",
+    "server": "envoy",
+    "x-powered-by": "ASP.NET",
+    "date": "Sat, 03 Oct 2026 18:37:49 GMT",
+    "content-length": "205",
+    "x-envoy-upstream-service-time": "18",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:49.744320+00:00",
+  "sha256": "aac6fd08712b7501c4d8ccae3d5436f2f1ff5d2b567001b513f29df7a705ec41",
+  "bytes": 205,
+  "body_path": "/workspace/freshness-control/transport-evidence/950cfc735ca94d54a7430ed415425d4e.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/950cfc735ca94d54a7430ed415425d4e.body"
+}

@@ -1,0 +1,78 @@
+{
+  "status": 200,
+  "headers": {
+    "cache-control": "public, max-age=3600, must-revalidate",
+    "expires": "Sat, 03 Oct 2026 19:37:46 GMT",
+    "content-type": "text/html",
+    "last-modified": "Sat, 03 Oct 2026 18:33:19 GMT",
+    "accept-ranges": "bytes",
+    "content-length": "93768",
+    "date": "Sat, 03 Oct 2026 18:37:46 GMT",
+    "server": "envoy",
+    "x-turbo-charged-by": "LiteSpeed",
+    "x-envoy-upstream-service-time": "120",
+    "connection": "close"
+  },
+  "finalUrl": "https://vibegraveyard.ai/story/ndcal-dal-bon-ai-citation-class-action-sanctions/",
+  "complete": true,
+  "redirects": [],
+  "error": null,
+  "attempts": [
+    {
+      "id": "f5f5cfe8e8f54fbfa52c63ca163a4e67",
+      "url": "https://vibegraveyard.ai/robots.txt",
+      "kind": "robots",
+      "host": "vibegraveyard.ai",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=3600",
+        "expires": "Sat, 03 Oct 2026 19:37:44 GMT",
+        "content-type": "text/plain",
+        "last-modified": "Tue, 28 Jul 2026 04:05:30 GMT",
+        "accept-ranges": "bytes",
+        "content-length": "930",
+        "date": "Sat, 03 Oct 2026 18:37:44 GMT",
+        "server": "envoy",
+        "x-turbo-charged-by": "LiteSpeed",
+        "x-envoy-upstream-service-time": "188",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:44.277342+00:00",
+      "sha256": "7eaa778a9fc360a43152e72886617932fd44a2b449fa629c0be17f45564d1a75",
+      "bytes": 930,
+      "body_path": "/workspace/freshness-control/transport-evidence/f5f5cfe8e8f54fbfa52c63ca163a4e67.body"
+    },
+    {
+      "id": "a5d73311fbf4475da59bf466a46582c0",
+      "url": "https://vibegraveyard.ai/story/ndcal-dal-bon-ai-citation-class-action-sanctions/",
+      "kind": "fetch",
+      "host": "vibegraveyard.ai",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=3600, must-revalidate",
+        "expires": "Sat, 03 Oct 2026 19:37:46 GMT",
+        "content-type": "text/html",
+        "last-modified": "Sat, 03 Oct 2026 18:33:19 GMT",
+        "accept-ranges": "bytes",
+        "content-length": "93768",
+        "date": "Sat, 03 Oct 2026 18:37:46 GMT",
+        "server": "envoy",
+        "x-turbo-charged-by": "LiteSpeed",
+        "x-envoy-upstream-service-time": "120",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:46.277441+00:00",
+      "sha256": "1ea43e11b5a16e02c76aec44ace9a2e27004ded0471192507ec087273a32d342",
+      "bytes": 93768,
+      "body_path": "/workspace/freshness-control/transport-evidence/a5d73311fbf4475da59bf466a46582c0.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T18:37:46.277441+00:00",
+  "sha256": "1ea43e11b5a16e02c76aec44ace9a2e27004ded0471192507ec087273a32d342",
+  "requested_url": "https://vibegraveyard.ai/story/ndcal-dal-bon-ai-citation-class-action-sanctions/",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/resume-20261003/cd9e1bbcb60197d6309f2f29.body"
+}

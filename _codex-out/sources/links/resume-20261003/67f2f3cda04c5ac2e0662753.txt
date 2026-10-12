@@ -1,0 +1,871 @@
+      Appellate Case: 24-1391     Document: 30-1    Date Filed: 02/09/2026    Page: 1
+                                                                                 FILED
+                                                                     United States Court of Appeals
+                        UNITED STATES COURT OF APPEALS                       Tenth Circuit
+
+                               FOR THE TENTH CIRCUIT                         February 9, 2026
+                           _________________________________
+                                                                         Christopher M. Wolpert
+                                                                             Clerk of Court
+ KUSMIN L. AMARSINGH,
+
+         Plaintiff - Appellant,
+
+ v.                                                             No. 24-1391
+                                                   (D.C. No. 1:23-CV-01875-GPG-KAS)
+ FRONTIER AIRLINES, INC.,                                        (D. Colo.)
+
+         Defendant - Appellee.
+                        _________________________________
+
+                               ORDER AND JUDGMENT *
+                           _________________________________
+
+Before HARTZ, MORITZ, and ROSSMAN, Circuit Judges.
+                  _________________________________
+
+        Kusmin L. Amarsingh, an attorney representing herself, appeals the district
+
+court’s Fed. R. Civ. P. 12(b)(6) dismissal of her claims of racial discrimination and
+
+breach of contract. Exercising jurisdiction under 28 U.S.C. § 1291, we affirm. We
+
+also impose sanctions on Amarsingh for her misuse of generative artificial
+
+intelligence in researching and drafting her appellate brief.
+
+
+
+
+        After examining the briefs and appellate record, this panel has determined
+        *
+
+unanimously that oral argument would not materially assist in the determination of
+this appeal. See Fed. R. App. P. 34(a)(2); 10th Cir. R. 34.1(G). The case is therefore
+ordered submitted without oral argument. This order and judgment is not binding
+precedent, except under the doctrines of law of the case, res judicata, and collateral
+estoppel. It may be cited, however, for its persuasive value consistent with
+Fed. R. App. P. 32.1 and 10th Cir. R. 32.1.
+   Appellate Case: 24-1391     Document: 30-1      Date Filed: 02/09/2026    Page: 2
+
+
+
+                                 I. BACKGROUND
+
+       Because we are reviewing the district court’s grant of a motion to dismiss, we
+
+assume the truth of the factual allegations in the last in a series of amended
+
+complaints Amarsingh filed. See Mobley v. McCormick, 40 F.3d 337, 340 (10th Cir.
+
+1994) (“[A] Rule 12(b)(6) motion tests the sufficiency of the allegations within the
+
+four corners of the complaint after taking those allegations as true”).
+
+       Amarsingh is “clearly of Indian descent.” R. vol. 1 at 67, ¶ 19. She had a
+
+ticket for a flight on Frontier Airlines from Philadelphia to St. Louis, connecting
+
+through Orlando. But she did not have an assigned seat. She checked in online,
+
+arrived at the gate well in advance of departure, and waited to board. Three Frontier
+
+agents were at the gate, all of whom were, or appeared to Amarsingh to be, African
+
+American. An agent announced that the flight was overbooked by about 10
+
+passengers and sought volunteers to change their flight for compensation. No one
+
+volunteered. In addition to Amarsingh, others awaiting a seat assignment included an
+
+African American family of 8 to 10 people, most of whom did not have seat
+
+assignments; five or six people who “were or appeared to be Hispanic”; a “male
+
+passenger, who was or appeared to be White”; “a gentleman who was or appeared to
+
+[be] part of [sic] African American”; an “Asian woman traveling with a child,
+
+accompanied by a white female”; and another woman “of Indian descent.”
+
+Id. at 63–64, ¶¶ 5, 6, 9.
+
+       After all passengers with assigned seats had boarded, a “Frontier agent asked
+
+the party of three, with the child passenger, if one of the adults would give up their
+
+                                           2
+   Appellate Case: 24-1391      Document: 30-1     Date Filed: 02/09/2026       Page: 3
+
+
+
+seat. The child and the adult Asian female passenger were given seats and allowed to
+
+board.” Id. at 63, ¶ 7. An agent then boarded the African American party of 8 to 10
+
+people. 1 Amarsingh approached the counter to ask about a seat assignment and to try
+
+to “impress upon the agents that [her] flight was a connecting flight, and that there
+
+were no other alternative/feasible flights for [her] schedule for at least a week.” Id.
+
+at 64, ¶ 8. But “[r]ather than permit [her] to speak,” one of the agents kept
+
+interrupting, repeatedly telling Amarsingh “in a loud voice” to “have a seat” or “I can
+
+hear you,” and staring at her “in a rude and very unprofessional manner.” Id.
+
+(internal quotation marks omitted). At “one point” in the boarding process, the lead
+
+agent called her and the other Indian woman back to the counter and “wrote
+
+something on the passenger log and asked [them] to take a seat.” Id. at 67, ¶ 19.
+
+      As Amarsingh and the others waited for a seat assignment, the plane departed,
+
+but the agents did not update the flight status on the monitors for 30 minutes. All the
+
+passengers then made their way to the counter, where the agents “became irate and
+
+told everyone to sit down in a very loud voice.” Id. at 64, ¶ 10. The other Indian
+
+woman approached the counter, where “the lead agent began yelling at her in what
+
+sounded like a mocking Indian accent and while pointing to each passenger in front
+
+
+      1
+        Amarsingh’s brief on appeal complains that there was no need to seat all of
+the African-American group at that time because there was another flight 30 minutes
+later. But if there was such a flight, it would also have accommodated Amarsingh,
+unless she had a remarkably tight connection in Orlando. In fact, we note that
+documents she submitted in district court show that she was scheduled to have a
+layover of two hours and 21 minutes in Orlando. In any event, two pages later in her
+brief she acknowledges that she only “thought” there would be such a flight in 30
+minutes. Aplt. Br. at 9.
+                                            3
+   Appellate Case: 24-1391      Document: 30-1      Date Filed: 02/09/2026     Page: 4
+
+
+
+of him asked her do you think you are more important than her, him, her[?]” Id.
+
+at 65, ¶ 10.
+
+       Eventually, the lead agent announced that everyone would receive a refund
+
+and $400 in compensation. But when Amarsingh went to the other two agents to get
+
+her refund and the compensation, “they only offered to refund . . . or rebook [her]
+
+flight.” Id., ¶ 12. At Amarsingh’s request the lead agent clarified that all the
+
+passengers would receive both a refund and compensation. The lead agent then left.
+
+Amarsingh waited at the gate for an hour before returning to the counter, where an
+
+agent told her that the lead agent would not be returning and that she would “receive
+
+an email with [her] refund information.” Id. at 66, ¶ 15.
+
+       Amarsingh left the airport and booked a flight to Florida (where she lives) the
+
+next day on another airline. As a result, she “lost approximately $1000.00 in flights”
+
+and “more importantly . . . the opportunity to attend [her] grandson’s . . . birth
+
+announcement and family reunion” in St. Louis. Id., ¶ 16. Despite filing two
+
+complaints with Frontier, Amarsingh has not “received any money or compensation
+
+of any kind from Frontier.” Id., ¶ 17.
+
+       Amarsingh then filed the action underlying this appeal. In the operative
+
+complaint she asserted two claims: (1) breach of contract and the covenant of good
+
+faith and fair dealing for failing to board her or issue a refund; and (2) racial
+
+discrimination in violation of 42 U.S.C. § 1981 based on allegations that Frontier
+
+discriminated against her because “she was not or [did not] appear[] to be African
+
+American.” Id. at 67, ¶ 19. She sought $15 million in damages.
+
+                                            4
+   Appellate Case: 24-1391     Document: 30-1      Date Filed: 02/09/2026    Page: 5
+
+
+
+      Frontier filed a motion to dismiss under Fed. R. Civ. P. 12(b)(6). A magistrate
+
+judge recommended granting the motion.
+
+      Over Amarsingh’s timely objections the district court adopted the
+
+recommendation and dismissed the claims without prejudice. The district court
+
+dismissed the § 1981 claim because Amarsingh had not plausibly alleged that race
+
+was the but-for reason she was not boarded. The court explained that although an
+
+inference of racial discrimination could be drawn from the agent’s mocking of the
+
+other Indian woman’s accent, there were fatal flaws in Amarsingh’s theory that she
+
+was not boarded because she was not African American: (1) some of those in the
+
+group of African Americans that were allowed to board already had assigned seats,
+
+and Amarsingh acknowledged that the severity of hardship is a race-neutral reason
+
+for a boarding decision; and (2) “agents also boarded two passengers that were not
+
+African American—the Asian woman and child,” instead of the other African
+
+American man. R. vol. 3 at 107. The court also reasoned that these efforts to keep
+
+“groups together to the extent possible,” which were “legitimate permissible criteria,”
+
+undermined “Amarsingh’s assertion that race was the deciding factor.” Id. at 108.
+
+      The district court also considered Amarsingh’s argument that the agents should
+
+have allowed her to board because the African American group could have taken a
+
+later flight that day but she would have had to wait at least another week for a
+
+Frontier flight through to St. Louis. But the court explained that any failure to
+
+consider the relative hardships did not mean the agents used race as the deciding
+
+
+
+                                           5
+     Appellate Case: 24-1391     Document: 30-1      Date Filed: 02/09/2026     Page: 6
+
+
+
+factor, particularly given that “[m]ost importantly,” the “agents bumped an African
+
+American passenger.” Id.
+
+       Turning to the breach-of-contract claim, the district court found that it did not
+
+pose a federal question and Amarsingh had not adequately alleged that there was a
+
+sufficient amount in controversy for diversity jurisdiction, because damages for
+
+emotional distress cannot be awarded absent allegations of willful or wanton breach
+
+and the amount in controversy could not include damages to nonparty passengers.
+
+Accordingly, having dismissed the sole federal claim, the court declined to exercise
+
+supplemental jurisdiction over the contract claim and dismissed it.
+
+                               II. MERITS DISCUSSION
+
+A.     Standard of review
+
+       “We review a Rule 12(b)(6) dismissal de novo.” Thomas v. Kaven, 765 F.3d
+
+1183, 1190 (10th Cir. 2014). We “accept all the well-pleaded allegations of the
+
+complaint as true and . . . construe them in the light most favorable to the plaintiff.”
+
+Id. (internal quotation marks omitted). “To survive a motion to dismiss, a complaint
+
+must contain sufficient factual matter . . . to state a claim to relief that is plausible on
+
+its face.” Ashcroft v. Iqbal, 556 U.S. 662, 678 (2009) (internal quotation marks
+
+omitted).
+
+       The court recognizes that Amarsingh is pro se. Typically, “a pro se litigant’s
+
+pleadings are to be construed liberally and held to a less stringent standard than
+
+formal pleadings drafted by lawyers.” Garrett v. Selby, Connor, Maddux, & Janer,
+
+425 F.3d 836, 840 (10th Cir. 2005) (brackets and internal quotation marks omitted).
+
+                                             6
+     Appellate Case: 24-1391    Document: 30-1     Date Filed: 02/09/2026     Page: 7
+
+
+
+But in the district court Amarsingh stated that she is “an attorney licensed in the State
+
+of Maryland.” R. vol. 1 at 6. And in her appellate brief, she states that she “is an
+
+attorney,” albeit “with no experience in federal district court.” Aplt. Br. at 1 n.1.
+
+       In addition, we take judicial notice of the Maryland courts’ publicly available
+
+records showing that Amarsingh is admitted to the bar in the State of Maryland and is
+
+listed as being in active status, which means she is “considered in good standing” and
+
+“authorized to practice law.” Maryland Courts, Maryland Attorney Listing,
+
+https://www.mdcourts.gov/attysearch [https://perma.cc/A8SX-YYE3]. See Fed. R.
+
+Evid. 201(b)(2) (allowing courts to judicially notice facts that “can be accurately
+
+and readily determined from sources whose accuracy cannot reasonably be
+
+questioned”). We therefore decline to extend Amarsingh the leeway afforded
+
+nonlawyers representing themselves. See Mann v. Boatright, 477 F.3d 1140,
+
+1148 n.4 (10th Cir. 2007).
+
+B.     Analysis
+
+       “Section 1981 prohibits racial discrimination in ‘the making, performance,
+
+modification, and termination of contracts, and the enjoyment of all benefits,
+
+privileges, terms, and conditions of the contractual relationship.’” Reynolds v.
+
+Sch. Dist. No. 1, 69 F.3d 1523, 1532 (10th Cir. 1995) (footnote omitted) (quoting
+
+42 U.S.C. § 1981(b)). To survive a motion to dismiss, a plaintiff need not “establish
+
+a prima facie case in her complaint,” but “the elements of each alleged cause of
+
+action help to determine whether [a] [p]laintiff has set forth a plausible claim.”
+
+Khalik v. United Air Lines, 671 F.3d 1188, 1192 (10th Cir. 2012).
+
+                                            7
+   Appellate Case: 24-1391      Document: 30-1     Date Filed: 02/09/2026    Page: 8
+
+
+
+      A prima facie § 1981 claim requires a showing that (1) “the plaintiff is a
+
+member of a protected class,” (2) “the defendant had the intent to discriminate on the
+
+basis of race,” and (3) “the discrimination interfered with a protected activity as
+
+defined in § 1981.” Hampton v. Dillard Dep’t Stores, Inc., 247 F.3d 1091, 1102
+
+(10th Cir. 2001). The second element—dispositive here—requires a plaintiff to show
+
+that the defendant “intentionally or purposefully discriminated against her.”
+
+Reynolds, 69 F.3d at 1532. And to avoid dismissal under Rule 12(b)(6), a § 1981
+
+plaintiff must allege facts plausibly stating a claim that the alleged discrimination
+
+was the but-for cause of the alleged interference with a protected activity. See
+
+Comcast Corp. v. Nat’l Ass’n of African Am.-Owned Media, 589 U.S. 327, 341
+
+(2020) (holding that a § 1981 “plaintiff must initially plead and ultimately prove that,
+
+but for race, [she] would not have suffered the loss of a legally protected right”
+
+(emphasis added)).
+
+      Having reviewed the district court’s ruling in light of the controlling law, we
+
+agree that Amarsingh did not plausibly allege a § 1981 claim. In particular, her
+
+allegation that the agents boarded the Asian woman and the child instead of the
+
+single African American man, 2 coupled with the reasonable inference from her
+
+allegations that the agents tried to keep parties together, fatally undermines her
+
+theory that the agents did not board her because she was not African American.
+
+
+
+      2
+        The complaint obscurely refers to the man as “a gentleman who was or
+appeared to [be] part of [sic] African American.” R. vol. I at 63. But she has not
+challenged the district court’s reference to him as an African-American.
+                                            8
+   Appellate Case: 24-1391      Document: 30-1     Date Filed: 02/09/2026     Page: 9
+
+
+
+      Amarsingh’s arguments do not persuade us otherwise. 3 Much of what she says
+
+concerns the district court. But our review is de novo, so flaws in that court’s
+
+reasoning are irrelevant. Nevertheless, we will address each of the arguments as they
+
+purport to undermine the propriety of the dismissal.
+
+      One, Amarsingh contends that Frontier has a pattern or history of hostility that
+
+amounts to discriminatory treatment. But she points to no specific episodes, relying
+
+on general complaints in the news and online. And even her characterizations of
+
+these complaints do not support a claim of relevant racial discrimination. If
+
+anything, they suggest that the airline treats everyone poorly, which would
+
+undermine her claim that the poor treatment she received was because of race.
+
+      Two, Amarsingh alleges that the district court “disregarded essential
+
+evidence,” Aplt. Br. at 15, and categorized “flight schedules, boarding passes, and
+
+related documentation” as “extrinsic,” id. at 17. She further contends that “[m]ost
+
+facts were not addressed at all.” Id. at 25–26. But Amarsingh does not identify what
+
+evidence the district court disregarded or what material facts it failed to address, and
+
+we are unable to locate where the court categorized any evidence as “extrinsic.”
+
+
+
+
+      3
+         Amarsingh says that her “arguments apply to both claims with separate
+conclusions to the claims.” Aplt. Br. at 11, n.5. But the district court dismissed the
+contract claim by declining to exercise supplemental jurisdiction over it, and none of
+Amarsingh’s arguments challenge that ruling. She has therefore waived our review
+of that dismissal. See Sawyers v. Norton, 962 F.3d 1270, 1286 (10th Cir. 2020)
+(“Issues not raised in the opening brief are deemed abandoned or waived.” (internal
+quotation marks omitted)).
+                                            9
+   Appellate Case: 24-1391     Document: 30-1      Date Filed: 02/09/2026      Page: 10
+
+
+
+       Three, Amarsingh argues that the district court “refus[ed] to draw inferences
+
+of racial discrimination from the established facts, contrary to the principles
+
+articulated in McDonnell Douglas Corp. v. Green,” 411 U.S. 792 (1973). Aplt. Br.
+
+at 17. She particularly faults the district court for not considering her contention that
+
+the lead “agent called her to the counter specifically to confirm her race,” id. at 18, in
+
+light of Frontier’s failure to offer “a substantive rationale” for the agent’s conduct, id.
+
+at 19. But, as noted above, the complaint alleged only that the lead agent called her
+
+and the other Indian woman back to the counter and “wrote something on the
+
+passenger log and asked [them] to take a seat.” R. vol. 1 at 67, ¶ 19 (emphasis
+
+added). Neither McDonnell Douglas nor any other precedent suggests that the court
+
+was required to make the speculative leap that the agent’s purpose was somehow to
+
+“confirm[] that she was not African American.” Id. at 110, ¶ 2.
+
+       Four, Amarsingh claims that the district court “did not inquire if [she] would
+
+have been seated . . . if she were African American.” Aplt. Br. at 20. We disagree.
+
+The district court determined that the fact that the single African American man was
+
+bumped from the flight was “fatal” to her “argument that, if she were African
+
+American, she would have been allowed to board.” R. vol. 3 at 107.
+
+       Five, Amarsingh contends that the district court determined that she did not
+
+convey the urgency of her need to board the flight until after the flight had departed.
+
+She is incorrect. The district court did not make that error. See id. at 108
+
+(acknowledging that Amarsingh “spoke with the agents about her situation before the
+
+
+
+                                            10
+  Appellate Case: 24-1391      Document: 30-1      Date Filed: 02/09/2026   Page: 11
+
+
+
+additional boarders were selected,” and “assum[ing] the agents knew” about the
+
+hardship she faced).
+
+      Six, Amarsingh lodges a general complaint that the district court did not
+
+“rigorously evaluate” Frontier’s “justification for its treatment of [her],” which gives
+
+“an impression of nonchalant acceptance” of that justification. Aplt. Br. at 22. We
+
+again disagree. The district court engaged in a thorough analysis of the pertinent
+
+issue—whether Amarsingh plausibly alleged a § 1981 claim.
+
+      Seven, Amarsingh argues that the district court’s “assertion that the presence
+
+of a white male passenger negates any possibility of discrimination represents a
+
+fundamentally flawed understanding of racial dynamics and discrimination.” Aplt.
+
+Br. at 23. But she does not identify, and we have not found, where in the record the
+
+district court made such an assertion.
+
+      Finally, Amarsingh offers a general observation that “patterns of bias,
+
+irrespective of their targets, demand rigorous scrutiny,” and “[s]ystemic
+
+discrimination . . . necessitates that courts evaluate a broader context when assessing
+
+claims of racial discrimination.” Id. at 24. We do not disagree with those comments,
+
+but there has been no failure in that regard by the courts in this case.
+
+      In sum, we conclude that Amarsingh has not demonstrated any reversible error
+
+in the district court’s dismissal of her claims. We therefore affirm the court’s
+
+judgment.
+
+
+
+
+                                           11
+  Appellate Case: 24-1391      Document: 30-1      Date Filed: 02/09/2026     Page: 12
+
+
+
+                                   III. SANCTIONS
+
+      Our review of Amarsingh’s brief revealed serious flaws, including citations to
+
+nonexistent cases and attribution of propositions or quotations to two real cases that
+
+did not stand for the propositions or contain the quotations. We suspected that these
+
+flaws resulted from Amarsingh’s use of generative artificial intelligence (GenAI) in
+
+researching and drafting her brief. Accordingly, we ordered her to correctly cite and
+
+provide accurate copies of seven cases we could not locate. We also ordered that if
+
+she was unable to do so, she must thoroughly explain how the fabricated case
+
+citations and the other problems we identified ended up in her brief. We also ordered
+
+her to show cause why she should not be sanctioned.
+
+      In response, Amarsingh admitted that she had used a GenAI tool—ChatGPT—
+
+as a research and drafting aid, which generated the seven fabricated case citations,
+
+commonly referred to as “AI hallucination[s].” See Wadsworth v. Walmart, Inc.,
+
+348 F.R.D. 489, 493 (D. Wyo. 2025) (explaining that an AI “hallucination occurs
+
+when an AI [model] generates fake sources of information”); Jones v. Kankakee
+
+Cnty. Sheriff’s Dep’t, ___ F.4th ___, 2026 WL 157661, at *2 (7th Cir. Jan. 21, 2026)
+
+(defining “a so-called AI ‘hallucination’” as “a circumstance where an AI large
+
+language model generates an output that is fictional, inaccurate, or nonsensical”).
+
+Amarsingh also admits that she did not verify that the seven cases existed or that the
+
+two quotations actually appeared in the real cases she cited. She says that she “was
+
+able to find the actual cases that AI distorted and cited to,” and apparently tries to
+
+justify her errors by adding that “it would appear there is an embedded algorithm to
+
+                                           12
+   Appellate Case: 24-1391     Document: 30-1      Date Filed: 02/09/2026     Page: 13
+
+
+
+cause open-source AI tools to intentionally ‘grab’ cases outside the scope of the
+
+searched term.” Resp. at 5.
+
+       As for sanctions, Amarsingh states that she had no intention to “misrepresent[]
+
+the law or the record.” Id. at 10. She “submit[s] that dismissing the appeal would be
+
+disproportionate to the harm caused and [Frontier’s] own procedural deficiencies,”
+
+id. at 9, namely Frontier’s failure to serve her “with a copy of its corrected brief and
+
+. . . upload the operative brief to the Court’s docket,” id. at 13. She claims that she
+
+repeatedly contacted this court’s Clerk’s Office to ask about the status of Frontier’s
+
+response brief, only to be “informed that the brief was pending and that she would
+
+receive notice upon its upload.” Id. at 13–14. She asserts that Frontier’s “corrected
+
+brief remains absent from the docket,” and her lack of access to it “materially
+
+hindered [her] ability to respond to the arguments [Frontier] raised” or “proactively
+
+correct any misstatements in her own filings.” Id. at 14. Amarsingh also asks us to
+
+consider that around the time of the events giving rise to this case, she “had recently
+
+been involuntarily medically discharged from the United States Army after nearly 16
+
+years of honorable service.” Id. at 10. 4 She claims that she is committed to
+
+preventing similar errors in the future, intends to “self-report[] as part of a case
+
+
+
+
+      In the operative complaint, Amarsingh asserted she was “a United States
+       4
+
+Army JAG Attorney.” R. vol. 1 at 67, ¶ 20.
+                                            13
+   Appellate Case: 24-1391      Document: 30-1      Date Filed: 02/09/2026    Page: 14
+
+
+
+study,” id. at 12, and has already completed a continuing legal education (CLE)
+
+course on the ethics of using artificial intelligence in the law. 5
+
+       We appreciate Amarsingh’s candor regarding both her use of GenAI and her
+
+failure to verify the results. We also appreciate that she is willing to try to do better
+
+in the future and may have taken steps in that direction. But we find less than
+
+compelling much of her attempt to mitigate the seriousness of her errors, in particular
+
+her effort to blame Frontier and this court’s Clerk’s Office for her failure to review
+
+Frontier’s corrected response brief, which would have alerted her to the fabricated
+
+case citations and some of the misattributions. Frontier’s corrected brief has been
+
+available on the court’s electronic docket since February 25, 2025, see Dkt. No. 19,
+
+well before we issued our show-cause order on September 5, 2025. Moreover,
+
+Amarsingh consented to electronic service in this case, see Dkt. No. 6, so (1) she
+
+received a notification by email that the corrected brief was filed and (2) she could
+
+have retrieved a copy by clicking on the hyperlink for the document. And, most
+
+importantly, we are not inclined to excuse Amarsingh’s errors on the ground that
+
+others should have pointed them out more promptly.
+
+       We conclude that the circumstances here do not warrant the harsh sanction of
+
+dismissing the appeal. Nonetheless, Amarsingh’s failings are quite serious and
+
+warrant a significant sanction. Although there is nothing inherently problematic with
+
+
+
+
+       We note that although Amarsingh attached a certificate indicating she
+       5
+
+completed a CLE course, she did not sign the certificate or provide her bar number.
+See Resp. at 18.
+                                            14
+  Appellate Case: 24-1391      Document: 30-1     Date Filed: 02/09/2026     Page: 15
+
+
+
+the use of GenAI in the practice of law, careless use of the tool can waste both
+
+judicial resources and the opposing party’s time and money, and it can damage the
+
+credibility of the legal system. See Mata v. Avianca, Inc., 678 F. Supp. 3d 443,
+
+448–49 (S.D.N.Y. 2023). As one court has aptly put it, “[T]he use of artificial
+
+intelligence must be accompanied by the application of actual intelligence in its
+
+execution.” Mid Cent. Operating Eng’rs Health & Welfare Fund v. HoosierVac LLC,
+
+No. 2:24-CV-326, 2025 WL 574234, at *4 (S.D. Ind. Feb. 21, 2025), report and
+
+recommendation adopted as modified, 2025 WL 1511211 (S.D. Ind. May 28, 2025).
+
+      “This court has the inherent power to impose sanctions that are necessary to
+
+regulate its docket, promote judicial efficiency, and deter frivolous filings.” Mann,
+
+477 F.3d at 1150. In addition, Amarsingh’s conduct on appeal is “governed by
+
+Federal Rule of Appellate Procedure 38,” Cooter & Gell v. Hartmarx Corp., 496 U.S.
+
+384, 407 (1990), which provides that “[i]f a court of appeals determines that an
+
+appeal is frivolous, it may, after a separately filed motion or notice from the court
+
+and reasonable opportunity to respond, award just damages and single or double costs
+
+to the appellee.” The term “just damages” includes “attorney’s fees.” Braley v.
+
+Campbell, 832 F.2d 1504, 1510 (10th Cir. 1987) (en banc).
+
+      We elect to proceed under Rule 38. We have already provided Amarsingh
+
+with the requisite notice and opportunity to respond. After a thorough review, we
+
+conclude that this appeal is, in part, frivolous as argued. In a “frivolous as argued”
+
+appeal, “genuinely appealable issues may exist,” but “the appellant’s contentions in
+
+prosecuting the appeal are frivolous.” Finch v. Hughes Aircraft Co., 926 F.2d 1574,
+
+                                           15
+   Appellate Case: 24-1391     Document: 30-1      Date Filed: 02/09/2026     Page: 16
+
+
+
+1579–80 (Fed. Cir. 1991) (emphasis omitted). 6 An appeal may be frivolous as argued
+
+if supporting briefs (1) contain “citations of inapplicable or irrelevant authorities” or
+
+(2) “misrepresent[] facts or law to the court.” Id. at 1579.
+
+      Amarsingh’s citation of multiple nonexistent cases and her misattribution of
+
+propositions and quotations to actual cases meet this standard. The citation of
+
+nonexistent cases is especially troublesome; “[a]n attempt to persuade a court or
+
+oppose an adversary by relying on fake opinions is an abuse of the adversary
+
+system.” Park v. Kim, 91 F.4th 610, 615 (2d Cir. 2024) (internal quotation marks
+
+omitted).
+
+      The test under Rule 38 is not whether an attorney acted with subjective bad
+
+faith but whether the conduct, when “viewed objectively, manifests either intentional
+
+or reckless disregard of the attorney’s duties to the court.” Braley, 832 F.2d at 1512.
+
+Amarsingh’s actions were reckless because of her complete failure to perform an
+
+attorney’s fundamental duty to the court—confirming that all the cited cases exist
+
+and stand for the propositions for which they are cited, and accurately quoting from
+
+the cited authorities. See Park, 91 F.4th at 615 (stating, in the related context of
+
+attorney obligations in federal district courts under Federal Rule of Civil
+
+Procedure 11, that “[a]t the very least,” attorneys must “read, and thereby confirm the
+
+existence and validity of, the legal authorities on which they rely”).
+
+
+      6
+        In contrast, an appeal is “frivolous as filed” when “the judgment by the
+tribunal below was so plainly correct and the legal authority contrary to appellant’s
+position so clear that there really is no appealable issue.” Finch, 926 F.2d
+at 1579–80 (emphasis omitted). This appeal is not frivolous as filed.
+                                           16
+  Appellate Case: 24-1391      Document: 30-1     Date Filed: 02/09/2026     Page: 17
+
+
+
+      Courts have issued a variety of sanctions against attorneys and pro se parties
+
+for similar misconduct, including monetary sanctions, payment of the opposing
+
+party’s attorney fees incurred in responding to the misconduct, striking filings
+
+containing fabricated case citations, dismissing complaints, dismissing or denying
+
+appeals, and referring attorneys to the appropriate disciplinary body. See
+
+United States v. Hayes, 763 F. Supp. 3d 1054, 1071–72 (E.D. Cal. 2025) (collecting
+
+cases). Considering Amarsingh’s candor and remorse, and the novelty at the time of
+
+the infraction (January 24, 2025) of the use of AI by lawyers, we conclude that the
+
+following sanctions are appropriately tailored to the conduct and circumstances in
+
+this appeal:
+
+      (1) Within 30 days of the filing of this decision, Amarsingh must pay $1,000
+
+to Frontier to offset attorney fees and costs Frontier incurred in responding to the
+
+problems Frontier and the court have identified in Amarsingh’s brief. See, e.g.,
+
+Benjamin v. Costco Wholesale Corp., 779 F. Supp. 3d 341, 351 (E.D.N.Y. 2025)
+
+(imposing $1,000 fine on attorney, which was “lower than in many other similar
+
+cases in part because of [the attorney’s] candor and sincere regret,” one-time use of
+
+GenAI, and voluntary CLE participation); Jackson v. Auto-Owners Ins. Co.,
+
+No. 7-24-cv-136, 2025 WL 1932274, at *5 (M.D. Ga. July 14, 2025) (imposing a
+
+$1,000 fine and awarding the opposing party attorney fees and costs associated with
+
+review of hallucinated cases). Amarsingh must file a sworn certification with the
+
+court that she has complied with this requirement.
+
+
+
+                                           17
+  Appellate Case: 24-1391     Document: 30-1     Date Filed: 02/09/2026       Page: 18
+
+
+
+      (2) We direct the Clerk’s Office to transmit a copy of this Order and Judgment
+
+detailing Amarsingh’s misconduct in this case to the appropriate
+
+attorney-disciplinary authority of the State of Maryland. See, e.g., Park, 91 F.4th
+
+at 616 (referring attorney to relevant disciplinary body); Johnson v. Dunn,
+
+792 F. Supp. 3d 1241, 1267 (N.D. Ala. 2025) (“referral to licensing authorities is a
+
+bare minimum in the light of the primary nature of a lawyer’s professional
+
+responsibility not to make things up”); cf. Hayes, 763 F. Supp. 3d at 1073 (referring
+
+attorney to relevant state bar associations in addition to imposing a $1,500 monetary
+
+sanction).
+
+                                IV. CONCLUSION
+
+      We affirm the district court’s judgment, and we impose sanctions on
+
+Amarsingh as set forth above. We deny Amarsingh’s request to file a corrected
+
+opening brief.
+
+
+                                           Entered for the Court
+
+
+                                           Harris L Hartz
+                                           Circuit Judge
+
+
+
+
+                                          18
+

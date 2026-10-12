@@ -1,0 +1,14 @@
+{
+  "id": "618e4e04e1a649e39f531dc8136d7cd0",
+  "url": "https://illinoiscourts.gov/robots.txt",
+  "kind": "robots",
+  "host": "illinoiscourts.gov",
+  "status": null,
+  "headers": {},
+  "complete": false,
+  "error": "Tunnel connection failed: 403 Forbidden",
+  "retrieved_at": "2026-10-03T03:03:47.712349+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/618e4e04e1a649e39f531dc8136d7cd0.body"
+}

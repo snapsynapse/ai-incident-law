@@ -1,0 +1,15 @@
+{
+  "id": "1a1bd7d1e898465087d54509782f8261",
+  "url": "https://www4.courts.ca.gov/robots.txt",
+  "kind": "robots",
+  "host": "www4.courts.ca.gov",
+  "status": null,
+  "headers": {},
+  "complete": false,
+  "error": "Tunnel connection failed: 403 Forbidden",
+  "retrieved_at": "2026-10-03T18:37:49.247791+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/1a1bd7d1e898465087d54509782f8261.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/1a1bd7d1e898465087d54509782f8261.body"
+}

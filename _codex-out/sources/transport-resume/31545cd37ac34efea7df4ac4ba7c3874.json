@@ -1,0 +1,30 @@
+{
+  "id": "31545cd37ac34efea7df4ac4ba7c3874",
+  "url": "https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do",
+  "kind": "fetch",
+  "host": "decisions.civilresolutionbc.ca",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:31 GMT",
+    "content-type": "application/pdf",
+    "content-length": "191298",
+    "server": "envoy",
+    "strict-transport-security": "max-age=31536000 ; includeSubDomains",
+    "content-disposition": "inline; filename=\"SC-2023-005609_-_Decision.pdf\"",
+    "x-robots-tag": "noindex",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-store, no-cache, must-revalidate",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "0",
+    "x-frame-options": "SAMEORIGIN",
+    "x-envoy-upstream-service-time": "434",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:30.410729+00:00",
+  "sha256": "4dd97ce46d0d3f858488dd5ddfac85ec6fb993fcf7ba85567bd2875548f7e394",
+  "bytes": 191298,
+  "body_path": "/workspace/freshness-control/transport-evidence/31545cd37ac34efea7df4ac4ba7c3874.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/31545cd37ac34efea7df4ac4ba7c3874.body"
+}

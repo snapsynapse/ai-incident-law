@@ -1,0 +1,22 @@
+{
+  "id": "0f2187e48b6345a1ab96b9996058bf76",
+  "url": "https://fisherphillips.com/robots.txt",
+  "kind": "robots",
+  "host": "fisherphillips.com",
+  "status": 301,
+  "headers": {
+    "content-length": "0",
+    "location": "https://www.fisherphillips.com/robots.txt",
+    "x-envoy-upstream-service-time": "196",
+    "date": "Sat, 03 Oct 2026 18:37:31 GMT",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:31.279628+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/0f2187e48b6345a1ab96b9996058bf76.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/0f2187e48b6345a1ab96b9996058bf76.body"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "7721596519de4c87aefe3e26688c960d",
+  "url": "https://canliiconnects.org/robots.txt",
+  "kind": "robots",
+  "host": "canliiconnects.org",
+  "status": null,
+  "headers": {},
+  "complete": false,
+  "error": "[Errno -3] Temporary failure in name resolution",
+  "retrieved_at": "2026-10-03T03:01:40.036998+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/7721596519de4c87aefe3e26688c960d.body"
+}

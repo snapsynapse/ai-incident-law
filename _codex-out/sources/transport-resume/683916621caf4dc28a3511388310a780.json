@@ -1,0 +1,29 @@
+{
+  "id": "683916621caf4dc28a3511388310a780",
+  "url": "https://clearinghouse.net/robots.txt",
+  "kind": "robots",
+  "host": "clearinghouse.net",
+  "status": 200,
+  "headers": {
+    "content-type": "text/plain",
+    "content-length": "199",
+    "date": "Sat, 03 Oct 2026 18:37:27 GMT",
+    "server": "envoy",
+    "last-modified": "Thu, 21 May 2026 04:29:30 GMT",
+    "accept-ranges": "bytes",
+    "vary": "Accept-Encoding,User-Agent",
+    "x-cache": "Miss from cloudfront",
+    "via": "1.1 fd407fe7b2bb39801ba9f32e29a6bd42.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "ORD58-P15",
+    "x-amz-cf-id": "Q_TwL7jlbLMnTw2JqfNa4pBkb5R7C_zKtW5dG5ZwLzFG4pb7gA443w==",
+    "x-envoy-upstream-service-time": "116",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:27.632108+00:00",
+  "sha256": "835c62350eec05be069b304bfb4f68c32b005de83e24befa8d28c73d45572185",
+  "bytes": 199,
+  "body_path": "/workspace/freshness-control/transport-evidence/683916621caf4dc28a3511388310a780.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/683916621caf4dc28a3511388310a780.body"
+}

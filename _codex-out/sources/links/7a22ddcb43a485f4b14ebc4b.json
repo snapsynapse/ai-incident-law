@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://reason.com/volokh/2026/09/04/incredulity-that-competent-law-firm-representing-one-of-the-largest-financial-institutions-in-the-world-filed-brief-with-ai-hallucinations/",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "4f327a5c78024b76b69b0cfaf73a8bfd",
+      "url": "https://reason.com/robots.txt",
+      "kind": "robots",
+      "host": "reason.com",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T03:03:47.772597+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/4f327a5c78024b76b69b0cfaf73a8bfd.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:03:47.789660+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://reason.com/volokh/2026/09/04/incredulity-that-competent-law-firm-representing-one-of-the-largest-financial-institutions-in-the-world-filed-brief-with-ai-hallucinations/",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/7a22ddcb43a485f4b14ebc4b.body"
+}

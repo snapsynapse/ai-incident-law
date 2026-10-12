@@ -1,0 +1,22 @@
+{
+  "id": "46d09ec3a0cd4dd7bd73aace1f62a905",
+  "url": "https://burr.com/robots.txt",
+  "kind": "robots",
+  "host": "burr.com",
+  "status": 302,
+  "headers": {
+    "content-length": "0",
+    "location": "https://www.burr.com/robots.txt",
+    "cache-control": "no-cache",
+    "x-envoy-upstream-service-time": "140",
+    "date": "Sat, 03 Oct 2026 18:37:19 GMT",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:19.419226+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/46d09ec3a0cd4dd7bd73aace1f62a905.body"
+}

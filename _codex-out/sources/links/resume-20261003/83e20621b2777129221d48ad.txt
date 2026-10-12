@@ -1,0 +1,664 @@
+                             In the
+
+    United States Court of Appeals
+                For the Seventh Circuit
+                    ____________________
+No. 25-1988
+HERIBERTO PEREZ-CASTILLO,
+                                                      Petitioner,
+                                v.
+
+TODD W. BLANCHE, Acting Attorney General of the United
+States,
+                                            Respondent.
+                    ____________________
+
+                   Petition for Review of an Order
+               of the Board of Immigration Appeals.
+                          No. A206-788-938
+                    ____________________
+
+     ARGUED FEBRUARY 17, 2026 — DECIDED JUNE 1, 2026
+                 ____________________
+
+   Before BRENNAN, Chief Judge, and RIPPLE and TAIBLESON,
+Circuit Judges.
+    BRENNAN, Chief Judge. Heriberto Perez-Castillo petitioned
+this court to review a ﬁnal order of removal from this country.
+At the same time, his immigration case raises a pressing con-
+cern facing the legal profession today: the use of artiﬁcial in-
+telligence (“AI”) in litigation. Perez-Castillo’s opening brief
+was riddled with AI hallucinations. These included two
+2                                                    No. 25-1988
+
+dozen fabricated quotations, seven cases wrongly identiﬁed
+as precedent from this circuit, erroneous legal propositions,
+and assertions of fact ﬂatly contradicted by the record.
+    Counsel for Perez-Castillo, Abdullah Salah, blamed these
+errors on another attorney with whom he had contracted to
+write the brief. That attorney, Farah Chalisa, did not enter an
+appearance in this case. In Salah’s telling, Chalisa used
+ChatGPT for “stylistic and grammatical review” that resulted
+in the hallucinations. To better understand what happened,
+we issued an order to show cause why both attorneys should
+not be sanctioned for their conduct. Both Salah and Chalisa
+responded, oﬀering their respective sides of the story.
+    On the merits, we deny Perez-Castillo’s petition for review
+because it cannot succeed as a matter of law. As for attorney
+Salah, we impose a ﬁne of $5,000 for violating this court’s
+rules of professional conduct and multiple Federal Rules of
+Appellate Procedure. Though we decline to sanction attorney
+Chalisa at this time, we refer this matter to the Attorney Reg-
+istration and Disciplinary Commission of Illinois for any fur-
+ther action it deems appropriate.
+                                I
+                                A
+    Heriberto Perez-Castillo is a citizen of Mexico who has
+lived illegally in the United States for most of his life. He ﬁrst
+arrived as an infant, but in 2002 he re-entered the country
+without inspection after brieﬂy leaving. Perez-Castillo has
+had several run-ins with law enforcement throughout his
+time in the United States, including multiple arrests for drug
+crimes and domestic violence.
+No. 25-1988                                                    3
+
+   One criminal incident matters here. Late one night in 2012,
+Perez-Castillo showed up “highly intoxicated” to his mother’s
+house. They got into an argument. According to the police re-
+port, Perez-Castillo then pushed his mother to the ﬂoor,
+kicked her eye, and hit her on the head with “a closed beer he
+held in his hand.” When his brother and two sisters tried to
+break up the ﬁght, he punched each of them in the face, giving
+them bloody noses.
+    Perez-Castillo was convicted of battery under Illinois law.
+See 720 ILCS 5/12-3(a)(1). The court sentenced him to eighteen
+months of supervision, some of which he served in prison af-
+ter he violated the terms of his supervision.
+    When the Department of Homeland Security initiated
+removal proceedings against Perez-Castillo, his conviction
+became a sticking point. Perez-Castillo conceded his remova-
+bility but applied for cancellation of removal under 8 U.S.C.
+§ 1229b(b). The immigration judge denied his application,
+concluding that Perez-Castillo was ineligible for this form of
+discretionary relief. Federal immigration law bars anyone
+convicted of a “crime of domestic violence” from receiving
+this remedy. Id. at (b)(1)(C) (cross-referencing id.
+§ 1227(a)(2)(E)(i)). Because the victims of his battery convic-
+tion were his mother and siblings, the immigration judge con-
+cluded he was categorically ineligible for cancellation of re-
+moval.
+    Independent of his prior conviction, the immigration
+judge gave another reason for rejecting Perez-Castillo’s appli-
+cation. By statute, an applicant is eligible for cancellation of
+removal only if his removal “would result in exceptional and
+extremely unusual hardship to the alien’s spouse.” Id.
+§ 1229b(b)(1)(D). Perez-Castillo’s wife, a United States citizen,
+4                                                   No. 25-1988
+
+did have some health problems and depended on her hus-
+band to provide for her needs. But she also lived near her fa-
+ther and four adult children from a previous marriage, who
+could help ease the ﬁnancial and emotional strain. The immi-
+gration judge concluded that these hardships, though real,
+were not “substantially beyond the hardship typically experi-
+enced when a family member is removed from the United
+States.”
+    The Board of Immigration Appeals aﬃrmed. It agreed in
+full with the immigration judge’s conclusion that the battery
+conviction was a “crime of domestic violence.” And the Board
+noted that Perez-Castillo waived his challenge to the immi-
+gration judge’s hardship analysis by failing to raise it before
+the Board. Perez-Castillo timely petitioned this court for re-
+view. 8 U.S.C. §§ 1252(a)(1), (b)(1).
+                               B
+    Cancellation of removal is a discretionary remedy, so we
+review the decisions of the immigration judge and the Board
+of Immigration Appeals with a high degree of deference. San-
+tos Mendoza v. Bondi, 151 F.4th 900, 903, 905 (7th Cir. 2025). We
+lack jurisdiction to revisit the facts found by the agency. 8
+U.S.C. § 1252(a)(2)(B); see Patel v. Garland, 596 U.S 328, 347
+(2022). And though we have jurisdiction to consider mixed
+questions of law and fact, 8 U.S.C. § 1252(a)(2)(D), we apply a
+“deferential standard of review.” Wilkinson v. Garland, 601
+U.S. 209, 222 (2024).
+   The unanimous Supreme Court recently explained the
+standard of review we apply to all ﬁnal orders of removal re-
+viewable under § 1252(a). Urias-Orellana v. Bondi, 146 S. Ct.
+845, 851 (2026). Mixed questions of law and fact—like the
+No. 25-1988                                                              5
+
+question of exceptional and extremely unusual hardship in
+this case—are reviewed for “substantial evidence.” Id. Appel-
+late courts reverse under that test only “if, in reviewing the
+record as a whole, any reasonable adjudicator would be com-
+pelled to conclude to the contrary.” Id. at 849; see also 8 U.S.C.
+§ 1252(b)(4)(B). 1 Pure questions of law, by contrast, are re-
+viewed de novo. Urias-Orellana, 146 S. Ct. at 849 n.1. But most
+questions in the immigration context are mixed questions of
+law and fact, so the immigration judge’s overall conclusions
+merit signiﬁcant deference. Wilkinson, 601 U.S. at 222.
+    Applying these principles, we must deny this petition for
+review. Before anything else, Perez-Castillo waived any chal-
+lenge to the immigration judge’s hardship determination in
+front of the Board of Immigration Appeals. 2 And he did not
+challenge the Board’s waiver determination before this court.
+Waiver alone requires us to deny his petition. See Munoz-Ri-
+vera v. Garland, 81 F.4th 681, 687–88 (7th Cir. 2023). A
+petitioner is eligible for cancellation of removal only if he af-
+ﬁrmatively establishes that all four criteria in the statute are
+satisﬁed, including the hardship prong. Santos Mendoza, 151
+F.4th at 906. That burden was not satisﬁed here.
+
+
+    1 This court has observed that “circuit courts have engaged in a fairly
+
+abstract debate about a precise formulation for the appropriate deferential
+standard of review” after the Wilkinson decision. Santos Mendoza, 151 F.4th
+at 905 (collecting cases). Though we did not choose a side in that dispute,
+Urias-Orellana answers the question for us. The substantial evidence test
+applies because § 1252’s jurisdictional provisions do “not speak to the
+standard of review for removal orders.” Urias-Orellana, 146 S. Ct. at 854.
+The only provision speaking to standard of review is § 1252(b)(4), so we
+follow Urias-Orellana’s interpretation of that provision.
+    2 See Administrative Record at 3–4.
+6                                                     No. 25-1988
+
+    Even if we did reach the hardship question, nothing in the
+administrative record compels us to reverse the rulings of ei-
+ther the immigration judge or the Board. The immigration
+judge considered all the relevant factors, including the age,
+health, and other circumstances of Perez-Castillo’s wife (his
+qualifying relative). Yet, she determined that these
+circumstances are not out of the ordinary. We agree with her
+reasoning. Removal will always cause hardship for a spouse
+or family member. The mitigating factors in this case, includ-
+ing the ready availability of family support, indicate that Pe-
+rez-Castillo’s wife faces no “exceptional and extremely
+unusual hardship.” 8 U.S.C. § 1229b(b)(1)(D). At the least, the
+immigration judge is due deference under the substantial ev-
+idence test, and nothing in this record compels a contrary con-
+clusion. Id. § 1252(b)(4)(B).
+    Finally, Perez-Castillo’s application fails because of his
+battery conviction. Independent of the hardship analysis, a
+petitioner is ineligible for cancellation of removal if he has
+been convicted of a “crime of domestic violence.” 8 U.S.C.
+§ 1229b(b)(1)(C) (cross-referencing id. § 1227(a)(2)(E)(i)).
+There are two steps to determine whether an oﬀense counts
+as a “crime of domestic violence.” The ﬁrst is whether the of-
+fense is a “crime of violence” under 18 U.S.C. § 16. Caldera-
+Torres v. Garland, 66 F.4th 651, 653 (7th Cir. 2023). The second
+is whether the victim of that oﬀense was a family member
+listed in 8 U.S.C. § 1227(a)(2)(E)(i). Id.
+    Perez-Castillo’s conviction ﬁts the bill. On the ﬁrst prong,
+this court has repeatedly held that a battery conviction under
+720 ILCS 5/12-3(a)(1) categorically qualiﬁes as a “crime of vi-
+olence.” See, e.g., United States v. Shaﬀers, 22 F.4th 655, 666 (7th
+Cir. 2022) (citing United States v. Vesey, 966 F.3d 694, 697 (7th
+No. 25-1988                                                            7
+
+Cir. 2020)). And an oﬀender’s mother and siblings are “pro-
+tected from that individual’s acts under the domestic or fam-
+ily violence laws of” Illinois. 8 U.S.C. § 1227(a)(2)(E)(i); see 720
+ILCS 5/12-3.2(a) (proscribing battery against “any family or
+household member”), and id. at 5/12-0.1 (deﬁning “family or
+household members” to include “parents, … and other per-
+sons related by blood”). Because Perez-Castillo does not con-
+test that his mother and siblings were the victims of his 2012
+battery conviction, he is ineligible for cancellation of removal.
+   For these reasons, the decisions of both the immigration
+judge and the Board stand. We deny this petition for review.
+                                     II
+   That is not the end of this matter. As we reviewed the case,
+we discovered several problems with the petitioner’s brief.
+Roughly half of the cases cited in the brief either do not exist
+or were falsely labeled as Seventh Circuit cases. Moreover,
+nearly every quotation in the brief could not be traced to a real
+opinion—hallmarks of AI hallucinations. 3
+    Suspecting that AI was used to prepare the brief, we took
+a series of steps to better understand how these errors came
+about. For the beneﬁt of other courts facing similar issues, we
+detail these steps before turning to sanctions.
+                                     A
+   The ﬁrst twelve pages of the petitioner’s opening brief ap-
+peared ordinary, aside from a few errors. 4 But the ﬁrst several
+
+    3 Salah did not file a reply brief on behalf of Perez-Castillo.
+
+    4 The brief included incorrect dates and a record cite mismatched to
+
+the sentence it supported. It also stated the Immigration Judge issued an
+oral decision when she issued a written decision.
+8                                                           No. 25-1988
+
+pages of the standard of review and discussion sections in-
+cluded quotes that could not be found in the cited opinions.
+    The last eleven pages of the brief contained the most seri-
+ous errors. From pages 19 to 29, every quote appeared to be
+an AI hallucination. And many of the “Seventh Circuit” cases
+cited turned out to be mislabeled opinions from other circuits
+that were unrelated to the issues in this case. One case does
+not exist at all. 5 All told, there were twenty-four unattributa-
+ble or outright false quotes, along with at least seven misla-
+beled or nonexistent cases.
+     As troubling were the false or unsupported claims about
+the record recited in the brief. For one, it described “[c]redited
+testimony” that Perez-Castillo’s “U.S. citizen children” would
+face hardships with their education, because they were
+“deeply integrated into local schools.” Yet all Perez-Castillo’s
+children are over the age of twenty-ﬁve and out of school. For
+another, it argued that the agency ignored “extensive docu-
+mentation detailing pervasive economic instability, lack of ac-
+cessible healthcare, and political insecurity in Petitioner’s
+home country.” So, his wife and children would face the
+choice of “relocating to a country where their safety, educa-
+tion, and healthcare would be compromised” or remaining in
+this country without his support. But the record contains no
+evidence of political instability in Mexico, and Perez-Cas-
+tillo’s wife testiﬁed that even if her husband was deported,
+she planned to stay in the United States. Finally, in discussing
+the hardship standard, the brief suggests the Board of
+
+
+    5 To avoid memorializing errors, we have chosen not to include any
+
+of the false citations or quotes in this opinion. The original brief can be
+found at docket entry 15 on the CM/ECF page for this case.
+No. 25-1988                                                    9
+
+Immigration Appeals disregarded the Immigration Judge’s
+factual ﬁndings and “insert[ed] its own unsupported assump-
+tions” into the record. In reality, the Board did not discuss any
+of this evidence in its two-page opinion because it concluded
+that Perez-Castillo waived his hardship challenge.
+                               B
+    After discovering these issues, we ordered the petitioner
+to respond and explain “whether any form of generative-arti-
+ﬁcial intelligence (AI) assistance was used in preparing the
+petitioner’s brief.” We also reinstated oral argument, which
+had previously been waived at the joint request of the parties.
+And we instructed the parties to be prepared to discuss these
+concerns in person. That order was issued three and a half
+weeks before oral argument.
+    Two weeks later, Attorney Salah ﬁled his response. He ad-
+mitted AI was used in preparing the brief but attributed it to
+another lawyer. Salah informed us that he had outsourced the
+research and preparation of the brief to Farah Chalisa, a mem-
+ber of the Illinois bar. In fact, Salah conceded that he “had no
+input in the research and preparation of the brief and fully
+believed that it was in compliance with all court rules, orders
+and the Rules of Ethics.” Salah claimed that Chalisa told him
+she used AI “for the limited purpose of stylistic and grammat-
+ical review,” but she did not do a “ﬁnal and complete line by
+line veriﬁcation of quotations and citations.”
+    Salah also informed us that he was waiting for corrections
+from Chalisa so he could ﬁle a revised brief. He ultimately
+ﬁled that brief late the night before oral argument. Though the
+new brief did replace the inaccurate citations with real cases,
+it did not cure all deﬁciencies. The text of the new brief was
+10                                                         No. 25-1988
+
+substantially unchanged. In many places, it still made sweep-
+ing, unsupported statements about our caselaw. And it did
+not remedy the factual problems about Perez-Castillo’s family
+and the agency proceedings.
+                                    C
+    At oral argument, we inquired about Salah’s response to
+our order regarding AI use in petitioner’s brief. 6 He reiterated
+that Chalisa wrote the brief in full and that he played no part
+in preparing it. “[H]er contention” remained that the errors
+were the product of a grammar check run through ChatGPT.
+In his words, the “citations were changed in a way that I don’t
+understand.”
+    When questioned, Salah admitted he had not reviewed the
+original brief for accuracy. Nor had he reviewed the edited
+brief. And when asked about the factual misrepresentations
+in the record, he struggled to answer basic questions about
+the age of his client’s children.
+    In a particularly telling exchange, Salah defended his
+choice not to review the briefs by pointing at Chalisa. He said,
+“I assume when an attorney has put themselves out there as
+an attorney that … writes briefs that they’re following the
+rules. And I didn’t believe that it was on me to redo the brief
+for someone who’s writing briefs as an attorney.” We re-
+minded him that under the Federal Rules of Appellate Proce-
+dure and this court’s standards of professional conduct, he
+
+
+
+
+     6 The audio recording of the oral argument for this case can be found
+
+on the court’s website. The discussion of AI usage in the brief begins at
+4:13 and resumes at 15:49.
+No. 25-1988                                                 11
+
+was responsible for any brief going out in his name. Salah re-
+plied, “I understand.”
+                              D
+    After oral argument, we issued an order to show cause di-
+rected at both Salah and Chalisa. We noted that both briefs
+might run afoul of several Federal Rules of Appellate Proce-
+dure and that we were considering sanctions. In his response,
+Salah again ascribed the errors to Chalisa, but he admitted he
+should have reviewed the brief.
+    Chalisa’s response provided more details. Through
+counsel, she admitted she “used ChatGPT to perform the
+copyediting tasks necessary” to ensure the brief “was as
+grammatically correct as possible,” as well as to conﬁrm that
+it was “structurally and stylistically appropriate.” Yet, she
+averred she did not use ChatGPT or any other large language
+AI model “to perform any legal research or to draft the peti-
+tion itself.” She did, however, hint at using “any system in-
+corporated into Lexis/Nexis” as part of her research process—
+a portion of her response that is still unclear.
+   Chalisa submits that during this grammar check, ChatGPT
+“hallucinate[d] facts not present in the record in this matter
+and insert[ed] them into the draft petition.” She also says it
+rendered her “correct case citations incorrect by changing cir-
+cuit numbers, page numbers, and the like.” She asserts she “in
+no way instructed or prompted ChatGPT to do any of that.
+But that is what it did.”
+   Then, without further review, Chalisa sent the “grammar-
+checked” brief to Salah, who ﬁled it with this court. After Sa-
+lah learned about the errors, he asked Chalisa to ﬁx the brief.
+She submits that she “understood Mr. Salah to be asking for
+12                                                           No. 25-1988
+
+her assistance with correcting case citations,” but she was
+“not aware of the factual errors that remained in the petition.”
+So, she removed the erroneous citations and “sent the cor-
+rected petition back to Mr. Salah.”
+     Overall, Chalisa’s response is apologetic. Expressing her
+regret for these mistakes, she accepts responsibility for not
+checking the brief after using ChatGPT. And she assures us
+this “will not happen again.” She also committed to attending
+Illinois’s Minimum Continuing Legal Education course on the
+risks, beneﬁts, and ethical considerations of using AI. Noting
+that she is a new attorney who has worked as a sole practi-
+tioner since 2025, she asks us to discharge the order to show
+cause without imposing sanctions. 7
+                                    III
+    Not every case involving the misuse of AI merits sanc-
+tions. This court chose not to sanction a pro se litigant who
+included a few “non-existent quotations” in his appellate
+brief. Jones v. Kankakee Cnty. Sheriﬀ’s Dep’t, 164 F.4th 967, 969–
+71 (7th Cir. 2026). So too where a member of this court’s bar
+submitted a brief with similar errors in its standard of review
+section, which were “presumably copied and pasted” from
+another brief. Dec v. Mullin, 171 F.4th 940, 946–47 (7th Cir.
+2026). Because that attorney did not misrepresent the facts or
+substantive law, and given her acceptance of responsibility
+and sincere apology, we merely admonished her. Id. at 947.
+   This case is categorically diﬀerent. The petitioner’s brief
+was replete with false quotations, erroneous statements of
+law, and factual representations contradicted by the record.
+
+
+     7 Chalisa was admitted to the Illinois bar in January 2021.
+No. 25-1988                                                      13
+
+Further, the attorney who signed the brief admitted to violat-
+ing this court’s rules of professional conduct but did not take
+responsibility or apologize. The author of the brief has shown
+contrition, yet she has not provided a fully satisfying expla-
+nation for these errors. We address each attorney’s culpability
+in turn.
+                                 A
+    Federal courts confronted with AI hallucinations in briefs
+and motions have identiﬁed several sources of authority for
+sanctions. Most district courts rely on Federal Rule of Civil
+Procedure 11, 28 U.S.C. § 1927, and the court’s inherent au-
+thority to sanction for bad faith conduct. See generally Zheng v.
+Internet Corp. for Assigned Names and Nos., 813 F. Supp. 3d
+1135, 1138–44 (C.D. Cal. 2025); Disability Rights Miss. v. Palmer
+Home for Children, No. 1:24-cv-99-SA-DAS, 2025 WL 3691876
+(N.D. Miss. 2025); Obi v. Cook County, No. 25-cv-3096, 2026 WL
+1001481 (N.D. Ill. 2026). The courts of appeals, by contrast,
+have invoked a few diﬀerent sources for sanctioning attor-
+neys. No uniﬁed approach prevails. See, e.g., Amarsingh v.
+Frontier Airlines, Inc., No. 24-1391, 2026 WL 352016, at *5–8
+(10th Cir. 2026) (electing to proceed under FED. R. APP. P. 38);
+Fletcher v. Experian Info. Sols., Inc., 168 F.4th 231, 239–40 (5th
+Cir. 2026) (invoking FED. R. APP. P. 46 and inherent powers);
+Whiting v. City of Athens, 170 F.4th 455, 459 (6th Cir. 2026) (FED.
+R. APP. P. 38 and inherent authority, not Rule 46).
+    For Salah, as counsel of record, we elect to impose sanc-
+tions under Federal Rule of Appellate Procedure 46. This rule
+aﬀords federal courts of appeals broad power to “suspend,
+disbar, or discipline a member of our bar ‘for conduct unbe-
+coming a member of the bar.’” Camacho-Valdez v. Garland, 30
+F.4th 675, 679 (7th Cir. 2022) (quoting FED. R. APP. P. 46(b), (c)).
+14                                                   No. 25-1988
+
+We invoke Rule 46 in situations where “counsel’s unbecom-
+ing conduct aﬀects other litigants or misleads the court.” Id.
+(citation omitted). That includes cases where counsel makes
+factual misrepresentations in briefs, whether intentional or
+not. Waldon v. Wal-Mart Stores, Inc., 943 F.3d 818, 824–26 (7th
+Cir. 2019) (collecting cases); see also Klein v. O’Brien, 884 F.3d
+754, 757–58 (7th Cir. 2018). So, we see Rule 46 as the natural
+ﬁt for a case involving attorney misconduct that permitted un-
+checked AI hallucinations to be included in a brief. Accord
+Fletcher, 168 F.4th at 239 (Fifth Circuit invokes Rule 46 when
+an attorney “used [AI] to draft a substantial portion—if not
+all—of her reply brief”); D’Ambrosio v. Meta Platforms, Inc., No.
+25-2231, 2026 WL 1361951, at *12 (7th Cir. 2026) (using Rule 46
+as the basis for an order to show cause involving AI errors).
+    In its seminal case interpreting Rule 46, the Supreme
+Court held that “conduct unbecoming a member of the bar”
+is “conduct contrary to professional standards that shows an
+unﬁtness to discharge continuing obligations to clients or the
+courts, or conduct inimical to the administration of justice.”
+In re Snyder, 472 U.S. 634, 645 (1985). When attorneys make
+“misrepresentations, omissions, or failures of inquiry,” we
+can impose sanctions—whether the attorneys are “deliber-
+ately misleading the court,” “displaying egregious
+misjudgment,” or even are negligent. In re Lightfoot, 217 F.3d
+914, 916–17 (7th Cir. 2000) (collecting cases). In many ways,
+our approach to evaluating misrepresentations parallels the
+inquiry district courts conduct under Federal Rule of Civil
+Procedure 11. In re Kelly, 808 F.2d 549, 551 (7th Cir. 1986) (Rule
+11 “is not incorporated by reference or otherwise in any rule
+of this court, but its requirements help to deﬁne conduct be-
+coming a member of the bar.”).
+No. 25-1988                                                     15
+
+    Rule 46 includes the power to impose monetary sanctions.
+Camacho-Valdez, 30 F.4th at 679–80; Waldon, 943 F.3d at 825
+(collecting cases); In re Boyle-Saxton, 668 F.3d 471, 472 (7th Cir.
+2012) (issuing order to show cause why attorney “should not
+be ﬁned” for defying a court order). This court has ﬁned
+members of our bar under Rule 46 for submitting briefs in-
+cluding statements “not well grounded in fact or law” that
+“falsely impute[] a particular position to this court.” Mays v.
+Chi. Sun-Times, 865 F.2d 134, 140 (7th Cir. 1989). And we have
+invoked Rule 46(c) to impose monetary penalties on attorneys
+who improperly certify portions of their brief, especially
+when there are factual misrepresentations. In re Galvan, 92
+F.3d 582, 584 (7th Cir. 1996); Waldon, 943 F.3d at 824–26.
+    In this case, Salah has engaged in conduct unbecoming of
+members of the bar. He signed his name to a brief containing
+many AI hallucinations. He admitted he did not review the
+brief before submitting it. Yet he signed and submitted it, cer-
+tifying that the representations in the brief were warranted by
+existing law and supported by the record. That conduct alone
+“display[s] egregious misjudgment” and is inimical to the ad-
+ministration of justice, making it sanctionable under Rule 46.
+Lightfoot, 217 F.3d at 916.
+    What is more, Salah did not review the second version of
+the brief before submitting it—even after this court put him
+on notice about its factual and legal deﬁciencies. Though the
+false citations were changed, the revised brief still contained
+unsupported assertions and at least two hallucinated quotes
+from the original brief. In these circumstances, we would ex-
+pect members of this court’s bar to scrutinize the brief before
+re-submitting it. Salah did not take these precautions.
+16                                                         No. 25-1988
+
+    Both versions of the brief violate Federal Rule of Appellate
+Procedure 28. See McCurry v. Kenco Logistics Servs., LLC, 942
+F.3d 783, 791 (7th Cir. 2019) (attorneys violate Rule 28 when
+they submit briefs “laden with assertions that have no basis
+in the record and arguments that have no basis in the law”).
+Moreover, Salah ﬂouted his duties to this court. “Under this
+circuit’s standards for professional conduct, lawyers promise
+that they will ‘not knowingly misrepresent, mischaracterize,
+misquote, or miscite facts or authorities in any oral or written
+communication to the court.’” Dec, 171 F.4th at 947 (quoting
+this court’s Standards for Professional Conduct). It could be
+debated whether Salah misrepresented the law or facts
+“knowingly” in the ﬁrst version of his brief. But the same can-
+not be said for his second brief. Salah submitted that version
+again without review, this time fully aware of the risk of er-
+rors. Attorneys practicing before this court should never sign
+and submit a brief they have not reviewed. That is especially
+true when they know the brief might contain serious misrep-
+resentations. 8
+    For all these reasons, we impose a ﬁne of $5,000 on Salah
+under Federal Rule of Appellate Procedure 46(c). We do not
+believe it is appropriate to bar him from practicing before this
+court at this time, as he has no prior record of misconduct. But
+Salah is on notice that the next time any incident occurs, he
+could be subject to disbarment before this court. We impose
+this ﬁne to reﬂect the seriousness of submitting briefs
+
+
+
+     8 Salah says he failed to review the revised brief because this court
+
+declined to postpone oral argument. Oral Arg. at 15:49. But Salah had over
+three weeks from the date we alerted him to the AI hallucinations before
+oral argument. That was plenty of time to identify and correct errors.
+No. 25-1988                                                   17
+
+containing AI hallucinations to this court, which is “inimical
+to the administration of justice.” Snyder, 472 U.S. at 645.
+                               B
+    Our authority to sanction Chalisa rests on other grounds.
+Only “an attorney who practices before” a federal court of ap-
+peals can be sanctioned under Rule 46(c). Chalisa is not ad-
+mitted to this court’s bar and she did not enter an appearance
+in this case. We have hesitated to sanction lawyers who are
+not admitted to this court’s bar under Rule 46, even when they
+technically “practice[] before” this court. Cf. Gorokhovsky v.
+Stefantsova, 825 F. App’x 375, 377 (7th Cir. 2020) (“Gorokhov-
+sky is not a member of our bar and therefore cannot be disci-
+plined under Rule 46[(b)].”). And it is not clear that merely
+writing a brief qualiﬁes Chalisa as someone who “practice[d]
+before” us in this matter.
+    Still, federal courts have inherent authority to “punish the
+full range of litigation abuses.” Manez v. Bridgestone Firestone
+N. Am. Tire, LLC, 533 F.3d 578, 591 (7th Cir. 2008) (citing Cham-
+bers v. NASCO, Inc., 501 U.S. 32, 46 (1991)). That power is not
+limited to attorneys who practice before this court; it reaches
+anyone who engages in bad faith conduct impacting our abil-
+ity to manage and decide cases. “No matter who allegedly
+commits a fraud on the court—a party, an attorney, or a non-
+party witness—the court has the inherent power to conduct
+proceedings to investigate that allegation and, if it is proven,
+to punish that conduct.” Id. at 585. We invoked this authority
+to issue the order to show cause to Chalisa. After putting her
+on notice of the errors and giving her an opportunity to ex-
+plain herself, we can impose sanctions on her.
+18                                                  No. 25-1988
+
+    At this juncture, though, we decline to do so. We have no
+evidence that Chalisa committed fraud on this court, nor does
+anything in her apologetic response indicate bad faith. In
+these speciﬁc circumstances, inherent authority sanctions are
+not necessary or appropriate. Nevertheless, we admonish her,
+as her use of AI in drafting this brief “result[ed] in confusion
+and time wasted” for this court. Dec, 171 F.4th at 948. Attor-
+neys must ensure that their work product does not contain
+false legal citations or factual errors, whether they enter an
+appearance in the case or not.
+                               C
+    Beyond the issue of monetary sanctions, we think it best
+to refer this matter to the Attorney Registration and Discipli-
+nary Commission of Illinois. Cnty., Mun. Emps.’s Supervisors’
+and Foremen’s Union Loc. 1001 v. Laborers’ Int’l Union of N. Am.,
+365 F.3d 576, 580 (7th Cir. 2004). Even after conducting our
+own inquiry into the matter, questions remain as to how such
+egregious errors made their way into this brief.
+     Chalisa correctly expressed remorse in her response to the
+order to show cause. But her factual explanations are wanting.
+It is unlikely that such pervasive errors would arise through a
+grammar check. Moreover, the way Chalisa handled the revi-
+sions process was perplexing. She claims she was “not aware
+of the factual errors that remained in the petition.” At the
+same time, she maintains her pre-ChatGPT draft contained no
+factual errors, as far as she knew. Yet, an author familiar with
+this case could not miss these glaring fact problems, especially
+because they were intertwined with fabricated quotations.
+  An ARDC review of this case would help us to know if
+Chalisa’s response to our show cause order accurately reﬂects
+No. 25-1988                                                      19
+
+the nature of her AI usage. See Ill. R. Pro. Conduct (2010) R.
+3.3(a)(1) (eﬀ. Jan. 1, 2010) (“A lawyer shall not knowingly
+make a false statement of fact or law to a tribunal.”). Further,
+we note some concern about whether the client consented to
+the contractual agreement between Salah and Chalisa. Both
+attorneys’ responses to our orders depict an agreement that
+raises the possibility of an impermissible fee-splitting ar-
+rangement. See Ill. R. Pro. Conduct (2010) R. 1.5(b), (f) (eﬀ. July
+1, 2023). At oral argument, Salah said “the client was aware”
+other attorneys outside the ﬁrm would be “involved” in pre-
+paring the brief. Oral Arg. at 6:37. But he admitted he did not
+discuss the terms of Chalisa’s fee with Perez-Castillo “to that
+[level of] detail.” The Illinois Rules require the client to con-
+sent, in writing, to this kind of arrangement. See also Ill. R. Pro.
+Conduct (2010) R. 1.2(e) (eﬀ. Jan. 1, 2016). The ARDC may
+conduct a more searching review of these questions.
+                                IV
+    Because there is no merit to Perez-Castillo’s argument for
+cancellation of removal, we deny his petition for review. We
+also note that Perez-Castillo has not been prejudiced by the
+shortcomings of his attorneys. Pure legal considerations bar
+his application for cancellation of removal. Plus, a diﬀerent
+attorney represented him in the agency proceedings. That at-
+torney waived the challenge to the immigration judge’s hard-
+ship determination, undercutting this petition.
+    We impose monetary sanctions of $5,000 on attorney Ab-
+dullah Salah under Federal Rule of Appellate Procedure 46(c)
+because he failed to check the AI-hallucinated citations, legal
+propositions, and factual representations in two briefs he
+signed and submitted to this court. We do not impose sanc-
+tions on attorney Farah Chalisa at this time.
+20                                                   No. 25-1988
+
+    We also direct the clerk of this court to send copies of this
+opinion to the Attorney Registration and Disciplinary Com-
+mission of Illinois for such consideration as it sees ﬁt. Wade v.
+Soo Line R.R. Corp., 500 F.3d 559, 566 (7th Cir. 2007). Further,
+we direct the clerk of court to include copies of the petitioner’s
+briefs (ﬁrst and second versions); Salah’s initial response to
+our January 23, 2026 order alerting him to the AI hallucina-
+tions; both responses to our order to show cause; and the re-
+cording of the oral argument. Upon request, the clerk of court
+may also forward any other documents necessary to give the
+ARDC context for this matter. See United States v. Roti, 484 F.3d
+934, 938 (7th Cir. 2007).
+    We will not discharge our show cause order until the
+ARDC has had a chance to review this matter. We direct at-
+torney Salah and attorney Chalisa each to ﬁle a status report
+with this court informing us whether the ARDC has chosen to
+investigate. Those reports should be ﬁled one year from the
+date this case is decided, or within seven days of any ﬁnal ac-
+tion by the ARDC, whichever comes ﬁrst. At that point, we
+may consider whether additional sanctions are appropriate.
+    There is “little doubt that litigants and courts” will de-
+velop “sound and workable practices” governing AI usage in
+due time, but that point has not yet arrived. Dec, 171 F.4th at
+947 (quoting Jones, 164 F.4th at 970). Briefs like those peti-
+tioner’s counsel submitted in this case are unacceptable and
+“result in confusion and time wasted” for this court. Id. at 948.
+Members of this court’s bar must be exceedingly careful about
+outsourcing their work product. At all times, attorneys must
+follow both the Federal Rules of Appellate Procedure and this
+No. 25-1988                                              21
+
+court’s Rules of Professional Conduct. If not, sanctions may
+follow.
+                          PETITION DENIED WITH SANCTIONS
+

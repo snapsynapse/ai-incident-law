@@ -1,0 +1,28 @@
+{
+  "id": "6f7a88dcdeef45f99802151d03187041",
+  "url": "https://news.bloomberglaw.com/litigation/morgan-morgan-lawyers-fined-for-hallucinated-ai-citations",
+  "kind": "fetch",
+  "host": "news.bloomberglaw.com",
+  "status": 200,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:44 GMT",
+    "content-type": "text/html",
+    "content-length": "136183",
+    "x-amzn-requestid": "6931035c-bb18-43d7-8ed4-ec861ed6abb7",
+    "strict-transport-security": "max-age=31536000",
+    "content-security-policy": "frame-ancestors https://bwrite.bloombergindustry.com https://cms.bbna.production.bloomberg-bna.brightspot.cloud",
+    "x-amz-apigw-id": "Eri6tFrroAMEfdg=",
+    "x-content-type-options": "nosniff",
+    "x-amzn-trace-id": "Root=1-6ac14b77-73ac11d91aae4fd94ee6b43e",
+    "x-envoy-upstream-service-time": "944",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:42.908673+00:00",
+  "sha256": "5365b9692b14afe1ae9f04eec3b7ddc06ef9e3539b51a0d9cae9825065329315",
+  "bytes": 136183,
+  "body_path": "/workspace/freshness-control/transport-evidence/6f7a88dcdeef45f99802151d03187041.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/6f7a88dcdeef45f99802151d03187041.body"
+}

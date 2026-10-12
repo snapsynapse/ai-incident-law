@@ -1,0 +1,23 @@
+{
+  "id": "99ba3e06819e4656880419e442d8c866",
+  "url": "https://ecf.flmd.uscourts.gov/robots.txt",
+  "kind": "robots",
+  "host": "ecf.flmd.uscourts.gov",
+  "status": 404,
+  "headers": {
+    "date": "Sat, 03 Oct 2026 18:37:30 GMT",
+    "content-length": "280",
+    "content-type": "text/html; charset=iso-8859-1",
+    "set-cookie": "[REDACTED]",
+    "x-envoy-upstream-service-time": "118",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:30.267019+00:00",
+  "sha256": "41974d30ba2efb02deca55c9402e77704daaacc614cb9b5a099fb542fdf8fda8",
+  "bytes": 280,
+  "body_path": "/workspace/freshness-control/transport-evidence/99ba3e06819e4656880419e442d8c866.body",
+  "body_evidence_copy": "_codex-out/sources/transport-resume/99ba3e06819e4656880419e442d8c866.body"
+}

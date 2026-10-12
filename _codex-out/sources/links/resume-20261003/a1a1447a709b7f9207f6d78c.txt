@@ -1,0 +1,165 @@
+Case 1:25-cv-01497-JE-JPM      Document 28     Filed 03/06/26   Page 1 of 4 PageID #:
+                                       200
+
+
+
+                       UNITED STATES DISTRICT COURT
+                       WESTERN DISTRICT OF LOUISIANA
+                           ALEXANDRIA DIVISION
+
+AMJAD MUTIE KATTOM                         CIVIL ACTION NO. 25-1497 SEC P
+#045227170
+
+VERSUS                                     JUDGE EDWARDS
+
+PAMELA BONDI ET AL                         MAGISTRATE JUDGE PEREZ-MONTES
+
+
+                             ORDER AND REASONS
+
+      The Court ordered Kenneth Mayeaux (“Mayeaux”), counsel for Petitioner, to
+
+show cause why he should not be sanctioned pursuant to (1) Fed. R. Civ. P. 11(b), (c)
+
+and (2) 28 U.S.C. § 1927 for filing a Motion for Temporary Restraining Order and
+
+accompanying Memorandum without verifying the accuracy of the citations therein.
+
+See R. Doc. 14 at 4. Specifically, as summarized in this Court’s Order (R. Doc. 14),
+
+Mayeaux cited several incorrect quotations and to cases that did not exist. See id. at
+
+3–4. The Court must now address the applicable sanctions for Mayeaux’s
+
+hallucinated cases. Having carefully considered Mayeaux’s submissions and the
+
+applicable law, this Order follows.
+
+      On December 8, 2025, Mayeaux responded to this Court’s Order. R. Doc. 17. At
+
+the outset, Mayeaux took responsibility and acknowledged the seriousness of his
+
+actions. See id. at 1, 6. Mayeaux informed the Court that Petitioner contacted
+
+Mayeaux in the late afternoon of November 17, 2025. See id. at 2. Based on
+
+Petitioner’s representations during this conversation and Mayeaux’s previous
+
+experience, Mayeaux believed that Petitioner’s removal was imminent. See id. Thus,
+Case 1:25-cv-01497-JE-JPM           Document 28        Filed 03/06/26      Page 2 of 4 PageID #:
+                                            201
+
+
+
+Mayeaux began drafting the Motion for Temporary Restraining Order to prohibit
+
+Petitioner’s removal, see id. at 3, which was filed on the morning of November 18,
+
+2025. See R. Doc. 13. Mayeaux used ChatGPT, an artificial-intelligence (“AI”) tool, to
+
+draft the memorandum in support of Petitioner’s Motion. See R. Doc. 17 at 4. Despite
+
+never having used generative AI, Mayeaux understood the risks associated with its
+
+use, including the potential for generating inaccurate or fabricated legal authority.
+
+See id. Mayeaux now admits to not fully vetting or verifying the governing law or the
+
+citations within the submitted memorandum. See id. He also asserts that he should
+
+be sanctioned but in a proportional sense, given that “he acted without deceptive
+
+intent, corrected the error immediately upon discovery, [took] steps to prevent
+
+recurrence, and has extreme remorse for his actions.” 1 See id. at 6. Mayeaux requests
+
+that, in light of these mitigating factors, the Court impose a $1,000 sanction. See id.
+
+at 12–13.
+
+       Now, like many other district courts in the Fifth Circuit, the Court is
+
+“buden[ed] [with] addressing AI hallucinations in court filings.” Fletcher v. Experian
+
+Info. Sols., Inc., No. 25-20086, 2026 WL 456842, at *2 (5th Cir. Feb. 18, 2026)
+
+(collecting cases). Regardless of whether a lawyer uses AI or not, the lawyer’s duty
+
+remains unchanged as he “must ‘ensure that the legal propositions and authority
+
+generated are trustworthy.’” See id. (quoting ByoPlanet Int'l, LLC v. Johansson, 792
+
+F. Supp. 3d 1341, 1347 (S.D. Fla. 2025)). Just as the duty remains unchanged, so too
+
+
+1  Specifically, Mayeaux assets that “[h]e has undertaken concrete remedial measures, including
+enrolling in CLEs on AI-assisted legal practice, review of governing ethical guidance, and developing
+strengthened verification protocols to ensure that all authorities are independently confirmed before
+filing ….” See id. at 12.
+Case 1:25-cv-01497-JE-JPM            Document 28         Filed 03/06/26      Page 3 of 4 PageID #:
+                                             202
+
+
+
+do the standards for assessing sanctions applicable to a lawyer’s use of hallucinated
+
+cases. See id. at **5–6 (internal citations and quotations omitted); see also Lee v. R&R
+
+Home Care, Inc., No. CV 24-836, 2025 WL 2481375, at **2–4 (E.D. La. Aug. 28, 2025)
+
+(reviewing Federal Rule of Civil Procedure 11’s governance of sanctions and ordering
+
+a $1,000 sanction for attorney’s use of hallucinated cases).
+
+        The Court commends Mayeaux for his candor, honesty, and the remedial
+
+measures he has undertaken since the filing of the underlying Motion. But these
+
+mitigating factors do not excuse Mayeaux’s conduct. At minimum, Rule 11 requires
+
+attorneys to verify the accuracy of submissions to the Court. See Nora v. M & A
+
+Transp., Inc., No. CV 25-1015, 2025 WL 2337132, at *3 (E.D. La. Aug. 13, 2025) (“At
+
+the very least, the duties imposed by Rule 11 require that attorneys read, and thereby
+
+confirm the existence and validity of, the legal authorities on which they rely.”)
+
+(internal citations and quotations omitted). In its discretionary authority under Rule
+
+11 2, the Court will impose a monetary sanction in the amount of $1,000.
+
+
+
+
+2 Rule 11(b) provides that an attorney’s signature on a written motion represents that the attorney’s
+
+claims or legal contentions were warranted by existing law. See Fed. R. Civ. P. 11(b)(2). Upon a
+violation of Rule 11(b), Rule 11(c) provides discretion to the Court to issue an appropriate sanction on
+the attorney. See Fed. R. Civ. P. 11(c)(1).
+Case 1:25-cv-01497-JE-JPM     Document 28     Filed 03/06/26   Page 4 of 4 PageID #:
+                                      203
+
+
+
+      IT IS ORDERED that Kenneth A. Mayeaux is personally SANCTIONED for
+
+his conduct in this case in the amount of $1,000. This amount must be paid by
+
+Mayeaux personally and may not be paid by his law firm.
+
+      IT IS FURTHER ORDERED that the sanction is to be paid by Friday, April
+
+3, 2026, at 5:00 p.m. to:
+
+      Clerk, United States District Court, Western District of Louisiana,
+      515 Murray Street, Suite 105 Alexandria, Louisiana 71301
+
+      THUS DONE AND SIGNED in Chambers this 6th day of March, 2026.
+
+
+
+                    __________________________________________
+                             JERRY EDWARDS, JR.
+                       UNITED STATES DISTRICT JUDGE
+

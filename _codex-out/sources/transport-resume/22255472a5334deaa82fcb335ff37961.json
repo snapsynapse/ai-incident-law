@@ -1,0 +1,27 @@
+{
+  "id": "22255472a5334deaa82fcb335ff37961",
+  "url": "https://www.illinoiscourts.gov/robots.txt",
+  "kind": "robots",
+  "host": "www.illinoiscourts.gov",
+  "status": 200,
+  "headers": {
+    "cache-control": "private",
+    "content-type": "text/plain; charset=utf-8",
+    "server": "envoy",
+    "x-frame-options": "SAMEORIGIN",
+    "set-cookie": "[REDACTED]",
+    "x-powered-by": "ASP.NET",
+    "date": "Sat, 03 Oct 2026 18:37:35 GMT",
+    "content-length": "403",
+    "x-envoy-upstream-service-time": "110",
+    "connection": "close"
+  },
+  "complete": true,
+  "error": null,
+  "retrieved_at": "2026-10-03T18:37:35.457540+00:00",
+  "sha256": "8ae2d6c2b9d44120bc39dfbfce95aea57f0d83a0fe923f356f0333abfb7fc474",
+  "bytes": 403,
+  "body_path": "/workspace/freshness-control/transport-evidence/22255472a5334deaa82fcb335ff37961.body",
+  "cached": true,
+  "body_evidence_copy": "_codex-out/sources/transport-resume/22255472a5334deaa82fcb335ff37961.body"
+}

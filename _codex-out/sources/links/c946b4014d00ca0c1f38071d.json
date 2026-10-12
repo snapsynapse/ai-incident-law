@@ -1,0 +1,28 @@
+{
+  "status": null,
+  "headers": {},
+  "finalUrl": "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf",
+  "complete": false,
+  "redirects": [],
+  "error": "BLOCKED: robots transport failed; policy unknown",
+  "attempts": [
+    {
+      "id": "d063726494f747c5a660b91a88db0ae8",
+      "url": "https://foiadocuments.uspto.gov/robots.txt",
+      "kind": "robots",
+      "host": "foiadocuments.uspto.gov",
+      "status": null,
+      "headers": {},
+      "complete": false,
+      "error": "Tunnel connection failed: 403 Forbidden",
+      "retrieved_at": "2026-10-03T03:03:47.687484+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/d063726494f747c5a660b91a88db0ae8.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T03:03:47.706676+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "requested_url": "https://foiadocuments.uspto.gov/oed/Mitchell-Order-D2026-16-Redacted.pdf",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/c946b4014d00ca0c1f38071d.body"
+}

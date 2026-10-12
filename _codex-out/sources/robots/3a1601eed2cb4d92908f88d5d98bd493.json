@@ -1,0 +1,14 @@
+{
+  "id": "3a1601eed2cb4d92908f88d5d98bd493",
+  "url": "https://news.bloomberglaw.com/robots.txt",
+  "kind": "robots",
+  "host": "news.bloomberglaw.com",
+  "status": null,
+  "headers": {},
+  "complete": false,
+  "error": "Tunnel connection failed: 403 Forbidden",
+  "retrieved_at": "2026-10-03T03:03:47.754890+00:00",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bytes": 0,
+  "body_path": "/workspace/freshness-control/transport-evidence/3a1601eed2cb4d92908f88d5d98bd493.body"
+}
