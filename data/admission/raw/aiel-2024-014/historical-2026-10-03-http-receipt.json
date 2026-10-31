@@ -1,0 +1,100 @@
+{
+  "status": 200,
+  "headers": {
+    "access-control-allow-origin": "*",
+    "content-security-policy": "default-src 'self' aclu.org *.aclu.org peoplepower.org *.peoplepower.org *.mapbox.com heapanalytics.com *.heapanalytics.com *.youtube.com *.youtube-nocookie.com https://*.optimizely.com https://aclu.hosted.jacksonriverdev.com https://w.soundcloud.com *.instagram.com infogram.com e.infogram.com *.givingdocs.com givingdocs.com *.doublethedonation.com https://doublethedonation.com https://aclu-viz-embeds.netlify.app www.paypalobjects.com https://*.paypal.com https://open.spotify.com https://*.givechariot.com https://*.dafpay.com/ https://*.ngpvan.com https://static.everyaction.com/ https://cdn.us.heap-api.com https://c.us.heap-api.com; style-src 'self' 'unsafe-inline' aclu.org *.aclu.org peoplepower.org *.peoplepower.org heapanalytics.com *.givingdocs.com givingdocs.com *.doublethedonation.com https://doublethedonation.com https://*.givechariot.com https://*.ngpvan.com https://static.everyaction.com/; script-src 'self' 'unsafe-inline' 'unsafe-eval' aclu.org *.aclu.org peoplepower.org *.peoplepower.org *.mapbox.com heapanalytics.com *.heapanalytics.com https://*.optimizely.com https://optimizely.s3.amazonaws.com https://cdn-assets-prod.s3.amazonaws.com *.instagram.com assets.gospringboard.io infogram.com e.infogram.com https://js-agent.newrelic.com https://bam.nr-data.net *.youtube.com *.youtube-nocookie.com *.doublethedonation.com https://doublethedonation.com www.paypalobjects.com https://*.paypal.com https://*.givechariot.com https://*.ngpvan.com https://static.everyaction.com/ https://cdn.us.heap-api.com https://*.contentsquare.net; img-src 'self' data: blob: aclu.org *.aclu.org peoplepower.org *.peoplepower.org *.mapbox.com heapanalytics.com https://*.optimizely.com *.gospringboard.io https://secure.gravatar.com *.doublethedonation.com https://doublethedonation.com https://*.paypal.com https://*.givechariot.com https://*.paypalobjects.com https://*.ngpvan.com https://static.everyaction.com/ https://static.quorum.us; font-src 'self' data: *.aclu.org *.doublethedonation.com https://doublethedonation.com *.auryc.com https://*.givechariot.com https://*.ngpvan.com https://static.everyaction.com/; connect-src 'self' https://bam.nr-data.net https://*.optimizely.com https://*.aclu.org https://aclu.hosted.jacksonriverdev.com *.doublethedonation.com https://doublethedonation.com *.auryc.com https://*.paypal.com https://*.givechariot.com https://*.ngpvan.com https://static.everyaction.com/ https://c.us.heap-api.com https://*.contentsquare.net *.heapanalytics.com heapanalytics.com https://api.mapbox.com; ;",
+    "content-type": "text/html; charset=UTF-8",
+    "link": "<https://www.aclu.org/?p=143655>; rel=shortlink",
+    "x-distributor": "yes",
+    "x-pantheon-styx-hostname": "styx-us-a-58d475665b-gncfd",
+    "x-styx-req-id": "8819261f-bf59-11f1-8ce5-5a736d042c06",
+    "pcontext-platform": "cos",
+    "cache-control": "max-age=600, public",
+    "accept-ranges": "bytes",
+    "age": "0",
+    "date": "Sat, 03 Oct 2026 18:37:49 GMT",
+    "aclu-req-hosts": "www.aclu.org",
+    "permissions-policy": "interest-cohort=()",
+    "strict-transport-security": "max-age=31557600",
+    "content-length": "229477",
+    "x-envoy-upstream-service-time": "1005",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "finalUrl": "https://www.aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
+  "complete": true,
+  "redirects": [
+    {
+      "from": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
+      "to": "https://www.aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
+      "status": 301
+    }
+  ],
+  "error": null,
+  "attempts": [
+    {
+      "id": "cfbd3a75f10b4313a8560bf7eab614c2",
+      "url": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
+      "kind": "fetch",
+      "host": "aclu.org",
+      "status": 301,
+      "headers": {
+        "retry-after": "0",
+        "accept-ranges": "bytes",
+        "date": "Sat, 03 Oct 2026 18:37:47 GMT",
+        "aclu-req-hosts": "aclu.org",
+        "permissions-policy": "interest-cohort=()",
+        "strict-transport-security": "max-age=31557600",
+        "location": "https://www.aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
+        "content-length": "0",
+        "x-envoy-upstream-service-time": "45",
+        "server": "envoy",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:47.721233+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "body_path": "/workspace/freshness-control/transport-evidence/cfbd3a75f10b4313a8560bf7eab614c2.body"
+    },
+    {
+      "id": "bd3de3d7aeef44c78d65146ecdcade6d",
+      "url": "https://www.aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
+      "kind": "fetch",
+      "host": "www.aclu.org",
+      "status": 200,
+      "headers": {
+        "access-control-allow-origin": "*",
+        "content-security-policy": "default-src 'self' aclu.org *.aclu.org peoplepower.org *.peoplepower.org *.mapbox.com heapanalytics.com *.heapanalytics.com *.youtube.com *.youtube-nocookie.com https://*.optimizely.com https://aclu.hosted.jacksonriverdev.com https://w.soundcloud.com *.instagram.com infogram.com e.infogram.com *.givingdocs.com givingdocs.com *.doublethedonation.com https://doublethedonation.com https://aclu-viz-embeds.netlify.app www.paypalobjects.com https://*.paypal.com https://open.spotify.com https://*.givechariot.com https://*.dafpay.com/ https://*.ngpvan.com https://static.everyaction.com/ https://cdn.us.heap-api.com https://c.us.heap-api.com; style-src 'self' 'unsafe-inline' aclu.org *.aclu.org peoplepower.org *.peoplepower.org heapanalytics.com *.givingdocs.com givingdocs.com *.doublethedonation.com https://doublethedonation.com https://*.givechariot.com https://*.ngpvan.com https://static.everyaction.com/; script-src 'self' 'unsafe-inline' 'unsafe-eval' aclu.org *.aclu.org peoplepower.org *.peoplepower.org *.mapbox.com heapanalytics.com *.heapanalytics.com https://*.optimizely.com https://optimizely.s3.amazonaws.com https://cdn-assets-prod.s3.amazonaws.com *.instagram.com assets.gospringboard.io infogram.com e.infogram.com https://js-agent.newrelic.com https://bam.nr-data.net *.youtube.com *.youtube-nocookie.com *.doublethedonation.com https://doublethedonation.com www.paypalobjects.com https://*.paypal.com https://*.givechariot.com https://*.ngpvan.com https://static.everyaction.com/ https://cdn.us.heap-api.com https://*.contentsquare.net; img-src 'self' data: blob: aclu.org *.aclu.org peoplepower.org *.peoplepower.org *.mapbox.com heapanalytics.com https://*.optimizely.com *.gospringboard.io https://secure.gravatar.com *.doublethedonation.com https://doublethedonation.com https://*.paypal.com https://*.givechariot.com https://*.paypalobjects.com https://*.ngpvan.com https://static.everyaction.com/ https://static.quorum.us; font-src 'self' data: *.aclu.org *.doublethedonation.com https://doublethedonation.com *.auryc.com https://*.givechariot.com https://*.ngpvan.com https://static.everyaction.com/; connect-src 'self' https://bam.nr-data.net https://*.optimizely.com https://*.aclu.org https://aclu.hosted.jacksonriverdev.com *.doublethedonation.com https://doublethedonation.com *.auryc.com https://*.paypal.com https://*.givechariot.com https://*.ngpvan.com https://static.everyaction.com/ https://c.us.heap-api.com https://*.contentsquare.net *.heapanalytics.com heapanalytics.com https://api.mapbox.com; ;",
+        "content-type": "text/html; charset=UTF-8",
+        "link": "<https://www.aclu.org/?p=143655>; rel=shortlink",
+        "x-distributor": "yes",
+        "x-pantheon-styx-hostname": "styx-us-a-58d475665b-gncfd",
+        "x-styx-req-id": "8819261f-bf59-11f1-8ce5-5a736d042c06",
+        "pcontext-platform": "cos",
+        "cache-control": "max-age=600, public",
+        "accept-ranges": "bytes",
+        "age": "0",
+        "date": "Sat, 03 Oct 2026 18:37:49 GMT",
+        "aclu-req-hosts": "www.aclu.org",
+        "permissions-policy": "interest-cohort=()",
+        "strict-transport-security": "max-age=31557600",
+        "content-length": "229477",
+        "x-envoy-upstream-service-time": "1005",
+        "server": "envoy",
+        "connection": "close"
+      },
+      "complete": true,
+      "error": null,
+      "retrieved_at": "2026-10-03T18:37:47.954632+00:00",
+      "sha256": "6937cb49bc5e4365559130647d94ac8b7910ac39356be88dfb0cafd47fddbaa3",
+      "bytes": 229477,
+      "body_path": "/workspace/freshness-control/transport-evidence/bd3de3d7aeef44c78d65146ecdcade6d.body"
+    }
+  ],
+  "retrieved_at": "2026-10-03T18:37:47.954632+00:00",
+  "sha256": "6937cb49bc5e4365559130647d94ac8b7910ac39356be88dfb0cafd47fddbaa3",
+  "requested_url": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
+  "body_path": "/workspace/ai-incident-law/_codex-out/sources/links/resume-20261003/537ebe16155338a5cfd4697d.body"
+}

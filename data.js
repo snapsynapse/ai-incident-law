@@ -451,7 +451,7 @@ window.AIEL_DATA = {
             "https://everyailaw.com/obligation-category/bias-prevention.json"
           ],
           "tags": "internal-use-but-public-consequence; housing; discrimination-claim; agency-action; public-record-confirmed",
-          "source_quality": "primary record",
+          "source_quality": "official statement",
           "research_status": "included",
           "last_verified_date": "2026-04-22",
           "needs_review": "no",
@@ -708,7 +708,7 @@ window.AIEL_DATA = {
           "confidence_score": "high",
           "notes_on_resolution": "Settlement included $300,000 and Detroit Police Department facial-recognition reforms.",
           "tags": "facial-recognition; false-match; wrongful-arrest; civil-rights; public-record-confirmed",
-          "source_quality": "primary record",
+          "source_quality": "party case page",
           "research_status": "included",
           "last_verified_date": "2026-04-22",
           "needs_review": "no",

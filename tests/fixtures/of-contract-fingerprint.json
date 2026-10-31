@@ -3477,9 +3477,9 @@
         "present": 72
       },
       "source_review_unresolved": {
-        "missing": 62,
-        "populated": 10,
-        "present": 10
+        "missing": 60,
+        "populated": 12,
+        "present": 12
       },
       "text": {
         "missing": 0,
@@ -3569,9 +3569,9 @@
         "present": 63
       },
       "source_review_unresolved": {
-        "missing": 55,
-        "populated": 8,
-        "present": 8
+        "missing": 53,
+        "populated": 10,
+        "present": 10
       },
       "territorial_scope": {
         "missing": 3,
@@ -3696,9 +3696,9 @@
         "present": 68
       },
       "source_review_unresolved": {
-        "missing": 60,
-        "populated": 8,
-        "present": 8
+        "missing": 58,
+        "populated": 10,
+        "present": 10
       },
       "verified": {
         "missing": 5,
@@ -3779,9 +3779,9 @@
         "present": 72
       },
       "source_review_unresolved": {
-        "missing": 62,
-        "populated": 10,
-        "present": 10
+        "missing": 60,
+        "populated": 12,
+        "present": 12
       },
       "verified": {
         "missing": 5,
@@ -3917,9 +3917,9 @@
         "present": 74
       },
       "source_review_unresolved": {
-        "missing": 63,
-        "populated": 11,
-        "present": 11
+        "missing": 61,
+        "populated": 13,
+        "present": 13
       },
       "territorial_scope": {
         "missing": 3,
@@ -4009,9 +4009,9 @@
         "present": 8
       },
       "source_review_unresolved": {
-        "missing": 6,
-        "populated": 2,
-        "present": 2
+        "missing": 5,
+        "populated": 3,
+        "present": 3
       },
       "verified": {
         "missing": 0,
@@ -4557,22 +4557,34 @@
       "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom"
     },
     "https://aiincidentlaw.org/allegation/aiel-2024-010-allegation.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "canonical_source_conflicted": "Fair Housing Act and voucher-backed rent-payment facts",
-      "evidence_type": "primary record",
+      "evidence_type": "official statement",
       "projection_basis": "native-record-projection",
       "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
-      "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al."
+      "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al.",
+      "source_review_unresolved": [
+        "The linked DOJ case page is an agency account, primary for its own statements; the separately linked Statement of Interest and court order were not reviewed as original documents in this role-only correction.",
+        "The page reports July 26, 2023 denial of dismissal motions and is marked updated August 17, 2023. It does not establish the later final settlement approval or current docket status.",
+        "The retained April 30, 2024 counsel-hosted settlement article describes approval pending. Existing settled status, relief and legal/outcome statements remain unchanged legacy units and are not newly accepted by this receipt.",
+        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+      ]
     },
     "https://aiincidentlaw.org/allegation/aiel-2024-014-allegation.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "canonical_source_conflicted": "Actual suspect identity and warrant probable-cause standards",
-      "evidence_type": "primary record",
+      "evidence_type": "party case page",
       "projection_basis": "native-record-projection",
       "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
-      "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827"
+      "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827",
+      "source_review_unresolved": [
+        "The linked ACLU case page is counsel’s account for its represented client, not the court’s adjudicative opinion or the separately linked settlement agreement.",
+        "This role-only review does not newly verify the $300,000 figure, precise settlement terms, entered dismissal, merits findings or current docket status. Existing substantive and outcome units remain unchanged legacy debt.",
+        "The page’s settlement announcement and document list are primary for counsel’s own publication. The linked agreement and court documents were not retrieved or accepted by this role correction.",
+        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+      ]
     },
     "https://aiincidentlaw.org/allegation/aiel-2024-015-allegation.json": {
       "admission_status": "source-consistency-reviewed-changes",
@@ -5513,20 +5525,32 @@
       "source_locator": "Lexos Media IP, LLC v. Overstock.com, Inc., No. 2:22-cv-02324-JAR (D. Kan.)"
     },
     "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts-doj-hud.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "evidence_type": "primary record",
+      "evidence_type": "official statement",
       "projection_basis": "curated-retirement",
       "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
-      "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al."
+      "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al.",
+      "source_review_unresolved": [
+        "The linked DOJ case page is an agency account, primary for its own statements; the separately linked Statement of Interest and court order were not reviewed as original documents in this role-only correction.",
+        "The page reports July 26, 2023 denial of dismissal motions and is marked updated August 17, 2023. It does not establish the later final settlement approval or current docket status.",
+        "The retained April 30, 2024 counsel-hosted settlement article describes approval pending. Existing settled status, relief and legal/outcome statements remain unchanged legacy units and are not newly accepted by this receipt.",
+        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+      ]
     },
     "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "evidence_type": "primary record",
+      "evidence_type": "official statement",
       "projection_basis": "curated-legal-graph",
       "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
-      "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al."
+      "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al.",
+      "source_review_unresolved": [
+        "The linked DOJ case page is an agency account, primary for its own statements; the separately linked Statement of Interest and court order were not reviewed as original documents in this role-only correction.",
+        "The page reports July 26, 2023 denial of dismissal motions and is marked updated August 17, 2023. It does not establish the later final settlement approval or current docket status.",
+        "The retained April 30, 2024 counsel-hosted settlement article describes approval pending. Existing settled status, relief and legal/outcome statements remain unchanged legacy units and are not newly accepted by this receipt.",
+        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+      ]
     },
     "https://aiincidentlaw.org/authority/u-s-district-court-district-of-new-jersey.json": {
       "admission_status": "source-consistency-reviewed-changes",
@@ -5579,12 +5603,18 @@
       "source_locator": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)"
     },
     "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "evidence_type": "primary record",
+      "evidence_type": "party case page",
       "projection_basis": "legacy-jurisdiction-inference",
       "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
-      "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827"
+      "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827",
+      "source_review_unresolved": [
+        "The linked ACLU case page is counsel’s account for its represented client, not the court’s adjudicative opinion or the separately linked settlement agreement.",
+        "This role-only review does not newly verify the $300,000 figure, precise settlement terms, entered dismissal, merits findings or current docket status. Existing substantive and outcome units remain unchanged legacy debt.",
+        "The page’s settlement announcement and document list are primary for counsel’s own publication. The linked agreement and court documents were not retrieved or accepted by this role correction.",
+        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+      ]
     },
     "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-new-york.json": {
       "admission_status": "legacy-unreviewed",
@@ -5841,20 +5871,32 @@
       "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom"
     },
     "https://aiincidentlaw.org/determination/aiel-2024-010-determination.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "evidence_type": "primary record",
+      "evidence_type": "official statement",
       "projection_basis": "curated-legal-graph",
       "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
-      "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al."
+      "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al.",
+      "source_review_unresolved": [
+        "The linked DOJ case page is an agency account, primary for its own statements; the separately linked Statement of Interest and court order were not reviewed as original documents in this role-only correction.",
+        "The page reports July 26, 2023 denial of dismissal motions and is marked updated August 17, 2023. It does not establish the later final settlement approval or current docket status.",
+        "The retained April 30, 2024 counsel-hosted settlement article describes approval pending. Existing settled status, relief and legal/outcome statements remain unchanged legacy units and are not newly accepted by this receipt.",
+        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+      ]
     },
     "https://aiincidentlaw.org/determination/aiel-2024-014-determination.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "evidence_type": "primary record",
+      "evidence_type": "party case page",
       "projection_basis": "legacy-filing-status-inference",
       "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
-      "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827"
+      "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827",
+      "source_review_unresolved": [
+        "The linked ACLU case page is counsel’s account for its represented client, not the court’s adjudicative opinion or the separately linked settlement agreement.",
+        "This role-only review does not newly verify the $300,000 figure, precise settlement terms, entered dismissal, merits findings or current docket status. Existing substantive and outcome units remain unchanged legacy debt.",
+        "The page’s settlement announcement and document list are primary for counsel’s own publication. The linked agreement and court documents were not retrieved or accepted by this role correction.",
+        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+      ]
     },
     "https://aiincidentlaw.org/determination/aiel-2024-015-determination.json": {
       "admission_status": "source-consistency-reviewed-changes",
@@ -6445,20 +6487,32 @@
       "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom"
     },
     "https://aiincidentlaw.org/party/aiel-2024-010-deployer.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "evidence_type": "primary record",
+      "evidence_type": "official statement",
       "projection_basis": "native-record-projection",
       "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
-      "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al."
+      "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al.",
+      "source_review_unresolved": [
+        "The linked DOJ case page is an agency account, primary for its own statements; the separately linked Statement of Interest and court order were not reviewed as original documents in this role-only correction.",
+        "The page reports July 26, 2023 denial of dismissal motions and is marked updated August 17, 2023. It does not establish the later final settlement approval or current docket status.",
+        "The retained April 30, 2024 counsel-hosted settlement article describes approval pending. Existing settled status, relief and legal/outcome statements remain unchanged legacy units and are not newly accepted by this receipt.",
+        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+      ]
     },
     "https://aiincidentlaw.org/party/aiel-2024-014-deployer.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "evidence_type": "primary record",
+      "evidence_type": "party case page",
       "projection_basis": "native-record-projection",
       "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
-      "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827"
+      "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827",
+      "source_review_unresolved": [
+        "The linked ACLU case page is counsel’s account for its represented client, not the court’s adjudicative opinion or the separately linked settlement agreement.",
+        "This role-only review does not newly verify the $300,000 figure, precise settlement terms, entered dismissal, merits findings or current docket status. Existing substantive and outcome units remain unchanged legacy debt.",
+        "The page’s settlement announcement and document list are primary for counsel’s own publication. The linked agreement and court documents were not retrieved or accepted by this role correction.",
+        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+      ]
     },
     "https://aiincidentlaw.org/party/aiel-2024-015-deployer.json": {
       "admission_status": "source-consistency-reviewed-changes",
@@ -7077,20 +7131,32 @@
       "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom"
     },
     "https://aiincidentlaw.org/proceeding/aiel-2024-010-proceeding.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "evidence_type": "primary record",
+      "evidence_type": "official statement",
       "projection_basis": "curated-legal-graph",
       "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
-      "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al."
+      "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al.",
+      "source_review_unresolved": [
+        "The linked DOJ case page is an agency account, primary for its own statements; the separately linked Statement of Interest and court order were not reviewed as original documents in this role-only correction.",
+        "The page reports July 26, 2023 denial of dismissal motions and is marked updated August 17, 2023. It does not establish the later final settlement approval or current docket status.",
+        "The retained April 30, 2024 counsel-hosted settlement article describes approval pending. Existing settled status, relief and legal/outcome statements remain unchanged legacy units and are not newly accepted by this receipt.",
+        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+      ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2024-014-proceeding.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "evidence_type": "primary record",
+      "evidence_type": "party case page",
       "projection_basis": "legacy-record-inference",
       "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
-      "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827"
+      "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827",
+      "source_review_unresolved": [
+        "The linked ACLU case page is counsel’s account for its represented client, not the court’s adjudicative opinion or the separately linked settlement agreement.",
+        "This role-only review does not newly verify the $300,000 figure, precise settlement terms, entered dismissal, merits findings or current docket status. Existing substantive and outcome units remain unchanged legacy debt.",
+        "The page’s settlement announcement and document list are primary for counsel’s own publication. The linked agreement and court documents were not retrieved or accepted by this role correction.",
+        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+      ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2024-015-proceeding.json": {
       "admission_status": "source-consistency-reviewed-changes",

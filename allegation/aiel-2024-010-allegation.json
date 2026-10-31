@@ -38,9 +38,15 @@
   "ai_incident_law_record_id": "AIEL-2024-010",
   "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
   "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al.",
-  "evidence_type": "primary record",
+  "evidence_type": "official statement",
   "verified": "2026-04-22",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "projection_basis": "native-record-projection",
-  "admission_status": "legacy-unreviewed"
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "The linked DOJ case page is an agency account, primary for its own statements; the separately linked Statement of Interest and court order were not reviewed as original documents in this role-only correction.",
+    "The page reports July 26, 2023 denial of dismissal motions and is marked updated August 17, 2023. It does not establish the later final settlement approval or current docket status.",
+    "The retained April 30, 2024 counsel-hosted settlement article describes approval pending. Existing settled status, relief and legal/outcome statements remain unchanged legacy units and are not newly accepted by this receipt.",
+    "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+  ]
 }

@@ -4243,6 +4243,124 @@
         "reviewed_at": "2026-10-31T17:58:52.633Z",
         "packet_sha256": "457facfd18b196b48d13bb160022cb2069b6795265d8974394446446052a32b2"
       }
+    },
+    "included/AIEL-2024-010": {
+      "baseline_sha256": "1b8563fc88c3b46518c4920b461f47f2b6357eeb43e458a58da6824b347b1ed0",
+      "record_sha256": "9835ca1c5f9427bd4c93094f796a2315bd4196a7068c7889e634ddc9116ba7fd",
+      "evidence": {
+        "current-case-page-role": {
+          "path": "data/admission/raw/aiel-2024-010/case-page-extracted.txt",
+          "sha256": "000bea7c8867e471b86558488f4a9d8dd08a96b5bd8bc8ab43024b2e8d264ebd",
+          "official_url": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
+          "document_id": "AIEL-2024-010-current-linked-case-page-october3-snapshot",
+          "document_title": "Louis et al. v. SafeRent et al. (D. Mass.)",
+          "issuing_body": "U.S. Department of Justice, Civil Rights Division",
+          "document_type": "agency case page",
+          "version": "Exact October 3, 2026 retained public case-page observation; no new source request or currentness finding",
+          "locator": "Retained extracted text lines 1-1, characters 2149-3668: publisher account, filing/participation and document-role context",
+          "excerpt": "On January 9, 2023, the United States filed a Statement of Interest in Louis et al. v. SafeRent et al. (D. Mass.), a case brought under the Fair Housing Act (FHA). The Louis lawsuit was filed on behalf of two plaintiffs, Mary Louis and Monica Douglas, Black rental applicants who use housing vouchers to pay part of their rent. Plaintiffs applied for rental housing but allege they were denied due to their “SafeRent Score,” a score derived from Defendant SafeRent’s algorithm-based screening software. The plaintiffs allege that SafeRent scores result in an unlawful disparate impact against Black and Hispanic rental applicants because the underlying algorithm relies on certain factors that disproportionately disadvantage Black and Hispanic applicants, such as credit history and non-tenancy related debts, while failing to consider one highly-relevant factor, that the use of housing vouchers funded by HUD makes such tenants more likely to pay their rents. In its Statement of Interest, the United States sets out the appropriate standard for pleading disparate impact claims under the FHA and clarifies that the FHA’s text and caselaw support the FHA’s application to companies providing residential screening services. On July 26, 2023, the Court denied defendants’ motions to dismiss plaintiffs’ FHA claims. In its order , the Court held that defendant SafeRent was subject to the FHA and that plaintiffs had alleged a plausible claim for disparate impact discrimination under the FHA against both defendants. ",
+          "identity_excerpts": [
+            "Louis et al. v. SafeRent et al. (D. Mass.)",
+            "United States Department of Justice"
+          ],
+          "source_role": "official statement",
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2024-010/case-page-original.html",
+            "sha256": "97ce30b24dc440bf9f46ab0f32e10bae155ce0c5d0b6fac675efda7b0ba3abe2"
+          },
+          "provenance_note": "Exact original HTML, readable extraction and historical transport receipt copied byte-identically from the retained October 3 link ledger. This agent role review uses retained_snapshot, does not invent a new retrieval timestamp and does not classify the case page as a court order."
+        }
+      },
+      "units": {
+        "field:source_quality": {
+          "before_sha256": "8b60775068860bb40eab0cb04c57db849f6cd6b04a287c8a959c85b1cca20500",
+          "after_sha256": "6ec813f0bd43a685d190ec1a261d3afb1699f6f23b5fb1257d64a50c6a39fa41",
+          "candidate_content": "official statement",
+          "reason": "Replace generic primary-record labeling with the explicit role of the exact current linked publication, preserving its primary value for the publisher’s own actions and statements.",
+          "qualifications": {
+            "scope": "Classify the current linked DOJ Civil Rights case page as an official statement. It is primary evidence of the agency’s own account of filing its Statement of Interest and reports allegations and court developments; this role review is not review of the linked filing or court opinion.",
+            "exceptions": "Existing settled status, settlement relief, FHA interpretation and all other native claims remain outside the changed-unit review. The case page is not itself an adjudicative opinion or evidence of later final settlement approval.",
+            "time": "Historical October 3, 2026 source snapshot only. All native filing/error/Verified/Checked dates, legal status, confidence, AI attribution, source URLs and event grain remain unchanged; no current-docket review."
+          },
+          "evidence": [
+            "current-case-page-role"
+          ]
+        }
+      },
+      "unresolved": [
+        "The linked DOJ case page is an agency account, primary for its own statements; the separately linked Statement of Interest and court order were not reviewed as original documents in this role-only correction.",
+        "The page reports July 26, 2023 denial of dismissal motions and is marked updated August 17, 2023. It does not establish the later final settlement approval or current docket status.",
+        "The retained April 30, 2024 counsel-hosted settlement article describes approval pending. Existing settled status, relief and legal/outcome statements remain unchanged legacy units and are not newly accepted by this receipt.",
+        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+      ],
+      "review": {
+        "actor": "codex:two-source-role-correction-2026-10-31",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "One explicit source_quality unit only. Case-page evidence supports the publisher role; all unchanged native substantive/outcome units remain unreviewed. No human attestation, legal/status update, AI-attribution change, new document/record or currentness renewal.",
+        "reviewed_at": "2026-10-31T22:23:11.304Z",
+        "packet_sha256": "d13628e94c58c065340173be9534536cfa9ac12e3865c038b01c80598d7b1174"
+      }
+    },
+    "included/AIEL-2024-014": {
+      "baseline_sha256": "58dd130f5b7a53a37b0433e0320941ce1421eafcec987d420327ecf02926a51b",
+      "record_sha256": "0cb4519ac6e23236091095417343bea448824dbbd153a5a3b84081255bf51cb1",
+      "evidence": {
+        "current-case-page-role": {
+          "path": "data/admission/raw/aiel-2024-014/case-page-extracted.txt",
+          "sha256": "dfc542860d1b5ae80809f44fe71beac4a05dd2f5cc5e9e94fd730a739d10e89d",
+          "official_url": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
+          "document_id": "AIEL-2024-014-current-linked-case-page-october3-snapshot",
+          "document_title": "Williams v. City of Detroit",
+          "issuing_body": "American Civil Liberties Union",
+          "document_type": "counsel case page",
+          "version": "Exact October 3, 2026 retained public case-page observation; no new source request or currentness finding",
+          "locator": "Retained extracted text lines 1-1, characters 2103-3857: publisher account, filing/participation and document-role context",
+          "excerpt": "In April 2021, the ACLU, ACLU of Michigan, and University of Michigan Law School’s Civil Rights Litigation Initiative filed a civil-rights lawsuit on Mr. Williams’ behalf against the individual detective responsible for his arrest, the City of Detroit, and Detroit’s Chief of Police. The lawsuit alleged that the detective, through his omissions in the warrant application, misled the magistrate judge, resulting in issuance of an arrest warrant without the required probable cause. It also alleged what discovery in Mr. Williams’ case and several more recent facial-recognition false arrests in Detroit have since made obvious: That the city lacked any policy for law enforcement use of face recognition technology at the time the technology was used in this case, and that Detroit failed to train its police officers on the dangers of misusing face recognition technology in their investigations. On June 28, 2024, the parties in this case formalized a groundbreaking settlement agreement , concluding the lawsuit and achieving the nation’s strongest police department policies constraining law enforcement’s use of face recognition technology. Under the agreement, police will be required to back up face recognition results with independent and reliable evidence linking a suspect to a crime before making any arrest. They also be trained on face recognition technology and its dangers, especially for people of color, whom these tools are known to misidentify at higher rates. And an audit will be conducted of all cases since 2017 in which the Detroit Police Department used face recognition technology to obtain an arrest warrant. A copy of the settlement agreement, along with selected pleadings and discovery documents from the case, are below. ",
+          "identity_excerpts": [
+            "Williams v. City of Detroit",
+            "American Civil Liberties Union"
+          ],
+          "source_role": "party case page",
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2024-014/case-page-original.html",
+            "sha256": "6937cb49bc5e4365559130647d94ac8b7910ac39356be88dfb0cafd47fddbaa3"
+          },
+          "provenance_note": "Exact original HTML, readable extraction and historical transport receipt copied byte-identically from the retained October 3 link ledger. This agent role review uses retained_snapshot, does not invent a new retrieval timestamp and does not classify the case page as a court order."
+        }
+      },
+      "units": {
+        "field:source_quality": {
+          "before_sha256": "8b60775068860bb40eab0cb04c57db849f6cd6b04a287c8a959c85b1cca20500",
+          "after_sha256": "482c30cc132c18759575a36ed76560d6f2aae80b941dd588c63f30087580c1c5",
+          "candidate_content": "party case page",
+          "reason": "Replace generic primary-record labeling with the explicit role of the exact current linked publication, preserving its primary value for the publisher’s own actions and statements.",
+          "qualifications": {
+            "scope": "Classify the current linked ACLU page as a counsel-maintained party case page. It identifies Williams as its client and recounts the organizations’ own litigation and settlement announcement. This preserves its primary value for counsel’s own statements and actions.",
+            "exceptions": "The page is not the filed settlement agreement or court determination. Existing damages, policy reforms, settled status and other native claims are not newly accepted; no adjudicative finding is inferred from a counsel narrative.",
+            "time": "Historical October 3, 2026 source snapshot only. All native filing/error/Verified/Checked dates, legal status, confidence, AI attribution, source URLs and event grain remain unchanged; no current-docket review."
+          },
+          "evidence": [
+            "current-case-page-role"
+          ]
+        }
+      },
+      "unresolved": [
+        "The linked ACLU case page is counsel’s account for its represented client, not the court’s adjudicative opinion or the separately linked settlement agreement.",
+        "This role-only review does not newly verify the $300,000 figure, precise settlement terms, entered dismissal, merits findings or current docket status. Existing substantive and outcome units remain unchanged legacy debt.",
+        "The page’s settlement announcement and document list are primary for counsel’s own publication. The linked agreement and court documents were not retrieved or accepted by this role correction.",
+        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+      ],
+      "review": {
+        "actor": "codex:two-source-role-correction-2026-10-31",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "One explicit source_quality unit only. Case-page evidence supports the publisher role; all unchanged native substantive/outcome units remain unreviewed. No human attestation, legal/status update, AI-attribution change, new document/record or currentness renewal.",
+        "reviewed_at": "2026-10-31T22:23:11.308Z",
+        "packet_sha256": "cf8370a000f7763daf279916ac84e29e9a07b51c15db41ecd4bebf16620c2b7f"
+      }
     }
   }
 }
