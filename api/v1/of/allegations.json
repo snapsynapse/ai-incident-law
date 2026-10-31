@@ -2026,7 +2026,7 @@
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-045-allegation.json",
       "id": "aiel-2026-045-allegation",
-      "text": "Plaintiff's counsel admitted filing briefs in two companion employment cases containing AI-generated fabricated citations. The U.S. District Court for the Middle District of Florida imposed a $7,000 fee sanction and required counsel to deliver ten speaking engagements at bar associations or law-school groups by January 2027 to educate the profession on AI risks. The court declined to refer counsel to the Florida Bar or the court's Grievance Committee.",
+      "text": "Plaintiff's counsel admitted filing briefs in two companion cases containing AI-generated fake citations. The January 16, 2026 order records corrective steps already taken, including paying Defendants $7,000 in fees in Hodges and reducing counsel's fees in Rieske. The court granted Defendants' sanctions motion and required a report on fee satisfaction or an affidavit seeking additional fees after conferral. As a further sanction, counsel must secure ten opportunities to speak to bar associations or groups of law students about the experience by January 29, 2027, and certify compliance in both cases by that date. The court decided not to refer counsel to the Middle District Grievance Committee or the Florida Bar in these circumstances.",
       "asserted_by": "asserting party not identified in the indexed source fields",
       "related_to": "https://aiincidentlaw.org/incident/aiel-2026-045#ai-system",
       "related_to_party": [
@@ -2038,15 +2038,20 @@
       "error_type": "hallucinated authority",
       "canonical_source_conflicted": "Non-existent federal case citations filed in two employment-law matters; Fed. R. Civ. P. 11",
       "mitigation_gap": "Counsel admitted reliance on AI-generated research without verifying citation existence before filing in both cases.",
-      "reliance_or_harm": "$7,000 fee sanction plus mandatory 10 bar-association/law-school speaking engagements by January 2027.",
+      "reliance_or_harm": "Counsel's false citations caused opposing parties and the court to spend time correcting the record. The order records $7,000 already paid to Defendants in Hodges and a reduction of counsel's fees in Rieske. By January 30, 2026, the parties must report that Defendants are satisfied with the amounts paid, or Defendants must submit an affidavit seeking additional fees after proper conferral. Counsel must secure ten speaking opportunities and certify compliance in both cases by January 29, 2027.",
       "ai_incident_law_record_id": "AIEL-2026-045",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
-      "source_locator": "Hodges v. Meridian Waste Acquisitions USA, No. 3:25-cv-62; Rieske v. AFS, No. 5:25-cv-45 (M.D. Fla.)",
+      "source_locator": "Hodges v. Meridian Waste Acquisitions, LLC et al., No. 3:25-cv-62; Rieske v. Accounting Fulfillment Services LLC et al., No. 5:25-cv-45 (M.D. Fla.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The order does not name Plaintiff's counsel or the AI system; existing unnamed attribution is preserved.",
+        "Whether the January 30, 2026 fee report or affidavit was filed, any additional fees were awarded, or speaking opportunities and certification were secured by January 29, 2027 was not observed.",
+        "One native record continues to index a combined order covering two companion matters; no separate Rieske source retrieval or new record is asserted."
+      ]
     },
     {
       "@context": [

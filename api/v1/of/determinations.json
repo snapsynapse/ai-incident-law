@@ -2295,16 +2295,21 @@
       "disposition": "confirmed",
       "remedy": {
         "status": "sanctioned",
-        "notes": "Companion cases in single order; $7,000 fee sanction plus 10 mandatory speaking engagements; no bar referral."
+        "notes": "The January 16, 2026 order covers Hodges, No. 3:25-cv-62, and Rieske, No. 5:25-cv-45. It grants Defendants' motion for sanctions in Hodges and discharges the show-cause orders in both cases. The $7,000 payment in Hodges is described as a corrective step already taken, alongside a fee reduction in Rieske; it is not stated as a newly imposed fixed $7,000 award. Paragraph 1 requires, by January 30, 2026, either a joint report in Hodges that Defendants are satisfied with the amounts paid or an affidavit from Defendants seeking additional fees after proper conferral. Paragraphs 2-3 require counsel to secure ten opportunities to speak to bar associations or groups of law students and certify compliance by report in both cases by January 29, 2027; the order does not phrase this as completing ten delivered talks. The court declines referral to the Middle District Grievance Committee or the Florida Bar in these circumstances. No subsequent report, additional fee award, speaking opportunity or compliance certification was reviewed."
       },
-      "notes": "Companion cases in single order; $7,000 fee sanction plus 10 mandatory speaking engagements; no bar referral.",
+      "notes": "The January 16, 2026 order covers Hodges, No. 3:25-cv-62, and Rieske, No. 5:25-cv-45. It grants Defendants' motion for sanctions in Hodges and discharges the show-cause orders in both cases. The $7,000 payment in Hodges is described as a corrective step already taken, alongside a fee reduction in Rieske; it is not stated as a newly imposed fixed $7,000 award. Paragraph 1 requires, by January 30, 2026, either a joint report in Hodges that Defendants are satisfied with the amounts paid or an affidavit from Defendants seeking additional fees after proper conferral. Paragraphs 2-3 require counsel to secure ten opportunities to speak to bar associations or groups of law students and certify compliance by report in both cases by January 29, 2027; the order does not phrase this as completing ten delivered talks. The court declines referral to the Middle District Grievance Committee or the Florida Bar in these circumstances. No subsequent report, additional fee award, speaking opportunity or compliance certification was reviewed.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
-      "source_locator": "Hodges v. Meridian Waste Acquisitions USA, No. 3:25-cv-62; Rieske v. AFS, No. 5:25-cv-45 (M.D. Fla.)",
+      "source_locator": "Hodges v. Meridian Waste Acquisitions, LLC et al., No. 3:25-cv-62; Rieske v. Accounting Fulfillment Services LLC et al., No. 5:25-cv-45 (M.D. Fla.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-filing-status-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The order does not name Plaintiff's counsel or the AI system; existing unnamed attribution is preserved.",
+        "Whether the January 30, 2026 fee report or affidavit was filed, any additional fees were awarded, or speaking opportunities and certification were secured by January 29, 2027 was not observed.",
+        "One native record continues to index a combined order covering two companion matters; no separate Rieske source retrieval or new record is asserted."
+      ],
       "ai_incident_law_record_id": "AIEL-2026-045",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"

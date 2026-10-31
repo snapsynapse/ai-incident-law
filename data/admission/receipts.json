@@ -4052,6 +4052,197 @@
         "reviewed_at": "2026-09-22T21:06:57.272Z",
         "packet_sha256": "d66bc178c19119d74f16942aa5269030864c0294a61cbc8e69bb92dcde8f8344"
       }
+    },
+    "included/AIEL-2026-045": {
+      "baseline_sha256": "f77e266825e685ca20dbc3c53729d404a9488c14ac5aeb35a002c2451d1f4204",
+      "record_sha256": "5e5be2dc802b40b2290bc7bf6d882e36bc7977b890cd07a565ac006b3344c6e9",
+      "evidence": {
+        "caption": {
+          "path": "data/admission/raw/aiel-2026-045/combined-sanctions-order.txt",
+          "official_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
+          "sha256": "2f16ca75c92ebc6de9a08f2f2714b2cc9549be91f07557365464fe8672988810",
+          "document_id": "Hodges 3:25-cv-00062-TJC-SJH, Document 53; companion Rieske 5:25-cv-45-CEM-PRL",
+          "document_title": "Combined order on motion for sanctions and orders to show cause",
+          "issuing_body": "U.S. District Court, Middle District of Florida",
+          "document_type": "order",
+          "version": "Filed January 16, 2026; exact original and extraction retained from October 3, 2026 source-link collection",
+          "locator": "PDF page 1: Hodges and Rieske captions, parties and companion case numbers",
+          "excerpt": "    BRIAN HODGES, on behalf of\n    himself and all others similarly\n    situated,\n          Plaintiff,\n                                                       Case No. 3:25-cv-62-TJC-SJH\n    v.\n\n    MERIDIAN WASTE\n    ACQUISITIONS, LLC, a Foreign\n    Profit Corporation and MERIDIAN\n    WASTE FLORIDA, LLC, a Florida\n    Limited Liability Company,\n          Defendants.\n\n\n\n    NATISHA RIESKE, on behalf of\n    herself and those similarly situated,\n          Plaintiff,\n                                                     Case No. 5:25-cv-45-CEM-PRL\n    v.\n    ACCOUNTING FULFILLMENT\n    SERVICES LLC, Foreign Limited\n    Liability Company, MICHAEL\n    SAVAGE, individually, and\n    BRENDON PACK, individually,\n          Defendants.\n\n\n",
+          "identity_excerpts": [
+            "Case 3:25-cv-00062-TJC-SJH   Document 53    Filed 01/16/26",
+            "UNITED STATES DISTRICT COURT"
+          ],
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2026-045/combined-sanctions-order.pdf",
+            "sha256": "a357c77a7a0a9293aa043e40beb0688f059abffe3c19000be41f3bdf456e3a57"
+          },
+          "source_role": "primary record",
+          "provenance_note": "Exact court-order PDF served from RECAP storage and the existing UTF-8 extraction are reused without a new request. The original October 3 transport receipt is retained alongside them; this review uses retained_snapshot and does not invent a new retrieval time."
+        },
+        "admission": {
+          "path": "data/admission/raw/aiel-2026-045/combined-sanctions-order.txt",
+          "official_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
+          "sha256": "2f16ca75c92ebc6de9a08f2f2714b2cc9549be91f07557365464fe8672988810",
+          "document_id": "Hodges 3:25-cv-00062-TJC-SJH, Document 53; companion Rieske 5:25-cv-45-CEM-PRL",
+          "document_title": "Combined order on motion for sanctions and orders to show cause",
+          "issuing_body": "U.S. District Court, Middle District of Florida",
+          "document_type": "order",
+          "version": "Filed January 16, 2026; exact original and extraction retained from October 3, 2026 source-link collection",
+          "locator": "PDF page 2: counsel admission and costs of correcting fake citations",
+          "excerpt": "    tribunal. Here, Plaintiff’s Counsel admittedly filed briefs in two cases which\n\n    contained AI-generated fake citations. This caused both his opponents and the\n\n    Court to spend unnecessary and unproductive time, not to mention the damage\n\n    to the credibility of the legal system writ large when Counsel violated this most\n\n    basic professional obligation.\n\n",
+          "identity_excerpts": [
+            "Case 3:25-cv-00062-TJC-SJH   Document 53    Filed 01/16/26",
+            "UNITED STATES DISTRICT COURT"
+          ],
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2026-045/combined-sanctions-order.pdf",
+            "sha256": "a357c77a7a0a9293aa043e40beb0688f059abffe3c19000be41f3bdf456e3a57"
+          },
+          "source_role": "primary record",
+          "provenance_note": "Exact court-order PDF served from RECAP storage and the existing UTF-8 extraction are reused without a new request. The original October 3 transport receipt is retained alongside them; this review uses retained_snapshot and does not invent a new retrieval time.",
+          "ai_attribution_excerpt": "Here, Plaintiff’s Counsel admittedly filed briefs in two cases which\n\n    contained AI-generated fake citations. "
+        },
+        "correction": {
+          "path": "data/admission/raw/aiel-2026-045/combined-sanctions-order.txt",
+          "official_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
+          "sha256": "2f16ca75c92ebc6de9a08f2f2714b2cc9549be91f07557365464fe8672988810",
+          "document_id": "Hodges 3:25-cv-00062-TJC-SJH, Document 53; companion Rieske 5:25-cv-45-CEM-PRL",
+          "document_title": "Combined order on motion for sanctions and orders to show cause",
+          "issuing_body": "U.S. District Court, Middle District of Florida",
+          "document_type": "order",
+          "version": "Filed January 16, 2026; exact original and extraction retained from October 3, 2026 source-link collection",
+          "locator": "PDF pages 2-3: corrective steps already taken, including paid fees and reduction, followed by contrition/referral discussion",
+          "excerpt": "          Upon discovery of this problem, Plaintiff’s Counsel took corrective steps.\n\n    These included efforts to withdraw the offending filings; paying Defendants\n\n    $7,000.00 for fees associated with correcting the record in 3:25-cv-62 and\n\n    reducing his fees in 5:25-cv-45; completing multiple CLE’s related to ethics and\n\n    AI; arranging CLE for his law firm; alerting the clients involved; and\n\n    apologizing to the Court and Defendants’ Counsel. As ordered by the Court,\n\n\n\n\n                                             2\n\fCase 3:25-cv-00062-TJC-SJH    Document 53    Filed 01/16/26   Page 3 of 4 PageID 429\n\n\n\n\n    Plaintiff’s Counsel provided a report that confirmed none of Counsel’s other\n\n    cases in this district had similar issues. (Doc. 49 in 3:25-cv-62).\n\n",
+          "identity_excerpts": [
+            "Case 3:25-cv-00062-TJC-SJH   Document 53    Filed 01/16/26",
+            "UNITED STATES DISTRICT COURT"
+          ],
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2026-045/combined-sanctions-order.pdf",
+            "sha256": "a357c77a7a0a9293aa043e40beb0688f059abffe3c19000be41f3bdf456e3a57"
+          },
+          "source_role": "primary record",
+          "provenance_note": "Exact court-order PDF served from RECAP storage and the existing UTF-8 extraction are reused without a new request. The original October 3 transport receipt is retained alongside them; this review uses retained_snapshot and does not invent a new retrieval time."
+        },
+        "operative": {
+          "path": "data/admission/raw/aiel-2026-045/combined-sanctions-order.txt",
+          "official_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
+          "sha256": "2f16ca75c92ebc6de9a08f2f2714b2cc9549be91f07557365464fe8672988810",
+          "document_id": "Hodges 3:25-cv-00062-TJC-SJH, Document 53; companion Rieske 5:25-cv-45-CEM-PRL",
+          "document_title": "Combined order on motion for sanctions and orders to show cause",
+          "issuing_body": "U.S. District Court, Middle District of Florida",
+          "document_type": "order",
+          "version": "Filed January 16, 2026; exact original and extraction retained from October 3, 2026 source-link collection",
+          "locator": "PDF pages 3-4: ORDER paragraphs 1-4, fee-report alternatives, securing ten opportunities, certification in both cases, and discharge",
+          "excerpt": "          1. Defendants’ Motion for Sanctions is GRANTED. (Doc. 36 in 3:25-cv-\n\n              62). No later than January 30, 2026, the Parties shall either file a\n\n              joint report (in 3:25-cv-62) stating Defendants are satisfied with the\n\n              amounts paid in attorney’s fees to address this issue, or Defendants\n\n              shall file an affidavit regarding additional fees sought (after proper\n\n              conferral).\n\n          2. No later than January 29, 2027, Plaintiff’s Counsel is required to\n\n              secure ten opportunities to speak at bar associations or groups of law\n\n\n          1 A future, different, case might well require additional sanctions,\n    including referral to the Bar.\n\n\n                                             3\n\fCase 3:25-cv-00062-TJC-SJH    Document 53      Filed 01/16/26   Page 4 of 4 PageID 430\n\n\n\n\n              students to share his experience of improper reliance on unverified\n\n              research and encourage others to avoid similar problems.\n\n          3. No later than January 29, 2027, Plaintiff’s Counsel is responsible to\n\n              certify his compliance with paragraph two, with a report filed in both\n\n              cases.\n\n          4. The Court’s Order to Show Cause is DISCHARGED. (Doc. 46 in 3:25-\n\n              cv-62; Doc. 52 in 5:25-cv-45).\n\n\n\n",
+          "identity_excerpts": [
+            "Case 3:25-cv-00062-TJC-SJH   Document 53    Filed 01/16/26",
+            "UNITED STATES DISTRICT COURT"
+          ],
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2026-045/combined-sanctions-order.pdf",
+            "sha256": "a357c77a7a0a9293aa043e40beb0688f059abffe3c19000be41f3bdf456e3a57"
+          },
+          "source_role": "primary record",
+          "provenance_note": "Exact court-order PDF served from RECAP storage and the existing UTF-8 extraction are reused without a new request. The original October 3 transport receipt is retained alongside them; this review uses retained_snapshot and does not invent a new retrieval time."
+        }
+      },
+      "units": {
+        "field:public_matter_name": {
+          "before_sha256": "4ab40c99b678fffa284b1c3e807b7e4aaa944054f94839918dc4e1b530b397c0",
+          "after_sha256": "a53a9481f898e9cc1275d7100b62075d24654ddcb7fd61cfbb7a41784dde954e",
+          "candidate_content": "Hodges v. Meridian Waste Acquisitions, LLC et al., No. 3:25-cv-62; Rieske v. Accounting Fulfillment Services LLC et al., No. 5:25-cv-45 (M.D. Fla.)",
+          "reason": "Use actual companion captions rather than unsupported USA label and ambiguous AFS abbreviation.",
+          "qualifications": {
+            "scope": "Only this existing combined-order record and the identified changed field; one native row continues to index two companion cases. No new record, event grain, status or AI-attribution determination.",
+            "exceptions": "The payment is an already-taken corrective step. Additional fees, actual speaking opportunities and compliance were not observed; et al. is abbreviated indexing, not a complete party or corporate-alias claim.",
+            "time": "Order filed January 16, 2026; fee-report deadline January 30, 2026; securing opportunities and certification deadline January 29, 2027. No current docket review or native Checked/Verified renewal."
+          },
+          "evidence": [
+            "caption"
+          ]
+        },
+        "field:error_title": {
+          "before_sha256": "f9a97b836732beb3352d52e51a56fe1650d80344dcecbf6d0795b311c03877e8",
+          "after_sha256": "d83f984a24bea56243efd45aa82208fc476122e2f1d37ecc75899112c8453fd1",
+          "candidate_content": "M.D. Florida sanctions counsel after AI citation errors in two companion cases",
+          "reason": "Correct the distinction between already-paid corrective fees, the fee-report process, securing speaking opportunities and certification required by the retained order.",
+          "qualifications": {
+            "scope": "Only this existing combined-order record and the identified changed field; one native row continues to index two companion cases. No new record, event grain, status or AI-attribution determination.",
+            "exceptions": "The payment is an already-taken corrective step. Additional fees, actual speaking opportunities and compliance were not observed; et al. is abbreviated indexing, not a complete party or corporate-alias claim.",
+            "time": "Order filed January 16, 2026; fee-report deadline January 30, 2026; securing opportunities and certification deadline January 29, 2027. No current docket review or native Checked/Verified renewal."
+          },
+          "evidence": [
+            "admission",
+            "operative"
+          ]
+        },
+        "field:error_description": {
+          "before_sha256": "5f0e396d7735682ae796214847304254d0a0c4a03a5be975135a6363fba844a6",
+          "after_sha256": "e0351b8bde6fd6df325427352421ae8ad4cba3d0e78bcd526fa7fa381006741f",
+          "candidate_content": "Plaintiff's counsel admitted filing briefs in two companion cases containing AI-generated fake citations. The January 16, 2026 order records corrective steps already taken, including paying Defendants $7,000 in fees in Hodges and reducing counsel's fees in Rieske. The court granted Defendants' sanctions motion and required a report on fee satisfaction or an affidavit seeking additional fees after conferral. As a further sanction, counsel must secure ten opportunities to speak to bar associations or groups of law students about the experience by January 29, 2027, and certify compliance in both cases by that date. The court decided not to refer counsel to the Middle District Grievance Committee or the Florida Bar in these circumstances.",
+          "reason": "Correct the distinction between already-paid corrective fees, the fee-report process, securing speaking opportunities and certification required by the retained order.",
+          "qualifications": {
+            "scope": "Only this existing combined-order record and the identified changed field; one native row continues to index two companion cases. No new record, event grain, status or AI-attribution determination.",
+            "exceptions": "The payment is an already-taken corrective step. Additional fees, actual speaking opportunities and compliance were not observed; et al. is abbreviated indexing, not a complete party or corporate-alias claim.",
+            "time": "Order filed January 16, 2026; fee-report deadline January 30, 2026; securing opportunities and certification deadline January 29, 2027. No current docket review or native Checked/Verified renewal."
+          },
+          "evidence": [
+            "admission",
+            "correction",
+            "operative"
+          ]
+        },
+        "field:reliance_or_harm": {
+          "before_sha256": "2d4edf1b9227dfda2b8b890d49b31aeccb0f0508abd90414fd6ee12896591529",
+          "after_sha256": "4451409280d7d655e36d12beefaf853c41c7f3f0efa0764f0e2e5a4e75b4fd52",
+          "candidate_content": "Counsel's false citations caused opposing parties and the court to spend time correcting the record. The order records $7,000 already paid to Defendants in Hodges and a reduction of counsel's fees in Rieske. By January 30, 2026, the parties must report that Defendants are satisfied with the amounts paid, or Defendants must submit an affidavit seeking additional fees after proper conferral. Counsel must secure ten speaking opportunities and certify compliance in both cases by January 29, 2027.",
+          "reason": "Correct the distinction between already-paid corrective fees, the fee-report process, securing speaking opportunities and certification required by the retained order.",
+          "qualifications": {
+            "scope": "Only this existing combined-order record and the identified changed field; one native row continues to index two companion cases. No new record, event grain, status or AI-attribution determination.",
+            "exceptions": "The payment is an already-taken corrective step. Additional fees, actual speaking opportunities and compliance were not observed; et al. is abbreviated indexing, not a complete party or corporate-alias claim.",
+            "time": "Order filed January 16, 2026; fee-report deadline January 30, 2026; securing opportunities and certification deadline January 29, 2027. No current docket review or native Checked/Verified renewal."
+          },
+          "evidence": [
+            "admission",
+            "correction",
+            "operative"
+          ]
+        },
+        "field:notes_on_resolution": {
+          "before_sha256": "565b0eefc3c83bfd51a62d2a118246886bfd4856fd56d3a58482ca177dc0f4dd",
+          "after_sha256": "9c69cf5b5dceb9312f069a0420cadda8e6ff56a89bef1345ceec55790ec566d0",
+          "candidate_content": "The January 16, 2026 order covers Hodges, No. 3:25-cv-62, and Rieske, No. 5:25-cv-45. It grants Defendants' motion for sanctions in Hodges and discharges the show-cause orders in both cases. The $7,000 payment in Hodges is described as a corrective step already taken, alongside a fee reduction in Rieske; it is not stated as a newly imposed fixed $7,000 award. Paragraph 1 requires, by January 30, 2026, either a joint report in Hodges that Defendants are satisfied with the amounts paid or an affidavit from Defendants seeking additional fees after proper conferral. Paragraphs 2-3 require counsel to secure ten opportunities to speak to bar associations or groups of law students and certify compliance by report in both cases by January 29, 2027; the order does not phrase this as completing ten delivered talks. The court declines referral to the Middle District Grievance Committee or the Florida Bar in these circumstances. No subsequent report, additional fee award, speaking opportunity or compliance certification was reviewed.",
+          "reason": "Correct the distinction between already-paid corrective fees, the fee-report process, securing speaking opportunities and certification required by the retained order.",
+          "qualifications": {
+            "scope": "Only this existing combined-order record and the identified changed field; one native row continues to index two companion cases. No new record, event grain, status or AI-attribution determination.",
+            "exceptions": "The payment is an already-taken corrective step. Additional fees, actual speaking opportunities and compliance were not observed; et al. is abbreviated indexing, not a complete party or corporate-alias claim.",
+            "time": "Order filed January 16, 2026; fee-report deadline January 30, 2026; securing opportunities and certification deadline January 29, 2027. No current docket review or native Checked/Verified renewal."
+          },
+          "evidence": [
+            "caption",
+            "correction",
+            "operative"
+          ]
+        }
+      },
+      "unresolved": [
+        "The order does not name Plaintiff's counsel or the AI system; existing unnamed attribution is preserved.",
+        "Whether the January 30, 2026 fee report or affidavit was filed, any additional fees were awarded, or speaking opportunities and certification were secured by January 29, 2027 was not observed.",
+        "One native record continues to index a combined order covering two companion matters; no separate Rieske source retrieval or new record is asserted."
+      ],
+      "review": {
+        "actor": "codex:aiel-045-retained-order-correction-2026-10-31",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Bounded agent source-consistency review of five changed narrative/caption fields against all four pages of the same retained order. No human attestation, date renewal, new record, status update or current-docket acceptance.",
+        "reviewed_at": "2026-10-31T17:58:52.633Z",
+        "packet_sha256": "457facfd18b196b48d13bb160022cb2069b6795265d8974394446446052a32b2"
+      }
     }
   }
 }
