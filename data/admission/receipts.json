@@ -4361,6 +4361,180 @@
         "reviewed_at": "2026-10-31T22:23:11.308Z",
         "packet_sha256": "cf8370a000f7763daf279916ac84e29e9a07b51c15db41ecd4bebf16620c2b7f"
       }
+    },
+    "included/AIEL-2024-008": {
+      "baseline_sha256": "9ad14d47cd0cd30bc6540ab901f95783534e351a3214e08385f4e32e736a18d0",
+      "record_sha256": "1805bdac18e8fd4b630d636fc69164ba9cee7ef5403a9a54688541707a33b93c",
+      "evidence": {
+        "federal-adopting-order": {
+          "path": "data/admission/raw/aiel-2024-008/federal-opinion-order.txt",
+          "sha256": "e3134c6df59e7a0c4a08d8f1f93c6134f314d39a25a8a62457103ce1f269b294",
+          "official_url": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
+          "document_id": "In-re-Neusom-2-24-mc-2-JES-March8-2024",
+          "document_title": "In re Thomas Grant Neusom, Opinion and Order",
+          "issuing_body": "U.S. District Court for the Middle District of Florida, Fort Myers Division",
+          "document_type": "opinion and order",
+          "version": "March8,2024 federal disciplinary Opinion and Order, exact retained October3snapshot; no later docket/currentness finding",
+          "locator": "PDFpages4-7,paragraphs1-7: adopts/incorporatesDoc3,findings,federalbar suspension,newcase prohibition,conditions,service;extractedcharacters4983-8941",
+          "excerpt": "The Court has reviewed the record, the Report and\n\nRecommendations, and the Objections and Response carefully, and\n\nhas applied a de novo standard of review.             The Court overrules the\n\nObjections filed by Mr. Neusom.                The Court agrees with, and\n\ntherefore adopts, the findings of the Grievance Committee.                    The\n\nCourt finds that clear and convincing evidence establishes the\n\nlawyer misconduct identified in the Report and Recommendation.\n\nThe   Court   also    agrees   that     the   sanctions    recommended   by   the\n\nGrievance     Committee       are   appropriate      and    proportional,     and\n\ntherefore will impose the substance of the sanctions recommended\n\nby the Grievance Committee.\n\n      Accordingly, it is hereby\n\n      ORDERED:\n\n      1. The Objections to the Report and Recommendation (Doc. #45)\n\n        are OVERRULED.\n\n      2. The Grievance Committee’s Report and Recommendation (Doc.\n\n        #3) is ACCEPTED, ADOPTED, and incorporated herein.\n\n      3. After   de    novo    review    of    the   Committee’s   Report     and\n\n        Recommendation, the Court finds by clear and convincing\n\n        evidence that Mr. Neusom’s behavior violated Florida Bar\n\n\n\n                                      - 4 -\n\f  Rules 4-1.3, 4-3.3(a)(3), 4-8.4(c), and 4-3.4(c), and the\n\n  Florida Rules of Professional Conduct.\n\n4. Mr. Neusom is SUSPENDED from the Bar of the United States\n\n  District Court for the Middle District of Florida for a\n\n  period of one (1) year.         The suspension is effective\n\n  beginning thirty (30) days from the date of this Order.\n\n  This delay is intended to permit Mr. Neusom to address any\n\n  existing case load within the jurisdiction of the Middle\n\n  District of Florida and protect the interests of clients\n\n  during his suspension\n\n5. Mr. Neusom is PROHIBITED from taking on new cases in the\n\n  United States District Court for the Middle District of\n\n  Florida, effective as of the date of this Order and lasting\n\n  until he is reinstated in the Bar of the Middle District\n\n  of Florida pursuant to the Reinstatement Conditions set\n\n  forth below.\n\n6. The following Reinstatement Conditions are SET and must be\n\n  completed before Mr. Neusom is permitted to petition to\n\n  the Bar of the United States District Court for the Middle\n\n  District of Florida for reinstatement:\n\n  A. During the period of suspension, Mr. Neusom must:\n\n     i.   Attend   and     complete     The   Florida    Bar’s\n\n     Professionalism Workshop;\n\n\n\n\n                          - 5 -\n\f    ii.    Attend and complete all aspects of a Law Practice\n\n    Management CLE;\n\n    iii. Attend and complete all aspects of the Practicing\n\n    with Professionalism CLE; and\n\n    iv.    Receive   Counseling    through   the   Florida   Lawyers\n\n    Assistance Program.\n\n  B. Pay all outstanding monetary sanctions, fees, and costs\n\n    levied    against    him,     in   any   federal,   state,   or\n\n    disciplinary actions;\n\n  C. Complete all remediation ordered by The Florida Bar, if\n\n    any;\n\n  D. Complete all remediation ordered by any court, including\n\n    reporting of any sanction orders levied by any court to\n\n    the appropriate parties;\n\n  E. Re-read the Florida Rules of Professional Conduct and\n\n    the Local Rules of the United States District Court for\n\n    the Middle District of Florida in full and certify in\n\n    writing to this Court that he has done so; and\n\n  F. Report to the Court the completion of subparagraphs (A)\n\n    through (E) of this paragraph on or before the date\n\n    marking the end of the suspension period.\n\n7. The Clerk is DIRECTED to forward a copy of this Order to\n\n  all judges of the United States District Court for the\n\n\n\n\n                           - 6 -\n\f          Middle District of Florida and to serve a copy of this\n\n          Order on The Florida Bar.\n\n     DONE and ORDERED at Fort Myers, Florida, this      8th   day of\n\nMarch 2024.\n\n\n\n\n",
+          "identity_excerpts": [
+            "IN RE: THOMAS GRANT NEUSOM,",
+            "Case No:   2:24-mc-2-JES"
+          ],
+          "source_role": "primary record",
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2024-008/federal-opinion-order.pdf",
+            "sha256": "7c5deaa49bab0fc1b4bfe8f70781a44a5470bd805da35a13de910e429d6a2ecd"
+          },
+          "provenance_note": "Issuing-court original PDF and readable snapshot copied byte-identically from retained October3evidence. Original historical HTTP receipt is retained beside them; no new transport or timestamp is invented. This order incorporates the committee report but does not strengthen its hedged AI explanation into proven causation."
+        },
+        "adopted-committee-report": {
+          "path": "data/admission/raw/aiel-2024-008/committee-report-media-copy.txt",
+          "sha256": "f50bb0727a3c95bb08536e2e4686b3bf002f84862f0a53898d7a09336933067d",
+          "official_url": "https://lawnext.com/wp-content/uploads/2024/03/M.D.-Fla.-24-mc-00002-dckt-000003_000-filed-2024-02-01.pdf",
+          "document_id": "Neusom-Grievance-Committee-Report-Doc3-filed-Feb1-2024-original-Clark-Pear-Doc44",
+          "document_title": "Report and Recommendation of the Grievance Committee concerning Thomas G.Neusom",
+          "issuing_body": "Grievance Committee for the Middle District of Florida, Fort Myers Division",
+          "document_type": "grievance committee report",
+          "version": "Fifteen-page court-filed report with double ClarkPearDoc44/NeusomDoc3headers; exact media-hosted retained October3copy, not issuing-host retrieval",
+          "locator": "PDFpages5-6,committee findings and telephonic account;pages10-11repeat hedged AI account;extractedcharacters10331-12898",
+          "excerpt": "The Committee researched the legal citations in Mr. Neusom’s Amended\n\n Supplementary Removal [Doc. 20]. The Committee found that Mr. Neusom\n\n included inaccurate citations and fabricated authorities in his filings. We called Mr.\n\n\n\n 4 On July 5, 2023, MVP’s counsel having been unable to locate the removal ac�on in either of the\n\n district courts iden�ﬁed in the First and Second Removal No�ce made an inquiry to Clark Pear’s\n counsel regarding the iden�ﬁca�on of the Federal District Court where Clark Pear has removed\n the ac�on to. [Doc. 22, p. 5, Ex. 4].\n\n                                                5\n\fCaseCase\n     2:23-cv-00503-JLB-NPM\n          2:24-mc-00002-JES Document 44\n                                     3 Filed\n                                        Filed02/01/24\n                                              01/12/24 Page\n                                                        Page66ofof15\n                                                                   15PageID\n                                                                      PageID72605\n\n\n\n\n Neusom for a response. He stated in a telephonic interview that he “used Westlaw\n\n and FastCase and may have used artificial intelligence to draft the filing(s) but was\n\n not able to check the excerpts and citations.” Mr. Neusom stated that he would also\n\n provide a written response. Mr. Neusom’s written response to the Committee failed\n\n to address the concerns of fabricated citations. The response included accusations\n\n that opposing counsel made procedurally improper allegations, that the allegations\n\n were a sham, and that civil RICO charges were being filed against opposing counsel.\n\n The   Committee      found    Mr.   Neusom’s     response    wholly    unsatisfactory,\n\n unprofessional, and highly concerning.\n\n       The Committee also interviewed opposing counsel Nabil Joseph, Esq. Mr.\n\n Joseph stated that he immediately noticed deficiencies in Mr. Neusom’s filings. He\n\n stated that the filings were devoid of supporting caselaw and, where caselaw was\n\n cited, the citations did not appear accurate. Mr. Joseph spent a significant amount of\n\n time checking the citations and found that Mr. Neusom cited non-existent cases or\n\n misrepresented what the cited case actually stands for. Mr. Joseph requested in\n\n writing that Mr. Neusom furnish full text versions of certain specifically enumerated\n\n cases that were cited in legal filings. Mr. Neusom provided non-responsive and\n\n evasive answers to the request for the cited authorities. This resulted in Mr. Joseph’s\n\n ",
+          "identity_excerpts": [
+            "Thomas G. Neusom, Esq.",
+            "REPORT AND RECOMMENDATION OF THE GRIEVANCE"
+          ],
+          "ai_attribution_excerpt": "may have used artificial intelligence to draft the filing(s)",
+          "source_role": "media-hosted pleading copy",
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2024-008/committee-report-media-copy.pdf",
+            "sha256": "8c1dbd7bdd2b140f2b037917e3bcc834d188b14fe958d7d960ad6ca099763e06"
+          },
+          "provenance_note": "This is a court-filed committee report obtained as a media-hosted PDF copy at LawNext, not an issuing-court-host retrieval. Exact original PDF, readable text and oldHTTP receipt are retained. Court-stamped identity and the current issuing federal order's explicit adoption/incorporation bind this copy toDoc3; the media host is provenance, not an independent adjudication. The existing native media URL remains secondary and current public_record_link remains the issuing federal order."
+        }
+      },
+      "units": {
+        "field:error_title": {
+          "before_sha256": "676705c400da51fdde2d626244bc83cb59e78e36f64f0dce76794d754a5b1878",
+          "after_sha256": "b3b1b97e7e28c5a6cf8071746c973e790494118e092c4d09270954e98500f84e",
+          "candidate_content": "Fabricated citations and other misconduct contributed to attorney discipline",
+          "reason": "Apply existing INTENT undetermined-attribution rule and qualify the federal-only adjudicative source scope. No affirmative AI causation or unproved separate state outcome is accepted.",
+          "qualifications": {
+            "scope": "Exactlyerror_titleofAIEL-2024-008. Read with the adopted filed committee report and issuing federal Opinion and Order. AI is raised as a hedged explanation, with attribution undetermined; the order establishes its own federal-bar discipline.",
+            "exceptions": "All unchanged native fields remain outside acceptance, including composite display name/jurisdiction and legal_graph. No separate FloridaSupremeCourt disposition, absence of state discipline, exact AI architecture, current reinstatement/compliance or later docket is inferred.",
+            "time": "Historical March8,2024order and adopted committee report, using retained October3,2026source bytes only. LastVerified/Checked/nativelegal dates and status remain unchanged; no new retrieval/currentness/human renewal."
+          },
+          "evidence": [
+            "federal-adopting-order",
+            "adopted-committee-report"
+          ]
+        },
+        "field:ai_system_name": {
+          "before_sha256": "f024534fe05a59235d5d8cad80ea380b93ef7b1b3d1cc608cbe6ed2437edacc6",
+          "after_sha256": "c8f2820bed508f8d9b382a8f478e995b738506e5b85769ad51428f64270f096b",
+          "candidate_content": "Unspecified AI (raised in the record; attribution not determined)",
+          "reason": "Apply existing INTENT undetermined-attribution rule and qualify the federal-only adjudicative source scope. No affirmative AI causation or unproved separate state outcome is accepted.",
+          "qualifications": {
+            "scope": "Exactlyai_system_nameofAIEL-2024-008. Read with the adopted filed committee report and issuing federal Opinion and Order. AI is raised as a hedged explanation, with attribution undetermined; the order establishes its own federal-bar discipline.",
+            "exceptions": "All unchanged native fields remain outside acceptance, including composite display name/jurisdiction and legal_graph. No separate FloridaSupremeCourt disposition, absence of state discipline, exact AI architecture, current reinstatement/compliance or later docket is inferred.",
+            "time": "Historical March8,2024order and adopted committee report, using retained October3,2026source bytes only. LastVerified/Checked/nativelegal dates and status remain unchanged; no new retrieval/currentness/human renewal."
+          },
+          "evidence": [
+            "federal-adopting-order",
+            "adopted-committee-report"
+          ]
+        },
+        "field:error_description": {
+          "before_sha256": "18b3c3de20b32c9e6970747de7af3550da086f50105fa083553a2fd5fc7e20b1",
+          "after_sha256": "e4d2cfa24cf8d4afc1f3d5a5fddde3d0857f8ea31122f23da3905752cf3dad0c",
+          "candidate_content": "The federal Grievance Committee found inaccurate citations and fabricated authorities in Neusom's filings. Its report recounts counsel saying he may have used artificial intelligence and could not check the excerpts and citations. The March 8, 2024 federal Opinion and Order adopted and incorporated the committee report and imposed discipline for multiple misconduct findings. AI attribution remains undetermined.",
+          "reason": "Apply existing INTENT undetermined-attribution rule and qualify the federal-only adjudicative source scope. No affirmative AI causation or unproved separate state outcome is accepted.",
+          "qualifications": {
+            "scope": "Exactlyerror_descriptionofAIEL-2024-008. Read with the adopted filed committee report and issuing federal Opinion and Order. AI is raised as a hedged explanation, with attribution undetermined; the order establishes its own federal-bar discipline.",
+            "exceptions": "All unchanged native fields remain outside acceptance, including composite display name/jurisdiction and legal_graph. No separate FloridaSupremeCourt disposition, absence of state discipline, exact AI architecture, current reinstatement/compliance or later docket is inferred.",
+            "time": "Historical March8,2024order and adopted committee report, using retained October3,2026source bytes only. LastVerified/Checked/nativelegal dates and status remain unchanged; no new retrieval/currentness/human renewal."
+          },
+          "evidence": [
+            "federal-adopting-order",
+            "adopted-committee-report"
+          ]
+        },
+        "field:reliance_or_harm": {
+          "before_sha256": "c54ed3e14fc339cd40dade03f931c133f20630feee32f1573567b2ae9bb55f8d",
+          "after_sha256": "f8b4319b48245178214551766016f1731854549a0bd80cede44a67894dd1c5f0",
+          "candidate_content": "The March 8, 2024 order imposed a one-year suspension from the Bar of the U.S. District Court for the Middle District of Florida, beginning thirty days after the order, prohibited new cases until reinstatement, and set reinstatement conditions. The retained federal documents do not establish a separate Florida Supreme Court disposition or later state disciplinary outcome.",
+          "reason": "Apply existing INTENT undetermined-attribution rule and qualify the federal-only adjudicative source scope. No affirmative AI causation or unproved separate state outcome is accepted.",
+          "qualifications": {
+            "scope": "Exactlyreliance_or_harmofAIEL-2024-008. Read with the adopted filed committee report and issuing federal Opinion and Order. AI is raised as a hedged explanation, with attribution undetermined; the order establishes its own federal-bar discipline.",
+            "exceptions": "All unchanged native fields remain outside acceptance, including composite display name/jurisdiction and legal_graph. No separate FloridaSupremeCourt disposition, absence of state discipline, exact AI architecture, current reinstatement/compliance or later docket is inferred.",
+            "time": "Historical March8,2024order and adopted committee report, using retained October3,2026source bytes only. LastVerified/Checked/nativelegal dates and status remain unchanged; no new retrieval/currentness/human renewal."
+          },
+          "evidence": [
+            "federal-adopting-order",
+            "adopted-committee-report"
+          ]
+        },
+        "field:confidence_score": {
+          "before_sha256": "b57c4299afe3cda154124bdb96ceaf618a9d8d9cd8d2c8f6580ff26faa5fe5ca",
+          "after_sha256": "60d4c90eee5e731df8d3ef2891de541d2e755ff8ee9db358e26bdec49f6e0db9",
+          "candidate_content": "medium",
+          "reason": "Apply existing INTENT undetermined-attribution rule and qualify the federal-only adjudicative source scope. No affirmative AI causation or unproved separate state outcome is accepted.",
+          "qualifications": {
+            "scope": "Exactlyconfidence_scoreofAIEL-2024-008. Read with the adopted filed committee report and issuing federal Opinion and Order. AI is raised as a hedged explanation, with attribution undetermined; the order establishes its own federal-bar discipline.",
+            "exceptions": "All unchanged native fields remain outside acceptance, including composite display name/jurisdiction and legal_graph. No separate FloridaSupremeCourt disposition, absence of state discipline, exact AI architecture, current reinstatement/compliance or later docket is inferred.",
+            "time": "Historical March8,2024order and adopted committee report, using retained October3,2026source bytes only. LastVerified/Checked/nativelegal dates and status remain unchanged; no new retrieval/currentness/human renewal."
+          },
+          "evidence": [
+            "federal-adopting-order",
+            "adopted-committee-report"
+          ]
+        },
+        "field:notes_on_resolution": {
+          "before_sha256": "aea75055e0f0f652f9e8621981ea70e853f48b4da3c28838401f252d171c3276",
+          "after_sha256": "b6d673c60f0694120e2dc9754e70948a16efc2b7020a09cb11bf9edc4e99446f",
+          "candidate_content": "The Grievance Committee reported that counsel said he \"may have used artificial intelligence to draft the filing(s)\". The March 8, 2024 federal Opinion and Order adopted and incorporated that report, found multiple forms of misconduct, imposed federal-bar suspension and conditions, and directed service on the Florida Bar. AI attribution was not determined; the cited sources do not establish that AI caused the fabricated authorities. The federal documents do not establish a separate Florida Supreme Court disposition, later state disciplinary outcome, or current reinstatement/compliance status.",
+          "reason": "Apply existing INTENT undetermined-attribution rule and qualify the federal-only adjudicative source scope. No affirmative AI causation or unproved separate state outcome is accepted.",
+          "qualifications": {
+            "scope": "Exactlynotes_on_resolutionofAIEL-2024-008. Read with the adopted filed committee report and issuing federal Opinion and Order. AI is raised as a hedged explanation, with attribution undetermined; the order establishes its own federal-bar discipline.",
+            "exceptions": "All unchanged native fields remain outside acceptance, including composite display name/jurisdiction and legal_graph. No separate FloridaSupremeCourt disposition, absence of state discipline, exact AI architecture, current reinstatement/compliance or later docket is inferred.",
+            "time": "Historical March8,2024order and adopted committee report, using retained October3,2026source bytes only. LastVerified/Checked/nativelegal dates and status remain unchanged; no new retrieval/currentness/human renewal."
+          },
+          "evidence": [
+            "federal-adopting-order",
+            "adopted-committee-report"
+          ]
+        },
+        "field:tags": {
+          "before_sha256": "5b7d5eea6622dccfecab31a3657b9538a277786ea09e83be98a384291f99f4e2",
+          "after_sha256": "2194ee446625467aa22ca22d06759b116a7422e299bc46351937917fd977ebac",
+          "candidate_content": "fabricated-citations; professional-discipline; attribution-not-determined; public-record-confirmed",
+          "reason": "Apply existing INTENT undetermined-attribution rule and qualify the federal-only adjudicative source scope. No affirmative AI causation or unproved separate state outcome is accepted.",
+          "qualifications": {
+            "scope": "ExactlytagsofAIEL-2024-008. Read with the adopted filed committee report and issuing federal Opinion and Order. AI is raised as a hedged explanation, with attribution undetermined; the order establishes its own federal-bar discipline.",
+            "exceptions": "All unchanged native fields remain outside acceptance, including composite display name/jurisdiction and legal_graph. No separate FloridaSupremeCourt disposition, absence of state discipline, exact AI architecture, current reinstatement/compliance or later docket is inferred.",
+            "time": "Historical March8,2024order and adopted committee report, using retained October3,2026source bytes only. LastVerified/Checked/nativelegal dates and status remain unchanged; no new retrieval/currentness/human renewal."
+          },
+          "evidence": [
+            "federal-adopting-order",
+            "adopted-committee-report"
+          ]
+        }
+      },
+      "unresolved": [
+        "Whether AI caused the fabricated authorities, and the exact tool or architecture, remain undetermined. The committee recounts may-have-used-AI; adoption does not make that affirmative causation.",
+        "These federal documents do not establish a separate FloridaSupremeCourt/FloridaBar adjudication, later state disciplinary outcome, current federal reinstatement or compliance, or complete later docket. No absence of such events is inferred.",
+        "Unchanged composite public_matter_name/jurisdiction and legal_graph remain legacy units; this changed-unit qualification neither newly accepts nor expands them.",
+        "Agent source-consistency review applies the existing undetermined-attribution policy to exactly7nativefields only. No human source/legal acceptance, human verification date renewal, new proceeding, status change or delivery is granted."
+      ],
+      "review": {
+        "actor": "codex:neusom-retained-attribution-2026-11-01",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Exactly7source-bound nativefields applying existing undetermined-attribution policy and federal-source limits, after independent57checkproposal review and independently selected one-sentence compatibility addendum. No policy/testwaiver,newclaimaboutstateoutcome,currentdocket,status,humanattestation or whole-record acceptance.",
+        "reviewed_at": "2026-11-01T16:50:32.353Z",
+        "packet_sha256": "2843f905a8be1aed2219a01f08bb2bb0e25bb733543679025e4ee484661459bb"
+      }
     }
   }
 }

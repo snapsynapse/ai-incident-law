@@ -353,19 +353,19 @@
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2024-008-allegation.json",
       "id": "aiel-2024-008-allegation",
-      "text": "Attorney filings contained fabricated AI-generated citations in a federal matter. The AI issue was part of a broader disciplinary record that included evasive responses and other noncompliance.",
+      "text": "The federal Grievance Committee found inaccurate citations and fabricated authorities in Neusom's filings. Its report recounts counsel saying he may have used artificial intelligence and could not check the excerpts and citations. The March 8, 2024 federal Opinion and Order adopted and incorporated the committee report and imposed discipline for multiple misconduct findings. AI attribution remains undetermined.",
       "asserted_by": "asserting party not identified in the indexed source fields",
       "related_to": "https://aiincidentlaw.org/incident/aiel-2024-008#ai-system",
       "related_to_party": [
         "https://aiincidentlaw.org/party/aiel-2024-008-deployer.json"
       ],
-      "ai_system_name": "Unspecified generative AI",
+      "ai_system_name": "Unspecified AI (raised in the record; attribution not determined)",
       "deployer": "Thomas Grant Neusom",
       "domain": "legal services",
       "error_type": "hallucinated authority",
       "canonical_source_conflicted": "Actual case law and federal court filing obligations",
       "mitigation_gap": "No citation verification; failure to correct when challenged; broader noncompliance with court and bar processes.",
-      "reliance_or_harm": "Attorney was suspended in federal court and later disciplined by the Florida Supreme Court.",
+      "reliance_or_harm": "The March 8, 2024 order imposed a one-year suspension from the Bar of the U.S. District Court for the Middle District of Florida, beginning thirty days after the order, prohibited new cases until reinstatement, and set reinstatement conditions. The retained federal documents do not establish a separate Florida Supreme Court disposition or later state disciplinary outcome.",
       "ai_incident_law_record_id": "AIEL-2024-008",
       "source": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
       "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
@@ -373,7 +373,13 @@
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Whether AI caused the fabricated authorities, and the exact tool or architecture, remain undetermined. The committee recounts may-have-used-AI; adoption does not make that affirmative causation.",
+        "These federal documents do not establish a separate FloridaSupremeCourt/FloridaBar adjudication, later state disciplinary outcome, current federal reinstatement or compliance, or complete later docket. No absence of such events is inferred.",
+        "Unchanged composite public_matter_name/jurisdiction and legal_graph remain legacy units; this changed-unit qualification neither newly accepts nor expands them.",
+        "Agent source-consistency review applies the existing undetermined-attribution policy to exactly7nativefields only. No human source/legal acceptance, human verification date renewal, new proceeding, status change or delivery is granted."
+      ]
     },
     {
       "@context": [

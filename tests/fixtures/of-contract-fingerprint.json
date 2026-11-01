@@ -3477,9 +3477,9 @@
         "present": 72
       },
       "source_review_unresolved": {
-        "missing": 60,
-        "populated": 12,
-        "present": 12
+        "missing": 59,
+        "populated": 13,
+        "present": 13
       },
       "text": {
         "missing": 0,
@@ -3569,9 +3569,9 @@
         "present": 63
       },
       "source_review_unresolved": {
-        "missing": 53,
-        "populated": 10,
-        "present": 10
+        "missing": 52,
+        "populated": 11,
+        "present": 11
       },
       "territorial_scope": {
         "missing": 3,
@@ -3696,9 +3696,9 @@
         "present": 68
       },
       "source_review_unresolved": {
-        "missing": 58,
-        "populated": 10,
-        "present": 10
+        "missing": 57,
+        "populated": 11,
+        "present": 11
       },
       "verified": {
         "missing": 5,
@@ -3779,9 +3779,9 @@
         "present": 72
       },
       "source_review_unresolved": {
-        "missing": 60,
-        "populated": 12,
-        "present": 12
+        "missing": 59,
+        "populated": 13,
+        "present": 13
       },
       "verified": {
         "missing": 5,
@@ -3917,9 +3917,9 @@
         "present": 74
       },
       "source_review_unresolved": {
-        "missing": 61,
-        "populated": 13,
-        "present": 13
+        "missing": 60,
+        "populated": 14,
+        "present": 14
       },
       "territorial_scope": {
         "missing": 3,
@@ -4009,9 +4009,9 @@
         "present": 8
       },
       "source_review_unresolved": {
-        "missing": 5,
-        "populated": 3,
-        "present": 3
+        "missing": 4,
+        "populated": 4,
+        "present": 4
       },
       "verified": {
         "missing": 0,
@@ -4113,7 +4113,7 @@
     },
     "https://aiincidentlaw.org/determination/aiel-2024-008-determination.json": {
       "remedy": {
-        "notes": "AI hallucinations are recorded as corroborating misconduct, not necessarily the sole basis for discipline.",
+        "notes": "The Grievance Committee reported that counsel said he \"may have used artificial intelligence to draft the filing(s)\". The March 8, 2024 federal Opinion and Order adopted and incorporated that report, found multiple forms of misconduct, imposed federal-bar suspension and conditions, and directed service on the Florida Bar. AI attribution was not determined; the cited sources do not establish that AI caused the fabricated authorities. The federal documents do not establish a separate Florida Supreme Court disposition, later state disciplinary outcome, or current reinstatement/compliance status.",
         "status": "resolved"
       }
     },
@@ -4548,13 +4548,19 @@
       "source_locator": "Park v. Kim, No. 22-2057"
     },
     "https://aiincidentlaw.org/allegation/aiel-2024-008-allegation.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "canonical_source_conflicted": "Actual case law and federal court filing obligations",
       "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
       "source": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
-      "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom"
+      "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
+      "source_review_unresolved": [
+        "Whether AI caused the fabricated authorities, and the exact tool or architecture, remain undetermined. The committee recounts may-have-used-AI; adoption does not make that affirmative causation.",
+        "These federal documents do not establish a separate FloridaSupremeCourt/FloridaBar adjudication, later state disciplinary outcome, current federal reinstatement or compliance, or complete later docket. No absence of such events is inferred.",
+        "Unchanged composite public_matter_name/jurisdiction and legal_graph remain legacy units; this changed-unit qualification neither newly accepts nor expands them.",
+        "Agent source-consistency review applies the existing undetermined-attribution policy to exactly7nativefields only. No human source/legal acceptance, human verification date renewal, new proceeding, status change or delivery is granted."
+      ]
     },
     "https://aiincidentlaw.org/allegation/aiel-2024-010-allegation.json": {
       "admission_status": "source-consistency-reviewed-changes",
@@ -5633,20 +5639,32 @@
       "source_locator": "Bunce v. Visual Technology Innovations, Inc., No. 2:23-cv-01740-KNS"
     },
     "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida-florida-supreme-court.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "curated-retirement",
       "source": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
-      "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom"
+      "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
+      "source_review_unresolved": [
+        "Whether AI caused the fabricated authorities, and the exact tool or architecture, remain undetermined. The committee recounts may-have-used-AI; adoption does not make that affirmative causation.",
+        "These federal documents do not establish a separate FloridaSupremeCourt/FloridaBar adjudication, later state disciplinary outcome, current federal reinstatement or compliance, or complete later docket. No absence of such events is inferred.",
+        "Unchanged composite public_matter_name/jurisdiction and legal_graph remain legacy units; this changed-unit qualification neither newly accepts nor expands them.",
+        "Agent source-consistency review applies the existing undetermined-attribution policy to exactly7nativefields only. No human source/legal acceptance, human verification date renewal, new proceeding, status change or delivery is granted."
+      ]
     },
     "https://aiincidentlaw.org/authority/u-s-district-court-middle-district-of-florida.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "curated-legal-graph",
       "source": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
-      "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom"
+      "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
+      "source_review_unresolved": [
+        "Whether AI caused the fabricated authorities, and the exact tool or architecture, remain undetermined. The committee recounts may-have-used-AI; adoption does not make that affirmative causation.",
+        "These federal documents do not establish a separate FloridaSupremeCourt/FloridaBar adjudication, later state disciplinary outcome, current federal reinstatement or compliance, or complete later docket. No absence of such events is inferred.",
+        "Unchanged composite public_matter_name/jurisdiction and legal_graph remain legacy units; this changed-unit qualification neither newly accepts nor expands them.",
+        "Agent source-consistency review applies the existing undetermined-attribution policy to exactly7nativefields only. No human source/legal acceptance, human verification date renewal, new proceeding, status change or delivery is granted."
+      ]
     },
     "https://aiincidentlaw.org/authority/u-s-district-court-northern-district-of-alabama.json": {
       "admission_status": "legacy-unreviewed",
@@ -5863,12 +5881,18 @@
       "source_locator": "Park v. Kim, No. 22-2057"
     },
     "https://aiincidentlaw.org/determination/aiel-2024-008-determination.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "curated-legal-graph",
       "source": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
-      "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom"
+      "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
+      "source_review_unresolved": [
+        "Whether AI caused the fabricated authorities, and the exact tool or architecture, remain undetermined. The committee recounts may-have-used-AI; adoption does not make that affirmative causation.",
+        "These federal documents do not establish a separate FloridaSupremeCourt/FloridaBar adjudication, later state disciplinary outcome, current federal reinstatement or compliance, or complete later docket. No absence of such events is inferred.",
+        "Unchanged composite public_matter_name/jurisdiction and legal_graph remain legacy units; this changed-unit qualification neither newly accepts nor expands them.",
+        "Agent source-consistency review applies the existing undetermined-attribution policy to exactly7nativefields only. No human source/legal acceptance, human verification date renewal, new proceeding, status change or delivery is granted."
+      ]
     },
     "https://aiincidentlaw.org/determination/aiel-2024-010-determination.json": {
       "admission_status": "source-consistency-reviewed-changes",
@@ -6479,12 +6503,18 @@
       "source_locator": "Park v. Kim, No. 22-2057"
     },
     "https://aiincidentlaw.org/party/aiel-2024-008-deployer.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
       "source": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
-      "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom"
+      "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
+      "source_review_unresolved": [
+        "Whether AI caused the fabricated authorities, and the exact tool or architecture, remain undetermined. The committee recounts may-have-used-AI; adoption does not make that affirmative causation.",
+        "These federal documents do not establish a separate FloridaSupremeCourt/FloridaBar adjudication, later state disciplinary outcome, current federal reinstatement or compliance, or complete later docket. No absence of such events is inferred.",
+        "Unchanged composite public_matter_name/jurisdiction and legal_graph remain legacy units; this changed-unit qualification neither newly accepts nor expands them.",
+        "Agent source-consistency review applies the existing undetermined-attribution policy to exactly7nativefields only. No human source/legal acceptance, human verification date renewal, new proceeding, status change or delivery is granted."
+      ]
     },
     "https://aiincidentlaw.org/party/aiel-2024-010-deployer.json": {
       "admission_status": "source-consistency-reviewed-changes",
@@ -7123,12 +7153,18 @@
       "source_locator": "Park v. Kim, No. 22-2057"
     },
     "https://aiincidentlaw.org/proceeding/aiel-2024-008-proceeding.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "curated-legal-graph",
       "source": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
-      "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom"
+      "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
+      "source_review_unresolved": [
+        "Whether AI caused the fabricated authorities, and the exact tool or architecture, remain undetermined. The committee recounts may-have-used-AI; adoption does not make that affirmative causation.",
+        "These federal documents do not establish a separate FloridaSupremeCourt/FloridaBar adjudication, later state disciplinary outcome, current federal reinstatement or compliance, or complete later docket. No absence of such events is inferred.",
+        "Unchanged composite public_matter_name/jurisdiction and legal_graph remain legacy units; this changed-unit qualification neither newly accepts nor expands them.",
+        "Agent source-consistency review applies the existing undetermined-attribution policy to exactly7nativefields only. No human source/legal acceptance, human verification date renewal, new proceeding, status change or delivery is granted."
+      ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2024-010-proceeding.json": {
       "admission_status": "source-consistency-reviewed-changes",
