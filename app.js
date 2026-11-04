@@ -44,6 +44,18 @@
     global: { label: "Global", countLabel: "Global candidates" },
   };
 
+  const reviewFlagLabels = { no: "Not flagged", yes: "Flagged for review" };
+  const sourceReviewLabels = {
+    "legacy-unreviewed": "Legacy record, unreviewed",
+    "source-consistency-reviewed-changes": "Changed units reviewed",
+    "not-applicable-candidate": "Candidate, not admitted",
+  };
+  const sourceReviewNotes = {
+    "legacy-unreviewed": "Fields have not been reviewed against retained source bytes.",
+    "source-consistency-reviewed-changes": "Only the changed units named in a review receipt were checked, not the whole record.",
+    "not-applicable-candidate": "Review and global candidates are not admitted to the graph.",
+  };
+
   const records = normalizeRecords(data.datasets);
 
   function normalizeRecords(datasets) {
@@ -60,6 +72,9 @@
           raw.original_title ||
           "Untitled record";
         const id = raw.error_id || raw.candidate_id || `${datasetKey}-${index + 1}`;
+        const sourceReview = isIncluded
+          ? data.source_review_by_record?.[id] || {}
+          : { admission_status: "not-applicable-candidate" };
         const matter = raw.public_matter_name || raw.candidate_matter || "";
         const country = raw.country || inferCountry(raw.jurisdiction || raw.candidate_matter || "");
         const domain = raw.domain || raw.region || raw.authority_type || "Unspecified";
@@ -120,6 +135,7 @@
           status,
           sourceQuality,
           needsReview,
+          sourceReview,
           primaryLink,
           secondaryLinks,
           description,
@@ -266,7 +282,11 @@
     populateSelect(elements.domainFilter, unique(records.map((r) => r.domain)).sort(), "All domains");
     populateSelect(elements.typeFilter, unique(records.map((r) => r.type)).sort(), "All types");
     populateSelect(elements.countryFilter, unique(records.map((r) => r.country)).sort(), "All countries");
-    populateSelect(elements.reviewFilter, ["no", "yes"], "All verification states");
+    elements.reviewFilter.innerHTML = "";
+    elements.reviewFilter.appendChild(new Option("All review flags", "all"));
+    Object.entries(reviewFlagLabels).forEach(([value, label]) =>
+      elements.reviewFilter.appendChild(new Option(label, value)),
+    );
     populateSelect(elements.sourceFilter, unique(records.map((r) => r.sourceQuality)).sort(), "All source qualities");
   }
 
@@ -374,7 +394,7 @@
     if (state.domain !== "all") active.push(["Domain", state.domain]);
     if (state.type !== "all") active.push(["Type", state.type]);
     if (state.country !== "all") active.push(["Country", state.country]);
-    if (state.review !== "all") active.push(["Review", state.review]);
+    if (state.review !== "all") active.push(["Review flag", reviewFlagLabels[state.review] || "Not recorded"]);
     if (state.source !== "all") active.push(["Source", state.source]);
 
     elements.activeFilters.innerHTML = active
@@ -406,8 +426,12 @@
           ${metaItem("Domain", record.domain)}
           ${metaItem("Status", truncate(record.status, 80))}
           ${metaItem("Country", record.country)}
-          ${metaItem("Review", record.needsReview === "yes" ? "Needs review" : "Verified seed")}
+          ${metaItem("Review flag", reviewFlagLabels[record.needsReview] || "Not recorded")}
+          ${metaItem("Source review", sourceReviewLabels[record.sourceReview.admission_status] || "Not recorded")}
         </div>
+        <p class="case-detail"><strong>Review basis:</strong> ${escapeHtml(sourceReviewNotes[record.sourceReview.admission_status] || "Source-review metadata is unavailable; no verification is implied.")}</p>
+        <p class="case-detail"><strong>Recorded dates:</strong> verification ${recordDate(raw.last_verified_date)}; check ${recordDate(raw.last_checked_date)}. These dates do not certify current legal status.</p>
+        ${record.sourceReview.source_review_unresolved?.length ? `<p class="case-detail"><strong>Open review questions:</strong> ${record.sourceReview.source_review_unresolved.map(escapeHtml).join(" ")}</p>` : ""}
         ${raw.mitigation_gap ? `<p class="case-detail"><strong>Mitigation gap:</strong> ${escapeHtml(raw.mitigation_gap)}</p>` : ""}
         ${raw.next_verification_step ? `<p class="case-detail"><strong>Next verification:</strong> ${escapeHtml(raw.next_verification_step)}</p>` : ""}
         <div class="tags">${record.tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
@@ -427,13 +451,31 @@
 
   function anchorLinks(anchors) {
     if (!anchors || !anchors.length) return "";
-    const items = anchors.map((url) => {
-      const slug = url.replace(/\.json$/, "").split("/obligation/").pop();
-      const label = slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
-      const humanUrl = url.replace(/\.json$/, "");
-      return `<a class="of-anchor-link" href="${escapeHtml(humanUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a>`;
+    const categoryPages = {
+      "human-oversight": "Human Oversight",
+      "bias-prevention": "Bias & Discrimination Prevention",
+      explainability: "Explainability",
+    };
+    const items = anchors.map((id) => {
+      let url;
+      try { url = new URL(id); } catch { return ""; }
+      if (url.protocol !== "https:") return "";
+      const slug = url.hostname === "everyailaw.com"
+        ? url.pathname.match(/^\/obligation-category\/([a-z0-9-]+)\.json$/)?.[1]
+        : null;
+      const knownCategory = slug && Object.hasOwn(categoryPages, slug);
+      const label = knownCategory ? categoryPages[slug] : "Graph record (JSON)";
+      // Human navigation differs from the category's stable machine identifier.
+      // Unknown anchors keep their original destination rather than guessing a route.
+      const humanUrl = knownCategory ? `https://everyailaw.com/obligation/${slug}/` : url.href;
+      return `<a class="of-anchor-link" href="${escapeHtml(humanUrl)}" data-anchor-id="${escapeHtml(id)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a>`;
     });
-    return `<div class="of-anchors"><span class="of-anchor-label">Anchored to:</span>${items.join("")}</div>`;
+    return `<div class="of-anchors"><span class="of-anchor-label">Related categories, not specific duties:</span>${items.join("")}</div>`;
+  }
+
+  function recordDate(value) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(String(value || ""))) return "Not recorded";
+    return `<time datetime="${value}">${value}</time>`;
   }
 
   function metaItem(label, value) {
@@ -451,6 +493,8 @@
             <th>Domain</th>
             <th>Country</th>
             <th>Status</th>
+            <th>Source review</th>
+            <th>Recorded dates</th>
             <th>Source</th>
           </tr>
         </thead>
@@ -465,6 +509,8 @@
                   <td>${escapeHtml(record.domain)}</td>
                   <td>${escapeHtml(record.country)}</td>
                   <td>${escapeHtml(truncate(record.status, 110))}</td>
+                  <td>${escapeHtml(sourceReviewLabels[record.sourceReview.admission_status] || "Not recorded")}</td>
+                  <td>Verification: ${recordDate(record.raw.last_verified_date)}<br>Check: ${recordDate(record.raw.last_checked_date)}</td>
                   <td>${
                     record.primaryLink
                       ? `<a href="${escapeHtml(record.primaryLink)}" target="_blank" rel="noopener noreferrer">Open</a>`

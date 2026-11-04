@@ -5,6 +5,19 @@ import path from "node:path";
 export const hash = value => createHash("sha256").update(value).digest("hex");
 export const LEGACY_SHA256 = "687290b9904a5c75d7c11f7f03a71ac524f13b529fea761b215d1c72c4aa6190";
 
+// Shared by the graph projection and the offline browser bundle. A receipt
+// covers its named changed units, not a whole-record verification.
+export function admissionStatus(record, admissions) {
+  return Object.hasOwn(admissions.records || {}, `included/${record.error_id}`)
+    ? "source-consistency-reviewed-changes"
+    : "legacy-unreviewed";
+}
+
+export function sourceReviewUnresolved(record, admissions) {
+  const unresolved = admissions.records?.[`included/${record.error_id}`]?.unresolved;
+  return Array.isArray(unresolved) && unresolved.length > 0 ? unresolved : undefined;
+}
+
 export function canonical(value) {
   if (Array.isArray(value)) return value.map(canonical);
   if (value && typeof value === "object") {

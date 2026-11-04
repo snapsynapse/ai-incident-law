@@ -3299,5 +3299,261 @@ window.AIEL_DATA = {
         }
       ]
     }
+  },
+  "source_review_by_record": {
+    "AIEL-2024-001": {
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Human decision pending on whether a chatbot whose technical nature was not provided satisfies the corpus AI-attribution rule.",
+        "The exact proceeding filing date and any current appeal or judicial-review status were not established."
+      ]
+    },
+    "AIEL-2023-002": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2024-003": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2025-004": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-005": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2025-006": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2025-007": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2024-008": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2023-009": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2024-010": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2022-011": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2017-012": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2023-013": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2024-014": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2024-015": {
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Whether a Rule 41 dismissal order or so-ordered stipulation was entered after 2024-09-05; RECAP holds nothing after Dkt. 126 and the docket page is script-blocked.",
+        "filing_date '2022-09' is unsupported by any retrieved document; docket metadata indicates 2021-03-03 but no primary document states the removal date.",
+        "Image-only pages 20-22 and 27 of Dkt. 126 (stipulations) were not read.",
+        "The disposition of claims against IDEMIA, Inc. is not visible in the retrieved documents."
+      ]
+    },
+    "AIEL-2025-016": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2024-017": {
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Status in the 125th Judicial District Court of Harris County after the 2024-08-14 remand is unknown; the district clerk's search is script-gated.",
+        "Whether Stites and Rodriguez were later dismissed, which could permit a second removal, is unknown."
+      ]
+    },
+    "AIEL-2025-018": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-019": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-020": {
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Current docket status after the filed complaint remains unreviewed."
+      ]
+    },
+    "AIEL-2026-021": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-022": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-023": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-024": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-025": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-026": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-027": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-028": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-029": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-030": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-031": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-032": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-033": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-034": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-035": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-036": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-037": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-038": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-040": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-041": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-042": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-043": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-044": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-045": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-046": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-047": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-048": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-049": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-050": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-051": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-052": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-053": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-054": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-055": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-056": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-057": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-058": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-059": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-060": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-061": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-062": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-063": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-064": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-065": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-066": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-067": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-068": {
+      "admission_status": "legacy-unreviewed"
+    },
+    "AIEL-2026-069": {
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The order names neither AI tool, so the specific systems remain unidentified.",
+        "No date is established for the claim-chart submission or for the opening of the disciplinary proceeding, so no incident or filing date is recorded.",
+        "The district court's own docket was not retrieved; the no-sanction and dismissal facts rest on the order's recital and the respondent's representations within it."
+      ]
+    },
+    "AIEL-2026-070": {
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Professional-discipline outcomes referred to a bar or disciplinary authority are not resolved by this order and were not followed up.",
+        "No date is established for the underlying filing that carried the defective citations, so no incident date is recorded."
+      ]
+    },
+    "AIEL-2026-071": {
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Professional-discipline outcomes referred to a bar or disciplinary authority are not resolved by this order and were not followed up.",
+        "No date is established for the underlying filing that carried the defective citations, so no incident date is recorded."
+      ]
+    },
+    "AIEL-2026-072": {
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Professional-discipline outcomes referred to a bar or disciplinary authority are not resolved by this order and were not followed up.",
+        "No date is established for the underlying filing that carried the defective citations, so no incident date is recorded."
+      ]
+    },
+    "AIEL-2026-073": {
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Professional-discipline outcomes referred to a bar or disciplinary authority are not resolved by this order and were not followed up.",
+        "No date is established for the underlying filing that carried the defective citations, so no incident date is recorded."
+      ]
+    }
   }
 };

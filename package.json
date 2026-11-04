@@ -88,7 +88,7 @@
     "check:production-search": "node scripts/check-production-search.mjs",
     "build": "npm run build:data && npm run build:of && npm run validate:data",
     "prepack": "node scripts/check-source-admission.mjs --quiet && node scripts/check-publication-state.mjs --quiet",
-    "check": "npm run validate:data && npm run check:admission && npm run test:source-admission && npm run check:publication-state && npm run test:publication-state && npm run validate:guidecheck && npm run test:guidecheck-versioning && npm run test:url-policy && npm run eval:url-policy && npm run eval:of && npm run check:of && npm run validate:of && npm run check:of-fingerprint && npm run check:of-continuity && npm run check:of-temporal && npm run test:of-temporal && npm run test:of-traversal && npm run test:legal-graph-source && npm run test:build-of && npm run test:recap-resolver && npm run test:source-link-policy && npm run test:mcp && npm run test:discovery && npm run check:naming-profile-manifest && npm run test:naming-profile-manifest && npm run test:workflow && npm run test:admission-policy && npm run check:corpus-snapshot && npm run check:search && npm run eval:package && npm run test:maintenance",
+    "check": "npm run validate:data && npm run check:admission && npm run test:source-admission && npm run check:publication-state && npm run test:publication-state && npm run validate:guidecheck && npm run test:guidecheck-versioning && npm run test:url-policy && npm run eval:url-policy && npm run eval:of && npm run check:of && npm run validate:of && npm run check:of-fingerprint && npm run check:of-continuity && npm run check:of-temporal && npm run test:of-temporal && npm run test:of-traversal && npm run test:legal-graph-source && npm run test:build-of && npm run test:recap-resolver && npm run test:source-link-policy && npm run test:mcp && npm run test:discovery && npm run check:naming-profile-manifest && npm run test:naming-profile-manifest && npm run test:workflow && npm run test:admission-policy && npm run check:corpus-snapshot && npm run check:search && npm run eval:package && npm run test:web-rendering && npm run test:maintenance",
     "verify:ci": "node scripts/verify-ci.mjs",
     "serve": "python3 -m http.server 4173",
     "test:admission-policy": "node --test tests/admission-policy.test.mjs",
@@ -96,6 +96,7 @@
     "test:maintenance": "node --test tests/matter-monitor.test.mjs tests/matter-discovery.test.mjs tests/staleness-report.test.mjs",
     "observe:matters": "node scripts/observe-matters.mjs",
     "check:naming-profile-manifest": "node scripts/check-naming-profile-manifest.mjs",
-    "test:naming-profile-manifest": "node --test tests/naming-profile-manifest.test.mjs"
+    "test:naming-profile-manifest": "node --test tests/naming-profile-manifest.test.mjs",
+    "test:web-rendering": "node --test tests/web-rendering.test.mjs"
   }
 }

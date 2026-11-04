@@ -1,7 +1,7 @@
 import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 
-import { LEGACY_SHA256, hash, validateAdmission } from "./lib/source-admission.mjs";
+import { LEGACY_SHA256, hash, validateAdmission, admissionStatus, sourceReviewUnresolved } from "./lib/source-admission.mjs";
 
 const SOURCE_PATH = new URL("../data/data.json", import.meta.url);
 const ADMISSIONS_PATH = new URL("../data/admission/receipts.json", import.meta.url);
@@ -200,20 +200,6 @@ function provenance(record, projectionBasis, admissionStatus, sourceReviewUnreso
     admission_status: admissionStatus,
     source_review_unresolved: sourceReviewUnresolved
   };
-}
-
-function admissionStatus(record, admissions) {
-  const key = `included/${record.error_id}`;
-  return Object.hasOwn(admissions.records || {}, key)
-    ? "source-consistency-reviewed-changes"
-    : "legacy-unreviewed";
-}
-
-function sourceReviewUnresolved(record, admissions) {
-  const receipt = admissions.records?.[`included/${record.error_id}`];
-  return Array.isArray(receipt?.unresolved) && receipt.unresolved.length > 0
-    ? receipt.unresolved
-    : undefined;
 }
 
 function normalizeDate(value) {
