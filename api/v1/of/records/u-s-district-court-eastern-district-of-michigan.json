@@ -43,11 +43,17 @@
   ],
   "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
   "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827",
-  "evidence_type": "primary record",
+  "evidence_type": "party case page",
   "verified": "2026-04-22",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "projection_basis": "legacy-jurisdiction-inference",
-  "admission_status": "legacy-unreviewed",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "The linked ACLU case page is counsel’s account for its represented client, not the court’s adjudicative opinion or the separately linked settlement agreement.",
+    "This role-only review does not newly verify the $300,000 figure, precise settlement terms, entered dismissal, merits findings or current docket status. Existing substantive and outcome units remain unchanged legacy debt.",
+    "The page’s settlement announcement and document list are primary for counsel’s own publication. The linked agreement and court documents were not retrieved or accepted by this role correction.",
+    "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+  ],
   "sameAs": [
     "https://wikidata.org/entity/Q5687969"
   ]

@@ -301,7 +301,13 @@
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Whether AI caused the fabricated authorities, and the exact tool or architecture, remain undetermined. The committee recounts may-have-used-AI; adoption does not make that affirmative causation.",
+        "These federal documents do not establish a separate FloridaSupremeCourt/FloridaBar adjudication, later state disciplinary outcome, current federal reinstatement or compliance, or complete later docket. No absence of such events is inferred.",
+        "Unchanged composite public_matter_name/jurisdiction and legal_graph remain legacy units; this changed-unit qualification neither newly accepts nor expands them.",
+        "Agent source-consistency review applies the existing undetermined-attribution policy to exactly7nativefields only. No human source/legal acceptance, human verification date renewal, new proceeding, status change or delivery is granted."
+      ]
     },
     {
       "@context": [
@@ -371,11 +377,17 @@
       ],
       "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
       "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al.",
-      "evidence_type": "primary record",
+      "evidence_type": "official statement",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The linked DOJ case page is an agency account, primary for its own statements; the separately linked Statement of Interest and court order were not reviewed as original documents in this role-only correction.",
+        "The page reports July 26, 2023 denial of dismissal motions and is marked updated August 17, 2023. It does not establish the later final settlement approval or current docket status.",
+        "The retained April 30, 2024 counsel-hosted settlement article describes approval pending. Existing settled status, relief and legal/outcome statements remain unchanged legacy units and are not newly accepted by this receipt.",
+        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+      ]
     },
     {
       "@context": [
@@ -519,11 +531,17 @@
       ],
       "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
       "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827",
-      "evidence_type": "primary record",
+      "evidence_type": "party case page",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The linked ACLU case page is counsel’s account for its represented client, not the court’s adjudicative opinion or the separately linked settlement agreement.",
+        "This role-only review does not newly verify the $300,000 figure, precise settlement terms, entered dismissal, merits findings or current docket status. Existing substantive and outcome units remain unchanged legacy debt.",
+        "The page’s settlement announcement and document list are primary for counsel’s own publication. The linked agreement and court documents were not retrieved or accepted by this role correction.",
+        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+      ]
     },
     {
       "@context": [
@@ -1645,12 +1663,17 @@
         "deployer"
       ],
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
-      "source_locator": "Hodges v. Meridian Waste Acquisitions USA, No. 3:25-cv-62; Rieske v. AFS, No. 5:25-cv-45 (M.D. Fla.)",
+      "source_locator": "Hodges v. Meridian Waste Acquisitions, LLC et al., No. 3:25-cv-62; Rieske v. Accounting Fulfillment Services LLC et al., No. 5:25-cv-45 (M.D. Fla.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The order does not name Plaintiff's counsel or the AI system; existing unnamed attribution is preserved.",
+        "Whether the January 30, 2026 fee report or affidavit was filed, any additional fees were awarded, or speaking opportunities and certification were secured by January 29, 2027 was not observed.",
+        "One native record continues to index a combined order covering two companion matters; no separate Rieske source retrieval or new record is asserted."
+      ]
     },
     {
       "@context": [

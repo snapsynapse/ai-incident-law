@@ -284,15 +284,15 @@ window.AIEL_DATA = {
         },
         {
           "error_id": "AIEL-2024-008",
-          "error_title": "AI-fabricated citations contributed to attorney discipline",
-          "ai_system_name": "Unspecified generative AI",
+          "error_title": "Fabricated citations and other misconduct contributed to attorney discipline",
+          "ai_system_name": "Unspecified AI (raised in the record; attribution not determined)",
           "deployer": "Thomas Grant Neusom",
           "domain": "legal services",
           "error_type": "hallucinated authority",
-          "error_description": "Attorney filings contained fabricated AI-generated citations in a federal matter. The AI issue was part of a broader disciplinary record that included evasive responses and other noncompliance.",
+          "error_description": "The federal Grievance Committee found inaccurate citations and fabricated authorities in Neusom's filings. Its report recounts counsel saying he may have used artificial intelligence and could not check the excerpts and citations. The March 8, 2024 federal Opinion and Order adopted and incorporated the committee report and imposed discipline for multiple misconduct findings. AI attribution remains undetermined.",
           "canonical_source_conflicted": "Actual case law and federal court filing obligations",
           "mitigation_gap": "No citation verification; failure to correct when challenged; broader noncompliance with court and bar processes.",
-          "reliance_or_harm": "Attorney was suspended in federal court and later disciplined by the Florida Supreme Court.",
+          "reliance_or_harm": "The March 8, 2024 order imposed a one-year suspension from the Bar of the U.S. District Court for the Middle District of Florida, beginning thirty days after the order, prohibited new cases until reinstatement, and set reinstatement conditions. The retained federal documents do not establish a separate Florida Supreme Court disposition or later state disciplinary outcome.",
           "public_matter_type": "disciplinary matter",
           "public_matter_name": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
           "filing_status": "resolved",
@@ -301,9 +301,9 @@ window.AIEL_DATA = {
           "error_date": "2023",
           "public_record_link": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
           "secondary_source_links": "https://lawnext.com/wp-content/uploads/2024/03/M.D.-Fla.-24-mc-00002-dckt-000003_000-filed-2024-02-01.pdf; https://jcorsmeier.wordpress.com/2024/03/20/florida-middle-district-federal-judge-suspends-florida-lawyer-for-filing-false-cases-created-by-artificial-intelligence/",
-          "confidence_score": "high",
-          "notes_on_resolution": "AI hallucinations are recorded as corroborating misconduct, not necessarily the sole basis for discipline.",
-          "tags": "document-generation; legal-hallucination; professional-discipline; public-record-confirmed",
+          "confidence_score": "medium",
+          "notes_on_resolution": "The Grievance Committee reported that counsel said he \"may have used artificial intelligence to draft the filing(s)\". The March 8, 2024 federal Opinion and Order adopted and incorporated that report, found multiple forms of misconduct, imposed federal-bar suspension and conditions, and directed service on the Florida Bar. AI attribution was not determined; the cited sources do not establish that AI caused the fabricated authorities. The federal documents do not establish a separate Florida Supreme Court disposition, later state disciplinary outcome, or current reinstatement/compliance status.",
+          "tags": "fabricated-citations; professional-discipline; attribution-not-determined; public-record-confirmed",
           "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-04-22",
@@ -451,7 +451,7 @@ window.AIEL_DATA = {
             "https://everyailaw.com/obligation-category/bias-prevention.json"
           ],
           "tags": "internal-use-but-public-consequence; housing; discrimination-claim; agency-action; public-record-confirmed",
-          "source_quality": "primary record",
+          "source_quality": "official statement",
           "research_status": "included",
           "last_verified_date": "2026-04-22",
           "needs_review": "no",
@@ -708,7 +708,7 @@ window.AIEL_DATA = {
           "confidence_score": "high",
           "notes_on_resolution": "Settlement included $300,000 and Detroit Police Department facial-recognition reforms.",
           "tags": "facial-recognition; false-match; wrongful-arrest; civil-rights; public-record-confirmed",
-          "source_quality": "primary record",
+          "source_quality": "party case page",
           "research_status": "included",
           "last_verified_date": "2026-04-22",
           "needs_review": "no",
@@ -1686,17 +1686,17 @@ window.AIEL_DATA = {
         },
         {
           "error_id": "AIEL-2026-045",
-          "error_title": "M.D. Florida counsel sanctioned $7,000 in two companion cases for AI-fabricated citations",
+          "error_title": "M.D. Florida sanctions counsel after AI citation errors in two companion cases",
           "ai_system_name": "Unnamed generative AI (admitted by counsel)",
           "deployer": "Plaintiff's counsel (name not in order)",
           "domain": "legal services",
           "error_type": "hallucinated authority",
-          "error_description": "Plaintiff's counsel admitted filing briefs in two companion employment cases containing AI-generated fabricated citations. The U.S. District Court for the Middle District of Florida imposed a $7,000 fee sanction and required counsel to deliver ten speaking engagements at bar associations or law-school groups by January 2027 to educate the profession on AI risks. The court declined to refer counsel to the Florida Bar or the court's Grievance Committee.",
+          "error_description": "Plaintiff's counsel admitted filing briefs in two companion cases containing AI-generated fake citations. The January 16, 2026 order records corrective steps already taken, including paying Defendants $7,000 in fees in Hodges and reducing counsel's fees in Rieske. The court granted Defendants' sanctions motion and required a report on fee satisfaction or an affidavit seeking additional fees after conferral. As a further sanction, counsel must secure ten opportunities to speak to bar associations or groups of law students about the experience by January 29, 2027, and certify compliance in both cases by that date. The court decided not to refer counsel to the Middle District Grievance Committee or the Florida Bar in these circumstances.",
           "canonical_source_conflicted": "Non-existent federal case citations filed in two employment-law matters; Fed. R. Civ. P. 11",
           "mitigation_gap": "Counsel admitted reliance on AI-generated research without verifying citation existence before filing in both cases.",
-          "reliance_or_harm": "$7,000 fee sanction plus mandatory 10 bar-association/law-school speaking engagements by January 2027.",
+          "reliance_or_harm": "Counsel's false citations caused opposing parties and the court to spend time correcting the record. The order records $7,000 already paid to Defendants in Hodges and a reduction of counsel's fees in Rieske. By January 30, 2026, the parties must report that Defendants are satisfied with the amounts paid, or Defendants must submit an affidavit seeking additional fees after proper conferral. Counsel must secure ten speaking opportunities and certify compliance in both cases by January 29, 2027.",
           "public_matter_type": "sanctions order (Rule 11)",
-          "public_matter_name": "Hodges v. Meridian Waste Acquisitions USA, No. 3:25-cv-62; Rieske v. AFS, No. 5:25-cv-45 (M.D. Fla.)",
+          "public_matter_name": "Hodges v. Meridian Waste Acquisitions, LLC et al., No. 3:25-cv-62; Rieske v. Accounting Fulfillment Services LLC et al., No. 5:25-cv-45 (M.D. Fla.)",
           "filing_status": "sanctioned",
           "jurisdiction": "U.S. District Court, Middle District of Florida",
           "filing_date": "2026-01-16",
@@ -1704,7 +1704,7 @@ window.AIEL_DATA = {
           "public_record_link": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
           "secondary_source_links": "",
           "confidence_score": "high",
-          "notes_on_resolution": "Companion cases in single order; $7,000 fee sanction plus 10 mandatory speaking engagements; no bar referral.",
+          "notes_on_resolution": "The January 16, 2026 order covers Hodges, No. 3:25-cv-62, and Rieske, No. 5:25-cv-45. It grants Defendants' motion for sanctions in Hodges and discharges the show-cause orders in both cases. The $7,000 payment in Hodges is described as a corrective step already taken, alongside a fee reduction in Rieske; it is not stated as a newly imposed fixed $7,000 award. Paragraph 1 requires, by January 30, 2026, either a joint report in Hodges that Defendants are satisfied with the amounts paid or an affidavit from Defendants seeking additional fees after proper conferral. Paragraphs 2-3 require counsel to secure ten opportunities to speak to bar associations or groups of law students and certify compliance by report in both cases by January 29, 2027; the order does not phrase this as completing ten delivered talks. The court declines referral to the Middle District Grievance Committee or the Florida Bar in these circumstances. No subsequent report, additional fee award, speaking opportunity or compliance certification was reviewed.",
           "tags": "hallucinated-citations; attorney-discipline; admitted-ai; unnamed-ai; companion-cases; employment; legal-services",
           "source_quality": "primary record",
           "research_status": "included",
@@ -3327,13 +3327,25 @@ window.AIEL_DATA = {
       "admission_status": "legacy-unreviewed"
     },
     "AIEL-2024-008": {
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Whether AI caused the fabricated authorities, and the exact tool or architecture, remain undetermined. The committee recounts may-have-used-AI; adoption does not make that affirmative causation.",
+        "These federal documents do not establish a separate FloridaSupremeCourt/FloridaBar adjudication, later state disciplinary outcome, current federal reinstatement or compliance, or complete later docket. No absence of such events is inferred.",
+        "Unchanged composite public_matter_name/jurisdiction and legal_graph remain legacy units; this changed-unit qualification neither newly accepts nor expands them.",
+        "Agent source-consistency review applies the existing undetermined-attribution policy to exactly7nativefields only. No human source/legal acceptance, human verification date renewal, new proceeding, status change or delivery is granted."
+      ]
     },
     "AIEL-2023-009": {
       "admission_status": "legacy-unreviewed"
     },
     "AIEL-2024-010": {
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The linked DOJ case page is an agency account, primary for its own statements; the separately linked Statement of Interest and court order were not reviewed as original documents in this role-only correction.",
+        "The page reports July 26, 2023 denial of dismissal motions and is marked updated August 17, 2023. It does not establish the later final settlement approval or current docket status.",
+        "The retained April 30, 2024 counsel-hosted settlement article describes approval pending. Existing settled status, relief and legal/outcome statements remain unchanged legacy units and are not newly accepted by this receipt.",
+        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+      ]
     },
     "AIEL-2022-011": {
       "admission_status": "legacy-unreviewed"
@@ -3345,7 +3357,13 @@ window.AIEL_DATA = {
       "admission_status": "legacy-unreviewed"
     },
     "AIEL-2024-014": {
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The linked ACLU case page is counsel’s account for its represented client, not the court’s adjudicative opinion or the separately linked settlement agreement.",
+        "This role-only review does not newly verify the $300,000 figure, precise settlement terms, entered dismissal, merits findings or current docket status. Existing substantive and outcome units remain unchanged legacy debt.",
+        "The page’s settlement announcement and document list are primary for counsel’s own publication. The linked agreement and court documents were not retrieved or accepted by this role correction.",
+        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+      ]
     },
     "AIEL-2024-015": {
       "admission_status": "source-consistency-reviewed-changes",
@@ -3448,7 +3466,12 @@ window.AIEL_DATA = {
       "admission_status": "legacy-unreviewed"
     },
     "AIEL-2026-045": {
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The order does not name Plaintiff's counsel or the AI system; existing unnamed attribution is preserved.",
+        "Whether the January 30, 2026 fee report or affidavit was filed, any additional fees were awarded, or speaking opportunities and certification were secured by January 29, 2027 was not observed.",
+        "One native record continues to index a combined order covering two companion matters; no separate Rieske source retrieval or new record is asserted."
+      ]
     },
     "AIEL-2026-046": {
       "admission_status": "legacy-unreviewed"

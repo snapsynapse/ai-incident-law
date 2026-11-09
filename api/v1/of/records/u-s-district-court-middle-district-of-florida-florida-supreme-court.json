@@ -31,6 +31,12 @@
   "verified": "2026-04-22",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "projection_basis": "curated-retirement",
-  "admission_status": "legacy-unreviewed",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "Whether AI caused the fabricated authorities, and the exact tool or architecture, remain undetermined. The committee recounts may-have-used-AI; adoption does not make that affirmative causation.",
+    "These federal documents do not establish a separate FloridaSupremeCourt/FloridaBar adjudication, later state disciplinary outcome, current federal reinstatement or compliance, or complete later docket. No absence of such events is inferred.",
+    "Unchanged composite public_matter_name/jurisdiction and legal_graph remain legacy units; this changed-unit qualification neither newly accepts nor expands them.",
+    "Agent source-consistency review applies the existing undetermined-attribution policy to exactly7nativefields only. No human source/legal acceptance, human verification date renewal, new proceeding, status change or delivery is granted."
+  ],
   "ai_incident_law_record_id": "AIEL-2024-008"
 }

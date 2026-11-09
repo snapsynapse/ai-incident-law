@@ -353,19 +353,19 @@
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2024-008-allegation.json",
       "id": "aiel-2024-008-allegation",
-      "text": "Attorney filings contained fabricated AI-generated citations in a federal matter. The AI issue was part of a broader disciplinary record that included evasive responses and other noncompliance.",
+      "text": "The federal Grievance Committee found inaccurate citations and fabricated authorities in Neusom's filings. Its report recounts counsel saying he may have used artificial intelligence and could not check the excerpts and citations. The March 8, 2024 federal Opinion and Order adopted and incorporated the committee report and imposed discipline for multiple misconduct findings. AI attribution remains undetermined.",
       "asserted_by": "asserting party not identified in the indexed source fields",
       "related_to": "https://aiincidentlaw.org/incident/aiel-2024-008#ai-system",
       "related_to_party": [
         "https://aiincidentlaw.org/party/aiel-2024-008-deployer.json"
       ],
-      "ai_system_name": "Unspecified generative AI",
+      "ai_system_name": "Unspecified AI (raised in the record; attribution not determined)",
       "deployer": "Thomas Grant Neusom",
       "domain": "legal services",
       "error_type": "hallucinated authority",
       "canonical_source_conflicted": "Actual case law and federal court filing obligations",
       "mitigation_gap": "No citation verification; failure to correct when challenged; broader noncompliance with court and bar processes.",
-      "reliance_or_harm": "Attorney was suspended in federal court and later disciplined by the Florida Supreme Court.",
+      "reliance_or_harm": "The March 8, 2024 order imposed a one-year suspension from the Bar of the U.S. District Court for the Middle District of Florida, beginning thirty days after the order, prohibited new cases until reinstatement, and set reinstatement conditions. The retained federal documents do not establish a separate Florida Supreme Court disposition or later state disciplinary outcome.",
       "ai_incident_law_record_id": "AIEL-2024-008",
       "source": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
       "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
@@ -373,7 +373,13 @@
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Whether AI caused the fabricated authorities, and the exact tool or architecture, remain undetermined. The committee recounts may-have-used-AI; adoption does not make that affirmative causation.",
+        "These federal documents do not establish a separate FloridaSupremeCourt/FloridaBar adjudication, later state disciplinary outcome, current federal reinstatement or compliance, or complete later docket. No absence of such events is inferred.",
+        "Unchanged composite public_matter_name/jurisdiction and legal_graph remain legacy units; this changed-unit qualification neither newly accepts nor expands them.",
+        "Agent source-consistency review applies the existing undetermined-attribution policy to exactly7nativefields only. No human source/legal acceptance, human verification date renewal, new proceeding, status change or delivery is granted."
+      ]
     },
     {
       "@context": [
@@ -461,11 +467,17 @@
       "ai_incident_law_record_id": "AIEL-2024-010",
       "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
       "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al.",
-      "evidence_type": "primary record",
+      "evidence_type": "official statement",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The linked DOJ case page is an agency account, primary for its own statements; the separately linked Statement of Interest and court order were not reviewed as original documents in this role-only correction.",
+        "The page reports July 26, 2023 denial of dismissal motions and is marked updated August 17, 2023. It does not establish the later final settlement approval or current docket status.",
+        "The retained April 30, 2024 counsel-hosted settlement article describes approval pending. Existing settled status, relief and legal/outcome statements remain unchanged legacy units and are not newly accepted by this receipt.",
+        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+      ]
     },
     {
       "@context": [
@@ -645,11 +657,17 @@
       "ai_incident_law_record_id": "AIEL-2024-014",
       "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
       "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827",
-      "evidence_type": "primary record",
+      "evidence_type": "party case page",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The linked ACLU case page is counsel’s account for its represented client, not the court’s adjudicative opinion or the separately linked settlement agreement.",
+        "This role-only review does not newly verify the $300,000 figure, precise settlement terms, entered dismissal, merits findings or current docket status. Existing substantive and outcome units remain unchanged legacy debt.",
+        "The page’s settlement announcement and document list are primary for counsel’s own publication. The linked agreement and court documents were not retrieved or accepted by this role correction.",
+        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+      ]
     },
     {
       "@context": [
@@ -2026,7 +2044,7 @@
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2026-045-allegation.json",
       "id": "aiel-2026-045-allegation",
-      "text": "Plaintiff's counsel admitted filing briefs in two companion employment cases containing AI-generated fabricated citations. The U.S. District Court for the Middle District of Florida imposed a $7,000 fee sanction and required counsel to deliver ten speaking engagements at bar associations or law-school groups by January 2027 to educate the profession on AI risks. The court declined to refer counsel to the Florida Bar or the court's Grievance Committee.",
+      "text": "Plaintiff's counsel admitted filing briefs in two companion cases containing AI-generated fake citations. The January 16, 2026 order records corrective steps already taken, including paying Defendants $7,000 in fees in Hodges and reducing counsel's fees in Rieske. The court granted Defendants' sanctions motion and required a report on fee satisfaction or an affidavit seeking additional fees after conferral. As a further sanction, counsel must secure ten opportunities to speak to bar associations or groups of law students about the experience by January 29, 2027, and certify compliance in both cases by that date. The court decided not to refer counsel to the Middle District Grievance Committee or the Florida Bar in these circumstances.",
       "asserted_by": "asserting party not identified in the indexed source fields",
       "related_to": "https://aiincidentlaw.org/incident/aiel-2026-045#ai-system",
       "related_to_party": [
@@ -2038,15 +2056,20 @@
       "error_type": "hallucinated authority",
       "canonical_source_conflicted": "Non-existent federal case citations filed in two employment-law matters; Fed. R. Civ. P. 11",
       "mitigation_gap": "Counsel admitted reliance on AI-generated research without verifying citation existence before filing in both cases.",
-      "reliance_or_harm": "$7,000 fee sanction plus mandatory 10 bar-association/law-school speaking engagements by January 2027.",
+      "reliance_or_harm": "Counsel's false citations caused opposing parties and the court to spend time correcting the record. The order records $7,000 already paid to Defendants in Hodges and a reduction of counsel's fees in Rieske. By January 30, 2026, the parties must report that Defendants are satisfied with the amounts paid, or Defendants must submit an affidavit seeking additional fees after proper conferral. Counsel must secure ten speaking opportunities and certify compliance in both cases by January 29, 2027.",
       "ai_incident_law_record_id": "AIEL-2026-045",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
-      "source_locator": "Hodges v. Meridian Waste Acquisitions USA, No. 3:25-cv-62; Rieske v. AFS, No. 5:25-cv-45 (M.D. Fla.)",
+      "source_locator": "Hodges v. Meridian Waste Acquisitions, LLC et al., No. 3:25-cv-62; Rieske v. Accounting Fulfillment Services LLC et al., No. 5:25-cv-45 (M.D. Fla.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The order does not name Plaintiff's counsel or the AI system; existing unnamed attribution is preserved.",
+        "Whether the January 30, 2026 fee report or affidavit was filed, any additional fees were awarded, or speaking opportunities and certification were secured by January 29, 2027 was not observed.",
+        "One native record continues to index a combined order covering two companion matters; no separate Rieske source retrieval or new record is asserted."
+      ]
     },
     {
       "@context": [
