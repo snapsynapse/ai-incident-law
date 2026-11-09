@@ -41,16 +41,22 @@
   "issued_date": "2024-03-08",
   "remedy": {
     "status": "resolved",
-    "notes": "AI hallucinations are recorded as corroborating misconduct, not necessarily the sole basis for discipline."
+    "notes": "The Grievance Committee reported that counsel said he \"may have used artificial intelligence to draft the filing(s)\". The March 8, 2024 federal Opinion and Order adopted and incorporated that report, found multiple forms of misconduct, imposed federal-bar suspension and conditions, and directed service on the Florida Bar. AI attribution was not determined; the cited sources do not establish that AI caused the fabricated authorities. The federal documents do not establish a separate Florida Supreme Court disposition, later state disciplinary outcome, or current reinstatement/compliance status."
   },
-  "notes": "AI hallucinations are recorded as corroborating misconduct, not necessarily the sole basis for discipline.",
+  "notes": "The Grievance Committee reported that counsel said he \"may have used artificial intelligence to draft the filing(s)\". The March 8, 2024 federal Opinion and Order adopted and incorporated that report, found multiple forms of misconduct, imposed federal-bar suspension and conditions, and directed service on the Florida Bar. AI attribution was not determined; the cited sources do not establish that AI caused the fabricated authorities. The federal documents do not establish a separate Florida Supreme Court disposition, later state disciplinary outcome, or current reinstatement/compliance status.",
   "source": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
   "source_locator": "In re Thomas Grant Neusom / The Florida Bar v. Neusom",
   "evidence_type": "primary record",
   "verified": "2026-04-22",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "projection_basis": "curated-legal-graph",
-  "admission_status": "legacy-unreviewed",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "Whether AI caused the fabricated authorities, and the exact tool or architecture, remain undetermined. The committee recounts may-have-used-AI; adoption does not make that affirmative causation.",
+    "These federal documents do not establish a separate FloridaSupremeCourt/FloridaBar adjudication, later state disciplinary outcome, current federal reinstatement or compliance, or complete later docket. No absence of such events is inferred.",
+    "Unchanged composite public_matter_name/jurisdiction and legal_graph remain legacy units; this changed-unit qualification neither newly accepts nor expands them.",
+    "Agent source-consistency review applies the existing undetermined-attribution policy to exactly7nativefields only. No human source/legal acceptance, human verification date renewal, new proceeding, status change or delivery is granted."
+  ],
   "ai_incident_law_record_id": "AIEL-2024-008",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"

@@ -4052,6 +4052,489 @@
         "reviewed_at": "2026-09-22T21:06:57.272Z",
         "packet_sha256": "d66bc178c19119d74f16942aa5269030864c0294a61cbc8e69bb92dcde8f8344"
       }
+    },
+    "included/AIEL-2026-045": {
+      "baseline_sha256": "f77e266825e685ca20dbc3c53729d404a9488c14ac5aeb35a002c2451d1f4204",
+      "record_sha256": "5e5be2dc802b40b2290bc7bf6d882e36bc7977b890cd07a565ac006b3344c6e9",
+      "evidence": {
+        "caption": {
+          "path": "data/admission/raw/aiel-2026-045/combined-sanctions-order.txt",
+          "official_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
+          "sha256": "2f16ca75c92ebc6de9a08f2f2714b2cc9549be91f07557365464fe8672988810",
+          "document_id": "Hodges 3:25-cv-00062-TJC-SJH, Document 53; companion Rieske 5:25-cv-45-CEM-PRL",
+          "document_title": "Combined order on motion for sanctions and orders to show cause",
+          "issuing_body": "U.S. District Court, Middle District of Florida",
+          "document_type": "order",
+          "version": "Filed January 16, 2026; exact original and extraction retained from October 3, 2026 source-link collection",
+          "locator": "PDF page 1: Hodges and Rieske captions, parties and companion case numbers",
+          "excerpt": "    BRIAN HODGES, on behalf of\n    himself and all others similarly\n    situated,\n          Plaintiff,\n                                                       Case No. 3:25-cv-62-TJC-SJH\n    v.\n\n    MERIDIAN WASTE\n    ACQUISITIONS, LLC, a Foreign\n    Profit Corporation and MERIDIAN\n    WASTE FLORIDA, LLC, a Florida\n    Limited Liability Company,\n          Defendants.\n\n\n\n    NATISHA RIESKE, on behalf of\n    herself and those similarly situated,\n          Plaintiff,\n                                                     Case No. 5:25-cv-45-CEM-PRL\n    v.\n    ACCOUNTING FULFILLMENT\n    SERVICES LLC, Foreign Limited\n    Liability Company, MICHAEL\n    SAVAGE, individually, and\n    BRENDON PACK, individually,\n          Defendants.\n\n\n",
+          "identity_excerpts": [
+            "Case 3:25-cv-00062-TJC-SJH   Document 53    Filed 01/16/26",
+            "UNITED STATES DISTRICT COURT"
+          ],
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2026-045/combined-sanctions-order.pdf",
+            "sha256": "a357c77a7a0a9293aa043e40beb0688f059abffe3c19000be41f3bdf456e3a57"
+          },
+          "source_role": "primary record",
+          "provenance_note": "Exact court-order PDF served from RECAP storage and the existing UTF-8 extraction are reused without a new request. The original October 3 transport receipt is retained alongside them; this review uses retained_snapshot and does not invent a new retrieval time."
+        },
+        "admission": {
+          "path": "data/admission/raw/aiel-2026-045/combined-sanctions-order.txt",
+          "official_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
+          "sha256": "2f16ca75c92ebc6de9a08f2f2714b2cc9549be91f07557365464fe8672988810",
+          "document_id": "Hodges 3:25-cv-00062-TJC-SJH, Document 53; companion Rieske 5:25-cv-45-CEM-PRL",
+          "document_title": "Combined order on motion for sanctions and orders to show cause",
+          "issuing_body": "U.S. District Court, Middle District of Florida",
+          "document_type": "order",
+          "version": "Filed January 16, 2026; exact original and extraction retained from October 3, 2026 source-link collection",
+          "locator": "PDF page 2: counsel admission and costs of correcting fake citations",
+          "excerpt": "    tribunal. Here, Plaintiff’s Counsel admittedly filed briefs in two cases which\n\n    contained AI-generated fake citations. This caused both his opponents and the\n\n    Court to spend unnecessary and unproductive time, not to mention the damage\n\n    to the credibility of the legal system writ large when Counsel violated this most\n\n    basic professional obligation.\n\n",
+          "identity_excerpts": [
+            "Case 3:25-cv-00062-TJC-SJH   Document 53    Filed 01/16/26",
+            "UNITED STATES DISTRICT COURT"
+          ],
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2026-045/combined-sanctions-order.pdf",
+            "sha256": "a357c77a7a0a9293aa043e40beb0688f059abffe3c19000be41f3bdf456e3a57"
+          },
+          "source_role": "primary record",
+          "provenance_note": "Exact court-order PDF served from RECAP storage and the existing UTF-8 extraction are reused without a new request. The original October 3 transport receipt is retained alongside them; this review uses retained_snapshot and does not invent a new retrieval time.",
+          "ai_attribution_excerpt": "Here, Plaintiff’s Counsel admittedly filed briefs in two cases which\n\n    contained AI-generated fake citations. "
+        },
+        "correction": {
+          "path": "data/admission/raw/aiel-2026-045/combined-sanctions-order.txt",
+          "official_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
+          "sha256": "2f16ca75c92ebc6de9a08f2f2714b2cc9549be91f07557365464fe8672988810",
+          "document_id": "Hodges 3:25-cv-00062-TJC-SJH, Document 53; companion Rieske 5:25-cv-45-CEM-PRL",
+          "document_title": "Combined order on motion for sanctions and orders to show cause",
+          "issuing_body": "U.S. District Court, Middle District of Florida",
+          "document_type": "order",
+          "version": "Filed January 16, 2026; exact original and extraction retained from October 3, 2026 source-link collection",
+          "locator": "PDF pages 2-3: corrective steps already taken, including paid fees and reduction, followed by contrition/referral discussion",
+          "excerpt": "          Upon discovery of this problem, Plaintiff’s Counsel took corrective steps.\n\n    These included efforts to withdraw the offending filings; paying Defendants\n\n    $7,000.00 for fees associated with correcting the record in 3:25-cv-62 and\n\n    reducing his fees in 5:25-cv-45; completing multiple CLE’s related to ethics and\n\n    AI; arranging CLE for his law firm; alerting the clients involved; and\n\n    apologizing to the Court and Defendants’ Counsel. As ordered by the Court,\n\n\n\n\n                                             2\n\fCase 3:25-cv-00062-TJC-SJH    Document 53    Filed 01/16/26   Page 3 of 4 PageID 429\n\n\n\n\n    Plaintiff’s Counsel provided a report that confirmed none of Counsel’s other\n\n    cases in this district had similar issues. (Doc. 49 in 3:25-cv-62).\n\n",
+          "identity_excerpts": [
+            "Case 3:25-cv-00062-TJC-SJH   Document 53    Filed 01/16/26",
+            "UNITED STATES DISTRICT COURT"
+          ],
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2026-045/combined-sanctions-order.pdf",
+            "sha256": "a357c77a7a0a9293aa043e40beb0688f059abffe3c19000be41f3bdf456e3a57"
+          },
+          "source_role": "primary record",
+          "provenance_note": "Exact court-order PDF served from RECAP storage and the existing UTF-8 extraction are reused without a new request. The original October 3 transport receipt is retained alongside them; this review uses retained_snapshot and does not invent a new retrieval time."
+        },
+        "operative": {
+          "path": "data/admission/raw/aiel-2026-045/combined-sanctions-order.txt",
+          "official_url": "https://storage.courtlistener.com/recap/gov.uscourts.flmd.436812/gov.uscourts.flmd.436812.53.0.pdf",
+          "sha256": "2f16ca75c92ebc6de9a08f2f2714b2cc9549be91f07557365464fe8672988810",
+          "document_id": "Hodges 3:25-cv-00062-TJC-SJH, Document 53; companion Rieske 5:25-cv-45-CEM-PRL",
+          "document_title": "Combined order on motion for sanctions and orders to show cause",
+          "issuing_body": "U.S. District Court, Middle District of Florida",
+          "document_type": "order",
+          "version": "Filed January 16, 2026; exact original and extraction retained from October 3, 2026 source-link collection",
+          "locator": "PDF pages 3-4: ORDER paragraphs 1-4, fee-report alternatives, securing ten opportunities, certification in both cases, and discharge",
+          "excerpt": "          1. Defendants’ Motion for Sanctions is GRANTED. (Doc. 36 in 3:25-cv-\n\n              62). No later than January 30, 2026, the Parties shall either file a\n\n              joint report (in 3:25-cv-62) stating Defendants are satisfied with the\n\n              amounts paid in attorney’s fees to address this issue, or Defendants\n\n              shall file an affidavit regarding additional fees sought (after proper\n\n              conferral).\n\n          2. No later than January 29, 2027, Plaintiff’s Counsel is required to\n\n              secure ten opportunities to speak at bar associations or groups of law\n\n\n          1 A future, different, case might well require additional sanctions,\n    including referral to the Bar.\n\n\n                                             3\n\fCase 3:25-cv-00062-TJC-SJH    Document 53      Filed 01/16/26   Page 4 of 4 PageID 430\n\n\n\n\n              students to share his experience of improper reliance on unverified\n\n              research and encourage others to avoid similar problems.\n\n          3. No later than January 29, 2027, Plaintiff’s Counsel is responsible to\n\n              certify his compliance with paragraph two, with a report filed in both\n\n              cases.\n\n          4. The Court’s Order to Show Cause is DISCHARGED. (Doc. 46 in 3:25-\n\n              cv-62; Doc. 52 in 5:25-cv-45).\n\n\n\n",
+          "identity_excerpts": [
+            "Case 3:25-cv-00062-TJC-SJH   Document 53    Filed 01/16/26",
+            "UNITED STATES DISTRICT COURT"
+          ],
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2026-045/combined-sanctions-order.pdf",
+            "sha256": "a357c77a7a0a9293aa043e40beb0688f059abffe3c19000be41f3bdf456e3a57"
+          },
+          "source_role": "primary record",
+          "provenance_note": "Exact court-order PDF served from RECAP storage and the existing UTF-8 extraction are reused without a new request. The original October 3 transport receipt is retained alongside them; this review uses retained_snapshot and does not invent a new retrieval time."
+        }
+      },
+      "units": {
+        "field:public_matter_name": {
+          "before_sha256": "4ab40c99b678fffa284b1c3e807b7e4aaa944054f94839918dc4e1b530b397c0",
+          "after_sha256": "a53a9481f898e9cc1275d7100b62075d24654ddcb7fd61cfbb7a41784dde954e",
+          "candidate_content": "Hodges v. Meridian Waste Acquisitions, LLC et al., No. 3:25-cv-62; Rieske v. Accounting Fulfillment Services LLC et al., No. 5:25-cv-45 (M.D. Fla.)",
+          "reason": "Use actual companion captions rather than unsupported USA label and ambiguous AFS abbreviation.",
+          "qualifications": {
+            "scope": "Only this existing combined-order record and the identified changed field; one native row continues to index two companion cases. No new record, event grain, status or AI-attribution determination.",
+            "exceptions": "The payment is an already-taken corrective step. Additional fees, actual speaking opportunities and compliance were not observed; et al. is abbreviated indexing, not a complete party or corporate-alias claim.",
+            "time": "Order filed January 16, 2026; fee-report deadline January 30, 2026; securing opportunities and certification deadline January 29, 2027. No current docket review or native Checked/Verified renewal."
+          },
+          "evidence": [
+            "caption"
+          ]
+        },
+        "field:error_title": {
+          "before_sha256": "f9a97b836732beb3352d52e51a56fe1650d80344dcecbf6d0795b311c03877e8",
+          "after_sha256": "d83f984a24bea56243efd45aa82208fc476122e2f1d37ecc75899112c8453fd1",
+          "candidate_content": "M.D. Florida sanctions counsel after AI citation errors in two companion cases",
+          "reason": "Correct the distinction between already-paid corrective fees, the fee-report process, securing speaking opportunities and certification required by the retained order.",
+          "qualifications": {
+            "scope": "Only this existing combined-order record and the identified changed field; one native row continues to index two companion cases. No new record, event grain, status or AI-attribution determination.",
+            "exceptions": "The payment is an already-taken corrective step. Additional fees, actual speaking opportunities and compliance were not observed; et al. is abbreviated indexing, not a complete party or corporate-alias claim.",
+            "time": "Order filed January 16, 2026; fee-report deadline January 30, 2026; securing opportunities and certification deadline January 29, 2027. No current docket review or native Checked/Verified renewal."
+          },
+          "evidence": [
+            "admission",
+            "operative"
+          ]
+        },
+        "field:error_description": {
+          "before_sha256": "5f0e396d7735682ae796214847304254d0a0c4a03a5be975135a6363fba844a6",
+          "after_sha256": "e0351b8bde6fd6df325427352421ae8ad4cba3d0e78bcd526fa7fa381006741f",
+          "candidate_content": "Plaintiff's counsel admitted filing briefs in two companion cases containing AI-generated fake citations. The January 16, 2026 order records corrective steps already taken, including paying Defendants $7,000 in fees in Hodges and reducing counsel's fees in Rieske. The court granted Defendants' sanctions motion and required a report on fee satisfaction or an affidavit seeking additional fees after conferral. As a further sanction, counsel must secure ten opportunities to speak to bar associations or groups of law students about the experience by January 29, 2027, and certify compliance in both cases by that date. The court decided not to refer counsel to the Middle District Grievance Committee or the Florida Bar in these circumstances.",
+          "reason": "Correct the distinction between already-paid corrective fees, the fee-report process, securing speaking opportunities and certification required by the retained order.",
+          "qualifications": {
+            "scope": "Only this existing combined-order record and the identified changed field; one native row continues to index two companion cases. No new record, event grain, status or AI-attribution determination.",
+            "exceptions": "The payment is an already-taken corrective step. Additional fees, actual speaking opportunities and compliance were not observed; et al. is abbreviated indexing, not a complete party or corporate-alias claim.",
+            "time": "Order filed January 16, 2026; fee-report deadline January 30, 2026; securing opportunities and certification deadline January 29, 2027. No current docket review or native Checked/Verified renewal."
+          },
+          "evidence": [
+            "admission",
+            "correction",
+            "operative"
+          ]
+        },
+        "field:reliance_or_harm": {
+          "before_sha256": "2d4edf1b9227dfda2b8b890d49b31aeccb0f0508abd90414fd6ee12896591529",
+          "after_sha256": "4451409280d7d655e36d12beefaf853c41c7f3f0efa0764f0e2e5a4e75b4fd52",
+          "candidate_content": "Counsel's false citations caused opposing parties and the court to spend time correcting the record. The order records $7,000 already paid to Defendants in Hodges and a reduction of counsel's fees in Rieske. By January 30, 2026, the parties must report that Defendants are satisfied with the amounts paid, or Defendants must submit an affidavit seeking additional fees after proper conferral. Counsel must secure ten speaking opportunities and certify compliance in both cases by January 29, 2027.",
+          "reason": "Correct the distinction between already-paid corrective fees, the fee-report process, securing speaking opportunities and certification required by the retained order.",
+          "qualifications": {
+            "scope": "Only this existing combined-order record and the identified changed field; one native row continues to index two companion cases. No new record, event grain, status or AI-attribution determination.",
+            "exceptions": "The payment is an already-taken corrective step. Additional fees, actual speaking opportunities and compliance were not observed; et al. is abbreviated indexing, not a complete party or corporate-alias claim.",
+            "time": "Order filed January 16, 2026; fee-report deadline January 30, 2026; securing opportunities and certification deadline January 29, 2027. No current docket review or native Checked/Verified renewal."
+          },
+          "evidence": [
+            "admission",
+            "correction",
+            "operative"
+          ]
+        },
+        "field:notes_on_resolution": {
+          "before_sha256": "565b0eefc3c83bfd51a62d2a118246886bfd4856fd56d3a58482ca177dc0f4dd",
+          "after_sha256": "9c69cf5b5dceb9312f069a0420cadda8e6ff56a89bef1345ceec55790ec566d0",
+          "candidate_content": "The January 16, 2026 order covers Hodges, No. 3:25-cv-62, and Rieske, No. 5:25-cv-45. It grants Defendants' motion for sanctions in Hodges and discharges the show-cause orders in both cases. The $7,000 payment in Hodges is described as a corrective step already taken, alongside a fee reduction in Rieske; it is not stated as a newly imposed fixed $7,000 award. Paragraph 1 requires, by January 30, 2026, either a joint report in Hodges that Defendants are satisfied with the amounts paid or an affidavit from Defendants seeking additional fees after proper conferral. Paragraphs 2-3 require counsel to secure ten opportunities to speak to bar associations or groups of law students and certify compliance by report in both cases by January 29, 2027; the order does not phrase this as completing ten delivered talks. The court declines referral to the Middle District Grievance Committee or the Florida Bar in these circumstances. No subsequent report, additional fee award, speaking opportunity or compliance certification was reviewed.",
+          "reason": "Correct the distinction between already-paid corrective fees, the fee-report process, securing speaking opportunities and certification required by the retained order.",
+          "qualifications": {
+            "scope": "Only this existing combined-order record and the identified changed field; one native row continues to index two companion cases. No new record, event grain, status or AI-attribution determination.",
+            "exceptions": "The payment is an already-taken corrective step. Additional fees, actual speaking opportunities and compliance were not observed; et al. is abbreviated indexing, not a complete party or corporate-alias claim.",
+            "time": "Order filed January 16, 2026; fee-report deadline January 30, 2026; securing opportunities and certification deadline January 29, 2027. No current docket review or native Checked/Verified renewal."
+          },
+          "evidence": [
+            "caption",
+            "correction",
+            "operative"
+          ]
+        }
+      },
+      "unresolved": [
+        "The order does not name Plaintiff's counsel or the AI system; existing unnamed attribution is preserved.",
+        "Whether the January 30, 2026 fee report or affidavit was filed, any additional fees were awarded, or speaking opportunities and certification were secured by January 29, 2027 was not observed.",
+        "One native record continues to index a combined order covering two companion matters; no separate Rieske source retrieval or new record is asserted."
+      ],
+      "review": {
+        "actor": "codex:aiel-045-retained-order-correction-2026-10-31",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Bounded agent source-consistency review of five changed narrative/caption fields against all four pages of the same retained order. No human attestation, date renewal, new record, status update or current-docket acceptance.",
+        "reviewed_at": "2026-10-31T17:58:52.633Z",
+        "packet_sha256": "457facfd18b196b48d13bb160022cb2069b6795265d8974394446446052a32b2"
+      }
+    },
+    "included/AIEL-2024-010": {
+      "baseline_sha256": "1b8563fc88c3b46518c4920b461f47f2b6357eeb43e458a58da6824b347b1ed0",
+      "record_sha256": "9835ca1c5f9427bd4c93094f796a2315bd4196a7068c7889e634ddc9116ba7fd",
+      "evidence": {
+        "current-case-page-role": {
+          "path": "data/admission/raw/aiel-2024-010/case-page-extracted.txt",
+          "sha256": "000bea7c8867e471b86558488f4a9d8dd08a96b5bd8bc8ab43024b2e8d264ebd",
+          "official_url": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
+          "document_id": "AIEL-2024-010-current-linked-case-page-october3-snapshot",
+          "document_title": "Louis et al. v. SafeRent et al. (D. Mass.)",
+          "issuing_body": "U.S. Department of Justice, Civil Rights Division",
+          "document_type": "agency case page",
+          "version": "Exact October 3, 2026 retained public case-page observation; no new source request or currentness finding",
+          "locator": "Retained extracted text lines 1-1, characters 2149-3668: publisher account, filing/participation and document-role context",
+          "excerpt": "On January 9, 2023, the United States filed a Statement of Interest in Louis et al. v. SafeRent et al. (D. Mass.), a case brought under the Fair Housing Act (FHA). The Louis lawsuit was filed on behalf of two plaintiffs, Mary Louis and Monica Douglas, Black rental applicants who use housing vouchers to pay part of their rent. Plaintiffs applied for rental housing but allege they were denied due to their “SafeRent Score,” a score derived from Defendant SafeRent’s algorithm-based screening software. The plaintiffs allege that SafeRent scores result in an unlawful disparate impact against Black and Hispanic rental applicants because the underlying algorithm relies on certain factors that disproportionately disadvantage Black and Hispanic applicants, such as credit history and non-tenancy related debts, while failing to consider one highly-relevant factor, that the use of housing vouchers funded by HUD makes such tenants more likely to pay their rents. In its Statement of Interest, the United States sets out the appropriate standard for pleading disparate impact claims under the FHA and clarifies that the FHA’s text and caselaw support the FHA’s application to companies providing residential screening services. On July 26, 2023, the Court denied defendants’ motions to dismiss plaintiffs’ FHA claims. In its order , the Court held that defendant SafeRent was subject to the FHA and that plaintiffs had alleged a plausible claim for disparate impact discrimination under the FHA against both defendants. ",
+          "identity_excerpts": [
+            "Louis et al. v. SafeRent et al. (D. Mass.)",
+            "United States Department of Justice"
+          ],
+          "source_role": "official statement",
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2024-010/case-page-original.html",
+            "sha256": "97ce30b24dc440bf9f46ab0f32e10bae155ce0c5d0b6fac675efda7b0ba3abe2"
+          },
+          "provenance_note": "Exact original HTML, readable extraction and historical transport receipt copied byte-identically from the retained October 3 link ledger. This agent role review uses retained_snapshot, does not invent a new retrieval timestamp and does not classify the case page as a court order."
+        }
+      },
+      "units": {
+        "field:source_quality": {
+          "before_sha256": "8b60775068860bb40eab0cb04c57db849f6cd6b04a287c8a959c85b1cca20500",
+          "after_sha256": "6ec813f0bd43a685d190ec1a261d3afb1699f6f23b5fb1257d64a50c6a39fa41",
+          "candidate_content": "official statement",
+          "reason": "Replace generic primary-record labeling with the explicit role of the exact current linked publication, preserving its primary value for the publisher’s own actions and statements.",
+          "qualifications": {
+            "scope": "Classify the current linked DOJ Civil Rights case page as an official statement. It is primary evidence of the agency’s own account of filing its Statement of Interest and reports allegations and court developments; this role review is not review of the linked filing or court opinion.",
+            "exceptions": "Existing settled status, settlement relief, FHA interpretation and all other native claims remain outside the changed-unit review. The case page is not itself an adjudicative opinion or evidence of later final settlement approval.",
+            "time": "Historical October 3, 2026 source snapshot only. All native filing/error/Verified/Checked dates, legal status, confidence, AI attribution, source URLs and event grain remain unchanged; no current-docket review."
+          },
+          "evidence": [
+            "current-case-page-role"
+          ]
+        }
+      },
+      "unresolved": [
+        "The linked DOJ case page is an agency account, primary for its own statements; the separately linked Statement of Interest and court order were not reviewed as original documents in this role-only correction.",
+        "The page reports July 26, 2023 denial of dismissal motions and is marked updated August 17, 2023. It does not establish the later final settlement approval or current docket status.",
+        "The retained April 30, 2024 counsel-hosted settlement article describes approval pending. Existing settled status, relief and legal/outcome statements remain unchanged legacy units and are not newly accepted by this receipt.",
+        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+      ],
+      "review": {
+        "actor": "codex:two-source-role-correction-2026-10-31",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "One explicit source_quality unit only. Case-page evidence supports the publisher role; all unchanged native substantive/outcome units remain unreviewed. No human attestation, legal/status update, AI-attribution change, new document/record or currentness renewal.",
+        "reviewed_at": "2026-10-31T22:23:11.304Z",
+        "packet_sha256": "d13628e94c58c065340173be9534536cfa9ac12e3865c038b01c80598d7b1174"
+      }
+    },
+    "included/AIEL-2024-014": {
+      "baseline_sha256": "58dd130f5b7a53a37b0433e0320941ce1421eafcec987d420327ecf02926a51b",
+      "record_sha256": "0cb4519ac6e23236091095417343bea448824dbbd153a5a3b84081255bf51cb1",
+      "evidence": {
+        "current-case-page-role": {
+          "path": "data/admission/raw/aiel-2024-014/case-page-extracted.txt",
+          "sha256": "dfc542860d1b5ae80809f44fe71beac4a05dd2f5cc5e9e94fd730a739d10e89d",
+          "official_url": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
+          "document_id": "AIEL-2024-014-current-linked-case-page-october3-snapshot",
+          "document_title": "Williams v. City of Detroit",
+          "issuing_body": "American Civil Liberties Union",
+          "document_type": "counsel case page",
+          "version": "Exact October 3, 2026 retained public case-page observation; no new source request or currentness finding",
+          "locator": "Retained extracted text lines 1-1, characters 2103-3857: publisher account, filing/participation and document-role context",
+          "excerpt": "In April 2021, the ACLU, ACLU of Michigan, and University of Michigan Law School’s Civil Rights Litigation Initiative filed a civil-rights lawsuit on Mr. Williams’ behalf against the individual detective responsible for his arrest, the City of Detroit, and Detroit’s Chief of Police. The lawsuit alleged that the detective, through his omissions in the warrant application, misled the magistrate judge, resulting in issuance of an arrest warrant without the required probable cause. It also alleged what discovery in Mr. Williams’ case and several more recent facial-recognition false arrests in Detroit have since made obvious: That the city lacked any policy for law enforcement use of face recognition technology at the time the technology was used in this case, and that Detroit failed to train its police officers on the dangers of misusing face recognition technology in their investigations. On June 28, 2024, the parties in this case formalized a groundbreaking settlement agreement , concluding the lawsuit and achieving the nation’s strongest police department policies constraining law enforcement’s use of face recognition technology. Under the agreement, police will be required to back up face recognition results with independent and reliable evidence linking a suspect to a crime before making any arrest. They also be trained on face recognition technology and its dangers, especially for people of color, whom these tools are known to misidentify at higher rates. And an audit will be conducted of all cases since 2017 in which the Detroit Police Department used face recognition technology to obtain an arrest warrant. A copy of the settlement agreement, along with selected pleadings and discovery documents from the case, are below. ",
+          "identity_excerpts": [
+            "Williams v. City of Detroit",
+            "American Civil Liberties Union"
+          ],
+          "source_role": "party case page",
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2024-014/case-page-original.html",
+            "sha256": "6937cb49bc5e4365559130647d94ac8b7910ac39356be88dfb0cafd47fddbaa3"
+          },
+          "provenance_note": "Exact original HTML, readable extraction and historical transport receipt copied byte-identically from the retained October 3 link ledger. This agent role review uses retained_snapshot, does not invent a new retrieval timestamp and does not classify the case page as a court order."
+        }
+      },
+      "units": {
+        "field:source_quality": {
+          "before_sha256": "8b60775068860bb40eab0cb04c57db849f6cd6b04a287c8a959c85b1cca20500",
+          "after_sha256": "482c30cc132c18759575a36ed76560d6f2aae80b941dd588c63f30087580c1c5",
+          "candidate_content": "party case page",
+          "reason": "Replace generic primary-record labeling with the explicit role of the exact current linked publication, preserving its primary value for the publisher’s own actions and statements.",
+          "qualifications": {
+            "scope": "Classify the current linked ACLU page as a counsel-maintained party case page. It identifies Williams as its client and recounts the organizations’ own litigation and settlement announcement. This preserves its primary value for counsel’s own statements and actions.",
+            "exceptions": "The page is not the filed settlement agreement or court determination. Existing damages, policy reforms, settled status and other native claims are not newly accepted; no adjudicative finding is inferred from a counsel narrative.",
+            "time": "Historical October 3, 2026 source snapshot only. All native filing/error/Verified/Checked dates, legal status, confidence, AI attribution, source URLs and event grain remain unchanged; no current-docket review."
+          },
+          "evidence": [
+            "current-case-page-role"
+          ]
+        }
+      },
+      "unresolved": [
+        "The linked ACLU case page is counsel’s account for its represented client, not the court’s adjudicative opinion or the separately linked settlement agreement.",
+        "This role-only review does not newly verify the $300,000 figure, precise settlement terms, entered dismissal, merits findings or current docket status. Existing substantive and outcome units remain unchanged legacy debt.",
+        "The page’s settlement announcement and document list are primary for counsel’s own publication. The linked agreement and court documents were not retrieved or accepted by this role correction.",
+        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+      ],
+      "review": {
+        "actor": "codex:two-source-role-correction-2026-10-31",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "One explicit source_quality unit only. Case-page evidence supports the publisher role; all unchanged native substantive/outcome units remain unreviewed. No human attestation, legal/status update, AI-attribution change, new document/record or currentness renewal.",
+        "reviewed_at": "2026-10-31T22:23:11.308Z",
+        "packet_sha256": "cf8370a000f7763daf279916ac84e29e9a07b51c15db41ecd4bebf16620c2b7f"
+      }
+    },
+    "included/AIEL-2024-008": {
+      "baseline_sha256": "9ad14d47cd0cd30bc6540ab901f95783534e351a3214e08385f4e32e736a18d0",
+      "record_sha256": "1805bdac18e8fd4b630d636fc69164ba9cee7ef5403a9a54688541707a33b93c",
+      "evidence": {
+        "federal-adopting-order": {
+          "path": "data/admission/raw/aiel-2024-008/federal-opinion-order.txt",
+          "sha256": "e3134c6df59e7a0c4a08d8f1f93c6134f314d39a25a8a62457103ce1f269b294",
+          "official_url": "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2024-00002-6-2-mc",
+          "document_id": "In-re-Neusom-2-24-mc-2-JES-March8-2024",
+          "document_title": "In re Thomas Grant Neusom, Opinion and Order",
+          "issuing_body": "U.S. District Court for the Middle District of Florida, Fort Myers Division",
+          "document_type": "opinion and order",
+          "version": "March8,2024 federal disciplinary Opinion and Order, exact retained October3snapshot; no later docket/currentness finding",
+          "locator": "PDFpages4-7,paragraphs1-7: adopts/incorporatesDoc3,findings,federalbar suspension,newcase prohibition,conditions,service;extractedcharacters4983-8941",
+          "excerpt": "The Court has reviewed the record, the Report and\n\nRecommendations, and the Objections and Response carefully, and\n\nhas applied a de novo standard of review.             The Court overrules the\n\nObjections filed by Mr. Neusom.                The Court agrees with, and\n\ntherefore adopts, the findings of the Grievance Committee.                    The\n\nCourt finds that clear and convincing evidence establishes the\n\nlawyer misconduct identified in the Report and Recommendation.\n\nThe   Court   also    agrees   that     the   sanctions    recommended   by   the\n\nGrievance     Committee       are   appropriate      and    proportional,     and\n\ntherefore will impose the substance of the sanctions recommended\n\nby the Grievance Committee.\n\n      Accordingly, it is hereby\n\n      ORDERED:\n\n      1. The Objections to the Report and Recommendation (Doc. #45)\n\n        are OVERRULED.\n\n      2. The Grievance Committee’s Report and Recommendation (Doc.\n\n        #3) is ACCEPTED, ADOPTED, and incorporated herein.\n\n      3. After   de    novo    review    of    the   Committee’s   Report     and\n\n        Recommendation, the Court finds by clear and convincing\n\n        evidence that Mr. Neusom’s behavior violated Florida Bar\n\n\n\n                                      - 4 -\n\f  Rules 4-1.3, 4-3.3(a)(3), 4-8.4(c), and 4-3.4(c), and the\n\n  Florida Rules of Professional Conduct.\n\n4. Mr. Neusom is SUSPENDED from the Bar of the United States\n\n  District Court for the Middle District of Florida for a\n\n  period of one (1) year.         The suspension is effective\n\n  beginning thirty (30) days from the date of this Order.\n\n  This delay is intended to permit Mr. Neusom to address any\n\n  existing case load within the jurisdiction of the Middle\n\n  District of Florida and protect the interests of clients\n\n  during his suspension\n\n5. Mr. Neusom is PROHIBITED from taking on new cases in the\n\n  United States District Court for the Middle District of\n\n  Florida, effective as of the date of this Order and lasting\n\n  until he is reinstated in the Bar of the Middle District\n\n  of Florida pursuant to the Reinstatement Conditions set\n\n  forth below.\n\n6. The following Reinstatement Conditions are SET and must be\n\n  completed before Mr. Neusom is permitted to petition to\n\n  the Bar of the United States District Court for the Middle\n\n  District of Florida for reinstatement:\n\n  A. During the period of suspension, Mr. Neusom must:\n\n     i.   Attend   and     complete     The   Florida    Bar’s\n\n     Professionalism Workshop;\n\n\n\n\n                          - 5 -\n\f    ii.    Attend and complete all aspects of a Law Practice\n\n    Management CLE;\n\n    iii. Attend and complete all aspects of the Practicing\n\n    with Professionalism CLE; and\n\n    iv.    Receive   Counseling    through   the   Florida   Lawyers\n\n    Assistance Program.\n\n  B. Pay all outstanding monetary sanctions, fees, and costs\n\n    levied    against    him,     in   any   federal,   state,   or\n\n    disciplinary actions;\n\n  C. Complete all remediation ordered by The Florida Bar, if\n\n    any;\n\n  D. Complete all remediation ordered by any court, including\n\n    reporting of any sanction orders levied by any court to\n\n    the appropriate parties;\n\n  E. Re-read the Florida Rules of Professional Conduct and\n\n    the Local Rules of the United States District Court for\n\n    the Middle District of Florida in full and certify in\n\n    writing to this Court that he has done so; and\n\n  F. Report to the Court the completion of subparagraphs (A)\n\n    through (E) of this paragraph on or before the date\n\n    marking the end of the suspension period.\n\n7. The Clerk is DIRECTED to forward a copy of this Order to\n\n  all judges of the United States District Court for the\n\n\n\n\n                           - 6 -\n\f          Middle District of Florida and to serve a copy of this\n\n          Order on The Florida Bar.\n\n     DONE and ORDERED at Fort Myers, Florida, this      8th   day of\n\nMarch 2024.\n\n\n\n\n",
+          "identity_excerpts": [
+            "IN RE: THOMAS GRANT NEUSOM,",
+            "Case No:   2:24-mc-2-JES"
+          ],
+          "source_role": "primary record",
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2024-008/federal-opinion-order.pdf",
+            "sha256": "7c5deaa49bab0fc1b4bfe8f70781a44a5470bd805da35a13de910e429d6a2ecd"
+          },
+          "provenance_note": "Issuing-court original PDF and readable snapshot copied byte-identically from retained October3evidence. Original historical HTTP receipt is retained beside them; no new transport or timestamp is invented. This order incorporates the committee report but does not strengthen its hedged AI explanation into proven causation."
+        },
+        "adopted-committee-report": {
+          "path": "data/admission/raw/aiel-2024-008/committee-report-media-copy.txt",
+          "sha256": "f50bb0727a3c95bb08536e2e4686b3bf002f84862f0a53898d7a09336933067d",
+          "official_url": "https://lawnext.com/wp-content/uploads/2024/03/M.D.-Fla.-24-mc-00002-dckt-000003_000-filed-2024-02-01.pdf",
+          "document_id": "Neusom-Grievance-Committee-Report-Doc3-filed-Feb1-2024-original-Clark-Pear-Doc44",
+          "document_title": "Report and Recommendation of the Grievance Committee concerning Thomas G.Neusom",
+          "issuing_body": "Grievance Committee for the Middle District of Florida, Fort Myers Division",
+          "document_type": "grievance committee report",
+          "version": "Fifteen-page court-filed report with double ClarkPearDoc44/NeusomDoc3headers; exact media-hosted retained October3copy, not issuing-host retrieval",
+          "locator": "PDFpages5-6,committee findings and telephonic account;pages10-11repeat hedged AI account;extractedcharacters10331-12898",
+          "excerpt": "The Committee researched the legal citations in Mr. Neusom’s Amended\n\n Supplementary Removal [Doc. 20]. The Committee found that Mr. Neusom\n\n included inaccurate citations and fabricated authorities in his filings. We called Mr.\n\n\n\n 4 On July 5, 2023, MVP’s counsel having been unable to locate the removal ac�on in either of the\n\n district courts iden�ﬁed in the First and Second Removal No�ce made an inquiry to Clark Pear’s\n counsel regarding the iden�ﬁca�on of the Federal District Court where Clark Pear has removed\n the ac�on to. [Doc. 22, p. 5, Ex. 4].\n\n                                                5\n\fCaseCase\n     2:23-cv-00503-JLB-NPM\n          2:24-mc-00002-JES Document 44\n                                     3 Filed\n                                        Filed02/01/24\n                                              01/12/24 Page\n                                                        Page66ofof15\n                                                                   15PageID\n                                                                      PageID72605\n\n\n\n\n Neusom for a response. He stated in a telephonic interview that he “used Westlaw\n\n and FastCase and may have used artificial intelligence to draft the filing(s) but was\n\n not able to check the excerpts and citations.” Mr. Neusom stated that he would also\n\n provide a written response. Mr. Neusom’s written response to the Committee failed\n\n to address the concerns of fabricated citations. The response included accusations\n\n that opposing counsel made procedurally improper allegations, that the allegations\n\n were a sham, and that civil RICO charges were being filed against opposing counsel.\n\n The   Committee      found    Mr.   Neusom’s     response    wholly    unsatisfactory,\n\n unprofessional, and highly concerning.\n\n       The Committee also interviewed opposing counsel Nabil Joseph, Esq. Mr.\n\n Joseph stated that he immediately noticed deficiencies in Mr. Neusom’s filings. He\n\n stated that the filings were devoid of supporting caselaw and, where caselaw was\n\n cited, the citations did not appear accurate. Mr. Joseph spent a significant amount of\n\n time checking the citations and found that Mr. Neusom cited non-existent cases or\n\n misrepresented what the cited case actually stands for. Mr. Joseph requested in\n\n writing that Mr. Neusom furnish full text versions of certain specifically enumerated\n\n cases that were cited in legal filings. Mr. Neusom provided non-responsive and\n\n evasive answers to the request for the cited authorities. This resulted in Mr. Joseph’s\n\n ",
+          "identity_excerpts": [
+            "Thomas G. Neusom, Esq.",
+            "REPORT AND RECOMMENDATION OF THE GRIEVANCE"
+          ],
+          "ai_attribution_excerpt": "may have used artificial intelligence to draft the filing(s)",
+          "source_role": "media-hosted pleading copy",
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2024-008/committee-report-media-copy.pdf",
+            "sha256": "8c1dbd7bdd2b140f2b037917e3bcc834d188b14fe958d7d960ad6ca099763e06"
+          },
+          "provenance_note": "This is a court-filed committee report obtained as a media-hosted PDF copy at LawNext, not an issuing-court-host retrieval. Exact original PDF, readable text and oldHTTP receipt are retained. Court-stamped identity and the current issuing federal order's explicit adoption/incorporation bind this copy toDoc3; the media host is provenance, not an independent adjudication. The existing native media URL remains secondary and current public_record_link remains the issuing federal order."
+        }
+      },
+      "units": {
+        "field:error_title": {
+          "before_sha256": "676705c400da51fdde2d626244bc83cb59e78e36f64f0dce76794d754a5b1878",
+          "after_sha256": "b3b1b97e7e28c5a6cf8071746c973e790494118e092c4d09270954e98500f84e",
+          "candidate_content": "Fabricated citations and other misconduct contributed to attorney discipline",
+          "reason": "Apply existing INTENT undetermined-attribution rule and qualify the federal-only adjudicative source scope. No affirmative AI causation or unproved separate state outcome is accepted.",
+          "qualifications": {
+            "scope": "Exactlyerror_titleofAIEL-2024-008. Read with the adopted filed committee report and issuing federal Opinion and Order. AI is raised as a hedged explanation, with attribution undetermined; the order establishes its own federal-bar discipline.",
+            "exceptions": "All unchanged native fields remain outside acceptance, including composite display name/jurisdiction and legal_graph. No separate FloridaSupremeCourt disposition, absence of state discipline, exact AI architecture, current reinstatement/compliance or later docket is inferred.",
+            "time": "Historical March8,2024order and adopted committee report, using retained October3,2026source bytes only. LastVerified/Checked/nativelegal dates and status remain unchanged; no new retrieval/currentness/human renewal."
+          },
+          "evidence": [
+            "federal-adopting-order",
+            "adopted-committee-report"
+          ]
+        },
+        "field:ai_system_name": {
+          "before_sha256": "f024534fe05a59235d5d8cad80ea380b93ef7b1b3d1cc608cbe6ed2437edacc6",
+          "after_sha256": "c8f2820bed508f8d9b382a8f478e995b738506e5b85769ad51428f64270f096b",
+          "candidate_content": "Unspecified AI (raised in the record; attribution not determined)",
+          "reason": "Apply existing INTENT undetermined-attribution rule and qualify the federal-only adjudicative source scope. No affirmative AI causation or unproved separate state outcome is accepted.",
+          "qualifications": {
+            "scope": "Exactlyai_system_nameofAIEL-2024-008. Read with the adopted filed committee report and issuing federal Opinion and Order. AI is raised as a hedged explanation, with attribution undetermined; the order establishes its own federal-bar discipline.",
+            "exceptions": "All unchanged native fields remain outside acceptance, including composite display name/jurisdiction and legal_graph. No separate FloridaSupremeCourt disposition, absence of state discipline, exact AI architecture, current reinstatement/compliance or later docket is inferred.",
+            "time": "Historical March8,2024order and adopted committee report, using retained October3,2026source bytes only. LastVerified/Checked/nativelegal dates and status remain unchanged; no new retrieval/currentness/human renewal."
+          },
+          "evidence": [
+            "federal-adopting-order",
+            "adopted-committee-report"
+          ]
+        },
+        "field:error_description": {
+          "before_sha256": "18b3c3de20b32c9e6970747de7af3550da086f50105fa083553a2fd5fc7e20b1",
+          "after_sha256": "e4d2cfa24cf8d4afc1f3d5a5fddde3d0857f8ea31122f23da3905752cf3dad0c",
+          "candidate_content": "The federal Grievance Committee found inaccurate citations and fabricated authorities in Neusom's filings. Its report recounts counsel saying he may have used artificial intelligence and could not check the excerpts and citations. The March 8, 2024 federal Opinion and Order adopted and incorporated the committee report and imposed discipline for multiple misconduct findings. AI attribution remains undetermined.",
+          "reason": "Apply existing INTENT undetermined-attribution rule and qualify the federal-only adjudicative source scope. No affirmative AI causation or unproved separate state outcome is accepted.",
+          "qualifications": {
+            "scope": "Exactlyerror_descriptionofAIEL-2024-008. Read with the adopted filed committee report and issuing federal Opinion and Order. AI is raised as a hedged explanation, with attribution undetermined; the order establishes its own federal-bar discipline.",
+            "exceptions": "All unchanged native fields remain outside acceptance, including composite display name/jurisdiction and legal_graph. No separate FloridaSupremeCourt disposition, absence of state discipline, exact AI architecture, current reinstatement/compliance or later docket is inferred.",
+            "time": "Historical March8,2024order and adopted committee report, using retained October3,2026source bytes only. LastVerified/Checked/nativelegal dates and status remain unchanged; no new retrieval/currentness/human renewal."
+          },
+          "evidence": [
+            "federal-adopting-order",
+            "adopted-committee-report"
+          ]
+        },
+        "field:reliance_or_harm": {
+          "before_sha256": "c54ed3e14fc339cd40dade03f931c133f20630feee32f1573567b2ae9bb55f8d",
+          "after_sha256": "f8b4319b48245178214551766016f1731854549a0bd80cede44a67894dd1c5f0",
+          "candidate_content": "The March 8, 2024 order imposed a one-year suspension from the Bar of the U.S. District Court for the Middle District of Florida, beginning thirty days after the order, prohibited new cases until reinstatement, and set reinstatement conditions. The retained federal documents do not establish a separate Florida Supreme Court disposition or later state disciplinary outcome.",
+          "reason": "Apply existing INTENT undetermined-attribution rule and qualify the federal-only adjudicative source scope. No affirmative AI causation or unproved separate state outcome is accepted.",
+          "qualifications": {
+            "scope": "Exactlyreliance_or_harmofAIEL-2024-008. Read with the adopted filed committee report and issuing federal Opinion and Order. AI is raised as a hedged explanation, with attribution undetermined; the order establishes its own federal-bar discipline.",
+            "exceptions": "All unchanged native fields remain outside acceptance, including composite display name/jurisdiction and legal_graph. No separate FloridaSupremeCourt disposition, absence of state discipline, exact AI architecture, current reinstatement/compliance or later docket is inferred.",
+            "time": "Historical March8,2024order and adopted committee report, using retained October3,2026source bytes only. LastVerified/Checked/nativelegal dates and status remain unchanged; no new retrieval/currentness/human renewal."
+          },
+          "evidence": [
+            "federal-adopting-order",
+            "adopted-committee-report"
+          ]
+        },
+        "field:confidence_score": {
+          "before_sha256": "b57c4299afe3cda154124bdb96ceaf618a9d8d9cd8d2c8f6580ff26faa5fe5ca",
+          "after_sha256": "60d4c90eee5e731df8d3ef2891de541d2e755ff8ee9db358e26bdec49f6e0db9",
+          "candidate_content": "medium",
+          "reason": "Apply existing INTENT undetermined-attribution rule and qualify the federal-only adjudicative source scope. No affirmative AI causation or unproved separate state outcome is accepted.",
+          "qualifications": {
+            "scope": "Exactlyconfidence_scoreofAIEL-2024-008. Read with the adopted filed committee report and issuing federal Opinion and Order. AI is raised as a hedged explanation, with attribution undetermined; the order establishes its own federal-bar discipline.",
+            "exceptions": "All unchanged native fields remain outside acceptance, including composite display name/jurisdiction and legal_graph. No separate FloridaSupremeCourt disposition, absence of state discipline, exact AI architecture, current reinstatement/compliance or later docket is inferred.",
+            "time": "Historical March8,2024order and adopted committee report, using retained October3,2026source bytes only. LastVerified/Checked/nativelegal dates and status remain unchanged; no new retrieval/currentness/human renewal."
+          },
+          "evidence": [
+            "federal-adopting-order",
+            "adopted-committee-report"
+          ]
+        },
+        "field:notes_on_resolution": {
+          "before_sha256": "aea75055e0f0f652f9e8621981ea70e853f48b4da3c28838401f252d171c3276",
+          "after_sha256": "b6d673c60f0694120e2dc9754e70948a16efc2b7020a09cb11bf9edc4e99446f",
+          "candidate_content": "The Grievance Committee reported that counsel said he \"may have used artificial intelligence to draft the filing(s)\". The March 8, 2024 federal Opinion and Order adopted and incorporated that report, found multiple forms of misconduct, imposed federal-bar suspension and conditions, and directed service on the Florida Bar. AI attribution was not determined; the cited sources do not establish that AI caused the fabricated authorities. The federal documents do not establish a separate Florida Supreme Court disposition, later state disciplinary outcome, or current reinstatement/compliance status.",
+          "reason": "Apply existing INTENT undetermined-attribution rule and qualify the federal-only adjudicative source scope. No affirmative AI causation or unproved separate state outcome is accepted.",
+          "qualifications": {
+            "scope": "Exactlynotes_on_resolutionofAIEL-2024-008. Read with the adopted filed committee report and issuing federal Opinion and Order. AI is raised as a hedged explanation, with attribution undetermined; the order establishes its own federal-bar discipline.",
+            "exceptions": "All unchanged native fields remain outside acceptance, including composite display name/jurisdiction and legal_graph. No separate FloridaSupremeCourt disposition, absence of state discipline, exact AI architecture, current reinstatement/compliance or later docket is inferred.",
+            "time": "Historical March8,2024order and adopted committee report, using retained October3,2026source bytes only. LastVerified/Checked/nativelegal dates and status remain unchanged; no new retrieval/currentness/human renewal."
+          },
+          "evidence": [
+            "federal-adopting-order",
+            "adopted-committee-report"
+          ]
+        },
+        "field:tags": {
+          "before_sha256": "5b7d5eea6622dccfecab31a3657b9538a277786ea09e83be98a384291f99f4e2",
+          "after_sha256": "2194ee446625467aa22ca22d06759b116a7422e299bc46351937917fd977ebac",
+          "candidate_content": "fabricated-citations; professional-discipline; attribution-not-determined; public-record-confirmed",
+          "reason": "Apply existing INTENT undetermined-attribution rule and qualify the federal-only adjudicative source scope. No affirmative AI causation or unproved separate state outcome is accepted.",
+          "qualifications": {
+            "scope": "ExactlytagsofAIEL-2024-008. Read with the adopted filed committee report and issuing federal Opinion and Order. AI is raised as a hedged explanation, with attribution undetermined; the order establishes its own federal-bar discipline.",
+            "exceptions": "All unchanged native fields remain outside acceptance, including composite display name/jurisdiction and legal_graph. No separate FloridaSupremeCourt disposition, absence of state discipline, exact AI architecture, current reinstatement/compliance or later docket is inferred.",
+            "time": "Historical March8,2024order and adopted committee report, using retained October3,2026source bytes only. LastVerified/Checked/nativelegal dates and status remain unchanged; no new retrieval/currentness/human renewal."
+          },
+          "evidence": [
+            "federal-adopting-order",
+            "adopted-committee-report"
+          ]
+        }
+      },
+      "unresolved": [
+        "Whether AI caused the fabricated authorities, and the exact tool or architecture, remain undetermined. The committee recounts may-have-used-AI; adoption does not make that affirmative causation.",
+        "These federal documents do not establish a separate FloridaSupremeCourt/FloridaBar adjudication, later state disciplinary outcome, current federal reinstatement or compliance, or complete later docket. No absence of such events is inferred.",
+        "Unchanged composite public_matter_name/jurisdiction and legal_graph remain legacy units; this changed-unit qualification neither newly accepts nor expands them.",
+        "Agent source-consistency review applies the existing undetermined-attribution policy to exactly7nativefields only. No human source/legal acceptance, human verification date renewal, new proceeding, status change or delivery is granted."
+      ],
+      "review": {
+        "actor": "codex:neusom-retained-attribution-2026-11-01",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Exactly7source-bound nativefields applying existing undetermined-attribution policy and federal-source limits, after independent57checkproposal review and independently selected one-sentence compatibility addendum. No policy/testwaiver,newclaimaboutstateoutcome,currentdocket,status,humanattestation or whole-record acceptance.",
+        "reviewed_at": "2026-11-01T16:50:32.353Z",
+        "packet_sha256": "2843f905a8be1aed2219a01f08bb2bb0e25bb733543679025e4ee484661459bb"
+      }
     }
   }
 }
