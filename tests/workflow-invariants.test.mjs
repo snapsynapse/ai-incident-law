@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
+import vm from "node:vm";
 
 const workflow = await readFile(new URL("../.github/workflows/validate.yml", import.meta.url), "utf8");
 const accessibilityWorkflow = await readFile(
@@ -44,4 +45,32 @@ test("accessibility workflow is a fail-closed four-route release gate", () => {
   ]) {
     assert.ok(accessibilityWorkflow.includes(route), `accessibility workflow omits ${route}`);
   }
+});
+
+for (const file of ['check-search.mjs', 'check-production-search.mjs']) {
+    test(`${file}: XML decoding is complete and single-pass`, async () => {
+        const source = await readFile(new URL(`../scripts/${file}`, import.meta.url), 'utf8');
+        const decoder = source.match(/function decode\(value\) \{[\s\S]*?\n\}/)?.[0];
+        assert.ok(decoder, 'decoder exists');
+        const entities = source.match(/const XML_ENTITIES = [^;]+;/)?.[0] || '';
+        const decode = vm.runInNewContext(`${entities}\n${decoder}\ndecode`);
+        for (const [input, expected] of [
+            ['&amp;lt;tag&amp;gt;', '&lt;tag&gt;'],
+            ['a=1&amp;b=2', 'a=1&b=2'],
+            ['&lt;b&gt; &quot;q&quot; &apos;s&#39; &#x27;', '<b> "q" \'s\' \''],
+            ['&#38;amp;', '&amp;'],
+            ['\n https://aiincidentlaw.org/ \n', 'https://aiincidentlaw.org/'],
+            ['&#0; &#xD800; &#1114112; &unknown;', '&#0; &#xD800; &#1114112; &unknown;'],
+        ]) assert.equal(decode(input), expected);
+    });
+}
+
+test("frozen maintenance removes recurring source collection while preserving manual and offline-age boundaries", async () => {
+  const links = await readFile(new URL("../.github/workflows/check-source-links.yml", import.meta.url), "utf8");
+  const age = await readFile(new URL("../.github/workflows/staleness-report.yml", import.meta.url), "utf8");
+  assert.match(links, /^  workflow_dispatch:/m);
+  assert.doesNotMatch(links, /^\s+schedule:|^\s+- cron:/m);
+  assert.match(links, /run: npm run check:links/);
+  assert.match(age, /cron: "47 13 \* \* 1"/);
+  assert.doesNotMatch(age, /check:links|observe:matters|fetch-source/);
 });

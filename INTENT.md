@@ -1,7 +1,7 @@
 ---
 title: "AI Incident Law INTENT"
-version: "0.6.0"
-last_updated: 2026-09-09
+version: "0.7.0"
+last_updated: 2026-11-18
 status: working-hypothesis
 description: "Standards-level strategy for the AI Incident Law dataset and reference site. Subscribes to portfolio-level working hypotheses. Defines stewardship principles, record admission criteria, refresh cadence, and contribution norms."
 tags: [intent, strategy, ai-incident-law, regulation, standards]
@@ -10,6 +10,12 @@ tags: [intent, strategy, ai-incident-law, regulation, standards]
 # AI Incident Law INTENT
 
 Strategy for the AI Incident Law dataset and the aiincidentlaw.org canonical home. Scoped to the curated incident corpus, the static reference site, and surrounding maintainer tooling. Subscribes to portfolio-level working hypotheses (see https://github.com/snapsynapse/paice-foundation/blob/main/INTENT.md).
+
+## Frozen operating state
+Decided by Sam on 2026-11-18: freeze this corpus and keep the repository unarchived. Retain the existing website, npm package and MCP artifacts. Keep correction and source-challenge issues open. Public surfaces state that the corpus is frozen, with dataset snapshot date 2026-09-22. Record dates do not establish present legal currentness or completeness.
+Recurring source-link collection is removed from the local workflow candidate. Manual source-link tooling remains available only for an explicitly selected bounded correction/access packet; its availability does not authorize source retrieval or replay failed routes. The offline record-age schedule is unchanged pending a separate owner choice; age reporting is not source verification. No deployed schedule state changes until separately authorized delivery.
+Routine discovery, expansion, quarterly coverage/source sweeps, annual recalibration and older roadmap features are dormant. Narrow evidence-backed corrections may be proposed through the existing issue route under existing admission rules. Freeze does not accept sources, settle unresolved attribution or legal questions, renew human dates, delete evidence, or close pending qualifications. Package/site retention is not a release, publication, unpublication or archival action.
+The [operating record](ops/lifecycle-decision-candidate-2026-11-18.md) retains the decision, implementation boundary and pending delivery/age-schedule choice.
 
 ## Purpose
 
@@ -109,18 +115,14 @@ Out of scope: speculative AI-risk commentary, AI ethics statements without legal
 
 ## Refresh cadence and gates
 
-The corpus is curated, not crawled. Refresh is editorial, not automated.
-
-- Continuous: any contributor may submit a record via PR at any time.
-- Scheduled review: dataset is reviewed for source decay and coverage gaps quarterly.
-- Recalibration: admission criteria are reviewed annually against accumulated edge cases.
-- Major version bump: when admission criteria change in a backward-incompatible way (e.g., narrowing what counts as AI-related), the dataset version bumps a minor version and the change is documented in CHANGELOG.
+The corpus is frozen under the November 18 decision. The prior quarterly source-decay/coverage review and annual recalibration cadence is dormant. No automatic discovery or source refresh is selected.
+Correction proposals remain open and require bounded evidence and existing admission review. A later material admission-criteria change or corpus expansion requires a new owner selection; freezing does not waive those gates.
 
 ## Contribution norms
 
-External contributions are welcome under the MIT (code) / CC BY 4.0 (data) split.
+Evidence-backed corrections and source challenges remain welcome under the MIT (code) / CC BY 4.0 (data) split. Routine new-record curation is dormant while frozen.
 
-Record submissions require:
+Selected correction candidates require:
 
 - The candidate record in canonical JSON shape (see docs/data-schema.md)
 - Public source URLs that pass the validator
@@ -164,7 +166,7 @@ Current tier: working hypothesis.
 
 Last review: 2026-08-19. Three criterion clarifications (outcome valence, undetermined AI attribution, jurisdiction and the `global` bucket) were decided and recorded in the changelog below; none required a dataset version bump.
 
-Next scheduled review: 2026-11-30 (Q4), or when the pending criterion challenge below is disposed of, whichever comes first.
+The former November 30 quarterly review is dormant under the November 18 freeze. No next source/currentness review is scheduled by this policy. The offline age-report schedule remains a separate unresolved owner choice.
 
 Pending criterion challenge: AIEL-2024-001 (Moffatt v. Air Canada). The primary source establishes a chatbot defect and negligent misrepresentation but does not describe the chatbot's technical nature, and the undetermined-attribution rule requires the primary source itself to discuss AI. Whether "chatbot" in the record's own voice satisfies criterion 1 is a steward decision; until it is made the record stays included with `needs_review` set and its receipt lists the question as unresolved.
 
@@ -186,6 +188,8 @@ Pending criterion challenge: AIEL-2024-001 (Moffatt v. Air Canada). The primary 
   discovery artifact.
 
 ## Changelog
+
+- 0.7.0 (2026-11-18): Records owner-selected frozen/unarchived operation, retained website/package/MCP and correction issues, local removal of recurring source-link collection, and dormant discovery/review cadence. Offline age schedule remains unselected; no corpus/admission/date change.
 
 - 0.6.0 (2026-09-09): Reconciles the Status section with what actually happened: the 2026-08-19 criterion decisions are recorded as the last review, the next review is scheduled for Q4 2026, and the Moffatt attribution question is named as the pending criterion challenge rather than left implicit in a record's `needs_review` flag. No criterion changes.
 - 0.5.0 (2026-08-20): Records the temporary root-published Pages exception and the intentional absence of `llms-full.txt`; the URL-preserving `/docs` migration remains separately gated.

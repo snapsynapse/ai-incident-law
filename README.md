@@ -8,6 +8,9 @@ When an AI system causes harm, the legal and regulatory fallout ends up scattere
 
 It ships as a standalone, dependency-free single-page application over a curated dataset of public matters involving AI-related incidents, failures, and resulting legal or regulatory action.
 
+## Frozen corpus
+Frozen by the owner on November 18, 2026. The retained dataset snapshot is September 22, 2026; individual record dates and unresolved source qualifications still apply. This is not a current or complete account of later legal developments. The website, existing npm package and MCP artifacts remain available, and [correction/source-challenge issues](https://github.com/snapsynapse/ai-incident-law/issues/new?template=record_correction.md) remain open. Routine discovery and curation have stopped.
+
 ## Who this is for
 
 Compliance teams, legal counsel, AI governance leads, and researchers tracking how AI failures turn into legal and regulatory action.
@@ -47,7 +50,7 @@ AI Incident Law is one component of the PAICE legal graph (with EveryAILaw, PubL
 
 ## Maintenance scope
 
-Weekly source-link and record-age diagnostics identify review work; they do not reverify the corpus. A separate manual pilot observes five active matters and two official discovery indexes, preserves source failures and pending findings, and requires human review before any record or verification date changes. Source access remains incomplete. Independent missing-run monitoring and recovery email acceptance remain open. See [the matter-monitor pilot](ops/MATTER-MONITOR-PILOT.md) for dated coverage evidence and [methodology](https://aiincidentlaw.org/docs/methodology.html) for the public boundary.
+Recurring legal-source link collection is removed from the local workflow candidate. The manual checker remains for separately selected bounded correction work; it is not authorization to make source requests. The offline record-age schedule is unchanged pending a separate owner decision and does not reverify sources. The former quarterly source/coverage review is dormant. See [INTENT](INTENT.md), the [operating record](ops/lifecycle-decision-candidate-2026-11-18.md), and the [dated matter-monitor pilot](ops/MATTER-MONITOR-PILOT.md) for preserved limits. Local preparation does not establish deployed workflow state.
 
 ## Repo layout
 
@@ -80,7 +83,7 @@ The shipped app still has no runtime dependencies:
 - No analytics
 - No persistent browser storage
 
-The footer displays the dataset freshness date from `generated_at` in the canonical JSON bundle. `generated_at` is derived automatically at build time from the newest record `last_verified_date` / `last_checked_date`, so the public freshness stamp tracks the data and never lags behind it.
+The footer displays the frozen dataset date from `generated_at` in the canonical JSON bundle. `generated_at` is derived automatically at build time from the newest record `last_verified_date` / `last_checked_date`, so this stamp describes the retained records and does not imply present source verification.
 
 Open `index.html` directly in a browser or host the folder on any static file server. Public-record links are outbound links and load only when selected.
 

@@ -2,6 +2,8 @@
 
 > Open, curated public-record corpus of legal and regulatory matters involving AI-related incidents, failures, and harms. Searchable by humans and agents. Code MIT, dataset CC BY 4.0. Stewarded by PAICE.work PBC. This is a public-record reference, not legal advice.
 
+Frozen corpus, owner decision 2026-11-18. Retained dataset snapshot: 2026-09-22. Routine discovery and curation have stopped. Existing website, npm package and MCP artifacts remain available. Correction/source-challenge issues remain open. Record dates, source failures and unresolved qualifications remain as recorded; do not describe this corpus as current or complete. The freeze does not renew verification dates or establish later procedural outcomes.
+
 Each record resolves to a primary or stable secondary public source. Records carry their own `last_verified_date` / `last_checked_date`; check it before presenting a record as current. The dataset is curated for source quality over volume, not crawled.
 
 ## Maintenance scope
