@@ -1,0 +1,92 @@
+name: Publish reviewed npm package
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirmation:
+        description: Confirm publication of the reviewed AI Incident Law v0.4.4 tarball
+        required: true
+        type: choice
+        options:
+          - publish-ai-incident-law-v0.4.4
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ai-incident-law-npm-v0.4.4
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main' && inputs.confirmation == 'publish-ai-incident-law-v0.4.4'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - name: Check out the dispatch commit
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Set up supported npm and OIDC
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        with:
+          node-version: '24'
+          registry-url: https://registry.npmjs.org/
+          package-manager-cache: false
+
+      - name: Verify runner and release source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          node -e 'const [major, minor] = process.versions.node.split(".").map(Number); if (major < 22 || (major === 22 && minor < 14)) process.exit(1)'
+          npm_version=$(npm --version)
+          node -e 'const [major, minor, patch] = process.argv[1].split(".").map(Number); if (major < 11 || (major === 11 && (minor < 5 || (minor === 5 && patch < 1)))) process.exit(1)' "$npm_version"
+          git merge-base --is-ancestor d0eb86f5ac0a31bcbe991d9960efa875730f2fb0 HEAD
+          tag_object=$(gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/v0.4.4" --jq '.object | select(.type == "tag") | .sha')
+          test -n "$tag_object"
+          gh api "repos/$GITHUB_REPOSITORY/git/tags/$tag_object" --jq '. | select(.object.sha == "d0eb86f5ac0a31bcbe991d9960efa875730f2fb0" and .verification.verified == true) | .tag' | grep -Fx 'v0.4.4'
+          gh api "repos/$GITHUB_REPOSITORY/releases/tags/v0.4.4" --jq '. | select(.id == 451619419 and .draft == false and .prerelease == false) | .assets[] | select(.name == "ai-incident-law-0.4.4.tgz" and .size == 293758 and .digest == "sha256:da514afe228826aad4f90a65fc961b2390f287cd4ff646ab554306690d832597") | .name' | grep -Fx 'ai-incident-law-0.4.4.tgz'
+
+      - name: Download and inspect the immutable release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/release"
+          gh release download v0.4.4 --repo "$GITHUB_REPOSITORY" --pattern 'ai-incident-law-0.4.4.tgz' --dir "$RUNNER_TEMP/release"
+          asset="$RUNNER_TEMP/release/ai-incident-law-0.4.4.tgz"
+          test "$(sha256sum "$asset" | cut -d ' ' -f 1)" = 'da514afe228826aad4f90a65fc961b2390f287cd4ff646ab554306690d832597'
+          tar -xOf "$asset" package/package.json | jq -e '.name == "ai-incident-law" and .version == "0.4.4" and .repository.url == "git+https://github.com/snapsynapse/ai-incident-law.git"'
+          tar -xOf "$asset" package/server.json | jq -e '.version == "0.4.4" and .packages[0].identifier == "ai-incident-law" and .packages[0].version == "0.4.4"'
+
+      - name: Confirm npm version is absent
+        shell: bash
+        run: |
+          set -euo pipefail
+          status=$(curl -sS -o /dev/null -w '%{http_code}' --max-time 15 https://registry.npmjs.org/ai-incident-law/0.4.4)
+          test "$status" = 404
+
+      - name: Publish exact reviewed tarball through npm OIDC
+        shell: bash
+        run: npm publish "$RUNNER_TEMP/release/ai-incident-law-0.4.4.tgz" --access public --registry https://registry.npmjs.org/
+
+      - name: Verify published npm tarball bytes
+        shell: bash
+        run: |
+          set -euo pipefail
+          for attempt in 1 2 3 4 5 6; do
+            if curl -fsS --max-time 15 https://registry.npmjs.org/ai-incident-law/-/ai-incident-law-0.4.4.tgz -o "$RUNNER_TEMP/published.tgz"; then
+              test "$(sha256sum "$RUNNER_TEMP/published.tgz" | cut -d ' ' -f 1)" = 'da514afe228826aad4f90a65fc961b2390f287cd4ff646ab554306690d832597'
+              exit 0
+            fi
+            sleep 5
+          done
+          exit 1
