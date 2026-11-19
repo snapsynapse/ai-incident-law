@@ -1,7 +1,7 @@
 const test = require("node:test");
 const assert = require("node:assert/strict");
 const path = require("node:path");
-const { spawnSync } = require("node:child_process");
+const { spawn, spawnSync } = require("node:child_process");
 
 const ROOT = path.join(__dirname, "..");
 const SERVER = path.join(ROOT, "scripts", "mcp-server.js");
@@ -92,6 +92,30 @@ test("MCP rejects an oversized request frame and answers the following ping", ()
     { jsonrpc: "2.0", id: 2, method: "ping" }
   ]);
   assert.equal(responses[0].error.code, -32600);
+  assert.equal(responses[1].result.resultType, "complete");
+});
+
+test("MCP discards the remainder of an oversized frame across stdin chunks", async () => {
+  const child = spawn(process.execPath, [SERVER], { cwd: ROOT });
+  let output = "";
+  let errors = "";
+  child.stdout.setEncoding("utf8").on("data", chunk => { output += chunk; });
+  child.stderr.setEncoding("utf8").on("data", chunk => { errors += chunk; });
+  const rejected = new Promise((resolve, reject) => {
+    const timeout = setTimeout(() => reject(Error("oversized frame was not rejected")), 2000);
+    child.stdout.on("data", chunk => {
+      if (chunk.includes("Request frame too large")) { clearTimeout(timeout); resolve(); }
+    });
+  });
+  child.stdin.write("x".repeat(1024 * 1024 + 1));
+  await rejected;
+  child.stdin.end(`${JSON.stringify({ jsonrpc: "2.0", id: 1, method: "ping" })}\n${JSON.stringify({ jsonrpc: "2.0", id: 2, method: "ping" })}\n`);
+  const exitCode = await new Promise(resolve => child.on("close", resolve));
+  assert.equal(exitCode, 0, errors);
+  const responses = output.trim().split("\n").map(line => JSON.parse(line));
+  assert.equal(responses.length, 2);
+  assert.equal(responses[0].error.code, -32600);
+  assert.equal(responses[1].id, 2);
   assert.equal(responses[1].result.resultType, "complete");
 });
 

@@ -564,10 +564,17 @@ function handleMessage(msg) {
 }
 
 let buffer = "";
+let discardingOversizedFrame = false;
 const MAX_FRAME_BYTES = 1024 * 1024;
 
 process.stdin.setEncoding("utf8");
 process.stdin.on("data", chunk => {
+  if (discardingOversizedFrame) {
+    const frameEnd = chunk.indexOf("\n");
+    if (frameEnd === -1) return;
+    chunk = chunk.slice(frameEnd + 1);
+    discardingOversizedFrame = false;
+  }
   buffer += chunk;
   let newlineIndex;
   while ((newlineIndex = buffer.indexOf("\n")) !== -1) {
@@ -592,6 +599,7 @@ process.stdin.on("data", chunk => {
   }
   if (Buffer.byteLength(buffer, "utf8") > MAX_FRAME_BYTES) {
     buffer = "";
+    discardingOversizedFrame = true;
     process.stdout.write(`${jsonRpcError(null, -32600, "Request frame too large")}\n`);
   }
 });

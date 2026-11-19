@@ -316,6 +316,38 @@ test('resumption retains reserved attempts and does not fetch after a failed che
   assert.equal(Object.values(reloaded.runs)[0].budget.requests, 1);
 });
 
+test('resumption restores discovery leads from a completed source checkpoint', async () => {
+  const state = readyState();
+  const streams = discoveryStreams();
+  const lead = source => ({ id: source.id, title: 'Automated decision review', url: `${source.url}/automated-decision-review` });
+  let interrupted = false;
+  const options = {
+    matters: matterSources(), streams, state, now: NOW,
+    parseIndex: (_body, { source }) => ({ supported: true, scope: { complete: true }, items: [lead(source)] }),
+    fetcher: async url => {
+      const source = [...matterSources(), ...streams].find(item => item.url === url);
+      return receipt(source, source.kind === 'matter' ? bodyFor(source) : '<main>Official index</main>');
+    }
+  };
+  await assert.rejects(() => collect({
+    ...options,
+    persist: async (_state, report) => {
+      if (!interrupted && report.sources.length === 6 && report.sources[5].status === 'covered') {
+        interrupted = true;
+        throw Error('report storage interrupted');
+      }
+    }
+  }), /report storage interrupted/);
+  const reloaded = JSON.parse(JSON.stringify(state));
+  const fetches = [];
+  const resumed = await collect({
+    ...options, state: reloaded,
+    fetcher: async url => { fetches.push(url); return options.fetcher(url); }
+  });
+  assert.deepEqual(fetches, [streams[1].url]);
+  assert.deepEqual(resumed.report.items.map(item => item.url), streams.map(source => lead(source).url));
+});
+
 test('CLI requires explicit live authorization and rejects unsafe report/state arguments without touching the corpus', async () => {
   assert.throws(() => parseArgs([]), /Pass --live/i);
   assert.throws(() => parseArgs(['--live', '--unknown']), /Unknown argument/i);
