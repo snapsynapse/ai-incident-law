@@ -1,9 +1,9 @@
 name: Check source links
 
+# Frozen corpus: recurring source requests retired by owner decision 2026-11-18.
+# Manual dispatch remains for separately selected bounded correction/access work.
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "17 13 * * 1"
 
 permissions:
   contents: read

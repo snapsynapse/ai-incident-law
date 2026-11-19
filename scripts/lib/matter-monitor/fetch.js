@@ -14,7 +14,7 @@ async function extractPdf(bytes) {
         return result.stdout;
     } finally { await fs.rm(directory, { recursive: true, force: true }); }
 }
-async function fetchPublication(url, { fetchImpl = fetch, decodePdf = extractPdf, timeoutMs = 30000, maxBytes = 20000000 } = {}) {
+async function fetchPublication(url, { fetchImpl = fetch, decodePdf = extractPdf, timeoutMs = 30000, maxBytes = 20000000, reserveRequest = async () => {}, initialReserved = false } = {}) {
     const initial = new URL(url);
     if (initial.protocol !== 'https:' || initial.username || initial.password || initial.port) throw new Error('Unexpected publication URL');
     const allowedHost = initial.hostname.replace(/^www\./, '');
@@ -22,6 +22,7 @@ async function fetchPublication(url, { fetchImpl = fetch, decodePdf = extractPdf
     let current = url, httpStatus = null, bytesReceived = 0;
     try {
         for (let hop = 0; hop <= 3; hop++) {
+            if (hop > 0 || !initialReserved) await reserveRequest();
             const response = await fetchImpl(current, { redirect: 'manual', signal: controller.signal,
                 headers: { Accept: 'application/atom+xml,application/pdf,text/html;q=0.9', 'User-Agent': 'AIIncidentLaw-monitor/1.0 (+https://aiincidentlaw.org/)' } });
             httpStatus = response.status;

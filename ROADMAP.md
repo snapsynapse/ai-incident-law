@@ -1,5 +1,14 @@
 # Roadmap
 
+## Frozen operation and bounded correction queue
+Sam selected frozen and unarchived on November 18, retaining the existing website, package and MCP artifacts, publishing frozen/as-of limitations and keeping correction/source-challenge issues open. [INTENT](INTENT.md) owns this component decision; the [operating record](ops/lifecycle-decision-candidate-2026-11-18.md) preserves retained evidence and delivery boundaries.
+Recurring source-link collection is removed from the local workflow candidate; its manual route remains for separately selected bounded corrections. The offline record-age cron is unchanged, with its continuation/disable choice still unselected. No external settings, publication, archive or source retrieval occurred. Older discovery, schema, calibration and feature priorities below are dormant historical proposals, not active work orders.
+### Deferred qualification-preservation proposals
+- Calibration eval: deterministic served-payload fixtures for undetermined AI attribution, allegation versus finding, legacy-unreviewed admission status, category versus statutory applicability and considered-but-declined matters. Assert qualifiers, confidence caps, admission state and unresolved receipt limits structurally, with a failing negative control for every safeguard. No LLM judge, paid inference, new records, source work or admission changes. Keep separate from the canonical gate until it demonstrates a real catch. Tests cannot establish legal accuracy, completeness or downstream reasoning quality.
+- Structured terminal dispositions: a proposed candidate field with closed states `open`, `terminal-not-admissible`, `promoted`, `superseded`; decision date, closed rule, operative reason and explicit `reopen_if`. Preserve Maxwell (AIEL-CAND-013), Contreras (015) and Mullins (017) as terminal under existing policy. Preserve each native reopening condition: Maxwell is closed on the competing non-AI-mechanism merits and has no next verification step; hallmarks language alone cannot reopen it. Contreras may reopen only if a later published decision or disciplinary proceeding in the same matter introduces AI attribution into the record. Mullins may reopen only if a later order in the same proceeding establishes an actual AI-attributable defect. Without that qualifying new evidence, do not re-triage; do not label source-blocked candidates terminal by inference. Serve state through MCP/filter tools and validate against contradictory included promotion. Every edited candidate requires admission evidence unless a reviewed explicit contract exemption for steward reasoning is selected. Neither an exemption nor schema/MCP expansion is approved by this proposal.
+- The calibration considered/declined case depends on structured dispositions. Backfill only the three established terminal decisions if this work is later selected; align methodology, validator, MCP and admission tests. CAND-033/034 and GLOB-023/024 remain open on source gate 2. Do not invent decisions for stalled records.
+- These proposals remain dormant under the selected frozen lifecycle. Their former measurement-strategy context is not authority to build scoring infrastructure; component qualification preservation does not depend on that portfolio choice.
+
 ## Current state
 
 The repository currently serves a static, portable research site backed by a canonical JSON dataset and a generated browser bundle.
@@ -10,7 +19,7 @@ Current dataset buckets:
 - `review`: candidates that need verification, source hardening, or scope decisions
 - `global`: non-US or cross-jurisdiction candidates that need additional translation, sourcing, or normalization
 
-## Near-term priorities
+## Dormant pre-freeze priorities
 
 ### 0. Deepen PAICE Legal Graph semantics
 
@@ -112,7 +121,7 @@ admissible primary source at the time; all are worth a targeted pass:
   Walters v. OpenAI posture, AV wrongful-death actions, AI companion harm, healthcare AI
   denial, AI content-moderation suits.
 
-#### Curation cadence
+#### Historical curation cadence, dormant since 2026-11-18
 
 The corpus is curated, not crawled. Court and agency filings lag public indexing by 7 to 21
 days, so a sweep run immediately after the previous one mostly re-reads what it already saw.
@@ -260,7 +269,7 @@ remain this repository's contribution. All three terminal not-admissible candida
 in the tracker, which is the clearest evidence that substitution would reintroduce
 overclaim. Open owner choices: adopt the recommendation, add a non-source crosswalk to
 tracker rows and CourtListener docket ids, and sequence the structured-dispositions and
-calibration-eval proposals ahead of any narrowing. Reassess at the 2026-11-30 INTENT review.
+calibration-eval proposals ahead of any narrowing. The former November 30 review is dormant under the November 18 freeze.
 
 ## Known projection gaps
 

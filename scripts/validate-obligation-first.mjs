@@ -27,4 +27,8 @@ const result = spawnSync(process.execPath, [validator, recordsDir], {
   stdio: "inherit"
 });
 
-process.exit(result.status || 0);
+if (result.error || result.signal || !Number.isInteger(result.status)) {
+  console.error(`validate-obligation-first: checker failed to complete: ${result.error?.message || result.signal || 'missing exit status'}`);
+  process.exit(1);
+}
+process.exit(result.status);

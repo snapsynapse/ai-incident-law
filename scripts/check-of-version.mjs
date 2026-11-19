@@ -55,4 +55,8 @@ const result = spawnSync(
   { cwd: root, stdio: "inherit" },
 );
 
-process.exit(result.status || 0);
+if (result.error || result.signal || !Number.isInteger(result.status)) {
+  console.error(`check-of-version: checker failed to complete: ${result.error?.message || result.signal || 'missing exit status'}`);
+  process.exit(1);
+}
+process.exit(result.status);

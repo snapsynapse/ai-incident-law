@@ -1,5 +1,7 @@
 # Contributing
 
+The corpus is frozen as of the owner decision on November 18, 2026. Corrections and source challenges remain open through issues. Routine new-record discovery and curation are dormant. Existing admission rules below continue to govern any separately selected evidence-backed correction; they do not authorize new source requests or verification-date renewal.
+
 ## Scope
 
 This repository is maintained as a static research site and dataset with a generated browser bundle.

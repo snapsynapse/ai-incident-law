@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 // skill_bundle: portfolio-search-indexing-audit
 // file_role: asset
-// version: 5
-// version_date: 2026-08-18
-// previous_version: 4
-// change_summary: Revalidated unchanged for the v5 bundle; the portable repository contract remains v4.
+// version: 7
+// version_date: 2026-11-08
+// previous_version: 6
+// change_summary: decode() also handles &apos; and numeric references and trims; repository contract remains v4.
 // Upstream: portfolio-search-indexing-audit contract v4.
 // Release-triggered HTTP validation. Exit 2 means infrastructure is unavailable.
 'use strict';
@@ -23,6 +23,18 @@ function report(kind, message) {
     if (kind === 'defect') defects++;
     else infrastructure++;
     console.error(`${kind === 'defect' ? 'LIVE' : 'NETWORK'}  ${message}`);
+}
+
+const XML_ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'" };
+// One pass over the five XML entities and numeric references, so decoded text is never
+// decoded again (&amp;lt; stays &lt;). Invalid code points stay encoded. Surrounding
+// whitespace is trimmed so a pretty-printed <loc> compares equal to its URL.
+function decode(value) {
+    return String(value || '').replace(/&(?:(amp|lt|gt|quot|apos)|#(\d+)|#[xX]([0-9a-fA-F]+));/g, (entity, name, decimal, hex) => {
+        if (name) return XML_ENTITIES[name];
+        const code = decimal ? Number(decimal) : parseInt(hex, 16);
+        return code > 0 && code <= 0x10ffff && (code < 0xd800 || code > 0xdfff) ? String.fromCodePoint(code) : entity;
+    }).trim();
 }
 
 function loadConfig() {
@@ -47,16 +59,60 @@ const canonicalOrigin = new URL(config.canonicalOrigin);
 const base = new URL(BASE_ARG ? BASE_ARG.slice(7) : canonicalOrigin.href);
 if (!base.pathname.endsWith('/')) base.pathname += '/';
 const production = base.href === canonicalOrigin.href;
+if (!production && !(base.protocol === 'https:' || (base.protocol === 'http:' && ['localhost', '127.0.0.1', '[::1]'].includes(base.hostname)))) {
+    report('infrastructure', `preview base must use HTTPS or explicit local loopback: ${base.href}`);
+    process.exit(2);
+}
+const MAX_REQUESTS = 1200;
+const MAX_REDIRECTS = 5;
+const MAX_BODY_BYTES = 8 * 1024 * 1024;
+const MAX_SITEMAPS = 25;
+const MAX_PAGES = 1000;
+let requestCount = 0;
 
-async function request(url) {
+function approvedTarget(url, origin = base.origin) {
+    try {
+        const target = new URL(url);
+        return target.origin === origin && !target.username && !target.password && !target.hash &&
+            (target.protocol === 'https:' || (!production && base.protocol === 'http:' && target.protocol === 'http:'));
+    } catch { return false; }
+}
+
+async function request(url, { redirectSource = false } = {}) {
+    if (!approvedTarget(url) && !(production && redirectSource && (config.redirects || []).some(item => item.from === url))) {
+        report('defect', `${url}: request target is outside approved origin`);
+        return null;
+    }
     let lastError;
     for (let attempt = 1; attempt <= 3; attempt++) {
         try {
-            return await fetch(url, {
-                redirect: 'follow',
-                headers: { 'user-agent': 'portfolio-search-contract/4' },
-                signal: AbortSignal.timeout(15000)
-            });
+            let current = url;
+            for (let hop = 0; hop <= MAX_REDIRECTS; hop++) {
+                if (requestCount >= MAX_REQUESTS) {
+                    report('infrastructure', 'request budget exhausted');
+                    return null;
+                }
+                requestCount++;
+                const response = await fetch(current, {
+                    redirect: 'manual',
+                    headers: { 'user-agent': 'portfolio-search-contract/4' },
+                    signal: AbortSignal.timeout(15000)
+                });
+                if (![301, 302, 303, 307, 308].includes(response.status)) return response;
+                const location = response.headers.get('location');
+                await response.body?.cancel();
+                if (!location) { report('defect', `${current}: redirect has no location`); return null; }
+                let next;
+                try { next = new URL(location, current).href; }
+                catch { report('defect', `${current}: invalid redirect location`); return null; }
+                if (!approvedTarget(next)) {
+                    report('defect', `${current}: redirect target is outside approved origin: ${next}`);
+                    return null;
+                }
+                current = next;
+            }
+            report('defect', `${url}: redirect limit exceeded`);
+            return null;
         } catch (error) {
             lastError = error;
             if (attempt < 3) await new Promise(resolve => setTimeout(resolve, attempt * 150));
@@ -83,7 +139,22 @@ function false404(body, url) {
 async function fetchText(url, rule = {}) {
     const response = await request(url);
     if (!response) return null;
-    const body = await response.text();
+    let bytes = 0;
+    const chunks = [];
+    try {
+        for await (const chunk of response.body || []) {
+            bytes += chunk.byteLength;
+            if (bytes > MAX_BODY_BYTES) {
+                report('infrastructure', `${url}: response exceeds ${MAX_BODY_BYTES} bytes`);
+                return null;
+            }
+            chunks.push(Buffer.from(chunk));
+        }
+    } catch (error) {
+        report('infrastructure', `${url}: response body failed: ${error.message}`);
+        return null;
+    }
+    const body = Buffer.concat(chunks).toString('utf8');
     if (!response.ok) report('defect', `${url}: HTTP ${response.status}`);
     const type = response.headers.get('content-type') || '';
     if (rule.contentTypes?.length && !rule.contentTypes.some(expected => type.toLowerCase().includes(expected.toLowerCase()))) {
@@ -98,8 +169,12 @@ async function fetchText(url, rule = {}) {
 
 const sitemapBodies = new Map();
 
-async function fetchSitemap(canonical, seen = new Set()) {
+async function fetchSitemap(canonical, seen = new Set(), depth = 0) {
     if (seen.has(canonical)) return;
+    if (depth > 4 || seen.size >= MAX_SITEMAPS) {
+        report('defect', `${canonical}: sitemap recursion or count limit exceeded`);
+        return;
+    }
     seen.add(canonical);
     const target = deployedUrl(canonical);
     const result = await fetchText(target, { contentTypes: ['xml'] });
@@ -108,13 +183,13 @@ async function fetchSitemap(canonical, seen = new Set()) {
     if (/<sitemapindex\b/i.test(result.body)) {
         for (const match of result.body.matchAll(/<sitemap>[\s\S]*?<loc>([^<]+)<\/loc>[\s\S]*?<\/sitemap>/gi)) {
             let child;
-            try { child = new URL(match[1].replace(/&amp;/g, '&')); }
+            try { child = new URL(decode(match[1])); }
             catch { report('defect', `${canonical}: invalid child sitemap URL ${match[1]}`); continue; }
             if (child.origin !== canonicalOrigin.origin) {
                 report('defect', `${canonical}: child sitemap uses noncanonical origin ${child.href}`);
                 continue;
             }
-            await fetchSitemap(child.href, seen);
+            await fetchSitemap(child.href, seen, depth + 1);
         }
     }
 }
@@ -143,7 +218,7 @@ const canonicals = [];
 const sitemapLastmods = new Map();
 for (const [sitemap, body] of sitemapBodies) {
     for (const match of body.matchAll(/<url>([\s\S]*?)<\/url>/gi)) {
-        const canonical = match[1].match(/<loc>([^<]+)<\/loc>/i)?.[1]?.replace(/&amp;/g, '&');
+        const canonical = decode(match[1].match(/<loc>([^<]+)<\/loc>/i)?.[1]);
         const lastmod = match[1].match(/<lastmod>([^<]+)<\/lastmod>/i)?.[1]?.trim();
         if (!canonical) {
             report('defect', `${sitemap}: URL entry is missing loc`);
@@ -154,17 +229,14 @@ for (const [sitemap, body] of sitemapBodies) {
         catch { report('defect', `${sitemap}: invalid page location ${canonical}`); continue; }
         if (url.origin !== canonicalOrigin.origin || url.href !== canonical) {
             report('defect', `${sitemap}: noncanonical page location ${canonical}`);
+            continue;
         }
+        if (canonicals.length >= MAX_PAGES) { report('defect', `${sitemap}: page limit exceeded`); break; }
         canonicals.push(canonical);
         sitemapLastmods.set(canonical, lastmod);
     }
 }
 if (!canonicals.length) report('infrastructure', 'live sitemaps contain no page locations');
-
-function decode(value) {
-    return String(value || '').replace(/&amp;/g, '&').replace(/&lt;/g, '<')
-        .replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'");
-}
 
 function repositoryCanonicals() {
     const output = path.resolve(ROOT, config.outputDir || '');
@@ -266,8 +338,8 @@ async function checkPage(canonical) {
     if (!result) return;
     if (result.response.url !== target) report('defect', `${target}: final URL is ${result.response.url}`);
     const html = result.body;
-    const pageCanonical = html.match(/<link\b[^>]*rel=["']canonical["'][^>]*href=["']([^"']+)["']/i)?.[1]
-        || html.match(/<link\b[^>]*href=["']([^"']+)["'][^>]*rel=["']canonical["']/i)?.[1];
+    const pageCanonical = decode(html.match(/<link\b[^>]*rel=["']canonical["'][^>]*href=["']([^"']+)["']/i)?.[1]
+        || html.match(/<link\b[^>]*href=["']([^"']+)["'][^>]*rel=["']canonical["']/i)?.[1]);
     if (pageCanonical !== canonical) report('defect', `${target}: canonical ${pageCanonical || '(missing)'} does not equal ${canonical}`);
     if (/<meta\b[^>]*name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(html)) {
         report('defect', `${target}: sitemap page is noindex`);
@@ -287,7 +359,7 @@ await mapLimit([...new Set(canonicals)], 8, checkPage);
 
 if (production) {
     for (const redirect of config.redirects || []) {
-        const response = await request(redirect.from);
+        const response = await request(redirect.from, { redirectSource: true });
         if (response && response.url !== redirect.to) {
             report('defect', `${redirect.from}: final URL is ${response.url}, expected ${redirect.to}`);
         }

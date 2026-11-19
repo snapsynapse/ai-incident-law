@@ -3,16 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Submit a case | AI Incident Law</title>
+    <title>Corrections and source challenges | AI Incident Law</title>
     <meta
       name="description"
-      content="How to submit a public-record AI incident, regulatory action, or tribunal matter to the AI Incident Law dataset. PR-based, criteria-driven, reviewed."
+      content="Report a correction or source challenge for the frozen AI Incident Law corpus. Retained records preserve source qualifications and historical dates."
     />
     <link rel="canonical" href="https://aiincidentlaw.org/docs/submit-a-case.html" />
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="AI Incident Law" />
-    <meta property="og:title" content="Submit a case | AI Incident Law" />
-    <meta property="og:description" content="How to submit a public-record AI incident, regulatory action, or tribunal matter to the AI Incident Law dataset. PR-based, criteria-driven, reviewed." />
+    <meta property="og:title" content="Corrections and source challenges | AI Incident Law" />
+    <meta property="og:description" content="Report a correction or source challenge for the frozen AI Incident Law corpus. Retained records preserve source qualifications and historical dates." />
     <meta property="og:url" content="https://aiincidentlaw.org/docs/submit-a-case.html" />
     <meta property="og:image" content="https://aiincidentlaw.org/imgs/og.png" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -174,22 +174,22 @@
 
     <main>
       <div class="prose">
+        <p><strong>Frozen corpus.</strong> Routine new-record discovery and curation stopped under the November 18, 2026 owner decision. Corrections and source challenges for retained records remain open through the issue route below. Retained dataset snapshot: September 22, 2026; later developments may be absent.</p>
         <a class="back-link" href="/">&#8592; Back to the dataset</a>
 
-        <h2 style="margin-top: 0; font-size: 1.4rem;">Submit a case</h2>
+        <h2 style="margin-top: 0; font-size: 1.4rem;">Corrections and source challenges</h2>
         <p>
-          AI Incident Law is a curated public-record corpus. Contributions are welcome from anyone --
-          law school clinics, in-house counsel, journalists, researchers, opposing counsel who watched
-          a case turn on AI-related conduct. The dataset does not favor any particular product or
-          firm, and admission is governed by stated criteria, not editorial taste.
+          Evidence-backed corrections and source challenges remain welcome. Include the existing record ID,
+          the disputed field or claim, and the retained or public source supporting the correction. Routine
+          new-record curation is dormant; a correction report does not itself admit a source or renew dates.
         </p>
 
         <div class="button-row">
-          <a class="button-primary" href="https://github.com/snapsynapse/ai-incident-law/issues/new?labels=data&amp;template=record_correction.md" rel="noopener">Open a record-submission issue</a>
+          <a class="button-primary" href="https://github.com/snapsynapse/ai-incident-law/issues/new?labels=data&amp;template=record_correction.md" rel="noopener">Open a correction or source-challenge issue</a>
           <a class="button-secondary" href="https://github.com/snapsynapse/ai-incident-law/compare" rel="noopener">Open a pull request</a>
         </div>
 
-        <h2>What we accept</h2>
+        <h2>Retained admission criteria</h2>
         <p>
           A candidate record is admitted to the <code>included</code> bucket when all of the following hold.
           These are the same criteria the steward applies to her own submissions; they live in
@@ -233,7 +233,7 @@
           </li>
         </ol>
 
-        <h2>Where your submission goes</h2>
+        <h2>Retained dataset buckets</h2>
 
         <div class="bucket-card">
           <strong>included</strong>
@@ -251,7 +251,7 @@
           sourcing. Held here until the editorial workflow can do them justice.</p>
         </div>
 
-        <h2>The submission process</h2>
+        <h2>The correction process</h2>
 
         <h3>Option 1 -- open an issue (recommended for first-time submitters)</h3>
         <p>
@@ -264,14 +264,13 @@
           <li>which admission criterion you believe the matter satisfies</li>
         </ul>
         <p>
-          The steward will respond with a triage: admission, request for more sourcing, queue into
-          review, or out of scope with a brief explanation. No silent rejections.
+          Reports remain available for bounded steward review. There is no promised response time or
+          ongoing curation cadence. Existing source-access limits and admission requirements still apply.
         </p>
 
         <h3>Option 2 -- open a pull request (for contributors comfortable with JSON)</h3>
         <p>
-          Edit <code>data/data.json</code> directly. Add your record to the appropriate bucket
-          (<code>included</code>, <code>review</code>, or <code>global</code>) following the field
+          For a bounded correction to an existing record, edit <code>data/data.json</code> following the field
           shapes documented in
           <a href="https://github.com/snapsynapse/ai-incident-law/blob/main/docs/data-schema.md" rel="noopener">docs/data-schema.md</a>.
           Run <code>npm run build</code> and <code>npm run check</code> locally before opening the PR
@@ -285,7 +284,7 @@
 
         <h2>Anchoring to obligations</h2>
         <p>
-          If your submitted matter has resolved (has a disposition -- settled, ordered, sanctioned, etc.)
+          If a proposed correction concerns a sourced disposition in an existing matter
           and you can identify which
           <a href="https://everyailaw.com/api/v1/of/obligations.json" rel="noopener">EveryAILaw obligation(s)</a>
           the breach implicates, include them as <code>obligation_first_anchors</code>. This is what makes

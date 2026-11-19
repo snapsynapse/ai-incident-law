@@ -1,16 +1,15 @@
 ---
-name: Record correction or submission
-about: Propose a new public matter, or correct or challenge an existing record
+name: Record correction or source challenge
+about: Correct or challenge an existing record in the frozen corpus
 title: ""
 labels: data
 assignees: ""
 ---
 
-This dataset is public-record only and curated for source quality over volume. See [INTENT.md](../../INTENT.md) for admission criteria and [CONTRIBUTING.md](../../CONTRIBUTING.md) for the edit flow.
+This corpus is frozen; correction and source-challenge issues remain open, while routine new-record curation is dormant. This dataset is public-record only and curated for source quality over volume. See [INTENT.md](../../INTENT.md) for admission criteria and [CONTRIBUTING.md](../../CONTRIBUTING.md) for the edit flow.
 
 ## Type
 
-- [ ] New record proposal
 - [ ] Correction to an existing record
 - [ ] Challenge to inclusion (move to review or remove)
 

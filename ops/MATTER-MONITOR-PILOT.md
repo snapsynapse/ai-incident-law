@@ -1,4 +1,7 @@
 # AI Incident Law matter and discovery pilot
+
+Operating supersession, 2026-11-18: the owner selected a frozen, unarchived corpus. This pilot's historical observations remain preserved; it is not an active discovery or refresh mandate. No collector is scheduled here, and manual source requests require separately selected bounded correction/access work. See INTENT.md and ops/lifecycle-decision-candidate-2026-11-18.md.
+
 Date: 2026-09-06 local time, 2026-09-07 UTC. Tranche: T09.
 
 ## Operating boundary
