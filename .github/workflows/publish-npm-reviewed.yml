@@ -69,6 +69,7 @@ jobs:
           tar -xOf "$asset" package/server.json | jq -e '.version == "0.4.4" and .packages[0].identifier == "ai-incident-law" and .packages[0].version == "0.4.4"'
 
       - name: Confirm npm version is absent
+        if: github.run_attempt == '1'
         shell: bash
         run: |
           set -euo pipefail
@@ -76,6 +77,7 @@ jobs:
           test "$status" = 404
 
       - name: Publish exact reviewed tarball through npm OIDC
+        if: github.run_attempt == '1'
         shell: bash
         run: npm publish "$RUNNER_TEMP/release/ai-incident-law-0.4.4.tgz" --access public --registry https://registry.npmjs.org/
 
@@ -83,11 +85,12 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          for attempt in 1 2 3 4 5 6; do
-            if curl -fsS --max-time 15 https://registry.npmjs.org/ai-incident-law/-/ai-incident-law-0.4.4.tgz -o "$RUNNER_TEMP/published.tgz"; then
+          for attempt in {1..37}; do
+            # A fresh query avoids a cached 404 while npm processes a new version.
+            if curl -fsS --max-time 15 "https://registry.npmjs.org/ai-incident-law/-/ai-incident-law-0.4.4.tgz?run=${GITHUB_RUN_ID}&attempt=${GITHUB_RUN_ATTEMPT}&probe=${attempt}" -o "$RUNNER_TEMP/published.tgz"; then
               test "$(sha256sum "$RUNNER_TEMP/published.tgz" | cut -d ' ' -f 1)" = 'da514afe228826aad4f90a65fc961b2390f287cd4ff646ab554306690d832597'
               exit 0
             fi
-            sleep 5
+            if (( attempt < 37 )); then sleep 10; fi
           done
           exit 1

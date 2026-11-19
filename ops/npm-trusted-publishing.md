@@ -25,6 +25,14 @@ If a branch removes the environment from its workflow, its identity no longer
 matches this npm trust connection. Keep the GitHub branch policy in force for
 the life of the connection.
 
+The first v0.4.4 publish succeeded in run 44584938399, but its six tarball
+probes ended before npm finished processing the version. The package and exact
+tarball bytes were subsequently verified independently. Do not rerun that
+historical run: a rerun uses its original workflow commit, which could call
+`npm publish` again. In the corrected workflow, only attempt 1 may check
+version absence and publish. Later attempts download the pinned release asset
+and verify the registry tarball, allowing a six-minute processing window.
+
 The first successful publish must occur within two days after creating npm
 trust, or the connection expires. npm-side setup requires the maintainer's
 interactive authentication. Do not configure trust or dispatch the workflow

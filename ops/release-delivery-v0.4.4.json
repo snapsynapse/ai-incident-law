@@ -6,7 +6,7 @@
   "start_head": "4b00afb4393286ffb96341c56b5e330fb0c495ca",
   "candidate_head": "d0eb86f5ac0a31bcbe991d9960efa875730f2fb0",
   "candidate_version": "0.4.4",
-  "updated_at": "2026-11-19T18:29:23Z",
+  "updated_at": "2026-11-19T20:20:04Z",
   "steps": [
     {
       "id": "source_and_ci",
@@ -40,8 +40,8 @@
     },
     {
       "id": "hosted_evidence",
-      "status": "ready",
-      "evidence": "The 0.4.4 provider responses, package snapshot, publication-state, MCP discovery, and exact-pin legal graph example are prepared in a separate source candidate. These files require their own reviewed commit, exact-head CI, merge, Pages deployment, and live byte verification before hosted 0.4.4 evidence is accepted."
+      "status": "completed",
+      "evidence": "Publication-evidence PR #22 merged normally at 3fd9107cf7ea0459785c12560ca160301215b3db with a tree identical to reviewed head fba2591a36704759039239ca894d7cc3dec4c6d4. Exact-main Validate 44589440583 and Pages deployment 44589439753 passed. Eleven canonical hosted files, including publication-state, MCP discovery, assistant guide and manifest, legal graph example, exact 0.4.4 snapshot, and five provider receipts, returned HTTP 200 and were byte-identical to merged source. Fresh npm and MCP provider responses matched retained evidence; the npm tarball SHA-256 matched the GitHub asset, and MCP 0.4.4 remained active/latest."
     },
     {
       "id": "source_currentness",

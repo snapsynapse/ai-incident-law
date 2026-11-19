@@ -8,6 +8,10 @@ const accessibilityWorkflow = await readFile(
   new URL("../.github/workflows/accessibility.yml", import.meta.url),
   "utf8"
 );
+const npmPublishWorkflow = await readFile(
+  new URL("../.github/workflows/publish-npm-reviewed.yml", import.meta.url),
+  "utf8"
+);
 const verifier = await readFile(new URL("../scripts/verify-ci.mjs", import.meta.url), "utf8");
 const packageJson = JSON.parse(await readFile(new URL("../package.json", import.meta.url), "utf8"));
 const packageLock = JSON.parse(await readFile(new URL("../package-lock.json", import.meta.url), "utf8"));
@@ -45,6 +49,15 @@ test("accessibility workflow is a fail-closed four-route release gate", () => {
   ]) {
     assert.ok(accessibilityWorkflow.includes(route), `accessibility workflow omits ${route}`);
   }
+});
+
+test("reviewed npm publication is first-attempt only and reruns verify pinned bytes", () => {
+  for (const step of ["Confirm npm version is absent", "Publish exact reviewed tarball through npm OIDC"]) {
+    assert.match(npmPublishWorkflow, new RegExp(`- name: ${step}\\n        if: github\\.run_attempt == '1'`));
+  }
+  assert.match(npmPublishWorkflow, /for attempt in \{1\.\.37\}; do/);
+  assert.match(npmPublishWorkflow, /probe=\$\{attempt\}/);
+  assert.match(npmPublishWorkflow, /sha256sum "\$RUNNER_TEMP\/published\.tgz"[\s\S]*da514afe228826aad4f90a65fc961b2390f287cd4ff646ab554306690d832597/);
 });
 
 for (const file of ['check-search.mjs', 'check-production-search.mjs']) {
