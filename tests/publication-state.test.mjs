@@ -52,12 +52,13 @@ test("a source version bump remains separate from the recorded published release
   assert.equal(value.state.observations.npm.version, publishedVersion);
 });
 
-test("a published source keeps neutral package guidance when npm catches up", () => {
+test("a candidate guide cannot be promoted by a package version rollback", () => {
   const value = fixture();
+  delete value.state.source_candidate;
   value.pkg.version = value.state.observations.npm.version;
   value.server.version = value.pkg.version;
   value.server.packages[0].version = value.pkg.version;
-  assert.deepEqual(validatePublicationState(value), []);
+  assert.match(validatePublicationState(value).join("\n"), /public guide bytes differ from the verified published artifact/);
 });
 
 test("missing or wrong provider evidence fails closed", () => {
@@ -120,12 +121,25 @@ test("unrecorded tools cannot leak into published discovery claims", () => {
 
 test("public guide bytes and immutable anchors remain bound to the published artifact", () => {
   const changedGuide = fixture();
+  delete changedGuide.state.source_candidate;
   changedGuide.guideBytes = Buffer.concat([changedGuide.guideBytes, Buffer.from("candidate-only\n")]);
   assert.match(validatePublicationState(changedGuide).join("\n"), /guide bytes.*published artifact/);
   const absentRelease = fixture();
   absentRelease.state.observations.github_release.status = "absent";
   absentRelease.state.observations.github_release.version = null;
   assert.match(validatePublicationState(absentRelease).join("\n"), /verified GitHub Release anchor/i);
+});
+
+test("an explicit unpublished candidate preserves the prior release evidence", () => {
+  const value = fixture();
+  assert.equal(value.state.source_candidate.status, "unpublished-source");
+  assert.equal(value.state.observations.npm.version, "0.4.3");
+  assert.deepEqual(validatePublicationState(value), []);
+  value.state.source_candidate.version = "0.4.5";
+  assert.match(validatePublicationState(value).join("\n"), /source candidate must identify/);
+  const changedGuide = fixture();
+  changedGuide.guideBytes = Buffer.concat([changedGuide.guideBytes, Buffer.from("candidate-only\n")]);
+  assert.match(validatePublicationState(changedGuide).join("\n"), /candidate guide manifest does not bind/);
 });
 
 test("Git tag evidence cannot masquerade as GitHub Release evidence", () => {

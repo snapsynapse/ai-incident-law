@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "repository": "ai-incident-law",
+  "profile": "package",
+  "authority": "R2",
+  "start_head": "4b00afb4393286ffb96341c56b5e330fb0c495ca",
+  "candidate_head": null,
+  "candidate_version": "0.4.4",
+  "updated_at": "2026-11-19T15:48:04Z",
+  "steps": [
+    {
+      "id": "reconciliation",
+      "status": "completed",
+      "evidence": "Origin/main and the isolated candidate base both resolved to 4b00afb4393286ffb96341c56b5e330fb0c495ca after fetch. This is a local package-preparation branch; the older dirty release-prep worktree was preserved. No local or remote v0.4.4 tag exists, and the GitHub Release lookup returned 404. npm registry DNS failed, so registry availability is unknown."
+    },
+    {
+      "id": "local_preparation",
+      "status": "ready",
+      "evidence": "The 0.4.4 version is in package.json, package-lock.json, server.json, both assistant-guide manifests, and release notes. Source-candidate state preserves the independently verified 0.4.3 publication evidence. The pre-record tracked diff SHA-256 was 9db231d9683e34b1eb345888a3f67976deead8150c62176c7b85d75b146cbdce; release-notes SHA-256 was 830fe328d5438838bcb7b5ddf5ff49dc7954d9b88b379c8fc78d67769ce8df74. Full build and check passed on the refreshed candidate with CHECK_OF_REQUIRED=1 and the local Obligation-First checkout."
+    },
+    {
+      "id": "packed_candidate",
+      "status": "ready",
+      "evidence": "The clean-consumer npm pack/install evaluation passed: ai-incident-law@0.4.4, 380 packed files, archive SHA-256 da514afe228826aad4f90a65fc961b2390f287cd4ff646ab554306690d832597, eight MCP tools, assistant-guide SHA-256 ab335146d11945954c349477b9b833e2800e5f04f59845bb1511bcb7bae9e00b. The temporary archive was removed by the evaluation script; it is not a release asset."
+    },
+    {
+      "id": "hosted_ci",
+      "status": "blocked",
+      "evidence": "The release candidate has not been pushed. Required exact-commit Validate and Accessibility Regression Gate results do not exist yet."
+    },
+    {
+      "id": "github_release",
+      "status": "blocked",
+      "evidence": "The intended tag is v0.4.4 and the reviewed notes are RELEASE_NOTES-v0.4.4.md. No tag or GitHub Release has been created. External publication requires separate authorization after exact-head CI and conflict checks."
+    },
+    {
+      "id": "npm_publication",
+      "status": "unknown",
+      "evidence": "The npm registry lookup for ai-incident-law@0.4.4 failed with DNS ENOTFOUND. Recheck the version before any publication attempt; no publish was attempted."
+    },
+    {
+      "id": "mcp_publication",
+      "status": "not_started",
+      "evidence": "The intended registry identity is io.github.snapsynapse/ai-incident-law@0.4.4. Registry publication and verification have not been attempted."
+    },
+    {
+      "id": "deployment",
+      "status": "not_started",
+      "evidence": "A Pages deployment is expected after a main merge, but no release-candidate push, merge, or deployment was authorized in this preparation step."
+    },
+    {
+      "id": "published_consumer",
+      "status": "not_started",
+      "evidence": "Only the locally packed artifact has been tested. Published npm, MCP Registry, and hosted artifacts need independent verification."
+    }
+  ]
+}

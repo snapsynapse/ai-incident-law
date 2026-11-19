@@ -54,7 +54,7 @@ function expectedEvidenceUrl(provider, version) {
 
 export function validatePublicationState({ state, snapshot, snapshotBytes, providerEvidence, pkg, server, discovery, readme, legalGraph, guideBytes, guideManifest }) {
   const errors = [];
-  exactKeys(state, ["schema_version", "document_updated", "package", "release_source", "observations", "hosted_policy", "limitations"], "publication state", errors);
+  exactKeys(state, ["schema_version", "document_updated", "package", "release_source", "observations", "hosted_policy", "limitations", ...(state.source_candidate ? ["source_candidate"] : [])], "publication state", errors);
   if (state.schema_version !== 1) errors.push("publication state schema_version must be 1");
   if (!/^\d{4}-\d{2}-\d{2}$/.test(state.document_updated || "") || new Date(`${state.document_updated}T00:00:00Z`).toISOString().slice(0, 10) !== state.document_updated || state.document_updated > new Date().toISOString().slice(0, 10)) errors.push("document_updated must be a real non-future ISO date");
   exactKeys(state.package, ["name", "registry_server_name"], "package identity", errors);
@@ -64,6 +64,12 @@ export function validatePublicationState({ state, snapshot, snapshotBytes, provi
   exactKeys(state.release_source, ["version", "status", "commit", "tag"], "release source", errors);
   if (state.release_source?.status !== "published-release" || !SEMVER.test(state.release_source?.version || "") || compareSemver(state.release_source.version, pkg.version) > 0) {
     errors.push("release source must be a verified published version no later than package.json");
+  }
+  if (state.source_candidate) {
+    exactKeys(state.source_candidate, ["version", "status", "base_commit", "working_tree"], "source candidate", errors);
+    if (state.source_candidate.version !== pkg.version || state.source_candidate.status !== "unpublished-source" || !/^[a-f0-9]{40}$/.test(state.source_candidate.base_commit || "") || typeof state.source_candidate.working_tree !== "boolean" || compareSemver(pkg.version, state.release_source.version) <= 0) {
+      errors.push("source candidate must identify a newer unpublished package and exact base commit");
+    }
   }
   if (!/^[a-f0-9]{40}$/.test(state.release_source?.commit || "") || state.release_source?.tag !== `v${state.release_source?.version}`) {
     errors.push("release source requires the exact release commit and tag");
@@ -160,10 +166,13 @@ export function validatePublicationState({ state, snapshot, snapshotBytes, provi
   }
   if (!readme.includes(`"args": ["-y", "${pkg.name}@VERSION"]`) || !readme.includes("Replace: VERSION -> an npm-verified version") || !readme.includes("Customize\n```json") || !readme.includes("Do not infer a package's publication status from this source README.")) errors.push("README must label and defer publication claims to canonical provider evidence");
   if (!legalGraph.includes(`"args": ["-y", "${exactPackage}"]`) || legalGraph.includes(`"args": ["-y", "${pkg.name}"]`)) errors.push("legal graph install example must exact-pin the published npm artifact");
-  if (hash(guideBytes) !== snapshot.guide?.sha256 || guideBytes.length !== snapshot.guide?.bytes) errors.push("public guide bytes differ from the verified published artifact");
+  if (!state.source_candidate && (hash(guideBytes) !== snapshot.guide?.sha256 || guideBytes.length !== snapshot.guide?.bytes)) errors.push("public guide bytes differ from the verified published artifact");
+  if (state.source_candidate && (!guideManifest.includes(`guide-sha256: ${hash(guideBytes)}`) || !guideManifest.includes(`guide-bytes: ${guideBytes.length}`))) errors.push("candidate guide manifest does not bind the source guide bytes");
   const releaseVersion = state.observations?.github_release?.status === "published" ? state.observations.github_release.version : null;
-  if (!releaseVersion || !guideManifest.includes(`immutable-release-url: https://github.com/snapsynapse/ai-incident-law/releases/tag/v${releaseVersion}`)) errors.push("guide manifest lacks its verified GitHub Release anchor");
-  if (!releaseVersion || !guideManifest.includes(`changelog-url: https://github.com/snapsynapse/ai-incident-law/blob/v${releaseVersion}/CHANGELOG.md`)) errors.push("guide manifest changelog lacks its verified release tag anchor");
+  if (!releaseVersion) errors.push("guide manifest lacks its verified GitHub Release anchor");
+  const guideVersion = state.source_candidate?.version || releaseVersion;
+  if (!guideVersion || !guideManifest.includes(`immutable-release-url: https://github.com/snapsynapse/ai-incident-law/releases/tag/v${guideVersion}`)) errors.push("guide manifest lacks its expected GitHub Release anchor");
+  if (!guideVersion || !guideManifest.includes(`changelog-url: https://github.com/snapsynapse/ai-incident-law/blob/v${guideVersion}/CHANGELOG.md`)) errors.push("guide manifest changelog lacks its expected release tag anchor");
   if (!Array.isArray(state.limitations) || state.limitations.length < 3) errors.push("publication state requires explicit limitations");
   return errors;
 }

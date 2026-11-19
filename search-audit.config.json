@@ -48,8 +48,8 @@
         "text/plain"
       ],
       "contains": [
-        "guide-version: 0.1.2",
-        "guide-sha256: 3fed9ab654aa04ccd5b0e908a0ace6138fefed3a73463d3daf9c8ebf5491cc08"
+        "guide-version: 0.1.3",
+        "guide-sha256: ab335146d11945954c349477b9b833e2800e5f04f59845bb1511bcb7bae9e00b"
       ]
     },
     {

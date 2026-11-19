@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.4] - 2026-11-19
+
+### Changed
+- Bump the package patch version and assistant guide to 0.1.3. The guide now explains
+  `admission_status` and `source_review_unresolved` while retaining its prior human
+  review date. This is a local release candidate with no publication claim.
+
 ### Added
 - The MCP dataset tools now report `admission_status`, and `source_review_unresolved` where
   a receipt left questions open, matching what the graph tools already disclosed. Previously
@@ -75,6 +82,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   ten claims added, none removed or changed. Recorded in docs/SCOPE-CONTRACT.md.
 
 ### Fixed
+- Discard the remainder of an oversized MCP request frame across stdin chunks, so a
+  trailing suffix cannot be dispatched as a separate request.
+- Restore discovery leads from a completed matter-monitor source checkpoint on resume.
 - Phone-width layout. The page scrolled horizontally below 980px because the filter controls
   carried `min-width: auto` sized to their longest option text and the results track shared
   the same min-content behaviour. Measured on the deployed page after the fix: scrollWidth
