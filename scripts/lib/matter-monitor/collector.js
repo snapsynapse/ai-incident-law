@@ -31,17 +31,20 @@ async function collect({matters,streams,index=[],state=core.emptyState({reviewPo
  if(new Set(sources.map(s=>s.id)).size!==7)throw Error('Source IDs must be unique');
  for(const s of sources){const u=new URL(s.url);if(u.protocol!=='https:'||u.hostname!==s.expectedHost||u.port||u.username||u.password)throw Error('Unexpected source URL');}
  const sourceFingerprint=hash(sources.map(({id,kind,url,expectedHost,role,identity})=>({id,kind,url,expectedHost,role,identity})));
- const history=core.beginRun(state,{id:`matter-monitor-history-${crypto.randomUUID()}`,selectionKeys:sources.map(s=>s.id).sort(),inputFingerprint:sourceFingerprint},{now}).run;
+ const history=core.beginRun(state,{id:`matter-monitor-history-${crypto.randomUUID()}`,selectionKeys:sources.map(s=>s.id).sort(),inputFingerprint:sourceFingerprint,budget:core.createRunBudget({maxRequests,spendCeiling:0})},{now}).run;
  if(history.status==='completed')throw Error('Matter-monitor history checkpoint already completed for this observation time');
+ if(!history.budget||history.budget.maxRequests!==maxRequests)throw Error('Matter-monitor resume lacks a matching persisted request budget');
   const checkpoint=(source,qualified,normalizedContentHash=null)=>core.checkpointResult(state,history.id,source.id,{kind:'matter-monitor-source',sourceId:source.id,qualified,normalizedContentHash,observedAt:now},{now});
- const report={id:`matter-monitor-${crypto.randomUUID()}`,startedAt:now,status:'running',requests:0,maxRequests,paidProviderCalls:0,reviewOwner:state.reviewPolicy.owner,sources:[],items:[],configuration:sources};
+ const report={id:`matter-monitor-${crypto.randomUUID()}`,startedAt:now,status:'running',requests:history.budget.requests,maxRequests,paidProviderCalls:0,reviewOwner:state.reviewPolicy.owner,sources:[],items:[],configuration:sources};
+ const reserveRequest=async()=>{const next=core.reserveSpend(history.budget,{paid:false});core.checkpointRunBudget(state,history.id,next,{now});report.requests=next.requests;await persist(state,report);};
  for(const source of sources){
   const sourceId=`matter-monitor:${source.id}`,due=new Date(Date.parse(now)+(source.kind==='matter'?30:7)*86400000).toISOString();
   core.registerSource(state,{id:sourceId,owner:'ai-incident-law',authoritativeUrl:source.url,sourceType:source.role==='secondary_mirror'?'official_secondary':'official_primary',subjectIds:[source.id],cadenceDays:source.kind==='matter'?30:7,criticality:'standard',parserVersion:'matter-monitor-v1',contentValidation:'required',collectionMode:source.unsupportedReason?'manual':'automated'},{now});
   const summary={id:source.id,url:source.url,kind:source.kind,status:'running',nextReviewAt:due,scope:source.qualification || 'First publication index page, title-filtered only'};report.sources.push(summary);
+  if(history.results[source.id]){Object.assign(summary,{status:history.results[source.id].qualified?'covered':'unavailable',reason:'Retained prior run checkpoint'});continue;}
   let response,errorReason=source.unsupportedReason;
   if(!errorReason&&report.requests>=maxRequests)errorReason='Run request budget exhausted';
-  if(!errorReason){report.requests++;await persist(state,report);try{response=await fetcher(source.url);}catch(error){errorReason=error.message;await retainRaw(source,{...(error.receipt || {retrievedUrl:source.url}),status:'failed',failureReason:errorReason});}}
+  if(!errorReason){try{await reserveRequest();response=await fetcher(source.url,{reserveRequest,initialReserved:true});}catch(error){errorReason=error.message;await retainRaw(source,{...(error.receipt || {retrievedUrl:source.url}),status:'failed',failureReason:errorReason});}}
   if(errorReason){
    const {observation}=core.recordObservation(state,sourceId,{retrievedAt:now,retrievalStatus:'error',assessmentKind:'primary_retrieval',coverageQualified:false,contentValidation:'invalid',failureReason:errorReason,locator:source.url,evidenceLinks:[source.url]},{now});
    Object.assign(summary,{status:source.unsupportedReason?'unsupported':'unavailable',reason:errorReason,observationId:observation.id,nextReviewAt:new Date(Date.parse(now)+7*86400000).toISOString()});

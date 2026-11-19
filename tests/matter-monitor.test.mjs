@@ -9,6 +9,7 @@ import { parseArgs, run } from '../scripts/observe-matters.mjs';
 const require = createRequire(import.meta.url);
 const core = require('../scripts/lib/freshness-contract.js');
 const { collect } = require('../scripts/lib/matter-monitor/collector.js');
+const { fetchPublication } = require('../scripts/lib/matter-monitor/fetch.js');
 
 const NOW = '2026-09-06T12:00:00.000Z';
 
@@ -248,6 +249,71 @@ test('a persistence failure prevents the first source fetch', async () => {
     persist: async () => { throw Error('state storage unavailable'); }
   }), /state storage unavailable/);
   assert.equal(fetches, 0);
+});
+
+test('each redirect consumes the persisted physical request budget before transport', async () => {
+  const state = readyState();
+  const attempts = [];
+  const result = await collect({
+    matters: matterSources(), streams: discoveryStreams(), state, now: NOW,
+    maxRequests: 1, parseIndex: () => emptyIndex(),
+    fetcher: (url, budget) => fetchPublication(url, {
+      ...budget,
+      fetchImpl: async target => {
+        attempts.push(target);
+        return new Response('', { status: 302, headers: { location: '/redirected' } });
+      }
+    })
+  });
+  assert.equal(result.report.requests, 1);
+  assert.deepEqual(attempts, [matterSources()[0].url]);
+  assert.equal(result.report.sources[0].status, 'unavailable');
+  assert.match(result.report.sources[0].reason, /request budget exhausted/i);
+  assert.equal(Object.values(state.runs)[0].budget.requests, 1);
+});
+
+test('an approved redirect uses two requests and later sources stop at the cap', async () => {
+  const state = readyState();
+  const attempts = [];
+  const first = matterSources()[0];
+  const result = await collect({
+    matters: matterSources(), streams: discoveryStreams(), state, now: NOW,
+    maxRequests: 2, parseIndex: () => emptyIndex(),
+    fetcher: (url, budget) => fetchPublication(url, {
+      ...budget,
+      fetchImpl: async target => {
+        attempts.push(target);
+        return target === first.url
+          ? new Response('', { status: 302, headers: { location: '/redirected' } })
+          : new Response(bodyFor(first), { status: 200, headers: { 'content-type': 'text/html' } });
+      }
+    })
+  });
+  assert.deepEqual(attempts, [first.url, 'https://courtlistener.com/redirected']);
+  assert.equal(result.report.requests, 2);
+  assert.equal(result.report.sources[0].status, 'covered');
+  assert.equal(result.report.sources[1].status, 'unavailable');
+});
+
+test('resumption retains reserved attempts and does not fetch after a failed checkpoint write', async () => {
+  const state = readyState();
+  let attempts = 0;
+  await assert.rejects(() => collect({
+    matters: matterSources(), streams: discoveryStreams(), state, now: NOW,
+    maxRequests: 1, parseIndex: () => emptyIndex(),
+    fetcher: async () => { attempts++; throw Error('fetch should not run'); },
+    persist: async () => { throw Error('state storage unavailable'); }
+  }), /state storage unavailable/);
+  assert.equal(attempts, 0);
+  const reloaded = JSON.parse(JSON.stringify(state));
+  const resumed = await collect({
+    matters: matterSources(), streams: discoveryStreams(), state: reloaded, now: NOW,
+    maxRequests: 1, parseIndex: () => emptyIndex(),
+    fetcher: async () => { attempts++; throw Error('fetch should not run'); }
+  });
+  assert.equal(attempts, 0);
+  assert.equal(resumed.report.requests, 1);
+  assert.equal(Object.values(reloaded.runs)[0].budget.requests, 1);
 });
 
 test('CLI requires explicit live authorization and rejects unsafe report/state arguments without touching the corpus', async () => {

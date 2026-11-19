@@ -18,4 +18,8 @@ if (process.argv.includes("--write-baseline")) {
   args.push("--write-baseline", "--adopter", "AI Incident Law", "--release", `v${version}`);
 }
 const result = spawnSync(process.execPath, args, { cwd: root, stdio: "inherit" });
-process.exit(result.status || 0);
+if (result.error || result.signal || !Number.isInteger(result.status)) {
+  console.error(`check-of-continuity: checker failed to complete: ${result.error?.message || result.signal || 'missing exit status'}`);
+  process.exit(1);
+}
+process.exit(result.status);

@@ -59,16 +59,60 @@ const canonicalOrigin = new URL(config.canonicalOrigin);
 const base = new URL(BASE_ARG ? BASE_ARG.slice(7) : canonicalOrigin.href);
 if (!base.pathname.endsWith('/')) base.pathname += '/';
 const production = base.href === canonicalOrigin.href;
+if (!production && !(base.protocol === 'https:' || (base.protocol === 'http:' && ['localhost', '127.0.0.1', '[::1]'].includes(base.hostname)))) {
+    report('infrastructure', `preview base must use HTTPS or explicit local loopback: ${base.href}`);
+    process.exit(2);
+}
+const MAX_REQUESTS = 1200;
+const MAX_REDIRECTS = 5;
+const MAX_BODY_BYTES = 8 * 1024 * 1024;
+const MAX_SITEMAPS = 25;
+const MAX_PAGES = 1000;
+let requestCount = 0;
 
-async function request(url) {
+function approvedTarget(url, origin = base.origin) {
+    try {
+        const target = new URL(url);
+        return target.origin === origin && !target.username && !target.password && !target.hash &&
+            (target.protocol === 'https:' || (!production && base.protocol === 'http:' && target.protocol === 'http:'));
+    } catch { return false; }
+}
+
+async function request(url, { redirectSource = false } = {}) {
+    if (!approvedTarget(url) && !(production && redirectSource && (config.redirects || []).some(item => item.from === url))) {
+        report('defect', `${url}: request target is outside approved origin`);
+        return null;
+    }
     let lastError;
     for (let attempt = 1; attempt <= 3; attempt++) {
         try {
-            return await fetch(url, {
-                redirect: 'follow',
-                headers: { 'user-agent': 'portfolio-search-contract/4' },
-                signal: AbortSignal.timeout(15000)
-            });
+            let current = url;
+            for (let hop = 0; hop <= MAX_REDIRECTS; hop++) {
+                if (requestCount >= MAX_REQUESTS) {
+                    report('infrastructure', 'request budget exhausted');
+                    return null;
+                }
+                requestCount++;
+                const response = await fetch(current, {
+                    redirect: 'manual',
+                    headers: { 'user-agent': 'portfolio-search-contract/4' },
+                    signal: AbortSignal.timeout(15000)
+                });
+                if (![301, 302, 303, 307, 308].includes(response.status)) return response;
+                const location = response.headers.get('location');
+                await response.body?.cancel();
+                if (!location) { report('defect', `${current}: redirect has no location`); return null; }
+                let next;
+                try { next = new URL(location, current).href; }
+                catch { report('defect', `${current}: invalid redirect location`); return null; }
+                if (!approvedTarget(next)) {
+                    report('defect', `${current}: redirect target is outside approved origin: ${next}`);
+                    return null;
+                }
+                current = next;
+            }
+            report('defect', `${url}: redirect limit exceeded`);
+            return null;
         } catch (error) {
             lastError = error;
             if (attempt < 3) await new Promise(resolve => setTimeout(resolve, attempt * 150));
@@ -95,7 +139,22 @@ function false404(body, url) {
 async function fetchText(url, rule = {}) {
     const response = await request(url);
     if (!response) return null;
-    const body = await response.text();
+    let bytes = 0;
+    const chunks = [];
+    try {
+        for await (const chunk of response.body || []) {
+            bytes += chunk.byteLength;
+            if (bytes > MAX_BODY_BYTES) {
+                report('infrastructure', `${url}: response exceeds ${MAX_BODY_BYTES} bytes`);
+                return null;
+            }
+            chunks.push(Buffer.from(chunk));
+        }
+    } catch (error) {
+        report('infrastructure', `${url}: response body failed: ${error.message}`);
+        return null;
+    }
+    const body = Buffer.concat(chunks).toString('utf8');
     if (!response.ok) report('defect', `${url}: HTTP ${response.status}`);
     const type = response.headers.get('content-type') || '';
     if (rule.contentTypes?.length && !rule.contentTypes.some(expected => type.toLowerCase().includes(expected.toLowerCase()))) {
@@ -110,8 +169,12 @@ async function fetchText(url, rule = {}) {
 
 const sitemapBodies = new Map();
 
-async function fetchSitemap(canonical, seen = new Set()) {
+async function fetchSitemap(canonical, seen = new Set(), depth = 0) {
     if (seen.has(canonical)) return;
+    if (depth > 4 || seen.size >= MAX_SITEMAPS) {
+        report('defect', `${canonical}: sitemap recursion or count limit exceeded`);
+        return;
+    }
     seen.add(canonical);
     const target = deployedUrl(canonical);
     const result = await fetchText(target, { contentTypes: ['xml'] });
@@ -126,7 +189,7 @@ async function fetchSitemap(canonical, seen = new Set()) {
                 report('defect', `${canonical}: child sitemap uses noncanonical origin ${child.href}`);
                 continue;
             }
-            await fetchSitemap(child.href, seen);
+            await fetchSitemap(child.href, seen, depth + 1);
         }
     }
 }
@@ -166,7 +229,9 @@ for (const [sitemap, body] of sitemapBodies) {
         catch { report('defect', `${sitemap}: invalid page location ${canonical}`); continue; }
         if (url.origin !== canonicalOrigin.origin || url.href !== canonical) {
             report('defect', `${sitemap}: noncanonical page location ${canonical}`);
+            continue;
         }
+        if (canonicals.length >= MAX_PAGES) { report('defect', `${sitemap}: page limit exceeded`); break; }
         canonicals.push(canonical);
         sitemapLastmods.set(canonical, lastmod);
     }
@@ -294,7 +359,7 @@ await mapLimit([...new Set(canonicals)], 8, checkPage);
 
 if (production) {
     for (const redirect of config.redirects || []) {
-        const response = await request(redirect.from);
+        const response = await request(redirect.from, { redirectSource: true });
         if (response && response.url !== redirect.to) {
             report('defect', `${redirect.from}: final URL is ${response.url}, expected ${redirect.to}`);
         }

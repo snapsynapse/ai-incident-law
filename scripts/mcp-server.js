@@ -492,6 +492,9 @@ function toolCallResult(result) {
 }
 
 function handleMessage(msg) {
+  if (!msg || typeof msg !== "object" || Array.isArray(msg) || typeof msg.method !== "string") {
+    return jsonRpcError(msg?.id ?? null, -32600, "Invalid Request");
+  }
   const { id, method, params } = msg;
   // Modern requests declare their protocol version per request. Unknown
   // versions are rejected; requests without `_meta` (legacy handshake or
@@ -531,7 +534,8 @@ function handleMessage(msg) {
       return jsonRpcResponse(id, { resultType: "complete", tools: TOOLS, ttlMs: CACHE_TTL_MS, cacheScope: CACHE_SCOPE });
     case "tools/call": {
       const toolName = params?.name;
-      const handler = TOOL_HANDLERS[toolName];
+      const handler = typeof toolName === "string" && Object.hasOwn(TOOL_HANDLERS, toolName)
+        ? TOOL_HANDLERS[toolName] : undefined;
       if (!handler) {
         return jsonRpcResponse(id, toolCallResult(structuredError({
           error: "unknown_tool",
@@ -560,6 +564,7 @@ function handleMessage(msg) {
 }
 
 let buffer = "";
+const MAX_FRAME_BYTES = 1024 * 1024;
 
 process.stdin.setEncoding("utf8");
 process.stdin.on("data", chunk => {
@@ -569,6 +574,10 @@ process.stdin.on("data", chunk => {
     const line = buffer.slice(0, newlineIndex).trim();
     buffer = buffer.slice(newlineIndex + 1);
     if (!line) continue;
+    if (Buffer.byteLength(line, "utf8") > MAX_FRAME_BYTES) {
+      process.stdout.write(`${jsonRpcError(null, -32600, "Request frame too large")}\n`);
+      continue;
+    }
     let msg;
     try {
       msg = JSON.parse(line);
@@ -576,8 +585,14 @@ process.stdin.on("data", chunk => {
       process.stdout.write(`${jsonRpcError(null, -32700, "Parse error")}\n`);
       continue;
     }
-    const response = handleMessage(msg);
+    let response;
+    try { response = handleMessage(msg); }
+    catch (error) { response = jsonRpcError(msg?.id ?? null, -32603, "Internal error"); }
     if (response !== null) process.stdout.write(`${response}\n`);
+  }
+  if (Buffer.byteLength(buffer, "utf8") > MAX_FRAME_BYTES) {
+    buffer = "";
+    process.stdout.write(`${jsonRpcError(null, -32600, "Request frame too large")}\n`);
   }
 });
 

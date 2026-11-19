@@ -69,6 +69,32 @@ test("MCP initializes and advertises tools", () => {
   assert.deepEqual(response.result.capabilities, { tools: {} });
 });
 
+test("MCP isolates inherited tool names and malformed requests from later messages", () => {
+  const responses = callMcp([
+    toolCall(1, "constructor", {}),
+    toolCall(2, "__proto__", {}),
+    toolCall(3, "toString", {}),
+    null,
+    { jsonrpc: "2.0", id: 5, method: "ping" }
+  ]);
+  assert.equal(responses.length, 5);
+  for (let index = 0; index < 3; index++) {
+    assert.equal(responses[index].result.isError, true);
+    assert.equal(payload(responses[index]).error, "unknown_tool");
+  }
+  assert.equal(responses[3].error.code, -32600);
+  assert.equal(responses[4].result.resultType, "complete");
+});
+
+test("MCP rejects an oversized request frame and answers the following ping", () => {
+  const responses = callMcp([
+    { jsonrpc: "2.0", id: 1, method: "x".repeat(1024 * 1024) },
+    { jsonrpc: "2.0", id: 2, method: "ping" }
+  ]);
+  assert.equal(responses[0].error.code, -32600);
+  assert.equal(responses[1].result.resultType, "complete");
+});
+
 test("MCP serves the 2026-07-28 stateless era alongside the legacy handshake", () => {
   const modernMeta = {
     "io.modelcontextprotocol/protocolVersion": "2026-07-28",
