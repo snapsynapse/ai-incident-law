@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "repository": "ai-incident-law",
+  "profile": "package",
+  "authority": "R2",
+  "start_head": "4b00afb4393286ffb96341c56b5e330fb0c495ca",
+  "candidate_head": "d0eb86f5ac0a31bcbe991d9960efa875730f2fb0",
+  "candidate_version": "0.4.4",
+  "updated_at": "2026-11-19T18:29:23Z",
+  "steps": [
+    {
+      "id": "source_and_ci",
+      "status": "completed",
+      "evidence": "PR #19 merged normally at d0eb86f5ac0a31bcbe991d9960efa875730f2fb0, with a tree identical to reviewed head 6bf3c4c6440f95cfdc2cef1c784a085211365a8f. Exact-main Validate 44566872754 and Pages 44566871483 passed. The later OIDC workflow and environment guard merged in PRs #20 and #21 at deb200ab66067617d1ef2ece8626d4528339aa48 and adde92134025f9e012579c496521a7bf6a9e79a7; both had exact-main Validate and Pages passes."
+    },
+    {
+      "id": "github_tag",
+      "status": "completed",
+      "evidence": "Signed v0.4.4 tag object 68758a5728447176875140c8655f09a4e6b8b5f6 peels to release source d0eb86f5ac0a31bcbe991d9960efa875730f2fb0. GitHub verified the SSH signature. Retained raw tag reference: design/provider-evidence/github-tag-v0.4.4.json."
+    },
+    {
+      "id": "github_release",
+      "status": "completed",
+      "evidence": "GitHub Release ID 451619419 was published 2026-11-19T16:34:09Z. Asset ai-incident-law-0.4.4.tgz ID 768426156 is 293758 bytes with SHA-256 da514afe228826aad4f90a65fc961b2390f287cd4ff646ab554306690d832597. Retained raw release response: design/provider-evidence/github-release-v0.4.4.json."
+    },
+    {
+      "id": "npm_publication",
+      "status": "completed",
+      "evidence": "Sam approved the protected npm-publish environment for OIDC workflow run 44584938399, job 135775235678, on main adde92134025f9e012579c496521a7bf6a9e79a7. The npm publish step succeeded and issued signed provenance (Sigstore log index 4003041278); the workflow failed its short post-publish URL probe while npm processed the package. Independent later registry metadata and tarball retrieval succeeded. npm publication time is 2026-11-19T18:15:50.350Z. The registry tarball SHA-256 is da514afe228826aad4f90a65fc961b2390f287cd4ff646ab554306690d832597, byte-identical to the GitHub asset, and its SHA-512 matches npm dist.integrity. No republish occurred."
+    },
+    {
+      "id": "mcp_publication",
+      "status": "completed",
+      "evidence": "After Sam renewed interactive GitHub OAuth, mcp-publisher published the exact signed-tag server.json. Official MCP Registry record io.github.snapsynapse/ai-incident-law@0.4.4 is active/latest, points to npm ai-incident-law@0.4.4, and reports publishedAt 2026-11-19T18:23:52.616904Z. Retained raw response: design/provider-evidence/mcp-registry-0.4.4.json."
+    },
+    {
+      "id": "published_consumer",
+      "status": "completed",
+      "evidence": "A fresh consumer installed ai-incident-law@0.4.4 by exact npm registry version. Installed package-lock integrity matches npm metadata, both guide copies and SHA-256 manifest match, and MCP initialize, eight-tool inventory, and get_record smoke passed. The frozen capability snapshot was built from this external registry-installed artifact."
+    },
+    {
+      "id": "hosted_evidence",
+      "status": "ready",
+      "evidence": "The 0.4.4 provider responses, package snapshot, publication-state, MCP discovery, and exact-pin legal graph example are prepared in a separate source candidate. These files require their own reviewed commit, exact-head CI, merge, Pages deployment, and live byte verification before hosted 0.4.4 evidence is accepted."
+    },
+    {
+      "id": "source_currentness",
+      "status": "not_applicable",
+      "evidence": "This package release and evidence update do not admit a legal source, resolve pending review qualifications, change the frozen corpus, or renew any human-verification date."
+    }
+  ]
+}

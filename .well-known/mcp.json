@@ -29,17 +29,17 @@
   ],
   "hosted_source": {
     "status": "published-release",
-    "version": "0.4.3",
-    "release_tag": "v0.4.3",
-    "release_commit": "9648b0a8c15b983b47b8663ba73c02a214e145ea",
+    "version": "0.4.4",
+    "release_tag": "v0.4.4",
+    "release_commit": "d0eb86f5ac0a31bcbe991d9960efa875730f2fb0",
     "publication_state": "https://aiincidentlaw.org/design/publication-state.json"
   },
   "package": {
     "registry": "npm",
     "name": "ai-incident-law",
-    "published_version": "0.4.3",
-    "install_command": "npx -y ai-incident-law@0.4.3",
-    "artifact_snapshot": "design/PUBLISHED-MCP-0.4.3.snapshot.json",
+    "published_version": "0.4.4",
+    "install_command": "npx -y ai-incident-law@0.4.4",
+    "artifact_snapshot": "design/PUBLISHED-MCP-0.4.4.snapshot.json",
     "homepage": "https://npmjs.com/package/ai-incident-law"
   },
   "local_server": {
