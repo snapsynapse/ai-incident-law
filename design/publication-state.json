@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "document_updated": "2026-09-12",
+  "document_updated": "2026-11-19",
   "package": {
     "name": "ai-incident-law",
     "registry_server_name": "io.github.snapsynapse/ai-incident-law"
@@ -79,6 +79,12 @@
     "A Git tag is recorded independently and does not prove that a GitHub Release or registry artifact exists.",
     "Provider observations can become stale or fail; unknown and error states must not promote a release claim.",
     "Published capabilities come only from the retained exact npm artifact snapshot, not from later source documentation.",
-    "The assistant guide bytes were included unchanged in 0.4.3; its packaged manifest retains the earlier v0.4.2 guide anchor. The hosted manifest independently anchors the same guide bytes to the verified v0.4.3 release."
-  ]
+    "The retained provider snapshot verifies the 0.4.3 assistant guide only. The 0.4.4 source-candidate guide manifests prospectively name v0.4.4, whose tag and GitHub Release are not verified or claimed here; hosted install and discovery evidence remains pinned to published 0.4.3."
+  ],
+  "source_candidate": {
+    "version": "0.4.4",
+    "status": "unpublished-source",
+    "base_commit": "4b00afb4393286ffb96341c56b5e330fb0c495ca",
+    "working_tree": false
+  }
 }

@@ -4,7 +4,7 @@ Assistant Guide: AI Incident Law maintainer and query workflow
 identifier: assistant-guide
 profile: human-verifiable-assistant-guide
 profile-version: 0.6.0
-guide-version: 0.1.2
+guide-version: 0.1.3
 applies-to: ai-incident-law 0.4.x
 canonical-url: https://aiincidentlaw.org/.well-known/assistant-guide.txt
 repository-url: https://github.com/snapsynapse/ai-incident-law
@@ -58,6 +58,12 @@ Safety rules
 - Do not fetch private filings, leaked material, or anonymous tips.
 - Do not present records as current without checking last_verified_date
   or last_checked_date.
+- Read admission_status separately from confidence_score and source_quality.
+- legacy-unreviewed means source fields have not been checked against
+  retained source bytes under the current admission contract.
+- source-consistency-reviewed-changes covers only receipt-named changes;
+  not-applicable-candidate means the matter is outside graph export.
+- source_review_unresolved lists questions left open by a completed review.
 - Do not hand-edit data.js or api/v1/of generated artifacts.
 - Do not make GuideCheck, scanner, or security-safety claims beyond
   the evidence actually verified in the current session.

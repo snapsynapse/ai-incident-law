@@ -37,7 +37,11 @@ const publishedRelease = publicationState.observations?.github_release;
 if (publishedRelease?.status !== "published" || !/^\d+\.\d+\.\d+$/.test(publishedRelease?.version || "")) {
   addIssue("assistant guide release anchor requires a verified published GitHub Release observation");
 }
-const releaseTag = `v${publishedRelease?.version || "unknown"}`;
+const candidate = publicationState.source_candidate;
+if (candidate && (candidate.status !== "unpublished-source" || candidate.version !== packageInfo.version)) {
+  addIssue("assistant guide candidate must match the unpublished source package version");
+}
+const releaseTag = `v${candidate?.version || publishedRelease?.version || "unknown"}`;
 const appliesTo = versionMatch ? `${packageInfo.name} ${versionMatch[1]}.${versionMatch[2]}.x` : null;
 const guideVersion = metadataValue("guide-version");
 
@@ -128,7 +132,7 @@ const manifest = Object.fromEntries(
   })
 );
 const guideSha256 = createHash("sha256").update(bytes).digest("hex");
-if (publishedSnapshot.guide?.sha256 !== guideSha256 || publishedSnapshot.guide?.bytes !== bytes.length) {
+if (!candidate && (publishedSnapshot.guide?.sha256 !== guideSha256 || publishedSnapshot.guide?.bytes !== bytes.length)) {
   addIssue("assistant guide bytes must match the verified published npm artifact snapshot");
 }
 const expectedManifest = {
