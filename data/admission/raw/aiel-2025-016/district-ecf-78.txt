@@ -1,0 +1,2187 @@
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 1 of 49
+
+
+
+
+                    UNITED STATES DISTRICT COURT
+                    EASTERN DISTRICT OF MICHIGAN
+                         SOUTHERN DIVISION
+
+
+   Porcha Woodruff,
+
+                             Plaintiff,      Case No. 23-11886
+
+   v.                                        Judith E. Levy
+                                             United States District Judge
+   LaShauntia Oliver,
+                                             Mag. Judge Anthony P. Patti
+                             Defendant.
+
+   ________________________________/
+
+   ORDER GRANTING DEFENDANT’S MOTION FOR SUMMARY
+   JUDGMENT [23] AND DENYING PLAINTIFF’S MOTION FOR
+           PARTIAL SUMMARY JUDGMENT [25]
+
+        Before the Court is Defendant1 LaShauntia Oliver’s motion for
+
+  summary judgment and Plaintiff Porcha Woodruff’s motion for partial
+
+  summary judgment. (ECF Nos. 23, 25.) The motions are fully briefed. (See
+
+  ECF Nos. 29, 30, 31, 37.) On April 16, 2025, the Court held an in-person
+
+  hearing on the motions and heard oral argument.
+
+
+
+
+        1 On November 6, 2024, Defendant City of Detroit was dismissed from this case
+
+  in a stipulated order. (ECF No. 24.)
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 2 of 49
+
+
+
+
+          Plaintiff’s complaint alleges the following remaining2 allegations
+
+  under state and federal law:
+
+      Count I: False Arrest and Imprisonment in violation of the Fourth
+       Amendment
+      Counts II: Malicious Prosecution in violation of the Fourth
+       Amendment
+      Count V: State Law False Arrest and Imprisonment
+      Count VI: State Law Malicious Prosecution
+      Count VII: State Law Intentional Infliction of Emotional Distress
+  (ECF No. 4.)
+
+          Defendant seeks summary judgment for all counts. Plaintiff’s
+
+  partial motion for summary judgment is limited to her state and federal
+
+  false arrest/imprisonment and malicious prosecution claims.
+
+          For the reasons set forth below, Defendant’s motion for summary
+
+  judgment (ECF No. 23) is granted and Plaintiff’s partial motion for
+
+  summary judgment (ECF No. 25) is denied.
+
+     I.       Background
+
+          On January 29, 2023, at around 8:00 p.m., Laurence Walker called
+
+  911 from a liquor store in Detroit and reported that he was the victim of
+
+  a carjacking at gunpoint. (ECF No. 23-1, PageID.329; ECF No. 23-4,
+
+
+
+         Plaintiff voluntarily dismissed Count III and Count IV. (ECF No. 29,
+          2
+
+  PageID.851.)
+                                        2
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 3 of 49
+
+
+
+
+  PageID.355.) The victim told Detroit Police Department (“DPD”) officers
+
+  that earlier that day, he was driving his gold Chevy Malibu and picked
+
+  up a woman he did not know. (ECF No. 23-5, PageID.363.) At some point
+
+  during their time together, he mentioned to her that he owned a gun.
+
+  (Id.) Also during their time together, she called an unknown person over
+
+  the phone and told them “she was getting a ride from someone.” (Id.)
+
+  Walker eventually dropped the woman off around Gratiot Avenue and
+
+  Bessemore Street, where she got into a black Tahoe vehicle. (Id.) Then, a
+
+  man exited the Tahoe, approached Walker, and told him she forgot her
+
+  phone in his car. (Id.) When Walker exited his car to search for the phone,
+
+  the unknown man pulled out a gun, ordered him to “take everything off”
+
+  and asked him, “where’s the gun?” (Id.) Walker took off his pants and
+
+  shoes and the man got into Walker’s car and drove away with Walker’s
+
+  phone and wallet. (Id.) Walker described the woman as “a black female,
+
+  brown complexion, brown and blond long hair, slim build, about 5’4 in
+
+  height, wearing a black jacket.” (Id.) Walker also suggested that he may
+
+  have been drugged by the unknown woman, stating that they drank
+
+  liquor together, and then he “started feeling really tired” and “passed
+
+
+
+
+                                        3
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 4 of 49
+
+
+
+
+  out,” and that he drank far less than she did. (ECF No. 61-1,
+
+  PageID.1789.)
+
+        The next day, Defendant DPD Officer LaShauntia Oliver was
+
+  assigned to this criminal investigation. (ECF No. 23-7.) On January 31,
+
+  the victim informed Oliver that an unidentified woman returned
+
+  Walker’s stolen cellphone to a BP Gas Station on Van Dyke, and that he
+
+  successfully retrieved it. (ECF No. 23-1, PageID.330; ECF No. 70-5,
+
+  PageID.2029.)
+
+        Oliver went to the BP Gas Station and viewed surveillance footage
+
+  of the unidentified woman returning the victim’s phone on January 30,
+
+  2023. (Id.; ECF No. 23-25, PageID.484.) According to Oliver, the woman
+
+  in the surveillance footage matched the description of the woman who
+
+  Walker had spent time with prior to the carjacking. (ECF No. 70-5,
+
+  PageID.2029.) On February 1, Oliver extracted and sent images of the
+
+  woman from the surveillance video to DPD’s Crime Intelligence Unit and
+
+  requested a facial recognition search to try to identify her. (ECF No. 23-
+
+  9.)
+
+        Investigator Nathan Howell performed the facial recognition search
+
+  on February 2, 2023. (Id.) The search produced 73 candidates, and Howell
+
+
+                                        4
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 5 of 49
+
+
+
+
+  narrowed the candidates down to one lead: Plaintiff Porcha Woodruff.
+
+  (Id.; ECF No. 61-3, PageID.1795.) Howell’s identification of Plaintiff as a
+
+  “lead” “was peer reviewed by Crime Analyst Kamrin Dean and confirmed
+
+  by Executive Manager David Collins of the Crime Intelligence Unit.” (Id.
+
+  at PageID.1796.)
+
+        Also on February 2, Oliver interviewed Walker again. For the first
+
+  time, he said the female suspect’s name is “Trinidad,” that they had sex
+
+  in his car, and that they went to the same Van Dyke BP gas station
+
+  around 6:30 p.m. to 7:15 p.m. before going to the location where he was
+
+  carjacked. (ECF No. 61-4; ECF No. 23-25, PageID.541–542; ECF No. 70-
+
+  5, PageID.2029.) Further, Walker represented that he saw the black
+
+  Tahoe at the BP gas station when he and Trinidad were there, that
+
+  Trinidad approached the passenger of the black Tahoe at the gas station
+
+  and hugged him. This passenger later carjacked Walker. (ECF No. 61-4.)
+
+  Walker stated that Trinidad stood in the street during the carjacking and
+
+  did not do anything to help him. (Id.) Walker said he would recognize
+
+  Trinidad and the man who carjacked him. (Id.) With this additional
+
+  information, Oliver obtained video footage from the BP Gas Station for
+
+  5:53 p.m. until 7:27 p.m. on January 29, 2023, which is the length of time
+
+
+                                        5
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 6 of 49
+
+
+
+
+  the victim and the female suspect were there. (ECF No. 23-14,
+
+  PageID.392–394.) In the video footage, the female suspect approached
+
+  “several vehicles” in the gas station lot while the victim never exited his
+
+  vehicle. (Id. at PageID.394; ECF No. 70-5, PageID.2030.) The female
+
+  suspect and an unknown man “[could] be observed pulling and tugging
+
+  on [the victim] who was in the driver[’s] seat” and the female suspect
+
+  appeared to take something from the victim. (Id.) Oliver stated that the
+
+  victim’s behavior was strange and that she “strongly believe[d] he may
+
+  have not been aware of what was occurring” based on what she saw in
+
+  the video. (Id.)
+
+        That same day, DPD officers found Walker’s stolen vehicle being
+
+  driven by a man named Daniel White. They arrested White and he was
+
+  interrogated. (ECF No. 61-5, PageID.1799; ECF No. 64-9; see also ECF
+
+  No. 41-2; ECF No. 61-7.) During the interrogation, White was shown an
+
+  image of the alleged female accomplice, and he identified her as Trinidad
+
+  Trinity (though he said shortly after that that he did not remember her
+
+  last name) and said that they were Facebook friends. (ECF No. 64-9,
+
+  13:45–15:15; ECF No. 41-2, PageID.1646–1648.)
+
+
+
+
+                                        6
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 7 of 49
+
+
+
+
+        On February 3, the victim reviewed two photo lineup identifications
+
+  — the first to see if he could identify White as the male suspect and the
+
+  second to determine if Porcha Woodruff, the “lead” identified by the facial
+
+  recognition search, was the female suspect.
+
+        For the photo lineup of the female accomplice, Defendant was
+
+  present for the lineup but did not select the photos; instead, Detective
+
+  Greenwald selected and prepared the photo line-up that included
+
+  Plaintiff’s photo. (ECF No. 23-25, PageID.498, 547–548.) Plaintiff’s line-
+
+  up photo was not the photo produced from the facial recognition search.3
+
+  (See ECF Nos. 61-6, 61-3.) Walker selected Plaintiff’s photo, stating “I
+
+  picked [Plaintiff’s photo] based on seeing the individual in person for
+
+  multiple hours, prior to be being carjacked.” (ECF No. 23-18,
+
+  PageID.412.) According to Defendant, she asked him, “are you sure this
+
+  is the person,” and “[h]e said yes.” (ECF No. 23-25, PageID.498.)
+
+        On February 4, Defendant prepared the request for arrest warrant
+
+  for both Daniel White and Plaintiff. (ECF No. 70-5, PageID.2028.)
+
+  Defendant decided to prepare the request for arrest warrant because of
+
+
+
+
+        3 Woodruff’s line-up photo was an eight-year-old mug shot from 2015. (ECF No.
+
+  37-1, PageID.1259.)
+                                          7
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 8 of 49
+
+
+
+
+  the victim’s identification of Plaintiff and after Defendant reviewed
+
+  Plaintiff’s criminal history. (ECF No. 23-25, PageID.496.) The request for
+
+  warrant was approved by DPD Captain Anthony O’Rourke. (ECF No. 70-
+
+  5, PageID.2028.) It was authorized by Garrett Garcia from the Wayne
+
+  County Prosecutor’s Office. (ECF Nos. 23-20, 61-8.) A magistrate of the
+
+  36th District Court signed the warrant. (ECF No. 61-8, PageID.1811.)
+
+        The approved warrant was provided to the Fugitive Apprehension
+
+  Team (“FAST”), which conducts felony arrests after a warrant has been
+
+  issued. (ECF No. 23-25, PageID.556.) FAST was given an “intelligence
+
+  work up” before the officers arrested her, which contained information
+
+  such as Plaintiff’s address, contact information, her Facebook profile for
+
+  her business, and additional photographs. (ECF No. 64-13.)
+
+        In the morning of February 16, Plaintiff was arrested by FAST.
+
+  (ECF No. 61-10.) Woodruff, who was visibly pregnant, was in disbelief
+
+  that there was a warrant for her arrest for carjacking but cooperated with
+
+  the officers. (ECF No. 64-12.) The arresting officers also took possession
+
+  of her cell phone. (ECF No. 23-25, PageID.521.)
+
+        Plaintiff was booked and processed at the Detroit Detention Center.
+
+  (Id. at PageID.519.) Upon seeing Plaintiff, Defendant immediately
+
+
+                                        8
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 9 of 49
+
+
+
+
+  realized that Plaintiff could not be the female suspect because Plaintiff
+
+  was 8-months pregnant, which did not match the suspect’s description or
+
+  appearance on the video footage. (Id. at PageID.510.) Woodruff also has
+
+  a large tattoo of a rose on her right arm, which did not match the suspect’s
+
+  description. (Id. at PageID.508.) Defendant called her superior officer to
+
+  explain that Woodruff could not be the suspect and was “told not to
+
+  interrogate so much or not to take too much time or press her too much,”
+
+  and to “[j]ust [] be clear of her whereabouts and where she was, her alibi.
+
+  Where she was on that day and see if she knew the victim or knew of
+
+  anybody or frequented that gas station.” (Id. at PageID.511.) According
+
+  to Defendant, the decision to keep Plaintiff in custody was “above [her]
+
+  at that time” because “there was a valid warrant” and she could not “just
+
+  disregard the warrant.” (Id. at PageID.511, 514.)
+
+        Around 3:00 p.m. that day, Defendant interrogated Plaintiff. She
+
+  asked Plaintiff if she was involved in a carjacking on January 29, 2023,
+
+  if she knew the victim, where she was on January 29, if she frequents
+
+  that BP Gas Station, and if she knew anyone with a silver GMC Envoy.
+
+  (Id. at PageID.506; ECF No. 61-11.) Afterwards, Plaintiff was escorted to
+
+  a jail cell. (ECF No. 23-25, PageID.513, 515.) Defendant subsequently
+
+
+                                        9
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 10 of 49
+
+
+
+
+   tried to call Prosecutor Garrett Garcia and others at the Wayne County
+
+   prosecutor’s office to have the warrant dismissed, but she could not get
+
+   in touch with anyone. (Id. at PageID.513–514, 517, 520; ECF No. 23-28.)
+
+         Woodruff testified that, while in detention, she experienced
+
+   contractions and was concerned about her pregnancy. (ECF No. 37-1,
+
+   PageID.1269–1270.) Plaintiff was arraigned later that day. (ECF No. 23-
+
+   29, PageID.642.) During the arraignment, Defendant spoke to
+
+   Magistrate Echartea and explained that they had arrested the wrong
+
+   person. (ECF No. 23-25, PageID.534.) The magistrate told her that she
+
+   needed either the prosecutor or a judge to dismiss the warrant but that
+
+   she would take this information into consideration. (Id.) The magistrate
+
+   ultimately gave Plaintiff a $100,000 personal bond, a probable cause
+
+   conference date of February 27, and a preliminary exam date of March 6.
+
+   (ECF No. 23-29.)
+
+         Plaintiff was released at 7:00 p.m. that day. Defendant refused to
+
+   return Plaintiff’s cellphone, stating that they could not return her cell
+
+   phone until they checked her phone records to confirm that she was not
+
+   present at the crime. (ECF No. 23-25, PageID.523.) According to
+
+   Defendant, this was done because Defendant wanted to “clear her even
+
+
+                                        10
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 11 of 49
+
+
+
+
+   more.” (Id.) After leaving the Detroit Detention Center, Woodruff went to
+
+   the hospital to check on her baby and her health. She was treated for her
+
+   contractions and ultimately left the hospital at roughly 3:00 a.m. (ECF
+
+   No. 37-1, PageID.1293–1294.)
+
+         In the morning of February 17, Oliver spoke with prosecutor
+
+   Garrett Garcia and explained that Woodruff was not the suspect and was
+
+   34-weeks pregnant. (ECF No. 23-25, PageID.519–20.) According to
+
+   Oliver, Garcia said he would “update the case.” (Id. at PageID.520.)
+
+   Oliver and Woodruff also had a conversation that morning regarding
+
+   Woodruff’s cellphone. (ECF No. 41-4.) Oliver told Woodruff that she was
+
+   working on a warrant for Woodruff’s phone and could give Woodruff’s
+
+   phone back once the warrant was signed. (Id. at PageID.1695.)
+
+   Woodruff’s phone was returned later that day in the afternoon. (ECF No.
+
+   23-25, PageID.524; ECF No. 64-16; ECF No. 37-1, PageID.1307.)
+
+         On February 18, Oliver submitted a search warrant request for the
+
+   “call detail records, cell site activity, cell site locations and historical
+
+   billing records, s.m.s and m.m.s messaging” for Plaintiff’s cell phone
+
+   number. (ECF No. 64-19.) The search warrant request states that the
+
+   Affiant, Defendant Oliver, “has probable cause to believe” that this
+
+
+                                        11
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 12 of 49
+
+
+
+
+   information will “provide evidence” that would be helpful for the
+
+   prosecution or investigation. The search warrant was submitted by
+
+   Oliver and approved by Prosecutor Joseph Kurity. (Id.) Woodruff’s
+
+   pregnancy and tattoo were not mentioned in the search warrant request.
+
+   (See id.) On February 22, the search warrant was signed by Judge Prentis
+
+   Edwards, Jr. (ECF No. 64-20.) According to Defendant, the search was
+
+   never executed and as set forth above, Plaintiff’s phone was returned to
+
+   her the day after her arrest, February 17. (ECF No. 23-25, PageID.524,
+
+   569.)
+
+           On February 27, Woodruff’s probable cause conference was held.
+
+   Woodruff’s attorney explained to the court that this was an incident of
+
+   mistaken identity and that he thought the prosecutor planned to dismiss
+
+   the case. (ECF No. 64-21, PageID.1981.) The prosecutor, Alexander
+
+   Kerker, said he “[didn’t] have any information on that.” (Id. at
+
+   PageID.1981–1982.) Discussion on dismissal was adjourned to the
+
+   preliminary examination hearing. (Id.)
+
+           Woodruff’s charges were ultimately dismissed on March 7 at her
+
+   preliminary exam. (ECF No. 23-29, PageID.643.)
+
+
+
+
+                                        12
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 13 of 49
+
+
+
+
+      II.     Legal Standard
+
+            Summary judgment is proper when “the movant shows that there
+
+   is no genuine dispute as to any material fact and the movant is entitled
+
+   to judgment as a matter of law.” Fed. R. Civ. P. 56(a). The Court may not
+
+   grant summary judgment if “the evidence is such that a reasonable jury
+
+   could return a verdict for the nonmoving party.” Anderson v. Liberty
+
+   Lobby, Inc., 477 U.S. 242, 248 (1986). The Court “views the evidence, all
+
+   facts, and any inferences that may be drawn from the facts in the light
+
+   most favorable to the nonmoving party.” Pure Tech Sys., Inc. v. Mt.
+
+   Hawley Ins. Co., 95 F. App’x 132, 135 (6th Cir. 2004) (citing Skousen v.
+
+   Brighton High Sch., 305 F.3d 520, 526 (6th Cir. 2002)).
+
+      III. Analysis
+
+            A. The Supplemental Briefing
+
+            During oral argument on April 17, 2025, and a status conference on
+
+   April 18, 2025, the Court noted that there are two different versions of
+
+   the warrant request in the record with no indication of which was signed
+
+   by the magistrate. (See ECF No. 61-2; ECF No. 4-1, PageID.85–88.) On
+
+   April 22, 2025, Defendant submitted supplemental briefing and exhibits
+
+   demonstrating that the warrant request attached to Plaintiff’s complaint
+
+
+                                         13
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 14 of 49
+
+
+
+
+   was the final version. (ECF No. 70, PageID.2000; ECF No. 70-5,
+
+   PageID.2028–2032; ECF No. 4-1, PageID.85–88.) Plaintiff does not
+
+   dispute that this is the final version. (ECF No. 72.) As such, the Court
+
+   will refer to the warrant request at ECF No. 70-5, PageID.2028–2032 in
+
+   its analysis.
+
+         However, in her response to Defendant’s supplemental brief,
+
+   Plaintiff raises concerns that “Defendant went through great lengths to
+
+   conceal this information disclosed in her supplemental brief.” (ECF No.
+
+   72, PageID.2226.) According to Plaintiff, Defendant’s supplemental brief
+
+   demonstrates that she “was aware of the identity of the prosecutor at the
+
+   time the initial disclosures was prepared,” despite earlier stating that “an
+
+   unknown prosecutor signed the warrant” and that the signed arrest
+
+   warrant was not in Defendant’s possession. (Id.)
+
+         As an initial matter, Plaintiff does not specify what, if any, relief
+
+   she seeks for this alleged deficiency. Without such direction, the Court is
+
+   unable to provide any relief that Plaintiff may be entitled to. See Fed. R.
+
+   Civ. P. 37(a).
+
+         Moreover, Plaintiff has not demonstrated that she was prejudiced
+
+   by Defendant or Defendant’s counsel during the discovery process. First,
+
+
+                                        14
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 15 of 49
+
+
+
+
+   Plaintiff calls into question Defendant’s truthfulness in her factual
+
+   summary in their joint Rule 26(f) discovery plan, which was filed on
+
+   September 23, 2023. In the factual summary, Defendant stated that the
+
+   arrest warrant request was approved by “a presently unidentified
+
+   assistant prosecuting attorney [] from the Wayne County Prosecutor’s
+
+   Office.” (ECF No. 72, PageID.2226; ECF No. 11, PageID.181.) Plaintiff
+
+   argues that Defendant actually knew at that time that Garrett Garcia
+
+   was the prosecutor on Plaintiff’s criminal case and, thus, had lied in the
+
+   factual summary and/or in Defendant’s initial disclosures (which were
+
+   due on October 2, 2023). (ECF No. 72, PageID.2226; ECF No. 12.)
+
+   However, Defendant’s supplemental briefing demonstrates that her
+
+   counsel received that information around February 16, 2024. (ECF No.
+
+   70-9.) Thus, Plaintiff has not demonstrated that Defendant’s counsel was
+
+   aware of the identity of the prosecutor at the time of the joint Rule 26(f)
+
+   discovery plan or the initial disclosures. Plaintiff also does not explain
+
+   why any inadequacies in a party’s joint Rule 26(f) discovery plan factual
+
+   summary (which is drafted before discovery commences) would have any
+
+   bearing on the litigation of a case where that information was provided
+
+   at a later date. Finally, there is no indication that Plaintiff was
+
+
+                                        15
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 16 of 49
+
+
+
+
+   prejudiced by these statements because Plaintiff became aware during
+
+   discovery that Garrett Garcia approved the warrant.
+
+         Second, Plaintiff takes issue with Defendant’s counsel’s statement
+
+   at Defendant’s May 14, 2024 deposition that “he did not have the signed
+
+   arrest warrant from APA Garcia” (ECF No. 72, PageID.2226; ECF No.
+
+   23-25, PageID.573) because the supplemental brief indicates that
+
+   Defendant received the signed arrest warrant through a subpoena
+
+   request around February 16, 2024. (ECF No. 70-9, PageID.2111.)
+
+   Defendant’s counsel responds that “he was stating [at the deposition]
+
+   that the [signed arrest warrant] was not in the materials that he’d
+
+   brought to the deposition,” not that he did not have possession of the
+
+   signed arrest warrant at all. (ECF No. 73, PageID.2239.) It is undisputed
+
+   that Plaintiff received a copy of the signed arrest warrant after the
+
+   deposition on May 14, 2024.4 (ECF No. 72, PageID.2227.) Without more
+
+   information, it is not clear how Plaintiff was prejudiced by Defendant’s
+
+   counsel’s statement at the deposition.
+
+
+
+
+         4 Defendant suggests that Plaintiff received a copy of the final arrest warrant
+
+   earlier than May 14, 2024. (ECF No. 73, PageID.2239.)
+                                           16
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 17 of 49
+
+
+
+
+         Finally, Plaintiff argues that Defendant was not truthful in her
+
+   June 10, 2024 response to Plaintiff’s third discovery request, in which
+
+   Defendant stated that she “cannot specifically recall whether this
+
+   communication [with Garcia on the morning of February 4, 2023
+
+   regarding the arrest warrant request] was in-person, by telephone, or via
+
+   email.” (ECF No. 72, PageID.2227.) Plaintiff states that Defendant’s
+
+   “lack of truthfulness impaired Plaintiff’s ability to litigate this matter”
+
+   because “[i]f Defendant Oliver had been truthful in her answer, Plaintiff
+
+   would    have   requested    additional   information.”    (ECF    No.   72,
+
+   PageID.2228.) Plaintiff does not explain how Defendant or her counsel
+
+   acted in bad faith in her June 10, 2024 response. Plaintiff states vaguely
+
+   that “[t]he level of communication between Defendant Oliver and APA
+
+   Garcia regarding this arrest warrant was obvious,” but does not explain
+
+   why. (ECF No. 72, PageID.2228.) More importantly, it is not clear how
+
+   Plaintiff was prejudiced by Defendant’s discovery response. Prior drafts
+
+   of the warrant requests do not have any bearing on Plaintiff’s claims
+
+   because the probable cause analysis is limited to review of the final,
+
+   approved arrest warrant. See infra III.B.ii.
+
+
+
+
+                                        17
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 18 of 49
+
+
+
+
+         As such, Plaintiff’s arguments in her response to Defendant’s
+
+   supplemental brief do not have an impact on the Court’s consideration of
+
+   the pending motions.
+
+         B. False Arrest and Imprisonment
+
+         42 U.S.C. § 1983 “provides a cause of action for individuals deprived
+
+   of ‘any rights, privileges, or immunities secured by the Constitutional
+
+   and laws’ of the United States, when the deprivation takes place ‘under
+
+   color’ of state law.” Weser v. Goodson, 965 F.3d 507, 513 (6th Cir. 2020).
+
+   Plaintiff alleges that her rights under the Fourth Amendment were
+
+   violated by Defendant when she was subjected to false arrest and
+
+   imprisonment. “When a false-imprisonment claim arises out of an alleged
+
+   false arrest,” the Sixth Circuit has “refer[red] to those two claims
+
+   together as a false-arrest claim.” Id. In their briefs, the parties discuss
+
+   the false arrest and false imprisonment claims together, which indicates
+
+   that Plaintiff’s false imprisonment claim arises out of her alleged false
+
+   arrest. (See ECF No. 25, PageID.768; ECF No. 23-1, PageID.336.) As
+
+   such, the Court will review Plaintiff’s false arrest and false imprisonment
+
+   claims together.
+
+
+
+
+                                        18
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 19 of 49
+
+
+
+
+         Defendant asserts that Plaintiff cannot prove that she violated
+
+   Plaintiff’s right against false imprisonment, and in any event, that
+
+   Defendant is entitled to qualified immunity. (ECF No. 23-1, PageID.336.)
+
+         Qualified immunity is an affirmative defense to § 1983 claims.
+
+   Regets v. City of Plymouth, 568 F. App’x 380, 386 (6th Cir. 2014). When
+
+   properly invoked, “qualified immunity protects government officials
+
+   ‘from liability for civil damages insofar as their conduct does not violate
+
+   clearly established statutory or constitutional rights of which a
+
+   reasonable person would have known.’” Pearson v. Callahan, 555 U.S.
+
+   223, 231 (2009) (citation omitted). If a defendant asserts qualified
+
+   immunity, the plaintiff bears the burden of showing that the defendant
+
+   is not entitled to qualified immunity. Guertin v. State, 912 F.3d 907, 917
+
+   (6th Cir. 2019) (citing Bletz v. Gribble, 641 F.3d 743, 750 (6th Cir. 2011)).
+
+   To meet this burden, the plaintiff must show “(1) that the official violated
+
+   a statutory or constitutional right, and (2) that the right was clearly
+
+   established at the time of the challenged conduct.” Id. (quoting Ashcroft
+
+   v. al-Kidd, 563 U.S. 731, 735 (2011)).
+
+         To bring a false arrest claim, Plaintiff must demonstrate “that the
+
+   arresting officer lacked probable cause to arrest the plaintiff.” Voyticky v.
+
+
+                                        19
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 20 of 49
+
+
+
+
+   Village of Timberlake, 412 F.3d 669, 677 (6th Cir. 2005). Generally, “an
+
+   arrest based on a facially valid warrant approved by a magistrate
+
+   provides a complete defense.” Id. However, even if a facially valid
+
+   warrant for the arrest exists, Plaintiff may still prevail on her false arrest
+
+   claim if she “prove[s] by a preponderance of the evidence” that the
+
+   defendant, when procuring the warrant, “knowingly and deliberately, or
+
+   with a reckless disregard for the truth, made false statements or
+
+   omissions that create[d] a falsehood” and “such statements or omissions
+
+   [we]re material, or necessary, to the finding of probable cause.” Sykes v.
+
+   Anderson, 625 F.3d 294, 305 (6th Cir. 2010) (quoting Wilson v. Russo, 212
+
+   F.3d 781, 786–87 (3d Cir. 2000)). “If the affidavit contains false
+
+   statements or material omissions, we set aside the statements and
+
+   include the information omitted in order to determine whether the
+
+   affidavit is still sufficient to establish probable cause.” Id.
+
+               i.    Defendant’s personal involvement
+
+         Defendant first argues that she did not violate Plaintiff’s Fourth
+
+   Amendment rights because Defendant did not “personally” carry out the
+
+   arrest. (ECF No. 23-1, PageID.337 (citing Robertson v. Lucas, 753 F.3d
+
+   606, 615 (6th Cir. 2014)).)
+
+
+                                         20
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 21 of 49
+
+
+
+
+         The Court disagrees. Personal, physical involvement in the arrest
+
+   is not required for a false arrest claim. Defendant did not provide, and
+
+   the Court cannot locate any, caselaw that requires that level of
+
+   involvement.
+
+         Here, Defendant’s liability is based on her pivotal involvement in
+
+   procuring the arrest warrant. Defendant led the investigation, wrote the
+
+   affidavit in support of the arrest warrant, and submitted the warrant
+
+   request to the magistrate. (ECF No. 29, PageID.856; ECF No. 70-5,
+
+   PageID.2028–2032; ECF No. 61-8.) This level of involvement is sufficient
+
+   for a false arrest claim. See Trakhtenberg v. Cnty. of Oakland, 661 F.
+
+   App’x 413, 419 (6th Cir. 2016) (discussing a detective’s liability for a false
+
+   arrest/imprisonment claim on the basis that he sought the arrest
+
+   warrant); Snyder v. United States, 590 F. App’x 505, 511 (6th Cir. 2014);
+
+   Schulz v. Gendregske, 544 F. App’x 620, 625 (6th Cir. 2013) (discussing
+
+   cases where officers were liable for false arrest claims even though the
+
+   officers did not themselves conduct the arrest) (citing Garcia v. Thorne,
+
+   520 F. App’x 304, 307 (6th Cir. 2013); Miller v. Prince George’s Cnty., 475
+
+   F.3d 621, 630 (4th Cir. 2007)).
+
+
+
+
+                                        21
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 22 of 49
+
+
+
+
+            Defendant’s reliance on Robertson v. Lucas, 753 F.3d 606, 618 (6th
+
+   Cir. 2014), is also not convincing. There, the Sixth Circuit held that a
+
+   false arrest claim against one defendant, Lucas, failed because Lucas had
+
+   minimal, if any, involvement or role in the alleged false arrest. Id. Unlike
+
+   Defendant, Lucas’ involvement was limited to his grand jury testimony
+
+   and there was no suggestion that his testimony was false.
+
+            As such, Defendant’s argument regarding her personal involvement
+
+   fails.
+
+                 ii.   The Facial Validity of the Warrant
+
+            Plaintiff also challenges the arrest warrant as lacking facial
+
+   validity. (ECF No. 29, PageID.861–862.) A warrant is not facially valid if
+
+   it lacks “sufficient indicia of probable cause such that it is unreasonable
+
+   to believe that probable cause was established.” Fry v. Robinson, 678 F.
+
+   App’x 313, 318 (6th Cir. 2017); see also Juillerat v. Mudd, 735 F. App’x
+
+   887, 890 (6th Cir. 2018); Webb v. Greene Cnty. Sheriff’s Off., 494 F. Supp.
+
+   2d 779, 789 (S.D. Ohio 2007). In contrast, a warrant with sufficient
+
+   indicia of probable cause has “reasonable grounds for belief, supported by
+
+   less than prima facie proof but more than mere suspicion.” Sykes, 625
+
+
+
+
+                                         22
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 23 of 49
+
+
+
+
+   F.3d at 306 (quoting United States v. McClain, 444 F.3d 556, 562 (6th
+
+   Cir. 2005)).
+
+         Plaintiff argues that the affidavit lacked sufficient indicia of
+
+   probable cause because “minimal further investigation would have
+
+   exonerated the suspect.” (ECF No. 29, PageID.862 (quoting Weser, 965
+
+   F.3d at 513).) She states that Defendant “failed to conduct any
+
+   investigation once the Victim picked Plaintiff from the photo line-up” and
+
+   “[i]f Defendant Oliver had [driven] fifteen minutes to Plaintiff’s house or
+
+   even conducted surveillance of Plaintiff’s vehicle . . . Defendant Oliver
+
+   would have learned that Plaintiff was eight months pregnant and was
+
+   not the female subject.” (Id. at PageID.861–862.) According to Plaintiff,
+
+   “a minimal investigation would have cleared Plaintiff, and probable
+
+   cause could not have been established.” (Id. at PageID.862.)
+
+         Plaintiff’s argument is insufficient to challenge the validity of the
+
+   arrest warrant because “[r]eview of whether a warrant was supported by
+
+   sufficient indicia of probable cause is limited to ‘the four corners of the
+
+   affidavit.’” Fry, 678 F. App’x 313, 318–19 (6th Cir. 2017) (quoting United
+
+   States v. Rose, 714 F.3d 362, 367 (6th Cir. 2013)). Plaintiff does not
+
+   explain why the affidavit, as written, lacks probable cause. Instead,
+
+
+                                        23
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 24 of 49
+
+
+
+
+   Plaintiff argues that Defendant should have taken further actions in her
+
+   investigation. This is not a proper challenge to the validity of the arrest
+
+   warrant because it concerns matters outside “the four corners of the
+
+   affidavit.” Id.
+
+         Plaintiff’s citation to Weser is not convincing because it has little
+
+   similarity with this case. (See ECF No. 29, PageID.862.) In Weser, the
+
+   Court held that the warrantless arrest of Weser did not violate the
+
+   Fourth Amendment because the officer had probable cause and noted
+
+   that further investigation would not have led to a different conclusion by
+
+   the officer. Weser, 965 F.3d at 514–15. Also, Weser does not address the
+
+   validity of an arrest warrant.
+
+         Further, Plaintiff’s description of the holding in Weser is not
+
+   accurate. Plaintiff states, “[i]n Weser, the court held that[] ‘probable cause
+
+   does not exist when a minimal further investigation would have
+
+   exonerated the suspect.’” (ECF No. 29, PageID.862 (quoting Weser, 965
+
+   F.3d at 513).) However, Plaintiff’s quote from Weser comes from the
+
+   opinion’s description of appellant’s argument, which quoted Kuehl v.
+
+   Burtis, 173 F.3d 646 (8th Cir. 1999); there is no indication in Weser that
+
+   the Sixth Circuit adopted Kuehl’s holding. Weser, 965 F.3d at 514–515.
+
+
+                                        24
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 25 of 49
+
+
+
+
+         A review of Kuehl also does not benefit Plaintiff’s argument. In
+
+   Kuehl, the Eighth Circuit concluded than an officer was not entitled to
+
+   qualified immunity when he knew of but “ignored plainly exculpatory
+
+   evidence” and conducted a warrantless arrest. Kuehl, 173 F.3d at 650–
+
+   51. Here, Plaintiff does not argue that Defendant knew of but ignored
+
+   evidence of Plaintiff’s innocence; instead, she claims that Defendant had
+
+   a duty to conduct additional investigation before seeking an arrest
+
+   warrant. (ECF No. 29, PageID.862.) Plaintiff cites no applicable law to
+
+   support her argument that Defendant had a duty to conduct additional
+
+   investigation when she was not aware of exculpatory evidence. See Ahlers
+
+   v. Schebil, 188 F.3d 365, 372 (6th Cir. 1999).
+
+         Plaintiff also suggests that Defendant lacked probable cause
+
+   because the photo lineup instructions given to the identifying victim
+
+   stated, “[i]f you make a selection of an individual who is ultimately not
+
+   involved in the crime, that individual will not incur any charges or police
+
+   action just because you selected them.” (ECF No. 29, PageID.861 (quoting
+
+   ECF No. 64-10).) This argument is also an improper challenge to the
+
+   validity of the arrest warrant because it is not an argument that
+
+   challenges information within the four corners of the affidavit. Moreover,
+
+
+                                        25
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 26 of 49
+
+
+
+
+   Plaintiff does not explain how this proviso possibly impacted the victim’s
+
+   selection of her photo in the array. Again, Plaintiff does not explain why
+
+   the affidavit in support of the arrest warrant, as written, is insufficient
+
+   to establish probable cause.
+
+              iii.   Material Omissions or Falsehoods
+
+         Plaintiff also claims that Defendant made material false
+
+   statements or omissions in her affidavit in support of her warrant
+
+   request. (ECF No. 29, PageID.863–864.)
+
+         Plaintiff must demonstrate that Defendant “knowingly and
+
+   deliberately, or with a reckless disregard for the truth, made false
+
+   statements or omissions that create[d] a falsehood” and “such statements
+
+   or omissions [we]re material, or necessary, to the finding of probable
+
+   cause.” Sykes, 625 F.3d at 305 (quoting Wilson, 212 F.3d at 786–87).
+
+         Regarding omissions, Plaintiff identifies three “key facts” that
+
+   Defendant omitted from her affidavit:
+
+          That the photo that was placed in the six-pack line-up of Plaintiff
+           was not a current photo of the Plaintiff. The photo was eight-
+           years old[.] (ECF No. 4, PageID.67)[]
+
+          That Defendant Oliver obtained Plaintiff’s criminal history
+           record which indicated that Plaintiff had a tattoo on her right
+
+
+                                        26
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 27 of 49
+
+
+
+
+            arm. . . . According to Defendant Oliver the female subject didn’t
+            have a tattoo.
+
+          That Plaintiff, Porcha Woodruff, was eight months pregnant and
+           that the Victim in this case didn’t state that the female subject
+           was pregnant. Defendant Oliver might argue that she didn’t
+           know at the time she prepared the Request for Warrant that the
+           Plaintiff was eight months pregnant. That is the danger
+           Defendant Oliver faces when she does not conduct a proper
+           investigation.
+
+   (ECF No. 29, PageID.863.)
+
+         Regarding the first alleged omission, it is undisputed that
+
+   Plaintiff’s photo in the array was eight years old at that time. (ECF No.
+
+   37-1, PageID.1384.) However, there is no indication that Defendant was
+
+   aware that the photo was eight years old such that omission of the date
+
+   of the photo in the affidavit was knowing and deliberate or displayed a
+
+   “reckless disregard for the truth.” Detective Greenwald, not Defendant,
+
+   prepared the photo array. (ECF No. 23-25, PageID.498, 547–548.) More
+
+   importantly, Plaintiff does not explain why the age of Plaintiff’s photo is
+
+   material, and she does not provide any cases showing that other courts
+
+   have considered the age of a similarly-old photo used in a photo array to
+
+   be such essential information in an affidavit that its omission is material.
+
+
+
+
+                                        27
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 28 of 49
+
+
+
+
+         Plaintiff’s argument regarding the second alleged omission is also
+
+   not convincing. The record reflects that Defendant reviewed Plaintiff’s
+
+   criminal history after the photo array was conducted and then drafted
+
+   the affidavit for the arrest warrant. (ECF No. 23-25, PageID.496; ECF
+
+   67-1.) It is undisputed that the criminal history report communicates
+
+   that Plaintiff has a tattoo on “UR ARM,” which appears to mean “upper
+
+   right arm.” (Id.) Finally, it is undisputed that Defendant did not see a
+
+   tattoo on the female suspect’s right arm in the gas station video footage.
+
+   (ECF No. 23-25, PageID.508.)
+
+         Despite these undisputed facts, the Court does not find that
+
+   Defendant’s omission of Plaintiff having a tattoo on her upper right arm
+
+   was material, nor that Defendant’s omission was knowing and deliberate,
+
+   or displayed a reckless disregard for the truth. Defendant’s failure to
+
+   mention that Plaintiff’s criminal history report states that she had a
+
+   tattoo is not material because there are a multitude of possible reasons
+
+   for that discrepancy, such as the tattoo being too small to be viewed, the
+
+   tattoo having faded or been removed, or the tattoo being in a location on
+
+   her upper arm that was not visible in the footage. The criminal history
+
+   report does not describe the tattoo; specifically, it does not describe the
+
+
+                                        28
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 29 of 49
+
+
+
+
+   tattoo’s size or location on her upper arm. Further, while sharing this
+
+   discrepancy might have been a best practice—and Defendant’s failure to
+
+   do so may have been negligent—Plaintiff does not establish that
+
+   Defendant’s omission was knowing and deliberate or demonstrated a
+
+   reckless disregard for the truth.
+
+         The third alleged omission is also not a proper challenge to the
+
+   arrest warrant. There is no indication that Defendant knew that Plaintiff
+
+   was eight months pregnant at the time she drafted the warrant request.
+
+   Again, Plaintiff has not demonstrated that Defendant’s alleged omission
+
+   was knowing and deliberate or displayed a reckless disregard for the
+
+   truth.
+
+         Plaintiff also argues that the affidavit included several material
+
+   false statements. The affidavit affirmatively stated that “Defendant
+
+   Woodruff” committed these acts and, as such, “[a]ny individual reading
+
+   these statements would have believed that the female subject was
+
+   Plaintiff, Porcha Woodruff.” (ECF No. 29, PageID.864.) It appears that
+
+   Plaintiff takes issue with the use of Plaintiff’s name in the affidavit’s
+
+   description of certain events because Plaintiff did not actually commit
+
+   those acts. Again, Plaintiff does not demonstrate that Defendant included
+
+
+                                        29
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 30 of 49
+
+
+
+
+   these statements “knowingly and deliberately, or with a reckless
+
+   disregard for the truth.” Sykes, 625 F.3d at 305 (quoting Wilson, 212 F.3d
+
+   at 786–87). There is no evidence that Defendant knew that her
+
+   statements were false at the time she wrote and submitted the affidavit.
+
+   The use of a suspect’s name in an affidavit before there is evidence
+
+   beyond a reasonable doubt, is not evidence that Defendant knew that her
+
+   statements were false.
+
+                iv.   Probable cause for the female suspect
+
+           Finally, Plaintiff believes that her arrest was unlawful because
+
+   there was no probable cause to arrest the female suspect at all because
+
+   the female suspect’s actions were not criminal. (ECF No. 29, PageID.864–
+
+   866.)
+
+           To the extent Plaintiff challenges the sufficiency of the affidavit
+
+   regarding probable cause for the female suspect, “Trinidad,” her
+
+   argument fails. The affidavit describes behavior from the female suspect
+
+   that goes beyond witnessing the carjacking; instead, she appears to have
+
+   “performed acts or g[iven] encouragement that assisted the commission
+
+   of the crime.” People v. Bennett, 290 Mich. App. 465, 472 (2010) (quoting
+
+   People v. Robinson, 475 Mich. 1, 6 (2006)). In Michigan, “[e]very person
+
+
+                                        30
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 31 of 49
+
+
+
+
+   concerned in the commission of an offense, whether [she] directly
+
+   commits the act constituting the offense or procures, counsels, aids, or
+
+   abets in its commission may [] be prosecuted . . . as if [she] had directly
+
+   committed such offense.” Mich. Comp. Laws § 767.39.
+
+         According to the affidavit, the victim stated that, when he dropped
+
+   “Trinidad” off, she entered a black Tahoe, and another man subsequently
+
+   exited the Tahoe and carjacked the victim. (ECF No. 70-5, PageID.2028–
+
+   2029.) Additionally, the affidavit states that Defendant observed video
+
+   footage from the gas station of the female suspect and an unknown man
+
+   “pulling and tugging” on the victim and perhaps taking something from
+
+   him. (Id. at PageID.2030.) Finally, the affidavit represents that the
+
+   victim believed he was drugged by the female suspect, and that his
+
+   behavior in the video is consistent with being drugged. (Id. at
+
+   PageID.2030.)
+
+         Plaintiff is correct that “an individual’s mere presence at a crime
+
+   scene does not constitute probable cause for an arrest.” (ECF No. 29,
+
+   PageID.864 (quoting Harris v. Bornhorst, 513 F.3d 503, 515 (6th Cir.
+
+   2008)).) Although the female suspect herself did not commit carjacking
+
+   or armed robbery, the affidavit establishes probable cause that she
+
+
+                                        31
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 32 of 49
+
+
+
+
+   assisted or encouraged the armed robbery and/or carjacking. As such,
+
+   there is sufficient indicia of probable cause as to the female suspect.
+
+         Plaintiff also appears to argue that statements in the affidavit that
+
+   the victim was drugged by the female suspect were material falsehoods,
+
+   or that Defendant omitted evidence that the victim was not drugged.
+
+   (ECF No. 29, PageID.866.) However, Plaintiff does not identify any
+
+   evidence suggesting the victim was not drugged, or that Defendant knew
+
+   that the victim had not been drugged.5 As such, any alleged omission or
+
+   false statement was not made knowingly or with reckless disregard for
+
+   the truth.
+
+
+
+
+         5 As evidence that the victim was not drugged, Plaintiff cites a letter from
+
+   Samuel C. Gregerson, DO, which states in its entirety that the victim was “seen in
+   Henry Ford Hospital Emergency Department on 1/30/2023” and that he “should
+   remain out of work until 2/5/23.” (ECF No. 65-3, PageID.1990.) The letter does not
+   mention anything about Plaintiff’s injuries or condition or whether or not he was
+   drugged. To the extent Plaintiff claims that the letter’s failure to mention that
+   Plaintiff was drugged is evidence that he was not actually drugged, the Court
+   disagrees. This letter was clearly written for the victim’s employer; it would be
+   entirely inappropriate for the doctor to inform his employer of what specifically
+   happened to the victim, and a reasonable jury could not find that this letter is proof
+   that the victim was not drugged. Additionally, there is no evidence that Defendant
+   had possession of this letter at the time she drafted the affidavit and had it approved.
+                                             32
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 33 of 49
+
+
+
+
+                v.   Conclusion regarding Plaintiff’s false arrest and
+                     imprisonment claims
+
+         For the reasons set forth above, the Court grants summary
+
+   judgment to Defendant regarding Count I because Plaintiff has not
+
+   established that Defendant violated her statutory or constitutional
+
+   rights, even viewing the record in the light most favorable to Plaintiff.
+
+   Plaintiff’s arrest and subsequent detention are troubling for many
+
+   reasons. However, the arguments Plaintiff sets forth to avoid summary
+
+   judgment are not viable under current law.
+
+         The Court applies the same analysis to Plaintiff’s state-law false
+
+   arrest and imprisonment claims. “To prevail on a [Michigan state law]
+
+   claim of false arrest or false imprisonment, a plaintiff must show that the
+
+   arrest was not legal, i.e., the arrest was not based on probable cause.”
+
+   Peterson Novelties, Inc. v. City of Berkley, 259 Mich. App. 1, 18 (2003).
+
+   Again, Plaintiff has not demonstrated that her arrest was not based on
+
+   probable cause, even viewing the record in the light most favorable to
+
+   her. As such, her state-law false arrest and imprisonment claims are also
+
+   dismissed.
+
+
+
+
+                                        33
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 34 of 49
+
+
+
+
+              vi.    The use of facial recognition technology
+
+         As set forth above, Plaintiff does not demonstrate that Defendant
+
+   lacked probable cause for Plaintiff’s arrest. However, the Court clarifies
+
+   that this opinion does not address whether the arrest warrant lacked
+
+   sufficient indicia of probable cause due to the role of facial recognition
+
+   technology in the investigation, as raised by Amici American Civil
+
+   Liberties Union and the American Civil Liberties Union of Michigan
+
+   (“ACLU Amici”).
+
+         At oral argument and during a status conference on April 17, 2025,
+
+   Plaintiff stated on the record that she is not bringing or adopting the
+
+   ACLU Amici’s argument regarding facial recognition technology and
+
+   probable cause. In our adversarial system, the Court is usually “limited
+
+   to addressing claims and arguments advanced by the parties.” Henderson
+
+   ex rel. Henderson v. Shinseki, 562 U.S. 428, 434 (2011). “To the extent
+
+   that the amicus raises issues or makes arguments that exceed those []
+
+   raised by the parties, we may not consider those issues.” Self-Ins. Inst. of
+
+   Am., Inc. v. Snyder, 827 F.3d 549, 560 (6th Cir. 2016) (quoting Cellnet
+
+   Commc’s, Inc. v. FCC, 149 F.3d 429, 443 (6th Cir. 1998)); see also United
+
+   Parcel Serv., Inc. v. Mitchell, 451 U.S. 56, 61 (1981) (declining to consider
+
+
+                                        34
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 35 of 49
+
+
+
+
+   amicus argument “since it was not raised by either of the parties here or
+
+   below”); F.T.C. v. Phoebe Putney Health Sys., Inc., 568 U.S. 216, 226
+
+   (2013) (declining to consider an amicus’ argument “[b]ecause this
+
+   argument was not raised by the parties or passed on by the lower courts”).
+
+   As such, the Court does not resolve whether Defendant’s use of facial
+
+   recognition technology improperly tainted the victim’s consideration of
+
+   the photo array, such that the identification of Plaintiff was improper,
+
+   and no probable cause existed to support her arrest.
+
+         This is not to say that the ACLU Amici’s arguments regarding the
+
+   limitations of facial recognition technology were not compelling. As
+
+   explained by the ACLU Amici, searches conducted through today’s facial
+
+   recognition technology may be fundamentally unreliable due to serious
+
+   flaws in the technology itself and human operator errors. For example, if
+
+   the quality of a photo is low, which it was in this case, then the
+
+   technology’s ability to recognize similar qualities in faces is limited. The
+
+   photo of “Trinidad” that was used in the facial recognition search was a
+
+   screenshot from security camera footage and was not high-definition, and
+
+   “Trinidad” was wearing a hat that obscured her forehead, eyebrows, and
+
+   hairline. (ECF No. 34, PageID.957; see also ECF No. 61-3, PageID.1795.)
+
+
+                                        35
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 36 of 49
+
+
+
+
+   These issues could have affected the accuracy of the facial recognition
+
+   search.
+
+         Even more troubling, facial recognition technology often exhibits
+
+   race, gender, and age bias. (ECF No. 34, PageID.958.) The ACLU Amici
+
+   present reports and studies that demonstrate high rates of false matches
+
+   when analyzing people of color, women, and young people. (ECF No. 34,
+
+   PageID.958–959.) Race, sex, and age disparities may manifest in facial
+
+   recognition searches because the technology is not trained on a diverse
+
+   set of faces, or because lighting and color contrast issues often affect
+
+   photos of people with darker skin. (Id. at PageID.959–960.)
+
+         Additionally, a facial recognition search’s ability to identify a “true
+
+   match” (i.e., a match that accurately identifies the unknown person) is
+
+   nonexistent if the database does not include the true match. For example,
+
+   it is unknown if the actual suspect of the carjacking (i.e., “Trinidad”)
+
+   appears in the DPD database. If the database used by DPD only includes
+
+   Michigan arrest photos (which the ACLU Amici alleges is the case here),
+
+   “Trinidad” would never have appeared as a match if she has never been
+
+   arrested in Michigan. (Id. at PageID.954–955.)
+
+
+
+
+                                        36
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 37 of 49
+
+
+
+
+         The ACLU Amici also presents reports and studies demonstrating
+
+   that human review of facial recognition search results may not be an
+
+   effective check against its flaws and could, in fact, exacerbate these
+
+   issues. Here, the record reflects that DPD Investigator Nathan Howell
+
+   performed the facial recognition search on February 2, 2023. (ECF No.
+
+   23-9.) The search produced 73 candidates, and he narrowed the
+
+   candidates down to Porcha Woodruff as the “lead.” (Id.; ECF No. 61-3,
+
+   PageID.1795.) His identification of Woodruff “was peer reviewed by
+
+   Crime Analyst Kamrin Dean and confirmed by Executive Manager David
+
+   Collins of the Crime Intelligence Unit.” (Id. at PageID.1796.)
+
+         There is no evidence in the record regarding how Howell narrowed
+
+   his search down to Plaintiff. Defendant claims Howell’s “training in ‘Face
+
+   Comparison and Identification’ by the [FBI] enabled him to narrow the
+
+   field of computer-generated matches to a single Investigative Lead,” and
+
+   that Dean, who reviewed and approved the findings, “is similarly trained
+
+   by the FBI.” (ECF No. 23-1, PageID.330.) The exhibits that Defendant
+
+   cites (ECF Nos. 23-9, 61-3) do not provide evidence of their training or
+
+   methodology.
+
+
+
+
+                                        37
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 38 of 49
+
+
+
+
+         Meanwhile, Defendant’s expert, Steven L. Johnson, states that
+
+   Howell “had completed the ‘Face Comparison and Identification
+
+   Program,’” a training sponsored by the FBI, and that this training was
+
+         designed in accordance with existing, published standards and
+         guidelines that were developed by the Facial Identification
+         Scientific Working Group (FISWG), a working group established in
+         2009 to create documents that support the proper use of Facial
+         Recognition technology.
+
+   (ECF No. 30-2, PageID.924.) While Johnson purports to provide
+
+   information on Howell and Dean’s training, he does not describe what
+
+   documents he reviewed or steps he took in drafting his expert report; as
+
+   such, it is unclear on what basis he knows about the DPD officers’
+
+   training. (Id. at PageID.917 n.1 (referring to a “list of all materials
+
+   provided to [him]” at “Attachment ‘A,’” which is not included in the
+
+   report).) Additionally, Johnson does not provide information on Howell
+
+   or Dean’s methodology in narrowing down the 73 results to Woodruff.
+
+         The ACLU Amici also presents evidence that a witness
+
+   identification through a photo line-up is not likely to cure a
+
+   misidentification by a facial recognition search. Because facial
+
+   recognition searches present matches that, by their very design, look the
+
+   closest to the true suspect, having a false match in a photo array is likely
+
+                                        38
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 39 of 49
+
+
+
+
+   to cause the false match to be selected. (ECF No. 34, PageID.964; see also
+
+   id. at PageID.966 (“‘[I]t is possible to taint the photo lineup by presenting
+
+   a person who looks most like the suspect’ but is not in fact the suspect.”
+
+   (quoting City of Detroit Gov’t, WATCH LIVE: Chief White Will Provide
+
+   Updated Comments on a Lawsuit Filed Last Week, Facebook (Aug. 9,
+
+   2023))).) The DPD has since changed its policies to ban the practice of
+
+   seeking an arrest warrant “solely on the basis of an investigative lead
+
+   developed through Facial Recognition technology in combination with a
+
+   lineup identification” without “additional independent reliable evidence.”
+
+   (ECF No. 34, PageID.966–967.)
+
+         For those reasons, the ACLU Amici urges that the arrest warrant
+
+   for Plaintiff lacked probable cause. (ECF No. 34, PageID.972.) As stated
+
+   earlier, Plaintiff explicitly rejected these arguments, and the Court
+
+   therefore declines to consider the issue.6
+
+
+         6 Even if the Court found that the arrest warrant lacked probable cause due to
+
+   the role of facial recognition technology in this investigation, Defendant would likely
+   be entitled to qualified immunity. Government officials are entitled to qualified
+   immunity if they did not have “fair warning” that their conduct was unconstitutional.
+   Moiser v. Evans, 90 F.4th 541, 546 (6th Cir. 2024). Fair warning “usually requires a
+   case with ‘a fact pattern similar enough’ to put the defendant on notice.” Id. (quoting
+   Guertin, 912 F.3d at 932). Here, neither the parties nor the ACLU Amici present a
+   case that would have put Defendant on notice that the warrant lacked suitable indicia
+   of probable cause due to her reliance on facial recognition technology. See Moldowan
+                                             39
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 40 of 49
+
+
+
+
+           C. Federal Malicious Prosecution
+
+           Plaintiff also alleges she was subjected to a malicious prosecution.7
+
+   For a federal malicious prosecution claim, Plaintiff must demonstrate
+
+   that,
+
+           (1) a criminal prosecution was initiated against the plaintiff and the
+           defendant made, influenced, or participated in the decision to
+           prosecute; (2) there was no probable cause for the criminal
+           prosecution; (3) as a consequence of the legal proceeding, the
+           plaintiff suffered a deprivation of liberty apart from the initial
+           seizure; and (4) the criminal proceeding was resolved in the
+           plaintiff’s favor.
+
+   Robertson, 753 F.3d at 616. Plaintiff need not demonstrate “malice” for a
+
+   federal malicious prosecution claim. Sykes, 625 F.3d at 309.
+
+           Plaintiff’s federal malicious prosecution claim fails because a
+
+   reasonable jury could not find that Defendant “made, influenced, or
+
+   participated in the decision to prosecute” in a manner that violated her
+
+   Fourth Amendment rights. Robertson, 753 F.3d at 616.
+
+
+   v. City of Warren, 578 F.3d 351, 381–82 (6th Cir. 2009) (stating that “[i]n determining
+   whether a right is clearly established, we may rely on decisions of the Supreme Court,
+   decisions of this court and courts within this circuit, and in limited instances, on
+   decisions of other circuits” (cleaned up)).
+
+           7 The Court notes that “[t]he tort of malicious prosecution is entirely distinct
+
+   from that of false arrest, as the malicious-prosecution tort remedies detention
+   accompanied not by absence of legal process, but by wrongful institution of legal
+   process.” Robertson, 753 F.3d at 616 (quoting Sykes, 625 F.3d at 308).
+                                              40
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 41 of 49
+
+
+
+
+         Plaintiff argues that this element has been met because “Defendant
+
+   Oliver requested the warrant for Plaintiff’s arrest leading to her criminal
+
+   charges.” (ECF No. 29, PageID.868.) An officer may be liable for malicious
+
+   prosecution if they provided false information in their investigatory
+
+   materials, if the false information was knowingly included, and if it was
+
+   reasonably foreseeable that these falsehoods could ultimately influence a
+
+   prosecutor’s decision to charge the plaintiff. Sykes, 625 F.3d at 314–15.
+
+   As set forth earlier in this opinion, a reasonable jury could not find that
+
+   Defendant knowingly provided false information in her investigatory
+
+   materials. See supra III.B.
+
+         Additionally, for a malicious prosecution claim to proceed against
+
+   an officer, the officer “must participate [in the decision to prosecute] in a
+
+   way that aids in the decision, as opposed to passively or neutrally
+
+   participating.” Sykes, 625 F.3d at 308 n.5. Here, Defendant’s actions after
+
+   Plaintiff’s arrest cannot reasonably be seen as “aiding” the decision to
+
+   prosecute.
+
+         According to Defendant, after Plaintiff was brought into custody,
+
+   Defendant told her supervisors that she believed Plaintiff was innocent,
+
+   and she attempted to contact the prosecutor so Plaintiff could be released.
+
+
+                                        41
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 42 of 49
+
+
+
+
+   (ECF No. 23-25, PageID.511–512; ECF No. 23-28, PageID.639.)
+
+   Defendant also spoke to Magistrate Echartea during Plaintiff’s
+
+   arraignment and explained that they had arrested the wrong person.
+
+   (ECF No. 23-25, PageID.534.) Finally, Defendant informed the
+
+   prosecutor, Garrett Garcia, on the morning of February 17 that Plaintiff
+
+   was not the suspect. (Id. at PageID.519–520.)
+
+         Plaintiff appears to dispute whether Defendant contacted the
+
+   prosecutor’s office and, as evidence, points to Plaintiff’s probable cause
+
+   conference on February 27, 2023. (ECF No. 29, PageID.871; ECF No. 23-
+
+   31.) At the probable cause conference, a different prosecutor, Alexander
+
+   Kerker, stated that he “d[idn’t] have any information” on Woodruff’s
+
+   mistaken identity or dismissal of her criminal case. (Id. at PageID.647–
+
+   648.) Plaintiff believes this demonstrates that Defendant “failed to
+
+   contact the prosecution regarding the fact that [Plaintiff] was not the
+
+   female subject.” (ECF No. 29, PageID.871.)
+
+         The Court disagrees. A reasonable jury could not conclude that
+
+   Defendant did not contact Garcia based only on the fact that Kerker said
+
+   he “d[idn’t] have any information on that” at Woodruff’s probable cause
+
+
+
+
+                                        42
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 43 of 49
+
+
+
+
+   conference. Further, Plaintiff has not met her burden regarding qualified
+
+   immunity.
+
+         “[G]overnment     officials   performing    discretionary    functions
+
+   generally are shielded from liability for civil damages insofar as their
+
+   conduct does not violate clearly established statutory or constitutional
+
+   rights of which a reasonable person would have known.” Harlow v.
+
+   Fitzgerald, 457 U.S. 800, 818 (1982). To be clearly established, there
+
+   must be controlling law or a “robust consensus of cases of persuasive
+
+   authority” that “clearly prohibit” the officer’s conduct in the relevant
+
+   circumstances. District of Columbia v. Wesby, 583 U.S. 48, 63 (2018)
+
+   (cleaned up). For an official to have “fair warning” that her conduct was
+
+   unconstitutional, there, “the contours of the right must have been
+
+   sufficiently well-defined that ‘every reasonable official’ would have
+
+   understood that his or her actions crossed the constitutional line.” Moiser
+
+   v. Evans, 90 F.4th 541, 546 (6th Cir. 2024) (quoting Rivas-Villegas v.
+
+   Cortesluna, 595 U.S. 1, 5 (2021) (per curiam)). “That usually requires a
+
+   case with ‘a fact pattern similar enough’ to put the defendant on notice.”
+
+   Id. (quoting Guertin, 912 F.3d at 932).
+
+
+
+
+                                        43
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 44 of 49
+
+
+
+
+         Plaintiff has not met her burden. She does not set forth cases that
+
+   clearly prohibit Defendant’s purported failure to inform the prosecutor of
+
+   Plaintiff’s innocence. Plaintiff cites Webb v. United States, 789 F.3d 647,
+
+   659–60 (6th Cir. 2015). (ECF No. 29, PageID.872; ECF No. 37,
+
+   PageID.1024.) However, Webb does not concern a situation where an
+
+   officer knew that a suspect was innocent, but failed to take action to stop
+
+   the prosecution. Plaintiff has not presented a case with “a fact pattern
+
+   similar enough” such that Defendant was on notice that her conduct was
+
+   unconstitutional.
+
+         As such, Plaintiff’s federal malicious prosecution claim must be
+
+   dismissed.
+
+         D. State Malicious Prosecution
+
+         Plaintiff also brings a state law malicious prosecution claim. A
+
+   malicious prosecution claim under Michigan law requires the plaintiff to
+
+   prove four elements:
+
+         (1) that the defendant has initiated a criminal prosecution against
+         him, (2) that the criminal proceedings terminated in his favor, (3)
+         that the private person who instituted or maintained the
+         prosecution lacked probable cause for his actions, and (4) that the
+         action was undertaken with malice or a purpose in instituting the
+         criminal claim other than bringing the offender to justice.
+
+
+                                        44
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 45 of 49
+
+
+
+
+   Peterson Novelties, 259 Mich. App. at 21 (quoting Matthews v. Blue Cross
+
+   & Blue Shield of Michigan, 456 Mich. 365, 378 (1998)).
+
+         Plaintiff’s state law malicious prosecution claim also fails. Plaintiff
+
+   argues that “a jury could find malice in Defendant Oliver’s conduct”
+
+   because “[a] jury could find that Detective Oliver didn’t have probable
+
+   cause for an arrest warrant.” (ECF No. 29, PageID.870; see also ECF No.
+
+   25, PageID.779–780.) Michigan state courts have held that “[m]alice may
+
+   be inferred from a lack of probable cause.” Hill v. City of Detroit, No.
+
+   348798, 2021 WL 137381, at *5 (Mich. Ct. App. Jan. 14, 2021) (citing
+
+   Matthews, 456 Mich. at 378 n.14); but see Alman v. Reed, 703 F.3d 887,
+
+   902 (6th Cir. 2013) (“A lack of probable cause itself cannot constitute
+
+   malice, as that would render the third and fourth elements of the tort
+
+   duplicative.”).
+
+         However, for the reasons set forth earlier, Plaintiff does not
+
+   establish that Defendant’s arrest warrant lacked probable cause.
+
+   Additionally, Plaintiff does not present other evidence of Defendant’s
+
+   alleged malice. As such, a reasonable jury could not conclude that
+
+   Defendant’s actions were “undertaken with malice or a purpose in
+
+   instituting the criminal claim other than bringing the offender to justice.”
+
+
+                                        45
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 46 of 49
+
+
+
+
+   Peterson Novelties, 259 Mich. App. at 21. The Court grants summary
+
+   judgment to Defendant for Plaintiff’s state law malicious prosecution
+
+   claim.
+
+         E. Intentional Infliction of Emotional Distress
+
+         Plaintiff’s final claim is for intentional infliction of emotional
+
+   distress (“IIED”). In order to establish a prima facie claim of IIED,
+
+   Plaintiff must present evidence of: “1) the defendant’s extreme and
+
+   outrageous conduct, (2) the defendant’s intent or recklessness, (3)
+
+   causation, and (4) the severe emotional distress of the plaintiff.” Walsh v.
+
+   Taylor, 263 Mich. App. 618, 634 (2004) (citing Moore v. City of Detroit,
+
+   252 Mich. App. 384, 389 (2002)). “Liability attaches only when a plaintiff
+
+   can demonstrate that the defendant’s conduct is ‘so outrageous in
+
+   character, and so extreme in degree, as to go beyond all possible bounds
+
+   of decency, and to be regarded as atrocious and utterly intolerable in a
+
+   civilized community.’” Id. (quoting Lewis v. LeGrow, 258 Mich. App. 175,
+
+   196 (2003)). “It is for the trial court to initially determine whether the
+
+   defendant’s conduct may reasonably be regarded as so extreme and
+
+   outrageous as to permit recovery. But where reasonable individuals may
+
+   differ, it is for the jury to determine if the conduct was so extreme and
+
+
+                                        46
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 47 of 49
+
+
+
+
+   outrageous as to permit recovery.” Hayley v. Allstate Ins. Co., 262 Mich.
+
+   App. 571, 577 (2004) (citing Teadt v. Lutheran Church Missouri Synod,
+
+   237 Mich. App. 567, 582 (1999)) (cleaned up).
+
+         Plaintiff first argues that Defendant displayed “extreme and
+
+   outrageous conduct” leading up to Plaintiff’s arrest, when Defendant
+
+   relied on the victim’s photo line-up identification using an eight-year-old
+
+   photo and did not conduct additional investigation before seeking an
+
+   arrest warrant. (ECF No. 29, PageID.874.) As discussed earlier in this
+
+   opinion, Plaintiff does not establish that Defendant lacked probable
+
+   cause for Plaintiff’s arrest. The Michigan Court of Appeals has held that
+
+   an officer who had probable cause for the plaintiff’s arrest “as a matter of
+
+   law [] cannot be liable for intentional infliction of emotional distress.”
+
+   Walsh, 263 Mich. App. at 634–35 (citing Cebulski v. Belleville, 156 Mich.
+
+   App. 190, 196 (1986)). Therefore, this argument fails.
+
+         To the extent Plaintiff claims that Defendant displayed “extreme
+
+   and outrageous conduct” after Plaintiff’s arrest, the Court disagrees.
+
+   Plaintiff states, “a day after Plaintiff was released from custody for
+
+   crimes that she didn’t commit, Plaintiff attempted to retrieve her
+
+   cellphone from Defendant Oliver who refused to release the cellphone
+
+
+                                        47
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 48 of 49
+
+
+
+
+   alleging that she is still investigating Plaintiff for the crimes.” (ECF No.
+
+   29, PageID.875.)
+
+         Defendant’s    refusal   to   return   Plaintiff’s   cellphone   cannot
+
+   reasonably be construed as extreme and outrageous conduct. It is
+
+   undisputed that Woodruff contacted Oliver the morning after her arrest
+
+   and release from custody, February 17, 2023, and asked for her cellphone
+
+   to be returned. (ECF No. 41-4.) It is also undisputed that Woodruff’s
+
+   phone was returned that same day, February 17, in the afternoon. (ECF
+
+   No. 23-25, PageID.524; ECF No. 64-16.) Although Defendant’s refusal to
+
+   release the cell phone when asked was not sensible, a reasonable jury
+
+   could not find that it was “so outrageous in character,” “beyond all
+
+   possible bounds of decency,” and “atrocious and utterly intolerable in a
+
+   civilized community” to withhold Plaintiff’s cellphone for a day. Walsh,
+
+   263 Mich. App. at 634 (quoting Lewis, 258 Mich. App. at 196). Even more
+
+   importantly, Plaintiff has not established that Defendant withheld her
+
+   phone for the purpose of causing emotional distress, or that Defendant
+
+   should have known that severe emotional distress would result from her
+
+   actions.
+
+
+
+
+                                        48
+Case 5:23-cv-11886-JEL-APP ECF No. 78, PageID.<pageID> Filed 08/05/25 Page 49 of 49
+
+
+
+
+         For these reasons, the Court grants Defendant’s summary
+
+   judgment motion as to Plaintiff’s IIED claim.
+
+      IV.   Conclusion
+
+         Accordingly, the Court GRANTS Defendant’s motion for summary
+
+   judgment and DENIES Plaintiff’s partial motion for summary judgment.
+
+         IT IS SO ORDERED.
+
+   Dated: August 5, 2025                     s/Judith E. Levy
+        Ann Arbor, Michigan                  JUDITH E. LEVY
+                                             United States District Judge
+
+
+                        CERTIFICATE OF SERVICE
+
+         The undersigned certifies that the foregoing document was served
+   upon counsel of record and any unrepresented parties via the Court’s
+   ECF System to their respective email or first-class U.S. mail addresses
+   disclosed on the Notice of Electronic Filing on August 5, 2025.
+
+                                             s/William Barkholz
+                                             WILLIAM BARKHOLZ
+                                             Case Manager
+
+
+
+
+                                        49
+

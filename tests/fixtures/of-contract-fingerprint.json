@@ -3477,9 +3477,9 @@
         "present": 72
       },
       "source_review_unresolved": {
-        "missing": 59,
-        "populated": 13,
-        "present": 13
+        "missing": 58,
+        "populated": 14,
+        "present": 14
       },
       "text": {
         "missing": 0,
@@ -3696,9 +3696,9 @@
         "present": 68
       },
       "source_review_unresolved": {
-        "missing": 57,
-        "populated": 11,
-        "present": 11
+        "missing": 56,
+        "populated": 12,
+        "present": 12
       },
       "verified": {
         "missing": 5,
@@ -3779,9 +3779,9 @@
         "present": 72
       },
       "source_review_unresolved": {
-        "missing": 59,
-        "populated": 13,
-        "present": 13
+        "missing": 58,
+        "populated": 14,
+        "present": 14
       },
       "verified": {
         "missing": 5,
@@ -3917,9 +3917,9 @@
         "present": 74
       },
       "source_review_unresolved": {
-        "missing": 60,
-        "populated": 14,
-        "present": 14
+        "missing": 59,
+        "populated": 15,
+        "present": 15
       },
       "territorial_scope": {
         "missing": 3,
@@ -4155,8 +4155,8 @@
     },
     "https://aiincidentlaw.org/determination/aiel-2025-016-determination.json": {
       "remedy": {
-        "notes": "Case reported dismissed at summary judgment in 2025 with appeal planned; keep procedural status under watch.",
-        "status": "dismissed / appeal flagged"
+        "notes": "The City of Detroit was dismissed by stipulation on November 6, 2024. On August 5, 2025, the district court granted Oliver summary judgment and denied Woodruff partial summary judgment. The Sixth Circuit listed appeal 25-1788 as awaiting submission to a panel on November 20, 2026.",
+        "status": "city dismissed; summary judgment for Oliver; appeal listed pending 2026-11-20"
       }
     },
     "https://aiincidentlaw.org/determination/aiel-2026-005-determination.json": {
@@ -4648,13 +4648,17 @@
       "source_locator": "Buchanan v. Vuori, Inc., No. 5:23-cv-01121-NC"
     },
     "https://aiincidentlaw.org/allegation/aiel-2025-016-allegation.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "canonical_source_conflicted": "Actual suspect identity and warrant probable-cause standards",
       "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
-      "source": "https://aclu.org/cases/woodruff-v-oliver",
-      "source_locator": "Woodruff v. Oliver, No. 2:23-cv-11597"
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-mied-5_23-cv-11886/pdf/USCOURTS-mied-5_23-cv-11886-1.pdf",
+      "source_locator": "Woodruff v. Oliver, No. 5:23-cv-11886",
+      "source_review_unresolved": [
+        "The appellate listing reports status through November 20, 2026. Later filings and disposition require a new docket check.",
+        "The filing month in the legacy record requires confirmation from the original complaint or docket."
+      ]
     },
     "https://aiincidentlaw.org/allegation/aiel-2025-018-allegation.json": {
       "admission_status": "legacy-unreviewed",
@@ -5961,12 +5965,16 @@
       "source_locator": "Buchanan v. Vuori, Inc., No. 5:23-cv-01121-NC"
     },
     "https://aiincidentlaw.org/determination/aiel-2025-016-determination.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-filing-status-inference",
-      "source": "https://aclu.org/cases/woodruff-v-oliver",
-      "source_locator": "Woodruff v. Oliver, No. 2:23-cv-11597"
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-mied-5_23-cv-11886/pdf/USCOURTS-mied-5_23-cv-11886-1.pdf",
+      "source_locator": "Woodruff v. Oliver, No. 5:23-cv-11886",
+      "source_review_unresolved": [
+        "The appellate listing reports status through November 20, 2026. Later filings and disposition require a new docket check.",
+        "The filing month in the legacy record requires confirmation from the original complaint or docket."
+      ]
     },
     "https://aiincidentlaw.org/determination/aiel-2026-005-determination.json": {
       "admission_status": "legacy-unreviewed",
@@ -6595,12 +6603,16 @@
       "source_locator": "Buchanan v. Vuori, Inc., No. 5:23-cv-01121-NC"
     },
     "https://aiincidentlaw.org/party/aiel-2025-016-deployer.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
-      "source": "https://aclu.org/cases/woodruff-v-oliver",
-      "source_locator": "Woodruff v. Oliver, No. 2:23-cv-11597"
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-mied-5_23-cv-11886/pdf/USCOURTS-mied-5_23-cv-11886-1.pdf",
+      "source_locator": "Woodruff v. Oliver, No. 5:23-cv-11886",
+      "source_review_unresolved": [
+        "The appellate listing reports status through November 20, 2026. Later filings and disposition require a new docket check.",
+        "The filing month in the legacy record requires confirmation from the original complaint or docket."
+      ]
     },
     "https://aiincidentlaw.org/party/aiel-2025-018-deployer.json": {
       "admission_status": "legacy-unreviewed",
@@ -7257,12 +7269,16 @@
       "source_locator": "Buchanan v. Vuori, Inc., No. 5:23-cv-01121-NC"
     },
     "https://aiincidentlaw.org/proceeding/aiel-2025-016-proceeding.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-record-inference",
-      "source": "https://aclu.org/cases/woodruff-v-oliver",
-      "source_locator": "Woodruff v. Oliver, No. 2:23-cv-11597"
+      "source": "https://govinfo.gov/content/pkg/USCOURTS-mied-5_23-cv-11886/pdf/USCOURTS-mied-5_23-cv-11886-1.pdf",
+      "source_locator": "Woodruff v. Oliver, No. 5:23-cv-11886",
+      "source_review_unresolved": [
+        "The appellate listing reports status through November 20, 2026. Later filings and disposition require a new docket check.",
+        "The filing month in the legacy record requires confirmation from the original complaint or docket."
+      ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2025-018-proceeding.json": {
       "admission_status": "legacy-unreviewed",
