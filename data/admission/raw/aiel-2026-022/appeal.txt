@@ -1,0 +1,1042 @@
+[Cite as Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930.]
+
+
+
+
+                            IN THE COURT OF APPEALS OF OHIO
+                                SIXTH APPELLATE DISTRICT
+                                   SANDUSKY COUNTY
+
+
+Xingkui Guo                                                 Court of Appeals No. {72}S-25-035
+
+        Appellant                                           Trial Court No. 24 CJ 1313
+
+v.
+
+Meade Motorcars, LLC                                        DECISION AND JUDGMENT
+
+        Appellee                                            Decided: May 26, 2026
+
+                                                *****
+        Xingkui Guo, pro se, appellant.
+
+                                                *****
+
+        SULEK, J.
+
+        {¶ 1} Appellant Xingkui Guo appeals two judgments of the Sandusky County
+
+Court of Common Pleas. The first denied his motion to set aside an earlier judgment of
+
+the trial court, which vacated the foreign judgment entered against appellee Meade
+
+Motorcars, LLC (“Meade”). The second denied Guo’s motion to vacate sanctions that
+
+were entered against him. For the reasons that follow, the trial court’s judgments are
+
+affirmed.
+
+                       I. Factual Background and Procedural History
+
+        {¶ 2} The genesis of this matter is an online car purchase executed by Guo, a
+
+Tennessee resident, as the buyer, and Meade, an Ohio company, as the seller. Meade
+listed a 1999 Lexus LX 470 for sale on www.carsforsale.com. On July 7, 2023, Guo
+
+expressed interest in the vehicle. An agreement was entered into on July 10, 2023, for
+
+Guo to purchase the vehicle for $8,980.00, which included a $700.00 transportation fee.
+
+       {¶ 3} After delivery of the vehicle, a conflict arose regarding the condition of the
+
+vehicle and Meade’s offer of a video inspection prior to the loading of the vehicle onto
+
+the truck for transport. Text messages show that on July 14, 2023, Meade informed Guo
+
+that his check was received, and when it cleared Meade would ship the vehicle through
+
+the transport company. Meade specified, “Before we put it of (sic) the truck we will
+
+FaceTime the vehicle with you so there is (sic) no surprises.” Several hours later, Meade
+
+explained, “We FaceTime in case transportation company damages. Just protects you.”
+
+Guo responded the next morning, “No need.” In later text messages, Guo disputes that he
+
+ever sent the message “No need.” Confusing the matter is that it appears Meade sent
+
+another message on July 17, 2023, which seemed to be a copy of the first message sent
+
+on July 14, 2023, and which again stated that Meade would contact Guo via FaceTime
+
+before it put the vehicle on the delivery truck. Guo maintains that no FaceTime video
+
+occurred.
+
+       {¶ 4} Upon receiving the vehicle, Guo believed that it was in significantly worse
+
+condition than advertised. When the parties were unable to resolve their dispute over the
+
+vehicle, Guo sued Meade in Tennessee state court. Meade did not appear, and Guo was
+
+awarded a default judgment in the amount of $9,851.00.
+
+
+
+
+2.
+       {¶ 5} On September 3, 2024, Guo, at all times appearing pro se, filed to enforce
+
+the Tennessee judgment in the Sandusky County Court of Common Pleas. On October
+
+15, 2024, the trial court ordered Meade’s bank account to be garnished. The bank
+
+submitted the garnished funds in the amount of $10,391.28 to the trial court on February
+
+18, 2025. The next day, Meade entered an appearance and moved to vacate the October
+
+15, 2024 judgment and to dismiss the foreign judgment. Meade argued that the foreign
+
+judgment was not valid because Tennessee did not have personal jurisdiction over it
+
+under the Tennessee “long-arm” statute. Guo opposed the motion to vacate, arguing that
+
+the sale and transport of the vehicle into Tennessee constituted sufficient minimum
+
+contacts to subject Meade to Tennessee’s jurisdiction.
+
+       {¶ 6} The trial court set the matter for a hearing on April 29, 2025. Guo moved to
+
+be allowed to appear remotely, as he had done throughout the case to that point. He
+
+stated that he was a college professor and the hearing date conflicted with the college’s
+
+final examination period. The trial court granted Guo’s motion to appear remotely. The
+
+April 29, 2025 hearing, however, did not occur due to a technical failure in the court’s
+
+system. The trial court reset the matter for a hearing on May 27, 2025.
+
+       {¶ 7} On May 5, 2025, Guo moved to continue the May 27, 2025 hearing,
+
+explaining that the trial court set the date without confirming his availability, and he
+
+would be unavailable due to international travel beginning May 20, 2025. The trial court
+
+granted the motion to continue and rescheduled the hearing for June 25, 2025. On May
+
+8, 2025, Guo again moved the trial court to reschedule the hearing date, explaining that
+
+
+
+
+3.
+he would not return from his international travel to China until June 24, 2025, and it
+
+would be impossible for him to attend the June 25, 2025 hearing. The trial court granted
+
+Guo’s second motion and rescheduled the hearing for June 27, 2025.
+
+       {¶ 8} On June 16, 2025, Guo moved to appear at the hearing remotely. Guo stated
+
+that due to an unforeseen serious health issue affecting his mother, he was forced to
+
+remain in China to care for her and could not attend the June 27, 2025 hearing in person.
+
+The trial court denied this motion.
+
+       {¶ 9} Meade then moved to continue the hearing due to its principal, Brad Meade,
+
+having a previously scheduled vacation. Guo did not consent to the continuance and filed
+
+an objection to it. The trial court granted Meade’s request for a continuance and
+
+rescheduled the matter for July 8, 2025.
+
+       {¶ 10} On June 26, 2025, Guo filed a “Notice to Court of Plaintiff’s Unavailability
+
+for In-Person Hearing and Request for Ruling Based on Submitted Filings.” Guo
+
+asserted that he was outside the United States attending to urgent family matters and
+
+therefore was unable to appear in person for the July 8, 2025 hearing. He requested that
+
+“the Court proceed to consider and rule on the pending motions and responses based
+
+solely on the pleadings and evidence already filed by all parties. All necessary arguments
+
+and relevant legal authorities have been submitted to the Court for consideration.”
+
+       {¶ 11} On July 8, 2025, the trial court held the hearing on Meade’s motion to
+
+vacate and to dismiss the foreign judgment. Meade was present with its counsel. Guo
+
+
+
+
+4.
+was not present. At the hearing, Meade offered the testimony of its principal, Brad
+
+Meade (“Brad”).
+
+       {¶ 12} Brad explained that the transaction with Guo was done entirely by phone
+
+after Guo expressed interest in the vehicle. Meade disclosed to Guo that the suspension
+
+would need to be repaired at a cost of $8,000 to $15,000, and the vehicle was priced
+
+accordingly. Photos of the undercarriage were provided to Guo. According to Brad,
+
+Meade additionally did a FaceTime video call with Guo where one of its employees
+
+showed everything around the vehicle and even drove it on the freeway. Meade offered a
+
+second FaceTime video, but it was declined. He testified that Meade discouraged Guo
+
+from buying the vehicle sight unseen, but Guo dismissed the advice and mailed a check
+
+to Meade’s office in Fremont, Ohio. Brad stated that Guo had the vehicle transported
+
+through Becker Transport, which was a company that he recommended. Guo received
+
+the vehicle, but he refused to sign the Dealer Application for Title, so Meade has been
+
+unable to transfer the title to him. Brad stated that Meade has made several attempts to
+
+get Guo to sign, but none have been successful.
+
+       {¶ 13} In addition to describing the transaction with Guo, Brad testified generally
+
+that Meade “pretty much only [does] business in the State of Ohio.” Brad specified that
+
+Meade does not advertise in the state of Tennessee, has not sold any other cars in the state
+
+of Tennessee, has not conducted any other business in the state of Tennessee, is not
+
+incorporated in the state of Tennessee, does not receive mail in the state of Tennessee,
+
+and does not require any services from the state of Tennessee.
+
+
+
+
+5.
+       {¶ 14} Following the hearing, the trial court took the matter under advisement.
+
+       {¶ 15} Prior to the July 8, 2025 hearing, Meade had filed a request for sanctions
+
+against Guo, stating that in his June 26, 2025 filing, Guo cited “Davis v. Davis, 590
+
+N.E.2d 1372 (Ohio Ct. App. 1990),” for the proposition that any challenge to the validity
+
+of a foreign judgment must be directed to the originating jurisdiction, which in this case
+
+would be the courts in Tennessee. Meade asserted, however, that the citation was
+
+incorrect, and despite soliciting the help of the law librarian, it could not find the case.
+
+Meade also provided three other cases cited by Guo that contained incorrect citations and
+
+could not be found. Meade postulated that the cases were “wholly fictitious.”
+
+       {¶ 16} On July 10, 2025, Guo opposed Meade’s request for sanctions. He stated
+
+in his motion that Davis v. Davis—as well as the three other cases referred to by
+
+Meade—was available at the provided citation and was “readily accessible to any
+
+attorney who exercises due diligence. It is evident that Defendant’s counsel did not make
+
+a genuine effort to research these authorities and instead chose to file a frivolous Request
+
+for Sanctions without proper investigation.”
+
+       {¶ 17} Guo further filed his own motion for sanctions against Meade’s counsel for
+
+“engaging in conduct designed to mislead this Court and to improperly delay
+
+enforcement of a valid foreign judgment.”
+
+       {¶ 18} On July 15, 2025, the trial court entered its judgment granting Meade’s
+
+motion to vacate the foreign judgment. It found that Meade “did not have sufficient
+
+minimum contacts with the State of Tennessee to satisfy the Tennessee long arm statute.”
+
+
+
+
+6.
+The trial court ordered that the garnished money be returned to Meade and dismissed the
+
+matter, noting that the request for sanctions remained pending.
+
+       {¶ 19} Thereafter, on July 21, 2025, Guo moved pursuant to Civ.R. 60(B) to set
+
+aside the trial court’s July 15, 2025 judgment. He claimed that the evidence provided by
+
+Meade was false. He further argued that challenges to the jurisdiction of a foreign
+
+judgment must be raised in the originating jurisdiction. In support, he cited “Moran v.
+
+Moran, 2012-Ohio-1841, ¶ 13 (10th Dist. Ct. App.),” a case which this court could not
+
+locate. The trial court denied Guo’s motion on July 22, 2025.
+
+       {¶ 20} The trial court held a hearing on the motions for sanctions on August 4,
+
+2025. That transcript was not requested and is not part of the record on appeal. Guo
+
+requested to appear remotely, but his request was denied. Following the hearing, on
+
+August 11, 2025, the trial court summarily denied Guo’s motion for sanctions and
+
+granted Meade’s motion for sanctions, finding that “Plaintiff has more than awkwardly
+
+mis-cited law in support of his arguments, he has simply made them up. There is no
+
+pattern or consistency, akin to misidentifying the source or manner in creating the
+
+citation.” The trial court awarded Meade $100 in sanctions.
+
+       {¶ 21} Next, on August 22, 2025, Guo filed another Civ.R. 60(B) “Motion to Set
+
+Aside Order Granting Defendant’s Motion to Dismiss the Foreign Judgment.” In this
+
+motion, he sought relief pursuant to Civ.R. 60(B)(3) for the “fraud, misrepresentation, or
+
+misconduct” by Meade in soliciting “multiple, material false statements under oath
+
+during the [July 8, 2025] motion hearing.” He detailed 11 instances where he asserted
+
+
+
+
+7.
+that Brad testified falsely. In addition to his Civ.R. 60(B)(3) claim, Guo further argued
+
+that the trial court violated his due process rights and deprived him of a meaningful
+
+opportunity to be heard when it denied his request to participate in the hearing remotely.
+
+       {¶ 22} Concurrent with his motion to set aside, Guo also filed motions for
+
+sanctions against Brad and against Meade’s counsel. He believed that sanctions were
+
+warranted because Brad provided false testimony and Meade’s counsel solicited the false
+
+testimony.
+
+       {¶ 23} The trial court summarily denied Guo’s Civ.R. 60(B) motion and his
+
+motions for sanctions in a judgment entry journalized on September 3, 2025.
+
+       {¶ 24} Finally, on September 5, 2025, Guo filed a Civ.R. 60(B) motion to vacate
+
+the August 11, 2025 judgment that awarded $100 in sanctions to Meade. He argued that
+
+he did not willfully disregard the trial court’s authority and explained that while he was in
+
+China he faced substantial restrictions in accessing legal research resources because tools
+
+such as Google are banned there. He maintained that his mis-citations did not constitute
+
+sanctionable conduct.
+
+       {¶ 25} The trial court summarily denied Guo’s motion to vacate the sanctions in a
+
+judgment entry journalized on September 11, 2025.
+
+                                II. Assignments of Error
+
+       {¶ 26} Guo timely appeals the September 3 and 11, 2025 judgments of the trial
+
+court, asserting four assignments of error for review:
+
+             1. The trial court erred by dismissing the duly entered Tennessee
+       judgment without providing Appellant a meaningful opportunity to be
+
+
+
+8.
+       heard, thereby violating the Due Process Clause of the Fourteenth
+       Amendment to the United States Constitution and Article I, Section 16 of
+       the Ohio Constitution.
+
+              2. The trial court erred by re-examining the Tennessee court’s valid
+       exercise of jurisdiction and by refusing to grant full faith and credit to a
+       judgment entered consistently with T.C.A. § 20-2-214 and International
+       Shoe Co. v. Washington, 326 U.S. 310 (1945).
+
+              3. The trial court abused its discretion by declining to impose
+       sanctions under Civ.R. 11 and R.C. 2323.51 where Appellee’s witness and
+       counsel knowingly presented false testimony and misrepresentations to the
+       court.
+
+               4. The trial court erred in failing to recognize that Appellant’s
+       citation error was inadvertent and does not warrant sanctions under Civ.R.
+       11 or R.C. 2323.51.
+
+                                       III. Analysis
+
+       {¶ 27} At the outset, it is important to recognize that Guo has appealed only the
+
+trial court’s September 3 and 11, 2025 judgments, which denied his Civ.R. 60(B) motions
+
+for relief. He did not appeal the trial court’s July 15, 2025 judgment that granted
+
+Meade’s motion to dismiss the foreign judgment. He also did not appeal the trial court’s
+
+August 11, 2025 judgment that imposed sanctions against him.
+
+       {¶ 28} “The scope of an appeal is determined by the designation contained within
+
+the notice of appeal, filed pursuant to App.R. 3(A).” Dickman v. Johnson, 2025-Ohio-
+
+4349, ¶ 10 (6th Dist.); see also App.R. 3(D) (“The notice of appeal shall specify the party
+
+or parties taking the appeal; shall designate the judgment, order or part thereof appealed
+
+from; and shall name the court to which the appeal is taken.”) The trial court’s July 15
+
+
+
+
+9.
+and August 11, 2025 judgments are therefore not before this court. Dickman at ¶ 9-10;
+
+LVNV Funding, LLC v. Smith, 2026-Ohio-1404, ¶ 28 (6th Dist.).
+
+       {¶ 29} As such—with the exception of Guo’s third assignment of error, which
+
+pertains to the trial court’s September 3, 2025 judgment denying his motion for sanctions
+
+against Meade’s counsel and principal—this court will analyze his arguments within the
+
+framework of the trial court’s denial of his Civ.R. 60(B) motions for relief from
+
+judgment. See Hendricks v. Ventra Sandusky, LLC, 2025-Ohio-1288, ¶ 7 (6th Dist.) (“It
+
+is well-recognized that a Civ.R. 60(B) motion may not be used as a substitute for
+
+appeal.”)
+
+       {¶ 30} As set forth in GTE Automatic Elec., Inc. v. ARC Industries, Inc., 47 Ohio
+
+St.2d 146 (1976), paragraph two of the syllabus,
+
+       “To prevail on a motion brought under Civ.R. 60(B), the movant must
+       demonstrate that: (1) the party has a meritorious defense or claim to
+       present if relief is granted; (2) the party is entitled to relief under one of the
+       grounds stated in Civ.R. 60(B)(1) through (5); and (3) the motion is made
+       within a reasonable time, and, where the grounds of relief are Civ.R.
+       60(B)(1), (2) or (3), not more than one year after the judgment, order or
+       proceeding was entered or taken.
+
+“These requirements are independent and in the conjunctive; thus the test is not fulfilled
+
+if any one of the requirements is not met.” Strack v. Pelton, 70 Ohio St.3d 172, 174
+
+(1994).
+
+       {¶ 31} “An appellate court reviews a trial court’s denial of a Civ.R. 60(B) motion
+
+for an abuse of discretion.” Moore v. ThorWorks Industries, Inc., 2024-Ohio-1617, ¶ 91
+
+(6th Dist.), citing Rose Chevrolet, Inc. v. Adams, 36 Ohio St.3d 17, 20 (1988); State ex
+
+
+
+
+10.
+rel. Hatfield v. Miller, 2023-Ohio-429, ¶ 8. An abuse of discretion connotes that the trial
+
+court’s attitude was unreasonable, arbitrary, or unconscionable. Blakemore v. Blakemore,
+
+5 Ohio St.3d 217, 219 (1983).
+
+       A. The trial court did not abuse its discretion in denying Guo’s motion
+       to set aside the July 15, 2025 judgment because he did not establish
+       grounds for relief under Civ.R. 60(B)(1)-(5).
+
+       {¶ 32} Guo’s first and second assignments of error pertain to the trial court’s
+
+September 3, 2025 denial of his motion to set aside the July 15, 2025 judgment that
+
+vacated the foreign judgment.
+
+       {¶ 33} Guo’s second assignment of error argues that the trial court erred in finding
+
+that Tennessee lacked personal jurisdiction over Meade. The trial court vacated the
+
+foreign judgment because it found that Meade did not have sufficient minimum contacts
+
+to satisfy the Tennessee long-arm statute.
+
+       {¶ 34} R.C. 2329.022 provides that “[a] foreign judgment filed pursuant to this
+
+section has the same effect and is subject to the same procedures, defenses, and
+
+proceedings for reopening, vacating, or staying as a judgment of a court of common pleas
+
+and may be enforced or satisfied in the same manner as a judgment of a court of common
+
+pleas.” A foreign judgment is entitled to “full faith and credit in this state.” R.C.
+
+2329.021. It is subject to collateral attack, however, “if there was no subject-matter or
+
+personal jurisdiction to render the judgment under the law of the foreign state.” Roe v.
+
+Taylor, 2024-Ohio-2714, ¶ 16 (8th Dist.), quoting Roe v. Boland, 2021-Ohio-4017, ¶ 7
+
+(8th Dist.), citing Litsinger Sign Co. v. Am. Sign Co., 11 Ohio St.2d 1 (1967), paragraph
+
+
+
+
+11.
+one of the syllabus (“A judgment of a sister state’s court is subject to collateral attack in
+
+Ohio if there was no subject matter or personal jurisdiction to render the judgment under
+
+the sister state’s internal law, and under that law the judgment is void . . ..”).
+
+       {¶ 35} On appeal, Guo maintains that Meade’s electronic and telephonic
+
+communications with Guo, its acceptance of payment from a Tennessee bank account,
+
+and its delivery of the vehicle to Tennessee, constitute the minimum contacts necessary to
+
+establish personal jurisdiction consistent with the extents of due process as recognized in
+
+Tennessee’s long-arm statute. Further, Guo argues that Meade committed tortious acts
+
+causing injury within Tennessee by “falsifying the bill of sale,” “misrepresenting a
+
+promised FaceTime inspection,” “concealing severe undercarriage corrosion,” and
+
+“withholding the vehicle title,” all of which also serve to establish personal jurisdiction in
+
+Tennessee.
+
+       {¶ 36} Here, Guo’s arguments concerning personal jurisdiction go to the
+
+meritorious defense prong of the GTE Automatic test. This court need not decide
+
+whether the facts and circumstances of this case establish Tennessee’s jurisdiction over
+
+Meade under Tennessee law, however, because Guo has failed to satisfy the second
+
+prong of the GTE Automatic test in that he has not demonstrated grounds for relief under
+
+Civ.R. 60(B)(1)-(5).
+
+       {¶ 37} In his first assignment of error, Guo argues that the trial court deprived him
+
+of the due process of law when it did not allow him to appear remotely at the July 8, 2025
+
+hearing, thereby denying him a meaningful opportunity to be heard. This is not a
+
+
+
+
+12.
+meritorious defense to the trial court’s underlying decision to vacate the foreign judgment
+
+for lack of personal jurisdiction. Instead, it is a ground for relief from that judgment.
+
+While Guo does not identify under which of the Civ.R. 60(B) grounds for relief his
+
+argument would fall, the only applicable one is Civ.R. 60(B)(5), which is a catch-all
+
+provision denominating “any other reason justifying relief from the judgment.” Civ.R.
+
+60(B)(5) is intended to reflect “the inherent power of a court to relieve a person from the
+
+unjust operation of a judgment.” Caruso-Ciresi, Inc. v. Lohman, 5 Ohio St.3d 64, 66
+
+(1983). “[T]he grounds for invoking said provision should be substantial.” Id.
+
+       {¶ 38} “The right to procedural due process is found in the Fourteenth
+
+Amendment to the United States Constitution and Section 16, Article I of the Ohio
+
+Constitution.” Youngstown v. Traylor, 2009-Ohio-4184, ¶ 8. “Although the concept is
+
+flexible, at its core, procedural due process under both the Ohio and United States
+
+Constitutions requires, at a minimum, an opportunity to be heard when the state seeks to
+
+infringe a protected liberty or property right.” Id,, quoting State v. Cowan, 2004-Ohio-
+
+4777, ¶ 8. Notably, “[i]t is well-settled that ‘[t]he due process rights to notice and [a]
+
+hearing prior to a civil judgment are subject to waiver.’” Irving J. Franklin Realty, Inc. v.
+
+East Cleveland, 2023-Ohio-4419, ¶ 7 (8th Dist.), quoting D. H. Overmyer Co. Inc., of
+
+Ohio v. Frick Co., 405 U.S. 174, 185 (1972).
+
+       {¶ 39} Here, Guo waived his due process right to be present at the hearing,
+
+whether in person or remotely. The trial court, after granting several requests for
+
+continuance from Guo and one from Meade, set the matter for a hearing on Meade’s
+
+
+
+
+13.
+motion to dismiss the foreign judgment on July 8, 2025. Unlike for previously scheduled
+
+hearings, Guo did not file a motion to appear remotely. Nor did he file a request for a
+
+continuance based on his unavailability. Instead, Guo filed a “Notice to Court of
+
+Plaintiff’s Unavailability for In-Person Hearing and Request for Ruling Based on
+
+Submitted Filings.” In his notice, Guo specifically requested that the trial court “proceed
+
+to consider and rule on the pending motions and response based solely on the pleadings
+
+and evidence already filed by all parties. All necessary arguments and relevant legal
+
+authorities have been submitted to the Court for consideration.” Guo, therefore, waived
+
+his right to be heard at the July 8, 2025 hearing, and his absence at that hearing, whether
+
+in person or remotely, does not constitute a ground for relief under Civ.R. 60(B)(5).
+
+       {¶ 40} Guo does not make any further argument on appeal regarding any of the
+
+Civ.R. 60(B)(1)-(5) grounds for relief. It should be noted that in his August 22, 2025
+
+Civ.R. 60(B) “Motion to Set Aside Order Granting Defendant’s Motion to Dismiss the
+
+Foreign Judgment,” Guo relied upon Civ.R. 60(B)(3), which provides grounds for relief
+
+based upon “[f]raud . . ., misrepresentation or other misconduct of an adverse party.” He
+
+asserted that “[Meade’s] witness knowingly provided multiple, material false statements
+
+under oath during the motion hearing, constituting perjury and materially affecting the
+
+Court’s decision.” Guo, however, does not raise a similar argument on appeal in his first
+
+or second assignments of error, nor does he address how the trial court abused its
+
+discretion in not finding grounds for relief under Civ.R. 60(B)(3). He does mention, in
+
+his third assignment of error, that Brad’s false testimony materially prejudiced him, but
+
+
+
+
+14.
+he does so in the context of arguing that the trial court erred when it did not award him
+
+sanctions, not in the context of establishing grounds for relief under Civ.R. 60(B)(1)-(5).
+
+He thus presents no direct argument on appeal relative to Civ.R. 60(B)(3), and “[i]t is not
+
+the role of this court to ‘search the record or formulate legal arguments on behalf of the
+
+parties.’” State ex rel. McKenney v. Jones, 2022-Ohio-583, ¶ 28, quoting State v.
+
+Quarterman, 2014-Ohio-4034, ¶ 19; see also State v. Clark, 2025-Ohio-4410, ¶ 23 (“[I]t
+
+is not the role of an appellate court to cobble together an argument for an appellant.”).
+
+Furthermore, as will be discussed below relative to his third assignment of error, Guo has
+
+not established that Meade committed a fraud, misrepresentation, or other misconduct.
+
+       {¶ 41} Accordingly, because Guo has not demonstrated grounds justifying relief
+
+from the July 15, 2025 judgment under Civ.R. 60(B)(1)-(5), the trial court did not abuse
+
+its discretion when it denied his motion to set aside. Guo’s first and second assignments
+
+of error are not well-taken.
+
+       B. The trial court did not abuse its discretion in denying Guo’s motion
+       for sanctions where he did not demonstrate false or fraudulent
+       testimony.
+
+       {¶ 42} In his third assignment of error, Guo argues that the trial court abused its
+
+discretion when it denied his motion for sanctions against Meade’s counsel and principal.
+
+This court reviews a trial court’s ruling on a request for sanctions under R.C. 2323.51 and
+
+Civ.R. 11 for an abuse of discretion. Smith v. Anderson, 2023-Ohio-108, ¶ 11 (6th Dist.),
+
+citing State ex rel. Davis v. Metzger, 2016-Ohio-1026, ¶ 10; Gallagher v. AMVETS Post
+
+17, 2009-Ohio-6348, ¶ 32 (6th Dist.).
+
+
+
+
+15.
+       {¶ 43} In his appellate brief, Guo references the 11 purported falsehoods he
+
+identified in his August 22, 2025 Civ.R. 60(B) motion to set aside the judgment vacating
+
+the foreign judgment. He maintains that the contradictions between Brad’s testimony and
+
+the documentary exhibits are not a product of confusion but of deliberate falsification.
+
+Each of those 11 instances, however, can be explained as either not contradictory, the
+
+result of colloquialism, or a difference of perspective or memory.
+
+       {¶ 44} First, Brad testified that the transaction was conducted “all by phone.” Guo
+
+disputes this characterization, noting that there were over 60 emails as well as other
+
+written correspondence. Upon review, when read as a whole, Brad’s testimony was
+
+meant to highlight that the original transaction was discussed and agreed to over the
+
+phone and through phone messages, not in person. Guo takes Brad’s statement literally,
+
+when it is not meant as such. There is no contradiction.
+
+       {¶ 45} Second, Brad testified that “We even did a FaceTime for him.” Guo
+
+maintains that a FaceTime video never occurred before shipment. This highlights a
+
+central dispute between the parties. Brad testified that two FaceTime videos were
+
+contemplated. One which showed the condition of the vehicle and included a Meade
+
+employee driving the car on the highway. Brad testified that this FaceTime occurred.
+
+The second FaceTime video was to occur before the vehicle was loaded onto the truck for
+
+shipment. The parties agree that this video did not occur. Brad testified that it did not
+
+occur because Guo said there was “No need.” Guo disputes ever saying that. The
+
+photographs of the text messages show that the same message informing Guo that his
+
+
+
+
+16.
+check was received and offering a FaceTime video before shipment was sent on July 14
+
+and July 17. On July 15, Guo replied “No need.” Brad’s testimony is not a falsehood, it
+
+is a difference in perspective regarding which message was the salient one.
+
+       {¶ 46} Third, Brad testified that the transaction occurred in Fremont, Ohio. Guo
+
+argues that the transaction was not limited to Fremont, Ohio, but constituted interstate
+
+commerce. Again, this is a difference of perspective. For Brad, Meade was located in
+
+Fremont, Ohio, all of his communications occurred there, the agreement was drafted and
+
+executed there, the check was deposited there, and the paperwork transferring title was
+
+prepared and shipped from there. Neither Brad nor the vehicle left Fremont, Ohio for this
+
+transaction until the vehicle was shipped following completion of the purchase.
+
+       {¶ 47} Fourth, Brad testified that Guo “had [the vehicle] transported through a
+
+company I referred -- Becker Transport.” Guo states that this is false and that the
+
+transportation was part of the contractual agreement and was expressly promised by
+
+Meade. He, however, has not provided evidence that Brad solely arranged for
+
+transportation and that Guo was uninvolved in selecting and coordinating with the
+
+transportation company. There is no contradiction with the record evidence.
+
+       {¶ 48} Fifth, Brad testified that he advised Guo that the vehicle was being sold “as
+
+is.” Guo asserts that he first learned it was being sold “as is” when he received the
+
+“Buyer’s Guide” when the vehicle was delivered. He states there is no evidence that he
+
+was advised before delivery the vehicle would be sold “as is.” Notably, there is also no
+
+evidence that Guo was not advised the vehicle was being sold “as is.” Further, there is no
+
+
+
+
+17.
+evidence that the vehicle was being sold with a warranty. There is no contradiction with
+
+the record evidence.
+
+       {¶ 49} Sixth, Brad testified that it was Guo who initially contacted Meade. Guo
+
+claims this is false, and that Meade initiated the contact when it listed the vehicle for sale
+
+on www.carsforsale.com. Generically listing the vehicle for sale online, however, did not
+
+initiate contact with Guo. Instead, Guo acknowledged that he made first contact when he
+
+stated, “After Plaintiff submitted an inquiry via Carsforsale.com, [Brad] initiated and
+
+pursued communications with Plaintiff . . ..” Guo initiated contact when he submitted an
+
+inquiry. Brad’s testimony is not false.
+
+       {¶ 50} Seventh, Brad testified that he informed Guo that the vehicle needed
+
+repairs to the suspension that were estimated to cost between $8,000 to $15,000. Guo
+
+maintains that he was never so informed. There is no documentary evidence in the record
+
+to prove or disprove that such a disclosure was made. To the extent that the fact was
+
+relevant, it was left to the trier of fact to determine based on the credibility of the witness.
+
+Brad’s testimony is a difference of memory and is not demonstrably false.
+
+       {¶ 51} Eighth, Brad testified that Meade conducted one FaceTime video with Guo
+
+and offered a second. Guo claims that this is “entirely false.” He states there was no
+
+evidence to support that a FaceTime inspection occurred, and he again refers to the
+
+dispute regarding whether there was “no need” for the second FaceTime video. Notably,
+
+the record contains no evidence that the first FaceTime video did not occur. Brad’s
+
+testimony is a difference of memory and is not demonstrably false.
+
+
+
+
+18.
+       {¶ 52} Ninth, Guo cites the following exchange that took place regarding Guo’s
+
+dispute over the condition of the vehicle:
+
+              THE COURT: But it’s not -- it’s not a, it don’t run . . .
+
+              THE WITNESS: No, nothing --
+
+              THE COURT: -- the -- the --
+
+              THE WITNESS: -- no, no, no, no, no, no.
+
+              THE COURT: -- it’s the corrosion of the undercarriage --
+
+              THE WITNESS: Yeah --
+
+              THE COURT: -- and -- okay.
+
+              THE WITNESS: -- correct.
+
+Guo interprets that Brad testified the vehicle was not operational, which would be false.
+
+To the contrary, the import of the testimony was that the problem with the vehicle was
+
+the corrosion of the undercarriage and not that it was inoperable. There is no falsehood
+
+or contradiction in Brad’s testimony.
+
+       {¶ 53} Tenth, Brad testified that Meade helped Guo contact Becker Transport.
+
+Guo states he has no knowledge of the company “Becker Transport,” and that Brad
+
+explicitly told him that he would arrange for a transport company to ship the vehicle from
+
+Ohio to Tennessee. Guo offers that without that assurance, he would not have purchased
+
+the vehicle. This again presents a difference of memory. There is no evidence in the
+
+record proving or disproving who contacted the transport company. Brad’s testimony is
+
+not demonstrably false.
+
+
+
+
+19.
+       {¶ 54} Eleventh, and finally, Brad testified that he did not forge Guo’s name on
+
+the bill of sale, and that “[i]t actually said, phone, ‘cause he gave us permission by phone
+
+to purchase the vehicle, which we obviously, had a text.” Guo claims this is false and
+
+misleading and that he never gave Meade permission to sign any contractual document
+
+on his behalf. Notably, Guo does not identify any document that contains a forged
+
+signature. Furthermore, the parties clearly had entered into an agreement for the vehicle
+
+as evidenced by their communications and Guo’s conduct in delivering a check to Meade
+
+for the purchase price. Brad’s testimony is not demonstrably false.
+
+       {¶ 55} In sum, none of the 11 instances are deliberate falsehoods or contradictions
+
+that would constitute sanctionable conduct under R.C. 2323.51 or Civ.R. 11.
+
+Accordingly, the trial court did not abuse its discretion when it denied Guo’s motion for
+
+sanctions.
+
+       {¶ 56} Guo’s third assignment of error is not well-taken.
+
+       C. The trial court did not abuse its discretion in denying Guo’s motion
+       to set aside the sanctions against him where he cited and relied upon
+       five different AI-hallucinated cases.
+
+       {¶ 57} Finally, in his fourth assignment of error, Guo argues that the trial court
+
+abused its discretion when it sanctioned him for including mis-citations in his filings to
+
+the court. Again, Guo appeals the trial court’s denial of his Civ.R. 60(B) motion to set
+
+aside, not the underlying judgment imposing the sanctions. In any event, the trial court
+
+did not abuse its discretion in denying Guo’s motion to set aside because he does not
+
+have a meritorious defense to the imposition of sanctions.
+
+
+
+
+20.
+       {¶ 58} Guo asserts that sanctions were not warranted under Civ.R. 11 or R.C.
+
+2323.51 because his conduct was not willful or objectively frivolous. He contends that
+
+the mis-citations were merely the result of his use of the Chinese platform “Deepseek”
+
+and his limited access to Ohio-specific legal research tools. He further claims that
+
+“[o]nce the issue was identified, [he] promptly acknowledged and corrected the error.”
+
+       {¶ 59} In addition to Civ.R. 11 and R.C. 2323.51, “[c]ourts possess inherent
+
+authority to sanction a party . . . where that party’s conduct thwarts the administration of
+
+justice, disobeys court orders, abuses the judicial process, or when it is otherwise
+
+necessary for the administration of justice and protection of judicial powers and
+
+processes.” DiCuccio v. Lindsmith, 2018-Ohio-2320, ¶ 30 (10th Dist.), citing Telecom,
+
+Ltd. v. Wisehart & Wisehart, Inc., 2012-Ohio-4376, ¶ 15 (10th Dist.).
+
+       {¶ 60} Relevant here, Guo cited five different cases. The first four were in his
+
+July 10, 2025 opposition to Meade’s motion for sanctions: “Davis v. Davis, 590 N.E.2d
+
+1372 (Ohio Ct. App. 1990);” “Kaplan v. Tuennerman, 87 Ohio App.3d 43, 621 N.E.2d
+
+717 (8th Dist.1993);” “Black v. Black, 175 Ohio App.3d 113, 2008-Ohio-1525 (8th
+
+Dist.);” and “Brunswick Hills Twp. v. Bank of New York, 2007-Ohio-1480 [(12th Dist.)].”
+
+The fifth was in his July 21, 2025 motion to set aside: “Moran v. Moran, 2012-Ohio-
+
+1841, ¶ 13 (10th Dist. Ct. App.)”. He cited each of those for the proposition that Ohio
+
+courts cannot inquire into the validity of a foreign judgment and any challenges to
+
+jurisdiction must be made in the rendering court. He further provided alleged quotations
+
+from all the cases except for Davis. The cases, however, do not exist at those citations.
+
+
+
+
+21.
+Some of them do not exist at all. And where the others do exist, they do not include the
+
+quotations provided by Guo, nor do they stand for the propositions for which they were
+
+cited. In all respects, they appear to be the result of AI-generated hallucinations.
+
+Furthermore, contrary to his claim on appeal, when Guo was confronted with these mis-
+
+citations, his response was to affirm that the citations existed and to chastise Meade’s
+
+attorney for not performing “due diligence” or making “a genuine effort to research these
+
+authorities.”
+
+       {¶ 61} Ohio courts have imposed sanctions under their inherent authority where
+
+parties have submitted “hallucinated” case citations such as those submitted by Guo. See
+
+Gamble v. Gamble, 2025-Ohio-2381, ¶ 27 (12th Dist.); see also State v. Coleman, 2026-
+
+Ohio-965 (11th Dist.) (imposing sanctions for using AI hallucinated transcript
+
+quotations). It is no defense that Guo is a pro se litigant with limited availability to Ohio-
+
+specific legal resources as “[i]t is well established that pro se litigants are presumed to
+
+have knowledge of the law and legal procedures and that they are held to the same
+
+standard as litigants who are represented by counsel.” State ex rel. Neil v. French, 2018-
+
+Ohio-2692, ¶ 10, quoting State ex rel. Fuller v. Mengel, 2003-Ohio-6448, ¶ 10. Guo had
+
+an obligation to verify that the cases and law he was presenting to the court were real and
+
+not a fabrication. Guo, therefore, has not demonstrated a meritorious defense to the claim
+
+that he should be sanctioned for providing hallucinated citations to the trial court.
+
+
+
+
+22.
+       {¶ 62} Accordingly, the trial court did not abuse its discretion when it denied his
+
+motion to set aside the judgment imposing those sanctions. Guo’s fourth assignment of
+
+error is not well-taken.
+
+                                     IV. Conclusion
+
+       {¶ 63} For the foregoing reasons, the judgments of the Sandusky County Court of
+
+Common Pleas are affirmed. Guo is ordered to pay the costs of this appeal pursuant to
+
+App.R. 24.
+
+                                                                        Judgment affirmed.
+
+
+
+       A certified copy of this entry shall constitute the mandate pursuant to App.R. 27.
+
+
+
+Christine E. Mayle, J.                         ____________________________
+                                                          JUDGE
+Gene A. Zmuda, J.
+                                               ____________________________
+Charles E. Sulek, J.                                     JUDGE
+CONCUR.
+                                               ____________________________
+                                                         JUDGE
+
+
+       This decision is subject to further editing by the Supreme Court of
+  Ohio’s Reporter of Decisions. Parties interested in viewing the final reported
+       version are advised to visit the Ohio Supreme Court’s web site at:
+                http://www.supremecourt.ohio.gov/ROD/docs/.
+
+
+
+
+23.
+

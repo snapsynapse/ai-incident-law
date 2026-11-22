@@ -1,0 +1,3249 @@
+[Cite as State v. Coleman, 2026-Ohio-965.]
+
+
+                    IN THE COURT OF APPEALS OF OHIO
+                     ELEVENTH APPELLATE DISTRICT
+                           ASHTABULA COUNTY
+
+STATE OF OHIO,                                     CASE NO. 2024-A-0040
+
+                 Plaintiff-Movant
+                                                   Criminal Appeal from the
+        - vs -                                     Court of Common Pleas
+
+MALIKHI JERMAINE COLEMAN,
+                                                   Trial Court No. 2022 CR 00416
+                 Defendant,
+
+         and
+
+WILLIAM B. NORMAN,
+
+                 Respondent.
+
+
+
+
+               DECISION ON SANCTIONS AND JUDGMENT ENTRY
+
+                                  Decided: March 20, 2026
+                        Judgment: Sanctioning Attorney for Misconduct
+
+
+April R. Grabman, Ashtabula County Prosecutor, and Dane R. Hixon, Assistant
+Prosecutor, 25 West Jefferson Street, Jefferson, OH 44047 (For Plaintiff-Movant).
+
+Joseph P. Dunson, Weyls Peters + Chuparkoff, L.L.C., 6505 Rockside Road, Suite 105,
+Cleveland, OH 44131 (For Respondent).
+
+
+EUGENE A. LUCCI, J.
+
+                                             INTRODUCTION
+
+        {¶1}     On October 9, 2025, after movant, the State of Ohio, and respondent,
+
+Attorney William B. Norman (OH Atty. Regis. No. 0088113), entered into a settlement
+
+agreement relating to respondent’s motion for sanctions, this court entered a judgment
+directing movant to file a transcript of the August 28, 2025 hearing and ordering the parties
+
+to file briefs regarding the gravity of the violations admitted by respondent. On November
+
+7, 2025, the parties filed their respective briefs, and respondent was afforded additional
+
+time to submit a reply brief on certain issues raised by movant. Respondent filed the reply
+
+brief on November 21, 2025. This court determined that a post-briefing hearing is
+
+unnecessary. The following sequence of events and findings of fact are the foundations
+
+for this court’s determination on sanctions.
+
+                    CHRONOLOGY OF THE UNDERLYING MATTER
+
+       {¶2}   On February 18, 2025, in State v. Coleman, 2025-Ohio-513 (11th Dist.), this
+
+court affirmed the convictions of the appellant in this matter, Malikhi Jermaine Coleman,
+
+for murder, discharge of a firearm on or near prohibited premises, and improperly
+
+handling a firearm in a motor vehicle, with firearm specifications. On May 19, 2025,
+
+respondent, counsel for Mr. Coleman, filed an application to reopen, supported by an
+
+affidavit executed by Attorney Norman on May 19, 2025, in which he swore, under penalty
+
+of perjury, to the truth of the factual and legal bases of the application. Certain allegations
+
+and features of this application are at the heart of the instant proceedings.
+
+       {¶3}   In its reply to the application, on May 23, 2025, movant recognized and
+
+acknowledged several factual allegations made by respondent that were false and
+
+premised upon quotations that did not appear in the record. Movant concurrently and
+
+separately moved for sanctions based upon the false representations of alleged
+
+statements made by the prosecution that did not appear in the record:
+
+              Far and away the most concerning part of Appellant’s brief is
+              that he inaccurately cites to the record. Appellee, despite
+              significant effort, has not been able to locate either of the
+              quotes attributed to the prosecutor on pages 2 and 4 of
+
+                                        PAGE 2 OF 65
+
+Case No. 2024-A-0040
+              Appellant’s brief in the record, and upon examination, page
+              559- the page Appellant cites to on page 4 for the “legally
+              inflammatory” statement by the prosecutor- is, in fact, the
+              court reporter’s signature page, with no statements of any
+              type by the prosecutor. Appellee has searched through the
+              trial transcripts as a whole for these statements, and has not
+              located them. Appellee has also had three members of staff
+              attempt to find these quotes, with no success. Using the same
+              method on the correct quotes on page 6, Appellee has located
+              them within minutes. Appellee also cannot find a “summation”
+              listed in the record. Indeed, the closest quote Appellee could
+              find was when the prosecutor stated “He even admits he has
+              that AK-47 and he’s the one who shoots at Freddie Johnson.
+              Did cause the death of Freddie Johnson as a proximate result
+              of committing felonious assault” on page 656 of the trial
+              transcripts. This is a significantly less inflammatory statement,
+              and makes no mention of an alleged “duty to retreat.”
+              Appellant has therefore misled this Court. This is a
+              sanctionable offense, and not one to be taken lightly.
+
+State’s Opposition to Application to Reopen at p. 6.
+
+              Appellant cites to two quotes in the Application to Reopen
+              which appear not to exist. As such, Appellee and government
+              staff have wasted significant time in attempting to track down
+              these quotes and replying to a brief predicated on
+              fabrications. Additionally, Appellant’s counsel has failed in his
+              ethical duties by misleading this Court, in violation of Rule 3.3
+              of the Ohio Rules of Professional Conduct. Appellee notes
+              that these false claims are brought in the light of prosecutorial
+              misconduct and ineffective assistance of both trial and
+              appellate counsel; thus, these false claims implicate the
+              reputation and careers of no less than three attorneys. Even
+              more concerning is that Appellant’s counsel may have done
+              similarly in prior cases; the Eighth District in State v. Boyd,
+              2025-Ohio-617[,] ¶ 49 (8th Dist.), in which Appellant’s counsel
+              was also counsel for Boyd, noted that several of Boyd’s claims
+              “[rest] upon a misreading of the transcript and jury
+              instructions.”
+
+              Appellee therefore requests sanctions in the amount of
+              $6,000, representing the time Appellee’s counsel and staff
+              spent responding to the application, dismissal of this
+              application, and any further sanctions as this Court feels
+              would be appropriate to the gravity of this situation.
+
+
+                                       PAGE 3 OF 65
+
+Case No. 2024-A-0040
+              Alternatively, Appellee requests that this Court hold a hearing
+              to determine the nature of sanctions.
+
+State’s Motion for Sanctions at pp. 1-2.
+
+       {¶4}   On June 25, 2025, this court filed two judgment entries, one overruling the
+
+application to reopen and the other ordering respondent to show cause regarding why
+
+sanctions should not be ordered. In the judgment denying the application to reopen, this
+
+court underscored that respondent, acting as Mr. Coleman’s counsel, cited alleged
+
+features of the transcript purportedly demonstrating prosecutorial misconduct. This court
+
+recognized that the cited portions of the transcript did not include the inflammatory
+
+statements ascribed to the prosecutor.
+
+       {¶5}   In the judgment ordering respondent to show cause, this court determined
+
+the prosecutor never made the statements alleged by respondent. This court
+
+acknowledged movant’s claim that the alleged statements were “predicated on
+
+fabrication” and that sanctions should be ordered. As such, respondent was ordered to
+
+show cause why sanctions should not be pursued.
+
+       {¶6}   On July 10, 2025, respondent admitted a member of his staff used Artificial
+
+Intelligence (“AI”) tools, which improperly generated “hallucinated” quotes that did not
+
+exist. Respondent stated he had taken steps to ensure AI would be properly used in future
+
+cases to avoid repeating the error. Respondent proffered his firm’s purported new AI
+
+policy as an exhibit to his show-cause response. As discussed infra, the policy itself bore
+
+the hallmarks of having been generated by an AI platform, including generic boilerplate
+
+language, unfilled bracketed placeholder fields such as “[Insert Date],” and a scope that
+
+precisely tracked the issues in this case while omitting other critical governance
+
+considerations. This court set the matter for hearing on August 28, 2025.
+
+                                       PAGE 4 OF 65
+
+Case No. 2024-A-0040
+         {¶7}   During the August 2025 hearing, this court heard from movant’s counsel
+
+and respondent’s counsel. Of significant note, respondent’s counsel admitted “[t]his is a
+
+serious matter. We shouldn’t be here. We’re here because [respondent] screwed up.” T.p.
+
+9. Respondent apologized for his actions and asserted such an error would not happen
+
+again.
+
+         {¶8}   Counsel for respondent further stated that respondent “is not a babe in the
+
+woods when it comes to AI, and he was not a babe in the woods when it comes to AI
+
+when this happened. He understands the difference between a public AI generative tool
+
+like ChatGPT, and a proprietary fee subscription based AI tool like Westlaw.” Id. at 10.
+
+Respondent explained that he advised his staff not to upload sensitive materials to public
+
+AI generative tools, but his staff did so anyway. Despite respondent’s apparent knowledge
+
+and awareness of the AI platforms and their dangers, he failed to review the application
+
+filed in this court (which was prepared by a non-attorney staff member). Counsel for
+
+respondent stated, “At that point, it was [respondent’s] responsibility to read that brief, to
+
+look at those quotes, to stop and say those aren’t real, or let me investigate. That’s where
+
+he failed. He didn’t catch it . . . . He didn’t catch the hallucinated quotes. That was wrong.
+
+That’s his responsibility.” Id.
+
+         {¶9}   Later, this court was informed that the parties entered into a settlement
+
+agreement, which was filed simultaneously with movant’s withdrawal of its motion for
+
+sanctions.
+
+         {¶10} On October 9, 2025, this court filed an order noting that it was not bound
+
+by the terms of the parties’ settlement agreement. This court ordered movant to file the
+
+transcript of the August 2025 hearing; this court also ordered the parties to file briefs
+
+
+
+                                        PAGE 5 OF 65
+
+Case No. 2024-A-0040
+regarding the gravity of the violations and the applicable good faith or bad faith of
+
+respondent’s misconduct. The transcript of proceedings was filed on October 20, 2025.
+
+Moreover, the parties filed their respective briefs on November 7, 2025.
+
+       {¶11} In its brief, movant observed it had “discovered that [respondent’s] new
+
+policies and procedures [relating to AI] are not proving effective.” To this point, movant
+
+identified a “Motion to Withdraw a Guilty Plea,” filed by respondent in State v. Saker, CR-
+
+25-701703-A, in the Cuyahoga County Court of Common Pleas. In that motion, filed on
+
+October 29, 2025—two months after the sanctions hearing in this court—respondent cited
+
+questionable citations, one of which could not be found. Movant also pointed out that, at
+
+the end of one section of respondent’s Cuyahoga County motion, the following quote
+
+occurs: “Would you like me to draft the next argument section (e.g., argument 1 – B on
+
+the ‘nature of the charge’ omission) in the same tone and format so your brief reads as a
+
+seamless multi-print memorandum?” Movant submitted that such statements are found
+
+at the end of output prepared by the AI platform ChatGPT—the very platform at issue in
+
+this case.
+
+       {¶12} In its brief, movant emphasized the seriousness and gravity of the
+
+misconduct, pointing out this court’s observation that if respondent’s conduct was
+
+intentional, it could be criminal. See, e.g., Disciplinary Counsel v. Stafford, 2012-Ohio-
+
+909 (suspending an attorney who recklessly made false statements to a court). Movant
+
+argued respondent’s misconduct was therefore committed “willfully” or in “bad faith.”
+
+       {¶13} Movant additionally noted that respondent was on notice that the application
+
+for reconsideration filed in this matter contained spurious quotations but still he did not
+
+withdraw the application or amend the same. Movant also pointed out that respondent
+
+
+
+                                       PAGE 6 OF 65
+
+Case No. 2024-A-0040
+admitted he was not unfamiliar with public AI platforms but apparently ratified such usage
+
+in the preparation of the application to this court. Movant additionally underscored that
+
+respondent implemented new policies on AI usage but continued to use the platform in
+
+the Cuyahoga County matter after the August 28, 2025 hearing.
+
+       {¶14} Next, movant directed this court to its concern that, after learning that a
+
+paralegal in respondent’s firm prepared the application at issue, such preparation might
+
+rise to the level of unauthorized practice of law. By his own admission, respondent did not
+
+adequately review the filing prepared by the paralegal before filing it. Movant, while
+
+touching on the problems relating to a paralegal practicing law, additionally highlighted
+
+the ethical pitfalls of an attorney failing to or inadequately reviewing filings prepared by a
+
+non-lawyer.
+
+       {¶15} In respondent’s brief, he again recognized the seriousness of the matters
+
+but claimed he did not act with ill intent or bad faith. Respondent averred he did not act
+
+with a dishonest purpose or conscious wrongdoing. Still, respondent recognized and
+
+admitted his paralegal prepared the application and he “made a mistake—albeit a serious
+
+one—by not catching the AI hallucination generated by his para-professional . . . .”
+
+Ultimately, respondent maintained this court should not issue additional sanctions
+
+because he (1) admitted his misconduct and was apologetic, and (2) he and movant
+
+settled movant’s fee claim for $2,000. Respondent requested this court to afford him
+
+additional time to respond to movant’s citation of Saker and its arguments vis-à-vis
+
+unauthorized practice of law. Movant agreed that respondent should have the opportunity
+
+to respond to these points, and this court granted the request.
+
+
+
+
+                                        PAGE 7 OF 65
+
+Case No. 2024-A-0040
+       {¶16} On November 21, 2025, respondent filed his reply brief in response to the
+
+foregoing issues. In relation to movant’s citation to Saker, respondent acknowledged the
+
+filing identified by movant. He pointed out, however, he withdrew the motion after catching
+
+“his mistake in e-filing the draft with inaccurate AI information.” Respondent observed he
+
+moved to strike the original motion and filed a separate motion without the possible
+
+citation errors and alleged AI prompting. Respondent maintained the original filing was
+
+an early draft that was accidentally filed.
+
+       {¶17} Respondent further argued that “Saker has nothing to do with this case.” He
+
+maintained that the Cuyahoga County Court of Common Pleas has jurisdiction over
+
+whether he should face any consequences for filing the initial motion and therefore his
+
+actions or omissions in that case are not the business of this court.
+
+       {¶18} Next, in response to movant’s points relating to the possibility of
+
+unauthorized practice of law, respondent argued that “[t]his court cannot issue an order
+
+that suspends [respondent’s] law license . . . .” As such, he asserted this court lacks the
+
+authority “to investigate or determine” an unauthorized practice of law claim.
+
+       {¶19} Respondent, however, acknowledged his paralegal or “para-professional”
+
+is not an attorney and that respondent is responsible for supervising his “non-lawyer
+
+subordinate.” Respondent recognized he failed to properly supervise his paralegal by “not
+
+adequately reviewing the draft of the application to re-open . . . .” Respondent admitted
+
+his paralegal uploaded the draft of the application to ChatGPT, a public generative AI tool,
+
+and the public tool “hallucinated” inaccurate trial transcript quotes that were improperly
+
+attributed to the prosecutor in closing argument at trial. While respondent asserts that he
+
+reviewed the application, he “did not catch the hallucinated transcript quotes.”
+
+
+
+                                        PAGE 8 OF 65
+
+Case No. 2024-A-0040
+Respondent concedes he should have “caught them.” And “his failure to catch them
+
+resulted in the submission of inaccurate data for this court’s consideration.”
+
+       {¶20} Respondent acknowledges this court’s discretion to order sanctions but
+
+exhorts the court to refrain from doing so.
+
+                                  FACTUAL FINDINGS
+
+       {¶21} Based upon the filings, admissions, briefs, and the transcript of the August
+
+28, 2025 hearing, this court makes the following factual findings:
+
+       {¶22} On May 19, 2025, respondent filed an application to reopen the appeal of
+
+Malikhi Jermaine Coleman in this court. The application alleged prosecutorial misconduct
+
+during closing argument at trial and cited specific quotations from the trial transcript
+
+purportedly demonstrating that the prosecutor had made inflammatory, improper
+
+statements.
+
+       {¶23} The alleged quotations attributed to the prosecutor did not appear in the trial
+
+transcript. The statements were entirely fabricated. They were not paraphrases,
+
+approximations, or loose characterizations of actual statements; they were wholesale
+
+inventions that bore no resemblance to the record. Movant and this court, however, used
+
+time and resources in an attempt to verify the statements.
+
+       {¶24} The fabricated quotations were generated by ChatGPT, a publicly available
+
+generative artificial-intelligence platform. Respondent’s paralegal, a non-attorney staff
+
+member, uploaded materials relating to the case to ChatGPT and used the platform’s
+
+output in preparing the application to reopen. The AI tool produced false transcript
+
+quotations—a phenomenon known as “hallucination”—and these fabricated quotations
+
+were incorporated into the filing submitted to this court.
+
+
+
+                                        PAGE 9 OF 65
+
+Case No. 2024-A-0040
+       {¶25} The fabricated quotations did not merely misrepresent the record in the
+
+abstract. They ascribed specific, inflammatory statements to an identifiable individual—
+
+the trial prosecutor—that were never uttered. The fabricated quotations also impugned
+
+the trial judge, implying that the court permitted improper prosecutorial statements without
+
+correction, limiting statement, or other remedy. And the application’s claim of ineffective
+
+assistance of appellate counsel on direct appeal necessarily impugned prior appellate
+
+counsel, suggesting that counsel had failed to raise a meritorious claim of prosecutorial
+
+misconduct. The statements were never made. They were hallucinations that respondent
+
+did not check or address. Moreover, movant brought the hallucinations to respondent’s
+
+attention in its responsive filing. Respondent still did not withdraw the allegations. These
+
+were not victimless fabrications. They constituted defamatory allegations against real
+
+persons and officers of the court as well as the court itself.
+
+       {¶26} Respondent was not unfamiliar with artificial intelligence tools. His own
+
+counsel conceded at the August 28, 2025 hearing that respondent “is not a babe in the
+
+woods when it comes to AI” and that he “understands the difference between a public AI
+
+generative tool like ChatGPT, and a proprietary fee subscription based AI tool like
+
+Westlaw.” T.p. 10. Respondent was aware, or should have been aware, of the well-
+
+documented risks of AI hallucination, including the generation of fabricated legal citations,
+
+false quotations, and fictional case holdings.
+
+       {¶27} Despite this knowledge, respondent permitted a non-attorney staff member
+
+to use a public generative AI tool in the preparation of a filing to this court without
+
+adequate supervision, training, or verification protocols. Respondent has admitted to his
+
+omissions and conduct.
+
+
+
+                                       PAGE 10 OF 65
+
+Case No. 2024-A-0040
+       {¶28} Respondent did not independently verify the quotations attributed to the
+
+prosecutor against the trial transcript before filing the application. This failure occurred
+
+despite respondent’s obligation as the attorney of record to ensure the accuracy and
+
+veracity of all filings bearing his signature and submitted to a court, to which he swore in
+
+an affidavit.
+
+       {¶29} The fabricated quotations were not minor or inconsequential. They formed
+
+the substantive core of the application to reopen, which alleged prosecutorial
+
+misconduct—a serious allegation that, if substantiated, could have resulted in the
+
+reopening of a final, appellate judgment and, potentially, reversal of Mr. Coleman’s
+
+convictions. The false quotations, had they been afforded credibility, would have
+
+constituted a fraud upon this court and a grave injustice against the prosecution and the
+
+administration of justice.
+
+       {¶30} When movant identified the fabrications in its reply brief and moved for
+
+sanctions, respondent did not withdraw the application, amend the filing, or notify the
+
+court of the errors. More than one month elapsed between the filing of the motion for
+
+sanctions and this court’s ruling, during which time respondent took no corrective action.
+
+This fact is relevant and significant to this court’s findings.
+
+       {¶31} Respondent’s remedial measures, including the creation of an internal AI
+
+policy and completion of continuing legal education courses on AI, were undertaken only
+
+after movant requested sanctions. These measures were reactive, not proactive.
+
+Moreover, the AI policy proffered by respondent bore the hallmarks of having itself been
+
+generated by an AI platform. The policy contained unfilled bracketed placeholders such
+
+as “[Insert Date]” where respondent’s own firm-specific information should have
+
+
+
+                                        PAGE 11 OF 65
+
+Case No. 2024-A-0040
+appeared, inconsistent formatting, typical of AI-generated templates, redundant
+
+language, and a scope that precisely mirrored the issues in this case while omitting other
+
+critical AI governance considerations. Respondent did not appear to take the minimal step
+
+of substituting his firm’s actual data where the AI tool had placed brackets indicating
+
+customization was required. The proffering of an AI-generated AI policy as a remedial
+
+measure in a case involving the submission of AI-generated fabrications to this court is,
+
+at best, ironic. It suggests that respondent’s engagement with the consequences of his
+
+misconduct has been superficial.
+
+       {¶32} Despite the August 28, 2025 sanctions hearing in this court, respondent
+
+continued to use ChatGPT in his legal practice. On October 29, 2025—two months after
+
+the hearing—respondent filed a “Motion to Withdraw a Guilty Plea” in State v. Saker, CR-
+
+25-701703-A, in the Cuyahoga County Court of Common Pleas. That motion contained
+
+at least one citation that could not be located and, critically, included a ChatGPT prompt
+
+embedded in the text of the filing itself: “Would you like me to draft the next argument
+
+section (e.g., argument 1 – B on the ‘nature of the charge’ omission) in the same tone
+
+and format so your brief reads as a seamless multi-print memorandum?” This language
+
+is unmistakably the output of a generative AI platform, not the work product of an attorney.
+
+       {¶33} Respondent acknowledged the Saker filing but characterized it as an
+
+inadvertently filed early draft. He maintained that he later withdrew the motion and filed a
+
+corrected version. Regardless of whether the filing was accidental, the Saker filing
+
+demonstrates that respondent’s self-imposed corrective measures were not effective in
+
+preventing the recurrence of AI-related errors in his practice. And respondent appears to
+
+believe this court has no “jurisdiction” to consider the subsequent act of unmonitored AI
+
+
+
+                                      PAGE 12 OF 65
+
+Case No. 2024-A-0040
+use in the Cuyahoga County matter. Respondent’s action occurred after this court’s
+
+hearing relating to the underlying matter and is therefore relevant to our consideration on
+
+sanctions.
+
+       {¶34} Of critical importance, after this court denied respondent’s application to
+
+reopen on June 25, 2025, respondent filed an appeal of that denial to the Supreme Court
+
+of Ohio on August 6, 2025 (Case No. 2025-1020). In pursuing that appeal, respondent
+
+did not withdraw or amend the application containing the fabricated quotations. Nor did
+
+respondent inform the Supreme Court of Ohio that the application to reopen—the very
+
+filing from which respondent sought to challenge our denial—had been predicated upon
+
+fabricated transcript quotations generated by an AI tool. Respondent thus doubled down
+
+on the filing, effectively asking the Supreme Court to review this court’s denial of an
+
+application that respondent knew, or should have known, was, in part, built upon false
+
+representations. Rather than correcting the record, respondent perpetuated the false
+
+narrative by challenging the denial without candor about the infirmity of the underlying
+
+filing. Respondent never withdrew the notice of appeal. This conduct is relevant both to
+
+respondent’s good faith and to the scope of harm caused by his misconduct. The Ohio
+
+Supreme Court, on October 14, 2025, declined to accept jurisdiction of the appeal
+
+pursuant to S.Ct.Prac.R. 7.08(B)(4).
+
+       {¶35} Respondent has acknowledged and admitted that: (a) his paralegal used
+
+ChatGPT to prepare the application to reopen; (b) the AI tool generated hallucinated
+
+transcript quotations; (c) respondent failed to verify the quotations before filing; (d) the
+
+quotations were false and did not appear in the record; (e) the filing constituted a serious
+
+error; and (f) respondent bears full responsibility for the content of the filing.
+
+
+
+                                        PAGE 13 OF 65
+
+Case No. 2024-A-0040
+       {¶36} The parties entered into a settlement agreement whereby respondent
+
+agreed to pay $2,000 to the Ashtabula County Prosecutor’s Office. Movant
+
+simultaneously withdrew its motion for sanctions. This court, however, noted in its
+
+October 9, 2025 order that it is not bound by the terms of the parties’ settlement
+
+agreement. The court’s obligation to protect the integrity of the judicial process is
+
+independent of, and cannot be compromised by, a private agreement between litigants.
+
+       {¶37} Respondent has additional matters currently pending before this court. His
+
+conduct in this case, if left unsanctioned, could continue to affect the administration of
+
+justice in this court across those matters.
+
+                                CONCLUSIONS OF LAW
+
+                        I. SOURCES OF JUDICIAL AUTHORITY
+
+       {¶38} Before addressing the specific violations, this court identifies the sources of
+
+authority upon which it relies in addressing respondent’s misconduct.
+
+A. The Inherent Authority of Courts
+
+       {¶39} It is well established that courts possess inherent authority to manage
+
+proceedings essential to their function, to control the conduct of those who appear before
+
+them, and to sanction conduct that abuses the judicial process. This authority exists
+
+independent of statute or rule. Inherent powers are those “‘necessary to the exercise of
+
+all others.’” Roadway Express, Inc. v. Piper, 447 U.S. 752, 764 (1980), quoting United
+
+States v. Hudson, 11 U.S. 32 (1812). These powers derive from the “control necessarily
+
+vested in courts to manage their own affairs . . . .” Link v. Wabash Railroad Co., 370 U.S.
+
+626, 630 (1962). Such power does not only exist in trial courts, but in appellate courts as
+
+well. Great Am. Life Ins. Co. v. Shenkin, 2015 WL 13928758, *2 (6th Cir. June 15, 2015)
+
+
+
+                                       PAGE 14 OF 65
+
+Case No. 2024-A-0040
+(an appellate “court possesses inherent powers to sanction a party”). As the United States
+
+Supreme Court explained in Chambers v. NASCO, Inc., 501 U.S. 32, 43 (1991):
+
+              It has long been understood that “[c]ertain implied powers
+              must necessarily result to our Courts of justice from the nature
+              of their institution,” powers “which cannot be dispensed with
+              in a Court, because they are necessary to the exercise of all
+              others.” United States v. Hudson, 7 Cranch 32, 34 . . . (1812);
+              see also Roadway Express, Inc. v. Piper, 447 U.S. 752, 764 .
+              . . (1980) (citing Hudson). For this reason, “Courts of justice
+              are universally acknowledged to be vested, by their very
+              creation, with power to impose silence, respect, and decorum,
+              in their presence, and submission to their lawful mandates.”
+              Anderson v. Dunn, 6 Wheat. 204, 227 . . . (1821); see also Ex
+              parte Robinson, 19 Wall. 505, 510 . . . (1874). These powers
+              are “governed not by rule or statute but by the control
+              necessarily vested in courts to manage their own affairs so as
+              to achieve the orderly and expeditious disposition of cases.”
+              Link v. Wabash R. Co., 370 U.S. 626, 630-631 . . . (1962).
+
+       {¶40} The Court held that this inherent power includes the ability “to fashion an
+
+appropriate sanction for conduct which abuses the judicial process.” Chambers at 44-45.
+
+The inherent authority is “‘particularly appropriate when the offending parties have
+
+practiced a fraud upon the court.’” Id. at 44, quoting NASCO, Inc. v. Calcasieu Television
+
+& Radio, Inc., 124 F.R.D. 120, 139 (W.D.La. 1989). However, “[b]ecause of their very
+
+potency, inherent powers must be exercised with restraint and discretion.” Chambers at
+
+44. This court is mindful that inherent powers must be exercised with restraint and
+
+discretion. Each sanction imposed herein is individually justified, serves a distinct
+
+remedial or protective purpose, and is calibrated to the specific harms caused by
+
+respondent’s misconduct. That respondent settled the movant’s fee claim does not
+
+address the institutional harm to this court, the reputational harm to the individuals
+
+defamed by the fabricated quotations, or the systemic risk posed by the continued
+
+submission of unverified AI-generated content. A private settlement between litigants
+
+                                      PAGE 15 OF 65
+
+Case No. 2024-A-0040
+cannot remediate harm to the court itself or to the administration of justice—interests that
+
+belong to the public, not the parties.
+
+       {¶41} The ancient origin of a court’s inherent authority was underscored in Link v.
+
+Wabash Railroad Co., 370 U.S. 626, 629-630 (1962), where the Court observed that the
+
+power to sanction “is of ancient origin, having its roots in judgments of nonsuit and non
+
+prosequitur entered at common law, e.g., 3 Blackstone, Commentaries (1768), 295-296,
+
+and dismissals for want of prosecution of bills in equity, e.g., id., at 451.” The Court
+
+confirmed that this authority is “an inherent power,” governed not by rule or statute but by
+
+the control necessarily vested in courts to manage their own affairs. Id. at 630.
+
+       {¶42} In Roadway Express, 447 U.S. at 764, the Court extended this authority to
+
+the assessment of attorney fees, recognizing the “‘well-acknowledged’ inherent power of
+
+a court to levy sanctions in response to abusive litigation practices.” Quoting Link at 632.
+
+Critically, the Court held that inherent powers “are those which ‘are necessary to the
+
+exercise of all others,’” Roadway Express at 764, quoting Hudson, 11 U.S. 32, and that
+
+“[b]ecause inherent powers are shielded from direct democratic controls, they must be
+
+exercised with restraint and discretion.” (Citations omitted.) Roadway Express at 764. The
+
+Court acknowledged that “bad faith” for purposes of inherent-authority sanctions is not
+
+restricted to the filing of the action itself: “‘“[B]ad faith” may be found, not only in the actions
+
+that led to the lawsuit, but also in the conduct of the litigation.’” Id. at 765, quoting Hall v.
+
+Cole, 412 U.S. 1, 15 (1973). And the Court made plain that the power over attorneys is
+
+at least as great as that over litigants: “If a court may tax counsel fees against a party who
+
+has litigated in bad faith, it certainly may assess those expenses against counsel who
+
+willfully abuse judicial processes.” (Citation omitted.) Roadway Express at 766.
+
+
+
+                                          PAGE 16 OF 65
+
+Case No. 2024-A-0040
+       {¶43} Critically, the Supreme Court held in Chambers that the availability of other
+
+sanctioning mechanisms, whether statutory or rule-based, does not displace the court’s
+
+inherent power. Chambers, 501 U.S. at 49-50. The Court further refined the limits of
+
+inherent authority sanctions in Goodyear Tire & Rubber Co. v. Haeger, 581 U.S. 101,
+
+107-108 (2017), holding that fee awards under inherent authority should be compensatory
+
+rather than punitive and that a causal link must exist between the misconduct and the
+
+fees incurred. This court is mindful of this limitation in crafting the sanctions herein.
+
+B. Ohio Constitutional and Statutory Authority
+
+       {¶44} The Ohio Constitution, Article IV, Section 5, vests the Supreme Court of
+
+Ohio with rule-making authority and general superintendence over all courts in the state.
+
+This constitutional foundation provides the underpinning for the procedural authority
+
+exercised by all Ohio courts. Ohio appellate courts, as courts created by the Ohio
+
+Constitution, Article IV, Section 1, possess inherent powers necessary to effectuate their
+
+constitutional functions.
+
+       {¶45} R.C. 2705.02 authorizes courts to punish contempt of court. Ohio appellate
+
+courts have recognized that contempt statutes codify, rather than create, the inherent
+
+contempt power. See, e.g., Ex parte Robinson, 86 U.S. 505, 510 (1873) (“The power to
+
+punish for contempts is inherent in all courts; its existence is essential to the preservation
+
+of order in judicial proceedings, and to the enforcement of the judgments, orders, and
+
+writs of the courts, and consequently to the due administration of justice.”).
+
+       {¶46} R.C. 2323.51 provides authority to award attorney fees and expenses for
+
+frivolous conduct, which includes conduct that is not warranted under existing law and
+
+
+
+
+                                        PAGE 17 OF 65
+
+Case No. 2024-A-0040
+cannot be supported by a good faith argument for an extension, modification, or reversal
+
+of existing law, or assertions that lack evidentiary support.
+
+       {¶47} The Supreme Court of Ohio has recognized that a court’s inherent power to
+
+address attorney misconduct is distinct from, and coexists with, the Supreme Court’s
+
+exclusive authority over attorney discipline. In Mentor Lagoons, Inc. v. Rubin, 31 Ohio
+
+St.3d 256, 259-260 (1987), the Court held that a trial court has the “‘inherent power to
+
+regulate the practice before it and protect the integrity of its proceedings,’” including the
+
+“‘“authority and duty to see to the ethical conduct of attorneys.”’” Id., quoting Royal
+
+Indemn. Co. v. J.C. Penney Co., 27 Ohio St.3d 31, 33-34 (1986), quoting Hahn v. Boeing
+
+Co., 95 Wash.2d 28, 34 (1980). This includes the inherent authority of dismissal or
+
+disqualification from a case if an attorney cannot or will not comply with his professional
+
+obligations when representing a client. Mentor Lagoons at 259. The Court was emphatic:
+
+“This power is distinct from the exclusive authority of the Supreme Court of Ohio over
+
+attorney disciplinary proceedings, and does not conflict with such power.” (Citation
+
+omitted.) Id. Indeed, the Court hastened to “approve and encourage courts throughout
+
+this state in their efforts to halt unprofessional conduct and meet their responsibilities in
+
+reporting violations . . . .” Id. at 260.
+
+       {¶48} In Royal Indemn. Co. at 34, the Supreme Court of Ohio confirmed that
+
+“[d]isciplinary proceedings, contempt sanctions and court revocation of pro hac vice
+
+privileges are distinct, but not exclusive methods of addressing attorney misconduct.”
+
+(Citations omitted.) The Court recognized that while it exercises exclusive jurisdiction over
+
+the admission and discipline of attorneys under Section 2(B)(1)(g), Article IV of the Ohio
+
+Constitution, “a trial court retains the ‘authority and duty to see to the ethical conduct of
+
+
+
+                                            PAGE 18 OF 65
+
+Case No. 2024-A-0040
+attorneys in proceedings before it.’” Id., quoting Hahn at 34.1 The Court further observed
+
+that an attorney may face sanctions from a trial court and discipline from the Supreme
+
+Court for the same conduct, because “revocation of pro hac vice admissions, disciplinary
+
+procedures and contempt sanctions are separate and distinct methods of addressing
+
+attorney misconduct, and the appropriateness of one is not dependent on the availability
+
+of another.” Royal Indemn. Co. at 34.
+
+        {¶49} Ohio appellate courts have applied these principles directly. In DiCuccio v.
+
+Lindsmith, 2018-Ohio-2320, ¶ 30 (10th Dist.), the court confirmed that courts possess
+
+inherent authority to sanction “where that party’s conduct thwarts the administration of
+
+justice, disobeys court orders, abuses the judicial process, or when it is otherwise
+
+necessary for the administration of justice and protection of judicial powers and
+
+processes.” Id., citing Telecom Ltd. v. Wisehart & Wisehart, Inc., 2012-Ohio-4376, ¶ 15
+
+(10th Dist.); and Ceol v. Zion Indus., Inc., 81 Ohio App.3d 286, 289 (9th Dist. 1992).
+
+        {¶50} Most recently, in Gamble v. Gamble, 2025-Ohio-2381, ¶ 26-27 (12th Dist.),
+
+the Twelfth District Court of Appeals exercised its inherent authority to impose sanctions
+
+against a party who submitted a brief exhibiting the hallmarks of AI-generated content,
+
+including nonexistent cases and miscited authorities. In doing so, the court cited the
+
+growing body of federal authority addressing AI-related misconduct, including Gonzalez
+
+v. Texas Taxpayers & Research Assoc., 2025 U.S. Dist. LEXIS 16801 (W.D.Tex. Jan. 29,
+
+2025); and Versant Funding LLC v. Teras Breakbulk Ocean Navigation Ents., LLC, 2025
+
+WL 1440351 (S.D.Fla. May 20, 2025). Gamble confirms that Ohio appellate courts
+
+
+
+1. Although we are an appellate court, we, in effect, sit as a trial court in this matter. While the matter is “sui
+generis,” without the authority to preside over collateral misconduct/sanction proceedings, the concept of
+appellate misconduct has no meaning.
+
+                                                PAGE 19 OF 65
+
+Case No. 2024-A-0040
+possess the same inherent authority exercised by trial courts across the country to
+
+sanction AI-related misconduct.
+
+C. Ohio Rules of Appellate Procedure
+
+       {¶51} App.R. 23 authorizes courts of appeals to award damages, including
+
+reasonable attorney fees, when an appeal is determined to be frivolous. While the instant
+
+proceeding is a post-appeal application to reopen rather than an appeal itself, the
+
+principle underlying App.R. 23—that appellate courts possess authority to sanction
+
+frivolous filings—is informative.
+
+D. Ohio Rules of Professional Conduct
+
+       {¶52} The Ohio Rules of Professional Conduct, while enforced through
+
+disciplinary proceedings administered by the Supreme Court of Ohio, also inform the
+
+standards of conduct expected of attorneys practicing before this court. Violations of
+
+these rules are relevant to the court’s determination of whether misconduct occurred and
+
+to the gravity of such misconduct. As discussed below, respondent’s conduct implicates
+
+multiple provisions of the Ohio Rules of Professional Conduct.
+
+E. Why Inherent Authority Is Necessary and Appropriate in This Case
+
+       {¶53} This court invokes its inherent authority because no single existing rule or
+
+statute adequately addresses the full scope of respondent’s misconduct. Ohio Civ.R. 11,
+
+which requires attorneys to certify that filings are well-grounded in fact and warranted by
+
+existing law, does not by its terms apply in appellate proceedings. App.R. 23 is limited to
+
+frivolous appeals. R.C. 2323.51 addresses frivolous conduct but may not encompass
+
+every dimension of the misconduct here. The inherent authority of the court fills these
+
+
+
+
+                                      PAGE 20 OF 65
+
+Case No. 2024-A-0040
+gaps and provides the necessary foundation for a comprehensive response to conduct
+
+that strikes at the very heart of the judicial process.
+
+       {¶54} As the Supreme Court recognized in Chambers, the inherent power is
+
+“‘particularly appropriate when the offending parties have practiced a fraud upon the
+
+court.’” 501 U.S. at 44, quoting NASCO, Inc., 124 F.R.D. at 139. The submission of
+
+fabricated transcript quotations to an appellate court is precisely such conduct. It is not
+
+merely negligent; it is an assault on the integrity of the appellate process, which depends
+
+entirely upon the fidelity of the record and the candor of counsel.
+
+                                    II. THE VIOLATIONS
+
+       {¶55} This court finds, based upon respondent’s admissions and the record before
+
+this court, that respondent’s conduct constitutes the following violations:
+
+A. Prof.Cond.R. 3.3(a)(1): Candor Toward the Tribunal – False Statements of Fact
+
+       {¶56} Prof.Cond.R. 3.3(a)(1) provides that a lawyer shall not knowingly “make a
+
+false statement of fact or law to a tribunal or fail to correct a false statement of material
+
+fact or law previously made to the tribunal by the lawyer. . . .” Respondent submitted an
+
+application to reopen containing fabricated quotations attributed to the prosecutor—
+
+statements that never occurred during closing argument or at any point in the trial
+
+proceedings. These quotations were presented to this court as verbatim excerpts from
+
+the trial transcript. They were not verifiable, and respondent admitted they were
+
+hallucinations. They were the fabricated output of a generative AI tool.
+
+       {¶57} While respondent contends he did not knowingly submit false statements,
+
+the rule also imposes a duty to correct. After movant identified the fabrications in its
+
+motion for sanctions, respondent neither withdrew the application nor filed an amended
+
+
+
+                                        PAGE 21 OF 65
+
+Case No. 2024-A-0040
+version correcting the false statements. The failure to correct, after being put on notice of
+
+the materiality and falsity, is itself a violation of Prof.Cond.R. 3.3(a)(1). Moreover,
+
+respondent’s subsequent appeal of this court’s denial to the Supreme Court of Ohio—
+
+without disclosing the fabricated nature of certain material aspects of the underlying
+
+filing—compounded the violation by perpetuating the uncorrected false statements before
+
+a higher tribunal. The distinction respondent draws between knowing falsity and negligent
+
+failure to verify is not persuasive. Prof.Cond.R. 3.3(a)(1) imposes not only a prohibition
+
+on knowingly making false statements but also an affirmative duty to correct false
+
+statements previously made to the tribunal. Once movant identified the fabricated
+
+quotations in its reply brief and motion for sanctions, respondent was on actual notice that
+
+his filing contained false statements of material fact. At that point, the duty to correct
+
+attached irrespective of respondent’s state of mind at the time of the original filing.
+
+Respondent cannot reasonably contend that movant’s identification of the fabrications
+
+relieved him of his own independent obligation to correct the record. The duty to correct
+
+is personal to the attorney who made the false statement; it cannot be discharged
+
+vicariously through an adversary’s filing.
+
+B. Prof.Cond.R. 3.3(a)(3): Offering False Evidence
+
+       {¶58} Prof.Cond.R. 3.3(a)(3) prohibits a lawyer from offering evidence the lawyer
+
+knows to be false. The fabricated transcript quotations were offered as evidence of
+
+ineffective assistance of appellate counsel and prosecutorial misconduct. They purported
+
+to be direct quotations from the record of proceedings. They were, in substance and
+
+effect, fabricated evidence. Movant aptly characterized the conduct as “the equivalent of
+
+fabricated evidence being provided to this Court, quotes that were not in the record, that
+
+
+
+                                       PAGE 22 OF 65
+
+Case No. 2024-A-0040
+claim to have been in the record.” T.p. 4. Even assuming respondent did not know the
+
+quotations were false at the time of filing, his continued failure to withdraw or correct the
+
+false evidence after learning of its falsity satisfies the rule’s requirements. An attorney
+
+who learns that evidence he has offered to a tribunal is false has a duty to take reasonable
+
+remedial measures, including disclosure to the tribunal. Prof.Cond.R. 3.3(a)(3) must be
+
+read in conjunction with the remedial obligations imposed by the rule as a whole.
+
+Respondent’s post-notice inaction converted what might have been an innocent initial
+
+submission into a sustained offering of evidence he knew, or by then had every reason
+
+to know, was false.
+
+C. Prof.Cond.R. 1.1: Competence
+
+       {¶59} Prof.Cond.R. 1.1 requires a lawyer to “provide competent representation to
+
+a client,” which requires “the legal knowledge, skill, thoroughness, and preparation
+
+reasonably necessary for the representation.” Competence in the modern legal landscape
+
+requires an attorney to understand the tools he or she employs in the practice of law,
+
+including artificial intelligence tools. An attorney who uses AI in the preparation of legal
+
+filings must understand the technology sufficiently to recognize its limitations, including
+
+the well-documented tendency of generative AI platforms to produce hallucinated content.
+
+       {¶60} Respondent’s counsel conceded that respondent understood the distinction
+
+between public and proprietary AI tools and was on the “forefront of technology in this
+
+area.” T.p. 10. Yet respondent failed to verify the AI-generated content against the actual
+
+trial transcript—a fundamental act of professional diligence to which respondent’s counsel
+
+admitted. Counsel’s candid concession that respondent “personally check[s] each and
+
+every quote to the transcript and each and every quote to the case law” in current practice
+
+
+
+                                       PAGE 23 OF 65
+
+Case No. 2024-A-0040
+(T.p. 17) constitutes a tacit acknowledgment that he was not performing this basic
+
+verification prior to the misconduct in this case. Competence under Prof.Cond.R. 1.1 is
+
+not measured solely by an attorney’s general track record; it requires the knowledge, skill,
+
+thoroughness, and preparation reasonably necessary for each particular representation.
+
+The filing at issue was not a minor oversight in a routine matter. By his own admission,
+
+via counsel, respondent “screwed up.” It was an application to reopen a final appellate
+
+judgment in a criminal case—a proceeding with significant consequences for the
+
+appellant and the integrity of the appellate process. An attorney who delegates the
+
+preparation of such a filing to a non-attorney, permits the use of a tool known to fabricate
+
+content, and then fails to verify the output against the actual record has not provided the
+
+thoroughness and preparation that is demanded under the law and rules of professional
+
+conduct. That respondent now verifies each quotation personally is a welcome reform,
+
+but it is also an admission that his prior practice fell below the standard of competence
+
+required under the rules of professional conduct.
+
+D. Prof.Cond.R. 5.3: Responsibilities Regarding Nonlawyer Assistance
+
+       {¶61} Prof.Cond.R. 5.3 requires a lawyer who has direct supervisory authority
+
+over a nonlawyer to “make reasonable efforts to ensure that the [nonlawyer’s] conduct is
+
+compatible with the professional obligations of the lawyer. . . .” Respondent admitted that
+
+a non-attorney paralegal prepared the application to reopen. Respondent admitted that
+
+the paralegal uploaded case materials to ChatGPT, a public generative AI tool, in
+
+contravention of respondent’s own stated policy. Respondent’s failure to adequately
+
+supervise the paralegal’s work product and to verify the accuracy of the filing before
+
+submission constitutes a failure to fulfill his supervisory responsibilities under
+
+
+
+                                      PAGE 24 OF 65
+
+Case No. 2024-A-0040
+Prof.Cond.R. 5.3. That rule provides guidance for “responsibilities regarding nonlawyer
+
+assistants.”
+
+       {¶62} The delegation of the preparation of an appellate filing to a paralegal,
+
+without meaningful review, raises additional concerns under the foregoing rule. The
+
+preparation of an application to reopen a criminal appeal requires legal analysis,
+
+knowledge of appellate standards, familiarity with the trial record, and the exercise of legal
+
+judgment. While paralegals may assist attorneys in the preparation of filings, the
+
+substantive legal work and the ultimate responsibility for the accuracy and propriety of the
+
+filing remain with the attorney. An attorney’s obligation under Prof.Cond.R. 5.3 cannot be
+
+satisfied by a general directive not to use certain AI tools; it requires active supervision
+
+and meaningful review of work product. The existence of a policy, standing alone, does
+
+not satisfy the supervisory obligation imposed by Prof.Cond.R. 5.3. The rule requires
+
+reasonable efforts to ensure that the nonlawyer’s conduct is compatible with the lawyer’s
+
+professional obligations. A policy that is neither monitored nor enforced is no policy at all.
+
+Moreover, respondent’s obligation was not limited to issuing directives; it extended to
+
+reviewing the work product generated under his supervision before filing it with a court.
+
+This court does not require attorneys to redo all delegated work, but it does require them
+
+to review filings that bear the attorneys’ signatures and are submitted to a court under
+
+penalty of perjury—particularly filings that attribute specific quotations to identifiable
+
+individuals. The standard is meaningful review, not blind ratification.
+
+E. Prof.Cond.R. 8.4(c): Dishonesty, Fraud, Deceit, or Misrepresentation
+
+       {¶63} Prof.Cond.R. 8.4(c) provides that it is professional misconduct for a lawyer
+
+to “engage in conduct involving dishonesty, fraud, deceit, or misrepresentation. . . .” The
+
+
+
+                                       PAGE 25 OF 65
+
+Case No. 2024-A-0040
+submission of fabricated transcript quotations to this court constitutes misrepresentation,
+
+regardless of whether respondent personally authored the false statements or was aware
+
+of their falsity at the time of filing. An attorney who signs and files a document containing
+
+fabricated content has made a representation to the court that the content is accurate and
+
+reliable. Respondent’s signature on the application and accompanying affidavit was his
+
+personal assurance to this court that the statements contained therein were truthful. They
+
+were not. This court does not hold that negligent failure to verify, standing alone,
+
+constitutes dishonesty or fraud. However, the analysis does not end with the initial filing.
+
+When respondent was put on notice that the filing contained fabricated quotations and
+
+thereafter took no corrective action—and indeed pursued an appeal of the denial to the
+
+Supreme Court of Ohio without disclosing the infirmity—the conduct moved beyond mere
+
+negligence. An attorney who knows a representation to the court is false and allows it to
+
+stand has made that false representation on his or her own. The misrepresentation is not
+
+the initial filing in isolation; it is the continued assertion of the filing’s validity through
+
+silence and affirmative reliance upon it in subsequent proceedings.
+
+F. Prof.Cond.R. 8.4(d): Conduct Prejudicial to the Administration of Justice
+
+       {¶64} Prof.Cond.R. 8.4(d) prohibits a lawyer from engaging “in conduct that is
+
+prejudicial to the administration of justice. . . .” Respondent’s misconduct prejudiced the
+
+administration of justice in multiple respects. First, it required the movant to expend time
+
+and resources identifying and responding to fabricated allegations—time and resources
+
+that the Ashtabula County Prosecutor’s Office, as a publicly funded entity, could ill afford.
+
+Second, it required this court to devote substantial judicial resources to investigating the
+
+matter, conducting a hearing, ordering briefing, and adjudicating the sanctions
+
+
+
+                                        PAGE 26 OF 65
+
+Case No. 2024-A-0040
+proceeding—resources that would otherwise have been directed to the legitimate
+
+business of this court. Third, and most fundamentally, the submission of fabricated
+
+evidence to a court of law undermines public confidence in the integrity of the judicial
+
+system.
+
+       {¶65} As the movant’s counsel observed at the hearing, had the fabricated
+
+quotations not been detected, the result could have been “massively prejudicial to the
+
+administration” of justice. T.p. 22. While this court confirms, dis-confirms, and cross-
+
+references all cited sources, the movant’s statements are still of significant import. The
+
+integrity of the appellate process depends upon the accuracy of the record and the candor
+
+of counsel. When either is compromised, the entire system is diminished. That the
+
+fabrications were detected does not diminish the prejudice to the administration of justice;
+
+it merely means the worst consequences were averted. The detection required the
+
+expenditure of significant resources by movant—32.1 documented hours of staff time—
+
+and by this court. The argument that the system “worked as intended” proves too much
+
+and only serves to further implicate respondent in misconduct. Neither this court nor
+
+movant should serve as a vetting body for another’s lack of diligence. If we were to follow
+
+such logic, no fraud upon the court could ever be sanctioned so long as the fraud was
+
+ultimately discovered. The harm to the administration of justice is not limited to the
+
+outcome of the underlying application; it includes the diversion of judicial and
+
+prosecutorial resources, the reputational harm to the individuals falsely accused, and the
+
+erosion of the court's ability to rely upon the representations of counsel. These harms
+
+materialized regardless of the application’s ultimate disposition.
+
+G. Failure to Take Corrective Action
+
+
+
+                                      PAGE 27 OF 65
+
+Case No. 2024-A-0040
+       {¶66} Separate and apart from the initial filing of the application containing
+
+fabricated quotations, this court finds that respondent’s failure to take corrective action
+
+after being notified of the errors constitutes an independent ground for sanctions.
+
+Respondent never withdrew or amended the application containing the false quotations—
+
+not after movant identified the fabrications, not after the show cause order, not after the
+
+hearing, and not at any point during the pendency of these proceedings. Courts across
+
+the country that have addressed AI-related misconduct have consistently recognized that
+
+voluntary correction is the single strongest mitigating factor in sanctions analysis. See,
+
+e.g., Mata v. Avianca, Inc., 678 F.Supp.3d 443, 461 (S.D.N.Y. 2023) (imposing
+
+heightened sanctions where attorneys doubled down on fabricated citations rather than
+
+immediately correcting the record). The absence of voluntary correction here aggravates
+
+the misconduct. The duty to correct a false statement to a tribunal is not excused by the
+
+adversary’s identification of the falsehood. The obligation is personal and independent.
+
+The court was aware of the fabrications through the motion for sanctions and its own
+
+confirmation. This does not relieve respondent of his duty to withdraw, amend, or
+
+otherwise correct the filing. An attorney who leaves a fabricated filing in the record of a
+
+court, uncorrected and unamended, has made a continuing representation that the filing
+
+is legitimate. The argument that withdrawal would have been “redundant” conflates and
+
+disregards an attorney’s duty and discounts the court’s awareness of the problem. These
+
+are distinct matters. Moreover, when respondent appealed to the Supreme Court of Ohio
+
+without correcting the record, the argument that correction was unnecessary because the
+
+issue was already before this court loses whatever force it might otherwise have had.
+
+Respondent was aware of the misstatements and proceeded without correction.
+
+
+
+                                      PAGE 28 OF 65
+
+Case No. 2024-A-0040
+H. Recurrence of AI-Related Errors: The Saker Filing
+
+       {¶67} While this court recognizes respondent’s contention that the Saker matter
+
+is beyond this court’s jurisdiction, the Saker filing is relevant to the sanctions
+
+determination in this case for two reasons. First, it bears directly on the sincerity and
+
+effectiveness of respondent’s self-imposed remedial measures. An attorney who
+
+represents to the court that he has implemented new policies and procedures to prevent
+
+AI-related errors, and then files a document in another court two months later containing
+
+a ChatGPT prompt embedded in the text of a legal filing, has demonstrated that his
+
+remedial measures are ineffective. Second, the Saker filing is relevant to this court’s
+
+assessment of whether additional, court-imposed safeguards are necessary to protect
+
+the judicial system from future harm.
+
+       {¶68} This court does not adjudicate respondent’s conduct in the Saker matter,
+
+and respondent’s rights in that proceeding are unaffected by this order. However, the
+
+relevance of the Saker filing to the sanctions determination in this case is straightforward:
+
+respondent represented to this court that he had implemented remedial measures to
+
+prevent the recurrence of AI-related errors. The Saker filing, which respondent himself
+
+acknowledged, is probative of whether those representations were accurate and whether
+
+the self-imposed measures were effective. A court is entitled to consider the credibility
+
+and effectiveness of an attorney’s professed remedial measures when determining the
+
+appropriate scope of sanctions. This is not an adjudication of the Cuyahoga County
+
+matter; it is an assessment of respondent’s credibility and the adequacy of his corrective
+
+actions in this case, and consideration of the Saker filing as evidence of a continuing
+
+
+
+
+                                        PAGE 29 OF 65
+
+Case No. 2024-A-0040
+pattern relevant to the nature and scope of sanctions warranted here. Respondent was
+
+afforded the opportunity to brief this issue and did so; due process does not require more.
+
+               III. THE COURT’S INDEPENDENT OBLIGATION TO ACT
+
+A. The Court Is Not Bound by a Private Settlement Agreement
+
+       {¶69} The parties’ settlement agreement resolves the movant’s claim for attorney
+
+fees. It does not, and cannot, resolve the court’s independent interest in maintaining the
+
+integrity of the proceedings before it. A court’s authority to sanction misconduct is not
+
+merely a remedy available to aggrieved parties; it is an exercise of the court’s inherent
+
+power to protect the judicial process itself. The interests at stake transcend the interests
+
+of the litigants. Private parties cannot, by agreement, divest a court of its obligation to
+
+address conduct that undermines the administration of justice. See Great Am. Life Ins.
+
+Co., 2015 WL 13928758, at *2 (an appellate court possesses inherent powers derived
+
+not from rules or statutes to impose proper sanctions for conduct abusing the judicial
+
+process).
+
+       {¶70} This principle is well established. In Chambers, the Supreme Court
+
+recognized that the inherent power to sanction includes the ability to act sua sponte—that
+
+is, on the court’s own initiative—to address conduct that abuses the judicial process. 501
+
+U.S. at 43-45. The withdrawal of movant’s sanctions motion does not extinguish this
+
+court’s independent authority to act. The settlement agreement resolved movant’s
+
+particularized claim for attorney fees. It did not, and could not, address the court’s
+
+independent institutional interests. Settlements are designed to achieve finality between
+
+the parties to the agreement; they do not bind non-parties, and the court is not a party to
+
+the settlement. Nor does the referral to the Office of Disciplinary Counsel render this
+
+
+
+                                      PAGE 30 OF 65
+
+Case No. 2024-A-0040
+court’s sanctions redundant. The disciplinary process may take months or years to
+
+conclude, and its outcome is uncertain. If courts routinely deferred to the disciplinary
+
+process whenever misconduct implicated the Rules of Professional Conduct, the court
+
+before which the fraud was perpetrated—the institution most immediately harmed—would
+
+be left without a timely remedy. The sanctions imposed here address the immediate harm
+
+to these proceedings; the disciplinary referral addresses respondent’s broader fitness to
+
+practice. See, e.g., Warren Cty. Bar Assn. v. Marshall, 2009-Ohio-501, ¶ 19 (“[t]he primary
+
+purpose of the disciplinary process is to protect the public from lawyers who are unworthy
+
+of the trust and confidence essential to the attorney-client relationship and to allow us to
+
+ascertain the lawyer’s fitness to practice law”). These are distinct functions requiring
+
+distinct action.
+
+B. The Court Must Not Defer Solely to the Disciplinary Process
+
+       {¶71} Respondent suggests, implicitly if not explicitly, that professional discipline
+
+is more appropriately administered through the Supreme Court of Ohio’s disciplinary
+
+process. While this court recognizes the vital role of the disciplinary system and, as
+
+discussed below, refers respondent’s conduct to the Office of Disciplinary Counsel for
+
+investigation, deference to the disciplinary process does not relieve this court of its own
+
+responsibilities.
+
+       {¶72} The disciplinary process and the court’s sanctioning authority serve distinct
+
+functions. The disciplinary process addresses an attorney’s fitness to practice law. The
+
+court’s sanctioning authority protects the integrity of the proceedings before it,
+
+compensates parties harmed by misconduct, deters future misconduct, and vindicates
+
+the court’s authority. These functions are complementary, not mutually exclusive.
+
+
+
+                                      PAGE 31 OF 65
+
+Case No. 2024-A-0040
+       {¶73} If courts were to defer routinely to the disciplinary process whenever
+
+attorney misconduct implicated the Rules of Professional Conduct, the practical result
+
+would be to leave the immediate harm unaddressed. Disciplinary proceedings are, by
+
+design, deliberative processes that may take months or years to resolve. Meanwhile, the
+
+court before which the misconduct occurred—the court that was directly deceived—would
+
+remain powerless to address the harm. This court will not abdicate its responsibility to
+
+safeguard the integrity of its own proceedings.
+
+       {¶74} The disciplinary process, however vital, cannot perform the functions that
+
+only this court can perform. The Office of Disciplinary Counsel cannot vindicate the
+
+authority of this court. It cannot restore the integrity of this court’s record. It cannot remedy
+
+the reputational harm inflicted upon the trial prosecutor, the defense attorney at trial, the
+
+trial judge, and prior appellate counsel by fabricated allegations filed in this court’s
+
+proceedings. It cannot deter future misconduct before this court, especially where this
+
+court has the authority to act where its processes are abused. It cannot ensure that filings
+
+submitted to this court are accurate and reliable. These are obligations that belong to this
+
+court alone, arising from its constitutional role as a court of record vested with the judicial
+
+power of this state. If this court does not act to protect the integrity of its own proceedings,
+
+no other court, agency, or authority can do so in its stead. The question is not whether
+
+the disciplinary system exists-it does, and this court invokes it. The question is whether
+
+this court will fulfill its own independent obligation to safeguard the judicial process.
+
+Abdication of that obligation, in deference to a process that serves a different purpose,
+
+would itself be a failure of judicial duty and function to silently ratify misconduct that cannot
+
+be effectively addressed via the disciplinary process alone.
+
+
+
+                                         PAGE 32 OF 65
+
+Case No. 2024-A-0040
+       {¶75} Moreover, courts that have addressed AI-related misconduct have
+
+consistently exercised their sanctioning authority directly, imposing monetary sanctions,
+
+requiring corrective measures, striking filings, and referring the matter for disciplinary
+
+investigation. See, e.g., Mata, 678 F.Supp.3d 443; Wadsworth v. Walmart, Inc., 348
+
+F.R.D. 489 (D.Wyo. 2025); United States v. Hayes, 763 F.Supp.3d 1054 (E.D.Cal. 2025);
+
+In re Baby Boy, 271 N.E.3d 524 (Ill.App. 2025). These courts did not abdicate their
+
+authority to the disciplinary system. Neither shall this court.
+
+C. The Emerging Crisis of AI Misconduct Demands Judicial Engagement
+
+       {¶76} This court writes at an inflection point in the legal profession. The rapid
+
+proliferation of generative artificial intelligence tools has created a crisis of integrity in the
+
+courts. Across the country, courts at every level—federal and state, trial and appellate—
+
+have confronted cases involving the submission of AI-generated fabricated legal
+
+authorities and evidence. These cases have arisen with alarming frequency and show no
+
+signs of abating.
+
+       {¶77} The phenomenon is not merely a technological curiosity. It strikes at the
+
+foundation of the adversarial system, which depends upon the assumption that the legal
+
+authorities and evidence cited by counsel are real and the factual representations made
+
+to the court are accurate. When that assumption is violated—whether through intentional
+
+fabrication or reckless reliance on AI-generated content—the entire system is
+
+compromised.
+
+       {¶78} Courts that fail to respond to AI misconduct with appropriate sanctions send
+
+a dangerous message: that the submission of fabricated content carries no meaningful
+
+consequences. This court will not contribute to that message. The sanctions imposed
+
+
+
+                                         PAGE 33 OF 65
+
+Case No. 2024-A-0040
+herein are intended not only to address the specific misconduct in this case, but to serve
+
+as a clear signal to members of the bar that AI-related misconduct will be taken seriously
+
+by this court and, this court hopes, by courts throughout the State of Ohio.
+
+                           IV. GOOD FAITH OR BAD FAITH
+
+       {¶79} Under Chambers, 501 U.S. 32, and its progeny, the imposition of sanctions
+
+under a court’s inherent authority requires, at minimum, a finding of bad faith, vexatious
+
+conduct, or willful abuse of the judicial process. Roadway Express, 447 U.S. at 766.
+
+       {¶80} Respondent contends he acted in good faith—that his failure to detect the
+
+fabricated quotations was an honest mistake, albeit a serious one. This court has
+
+considered respondent’s argument carefully and determines that the totality of the
+
+circumstances demonstrates, at minimum, a reckless disregard for the truth amounting
+
+to bad faith.
+
+       {¶81} Several factors support this conclusion. First, respondent was not ignorant
+
+of AI’s limitations. His own counsel conceded at the hearing that respondent was
+
+sophisticated in his understanding of AI tools. An attorney who understands the risks of
+
+AI hallucination and nonetheless permits unverified AI-generated content to be filed in an
+
+appellate court acts with a degree of recklessness that transcends mere negligence.
+
+       {¶82} Second, the nature of the fabricated content is significant. The application
+
+did not merely cite a questionable legal proposition or misstate a procedural standard. It
+
+attributed specific, inflammatory statements to a real person—the trial prosecutor—that
+
+that person never made. This is not the kind of error that results from good-faith
+
+carelessness; it is the kind of error that results from a failure to perform the most basic
+
+verification of the assertions being made to the court.
+
+
+
+                                      PAGE 34 OF 65
+
+Case No. 2024-A-0040
+       {¶83} Third, respondent’s failure to take corrective action after being put on notice
+
+of the fabrications further undercuts any claim of good faith. A good-faith actor, upon
+
+learning that a filing contains fabricated quotations, would immediately move to withdraw
+
+the application or amend the filing. Respondent did neither. He did not withdraw the
+
+application. He did not file an amended version. He did not notify this court that the filing
+
+was infirm. Instead, he allowed the fabricated filing to remain in the record of this court
+
+without correction.
+
+       {¶84} Fourth, respondent’s conduct before the Supreme Court of Ohio is among
+
+the most telling indicators of bad faith. After this court denied the application to reopen—
+
+an application respondent knew or should have known was predicated on AI-generated
+
+fabrications—respondent appealed the denial to the Supreme Court. In doing so,
+
+respondent did not withdraw the fabricated filing, did not amend the false representations,
+
+and did not inform the Supreme Court that the application, the denial of which he was
+
+challenging, had been, in significant part, built upon hallucinated transcript quotations.
+
+This was not the conduct of an attorney who had made an innocent mistake and was
+
+eager to correct the record. This was the conduct of an attorney who, having been caught
+
+submitting fabricated evidence to one court, sought to leverage the same fabricated filing
+
+before a higher court without disclosure. The doubling down on a filing known to contain
+
+false representations is fundamentally inconsistent with good faith.
+
+       {¶85} Fifth, the subsequent Saker filing demonstrates that respondent’s professed
+
+commitment to preventing future AI errors was not matched by his actual practice. The
+
+inclusion of a ChatGPT prompt in a court filing—two months after a sanctions hearing in
+
+
+
+
+                                       PAGE 35 OF 65
+
+Case No. 2024-A-0040
+this court addressing the very same conduct—suggests that respondent has not
+
+internalized the gravity of his obligations.
+
+       {¶86} The AI policy submitted to this court bore the hallmarks of AI generation,
+
+complete with unfilled bracketed placeholders where the attorney’s own firm-specific
+
+information should have appeared. An attorney who submits an AI-generated AI policy as
+
+evidence of his commitment to responsible AI use—without even completing the
+
+template’s placeholder fields—has not demonstrated a genuine commitment to reform.
+
+       {¶87} This court therefore finds that respondent’s conduct is contemptuous and
+
+committed in violation of Civ.R. 11 and was committed willfully or with reckless disregard
+
+for his professional obligations, constituting bad faith sufficient to warrant sanctions under
+
+the court’s inherent and contempt authority, as well as Civ.R. 11.
+
+                                      V. SANCTIONS
+
+       {¶88} In fashioning sanctions, this court is guided by the principle that sanctions
+
+must be proportionate to the misconduct, tailored to address the specific harms caused,
+
+and designed to serve the purposes for which the court’s sanctioning authority exists: to
+
+compensate for harm, to deter future misconduct, to punish bad faith conduct, to protect
+
+the integrity of the judicial process, and to preserve public confidence in the administration
+
+of justice. The court also considers respondent’s admissions, his expressions of remorse,
+
+and the mitigating factors he has raised. Each sanction imposed serves a distinct purpose
+
+and addresses a distinct dimension of respondent’s misconduct. The monetary sanction
+
+is compensatory. The referral to the Office of Disciplinary Counsel fulfills this court’s
+
+mandatory reporting obligation. The notification requirement ensures that courts before
+
+which respondent appears can exercise informed oversight. The certification requirement
+
+
+
+                                        PAGE 36 OF 65
+
+Case No. 2024-A-0040
+formalizes duties that every attorney already bears. The CLE requirement addresses the
+
+knowledge deficiencies that gave rise to the misconduct. The striking of the application
+
+protects the integrity of the court’s records. The removal of counsel protects Mr.
+
+Coleman’s right to effective representation. The apology letters address the reputational
+
+harm to individuals falsely accused. No single sanction, standing alone, would adequately
+
+address the full scope of the misconduct. The certification and notification requirements
+
+impose no burden beyond transparency—a burden that is a direct and proportionate
+
+consequence of respondent’s demonstrated inability to ensure the accuracy of his filings
+
+without external accountability.
+
+       {¶89} This court imposes the following sanctions:
+
+A. Monetary Sanction: $2,000 Fine, With Credit for $2,000 Already Paid
+
+       {¶90} Respondent shall pay a monetary sanction in the amount of $2,000.
+
+Respondent shall receive credit for the $2,000 payment already made to the Ashtabula
+
+County Prosecutor’s Office pursuant to the parties’ settlement agreement.
+
+       {¶91} While the settlement payment satisfies the monetary component of this
+
+sanction, this court emphasizes that the payment is credited against the court’s
+
+independently imposed sanction—it does not serve as a substitute for it. The court’s
+
+authority to levy a monetary sanction exists independent of, and is not extinguished by,
+
+the parties’ private agreement. This court imposes the sanction to establish, as a matter
+
+of precedent, that courts possess and will exercise the inherent authority to impose
+
+monetary sanctions for AI-related misconduct that constitutes bad faith abuse of the
+
+judicial process. The amount imposed is compensatory in nature, well within the range of
+
+documented costs incurred by       movant and this court in addressing respondent’s
+
+
+
+                                     PAGE 37 OF 65
+
+Case No. 2024-A-0040
+misconduct—movant alone documented 32.1 hours of staff time devoted to the matter—
+
+and is proportionate to the sanctions imposed by courts across the country in comparable
+
+AI-related cases. See, e.g., Wadsworth, 348 F.R.D. at 499 ($3,000 and $1,000 fines);
+
+Mata, 678 F.Supp.3d at 466 ($5,000 penalty jointly and severally imposed); Mid Central
+
+Operating Engineers Health & Welfare Fund v. HoosierVac, 2025 WL 574234 (S.D.Ind.
+
+2025) ($15,000 sanction). That respondent owes no additional payment as a practical
+
+matter does not diminish the significance of this court’s exercise of its sanctioning
+
+authority.
+
+       {¶92} This court recognizes that Haeger, 581 U.S. at 107-108, counsels that
+
+inherent-authority sanctions should be compensatory rather than punitive. The $2,000
+
+amount is well within the range of documented costs incurred by movant and this court in
+
+addressing respondent’s misconduct and is therefore compensatory in nature.
+
+B. Referral to the Office of Disciplinary Counsel
+
+       {¶93} This court refers respondent’s conduct to the Office of Disciplinary Counsel
+
+of the Supreme Court of Ohio (ODC) for investigation. In fact, informing ODC is
+
+mandatory. Prof.Cond.R. 8.3(a) (“[a] lawyer who possesses unprivileged knowledge of a
+
+violation of the Ohio Rules of Professional Conduct that raises a question as to any
+
+lawyer’s honesty, trustworthiness, or fitness as a lawyer in other respects, shall inform a
+
+disciplinary authority empowered to investigate or act upon such a violation”). The
+
+conduct described in this judgment entry implicates multiple provisions of the Ohio Rules
+
+of Professional Conduct, including Prof.Cond.R. 1.1 (competence), Prof.Cond.R.
+
+3.3(a)(1) and (a)(3) (candor toward the tribunal), Prof.Cond.R. 5.3 (responsibilities
+
+regarding nonlawyer assistance), Prof.Cond.R. 8.4(c) (dishonesty, fraud, deceit, or
+
+
+
+                                      PAGE 38 OF 65
+
+Case No. 2024-A-0040
+misrepresentation), and Prof.Cond.R. 8.4(d) (conduct prejudicial to the administration of
+
+justice).
+
+          {¶94} As discussed above, this court’s imposition of sanctions and the disciplinary
+
+process serve complementary functions. They serve different purposes and have different
+
+burdens of proof (for the disciplinary process: clear and convincing evidence). The
+
+disciplinary system is uniquely positioned to assess respondent’s fitness to practice law,
+
+to investigate whether this conduct is part of a broader pattern, and to impose the full
+
+range of disciplinary measures available under the Supreme Court Rules for the
+
+Government of the Bar of Ohio. This referral is not a disposition on the merits; it is a
+
+notification to the appropriate authority that conduct warranting investigation has been
+
+identified by a court before which the respondent practiced.
+
+          {¶95} The administrator of this court shall send a copy of this judgment entry, with
+
+a notation of referral, to the Office of Disciplinary Counsel via electronic mail upon its
+
+filing.
+
+C. Service Upon Courts and Judges for Two Years
+
+          {¶96} For a period of two years from the date of this judgment entry, respondent
+
+shall serve a copy of this judgment entry upon the presiding judge or administrative judge
+
+of every court in which respondent files a new appearance, enters a new case, or
+
+otherwise undertakes representation. Such service shall be made within 14 days of
+
+respondent’s first filing in each such court. Respondent shall file proof of such service
+
+with this court within seven days of serving each judge.
+
+          {¶97} This sanction serves multiple purposes. First, it ensures that courts before
+
+which respondent practices are informed of his prior misconduct and can exercise
+
+
+
+                                         PAGE 39 OF 65
+
+Case No. 2024-A-0040
+appropriate vigilance in reviewing his filings. Second, it serves a continuing deterrent
+
+function, requiring respondent to confront the consequences of his misconduct each time
+
+he enters a new case. Third, it protects the administration of justice by placing courts on
+
+notice of the potential for AI-related errors in respondent’s filings. Courts that have
+
+addressed comparable AI misconduct have imposed similar notification requirements.
+
+See, e.g., Mata, 678 F.Supp.3d at 466 (requiring attorneys to send copies of the sanctions
+
+order to judges falsely identified in fabricated citations); Hayes, 763 F.Supp.3d at 1073
+
+(ordering copies of order to all district and magistrate judges).
+
+D. Certification and Verification Requirements for Future Filings
+
+     {¶98}    For a period of two years from the date of this judgment entry, every filing
+
+submitted by respondent to any Ohio court shall include a signed certification that:
+
+              (a) all citations to legal authority contained in the filing have
+              been independently verified by the attorney of record as being
+              real, accurately quoted, and still valid;
+
+              (b) all quotations attributed to any person, transcript, or
+              document have been verified against the original source by
+              the attorney of record;
+
+              (c) all factual representations contained in the filing have been
+              verified by the attorney of record as having evidentiary
+              support in the record or other reliable source;
+
+              (d) to the extent any portion of the filing was drafted with the
+              assistance of a generative artificial intelligence tool, the
+              attorney of record has disclosed the use of such tool and has
+              independently verified all AI-generated content; and
+
+              (e) the attorney of record has personally reviewed the entire
+              filing for accuracy, completeness, and compliance with all
+              applicable rules.
+
+     {¶99}    This certification requirement is a prophylactic measure designed to prevent
+
+the recurrence of the very conduct at issue in this case. It imposes no burden beyond
+
+                                       PAGE 40 OF 65
+
+Case No. 2024-A-0040
+what every attorney should already be doing as a matter of professional obligation. The
+
+requirement merely formalizes and makes explicit the duty that respondent admittedly
+
+failed to fulfill.
+
+E. Mandatory Continuing Legal Education
+
+        {¶100} Within 150 days of the filing of this judgment entry, respondent shall
+
+complete no fewer than six hours of continuing legal education (“CLE”) specifically
+
+focused on the following topics: (a) the ethical use of artificial intelligence in the practice
+
+of law; (b) the professional responsibility implications of AI-generated content; (c) attorney
+
+supervision of nonlawyer assistants in the context of AI tools; and (d) candor toward the
+
+tribunal and the duty to verify filings. These CLE hours shall be in addition to, and not
+
+counted toward, respondent’s regular biennial CLE requirements.
+
+        {¶101} Respondent shall file proof of completion with this court within seven days
+
+of completing the required CLE. Respondent’s counsel indicated at the August 28, 2025
+
+hearing that respondent had voluntarily completed some CLE courses related to AI. While
+
+this court acknowledges and credits respondent’s voluntary efforts, the CLE required by
+
+this order is a separate, mandatory obligation that must be fulfilled in its entirety.
+
+        {¶102} Courts across the country have recognized the value of mandatory CLE as
+
+a component of AI-related sanctions. See, e.g., In re Rodney Richburg, 671 B.R. 918,
+
+926 (Bankr.D.S.C. 2025) (ordering three hours of CLE on AI ethics). The educational
+
+component of sanctions serves the dual purpose of remediation—ensuring that the
+
+sanctioned attorney possesses the knowledge necessary to use AI responsibly—and
+
+deterrence—signaling to the profession that courts take AI competence seriously.
+
+F. Striking of the Application to Reopen
+
+
+
+                                        PAGE 41 OF 65
+
+Case No. 2024-A-0040
+       {¶103} The application to reopen filed by respondent on May 19, 2025, is hereby
+
+stricken from the record of this court. The filing contains fabricated quotations that
+
+constitute false representations to this court. It should not remain in the record as though
+
+it were a legitimate legal filing. While this court has already denied the application on the
+
+merits, the striking of the filing serves the additional purpose of ensuring that the
+
+fabricated content is formally repudiated and does not remain as part of the permanent
+
+record of this case without notation of its infirmity.
+
+       {¶104} Striking filings that contain AI-generated fabrications is a recognized
+
+sanction in AI-related misconduct cases. See, e.g., In re Will of Samuel, 82 Misc.3d 616,
+
+626 (N.Y.Surr. 2024) (striking pleading containing AI-generated fabricated cases);
+
+Powhatan County School Board v. Skinger, 2025 WL 1559593, *11 (E.D.Va. June 2,
+
+2025) (striking filings under the court’s inherent authority). The integrity of the court’s
+
+records demands that filings containing known fabrications be treated accordingly.
+
+G. Removal of Respondent as Counsel for Malikhi Jermaine Coleman
+
+       {¶105} Respondent is hereby removed as counsel for Malikhi Jermaine Coleman
+
+in this case and in any related proceedings. Respondent shall take no further action on
+
+behalf of Mr. Coleman in this court.
+
+       {¶106} This sanction is warranted for several reasons. First, respondent’s
+
+misconduct was committed in the course of his representation of Mr. Coleman. The filing
+
+that formed the basis of this sanctions proceeding was submitted on Mr. Coleman’s
+
+behalf, and the fabricated quotations were used to support allegations of prosecutorial
+
+misconduct in Mr. Coleman’s criminal case. Mr. Coleman is the direct victim of
+
+respondent’s incompetence: his application to reopen was denied because the
+
+
+
+                                        PAGE 42 OF 65
+
+Case No. 2024-A-0040
+allegations of prosecutorial misconduct, which formed a significant basis of the
+
+application, were premised on fabricated evidence. A defendant’s right to counsel of
+
+choice, while significant, is not absolute, more so, in the case of counsel selected or
+
+appointed by the court for the benefit of the defendant and paid at public expense. It must
+
+yield when the attorney’s continued representation would undermine the integrity of the
+
+proceedings or create a conflict between the attorney’s interests and the client’s interests.
+
+Here, respondent’s misconduct was committed in the course of Mr. Coleman’s
+
+representation, and respondent has been sanctioned for that very misconduct.
+
+Respondent now faces potential disciplinary proceedings arising from his conduct in Mr.
+
+Coleman’s case. The resulting conflict between respondent’s personal interest in
+
+minimizing the consequences of his own misconduct and Mr. Coleman’s interest in
+
+vigorous, unconflicted representation is apparent. This court’s concern is not hypothetical:
+
+Mr. Coleman’s application to reopen was denied because its substantive core was
+
+fabricated. Mr. Coleman was the person most directly harmed by respondent’s
+
+incompetence. Continuity of counsel cannot outweigh the right to counsel unburdened by
+
+the consequences of prior misconduct in the very same proceeding.
+
+       {¶107} Second, the continued representation of Mr. Coleman by an attorney who
+
+has been sanctioned for misconduct committed in the very case in which he serves as
+
+counsel presents an irreconcilable conflict. Mr. Coleman is entitled to effective legal
+
+representation, and this court cannot have confidence that respondent will provide such
+
+representation given the circumstances. The integrity of Mr. Coleman’s legal interests
+
+requires that he be represented by counsel who has not been sanctioned for misconduct
+
+in this very proceeding.
+
+
+
+                                       PAGE 43 OF 65
+
+Case No. 2024-A-0040
+       {¶108} Third, the removal of counsel in the context of AI-related misconduct is
+
+consistent with the approach taken by other courts. See, e.g., Mavy v. Commr. of Social
+
+Sec., 2025 WL 2355222, *10 (D.Ariz. Aug. 14, 2025), opinion vacated in part on
+
+reconsideration, 2026 WL 91483 (D.Ariz. Jan. 13, 2026) (revoking pro hac vice status on
+
+a specific case for AI-related misconduct); Wadsworth, 348 F.R.D. at 499 (revoking pro
+
+hac vice admission after multiple fabricated AI citations). While this court’s removal of
+
+respondent as counsel is more limited in scope than revocation of bar admission, it is an
+
+appropriate and proportionate response to the misconduct committed in this specific case.
+
+       {¶109} Nothing in this order prevents Mr. Coleman from retaining new counsel or
+
+from pursuing any remedies to which he may be entitled, including but not limited to a
+
+new application to reopen supported by legitimate, verified legal authority. The new
+
+application to reopen shall be filed within 90 days of the filing of this judgment entry.
+
+       {¶110} Respondent shall, within 14 days of the filing of this judgment entry, serve
+
+a copy of this order upon Mr. Coleman, together with a written explanation, in plain and
+
+understandable language, of the nature of respondent’s misconduct and the reasons
+
+respondent has been removed as Mr. Coleman’s counsel. Respondent shall inform Mr.
+
+Coleman that he has the right to retain new counsel or to proceed pro se and shall provide
+
+Mr. Coleman with the contact information for the Ohio Public Defender’s Office and the
+
+Ashtabula County Public Defender’s Office. Respondent shall file proof of such service
+
+and communication with this court within seven days of effectuating the same.
+
+H. Written Apologies to Persons Defamed by the Fabricated Filing
+
+       {¶111} The fabricated quotations contained in the application to reopen were not
+
+abstract falsehoods. They attributed specific, inflammatory, and unprofessional
+
+
+
+                                       PAGE 44 OF 65
+
+Case No. 2024-A-0040
+statements to a real prosecutor—the Ashtabula County trial prosecutor, Dawn
+
+Catalamessa, who conducted the closing argument in the underlying criminal case. Those
+
+fabricated statements, if credited, would have constituted evidence of serious
+
+professional misconduct by the prosecutor, potentially subjecting the prosecutor to
+
+disciplinary investigation, professional embarrassment, and reputational harm.
+
+         {¶112} The fabricated quotations also necessarily impugned the integrity of the trial
+
+judge, Judge Thomas E. Harris, who presided over Mr. Coleman’s trial. By alleging that
+
+the prosecutor made inflammatory, improper statements during closing argument, the
+
+application implicitly accused the trial judge of permitting such statements without
+
+correction, sustaining objection, or curative instruction—a failure that, if it had occurred,
+
+would itself constitute reversible error and a breach of the judge’s duty to ensure a fair
+
+trial.
+
+         {¶113} Additionally, the application’s claim of ineffective assistance of appellate
+
+counsel necessarily impugned prior trial counsel, Malcolm Stewart Douglas, and
+
+appellate counsel, Russell Bensing, by accusing trial counsel of failing to object so as to
+
+protect the defendant, and appellate counsel of failing to raise what would have been—
+
+had the fabricated quotations been real—an obvious and meritorious claim of
+
+prosecutorial misconduct and ineffective assistance of defense counsel on direct appeal.
+
+         {¶114} Respondent shall, within 30 days of the filing of this judgment entry, deliver
+
+written letters of apology to each of the following persons:
+
+                (a) the Ashtabula County trial prosecutor who conducted the
+                closing argument in State v. Coleman, for the false attribution
+                of inflammatory statements that the prosecutor never made;
+
+
+
+
+                                        PAGE 45 OF 65
+
+Case No. 2024-A-0040
+              (b) the trial court judge who presided over State v. Coleman,
+              for the implicit accusation that the judge permitted
+              uncorrected prosecutorial misconduct; and
+
+              (c) the trial attorney and prior appellate counsel for Mr.
+              Coleman on direct appeal, for the implicit accusations that
+              they collectively failed to object to, and thereafter raise, a
+              meritorious claim of prosecutorial misconduct.
+
+       {¶115} Each of the four letters shall acknowledge that the statements attributed to
+
+these individuals, or the professional failures attributed to these individuals, in the
+
+application to reopen were false, were generated by an artificial intelligence tool, and were
+
+filed without verification. Each letter shall be accompanied by a copy of this judgment
+
+entry. Respondent shall file copies of the letters and proof of delivery with this court within
+
+seven days of sending the letters.
+
+       {¶116} This sanction is not punitive in nature. It is restorative. The persons
+
+identified above were subjected to false allegations of professional misconduct through
+
+no fault of their own. They are owed an acknowledgment that the allegations were
+
+baseless. The integrity of the legal profession demands no less. The letters required by
+
+this order are not compelled expressions of personal contrition. They are corrective
+
+communications requiring respondent to acknowledge objective facts: that specific
+
+statements were falsely attributed to identifiable individuals, that those statements were
+
+generated by an artificial intelligence tool, and that they were filed without verification.
+
+Courts routinely require corrective disclosures as a remedial measure—including
+
+requirements to notify affected persons and tribunals of prior misrepresentations. Such
+
+requirements serve the legitimate interest of correcting the record and restoring the
+
+reputations of persons harmed by false statements submitted to a court. That the
+
+fabricated quotations were ultimately identified and not relied upon does not mean the
+
+                                        PAGE 46 OF 65
+
+Case No. 2024-A-0040
+individuals to whom inflammatory misconduct was attributed suffered no harm. The public
+
+filing of an application accusing a prosecutor of making statements she never made, a
+
+judge of tolerating misconduct that never occurred, and an attorney of failing to object to
+
+or raise an issue that did not exist, inflicts reputational harm the moment it enters the
+
+public record—harm that persists until it is formally corrected.
+
+                        VI. COMPLIANCE AND ENFORCEMENT
+
+       {¶117} Respondent shall comply fully and timely with each sanction imposed by
+
+this order. This court retains jurisdiction to enforce this order and to address any failure
+
+to comply.
+
+       {¶118} Failure to comply with any provision of this order may result in contempt
+
+proceedings pursuant to R.C. 2705.02 and this court’s inherent contempt authority.
+
+Contempt sanctions for noncompliance may include additional monetary fines,
+
+imprisonment, or both, as this court deems necessary to vindicate the authority of the
+
+court and to compel compliance.
+
+       {¶119} Respondent shall maintain a record of compliance with each provision of
+
+this order and shall, upon request by this court, produce such records for review.
+
+                 VII. POINTS ADDRESSING THE DISSENTS OBJECTIONS
+
+A. The Alleged “Adjudication of Professional Conduct Violations”
+
+       {¶120} The dissent characterizes the majority judgment as attempting to adjudicate
+
+alleged violations of the Rules of Professional Conduct. This is a Straw-Man argument.
+
+This judgment does not purport to discipline respondent under the Rules of Professional
+
+Conduct. It does not suspend his license, place him on probation under Gov.Bar R. V, or
+
+impose a sanction reserved solely to the Supreme Court of Ohio. This entry identifies
+
+
+
+                                       PAGE 47 OF 65
+
+Case No. 2024-A-0040
+standards of conduct respondent violated and, with this in mind, this court utilizes its
+
+inherent authority to impose sanctions due to the admitted violations.
+
+       {¶121} Every court that exercises inherent sanctioning authority articulates the
+
+foundation of an attorney’s wrongdoing in support of the sanctions. Identifying an
+
+attorney’s misconduct and proceeding to sanctions is not tantamount to a disciplinary
+
+proceeding. Courts, vindicating the integrity of the judicial process, commonly exercise
+
+this authority via disqualification, fee-shifting, and show-cause/contempt orders. There is
+
+a distinction between referencing the Rules of Professional Conduct and administering
+
+discipline under those rules. This judgment does the former, only the Supreme Court of
+
+Ohio can do the latter. See supra ¶ 71-73.
+
+B. Ohio Cases Support this Court’s Actions
+
+       {¶122} The dissent reads the case law cited by the majority too narrowly. The
+
+Supreme Court of Ohio’s holdings are not so limited.
+
+       {¶123} In Mentor Lagoons, 31 Ohio St.3d 256, the Court held that a trial court has
+
+the “‘inherent power to regulate the practice before it and protect the integrity of its
+
+proceedings,’” including the “‘“authority and duty to see to the ethical conduct of
+
+attorneys.”’” Id. at 259, quoting Royal Indemn. Co., 27 Ohio St.3d at 33-34, quoting Hahn,
+
+95 Wash.2d at 34. The Court emphasized that “[t]his power is distinct from the
+
+exclusive authority of the Supreme Court of Ohio over attorney disciplinary proceedings,
+
+and does not conflict with such power.” (Citation omitted.) Mentor Lagoons at 259-260.
+
+The dissent quotes this language but reads it as limiting a court’s authority to
+
+disqualification. The Supreme Court, however, did not limit the authority to
+
+
+
+
+                                      PAGE 48 OF 65
+
+Case No. 2024-A-0040
+disqualification—it described the authority as a general power, the use of which for
+
+disqualification is merely one application.
+
+       {¶124} Similarly, in Royal Indemn., the Court stated that “disciplinary proceedings,
+
+contempt sanctions[,] and court revocation of pro hac vice privileges are distinct, but not
+
+exclusive methods of addressing attorney misconduct,” and “the appropriateness of one
+
+is not dependent on the availability of the another.” Id. at 620. The dissent reads this as
+
+a mutually exclusive, closed list—three methods, no more. The Court’s point, however,
+
+was the opposite: Multiple avenues for addressing misconduct coexist without eliminating
+
+one another. The same observations can be attributed to the dissenting opinion’s
+
+characterization of the opinions in DiCuccio, 2018-Ohio-2320 (10th Dist.), and Gamble,
+
+2025-Ohio-2381 (12th Dist.). See supra ¶ 48-50.
+
+C. The Gov.Bar R. V Exclusivity Argument Proves Too Much
+
+       {¶125} The dissent additionally asserts that Gov.Bar R. V is “the exclusive
+
+mechanism for disciplining attorneys in Ohio” and the majority's approach usurps that
+
+framework. But if the identification of professional-conduct violations in the course of a
+
+sanctioning proceeding constitutes an unauthorized exercise of disciplinary authority,
+
+then no Ohio court could articulate the basis for a contempt finding, a disqualification
+
+order, or a frivolous-conduct fee award in any case where the misconduct at issue also
+
+implicates the Rules of Professional Conduct. See supra at ¶ 44-46.
+
+       {¶126} Further, and significantly, the sanctions imposed in this matter are not
+
+disciplinary sanctions. The majority fully understands and appreciates that disciplinary
+
+sanctions, such as a license suspension or monitored probation, are within the Supreme
+
+
+
+
+                                       PAGE 49 OF 65
+
+Case No. 2024-A-0040
+Court of Ohio’s jurisdiction. This entry does not purport to trespass on those preserves.
+
+See supra at ¶ 52 and ¶ 75.
+
+D. The “Statewide Reach” Objection
+
+       {¶127} The dissent asserts that, somehow, the notification and certification
+
+requirements would “interfere with the legal authority of other Ohio courts.” This entry
+
+does not direct other courts to act or refrain from acting in any way. Rather, it simply
+
+imposes obligations on respondent—an attorney who appeared before this court and
+
+admittedly committed misconduct during the course of this court’s proceedings. The
+
+sanctions at issue are measures directed at respondent and do not impact the function
+
+or proceedings of other tribunals.
+
+E. The Due Process Objection
+
+       {¶128} The dissent also claims that the sanctions “deprive respondent of even a
+
+vestige of substantive or procedural due process.” To the contrary, respondent was
+
+served with a show-cause order. See supra at ¶ 5. He filed a written response. He was
+
+represented by counsel at an oral hearing at which he admitted his misconduct. He was
+
+afforded an opportunity to file a post-hearing brief (and also granted additional time to file
+
+a reply brief). See supra at ¶ 6-20. Respondent received all process he was due,
+
+particularly in light of his admissions before the hearing panel. The majority recognizes
+
+that the underlying proceedings are not akin to the process required under Gov.Bar R. V;
+
+nevertheless, this only establishes that the instant matter is not an attempt to usurp those
+
+proceedings. This matter proceeded to establish, acknowledge, and vindicate the integrity
+
+of the judicial process in this court. Respondent was the beneficiary of the panoply of
+
+procedural and substantive due process securities the Constitution and the judicial
+
+
+
+                                       PAGE 50 OF 65
+
+Case No. 2024-A-0040
+system can offer. It would be difficult to imagine what additional procedural safeguards
+
+the dissent might demand.
+
+F. The Issue of “Crisis”
+
+       {¶129} The dissent finally objects to the majority’s characterization of an
+
+“[e]merging [c]risis of AI [m]isconduct” and alleges the majority uses the crisis to justify
+
+overreach, i.e., the dissent asserts the majority’s view is a mere Machiavellian way for the
+
+ends to justify the means. This is an improper characterization.
+
+       {¶130} The observation that AI related misconduct is proliferating in courts across
+
+the country is not a mere rhetorical statement, it is an empirical fact. The point of the
+
+“crisis” discussion is not that a crisis justifies extraordinary powers, but that the ordinary
+
+inherent authority of courts must be applied to new forms of misconduct as they evolve
+
+and arise. The submission of AI-generated fabrications to a court is a relatively new
+
+phenomenon, but the court’s authority to address fraud upon a tribunal is ancient.
+
+       {¶131} The dissent’s closing point—that “integrity in the courts should start with
+
+courts and judges exercising authority within lawful bounds”—is one with which the
+
+majority fully agrees. This court has exercised its authority within lawful bounds and
+
+afforded the respondent with fundamental procedural protection. We differ with the
+
+dissent’s limiting estimation of our authority under the circumstances.
+
+                                    VIII. CONCLUSION
+
+       {¶132} The rapid integration of artificial intelligence into the practice of law presents
+
+both extraordinary promise and extraordinary peril. AI tools, when used responsibly and
+
+under appropriate supervision, have the potential to improve access to justice, increase
+
+efficiency, and enhance the quality of legal services. But when AI tools are used without
+
+
+
+                                        PAGE 51 OF 65
+
+Case No. 2024-A-0040
+verification, without supervision, and without the exercise of the independent professional
+
+judgment that is the hallmark of competent legal representation, the results can be
+
+devastating.
+
+       {¶133} This case illustrates the peril. An attorney who, by his own counsel’s
+
+admission, was sophisticated in his understanding of AI tools permitted a non-attorney
+
+staff member to use a public generative AI platform to prepare an appellate filing. The AI
+
+tool fabricated transcript quotations—attributing specific, inflammatory statements to a
+
+real prosecutor that were never spoken. The attorney filed the document without verifying
+
+its contents. When the fabrications were identified, he did not correct the record. He
+
+appealed this court’s denial of the tainted application to the Supreme Court of Ohio
+
+without disclosing the fabrications. He proffered an AI policy that itself appeared to have
+
+been generated by AI, complete with unfilled placeholder brackets. Two months after a
+
+sanctions hearing, a filing in another court bore the unmistakable hallmarks of unchecked
+
+AI output, including a ChatGPT prompt embedded in the text of a legal brief.
+
+       {¶134} This court does not write to condemn the use of artificial intelligence in the
+
+practice of law. To the contrary, this court recognizes that AI is an inevitable and
+
+potentially beneficial feature of modern legal practice. But the use of AI does not relieve
+
+an attorney of any of the obligations imposed by the Rules of Professional Conduct, by
+
+the rules of court, or by the oath of admission to the bar. An attorney who files a document
+
+containing AI-generated content is responsible for that content, fully and without
+
+qualification. The duty to verify, the duty of candor, the duty of competence, and the duty
+
+of supervision cannot be delegated to a machine.
+
+
+
+
+                                      PAGE 52 OF 65
+
+Case No. 2024-A-0040
+       {¶135} The sanctions imposed herein are proportionate, individually justified, and
+
+collectively designed to serve the purposes for which the court’s sanctioning authority
+
+exists: to compensate for harm, to deter future misconduct, to protect the integrity of the
+
+judicial process, to preserve public confidence in the administration of justice, and to
+
+ensure that the practice of law remains a profession grounded in truth, accuracy, and
+
+candor.
+
+
+ROBERT J. PATTON, J., concurs,
+
+JOHN J. EKLUND, J., concurs in part and dissents in part with a Dissenting Opinion.
+
+                             ____________________________
+
+
+JOHN J. EKLUND, J., concurs in part and dissents in part with a Dissenting Opinion.
+
+       {¶136} I agree that Respondent’s conduct should be referred to the Office of
+
+Disciplinary Counsel, and I concur in our imposing a $2,000.00 fine paid to the Ashtabula
+
+County Prosecutor’s Office for frivolous conduct. However, I respectfully dissent from the
+
+remainder of the Decision.
+
+       {¶137} Today, without statutory or rule-based authority, and without binding
+
+precedent to support doing it, we assert authority to act as the investigator, factfinder, and
+
+judge to adjudicate whether an Ohio lawyer has violated various Rules of Professional
+
+Conduct. The only basis for our doing so is asserted to be a court’s “inherent authority.”
+
+       {¶138} That courts have “inherent authority” cannot reasonably be gainsaid. Ceol
+
+v. Zion Industries, Inc., 81 Ohio App.3d 286, 289 (9th Dist. 1992) (Courts “possess
+
+inherent power to do all things necessary to the administration of justice and to protect
+
+their own powers and processes” through the imposition of sanctions “against parties or
+
+
+                                       PAGE 53 OF 65
+
+Case No. 2024-A-0040
+their attorneys when the judicial process is abused.”). However, its parameters are
+
+defined, in the absence of some federal constitutional mandate, by the laws and historical
+
+record of the state that constituted and governs the court. Yet, our ruling is grounded
+
+largely on federal court decisions addressing the authority of federal courts and non-Ohio
+
+state court decisions addressing the authority of non-Ohio state courts.           These
+
+precedents do not bind us, much less define the scope of our authority.
+
+       {¶139} The first question, then, is whether the cases we cite and rely on (or
+
+anything else) support the proposition that this Court’s inherent authority includes the
+
+authority to adjudicate violations of the Ohio Rules of Professional Conduct.
+
+       {¶140} We reference the contempt powers of the Court, finding Respondent’s
+
+behavior to be “contemptuous and committed in violation of Civ.R. 11 and . . . sufficient
+
+to warrant sanctions under the court’s inherent and contempt authority as well as Civ.R.
+
+11.” (Decision at ¶ 87).
+
+       {¶141} A finding of contempt is subject to review on two levels: “[f]irst, the
+
+contemptuous conduct must be examined to see whether it constituted a direct or indirect
+
+contempt. Second, the trial court’s treatment of the matter must be analyzed in order to
+
+ascertain whether the contemnor was dealt with under the court’s civil or criminal
+
+contempt powers.” In re Cox, 1999 WL 1312688, *3 (11th Dist. Dec. 23, 1999). We do
+
+not engage in any examination or discussion of whether the contemptuous behavior
+
+before us constituted direct or indirect contempt, nor do we determine whether the
+
+sanctions imposed have been imposed as either civil or criminal sanctions. Although we
+
+find Respondent’s conduct contemptuous, it is unclear to me that we find him in contempt
+
+
+
+
+                                      PAGE 54 OF 65
+
+Case No. 2024-A-0040
+at all. Instead, we appear to merely invoke the language of contempt for the imprimatur
+
+of authority it bestows.
+
+       {¶142} More concerning, we invoke Civ.R. 11 as a basis for our authority to issue
+
+sanctions. However, Civ.R. 11 only applies to original actions before this Court. See
+
+State ex rel. Ware v. Vigluicci, 2024-Ohio-5492, ¶ 7. It does not apply to conduct in
+
+appellate proceedings. In re Estate of Garza, 2016-Ohio-5531, ¶ 15 (10th Dist.); State v.
+
+Baker, 2023-Ohio-855, ¶ 17 (2d Dist.). Despite a footnote saying otherwise, we do not
+
+sit as a trial court over appellate proceedings to reopen an appeal. See App.R. 26(B);
+
+Eleventh Dist.Loc.R. 1; Decision at ¶ 48, fn. 1. Nor do I find the Ohio state precedent we
+
+rely on to be compelling. As outlined below, neither Mentor Lagoons, Inc. v. Rubin, 31
+
+Ohio St.3d 256 (1987), Royal Indemn. Co. v. J.C. Penney Co., Inc., 27 Ohio St.3d 31
+
+(1986), DiCuccio v. Lindsmith, 2018-Ohio-2320 (10th Dist.), nor Gamble v. Gamble,
+
+2025-Ohio-2381 (12th Dist.), addressed what we decide today. See Decision at ¶ 47-50.
+
+None of them condoned a definition of an Ohio court’s “inherent authority” to include the
+
+power to find that a lawyer has violated the Ohio Rules of Professional Conduct and to
+
+impose any sanction for doing so. Why not? Because none of the lower courts in those
+
+proceedings had deigned to find such a violation and to impose any sanction based on
+
+it (whether under the Code of Professional Responsibility or the Rules of Professional
+
+Conduct).
+
+       {¶143} Conduct that justifies a court invoking its “inherent authority” could also
+
+warrant official discipline under the Rules of Professional Conduct and the Rules for the
+
+Government of the Bar and, I believe, vice versa. See Royal Indemn. at 34. That does
+
+not mean that a tribunal other than the Ohio Supreme Court can adjudicate and punish
+
+
+
+                                      PAGE 55 OF 65
+
+Case No. 2024-A-0040
+violations of the Rules of Professional Conduct any more than it means that the Supreme
+
+Court can hold a lawyer in contempt for conduct before an inferior court.
+
+       {¶144} So, the Ohio cases we cite and rely on do not support the sweeping
+
+pronouncements we make today.
+
+       {¶145} Mentor Lagoons, 31 Ohio St.3d 256, is a case with a very narrow ruling, but
+
+we apply it expansively. It did not address a trial court’s finding that an attorney violated
+
+any ethical rule, much less issuing sanctions for it. Instead, the case addressed “whether
+
+a trial court may summarily refuse to allow an attorney to testify in a case in which he is
+
+representing a litigant on the grounds that such testimony may be in violation of the Code
+
+of Professional Responsibility.” (Emphasis added.) Id. at 257-258. The Ohio Supreme
+
+Court noted that DR 5-102 was not a “flat prohibition” against a lawyer testifying on behalf
+
+of the client. Id. at 258. The Court held that the ethical rules did not render such testimony
+
+inadmissible and that a trial court’s refusal to allow a lawyer to testify can constitute
+
+prejudicial error. Id. at 259.
+
+       {¶146} Certainly, the Court noted that a trial court’s inherent authority includes the
+
+“authority of dismissal or disqualification [of a lawyer] from a case if an attorney cannot,
+
+or will not, comply with the Code of Professional Responsibility.” (Emphasis added.) Id.
+
+But, it also cautioned that this part of the lower court’s inherent authority was “distinct
+
+from the exclusive authority of the Supreme Court of Ohio over attorney disciplinary
+
+proceedings and does not conflict with such power.” (Emphasis added.) Id.
+
+       {¶147} Likewise, in Royal Indemn., 27 Ohio St.3d 31, the Ohio Supreme Court
+
+never said a lower court’s “inherent authority” supplants the exclusive province of the
+
+Ohio Supreme Court over disciplining lawyers. See id. at 33. The trial court had revoked
+
+
+
+                                       PAGE 56 OF 65
+
+Case No. 2024-A-0040
+the pro hac vice status of an attorney for purposefully misleading opposing counsel about
+
+the existence of certain requested discovery documents. Id. at 36. The trial court found
+
+that the “misrepresentations amounted to egregious misconduct which could taint and
+
+diminish the integrity of future proceedings.” Id. The trial court neither adjudged an ethical
+
+violation nor acted to sanction one.
+
+       {¶148} The Ohio Supreme Court did say that an attorney may be subject to
+
+disciplinary proceedings falling under the exclusive jurisdiction of the Ohio Supreme Court
+
+       for the same conduct that led to a contempt citation or the revocation of his
+       pro hac vice admission by the trial judge. . . . Therefore, revocation of pro
+       hac vice admissions, disciplinary procedures and contempt sanctions are
+       separate and distinct methods of addressing attorney misconduct, and the
+       appropriateness of one is not dependent on the availability of another.
+
+Id. at 34.
+
+       {¶149} Royal Indemn. does not support our findings of violations of the Ohio Rules
+
+of Professional Conduct or the expansive suite of sanctions we purport to impose today.
+
+Nor do DiCuccio, 2018-Ohio-2320 (10th Dist.), or Gamble, 2025-Ohio-2381 (12th Dist.).
+
+They both addressed only the assessment of attorney fees or financial sanctions for
+
+frivolous conduct. DiCuccio at ¶ 26, 30; Gamble at ¶ 26. Neither case determined that
+
+an attorney had violated an ethical obligation or imposed a sanction unrelated to the
+
+financial burden caused by the frivolous conduct, as today’s judgment does.
+
+       {¶150} We need not, and do not, use this case to define comprehensively an Ohio
+
+court’s “inherent authority.” But, whatever it is, it does not include the authority to
+
+adjudicate a lawyer’s alleged violation(s) of the Rules of Professional Conduct. Ohio has
+
+a framework, promulgated by our Supreme Court pursuant to power bestowed by our
+
+State Constitution and enabled by our state legislature, for addressing such allegations.
+
+
+
+                                       PAGE 57 OF 65
+
+Case No. 2024-A-0040
+See Gov.Bar R. V. That framework provides for extensive investigation, multiple levels
+
+of review clothed in procedural and substantive due process, evidentiary hearings,
+
+recommendations, and, ultimately, consideration and decision by the Supreme Court.
+
+And that framework, by its terms, mandates that “all . . . proceedings for the discipline of
+
+. . . attorneys . . . shall be brought, conducted, and disposed of in accordance” with its
+
+terms. Gov.Bar R. V(2)(A). It is the exclusive mechanism for disciplining attorneys in
+
+Ohio. We cannot and should not usurp that legal framework under the guise of exercising
+
+some amorphous “inherent” authority.
+
+       {¶151} Respondent filed a motion that asserted as fact things that are palpably and
+
+demonstrably untrue and swore to the Court by affidavit that they were true. He failed to
+
+withdraw the filing when it was rightfully and undeniably challenged. In doing so, he
+
+falsely aspersed fellow officers of the court and a trial court judge. His actions are a
+
+paradigm of contumacious indecorum and disrespect for the judicial process and this
+
+Court. We should sanction him; however, we cannot and should not adjudicate his
+
+culpability under the Rules of Professional Conduct.
+
+       {¶152} My dissent is further fueled by our purporting to impose sanctions on
+
+Respondent that go beyond what we are legally empowered to do. I do not question the
+
+imposition of the $2,000.00 fine paid to the Ashtabula County Prosecutor’s Office for
+
+Respondent’s conduct, nor do I question our referring Respondent’s conduct to the Office
+
+of Disciplinary Counsel (although I do not understand why we need to announce it in a
+
+decision). But, we proceed to order, for example, Respondent (1) to serve upon any court
+
+in which he appears or practices a copy of our Decision; (2) to include a signed verification
+
+
+
+
+                                       PAGE 58 OF 65
+
+Case No. 2024-A-0040
+with any filing he makes in any Ohio Court; (3) to complete continuing legal education;
+
+and (4) to write apology letters to a judge and lawyers.
+
+       {¶153} All of these sanctions exceed the “authority” we invoke to impose
+
+them. “Inherent” and contempt authority are, at bottom, tools “vested in courts to manage
+
+their own affairs.” (Emphasis added.) Link v. Wabash RR. Co., 370 U.S. 626, 630 (1962).
+
+I am unable to divine how compelled filings and verifications in other courts around the
+
+state, compelled continuing education, or compelled letter writing manages our
+
+affairs. Moreover, our contempt authority is, I believe, the authority to hold persons or
+
+entities in contempt and to punish accordingly. I am unaware of any circumstance in
+
+which a court can impose contempt sanctions on someone without having held them in
+
+contempt.
+
+       {¶154} Moreover, the reach of these orders is virtually statewide and arguably
+
+interferes with the legal authority (inherent or otherwise) of other Ohio courts. These
+
+orders purport to do nothing short of regulating and policing the practice of law throughout
+
+Ohio, which is the exclusive province of the Supreme Court of Ohio. Ohio Const., Art. IV,
+
+§ 2(B)(1)(g).
+
+       {¶155} Perhaps most importantly, our findings and resulting sanctions deprive
+
+Respondent of even a vestige of substantive or procedural due process to which the
+
+Rules of Professional Conduct, the Rules for the Government of the Bar, and common
+
+decency entitle him.
+
+       {¶156} This overreach is not justified by any “Emerging Crisis of AI Misconduct” or
+
+a “crisis of integrity in the courts.” Decision at ¶ 76-78. The integrity of or in the courts
+
+depends, as it always has, on the same things on which the integrity of any human
+
+
+
+                                       PAGE 59 OF 65
+
+Case No. 2024-A-0040
+institution depends: The human beings who function within them. The mechanisms,
+
+devices, or other tools they use do not cause mischief. All of them can be used for good
+
+or for ill; the character of the user is what makes the difference.
+
+       {¶157} Integrity in the courts should start with courts and judges exercising
+
+authority within lawful bounds. Today, in my view, we overstep those bounds. To do so
+
+in the name of a “crisis” is to suggest that “the ends justify the means.” That is a way to
+
+foster a crisis, not avert it.
+
+
+
+
+                                       PAGE 60 OF 65
+
+Case No. 2024-A-0040
+                                    JUDGMENT ENTRY
+
+
+
+       For the reasons stated in the decision of this court, this court imposes the following
+
+sanctions:
+
+       A. Monetary Sanction: $2,000 Fine, With Credit for $2,000 Already Paid
+
+       Respondent shall pay a monetary sanction in the amount of $2,000. Respondent
+
+shall receive credit for the $2,000 payment already made to the Ashtabula County
+
+Prosecutor’s Office pursuant to the parties’ settlement agreement.
+
+B. Referral to the Office of Disciplinary Counsel
+
+       This court refers respondent’s conduct to the Office of Disciplinary Counsel of the
+
+Supreme Court of Ohio (ODC) for investigation.
+
+       The administrator of this court shall send a copy of this judgment entry, with a
+
+notation of referral, to the Office of Disciplinary Counsel via electronic mail upon its filing.
+
+C. Service Upon Courts and Judges for Two Years
+
+       For a period of two years from the date of this judgment entry, respondent shall
+
+serve a copy of this judgment entry upon the presiding judge or administrative judge of
+
+every court in which respondent files a new appearance, enters a new case, or otherwise
+
+undertakes representation. Such service shall be made within 14 days of respondent’s
+
+first filing in each such court. Respondent shall file proof of such service with this court
+
+within seven days of serving each judge.
+
+D. Certification and Verification Requirements for Future Filings
+
+     For a period of two years from the date of this judgment entry, every filing submitted
+
+by respondent to any Ohio court shall include a signed certification that:
+
+                                        PAGE 61 OF 65
+
+Case No. 2024-A-0040
+              (a) all citations to legal authority contained in the filing have
+              been independently verified by the attorney of record as being
+              real, accurately quoted, and still valid;
+
+              (b) all quotations attributed to any person, transcript, or
+              document have been verified against the original source by
+              the attorney of record;
+
+              (c) all factual representations contained in the filing have been
+              verified by the attorney of record as having evidentiary
+              support in the record or other reliable source;
+
+              (d) to the extent any portion of the filing was drafted with the
+              assistance of a generative artificial intelligence tool, the
+              attorney of record has disclosed the use of such tool and has
+              independently verified all AI-generated content; and
+
+              (e) the attorney of record has personally reviewed the entire
+              filing for accuracy, completeness, and compliance with all
+              applicable rules.
+
+E. Mandatory Continuing Legal Education
+
+       Within 150 days of the filing of this judgment entry, respondent shall complete no
+
+fewer than six hours of continuing legal education (“CLE”) specifically focused on the
+
+following topics: (a) the ethical use of artificial intelligence in the practice of law; (b) the
+
+professional responsibility implications of AI-generated content; (c) attorney supervision
+
+of nonlawyer assistants in the context of AI tools; and (d) candor toward the tribunal and
+
+the duty to verify filings. These CLE hours shall be in addition to, and not counted toward,
+
+respondent’s regular biennial CLE requirements.
+
+       Respondent shall file proof of completion with this court within seven days of
+
+completing the required CLE. Respondent’s counsel indicated at the August 28, 2025
+
+hearing that respondent had voluntarily completed some CLE courses related to AI. While
+
+this court acknowledges and credits respondent’s voluntary efforts, the CLE required by
+
+this order is a separate, mandatory obligation that must be fulfilled in its entirety.
+
+                                        PAGE 62 OF 65
+
+Case No. 2024-A-0040
+F. Striking of the Application to Reopen
+
+       The application to reopen filed by respondent on May 19, 2025, is hereby stricken
+
+from the record of this court.
+
+G. Removal of Respondent as Counsel for Malikhi Jermaine Coleman
+
+       Respondent is hereby removed as counsel for Malikhi Jermaine Coleman in this
+
+case and in any related proceedings. Respondent shall take no further action on behalf
+
+of Mr. Coleman in this court.
+
+       Nothing in this order prevents Mr. Coleman from retaining new counsel or from
+
+pursuing any remedies to which he may be entitled, including but not limited to a new
+
+application to reopen supported by legitimate, verified legal authority. The new application
+
+to reopen shall be filed within 90 days of the filing of this judgment entry.
+
+       Respondent shall, within 14 days of the filing of this judgment entry, serve a copy
+
+of this order upon Mr. Coleman, together with a written explanation, in plain and
+
+understandable language, of the nature of respondent’s misconduct and the reasons
+
+respondent has been removed as Mr. Coleman’s counsel. Respondent shall inform Mr.
+
+Coleman that he has the right to retain new counsel or to proceed pro se and shall provide
+
+Mr. Coleman with the contact information for the Ohio Public Defender’s Office and the
+
+Ashtabula County Public Defender’s Office. Respondent shall file proof of such service
+
+and communication with this court within seven days of effectuating the same.
+
+H. Written Apologies to Persons Defamed by the Fabricated Filing
+
+       Respondent shall, within 30 days of the filing of this judgment entry, deliver written
+
+letters of apology to each of the following persons:
+
+
+
+
+                                       PAGE 63 OF 65
+
+Case No. 2024-A-0040
+              (a) the Ashtabula County trial prosecutor who conducted the
+              closing argument in State v. Coleman, for the false attribution
+              of inflammatory statements that the prosecutor never made;
+
+              (b) the trial court judge who presided over State v. Coleman,
+              for the implicit accusation that the judge permitted
+              uncorrected prosecutorial misconduct; and
+
+              (c) the trial attorney and prior appellate counsel for Mr.
+              Coleman on direct appeal, for the implicit accusations that
+              they collectively failed to object to, and thereafter raise, a
+              meritorious claim of prosecutorial misconduct.
+
+       Each of the four letters shall acknowledge that the statements attributed to these
+
+individuals, or the professional failures attributed to these individuals, in the application to
+
+reopen were false, were generated by an artificial intelligence tool, and were filed without
+
+verification. Each letter shall be accompanied by a copy of this judgment entry.
+
+Respondent shall file copies of the letters and proof of delivery with this court within seven
+
+days of sending the letters.
+
+                           COMPLIANCE AND ENFORCEMENT
+
+       Respondent shall comply fully and timely with each sanction imposed by this order.
+
+This court retains jurisdiction to enforce this order and to address any failure to comply.
+
+       Failure to comply with any provision of this order may result in contempt
+
+proceedings pursuant to R.C. 2705.02 and this court’s inherent contempt authority.
+
+Contempt sanctions for noncompliance may include additional monetary fines,
+
+imprisonment, or both, as this court deems necessary to vindicate the authority of the
+
+court and to compel compliance.
+
+       Respondent shall maintain a record of compliance with each provision of this order
+
+and shall, upon request by this court, produce such records for review
+
+
+
+
+                                        PAGE 64 OF 65
+
+Case No. 2024-A-0040
+       THE CLERK OF COURTS IS INSTRUCTED to STRIKE Malikhi Jermaine
+
+Coleman’s May 19, 2025 application to reopen from the record of this appeal.
+
+       THE CLERK OF COURTS IS FURTHER INSTRUCTED to SERVE Malikhi
+
+Jermaine Coleman, PID#A811-740, North Central Correctional Institution, P.O. Box 1812,
+
+670 Marion-Williamsport Road, East, Marion, OH 43301, with a time-stamped copy of this
+
+decision and judgment entry.
+
+
+
+
+                                               JUDGE EUGENE A. LUCCI
+
+
+
+                                             JUDGE ROBERT J. PATTON,
+                                                     concurs
+
+
+
+                                              JUDGE JOHN J. EKLUND,
+                                           concurs in part and dissents in part
+                                               with a Dissenting Opinion
+
+
+           THIS DOCUMENT CONSTITUTES A FINAL JUDGMENT ENTRY
+
+    A certified copy of this opinion and judgment entry shall constitute the mandate
+              pursuant to Rule 27 of the Ohio Rules of Appellate Procedure.
+
+
+
+
+                                     PAGE 65 OF 65
+
+Case No. 2024-A-0040
+

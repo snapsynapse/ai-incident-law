@@ -22,7 +22,7 @@
   "@type": "of:Allegation",
   "@id": "https://aiincidentlaw.org/allegation/aiel-2026-022-allegation.json",
   "id": "aiel-2026-022-allegation",
-  "text": "An Ohio trial court sanctioned pro se litigant Xingkui Guo $100 (2025-08-11) for citing five fabricated/mis-cited cases that the court found \"appear to be the result of AI-generated hallucinations.\" On appeal, Guo admitted the mis-citations resulted from his use of the Chinese AI platform \"Deepseek.\" The Sixth District Court of Appeals affirmed on 2026-05-26 (Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930), rejecting Guo’s motion to set aside the sanction.",
+  "text": "The Sandusky County Court of Common Pleas sanctioned Xingkui Guo $100 on August 11, 2025, over citations in his trial-court filings. On appeal, Guo attributed the errors to his use of DeepSeek and limited access to Ohio research tools. On May 26, 2026, the Sixth District affirmed the denial of his motion to set aside the sanction.",
   "asserted_by": "asserting party not identified in the indexed source fields",
   "related_to": "https://aiincidentlaw.org/incident/aiel-2026-022#ai-system",
   "related_to_party": [
@@ -34,7 +34,7 @@
   "error_type": "hallucinated authority",
   "canonical_source_conflicted": "Genuine Ohio case law (cases cited did not exist at the given citations)",
   "mitigation_gap": "No verification of AI-generated authorities before filing.",
-  "reliance_or_harm": "Fabricated citations submitted on appeal; $100 monetary sanction imposed.",
+  "reliance_or_harm": "Guo submitted fabricated or miscited authorities to the trial court, which awarded Meade $100 in sanctions.",
   "ai_incident_law_record_id": "AIEL-2026-022",
   "source": "https://supremecourt.ohio.gov/rod/docs/pdf/6/2026/2026-Ohio-1930.pdf",
   "source_locator": "Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930 (No. S-25-035)",
@@ -43,5 +43,8 @@
   "verified": "2026-07-24",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "projection_basis": "native-record-projection",
-  "admission_status": "legacy-unreviewed"
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "The cited decisions establish the rulings. Collection of the award and further proceedings were not verified."
+  ]
 }

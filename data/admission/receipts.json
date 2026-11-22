@@ -4895,6 +4895,397 @@
         "reviewed_at": "2026-11-22T01:19:21.897Z",
         "packet_sha256": "e7593b6f4718083501c6759eb2ae0171c6bd1f787d4dcdb7723e035254d0b371"
       }
+    },
+    "included/AIEL-2026-022": {
+      "baseline_sha256": "334b788f6c3f801c2adddb9da25a3d7d997a6f896a1db97760d01fce15de931c",
+      "record_sha256": "bc82814c43feb4a7a1fbc1f039a7579e4b033fc1b066517cc4567259997a61fd",
+      "evidence": {
+        "appeal": {
+          "path": "data/admission/raw/aiel-2026-022/appeal.txt",
+          "sha256": "701eaa09f6d338d1109f9132682f39c01ca678c9b95e1577782c6afc41ef017e",
+          "official_url": "https://supremecourt.ohio.gov/rod/docs/pdf/6/2026/2026-Ohio-1930.pdf",
+          "document_id": "S-25-035, 2026-Ohio-1930",
+          "document_title": "Guo v. Meade Motorcars, L.L.C.",
+          "issuing_body": "Ohio Court of Appeals, Sixth District",
+          "document_type": "judgment",
+          "version": "May 26, 2026.",
+          "locator": "Paragraphs 15–20, 57–62.",
+          "excerpt": "The trial court awarded Meade $100 in sanctions.",
+          "identity_excerpts": [
+            "2026-Ohio-1930",
+            "S-25-035"
+          ],
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2026-022/appeal.pdf",
+            "sha256": "4b8309a4ca93c33f9c922b879b2291151598cf7f43ce8406d09850e10296e6cc"
+          },
+          "ai_attribution_excerpt": "the mis-citations were merely the result of his use of the Chinese platform “Deepseek”"
+        },
+        "jurisdiction": {
+          "path": "data/admission/raw/aiel-2026-022/jurisdiction.txt",
+          "sha256": "eb006c295a722b936abbafc371d5a4d15b871442c470bec0a95c1608abc5d33c",
+          "official_url": "https://supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3554.pdf",
+          "document_id": "2026-0841, 2026-Ohio-3554",
+          "document_title": "September 15 case announcements",
+          "issuing_body": "Supreme Court of Ohio",
+          "document_type": "order",
+          "version": "September 15, 2026.",
+          "locator": "Appeals not accepted for review, case 2026-0841.",
+          "excerpt": "2026-0841. Guo v. Meade Motorcars, L.L.C.",
+          "identity_excerpts": [
+            "APPEALS NOT ACCEPTED FOR REVIEW",
+            "2026-Ohio-3554"
+          ],
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2026-022/jurisdiction.pdf",
+            "sha256": "a84425d543cb162a9f3473b03fc8c64d2a86c424680b190b4798b50fa9d36c58"
+          }
+        },
+        "reconsideration": {
+          "path": "data/admission/raw/aiel-2026-022/reconsideration.txt",
+          "sha256": "852b4824300bc080785ab7a8930eb37523c237c2563d6341cae5078b9877a84d",
+          "official_url": "https://supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-4408.pdf",
+          "document_id": "2026-0841, 2026-Ohio-4408",
+          "document_title": "November 10 case announcements",
+          "issuing_body": "Supreme Court of Ohio",
+          "document_type": "order",
+          "version": "November 10, 2026.",
+          "locator": "Reconsideration of prior decisions, case 2026-0841.",
+          "excerpt": "motion for reconsideration. Motion denied.",
+          "identity_excerpts": [
+            "2026-0841. Guo v. Meade Motorcars",
+            "2026-Ohio-4408"
+          ],
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2026-022/reconsideration.pdf",
+            "sha256": "0ee45d6e244512c2e690388a2c6c0d1b71eaf675f4966b53c41d5ff77b9ccf5f"
+          }
+        }
+      },
+      "units": {
+        "field:reliance_or_harm": {
+          "before_sha256": "3556c8a64f9137c24dce576de1a28bb31114068381e25755beac04db8ea2ce98",
+          "after_sha256": "26b2cd062ba36d20cdd0c2fc8256068ccf0509e18f2446091800d07aaf4172e9",
+          "candidate_content": "Guo submitted fabricated or miscited authorities to the trial court, which awarded Meade $100 in sanctions.",
+          "reason": "Identify the court that received the citations and the recipient of the award.",
+          "qualifications": {
+            "scope": "Identify the court that received the citations and the recipient of the award.",
+            "exceptions": "The cited decisions establish the rulings. Collection of the award and further proceedings were not verified.",
+            "time": "May 26, 2026."
+          },
+          "evidence": [
+            "appeal"
+          ]
+        },
+        "field:error_description": {
+          "before_sha256": "22b8cfba0c3599c1362bc67cd966f56e641ebd80992fe60ac1019652d90f6148",
+          "after_sha256": "d866b19e9a3d7b8f68e06094fc5962b0a17c43a1f7aaefed17040e8b343da9c4",
+          "candidate_content": "The Sandusky County Court of Common Pleas sanctioned Xingkui Guo $100 on August 11, 2025, over citations in his trial-court filings. On appeal, Guo attributed the errors to his use of DeepSeek and limited access to Ohio research tools. On May 26, 2026, the Sixth District affirmed the denial of his motion to set aside the sanction.",
+          "reason": "Describe the litigant’s attribution and the narrower ruling actually under appellate review.",
+          "qualifications": {
+            "scope": "Describe the litigant’s attribution and the narrower ruling actually under appellate review.",
+            "exceptions": "The cited decisions establish the rulings. Collection of the award and further proceedings were not verified.",
+            "time": "May 26, 2026."
+          },
+          "evidence": [
+            "appeal"
+          ]
+        },
+        "field:notes_on_resolution": {
+          "before_sha256": "3dd900258cb752cac9087c0d378a744118e3eb440120e82960da19b4ab183597",
+          "after_sha256": "58e121326a6a85a69e829c239b422f417cc24525524098b58342e36c9a19bdd7",
+          "candidate_content": "The Sixth District affirmed the denial of relief from the $100 sanction on May 26, 2026. The Supreme Court of Ohio declined review on September 15 and denied reconsideration on November 10 (No. 2026-0841).",
+          "reason": "Distinguish the appellate ruling from the two later discretionary orders.",
+          "qualifications": {
+            "scope": "Distinguish the appellate ruling from the two later discretionary orders.",
+            "exceptions": "The cited decisions establish the rulings. Collection of the award and further proceedings were not verified.",
+            "time": "May 26, 2026. September 15, 2026. November 10, 2026."
+          },
+          "evidence": [
+            "appeal",
+            "jurisdiction",
+            "reconsideration"
+          ]
+        },
+        "field:secondary_source_links": {
+          "before_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+          "after_sha256": "1696c6b2224a74f6d79df301406e3d0c9b675f4f15745cf803b8037512674d0c",
+          "candidate_content": "https://supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3554.pdf; https://supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-4408.pdf",
+          "reason": "Cite both official higher-court dispositions.",
+          "qualifications": {
+            "scope": "Cite both official higher-court dispositions.",
+            "exceptions": "The cited decisions establish the rulings. Collection of the award and further proceedings were not verified.",
+            "time": "September 15, 2026. November 10, 2026."
+          },
+          "evidence": [
+            "jurisdiction",
+            "reconsideration"
+          ]
+        }
+      },
+      "unresolved": [
+        "The cited decisions establish the rulings. Collection of the award and further proceedings were not verified."
+      ],
+      "review": {
+        "actor": "Codex",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Order-level review of the named changed fields. Other fields retain their existing review status.",
+        "reviewed_at": "2026-11-22T02:23:50.351Z",
+        "packet_sha256": "6f602653ae5ad83b0248799e4ab103fd6dbd07719233fbd88d95cce8096fb4c4"
+      }
+    },
+    "included/AIEL-2026-035": {
+      "baseline_sha256": "3c0f92df77ff7bb278b6dd31e27dfb0f2a060a8145eb91397c7f69aa5329efa5",
+      "record_sha256": "109bde251ba897a155cc55f05c9f79295cd205a687d0b73ad91182a0a9ea16ef",
+      "evidence": {
+        "appeal": {
+          "path": "data/admission/raw/aiel-2026-035/appeal.txt",
+          "sha256": "8e2146c82ff8fd7f1e4a6ed8575edae8908a2ebbbe33b55460a5b6229c30007c",
+          "official_url": "https://supremecourt.ohio.gov/rod/docs/pdf/11/2026/2026-Ohio-965.pdf",
+          "document_id": "2024-A-0040, 2026-Ohio-965",
+          "document_title": "State v. Coleman",
+          "issuing_body": "Ohio Court of Appeals, Eleventh District",
+          "document_type": "judgment",
+          "version": "March 20, 2026.",
+          "locator": "Judgment entry, sections A–G, especially F.",
+          "excerpt": "application to reopen filed by respondent on May 19, 2025, is hereby stricken",
+          "identity_excerpts": [
+            "2026-Ohio-965",
+            "2024-A-0040"
+          ],
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2026-035/appeal.pdf",
+            "sha256": "d227cdabd5fc0725a61b624d1c992b92b1c509a1f8f0180e31c090f73b55e62d"
+          }
+        },
+        "jurisdiction": {
+          "path": "data/admission/raw/aiel-2026-035/jurisdiction.txt",
+          "sha256": "cc28ea5f4fd1961cbb193d97adeba577a8f3d3bc5d7007c298b3263fe6d31437",
+          "official_url": "https://supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-2745.pdf",
+          "document_id": "2026-0547, 2026-Ohio-2745",
+          "document_title": "July 21 case announcements",
+          "issuing_body": "Supreme Court of Ohio",
+          "document_type": "order",
+          "version": "July 21, 2026.",
+          "locator": "Appeals accepted for review, case 2026-0547.",
+          "excerpt": "2026-0547. State v. Coleman.",
+          "identity_excerpts": [
+            "APPEALS ACCEPTED FOR REVIEW",
+            "2026-Ohio-2745"
+          ],
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2026-035/jurisdiction.pdf",
+            "sha256": "959560d974a6d4d8c73bbf7699c76b383ec4fd4b65eb4763c2f9e379232e8e36"
+          }
+        },
+        "calendar": {
+          "path": "data/admission/raw/aiel-2026-035/calendar.txt",
+          "sha256": "d470cfd37e6a3d0d50ef05cb7b9b466f683d75a564f82f137c533b4286bfb368",
+          "official_url": "https://supremecourt.ohio.gov/docs/Clerk/calendar/OArgCalendar.pdf",
+          "document_id": "2026-0547, January 2027 oral argument calendar",
+          "document_title": "January 2027 oral argument calendar",
+          "issuing_body": "Supreme Court of Ohio",
+          "document_type": "court calendar",
+          "version": "Calendar published for January 5–27, 2027.",
+          "locator": "January 27 session, case 2026-0547.",
+          "excerpt": "v. Malikhi Jermaine Coleman and William B. Norman",
+          "identity_excerpts": [
+            "2026-0547",
+            "WEDNESDAY, JANUARY 27, 2027"
+          ],
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2026-035/calendar.pdf",
+            "sha256": "7a77fc0b491acec9da9559f9cab084f39edcdf479de3e37ff9f5e01dc9041baf"
+          }
+        }
+      },
+      "units": {
+        "field:notes_on_resolution": {
+          "before_sha256": "12a086b2dd7d7a0cb294e4c84e8ff72a63ede8462e89b7c60d1586600ad27765",
+          "after_sha256": "ef5b41d1b14c2988dcfca537c2a710be18b06b627469ad2f16b7643f15f59155",
+          "candidate_content": "The Eleventh District struck the May 19, 2025 application to reopen, removed counsel, made a disciplinary referral and credited the full $2,000 already paid against its $2,000 fine. The Supreme Court of Ohio accepted review on July 21, 2026 (No. 2026-0547). Its calendar lists the case for the January 27, 2027 oral argument session.",
+          "reason": "Identify the filing struck and distinguish acceptance and scheduling from a decision on the merits.",
+          "qualifications": {
+            "scope": "Identify the filing struck and distinguish acceptance and scheduling from a decision on the merits.",
+            "exceptions": "The calendar reports a scheduled session. An argument, merits disposition, stay or disciplinary outcome was not established.",
+            "time": "March 20, 2026. July 21, 2026. Calendar published for January 5–27, 2027."
+          },
+          "evidence": [
+            "appeal",
+            "jurisdiction",
+            "calendar"
+          ]
+        },
+        "field:secondary_source_links": {
+          "before_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+          "after_sha256": "4f9c417f055a400ddd29de1412b0419ba5287891a67a63068f2579f3358f0744",
+          "candidate_content": "https://supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-2745.pdf; https://supremecourt.ohio.gov/docs/Clerk/calendar/OArgCalendar.pdf",
+          "reason": "Cite the higher court’s acceptance and its published argument calendar.",
+          "qualifications": {
+            "scope": "Cite the higher court’s acceptance and its published argument calendar.",
+            "exceptions": "The calendar reports a scheduled session. An argument, merits disposition, stay or disciplinary outcome was not established.",
+            "time": "July 21, 2026. Calendar published for January 5–27, 2027."
+          },
+          "evidence": [
+            "jurisdiction",
+            "calendar"
+          ]
+        }
+      },
+      "unresolved": [
+        "The calendar reports a scheduled session. An argument, merits disposition, stay or disciplinary outcome was not established."
+      ],
+      "review": {
+        "actor": "Codex",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Order-level review of the named changed fields. Other fields retain their existing review status.",
+        "reviewed_at": "2026-11-22T02:23:50.356Z",
+        "packet_sha256": "047cab83be2701d8182f7f80d75040e3e4fe2aebe184ecaf1125a311de2b7418"
+      }
+    },
+    "included/AIEL-2026-047": {
+      "baseline_sha256": "153548bfe623d075b1da54e874aaa6c7b00e2dc428b7b37964d14ed9a0367e97",
+      "record_sha256": "6281782a7d4a3c8e5a85f7e770801540ba3337c360f15723fad85dabd8b49cf9",
+      "evidence": {
+        "sanctions": {
+          "path": "data/admission/raw/aiel-2026-047/sanctions.txt",
+          "sha256": "91acdb9450c4a2f9ea6ffcdd5f1681cad6be4c7ad6284edb429c39c293701f66",
+          "official_url": "https://govinfo.gov/content/pkg/USCOURTS-ksd-2_22-cv-02324/pdf/USCOURTS-ksd-2_22-cv-02324-9.pdf",
+          "document_id": "2:22-cv-02324-JAR-ADM, ECF 218",
+          "document_title": "Lexos Media IP, LLC v. Overstock.com, Inc., sanctions order",
+          "issuing_body": "U.S. District Court for the District of Kansas",
+          "document_type": "order",
+          "version": "Filed February 2, 2026.",
+          "locator": "Pages 35–36, public admonishment and individual sanctions.",
+          "excerpt": "Mr. Doell is released from any further sanctions.",
+          "identity_excerpts": [
+            "Document 218",
+            "2:22-cv-02324-JAR-ADM"
+          ],
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2026-047/sanctions.pdf",
+            "sha256": "0bcaafd6ce165d9b5849428ee2b9ed5ebd7534af97966adce9a9c591a24d17ea"
+          }
+        }
+      },
+      "units": {
+        "field:error_title": {
+          "before_sha256": "344715f7469df03c54b16f12862daef86cff524f0055900ebf2c354707f8a1bc",
+          "after_sha256": "dc2fac768baa03dd2c6aa1f0d0e847ee0656c50a68995b1e49a45d0ef4607cdd",
+          "candidate_content": "D. Kansas admonishes five lawyers and fines four a total of $12,000 over ChatGPT-fabricated citations",
+          "reason": "Distinguish the five public admonishments from the four monetary fines.",
+          "qualifications": {
+            "scope": "Distinguish the five public admonishments from the four monetary fines.",
+            "exceptions": "The order establishes the sanctions imposed. Payment, self-reporting and subsequent proceedings were not verified.",
+            "time": "Filed February 2, 2026."
+          },
+          "evidence": [
+            "sanctions"
+          ]
+        },
+        "field:notes_on_resolution": {
+          "before_sha256": "b9ace1fd25838da4ac3ee3c85257637be8e1a62ec612f9347762e117b13381a2",
+          "after_sha256": "3863a35f08e2f569c13a0faec559c547ac32795a45dded365a20a18968f116f5",
+          "candidate_content": "The court publicly admonished all five attorneys under Rule 11(b). It fined Seth $5,000, Kula and Joe $3,000 each, and Cooper $1,000. It revoked Seth’s pro hac vice admission and released Doell from further sanctions.",
+          "reason": "Preserve the distinction between Doell’s admonishment and his release from further sanctions.",
+          "qualifications": {
+            "scope": "Preserve the distinction between Doell’s admonishment and his release from further sanctions.",
+            "exceptions": "The order establishes the sanctions imposed. Payment, self-reporting and subsequent proceedings were not verified.",
+            "time": "Filed February 2, 2026."
+          },
+          "evidence": [
+            "sanctions"
+          ]
+        }
+      },
+      "unresolved": [
+        "The order establishes the sanctions imposed. Payment, self-reporting and subsequent proceedings were not verified."
+      ],
+      "review": {
+        "actor": "Codex",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Order-level review of the named changed fields. Other fields retain their existing review status.",
+        "reviewed_at": "2026-11-22T02:23:50.357Z",
+        "packet_sha256": "bc2e6b112c777f51e7db9134122aa2a48037b1cec710e4e8cdf12214f8d02b2b"
+      }
+    },
+    "included/AIEL-2026-058": {
+      "baseline_sha256": "c3e6965ee18c289cef1b88beaa574fa837271cf9b8d678cc463c53b87970076b",
+      "record_sha256": "e7ea6b3b7c87c97543c7584a89c430524d81ae6105bdaaadc819ae58a1749682",
+      "evidence": {
+        "fee-order": {
+          "path": "data/admission/raw/aiel-2026-058/fee-order.txt",
+          "sha256": "1f98744ccfb2d6a7cb6f05c33693cc878504b7667b78482f1349194998b0c1bb",
+          "official_url": "https://storage.courtlistener.com/recap/gov.uscourts.pawd.314851/gov.uscourts.pawd.314851.71.0.pdf",
+          "document_id": "2:24-cv-01608-WSS, ECF 71",
+          "document_title": "Jakes v. Youngblood, Memorandum Order",
+          "issuing_body": "U.S. District Court for the Western District of Pennsylvania",
+          "document_type": "order",
+          "version": "Filed October 6, 2025.",
+          "locator": "ECF 71 pp. 5–6. RECAP copy of the court-stamped PDF with OCR of the two operative pages.",
+          "excerpt": "sanction imposed upon Blackburn is awarded to Plaintiff's counsel as attorneys’ fees.",
+          "identity_excerpts": [
+            "2:24-cv-01608-WSS",
+            "Filed 10/06/25"
+          ],
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2026-058/fee-order.pdf",
+            "sha256": "a3c4b8d9d7bb1f0297d40fe351d858b7aaef22d3e2b1dbba9958520352ce60d4"
+          }
+        }
+      },
+      "units": {
+        "field:error_title": {
+          "before_sha256": "bdea57c0310e49ded43a7d894e20f1c89d0052fd48970edcb3e09eadff64c68b",
+          "after_sha256": "f442c72c2dce3e0f73370fbb82cb68ed75e88f50573b4901c28919c8df728894",
+          "candidate_content": "W.D. Pennsylvania orders Blackburn to pay $5,000 in attorneys’ fees and revokes his pro hac vice admission over AI-generated citation errors",
+          "reason": "Identify the monetary sanction as a fee award.",
+          "qualifications": {
+            "scope": "Identify the monetary sanction as a fee award.",
+            "exceptions": "The order sets the payment obligation. Payment and subsequent proceedings were not verified.",
+            "time": "Filed October 6, 2025."
+          },
+          "evidence": [
+            "fee-order"
+          ]
+        },
+        "field:reliance_or_harm": {
+          "before_sha256": "4c38ba67f8340b4a4d6665dcb7c4649f8cdbbac9f614318e3534cc0f395fe44f",
+          "after_sha256": "7306548eccdb41736d00568fb2c200f1f54a5d544aad6680e9906b20d4a138e3",
+          "candidate_content": "The court ordered Blackburn to pay plaintiff’s counsel $5,000 in attorneys’ fees in monthly installments of at least $500. It revoked his pro hac vice admission and required him to attach the order to future notices of appearance or pro hac vice motions in the Western District of Pennsylvania.",
+          "reason": "Identify the payee, installment requirement and scope of the future filing condition.",
+          "qualifications": {
+            "scope": "Identify the payee, installment requirement and scope of the future filing condition.",
+            "exceptions": "The order sets the payment obligation. Payment and subsequent proceedings were not verified.",
+            "time": "Filed October 6, 2025."
+          },
+          "evidence": [
+            "fee-order"
+          ]
+        }
+      },
+      "unresolved": [
+        "The order sets the payment obligation. Payment and subsequent proceedings were not verified."
+      ],
+      "review": {
+        "actor": "Codex",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Order-level review of the named changed fields. Other fields retain their existing review status.",
+        "reviewed_at": "2026-11-22T02:23:50.358Z",
+        "packet_sha256": "0929ab1cf4694fdbe812574c1ee7392ed973cf23d4dde560d30731c12fa2d417"
+      }
     }
   }
 }
