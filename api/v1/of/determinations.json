@@ -223,16 +223,19 @@
       "disposition": "confirmed",
       "remedy": {
         "status": "sanctioned",
-        "notes": "Included as a notable sanctions event, but the primary court order should be downloaded and archived before treating as fully verified."
+        "notes": "On February 24, 2025, the court revoked Rudwin Ayala’s pro hac vice admission, removed him as counsel and ordered him to pay $3,000 to the court registry. It ordered T. Michael Morgan and Taly Goody to pay $1,000 each. The retained document is the signed ECF 181 order."
       },
-      "notes": "Included as a notable sanctions event, but the primary court order should be downloaded and archived before treating as fully verified.",
-      "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
+      "notes": "On February 24, 2025, the court revoked Rudwin Ayala’s pro hac vice admission, removed him as counsel and ordered him to pay $3,000 to the court registry. It ordered T. Michael Morgan and Taly Goody to pay $1,000 each. The retained document is the signed ECF 181 order.",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.wyd.64014/gov.uscourts.wyd.64014.181.0_1.pdf",
       "source_locator": "Wadsworth v. Walmart Inc.",
-      "evidence_type": "reliable reporting",
+      "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-filing-status-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Payment, subsequent proceedings, compliance and the underlying model used by MX2.law were not verified."
+      ],
       "ai_incident_law_record_id": "AIEL-2025-004",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -1629,16 +1632,19 @@
       "disposition": "confirmed",
       "remedy": {
         "status": "sanctioned",
-        "notes": "$5,000 sanction and bar referral confirmed; AI unnamed but admitted at oral argument."
+        "notes": "$5,000 sanction and bar referral confirmed; AI unnamed but admitted at oral argument. On March 13, 2026, the court expanded footnote 3 to discuss verification of AI-generated material and citations in proposed orders submitted by counsel. The modification expressly left the judgment unchanged."
       },
-      "notes": "$5,000 sanction and bar referral confirmed; AI unnamed but admitted at oral argument.",
+      "notes": "$5,000 sanction and bar referral confirmed; AI unnamed but admitted at oral argument. On March 13, 2026, the court expanded footnote 3 to discuss verification of AI-generated material and citations in proposed orders submitted by counsel. The modification expressly left the judgment unchanged.",
       "source": "https://courts.ca.gov/opinions/archive/D085584.PDF",
       "source_locator": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-filing-status-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The specified modification establishes no new sanction or later disciplinary outcome."
+      ],
       "ai_incident_law_record_id": "AIEL-2026-032",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -1743,16 +1749,19 @@
       "disposition": "confirmed",
       "remedy": {
         "status": "sanctioned",
-        "notes": "$250 Harris + $1,000 Roquemore; St. Raymond admonished only; Harris fully admitted ChatGPT use."
+        "notes": "$250 Harris + $1,000 Roquemore; St. Raymond admonished only; Harris fully admitted ChatGPT use. In a separate September 2, 2026 merits order (ECF 58), the court dismissed Gentry’s federal claims against all defendants with prejudice and his state-law claims without prejudice."
       },
-      "notes": "$250 Harris + $1,000 Roquemore; St. Raymond admonished only; Harris fully admitted ChatGPT use.",
+      "notes": "$250 Harris + $1,000 Roquemore; St. Raymond admonished only; Harris fully admitted ChatGPT use. In a separate September 2, 2026 merits order (ECF 58), the court dismissed Gentry’s federal claims against all defendants with prejudice and his state-law claims without prejudice.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.laed.273860/gov.uscourts.laed.273860.25.0.pdf",
       "source_locator": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-filing-status-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The merits order does not establish payment, appeal or any subsequent change to the sanctions."
+      ],
       "ai_incident_law_record_id": "AIEL-2026-034",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2147,16 +2156,19 @@
       "disposition": "confirmed",
       "remedy": {
         "status": "sanctioned",
-        "notes": "$2,000 sanction (reduced from magistrate's $7,500 recommendation); Fastcase named as the AI tool by court finding."
+        "notes": "$2,000 sanction (reduced from magistrate's $7,500 recommendation); Fastcase named as the AI tool by court finding. A separate September 28, 2026 merits order (ECF 134) granted defendants summary judgment on the sex discrimination claim and recorded that Davis had abandoned her First Amendment retaliation claim against JDC and Kervan. The court directed entry of a separate final judgment."
       },
-      "notes": "$2,000 sanction (reduced from magistrate's $7,500 recommendation); Fastcase named as the AI tool by court finding.",
+      "notes": "$2,000 sanction (reduced from magistrate's $7,500 recommendation); Fastcase named as the AI tool by court finding. A separate September 28, 2026 merits order (ECF 134) granted defendants summary judgment on the sex discrimination claim and recorded that Davis had abandoned her First Amendment retaliation claim against JDC and Kervan. The court directed entry of a separate final judgment.",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.insd.217901/gov.uscourts.insd.217901.127.0.pdf",
       "source_locator": "Davis v. Marion County Superior Court Juvenile Detention Center, No. 1:24-cv-01918-JRO-MJD (S.D. Ind.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-filing-status-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The separate judgment, appeal and payment of the earlier sanction were not verified."
+      ],
       "ai_incident_law_record_id": "AIEL-2026-042",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2554,16 +2566,19 @@
       "disposition": "confirmed",
       "remedy": {
         "status": "sanctioned",
-        "notes": "$900 on Azar alone; AI tool unnamed (accessed via unnamed AI \"consultant\"); co-counsel Keiter exonerated."
+        "notes": "$900 on Azar alone; AI tool unnamed (accessed via unnamed AI \"consultant\"); co-counsel Keiter exonerated. On June 10, 2026, the California Supreme Court denied the petition for review (S295965, appellate case B329314)."
       },
-      "notes": "$900 on Azar alone; AI tool unnamed (accessed via unnamed AI \"consultant\"); co-counsel Keiter exonerated.",
+      "notes": "$900 on Azar alone; AI tool unnamed (accessed via unnamed AI \"consultant\"); co-counsel Keiter exonerated. On June 10, 2026, the California Supreme Court denied the petition for review (S295965, appellate case B329314).",
       "source": "https://courts.ca.gov/opinions/nonpub/B329314.PDF",
       "source_locator": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., No. B329314 (Cal. Ct. App., 2d Dist., Div. Three) (unpublished)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-filing-status-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The conference result establishes denial of review only. Payment, later proceedings and compliance were not verified."
+      ],
       "ai_incident_law_record_id": "AIEL-2026-049",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"

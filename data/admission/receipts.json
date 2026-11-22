@@ -1184,7 +1184,7 @@
     },
     "included/AIEL-2026-020": {
       "baseline_sha256": "03e08c6db14e6fd4b3ba650c0cf88183d4aacbe2c40630a0067fbedd8444c208",
-      "record_sha256": "d9dfc2f183709da3a15125d7cb9692bd3d7989976f095a00fa7566587f362618",
+      "record_sha256": "8c98943ad08fea684ab50abc44179806fe53d89f67bd6fc05fd3e7ded163a1e5",
       "evidence": {
         "cnn-filed-complaint": {
           "path": "data/admission/raw/aiel-2026-020/complaint.txt",
@@ -1210,6 +1210,27 @@
             "original_path": "data/admission/raw/aiel-2026-020/complaint.pdf",
             "original_sha256": "24084289b1deaf52ca6637c6a8ee26c96dffcc3fbf682483ccfb7f4ff3d5eef3"
           }
+        },
+        "perplexity-argument-letter": {
+          "path": "data/admission/raw/aiel-2026-020/perplexity-argument-letter.txt",
+          "sha256": "8b7ddbe54dfc02b3b5600b09b438ce55de3c24484e496f421542c59fd1a48ece",
+          "official_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.664916/gov.uscourts.nysd.664916.42.0.pdf",
+          "document_id": "1:26-cv-04427-LAP, ECF 42",
+          "document_title": "perplexity argument letter",
+          "issuing_body": "Hecker Fink LLP, counsel for defendant Perplexity AI, Inc.",
+          "document_type": "counsel letter",
+          "version": "Filed October 23, 2026.",
+          "locator": "ECF 42 p. 1, counsel’s request to Judge Preska and account of the reply filing.",
+          "excerpt": "motion to dismiss, which completes the briefing on the motion.",
+          "identity_excerpts": [
+            "1:26-cv-04427-LAP",
+            "Document 42"
+          ],
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2026-020/perplexity-argument-letter.pdf",
+            "sha256": "2bf14faf28dcf4d9bdd4538a4c55f9cc989dfbbcc8168722c462e5fcfb8562e0"
+          }
         }
       },
       "units": {
@@ -1229,29 +1250,44 @@
         },
         "field:secondary_source_links": {
           "before_sha256": "698c202261ce6801dcceff9b69c1bdbfdd61e62bc3b574f02453e819652f6754",
-          "after_sha256": "5e20c1417a9631e3ed0f6d2552848efbb9b902133c0410c2654c952170512b59",
-          "candidate_content": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
-          "reason": "Retains the CourtListener docket page as secondary procedural metadata.",
+          "after_sha256": "166fc46d5572f58499b951ac742344b5f911b48e100e500b25549b7af8553885",
+          "candidate_content": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/; https://storage.courtlistener.com/recap/gov.uscourts.nysd.664916/gov.uscourts.nysd.664916.42.0.pdf",
+          "reason": "Link the retained court record for this event.",
           "qualifications": {
-            "scope": "Only the named changed unit was checked against the retained evidence in this packet.",
-            "exceptions": "No unchanged legacy field, legal entailment, exhaustive discovery, authenticated human approval, or unreviewed current status is certified.",
-            "time": "The source was retrieved on 2026-09-09; Checked or Verified meaning is changed only where the reviewed unit explicitly says so."
+            "scope": "Link the retained court record for this event.",
+            "exceptions": "The letter establishes counsel’s report and request. The court’s decision on either the motion or the request and later docket events were not verified.",
+            "time": "Filed October 23, 2026."
           },
           "evidence": [
-            "cnn-filed-complaint"
+            "cnn-filed-complaint",
+            "perplexity-argument-letter"
+          ]
+        },
+        "field:notes_on_resolution": {
+          "before_sha256": "079ac49982ea817356b0a94d1023d99a0eefee0ffd06f94a6cbab86e4e936db0",
+          "after_sha256": "f3e2ae44332865e8e0001f5a7d0f710cd2bb4b738f5e43276531432df3678182",
+          "candidate_content": "Complaint (Doc 1, 54 pp) pulled from RECAP and verified 2026-06-01. Copyright + Lanham (trademark/false-attribution) claims; part of a multi-publisher wave against Perplexity (NYT, Chicago Tribune, Encyclopaedia Britannica/Merriam-Webster, Reddit, Dow Jones). In an October 23, 2026 letter to the court (ECF 42), Perplexity’s counsel reported filing its reply on its motion to dismiss (ECF 30), described briefing as complete and requested oral argument.",
+          "reason": "Describe the specific procedural event and its limits.",
+          "qualifications": {
+            "scope": "Describe the specific procedural event and its limits.",
+            "exceptions": "The letter establishes counsel’s report and request. The court’s decision on either the motion or the request and later docket events were not verified.",
+            "time": "Filed October 23, 2026."
+          },
+          "evidence": [
+            "perplexity-argument-letter"
           ]
         }
       },
       "unresolved": [
-        "Current docket status after the filed complaint remains unreviewed."
+        "The letter establishes counsel’s report and request. The court’s decision on either the motion or the request and later docket events were not verified."
       ],
       "review": {
-        "actor": "codex:/root/ail_preflight",
+        "actor": "Codex",
         "actor_type": "agent",
         "decision": "source-consistency-reviewed-changes",
-        "scope": "Primary-source link correction for AIEL-2026-020 only; complaint allegations and current disposition are not re-reviewed.",
-        "reviewed_at": "2026-09-09T17:50:07.303Z",
-        "packet_sha256": "b00ae6df29248f143de2c5ac339a4b943dadb80129ddfa53b10be8c30b3e7e10"
+        "scope": "The newly retained record supports only the specific changes in this receipt. Earlier complaint-link evidence retained from b00ae6df29248f143de2c5ac339a4b943dadb80129ddfa53b10be8c30b3e7e10.",
+        "reviewed_at": "2026-11-22T02:31:09.998Z",
+        "packet_sha256": "3814ea12fe151c3a289475281288b430ea999b589232bf420612d32e0b588ba8"
       }
     },
     "included/AIEL-2026-069": {
@@ -5285,6 +5321,432 @@
         "scope": "Order-level review of the named changed fields. Other fields retain their existing review status.",
         "reviewed_at": "2026-11-22T02:23:50.358Z",
         "packet_sha256": "0929ab1cf4694fdbe812574c1ee7392ed973cf23d4dde560d30731c12fa2d417"
+      }
+    },
+    "included/AIEL-2025-004": {
+      "baseline_sha256": "a14e64308dda7b8ad4f499c92d24a852d34ae336c70a014586eb3d546dfa3e54",
+      "evidence": {
+        "wadsworth-sanctions-order": {
+          "path": "data/admission/raw/aiel-2025-004/wadsworth-sanctions-order.txt",
+          "sha256": "97bd78f263e031877eb07bbf972965ea4e9770a5af825d62ec5a9be5d8b31e10",
+          "official_url": "https://storage.courtlistener.com/recap/gov.uscourts.wyd.64014/gov.uscourts.wyd.64014.181.0_1.pdf",
+          "document_id": "2:23-cv-00118-KHR, ECF 181",
+          "document_title": "wadsworth sanctions order",
+          "issuing_body": "U.S. District Court for the District of Wyoming",
+          "document_type": "order",
+          "version": "Filed February 24, 2025.",
+          "locator": "ECF 181 pp. 3–5 (filing and AI account, including footnote 3), 16–17 (firms and sanctions). Court-stamped RECAP copy signed by Judge Rankin.",
+          "excerpt": "Ayala is removed as counsel of record.",
+          "identity_excerpts": [
+            "2:23-cv-00118-KHR",
+            "Document 181"
+          ],
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2025-004/wadsworth-sanctions-order.pdf",
+            "sha256": "affb264eed7331fecba880e81179aea641b35f399cfda13b3cb6bec8215e3521"
+          },
+          "source_role": "primary record",
+          "ai_attribution_excerpt": "“MX2.law” to add case law."
+        }
+      },
+      "units": {
+        "field:notes_on_resolution": {
+          "before_sha256": "d813003163dcb671847a90cd7f8cdb0e0ed43289402909baf86d77346ea6abb3",
+          "after_sha256": "b04641f90b764da913efb3be20290e3038c96ee27c5b555e454a55f0448b99a3",
+          "candidate_content": "On February 24, 2025, the court revoked Rudwin Ayala’s pro hac vice admission, removed him as counsel and ordered him to pay $3,000 to the court registry. It ordered T. Michael Morgan and Taly Goody to pay $1,000 each. The retained document is the signed ECF 181 order.",
+          "reason": "Describe the specific procedural event and its limits.",
+          "qualifications": {
+            "scope": "Describe the specific procedural event and its limits.",
+            "exceptions": "Payment, subsequent proceedings and compliance were not verified.",
+            "time": "Filed February 24, 2025."
+          },
+          "evidence": [
+            "wadsworth-sanctions-order"
+          ]
+        },
+        "field:public_record_link": {
+          "before_sha256": "5b5fb8a8eb077d70e7ce6645b4a9b3cec201fe2f0ebdc3c5b863dbd22065f6ec",
+          "after_sha256": "aa87fcd7fb24fdd345a29e5b8c96cd51487d2532af707aa879a29ab8710caff9",
+          "candidate_content": "https://storage.courtlistener.com/recap/gov.uscourts.wyd.64014/gov.uscourts.wyd.64014.181.0_1.pdf",
+          "reason": "Use the docket-stamped RECAP copy of ECF 181 signed by Judge Rankin.",
+          "qualifications": {
+            "scope": "Use the docket-stamped RECAP copy of ECF 181 signed by Judge Rankin.",
+            "exceptions": "Payment, subsequent proceedings and compliance were not verified.",
+            "time": "Filed February 24, 2025."
+          },
+          "evidence": [
+            "wadsworth-sanctions-order"
+          ]
+        },
+        "field:source_quality": {
+          "before_sha256": "c4ff4b5bfa560217114267e67f3f7eb4fa1389c9050dfd3c6077e092342bb4c9",
+          "after_sha256": "8b60775068860bb40eab0cb04c57db849f6cd6b04a287c8a959c85b1cca20500",
+          "candidate_content": "primary record",
+          "reason": "Classify the signed court order as a primary record.",
+          "qualifications": {
+            "scope": "Classify the signed court order as a primary record.",
+            "exceptions": "Payment, subsequent proceedings and compliance were not verified.",
+            "time": "Filed February 24, 2025."
+          },
+          "evidence": [
+            "wadsworth-sanctions-order"
+          ]
+        },
+        "field:error_title": {
+          "before_sha256": "a77672fd40978bbcbdb2335cd688cdc12d6c1e55258726e7bea1150e7f3e6ffb",
+          "after_sha256": "90087c84de9be29aa987051d2d5bd9fb3e41fadd221f8c9efb51baf0260073e5",
+          "candidate_content": "Eight fabricated citations in Wadsworth motions in limine",
+          "reason": "Identify the filed motions and count of fabricated citations.",
+          "qualifications": {
+            "scope": "Identify the filed motions and count of fabricated citations.",
+            "exceptions": "Payment, later proceedings and the underlying model were not verified.",
+            "time": "Filed February 24, 2025."
+          },
+          "evidence": [
+            "wadsworth-sanctions-order"
+          ]
+        },
+        "field:ai_system_name": {
+          "before_sha256": "795c83905e297a986e7f31f142f2136367ebaa396989112d021757507954a69c",
+          "after_sha256": "f259c3e5872712403f7b0fe59f231fc78c036dff64306047aba7948d9366d91a",
+          "candidate_content": "MX2.law",
+          "reason": "Identify the platform specifically credited by the court; its underlying model was not established.",
+          "qualifications": {
+            "scope": "Identify the platform specifically credited by the court; its underlying model was not established.",
+            "exceptions": "Payment, later proceedings and the underlying model were not verified.",
+            "time": "Filed February 24, 2025."
+          },
+          "evidence": [
+            "wadsworth-sanctions-order"
+          ]
+        },
+        "field:error_description": {
+          "before_sha256": "32dd10f08a0edc74f5e4db56052a47e1522404bb329fb6ddc2d5ca8ce619eaf2",
+          "after_sha256": "cce772c59a4934977f152e2e3f88edf166d7948c33f024b334ca59e1cd390406",
+          "candidate_content": "The plaintiffs’ lawyers filed motions in limine citing nine cases, eight of which did not exist. The court recounted that Rudwin Ayala uploaded his draft to MX2.law to add case law and failed to verify the resulting citations. The court described the site as apparently an in-house Morgan & Morgan database and credited counsel’s account of the platform used.",
+          "reason": "Describe the motion, citations and platform using the filed judicial findings.",
+          "qualifications": {
+            "scope": "Describe the motion, citations and platform using the filed judicial findings.",
+            "exceptions": "Payment, later proceedings and the underlying model were not verified.",
+            "time": "Filed February 24, 2025."
+          },
+          "evidence": [
+            "wadsworth-sanctions-order"
+          ]
+        },
+        "field:reliance_or_harm": {
+          "before_sha256": "dbb9098d9193ec1f4483fd44caf4d28943ac276256fc9ddb7065d540f8359269",
+          "after_sha256": "dce0969fd64bd069bcc04d6649e27108c417e209f347e279e254150af0f22607",
+          "candidate_content": "The plaintiffs withdrew the motions. The court sanctioned the three signing attorneys and declined to order their firms to show cause at that time.",
+          "reason": "Distinguish the three individual sanctions from the court’s decision about the firms.",
+          "qualifications": {
+            "scope": "Distinguish the three individual sanctions from the court’s decision about the firms.",
+            "exceptions": "Payment, later proceedings and the underlying model were not verified.",
+            "time": "Filed February 24, 2025."
+          },
+          "evidence": [
+            "wadsworth-sanctions-order"
+          ]
+        },
+        "field:tags": {
+          "before_sha256": "1f93fca027f533d3a14503cb0d5f758dc4426983b5762d4bc5f789d0a657613b",
+          "after_sha256": "ce3856bb914ea90a5c14a3cdfc3ef4e6d6f76b8ffe5c86ce489aadffb03d2fca",
+          "candidate_content": "document-generation; legal-hallucination; sanctions-order",
+          "reason": "Remove the source-gap tag following retention of the court-stamped order.",
+          "qualifications": {
+            "scope": "Remove the source-gap tag following retention of the court-stamped order.",
+            "exceptions": "Payment, later proceedings and the underlying model were not verified.",
+            "time": "Filed February 24, 2025."
+          },
+          "evidence": [
+            "wadsworth-sanctions-order"
+          ]
+        }
+      },
+      "record_sha256": "2cca46b9e94a972b4bdede0f7bf35bac40d55b88049338a6e23f107fa8ff5da6",
+      "unresolved": [
+        "Payment, subsequent proceedings, compliance and the underlying model used by MX2.law were not verified."
+      ],
+      "review": {
+        "actor": "Codex",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "The newly retained record supports only the specific changes in this receipt.",
+        "reviewed_at": "2026-11-22T02:31:09.997Z",
+        "packet_sha256": "9c7f311ec57678a923050a3e0a0f6dbee60960108c9fffed90117527b8616f12"
+      }
+    },
+    "included/AIEL-2026-032": {
+      "baseline_sha256": "a93242095ee4f7215d3fb07632f6022910dd6897369d9bd90da4b5eb367f858e",
+      "evidence": {
+        "campos-modifying-order": {
+          "path": "data/admission/raw/aiel-2026-032/campos-modifying-order.txt",
+          "sha256": "9eaf298ed41a544f5b463bea0e9ebe2a9abfe50c0b312b9714514b0d26f5737e",
+          "official_url": "https://cases.justia.com/california/court-of-appeal/2026-d085584m.pdf",
+          "document_id": "D085584, modifying order",
+          "document_title": "campos modifying order",
+          "issuing_body": "California Court of Appeal, Fourth Appellate District, Division One",
+          "document_type": "order",
+          "version": "Filed March 13, 2026.",
+          "locator": "Modifying order, pp. 1–2, followed by the March 5 opinion, hosted by Justia; same filed order appears in the State Bar’s panel materials.",
+          "excerpt": "There is no change in the judgment.",
+          "identity_excerpts": [
+            "D085584",
+            "ORDER MODIFYING OPINION"
+          ],
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2026-032/campos-modifying-order.pdf",
+            "sha256": "a35cfa9823370b2a69e9182d4247a5e5ebf0dd5ab240e1b86b25af51be6f2f51"
+          }
+        }
+      },
+      "units": {
+        "field:notes_on_resolution": {
+          "before_sha256": "a4a455d535574dfedfb0c22ed99616151003d0326ac5d5a440d284bf0cca4632",
+          "after_sha256": "18a49783ed52557f29ae7f55eb843040160b04e5327978bb3538048b406a8037",
+          "candidate_content": "$5,000 sanction and bar referral confirmed; AI unnamed but admitted at oral argument. On March 13, 2026, the court expanded footnote 3 to discuss verification of AI-generated material and citations in proposed orders submitted by counsel. The modification expressly left the judgment unchanged.",
+          "reason": "Describe the specific procedural event and its limits.",
+          "qualifications": {
+            "scope": "Describe the specific procedural event and its limits.",
+            "exceptions": "The specified modification establishes no new sanction or later disciplinary outcome.",
+            "time": "Filed March 13, 2026."
+          },
+          "evidence": [
+            "campos-modifying-order"
+          ]
+        },
+        "field:secondary_source_links": {
+          "before_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+          "after_sha256": "e56ba76d886ec43d7a0bc6f758f0f23c3cb7701ac0653676ab0ef6a639096e54",
+          "candidate_content": "https://cases.justia.com/california/court-of-appeal/2026-d085584m.pdf",
+          "reason": "Link the retained court record for this event.",
+          "qualifications": {
+            "scope": "Link the retained court record for this event.",
+            "exceptions": "The specified modification establishes no new sanction or later disciplinary outcome.",
+            "time": "Filed March 13, 2026."
+          },
+          "evidence": [
+            "campos-modifying-order"
+          ]
+        }
+      },
+      "record_sha256": "1b2cafc40ba0c26de02960c60633009ac1317dbfe812dec7c1fab1c152da1676",
+      "unresolved": [
+        "The specified modification establishes no new sanction or later disciplinary outcome."
+      ],
+      "review": {
+        "actor": "Codex",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "The newly retained record supports only the specific changes in this receipt.",
+        "reviewed_at": "2026-11-22T02:31:09.999Z",
+        "packet_sha256": "14bdccc1807d2471a927eb14ddee2814ffcc178f19148452b891fa0c8b917517"
+      }
+    },
+    "included/AIEL-2026-034": {
+      "baseline_sha256": "98e1d740353191101b3d0df16c562b7825955dd6c5517ed2196aa56be4c7906c",
+      "evidence": {
+        "gentry-merits-order": {
+          "path": "data/admission/raw/aiel-2026-034/gentry-merits-order.txt",
+          "sha256": "198f15f9cd5532b7a475bc229d86f661f24ba255da5a1ce33d7d799268f4ffc1",
+          "official_url": "https://govinfo.gov/content/pkg/USCOURTS-laed-2_25-cv-01260/pdf/USCOURTS-laed-2_25-cv-01260-1.pdf",
+          "document_id": "2:25-cv-01260-CJB-EJD, ECF 58",
+          "document_title": "gentry merits order",
+          "issuing_body": "U.S. District Court for the Eastern District of Louisiana",
+          "document_type": "order",
+          "version": "Filed September 2, 2026.",
+          "locator": "ECF 58 p. 24, numbered dispositions of federal and state claims.",
+          "excerpt": "Defendants are DISMISSED WITHOUT PREJUDICE.",
+          "identity_excerpts": [
+            "2:25-cv-01260-CJB-EJD",
+            "Document 58"
+          ],
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2026-034/gentry-merits-order.pdf",
+            "sha256": "c9015a59920df1e93813ef354c1afd21ea76c9c514b07c6a2c363caf29629df8"
+          }
+        }
+      },
+      "units": {
+        "field:notes_on_resolution": {
+          "before_sha256": "0c9d29f27aeaa7a8ab3cf328568ea2cc0ab40417c4ffd1fbb162519d3c059c25",
+          "after_sha256": "fc75595e894edc2d5fd11efca7f4d35d7156cfc9b971a958e4a7058696d663fc",
+          "candidate_content": "$250 Harris + $1,000 Roquemore; St. Raymond admonished only; Harris fully admitted ChatGPT use. In a separate September 2, 2026 merits order (ECF 58), the court dismissed Gentry’s federal claims against all defendants with prejudice and his state-law claims without prejudice.",
+          "reason": "Describe the specific procedural event and its limits.",
+          "qualifications": {
+            "scope": "Describe the specific procedural event and its limits.",
+            "exceptions": "The merits order does not establish payment, appeal or any subsequent change to the sanctions.",
+            "time": "Filed September 2, 2026."
+          },
+          "evidence": [
+            "gentry-merits-order"
+          ]
+        },
+        "field:secondary_source_links": {
+          "before_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+          "after_sha256": "4d0a62f3eff277117a4e2d50f04f5fb5d8c125625e3f12b5fa0e31e3157fd820",
+          "candidate_content": "https://govinfo.gov/content/pkg/USCOURTS-laed-2_25-cv-01260/pdf/USCOURTS-laed-2_25-cv-01260-1.pdf",
+          "reason": "Link the retained court record for this event.",
+          "qualifications": {
+            "scope": "Link the retained court record for this event.",
+            "exceptions": "The merits order does not establish payment, appeal or any subsequent change to the sanctions.",
+            "time": "Filed September 2, 2026."
+          },
+          "evidence": [
+            "gentry-merits-order"
+          ]
+        }
+      },
+      "record_sha256": "176e7f9b92c8274fd79edef37c3591550197aedc26a76ce7554200639a2360b6",
+      "unresolved": [
+        "The merits order does not establish payment, appeal or any subsequent change to the sanctions."
+      ],
+      "review": {
+        "actor": "Codex",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "The newly retained record supports only the specific changes in this receipt.",
+        "reviewed_at": "2026-11-22T02:31:10.001Z",
+        "packet_sha256": "80b7a6c6bd01f9d30a7cf9d97b43cfffbd02d58faa3bda37e7aeaf53bff87d8e"
+      }
+    },
+    "included/AIEL-2026-042": {
+      "baseline_sha256": "ad53644c6c333e210dd12ce0055000aa62ad2a8f32b798de824c75d552934934",
+      "evidence": {
+        "davis-summary-judgment-order": {
+          "path": "data/admission/raw/aiel-2026-042/davis-summary-judgment-order.txt",
+          "sha256": "5908a59d47380ebad339f6a4cb468d866242162f0d333c6c5305274161d96e50",
+          "official_url": "https://govinfo.gov/content/pkg/USCOURTS-insd-1_24-cv-01918/pdf/USCOURTS-insd-1_24-cv-01918-6.pdf",
+          "document_id": "1:24-cv-01918-JRO-MJD, ECF 134",
+          "document_title": "davis summary judgment order",
+          "issuing_body": "U.S. District Court for the Southern District of Indiana",
+          "document_type": "order",
+          "version": "Filed September 28, 2026.",
+          "locator": "ECF 134 p. 23, conclusion on sex discrimination, retaliation and separate judgment.",
+          "excerpt": "Final judgment shall now issue by separate",
+          "identity_excerpts": [
+            "1:24-cv-01918-JRO-MJD",
+            "Document 134"
+          ],
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2026-042/davis-summary-judgment-order.pdf",
+            "sha256": "2eef67b1ca8e5a1024a34ae64b34ad8457491ad5cd355711fdccfb33faf8511d"
+          }
+        }
+      },
+      "units": {
+        "field:notes_on_resolution": {
+          "before_sha256": "264e56fc764229d694a3620c3032c0656f73e33d9cf9059ba6311e554d980a57",
+          "after_sha256": "5695b50d22be8b7e28dc9e457b2c4fbd6fc8b21a8f5aad597a35c598695bad0e",
+          "candidate_content": "$2,000 sanction (reduced from magistrate's $7,500 recommendation); Fastcase named as the AI tool by court finding. A separate September 28, 2026 merits order (ECF 134) granted defendants summary judgment on the sex discrimination claim and recorded that Davis had abandoned her First Amendment retaliation claim against JDC and Kervan. The court directed entry of a separate final judgment.",
+          "reason": "Describe the specific procedural event and its limits.",
+          "qualifications": {
+            "scope": "Describe the specific procedural event and its limits.",
+            "exceptions": "The separate judgment, appeal and payment of the earlier sanction were not verified.",
+            "time": "Filed September 28, 2026."
+          },
+          "evidence": [
+            "davis-summary-judgment-order"
+          ]
+        },
+        "field:secondary_source_links": {
+          "before_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+          "after_sha256": "de070ee21400f72143dda29a8b07a445ec6f536f58cd05d301f2af3eb0010641",
+          "candidate_content": "https://govinfo.gov/content/pkg/USCOURTS-insd-1_24-cv-01918/pdf/USCOURTS-insd-1_24-cv-01918-6.pdf",
+          "reason": "Link the retained court record for this event.",
+          "qualifications": {
+            "scope": "Link the retained court record for this event.",
+            "exceptions": "The separate judgment, appeal and payment of the earlier sanction were not verified.",
+            "time": "Filed September 28, 2026."
+          },
+          "evidence": [
+            "davis-summary-judgment-order"
+          ]
+        }
+      },
+      "record_sha256": "5a9aecc5ba25f0afc1e5f873a65a27ea399e5945e649e006415be90b14c7ebce",
+      "unresolved": [
+        "The separate judgment, appeal and payment of the earlier sanction were not verified."
+      ],
+      "review": {
+        "actor": "Codex",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "The newly retained record supports only the specific changes in this receipt.",
+        "reviewed_at": "2026-11-22T02:31:10.001Z",
+        "packet_sha256": "015ee0a33e0b600cb05724b4d3b287e73a6058493d431f55c787b4b48ad051d2"
+      }
+    },
+    "included/AIEL-2026-049": {
+      "baseline_sha256": "03ebaf41300c7254d8bace8183e2af4005bbc1db5002114224b0061618585a5f",
+      "evidence": {
+        "efd-petition-conference": {
+          "path": "data/admission/raw/aiel-2026-049/efd-petition-conference.txt",
+          "sha256": "3868b35b4bbed51fa2e35e2786deaed4455377f14597a0c403905d06f7ca2bc7",
+          "official_url": "https://supreme.courts.ca.gov/sites/default/files/supremecourt/default/documents/conference%20results%20-%20061026%20-%20R.pdf",
+          "document_id": "S295965 / B329314",
+          "document_title": "efd petition conference",
+          "issuing_body": "Supreme Court of California",
+          "document_type": "order",
+          "version": "Petition conference June 10, 2026.",
+          "locator": "Conference results, EFD USA v. Band Pro Film and Digital; petition for review, denied.",
+          "excerpt": "EFD USA v. BAND PRO FILM AND DIGITAL",
+          "identity_excerpts": [
+            "S295965",
+            "B329314"
+          ],
+          "acquisition": "retained_snapshot",
+          "original": {
+            "path": "data/admission/raw/aiel-2026-049/efd-petition-conference.pdf",
+            "sha256": "600a6c75faaa72321b5260918f34af713b50814c402efcb1495d845901498d65"
+          }
+        }
+      },
+      "units": {
+        "field:notes_on_resolution": {
+          "before_sha256": "05110948839c5b75b0758795aa94d6af075c9afabcd8cf55c575c32235d6d796",
+          "after_sha256": "259bf16ecb02620183ea75318a60fbedc2918f579cccde3a8807fd7f097f85cc",
+          "candidate_content": "$900 on Azar alone; AI tool unnamed (accessed via unnamed AI \"consultant\"); co-counsel Keiter exonerated. On June 10, 2026, the California Supreme Court denied the petition for review (S295965, appellate case B329314).",
+          "reason": "Describe the specific procedural event and its limits.",
+          "qualifications": {
+            "scope": "Describe the specific procedural event and its limits.",
+            "exceptions": "The conference result establishes denial of review only. Payment, later proceedings and compliance were not verified.",
+            "time": "Petition conference June 10, 2026."
+          },
+          "evidence": [
+            "efd-petition-conference"
+          ]
+        },
+        "field:secondary_source_links": {
+          "before_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+          "after_sha256": "cb03533cf9f5fc03c8bbe2ebed8c92ef3737fb7baaa00fa9bcd1f55056cc60c9",
+          "candidate_content": "https://supreme.courts.ca.gov/sites/default/files/supremecourt/default/documents/conference%20results%20-%20061026%20-%20R.pdf",
+          "reason": "Link the retained court record for this event.",
+          "qualifications": {
+            "scope": "Link the retained court record for this event.",
+            "exceptions": "The conference result establishes denial of review only. Payment, later proceedings and compliance were not verified.",
+            "time": "Petition conference June 10, 2026."
+          },
+          "evidence": [
+            "efd-petition-conference"
+          ]
+        }
+      },
+      "record_sha256": "a87cf8793367c783122c07e64ec7ec5f95940f9578636dd381b7322a5dbf2ad7",
+      "unresolved": [
+        "The conference result establishes denial of review only. Payment, later proceedings and compliance were not verified."
+      ],
+      "review": {
+        "actor": "Codex",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "The newly retained record supports only the specific changes in this receipt.",
+        "reviewed_at": "2026-11-22T02:31:10.002Z",
+        "packet_sha256": "d9d60d06ffd71665e43ea42edf880a924d683c7889b7b3ec1c6135af29bd9787"
       }
     }
   }

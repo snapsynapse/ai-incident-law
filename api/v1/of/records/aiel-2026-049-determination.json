@@ -40,16 +40,19 @@
   "disposition": "confirmed",
   "remedy": {
     "status": "sanctioned",
-    "notes": "$900 on Azar alone; AI tool unnamed (accessed via unnamed AI \"consultant\"); co-counsel Keiter exonerated."
+    "notes": "$900 on Azar alone; AI tool unnamed (accessed via unnamed AI \"consultant\"); co-counsel Keiter exonerated. On June 10, 2026, the California Supreme Court denied the petition for review (S295965, appellate case B329314)."
   },
-  "notes": "$900 on Azar alone; AI tool unnamed (accessed via unnamed AI \"consultant\"); co-counsel Keiter exonerated.",
+  "notes": "$900 on Azar alone; AI tool unnamed (accessed via unnamed AI \"consultant\"); co-counsel Keiter exonerated. On June 10, 2026, the California Supreme Court denied the petition for review (S295965, appellate case B329314).",
   "source": "https://courts.ca.gov/opinions/nonpub/B329314.PDF",
   "source_locator": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., No. B329314 (Cal. Ct. App., 2d Dist., Div. Three) (unpublished)",
   "evidence_type": "primary record",
   "verified": "2026-07-24",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "projection_basis": "legacy-filing-status-inference",
-  "admission_status": "legacy-unreviewed",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "The conference result establishes denial of review only. Payment, later proceedings and compliance were not verified."
+  ],
   "ai_incident_law_record_id": "AIEL-2026-049",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"

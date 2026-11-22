@@ -52,13 +52,16 @@
   "hasDetermination": [
     "https://aiincidentlaw.org/determination/aiel-2025-004-determination.json"
   ],
-  "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.wyd.64014/gov.uscourts.wyd.64014.181.0_1.pdf",
   "source_locator": "Wadsworth v. Walmart Inc.",
-  "evidence_type": "reliable reporting",
+  "evidence_type": "primary record",
   "verified": "2026-04-22",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "projection_basis": "legacy-record-inference",
-  "admission_status": "legacy-unreviewed",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "Payment, subsequent proceedings, compliance and the underlying model used by MX2.law were not verified."
+  ],
   "ai_incident_law_record_id": "AIEL-2025-004",
   "matter_type": "sanctions order",
   "filing_status": "sanctioned"

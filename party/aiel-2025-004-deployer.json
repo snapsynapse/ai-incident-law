@@ -27,11 +27,14 @@
   "roles": [
     "deployer"
   ],
-  "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.wyd.64014/gov.uscourts.wyd.64014.181.0_1.pdf",
   "source_locator": "Wadsworth v. Walmart Inc.",
-  "evidence_type": "reliable reporting",
+  "evidence_type": "primary record",
   "verified": "2026-04-22",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "projection_basis": "native-record-projection",
-  "admission_status": "legacy-unreviewed"
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "Payment, subsequent proceedings, compliance and the underlying model used by MX2.law were not verified."
+  ]
 }

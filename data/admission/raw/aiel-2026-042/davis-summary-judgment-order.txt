@@ -1,0 +1,1181 @@
+Case 1:24-cv-01918-JRO-MJD        Document 134 Filed 09/28/26   Page 1 of 23 PageID #:
+                                       <pageID>
+
+
+
+                       UNITED STATES DISTRICT COURT
+                       SOUTHERN DISTRICT OF INDIANA
+                           INDIANAPOLIS DIVISION
+
+ YVONNE L. DAVIS,                              )
+                                               )
+                           Plaintiff,          )
+                                               )
+                      v.                       )   No. 1:24-cv-01918-JRO-MJD
+                                               )
+ MARION COUNTY SUPERIOR COURT                  )
+ JUVENILE DETENTION CENTER,                    )
+ PAIGE BOVA KERVAN,                            )
+                                               )
+                           Defendants.         )
+
+   ORDER GRANTING DEFENDANTS' MOTION FOR SUMMARY JUDGMENT
+
+       Plaintiff Yvonne L. Davis was the Director of Staff and Youth Services for
+
+ Defendant Marion County Superior Court Juvenile Detention Center ("JDC").
+
+ JDC terminated her employment in 2022 and then refused to rehire her when
+
+ she reapplied for the same position ten months later. Davis alleges that JDC
+
+ discriminated against her on the basis of sex in its rehiring decision, in violation
+
+ of Title VII of the Civil Rights Act of 1964, 42 U.S.C. § 2000e, et seq. JDC moves
+
+ for summary judgment. The motion, dkt. [99], is GRANTED.
+
+                I. FACTUAL AND PROCEDURAL BACKGROUND
+
+       Because JDC has moved for summary judgment under Rule 56(a), the
+
+ Court views and recites the evidence "in the light most favorable to the
+
+ nonmoving party and draw[s] all reasonable inferences in that party's
+
+ favor." Zerante v. DeLuca, 555 F.3d 582, 584 (7th Cir. 2009) (citation omitted).
+
+       Davis, a woman, worked at JDC from 2000 to 2022. Dkt. 15 ¶ 12. For the
+
+ last six of her twenty-two years of employment at JDC, she was the Director of
+Case 1:24-cv-01918-JRO-MJD    Document 134 Filed 09/28/26       Page 2 of 23 PageID #:
+                                   <pageID>
+
+
+
+ Staff and Youth Services ("DSYS"). Dkt. 120 at 5. Davis reported to Kelvin Burrell,
+
+ JDC Assistant Superintendent, who in turn reported to Mary Dozier, JDC's
+
+ Superintendent, who in turn reported to Defendant Paige Bova Kervan, JDC's
+
+ Chief Operating Officer. Dkt. 15 at 3, 5. Kervan held the role of the highest
+
+ Human Resource official in the Marion Superior Court. Dkt. 121 at 2.
+
+ A.    Davis's Report to Kervan
+
+       Davis's termination followed her involvement in reporting rumors that JDC
+
+ administrators Burrell and Dozier were seen together outside of work at a local
+
+ casino. Kaila Butler, one of Davis's subordinates, reported to Davis that she saw
+
+ the two administrators sitting closely together and abruptly leaving after they
+
+ saw Butler. Dkt. 120 at 19. Butler memorialized what she remembered in a
+
+ Matter of Record ("MOR"), using a JDC incident report, dkt. 99-4 at 6, and gave
+
+ it to Davis. Butler could not identify the pair she saw by name but pointed to
+
+ where their offices were in the JDC. Id. at 2. Davis determined that the pair was
+
+ Burrell and Dozier. Dkt. 113-17 at 2.
+
+       Davis then sent Butler's MOR to Kervan. Dkt. 113-17 at 3. Two days later,
+
+ Kervan responded to Davis's email and accompanying MOR, and asked "[a]m I
+
+ missing something? It says two employees from administration were at the
+
+ casino. It doesn’t say who they were, or if they were doing something
+
+ inappropriate." Dkt. 99-4 at 3. Kervan asked if Davis knew who the two
+
+ administrators were; Davis said she did not know. Id. at 2. Meanwhile, Dozier
+
+ and Burrell were informed by a third-party of the MOR Davis had sent to Kervan.
+
+
+
+
+                                         2
+Case 1:24-cv-01918-JRO-MJD     Document 134 Filed 09/28/26       Page 3 of 23 PageID #:
+                                    <pageID>
+
+
+
+ B.    Davis's Termination
+
+       Dozier, with Kervan's support, decided to terminate Davis's employment.
+
+ Dozier drafted a Corrective Action Report ("CAR") detailing why termination was
+
+ appropriate. Dkt. 99-3. Davis was given the CAR, which stated in part that she
+
+ violated Marion County court policies because of poor work performance,
+
+ insubordination, dishonesty or discourtesy, and "[i]mmoral, unprofessional or
+
+ disruptive behavior while on duty." Id. at 2. One alleged example was "a pattern
+
+ of [Davis] disregarding directives that [Dozier] would give." Id.
+
+       The CAR detailed that Davis met with Burrell after Davis sent the MOR to
+
+ Kervan. During that meeting, Davis told Burnell that she would misleadingly
+
+ represent that the administrator in the casino was Alex Murdock instead of
+
+ Burrell, despite knowing that it was Burrell. Id. at 4. The CAR also described a
+
+ separate incident involving Davis that occurred in March of 2022. Id. At that
+
+ time, Kervan, Dozier, and Burrell met with Davis to "discuss concerns regarding
+
+ inappropriate comments [Davis] had made about a new hire for Administration
+
+ to other employees, as well as other comments of concern that had been
+
+ reported." Id. That meeting centered around the need for Administration staff to
+
+ "be able to trust one another" and how "trust is essential to a cohesive work
+
+ environment." Id. The CAR concluded by describing how Davis's actions "have
+
+ irreparably harmed the trust and confidence that an employer can reasonably
+
+ expect from its employees, particularly those in a leadership role." Id. Davis
+
+ denied the allegations in the CAR and disputes the events of March and
+
+ September 2022. But she does not allege wrongful discharge or retaliation here.
+
+                                          3
+Case 1:24-cv-01918-JRO-MJD    Document 134 Filed 09/28/26      Page 4 of 23 PageID #:
+                                   <pageID>
+
+
+
+       Davis was officially terminated on September 26, 2022. Id. at 2. On
+
+ January 27, 2023, Davis filed a six-count complaint alleging various federal and
+
+ state claims against Kervan, Dozier, and another JDC employee related to her
+
+ termination. 1:23-cv-00172-RLY-TAB ("Davis I"); see Dkt. 99-1. The Court
+
+ granted Defendants' motion for summary judgment in part, granting judgment
+
+ as a matter of law as to all federal claims, and then declining jurisdiction over
+
+ the three remaining state claims, dkt. 99-2 at 17, which remain pending in state
+
+ court under cause number 49D04-2508-CT-039924.
+
+ C.    Davis's Application for Rehire
+
+       In July 2023, JDC solicited applications for Davis's old position, Director
+
+ of Staff and Youth Services. Dkt. 99-6 at 1–3; Dkt. 113-15. The listed
+
+ qualifications for the job, dkt. 99-6, included a Bachelor's degree and a minimum
+
+ of three years of proven supervisory experience. Id. at 2. Consideration would
+
+ also be given to a "non-degree candidate (in lieu of Bachelor's degree) with at
+
+ least three years of detailed supervisory experience and proven knowledge of the
+
+ Detention Center's organizational and security structure, confidentiality needs,
+
+ and safety/security procedures & policies." Id. Further, the position called for a
+
+ candidate to "be able to multi- task, use time effectively, accept supervision and
+
+ constructive feedback, make sound judgment calls /decisions in emergency
+
+ situations" and to have the "[a]bility to work within a culturally diverse
+
+ environment." Id.
+
+       Davis applied for the job in July 2023. Dkt. 113-10 at 3.
+
+
+
+
+                                         4
+Case 1:24-cv-01918-JRO-MJD    Document 134 Filed 09/28/26       Page 5 of 23 PageID #:
+                                   <pageID>
+
+
+
+ D.    Defendants Do Not Rehire Davis
+
+       Davis was not rehired. It is undisputed that Davis satisfied the listed
+
+ qualifications for the DSYS position. Dkt. 121 at 19. It is also undisputed that
+
+ JDC did not seriously consider her for the position. Dkt. 118 at 7–8; Dkt. 120 at
+
+ 5. For instance, Burrell stated that Davis was qualified for the position when she
+
+ applied, dkt. 113-6 at 48, but also stated that he would not have interviewed
+
+ Davis again for the position after speaking with his team, id. at 49. Burell
+
+ described Davis as "vengeful," dkt. 99-7 at 50, and also stated that when looking
+
+ for prospective employees, they look to "see if they are a good match" with the
+
+ current team in place, id. at 62, 65, 67. Burrell stated that he would not have
+
+ considered giving Davis an interview because he believed she damaged working
+
+ relationships within the JDC with her divisive and disruptive behavior. Id. at 67.
+
+       While the parties dispute some of the other details, it is undisputed that
+
+ Davis was deemed ineligible for rehire based on the informal policy of not rehiring
+
+ employees who had been terminated within one year. Dkt. 118 at 7–8; Dkt. 120
+
+ at 13. Kervan had the authority to determine whether somebody who had been
+
+ fired was eligible for rehire. Dkt. 99-5 at 26–27; Dkt. 120 at 4. It is also
+
+ undisputed that Davis was terminated within a year of reapplying, in September
+
+ of 2022, and the reasons for the termination were detailed in the CAR. Dkt. 118
+
+ at 3; Dkt. 120 at 5.
+
+       Davis questions the credibility of this evidence but does not dispute the
+
+ explanation of her September 2022 termination. While she argues that the
+
+ testimony of Kervan and Burrell is inconsistent with JDC's response to Davis's
+
+                                         5
+Case 1:24-cv-01918-JRO-MJD      Document 134 Filed 09/28/26       Page 6 of 23 PageID #:
+                                     <pageID>
+
+
+
+ EEOC complaint, the inconsistencies are overstated. The facts about Kervan's
+
+ and Burrell's position on not rehiring Davis are not in dispute.
+
+ E.    Defendants Promote King
+
+       Instead of hiring Davis, JDC promoted an internal candidate, Godwin
+
+ King, a male, as the DSYS. Dkt. 113-10 at 3–4. King "had zero years prior
+
+ experience as DSYS" and less than one year total at JDC when he was promoted.
+
+ Dkt. 120 at 6. He had previously "been convicted of a felony, stealing over
+
+ $15,000 from a group home resident, but was punished at the misdemeanor
+
+ level as part of his plea agreement." Id. at 5. Kervan was aware of this conviction
+
+ but hired and promoted him anyway. Id. King also lied on his job application for
+
+ the DSYS position that he had a college degree in order to receive a salary
+
+ increase. Id. at 6. Kervan did not discipline him.
+
+ F.    Procedural History
+
+       On October 3, 2023, Davis filed a charge of discrimination with the U.S.
+
+ Equal Employment Opportunity Commission ("EEOC"), Charge No. 470-2024-
+
+ 00044, alleging sex discrimination under Title VII of the Civil Rights Act of 1964.
+
+ Dkt. 15 ¶ 4. On August 15–16, 2024, Davis received the EEOC's right to sue
+
+ letter and timely filed this action on October 30, 2024. Id. ¶ 6; see also dkt. 1.
+
+       Davis alleged sex discrimination under Title VII against JDC for failing to
+
+ rehire her as the DSYS and First Amendment retaliation against Kervan for
+
+ failing to rehire her after she filed the Davis I lawsuit. Dkt. 1.
+
+       On November 3, 2025, Defendants moved for summary judgment. Dkt. 99.
+
+ In her response to the motion, Davis abandoned her First Amendment retaliation
+
+                                           6
+Case 1:24-cv-01918-JRO-MJD    Document 134 Filed 09/28/26      Page 7 of 23 PageID #:
+                                   <pageID>
+
+
+
+ claim because the alleged retaliation was not in response to her speech as "a
+
+ private citizen speaking out on a matter of public concern." Dkt. 120 at 2 (citing
+
+ Zorzi v. Cnty. of Putnam, 30 F.3d 885, 896 (7th Cir. 1994)). Davis confirms that
+
+ "only her Title VII sex discrimination claim against Defendant [JDC]" remains.
+
+ Id. Based on this concession, the Court GRANTS Defendants' motion on the First
+
+ Amendment retaliation claim. The remaining claim against JDC for Title VII sex
+
+ discrimination matter is now ripe for decision.
+
+                              II. LEGAL STANDARD
+
+       A district court shall grant summary judgment "if the movant shows that
+
+ there is no genuine dispute as to any material fact and the movant is entitled to
+
+ judgment as a matter of law." Fed. R. Civ. P. 56(a). A genuine dispute of material
+
+ fact exists if "the evidence is such that a reasonable jury could return a verdict
+
+ for the nonmoving party." Anderson v. Liberty Lobby, Inc., 477 U.S. 242, 248
+
+ (1986). The party seeking summary judgment has the burden of establishing
+
+ that there is no genuine dispute as to any material fact. See Celotex Corp. v.
+
+ Catrett, 477 U.S. 317, 323 (1986). To survive summary judgment, the opposing
+
+ party must go beyond the pleadings and identify specific facts showing the
+
+ existence of a genuine issue for trial. See Anderson, 477 U.S. at 256.
+
+       The Court construes all facts in the light most favorable to the nonmoving
+
+ party, giving the nonmoving party the benefit of all reasonable inferences. See
+
+ Chaib v. Geo Grp., Inc., 819 F.3d 337, 341 (7th Cir. 2016). The Court does not
+
+ weigh the evidence, judge credibility, or determine the truth of the matter, but
+
+ rather determines only whether a genuine issue of triable fact exists. See Nat'l
+
+                                         7
+Case 1:24-cv-01918-JRO-MJD     Document 134 Filed 09/28/26       Page 8 of 23 PageID #:
+                                    <pageID>
+
+
+
+ Athletic Sportswear, Inc. v. Westfield Ins. Co., 528 F.3d 508, 512 (7th Cir. 2008).
+
+ While the Court will "construe all facts and draw all reasonable inferences in the
+
+ nonmoving party's favor," the moving party may prevail at summary judgment
+
+ "'by showing an absence of evidence to support the nonmoving party's claims.'"
+
+ Lewis v. Ind. Wesleyan Univ., 36 F.4th 755, 759 (7th Cir. 2022) (quoting Tyburski
+
+ v. City of Chicago, 964 F.3d 590, 597 (7th Cir. 2020)).
+
+                                  III. DISCUSSION
+
+       Title VII forbids an employer from discriminating against any individual
+
+ with respect to his or her "compensation, terms, conditions, or privileges of
+
+ employment, because of such individual's . . . sex." 42 U.S.C. § 2000e-2(a)(1).
+
+ The legal standard in a Title VII case is holistic: "whether the evidence would
+
+ permit a reasonable factfinder to conclude that the plaintiff's race, ethnicity, sex,
+
+ religion, or other proscribed factor caused the discharge or other adverse
+
+ employment action." Burton v. Will Cnty. Sheriff's Merit Comm'n, 176 F.4th 544,
+
+ 548 (7th Cir. 2026) (citing Ortiz v. Werner Enters., Inc., 834 F.3d 760, 765 (7th
+
+ Cir. 2016)). The burden-shifting approach in McDonnell Douglas Corp. v. Green,
+
+ 411 U.S. 792, 802 (1973), is "one way of culling the relevant evidence" to answer
+
+ this question. Johnson v. Advoc. Health & Hosps. Corp., 892 F.3d 887, 894 (7th
+
+ Cir. 2018) ("[T]he well-known and oft-used McDonnell Douglas framework for
+
+ evaluating discrimination remains an efficient way to organize, present, and
+
+ assess evidence in discrimination cases.").
+
+       Davis relies primarily on Ortiz to present her claim. But JDC's motion is
+
+ organized around the McDonnell Douglas framework. So the Court will use that
+
+                                          8
+Case 1:24-cv-01918-JRO-MJD      Document 134 Filed 09/28/26        Page 9 of 23 PageID #:
+                                     <pageID>
+
+
+
+ approach first and circle back to Ortiz for good measure. See Tyburski, 964 F.3d
+
+ at 599 ("As long as the court considers the evidence as a whole, it may also use
+
+ the McDonnell Douglas framework as a supplemental tool."). Under either
+
+ framework, the undisputed evidence considered as a whole shows that JDC is
+
+ entitled to summary judgment. 1
+
+ A.    McDonnell Douglas Burden-Shifting Approach
+
+       Under the McDonnell Douglas framework, to make out a prima facie case
+
+ of discrimination in the failure-to-hire context, a plaintiff must establish that: (1)
+
+ she was a member of a protected class; (2) she was qualified for and applied to
+
+ an open position; (3) she was rejected; and (4) the employer filled the position by
+
+ hiring someone outside the protected class, or left the position open. Oliver v.
+
+ Joint Logistics Managers, Inc., 893 F.3d 408, 412 (7th Cir. 2018) (citing Blise v.
+
+ Antaramian, 409 F.3d 861, 866 (7th Cir. 2005)).
+
+       If a plaintiff establishes a prima facie case, the burden shifts to the
+
+ employer to "articulate some legitimate, nondiscriminatory reason" for the
+
+ adverse action. McDonnell Douglas, 411 U.S. at 802. If the employer can
+
+ articulate such a reason, the burden then shifts back to the plaintiff to
+
+ demonstrate that the employer's proffered reason is pretextual. Igasaki v. Illinois
+
+
+
+
+ 1 The Court acknowledges that the Parties spent much time briefing the admissibility of
+
+ evidence. Dkt. 121 at 6–11; Dkt. 123 at 2–16. Evidentiary issues aside, assuming all of
+ Davis's evidence and allegations are admissible, it still does not demonstrate that her
+ sex played any part in JDC's decision not to rehire her. No reasonable jury could find
+ that JDC discriminated against Davis on the basis of her sex under either McDonnell
+ Douglas or Ortiz.
+                                           9
+Case 1:24-cv-01918-JRO-MJD     Document 134 Filed 09/28/26       Page 10 of 23 PageID
+                                   #: <pageID>
+
+
+
+ Dep't of Fin. & Prof. Regul., 988 F.3d 948, 957 (7th Cir. 2021) (quoting Purtue v.
+
+ Wis. Dep't of Corr., 963 F.3d 598, 602 (7th Cir. 2020)).
+
+       1.    Prima facie showing under McDonnell Douglas is satisfied
+
+       At this stage, there is no dispute that the first, third, and fourth prongs
+
+ are met. Davis is a woman and thus a member of a protected class. She was
+
+ rejected for the DSYS position in 2023 while Godwin King, male, was instead
+
+ selected. Dkt. 118 at 14. As to the second prong, JDC argues that Davis was not
+
+ qualified for the position because it sought an internal candidate and because of
+
+ an alleged informal policy of not rehiring employees who had been fired in the
+
+ past year. Dkt. 121 at 19. JDC, however, concedes that Davis was "qualifi[ed] on
+
+ paper." Id. Viewing the facts in a light most favorable to Davis, a reasonable fact
+
+ finder could determine that she was qualified for the position. She had over
+
+ twenty years of experience with JDC and over six years of experience in the same
+
+ role she sought. Her prima facie showing is therefore met.
+
+       2.    Legitimate nondiscriminatory reason
+
+       JDC proffers a legitimate nondiscriminatory reason for not rehiring Davis.
+
+ At this stage, JDC "only has to produce admissible evidence that would permit a
+
+ rational jury to conclude that the employment decision had not been motivated
+
+ by discriminatory animus." Stockwell v. City of Harvey, 597 F.3d 895, 903 (7th
+
+ Cir. 2010). This is a light burden. Id. (citing Pilditch v. Bd. of Educ. of City of
+
+ Chicago, 3 F.3d 1113, 1117 (7th Cir. 1993)). Reasons for not rehiring can be
+
+ subjective. So long as JDC points to "reasonably specific facts that explain how
+
+ it formed its opinion," it has met its burden. Oliver, 893 F.3d at 413 (quoting U.S.
+
+                                         10
+Case 1:24-cv-01918-JRO-MJD       Document 134 Filed 09/28/26    Page 11 of 23 PageID
+                                     #: <pageID>
+
+
+
+ E.E.O.C. v. Target Corp., 460 F.3d 946, 957 (7th Cir. 2006) (describing the
+
+ employer's burden when it relies on subjective reasons for not hiring)). Here, this
+
+ standard is easily satisfied.
+
+       Only ten months had passed between that CAR and when Davis applied
+
+ for her old position. JDC maintains that Davis was not rehired because of her
+
+ recent termination, her disruptive behavior, and the trust issues that emerged
+
+ as a result. Dkt. 118 at 17–18. JDC notes it had "more insights into Plaintiff's
+
+ soft skills and interpersonal dynamics" and determined that she was not a good
+
+ fit at the time of her application. Id. at 18. In the CAR, JDC identified Davis's
+
+ violations of Marion County Court Policies because of poor work performance,
+
+ insubordination, dishonesty, and disruptive behavior. Id. at 3, 14.
+
+       JDC's explanation passes muster. In essence, JDC argues that it decided
+
+ not to rehire Davis for the same reasons it terminated her in the first place. The
+
+ record shows there was a breakdown in trust between Davis and JDC. A
+
+ reasonable jury could find that the nondiscriminatory factors that drove Davis's
+
+ termination similarly drove JDC's decision not to rehire her. See Burton v. Will
+
+ Cnty. Sheriff's Merit Comm'n, 176 F.4th 544, 548 (7th Cir. 2026) (a negative
+
+ employment reference is unquestionably a legitimate, nondiscriminatory reason
+
+ for failure to hire). The burden now shifts back to Davis to show pretext.
+
+       3.     Pretext
+
+       Once the employer has articulated a legitimate, nondiscriminatory reason
+
+ for its decision, the presumption of discrimination falls away. Cianci v. Pettibone
+
+ Corp., 152 F.3d 723, 726 (7th Cir. 1998). The plaintiff then has the burden of
+
+                                         11
+Case 1:24-cv-01918-JRO-MJD     Document 134 Filed 09/28/26      Page 12 of 23 PageID
+                                   #: <pageID>
+
+
+
+ producing sufficient evidence to show that the proffered reason is a pretext for
+
+ discrimination. Id.; see McDonnell Douglas, 411 U.S. at 802, 804.
+
+       Pretext means "a dishonest explanation, a lie rather than an oddity or an
+
+ error." Kulumani v. Blue Cross Blue Shield Ass'n, 224 F.3d 681, 685 (7th Cir.
+
+ 2000). The question is not whether the employer's explanation for its
+
+ employment decision was "accurate, wise, or well-considered," but whether the
+
+ employer's explanation was "honest." Ptasznik v. St. Joseph Hosp., 464 F.3d 691,
+
+ 696 (7th Cir. 2006) (quoting Stewart v. Henderson, 207 F.3d 374, 378 (7th Cir.
+
+ 2000)). Put differently, an otherwise legitimate, non-discriminatory hiring
+
+ rationale is pretextual if the hiring manager did not "sincerely believe[]" the
+
+ rationale when making his final decision. Little v. Ill. Dep't of Revenue, 369 F.3d
+
+ 1007, 1015 (7th Cir. 2004). "Pretext can be proven, among other ways, by
+
+ evidence (1) that the employer's explanation has no basis in fact; (2) of
+
+ ambiguous or suggestive comments or conduct; or (3) of better treatment of
+
+ people similarly situated but for the protected characteristic." Paterakos v. City
+
+ of Chicago, 147 F.4th 787, 797 (7th Cir. 2025) (cleaned up).
+
+       Importantly, "a showing of pretext alone is not enough; the plaintiff must
+
+ also show that the explanations are a pretext for the prohibited animus."
+
+ Hitchcock v. Angel Corps., Inc., 718 F.3d 733, 740 (7th Cir. 2013) (emphasis
+
+ added). A plaintiff can demonstrate that the employer's explanations are
+
+ pretextual either directly, by showing that "a discriminatory reason more likely
+
+ motivated" the employer's actions, or indirectly, by showing that the employer's
+
+ explanations are "unworthy of credence." Senske v. Sybase, Inc., 588 F.3d 501,
+
+                                         12
+Case 1:24-cv-01918-JRO-MJD       Document 134 Filed 09/28/26     Page 13 of 23 PageID
+                                     #: <pageID>
+
+
+
+ 507 (7th Cir. 2009). To show that the employer's non-discriminatory
+
+ explanations are not credible, the plaintiff must point to evidence that the
+
+ employer's stated reasons are not the real reasons for the employer's action, have
+
+ no grounding in fact, or are insufficient to warrant the employer's decision. Id.;
+
+ Boumehdi v. Plastag Holdings, LLC, 489 F.3d 781, 792 (7th Cir. 2007) (noting
+
+ that a plaintiff must identify such "weaknesses, implausibilities, inconsistencies,
+
+ or contradictions" in the employer's asserted reasons that a reasonable person
+
+ could find them not credible). "Pretext does not exist if the decisionmaker
+
+ honestly believed the nondiscriminatory reason given by an employer for an
+
+ adverse employment action." Downing v. Abbott Lab'ys, 48 F.4th 793, 804–05
+
+ (7th Cir. 2022) (cleaned up).
+
+       At bottom, Davis must "demonstrat[e] by a preponderance of evidence that
+
+ the stated reasons for her [not being rehired] were false, not that they were unfair
+
+ or baseless." Anderson v. Street, 104 F.4th 646, 653 (7th Cir. 2024).
+
+       To show pretext, Davis points to Alex Murdock as an example of a similarly
+
+ situated male who was treated more favorably. Davis then points to an alleged
+
+ pattern of males being treated more favorably than females by JDC. She also
+
+ notes that Kervan's informal policy of not rehiring within a year of termination
+
+ was selectively enforced and provides examples using comparators. See Khowaja
+
+ v. Sessions, 893 F.3d 1010, 1015 (7th Cir. 2018) ("[C]omparator evidence and
+
+ selective enforcement of an employer's rules are relevant" to a pretext analysis.).
+
+ Lastly, Davis argues that a reasonable jury could choose to believe that JDC's
+
+ "shifting explanations" evince pretext. Dkt. 120 at 17. The Court takes each in
+
+                                         13
+Case 1:24-cv-01918-JRO-MJD     Document 134 Filed 09/28/26       Page 14 of 23 PageID
+                                   #: <pageID>
+
+
+
+ turn and ultimately finds Davis fails to show JDC's reasons for not hiring her
+
+ were pretextual.
+
+             a.     Male comparator
+
+       "When using comparators to demonstrate pretext, a plaintiff must usually
+
+ 'show that the comparators (1) dealt with the same supervisor, (2) were subject
+
+ to the same standards, and (3) engaged in similar conduct without such
+
+ differentiating or mitigating circumstances as would distinguish their conduct
+
+ or the employer's treatment of them.'" Napier v. Orchard Sch. Found., 137 F.4th
+
+ 884, 894 (7th Cir. 2025), cert. denied, 146 S. Ct. 328 (2025) (cleaned up) (quoting
+
+ Coleman v. Donahoe, 667 F.3d 835, 846 (7th Cir. 2012)).
+
+       The purpose of the "similarly situated inquiry is to eliminate other possible
+
+ explanatory variables, . . . [to] isolate the critical independent variable—
+
+ discriminatory animus." Mitchell v. Exxon Mobil Corp., 143 F.4th 800, 810 (7th
+
+ Cir. 2025) (alterations in original) (quoting Smith v. City of Janesville, 40 F.4th
+
+ 816, 823 (7th Cir. 2022)). In other words, the plaintiff must establish that "the
+
+ purported comparator was 'directly comparable to her in all material respects'
+
+ so as to 'eliminate other possible explanatory variables.'" Id. (quoting Gamble v.
+
+ Cnty. of Cook, 106 F.4th 622, 626 (7th Cir. 2024)).
+
+       Alex Murdock, a male, is Davis's proffered comparator. Dkt. 113-10 at 4;
+
+ Dkt. 120 at 8. JDC employed Murdock from 2015 to 2017. After receiving two
+
+ CARs, he was eventually terminated in 2017, dkt. 120 at 4–5; dkt. 113-10 at 3,
+
+ for poor work performance, insubordination or failure to follow instruction, and
+
+ neglect or failure to perform assigned duties, dkt. 113-13 at 5; dkt. 120 at 8; dkt.
+
+
+                                         14
+Case 1:24-cv-01918-JRO-MJD     Document 134 Filed 09/28/26      Page 15 of 23 PageID
+                                   #: <pageID>
+
+
+
+ 121 at 18. In March 2022, more than four years after he was fired, JDC hired
+
+ Murdock as the second shift DSYS. Dkt. 120 at 5; Dkt. 113-10 at 3.
+
+       Davis argues Murdock is similarly situated because both Murdock and
+
+ Davis were involuntarily terminated by Kervan, but only Murdock was rehired.
+
+ Dkt. 120 at 5; Dkt. 123 at 4. Davis maintains that a reasonable juror could find
+
+ that JDC's stated excuse for rehiring Murdock but not Davis is contrived and
+
+ suspicious and thus merely a pretext for the real basis for their different
+
+ treatment: sex discrimination. Dkt. 120 at 10, 12. JDC disagrees, arguing that
+
+ Murdock and Davis are not similarly situated because Murdock had been
+
+ terminated more than four years prior to his rehiring. Dkt. 118 at 16.
+
+       The Court agrees with JDC that Davis and Murdock are not similarly
+
+ situated. Similarly situated individuals must be similarly situated in all material
+
+ respects in order to "eliminate other possible explanatory variables." Mitchell,
+
+ 143 F.4th at 810. Moreover, they must be subject to the same standards when
+
+ being considered for rehiring.
+
+       Davis was fired and then applied for her same position ten months later.
+
+ Conversely, Murdock was fired and was rehired more than four years later. That
+
+ four-year difference matters. Ten months is an insufficient time for the dust to
+
+ settle after a termination based on divisive behavior. A more than four-year gap
+
+ is a different story. What's more, nowhere in the record does it show that
+
+ Murdock engaged in divisive behavior that alienated himself from his peers.
+
+ These "other possible explanatory variables" explain the different treatment JDC
+
+ gave to Davis and Murdock, Mitchell, 143 F.4th at 810, not sex discrimination.
+
+                                         15
+Case 1:24-cv-01918-JRO-MJD     Document 134 Filed 09/28/26     Page 16 of 23 PageID
+                                   #: <pageID>
+
+
+
+             b.    Allegations that JDC treated men more favorably
+
+       Davis offers examples of current or former employees of JDC that Kervan
+
+ treated more favorably, thus giving rise to the inference of pretext. Dkt. 120 at
+
+ 17–22. Davis again proffers Murdock but also discusses Godwin King (the
+
+ internal candidate who ultimately got the job Davis applied for), and Asante
+
+ Doyle as males that purportedly received better treatment. Id. at 17–18. She then
+
+ proffers evidence involving circumstances with Burrell, Serena Thompson,
+
+ Makayla Granson, Christopher Sutton, and James Snider, which the Court will
+
+ discuss below. Defendants object to the admissibility of many of these facts and
+
+ decries the "scattershot approach" taken by Davis. Dkt. 121 at 1. Assuming
+
+ without deciding that the evidence is admissible, it does not change the outcome
+
+ because it has more to do with her September 2022 termination, not JDC's
+
+ decision not to rehire her in 2023.
+
+       As to Burrell, Davis alleges that he sexually harassed two female
+
+ employees that were fired after they complained about it. Dkt. 120 at 7. Burrell
+
+ was also "suspected of engaging in food stamp fraud." Id. at 6. Despite this,
+
+ Kervan "took no action against" him. Id. As to Doyle, Davis alleges that Kervan
+
+ "overlooked" Doyle's month-long absence from work, id. at 22, and also alleges
+
+ that King stole more than $15,000 from a resident of a group home and lied on
+
+ his job application about having a four-year college degree, id. at 24. "Kervan's
+
+ tolerance of two male's more egregious acts of dishonesty" makes JDC's attempt
+
+ to point to Davis's dishonesty as the reason for not rehiring her "disingenuous."
+
+ Id. Davis thus believes she has "produced enough evidence to show she was
+
+                                        16
+Case 1:24-cv-01918-JRO-MJD     Document 134 Filed 09/28/26     Page 17 of 23 PageID
+                                   #: <pageID>
+
+
+
+ treated differently than males who had committed more serious offenses and
+
+ were either not disciplined or were retained in their employment with JDC,
+
+ whereas she was denied rehire." Id. at 25.
+
+       With this evidence, Davis is attempting to relitigate her September 2022
+
+ termination, which is not at issue here. The undisputed facts show that Davis
+
+ was terminated after the September 2022 incident. While Davis disputes the
+
+ veracity of the reasons given for her termination, dkt. 120 at 8, it is undisputed
+
+ that the reasons were given and are detailed in the CAR. JDC's legitimate
+
+ nondiscriminatory reason for not rehiring Davis was that she was recently
+
+ terminated and thus was not considered for rehire. None of the above evidence
+
+ gives rise to an inference that JDC, when it decided not to rehire Davis, did so
+
+ because of her sex.
+
+             c.    Kervan's selective enforcement of JDC's informal
+                   rehiring policy
+
+       Davis argues that JDC's informal policy of not rehiring individuals fired
+
+ less than one year previously is simply "false." Dkt. 120 at 9. Davis points to
+
+ three examples of employees that she alleges were fired but then rehired within
+
+ one year: Makalya Granson (female), Serena Thompson (female), and
+
+ Christopher Sutton (male). Dkt. 113-20 at 3.
+
+       Davis contends that Granson was fired and rehired by Kervan less than a
+
+ year later. Id. JDC disputes this and maintains that Granson was not rehired
+
+ within one year of termination and instead was rehired more than two years after
+
+ she was terminated. Dkt. 121 at 4.
+
+
+
+                                        17
+Case 1:24-cv-01918-JRO-MJD     Document 134 Filed 09/28/26     Page 18 of 23 PageID
+                                   #: <pageID>
+
+
+
+       Davis says that Thompson threatened to run over another employee, was
+
+ allowed to resign in lieu of termination, yet was rehired by Kervan a few weeks
+
+ later. Dkt. 113-20 at 3. JDC disputes this and argues that Thompson voluntarily
+
+ resigned from her position in March 2017 and was rehired in September 2018.
+
+ Dkt. 121 at 3.
+
+       Davis then points to Sutton, who was fired for attendance issues in August
+
+ of 2022, but rehired mere months later in November of 2022. Dkt. 113-20 at 3;
+
+ Dkt. 121 at 12. JDC concedes Sutton as an "exception" to JDC's informal rule,
+
+ and notes that his original termination was because of attendance issues and
+
+ not for misconduct or interpersonal problems. Dkt. 121 at 12. JDC further
+
+ argues that Sutton was demoted to an entry level position upon his return, and
+
+ thus the job he was rehired for was a different position from the one he was fired
+
+ from. Id.
+
+       As to Granson and Thompson, these factual disputes are immaterial.
+
+ Thompson and Granson are both women. Assuming the facts in a light most
+
+ favorable to Davis and that these employees were rehired less than a year after
+
+ their termination, this evidence shows JDC made exceptions to its one-year
+
+ rehire policy in favor of women. It is not evidence the one-year policy is a sham
+
+ to cover up JDC's refusal to rehire Davis because she was a woman.
+
+       As to Sutton, no reasonable jury could infer pretext based on the
+
+ undisputed facts. There is a material difference between Sutton and Davis.
+
+ Sutton returned to JDC in an entry level position, a demotion from the position
+
+ he was terminated from. In contrast, Davis applied for a supervisory position—
+
+                                        18
+Case 1:24-cv-01918-JRO-MJD     Document 134 Filed 09/28/26       Page 19 of 23 PageID
+                                   #: <pageID>
+
+
+
+ the same position she was fired from. No reasonable jury could find that JDC
+
+ discriminated against Davis on the basis of her sex because it effectively demoted
+
+ Sutton but did not rehire Davis for her supervisory position.
+
+       Finally, Davis also provides a declaration by James Snider, who was
+
+ employed by JDC from 2014–2021 and was Kervan's subordinate. Dkt. 113-19.
+
+ This affidavit does not establish pretext. Snider "had extensive dealings with
+
+ Kervan and observed that she had a pattern of treating male employees more
+
+ favorably than female employees." Dkt. 120 at 10. Specifically, Snider claims
+
+ that Kervan "favored black males over black females." Dkt. 113-19 ¶ 21. But the
+
+ rehiring of Granson and Thompson suggest otherwise. Moreover, Snider's
+
+ affidavit also details an example of a female employee who committed a number
+
+ of terminable offenses who received favorable treatment from Kervan. Dkt. 113-
+
+ 19 ¶ 28–30. In other words, Snider's affidavit establishes that Kervan's
+
+ preferences, not sex discrimination, explains who is hired, fired, and rehired at
+
+ JDC: "If [Kervan] liked you, she took care of you, if she didn’t like you, she would
+
+ discipline or terminate you." Dkt. 113-19 ¶ 27. This is fundamentally
+
+ inconsistent with Davis's argument that the one-year rehiring policy was a
+
+ pretext for sex discrimination.
+
+             d.     Shifting explanations
+
+       Davis's final argument for pretext is JDC's "shifting explanations" for not
+
+ rehiring her. Dkt. 120 at 17. JDC informed the EEOC that Davis was "not
+
+ qualified" for the position. Dkt. 113-14 at 7. But now JDC argues that while
+
+ Davis was qualified "on paper," "the facts surrounding [Davis's] termination
+
+                                         19
+Case 1:24-cv-01918-JRO-MJD    Document 134 Filed 09/28/26     Page 20 of 23 PageID
+                                  #: <pageID>
+
+
+
+ made her unqualified for the DSYS position in August 2023." Dkt. 121 at 19.
+
+ Davis seizes on this inconsistency as proof that JDC's so-called practice of
+
+ "deeming former employees who had been fired a lengthier time ago as eligible
+
+ for rehire but not those employees who had been fired more recently" is
+
+ "implausible on its face and may be disbelieved by a jury." Dkt. 120 at 13.
+
+       This argument overstates JDC's inconsistent reasoning. While an
+
+ employer's shifting factual accounts and explanations for adverse employment
+
+ action "can often support a reasonable inference" of pretext, Donley v. Stryker
+
+ Sales Corp., 906 F.3d 635, 638 (7th Cir. 2018), it is also true that "[m]erely
+
+ providing multiple, or additional, reasons for an adverse employment decision
+
+ does not establish pretext." Saud v. DePaul Univ., 154 F.4th 563, 569 (7th Cir.
+
+ 2025). "[T]o give rise to pretext, 'explanations must actually be shifting and
+
+ inconsistent.'" Id. (quoting Bagwe v. Sedgwick Claims Mgmt. Servs., Inc., 811
+
+ F.3d 866, 881 (7th Cir. 2016)).
+
+       At bottom, JDC's explanations for not rehiring a recently fired Davis are
+
+ not inconsistent with one another. They all center around Davis's recent
+
+ termination, the reasons for that departure, and JDC's and/or Kervan's general
+
+ lack of desire to rehire her. So long as an employer "honestly believed it made
+
+ the correct employment decision—even if its decision was inaccurate, unfair,
+
+ foolish, trivial, or baseless—[the] claims cannot succeed." Barnes-Staples v.
+
+ Carnahan, 88 F.4th 712, 716 (7th Cir. 2023) (cleaned up); Upchurch v. Indiana,
+
+ 146 F.4th 579, 587 (7th Cir. 2025); see also Hill v. Tangherlini, 724 F.3d 965,
+
+ 968 (7th Cir. 2013) ("[W]e evaluate the honesty of the employer's explanation,
+
+                                        20
+Case 1:24-cv-01918-JRO-MJD     Document 134 Filed 09/28/26       Page 21 of 23 PageID
+                                   #: <pageID>
+
+
+
+ rather than its validity or reasonableness . . . ."). And it is not enough that JDC
+
+ offered different explanations in the EEOC charge and in depositions. See Saud,
+
+ 154 F.4th at 569     ("'Where an employer relies on multiple reasons for the
+
+ termination, its failure to address all of the reasons in each communication
+
+ about the employee is not enough to show contradictions or shifts in rationales
+
+ that suggest pretext.'" (emphasis in original) (quoting Castro v. DeVry Univ., Inc.,
+
+ 786 F.3d 559, 577 (7th Cir. 2015)). On this record, no reasonable jury could find
+
+ that JDC's legitimate nondiscriminatory reasons for not rehiring Davis were
+
+ pretext for sex discrimination.
+
+                                        ***
+
+       In sum, no reasonable jury could find under the McDonnell Douglas
+
+ framework that JDC discriminated against Davis based on her sex when it
+
+ decided not to rehire her.
+
+ B.    Ortiz's Holistic Approach
+
+       Davis's claim fares no better under Ortiz. Davis points to the "pile of
+
+ evidence," dkt. 120 at 8–11, largely stated above, and argues it demonstrates a
+
+ triable issue of fact for a jury to infer pretext and thus precludes summary
+
+ judgment. The Court disagrees.
+
+       The undisputed facts show Davis was terminated in September of 2022
+
+ because JDC lost trust in her due to her disruptive and divisive behavior and
+
+ failure to follow JDC policy. Yet she applied for the same position less than one
+
+ year later. JDC chose not to hire her for the same reasons it terminated her.
+
+
+
+
+                                         21
+Case 1:24-cv-01918-JRO-MJD      Document 134 Filed 09/28/26        Page 22 of 23 PageID
+                                    #: <pageID>
+
+
+
+       The record lacks evidence to support a finding that Davis's sex had
+
+ anything to do with the decision. Even assuming the selective enforcement of the
+
+ one-year rehiring policy, Davis's own evidence shows that JDC's decision not to
+
+ rehire Davis was based on the favoritism exhibited by Kervan for certain
+
+ employees over others. Dkt. 113-19 ¶ 27. But favoritism and dysfunction are not
+
+ actionable under Title VII. See Blise v. Antaramian, 409 F.3d 861, 867 (7th Cir.
+
+ 2005) ("[A]n employer's decision to favor one candidate over another can be
+
+ mistaken, ill-considered or foolish, but so long as the employer honestly believed
+
+ those reasons, pretext has not been shown." (cleaned up)). As JDC puts it,
+
+ "[Davis] was no longer a good fit in September 2022, and nothing demonstrably
+
+ changed between then and July 31, 2023 . . . ." Dkt. 118 at 15. So long as an
+
+ employer "honestly believed it made the correct employment decision—even if its
+
+ decision was inaccurate, unfair, foolish, trivial, or baseless—[the] claims cannot
+
+ succeed." Barnes-Staples, 88 F.4th at 716 (cleaned up); Upchurch, 146 F.4th at
+
+ 587; see cf., Napier, 137 F.4th at 895–96 ("No reasonable fact-finder could
+
+ determine that [the plaintiff's filing of] litigation, rather than the events that led
+
+ to his termination, was the 'but-for' cause of [the employer's] decision not to
+
+ rehire him" where plaintiff was terminated because employer "no longer trusted
+
+ him.").
+
+       In the end, under Ortiz's holistic inquiry, no reasonable jury would dispute
+
+ that the circumstances of Davis's termination, not sex-based animus, drove
+
+ JDC's decision not to rehire her.
+
+
+
+
+                                          22
+Case 1:24-cv-01918-JRO-MJD     Document 134 Filed 09/28/26   Page 23 of 23 PageID
+                                   #: <pageID>
+
+
+
+                                 IV. CONCLUSION
+
+          The undisputed evidence shows that JDC did not refuse to rehire Davis
+
+ because of her sex. And Davis has abandoned her First Amendment retaliation
+
+ claim against JDC and Kervan. Accordingly, Defendants' Motion for Summary
+
+ Judgment, dkt. [99], is GRANTED. Final judgment shall now issue by separate
+
+ entry.
+
+ SO ORDERED.
+
+ Date: 9/28/2026
+
+
+
+
+ Distribution:
+
+ All ECF-registered counsel of record via email
+
+
+
+
+                                        23
+

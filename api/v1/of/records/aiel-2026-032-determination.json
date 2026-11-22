@@ -40,16 +40,19 @@
   "disposition": "confirmed",
   "remedy": {
     "status": "sanctioned",
-    "notes": "$5,000 sanction and bar referral confirmed; AI unnamed but admitted at oral argument."
+    "notes": "$5,000 sanction and bar referral confirmed; AI unnamed but admitted at oral argument. On March 13, 2026, the court expanded footnote 3 to discuss verification of AI-generated material and citations in proposed orders submitted by counsel. The modification expressly left the judgment unchanged."
   },
-  "notes": "$5,000 sanction and bar referral confirmed; AI unnamed but admitted at oral argument.",
+  "notes": "$5,000 sanction and bar referral confirmed; AI unnamed but admitted at oral argument. On March 13, 2026, the court expanded footnote 3 to discuss verification of AI-generated material and citations in proposed orders submitted by counsel. The modification expressly left the judgment unchanged.",
   "source": "https://courts.ca.gov/opinions/archive/D085584.PDF",
   "source_locator": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)",
   "evidence_type": "primary record",
   "verified": "2026-07-24",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "projection_basis": "legacy-filing-status-inference",
-  "admission_status": "legacy-unreviewed",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "The specified modification establishes no new sanction or later disciplinary outcome."
+  ],
   "ai_incident_law_record_id": "AIEL-2026-032",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"

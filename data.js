@@ -164,27 +164,27 @@ window.AIEL_DATA = {
         },
         {
           "error_id": "AIEL-2025-004",
-          "error_title": "AI-generated cases in Morgan & Morgan opposition brief",
-          "ai_system_name": "ChatGPT / generative AI legal drafting workflow",
+          "error_title": "Eight fabricated citations in Wadsworth motions in limine",
+          "ai_system_name": "MX2.law",
           "deployer": "Morgan & Morgan attorneys",
           "domain": "legal services",
           "error_type": "hallucinated authority",
-          "error_description": "Attorneys filed briefing containing nonexistent or unsupported case citations attributed to generative AI use. Reporting and case-analysis sources describe a sanctions response after the court identified fabricated authority.",
+          "error_description": "The plaintiffs’ lawyers filed motions in limine citing nine cases, eight of which did not exist. The court recounted that Rudwin Ayala uploaded his draft to MX2.law to add case law and failed to verify the resulting citations. The court described the site as apparently an in-house Morgan & Morgan database and credited counsel’s account of the platform used.",
           "canonical_source_conflicted": "Actual case law and court record",
           "mitigation_gap": "AI-generated legal citations were not verified against source materials before filing.",
-          "reliance_or_harm": "Lawyers were fined and the firm faced sanctions-related scrutiny.",
+          "reliance_or_harm": "The plaintiffs withdrew the motions. The court sanctioned the three signing attorneys and declined to order their firms to show cause at that time.",
           "public_matter_type": "sanctions order",
           "public_matter_name": "Wadsworth v. Walmart Inc.",
           "filing_status": "sanctioned",
           "jurisdiction": "U.S. District Court, District of Wyoming",
           "filing_date": "2025",
           "error_date": "2025",
-          "public_record_link": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
+          "public_record_link": "https://storage.courtlistener.com/recap/gov.uscourts.wyd.64014/gov.uscourts.wyd.64014.181.0_1.pdf",
           "secondary_source_links": "https://news.bloomberglaw.com/litigation/morgan-morgan-lawyers-fined-for-hallucinated-ai-citations; https://abajournal.com/news/article/no-42-law-firm-by-headcount-could-face-sanctions-over-fake-case-citations-generated-by-chatgpt",
           "confidence_score": "medium",
-          "notes_on_resolution": "Included as a notable sanctions event, but the primary court order should be downloaded and archived before treating as fully verified.",
-          "tags": "document-generation; legal-hallucination; sanctions-order; needs-primary-record",
-          "source_quality": "reliable reporting",
+          "notes_on_resolution": "On February 24, 2025, the court revoked Rudwin Ayala’s pro hac vice admission, removed him as counsel and ordered him to pay $3,000 to the court registry. It ordered T. Michael Morgan and Taly Goody to pay $1,000 each. The retained document is the signed ECF 181 order.",
+          "tags": "document-generation; legal-hallucination; sanctions-order",
+          "source_quality": "primary record",
           "research_status": "included",
           "last_verified_date": "2026-04-22",
           "needs_review": "yes",
@@ -971,9 +971,9 @@ window.AIEL_DATA = {
           "filing_date": "2026-05-28",
           "error_date": "2026",
           "public_record_link": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.664916/gov.uscourts.nysd.664916.1.0_1.pdf",
-          "secondary_source_links": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
+          "secondary_source_links": "https://courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/; https://storage.courtlistener.com/recap/gov.uscourts.nysd.664916/gov.uscourts.nysd.664916.42.0.pdf",
           "confidence_score": "high",
-          "notes_on_resolution": "Complaint (Doc 1, 54 pp) pulled from RECAP and verified 2026-06-01. Copyright + Lanham (trademark/false-attribution) claims; part of a multi-publisher wave against Perplexity (NYT, Chicago Tribune, Encyclopaedia Britannica/Merriam-Webster, Reddit, Dow Jones).",
+          "notes_on_resolution": "Complaint (Doc 1, 54 pp) pulled from RECAP and verified 2026-06-01. Copyright + Lanham (trademark/false-attribution) claims; part of a multi-publisher wave against Perplexity (NYT, Chicago Tribune, Encyclopaedia Britannica/Merriam-Webster, Reddit, Dow Jones). In an October 23, 2026 letter to the court (ECF 42), Perplexity’s counsel reported filing its reply on its motion to dismiss (ECF 30), described briefing as complete and requested oral argument.",
           "tags": "generative-ai; copyright; lanham-act; trademark; content-reproduction; hallucinated-attribution; rag; media",
           "source_quality": "primary record",
           "research_status": "included",
@@ -1342,9 +1342,9 @@ window.AIEL_DATA = {
           "filing_date": "2026-03-05",
           "error_date": "2026",
           "public_record_link": "https://courts.ca.gov/opinions/archive/D085584.PDF",
-          "secondary_source_links": "",
+          "secondary_source_links": "https://cases.justia.com/california/court-of-appeal/2026-d085584m.pdf",
           "confidence_score": "high",
-          "notes_on_resolution": "$5,000 sanction and bar referral confirmed; AI unnamed but admitted at oral argument.",
+          "notes_on_resolution": "$5,000 sanction and bar referral confirmed; AI unnamed but admitted at oral argument. On March 13, 2026, the court expanded footnote 3 to discuss verification of AI-generated material and citations in proposed orders submitted by counsel. The modification expressly left the judgment unchanged.",
           "tags": "hallucinated-citations; attorney-discipline; admitted-ai; family-law; legal-services; bar-referral",
           "source_quality": "primary record",
           "research_status": "included",
@@ -1402,9 +1402,9 @@ window.AIEL_DATA = {
           "filing_date": "2026-03-20",
           "error_date": "2026",
           "public_record_link": "https://storage.courtlistener.com/recap/gov.uscourts.laed.273860/gov.uscourts.laed.273860.25.0.pdf",
-          "secondary_source_links": "",
+          "secondary_source_links": "https://govinfo.gov/content/pkg/USCOURTS-laed-2_25-cv-01260/pdf/USCOURTS-laed-2_25-cv-01260-1.pdf",
           "confidence_score": "high",
-          "notes_on_resolution": "$250 Harris + $1,000 Roquemore; St. Raymond admonished only; Harris fully admitted ChatGPT use.",
+          "notes_on_resolution": "$250 Harris + $1,000 Roquemore; St. Raymond admonished only; Harris fully admitted ChatGPT use. In a separate September 2, 2026 merits order (ECF 58), the court dismissed Gentry’s federal claims against all defendants with prejudice and his state-law claims without prejudice.",
           "tags": "hallucinated-citations; attorney-discipline; admitted-ai; chatgpt; legal-services",
           "source_quality": "primary record",
           "research_status": "included",
@@ -1613,9 +1613,9 @@ window.AIEL_DATA = {
           "filing_date": "2026-05-20",
           "error_date": "2026",
           "public_record_link": "https://storage.courtlistener.com/recap/gov.uscourts.insd.217901/gov.uscourts.insd.217901.127.0.pdf",
-          "secondary_source_links": "",
+          "secondary_source_links": "https://govinfo.gov/content/pkg/USCOURTS-insd-1_24-cv-01918/pdf/USCOURTS-insd-1_24-cv-01918-6.pdf",
           "confidence_score": "high",
-          "notes_on_resolution": "$2,000 sanction (reduced from magistrate's $7,500 recommendation); Fastcase named as the AI tool by court finding.",
+          "notes_on_resolution": "$2,000 sanction (reduced from magistrate's $7,500 recommendation); Fastcase named as the AI tool by court finding. A separate September 28, 2026 merits order (ECF 134) granted defendants summary judgment on the sex discrimination claim and recorded that Davis had abandoned her First Amendment retaliation claim against JDC and Kervan. The court directed entry of a separate final judgment.",
           "tags": "hallucinated-citations; attorney-discipline; court-finding; fastcase; legal-services",
           "source_quality": "primary record",
           "research_status": "included",
@@ -1823,9 +1823,9 @@ window.AIEL_DATA = {
           "filing_date": "2026-02-18",
           "error_date": "2025",
           "public_record_link": "https://courts.ca.gov/opinions/nonpub/B329314.PDF",
-          "secondary_source_links": "",
+          "secondary_source_links": "https://supreme.courts.ca.gov/sites/default/files/supremecourt/default/documents/conference%20results%20-%20061026%20-%20R.pdf",
           "confidence_score": "high",
-          "notes_on_resolution": "$900 on Azar alone; AI tool unnamed (accessed via unnamed AI \"consultant\"); co-counsel Keiter exonerated.",
+          "notes_on_resolution": "$900 on Azar alone; AI tool unnamed (accessed via unnamed AI \"consultant\"); co-counsel Keiter exonerated. On June 10, 2026, the California Supreme Court denied the petition for review (S295965, appellate case B329314).",
           "tags": "hallucinated-citations; attorney-discipline; court-finding; unnamed-ai; ai-consultant; appellate; legal-services",
           "source_quality": "primary record",
           "research_status": "included",
@@ -3316,7 +3316,10 @@ window.AIEL_DATA = {
       "admission_status": "legacy-unreviewed"
     },
     "AIEL-2025-004": {
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Payment, subsequent proceedings, compliance and the underlying model used by MX2.law were not verified."
+      ]
     },
     "AIEL-2026-005": {
       "admission_status": "legacy-unreviewed"
@@ -3395,7 +3398,7 @@ window.AIEL_DATA = {
     "AIEL-2026-020": {
       "admission_status": "source-consistency-reviewed-changes",
       "source_review_unresolved": [
-        "Current docket status after the filed complaint remains unreviewed."
+        "The letter establishes counsel’s report and request. The court’s decision on either the motion or the request and later docket events were not verified."
       ]
     },
     "AIEL-2026-021": {
@@ -3435,13 +3438,19 @@ window.AIEL_DATA = {
       "admission_status": "legacy-unreviewed"
     },
     "AIEL-2026-032": {
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The specified modification establishes no new sanction or later disciplinary outcome."
+      ]
     },
     "AIEL-2026-033": {
       "admission_status": "legacy-unreviewed"
     },
     "AIEL-2026-034": {
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The merits order does not establish payment, appeal or any subsequent change to the sanctions."
+      ]
     },
     "AIEL-2026-035": {
       "admission_status": "source-consistency-reviewed-changes",
@@ -3465,7 +3474,10 @@ window.AIEL_DATA = {
       "admission_status": "legacy-unreviewed"
     },
     "AIEL-2026-042": {
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The separate judgment, appeal and payment of the earlier sanction were not verified."
+      ]
     },
     "AIEL-2026-043": {
       "admission_status": "legacy-unreviewed"
@@ -3494,7 +3506,10 @@ window.AIEL_DATA = {
       "admission_status": "legacy-unreviewed"
     },
     "AIEL-2026-049": {
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The conference result establishes denial of review only. Payment, later proceedings and compliance were not verified."
+      ]
     },
     "AIEL-2026-050": {
       "admission_status": "legacy-unreviewed"

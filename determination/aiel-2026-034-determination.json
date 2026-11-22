@@ -40,16 +40,19 @@
   "disposition": "confirmed",
   "remedy": {
     "status": "sanctioned",
-    "notes": "$250 Harris + $1,000 Roquemore; St. Raymond admonished only; Harris fully admitted ChatGPT use."
+    "notes": "$250 Harris + $1,000 Roquemore; St. Raymond admonished only; Harris fully admitted ChatGPT use. In a separate September 2, 2026 merits order (ECF 58), the court dismissed Gentry’s federal claims against all defendants with prejudice and his state-law claims without prejudice."
   },
-  "notes": "$250 Harris + $1,000 Roquemore; St. Raymond admonished only; Harris fully admitted ChatGPT use.",
+  "notes": "$250 Harris + $1,000 Roquemore; St. Raymond admonished only; Harris fully admitted ChatGPT use. In a separate September 2, 2026 merits order (ECF 58), the court dismissed Gentry’s federal claims against all defendants with prejudice and his state-law claims without prejudice.",
   "source": "https://storage.courtlistener.com/recap/gov.uscourts.laed.273860/gov.uscourts.laed.273860.25.0.pdf",
   "source_locator": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)",
   "evidence_type": "primary record",
   "verified": "2026-07-24",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "projection_basis": "legacy-filing-status-inference",
-  "admission_status": "legacy-unreviewed",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "The merits order does not establish payment, appeal or any subsequent change to the sanctions."
+  ],
   "ai_incident_law_record_id": "AIEL-2026-034",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"
