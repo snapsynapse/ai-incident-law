@@ -47,7 +47,10 @@
   "verified": "2026-07-24",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "projection_basis": "legacy-jurisdiction-inference",
-  "admission_status": "legacy-unreviewed",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "The merits order does not establish payment, appeal or any subsequent change to the sanctions."
+  ],
   "sameAs": [
     "https://wikidata.org/entity/Q1138663"
   ]

@@ -33,5 +33,8 @@
   "verified": "2026-07-24",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "projection_basis": "native-record-projection",
-  "admission_status": "legacy-unreviewed"
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "The specified modification establishes no new sanction or later disciplinary outcome."
+  ]
 }

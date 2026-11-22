@@ -212,13 +212,16 @@
       "institutional_scope": [
         "U.S. District Court, District of Wyoming"
       ],
-      "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.wyd.64014/gov.uscourts.wyd.64014.181.0_1.pdf",
       "source_locator": "Wadsworth v. Walmart Inc.",
-      "evidence_type": "reliable reporting",
+      "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-jurisdiction-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Payment, subsequent proceedings, compliance and the underlying model used by MX2.law were not verified."
+      ],
       "sameAs": [
         "https://wikidata.org/entity/Q5311060"
       ]
@@ -1576,7 +1579,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-jurisdiction-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The specified modification establishes no new sanction or later disciplinary outcome."
+      ],
       "sameAs": [
         "https://wikidata.org/entity/Q5027136"
       ]
@@ -1684,7 +1690,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-jurisdiction-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The merits order does not establish payment, appeal or any subsequent change to the sanctions."
+      ],
       "sameAs": [
         "https://wikidata.org/entity/Q1138663"
       ]
@@ -2012,7 +2021,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-jurisdiction-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The separate judgment, appeal and payment of the earlier sanction were not verified."
+      ],
       "sameAs": [
         "https://wikidata.org/entity/Q7062675"
       ]
@@ -2285,7 +2297,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-jurisdiction-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The conference result establishes denial of review only. Payment, later proceedings and compliance were not verified."
+      ],
       "sameAs": [
         "https://wikidata.org/entity/Q5027142"
       ]

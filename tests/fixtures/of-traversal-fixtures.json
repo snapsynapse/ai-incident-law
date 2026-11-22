@@ -218,7 +218,7 @@
             "aiel-2025-004-determination"
           ],
           "projection_basis": "legacy-filing-status-inference",
-          "admission_status": "legacy-unreviewed",
+          "admission_status": "source-consistency-reviewed-changes",
           "disposition": "confirmed",
           "state": "inferred",
           "reason": "No legal_graph block. The Determination and its disposition were inferred from filing_status 'sanctioned'."

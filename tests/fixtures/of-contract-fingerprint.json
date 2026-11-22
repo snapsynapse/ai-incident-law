@@ -3477,9 +3477,9 @@
         "present": 72
       },
       "source_review_unresolved": {
-        "missing": 53,
-        "populated": 19,
-        "present": 19
+        "missing": 48,
+        "populated": 24,
+        "present": 24
       },
       "text": {
         "missing": 0,
@@ -3569,9 +3569,9 @@
         "present": 63
       },
       "source_review_unresolved": {
-        "missing": 48,
-        "populated": 15,
-        "present": 15
+        "missing": 43,
+        "populated": 20,
+        "present": 20
       },
       "territorial_scope": {
         "missing": 3,
@@ -3696,9 +3696,9 @@
         "present": 68
       },
       "source_review_unresolved": {
-        "missing": 52,
-        "populated": 16,
-        "present": 16
+        "missing": 47,
+        "populated": 21,
+        "present": 21
       },
       "verified": {
         "missing": 5,
@@ -3779,9 +3779,9 @@
         "present": 72
       },
       "source_review_unresolved": {
-        "missing": 53,
-        "populated": 19,
-        "present": 19
+        "missing": 48,
+        "populated": 24,
+        "present": 24
       },
       "verified": {
         "missing": 5,
@@ -3917,9 +3917,9 @@
         "present": 74
       },
       "source_review_unresolved": {
-        "missing": 54,
-        "populated": 20,
-        "present": 20
+        "missing": 49,
+        "populated": 25,
+        "present": 25
       },
       "territorial_scope": {
         "missing": 3,
@@ -4137,7 +4137,7 @@
     },
     "https://aiincidentlaw.org/determination/aiel-2025-004-determination.json": {
       "remedy": {
-        "notes": "Included as a notable sanctions event, but the primary court order should be downloaded and archived before treating as fully verified.",
+        "notes": "On February 24, 2025, the court revoked Rudwin Ayala’s pro hac vice admission, removed him as counsel and ordered him to pay $3,000 to the court registry. It ordered T. Michael Morgan and Taly Goody to pay $1,000 each. The retained document is the signed ECF 181 order.",
         "status": "sanctioned"
       }
     },
@@ -4233,7 +4233,7 @@
     },
     "https://aiincidentlaw.org/determination/aiel-2026-032-determination.json": {
       "remedy": {
-        "notes": "$5,000 sanction and bar referral confirmed; AI unnamed but admitted at oral argument.",
+        "notes": "$5,000 sanction and bar referral confirmed; AI unnamed but admitted at oral argument. On March 13, 2026, the court expanded footnote 3 to discuss verification of AI-generated material and citations in proposed orders submitted by counsel. The modification expressly left the judgment unchanged.",
         "status": "sanctioned"
       }
     },
@@ -4245,7 +4245,7 @@
     },
     "https://aiincidentlaw.org/determination/aiel-2026-034-determination.json": {
       "remedy": {
-        "notes": "$250 Harris + $1,000 Roquemore; St. Raymond admonished only; Harris fully admitted ChatGPT use.",
+        "notes": "$250 Harris + $1,000 Roquemore; St. Raymond admonished only; Harris fully admitted ChatGPT use. In a separate September 2, 2026 merits order (ECF 58), the court dismissed Gentry’s federal claims against all defendants with prejudice and his state-law claims without prejudice.",
         "status": "sanctioned"
       }
     },
@@ -4287,7 +4287,7 @@
     },
     "https://aiincidentlaw.org/determination/aiel-2026-042-determination.json": {
       "remedy": {
-        "notes": "$2,000 sanction (reduced from magistrate's $7,500 recommendation); Fastcase named as the AI tool by court finding.",
+        "notes": "$2,000 sanction (reduced from magistrate's $7,500 recommendation); Fastcase named as the AI tool by court finding. A separate September 28, 2026 merits order (ECF 134) granted defendants summary judgment on the sex discrimination claim and recorded that Davis had abandoned her First Amendment retaliation claim against JDC and Kervan. The court directed entry of a separate final judgment.",
         "status": "sanctioned"
       }
     },
@@ -4329,7 +4329,7 @@
     },
     "https://aiincidentlaw.org/determination/aiel-2026-049-determination.json": {
       "remedy": {
-        "notes": "$900 on Azar alone; AI tool unnamed (accessed via unnamed AI \"consultant\"); co-counsel Keiter exonerated.",
+        "notes": "$900 on Azar alone; AI tool unnamed (accessed via unnamed AI \"consultant\"); co-counsel Keiter exonerated. On June 10, 2026, the California Supreme Court denied the petition for review (S295965, appellate case B329314).",
         "status": "sanctioned"
       }
     },
@@ -4615,13 +4615,16 @@
       ]
     },
     "https://aiincidentlaw.org/allegation/aiel-2025-004-allegation.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "canonical_source_conflicted": "Actual case law and court record",
-      "evidence_type": "reliable reporting",
+      "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
-      "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
-      "source_locator": "Wadsworth v. Walmart Inc."
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.wyd.64014/gov.uscourts.wyd.64014.181.0_1.pdf",
+      "source_locator": "Wadsworth v. Walmart Inc.",
+      "source_review_unresolved": [
+        "Payment, subsequent proceedings, compliance and the underlying model used by MX2.law were not verified."
+      ]
     },
     "https://aiincidentlaw.org/allegation/aiel-2025-006-allegation.json": {
       "admission_status": "legacy-unreviewed",
@@ -4693,7 +4696,7 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.664916/gov.uscourts.nysd.664916.1.0_1.pdf",
       "source_locator": "Cable News Network, Inc. v. Perplexity AI, Inc., No. 1:26-cv-04427",
       "source_review_unresolved": [
-        "Current docket status after the filed complaint remains unreviewed."
+        "The letter establishes counsel’s report and request. The court’s decision on either the motion or the request and later docket events were not verified."
       ]
     },
     "https://aiincidentlaw.org/allegation/aiel-2026-021-allegation.json": {
@@ -4802,13 +4805,16 @@
       "source_locator": "In re Wise, No. 25-51132 (Bankr. W.D. La.)"
     },
     "https://aiincidentlaw.org/allegation/aiel-2026-032-allegation.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "canonical_source_conflicted": "Non-existent California authorities (Twigg and Teegarden); genuine California family-law caselaw",
       "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
       "source": "https://courts.ca.gov/opinions/archive/D085584.PDF",
-      "source_locator": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)"
+      "source_locator": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)",
+      "source_review_unresolved": [
+        "The specified modification establishes no new sanction or later disciplinary outcome."
+      ]
     },
     "https://aiincidentlaw.org/allegation/aiel-2026-033-allegation.json": {
       "admission_status": "legacy-unreviewed",
@@ -4820,13 +4826,16 @@
       "source_locator": "Kattom v. Bondi, No. 25-1497 SEC P (W.D. La.)"
     },
     "https://aiincidentlaw.org/allegation/aiel-2026-034-allegation.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "canonical_source_conflicted": "Nine non-existent federal cases cited in the brief; genuine federal law",
       "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.laed.273860/gov.uscourts.laed.273860.25.0.pdf",
-      "source_locator": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)"
+      "source_locator": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)",
+      "source_review_unresolved": [
+        "The merits order does not establish payment, appeal or any subsequent change to the sanctions."
+      ]
     },
     "https://aiincidentlaw.org/allegation/aiel-2026-035-allegation.json": {
       "admission_status": "source-consistency-reviewed-changes",
@@ -4887,13 +4896,16 @@
       "source_locator": "Chakma v. Sushi Katsuei Inc., No. 1:23-cv-07804-KPF (S.D.N.Y.)"
     },
     "https://aiincidentlaw.org/allegation/aiel-2026-042-allegation.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "canonical_source_conflicted": "Genuine federal employment and civil-rights caselaw; Fed. R. Civ. P. 11",
       "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.insd.217901/gov.uscourts.insd.217901.127.0.pdf",
-      "source_locator": "Davis v. Marion County Superior Court Juvenile Detention Center, No. 1:24-cv-01918-JRO-MJD (S.D. Ind.)"
+      "source_locator": "Davis v. Marion County Superior Court Juvenile Detention Center, No. 1:24-cv-01918-JRO-MJD (S.D. Ind.)",
+      "source_review_unresolved": [
+        "The separate judgment, appeal and payment of the earlier sanction were not verified."
+      ]
     },
     "https://aiincidentlaw.org/allegation/aiel-2026-043-allegation.json": {
       "admission_status": "legacy-unreviewed",
@@ -4958,13 +4970,16 @@
       "source_locator": "Amarsingh v. Frontier Airlines, Inc., No. 24-1391 (10th Cir.)"
     },
     "https://aiincidentlaw.org/allegation/aiel-2026-049-allegation.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "canonical_source_conflicted": "Non-existent California appellate authorities cited in opening brief; Cal. Rules of Court",
       "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
       "source": "https://courts.ca.gov/opinions/nonpub/B329314.PDF",
-      "source_locator": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., No. B329314 (Cal. Ct. App., 2d Dist., Div. Three) (unpublished)"
+      "source_locator": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., No. B329314 (Cal. Ct. App., 2d Dist., Div. Three) (unpublished)",
+      "source_review_unresolved": [
+        "The conference result establishes denial of review only. Payment, later proceedings and compliance were not verified."
+      ]
     },
     "https://aiincidentlaw.org/allegation/aiel-2026-050-allegation.json": {
       "admission_status": "legacy-unreviewed",
@@ -5269,20 +5284,26 @@
       "source_locator": "Del Biaggio v. Bansen, No. A174647 (Cal. Ct. App., 1st Dist., Div. 4) (Humboldt County Super. Ct. No. CV1901078)"
     },
     "https://aiincidentlaw.org/authority/california-court-of-appeal-fourth-appellate-district-division-one.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-jurisdiction-inference",
       "source": "https://courts.ca.gov/opinions/archive/D085584.PDF",
-      "source_locator": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)"
+      "source_locator": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)",
+      "source_review_unresolved": [
+        "The specified modification establishes no new sanction or later disciplinary outcome."
+      ]
     },
     "https://aiincidentlaw.org/authority/california-court-of-appeal-second-appellate-district.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-jurisdiction-inference",
       "source": "https://courts.ca.gov/opinions/nonpub/B329314.PDF",
-      "source_locator": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., No. B329314 (Cal. Ct. App., 2d Dist., Div. Three) (unpublished)"
+      "source_locator": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., No. B329314 (Cal. Ct. App., 2d Dist., Div. Three) (unpublished)",
+      "source_review_unresolved": [
+        "The conference result establishes denial of review only. Payment, later proceedings and compliance were not verified."
+      ]
     },
     "https://aiincidentlaw.org/authority/connecticut-supreme-court.json": {
       "admission_status": "legacy-unreviewed",
@@ -5609,20 +5630,26 @@
       ]
     },
     "https://aiincidentlaw.org/authority/u-s-district-court-district-of-wyoming.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "evidence_type": "reliable reporting",
+      "evidence_type": "primary record",
       "projection_basis": "legacy-jurisdiction-inference",
-      "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
-      "source_locator": "Wadsworth v. Walmart Inc."
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.wyd.64014/gov.uscourts.wyd.64014.181.0_1.pdf",
+      "source_locator": "Wadsworth v. Walmart Inc.",
+      "source_review_unresolved": [
+        "Payment, subsequent proceedings, compliance and the underlying model used by MX2.law were not verified."
+      ]
     },
     "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-louisiana.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-jurisdiction-inference",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.laed.273860/gov.uscourts.laed.273860.25.0.pdf",
-      "source_locator": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)"
+      "source_locator": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)",
+      "source_review_unresolved": [
+        "The merits order does not establish payment, appeal or any subsequent change to the sanctions."
+      ]
     },
     "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-michigan.json": {
       "admission_status": "source-consistency-reviewed-changes",
@@ -5736,12 +5763,15 @@
       "source_locator": "Heimkes v. Fairhope Motorcoach Resort Condominium Owners Association et al., No. 1:22-cv-00448-TFM-N (S.D. Ala.)"
     },
     "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-indiana.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-jurisdiction-inference",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.insd.217901/gov.uscourts.insd.217901.127.0.pdf",
-      "source_locator": "Davis v. Marion County Superior Court Juvenile Detention Center, No. 1:24-cv-01918-JRO-MJD (S.D. Ind.)"
+      "source_locator": "Davis v. Marion County Superior Court Juvenile Detention Center, No. 1:24-cv-01918-JRO-MJD (S.D. Ind.)",
+      "source_review_unresolved": [
+        "The separate judgment, appeal and payment of the earlier sanction were not verified."
+      ]
     },
     "https://aiincidentlaw.org/authority/u-s-district-court-southern-district-of-mississippi.json": {
       "admission_status": "legacy-unreviewed",
@@ -5947,12 +5977,15 @@
       ]
     },
     "https://aiincidentlaw.org/determination/aiel-2025-004-determination.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "evidence_type": "reliable reporting",
+      "evidence_type": "primary record",
       "projection_basis": "legacy-filing-status-inference",
-      "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
-      "source_locator": "Wadsworth v. Walmart Inc."
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.wyd.64014/gov.uscourts.wyd.64014.181.0_1.pdf",
+      "source_locator": "Wadsworth v. Walmart Inc.",
+      "source_review_unresolved": [
+        "Payment, subsequent proceedings, compliance and the underlying model used by MX2.law were not verified."
+      ]
     },
     "https://aiincidentlaw.org/determination/aiel-2025-006-determination.json": {
       "admission_status": "legacy-unreviewed",
@@ -6006,7 +6039,7 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.664916/gov.uscourts.nysd.664916.1.0_1.pdf",
       "source_locator": "Cable News Network, Inc. v. Perplexity AI, Inc., No. 1:26-cv-04427",
       "source_review_unresolved": [
-        "Current docket status after the filed complaint remains unreviewed."
+        "The letter establishes counsel’s report and request. The court’s decision on either the motion or the request and later docket events were not verified."
       ]
     },
     "https://aiincidentlaw.org/determination/aiel-2026-021-determination.json": {
@@ -6104,12 +6137,15 @@
       "source_locator": "In re Wise, No. 25-51132 (Bankr. W.D. La.)"
     },
     "https://aiincidentlaw.org/determination/aiel-2026-032-determination.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-filing-status-inference",
       "source": "https://courts.ca.gov/opinions/archive/D085584.PDF",
-      "source_locator": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)"
+      "source_locator": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)",
+      "source_review_unresolved": [
+        "The specified modification establishes no new sanction or later disciplinary outcome."
+      ]
     },
     "https://aiincidentlaw.org/determination/aiel-2026-033-determination.json": {
       "admission_status": "legacy-unreviewed",
@@ -6120,12 +6156,15 @@
       "source_locator": "Kattom v. Bondi, No. 25-1497 SEC P (W.D. La.)"
     },
     "https://aiincidentlaw.org/determination/aiel-2026-034-determination.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-filing-status-inference",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.laed.273860/gov.uscourts.laed.273860.25.0.pdf",
-      "source_locator": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)"
+      "source_locator": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)",
+      "source_review_unresolved": [
+        "The merits order does not establish payment, appeal or any subsequent change to the sanctions."
+      ]
     },
     "https://aiincidentlaw.org/determination/aiel-2026-035-determination.json": {
       "admission_status": "source-consistency-reviewed-changes",
@@ -6180,12 +6219,15 @@
       "source_locator": "Chakma v. Sushi Katsuei Inc., No. 1:23-cv-07804-KPF (S.D.N.Y.)"
     },
     "https://aiincidentlaw.org/determination/aiel-2026-042-determination.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-filing-status-inference",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.insd.217901/gov.uscourts.insd.217901.127.0.pdf",
-      "source_locator": "Davis v. Marion County Superior Court Juvenile Detention Center, No. 1:24-cv-01918-JRO-MJD (S.D. Ind.)"
+      "source_locator": "Davis v. Marion County Superior Court Juvenile Detention Center, No. 1:24-cv-01918-JRO-MJD (S.D. Ind.)",
+      "source_review_unresolved": [
+        "The separate judgment, appeal and payment of the earlier sanction were not verified."
+      ]
     },
     "https://aiincidentlaw.org/determination/aiel-2026-043-determination.json": {
       "admission_status": "legacy-unreviewed",
@@ -6244,12 +6286,15 @@
       "source_locator": "Amarsingh v. Frontier Airlines, Inc., No. 24-1391 (10th Cir.)"
     },
     "https://aiincidentlaw.org/determination/aiel-2026-049-determination.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-filing-status-inference",
       "source": "https://courts.ca.gov/opinions/nonpub/B329314.PDF",
-      "source_locator": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., No. B329314 (Cal. Ct. App., 2d Dist., Div. Three) (unpublished)"
+      "source_locator": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., No. B329314 (Cal. Ct. App., 2d Dist., Div. Three) (unpublished)",
+      "source_review_unresolved": [
+        "The conference result establishes denial of review only. Payment, later proceedings and compliance were not verified."
+      ]
     },
     "https://aiincidentlaw.org/determination/aiel-2026-050-determination.json": {
       "admission_status": "legacy-unreviewed",
@@ -6591,12 +6636,15 @@
       ]
     },
     "https://aiincidentlaw.org/party/aiel-2025-004-deployer.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "evidence_type": "reliable reporting",
+      "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
-      "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
-      "source_locator": "Wadsworth v. Walmart Inc."
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.wyd.64014/gov.uscourts.wyd.64014.181.0_1.pdf",
+      "source_locator": "Wadsworth v. Walmart Inc.",
+      "source_review_unresolved": [
+        "Payment, subsequent proceedings, compliance and the underlying model used by MX2.law were not verified."
+      ]
     },
     "https://aiincidentlaw.org/party/aiel-2025-006-deployer.json": {
       "admission_status": "legacy-unreviewed",
@@ -6661,7 +6709,7 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.664916/gov.uscourts.nysd.664916.1.0_1.pdf",
       "source_locator": "Cable News Network, Inc. v. Perplexity AI, Inc., No. 1:26-cv-04427",
       "source_review_unresolved": [
-        "Current docket status after the filed complaint remains unreviewed."
+        "The letter establishes counsel’s report and request. The court’s decision on either the motion or the request and later docket events were not verified."
       ]
     },
     "https://aiincidentlaw.org/party/aiel-2026-021-deployer.json": {
@@ -6759,12 +6807,15 @@
       "source_locator": "In re Wise, No. 25-51132 (Bankr. W.D. La.)"
     },
     "https://aiincidentlaw.org/party/aiel-2026-032-deployer.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
       "source": "https://courts.ca.gov/opinions/archive/D085584.PDF",
-      "source_locator": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)"
+      "source_locator": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)",
+      "source_review_unresolved": [
+        "The specified modification establishes no new sanction or later disciplinary outcome."
+      ]
     },
     "https://aiincidentlaw.org/party/aiel-2026-033-deployer.json": {
       "admission_status": "legacy-unreviewed",
@@ -6775,12 +6826,15 @@
       "source_locator": "Kattom v. Bondi, No. 25-1497 SEC P (W.D. La.)"
     },
     "https://aiincidentlaw.org/party/aiel-2026-034-deployer.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.laed.273860/gov.uscourts.laed.273860.25.0.pdf",
-      "source_locator": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)"
+      "source_locator": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)",
+      "source_review_unresolved": [
+        "The merits order does not establish payment, appeal or any subsequent change to the sanctions."
+      ]
     },
     "https://aiincidentlaw.org/party/aiel-2026-035-deployer.json": {
       "admission_status": "source-consistency-reviewed-changes",
@@ -6835,12 +6889,15 @@
       "source_locator": "Chakma v. Sushi Katsuei Inc., No. 1:23-cv-07804-KPF (S.D.N.Y.)"
     },
     "https://aiincidentlaw.org/party/aiel-2026-042-deployer.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.insd.217901/gov.uscourts.insd.217901.127.0.pdf",
-      "source_locator": "Davis v. Marion County Superior Court Juvenile Detention Center, No. 1:24-cv-01918-JRO-MJD (S.D. Ind.)"
+      "source_locator": "Davis v. Marion County Superior Court Juvenile Detention Center, No. 1:24-cv-01918-JRO-MJD (S.D. Ind.)",
+      "source_review_unresolved": [
+        "The separate judgment, appeal and payment of the earlier sanction were not verified."
+      ]
     },
     "https://aiincidentlaw.org/party/aiel-2026-043-deployer.json": {
       "admission_status": "legacy-unreviewed",
@@ -6899,12 +6956,15 @@
       "source_locator": "Amarsingh v. Frontier Airlines, Inc., No. 24-1391 (10th Cir.)"
     },
     "https://aiincidentlaw.org/party/aiel-2026-049-deployer.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
       "source": "https://courts.ca.gov/opinions/nonpub/B329314.PDF",
-      "source_locator": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., No. B329314 (Cal. Ct. App., 2d Dist., Div. Three) (unpublished)"
+      "source_locator": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., No. B329314 (Cal. Ct. App., 2d Dist., Div. Three) (unpublished)",
+      "source_review_unresolved": [
+        "The conference result establishes denial of review only. Payment, later proceedings and compliance were not verified."
+      ]
     },
     "https://aiincidentlaw.org/party/aiel-2026-050-deployer.json": {
       "admission_status": "legacy-unreviewed",
@@ -7266,12 +7326,15 @@
       ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2025-004-proceeding.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
-      "evidence_type": "reliable reporting",
+      "evidence_type": "primary record",
       "projection_basis": "legacy-record-inference",
-      "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
-      "source_locator": "Wadsworth v. Walmart Inc."
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.wyd.64014/gov.uscourts.wyd.64014.181.0_1.pdf",
+      "source_locator": "Wadsworth v. Walmart Inc.",
+      "source_review_unresolved": [
+        "Payment, subsequent proceedings, compliance and the underlying model used by MX2.law were not verified."
+      ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2025-006-proceeding.json": {
       "admission_status": "legacy-unreviewed",
@@ -7336,7 +7399,7 @@
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.664916/gov.uscourts.nysd.664916.1.0_1.pdf",
       "source_locator": "Cable News Network, Inc. v. Perplexity AI, Inc., No. 1:26-cv-04427",
       "source_review_unresolved": [
-        "Current docket status after the filed complaint remains unreviewed."
+        "The letter establishes counsel’s report and request. The court’s decision on either the motion or the request and later docket events were not verified."
       ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2026-021-proceeding.json": {
@@ -7434,12 +7497,15 @@
       "source_locator": "In re Wise, No. 25-51132 (Bankr. W.D. La.)"
     },
     "https://aiincidentlaw.org/proceeding/aiel-2026-032-proceeding.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-record-inference",
       "source": "https://courts.ca.gov/opinions/archive/D085584.PDF",
-      "source_locator": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)"
+      "source_locator": "Torres Campos v. Munoz, No. D085584 (Cal. Ct. App., 4th Dist., Div. One)",
+      "source_review_unresolved": [
+        "The specified modification establishes no new sanction or later disciplinary outcome."
+      ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2026-033-proceeding.json": {
       "admission_status": "legacy-unreviewed",
@@ -7450,12 +7516,15 @@
       "source_locator": "Kattom v. Bondi, No. 25-1497 SEC P (W.D. La.)"
     },
     "https://aiincidentlaw.org/proceeding/aiel-2026-034-proceeding.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-record-inference",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.laed.273860/gov.uscourts.laed.273860.25.0.pdf",
-      "source_locator": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)"
+      "source_locator": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)",
+      "source_review_unresolved": [
+        "The merits order does not establish payment, appeal or any subsequent change to the sanctions."
+      ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2026-035-proceeding.json": {
       "admission_status": "source-consistency-reviewed-changes",
@@ -7510,12 +7579,15 @@
       "source_locator": "Chakma v. Sushi Katsuei Inc., No. 1:23-cv-07804-KPF (S.D.N.Y.)"
     },
     "https://aiincidentlaw.org/proceeding/aiel-2026-042-proceeding.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-record-inference",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.insd.217901/gov.uscourts.insd.217901.127.0.pdf",
-      "source_locator": "Davis v. Marion County Superior Court Juvenile Detention Center, No. 1:24-cv-01918-JRO-MJD (S.D. Ind.)"
+      "source_locator": "Davis v. Marion County Superior Court Juvenile Detention Center, No. 1:24-cv-01918-JRO-MJD (S.D. Ind.)",
+      "source_review_unresolved": [
+        "The separate judgment, appeal and payment of the earlier sanction were not verified."
+      ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2026-043-proceeding.json": {
       "admission_status": "legacy-unreviewed",
@@ -7574,12 +7646,15 @@
       "source_locator": "Amarsingh v. Frontier Airlines, Inc., No. 24-1391 (10th Cir.)"
     },
     "https://aiincidentlaw.org/proceeding/aiel-2026-049-proceeding.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-record-inference",
       "source": "https://courts.ca.gov/opinions/nonpub/B329314.PDF",
-      "source_locator": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., No. B329314 (Cal. Ct. App., 2d Dist., Div. Three) (unpublished)"
+      "source_locator": "EFD USA, Inc. v. Band Pro Film and Digital, Inc., No. B329314 (Cal. Ct. App., 2d Dist., Div. Three) (unpublished)",
+      "source_review_unresolved": [
+        "The conference result establishes denial of review only. Payment, later proceedings and compliance were not verified."
+      ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2026-050-proceeding.json": {
       "admission_status": "legacy-unreviewed",

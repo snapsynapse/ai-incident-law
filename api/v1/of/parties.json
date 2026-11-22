@@ -147,13 +147,16 @@
       "roles": [
         "deployer"
       ],
-      "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.wyd.64014/gov.uscourts.wyd.64014.181.0_1.pdf",
       "source_locator": "Wadsworth v. Walmart Inc.",
-      "evidence_type": "reliable reporting",
+      "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Payment, subsequent proceedings, compliance and the underlying model used by MX2.law were not verified."
+      ]
     },
     {
       "@context": [
@@ -776,7 +779,7 @@
       "projection_basis": "native-record-projection",
       "admission_status": "source-consistency-reviewed-changes",
       "source_review_unresolved": [
-        "Current docket status after the filed complaint remains unreviewed."
+        "The letter establishes counsel’s report and request. The court’s decision on either the motion or the request and later docket events were not verified."
       ]
     },
     {
@@ -1227,7 +1230,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The specified modification establishes no new sanction or later disciplinary outcome."
+      ]
     },
     {
       "@context": [
@@ -1301,7 +1307,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The merits order does not establish payment, appeal or any subsequent change to the sanctions."
+      ]
     },
     {
       "@context": [
@@ -1564,7 +1573,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The separate judgment, appeal and payment of the earlier sanction were not verified."
+      ]
     },
     {
       "@context": [
@@ -1831,7 +1843,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The conference result establishes denial of review only. Payment, later proceedings and compliance were not verified."
+      ]
     },
     {
       "@context": [

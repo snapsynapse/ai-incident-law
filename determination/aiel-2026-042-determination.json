@@ -40,16 +40,19 @@
   "disposition": "confirmed",
   "remedy": {
     "status": "sanctioned",
-    "notes": "$2,000 sanction (reduced from magistrate's $7,500 recommendation); Fastcase named as the AI tool by court finding."
+    "notes": "$2,000 sanction (reduced from magistrate's $7,500 recommendation); Fastcase named as the AI tool by court finding. A separate September 28, 2026 merits order (ECF 134) granted defendants summary judgment on the sex discrimination claim and recorded that Davis had abandoned her First Amendment retaliation claim against JDC and Kervan. The court directed entry of a separate final judgment."
   },
-  "notes": "$2,000 sanction (reduced from magistrate's $7,500 recommendation); Fastcase named as the AI tool by court finding.",
+  "notes": "$2,000 sanction (reduced from magistrate's $7,500 recommendation); Fastcase named as the AI tool by court finding. A separate September 28, 2026 merits order (ECF 134) granted defendants summary judgment on the sex discrimination claim and recorded that Davis had abandoned her First Amendment retaliation claim against JDC and Kervan. The court directed entry of a separate final judgment.",
   "source": "https://storage.courtlistener.com/recap/gov.uscourts.insd.217901/gov.uscourts.insd.217901.127.0.pdf",
   "source_locator": "Davis v. Marion County Superior Court Juvenile Detention Center, No. 1:24-cv-01918-JRO-MJD (S.D. Ind.)",
   "evidence_type": "primary record",
   "verified": "2026-07-24",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "projection_basis": "legacy-filing-status-inference",
-  "admission_status": "legacy-unreviewed",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "The separate judgment, appeal and payment of the earlier sanction were not verified."
+  ],
   "ai_incident_law_record_id": "AIEL-2026-042",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"

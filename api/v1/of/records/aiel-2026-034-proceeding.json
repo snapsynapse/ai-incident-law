@@ -59,7 +59,10 @@
   "verified": "2026-07-24",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "projection_basis": "legacy-record-inference",
-  "admission_status": "legacy-unreviewed",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "The merits order does not establish payment, appeal or any subsequent change to the sanctions."
+  ],
   "ai_incident_law_record_id": "AIEL-2026-034",
   "matter_type": "sanctions order (Rule 11)",
   "filing_status": "sanctioned"

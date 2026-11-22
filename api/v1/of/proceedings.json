@@ -262,13 +262,16 @@
       "hasDetermination": [
         "https://aiincidentlaw.org/determination/aiel-2025-004-determination.json"
       ],
-      "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.wyd.64014/gov.uscourts.wyd.64014.181.0_1.pdf",
       "source_locator": "Wadsworth v. Walmart Inc.",
-      "evidence_type": "reliable reporting",
+      "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-record-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Payment, subsequent proceedings, compliance and the underlying model used by MX2.law were not verified."
+      ],
       "ai_incident_law_record_id": "AIEL-2025-004",
       "matter_type": "sanctions order",
       "filing_status": "sanctioned"
@@ -1488,7 +1491,7 @@
       "projection_basis": "legacy-record-inference",
       "admission_status": "source-consistency-reviewed-changes",
       "source_review_unresolved": [
-        "Current docket status after the filed complaint remains unreviewed."
+        "The letter establishes counsel’s report and request. The court’s decision on either the motion or the request and later docket events were not verified."
       ],
       "ai_incident_law_record_id": "AIEL-2026-020",
       "matter_type": "federal lawsuit",
@@ -2290,7 +2293,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-record-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The specified modification establishes no new sanction or later disciplinary outcome."
+      ],
       "ai_incident_law_record_id": "AIEL-2026-032",
       "matter_type": "sanctions order (appellate)",
       "filing_status": "sanctioned"
@@ -2422,7 +2428,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-record-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The merits order does not establish payment, appeal or any subsequent change to the sanctions."
+      ],
       "ai_incident_law_record_id": "AIEL-2026-034",
       "matter_type": "sanctions order (Rule 11)",
       "filing_status": "sanctioned"
@@ -2889,7 +2898,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-record-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The separate judgment, appeal and payment of the earlier sanction were not verified."
+      ],
       "ai_incident_law_record_id": "AIEL-2026-042",
       "matter_type": "sanctions order (Rule 11)",
       "filing_status": "sanctioned"
@@ -3359,7 +3371,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-record-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The conference result establishes denial of review only. Payment, later proceedings and compliance were not verified."
+      ],
       "ai_incident_law_record_id": "AIEL-2026-049",
       "matter_type": "sanctions order (appellate)",
       "filing_status": "sanctioned"

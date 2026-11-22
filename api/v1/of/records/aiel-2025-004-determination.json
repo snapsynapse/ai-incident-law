@@ -40,16 +40,19 @@
   "disposition": "confirmed",
   "remedy": {
     "status": "sanctioned",
-    "notes": "Included as a notable sanctions event, but the primary court order should be downloaded and archived before treating as fully verified."
+    "notes": "On February 24, 2025, the court revoked Rudwin Ayala’s pro hac vice admission, removed him as counsel and ordered him to pay $3,000 to the court registry. It ordered T. Michael Morgan and Taly Goody to pay $1,000 each. The retained document is the signed ECF 181 order."
   },
-  "notes": "Included as a notable sanctions event, but the primary court order should be downloaded and archived before treating as fully verified.",
-  "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
+  "notes": "On February 24, 2025, the court revoked Rudwin Ayala’s pro hac vice admission, removed him as counsel and ordered him to pay $3,000 to the court registry. It ordered T. Michael Morgan and Taly Goody to pay $1,000 each. The retained document is the signed ECF 181 order.",
+  "source": "https://storage.courtlistener.com/recap/gov.uscourts.wyd.64014/gov.uscourts.wyd.64014.181.0_1.pdf",
   "source_locator": "Wadsworth v. Walmart Inc.",
-  "evidence_type": "reliable reporting",
+  "evidence_type": "primary record",
   "verified": "2026-04-22",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "projection_basis": "legacy-filing-status-inference",
-  "admission_status": "legacy-unreviewed",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "Payment, subsequent proceedings, compliance and the underlying model used by MX2.law were not verified."
+  ],
   "ai_incident_law_record_id": "AIEL-2025-004",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"

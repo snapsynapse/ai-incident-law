@@ -169,27 +169,30 @@
       "@type": "of:Allegation",
       "@id": "https://aiincidentlaw.org/allegation/aiel-2025-004-allegation.json",
       "id": "aiel-2025-004-allegation",
-      "text": "Attorneys filed briefing containing nonexistent or unsupported case citations attributed to generative AI use. Reporting and case-analysis sources describe a sanctions response after the court identified fabricated authority.",
+      "text": "The plaintiffs’ lawyers filed motions in limine citing nine cases, eight of which did not exist. The court recounted that Rudwin Ayala uploaded his draft to MX2.law to add case law and failed to verify the resulting citations. The court described the site as apparently an in-house Morgan & Morgan database and credited counsel’s account of the platform used.",
       "asserted_by": "asserting party not identified in the indexed source fields",
       "related_to": "https://aiincidentlaw.org/incident/aiel-2025-004#ai-system",
       "related_to_party": [
         "https://aiincidentlaw.org/party/aiel-2025-004-deployer.json"
       ],
-      "ai_system_name": "ChatGPT / generative AI legal drafting workflow",
+      "ai_system_name": "MX2.law",
       "deployer": "Morgan & Morgan attorneys",
       "domain": "legal services",
       "error_type": "hallucinated authority",
       "canonical_source_conflicted": "Actual case law and court record",
       "mitigation_gap": "AI-generated legal citations were not verified against source materials before filing.",
-      "reliance_or_harm": "Lawyers were fined and the firm faced sanctions-related scrutiny.",
+      "reliance_or_harm": "The plaintiffs withdrew the motions. The court sanctioned the three signing attorneys and declined to order their firms to show cause at that time.",
       "ai_incident_law_record_id": "AIEL-2025-004",
-      "source": "https://app.ediscoveryassistant.com/case_law/62637-wadsworth-v-walmart-inc",
+      "source": "https://storage.courtlistener.com/recap/gov.uscourts.wyd.64014/gov.uscourts.wyd.64014.181.0_1.pdf",
       "source_locator": "Wadsworth v. Walmart Inc.",
-      "evidence_type": "reliable reporting",
+      "evidence_type": "primary record",
       "verified": "2026-04-22",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "Payment, subsequent proceedings, compliance and the underlying model used by MX2.law were not verified."
+      ]
     },
     {
       "@context": [
@@ -956,7 +959,7 @@
       "projection_basis": "native-record-projection",
       "admission_status": "source-consistency-reviewed-changes",
       "source_review_unresolved": [
-        "Current docket status after the filed complaint remains unreviewed."
+        "The letter establishes counsel’s report and request. The court’s decision on either the motion or the request and later docket events were not verified."
       ]
     },
     {
@@ -1515,7 +1518,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The specified modification establishes no new sanction or later disciplinary outcome."
+      ]
     },
     {
       "@context": [
@@ -1607,7 +1613,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The merits order does not establish payment, appeal or any subsequent change to the sanctions."
+      ]
     },
     {
       "@context": [
@@ -1933,7 +1942,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The separate judgment, appeal and payment of the earlier sanction were not verified."
+      ]
     },
     {
       "@context": [
@@ -2263,7 +2275,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The conference result establishes denial of review only. Payment, later proceedings and compliance were not verified."
+      ]
     },
     {
       "@context": [
