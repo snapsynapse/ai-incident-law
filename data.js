@@ -444,9 +444,9 @@ window.AIEL_DATA = {
           "filing_date": "2022-05",
           "error_date": "2022",
           "public_record_link": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
-          "secondary_source_links": "https://justice.gov/archives/opa/pr/justice-department-files-statement-interest-fair-housing-act-case-alleging-unlawful-algorithm; https://cohenmilstein.com/rental-applicants-reach-2-28m-settlement-agreement-for-discriminatory-ai-powered-screening-tool/",
+          "secondary_source_links": "https://justice.gov/archives/opa/pr/justice-department-files-statement-interest-fair-housing-act-case-alleging-unlawful-algorithm; https://cohenmilstein.com/rental-applicants-reach-2-28m-settlement-agreement-for-discriminatory-ai-powered-screening-tool/; https://cohenmilstein.com/wp-content/uploads/2022/05/SafeRent-Final-Approval-Order-11-20-2024.pdf",
           "confidence_score": "high",
-          "notes_on_resolution": "Settlement announced in 2024; algorithmic tenant screening treated as subject to fair-housing law.",
+          "notes_on_resolution": "On November 20, 2024, the District of Massachusetts approved the class settlement and dismissed the claims against SafeRent with prejudice (ECF 135). The order limits certification to settlement purposes and precludes using the settlement as an admission of wrongdoing.",
           "obligation_first_anchors": [
             "https://everyailaw.com/obligation-category/bias-prevention.json"
           ],
@@ -482,7 +482,8 @@ window.AIEL_DATA = {
                 "issued_by": [
                   "u-s-district-court-district-of-massachusetts"
                 ],
-                "disposition": "settled"
+                "disposition": "settled",
+                "issued_date": "2024-11-20"
               }
             ],
             "retired_identifiers": [
@@ -704,9 +705,9 @@ window.AIEL_DATA = {
           "filing_date": "2021-04",
           "error_date": "2020-01",
           "public_record_link": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
-          "secondary_source_links": "https://freep.com/story/news/local/michigan/detroit/2024/06/28/man-wrongfully-arrested-with-facial-recognition-tech-settles-lawsuit/74243839007/; https://aclumich.org/cases/facial-recognition/",
+          "secondary_source_links": "https://freep.com/story/news/local/michigan/detroit/2024/06/28/man-wrongfully-arrested-with-facial-recognition-tech-settles-lawsuit/74243839007/; https://aclumich.org/cases/facial-recognition/; https://assets.aclu.org/live/uploads/2024/06/Final-Order-of-Dismissal-and-Settlement-Agreement.pdf",
           "confidence_score": "high",
-          "notes_on_resolution": "Settlement included $300,000 and Detroit Police Department facial-recognition reforms.",
+          "notes_on_resolution": "On June 28, 2024, the district court dismissed all claims with prejudice by stipulation and retained jurisdiction for four years to enforce the settlement (ECF 73). The agreement requires Detroit police to implement the revised facial-recognition directive. It puts damages, fees and costs in a separately redacted release.",
           "tags": "facial-recognition; false-match; wrongful-arrest; civil-rights; public-record-confirmed",
           "source_quality": "party case page",
           "research_status": "included",
@@ -3341,10 +3342,7 @@ window.AIEL_DATA = {
     "AIEL-2024-010": {
       "admission_status": "source-consistency-reviewed-changes",
       "source_review_unresolved": [
-        "The linked DOJ case page is an agency account, primary for its own statements; the separately linked Statement of Interest and court order were not reviewed as original documents in this role-only correction.",
-        "The page reports July 26, 2023 denial of dismissal motions and is marked updated August 17, 2023. It does not establish the later final settlement approval or current docket status.",
-        "The retained April 30, 2024 counsel-hosted settlement article describes approval pending. Existing settled status, relief and legal/outcome statements remain unchanged legacy units and are not newly accepted by this receipt.",
-        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+        "The DOJ case page documents the government’s participation. Later enforcement, payment completion and contested FHA liability have not been verified."
       ]
     },
     "AIEL-2022-011": {
@@ -3359,10 +3357,7 @@ window.AIEL_DATA = {
     "AIEL-2024-014": {
       "admission_status": "source-consistency-reviewed-changes",
       "source_review_unresolved": [
-        "The linked ACLU case page is counsel’s account for its represented client, not the court’s adjudicative opinion or the separately linked settlement agreement.",
-        "This role-only review does not newly verify the $300,000 figure, precise settlement terms, entered dismissal, merits findings or current docket status. Existing substantive and outcome units remain unchanged legacy debt.",
-        "The page’s settlement announcement and document list are primary for counsel’s own publication. The linked agreement and court documents were not retrieved or accepted by this role correction.",
-        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+        "The ACLU case page describes its client’s settlement. The reported $300,000 amount requires separate evidence from the redacted monetary release. Later enforcement and implementation have not been verified."
       ]
     },
     "AIEL-2024-015": {

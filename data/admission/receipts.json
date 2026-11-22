@@ -4246,7 +4246,7 @@
     },
     "included/AIEL-2024-010": {
       "baseline_sha256": "1b8563fc88c3b46518c4920b461f47f2b6357eeb43e458a58da6824b347b1ed0",
-      "record_sha256": "9835ca1c5f9427bd4c93094f796a2315bd4196a7068c7889e634ddc9116ba7fd",
+      "record_sha256": "f22076f994c492f9d648a9136790946d9988f10ef6b74602952ecaba151cccd6",
       "evidence": {
         "current-case-page-role": {
           "path": "data/admission/raw/aiel-2024-010/case-page-extracted.txt",
@@ -4270,6 +4270,33 @@
             "sha256": "97ce30b24dc440bf9f46ab0f32e10bae155ce0c5d0b6fac675efda7b0ba3abe2"
           },
           "provenance_note": "Exact original HTML, readable extraction and historical transport receipt copied byte-identically from the retained October 3 link ledger. This agent role review uses retained_snapshot, does not invent a new retrieval timestamp and does not classify the case page as a court order."
+        },
+        "safe-rent-final-order-135": {
+          "path": "data/admission/raw/aiel-2024-010/safe-rent-final-order-135.txt",
+          "sha256": "07c8f87f3044d85b68b9df42f7fcab6282e1e3bbb7e4263a469a760d9485793b",
+          "official_url": "https://cohenmilstein.com/wp-content/uploads/2022/05/SafeRent-Final-Approval-Order-11-20-2024.pdf",
+          "document_id": "1:22-cv-10800-AK, ECF 135",
+          "document_title": "Final Approval Order",
+          "issuing_body": "U.S. District Court for the District of Massachusetts",
+          "document_type": "final order",
+          "version": "Filed and signed November 20, 2024.",
+          "locator": "ECF 135, paragraphs 9, 12, and 19; signature on page 6. Judge Kelley approved the settlement, dismissed claims against SafeRent with prejudice, and limited the use of the settlement as evidence.",
+          "excerpt": "The Court hereby finally approves the Settlement",
+          "identity_excerpts": [
+            "1:22-cv-10800-AK",
+            "Document 135",
+            "Angel Kelley"
+          ],
+          "provenance_note": "The retained PDF is the filed court order published by settlement class counsel Cohen Milstein; the court-appointed administrator separately displays the same case, ECF entry, date and operative terms. The existing DOJ case page describes the government’s statement of interest.",
+          "acquisition": "primary_retrieval",
+          "retrieval": {
+            "http_status": 200,
+            "retrieved_at": "2026-11-22T01:27:59.132Z",
+            "content_type": "application/pdf",
+            "final_url": "https://www.cohenmilstein.com/wp-content/uploads/2022/05/SafeRent-Final-Approval-Order-11-20-2024.pdf",
+            "original_path": "data/admission/raw/aiel-2024-010/safe-rent-final-order-135.pdf",
+            "original_sha256": "a4b8af884b339b6d4996db12b31916550a07ff17171ba9301a2a1e843e52dc7e"
+          }
         }
       },
       "units": {
@@ -4286,26 +4313,104 @@
           "evidence": [
             "current-case-page-role"
           ]
+        },
+        "field:secondary_source_links": {
+          "before_sha256": "b020ab0b751601f31fae110cc262fde52f8acbd3dec945fae5a3c4a7ef83f57d",
+          "after_sha256": "ae16a33661a9314c1a766ce2f4403b564897382dc9e931bbee460543c48b4566",
+          "candidate_content": "https://justice.gov/archives/opa/pr/justice-department-files-statement-interest-fair-housing-act-case-alleging-unlawful-algorithm; https://cohenmilstein.com/rental-applicants-reach-2-28m-settlement-agreement-for-discriminatory-ai-powered-screening-tool/; https://cohenmilstein.com/wp-content/uploads/2022/05/SafeRent-Final-Approval-Order-11-20-2024.pdf",
+          "reason": "Add the court’s final order as published by class counsel.",
+          "qualifications": {
+            "scope": "Add the court’s final order as published by class counsel.",
+            "exceptions": "The DOJ case page documents the government’s participation. Later enforcement, payment completion and contested FHA liability have not been verified.",
+            "time": "Filed and signed November 20, 2024."
+          },
+          "evidence": [
+            "safe-rent-final-order-135"
+          ]
+        },
+        "field:notes_on_resolution": {
+          "before_sha256": "7aed3a097a98c2c92454e10c704daa349b235016ecbc4c5e5bbcfcf5030999bf",
+          "after_sha256": "8a610ca43caf323e1c7800b6883548e322c7122219af8162cf0b9b2cb719a2f2",
+          "candidate_content": "On November 20, 2024, the District of Massachusetts approved the class settlement and dismissed the claims against SafeRent with prejudice (ECF 135). The order limits certification to settlement purposes and precludes using the settlement as an admission of wrongdoing.",
+          "reason": "Record settlement approval and its limits on admissions of wrongdoing.",
+          "qualifications": {
+            "scope": "Record settlement approval and its limits on admissions of wrongdoing.",
+            "exceptions": "The DOJ case page documents the government’s participation. Later enforcement, payment completion and contested FHA liability have not been verified.",
+            "time": "Filed and signed November 20, 2024."
+          },
+          "evidence": [
+            "safe-rent-final-order-135"
+          ]
+        },
+        "field:legal_graph": {
+          "before_sha256": "6f58b1d03110084100db50b103cbbbdda5b757ba1ffdd30c21f573a4f852cd89",
+          "after_sha256": "9e99a883af7150f8b1a35d2c847258ee4f3418a1f4501482fe1fc1e07df6e138",
+          "candidate_content": {
+            "authorities": [
+              {
+                "id": "u-s-district-court-district-of-massachusetts",
+                "name": "U.S. District Court, District of Massachusetts",
+                "territorial_scope": [
+                  "us-ma"
+                ]
+              }
+            ],
+            "proceedings": [
+              {
+                "id": "aiel-2024-010-proceeding",
+                "heard_by": [
+                  "u-s-district-court-district-of-massachusetts"
+                ],
+                "determination_ids": [
+                  "aiel-2024-010-determination"
+                ]
+              }
+            ],
+            "determinations": [
+              {
+                "id": "aiel-2024-010-determination",
+                "issued_by": [
+                  "u-s-district-court-district-of-massachusetts"
+                ],
+                "disposition": "settled",
+                "issued_date": "2024-11-20"
+              }
+            ],
+            "retired_identifiers": [
+              {
+                "kind": "authority",
+                "id": "u-s-district-court-district-of-massachusetts-doj-hud",
+                "former_type": "of:Authority",
+                "reason": "Retired composite identifier that conflated the court with participating federal agencies."
+              }
+            ]
+          },
+          "reason": "Date the existing settlement determination from the filed and signed final approval order. Other graph entries retain their original basis.",
+          "qualifications": {
+            "scope": "Date the existing settlement determination from the filed and signed final approval order. Other graph entries retain their original basis.",
+            "exceptions": "The DOJ case page documents the government’s participation. Later enforcement, payment completion and contested FHA liability have not been verified.",
+            "time": "Filed and signed November 20, 2024."
+          },
+          "evidence": [
+            "safe-rent-final-order-135"
+          ]
         }
       },
       "unresolved": [
-        "The linked DOJ case page is an agency account, primary for its own statements; the separately linked Statement of Interest and court order were not reviewed as original documents in this role-only correction.",
-        "The page reports July 26, 2023 denial of dismissal motions and is marked updated August 17, 2023. It does not establish the later final settlement approval or current docket status.",
-        "The retained April 30, 2024 counsel-hosted settlement article describes approval pending. Existing settled status, relief and legal/outcome statements remain unchanged legacy units and are not newly accepted by this receipt.",
-        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+        "The DOJ case page documents the government’s participation. Later enforcement, payment completion and contested FHA liability have not been verified."
       ],
       "review": {
-        "actor": "codex:two-source-role-correction-2026-10-31",
+        "actor": "Codex",
         "actor_type": "agent",
         "decision": "source-consistency-reviewed-changes",
-        "scope": "One explicit source_quality unit only. Case-page evidence supports the publisher role; all unchanged native substantive/outcome units remain unreviewed. No human attestation, legal/status update, AI-attribution change, new document/record or currentness renewal.",
-        "reviewed_at": "2026-10-31T22:23:11.304Z",
-        "packet_sha256": "d13628e94c58c065340173be9534536cfa9ac12e3865c038b01c80598d7b1174"
+        "scope": "The new order supports only the additions named in this receipt. The earlier source-quality unit remains bound to its original case-page evidence. Predecessor receipt d13628e94c58c065340173be9534536cfa9ac12e3865c038b01c80598d7b1174.",
+        "reviewed_at": "2026-11-22T01:29:53.896Z",
+        "packet_sha256": "6e3ab272f3a02edba53430aede9ac508d39a0515e5a55884e7c87828aef431f8"
       }
     },
     "included/AIEL-2024-014": {
       "baseline_sha256": "58dd130f5b7a53a37b0433e0320941ce1421eafcec987d420327ecf02926a51b",
-      "record_sha256": "0cb4519ac6e23236091095417343bea448824dbbd153a5a3b84081255bf51cb1",
+      "record_sha256": "7ec911c078d5eb711b5f2d1970c172db41debbc6b28e34c79c6b13e5db3f7797",
       "evidence": {
         "current-case-page-role": {
           "path": "data/admission/raw/aiel-2024-014/case-page-extracted.txt",
@@ -4329,6 +4434,33 @@
             "sha256": "6937cb49bc5e4365559130647d94ac8b7910ac39356be88dfb0cafd47fddbaa3"
           },
           "provenance_note": "Exact original HTML, readable extraction and historical transport receipt copied byte-identically from the retained October 3 link ledger. This agent role review uses retained_snapshot, does not invent a new retrieval timestamp and does not classify the case page as a court order."
+        },
+        "williams-dismissal-73": {
+          "path": "data/admission/raw/aiel-2024-014/williams-dismissal-73.txt",
+          "sha256": "6b752d99e898fe1168ec0724d924e843b3124a3621c5a11ff65aafb3ac028468",
+          "official_url": "https://assets.aclu.org/live/uploads/2024/06/Final-Order-of-Dismissal-and-Settlement-Agreement.pdf",
+          "document_id": "2:21-cv-10827-LJM-DRG, ECF 73",
+          "document_title": "Stipulated Order of Voluntary Dismissal with Prejudice and Settlement Agreement",
+          "issuing_body": "U.S. District Court for the Eastern District of Michigan",
+          "document_type": "order",
+          "version": "Filed and signed June 28, 2024.",
+          "locator": "ECF 73 paragraphs 1–3 on pages 1–2; the signed agreement at sections 1 and 9 describes the policy and separately redacted damages release.",
+          "excerpt": "all Defendants are dismissed with prejudice and without costs.",
+          "identity_excerpts": [
+            "2:21-cv-10827-LJM-DRG",
+            "ECF No. 73",
+            "Laurie J. Michelson"
+          ],
+          "provenance_note": "The ACLU, counsel to the plaintiff, publishes the ECF-stamped order and attached agreement. Its case-page narrative remains separately identified as a party case page.",
+          "acquisition": "primary_retrieval",
+          "retrieval": {
+            "http_status": 200,
+            "retrieved_at": "2026-11-22T01:26:35.850Z",
+            "content_type": "application/pdf",
+            "final_url": "https://assets.aclu.org/live/uploads/2024/06/Final-Order-of-Dismissal-and-Settlement-Agreement.pdf",
+            "original_path": "data/admission/raw/aiel-2024-014/williams-dismissal-73.pdf",
+            "original_sha256": "4f4c9915b2ad0a2ceca3674e95a33b000fa174ab9cf02362ba55847dfbd56afd"
+          }
         }
       },
       "units": {
@@ -4345,21 +4477,46 @@
           "evidence": [
             "current-case-page-role"
           ]
+        },
+        "field:secondary_source_links": {
+          "before_sha256": "6f47fc0bbe8401d5ee1cc776f91d01c1adc71f9e5bad3644a113fc77afe49233",
+          "after_sha256": "ea6741ad1f805edcb66357d7ffd3a91d6c66a8bb57eec3ee05ddd40458848ea0",
+          "candidate_content": "https://freep.com/story/news/local/michigan/detroit/2024/06/28/man-wrongfully-arrested-with-facial-recognition-tech-settles-lawsuit/74243839007/; https://aclumich.org/cases/facial-recognition/; https://assets.aclu.org/live/uploads/2024/06/Final-Order-of-Dismissal-and-Settlement-Agreement.pdf",
+          "reason": "Cite plaintiff counsel’s copy of the signed order and agreement.",
+          "qualifications": {
+            "scope": "Cite plaintiff counsel’s copy of the signed order and agreement.",
+            "exceptions": "The ACLU case page describes its client’s settlement. The reported $300,000 amount requires separate evidence from the redacted monetary release. Later enforcement and implementation have not been verified.",
+            "time": "Filed and signed June 28, 2024."
+          },
+          "evidence": [
+            "williams-dismissal-73"
+          ]
+        },
+        "field:notes_on_resolution": {
+          "before_sha256": "1331459a7871d8297c13affde27e29db49d409183a868a883c95945db69f9952",
+          "after_sha256": "793be46c297ae7919cd68d706dd0cd40725934c0a22b0189794aa032f6bf1040",
+          "candidate_content": "On June 28, 2024, the district court dismissed all claims with prejudice by stipulation and retained jurisdiction for four years to enforce the settlement (ECF 73). The agreement requires Detroit police to implement the revised facial-recognition directive. It puts damages, fees and costs in a separately redacted release.",
+          "reason": "Distinguish court disposition, agreed policy terms and the redacted monetary release.",
+          "qualifications": {
+            "scope": "Distinguish court disposition, agreed policy terms and the redacted monetary release.",
+            "exceptions": "The ACLU case page describes its client’s settlement. The reported $300,000 amount requires separate evidence from the redacted monetary release. Later enforcement and implementation have not been verified.",
+            "time": "Filed and signed June 28, 2024."
+          },
+          "evidence": [
+            "williams-dismissal-73"
+          ]
         }
       },
       "unresolved": [
-        "The linked ACLU case page is counsel’s account for its represented client, not the court’s adjudicative opinion or the separately linked settlement agreement.",
-        "This role-only review does not newly verify the $300,000 figure, precise settlement terms, entered dismissal, merits findings or current docket status. Existing substantive and outcome units remain unchanged legacy debt.",
-        "The page’s settlement announcement and document list are primary for counsel’s own publication. The linked agreement and court documents were not retrieved or accepted by this role correction.",
-        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+        "The ACLU case page describes its client’s settlement. The reported $300,000 amount requires separate evidence from the redacted monetary release. Later enforcement and implementation have not been verified."
       ],
       "review": {
-        "actor": "codex:two-source-role-correction-2026-10-31",
+        "actor": "Codex",
         "actor_type": "agent",
         "decision": "source-consistency-reviewed-changes",
-        "scope": "One explicit source_quality unit only. Case-page evidence supports the publisher role; all unchanged native substantive/outcome units remain unreviewed. No human attestation, legal/status update, AI-attribution change, new document/record or currentness renewal.",
-        "reviewed_at": "2026-10-31T22:23:11.308Z",
-        "packet_sha256": "cf8370a000f7763daf279916ac84e29e9a07b51c15db41ecd4bebf16620c2b7f"
+        "scope": "The new order supports only the additions named in this receipt. The earlier source-quality unit remains bound to its original case-page evidence. Predecessor receipt cf8370a000f7763daf279916ac84e29e9a07b51c15db41ecd4bebf16620c2b7f.",
+        "reviewed_at": "2026-11-22T01:29:54.040Z",
+        "packet_sha256": "f42004e028d1fef05013730febf54316e86efba0cd3406d2b7dea20dfc6c4125"
       }
     },
     "included/AIEL-2024-008": {
