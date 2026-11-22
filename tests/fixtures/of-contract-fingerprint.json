@@ -3477,9 +3477,9 @@
         "present": 72
       },
       "source_review_unresolved": {
-        "missing": 57,
-        "populated": 15,
-        "present": 15
+        "missing": 53,
+        "populated": 19,
+        "present": 19
       },
       "text": {
         "missing": 0,
@@ -3569,9 +3569,9 @@
         "present": 63
       },
       "source_review_unresolved": {
-        "missing": 52,
-        "populated": 11,
-        "present": 11
+        "missing": 48,
+        "populated": 15,
+        "present": 15
       },
       "territorial_scope": {
         "missing": 3,
@@ -3696,9 +3696,9 @@
         "present": 68
       },
       "source_review_unresolved": {
-        "missing": 56,
-        "populated": 12,
-        "present": 12
+        "missing": 52,
+        "populated": 16,
+        "present": 16
       },
       "verified": {
         "missing": 5,
@@ -3779,9 +3779,9 @@
         "present": 72
       },
       "source_review_unresolved": {
-        "missing": 57,
-        "populated": 15,
-        "present": 15
+        "missing": 53,
+        "populated": 19,
+        "present": 19
       },
       "verified": {
         "missing": 5,
@@ -3917,9 +3917,9 @@
         "present": 74
       },
       "source_review_unresolved": {
-        "missing": 58,
-        "populated": 16,
-        "present": 16
+        "missing": 54,
+        "populated": 20,
+        "present": 20
       },
       "territorial_scope": {
         "missing": 3,
@@ -4173,7 +4173,7 @@
     },
     "https://aiincidentlaw.org/determination/aiel-2026-022-determination.json": {
       "remedy": {
-        "notes": "$100 sanction imposed by Sandusky County Court of Common Pleas 2025-08-11; Sixth District Court of Appeals affirmed denial of Guo’s motion to set aside, 2026-05-26. DeepSeek named by appellant; court found citations were AI-generated hallucinations.",
+        "notes": "The Sixth District affirmed the denial of relief from the $100 sanction on May 26, 2026. The Supreme Court of Ohio declined review on September 15 and denied reconsideration on November 10 (No. 2026-0841).",
         "status": "sanctioned"
       }
     },
@@ -4251,7 +4251,7 @@
     },
     "https://aiincidentlaw.org/determination/aiel-2026-035-determination.json": {
       "remedy": {
-        "notes": "$2,000 fine with $2,000 credit for prior Ashtabula County payment; disciplinary referral; removal; appeal stricken.",
+        "notes": "The Eleventh District struck the May 19, 2025 application to reopen, removed counsel, made a disciplinary referral and credited the full $2,000 already paid against its $2,000 fine. The Supreme Court of Ohio accepted review on July 21, 2026 (No. 2026-0547). Its calendar lists the case for the January 27, 2027 oral argument session.",
         "status": "sanctioned"
       }
     },
@@ -4317,7 +4317,7 @@
     },
     "https://aiincidentlaw.org/determination/aiel-2026-047-determination.json": {
       "remedy": {
-        "notes": "$12,000 aggregate: Seth $5,000 + pro hac vice revocation; Kula $3,000; Joe $3,000; Cooper $1,000; fifth attorney (Doell) released from sanctions.",
+        "notes": "The court publicly admonished all five attorneys under Rule 11(b). It fined Seth $5,000, Kula and Joe $3,000 each, and Cooper $1,000. It revoked Seth’s pro hac vice admission and released Doell from further sanctions.",
         "status": "sanctioned"
       }
     },
@@ -4707,14 +4707,17 @@
       "source_locator": "State of Oklahoma ex rel. Oklahoma Bar Association v. Reeves, 2026 OK 37"
     },
     "https://aiincidentlaw.org/allegation/aiel-2026-022-allegation.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "canonical_source_conflicted": "Genuine Ohio case law (cases cited did not exist at the given citations)",
       "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
       "source": "https://supremecourt.ohio.gov/rod/docs/pdf/6/2026/2026-Ohio-1930.pdf",
       "source_citation": "2026-Ohio-1930",
-      "source_locator": "Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930 (No. S-25-035)"
+      "source_locator": "Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930 (No. S-25-035)",
+      "source_review_unresolved": [
+        "The cited decisions establish the rulings. Collection of the award and further proceedings were not verified."
+      ]
     },
     "https://aiincidentlaw.org/allegation/aiel-2026-023-allegation.json": {
       "admission_status": "legacy-unreviewed",
@@ -4826,14 +4829,17 @@
       "source_locator": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)"
     },
     "https://aiincidentlaw.org/allegation/aiel-2026-035-allegation.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "canonical_source_conflicted": "Non-existent judicial quotations attributed to real Ohio judges; Ohio Rules of Professional Conduct",
       "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
       "source": "https://supremecourt.ohio.gov/rod/docs/pdf/11/2026/2026-Ohio-965.pdf",
       "source_citation": "2026-Ohio-965",
-      "source_locator": "State v. Coleman, 2026-Ohio-965, No. 2024-A-0040 (Ohio Ct. App., 11th Dist.)"
+      "source_locator": "State v. Coleman, 2026-Ohio-965, No. 2024-A-0040 (Ohio Ct. App., 11th Dist.)",
+      "source_review_unresolved": [
+        "The calendar reports a scheduled session. An argument, merits disposition, stay or disciplinary outcome was not established."
+      ]
     },
     "https://aiincidentlaw.org/allegation/aiel-2026-036-allegation.json": {
       "admission_status": "legacy-unreviewed",
@@ -4931,13 +4937,16 @@
       "source_locator": "Lifetime Well LLC v. IBSpot.com Inc., No. 2:25-cv-05135-MAK (E.D. Pa.)"
     },
     "https://aiincidentlaw.org/allegation/aiel-2026-047-allegation.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "canonical_source_conflicted": "Non-existent Tenth and Federal Circuit patent cases; Fed. R. Civ. P. 11(b)",
       "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
       "source": "https://govinfo.gov/content/pkg/USCOURTS-ksd-2_22-cv-02324/pdf/USCOURTS-ksd-2_22-cv-02324-9.pdf",
-      "source_locator": "Lexos Media IP, LLC v. Overstock.com, Inc., No. 2:22-cv-02324-JAR (D. Kan.)"
+      "source_locator": "Lexos Media IP, LLC v. Overstock.com, Inc., No. 2:22-cv-02324-JAR (D. Kan.)",
+      "source_review_unresolved": [
+        "The order establishes the sanctions imposed. Payment, self-reporting and subsequent proceedings were not verified."
+      ]
     },
     "https://aiincidentlaw.org/allegation/aiel-2026-048-allegation.json": {
       "admission_status": "legacy-unreviewed",
@@ -5030,13 +5039,16 @@
       "source_locator": "Matter of: CVTEK, LLC, B-423943; B-423943.2 (U.S. Government Accountability Office)"
     },
     "https://aiincidentlaw.org/allegation/aiel-2026-058-allegation.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "canonical_source_conflicted": "Accurate judicial authorities and quotations; Fed. R. Civ. P. 11",
       "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.pawd.314851/gov.uscourts.pawd.314851.71.0.pdf",
-      "source_locator": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)"
+      "source_locator": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)",
+      "source_review_unresolved": [
+        "The order sets the payment obligation. Payment and subsequent proceedings were not verified."
+      ]
     },
     "https://aiincidentlaw.org/allegation/aiel-2026-059-allegation.json": {
       "admission_status": "legacy-unreviewed",
@@ -5281,13 +5293,16 @@
       "source_locator": "TOV Realty, LLC v. Suarez (SC 21183) and Kosel Equity, LLC v. MacGregor (SC 21184), 355 Conn. 902 (2026)"
     },
     "https://aiincidentlaw.org/authority/court-of-appeals-of-ohio-eleventh-appellate-district.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-jurisdiction-inference",
       "source": "https://supremecourt.ohio.gov/rod/docs/pdf/11/2026/2026-Ohio-965.pdf",
       "source_citation": "2026-Ohio-965",
-      "source_locator": "State v. Coleman, 2026-Ohio-965, No. 2024-A-0040 (Ohio Ct. App., 11th Dist.)"
+      "source_locator": "State v. Coleman, 2026-Ohio-965, No. 2024-A-0040 (Ohio Ct. App., 11th Dist.)",
+      "source_review_unresolved": [
+        "The calendar reports a scheduled session. An argument, merits disposition, stay or disciplinary outcome was not established."
+      ]
     },
     "https://aiincidentlaw.org/authority/district-court-of-appeal-of-florida-second-district.json": {
       "admission_status": "legacy-unreviewed",
@@ -5374,13 +5389,16 @@
       "source_locator": "Deutsche Bank Natl. Trust Co. v. LeTennier, 2026 NY Slip Op 00040, Docket No. CV-23-0713 (N.Y. App. Div., 3d Dep’t)"
     },
     "https://aiincidentlaw.org/authority/ohio-court-of-appeals-sixth-appellate-district.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-jurisdiction-inference",
       "source": "https://supremecourt.ohio.gov/rod/docs/pdf/6/2026/2026-Ohio-1930.pdf",
       "source_citation": "2026-Ohio-1930",
-      "source_locator": "Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930 (No. S-25-035)"
+      "source_locator": "Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930 (No. S-25-035)",
+      "source_review_unresolved": [
+        "The cited decisions establish the rulings. Collection of the award and further proceedings were not verified."
+      ]
     },
     "https://aiincidentlaw.org/authority/raad-van-discipline-s-hertogenbosch.json": {
       "admission_status": "legacy-unreviewed",
@@ -5524,12 +5542,15 @@
       "source_locator": "Barteca Holdings LLC v. Tacobarn Newtown LLC, No. 3:26-cv-00250-VDO (D. Conn.), ECF No. 43"
     },
     "https://aiincidentlaw.org/authority/u-s-district-court-district-of-kansas.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-jurisdiction-inference",
       "source": "https://govinfo.gov/content/pkg/USCOURTS-ksd-2_22-cv-02324/pdf/USCOURTS-ksd-2_22-cv-02324-9.pdf",
-      "source_locator": "Lexos Media IP, LLC v. Overstock.com, Inc., No. 2:22-cv-02324-JAR (D. Kan.)"
+      "source_locator": "Lexos Media IP, LLC v. Overstock.com, Inc., No. 2:22-cv-02324-JAR (D. Kan.)",
+      "source_review_unresolved": [
+        "The order establishes the sanctions imposed. Payment, self-reporting and subsequent proceedings were not verified."
+      ]
     },
     "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts-doj-hud.json": {
       "admission_status": "source-consistency-reviewed-changes",
@@ -5759,12 +5780,15 @@
       "source_locator": "Kattom v. Bondi, No. 25-1497 SEC P (W.D. La.)"
     },
     "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-pennsylvania.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-jurisdiction-inference",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.pawd.314851/gov.uscourts.pawd.314851.71.0.pdf",
-      "source_locator": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)"
+      "source_locator": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)",
+      "source_review_unresolved": [
+        "The order sets the payment obligation. Payment and subsequent proceedings were not verified."
+      ]
     },
     "https://aiincidentlaw.org/authority/u-s-district-court-western-district-of-texas.json": {
       "admission_status": "legacy-unreviewed",
@@ -5995,13 +6019,16 @@
       "source_locator": "State of Oklahoma ex rel. Oklahoma Bar Association v. Reeves, 2026 OK 37"
     },
     "https://aiincidentlaw.org/determination/aiel-2026-022-determination.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-filing-status-inference",
       "source": "https://supremecourt.ohio.gov/rod/docs/pdf/6/2026/2026-Ohio-1930.pdf",
       "source_citation": "2026-Ohio-1930",
-      "source_locator": "Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930 (No. S-25-035)"
+      "source_locator": "Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930 (No. S-25-035)",
+      "source_review_unresolved": [
+        "The cited decisions establish the rulings. Collection of the award and further proceedings were not verified."
+      ]
     },
     "https://aiincidentlaw.org/determination/aiel-2026-023-determination.json": {
       "admission_status": "legacy-unreviewed",
@@ -6101,13 +6128,16 @@
       "source_locator": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)"
     },
     "https://aiincidentlaw.org/determination/aiel-2026-035-determination.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-filing-status-inference",
       "source": "https://supremecourt.ohio.gov/rod/docs/pdf/11/2026/2026-Ohio-965.pdf",
       "source_citation": "2026-Ohio-965",
-      "source_locator": "State v. Coleman, 2026-Ohio-965, No. 2024-A-0040 (Ohio Ct. App., 11th Dist.)"
+      "source_locator": "State v. Coleman, 2026-Ohio-965, No. 2024-A-0040 (Ohio Ct. App., 11th Dist.)",
+      "source_review_unresolved": [
+        "The calendar reports a scheduled session. An argument, merits disposition, stay or disciplinary outcome was not established."
+      ]
     },
     "https://aiincidentlaw.org/determination/aiel-2026-036-determination.json": {
       "admission_status": "legacy-unreviewed",
@@ -6195,12 +6225,15 @@
       "source_locator": "Lifetime Well LLC v. IBSpot.com Inc., No. 2:25-cv-05135-MAK (E.D. Pa.)"
     },
     "https://aiincidentlaw.org/determination/aiel-2026-047-determination.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-filing-status-inference",
       "source": "https://govinfo.gov/content/pkg/USCOURTS-ksd-2_22-cv-02324/pdf/USCOURTS-ksd-2_22-cv-02324-9.pdf",
-      "source_locator": "Lexos Media IP, LLC v. Overstock.com, Inc., No. 2:22-cv-02324-JAR (D. Kan.)"
+      "source_locator": "Lexos Media IP, LLC v. Overstock.com, Inc., No. 2:22-cv-02324-JAR (D. Kan.)",
+      "source_review_unresolved": [
+        "The order establishes the sanctions imposed. Payment, self-reporting and subsequent proceedings were not verified."
+      ]
     },
     "https://aiincidentlaw.org/determination/aiel-2026-048-determination.json": {
       "admission_status": "legacy-unreviewed",
@@ -6283,12 +6316,15 @@
       "source_locator": "Matter of: CVTEK, LLC, B-423943; B-423943.2 (U.S. Government Accountability Office)"
     },
     "https://aiincidentlaw.org/determination/aiel-2026-058-determination.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-filing-status-inference",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.pawd.314851/gov.uscourts.pawd.314851.71.0.pdf",
-      "source_locator": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)"
+      "source_locator": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)",
+      "source_review_unresolved": [
+        "The order sets the payment obligation. Payment and subsequent proceedings were not verified."
+      ]
     },
     "https://aiincidentlaw.org/determination/aiel-2026-059-determination.json": {
       "admission_status": "legacy-unreviewed",
@@ -6638,13 +6674,16 @@
       "source_locator": "State of Oklahoma ex rel. Oklahoma Bar Association v. Reeves, 2026 OK 37"
     },
     "https://aiincidentlaw.org/party/aiel-2026-022-deployer.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
       "source": "https://supremecourt.ohio.gov/rod/docs/pdf/6/2026/2026-Ohio-1930.pdf",
       "source_citation": "2026-Ohio-1930",
-      "source_locator": "Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930 (No. S-25-035)"
+      "source_locator": "Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930 (No. S-25-035)",
+      "source_review_unresolved": [
+        "The cited decisions establish the rulings. Collection of the award and further proceedings were not verified."
+      ]
     },
     "https://aiincidentlaw.org/party/aiel-2026-023-deployer.json": {
       "admission_status": "legacy-unreviewed",
@@ -6744,13 +6783,16 @@
       "source_locator": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)"
     },
     "https://aiincidentlaw.org/party/aiel-2026-035-deployer.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
       "source": "https://supremecourt.ohio.gov/rod/docs/pdf/11/2026/2026-Ohio-965.pdf",
       "source_citation": "2026-Ohio-965",
-      "source_locator": "State v. Coleman, 2026-Ohio-965, No. 2024-A-0040 (Ohio Ct. App., 11th Dist.)"
+      "source_locator": "State v. Coleman, 2026-Ohio-965, No. 2024-A-0040 (Ohio Ct. App., 11th Dist.)",
+      "source_review_unresolved": [
+        "The calendar reports a scheduled session. An argument, merits disposition, stay or disciplinary outcome was not established."
+      ]
     },
     "https://aiincidentlaw.org/party/aiel-2026-036-deployer.json": {
       "admission_status": "legacy-unreviewed",
@@ -6838,12 +6880,15 @@
       "source_locator": "Lifetime Well LLC v. IBSpot.com Inc., No. 2:25-cv-05135-MAK (E.D. Pa.)"
     },
     "https://aiincidentlaw.org/party/aiel-2026-047-deployer.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
       "source": "https://govinfo.gov/content/pkg/USCOURTS-ksd-2_22-cv-02324/pdf/USCOURTS-ksd-2_22-cv-02324-9.pdf",
-      "source_locator": "Lexos Media IP, LLC v. Overstock.com, Inc., No. 2:22-cv-02324-JAR (D. Kan.)"
+      "source_locator": "Lexos Media IP, LLC v. Overstock.com, Inc., No. 2:22-cv-02324-JAR (D. Kan.)",
+      "source_review_unresolved": [
+        "The order establishes the sanctions imposed. Payment, self-reporting and subsequent proceedings were not verified."
+      ]
     },
     "https://aiincidentlaw.org/party/aiel-2026-048-deployer.json": {
       "admission_status": "legacy-unreviewed",
@@ -6926,12 +6971,15 @@
       "source_locator": "Matter of: CVTEK, LLC, B-423943; B-423943.2 (U.S. Government Accountability Office)"
     },
     "https://aiincidentlaw.org/party/aiel-2026-058-deployer.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.pawd.314851/gov.uscourts.pawd.314851.71.0.pdf",
-      "source_locator": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)"
+      "source_locator": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)",
+      "source_review_unresolved": [
+        "The order sets the payment obligation. Payment and subsequent proceedings were not verified."
+      ]
     },
     "https://aiincidentlaw.org/party/aiel-2026-059-deployer.json": {
       "admission_status": "legacy-unreviewed",
@@ -7301,13 +7349,16 @@
       "source_locator": "State of Oklahoma ex rel. Oklahoma Bar Association v. Reeves, 2026 OK 37"
     },
     "https://aiincidentlaw.org/proceeding/aiel-2026-022-proceeding.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-record-inference",
       "source": "https://supremecourt.ohio.gov/rod/docs/pdf/6/2026/2026-Ohio-1930.pdf",
       "source_citation": "2026-Ohio-1930",
-      "source_locator": "Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930 (No. S-25-035)"
+      "source_locator": "Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930 (No. S-25-035)",
+      "source_review_unresolved": [
+        "The cited decisions establish the rulings. Collection of the award and further proceedings were not verified."
+      ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2026-023-proceeding.json": {
       "admission_status": "legacy-unreviewed",
@@ -7407,13 +7458,16 @@
       "source_locator": "Gentry v. Thompson, No. 2:25-cv-01260-CJB-EJD (E.D. La.)"
     },
     "https://aiincidentlaw.org/proceeding/aiel-2026-035-proceeding.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-record-inference",
       "source": "https://supremecourt.ohio.gov/rod/docs/pdf/11/2026/2026-Ohio-965.pdf",
       "source_citation": "2026-Ohio-965",
-      "source_locator": "State v. Coleman, 2026-Ohio-965, No. 2024-A-0040 (Ohio Ct. App., 11th Dist.)"
+      "source_locator": "State v. Coleman, 2026-Ohio-965, No. 2024-A-0040 (Ohio Ct. App., 11th Dist.)",
+      "source_review_unresolved": [
+        "The calendar reports a scheduled session. An argument, merits disposition, stay or disciplinary outcome was not established."
+      ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2026-036-proceeding.json": {
       "admission_status": "legacy-unreviewed",
@@ -7501,12 +7555,15 @@
       "source_locator": "Lifetime Well LLC v. IBSpot.com Inc., No. 2:25-cv-05135-MAK (E.D. Pa.)"
     },
     "https://aiincidentlaw.org/proceeding/aiel-2026-047-proceeding.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-record-inference",
       "source": "https://govinfo.gov/content/pkg/USCOURTS-ksd-2_22-cv-02324/pdf/USCOURTS-ksd-2_22-cv-02324-9.pdf",
-      "source_locator": "Lexos Media IP, LLC v. Overstock.com, Inc., No. 2:22-cv-02324-JAR (D. Kan.)"
+      "source_locator": "Lexos Media IP, LLC v. Overstock.com, Inc., No. 2:22-cv-02324-JAR (D. Kan.)",
+      "source_review_unresolved": [
+        "The order establishes the sanctions imposed. Payment, self-reporting and subsequent proceedings were not verified."
+      ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2026-048-proceeding.json": {
       "admission_status": "legacy-unreviewed",
@@ -7589,12 +7646,15 @@
       "source_locator": "Matter of: CVTEK, LLC, B-423943; B-423943.2 (U.S. Government Accountability Office)"
     },
     "https://aiincidentlaw.org/proceeding/aiel-2026-058-proceeding.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-record-inference",
       "source": "https://storage.courtlistener.com/recap/gov.uscourts.pawd.314851/gov.uscourts.pawd.314851.71.0.pdf",
-      "source_locator": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)"
+      "source_locator": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)",
+      "source_review_unresolved": [
+        "The order sets the payment obligation. Payment and subsequent proceedings were not verified."
+      ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2026-059-proceeding.json": {
       "admission_status": "legacy-unreviewed",

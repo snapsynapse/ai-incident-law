@@ -40,9 +40,9 @@
   "disposition": "confirmed",
   "remedy": {
     "status": "sanctioned",
-    "notes": "$2,000 fine with $2,000 credit for prior Ashtabula County payment; disciplinary referral; removal; appeal stricken."
+    "notes": "The Eleventh District struck the May 19, 2025 application to reopen, removed counsel, made a disciplinary referral and credited the full $2,000 already paid against its $2,000 fine. The Supreme Court of Ohio accepted review on July 21, 2026 (No. 2026-0547). Its calendar lists the case for the January 27, 2027 oral argument session."
   },
-  "notes": "$2,000 fine with $2,000 credit for prior Ashtabula County payment; disciplinary referral; removal; appeal stricken.",
+  "notes": "The Eleventh District struck the May 19, 2025 application to reopen, removed counsel, made a disciplinary referral and credited the full $2,000 already paid against its $2,000 fine. The Supreme Court of Ohio accepted review on July 21, 2026 (No. 2026-0547). Its calendar lists the case for the January 27, 2027 oral argument session.",
   "source": "https://supremecourt.ohio.gov/rod/docs/pdf/11/2026/2026-Ohio-965.pdf",
   "source_locator": "State v. Coleman, 2026-Ohio-965, No. 2024-A-0040 (Ohio Ct. App., 11th Dist.)",
   "source_citation": "2026-Ohio-965",
@@ -50,7 +50,10 @@
   "verified": "2026-07-24",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "projection_basis": "legacy-filing-status-inference",
-  "admission_status": "legacy-unreviewed",
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "The calendar reports a scheduled session. An argument, merits disposition, stay or disciplinary outcome was not established."
+  ],
   "ai_incident_law_record_id": "AIEL-2026-035",
   "anchors": [
     "https://everyailaw.com/obligation-category/human-oversight.json"

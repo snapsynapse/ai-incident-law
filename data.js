@@ -1029,10 +1029,10 @@ window.AIEL_DATA = {
           "deployer": "Pro se appellant",
           "domain": "legal services",
           "error_type": "hallucinated authority",
-          "error_description": "An Ohio trial court sanctioned pro se litigant Xingkui Guo $100 (2025-08-11) for citing five fabricated/mis-cited cases that the court found \"appear to be the result of AI-generated hallucinations.\" On appeal, Guo admitted the mis-citations resulted from his use of the Chinese AI platform \"Deepseek.\" The Sixth District Court of Appeals affirmed on 2026-05-26 (Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930), rejecting Guo’s motion to set aside the sanction.",
+          "error_description": "The Sandusky County Court of Common Pleas sanctioned Xingkui Guo $100 on August 11, 2025, over citations in his trial-court filings. On appeal, Guo attributed the errors to his use of DeepSeek and limited access to Ohio research tools. On May 26, 2026, the Sixth District affirmed the denial of his motion to set aside the sanction.",
           "canonical_source_conflicted": "Genuine Ohio case law (cases cited did not exist at the given citations)",
           "mitigation_gap": "No verification of AI-generated authorities before filing.",
-          "reliance_or_harm": "Fabricated citations submitted on appeal; $100 monetary sanction imposed.",
+          "reliance_or_harm": "Guo submitted fabricated or miscited authorities to the trial court, which awarded Meade $100 in sanctions.",
           "public_matter_type": "sanctions order",
           "public_matter_name": "Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930 (No. S-25-035)",
           "filing_status": "sanctioned",
@@ -1040,9 +1040,9 @@ window.AIEL_DATA = {
           "filing_date": "2026-05-26",
           "error_date": "2025",
           "public_record_link": "https://supremecourt.ohio.gov/rod/docs/pdf/6/2026/2026-Ohio-1930.pdf",
-          "secondary_source_links": "",
+          "secondary_source_links": "https://supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3554.pdf; https://supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-4408.pdf",
           "confidence_score": "high",
-          "notes_on_resolution": "$100 sanction imposed by Sandusky County Court of Common Pleas 2025-08-11; Sixth District Court of Appeals affirmed denial of Guo’s motion to set aside, 2026-05-26. DeepSeek named by appellant; court found citations were AI-generated hallucinations.",
+          "notes_on_resolution": "The Sixth District affirmed the denial of relief from the $100 sanction on May 26, 2026. The Supreme Court of Ohio declined review on September 15 and denied reconsideration on November 10 (No. 2026-0841).",
           "tags": "hallucinated-citations; pro-se; deepseek; legal-services; monetary-sanction; appellate-affirmance",
           "source_quality": "primary record",
           "research_status": "included",
@@ -1432,9 +1432,9 @@ window.AIEL_DATA = {
           "filing_date": "2026-03-20",
           "error_date": "2026",
           "public_record_link": "https://supremecourt.ohio.gov/rod/docs/pdf/11/2026/2026-Ohio-965.pdf",
-          "secondary_source_links": "",
+          "secondary_source_links": "https://supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-2745.pdf; https://supremecourt.ohio.gov/docs/Clerk/calendar/OArgCalendar.pdf",
           "confidence_score": "high",
-          "notes_on_resolution": "$2,000 fine with $2,000 credit for prior Ashtabula County payment; disciplinary referral; removal; appeal stricken.",
+          "notes_on_resolution": "The Eleventh District struck the May 19, 2025 application to reopen, removed counsel, made a disciplinary referral and credited the full $2,000 already paid against its $2,000 fine. The Supreme Court of Ohio accepted review on July 21, 2026 (No. 2026-0547). Its calendar lists the case for the January 27, 2027 oral argument session.",
           "tags": "hallucinated-citations; attorney-discipline; admitted-ai; chatgpt; criminal-appeal; legal-services",
           "source_quality": "primary record",
           "research_status": "included",
@@ -1747,7 +1747,7 @@ window.AIEL_DATA = {
         },
         {
           "error_id": "AIEL-2026-047",
-          "error_title": "D. Kansas $12,000 sanctions on five attorneys for ChatGPT-fabricated citations (patent case)",
+          "error_title": "D. Kansas admonishes five lawyers and fines four a total of $12,000 over ChatGPT-fabricated citations",
           "ai_system_name": "ChatGPT (named; admitted)",
           "deployer": "Sandeep Seth (drafting attorney); Kenneth P. Kula; Eric W. Joe; David R. Cooper (co-counsel)",
           "domain": "legal services",
@@ -1765,7 +1765,7 @@ window.AIEL_DATA = {
           "public_record_link": "https://govinfo.gov/content/pkg/USCOURTS-ksd-2_22-cv-02324/pdf/USCOURTS-ksd-2_22-cv-02324-9.pdf",
           "secondary_source_links": "https://storage.courtlistener.com/recap/gov.uscourts.ksd.142916/gov.uscourts.ksd.142916.218.0.pdf",
           "confidence_score": "high",
-          "notes_on_resolution": "$12,000 aggregate: Seth $5,000 + pro hac vice revocation; Kula $3,000; Joe $3,000; Cooper $1,000; fifth attorney (Doell) released from sanctions.",
+          "notes_on_resolution": "The court publicly admonished all five attorneys under Rule 11(b). It fined Seth $5,000, Kula and Joe $3,000 each, and Cooper $1,000. It revoked Seth’s pro hac vice admission and released Doell from further sanctions.",
           "tags": "hallucinated-citations; attorney-discipline; admitted-ai; chatgpt; patent; multi-attorney; pro-hac-vice; legal-services",
           "source_quality": "primary record",
           "research_status": "included",
@@ -2077,7 +2077,7 @@ window.AIEL_DATA = {
         },
         {
           "error_id": "AIEL-2026-058",
-          "error_title": "W.D. Pennsylvania fines counsel $5,000 and revokes pro hac vice status for AI-fabricated authorities",
+          "error_title": "W.D. Pennsylvania orders Blackburn to pay $5,000 in attorneys’ fees and revokes his pro hac vice admission over AI-generated citation errors",
           "ai_system_name": "Unnamed generative AI (admitted by counsel)",
           "deployer": "Tyrone Blackburn, counsel for defendant Duane Youngblood",
           "domain": "legal services",
@@ -2085,7 +2085,7 @@ window.AIEL_DATA = {
           "error_description": "Attorney Tyrone Blackburn admitted that his use of generative AI to draft briefs caused inaccurate citations and quotations, including inaccurate quotations from the court's own earlier opinion. The court rejected his explanation that the defects were an innocent mistake caused by technological ignorance, emphasized that he doubled down after opposing counsel identified the errors, and found his conduct sanctionable under Federal Rule of Civil Procedure 11.",
           "canonical_source_conflicted": "Accurate judicial authorities and quotations; Fed. R. Civ. P. 11",
           "mitigation_gap": "Counsel used generative AI to draft briefing without verifying its citations and quotations, then repeated the defective material after the problem was raised.",
-          "reliance_or_harm": "The court imposed a $5,000 fee sanction payable in monthly installments of at least $500, revoked Blackburn's pro hac vice status, and required any future appearance or pro hac vice motion he files in the Western District of Pennsylvania to include the sanctions order.",
+          "reliance_or_harm": "The court ordered Blackburn to pay plaintiff’s counsel $5,000 in attorneys’ fees in monthly installments of at least $500. It revoked his pro hac vice admission and required him to attach the order to future notices of appearance or pro hac vice motions in the Western District of Pennsylvania.",
           "public_matter_type": "sanctions order (Rule 11)",
           "public_matter_name": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)",
           "filing_status": "sanctioned",
@@ -3402,7 +3402,10 @@ window.AIEL_DATA = {
       "admission_status": "legacy-unreviewed"
     },
     "AIEL-2026-022": {
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The cited decisions establish the rulings. Collection of the award and further proceedings were not verified."
+      ]
     },
     "AIEL-2026-023": {
       "admission_status": "legacy-unreviewed"
@@ -3441,7 +3444,10 @@ window.AIEL_DATA = {
       "admission_status": "legacy-unreviewed"
     },
     "AIEL-2026-035": {
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The calendar reports a scheduled session. An argument, merits disposition, stay or disciplinary outcome was not established."
+      ]
     },
     "AIEL-2026-036": {
       "admission_status": "legacy-unreviewed"
@@ -3479,7 +3485,10 @@ window.AIEL_DATA = {
       "admission_status": "legacy-unreviewed"
     },
     "AIEL-2026-047": {
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The order establishes the sanctions imposed. Payment, self-reporting and subsequent proceedings were not verified."
+      ]
     },
     "AIEL-2026-048": {
       "admission_status": "legacy-unreviewed"
@@ -3512,7 +3521,10 @@ window.AIEL_DATA = {
       "admission_status": "legacy-unreviewed"
     },
     "AIEL-2026-058": {
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The order sets the payment obligation. Payment and subsequent proceedings were not verified."
+      ]
     },
     "AIEL-2026-059": {
       "admission_status": "legacy-unreviewed"

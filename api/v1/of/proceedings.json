@@ -1624,7 +1624,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-record-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The cited decisions establish the rulings. Collection of the award and further proceedings were not verified."
+      ],
       "ai_incident_law_record_id": "AIEL-2026-022",
       "matter_type": "sanctions order",
       "filing_status": "sanctioned",
@@ -2486,7 +2489,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-record-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The calendar reports a scheduled session. An argument, merits disposition, stay or disciplinary outcome was not established."
+      ],
       "ai_incident_law_record_id": "AIEL-2026-035",
       "matter_type": "sanctions order (appellate)",
       "filing_status": "sanctioned",
@@ -3218,7 +3224,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-record-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The order establishes the sanctions imposed. Payment, self-reporting and subsequent proceedings were not verified."
+      ],
       "ai_incident_law_record_id": "AIEL-2026-047",
       "matter_type": "sanctions order (Rule 11)",
       "filing_status": "sanctioned"
@@ -3938,7 +3947,10 @@
       "verified": "2026-07-25",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-record-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The order sets the payment obligation. Payment and subsequent proceedings were not verified."
+      ],
       "ai_incident_law_record_id": "AIEL-2026-058",
       "matter_type": "sanctions order (Rule 11)",
       "filing_status": "sanctioned"

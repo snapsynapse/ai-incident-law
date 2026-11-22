@@ -1052,9 +1052,9 @@
       "disposition": "confirmed",
       "remedy": {
         "status": "sanctioned",
-        "notes": "$100 sanction imposed by Sandusky County Court of Common Pleas 2025-08-11; Sixth District Court of Appeals affirmed denial of Guo’s motion to set aside, 2026-05-26. DeepSeek named by appellant; court found citations were AI-generated hallucinations."
+        "notes": "The Sixth District affirmed the denial of relief from the $100 sanction on May 26, 2026. The Supreme Court of Ohio declined review on September 15 and denied reconsideration on November 10 (No. 2026-0841)."
       },
-      "notes": "$100 sanction imposed by Sandusky County Court of Common Pleas 2025-08-11; Sixth District Court of Appeals affirmed denial of Guo’s motion to set aside, 2026-05-26. DeepSeek named by appellant; court found citations were AI-generated hallucinations.",
+      "notes": "The Sixth District affirmed the denial of relief from the $100 sanction on May 26, 2026. The Supreme Court of Ohio declined review on September 15 and denied reconsideration on November 10 (No. 2026-0841).",
       "source": "https://supremecourt.ohio.gov/rod/docs/pdf/6/2026/2026-Ohio-1930.pdf",
       "source_locator": "Guo v. Meade Motorcars, L.L.C., 2026-Ohio-1930 (No. S-25-035)",
       "source_citation": "2026-Ohio-1930",
@@ -1062,7 +1062,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-filing-status-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The cited decisions establish the rulings. Collection of the award and further proceedings were not verified."
+      ],
       "ai_incident_law_record_id": "AIEL-2026-022",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -1797,9 +1800,9 @@
       "disposition": "confirmed",
       "remedy": {
         "status": "sanctioned",
-        "notes": "$2,000 fine with $2,000 credit for prior Ashtabula County payment; disciplinary referral; removal; appeal stricken."
+        "notes": "The Eleventh District struck the May 19, 2025 application to reopen, removed counsel, made a disciplinary referral and credited the full $2,000 already paid against its $2,000 fine. The Supreme Court of Ohio accepted review on July 21, 2026 (No. 2026-0547). Its calendar lists the case for the January 27, 2027 oral argument session."
       },
-      "notes": "$2,000 fine with $2,000 credit for prior Ashtabula County payment; disciplinary referral; removal; appeal stricken.",
+      "notes": "The Eleventh District struck the May 19, 2025 application to reopen, removed counsel, made a disciplinary referral and credited the full $2,000 already paid against its $2,000 fine. The Supreme Court of Ohio accepted review on July 21, 2026 (No. 2026-0547). Its calendar lists the case for the January 27, 2027 oral argument session.",
       "source": "https://supremecourt.ohio.gov/rod/docs/pdf/11/2026/2026-Ohio-965.pdf",
       "source_locator": "State v. Coleman, 2026-Ohio-965, No. 2024-A-0040 (Ohio Ct. App., 11th Dist.)",
       "source_citation": "2026-Ohio-965",
@@ -1807,7 +1810,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-filing-status-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The calendar reports a scheduled session. An argument, merits disposition, stay or disciplinary outcome was not established."
+      ],
       "ai_incident_law_record_id": "AIEL-2026-035",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -2431,16 +2437,19 @@
       "disposition": "confirmed",
       "remedy": {
         "status": "sanctioned",
-        "notes": "$12,000 aggregate: Seth $5,000 + pro hac vice revocation; Kula $3,000; Joe $3,000; Cooper $1,000; fifth attorney (Doell) released from sanctions."
+        "notes": "The court publicly admonished all five attorneys under Rule 11(b). It fined Seth $5,000, Kula and Joe $3,000 each, and Cooper $1,000. It revoked Seth’s pro hac vice admission and released Doell from further sanctions."
       },
-      "notes": "$12,000 aggregate: Seth $5,000 + pro hac vice revocation; Kula $3,000; Joe $3,000; Cooper $1,000; fifth attorney (Doell) released from sanctions.",
+      "notes": "The court publicly admonished all five attorneys under Rule 11(b). It fined Seth $5,000, Kula and Joe $3,000 each, and Cooper $1,000. It revoked Seth’s pro hac vice admission and released Doell from further sanctions.",
       "source": "https://govinfo.gov/content/pkg/USCOURTS-ksd-2_22-cv-02324/pdf/USCOURTS-ksd-2_22-cv-02324-9.pdf",
       "source_locator": "Lexos Media IP, LLC v. Overstock.com, Inc., No. 2:22-cv-02324-JAR (D. Kan.)",
       "evidence_type": "primary record",
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-filing-status-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The order establishes the sanctions imposed. Payment, self-reporting and subsequent proceedings were not verified."
+      ],
       "ai_incident_law_record_id": "AIEL-2026-047",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"
@@ -3064,7 +3073,10 @@
       "verified": "2026-07-25",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "legacy-filing-status-inference",
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The order sets the payment obligation. Payment and subsequent proceedings were not verified."
+      ],
       "ai_incident_law_record_id": "AIEL-2026-058",
       "anchors": [
         "https://everyailaw.com/obligation-category/human-oversight.json"

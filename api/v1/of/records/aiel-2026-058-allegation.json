@@ -34,7 +34,7 @@
   "error_type": "hallucinated authority",
   "canonical_source_conflicted": "Accurate judicial authorities and quotations; Fed. R. Civ. P. 11",
   "mitigation_gap": "Counsel used generative AI to draft briefing without verifying its citations and quotations, then repeated the defective material after the problem was raised.",
-  "reliance_or_harm": "The court imposed a $5,000 fee sanction payable in monthly installments of at least $500, revoked Blackburn's pro hac vice status, and required any future appearance or pro hac vice motion he files in the Western District of Pennsylvania to include the sanctions order.",
+  "reliance_or_harm": "The court ordered Blackburn to pay plaintiff’s counsel $5,000 in attorneys’ fees in monthly installments of at least $500. It revoked his pro hac vice admission and required him to attach the order to future notices of appearance or pro hac vice motions in the Western District of Pennsylvania.",
   "ai_incident_law_record_id": "AIEL-2026-058",
   "source": "https://storage.courtlistener.com/recap/gov.uscourts.pawd.314851/gov.uscourts.pawd.314851.71.0.pdf",
   "source_locator": "Jakes v. Youngblood, No. 2:24-cv-01608-WSS (W.D. Pa.)",
@@ -42,5 +42,8 @@
   "verified": "2026-07-25",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "projection_basis": "native-record-projection",
-  "admission_status": "legacy-unreviewed"
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "The order sets the payment obligation. Payment and subsequent proceedings were not verified."
+  ]
 }

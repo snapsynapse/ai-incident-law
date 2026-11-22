@@ -853,7 +853,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The cited decisions establish the rulings. Collection of the award and further proceedings were not verified."
+      ]
     },
     {
       "@context": [
@@ -1336,7 +1339,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The calendar reports a scheduled session. An argument, merits disposition, stay or disciplinary outcome was not established."
+      ]
     },
     {
       "@context": [
@@ -1748,7 +1754,10 @@
       "verified": "2026-07-24",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The order establishes the sanctions imposed. Payment, self-reporting and subsequent proceedings were not verified."
+      ]
     },
     {
       "@context": [
@@ -2155,7 +2164,10 @@
       "verified": "2026-07-25",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "projection_basis": "native-record-projection",
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The order sets the payment obligation. Payment and subsequent proceedings were not verified."
+      ]
     },
     {
       "@context": [
