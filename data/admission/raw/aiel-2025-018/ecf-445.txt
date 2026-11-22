@@ -1,0 +1,487 @@
+                                  Case 3:23-cv-00770-RFL         Document 445 Filed 11/03/26             Page 1 of 7      PageID #:
+                                                                          <pageID>
+
+
+
+                                   1
+
+                                   2
+
+                                   3
+
+                                   4
+
+                                   5
+
+                                   6
+
+                                   7
+
+                                   8                                    UNITED STATES DISTRICT COURT
+
+                                   9                                   NORTHERN DISTRICT OF CALIFORNIA
+
+                                  10                                          San Francisco Division
+
+                                  11       DEREK L. MOBLEY, et al.,                         Case No. 23-cv-00770-RFL (LB)
+                                  12                     Plaintiffs,                        DISCOVERY ORDER
+
+
+
+ United States District Court
+                                  13              v.                                        Re: ECF No. 442
+
+                                  14       WORKDAY, INC.,
+                                  15                     Defendant.
+
+
+
+Northern District of California
+                                  16
+
+                                  17                                           INTRODUCTION
+
+                                  18        Workday, Inc. moves for a protective order deferring two categories of discovery until
+
+                                  19   November 10, 2026, when its opposition to the plaintiffs’ motion for class certification and its
+
+                                  20   motion to decertify the ADEA collective are due: (1) its response to the plaintiffs’ October 9, 2026
+
+                                  21   letter identifying six categories of allegedly deficient document production, and (2) the deposition
+
+                                  22   of David Dahan, a Workday data scientist who lives in Israel. 1 Workday contends that responding
+
+                                  23   now, during the fifty-seven days it has to oppose certification, is an undue burden and that a short
+
+                                  24   delay will not prejudice the plaintiffs. The plaintiffs respond that (1) the discovery is overdue on
+
+                                  25   requests served months ago, (2) they raised five of the six categories before they moved for class
+
+                                  26
+
+                                  27   1
+                                        Disc. Letter Br. – ECF No. 442 at 3–4, 8. Citations refer to material in the Electronic Case File
+                                       (ECF); pinpoint citations are to the ECF-generated page numbers at the top of documents. The court
+                                  28   can decide the dispute without oral argument. Civil L.R. 7-1(b).
+
+                                       ORDER – No. 23-cv-00770-RFL (LB)
+                                  Case 3:23-cv-00770-RFL           Document 445 Filed 11/03/26             Page 2 of 7       PageID #:
+                                                                            <pageID>
+
+
+
+                                   1   certification, (3) they need the discovery for their own certification briefing, and (3) they have
+
+                                   2   already agreed to take Mr. Dahan’s deposition after November 10. 2
+
+                                   3         The court denies the motion. A party seeking a protective order must show specific prejudice or
+
+                                   4   harm. Workday’s showing is that it is busy: it must oppose certification and move to decertify by
+
+                                   5   November 10 while taking depositions and preparing expert reports. But the discovery at issue is its
+
+                                   6   production for requests served in June 2026 and earlier, including contracts that Workday said in
+
+                                   7   August it would produce, and a meet-and-confer response that the court’s standing order requires.
+
+                                   8   The plaintiffs have similar briefing burdens, and the court has held them to their discovery
+
+                                   9   obligations. The request to defer Mr. Dahan’s deposition is moot because the plaintiffs have agreed
+
+                                  10   not to take it before November 10.
+
+                                  11
+
+                                  12                                                STATEMENT
+
+
+
+ United States District Court
+                                  13         The district judge set the class-certification schedule in July 2026: (1) the plaintiffs’ motion by
+
+                                  14   September 14; (2) Workday’s opposition and its motion to decertify by November 10; (3) the
+
+                                  15   plaintiffs’ reply by December 8 and their opposition to decertification by January 6, 2027; and (4)
+
+
+
+Northern District of California
+                                  16   a hearing on March 9, 2027. 3 The plaintiffs filed their motion on September 14 with declarations
+
+                                  17   from thirty-eight opt-in plaintiffs. 4 Discovery in the case is not bifurcated between certification
+
+                                  18   and the merits. Workday told the plaintiffs on August 27 that it “does not limit itself in any respect
+
+                                  19   as to what motions it may bring or at what time.” 5 During this time period, the court ordered the
+
+                                  20   plaintiffs to produce written discovery from the more than 15,000 opt-in plaintiffs every two
+
+                                  21   weeks through November 30, and to present fifteen of the declarants for deposition between
+
+                                  22   October 15 and 30. 6
+
+                                  23         The plaintiffs served the Hughes and Rowe interrogatories and their Third Set of requests for
+
+                                  24
+
+                                  25   2
+                                           Disc. Letter Br. – ECF No. 442 at 5–6.
+                                       3
+                                  26       Order – ECF No. 395.
+                                       4
+                                           Mot. – ECF No. 418; Decls. – ECF Nos. 419-10 to 419-47.
+                                  27   5
+                                           Wiggins Decl. – ECF No. 443-1 at 6 (¶ 9).
+                                  28   6
+                                           Orders – ECF No. 415, 435.
+
+                                       ORDER – No. 23-cv-00770-RFL (LB)                     2
+                                  Case 3:23-cv-00770-RFL           Document 445 Filed 11/03/26             Page 3 of 7     PageID #:
+                                                                            <pageID>
+
+
+
+                                   1   production on June 12, 2026. Request No. 14 seeks the full contract documents, including service-
+
+                                   2   specific addenda, for every customer on the Customer List that Workday produced under an earlier
+
+                                   3   order. Workday served objections on July 13. On August 4, it served further responses stating that,
+
+                                   4   after giving its customers contractual notice, it “will produce” the master subscription agreements
+
+                                   5   and order forms for the customers on the Customer List. 7 It then produced its principal contract
+
+                                   6   volumes between August 21 and September 18. About two-thirds of the pages Workday has
+
+                                   7   produced in the case were produced after July 31, 2026, and the August 21 volume was the first to
+
+                                   8   include a HiredScore Addendum, the contract document that governs customers’ use of the
+
+                                   9   HiredScore features at issue. 8 The plaintiffs wrote about the contract production and the Addendum
+
+                                  10   on August 21, 28, and 31. Workday answered on September 2 and 7 that its productions were
+
+                                  11   complete and that it would not supplement them. 9
+
+                                  12         On October 9, the plaintiffs sent Workday an eight-page letter identifying six categories of
+
+
+
+ United States District Court
+                                  13   allegedly unproduced documents and information: (1) customer contracts; (2) HiredScore
+
+                                  14   Addenda and related documents; (3) records that Workday described in its answers to the Hughes
+
+                                  15   interrogatories, verified on August 24; (4) data held in HiredScore instances, including
+
+
+
+Northern District of California
+                                  16   preservation of that data; (5) records of Workday’s hiring process, requested by the opt-in
+
+                                  17   plaintiffs in December 2025; and (6) the February 2024 audit. They asked for a written response
+
+                                  18   by October 16 and complete production by October 23. 10 The plaintiffs had raised five of the six
+
+                                  19   categories with Workday before September 14. The sixth (category three) concerns records that
+
+                                  20   Workday first described in the August 24 answers. 11 Workday does not dispute that chronology. It
+
+                                  21   says that the parties conferred about the HiredScore issues in the August 31 and September 7
+
+                                  22   letters and that the plaintiffs then “sat on” its response for a month. 12
+
+                                  23
+
+                                  24   7
+                                           Wiggins Decl. – ECF No. 443-1 at 2–3 (¶¶ 3, 6).
+                                  25   8
+                                           Id. at 4–5 (¶ 7).
+                                       9
+                                  26       Id. at 6–8 (¶¶ 9–13).
+                                       10
+                                            Disc. Letter Br. – ECF No. 442 at 3; Wiggins Decl. – ECF No. 443-1 at 8–9 (¶ 15).
+                                  27   11
+                                            Wiggins Decl. – ECF No. 443-1 at 8–9 (¶ 15).
+                                  28   12
+                                            Disc. Letter Br. – ECF No. 442 at 8.
+
+                                       ORDER – No. 23-cv-00770-RFL (LB)                      3
+                                  Case 3:23-cv-00770-RFL            Document 445 Filed 11/03/26           Page 4 of 7       PageID #:
+                                                                             <pageID>
+
+
+
+                                   1         On October 2, the plaintiffs asked Workday for dates between October 22 and 30 to depose Mr.
+
+                                   2   Dahan, who verified Workday’s interrogatory answers in April, is identified in Workday’s Rule 26
+
+                                   3   disclosures, and filed a declaration in this case in September. On October 9, Workday responded
+
+                                   4   that Mr. Dahan lives in Israel and that any deposition must proceed under the Hague Convention. 13
+
+                                   5         The parties conferred by video on October 16. Workday asked the plaintiffs to defer all
+
+                                   6   discovery unrelated to the certification motion until after November 10. As to the October 9 letter,
+
+                                   7   Workday’s counsel at first declined to discuss it and then took “discrete questions.” She said that
+
+                                   8   Workday had produced a significant number of contracts but that she could not represent that the
+
+                                   9   production was complete or say when it would be. 14 The plaintiffs offered to take Mr. Dahan’s
+
+                                  10   deposition after November 10 and asked for the earliest available date. Workday gave none, and
+
+                                  11   on October 23 it wrote that it would “further discuss whether a deposition of Mr. Dahan is
+
+                                  12   necessary or appropriate (or practical) once Workday’s briefing is complete.” 15 Workday served
+
+
+
+ United States District Court
+                                  13   its letter brief the afternoon of the October 16 call. 16
+
+                                  14         In its reply, Workday narrows its request to the two categories described above. It no longer
+
+                                  15   relies on the plaintiffs’ expert depositions, which are complete, or on the source-code review,
+
+
+
+Northern District of California
+                                  16   which the parties are negotiating. It also states that its document production is “substantially
+
+                                  17   complete.” 17 Nine attorneys have appeared for Workday, five of them on October 19. 18
+
+                                  18         Workday filed the letter brief without the plaintiffs’ supporting declaration and exhibits. The
+
+                                  19   plaintiffs filed the declaration and the non-confidential exhibits the next day and moved to seal six
+
+                                  20   exhibits that Workday designated confidential. 19
+
+                                  21
+
+                                  22
+                                       13
+                                            Wiggins Decl. – ECF No. 443-1 at 9, 11–12 (¶¶ 16, 19).
+                                  23   14
+                                            Id. at 9–10 (¶ 16); Meet-and-Confer Summary, Ex. B – ECF No. 443-3 at 4.
+                                  24   15
+                                            Wiggins Decl. – ECF No. 443-1 at 9–10 (¶ 16).
+                                       16
+                                  25        Id. at 10 (¶ 16); Disc. Letter Br. – ECF No. 442 at 5.
+                                       17
+                                            Disc. Letter Br. – ECF No. 442 at 6, 8.
+                                  26   18
+                                            Wiggins Decl. – ECF No. 443-1 at 12 (¶ 20); Notices – ECF Nos. 437–441.
+                                  27   19
+                                         Disc. Letter Br. – ECF No. 442 at 1, 7; Notice – ECF No. 443; Admin. Mot. – ECF No. 444. The
+                                       court considered the declaration and the exhibits filed at ECF No. 443. It did not need the sealed
+                                  28   exhibits to decide the motion and will address the sealing motion separately when it is briefed.
+
+                                       ORDER – No. 23-cv-00770-RFL (LB)                       4
+                                  Case 3:23-cv-00770-RFL          Document 445 Filed 11/03/26            Page 5 of 7      PageID #:
+                                                                           <pageID>
+
+
+
+                                   1                                                ANALYSIS
+
+                                   2         The court may, for good cause, issue an order to protect a party from undue burden or expense,
+
+                                   3   including by forbidding discovery or by specifying its terms, “including time.” Fed. R. Civ. P.
+
+                                   4   26(c)(1)(A)–(B). The party seeking protection must show that “specific prejudice or harm will
+
+                                   5   result if no protective order is granted.” Phillips ex rel. Estates of Byrd v. Gen. Motors Corp., 307
+
+                                   6   F.3d 1206, 1210–11 (9th Cir. 2002). The court must limit discovery if the burden outweighs its
+
+                                   7   likely benefit. Fed. R. Civ. P. 26(b)(2)(C)(iii). The question is whether Workday has shown that
+
+                                   8   responding to the October 9 letter before November 10 is an undue burden.
+
+                                   9
+
+                                  10   1. Workday Has Not Shown Good Cause to Defer Its Response to the October 9 Letter
+
+                                  11         Workday has not made that showing, for three reasons.
+
+                                  12         First, the burden is modest and is Workday’s regardless of the briefing schedule. The October
+
+
+
+ United States District Court
+                                  13   9 letter is a meet-and-confer letter about requests served in June 2026 and December 2025. The
+
+                                  14   court’s standing order requires the parties to confer before they bring a dispute to the court, and
+
+                                  15   answering the letter is that conferral. Workday answered the plaintiffs’ August 31 letter about the
+
+
+
+Northern District of California
+                                  16   HiredScore Addendum in four pages on September 7, and it can answer the October 9 letter the
+
+                                  17   same way. To the extent the letter asks for customer data that the court has held Workday does not
+
+                                  18   possess, Workday can say so in a sentence, as it did in September. 20 Part of what the letter seeks,
+
+                                  19   moreover, is production that Workday promised on August 4 and that its counsel said on October
+
+                                  20   16 was not complete. A party’s obligation to finish a production it has promised does not pause
+
+                                  21   while the party briefs a motion.
+
+                                  22         Second, the burden Workday identifies is the briefing window, and that burden falls on both
+
+                                  23   sides. The plaintiffs are producing opt-in discovery every two weeks through November 30 and
+
+                                  24   presented fifteen declarants for deposition in the second half of October, all while preparing to
+
+                                  25   answer Workday’s opposition and decertification motion. The court imposed those obligations
+
+                                  26   with the briefing schedule in mind. Workday itself told the plaintiffs in August that discovery is
+
+                                  27
+
+                                  28   20
+                                            See Orders – ECF Nos. 340, 394.
+
+                                       ORDER – No. 23-cv-00770-RFL (LB)                  5
+                                  Case 3:23-cv-00770-RFL         Document 445 Filed 11/03/26              Page 6 of 7       PageID #:
+                                                                          <pageID>
+
+
+
+                                   1   not bifurcated and that it would not limit the motions it brings or when it brings them. It also has
+
+                                   2   nine lawyers of record. The work of answering a letter and completing a promised production
+
+                                   3   during the same window is not an undue burden.
+
+                                   4      Third, the timing is not the plaintiffs’ doing. Workday’s argument that the plaintiffs had three
+
+                                   5   years to take this discovery and waited until after filing their motion describes the age of the case,
+
+                                   6   not the age of the requests. The plaintiffs served the Third Set on June 12, 2026, and raised five of
+
+                                   7   the six categories in letters between August 21 and 31, before the September 14 motion. The sixth
+
+                                   8   (category three) concerns records that Workday first disclosed in interrogatory answers verified
+
+                                   9   August 24. Workday produced two-thirds of its pages after July 31, including the first HiredScore
+
+                                  10   Addendum on August 21 and contracts through September 18. The October 9 letter followed the
+
+                                  11   production, not the motion.
+
+                                  12      Workday’s authorities do not change the result. Committee for Immigrant Rights and In re
+
+
+
+ United States District Court
+                                  13   Hayes stayed discovery pending motions that could have ended the case: a motion to dismiss
+
+                                  14   raising immunity and jurisdiction, and a summary-judgment motion. Comm. for Immigrant Rts. v.
+
+                                  15   County of Sonoma, No. CV 08-4220 PJH, 2009 WL 10692620, at *2–3 (N.D. Cal. Apr. 20, 2009);
+
+
+
+Northern District of California
+                                  16   In re Hayes, No. C10-5116BHS, 2010 WL 11685131, at *4 (W.D. Wash. Aug. 25, 2010), aff’d,
+
+                                  17   465 F. App’x 684 (9th Cir. 2012). A stay in that setting can avoid discovery that may never be
+
+                                  18   needed. Class certification is not dispositive: whatever the district judge decides, the case and its
+
+                                  19   discovery continue. Ellis holds that a party moving for class certification must present its evidence
+
+                                  20   in the opening motion, not on reply. Ellis v. J.P. Morgan Chase & Co., No. 12-cv-03897-YGR,
+
+                                  21   2015 WL 9178076, at *5 (N.D. Cal. Dec. 17, 2015). Whether the plaintiffs may use any of this
+
+                                  22   discovery on reply is for the district judge. Their opposition to decertification is not due until
+
+                                  23   January 6, and nothing in Ellis limits what they may use for that.
+
+                                  24      Also, pragmatically, denying the stay compels nothing. It leaves the parties where the rules
+
+                                  25   and the court’s standing order put them. And under the court’s letter-brief process, an opposition is
+
+                                  26   due five business days after the opening brief and a reply three business days after that, so no
+
+                                  27
+
+                                  28
+
+                                       ORDER – No. 23-cv-00770-RFL (LB)                   6
+                                  Case 3:23-cv-00770-RFL           Document 445 Filed 11/03/26             Page 7 of 7       PageID #:
+                                                                            <pageID>
+
+
+
+                                   1   dispute about the October 9 letter could be briefed, much less decided, before November 10. 21
+
+                                   2   What Workday would give up by the denial is the time to answer a letter and, at most, to write a
+
+                                   3   two-page opposition. That is not the specific prejudice that Rule 26(c) requires.
+
+                                   4
+
+                                   5   2. The Request to Defer the Dahan Deposition Is Moot
+
+                                   6         Workday asked the court to defer Mr. Dahan’s deposition until it files its briefs on November
+
+                                   7   10. On October 16, the plaintiffs agreed not to take the deposition before then. The plaintiffs’
+
+                                   8   concession gives Workday the relief it sought, and the request is moot.
+
+                                   9         The parties disagree about more than timing: Workday says that Mr. Dahan can be deposed
+
+                                  10   only under the Hague Convention and has not committed to produce him after November 10, and
+
+                                  11   the plaintiffs say that he is a managing agent whom Workday must produce. Neither side has
+
+                                  12   asked the court to decide that dispute, and the court does not decide it. If it ripens after the parties
+
+
+
+ United States District Court
+                                  13   confer, it can be raised through the standing order’s letter-brief process.
+
+                                  14
+
+                                  15                                              CONCLUSION
+
+
+
+Northern District of California
+                                  16         The court denies Workday’s motion for a protective order (ECF No. 442). The request to defer
+
+                                  17   Mr. Dahan’s deposition is denied as moot.
+
+                                  18         This resolves ECF No. 442.
+
+                                  19         IT IS SO ORDERED.
+
+                                  20         Dated: October 31, 2026
+
+                                  21                                                      ______________________________________
+                                                                                          LAUREL BEELER
+                                  22                                                      United States Magistrate Judge
+                                  23
+
+                                  24
+
+                                  25
+
+                                  26
+
+                                  27
+
+                                  28   21
+                                            Order – ECF No. 335.
+
+                                       ORDER – No. 23-cv-00770-RFL (LB)                    7
+

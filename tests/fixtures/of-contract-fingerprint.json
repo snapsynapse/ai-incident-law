@@ -3477,9 +3477,9 @@
         "present": 72
       },
       "source_review_unresolved": {
-        "missing": 58,
-        "populated": 14,
-        "present": 14
+        "missing": 57,
+        "populated": 15,
+        "present": 15
       },
       "text": {
         "missing": 0,
@@ -3779,9 +3779,9 @@
         "present": 72
       },
       "source_review_unresolved": {
-        "missing": 58,
-        "populated": 14,
-        "present": 14
+        "missing": 57,
+        "populated": 15,
+        "present": 15
       },
       "verified": {
         "missing": 5,
@@ -3917,9 +3917,9 @@
         "present": 74
       },
       "source_review_unresolved": {
-        "missing": 59,
-        "populated": 15,
-        "present": 15
+        "missing": 58,
+        "populated": 16,
+        "present": 16
       },
       "territorial_scope": {
         "missing": 3,
@@ -4661,13 +4661,16 @@
       ]
     },
     "https://aiincidentlaw.org/allegation/aiel-2025-018-allegation.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "canonical_source_conflicted": "ADEA, Title VII, ADA, FEHA, and employer-specific applicant records",
       "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
       "source": "https://govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-00770/pdf/USCOURTS-cand-3_23-cv-00770-1.pdf",
-      "source_locator": "Mobley v. Workday, Inc., No. 3:23-cv-00770"
+      "source_locator": "Mobley v. Workday, Inc., No. 3:23-cv-00770",
+      "source_review_unresolved": [
+        "The scope of the matter remains broader than a single error event. Later docket activity, class certification and liability require separate source review."
+      ]
     },
     "https://aiincidentlaw.org/allegation/aiel-2026-005-allegation.json": {
       "admission_status": "legacy-unreviewed",
@@ -6615,12 +6618,15 @@
       ]
     },
     "https://aiincidentlaw.org/party/aiel-2025-018-deployer.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "native-record-projection",
       "source": "https://govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-00770/pdf/USCOURTS-cand-3_23-cv-00770-1.pdf",
-      "source_locator": "Mobley v. Workday, Inc., No. 3:23-cv-00770"
+      "source_locator": "Mobley v. Workday, Inc., No. 3:23-cv-00770",
+      "source_review_unresolved": [
+        "The scope of the matter remains broader than a single error event. Later docket activity, class certification and liability require separate source review."
+      ]
     },
     "https://aiincidentlaw.org/party/aiel-2026-005-deployer.json": {
       "admission_status": "legacy-unreviewed",
@@ -7281,12 +7287,15 @@
       ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2025-018-proceeding.json": {
-      "admission_status": "legacy-unreviewed",
+      "admission_status": "source-consistency-reviewed-changes",
       "asserted_by_adopter": "https://aiincidentlaw.org/",
       "evidence_type": "primary record",
       "projection_basis": "legacy-record-inference",
       "source": "https://govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-00770/pdf/USCOURTS-cand-3_23-cv-00770-1.pdf",
-      "source_locator": "Mobley v. Workday, Inc., No. 3:23-cv-00770"
+      "source_locator": "Mobley v. Workday, Inc., No. 3:23-cv-00770",
+      "source_review_unresolved": [
+        "The scope of the matter remains broader than a single error event. Later docket activity, class certification and liability require separate source review."
+      ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2026-005-proceeding.json": {
       "admission_status": "legacy-unreviewed",

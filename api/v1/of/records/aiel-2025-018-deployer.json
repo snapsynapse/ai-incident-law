@@ -33,5 +33,8 @@
   "verified": "2026-04-22",
   "asserted_by_adopter": "https://aiincidentlaw.org/",
   "projection_basis": "native-record-projection",
-  "admission_status": "legacy-unreviewed"
+  "admission_status": "source-consistency-reviewed-changes",
+  "source_review_unresolved": [
+    "The scope of the matter remains broader than a single error event. Later docket activity, class certification and liability require separate source review."
+  ]
 }

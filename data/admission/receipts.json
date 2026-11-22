@@ -4665,6 +4665,79 @@
         "reviewed_at": "2026-11-22T01:11:14.778Z",
         "packet_sha256": "7211a0b8419dcc9b0999ae61410ba39e65e8d56baf82f4d13f3680be01036dc6"
       }
+    },
+    "included/AIEL-2025-018": {
+      "baseline_sha256": "d472a3b76b2275a1b6f43df3fec386b83e0c8aba9e8ddd773e9e3f80ded7a84d",
+      "record_sha256": "c8ad4539b377c281cd3894f8ee21c9c36199f5a3429ee5de90b8f29d97866ec4",
+      "evidence": {
+        "ecf-445": {
+          "path": "data/admission/raw/aiel-2025-018/ecf-445.txt",
+          "official_url": "https://govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-00770/pdf/USCOURTS-cand-3_23-cv-00770-25.pdf",
+          "sha256": "7cb010dac3c8f54e2fbe797e07ad568001c1109a6cfa32d9d6046616cd254b31",
+          "document_id": "3:23-cv-00770-RFL, ECF No. 445",
+          "document_title": "Discovery Order, Re: ECF No. 442",
+          "document_type": "order",
+          "issuing_body": "U.S. District Court for the Northern District of California",
+          "version": "Filed November 3, 2026",
+          "locator": "Page 1 identifies the requested relief. Page 7 gives the disposition of the motion and deposition request.",
+          "excerpt": "The court denies Workday’s motion for a protective order (ECF No. 442).",
+          "identity_excerpts": [
+            "Document 445 Filed 11/03/26",
+            "DEREK L. MOBLEY",
+            "WORKDAY, INC."
+          ],
+          "acquisition": "primary_retrieval",
+          "retrieval": {
+            "http_status": 200,
+            "retrieved_at": "2026-11-22T01:18:50.414Z",
+            "final_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-00770/pdf/USCOURTS-cand-3_23-cv-00770-25.pdf",
+            "content_type": "application/pdf",
+            "original_path": "data/admission/raw/aiel-2025-018/ecf-445.pdf",
+            "original_sha256": "b4e176ffb063d8be4a21e3c635f31679dfc6228a6c22a21e24ad15d8a0043941"
+          }
+        }
+      },
+      "units": {
+        "field:secondary_source_links": {
+          "before_sha256": "9d4879c6c60f4d9349c6419a402d79c05b088f6e2d155ea235a2a1be11640e68",
+          "after_sha256": "549a251e589017fb80c4d6573a3210f74452050f38891e6b11477c24a6fe67a2",
+          "candidate_content": "https://clearinghouse.net/case/44074/; https://fisherphillips.com/en/insights/insights/discrimination-lawsuit-over-workdays-ai-hiring-tools-can-proceed-as-class-action-6-things; https://govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-00770/pdf/USCOURTS-cand-3_23-cv-00770-25.pdf",
+          "reason": "Append the official GovInfo ruling to the matter’s existing references.",
+          "qualifications": {
+            "scope": "Add the dated discovery ruling and its official text to the existing matter.",
+            "exceptions": "This discovery order does not decide liability, AI attribution or class certification.",
+            "time": "Filed November 3, 2026. Later orders are outside the scope of this receipt."
+          },
+          "evidence": [
+            "ecf-445"
+          ]
+        },
+        "field:notes_on_resolution": {
+          "before_sha256": "cf58ead51d33f0487f48184992fc3610fd83e83060058140f1112ee2357c4a45",
+          "after_sha256": "85f05f85708d0eb1962a949ae95d4f2605253ef0973389d5849b23f6cf72683f",
+          "candidate_content": "Included with review flag because the public case is broader than a single bounded error event. In a discovery order filed November 3, 2026 (ECF 445), the court denied Workday’s motion for a protective order to defer discovery. It denied the request to postpone a deposition as moot. The order does not decide class certification or liability.",
+          "reason": "Describe the procedural relief decided in ECF 445 and preserve the existing review qualification.",
+          "qualifications": {
+            "scope": "Add the dated discovery ruling and its official text to the existing matter.",
+            "exceptions": "This discovery order does not decide liability, AI attribution or class certification.",
+            "time": "Filed November 3, 2026. Later orders are outside the scope of this receipt."
+          },
+          "evidence": [
+            "ecf-445"
+          ]
+        }
+      },
+      "unresolved": [
+        "The scope of the matter remains broader than a single error event. Later docket activity, class certification and liability require separate source review."
+      ],
+      "review": {
+        "actor": "Codex",
+        "actor_type": "agent",
+        "decision": "source-consistency-reviewed-changes",
+        "scope": "Add the dated discovery ruling and its official text to the existing matter.",
+        "reviewed_at": "2026-11-22T01:19:21.897Z",
+        "packet_sha256": "e7593b6f4718083501c6759eb2ae0171c6bd1f787d4dcdb7723e035254d0b371"
+      }
     }
   }
 }

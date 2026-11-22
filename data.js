@@ -905,9 +905,9 @@ window.AIEL_DATA = {
           "filing_date": "2023-02-21",
           "error_date": "2018-2023",
           "public_record_link": "https://govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-00770/pdf/USCOURTS-cand-3_23-cv-00770-1.pdf",
-          "secondary_source_links": "https://clearinghouse.net/case/44074/; https://fisherphillips.com/en/insights/insights/discrimination-lawsuit-over-workdays-ai-hiring-tools-can-proceed-as-class-action-6-things",
+          "secondary_source_links": "https://clearinghouse.net/case/44074/; https://fisherphillips.com/en/insights/insights/discrimination-lawsuit-over-workdays-ai-hiring-tools-can-proceed-as-class-action-6-things; https://govinfo.gov/content/pkg/USCOURTS-cand-3_23-cv-00770/pdf/USCOURTS-cand-3_23-cv-00770-25.pdf",
           "confidence_score": "medium",
-          "notes_on_resolution": "Included with review flag because the public case is broader than a single bounded error event.",
+          "notes_on_resolution": "Included with review flag because the public case is broader than a single bounded error event. In a discovery order filed November 3, 2026 (ECF 445), the court denied Workday’s motion for a protective order to defer discovery. It denied the request to postpone a deposition as moot. The order does not decide class certification or liability.",
           "tags": "internal-use-but-public-consequence; employment; discrimination-claim; decision-support; needs-event-splitting",
           "source_quality": "primary record",
           "research_status": "included",
@@ -3389,7 +3389,10 @@ window.AIEL_DATA = {
       ]
     },
     "AIEL-2025-018": {
-      "admission_status": "legacy-unreviewed"
+      "admission_status": "source-consistency-reviewed-changes",
+      "source_review_unresolved": [
+        "The scope of the matter remains broader than a single error event. Later docket activity, class certification and liability require separate source review."
+      ]
     },
     "AIEL-2026-019": {
       "admission_status": "legacy-unreviewed"
