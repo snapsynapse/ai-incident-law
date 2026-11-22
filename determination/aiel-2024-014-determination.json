@@ -40,9 +40,9 @@
   "disposition": "settled",
   "remedy": {
     "status": "settled",
-    "notes": "Settlement included $300,000 and Detroit Police Department facial-recognition reforms."
+    "notes": "On June 28, 2024, the district court dismissed all claims with prejudice by stipulation and retained jurisdiction for four years to enforce the settlement (ECF 73). The agreement requires Detroit police to implement the revised facial-recognition directive. It puts damages, fees and costs in a separately redacted release."
   },
-  "notes": "Settlement included $300,000 and Detroit Police Department facial-recognition reforms.",
+  "notes": "On June 28, 2024, the district court dismissed all claims with prejudice by stipulation and retained jurisdiction for four years to enforce the settlement (ECF 73). The agreement requires Detroit police to implement the revised facial-recognition directive. It puts damages, fees and costs in a separately redacted release.",
   "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
   "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827",
   "evidence_type": "party case page",
@@ -51,10 +51,7 @@
   "projection_basis": "legacy-filing-status-inference",
   "admission_status": "source-consistency-reviewed-changes",
   "source_review_unresolved": [
-    "The linked ACLU case page is counsel’s account for its represented client, not the court’s adjudicative opinion or the separately linked settlement agreement.",
-    "This role-only review does not newly verify the $300,000 figure, precise settlement terms, entered dismissal, merits findings or current docket status. Existing substantive and outcome units remain unchanged legacy debt.",
-    "The page’s settlement announcement and document list are primary for counsel’s own publication. The linked agreement and court documents were not retrieved or accepted by this role correction.",
-    "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+    "The ACLU case page describes its client’s settlement. The reported $300,000 amount requires separate evidence from the redacted monetary release. Later enforcement and implementation have not been verified."
   ],
   "ai_incident_law_record_id": "AIEL-2024-014",
   "anchors": [

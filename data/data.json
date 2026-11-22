@@ -442,9 +442,9 @@
           "filing_date": "2022-05",
           "error_date": "2022",
           "public_record_link": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
-          "secondary_source_links": "https://justice.gov/archives/opa/pr/justice-department-files-statement-interest-fair-housing-act-case-alleging-unlawful-algorithm; https://cohenmilstein.com/rental-applicants-reach-2-28m-settlement-agreement-for-discriminatory-ai-powered-screening-tool/",
+          "secondary_source_links": "https://justice.gov/archives/opa/pr/justice-department-files-statement-interest-fair-housing-act-case-alleging-unlawful-algorithm; https://cohenmilstein.com/rental-applicants-reach-2-28m-settlement-agreement-for-discriminatory-ai-powered-screening-tool/; https://cohenmilstein.com/wp-content/uploads/2022/05/SafeRent-Final-Approval-Order-11-20-2024.pdf",
           "confidence_score": "high",
-          "notes_on_resolution": "Settlement announced in 2024; algorithmic tenant screening treated as subject to fair-housing law.",
+          "notes_on_resolution": "On November 20, 2024, the District of Massachusetts approved the class settlement and dismissed the claims against SafeRent with prejudice (ECF 135). The order limits certification to settlement purposes and precludes using the settlement as an admission of wrongdoing.",
           "obligation_first_anchors": [
             "https://everyailaw.com/obligation-category/bias-prevention.json"
           ],
@@ -480,7 +480,8 @@
                 "issued_by": [
                   "u-s-district-court-district-of-massachusetts"
                 ],
-                "disposition": "settled"
+                "disposition": "settled",
+                "issued_date": "2024-11-20"
               }
             ],
             "retired_identifiers": [
@@ -702,9 +703,9 @@
           "filing_date": "2021-04",
           "error_date": "2020-01",
           "public_record_link": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
-          "secondary_source_links": "https://freep.com/story/news/local/michigan/detroit/2024/06/28/man-wrongfully-arrested-with-facial-recognition-tech-settles-lawsuit/74243839007/; https://aclumich.org/cases/facial-recognition/",
+          "secondary_source_links": "https://freep.com/story/news/local/michigan/detroit/2024/06/28/man-wrongfully-arrested-with-facial-recognition-tech-settles-lawsuit/74243839007/; https://aclumich.org/cases/facial-recognition/; https://assets.aclu.org/live/uploads/2024/06/Final-Order-of-Dismissal-and-Settlement-Agreement.pdf",
           "confidence_score": "high",
-          "notes_on_resolution": "Settlement included $300,000 and Detroit Police Department facial-recognition reforms.",
+          "notes_on_resolution": "On June 28, 2024, the district court dismissed all claims with prejudice by stipulation and retained jurisdiction for four years to enforce the settlement (ECF 73). The agreement requires Detroit police to implement the revised facial-recognition directive. It puts damages, fees and costs in a separately redacted release.",
           "tags": "facial-recognition; false-match; wrongful-arrest; civil-rights; public-record-confirmed",
           "source_quality": "party case page",
           "research_status": "included",

@@ -3646,9 +3646,9 @@
         "present": 68
       },
       "issued_date": {
-        "missing": 57,
-        "populated": 11,
-        "present": 11
+        "missing": 56,
+        "populated": 12,
+        "present": 12
       },
       "issuedBy": {
         "missing": 0,
@@ -4119,13 +4119,13 @@
     },
     "https://aiincidentlaw.org/determination/aiel-2024-010-determination.json": {
       "remedy": {
-        "notes": "Settlement announced in 2024; algorithmic tenant screening treated as subject to fair-housing law.",
+        "notes": "On November 20, 2024, the District of Massachusetts approved the class settlement and dismissed the claims against SafeRent with prejudice (ECF 135). The order limits certification to settlement purposes and precludes using the settlement as an admission of wrongdoing.",
         "status": "settled"
       }
     },
     "https://aiincidentlaw.org/determination/aiel-2024-014-determination.json": {
       "remedy": {
-        "notes": "Settlement included $300,000 and Detroit Police Department facial-recognition reforms.",
+        "notes": "On June 28, 2024, the district court dismissed all claims with prejudice by stipulation and retained jurisdiction for four years to enforce the settlement (ECF 73). The agreement requires Detroit police to implement the revised facial-recognition directive. It puts damages, fees and costs in a separately redacted release.",
         "status": "settled"
       }
     },
@@ -4571,10 +4571,7 @@
       "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
       "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al.",
       "source_review_unresolved": [
-        "The linked DOJ case page is an agency account, primary for its own statements; the separately linked Statement of Interest and court order were not reviewed as original documents in this role-only correction.",
-        "The page reports July 26, 2023 denial of dismissal motions and is marked updated August 17, 2023. It does not establish the later final settlement approval or current docket status.",
-        "The retained April 30, 2024 counsel-hosted settlement article describes approval pending. Existing settled status, relief and legal/outcome statements remain unchanged legacy units and are not newly accepted by this receipt.",
-        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+        "The DOJ case page documents the government’s participation. Later enforcement, payment completion and contested FHA liability have not been verified."
       ]
     },
     "https://aiincidentlaw.org/allegation/aiel-2024-014-allegation.json": {
@@ -4586,10 +4583,7 @@
       "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
       "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827",
       "source_review_unresolved": [
-        "The linked ACLU case page is counsel’s account for its represented client, not the court’s adjudicative opinion or the separately linked settlement agreement.",
-        "This role-only review does not newly verify the $300,000 figure, precise settlement terms, entered dismissal, merits findings or current docket status. Existing substantive and outcome units remain unchanged legacy debt.",
-        "The page’s settlement announcement and document list are primary for counsel’s own publication. The linked agreement and court documents were not retrieved or accepted by this role correction.",
-        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+        "The ACLU case page describes its client’s settlement. The reported $300,000 amount requires separate evidence from the redacted monetary release. Later enforcement and implementation have not been verified."
       ]
     },
     "https://aiincidentlaw.org/allegation/aiel-2024-015-allegation.json": {
@@ -5545,10 +5539,7 @@
       "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
       "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al.",
       "source_review_unresolved": [
-        "The linked DOJ case page is an agency account, primary for its own statements; the separately linked Statement of Interest and court order were not reviewed as original documents in this role-only correction.",
-        "The page reports July 26, 2023 denial of dismissal motions and is marked updated August 17, 2023. It does not establish the later final settlement approval or current docket status.",
-        "The retained April 30, 2024 counsel-hosted settlement article describes approval pending. Existing settled status, relief and legal/outcome statements remain unchanged legacy units and are not newly accepted by this receipt.",
-        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+        "The DOJ case page documents the government’s participation. Later enforcement, payment completion and contested FHA liability have not been verified."
       ]
     },
     "https://aiincidentlaw.org/authority/u-s-district-court-district-of-massachusetts.json": {
@@ -5559,10 +5550,7 @@
       "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
       "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al.",
       "source_review_unresolved": [
-        "The linked DOJ case page is an agency account, primary for its own statements; the separately linked Statement of Interest and court order were not reviewed as original documents in this role-only correction.",
-        "The page reports July 26, 2023 denial of dismissal motions and is marked updated August 17, 2023. It does not establish the later final settlement approval or current docket status.",
-        "The retained April 30, 2024 counsel-hosted settlement article describes approval pending. Existing settled status, relief and legal/outcome statements remain unchanged legacy units and are not newly accepted by this receipt.",
-        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+        "The DOJ case page documents the government’s participation. Later enforcement, payment completion and contested FHA liability have not been verified."
       ]
     },
     "https://aiincidentlaw.org/authority/u-s-district-court-district-of-new-jersey.json": {
@@ -5623,10 +5611,7 @@
       "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
       "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827",
       "source_review_unresolved": [
-        "The linked ACLU case page is counsel’s account for its represented client, not the court’s adjudicative opinion or the separately linked settlement agreement.",
-        "This role-only review does not newly verify the $300,000 figure, precise settlement terms, entered dismissal, merits findings or current docket status. Existing substantive and outcome units remain unchanged legacy debt.",
-        "The page’s settlement announcement and document list are primary for counsel’s own publication. The linked agreement and court documents were not retrieved or accepted by this role correction.",
-        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+        "The ACLU case page describes its client’s settlement. The reported $300,000 amount requires separate evidence from the redacted monetary release. Later enforcement and implementation have not been verified."
       ]
     },
     "https://aiincidentlaw.org/authority/u-s-district-court-eastern-district-of-new-york.json": {
@@ -5909,10 +5894,7 @@
       "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
       "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al.",
       "source_review_unresolved": [
-        "The linked DOJ case page is an agency account, primary for its own statements; the separately linked Statement of Interest and court order were not reviewed as original documents in this role-only correction.",
-        "The page reports July 26, 2023 denial of dismissal motions and is marked updated August 17, 2023. It does not establish the later final settlement approval or current docket status.",
-        "The retained April 30, 2024 counsel-hosted settlement article describes approval pending. Existing settled status, relief and legal/outcome statements remain unchanged legacy units and are not newly accepted by this receipt.",
-        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+        "The DOJ case page documents the government’s participation. Later enforcement, payment completion and contested FHA liability have not been verified."
       ]
     },
     "https://aiincidentlaw.org/determination/aiel-2024-014-determination.json": {
@@ -5923,10 +5905,7 @@
       "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
       "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827",
       "source_review_unresolved": [
-        "The linked ACLU case page is counsel’s account for its represented client, not the court’s adjudicative opinion or the separately linked settlement agreement.",
-        "This role-only review does not newly verify the $300,000 figure, precise settlement terms, entered dismissal, merits findings or current docket status. Existing substantive and outcome units remain unchanged legacy debt.",
-        "The page’s settlement announcement and document list are primary for counsel’s own publication. The linked agreement and court documents were not retrieved or accepted by this role correction.",
-        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+        "The ACLU case page describes its client’s settlement. The reported $300,000 amount requires separate evidence from the redacted monetary release. Later enforcement and implementation have not been verified."
       ]
     },
     "https://aiincidentlaw.org/determination/aiel-2024-015-determination.json": {
@@ -6535,10 +6514,7 @@
       "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
       "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al.",
       "source_review_unresolved": [
-        "The linked DOJ case page is an agency account, primary for its own statements; the separately linked Statement of Interest and court order were not reviewed as original documents in this role-only correction.",
-        "The page reports July 26, 2023 denial of dismissal motions and is marked updated August 17, 2023. It does not establish the later final settlement approval or current docket status.",
-        "The retained April 30, 2024 counsel-hosted settlement article describes approval pending. Existing settled status, relief and legal/outcome statements remain unchanged legacy units and are not newly accepted by this receipt.",
-        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+        "The DOJ case page documents the government’s participation. Later enforcement, payment completion and contested FHA liability have not been verified."
       ]
     },
     "https://aiincidentlaw.org/party/aiel-2024-014-deployer.json": {
@@ -6549,10 +6525,7 @@
       "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
       "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827",
       "source_review_unresolved": [
-        "The linked ACLU case page is counsel’s account for its represented client, not the court’s adjudicative opinion or the separately linked settlement agreement.",
-        "This role-only review does not newly verify the $300,000 figure, precise settlement terms, entered dismissal, merits findings or current docket status. Existing substantive and outcome units remain unchanged legacy debt.",
-        "The page’s settlement announcement and document list are primary for counsel’s own publication. The linked agreement and court documents were not retrieved or accepted by this role correction.",
-        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+        "The ACLU case page describes its client’s settlement. The reported $300,000 amount requires separate evidence from the redacted monetary release. Later enforcement and implementation have not been verified."
       ]
     },
     "https://aiincidentlaw.org/party/aiel-2024-015-deployer.json": {
@@ -7192,10 +7165,7 @@
       "source": "https://justice.gov/crt/case/louis-et-al-v-saferent-et-al-d-mass",
       "source_locator": "Louis et al. v. SafeRent Solutions, LLC et al.",
       "source_review_unresolved": [
-        "The linked DOJ case page is an agency account, primary for its own statements; the separately linked Statement of Interest and court order were not reviewed as original documents in this role-only correction.",
-        "The page reports July 26, 2023 denial of dismissal motions and is marked updated August 17, 2023. It does not establish the later final settlement approval or current docket status.",
-        "The retained April 30, 2024 counsel-hosted settlement article describes approval pending. Existing settled status, relief and legal/outcome statements remain unchanged legacy units and are not newly accepted by this receipt.",
-        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+        "The DOJ case page documents the government’s participation. Later enforcement, payment completion and contested FHA liability have not been verified."
       ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2024-014-proceeding.json": {
@@ -7206,10 +7176,7 @@
       "source": "https://aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest",
       "source_locator": "Williams v. City of Detroit, No. 2:21-cv-10827",
       "source_review_unresolved": [
-        "The linked ACLU case page is counsel’s account for its represented client, not the court’s adjudicative opinion or the separately linked settlement agreement.",
-        "This role-only review does not newly verify the $300,000 figure, precise settlement terms, entered dismissal, merits findings or current docket status. Existing substantive and outcome units remain unchanged legacy debt.",
-        "The page’s settlement announcement and document list are primary for counsel’s own publication. The linked agreement and court documents were not retrieved or accepted by this role correction.",
-        "Agent source-consistency review covers source_quality only, not human source acceptance, admission reconsideration or Verified/Checked renewal."
+        "The ACLU case page describes its client’s settlement. The reported $300,000 amount requires separate evidence from the redacted monetary release. Later enforcement and implementation have not been verified."
       ]
     },
     "https://aiincidentlaw.org/proceeding/aiel-2024-015-proceeding.json": {
