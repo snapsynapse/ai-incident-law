@@ -22,10 +22,9 @@ An exact source URL already in any corpus bucket becomes an existing-matter revi
 ## Run and evidence contract
 `npm run observe:matters -- --live` explicitly starts one full bounded pilot, not due-only scheduling. It requires exactly five distinct matters and two streams, at most seven top-level fetch attempts, and zero paid provider calls. An unsupported media mirror consumes no fetch. Each fetch permits at most three redirects on the same normalized host; timeout and size bounds are in `scripts/lib/matter-monitor/fetch.js`. PDF extraction requires local `pdftotext` and original PDF bytes; HTML shells at PDF URLs remain unqualified.
 
-A changed active set fails preflight so a new scope must be reviewed. For a deliberate new run:
+A changed active set fails preflight so a new scope must be reviewed. For a deliberate new run, from the repository root:
 Literal
 ```
-cd /Users/snap/Git/ai-incident-law
 npm run observe:matters -- --live
 ```
 This makes public-source requests and writes local evidence and the maintenance ledger. Exit codes: 0 healthy, 1 review required, 2 degraded or failed. No scheduled workflow invokes the collector. No email or issue delivery is implemented here.

@@ -112,7 +112,7 @@ Literal
 node scripts/staleness-report.mjs --json
 ```
 
-Shared federation after coordinated changes, from `/Users/snap/Git/obligation-first`:
+Shared federation after coordinated changes, from the root of a sibling `obligation-first` checkout:
 
 Literal
 ```bash

@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - README and `docs/data-schema.md` links now use repository-relative paths. They pointed at
   an absolute local checkout path, so they were broken on GitHub.
+- Command instructions in `ops/CROSS-REPO-MITIGATION-2026-09-14.md` and
+  `ops/MATTER-MONITOR-PILOT.md` name the checkout root instead of an absolute local path.
 
 ## [0.4.4] - 2026-11-19
 
