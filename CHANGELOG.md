@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.5] - 2026-11-24
+
 ### Added
 - Reviewed npm publish workflow (`.github/workflows/publish-npm-reviewed.yml`) using npm
   OIDC trusted publishing, bound to the protected `npm-publish` environment. A rerun against
@@ -32,6 +34,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     AIEL-2026-049, corrected from filed court records and conference results.
 - Documentation pass for the frozen state: corrected admission counts, version references,
   freeze wording across README, llms.txt, agents.json, MCP descriptions and site pages.
+- Assistant guide 0.1.4 states the freeze and that record age is not source verification;
+  both packaged copies and manifests are rebound. Its human review date is unchanged.
+- MCP server instructions, the `get_staleness_report` description, `server.json` and
+  `.well-known/mcp.json` state the frozen snapshot. `parties.json` is listed as a static
+  endpoint.
 
 ### Fixed
 - README and `docs/data-schema.md` links now use repository-relative paths. They pointed at
@@ -303,7 +310,8 @@ Obligation-First v0.6 adopter, source-rigor, and drift-prevention release. This 
 - URL-policy regression coverage for normalization, bypass attempts, malformed schemes, credentials, encoded and raw control characters, and representative existing corpus URLs.
 - No-dependency URL-policy pipeline eval that runs malformed-source fixtures through the real build and validation scripts in temporary directories.
 
-[Unreleased]: https://github.com/snapsynapse/ai-incident-law/compare/v0.4.4...HEAD
+[Unreleased]: https://github.com/snapsynapse/ai-incident-law/compare/v0.4.5...HEAD
+[0.4.5]: https://github.com/snapsynapse/ai-incident-law/compare/v0.4.4...v0.4.5
 [0.4.4]: https://github.com/snapsynapse/ai-incident-law/compare/v0.4.3...v0.4.4
 [0.4.3]: https://github.com/snapsynapse/ai-incident-law/compare/v0.4.2...v0.4.3
 [0.4.2]: https://github.com/snapsynapse/ai-incident-law/compare/v0.4.1...v0.4.2

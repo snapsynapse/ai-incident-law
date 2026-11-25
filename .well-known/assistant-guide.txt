@@ -4,7 +4,7 @@ Assistant Guide: AI Incident Law maintainer and query workflow
 identifier: assistant-guide
 profile: human-verifiable-assistant-guide
 profile-version: 0.6.0
-guide-version: 0.1.3
+guide-version: 0.1.4
 applies-to: ai-incident-law 0.4.x
 canonical-url: https://aiincidentlaw.org/.well-known/assistant-guide.txt
 repository-url: https://github.com/snapsynapse/ai-incident-law
@@ -21,9 +21,11 @@ Task scope
 This guide helps an assistant inspect, query, validate, and maintain
 the AI Incident Law public-record corpus. It covers the static site,
 canonical dataset, generated Obligation-First API, local read-only MCP
-server, and contribution workflow. It does not authorize legal advice,
-secret handling, production deployment, package publishing, or broad
-security claims.
+server, and correction workflow. The corpus is frozen (owner decision
+2026-11-18; dataset snapshot 2026-09-22): only bounded, evidence-backed
+corrections apply, and record age is not source verification. It does
+not authorize legal advice, secret handling, production deployment,
+package publishing, or broad security claims.
 
 Before acting
 1. Verify this guide with the recommended verifier or another
