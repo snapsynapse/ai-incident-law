@@ -121,15 +121,24 @@ test("public guide bytes and immutable anchors remain bound to the published art
   assert.match(validatePublicationState(absentRelease).join("\n"), /verified GitHub Release anchor/i);
 });
 
-test("an explicit 0.4.5 candidate preserves the published 0.4.4 evidence", () => {
+test("a later source candidate preserves the published 0.4.5 evidence", () => {
   const value = fixture();
-  assert.equal(value.state.source_candidate.status, "unpublished-source");
-  assert.equal(value.state.source_candidate.version, "0.4.5");
-  assert.equal(value.state.observations.npm.version, "0.4.4");
+  assert.equal(value.state.source_candidate, undefined);
+  value.pkg.version = "0.4.6";
+  value.server.version = "0.4.6";
+  value.server.packages[0].version = "0.4.6";
+  value.state.source_candidate = {
+    version: "0.4.6",
+    status: "unpublished-source",
+    base_commit: value.state.release_source.commit,
+    working_tree: true,
+  };
+  value.guideManifest = value.guideManifest.replaceAll("v0.4.5", "v0.4.6");
+  assert.equal(value.state.observations.npm.version, "0.4.5");
   assert.deepEqual(validatePublicationState(value), []);
-  value.state.source_candidate.version = "0.4.6";
+  value.state.source_candidate.version = "0.4.7";
   assert.match(validatePublicationState(value).join("\n"), /source candidate must identify/);
-  value.state.source_candidate.version = "0.4.5";
+  value.state.source_candidate.version = "0.4.6";
   value.guideBytes = Buffer.concat([value.guideBytes, Buffer.from("candidate-only\n")]);
   assert.match(validatePublicationState(value).join("\n"), /candidate guide manifest does not bind/);
 });

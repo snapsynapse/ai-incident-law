@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Publication evidence for 0.4.5: npm, MCP Registry, GitHub tag and GitHub Release
+  observations under `design/provider-evidence/`, the published MCP snapshot, and
+  `design/publication-state.json` updated to the verified 0.4.5 state.
+
 ## [0.4.5] - 2026-11-24
 
 ### Added

@@ -1,37 +1,37 @@
 {
   "schema_version": 1,
-  "document_updated": "2026-11-24",
+  "document_updated": "2026-11-25",
   "package": {
     "name": "ai-incident-law",
     "registry_server_name": "io.github.snapsynapse/ai-incident-law"
   },
   "release_source": {
-    "version": "0.4.4",
+    "version": "0.4.5",
     "status": "published-release",
-    "commit": "d0eb86f5ac0a31bcbe991d9960efa875730f2fb0",
-    "tag": "v0.4.4"
+    "commit": "504f56ed741c9c719aceab2bb2b68b8f16031ac8",
+    "tag": "v0.4.5"
   },
   "observations": {
     "npm": {
       "status": "published",
-      "version": "0.4.4",
-      "observed_at": "2026-11-19T18:26:59Z",
-      "evidence_url": "https://registry.npmjs.org/ai-incident-law/0.4.4",
-      "evidence_path": "design/provider-evidence/npm-0.4.4.json",
-      "integrity": "sha256:d5c2303e220cdb93cf1daeb65f5eb8e907a451a5a9e2d15bbed57d3a37e079b4",
+      "version": "0.4.5",
+      "observed_at": "2026-11-25T05:18:33Z",
+      "evidence_url": "https://registry.npmjs.org/ai-incident-law/0.4.5",
+      "evidence_path": "design/provider-evidence/npm-0.4.5.json",
+      "integrity": "sha256:856d02e597d3f6f85739878d1b9665284b6217474ffa55456df952a2b2103762",
       "http_status": 200,
-      "tarball_sha256": "da514afe228826aad4f90a65fc961b2390f287cd4ff646ab554306690d832597",
-      "artifact_snapshot_path": "design/PUBLISHED-MCP-0.4.4.snapshot.json",
-      "artifact_snapshot_sha256": "02cef44e702271eaf2fb5043c1b0fa674e55084853086c3c6a128d1bdf4eb637",
+      "tarball_sha256": "f90f9cf00e5c07f26091e7094f491bc253ddc25255e21ad3ab24e9505ff7eaa7",
+      "artifact_snapshot_path": "design/PUBLISHED-MCP-0.4.5.snapshot.json",
+      "artifact_snapshot_sha256": "d382807c087b1fdd4227ff2c73e5284be24c2773e2139e0897667e59cc6aa4f4",
       "error": null
     },
     "mcp_registry": {
       "status": "published",
-      "version": "0.4.4",
-      "observed_at": "2026-11-19T18:26:59Z",
-      "evidence_url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.snapsynapse%2Fai-incident-law/versions/0.4.4",
-      "evidence_path": "design/provider-evidence/mcp-registry-0.4.4.json",
-      "integrity": "sha256:91c2c8533339e09879cc9bf47c1c398ff9891e3645e51e65faaf51044f7535de",
+      "version": "0.4.5",
+      "observed_at": "2026-11-25T05:18:33Z",
+      "evidence_url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.snapsynapse%2Fai-incident-law/versions/0.4.5",
+      "evidence_path": "design/provider-evidence/mcp-registry-0.4.5.json",
+      "integrity": "sha256:3c34defc9b78fc9c6c773f8d9d65671dbed4757160f06653ec6aea5566d8d569",
       "http_status": 200,
       "tarball_sha256": null,
       "artifact_snapshot_path": null,
@@ -40,11 +40,11 @@
     },
     "github_tag": {
       "status": "published",
-      "version": "0.4.4",
-      "observed_at": "2026-11-19T18:26:59Z",
-      "evidence_url": "https://api.github.com/repos/snapsynapse/ai-incident-law/git/ref/tags/v0.4.4",
-      "evidence_path": "design/provider-evidence/github-tag-v0.4.4.json",
-      "integrity": "sha256:6422d37d059819bc2322e579ee3a4659351187a0fd45fe474bba306427ecfa1a",
+      "version": "0.4.5",
+      "observed_at": "2026-11-25T05:18:33Z",
+      "evidence_url": "https://api.github.com/repos/snapsynapse/ai-incident-law/git/ref/tags/v0.4.5",
+      "evidence_path": "design/provider-evidence/github-tag-v0.4.5.json",
+      "integrity": "sha256:3732b5b8d9db81ade52f5c4e1168441fd8a9adbb03d33c4bed9fe67ed6e5273f",
       "http_status": 200,
       "tarball_sha256": null,
       "artifact_snapshot_path": null,
@@ -53,11 +53,11 @@
     },
     "github_release": {
       "status": "published",
-      "version": "0.4.4",
-      "observed_at": "2026-11-19T18:26:59Z",
-      "evidence_url": "https://api.github.com/repos/snapsynapse/ai-incident-law/releases/tags/v0.4.4",
-      "evidence_path": "design/provider-evidence/github-release-v0.4.4.json",
-      "integrity": "sha256:ea0c112d91b5a48c530fa5c58d62a443c131f70a50a59ebdea9d73c44eb40ef1",
+      "version": "0.4.5",
+      "observed_at": "2026-11-25T05:18:33Z",
+      "evidence_url": "https://api.github.com/repos/snapsynapse/ai-incident-law/releases/tags/v0.4.5",
+      "evidence_path": "design/provider-evidence/github-release-v0.4.5.json",
+      "integrity": "sha256:4adb8492814944ebfbb04fe957acaf045057ccc6fffe9b619cf3c1233546e1fb",
       "http_status": 200,
       "tarball_sha256": null,
       "artifact_snapshot_path": null,
@@ -72,20 +72,13 @@
     "hosted_site_status": "post-publication-evidence",
     "hosted_site_version_from": "release_source.version",
     "public_guide_artifact_from": "observations.npm.artifact_snapshot_path",
-    "source_release_url": "https://github.com/snapsynapse/ai-incident-law/tree/d0eb86f5ac0a31bcbe991d9960efa875730f2fb0"
+    "source_release_url": "https://github.com/snapsynapse/ai-incident-law/tree/504f56ed741c9c719aceab2bb2b68b8f16031ac8"
   },
   "limitations": [
-    "The hosted source includes post-publication evidence for the independently published 0.4.4 artifact.",
+    "The hosted source includes post-publication evidence for the independently published 0.4.5 artifact.",
     "A Git tag is recorded independently and does not prove that a GitHub Release or registry artifact exists.",
     "Provider observations can become stale or fail; unknown and error states must not promote a release claim.",
     "Published capabilities come only from the retained exact npm artifact snapshot, not from later source documentation.",
-    "The 0.4.4 assistant-guide bytes and manifest are bound to the verified npm tarball and GitHub Release; this does not renew source or legal-currentness review.",
-    "The 0.4.5 source-candidate guide manifests prospectively name v0.4.5, whose tag and GitHub Release are not verified or claimed here; hosted install and discovery evidence remains pinned to published 0.4.4."
-  ],
-  "source_candidate": {
-    "version": "0.4.5",
-    "status": "unpublished-source",
-    "base_commit": "e5decc822f02d469b6bf4780ecd98041448178e2",
-    "working_tree": false
-  }
+    "The 0.4.5 assistant-guide bytes and manifest are bound to the verified npm tarball and GitHub Release; this does not renew source or legal-currentness review."
+  ]
 }
