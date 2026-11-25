@@ -6,7 +6,7 @@
   "start_head": "924ff67e5ddffcc286e1536faf45f39a14abf1a4",
   "candidate_head": "504f56ed741c9c719aceab2bb2b68b8f16031ac8",
   "candidate_version": "0.4.5",
-  "updated_at": "2026-11-25T05:18:33Z",
+  "updated_at": "2026-11-25T05:40:00Z",
   "steps": [
     {
       "id": "source_and_ci",
@@ -40,8 +40,8 @@
     },
     {
       "id": "hosted_evidence",
-      "status": "not_started",
-      "evidence": "Hosted byte comparison of publication state, MCP discovery, assistant guide and manifest, legal graph example, the 0.4.5 snapshot and provider receipts runs after this evidence commit deploys through Pages."
+      "status": "completed",
+      "evidence": "Publication-evidence commit 9b1c320 was pushed to main; exact-commit Validate 45552945619 and Pages deployment 45552945123 passed. Twelve canonical hosted files (publication state, MCP discovery, assistant guide and manifest, legal graph example, the 0.4.5 snapshot, five provider receipts and README.md) returned HTTP 200 and were byte-identical to source at 9b1c320."
     },
     {
       "id": "source_currentness",
