@@ -12,4 +12,4 @@
 - This release does not renew corpus freshness, establish live docket completeness, certify unrelated records, or change the Obligation-First compatibility range.
 
 ## Delivery state
-Version 0.4.2 is a prepared release candidate pending publication. Publication and deployment require separate final evidence and authority.
+Published; see design/provider-evidence/npm-0.4.2.json.

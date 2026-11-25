@@ -81,6 +81,9 @@ These appear primarily on `included` records and are the main fields rendered by
 | `research_status` | Internal status such as included |
 | `last_verified_date` | Last date the record was verified |
 | `needs_review` | `yes` or `no` flag used by filters |
+| `confidence_score` | Editorial confidence label, `high` or `medium`, on included records; a separate axis from `admission_status` |
+| `neutral_citation` | Optional court or tribunal neutral citation, such as `2024 BCCRT 149`; exported as `neutral_citation` on the Proceeding and Determination and as `source_citation` in provenance |
+| `case_sameAs` | Optional URL or list of URLs for external records of the same case; exported as `describesSameEntityAs` on the Proceeding and Determination |
 | `obligation_first_anchors` | Optional array or semicolon-delimited list of EveryAILaw Obligation-First IRIs interpreted or applied by the matter's Determination |
 | `legal_graph` | Curated procedural projection used when display-oriented matter fields are not precise enough to generate truthful Obligation-First records |
 
@@ -107,7 +110,7 @@ These appear mainly on `review` and `global` records.
 
 ## Required versus expected
 
-There is intentionally no strict full-schema validator yet. Current practice is:
+No full-schema validator; `validate:data` enforces bucket, identity, title, URL, legal_graph and freshness rules, and `check:admission` enforces receipts. Current practice is:
 
 - `included` records should have stable IDs, titles, public matter context, a usable source, and enough summary fields to render clearly in the app
 - `review` and `global` records should have enough metadata to justify continued inclusion in the queue and make the next verification step obvious
@@ -123,6 +126,7 @@ Included records are exported under `/api/v1/of/` as Obligation-First v0.6 recor
 - each simple jurisdiction becomes an `of:Authority` unless a curated `legal_graph` projection declares the actual bodies
 - each included matter becomes an `of:Proceeding`
 - each included matter becomes one `of:Allegation` describing the AI-related failure asserted in the public record
+- each named participant becomes an `of:Party` in `parties.json`; currently that is the included record's `deployer`, and a repeated name links to its first Party through `describesSameEntityAs`
 - included matters with settled, ordered, sanctioned, resolved, or dismissed postures also become `of:Determination` records
 - records with `obligation_first_anchors` pass those IRIs through to `of:Determination.anchors`
 - retired published graph identifiers remain queryable as `of:Tombstone` records
@@ -169,6 +173,7 @@ Anchor selection policy: add anchors only when the public record supports the re
 
 ## Editing rules
 
+- While frozen, only bounded corrections under the issue route; no new records.
 - Edit [data/data.json](../data/data.json), not [data.js](../data.js)
 - Review [ops/SOURCE-ADMISSION.md](../ops/SOURCE-ADMISSION.md) and run `npm run check:admission` for every new or changed native record
 - Run `npm run build` after changes

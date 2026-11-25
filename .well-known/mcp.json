@@ -5,7 +5,7 @@
     "2024-11-05"
   ],
   "server_name": "AI Incident Law",
-  "description": "Structured public-record reference for legal, regulatory, tribunal, and review-queue matters involving AI-related incidents and harms. Static JSON API and local stdio MCP server, read-only, no authentication.",
+  "description": "Structured public-record reference for legal, regulatory, tribunal, and review-queue matters involving AI-related incidents and harms. Static JSON API and local stdio MCP server, read-only, no authentication. Frozen snapshot, 2026-09-22; corrections and source challenges only.",
   "publisher": {
     "name": "PAICE",
     "url": "https://paice.work/"
@@ -65,6 +65,7 @@
     "proceedings": "proceedings.json",
     "allegations": "allegations.json",
     "determinations": "determinations.json",
+    "parties": "parties.json",
     "tombstones": "tombstones.json",
     "record": "records/{id}.json"
   }

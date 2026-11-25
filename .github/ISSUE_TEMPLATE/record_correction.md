@@ -6,7 +6,7 @@ labels: data
 assignees: ""
 ---
 
-This corpus is frozen; correction and source-challenge issues remain open, while routine new-record curation is dormant. This dataset is public-record only and curated for source quality over volume. See [INTENT.md](../../INTENT.md) for admission criteria and [CONTRIBUTING.md](../../CONTRIBUTING.md) for the edit flow.
+This corpus is frozen; correction and source-challenge issues remain open, while routine new-record curation is dormant. This dataset is public-record only and curated for source quality over volume. See [INTENT.md](https://github.com/snapsynapse/ai-incident-law/blob/main/INTENT.md) for admission criteria and [CONTRIBUTING.md](https://github.com/snapsynapse/ai-incident-law/blob/main/CONTRIBUTING.md) for the edit flow.
 
 ## Type
 
@@ -21,7 +21,7 @@ This corpus is frozen; correction and source-challenge issues remain open, while
 
 ## Public sources
 
-Primary or stable secondary public source URLs. At least one is required for inclusion.
+Primary or stable secondary public source URLs. At least one is required.
 
 -
 

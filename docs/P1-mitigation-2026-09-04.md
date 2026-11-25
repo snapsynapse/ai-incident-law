@@ -1,5 +1,7 @@
 # P1 filing-date precision mitigation
 
+Historical record, 2026-09-05; current CI pins Obligation-First in .github/workflows/validate.yml.
+
 Scope: AI Incident Law OF exporter, review F06 and F08. Local implementation dated 2026-09-04.
 
 Only an exact YYYY-MM-DD source value populates filed_date. Year-only and year-month inputs no longer acquire January 1 or the first day of the month. The adopter extension filing_date_source, mapped to ail:filingDateSource in the record context, preserves the original source string for every Proceeding. No source filing dates were edited. Consumers must not interpret omission of filed_date as absence of a filing event.

@@ -15,10 +15,6 @@ Frozen by the owner on November 18, 2026. The retained dataset snapshot is Septe
 
 Compliance teams, legal counsel, AI governance leads, and researchers tracking how AI failures turn into legal and regulatory action.
 
-## What problem it solves
-
-AI incidents and their legal consequences are scattered across public records with no structured, searchable index. AI Incident Law is an open corpus of public AI-related matters, queryable by humans and agents.
-
 ## Canonical URL
 
 https://aiincidentlaw.org/
@@ -40,7 +36,7 @@ Customize
 }
 ```
 
-Replace `VERSION` with the version verified at the npm registry and in the canonical [publication state](https://aiincidentlaw.org/design/publication-state.json). Do not infer a package's publication status from this source README. The server exposes eight recorded tools for querying the corpus by case attributes, anchored obligations, and verification freshness. It speaks MCP spec revision 2026-07-28 (stateless core, `server/discover`) and the legacy 2024-11-05 handshake in the same process. See [docs/legal-graph.html](https://aiincidentlaw.org/docs/legal-graph.html) for a cross-graph example pairing this with the EveryAILaw MCP.
+Do not infer a package's publication status from this source README. The server exposes eight recorded tools for querying the corpus by case attributes, anchored obligations, and verification freshness. It speaks MCP spec revision 2026-07-28 (stateless core, `server/discover`) and the legacy 2024-11-05 handshake in the same process. See [docs/legal-graph.html](https://aiincidentlaw.org/docs/legal-graph.html) for a cross-graph example pairing this with the EveryAILaw MCP.
 
 Published packages, signed tags, GitHub Releases, and Official MCP Registry entries are independent delivery facts. The hosted publication state records those provider observations and exact artifact snapshots; it may be newer than this package's source documentation.
 
@@ -50,7 +46,7 @@ AI Incident Law is one component of the PAICE legal graph (with EveryAILaw, PubL
 
 ## Maintenance scope
 
-Recurring legal-source link collection is removed from the local workflow candidate. The manual checker remains for separately selected bounded correction work; it is not authorization to make source requests. The offline record-age schedule is unchanged pending a separate owner decision and does not reverify sources. The former quarterly source/coverage review is dormant. See [INTENT](INTENT.md), the [operating record](ops/lifecycle-decision-candidate-2026-11-18.md), and the [dated matter-monitor pilot](ops/MATTER-MONITOR-PILOT.md) for preserved limits. Local preparation does not establish deployed workflow state.
+Recurring source-link collection is retired; `check-source-links.yml` runs only by manual dispatch for selected corrections and is not authorization to make source requests. The weekly record-age diagnostic reports age only and does not reverify sources. Quarterly source and coverage review is dormant. See [INTENT](INTENT.md) "Frozen operating state", the [operating record](ops/lifecycle-decision-candidate-2026-11-18.md), and the [dated matter-monitor pilot](ops/MATTER-MONITOR-PILOT.md) for preserved limits.
 
 ## Repo layout
 
@@ -61,6 +57,7 @@ Recurring legal-source link collection is removed from the local workflow candid
 - `data/data.json` is the canonical dataset for maintainers.
 - `data.js` is a generated browser bundle consumed by `index.html`.
 - `api/v1/of/` contains the generated Obligation-First binding for included public matters.
+- `proceeding/`, `allegation/`, `determination/`, `authority/`, and `party/` hold generated Obligation-First record files; `data/admission/` holds the source-admission baseline, receipts and retained source bytes; `ops/` holds maintainer operating records.
 - Published graph identifiers retired after semantic review resolve as `of:Tombstone` records at their original URLs.
 - `mcp.json` configures the local read-only MCP stdio server.
 - `.well-known/mcp.json` advertises public MCP and static query endpoints.
@@ -91,31 +88,26 @@ Open `index.html` directly in a browser or host the folder on any static file se
 
 The repo uses Node.js only for maintainer tooling. There are no install-time dependencies.
 
-```bash
-npm run build:data
-npm run build:of
-npm run validate:data
-npm run validate:guidecheck
-npm run test:url-policy
-npm run eval:url-policy
-npm run test:mcp
-npm run test:discovery
-```
+Build the generated set and run the full gate:
 
-Or run the combined build and check:
-
+Literal
 ```bash
 npm run build
 npm run check
 ```
 
-To see which records are overdue for re-verification:
+The steps in the gate are defined by the `check` script in `package.json`; read it rather than relying on a list here. The `check:of*` steps need a sibling checkout of `snapsynapse/obligation-first`.
 
+To rank records by age (age is not source verification):
+
+Literal
 ```bash
 npm run report:staleness
 ```
 
 To resolve a known federal docket entry to a verified RECAP PDF:
+
+Literal
 ```bash
 npm run find:recap -- \
   --caption "Jakes v. Youngblood" \
@@ -128,6 +120,7 @@ The resolver supports anonymous CourtListener requests. If `COURTLISTENER_TOKEN`
 
 To preview over a local static server:
 
+Literal
 ```bash
 npm run serve
 ```
@@ -152,6 +145,8 @@ Then open the local server in your browser.
 ## MCP access
 
 AI Incident Law includes a zero-dependency, read-only MCP stdio server for local agent queries:
+
+Literal
 ```bash
 node scripts/mcp-server.js
 ```
@@ -178,9 +173,9 @@ This is a reviewability and trust-boundary artifact, not a safety claim. Agents 
 
 - [CONTRIBUTING.md](CONTRIBUTING.md) documents the expected edit and review flow.
 - [SECURITY.md](SECURITY.md) documents private security reporting expectations.
-- [ROADMAP.md](ROADMAP.md) captures near-term maintenance and curation priorities.
+- [ROADMAP.md](ROADMAP.md) records the frozen state, the bounded correction queue and dormant pre-freeze proposals.
 - [docs/data-schema.md](docs/data-schema.md) documents the dataset structure and field intent.
-- [docs/methodology.html](docs/methodology.html) summarizes public corpus scope, admission criteria, source policy, freshness, and exclusions.
+- [docs/methodology.html](https://aiincidentlaw.org/docs/methodology.html) summarizes public corpus scope, admission criteria, source policy, freshness, and exclusions.
 - [.well-known/assistant-guide.txt](.well-known/assistant-guide.txt) documents bounded assistant maintainer and query instructions using the GuideCheck Human-Verifiable Assistant Guide profile.
 - [validate.yml](.github/workflows/validate.yml) runs the build and validation pipeline on pushes and pull requests.
 - [LICENSE](LICENSE) applies the MIT license to the software in this repository.
@@ -198,6 +193,7 @@ This is a reviewability and trust-boundary artifact, not a safety claim. Agents 
 
 Preferred dataset attribution:
 
+Literal
 ```text
 AI Incident Law, PAICE.work PBC, CC BY 4.0.
 Source project: https://aiincidentlaw.org/

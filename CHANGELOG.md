@@ -7,6 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Reviewed npm publish workflow (`.github/workflows/publish-npm-reviewed.yml`) using npm
+  OIDC trusted publishing, bound to the protected `npm-publish` environment. A rerun against
+  an already-published version verifies the registry artifact and does not publish again.
+  0.4.4 was published to npm through this workflow. Operating notes in
+  `ops/npm-trusted-publishing.md`.
+- Publication evidence for 0.4.4: npm, MCP Registry, GitHub tag and GitHub Release
+  observations under `design/provider-evidence/`, the published MCP snapshot, and
+  `design/publication-state.json` updated to the verified 0.4.4 state.
+
+### Changed
+- Post-freeze record corrections from PRs #24 to #28, each grounded in retained source bytes
+  under `data/admission/raw/` with an accepted receipt. Included records with receipts rise
+  from 13 to 24, and `legacy-unreviewed` included records fall from 59 to 48. These
+  corrections change record content without changing `generated_at` or record dates.
+  - #24: AIEL-2025-016 (Woodruff), docket corrected and the pending appeal documented.
+  - #25: AIEL-2025-018 (Mobley v. Workday), November 2026 discovery ruling documented.
+  - #26: AIEL-2024-010 (SafeRent) and AIEL-2024-014 (Williams), settlement outcomes grounded
+    in the filed orders.
+  - #27: AIEL-2026-022, AIEL-2026-035, AIEL-2026-047 and AIEL-2026-058, order-level sanctions
+    and appellate history corrected.
+  - #28: AIEL-2025-004, AIEL-2026-020, AIEL-2026-032, AIEL-2026-034, AIEL-2026-042 and
+    AIEL-2026-049, corrected from filed court records and conference results.
+- Documentation pass for the frozen state: corrected admission counts, version references,
+  freeze wording across README, llms.txt, agents.json, MCP descriptions and site pages.
+
 ### Fixed
 - README and `docs/data-schema.md` links now use repository-relative paths. They pointed at
   an absolute local checkout path, so they were broken on GitHub.
@@ -18,16 +44,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Bump the package patch version and assistant guide to 0.1.3. The guide now explains
   `admission_status` and `source_review_unresolved` while retaining its prior human
-  review date. This is a local release candidate with no publication claim.
+  review date.
+- Corpus frozen by owner decision on 2026-11-18. The README, site pages, `llms.txt`,
+  CONTRIBUTING and the record-correction issue template disclose the frozen state publicly;
+  correction and source-challenge routes stay open while routine new-record curation is
+  dormant. The weekly scheduled run of the source-link workflow was removed, leaving manual
+  dispatch only, and a workflow-invariant test pins its absence.
 
 ### Added
 - The MCP dataset tools now report `admission_status`, and `source_review_unresolved` where
   a receipt left questions open, matching what the graph tools already disclosed. Previously
   `get_record` served `confidence_score` and `source_quality` for a frozen pre-contract
   record while withholding that its fields had never been reviewed against retained source
-  bytes, which `get_obligation_first_record` disclosed one call away. 63 of the 72 included
-  records are `legacy-unreviewed` and 59 of those read `confidence_score` high, so the
-  omission sat exactly where it mattered. Review and global candidates report
+  bytes, which `get_obligation_first_record` disclosed one call away. At this release 59 of
+  the 72 included records were `legacy-unreviewed` and 55 of those read `confidence_score`
+  high, so the omission sat exactly where it mattered. Review and global candidates report
   `not-applicable-candidate` rather than a null, because only included records are exported.
   Three `test:mcp` cases pin the parity, the coverage and the presence of the field in
   compact listings.
@@ -88,6 +119,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   ten claims added, none removed or changed. Recorded in docs/SCOPE-CONTRACT.md.
 
 ### Fixed
+- The search-audit XML entity decoder in `check:search` and `check:production-search` now
+  uses the upstream v7 single-pass decoder: all five XML entities plus numeric references,
+  decoded text is never decoded again, invalid code points stay encoded, and surrounding
+  whitespace is trimmed. A workflow-invariant test pins the behaviour.
+- Fail-closed boundaries. The Obligation-First checker wrappers exit nonzero when the checker
+  fails to complete instead of reporting success; the MCP server rejects malformed requests
+  and oversized frames and resolves only its own tool handlers; the matter-monitor fetch
+  reserves request budget on every redirect hop; and `check:production-search` restricts
+  requests to the approved origin under request, redirect, body, sitemap and page limits.
+  Covered by new checker-wrapper, MCP, matter-monitor and production-search-boundary tests.
 - Discard the remainder of an oversized MCP request frame across stdin chunks, so a
   trailing suffix cannot be dispatched as a separate request.
 - Restore discovery leads from a completed matter-monitor source checkpoint on resume.
@@ -116,23 +157,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Deterministic temporal checks over the generated projection (`npm run check:of-temporal`): a Determination may not precede its Proceeding's filing date, a vacating Determination may not precede the one it vacates, and no projected date may be later than the build date. Pairs with missing or partial dates are reported as unknown, never substituted.
 - Legal-graph traversal fixtures (`npm run test:of-traversal`) from selected Determinations and Allegations through category anchors to expected obligations, with curated, inferred, missing and conflicted evidence states asserted explicitly.
 
+### Changed
+- CI checks out the Obligation-First validator at the reviewed correction commit af66a28 and passes a committed base SHA to source admission.
+- INTENT.md and ROADMAP.md review metadata reconciled: the 2026-08-19 criterion decisions are recorded as the last review, the pending Moffatt attribution question is named as the next criterion challenge, and delivered methodology, correction-template and changelog items are marked done.
+- MCP initialization and discovery now explain the bundled-snapshot boundary, Checked versus Verified dates, source IDs versus generated graph IDs, candidate buckets, procedural-status limits, obligation-category anchors, and explicit error handling consistently.
+- The npm package now includes and verifies the Obligation-First naming-profile manifest alongside the canonical profile.
+- Curated proceeding projections may override the display record's matter type and inferred deployer Party. An explicit empty `parties` array makes no proceeding-party assertion and does not claim a complete participant list.
+
 ### Fixed
 - AIEL-2024-001 (Moffatt v. Air Canada): primary source moved from the CanLII aggregator to the tribunal's retained final decision, the award corrected to the decision's C$812.02 total, an unsupported obligation anchor and filing date removed, and the chatbot's technical nature qualified as not established in the decision. The aggregator-primary baseline is now zero.
 - AIEL-2026-020 (CNN v. Perplexity): primary link identified as the RECAP complaint with corrected source roles.
 - AIEL-2024-015 (Parks v. McCormac): docket number corrected to No. 2:21-cv-04021 (D.N.J.); status corrected from pending to settled on the court's 2024-07-09 termination order and the filed $300,000 settlement agreement; the unsupported Clearview AI attribution replaced with the search route the warrant affidavit describes and the software maker named in the pleadings; primary source moved from the ACLU case page to the court order; curated legal-graph projection added. `needs_review` set: no entered dismissal order was located and the filing date remains unsourced.
 - AIEL-2024-017 (Murphy v. EssilorLuxottica): primary source moved from a media-hosted petition copy to the court-hosted S.D. Tex. remand order, with the memorandum and recommendation that recounts the AI allegation retained as evidence; removal and remand chronology recorded. Status stays pending; post-remand state docket unobserved.
 - Retained raw source evidence is exempt from Git whitespace normalization so publisher bytes hash stably.
-
-### Changed
-- CI checks out the Obligation-First validator at the reviewed correction commit af66a28 and passes a committed base SHA to source admission.
-- INTENT.md and ROADMAP.md review metadata reconciled: the 2026-08-19 criterion decisions are recorded as the last review, the pending Moffatt attribution question is named as the next criterion challenge, and delivered methodology, correction-template and changelog items are marked done.
-
-### Changed
-- MCP initialization and discovery now explain the bundled-snapshot boundary, Checked versus Verified dates, source IDs versus generated graph IDs, candidate buckets, procedural-status limits, obligation-category anchors, and explicit error handling consistently.
-- The npm package now includes and verifies the Obligation-First naming-profile manifest alongside the canonical profile.
-- Curated proceeding projections may override the display record's matter type and inferred deployer Party. An explicit empty `parties` array makes no proceeding-party assertion and does not claim a complete participant list.
-
-### Fixed
 - Correct the naming-profile manifest's profile identity, supported Obligation-First range, byte count, and SHA-256 while retaining the prior verified release timestamp for the unchanged profile bytes.
 - Distinguish AIEL-2023-002's source events: the native June 22, 2023 date is identified as the sanctions opinion and order filing date; the generated federal proceeding uses the exact February 22, 2022 removal date; and the determination now carries the June 22, 2023 issuance date.
 - Preserve AIEL-2023-002's stable identifiers and source-supported sanctions respondents without projecting the AI deployer Party as an unqualified party to the underlying federal action. The record's September 1, 2026 Verified date is unchanged.
@@ -210,6 +247,12 @@ Obligation-First v0.6 adopter, source-rigor, and drift-prevention release. This 
 - `WWW_REQUIRED_HOSTS` gained `oscn.net` and `opn.ca6.uscourts.gov`. The Oklahoma entry matters most: its bare host answers HTTP 200 with a generic ~6 KB landing page rather than the requested document, so a status-code-only link check passes while the content is silently gone.
 - Source policy: records cite original court, tribunal, and agency publications only. Third-party trackers and their storage mirrors are no longer citable, including as secondary sources. Tracker URLs have been stripped from every `secondary_source_links` and `best_available_sources` field, and the three records added earlier in this cycle were repointed to verified original sources (CourtListener RECAP for the bankruptcy opinion, courts.ca.gov for the California opinion, media.ca11.uscourts.gov for the Eleventh Circuit opinion).
 - `scripts/url-policy.mjs` gained `WWW_REQUIRED_HOSTS`, a narrow carve-out to bare-domain normalization for hosts whose bare domain provably does not serve. Two entries, both verified 2026-07-24: `damiencharlotin.com` (bare returns HTTP 400 from a Django host check) and `gasupreme.us` (bare fails TLS with a certificate hostname mismatch). Links already written bare against such a host are repaired to the `www` form rather than left dead.
+- Advertised the methodology page in public docs and agent-facing metadata.
+- Advertised the assistant guide in public docs and agent-facing metadata.
+- Added homepage and MCP discovery links for the assistant guide and trust-boundary note.
+- Added `.nojekyll` so GitHub Pages serves `.well-known/` discovery files.
+- Tightened the pull request checklist to include the full `npm run check` pipeline.
+- Corrected the submission page issue-template link to use the existing record-correction template.
 
 ### Added
 - A reviewed Obligation-First structural fingerprint, build-determinism tests, workflow-invariant tests, and a committed npm lockfile required by the `npm ci` CI contract.
@@ -226,14 +269,6 @@ Obligation-First v0.6 adopter, source-rigor, and drift-prevention release. This 
 - Two review candidates: `AIEL-CAND-017` (Mullins v. Duquesne — Claude disclosed and use held not sanctionable; a limiting precedent the current schema has no clean slot for) and `AIEL-CAND-018` (M J Molawa, South African Labour Court — non-existent citations confirmed, AI attribution expressly left undetermined).
 - Public methodology page documenting corpus scope, admission criteria, source policy, freshness handling, and exclusions.
 - GuideCheck assistant guide for bounded maintainer and query workflows, with local byte-profile and section validation.
-
-### Changed
-- Advertised the methodology page in public docs and agent-facing metadata.
-- Advertised the assistant guide in public docs and agent-facing metadata.
-- Added homepage and MCP discovery links for the assistant guide and trust-boundary note.
-- Added `.nojekyll` so GitHub Pages serves `.well-known/` discovery files.
-- Tightened the pull request checklist to include the full `npm run check` pipeline.
-- Corrected the submission page issue-template link to use the existing record-correction template.
 
 ## [0.2.1] - 2026-07-25
 
@@ -268,7 +303,9 @@ Obligation-First v0.6 adopter, source-rigor, and drift-prevention release. This 
 - URL-policy regression coverage for normalization, bypass attempts, malformed schemes, credentials, encoded and raw control characters, and representative existing corpus URLs.
 - No-dependency URL-policy pipeline eval that runs malformed-source fixtures through the real build and validation scripts in temporary directories.
 
-[Unreleased]: https://github.com/snapsynapse/ai-incident-law/compare/v0.4.2...HEAD
+[Unreleased]: https://github.com/snapsynapse/ai-incident-law/compare/v0.4.4...HEAD
+[0.4.4]: https://github.com/snapsynapse/ai-incident-law/compare/v0.4.3...v0.4.4
+[0.4.3]: https://github.com/snapsynapse/ai-incident-law/compare/v0.4.2...v0.4.3
 [0.4.2]: https://github.com/snapsynapse/ai-incident-law/compare/v0.4.1...v0.4.2
 [0.4.1]: https://github.com/snapsynapse/ai-incident-law/compare/v0.4.0...v0.4.1
 [0.4.0]: https://github.com/snapsynapse/ai-incident-law/compare/v0.3.0...v0.4.0

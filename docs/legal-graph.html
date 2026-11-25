@@ -145,6 +145,7 @@
 
     <main>
       <div class="prose">
+        <p class="filter-note" role="note"><strong>Frozen corpus.</strong> Retained dataset snapshot: September 22, 2026. Routine curation has stopped; later legal developments may be absent. Existing website, package and MCP access remain available. <a href="/docs/submit-a-case.html">Corrections and source challenges remain open</a>.</p>
         <a class="back-link" href="/">&#8592; Back to the dataset</a>
 
         <h2 style="margin-top: 0; font-size: 1.4rem;">How this fits: the PAICE legal graph</h2>
@@ -152,7 +153,7 @@
           AI Incident Law does not stand alone. It is the fourth layer of a connected representation of AI law built
           by <a href="https://paice.work/" rel="noopener">PAICE.work PBC</a>: from the shared schema that names
           things, to the statutes that define obligations, to the records that verify conduct, to the cases that show
-          what happens when obligations are breached.
+          what courts and agencies did and the obligation categories a Determination interpreted or applied.
         </p>
         <p>
           Each layer answers a distinct question. Together they make the full chain programmable.
@@ -189,7 +190,7 @@
             <div>
               <span class="layer-name">AI Incident Law</span>
               <p class="layer-desc">Case and enforcement evidence -- curated corpus of litigation, tribunal records, and enforcement actions involving AI-related incidents.</p>
-              <p class="layer-question">"What did courts and agencies actually do when those obligations were breached?"</p>
+              <p class="layer-question">"What did courts and agencies actually do, and which obligation categories did a Determination interpret or apply?"</p>
             </div>
           </li>
         </ol>
@@ -197,7 +198,7 @@
         <h2>The anchor relationship</h2>
         <p>
           Included records in this dataset may carry an <code>obligation_first_anchors</code> field: a list of
-          Obligation-First IRIs pointing to the EveryAILaw obligation categories or concrete obligations that the incident implicates.
+          Obligation-First IRIs pointing to the EveryAILaw obligation categories a Determination interpreted or applied. Every current anchor is an obligation-category IRI.
           For example, a hiring-algorithm discrimination case might anchor to
           <code>https://everyailaw.com/obligation-category/bias-prevention.json</code>.
         </p>
@@ -205,8 +206,8 @@
           This makes the graph traversable in both directions:
         </p>
         <ul>
-          <li>Obligation &rarr; Consequence: start at an EveryAILaw obligation, follow anchors to every AI Incident Law case where breach was alleged.</li>
-          <li>Consequence &rarr; Obligation: start at a case, read its anchors to learn which obligations the incident implicated.</li>
+          <li>Obligation &rarr; Consequence: start at an EveryAILaw obligation category, follow anchors to every AI Incident Law Determination that interpreted or applied it.</li>
+          <li>Consequence &rarr; Obligation: start at a case, read its anchors to learn which obligation categories its Determination interpreted or applied.</li>
         </ul>
 
         <h2>Procedural fidelity and stable identifiers</h2>
@@ -226,7 +227,7 @@
 
         <h2>Cross-graph query example: dated transcript from 2026-06-10</h2>
         <p>
-          What follows is a reproducible recipe run on <strong>2026-06-10</strong> against all three published
+          What follows is a dated recipe run on <strong>2026-06-10</strong> against all three published
           PAICE legal graph MCP servers. The question:
           <em>"What obligations does an automated decision system used in Colorado trigger under state law, what
           is the authoritative public-record statute citation, and what is the public litigation record when those
@@ -302,7 +303,7 @@
         <h3>5. Search the AI Incident Law dataset for matching anchors</h3>
         <p>
           For each obligation, call <code>search_records</code> on the AI Incident Law MCP for matters whose
-          <code>obligation_first_anchors</code> contain the EveryAILaw anchor IRI. Results from the 2026-06-10 run:
+          <code>obligation_first_anchors</code> contain the EveryAILaw anchor IRI. Results from the 2026-06-10 run (as of 2026-06-10; current figures differ):
         </p>
         <ul>
           <li><strong>transparency</strong>: 1 anchored record.
@@ -340,12 +341,12 @@
           As of 2026-06-10, no other publicly available stack identified in the review could answer this query
           programmatically. DAIL, Fisher Phillips, McKool Smith, and Hogan Lovells trackers were human-browsable only
           -- no API, no structured obligation linkage. The PAICE legal graph is built so an agent can traverse from a
-          specific regulation, to the obligations it creates, to the cases where those obligations were breached, in
+          specific regulation, to the obligations it creates, to the obligation categories a Determination interpreted or applied, in
           one session.
         </p>
         <p>
-          The recipe above is reproducible. Run it tomorrow against an updated dataset; you will get the same shape of
-          answer with whatever new cases have been admitted since.
+          The recipe above can be rerun to get the same shape of answer. The dataset is frozen at the 2026-09-22
+          snapshot; later runs reflect corrections only.
         </p>
 
         <h2>Agent discovery</h2>

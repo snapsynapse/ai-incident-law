@@ -174,7 +174,7 @@
 
     <main>
       <div class="prose">
-        <p><strong>Frozen corpus.</strong> Routine new-record discovery and curation stopped under the November 18, 2026 owner decision. Corrections and source challenges for retained records remain open through the issue route below. Retained dataset snapshot: September 22, 2026; later developments may be absent.</p>
+        <p><strong>Frozen corpus.</strong> The corpus is frozen (owner decision 2026-11-18). New matters are not being admitted; this page is retained for corrections and source challenges. Retained dataset snapshot: 2026-09-22; later developments may be absent.</p>
         <a class="back-link" href="/">&#8592; Back to the dataset</a>
 
         <h2 style="margin-top: 0; font-size: 1.4rem;">Corrections and source challenges</h2>
@@ -191,44 +191,37 @@
 
         <h2>Retained admission criteria</h2>
         <p>
-          A candidate record is admitted to the <code>included</code> bucket when all of the following hold.
-          These are the same criteria the steward applies to her own submissions; they live in
-          <a href="https://github.com/snapsynapse/ai-incident-law/blob/main/INTENT.md" rel="noopener">INTENT.md</a>
-          as the authoritative statement.
+          These are the criteria used for existing records. A candidate was admitted to the
+          <code>included</code> bucket when all of the following held. They are reproduced from
+          <a href="https://github.com/snapsynapse/ai-incident-law/blob/main/INTENT.md" rel="noopener">INTENT.md</a>,
+          the authoritative statement, which applies them equally to the steward's own submissions.
+          A correction may cite them when it challenges whether an existing record still meets them.
         </p>
 
         <ol class="criteria-list">
           <li class="criteria-item">
             <span class="criteria-num">1</span>
             <div class="criteria-body">
-              <strong>Public legal or regulatory matter directly involving AI-related conduct, output, or use.</strong>
-              Filed proceedings, regulatory actions, settlements, judgments, consent decrees, formal
-              investigation disclosures. Press coverage alone is not sufficient.
+              <strong>There is a public legal or regulatory matter directly involving AI-related conduct, output, or use.</strong>
             </div>
           </li>
           <li class="criteria-item">
             <span class="criteria-num">2</span>
             <div class="criteria-body">
-              <strong>At least one primary or reliable secondary public source.</strong>
-              Court filings, agency orders, tribunal opinions, official press releases, or stable
-              archival mirrors (CanLII, CourtListener, RECAP, official gazettes).
+              <strong>The matter has at least one primary or reliable secondary public source.</strong>
             </div>
           </li>
           <li class="criteria-item">
             <span class="criteria-num">3</span>
             <div class="criteria-body">
-              <strong>Required fields present and consistent.</strong>
-              Jurisdiction, parties, AI-relevance description, source URLs, dates. See the
-              <a href="../docs/data-schema.md">data schema</a> for exact field shapes.
+              <strong>The matter has resolved to one of: filed proceeding, regulatory action, settlement, judgment, consent decree, or formal investigation disclosure.</strong>
+              Press coverage alone is not sufficient.
             </div>
           </li>
           <li class="criteria-item">
             <span class="criteria-num">4</span>
             <div class="criteria-body">
-              <strong>AI-relevance is concrete, not speculative.</strong>
-              The matter must turn on AI-related conduct in a way a court or regulator named, not
-              merely that "AI was in the room." Generic AI ethics statements without legal or regulatory
-              action attached are out of scope.
+              <strong>The record fields required for publication (jurisdiction, parties, AI-relevance, source URLs, date) are present and consistent.</strong>
             </div>
           </li>
         </ol>
@@ -243,25 +236,25 @@
         <div class="bucket-card">
           <strong>review</strong>
           <p>In scope but needs verification, primary-source strengthening, or schema cleanup. Visible
-          in the dataset but flagged. Contributors can iterate from here.</p>
+          in the dataset but flagged.</p>
         </div>
         <div class="bucket-card">
           <strong>global</strong>
           <p>Non-US matters that need translation, jurisdiction-specific interpretation, or additional
-          sourcing. Held here until the editorial workflow can do them justice.</p>
+          sourcing. Held; no promotion work is scheduled while frozen.</p>
         </div>
 
         <h2>The correction process</h2>
 
-        <h3>Option 1 -- open an issue (recommended for first-time submitters)</h3>
+        <h3>Option 1 -- open an issue (recommended)</h3>
         <p>
           Open a GitHub issue with the data label. Include:
         </p>
         <ul>
-          <li>matter name and jurisdiction</li>
-          <li>primary source URL (court filing, agency order, tribunal opinion)</li>
-          <li>one-sentence statement of why this is AI-related, with the specific conduct in question</li>
-          <li>which admission criterion you believe the matter satisfies</li>
+          <li>record ID</li>
+          <li>disputed field or claim</li>
+          <li>supporting public or retained source</li>
+          <li>proposed corrected value</li>
         </ul>
         <p>
           Reports remain available for bounded steward review. There is no promised response time or
@@ -286,8 +279,8 @@
         <p>
           If a proposed correction concerns a sourced disposition in an existing matter
           and you can identify which
-          <a href="https://everyailaw.com/api/v1/of/obligations.json" rel="noopener">EveryAILaw obligation(s)</a>
-          the breach implicates, include them as <code>obligation_first_anchors</code>. This is what makes
+          <a href="https://everyailaw.com/api/v1/of/obligationCategories.json" rel="noopener">EveryAILaw obligation categories</a>
+          the Determination interpreted or applied, include them as <code>obligation_first_anchors</code>. This is what makes
           the matter traversable from the <a href="legal-graph.html">PAICE legal graph</a>. If the matter
           is filed or pending and no sourced adjudicative act exists, leave the field off. Anchors are valid
           only when the source supports their relationship to a generated Determination.
@@ -304,7 +297,7 @@
 
         <h2>Attribution and licensing</h2>
         <p>
-          Submitted records are published under
+          Accepted corrections are published under
           <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a>. The
           dataset preserves contributor attribution in git history. By submitting you confirm that the
           underlying sources are public and that you have the right to reference them.
@@ -312,7 +305,7 @@
 
         <h2>Reach the steward</h2>
         <p>
-          For questions, scoping conversations, or sensitive submissions that need a private channel
+          For questions, scoping conversations, or sensitive corrections that need a private channel
           before going public, contact
           <a href="https://paice.work/contact/" rel="noopener">PAICE.work PBC</a>.
         </p>

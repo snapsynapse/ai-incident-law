@@ -1,5 +1,7 @@
 # AI Incident Law — agent instructions
 
+The corpus has been frozen since 2026-11-18; see INTENT.md "Frozen operating state" before changing records.
+
 ## Build pipeline
 
 **`index.html` is hand-edited** (the SPA shell). No script writes it. Safe to edit directly.
@@ -24,7 +26,7 @@ Then stage the whole generated set. CI asserts generated artifacts are committed
 git add data/ data.js api/ proceeding/ allegation/ determination/ authority/ party/ tombstone/ tests/fixtures/
 ```
 
-`party/` and `tests/fixtures/of-contract-fingerprint.json` are both easy to miss and both
+Stage `tombstone/` (if present); drop it from the command when the directory is absent, because `git add` rejects a missing path. `party/` and `tests/fixtures/of-contract-fingerprint.json` are both easy to miss and both
 break CI on their own. Add `index.html` only if the SPA shell was hand-edited. If a record's
 `jurisdiction` changed, delete the stale `authority/<old-slug>.json` and
 `api/v1/of/records/<old-slug>.json` before committing, or the generated set will not match

@@ -6,6 +6,8 @@ labels: enhancement
 assignees: ""
 ---
 
+The corpus is frozen (owner decision 2026-11-18). Feature proposals are recorded but dormant.
+
 ## Problem
 
 What problem would this solve? Who is affected?

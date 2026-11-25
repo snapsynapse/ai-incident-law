@@ -1,9 +1,9 @@
 ---
 title: "AI Incident Law INTENT"
-version: "0.7.0"
-last_updated: 2026-11-18
+version: "0.7.1"
+last_updated: 2026-11-24
 status: working-hypothesis
-description: "Standards-level strategy for the AI Incident Law dataset and reference site. Subscribes to portfolio-level working hypotheses. Defines stewardship principles, record admission criteria, refresh cadence, and contribution norms."
+description: "Standards-level strategy for the AI Incident Law dataset and reference site. Subscribes to portfolio-level working hypotheses. Defines stewardship principles, record admission criteria, frozen operating state, and contribution norms."
 tags: [intent, strategy, ai-incident-law, regulation, standards]
 ---
 
@@ -12,10 +12,10 @@ tags: [intent, strategy, ai-incident-law, regulation, standards]
 Strategy for the AI Incident Law dataset and the aiincidentlaw.org canonical home. Scoped to the curated incident corpus, the static reference site, and surrounding maintainer tooling. Subscribes to portfolio-level working hypotheses (see https://github.com/snapsynapse/paice-foundation/blob/main/INTENT.md).
 
 ## Frozen operating state
-Decided by Sam on 2026-11-18: freeze this corpus and keep the repository unarchived. Retain the existing website, npm package and MCP artifacts. Keep correction and source-challenge issues open. Public surfaces state that the corpus is frozen, with dataset snapshot date 2026-09-22. Record dates do not establish present legal currentness or completeness.
-Recurring source-link collection is removed from the local workflow candidate. Manual source-link tooling remains available only for an explicitly selected bounded correction/access packet; its availability does not authorize source retrieval or replay failed routes. The offline record-age schedule is unchanged pending a separate owner choice; age reporting is not source verification. No deployed schedule state changes until separately authorized delivery.
-Routine discovery, expansion, quarterly coverage/source sweeps, annual recalibration and older roadmap features are dormant. Narrow evidence-backed corrections may be proposed through the existing issue route under existing admission rules. Freeze does not accept sources, settle unresolved attribution or legal questions, renew human dates, delete evidence, or close pending qualifications. Package/site retention is not a release, publication, unpublication or archival action.
-The [operating record](ops/lifecycle-decision-candidate-2026-11-18.md) retains the decision, implementation boundary and pending delivery/age-schedule choice.
+Decided by Sam on 2026-11-18: freeze this corpus and keep the repository unarchived. Retain the existing website, npm package and MCP artifacts. Keep correction and source-challenge issues open. Public surfaces state that the corpus is frozen, with dataset snapshot date 2026-09-22. Record dates do not establish present legal currentness or completeness. Post-freeze corrections may change record content without changing `generated_at` or record dates; see CHANGELOG.md.
+Recurring source-link collection is removed (committed 2026-11-18, merged to main 2026-11-19 in PR #18). Manual source-link tooling remains available only for an explicitly selected bounded correction/access packet; its availability does not authorize source retrieval or replay failed routes. The offline record-age schedule is unchanged pending a separate owner choice; age reporting is not source verification.
+Routine discovery, expansion, quarterly coverage/source sweeps, annual recalibration and older roadmap features are dormant. Narrow evidence-backed corrections may be proposed via an issue or PR under existing admission rules. Freeze does not accept sources, settle unresolved attribution or legal questions, renew human dates, delete evidence, or close pending qualifications. Package/site retention is not a release, publication, unpublication or archival action.
+The [operating record](ops/lifecycle-decision-candidate-2026-11-18.md) retains the decision, implementation boundary and pending age-schedule choice.
 
 ## Purpose
 
@@ -35,7 +35,7 @@ Position within portfolio: AI Incident Law is the case-and-enforcement evidence 
 2. Source quality over record count. A small corpus of well-sourced records beats a large corpus of weak ones. Volume is not the goal.
 3. Portable by default. The site has no runtime dependencies, no analytics, no persistent browser storage. Anyone can host a copy, fork the dataset, or reuse records under CC BY 4.0.
 4. Time-stamped freshness. The dataset's `generated_at` field is displayed publicly. Records carry their own dates. Decay is visible.
-5. Inclusion is reviewable. Every included record can be challenged, corrected, or moved to review or removed via PR.
+5. Inclusion is reviewable. Every included record can be challenged, corrected, or moved to review or removed via an issue or PR.
 
 ## Record admission criteria
 
@@ -63,7 +63,7 @@ The bound that keeps this from becoming unbounded: **an AI-attributable defect m
 
 Worked application of the rule:
 
-- **Admitted**: In re Bard Implanted Port Catheter Products Liability Litigation (D. Ariz.). Hallucinated citations were present in the expert report; the court found the expert's explanation adequate and denied the motion to exclude. The defect is established, so the non-exclusion is the record's outcome, not a reason to withhold the record.
+- **Admissible in principle, held on sourcing**: In re Bard Implanted Port Catheter Products Liability Litigation (D. Ariz.). Hallucinated citations were present in the expert report; the court found the expert's explanation adequate and denied the motion to exclude. The defect is established, so the non-exclusion would be the record's outcome, not a reason to withhold the record. It remains review candidate AIEL-CAND-029 in `review` only because no citable original has been reachable (the order is known only from a Westlaw slip copy).
 - **Not admitted**: Mullins v. Duquesne (W.D. Pa.). The court found the brief contained neither inaccurate, false, nor non-existent citations. Disclosed use of Claude plus an allegation that did not survive scrutiny is not an incident. The matter is retained in `review` as a citable limiting precedent and documented in `docs/methodology.html`; it is not expected to be promoted.
 
 This decision is distinct from the question of matters where **AI use itself** is not established, which is settled separately below.
@@ -164,7 +164,7 @@ Note, 2026-09-22: whether measurement remains the portfolio's organizing proposi
 
 Current tier: working hypothesis.
 
-Last review: 2026-08-19. Three criterion clarifications (outcome valence, undetermined AI attribution, jurisdiction and the `global` bucket) were decided and recorded in the changelog below; none required a dataset version bump.
+Last review: 2026-11-18 (freeze); last criterion review 2026-08-19. Three criterion clarifications (outcome valence, undetermined AI attribution, jurisdiction and the `global` bucket) were decided and recorded in the changelog below; none required a dataset version bump.
 
 The former November 30 quarterly review is dormant under the November 18 freeze. No next source/currentness review is scheduled by this policy. The offline age-report schedule remains a separate unresolved owner choice.
 
@@ -173,7 +173,7 @@ Pending criterion challenge: AIEL-2024-001 (Moffatt v. Air Canada). The primary 
 ## Related docs
 
 - README.md: site mechanics and maintainer workflow
-- ROADMAP.md: near-term curation and maintenance priorities
+- ROADMAP.md: frozen-state correction queue and dormant historical proposals
 - docs/data-schema.md: dataset structure and field intent
 - CONTRIBUTING.md: edit and review flow
 
@@ -189,6 +189,7 @@ Pending criterion challenge: AIEL-2024-001 (Moffatt v. Air Canada). The primary 
 
 ## Changelog
 
+- 0.7.1 (2026-11-24): Factual corrections only. Bard is held in `review` on sourcing, not admitted; the source-link cron removal is merged rather than a local candidate; post-freeze corrections can change record content without moving `generated_at`. No decision, criterion or principle change.
 - 0.7.0 (2026-11-18): Records owner-selected frozen/unarchived operation, retained website/package/MCP and correction issues, local removal of recurring source-link collection, and dormant discovery/review cadence. Offline age schedule remains unselected; no corpus/admission/date change.
 
 - 0.6.0 (2026-09-09): Reconciles the Status section with what actually happened: the 2026-08-19 criterion decisions are recorded as the last review, the next review is scheduled for Q4 2026, and the Moffatt attribution question is named as the pending criterion challenge rather than left implicit in a record's `needs_review` flag. No criterion changes.

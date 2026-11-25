@@ -9,3 +9,4 @@
 - [ ] `npm run check`
 - [ ] generated files reviewed
 - [ ] licensing scope unchanged or documented
+- [ ] Correction is backed by an admission receipt (corpus frozen; no new records)

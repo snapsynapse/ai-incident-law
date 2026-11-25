@@ -6,6 +6,8 @@ Agent guidance for this repo. See `AGENTS.md` for the concise build-pipeline not
 
 An open, searchable corpus of public matters where AI systems caused harm and drew legal or regulatory action (litigation, tribunal orders, agency actions). Ships as a standalone, dependency-free single-page app over a curated JSON dataset, queryable by both humans and agents. Part of the PAICE legal graph; implements the Obligation-First proceeding strand. Canonical site: https://aiincidentlaw.org/
 
+The corpus has been frozen since 2026-11-18 (INTENT.md "Frozen operating state"): no new records, only narrow evidence-backed corrections.
+
 Audience: compliance teams, legal counsel, AI governance leads, researchers.
 
 ## Stack
@@ -22,7 +24,7 @@ Audience: compliance teams, legal counsel, AI governance leads, researchers.
 - `data/data.json` — **source of truth** for the dataset.
 - `data.js` — generated browser bundle (do NOT hand-edit).
 - `api/v1/of/` — generated Obligation-First binding artifacts.
-- `proceeding/`, `allegation/`, `determination/`, `authority/`, `party/`, `tombstone/` — generated Obligation-First record files. `party/` is easy to miss when staging and breaks CI on its own; `tombstone/` is currently empty.
+- `proceeding/`, `allegation/`, `determination/`, `authority/`, `party/`, `tombstone/` (if present) — generated Obligation-First record files. `party/` is easy to miss when staging and breaks CI on its own.
 - `scripts/` — maintainer tooling (build, validate, eval, MCP server, staleness report).
 - `data/admission/` — the source-admission contract: the frozen `legacy.json` baseline, accepted `receipts.json`, and retained primary-source bytes under `raw/`.
 - `ops/` — maintainer operating records (source admission, matter-monitor pilot, cross-repo mitigation queue, release evidence).
@@ -47,7 +49,7 @@ Audience: compliance teams, legal counsel, AI governance leads, researchers.
 
 ```bash
 npm run build   # build:data + build:of + validate:data
-npm run check   # the full gate, currently 31 steps
+npm run check   # the full gate; read the `check` script
 ```
 
 Do not trust any list of the gate's steps written in prose, here or elsewhere: read the
@@ -73,18 +75,17 @@ CI (`validate.yml`) runs the build, URL-policy tests/evals, checks out sibling `
 
 ## Current state
 
-- Branch `main`, clean tree, in sync with `origin/main`. No open issues, pull requests or
-  side branches as at 2026-09-22.
-- Released version 0.4.3. Verify publication state at
-  `https://aiincidentlaw.org/design/publication-state.json` rather than inferring it from
+- Released version 0.4.4. Verify publication state at
+  https://aiincidentlaw.org/design/publication-state.json rather than inferring it from
   this file or from `package.json`.
 - Corpus at 2026-09-22: 72 `included`, 30 `review`, 23 `global`. Treat these as a dated
   observation and read `data/data.json` for the current figures.
-- 63 of the 72 included records remain `legacy-unreviewed`, meaning their fields were frozen
-  at the pre-contract baseline and never reviewed against retained source bytes. This is the
-  corpus's largest outstanding debt and it is disclosed rather than hidden: both the MCP
-  dataset tools and the graph tools report `admission_status` per record.
+- 48 of the 72 included records remain `legacy-unreviewed` (24 have review receipts),
+  meaning their fields were frozen at the pre-contract baseline and never reviewed against
+  retained source bytes. This is the corpus's largest outstanding debt and it is disclosed
+  rather than hidden: both the MCP dataset tools and the graph tools report
+  `admission_status` per record.
 - Open steward decisions and known gaps live in `ROADMAP.md`. Four candidates are held on
   sourcing alone behind CAPTCHA-walled or failing court hosts, and two access blockers
   (CanLII, SAFLII) need credentials only the maintainer can obtain.
-- Actively maintained; no open TODO/FIXME markers in tracked source.
+- Frozen since 2026-11-18 (INTENT.md "Frozen operating state"); narrow evidence-backed corrections only.

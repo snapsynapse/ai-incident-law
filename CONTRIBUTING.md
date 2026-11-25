@@ -1,6 +1,6 @@
 # Contributing
 
-The corpus is frozen as of the owner decision on November 18, 2026. Corrections and source challenges remain open through issues. Routine new-record discovery and curation are dormant. Existing admission rules below continue to govern any separately selected evidence-backed correction; they do not authorize new source requests or verification-date renewal.
+The corpus is frozen as of the owner decision on November 18, 2026. Corrections and source challenges remain open through issues. Routine new-record discovery and curation are dormant. No new records are accepted; only narrow, evidence-backed corrections are considered. Existing admission rules below continue to govern any separately selected evidence-backed correction; they do not authorize new source requests or verification-date renewal.
 
 ## Scope
 
@@ -15,19 +15,15 @@ This repository is maintained as a static research site and dataset with a gener
 
 Run the full maintainer check before opening a pull request:
 
+Literal
 ```bash
 npm run build
 npm run check
 ```
 
-These commands will:
-
-- normalize URLs in `data/data.json`
-- regenerate `data.js`
-- validate dataset shape and URL policy
-- run the URL-policy regression suite
-- run malformed-source fixtures through the real URL-policy pipeline
-- evaluate the generated Obligation-First binding
+- `build` regenerates `data.js` and `api/v1/of/`.
+- `check` runs the full gate; the `check` script in `package.json` defines its steps.
+- `check:of*` steps need a sibling checkout of `snapsynapse/obligation-first`.
 
 ## Data editing rules
 
@@ -37,6 +33,7 @@ These commands will:
 - Use `https://` bare-domain URLs in final data. The build step may normalize `http://` to `https://` and strip a leading `www.` when the parsed URL remains otherwise unchanged.
 - Do not add prose, credentials, protocol-relative URLs, non-HTTP schemes, backslashes, encoded backslashes, control characters, or whitespace inside URL fields.
 - Keep record identifiers stable once published.
+- A correction needs an admission receipt in `data/admission/receipts.json` with retained source bytes. See [ops/SOURCE-ADMISSION.md](ops/SOURCE-ADMISSION.md).
 
 ## Pull requests
 

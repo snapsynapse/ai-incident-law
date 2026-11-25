@@ -121,8 +121,8 @@
         <p>A matter is admitted on the strength of the established AI-attributable defect, not on the severity of what the tribunal did about it. A ruling that declines to sanction, declines to exclude, or excuses the conduct is admitted on the same terms as one imposing a penalty; what happened is recorded in the outcome fields rather than deciding whether the record exists. A corpus that admitted only adverse outcomes would systematically overstate the legal risk of AI use, because the matters where a tribunal examined the same conduct and declined to penalise it would be missing from the denominator.</p>
         <p>The bound: an AI-attributable defect must be established in the primary source to the same standard criterion 1 requires for AI use itself. Where the only established fact is that AI was used and no defect was found, there is no incident and the matter is not admitted.</p>
         <div class="method-card">
-          <strong>Admitted &mdash; consequence declined</strong>
-          <p><em>In re Bard Implanted Port Catheter Products Liability Litigation</em> (D. Ariz., 12 August 2026). Hallucinated citations were present in an expert report and the expert was questioned about his use of ChatGPT. The court found his explanation adequate and denied the motion to exclude. The defect is established, so the non-exclusion is the record's outcome.</p>
+          <strong>Admissible in principle, held on sourcing: consequence declined</strong>
+          <p><em>In re Bard Implanted Port Catheter Products Liability Litigation</em> (D. Ariz., 12 August 2026). Hallucinated citations were present in an expert report and the expert was questioned about his use of ChatGPT. The court found his explanation adequate and denied the motion to exclude. Because the defect is established, the non-exclusion would be the record's outcome rather than a bar to admission. The matter is nonetheless held in <code>review</code> as candidate AIEL-CAND-029, not admitted: the only copy located is a Westlaw slip copy, which does not meet the source policy.</p>
         </div>
         <div class="method-card">
           <strong>Not admitted &mdash; no defect established</strong>
@@ -171,6 +171,14 @@
           bare-domain URLs, and rejects appended prose, credentials, non-HTTP schemes, embedded whitespace, unsafe
           delimiters, and malformed source lists.
         </p>
+        <p>
+          Admission and correction run under a source-admission contract: each accepted change carries a review
+          receipt bound to retained primary-source bytes, and every exported record reports an
+          <code>admission_status</code>. Of the 72 included records, 48 remain <code>legacy-unreviewed</code>,
+          meaning their fields were frozen at the pre-contract baseline and never reviewed against retained source
+          bytes; the other 24 carry review receipts covering only the changed fields they name. See the
+          <a href="https://github.com/snapsynapse/ai-incident-law/blob/main/ops/SOURCE-ADMISSION.md">source-admission contract on GitHub</a>.
+        </p>
         <h2>Freshness</h2>
         <p>
           Records carry <code>last_verified_date</code> or <code>last_checked_date</code>. The public dataset
@@ -179,7 +187,7 @@
         </p>
         <p>
           The steward uses <code>npm run report:staleness</code> and the <code>get_staleness_report</code> MCP tool
-          to surface record age. The former quarterly source-decay and coverage-gap cadence is dormant under the freeze.
+          to surface record age only, not verification. The former quarterly source-decay and coverage-gap cadence is dormant under the freeze.
         </p>
         <p>
           Recurring legal-source link collection is disabled in the frozen maintenance policy. Manual source checking requires separately selected bounded correction work. The offline record-age diagnostic does not verify sources, and its schedule remains a separate owner choice. Historical pilot observations and source-access failures remain dated evidence, not proof that later filings were checked.
