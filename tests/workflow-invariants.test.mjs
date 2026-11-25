@@ -57,7 +57,7 @@ test("reviewed npm publication is first-attempt only and reruns verify pinned by
   }
   assert.match(npmPublishWorkflow, /for attempt in \{1\.\.37\}; do/);
   assert.match(npmPublishWorkflow, /probe=\$\{attempt\}/);
-  assert.match(npmPublishWorkflow, /sha256sum "\$RUNNER_TEMP\/published\.tgz"[\s\S]*da514afe228826aad4f90a65fc961b2390f287cd4ff646ab554306690d832597/);
+  assert.match(npmPublishWorkflow, /sha256sum "\$RUNNER_TEMP\/published\.tgz"[\s\S]*f90f9cf00e5c07f26091e7094f491bc253ddc25255e21ad3ab24e9505ff7eaa7/);
 });
 
 for (const file of ['check-search.mjs', 'check-production-search.mjs']) {
