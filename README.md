@@ -155,7 +155,7 @@ AI Incident Law includes a zero-dependency, read-only MCP stdio server for local
 ```bash
 node scripts/mcp-server.js
 ```
-MCP clients can use [mcp.json](/Users/snap/Git/ai-incident-law/mcp.json). The public site advertises static discovery at `https://aiincidentlaw.org/.well-known/mcp.json`.
+MCP clients can use [mcp.json](mcp.json). The public site advertises static discovery at `https://aiincidentlaw.org/.well-known/mcp.json`.
 
 Advertised tools:
 
@@ -176,15 +176,15 @@ This is a reviewability and trust-boundary artifact, not a safety claim. Agents 
 
 ## Repository metadata
 
-- [CONTRIBUTING.md](/Users/snap/Git/ai-incident-law/CONTRIBUTING.md) documents the expected edit and review flow.
-- [SECURITY.md](/Users/snap/Git/ai-incident-law/SECURITY.md) documents private security reporting expectations.
-- [ROADMAP.md](/Users/snap/Git/ai-incident-law/ROADMAP.md) captures near-term maintenance and curation priorities.
-- [docs/data-schema.md](/Users/snap/Git/ai-incident-law/docs/data-schema.md) documents the dataset structure and field intent.
-- [docs/methodology.html](/Users/snap/Git/ai-incident-law/docs/methodology.html) summarizes public corpus scope, admission criteria, source policy, freshness, and exclusions.
-- [.well-known/assistant-guide.txt](/Users/snap/Git/ai-incident-law/.well-known/assistant-guide.txt) documents bounded assistant maintainer and query instructions using the GuideCheck Human-Verifiable Assistant Guide profile.
-- [validate.yml](/Users/snap/Git/ai-incident-law/.github/workflows/validate.yml) runs the build and validation pipeline on pushes and pull requests.
-- [LICENSE](/Users/snap/Git/ai-incident-law/LICENSE) applies the MIT license to the software in this repository.
-- [DATA_LICENSE](/Users/snap/Git/ai-incident-law/DATA_LICENSE) applies CC BY 4.0 to the dataset and generated data bundle.
+- [CONTRIBUTING.md](CONTRIBUTING.md) documents the expected edit and review flow.
+- [SECURITY.md](SECURITY.md) documents private security reporting expectations.
+- [ROADMAP.md](ROADMAP.md) captures near-term maintenance and curation priorities.
+- [docs/data-schema.md](docs/data-schema.md) documents the dataset structure and field intent.
+- [docs/methodology.html](docs/methodology.html) summarizes public corpus scope, admission criteria, source policy, freshness, and exclusions.
+- [.well-known/assistant-guide.txt](.well-known/assistant-guide.txt) documents bounded assistant maintainer and query instructions using the GuideCheck Human-Verifiable Assistant Guide profile.
+- [validate.yml](.github/workflows/validate.yml) runs the build and validation pipeline on pushes and pull requests.
+- [LICENSE](LICENSE) applies the MIT license to the software in this repository.
+- [DATA_LICENSE](DATA_LICENSE) applies CC BY 4.0 to the dataset and generated data bundle.
 
 ## Licensing
 

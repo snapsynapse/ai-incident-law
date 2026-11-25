@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+- README and `docs/data-schema.md` links now use repository-relative paths. They pointed at
+  an absolute local checkout path, so they were broken on GitHub.
+
 ## [0.4.4] - 2026-11-19
 
 ### Changed

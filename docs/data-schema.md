@@ -2,7 +2,7 @@
 
 ## Overview
 
-The canonical dataset lives in [data/data.json](/Users/snap/Git/ai-incident-law/data/data.json).
+The canonical dataset lives in [data/data.json](../data/data.json).
 
 Top-level structure:
 
@@ -169,8 +169,8 @@ Anchor selection policy: add anchors only when the public record supports the re
 
 ## Editing rules
 
-- Edit [data/data.json](/Users/snap/Git/ai-incident-law/data/data.json), not [data.js](/Users/snap/Git/ai-incident-law/data.js)
-- Review [ops/SOURCE-ADMISSION.md](/Users/snap/Git/ai-incident-law/ops/SOURCE-ADMISSION.md) and run `npm run check:admission` for every new or changed native record
+- Edit [data/data.json](../data/data.json), not [data.js](../data.js)
+- Review [ops/SOURCE-ADMISSION.md](../ops/SOURCE-ADMISSION.md) and run `npm run check:admission` for every new or changed native record
 - Run `npm run build` after changes
 - Run `npm run validate:of` when an Obligation-First checkout is available beside this repo or via `OBLIGATION_FIRST_DIR`
 - Keep identifiers stable once published
