@@ -12,6 +12,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   observations under `design/provider-evidence/`, the published MCP snapshot, and
   `design/publication-state.json` updated to the verified 0.4.5 state.
 
+### Changed
+- `SECURITY.md` routes reports to GitHub private vulnerability reporting, now enabled.
+- `agents.json` and README state that the root `mcp.json` works only from a repository
+  checkout; published installs use the pinned command in `.well-known/mcp.json`.
+
+### Removed
+- `archive/`, an unlinked pre-rename prototype of the site that was still publicly served.
+- `PROJECT_CONTEXT.md`, a local agent-skill context file, from version control (now ignored).
+
 ## [0.4.5] - 2026-11-24
 
 ### Added

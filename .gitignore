@@ -16,6 +16,7 @@ venv/
 .agents/
 .playwright-mcp/
 .search-evidence-private/
+PROJECT_CONTEXT.md
 
 
 # --- portfolio baseline (2026-07-04): transient dirs ---

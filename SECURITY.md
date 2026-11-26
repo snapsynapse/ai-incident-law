@@ -4,7 +4,7 @@
 
 If you discover a security issue in this repository, do not open a public issue with exploit details.
 
-Report it privately to the maintainer first, by contacting the maintainer through the GitHub profile of the repository owner, and include:
+Report it privately through GitHub private vulnerability reporting at https://github.com/snapsynapse/ai-incident-law/security/advisories/new and include:
 
 - the affected file or workflow
 - reproduction steps

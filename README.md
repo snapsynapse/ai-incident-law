@@ -59,7 +59,7 @@ Recurring source-link collection is retired; `check-source-links.yml` runs only 
 - `api/v1/of/` contains the generated Obligation-First binding for included public matters.
 - `proceeding/`, `allegation/`, `determination/`, `authority/`, and `party/` hold generated Obligation-First record files; `data/admission/` holds the source-admission baseline, receipts and retained source bytes; `ops/` holds maintainer operating records.
 - Published graph identifiers retired after semantic review resolve as `of:Tombstone` records at their original URLs.
-- `mcp.json` configures the local read-only MCP stdio server.
+- `mcp.json` configures the read-only MCP stdio server from a repository checkout only (`node scripts/mcp-server.js`); installs from npm use the pinned command in `.well-known/mcp.json`.
 - `.well-known/mcp.json` advertises public MCP and static query endpoints.
 - `.well-known/assistant-guide.txt` publishes bounded assistant-facing maintainer and query instructions using the GuideCheck Human-Verifiable Assistant Guide profile.
 - `agents.json` and `robots.txt` advertise agent-facing discovery metadata.
